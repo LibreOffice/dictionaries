@@ -1,7 +1,38 @@
-SET ISO8859-1
-TRY aeiouàéìòùAEIOUsnrtlcdgmpqhbyfvkwzSNRTLCDGMPQHBYFVKWZ
+# Copyright 2001, 2002 Gianluca Turconi
+# Copyright 2002, 2003, 2004 Gianluca Turconi e Davide Prina
+# Per contattarci: luctur(CHIOCCIOLA)OpenOffice(PUNTO)org 
+#                  DavidePrina(CHIOCCIOLA)yahoo(PUNTO)com
+# Versione 2.1 (30/05/2004)
+# Questo file è distribuito sotto licenza GPL/LGPL
+#
+# This file is part of the Italian dictionary.
+#
+# The Italian dictionary is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as published 
+# by the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+# Alternatevely, you can redistribute it and/or modify it under the terms 
+# of the GNU Lesser General Public License as published by the Free 
+# Software Foundation; either version 2.1 of the License, or
+# (at your option) any later version.
+#
+# The Italian dictionary is distributed in the hope that it will be 
+# useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public 
+# License/Lesser General Public License along with Foobar; if not, 
+# write to the Free Software Foundation, Inc., 
+# 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+# 
+# GPL/LGPL licenses can be found here: 
+# http://www.fsf.org/licenses/licenses.html
 
-SFX A Y 228
+SET ISO8859-1
+TRY aeiouàéìòùèAEIOUsnrtlcdgmpqhbyfvkwzjxSNRTLCDGMPQHBYFVKWZJX
+
+SFX A Y 225
 SFX A e 0 are
 SFX A are o are
 SFX A are i [^icg]are
@@ -33,6 +64,7 @@ SFX A re molo iare
 SFX A re mole iare
 SFX A re moli iare
 SFX A re mone iare
+SFX A re mogli iare
 SFX A re mogliela iare
 SFX A re moglielo iare
 SFX A re mogliele iare
@@ -155,6 +187,7 @@ SFX A e mici are
 SFX A e tici are
 SFX A e misi are
 SFX A e tisi are
+SFX A re tisi are
 SFX A e visi are
 SFX A e cisi are
 SFX A e glisi are
@@ -215,11 +248,6 @@ SFX A re mela are
 SFX A re meli are
 SFX A re mele are
 SFX A re mene are
-SFX A re selo are
-SFX A re sela are
-SFX A re seli are
-SFX A re sele are
-SFX A re sene are
 SFX A re celo are
 SFX A re cela are
 SFX A re celi are
@@ -543,9 +571,8 @@ SFX E 0 tisi endo
 SFX E 0 cisi endo
 SFX E ndo si endo
 
-SFX F Y 51
+SFX F Y 50
 SFX F o e ato
-SFX F o i ato
 SFX F o a ato
 SFX F o issimo ato
 SFX F o issima ato
@@ -894,6 +921,173 @@ SFX M rsi gliela irsi
 SFX M rsi glieli irsi
 SFX M rsi gliele irsi
 SFX M rsi gliene irsi
+
+SFX P Y 165 #verbi che si coniugano come fare
+SFX P e 0 are
+SFX P re 0 are
+SFX P re ccia are
+SFX P re cciamo are
+SFX P re cciano are
+SFX P re cciate are
+SFX P re ccio are
+SFX P re cemmo are
+SFX P re cendo are
+SFX P re cente are
+SFX P re centi are
+SFX P re centisi are
+SFX P re cesse are
+SFX P re cessero are
+SFX P re cessi are
+SFX P re cessimo are
+SFX P re ceste are
+SFX P re cesti are
+SFX P re ceva are
+SFX P re cevamo are
+SFX P re cevano are
+SFX P re cevasi are
+SFX P re cevate are
+SFX P re cevi are
+SFX P re cevo are
+SFX P re i are
+SFX P re nno are
+SFX P e à are
+SFX P e ai are
+SFX P e anno are
+SFX P 0 bbe are
+SFX P 0 bbero are
+SFX P 0 i are
+SFX P 0 mmo are
+SFX P 0 mo are
+SFX P 0 ste are
+SFX P 0 sti are
+SFX P 0 te are
+SFX P e ò are
+SFX P re te are
+SFX P re tto are
+SFX P are ece are
+SFX P are ecero are
+SFX P are eci are
+SFX P re cciamoci are
+SFX P re cciamola are
+SFX P re cciamolo are
+SFX P re cciamole are
+SFX P re cciamoli are
+SFX P re cciamogli are
+SFX P re cciamone are
+SFX P re cciamocela are
+SFX P re cciamocelo are
+SFX P re cciamocele are
+SFX P re cciamoceli are
+SFX P re cciamocene are
+SFX P re cciamogliela are
+SFX P re cciamoglielo are
+SFX P re cciamogliele are
+SFX P re cciamoglieli are
+SFX P re cciamogliene are
+SFX P re tevelo are
+SFX P re teveli are
+SFX P re tevela are
+SFX P re tevele are
+SFX P re tevene are
+SFX P re teglielo are
+SFX P re teglieli are
+SFX P re tegliela are
+SFX P re tegliele are
+SFX P re tegliene are
+SFX P re tecelo are
+SFX P re teceli are
+SFX P re tecela are
+SFX P re tecele are
+SFX P re tecene are
+SFX P e si are
+SFX P e mi are
+SFX P e ti are
+SFX P e ci are
+SFX P e le are
+SFX P e lo are
+SFX P e li are
+SFX P e vi are
+SFX P e gli are
+SFX P e ne are
+SFX P e la are
+SFX P e telo are
+SFX P e tela are
+SFX P e teli are
+SFX P e tele are
+SFX P e tene are
+SFX P e melo are
+SFX P e mela are
+SFX P e meli are
+SFX P e mele are
+SFX P e mene are
+SFX P e selo are
+SFX P e sela are
+SFX P e seli are
+SFX P e sele are
+SFX P e sene are
+SFX P e celo are
+SFX P e cela are
+SFX P e celi are
+SFX P e cele are
+SFX P e cene are
+SFX P e velo are
+SFX P e vela are
+SFX P e veli are
+SFX P e vele are
+SFX P e vene are
+SFX P e glielo are
+SFX P e gliela are
+SFX P e glieli are
+SFX P e gliele are
+SFX P e gliene are
+SFX P re mmi are
+SFX P re tti are
+SFX P re cci are
+SFX P re lle are
+SFX P re llo are
+SFX P re lli are
+SFX P re gli are
+SFX P re nne are
+SFX P re lla are
+SFX P re mmelo are
+SFX P re mmela are
+SFX P re mmeli are
+SFX P re mmele are
+SFX P re mmene are
+SFX P re ccelo are
+SFX P re ccela are
+SFX P re cceli are
+SFX P re ccele are
+SFX P re ccene are
+SFX P re glielo are
+SFX P re gliela are
+SFX P re glieli are
+SFX P re gliele are
+SFX P re gliene are
+SFX P e mici are
+SFX P e tici are
+SFX P e misi are
+SFX P e tisi are
+SFX P e visi are
+SFX P e cisi are
+SFX P e glisi are
+SFX P e lesi are
+SFX P e vici are
+SFX P re teci are
+SFX P re tela are
+SFX P re tele are
+SFX P re teli are
+SFX P re telo are
+SFX P re tene are
+SFX P re temela are
+SFX P re temele are
+SFX P re temelo are
+SFX P re temeli are
+SFX P re temene are
+SFX P re temi are
+SFX P re tegli are
+SFX P re tevi are
+SFX P re teti are
 
 SFX O N 3
 SFX O o i [^igc]o
@@ -1489,8 +1683,529 @@ PFX s u Buon'U u
 PFX s h Buon'H h
 PFX s 0 BUON' [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]
 
+SFX t Y 40
+SFX t e 0 ire
+SFX t re sco ire
+SFX t re sci ire
+SFX t re sce ire
+SFX t re scono ire
+SFX t re amo ire
+SFX t re te ire
+SFX t re scano ire
+SFX t re vo ire
+SFX t re vi ire
+SFX t re va ire
+SFX t re vamo ire
+SFX t re vate ire
+SFX t re vano ire
+SFX t re i ire
+SFX t re sti ire
+SFX t ire ì ire
+SFX t re mmo ire
+SFX t re ste ire
+SFX t e ono ire
+SFX t e ò ire
+SFX t e ai ire
+SFX t e à ire
+SFX t 0 mo ire
+SFX t 0 te ire
+SFX t e anno ire
+SFX t re sca ire
+SFX t re ate ire
+SFX t re ssi ire
+SFX t re sse ire
+SFX t re ssimo ire
+SFX t re ssero ire
+SFX t 0 i ire
+SFX t 0 sti ire
+SFX t 0 bbe ire
+SFX t 0 mmo ire
+SFX t 0 ste ire
+SFX t 0 bbero ire
+SFX t ire ente ire
+SFX t ire enti ire
+
+SFX u Y 5
+SFX u re scila ire
+SFX u re scile ire
+SFX u re scilo ire
+SFX u re scili ire
+SFX u re scine ire
+
+SFX v Y 61
+SFX v re tegliene ire
+SFX v re tesela ire
+SFX v re teselo ire
+SFX v re teseli ire
+SFX v re tesele ire
+SFX v re tesene ire
+SFX v re tecelo ire
+SFX v re teceli ire
+SFX v re tecela ire
+SFX v re tecele ire
+SFX v re tecene ire
+SFX v re tevelo ire
+SFX v re teveli ire
+SFX v re tevela ire
+SFX v re tevele ire
+SFX v re tevene ire
+SFX v re temi ire
+SFX v re tegli ire
+SFX v re teci ire
+SFX v re tevi ire
+SFX v re tene ire
+SFX v re temelo ire
+SFX v re temeli ire
+SFX v re temela ire
+SFX v re temele ire
+SFX v re temene ire
+SFX v re teglielo ire
+SFX v re teglieli ire
+SFX v re tegliela ire
+SFX v re tegliele ire
+SFX v re amoci ire
+SFX v re amolo ire
+SFX v re amola ire
+SFX v re amoli ire
+SFX v re amole ire
+SFX v re amone ire
+SFX v re amocelo ire
+SFX v re amocela ire
+SFX v re amoceli ire
+SFX v re amocele ire
+SFX v re amocene ire
+SFX v re amoglielo ire
+SFX v re amogliela ire
+SFX v re amoglieli ire
+SFX v re amogliele ire
+SFX v re amogliene ire
+SFX v re amoti ire
+SFX v re amogli ire
+SFX v re ategli ire
+SFX v ire entesi ire
+SFX v ire entisi ire
+SFX v re vasi ire
+SFX v e mici ire
+SFX v e misi ire
+SFX v e tici ire
+SFX v e tisi ire
+SFX v e cisi ire
+SFX v e glisi ire
+SFX v e vici ire
+SFX v e visi ire
+SFX v e lesi ire
+
+SFX z Y 99 #verbi intransitivi della 1a coniugazione
+SFX z e 0 are
+SFX z are o are
+SFX z are i [^icg]are
+SFX z are 0 iare
+SFX z are hi [cg]are
+SFX z re 0 are
+SFX z are iamo [^icg]are
+SFX z re mo iare
+SFX z are hiamo [cg]are
+SFX z re no are
+SFX z re vo are
+SFX z re vi are
+SFX z re va are
+SFX z re vamo are
+SFX z re vate are
+SFX z re vano are
+SFX z re i are
+SFX z re sti are
+SFX z are ò are
+SFX z re mmo are
+SFX z re ste are
+SFX z e ono are
+SFX z are erò [^cgi]are
+SFX z are erai [^cgi]are
+SFX z are erà [^cgi]are
+SFX z are eremo [^cgi]are
+SFX z are erete [^cgi]are
+SFX z are eranno [^cgi]are
+SFX z are herò [cg]are
+SFX z are herai [cg]are
+SFX z are herà [cg]are
+SFX z are heremo [cg]are
+SFX z are herete [cg]are
+SFX z are heranno [cg]are
+SFX z are erò [^cg]iare
+SFX z are erai [^cg]iare
+SFX z are erà [^cg]iare
+SFX z are eremo [^cg]iare
+SFX z are erete [^cg]iare
+SFX z are eranno [^cg]iare
+SFX z iare erò [cg]iare
+SFX z iare erai [cg]iare
+SFX z iare erà [cg]iare
+SFX z iare eremo [cg]iare
+SFX z iare erete [cg]iare
+SFX z iare eranno [cg]iare
+SFX z are iate [^icg]are
+SFX z are ino [^icg]are
+SFX z are hiate [cg]are
+SFX z are hino [cg]are
+SFX z are no iare
+SFX z re ssi are
+SFX z re sse are
+SFX z re ssimo are
+SFX z re ssero are
+SFX z are erei [^cgi]are
+SFX z are eresti [^cgi]are
+SFX z are erebbe [^cgi]are
+SFX z are eremmo [^cgi]are
+SFX z are ereste [^cgi]are
+SFX z are erebbero [^cgi]are
+SFX z are herei [cg]are
+SFX z are heresti [cg]are
+SFX z are herebbe [cg]are
+SFX z are heremmo [cg]are
+SFX z are hereste [cg]are
+SFX z are herebbero [cg]are
+SFX z are erei [^cg]iare
+SFX z are eresti [^cg]iare
+SFX z are erebbe [^cg]iare
+SFX z are eremmo [^cg]iare
+SFX z are ereste [^cg]iare
+SFX z are erebbero [^cg]iare
+SFX z iare erei [cg]iare
+SFX z iare eresti [cg]iare
+SFX z iare erebbe [cg]iare
+SFX z iare eremmo [cg]iare
+SFX z iare ereste [cg]iare
+SFX z iare erebbero [cg]iare
+SFX z re nte are
+SFX z re nti are
+SFX z e vi are
+SFX z e ne are
+SFX z re ndo are
+SFX z re ndovi are
+SFX z re ndone are
+SFX z re ta are
+SFX z re tavi are
+SFX z re tane are
+SFX z re tevi are
+SFX z re te are
+SFX z re tene are
+SFX z are iamone [^icg]are
+SFX z are hiamone [cg]are
+SFX z re to are
+SFX z re tovi are
+SFX z re tone are
+SFX z re ti are
+SFX z re tivi are
+
+SFX x Y 13
+SFX x ire endo ire
+SFX x ire endone ire
+SFX x ire endovi ire
+SFX x e ne ire
+SFX x e vi ire
+SFX x re to ire
+SFX x re tone ire
+SFX x re ta ire
+SFX x re tane ire
+SFX x re te ire
+SFX x re tene ire
+SFX x re ti ire
+SFX x re tine ire
+
+SFX y Y 5
+SFX y e si ire
+SFX y e mi ire
+SFX y e ti ire
+SFX y e ci ire
+SFX y e vi ire
+
 PFX ^ Y 3
 PFX ^ 0 sant' [AEIOUH]
 PFX ^ 0 Sant' [AEIOUH]
 PFX ^ 0 SANT' [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]
+
+SFX | Y 14
+SFX | i uno i
+SFX | a uno a
+SFX | 0 uno o
+SFX | 0 due [aoi]
+SFX | 0 tré [aoi]
+SFX | 0 quattro [aoi]
+SFX | 0 cinque [aoi]
+SFX | 0 sei [aoi]
+SFX | 0 sette [aoi]
+SFX | i otto i
+SFX | a otto a
+SFX | 0 otto o
+SFX | 0 tto o
+SFX | 0 nove [aoi]
+
+PFX ! Y 180
+PFX ! 0 cento .
+PFX ! 0 duecento .
+PFX ! 0 trecento .
+PFX ! 0 quattrocento .
+PFX ! 0 cinquecento .
+PFX ! 0 seicento .
+PFX ! 0 settecento .
+PFX ! 0 ottocento .
+PFX ! 0 novecento .
+PFX ! 0 millecento .
+PFX ! 0 milleduecento .
+PFX ! 0 milletrecento .
+PFX ! 0 millequattrocento .
+PFX ! 0 millecinquecento .
+PFX ! 0 milleseicento .
+PFX ! 0 millesettecento .
+PFX ! 0 milleottocento .
+PFX ! 0 millenovecento .
+PFX ! 0 duemilacento .
+PFX ! 0 duemiladuecento .
+PFX ! 0 duemilatrecento .
+PFX ! 0 duemilaquattrocento .
+PFX ! 0 duemilacinquecento .
+PFX ! 0 duemilaseicento .
+PFX ! 0 duemilasettecento .
+PFX ! 0 duemilaottocento .
+PFX ! 0 duemilanovecento .
+PFX ! 0 tremilacento .
+PFX ! 0 tremiladuecento .
+PFX ! 0 tremilatrecento .
+PFX ! 0 tremilaquattrocento .
+PFX ! 0 tremilacinquecento .
+PFX ! 0 tremilaseicento .
+PFX ! 0 tremilasettecento .
+PFX ! 0 tremilaottocento .
+PFX ! 0 tremilanovecento .
+PFX ! 0 quattromilacento .
+PFX ! 0 quattromiladuecento .
+PFX ! 0 quattromilatrecento .
+PFX ! 0 quattromilaquattrocento .
+PFX ! 0 quattromilacinquecento .
+PFX ! 0 quattromilaseicento .
+PFX ! 0 quattromilasettecento .
+PFX ! 0 quattromilaottocento .
+PFX ! 0 quattromilanovecento .
+PFX ! 0 cinquemilacento .
+PFX ! 0 cinquemiladuecento .
+PFX ! 0 cinquemilatrecento .
+PFX ! 0 cinquemilaquattrocento .
+PFX ! 0 cinquemilacinquecento .
+PFX ! 0 cinquemilaseicento .
+PFX ! 0 cinquemilasettecento .
+PFX ! 0 cinquemilaottocento .
+PFX ! 0 cinquemilanovecento .
+PFX ! 0 seimilacento .
+PFX ! 0 seimiladuecento .
+PFX ! 0 seimilatrecento .
+PFX ! 0 seimilaquattrocento .
+PFX ! 0 seimilacinquecento .
+PFX ! 0 seimilaseicento .
+PFX ! 0 seimilasettecento .
+PFX ! 0 seimilaottocento .
+PFX ! 0 seimilanovecento .
+PFX ! 0 settemilacento .
+PFX ! 0 settemiladuecento .
+PFX ! 0 settemilatrecento .
+PFX ! 0 settemilaquattrocento .
+PFX ! 0 settemilacinquecento .
+PFX ! 0 settemilaseicento .
+PFX ! 0 settemilasettecento .
+PFX ! 0 settemilaottocento .
+PFX ! 0 settemilanovecento .
+PFX ! 0 ottomilacento .
+PFX ! 0 ottomiladuecento .
+PFX ! 0 ottomilatrecento .
+PFX ! 0 ottomilaquattrocento .
+PFX ! 0 ottomilacinquecento .
+PFX ! 0 ottomilaseicento .
+PFX ! 0 ottomilasettecento .
+PFX ! 0 ottomilaottocento .
+PFX ! 0 ottomilanovecento .
+PFX ! 0 novemilacento .
+PFX ! 0 novemiladuecento .
+PFX ! 0 novemilatrecento .
+PFX ! 0 novemilaquattrocento .
+PFX ! 0 novemilacinquecento .
+PFX ! 0 novemilaseicento .
+PFX ! 0 novemilasettecento .
+PFX ! 0 novemilaottocento .
+PFX ! 0 novemilanovecento .
+PFX ! 0 cent o
+PFX ! 0 duecent o
+PFX ! 0 trecent o
+PFX ! 0 quattrocent o
+PFX ! 0 cinquecent o
+PFX ! 0 seicent o
+PFX ! 0 settecent o
+PFX ! 0 ottocent o
+PFX ! 0 novecent o
+PFX ! 0 millecent o
+PFX ! 0 milleduecent o
+PFX ! 0 milletrecent o
+PFX ! 0 millequattrocent o
+PFX ! 0 millecinquecent o
+PFX ! 0 milleseicent o
+PFX ! 0 millesettecent o
+PFX ! 0 milleottocent o
+PFX ! 0 millenovecent o
+PFX ! 0 duemilacent o
+PFX ! 0 duemiladuecent o
+PFX ! 0 duemilatrecent o
+PFX ! 0 duemilaquattrocent o
+PFX ! 0 duemilacinquecent o
+PFX ! 0 duemilaseicent o
+PFX ! 0 duemilasettecent o
+PFX ! 0 duemilaottocent o
+PFX ! 0 duemilanovecent o
+PFX ! 0 tremilacent o
+PFX ! 0 tremiladuecent o
+PFX ! 0 tremilatrecent o
+PFX ! 0 tremilaquattrocent o
+PFX ! 0 tremilacinquecent o
+PFX ! 0 tremilaseicent o
+PFX ! 0 tremilasettecent o
+PFX ! 0 tremilaottocent o
+PFX ! 0 tremilanovecent o
+PFX ! 0 quattromilacent o
+PFX ! 0 quattromiladuecent o
+PFX ! 0 quattromilatrecent o
+PFX ! 0 quattromilaquattrocent o
+PFX ! 0 quattromilacinquecent o
+PFX ! 0 quattromilaseicent o
+PFX ! 0 quattromilasettecent o
+PFX ! 0 quattromilaottocent o
+PFX ! 0 quattromilanovecent o
+PFX ! 0 cinquemilacent o
+PFX ! 0 cinquemiladuecent o
+PFX ! 0 cinquemilatrecent o
+PFX ! 0 cinquemilaquattrocent o
+PFX ! 0 cinquemilacinquecent o
+PFX ! 0 cinquemilaseicent o
+PFX ! 0 cinquemilasettecent o
+PFX ! 0 cinquemilaottocent o
+PFX ! 0 cinquemilanovecent o
+PFX ! 0 seimilacent o
+PFX ! 0 seimiladuecent o
+PFX ! 0 seimilatrecent o
+PFX ! 0 seimilaquattrocent o
+PFX ! 0 seimilacinquecent o
+PFX ! 0 seimilaseicent o
+PFX ! 0 seimilasettecent o
+PFX ! 0 seimilaottocent o
+PFX ! 0 seimilanovecent o
+PFX ! 0 settemilacent o
+PFX ! 0 settemiladuecent o
+PFX ! 0 settemilatrecent o
+PFX ! 0 settemilaquattrocent o
+PFX ! 0 settemilacinquecent o
+PFX ! 0 settemilaseicent o
+PFX ! 0 settemilasettecent o
+PFX ! 0 settemilaottocent o
+PFX ! 0 settemilanovecent o
+PFX ! 0 ottomilacent o
+PFX ! 0 ottomiladuecent o
+PFX ! 0 ottomilatrecent o
+PFX ! 0 ottomilaquattrocent o
+PFX ! 0 ottomilacinquecent o
+PFX ! 0 ottomilaseicent o
+PFX ! 0 ottomilasettecent o
+PFX ! 0 ottomilaottocent o
+PFX ! 0 ottomilanovecent o
+PFX ! 0 novemilacent o
+PFX ! 0 novemiladuecent o
+PFX ! 0 novemilatrecent o
+PFX ! 0 novemilaquattrocent o
+PFX ! 0 novemilacinquecent o
+PFX ! 0 novemilaseicent o
+PFX ! 0 novemilasettecent o
+PFX ! 0 novemilaottocent o
+PFX ! 0 novemilanovecent o
+
+PFX " Y 9
+PFX " 0 mille .
+PFX " 0 duemila .
+PFX " 0 tremila .
+PFX " 0 quattromila .
+PFX " 0 cinquemila .
+PFX " 0 seimila .
+PFX " 0 settemila .
+PFX " 0 ottomila .
+PFX " 0 novemila .
+
+SFX £ Y 10
+SFX £ 0 i [ivxlcdm]
+SFX £ 0 ii [ivxlcdm]
+SFX £ 0 iii [vxlcdm]
+SFX £ 0 iv [xlcdm]
+SFX £ 0 v [ixlcdm]
+SFX £ 0 vi [xlcdm]
+SFX £ 0 vii [xlcdm]
+SFX £ 0 viii [xlcdm]
+SFX £ 0 ix [xlcdm]
+SFX £ 0 x i
+
+PFX $ Y 62
+PFX $ 0 x [cl]
+PFX $ 0 l x
+PFX $ 0 c [xlcdm]
+PFX $ 0 cx [lc]
+PFX $ 0 cl x
+PFX $ 0 cc [xlc]
+PFX $ 0 ccx [lc]
+PFX $ 0 ccl x
+PFX $ 0 ccc [xl]
+PFX $ 0 cccx [lc]
+PFX $ 0 cccl x
+PFX $ 0 cd [xl]
+PFX $ 0 cdx [lc]
+PFX $ 0 cdl x
+PFX $ 0 d [xlc]
+PFX $ 0 dx [lc]
+PFX $ 0 dl x
+PFX $ 0 dc [xlc]
+PFX $ 0 dcx [lc]
+PFX $ 0 dcl x
+PFX $ 0 dcc [xlc]
+PFX $ 0 dccx [lc]
+PFX $ 0 dccl x
+PFX $ 0 dccc [xl]
+PFX $ 0 dcccx [lc]
+PFX $ 0 dcccl x
+PFX $ 0 cm [xl]
+PFX $ 0 cmx [lc]
+PFX $ 0 cml x
+PFX $ 0 m [xlcdm]
+PFX $ 0 mx [lc]
+PFX $ 0 ml x
+PFX $ 0 mc [xlcmd]
+PFX $ 0 mcx [lc]
+PFX $ 0 mcl x
+PFX $ 0 mcc [xlc]
+PFX $ 0 mccx [lc]
+PFX $ 0 mccl x
+PFX $ 0 mccc [xl]
+PFX $ 0 mcccx [lc]
+PFX $ 0 mcccl x
+PFX $ 0 mcd [xl]
+PFX $ 0 mcdx [lc]
+PFX $ 0 mcdl x
+PFX $ 0 md [xlc]
+PFX $ 0 mdx [lc]
+PFX $ 0 mdl x
+PFX $ 0 mdc [xlc]
+PFX $ 0 mdcx [lc]
+PFX $ 0 mdcl x
+PFX $ 0 mdcc [xlc]
+PFX $ 0 mdccx [lc]
+PFX $ 0 mdccl x
+PFX $ 0 mdccc [xl]
+PFX $ 0 mdcccx [lc]
+PFX $ 0 mdcccl x
+PFX $ 0 mcm [xl]
+PFX $ 0 mcmx [lc]
+PFX $ 0 mcml x
+PFX $ 0 mm [xlc]
+PFX $ 0 mmx [lc]
+PFX $ 0 mml x
+
 
