@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.12 $
+#   $Revision: 1.13 $
 #
-#   last change: $Author: kz $ $Date: 2005-03-01 13:24:47 $
+#   last change: $Author: vg $ $Date: 2005-03-08 16:29:24 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -64,7 +64,6 @@ PRJ = ..
 
 PRJNAME	= dictionaries
 TARGET	= dict_en_US
-LIBTARGET=NO
 
 #----- Settings ---------------------------------------------------------
 
@@ -72,9 +71,7 @@ LIBTARGET=NO
 
 # --- Files --------------------------------------------------------
 
-.IF "$(DIC_ENUS)"!="" 
-
-all_target: $(MISC)$/$(TARGET).don $(MISC)$/th_en_US_new.don
+.IF "$(DIC_ALL)$(DIC_ENUS)"!="" 
 
 DIC2BIN= \
     en_US.aff \
@@ -82,18 +79,19 @@ DIC2BIN= \
     WordNet_license.txt \
     hyph_en_US.dic
 
-$(MISC)$/$(TARGET).don : 
-    +$(COPY) $(foreach,i,$(DIC2BIN) $i) $(BIN)
-    +$(TYPE) dictionary.lst >>$(BIN)$/dictionary.lst
-    @touch $@
-
 .ENDIF
 
 # --- Targets ------------------------------------------------------
 
 .INCLUDE : target.mk
+.INCLUDE : $(PRJ)$/util$/target.pmk
+
+.IF "$(DIC_ALL)$(DIC_ENUS)"!=""
+
+ALLTAR : $(MISC)$/th_en_US_new.don
 
 $(MISC)$/th_en_US_new.don: th_en_US_new.zip
     +cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_new.zip
-    +$(PERL) $(PRJ)$/util$/th_gen_idx.pl <$(BIN)$/th_en_US_new.dat >$(BIN)$/th_en_US_new.idx
-    touch $(MISC)$/th_en_US_new.don
+    +$(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_en_US_new.idx <$(BIN)$/th_en_US_new.dat && $(TOUCH) $(MISC)$/th_en_US_new.don
+
+.ENDIF			# "$(DIC_ALL)$(DIC_ENUS)"!="" 
