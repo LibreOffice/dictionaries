@@ -2,39 +2,39 @@ For English Readers: please see the text at the end of this document
 
 --- Italiano ---
 
-Dizionario Italiano versione 1.8 (2003-01-22)
+Dizionario Italiano versione 1.9 (2003-08-01)
 
 SOMMARIO
 
 1. Licenza
 2. Avvertenze importanti (leggere assolutamente)
-3. Modalit‡† d'installazione in OpenOffice.org
+3. Modalit√†¬† d'installazione in OpenOffice.org
 4. Integrazione con Mozilla 1.0 e superiori.
 5. Ringraziamenti
 
 1. Licenza
 
-Il file affix e il dizionario italiano per il correttore ortografico MySpell/OpenOffice.org sono rilasciati dagli autori, Gianluca Turconi <luctur@openoffice.org> e Davide Prina <davideprina@yahoo.com> sotto i termini e le condizioni della GNU General Public License (GPL) e della GNU Lesser General Public License (LGPL). L'utente, il distributore e il modificatore di questi files hanno una opzione di scelta tra le due licenze. Una volta effettuata la scelta per l'uso, la distribuzione e la modifica, l'accettante dovr‡ rispettare tutti i termini e le condizioni riportate nella licenza prescelta.
+Il file affix e il dizionario italiano per il correttore ortografico MySpell/OpenOffice.org sono rilasciati dagli autori, Gianluca Turconi <luctur@openoffice.org> e Davide Prina <davideprina@yahoo.com> sotto i termini e le condizioni della GNU General Public License (GPL) e della GNU Lesser General Public License (LGPL). L'utente, il distributore e il modificatore di questi files hanno una opzione di scelta tra le due licenze. Una volta effettuata la scelta per l'uso, la distribuzione e la modifica, l'accettante dovr√† rispettare tutti i termini e le condizioni riportate nella licenza prescelta.
 
 2. Avvertenze importanti (leggere assolutamente)
 
-A partire dalla build 641d della Suite OpenOffice.org Ë stato modificato un importante componente che si occupa del trattamento delle parole contenenti l'elisione (il comune apostrofo). Mentre in precedenza il correttore ortografico accettava qualunque parola precedesse e seguisse l'elisione purchÈ fosse contenuta nel dizionario, attualmente, solo le parole che nel loro complesso sono presenti nel dizionario saranno considerate corrette.
+A partire da OpenOffice.org 1.1, il dizionario italiano per la correzione ortografica √® direttamente integrato nella suite e perci√≤ non necessita pi√π di alcuna installazione. E' opportuno verificare che il dizionario sia attivo, selezionando dalla barra dei men√π Strumenti->Opzioni->Impostazione Lingua->Lingue e controllando che sotto lingue standard/Occidentale, l'opzione di scelta "Italiano (Italia)" sia selezionata e abbia al suo fianco un segno di spunta sormontato dalle lettere ABC.
 
-In lingue come l'italiano che fanno un larghissimo uso dell'elisione, ciÚ ha comportato la necessit‡† di modificare profondamente sia le regole grammaticali utilizzate sia il dizionario stesso. La presente versione Ë perciÚ ASSOLUTAMENTE necessaria a partire dalla versione 641d e superiori. La compatibilit‡ con versioni precedenti Ë comunque garantita.
+Nel caso il correttore non risultasse attivo, √® sufficiente scegliere dalla barra dei men√π Strumenti->Opzioni->Impostazione Lingua->Linguistica e dopo avere cliccato sul pulsante "Modifica" della finestra di dialogo, attivarlo seleziondo l'apposita voce.
 
-Data la profonda trasformazione del dizionario Ë possibile la presenza di errori o il mancato riconoscimento di alcuni vocaboli. In questi casi Ë sufficiente cliccare col tasto destro sulla parola interessata per far comparire il men˘ di contesto per l'aggiunta del vocabolo in questione ad un dizionario personalizzato. E' perÚ importante che i vocaboli non riconosciuti vengano segnalati inviando un messaggio a <luctur@openoffice.org>, in modo che si possano integrare correttamente nelle versioni successive del dizionario. Sar‡ sufficiente inviare il vostro dizionario custom.dic o altro dizionario personalizzato creato da voi.
+Se tuttavia il correttore non risultasse ancora attivo o nell'eventualit√† che si voglia aggiornare la versione del dizionario installata √® possibile utilizzare le procedure di installazione indicate oltre.
 
-3. Modalit‡† d'installazione (procedura corretta a partire dalla version 641c).
+3. Modalit√† d'installazione (procedura corretta a partire dalla version 641c).
 
-Esistono principalmente due modalit‡ per installare il dizionario italiano :
+Esistono principalmente due modalit√† per installare il dizionario italiano :
 
-a) in automatico, grazie a due comodi installer creati da membri della comunit‡ che si occupano di tutte le fasi dell'installazione.
+a) in automatico, grazie a due comodi installer creati da membri della comunit√† che si occupano di tutte le fasi dell'installazione.
 
 La versione per MS Windows si trova su 
 
 http://www.ooodocs.org/dictinstall/
 
-Mentre la versione per Linux Ë reperibile presso
+Mentre la versione per Linux √® reperibile presso
 
 http://www.deadletterdrop.worldonline.co.uk/OOo/
 
@@ -45,7 +45,7 @@ http://ooodi.sourceforge.net/
 b) manualmente
 Scompattate il file compresso (.zip, tar.gz, bzip,...) nella directory/cartella : <Directory di installazione di OpenOffice.org>/user/wordbook/
 
-Attenzione: a partire dalla versione 1.0.1 di OpenOffice.org, il percorso per l'installazione dei dizionari localizzati Ë stato modificato in: <Directory di installazione di OpenOffice.org>/share/dict/ooo
+Attenzione: a partire dalla versione 1.0.1 di OpenOffice.org, il percorso per l'installazione dei dizionari localizzati √® stato modificato in: <Directory di installazione di OpenOffice.org>/share/dict/ooo
 
 Aprite in un qualsiasi editor di testo il file dictionary.lst che troverete nella cartella citata precedentemente, in modo da poter inserire il codice della lingua e della regione che vi interessa. 
 
@@ -56,57 +56,63 @@ DICT it IT it_IT
 
 Quindi salvate il file con le vostre modifiche. I significati dei vari campi sono:
 
-Campo 1: Tipo di stringa: "DICT" , al momento Ë l'unica voce disponibile.
+Campo 1: Tipo di stringa: "DICT" , al momento √® l'unica voce disponibile.
 Campo 2: Codice linguistico "it" o "de" o "en" ... (vedi Codici Linguistici ISO)
 Campo 3: Codice Regionale "IT" o"DE" o "US" ... (vedi Codici Regionali ISO)
-Campo 4: Il nome del dizionario da utilizzare "it_IT" o "it_CH" o ... (senza aggiungere le estensioni .aff o .dic dei files. Questa voce Ë particolarmente utile se vogliamo creare i nostri dizionari specializzati. Per esempio it_INFORMATICA o it_DIRITTO. Sar‡ sufficiente aggiungere un'altra linea al file dictionary.lst cambiando solo il nome del dizionario e il correttore ortografico di OpenOffice.org controller‡ i vostri documenti usando in successione tutti i dizionari elencati e presenti nella cartella wordbook per la lingua italiana).
+Campo 4: Il nome del dizionario da utilizzare "it_IT" o "it_CH" o ... (senza aggiungere le estensioni .aff o .dic dei files. Questa voce √® particolarmente utile se vogliamo creare i nostri dizionari specializzati. Per esempio it_INFORMATICA o it_DIRITTO. Sar√† sufficiente aggiungere un'altra linea al file dictionary.lst cambiando solo il nome del dizionario e il correttore ortografico di OpenOffice.org controller√† i vostri documenti usando in successione tutti i dizionari elencati e presenti nella cartella wordbook per la lingua italiana).
 
 Successivamente :
 
-1) Aprite un nuovo documento di OpenOffice.org e scegliete dalla barra dei men˘ il comando:
+1) Aprite un nuovo documento di OpenOffice.org e scegliete dalla barra dei men√π il comando:
 Strumenti->Opzioni->Impostazioni Lingua->Lingue (Tools->Options->Language settings->Languages nella versione inglese)
 2) Impostate nell'elenco a discesa che vedete sulla destra la lingua italiana quale linguaggio di default per i vostri documenti
-3)selezionando l'elemento Linguistica (Writing Aids)che troverete nella sezione Impostazioni Lingua (Language Settings) e premendo il tasto di modifica della sezione Moduli Linguistici Disponibili (Available language modules) collocato sulla destra della finestra di dialogo, potrete accedere alla sezione che vi permetter‡ di impostare il correttore in italiano. Sar‡ sufficiente scegliere la nostra lingua dall'elenco a discesa che mostra tutti i dizionari disponibili nella Suite, facendo attenzione a selezionare con un segno di spunta, la funzione di correzione ortografica nel riquadro immediatamente sottostante l'elenco a discesa.
+3)selezionando l'elemento Linguistica (Writing Aids)che troverete nella sezione Impostazioni Lingua (Language Settings) e premendo il tasto di modifica della sezione Moduli Linguistici Disponibili (Available language modules) collocato sulla destra della finestra di dialogo, potrete accedere alla sezione che vi permetter√† di impostare il correttore in italiano. Sar√† sufficiente scegliere la nostra lingua dall'elenco a discesa che mostra tutti i dizionari disponibili nella Suite, facendo attenzione a selezionare con un segno di spunta, la funzione di correzione ortografica nel riquadro immediatamente sottostante l'elenco a discesa.
 
-Attenzione: La denominazione dei comandi di men˘ o delle finestre puÚ subire un cambiamento o la loro collocazione puÚ essere modificata nel passaggio da una versione ad un'altra. 
+Attenzione: La denominazione dei comandi di men√π o delle finestre pu√≤ subire un cambiamento o la loro collocazione pu√≤ essere modificata nel passaggio da una versione ad un'altra. 
 
-Attenzione: gli utenti di OpenOffice.org per MS Windows, devono riavviare anche il quickstarter della Suite, la piccola icona con i gabbiani (versione 1.0) che dovrebbe apparire sulla System Tray nell'angolo in basso a destra dello schermo, proprio a fianco dell'orologio di sistema. E' sufficiente cliccare col tasto destro del mouse sull'icona e scegliere esci o exit dal men˘ di contesto. Successivamente, si dovr‡ effettuare l'installazione del dizionario, mantenendo disattivato il quickstarter durante tutta la procedura, chiudere il documento dal quale si sono modificate le opzioni generali e riaprirne uno nuovo per verificare il funzionamento del correttore italiano. 
+Attenzione: gli utenti di OpenOffice.org per MS Windows, devono riavviare anche il quickstarter della Suite, la piccola icona con i gabbiani (versione 1.0) che dovrebbe apparire sulla System Tray nell'angolo in basso a destra dello schermo, proprio a fianco dell'orologio di sistema. E' sufficiente cliccare col tasto destro del mouse sull'icona e scegliere esci o exit dal men√π di contesto. Successivamente, si dovr√† effettuare l'installazione del dizionario, mantenendo disattivato il quickstarter durante tutta la procedura, chiudere il documento dal quale si sono modificate le opzioni generali e riaprirne uno nuovo per verificare il funzionamento del correttore italiano. 
 
-Questo Ë tutto, il correttore ortografico in italiano dovrebbe funzionare in modo adeguato.
+Questo √® tutto, il correttore ortografico in italiano dovrebbe funzionare in modo adeguato.
 
 4. Integrazione con Mozilla 1.0 e superiori.
 
-Questo dizionario puÚ essere integrato nel correttore ortografico del browser Mozilla 1.0 e superiori (http://www.mozilla.org/). Il correttore ortografico puÚ essere reperito nel progetto Moz spellchecker ospitato su http://www.mozdev.org/
+Questo dizionario pu√≤ essere integrato nel correttore ortografico del browser Mozilla 1.0 e superiori (http://www.mozilla.org/). Il correttore ortografico pu√≤ essere reperito nel progetto Moz spellchecker ospitato su http://www.mozdev.org/
 
-5. Ringraziamenti (aggiornato al 12 Aprile 2003)
+5. Ringraziamenti (aggiornato al 20 Luglio 2003)
 
-Gli utenti di un elaboratore di testi, come di qualunque altra applicazione software che utilizzi un correttore ortografico, spesso sottovalutano il lavoro necessario per produrre questo strumento fondamentale. I problemi sono molti: la lingua italiana non Ë statica, ma in continua evoluzione; semplici errori di digitazione in un dizionario digitale possono portare a gravi conseguenze sul funzionamento del correttore; ciÚ che si usa correntemente nella lingua parlata non sempre Ë corretto in quella scritta.
+Gli utenti di un elaboratore di testi, come di qualunque altra applicazione software che utilizzi un correttore ortografico, spesso sottovalutano il lavoro necessario per produrre questo strumento fondamentale. I problemi sono molti: la lingua italiana non √® statica, ma in continua evoluzione; semplici errori di digitazione in un dizionario digitale possono portare a gravi conseguenze sul funzionamento del correttore; ci√≤ che si usa correntemente nella lingua parlata non sempre √® corretto in quella scritta.
 
-Proprio per ovviare a tali difficolt‡, i volontari della Comunit‡ OpenOffice.org hanno partecipato attivamente al controllo di qualit‡ del contenuto dell'attuale dizionario per la correzione ortografica. Con questa sezione si vuole rendere merito a tutti coloro che hanno collaborato in questa attivit‡.
+Proprio per ovviare a tali difficolt√†, i volontari della Comunit√† OpenOffice.org hanno partecipato attivamente al controllo di qualit√† del contenuto dell'attuale dizionario per la correzione ortografica. Con questa sezione si vuole rendere merito a tutti coloro che hanno collaborato in questa attivit√†.
 
-Il pi˘ meritevole
+I pi√π meritevoli
 
-Riccardo Caverni.
+Riccardo Caverni, Marco Saba aka Metropolinux
 
-Motivazione: nonostante tutti abbiano contribuito con prontezza e precisione, Riccardo alla data in cui questa sezione viene scritta ha contribuito col controllo di pi˘ di 2000 vocaboli, senza dimenticare il lavoro impegnativo finale sui controlli effettuati da altri volontari. Un vero esempio di seriet‡ e partecipazione.
+Motivazione: Entrambi hanno contribuito alla correzione di pi√π di 4000 vocaboli, dedicando il loro tempo al Progetto senza restrinzioni o impedimenti, anche di carattere personale. Per queste ragioni hanno meritato la riconoscenza di tutta la Comunit√†.
 
 Menzione Speciale
 
-Edgardo Lugaresi, Marco Ciacci
+Edgardo Lugaresi, Marco Ciacci, Claudio Rampini, Elisa Calcagni, Carlo aka Cadfael, Giuseppe Delli Santi, Fabio Bossi aka bioFa, Giovanni Molteni
 
-Motivazione: Precisi e attenti nelle correzioni, hanno effettuato pi˘ di 1000 controlli, dimostrandosi sempre disponibili a collaborare per il miglioramento del correttore ortografico.
+Motivazione: Precisi e attenti nelle correzioni, hanno effettuato pi√π di 1000 controlli, dimostrandosi sempre disponibili a collaborare per il miglioramento del correttore ortografico.
 
 Gli altri volontari partecipanti ai controlli sul dizionario OpenOffice.org
 
-Fabio Bossi aka bioFa, Claudio Rampini, Elisa Calcagni, Ugo Bresolin, Giuseppe Lettieri aka Peterpunk, Claudia Ginocchio, Giuseppe Santo Barile, Pierluigi Andreoli, Daniele Vazzola aka Vazzo, Marco Spigolon, Mr Coke, Silvio Bacchetta, Stefano Dal Pra, Giacomo Magnini, Giuseppe Delli Santi, Giuseppe Garzotto aka double-g, Marco Menardi, Alberto (Fsug-Venezia), Riccardo Furlan (Fsug-Venezia), Mike, Isaac, Andrea Dieni aka daigo, Andrea Spitaleri, Joram, Paolo Bolettieri, Paolo Finetti, Umberto Bertolini, Roberta Annoni, Gianmaria Visconti
+Ugo Bresolin, Carlo Facci, Silvio Bacchetta, Giuseppe Lettieri aka Peterpunk, Pierluigi Andreoli, Massimiliano Vessi, Giuseppe Santo Barile, Riccardo Furlan (Fsug-Venezia), Marco Menardi, Alex De Maria aka ADBlues, Claudia Ginocchio, Isaac (Fsug-Venezia), Andrea Spitaleri aka XspiriX, Mr. Crocodile, Joram, Daniele Vazzola aka Vazzo, Marco Spigolon, Mr Coke, Stefano Dal Pra, Giacomo Magnini, Giuseppe Garzotto aka double-g, Alberto (Fsug-Venezia), Mike, Andrea Dieni aka daigo, , Paolo Bolettieri, Paolo Finetti, Umberto Bertolini, Roberta Annoni, Gianmaria Visconti, Angelo Conforti aka angeloxx, Oliver Maurizio, Michele Bariani, Filippo Span√≤ Felipe, Mariangela Pansini, Galblait, Salvatore Comito aka Linuxino, Eugenio, Massimo, Rossella Diomede, Mauro Bonetti.
 
-NOTA: L'ordine di elencazione dei volontari menzionati Ë legato al numero di controlli effettuati.
+NOTA: L'ordine di elencazione dei volontari menzionati √® legato al numero di controlli effettuati.
 
 --- English ---
 
-This version 1.7 (2003-01-22) is ABSOLUTELY necessary for OpenOffice.org 641d and greater.
+This version 1.9 (2003-08-1)
 
 The Italian dictionary and affix file for the MySpell/OpenOffice.org spell-checker are released by the authors Gianluca Turconi <luctur@openoffice.org> and Davide Prina <davideprina@yahoo.com> under the terms and conditions of the GNU General Public License (GPL) or GNU Lesser General Public License. The user, distributor and/or programmer has the option to choose between GPL and LGPL terms and conditions whe he/she uses, distributes and/or modifies these files. Once the choice has been made, he/she must agree with every term and condition included in the chosen license.
+
+Warning: Since the release of OpenOffice.org 1.1 the Italian dictionary is directly integrated into the applications. It is a good norm to verify that it has been activate. You can do so simply by selecting from the menu bar Tools->Options->Language Settings->Languages and by checking that the item "Italian (italy)" is selected and a slash with the letters ABC is displayed to its side.
+
+If the dictionary is not activated yet, you can perform this action by selecting from the menu bar Tools->Options->Language Settings->Writing Aids and by clicking on the "Edit..." button you will find in the dialog window. In the new dialog that will appear, you can activate the dictionary.
+
+In the case the dictionary doesn't still work or you wish to upgarde the version of your installed dictionary you can follow the procedures explained below.
 
 How to install the dictionary:
 
@@ -114,7 +120,7 @@ How to install the dictionary:
   A.	Unzip the dictionary files, *.aff and *.dic, 
 		into your <OpenOffice.org>\user\wordbook\*.*  directory
 
-Attention: since OpenOffice.org 1.0.1 the right folder for the dicionary is <OpenOffice.org>\share\dict\ooo
+Attention: since OpenOffice.org 1.0.1 the right folder for the dictionary is <OpenOffice.org>\share\dict\ooo
 
   B.	Edit the dictionary.lst file that is in that same directory 
 		using any text editor to register a dictionary for a specific 
@@ -150,26 +156,26 @@ and then make sure to check the MySpell SpellChecker for that locale.
 
 That it! Your dictionary is installed and registered for that language.
 
-4. Thanks (Last updated: April, 12 2003)
+4. Thanks (Last updated: July, 12 2003)
 
 The users of a word processor, like of whatever application that utilizes a spell checker, often underestimate the work needed to produce this basic tool. There are a lot of problems: the Italian language is not static, but always evolving; simple misspelled words in a digital dictionary can cause several problems to the spell checker; what is commonly used in the spoken language, it is not always right in the written one.
 
 Just to overcome such difficulties, the volunteers of the OpenOffice.org Community have actively took part into the quality check of this dictionary content. With this section, we want to give the right credit to all people who have collaborated in this activity.
 
-The Most Outstanding Volunteer
+The Most Outstanding Volunteers
 
-Riccardo Caverni.
+Riccardo Caverni, Marco Saba aka Metropolinux
 
-Motivation: though everybody contributed at his/her best, Riccardo, until the date in which this document has been written, contributed by checking the meaning of more than 2000 words, without forgetting the hard final work for this version release. A real example for seriousness and participation.
+Motivation: both Riccardo and Marco contributed to the corretion of more than 4000 words by dedicating their time to the project without restricts. This is the reason why the Community bestow honors on them.
 
 Special Mention
 
-Edgardo Lugaresi, Marco Ciacci
+Edgardo Lugaresi, Marco Ciacci, Claudio Rampini, Elisa Calcagni, Carlo aka Cadfael, Giuseppe Delli Santi, Fabio Bossi aka bioFa, Giovanni Molteni
 
 Motivation: they are always careful in their corrections and have checked the meaning of more than 1000 words by showing their will to collaborate to the improvement of the spell checker.
 
 Other volunteers who have helped to check the Italian OpenOffice.org dictionary.
 
-Fabio Bossi aka bioFa, Claudio Rampini, Elisa Calcagni, Ugo Bresolin, Giuseppe Lettieri aka Peterpunk, Claudia Ginocchio, Giuseppe Santo Barile, Pierluigi Andreoli, Daniele Vazzola aka Vazzo, Marco Spigolon, Mr Coke, Silvio Bacchetta, Stefano Dal Pra, Giacomo Magnini, Giuseppe Delli Santi, Giuseppe Garzotto aka double-g, Marco Menardi, Alberto (Fsug-Venezia), Riccardo Furlan (Fsug-Venezia), Mike, Isaac, Andrea Dieni aka daigo, Andrea Spitaleri, Joram, Paolo Bolettieri, Paolo Finetti, Umberto Bertolini, Roberta Annoni, Gianmaria Visconti
+Ugo Bresolin, Carlo Facci, Silvio Bacchetta, Giuseppe Lettieri aka Peterpunk, Pierluigi Andreoli, Massimiliano Vessi, Giuseppe Santo Barile, Riccardo Furlan (Fsug-Venezia), Marco Menardi, Alex De Maria aka ADBlues, Claudia Ginocchio, Isaac (Fsug-Venezia), Andrea Spitaleri aka XspiriX, Mr. Crocodile, Joram, Daniele Vazzola aka Vazzo, Marco Spigolon, Mr Coke, Stefano Dal Pra, Giacomo Magnini, Giuseppe Garzotto aka double-g, Alberto (Fsug-Venezia), Mike, Andrea Dieni aka daigo, , Paolo Bolettieri, Paolo Finetti, Umberto Bertolini, Roberta Annoni, Gianmaria Visconti, Angelo Conforti aka angeloxx, Oliver Maurizio, Michele Bariani, Filippo Span√≤ Felipe, Mariangela Pansini, Galblait, Salvatore Comito aka Linuxino, Eugenio, Massimo, Rossella Diomede, Mauro Bonetti.
 
 NOTE: The listing order of the volunteers is related to their contribution.
