@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.1 $
+#   $Revision: 1.2 $
 #
-#   last change: $Author: khendricks $ $Date: 2003-06-05 12:10:41 $
+#   last change: $Author: vg $ $Date: 2003-07-02 15:10:46 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -85,8 +85,8 @@ DIC2BIN= \
 
 $(MISC)$/$(TARGET).don : 
     +$(COPY) $(foreach,i,$(DIC2BIN) $i) $(BIN)
-    @echo "DICT en GB en_GB">>$(BIN)$/dictionary.lst
-    @echo "HYPH en GB hyph_en_GB">>$(BIN)$/dictionary.lst
+    @echo DICT en GB en_GB >>$(BIN)$/dictionary.lst
+    @echo HYPH en GB hyph_en_GB >>$(BIN)$/dictionary.lst
     @touch $@
 
 .ENDIF
