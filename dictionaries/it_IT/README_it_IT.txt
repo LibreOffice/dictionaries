@@ -2,8 +2,7 @@ For English Readers: please see the text at the end of this document
 
 --- Italiano ---
 
-Dizionario Italiano versione 1.9 (2003-08-01)
-
+Dizionario Italiano versione 2.0 (2004-02-09)
 SOMMARIO
 
 1. Licenza
@@ -14,7 +13,7 @@ SOMMARIO
 
 1. Licenza
 
-Il file affix e il dizionario italiano per il correttore ortografico MySpell/OpenOffice.org sono rilasciati dagli autori, Gianluca Turconi <luctur@openoffice.org> e Davide Prina <davideprina@yahoo.com> sotto i termini e le condizioni della GNU General Public License (GPL) e della GNU Lesser General Public License (LGPL). L'utente, il distributore e il modificatore di questi files hanno una opzione di scelta tra le due licenze. Una volta effettuata la scelta per l'uso, la distribuzione e la modifica, l'accettante dovrà rispettare tutti i termini e le condizioni riportate nella licenza prescelta.
+Il file affix e il dizionario italiano per il correttore ortografico MySpell/OpenOffice.org sono rilasciati dagli autori, Gianluca Turconi luctur <at> openoffice <dot> org e Davide Prina davideprina <at> yahoo <dot> com (sostituire <at> con @ e <dot> con . per il contatto via email) sotto i termini e le condizioni della GNU General Public License (GPL) e della GNU Lesser General Public License (LGPL). L'utente, il distributore e il modificatore di questi files hanno una opzione di scelta tra le due licenze. Una volta effettuata la scelta per l'uso, la distribuzione e la modifica, l'accettante dovrà rispettare tutti i termini e le condizioni riportate nella licenza prescelta.
 
 2. Avvertenze importanti (leggere assolutamente)
 
@@ -104,9 +103,9 @@ NOTA: L'ordine di elencazione dei volontari menzionati è legato al numero di con
 
 --- English ---
 
-This version 1.9 (2003-08-1)
+This version 2.0 (2004-02-9)
 
-The Italian dictionary and affix file for the MySpell/OpenOffice.org spell-checker are released by the authors Gianluca Turconi <luctur@openoffice.org> and Davide Prina <davideprina@yahoo.com> under the terms and conditions of the GNU General Public License (GPL) or GNU Lesser General Public License. The user, distributor and/or programmer has the option to choose between GPL and LGPL terms and conditions whe he/she uses, distributes and/or modifies these files. Once the choice has been made, he/she must agree with every term and condition included in the chosen license.
+The Italian dictionary and affix file for the MySpell/OpenOffice.org spell-checker are released by the authors Gianluca Turconi luctur <at> openoffice <dot> org and Davide Prina davideprina <at> yahoo <dot> com (please change <at> with @ and <dot> with . in order to contact the authors) under the terms and conditions of the GNU General Public License (GPL) or GNU Lesser General Public License. The user, distributor and/or programmer has the option to choose between GPL and LGPL terms and conditions whe he/she uses, distributes and/or modifies these files. Once the choice has been made, he/she must agree with every term and condition included in the chosen license.
 
 Warning: Since the release of OpenOffice.org 1.1 the Italian dictionary is directly integrated into the applications ans so it doesn't need any manual installation. It is a good norm to verify that it has been activate. You can do so simply by selecting from the menu bar Tools->Options->Language Settings->Languages and by checking that the item "Italian (italy)" is selected and a slash with the letters ABC is displayed to its side.
 
