@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.1 $
+#   $Revision: 1.2 $
 #
-#   last change: $Author: khendricks $ $Date: 2003-06-05 12:10:51 $
+#   last change: $Author: khendricks $ $Date: 2003-06-24 19:07:02 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -101,15 +101,14 @@ $(MISC)$/$(TARGET).don : $(MISC)$/th_en_US.don
 
 .INCLUDE : target.mk
 
-$(MISC)$/th_en_US.don: $(SOLARVER)$/$(UPD)$/$(INPATH)$/bin$/$(ATHENCODE) $(MISC)$/wordlist.txt $(MISC)$/trimthes.txt
-    $(WRAPCMD)  $(SOLARVER)$/$(UPD)$/$(INPATH)$/bin$/$(ATHENCODE) $(MISC) $(BIN) && $(TOUCH) $(@)
+$(MISC)$/th_en_US.don: $(SOLARVER)$/$(UPD)$/$(INPATH)$/bin$/$(ATHENCODE) $(MISC)$/th_en_US_words.txt $(MISC)$/th_en_US_thes.txt
+    $(WRAPCMD)  $(SOLARVER)$/$(UPD)$/$(INPATH)$/bin$/$(ATHENCODE) $(MISC) $(BIN) th_en_US && $(TOUCH) $(@)
 
 #unzip the text input files
-$(MISC)$/wordlist.txt:	wordlist.zip
+$(MISC)$/th_en_US_words.txt:	th_en_US_words.zip
 # cd is a 4nt internal command, we need a '+'
-    +cd $(MISC) && $(WRAPCMD) jar xf $(PWD)$/wordlist.zip
+    +cd $(MISC) && $(WRAPCMD) jar xf $(PWD)$/th_en_US_words.zip
 
-$(MISC)$/trimthes.txt:	trimthes.zip
+$(MISC)$/th_en_US_thes.txt:	th_en_US_thes.zip
 # ditto
-    +cd $(MISC) && $(WRAPCMD) jar xf $(PWD)$/trimthes.zip
-
+    +cd $(MISC) && $(WRAPCMD) jar xf $(PWD)$/th_en_US_thes.zip
