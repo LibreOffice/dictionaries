@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.7 $
+#   $Revision: 1.8 $
 #
-#   last change: $Author: kz $ $Date: 2004-03-24 13:04:01 $
+#   last change: $Author: hjs $ $Date: 2004-06-28 16:37:07 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -99,7 +99,10 @@ $(BIN)$/th_en_US_new.idx: $(BIN)$/th_en_US_new.dat
     $(WRAPCMD) cat $(BIN)$/th_en_US_new.dat | $(PERL) $(PWD)$/th_gen_idx.pl >  $(BIN)$/th_en_US_new.idx
 
 #unzip the thesaurus file
+$(MISC)$/th_en_US_words.txt:    th_en_US_words.zip
 # cd is a 4nt internal command, we need a '+'
-$(BIN)$/th_en_US_new.dat: th_en_US_new.zip
-    +cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_new.zip
+    +cd $(MISC) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_words.zip
 
+$(MISC)$/th_en_US_thes.txt:	th_en_US_thes.zip
+# ditto
+    +cd $(MISC) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_thes.zip
