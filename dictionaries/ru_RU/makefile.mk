@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.3 $
+#   $Revision: 1.4 $
 #
-#   last change: $Author: vg $ $Date: 2005-02-21 12:09:05 $
+#   last change: $Author: vg $ $Date: 2005-03-08 16:23:15 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -64,7 +64,6 @@ PRJ = ..
 
 PRJNAME	= dictionaries
 TARGET	= dict_ru_RU
-LIBTARGET=NO
 
 #----- Settings ---------------------------------------------------------
 
@@ -72,22 +71,15 @@ LIBTARGET=NO
 
 # --- Files --------------------------------------------------------
 
-.IF "$(DIC_RURU)"!=""
-
-all_target: $(MISC)$/$(TARGET).don 
+.IF "$(DIC_ALL)$(DIC_RURU)"!=""
 
 DIC2BIN= \
     hyph_ru_RU.dic
-
-
-$(MISC)$/$(TARGET).don : 
-    +$(COPY) $(foreach,i,$(DIC2BIN) $i) $(BIN)
-    +$(TYPE) dictionary.lst >>$(BIN)$/dictionary.lst
-    @touch $@
 
 .ENDIF
 
 # --- Targets ------------------------------------------------------
 
 .INCLUDE : target.mk
+.INCLUDE : $(PRJ)$/util$/target.pmk
 
