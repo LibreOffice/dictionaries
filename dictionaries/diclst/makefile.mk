@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.2 $
+#   $Revision: 1.3 $
 #
-#   last change: $Author: khendricks $ $Date: 2003-06-05 16:45:01 $
+#   last change: $Author: hr $ $Date: 2004-02-02 20:51:33 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -75,7 +75,8 @@ LIBTARGET=NO
 all_target: $(MISC)$/$(TARGET).don 
 
 DIC2BIN= \
-    dictionary.lst
+    dictionary.lst \
+    DicOOo.sxw
 
 
 $(MISC)$/$(TARGET).don : 
