@@ -15,6 +15,14 @@ SOMMARIO
 
 Il file affix e il dizionario italiano per il correttore ortografico MySpell/OpenOffice.org sono rilasciati dagli autori, Gianluca Turconi luctur <at> openoffice <dot> org e Davide Prina davideprina <at> yahoo <dot> com (sostituire <at> con @ e <dot> con . per il contatto via email) sotto i termini e le condizioni della GNU General Public License (GPL) e della GNU Lesser General Public License (LGPL). L'utente, il distributore e il modificatore di questi files hanno una opzione di scelta tra le due licenze. Una volta effettuata la scelta per l'uso, la distribuzione e la modifica, l'accettante dovrà rispettare tutti i termini e le condizioni riportate nella licenza prescelta.
 
+Copie delle licenze applicabili a questo lavoro sono disponibili su:
+
+http://www.openoffice.org/project/www/license.html
+
+o presso il sito del progetto GNU:
+
+http://www.gnu.org/
+
 2. Avvertenze importanti (leggere assolutamente)
 
 A partire da OpenOffice.org 1.1, il dizionario italiano per la correzione ortografica è direttamente integrato nella suite e perciò non necessita più di alcuna installazione manuale. E' opportuno verificare che il dizionario sia attivo, selezionando dalla barra dei menù Strumenti->Opzioni->Impostazione Lingua->Lingue e controllando che sotto lingue standard/Occidentale, l'opzione di scelta "Italiano (Italia)" sia selezionata e abbia al suo fianco un segno di spunta sormontato dalle lettere ABC.
@@ -107,7 +115,15 @@ This version 2.0 (2004-02-9)
 
 The Italian dictionary and affix file for the MySpell/OpenOffice.org spell-checker are released by the authors Gianluca Turconi luctur <at> openoffice <dot> org and Davide Prina davideprina <at> yahoo <dot> com (please change <at> with @ and <dot> with . in order to contact the authors) under the terms and conditions of the GNU General Public License (GPL) or GNU Lesser General Public License. The user, distributor and/or programmer has the option to choose between GPL and LGPL terms and conditions whe he/she uses, distributes and/or modifies these files. Once the choice has been made, he/she must agree with every term and condition included in the chosen license.
 
-Warning: Since the release of OpenOffice.org 1.1 the Italian dictionary is directly integrated into the applications ans so it doesn't need any manual installation. It is a good norm to verify that it has been activate. You can do so simply by selecting from the menu bar Tools->Options->Language Settings->Languages and by checking that the item "Italian (italy)" is selected and a slash with the letters ABC is displayed to its side.
+A copy of the licenses applicable to this work is available at:
+
+http://www.openoffice.org/project/www/license.html
+
+or
+
+http://www.gnu.org/
+
+Warning: Since the release of OpenOffice.org 1.1 the Italian dictionary is directly integrated into the applications and so it doesn't need any manual installation. It is a good norm to verify that it has been activate. You can do so simply by selecting from the menu bar Tools->Options->Language Settings->Languages and by checking that the item "Italian (italy)" is selected and a slash with the letters ABC is displayed to its side.
 
 If the dictionary is not activated yet, you can perform this action by selecting from the menu bar Tools->Options->Language Settings->Writing Aids and by clicking on the "Edit..." button you will find in the dialog window. In the new dialog that will appear, you can activate the dictionary.
 
