@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.5 $
+#   $Revision: 1.6 $
 #
-#   last change: $Author: obo $ $Date: 2005-01-05 12:09:19 $
+#   last change: $Author: vg $ $Date: 2005-03-08 16:22:18 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -64,7 +64,6 @@ PRJ = ..
 
 PRJNAME	= dictionaries
 TARGET	= dict_list
-LIBTARGET=NO
 
 #----- Settings ---------------------------------------------------------
 
@@ -75,7 +74,7 @@ LIBTARGET=NO
 all_target: $(MISC)$/$(TARGET).don 
 
 DIC2BIN= \
-    dictionary.lst \
+    dictionary_head \
     DicOOo.sxw
 
 .IF "$(WITH_FONTOOO)" == "YES"
@@ -84,8 +83,7 @@ DIC2BIN+=	FontOOo.sxw
 
 $(MISC)$/$(TARGET).don : $(DIC2BIN)
     +$(COPY) $(foreach,i,$(DIC2BIN) $i) $(BIN)
-    @touch $@
-
+    @$(TOUCH) $@
 
 # --- Targets ------------------------------------------------------
 
