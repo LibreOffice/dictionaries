@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.4 $
+#   $Revision: 1.5 $
 #
-#   last change: $Author: vg $ $Date: 2003-07-10 10:24:46 $
+#   last change: $Author: vg $ $Date: 2003-12-17 17:44:21 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -107,8 +107,8 @@ $(MISC)$/th_en_US.don: $(SOLARBINDIR)/$(ATHENCODE) $(MISC)$/th_en_US_words.txt $
 #unzip the text input files
 $(MISC)$/th_en_US_words.txt:	th_en_US_words.zip
 # cd is a 4nt internal command, we need a '+'
-    +cd $(MISC) && $(WRAPCMD) jar xf $(PWD)$/th_en_US_words.zip
+    +cd $(MISC) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_words.zip
 
 $(MISC)$/th_en_US_thes.txt:	th_en_US_thes.zip
 # ditto
-    +cd $(MISC) && $(WRAPCMD) jar xf $(PWD)$/th_en_US_thes.zip
+    +cd $(MISC) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_thes.zip
