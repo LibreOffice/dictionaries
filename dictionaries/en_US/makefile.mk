@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.5 $
+#   $Revision: 1.6 $
 #
-#   last change: $Author: vg $ $Date: 2003-12-17 17:44:21 $
+#   last change: $Author: hr $ $Date: 2004-02-04 15:55:36 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -74,25 +74,19 @@ LIBTARGET=NO
 
 .IF "$(DIC_ENUS)"!="" 
 
-all_target: $(MISC)$/$(TARGET).don  $(MISC)$/th_en_US.don
-
-.IF "$(GUI)" == "WNT"
-ATHENCODE=      thencode.exe
-.ELSE
-ATHENCODE=      thencode
-.ENDIF
+all_target: $(MISC)$/$(TARGET).don
 
 DIC2BIN= \
     en_US.aff \
     en_US.dic \
+    WordNet_license.txt \
     hyph_en_US.dic
 
-
-$(MISC)$/$(TARGET).don : $(MISC)$/th_en_US.don
+$(MISC)$/$(TARGET).don : $(BIN)$/th_en_US_new.idx
     +$(COPY) $(foreach,i,$(DIC2BIN) $i) $(BIN)
     @echo DICT en US en_US >>$(BIN)$/dictionary.lst
     @echo HYPH en US hyph_en_US >>$(BIN)$/dictionary.lst
-    @echo THES en US th_en_US >>$(BIN)$/dictionary.lst
+    @echo THES en US th_en_US_new >>$(BIN)$/dictionary.lst
     @touch $@
 
 .ENDIF
@@ -101,14 +95,11 @@ $(MISC)$/$(TARGET).don : $(MISC)$/th_en_US.don
 
 .INCLUDE : target.mk
 
-$(MISC)$/th_en_US.don: $(SOLARBINDIR)/$(ATHENCODE) $(MISC)$/th_en_US_words.txt $(MISC)$/th_en_US_thes.txt
-    $(WRAPCMD)  $(SOLARBINDIR)$/$(ATHENCODE) $(MISC) $(BIN) th_en_US && $(TOUCH) $(@)
+$(BIN)$/th_en_US_new.idx: $(BIN)$/th_en_US_new.dat
+    $(WRAPCMD) cat $(BIN)$/th_en_US_new.dat | $(PWD)/th_gen_idx.pl >  $(BIN)$/th_en_US_new.idx
 
-#unzip the text input files
-$(MISC)$/th_en_US_words.txt:	th_en_US_words.zip
+#unzip the thesaurus file
 # cd is a 4nt internal command, we need a '+'
-    +cd $(MISC) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_words.zip
+$(BIN)$/th_en_US_new.dat: th_en_US_new.zip
+    +cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_new.zip
 
-$(MISC)$/th_en_US_thes.txt:	th_en_US_thes.zip
-# ditto
-    +cd $(MISC) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_thes.zip
