@@ -113,7 +113,7 @@ SFX A iare erà [cg]iare
 SFX A iare eremo [cg]iare
 SFX A iare erete [cg]iare
 SFX A iare eranno [cg]iare
-SFX A are iare [^icg]are
+SFX A are iate [^icg]are
 SFX A are ino [^icg]are
 SFX A are hiate [cg]are
 SFX A are hino [cg]are
@@ -1384,12 +1384,13 @@ PFX X I N'I I
 PFX X O N'O O
 PFX X U N'U U
 
-SFX Y Y 5
+SFX Y Y 6
 SFX Y o amente o
 SFX Y 0 mente [^rl]e
 SFX Y e mente le
 SFX Y e mente re
 SFX Y e issimamente e
+SFX Y o issimamente o
 
 SFX W Y 24
 SFX W o issimo [^igc]o
@@ -1489,7 +1490,9 @@ SFX a 0 si o
 SFX a 0 ti o
 SFX a 0 vi o
 
-SFX b Y 73
+SFX b Y 75
+SFX b 0 ti i
+SFX b 0 ci o
 SFX b 0 la o
 SFX b 0 le o
 SFX b 0 li o
@@ -1876,7 +1879,11 @@ PFX l I Coll'I I
 PFX l O Coll'O O
 PFX l U Coll'U U
 
-SFX m N 29
+SFX m Y 33
+SFX m 0 gli o
+SFX m 0 ti o
+SFX m 0 si o
+SFX m 0 vi o
 SFX m o a o
 SFX m o e o
 SFX m o i o
@@ -1908,15 +1915,20 @@ SFX m 0 vene o
 SFX m 0 mi o
 
 SFX n N 3
-SFX n ia e ccia
+SFX n ia e cia
 SFX n o i io
-SFX n ia e ggia
+SFX n ia e gia
 
-SFX o N 6
+SFX o Y 6
 SFX o o i [^igc]o
 SFX o o hi [gc]o
 SFX o o 0 io
 SFX o o a o
 SFX o o e [^gc]o
 SFX o o he [gc]o
+
+SFX p Y 3
+SFX p o i o
+SFX p o a o
+SFX p o he o
 
