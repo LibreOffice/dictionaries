@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.3 $
+#   $Revision: 1.4 $
 #
-#   last change: $Author: vg $ $Date: 2003-07-02 15:11:03 $
+#   last change: $Author: vg $ $Date: 2003-07-10 10:24:46 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -101,8 +101,8 @@ $(MISC)$/$(TARGET).don : $(MISC)$/th_en_US.don
 
 .INCLUDE : target.mk
 
-$(MISC)$/th_en_US.don: $(SOLARVER)$/$(UPD)$/$(INPATH)$/bin$/$(ATHENCODE) $(MISC)$/th_en_US_words.txt $(MISC)$/th_en_US_thes.txt
-    $(WRAPCMD)  $(SOLARVER)$/$(UPD)$/$(INPATH)$/bin$/$(ATHENCODE) $(MISC) $(BIN) th_en_US && $(TOUCH) $(@)
+$(MISC)$/th_en_US.don: $(SOLARBINDIR)/$(ATHENCODE) $(MISC)$/th_en_US_words.txt $(MISC)$/th_en_US_thes.txt
+    $(WRAPCMD)  $(SOLARBINDIR)$/$(ATHENCODE) $(MISC) $(BIN) th_en_US && $(TOUCH) $(@)
 
 #unzip the text input files
 $(MISC)$/th_en_US_words.txt:	th_en_US_words.zip
