@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.8 $
+#   $Revision: 1.9 $
 #
-#   last change: $Author: hjs $ $Date: 2004-06-28 16:37:07 $
+#   last change: $Author: mh $ $Date: 2004-06-30 13:37:56 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -82,7 +82,7 @@ DIC2BIN= \
     WordNet_license.txt \
     hyph_en_US.dic
 
-$(MISC)$/$(TARGET).don : $(BIN)$/th_en_US_new.idx
+$(MISC)$/$(TARGET).don : 
     +$(COPY) $(foreach,i,$(DIC2BIN) $i) $(BIN)
     @echo DICT en US en_US >>$(BIN)$/dictionary.lst
     @echo HYPH en US hyph_en_US >>$(BIN)$/dictionary.lst
@@ -94,9 +94,6 @@ $(MISC)$/$(TARGET).don : $(BIN)$/th_en_US_new.idx
 # --- Targets ------------------------------------------------------
 
 .INCLUDE : target.mk
-
-$(BIN)$/th_en_US_new.idx: $(BIN)$/th_en_US_new.dat
-    $(WRAPCMD) cat $(BIN)$/th_en_US_new.dat | $(PERL) $(PWD)$/th_gen_idx.pl >  $(BIN)$/th_en_US_new.idx
 
 #unzip the thesaurus file
 $(MISC)$/th_en_US_words.txt:    th_en_US_words.zip
