@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.11 $
+#   $Revision: 1.12 $
 #
-#   last change: $Author: rt $ $Date: 2005-02-22 12:49:56 $
+#   last change: $Author: kz $ $Date: 2005-03-01 13:24:47 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -95,5 +95,5 @@ $(MISC)$/$(TARGET).don :
 
 $(MISC)$/th_en_US_new.don: th_en_US_new.zip
     +cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_new.zip
-    $(PRJ)$/util$/th_gen_idx.pl <$(BIN)$/th_en_US_new.dat >$(BIN)$/th_en_US_new.idx
+    +$(PERL) $(PRJ)$/util$/th_gen_idx.pl <$(BIN)$/th_en_US_new.dat >$(BIN)$/th_en_US_new.idx
     touch $(MISC)$/th_en_US_new.don
