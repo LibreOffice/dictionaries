@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.3 $
+#   $Revision: 1.4 $
 #
-#   last change: $Author: hr $ $Date: 2004-02-02 20:51:33 $
+#   last change: $Author: hjs $ $Date: 2004-06-28 16:36:50 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -76,10 +76,10 @@ all_target: $(MISC)$/$(TARGET).don
 
 DIC2BIN= \
     dictionary.lst \
-    DicOOo.sxw
+    DicOOo.sxw \
+    FontOOo.sxw
 
-
-$(MISC)$/$(TARGET).don : 
+$(MISC)$/$(TARGET).don : $(DIC2BIN)
     +$(COPY) $(foreach,i,$(DIC2BIN) $i) $(BIN)
     @touch $@
 
