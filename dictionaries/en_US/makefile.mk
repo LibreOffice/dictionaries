@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.9 $
+#   $Revision: 1.10 $
 #
-#   last change: $Author: mh $ $Date: 2004-06-30 13:37:56 $
+#   last change: $Author: vg $ $Date: 2005-02-21 12:07:48 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -74,7 +74,7 @@ LIBTARGET=NO
 
 .IF "$(DIC_ENUS)"!="" 
 
-all_target: $(MISC)$/$(TARGET).don
+all_target: $(MISC)$/$(TARGET).don $(MISC)$/th_en_US_new.don
 
 DIC2BIN= \
     en_US.aff \
@@ -84,9 +84,7 @@ DIC2BIN= \
 
 $(MISC)$/$(TARGET).don : 
     +$(COPY) $(foreach,i,$(DIC2BIN) $i) $(BIN)
-    @echo DICT en US en_US >>$(BIN)$/dictionary.lst
-    @echo HYPH en US hyph_en_US >>$(BIN)$/dictionary.lst
-    @echo THES en US th_en_US_new >>$(BIN)$/dictionary.lst
+    +$(TYPE) dictionary.lst >>$(BIN)$/dictionary.lst
     @touch $@
 
 .ENDIF
@@ -95,11 +93,7 @@ $(MISC)$/$(TARGET).don :
 
 .INCLUDE : target.mk
 
-#unzip the thesaurus file
-$(MISC)$/th_en_US_words.txt:    th_en_US_words.zip
-# cd is a 4nt internal command, we need a '+'
-    +cd $(MISC) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_words.zip
-
-$(MISC)$/th_en_US_thes.txt:	th_en_US_thes.zip
-# ditto
-    +cd $(MISC) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_thes.zip
+$(MISC)$/th_en_US_new.don: th_en_US_new.zip
+    +cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_new.zip
+    $(PRJ)$/util/th_gen_idx.pl <$(BIN)$/th_en_US_new.dat >$(BIN)$/th_en_US_new.idx
+    touch $(MISC)$/th_en_US_new.don
