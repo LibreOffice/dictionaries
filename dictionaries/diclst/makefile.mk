@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.4 $
+#   $Revision: 1.5 $
 #
-#   last change: $Author: hjs $ $Date: 2004-06-28 16:36:50 $
+#   last change: $Author: obo $ $Date: 2005-01-05 12:09:19 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -76,8 +76,11 @@ all_target: $(MISC)$/$(TARGET).don
 
 DIC2BIN= \
     dictionary.lst \
-    DicOOo.sxw \
-    FontOOo.sxw
+    DicOOo.sxw
+
+.IF "$(WITH_FONTOOO)" == "YES"
+DIC2BIN+=	FontOOo.sxw
+.ENDIF
 
 $(MISC)$/$(TARGET).don : $(DIC2BIN)
     +$(COPY) $(foreach,i,$(DIC2BIN) $i) $(BIN)
