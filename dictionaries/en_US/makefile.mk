@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.6 $
+#   $Revision: 1.7 $
 #
-#   last change: $Author: hr $ $Date: 2004-02-04 15:55:36 $
+#   last change: $Author: kz $ $Date: 2004-03-24 13:04:01 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -96,7 +96,7 @@ $(MISC)$/$(TARGET).don : $(BIN)$/th_en_US_new.idx
 .INCLUDE : target.mk
 
 $(BIN)$/th_en_US_new.idx: $(BIN)$/th_en_US_new.dat
-    $(WRAPCMD) cat $(BIN)$/th_en_US_new.dat | $(PWD)/th_gen_idx.pl >  $(BIN)$/th_en_US_new.idx
+    $(WRAPCMD) cat $(BIN)$/th_en_US_new.dat | $(PERL) $(PWD)$/th_gen_idx.pl >  $(BIN)$/th_en_US_new.idx
 
 #unzip the thesaurus file
 # cd is a 4nt internal command, we need a '+'
