@@ -2,7 +2,7 @@ For English Readers: please see the text at the end of this document
 
 --- Italiano ---
 
-Dizionario Italiano versione 2.0 (2004-02-09)
+Dizionario Italiano versione 2.1 (2004-06-23)
 SOMMARIO
 
 1. Licenza
@@ -13,7 +13,7 @@ SOMMARIO
 
 1. Licenza
 
-Il file affix e il dizionario italiano per il correttore ortografico MySpell/OpenOffice.org sono rilasciati dagli autori, Gianluca Turconi luctur <at> openoffice <dot> org e Davide Prina davideprina <at> yahoo <dot> com (sostituire <at> con @ e <dot> con . per il contatto via email) sotto i termini e le condizioni della GNU General Public License (GPL) e della GNU Lesser General Public License (LGPL). L'utente, il distributore e il modificatore di questi files hanno una opzione di scelta tra le due licenze. Una volta effettuata la scelta per l'uso, la distribuzione e la modifica, l'accettante dovrà rispettare tutti i termini e le condizioni riportate nella licenza prescelta.
+Il file affix e il dizionario italiano per il correttore ortografico MySpell/OpenOffice.org sono rilasciati dagli autori, Gianluca Turconi luctur2004 <at> yahoo <dot> it e Davide Prina davideprina <at> yahoo <dot> com (sostituire <at> con @ e <dot> con . per il contatto via email) sotto i termini e le condizioni della GNU General Public License (GPL) e della GNU Lesser General Public License (LGPL). L'utente, il distributore e il modificatore di questi files hanno una opzione di scelta tra le due licenze. Una volta effettuata la scelta per l'uso, la distribuzione e la modifica, l'accettante dovrà rispettare tutti i termini e le condizioni riportate nella licenza prescelta.
 
 Copie delle licenze applicabili a questo lavoro sono disponibili su:
 
