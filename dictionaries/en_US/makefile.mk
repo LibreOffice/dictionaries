@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.13 $
+#   $Revision: 1.14 $
 #
-#   last change: $Author: vg $ $Date: 2005-03-08 16:29:24 $
+#   last change: $Author: obo $ $Date: 2005-08-08 13:54:18 $
 #
 #   The Contents of this file are made available subject to the terms of
 #   either of the following licenses
@@ -88,10 +88,10 @@ DIC2BIN= \
 
 .IF "$(DIC_ALL)$(DIC_ENUS)"!=""
 
-ALLTAR : $(MISC)$/th_en_US_new.don
+ALLTAR : $(MISC)$/th_en_US_v2.don
 
-$(MISC)$/th_en_US_new.don: th_en_US_new.zip
-    +cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_new.zip
-    +$(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_en_US_new.idx <$(BIN)$/th_en_US_new.dat && $(TOUCH) $(MISC)$/th_en_US_new.don
+$(MISC)$/th_en_US_v2.don: th_en_US_v2.zip
+    +cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_v2.zip
+    +$(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_en_US_v2.idx <$(BIN)$/th_en_US_v2.dat && $(TOUCH) $(MISC)$/th_en_US_v2.don
 
 .ENDIF			# "$(DIC_ALL)$(DIC_ENUS)"!="" 
