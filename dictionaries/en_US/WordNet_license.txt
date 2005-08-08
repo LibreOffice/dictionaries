@@ -1,4 +1,4 @@
-WordNet Release 2.0
+WordNet Release 2.1
 
 This software and database is being provided to you, the LICENSEE, by  
 Princeton University under the following license.  By obtaining, using  
@@ -13,7 +13,7 @@ and that the same appear on ALL copies of the software, database and
 documentation, including modifications that you make for internal  
 use or for distribution.  
   
-WordNet 2.0 Copyright 2003 by Princeton University.  All rights reserved.  
+WordNet 2.1 Copyright 2005 by Princeton University.  All rights reserved.  
   
 THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON  
 UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR  
