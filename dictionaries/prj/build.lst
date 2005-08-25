@@ -7,4 +7,5 @@ di	dictionaries\en_GB	nmake	-	all	di_en_GB di_diclst NULL
 di	dictionaries\en_US	nmake	-	all	di_en_US di_diclst NULL
 di	dictionaries\it_IT	nmake	-	all	di_it_IT di_diclst NULL
 di	dictionaries\ru_RU	nmake	-	all	di_ru_RU di_diclst NULL
-di	dictionaries\util	nmake	-	all	di_util di_da_DK di_de_DE di_en_GB di_en_US di_it_IT di_ru_RU di_diclst NULL
+di      dictionaries\th_TH      nmake   -       all     di_th_TH di_diclst NULL
+di      dictionaries\util       nmake   -       all     di_util di_da_DK di_de_DE di_en_GB di_en_US di_it_IT di_ru_RU di_th_TH di_diclst NULL
