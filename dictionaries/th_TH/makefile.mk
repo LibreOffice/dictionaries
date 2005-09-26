@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.3 $
+#   $Revision: 1.4 $
 #
-#   last change: $Author: rt $ $Date: 2005-09-08 17:58:28 $
+#   last change: $Author: hr $ $Date: 2005-09-26 13:24:31 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -44,7 +44,7 @@ TARGET  = dict_th_TH
 
 # --- Files --------------------------------------------------------
 
-.IF "$(DIC_ALL)$(DIC_THAI)"!=""
+.IF "$(DIC_ALL)$(DIC_THTH)"!=""
 
 #all_target: $(MISC)$/$(TARGET).don 
 
