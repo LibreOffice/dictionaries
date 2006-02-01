@@ -4,7 +4,7 @@ di	dictionaries\diclst	nmake	-	all	di_diclst NULL
 di	dictionaries\cs_CZ	nmake	-	all	di_cs_CZ di_diclst NULL
 di	dictionaries\da_DK	nmake	-	all	di_da_DK di_diclst NULL
 di	dictionaries\de_DE	nmake	-	all	di_de_DE di_diclst NULL
-di	dictionaries\en_GB	nmake	-	all	di_en_GB di_diclst NULL
+di	dictionaries\en_GB	nmake	-	all	di_en_GB di_en_US di_diclst NULL
 di	dictionaries\en_US	nmake	-	all	di_en_US di_diclst NULL
 di	dictionaries\it_IT	nmake	-	all	di_it_IT di_diclst NULL
 di	dictionaries\nl_NL	nmake	-	all	di_nl_NL di_diclst NULL
