@@ -8,9 +8,10 @@ di	dictionaries\de_CH	nmake	-	all	di_de_CH di_diclst NULL
 di	dictionaries\de_AT	nmake	-	all	di_de_AT di_diclst NULL
 di	dictionaries\en_GB	nmake	-	all	di_en_GB di_en_US di_diclst NULL
 di	dictionaries\en_US	nmake	-	all	di_en_US di_diclst NULL
+di	dictionaries\hu_HU	nmake	-	all	di_hu_HU di_diclst NULL
 di	dictionaries\it_IT	nmake	-	all	di_it_IT di_diclst NULL
 di	dictionaries\nl_NL	nmake	-	all	di_nl_NL di_diclst NULL
 di	dictionaries\ru_RU	nmake	-	all	di_ru_RU di_diclst NULL
 di      dictionaries\th_TH      nmake   -       all     di_th_TH di_diclst NULL
 di      dictionaries\sw_TZ      nmake   -       all     di_sw_TZ di_diclst NULL
-di      dictionaries\util       nmake   -       all     di_util di_cs_CZ di_da_DK di_de_DE di_en_GB di_en_US di_it_IT di_nl_NL di_ru_RU di_th_TH di_sw_TZ di_diclst NULL
+di      dictionaries\util       nmake   -       all     di_util di_cs_CZ di_da_DK di_de_DE di_en_GB di_en_US di_hu_HU di_it_IT di_nl_NL di_ru_RU di_th_TH di_sw_TZ di_diclst NULL
