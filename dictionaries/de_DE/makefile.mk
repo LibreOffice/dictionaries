@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.5 $
+#   $Revision: 1.6 $
 #
-#   last change: $Author: rt $ $Date: 2005-09-08 17:56:37 $
+#   last change: $Author: rt $ $Date: 2006-02-10 10:26:44 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -47,7 +47,15 @@ TARGET	= dict_de_DE
 .IF "$(DIC_ALL)$(DIC_DEDE)"!=""
 
 DIC2BIN= \
-    hyph_de_DE.dic
+    hyph_de_DE.dic \
+    de_DE.aff \
+    de_DE.dic \
+    COPYING \
+    COPYING_OASIS \
+    Copyright \
+    INSTALL_de.txt \
+    README_de_DE.txt \
+    VERSION
 
 .ENDIF
 
