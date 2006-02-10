@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.6 $
+#   $Revision: 1.7 $
 #
-#   last change: $Author: rt $ $Date: 2006-02-10 10:26:44 $
+#   last change: $Author: rt $ $Date: 2006-02-10 11:41:33 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -48,6 +48,7 @@ TARGET	= dict_de_DE
 
 DIC2BIN= \
     hyph_de_DE.dic \
+    README_hyph_de_DE.txt \
     de_DE.aff \
     de_DE.dic \
     COPYING \
