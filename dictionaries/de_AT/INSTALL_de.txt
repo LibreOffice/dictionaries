@@ -1,0 +1,21 @@
+Für das Österreichische Wörterbuch sollte de_AT.aff auf de_DE.aff
+gesymlink werden bzw kopiert.
+dictionary.lst sollte ähnlich wie das beigefügte Beispiel aussehen.
+
+Die hunspell UNO-Komponente muss evtl. noch aktiviert werden. Wie macht man
+das?
+
+/usr/lib/ooo-2.0/program/unopkg add /usr/lib/ooo-2.0/program/libhunspell680li.so
+(stimmt das? testen!)
+
+Installationsanleitung siehe:
+
+TODO
+
+Support:
+
+http://de.openoffice.org/about-users-mailinglist.html
+
+Aktuelle Versionene:
+
+http://j3e.de/...
