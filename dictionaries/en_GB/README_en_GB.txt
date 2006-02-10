@@ -1,3 +1,12 @@
+Modifications
+
+2006-02-07 nemeth AT OOo
+
+OOo Issue 48060 - add ordinal numbers with COMPOUNDRULE (1st, 111th etc.)
+OOo Issue 29112, 55498 - add NOSUGGEST flags to taboo words
+
+Description
+
 This dictionary was initially based on a subset of the 
 original English wordlist created by Kevin Atkinson for 
 Pspell and  Aspell and thus is covered by his original 
@@ -31,7 +40,7 @@ compress the size of the dictionary. It is hoped that this
 will facilitate future localisation to other variants of
 English.
 
-Please let David Bartlett <dbartlett@iee.org> know of any 
+Please let David Bartlett <dwb@openoffice.org> know of any 
 errors that you find.
 
-The current release is R 1.14, 15/12/02 or later
+The current release is R 1.18, 11/04/05

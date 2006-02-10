@@ -3,10 +3,24 @@
 # Built from scratch for MySpell. Released under LGPL.
 #
 # David Bartlett, Andrew Brown.
-# R 1.14, 15/12/02
+# R 1.18, 11/04/05
+# 
+# 2006-02-07 - NOSUGGEST, COMPOUNDRULE patches (nemeth AT OOo)
 SET ISO8859-1
-TRY esiaÈnrtolcdugmphbyfvkw-'.zqjxSNRTLCGDMPHBEAUYOFIVKWˆ‚ÙZQJX≈ÁËÓÍ‡Ô¸‰Ò 
-REP 24
+TRY esiaÈnrtolcdugmfphbyvkw-'.zqjxSNRTLCGDMFPHBEAUYOIVKWÛˆ‚ÙZQJX≈ÁËÓÍ‡Ô¸‰Ò
+NOSUGGEST !
+# ordinal numbers
+COMPOUNDMIN 1
+# only in compounds: 1th, 2th, 3th
+ONLYINCOMPOUND _
+# compound rules:
+# 1. [0-9]*1[0-9]th (10th, 11th, 12th, 56714th, etc.)
+# 2. [0-9]*[02-9](1st|2nd|3rd|[4-9]th) (21st, 22nd, 123rd, 1234th, etc.)
+COMPOUNDRULE 2
+COMPOUNDRULE #*0{
+COMPOUNDRULE #*@}
+WORDCHARS 0123456789
+REP 27
 REP f ph
 REP ph f
 REP f gh
@@ -31,6 +45,9 @@ REP eg e.g.
 REP ie i.e.
 REP t ght
 REP ght t
+REP ok OK
+REP ts ce
+REP ce ts
 PFX A Y 2
 PFX A 0 re [^e] 
 PFX A 0 re- e 
@@ -621,7 +638,7 @@ SFX p 0 less [aeiou]y
 SFX p 0 ess ll 
 SFX p 0 less [^l]l 
 SFX p 0 less [^ly] 
-SFX Q Y 88
+SFX Q Y 44
 SFX Q 0 tise a 
 SFX Q e ise [^l]e 
 SFX Q le ilise [^aeiou]le 
@@ -666,51 +683,52 @@ SFX Q 0 ising [^i]s
 SFX Q y ising [^aeiou]y 
 SFX Q 0 ising [aeiou]y 
 SFX Q 0 ising [^aemsy] 
-SFX Q 0 tize a 
-SFX Q e ize [^l]e 
-SFX Q le ilize [^aeiou]le 
-SFX Q e ize [aeiou]le 
-SFX Q um ize um 
-SFX Q 0 ize [^u]m 
-SFX Q s ze is 
-SFX Q 0 ize [^i]s 
-SFX Q y ize [^aeiou]y 
-SFX Q 0 ize [aeiou]y 
-SFX Q 0 ize [^aemsy] 
-SFX Q 0 tizes a 
-SFX Q e izes [^l]e 
-SFX Q le ilizes [^aeiou]le 
-SFX Q e izes [aeiou]le 
-SFX Q um izes um 
-SFX Q 0 izes [^u]m 
-SFX Q s zes is 
-SFX Q 0 izes [^i]s 
-SFX Q y izes [^aeiou]y 
-SFX Q 0 izes [aeiou]y 
-SFX Q 0 izes [^aemsy] 
-SFX Q 0 tized a 
-SFX Q e ized [^l]e 
-SFX Q le ilized [^aeiou]le 
-SFX Q e ized [aeiou]le 
-SFX Q um ized um 
-SFX Q 0 ized [^u]m 
-SFX Q s zed is 
-SFX Q 0 ized [^i]s 
-SFX Q y ized [^aeiou]y 
-SFX Q 0 ized [aeiou]y 
-SFX Q 0 ized [^aemsy] 
-SFX Q 0 tizing a 
-SFX Q e izing [^l]e 
-SFX Q le ilizing [^aeiou]le 
-SFX Q e izing [aeiou]le 
-SFX Q um izing um 
-SFX Q 0 izing [^u]m 
-SFX Q s zing is 
-SFX Q 0 izing [^i]s 
-SFX Q y izing [^aeiou]y 
-SFX Q 0 izing [aeiou]y 
-SFX Q 0 izing [^aemsy] 
-SFX q Y 44
+SFX 8 Y 44
+SFX 8 0 tize a 
+SFX 8 e ize [^l]e 
+SFX 8 le ilize [^aeiou]le 
+SFX 8 e ize [aeiou]le 
+SFX 8 um ize um 
+SFX 8 0 ize [^u]m 
+SFX 8 s ze is 
+SFX 8 0 ize [^i]s 
+SFX 8 y ize [^aeiou]y 
+SFX 8 0 ize [aeiou]y 
+SFX 8 0 ize [^aemsy] 
+SFX 8 0 tizes a 
+SFX 8 e izes [^l]e 
+SFX 8 le ilizes [^aeiou]le 
+SFX 8 e izes [aeiou]le 
+SFX 8 um izes um 
+SFX 8 0 izes [^u]m 
+SFX 8 s zes is 
+SFX 8 0 izes [^i]s 
+SFX 8 y izes [^aeiou]y 
+SFX 8 0 izes [aeiou]y 
+SFX 8 0 izes [^aemsy] 
+SFX 8 0 tized a 
+SFX 8 e ized [^l]e 
+SFX 8 le ilized [^aeiou]le 
+SFX 8 e ized [aeiou]le 
+SFX 8 um ized um 
+SFX 8 0 ized [^u]m 
+SFX 8 s zed is 
+SFX 8 0 ized [^i]s 
+SFX 8 y ized [^aeiou]y 
+SFX 8 0 ized [aeiou]y 
+SFX 8 0 ized [^aemsy] 
+SFX 8 0 tizing a 
+SFX 8 e izing [^l]e 
+SFX 8 le ilizing [^aeiou]le 
+SFX 8 e izing [aeiou]le 
+SFX 8 um izing um 
+SFX 8 0 izing [^u]m 
+SFX 8 s zing is 
+SFX 8 0 izing [^i]s 
+SFX 8 y izing [^aeiou]y 
+SFX 8 0 izing [aeiou]y 
+SFX 8 0 izing [^aemsy] 
+SFX q Y 22
 SFX q 0 tisation a 
 SFX q e isation [^l]e 
 SFX q le ilisation [^aeiou]le 
@@ -733,29 +751,30 @@ SFX q 0 isations [^i]s
 SFX q y isations [^aeiou]y 
 SFX q 0 isations [aeiou]y 
 SFX q 0 isations [^aemsy] 
-SFX q 0 tization a 
-SFX q e ization [^l]e 
-SFX q le ilization [^aeiou]le 
-SFX q e ization [aeiou]le 
-SFX q um ization um 
-SFX q 0 ization [^u]m 
-SFX q s zation is 
-SFX q 0 ization [^i]s 
-SFX q y ization [^aeiou]y 
-SFX q 0 ization [aeiou]y 
-SFX q 0 ization [^aemsy] 
-SFX q 0 tizations a 
-SFX q e izations [^l]e 
-SFX q le ilizations [^aeiou]le 
-SFX q e izations [aeiou]le 
-SFX q um izations um 
-SFX q 0 izations [^u]m 
-SFX q s zations is 
-SFX q 0 izations [^i]s 
-SFX q y izations [^aeiou]y 
-SFX q 0 izations [aeiou]y 
-SFX q 0 izations [^aemsy] 
-SFX s Y 66
+SFX - Y 22
+SFX - 0 tization a 
+SFX - e ization [^l]e 
+SFX - le ilization [^aeiou]le 
+SFX - e ization [aeiou]le 
+SFX - um ization um 
+SFX - 0 ization [^u]m 
+SFX - s zation is 
+SFX - 0 ization [^i]s 
+SFX - y ization [^aeiou]y 
+SFX - 0 ization [aeiou]y 
+SFX - 0 ization [^aemsy] 
+SFX - 0 tizations a 
+SFX - e izations [^l]e 
+SFX - le ilizations [^aeiou]le 
+SFX - e izations [aeiou]le 
+SFX - um izations um 
+SFX - 0 izations [^u]m 
+SFX - s zations is 
+SFX - 0 izations [^i]s 
+SFX - y izations [^aeiou]y 
+SFX - 0 izations [aeiou]y 
+SFX - 0 izations [^aemsy] 
+SFX s Y 33
 SFX s 0 tiser a 
 SFX s e iser [^l]e 
 SFX s le iliser [^aeiou]le 
@@ -789,40 +808,41 @@ SFX s 0 iser's [^i]s
 SFX s y iser's [^aeiou]y 
 SFX s 0 iser's [aeiou]y 
 SFX s 0 iser's [^aemsy] 
-SFX s 0 tizer a 
-SFX s e izer [^l]e 
-SFX s le ilizer [^aeiou]le 
-SFX s e izer [aeiou]le 
-SFX s um izer um 
-SFX s 0 izer [^u]m 
-SFX s s zer is 
-SFX s 0 izer [^i]s 
-SFX s y izer [^aeiou]y 
-SFX s 0 izer [aeiou]y 
-SFX s 0 izer [^aemsy] 
-SFX s 0 tizers a 
-SFX s e izers [^l]e 
-SFX s le ilizers [^aeiou]le 
-SFX s e izers [aeiou]le 
-SFX s um izers um 
-SFX s 0 izers [^u]m 
-SFX s s zers is 
-SFX s 0 izers [^i]s 
-SFX s y izers [^aeiou]y 
-SFX s 0 izers [aeiou]y 
-SFX s 0 izers [^aemsy] 
-SFX s 0 tizer's a 
-SFX s e izer's [^l]e 
-SFX s le ilizer's [^aeiou]le 
-SFX s e izer's [aeiou]le 
-SFX s um izer's um 
-SFX s 0 izer's [^u]m 
-SFX s s zer's is 
-SFX s 0 izer's [^i]s 
-SFX s y izer's [^aeiou]y 
-SFX s 0 izer's [aeiou]y 
-SFX s 0 izer's [^aemsy] 
-SFX t Y 44
+SFX 9 Y 33
+SFX 9 0 tizer a 
+SFX 9 e izer [^l]e 
+SFX 9 le ilizer [^aeiou]le 
+SFX 9 e izer [aeiou]le 
+SFX 9 um izer um 
+SFX 9 0 izer [^u]m 
+SFX 9 s zer is 
+SFX 9 0 izer [^i]s 
+SFX 9 y izer [^aeiou]y 
+SFX 9 0 izer [aeiou]y 
+SFX 9 0 izer [^aemsy] 
+SFX 9 0 tizers a 
+SFX 9 e izers [^l]e 
+SFX 9 le ilizers [^aeiou]le 
+SFX 9 e izers [aeiou]le 
+SFX 9 um izers um 
+SFX 9 0 izers [^u]m 
+SFX 9 s zers is 
+SFX 9 0 izers [^i]s 
+SFX 9 y izers [^aeiou]y 
+SFX 9 0 izers [aeiou]y 
+SFX 9 0 izers [^aemsy] 
+SFX 9 0 tizer's a 
+SFX 9 e izer's [^l]e 
+SFX 9 le ilizer's [^aeiou]le 
+SFX 9 e izer's [aeiou]le 
+SFX 9 um izer's um 
+SFX 9 0 izer's [^u]m 
+SFX 9 s zer's is 
+SFX 9 0 izer's [^i]s 
+SFX 9 y izer's [^aeiou]y 
+SFX 9 0 izer's [aeiou]y 
+SFX 9 0 izer's [^aemsy] 
+SFX t Y 22
 SFX t 0 tisable a 
 SFX t e isable [^l]e 
 SFX t le ilisable [^aeiou]le 
@@ -834,17 +854,6 @@ SFX t 0 isable [^i]s
 SFX t y isable [^aeiou]y 
 SFX t 0 isable [aeiou]y 
 SFX t 0 isable [^aemsy] 
-SFX t 0 tizable a 
-SFX t e izable [^l]e 
-SFX t le ilizable [^aeiou]le 
-SFX t e izable [aeiou]le 
-SFX t um izable um 
-SFX t 0 izable [^u]m 
-SFX t s zable is 
-SFX t 0 izable [^i]s 
-SFX t y izable [^aeiou]y 
-SFX t 0 izable [aeiou]y 
-SFX t 0 izable [^aemsy] 
 SFX t 0 tisability a 
 SFX t e isability [^l]e 
 SFX t le ilisability [^aeiou]le 
@@ -856,17 +865,29 @@ SFX t 0 isability [^i]s
 SFX t y isability [^aeiou]y 
 SFX t 0 isability [aeiou]y 
 SFX t 0 isability [^aemsy] 
-SFX t 0 tizability a 
-SFX t e izability [^l]e 
-SFX t le ilizability [^aeiou]le 
-SFX t e izability [aeiou]le 
-SFX t um izability um 
-SFX t 0 izability [^u]m 
-SFX t s zability is 
-SFX t 0 izability [^i]s 
-SFX t y izability [^aeiou]y 
-SFX t 0 izability [aeiou]y 
-SFX t 0 izability [^aemsy] 
+SFX + Y 22
+SFX + 0 tizable a 
+SFX + e izable [^l]e 
+SFX + le ilizable [^aeiou]le 
+SFX + e izable [aeiou]le 
+SFX + um izable um 
+SFX + 0 izable [^u]m 
+SFX + s zable is 
+SFX + 0 izable [^i]s 
+SFX + y izable [^aeiou]y 
+SFX + 0 izable [aeiou]y 
+SFX + 0 izable [^aemsy] 
+SFX + 0 tizability a 
+SFX + e izability [^l]e 
+SFX + le ilizability [^aeiou]le 
+SFX + e izability [aeiou]le 
+SFX + um izability um 
+SFX + 0 izability [^u]m 
+SFX + s zability is 
+SFX + 0 izability [^i]s 
+SFX + y izability [^aeiou]y 
+SFX + 0 izability [aeiou]y 
+SFX + 0 izability [^aemsy] 
 SFX M Y 1
 SFX M 0 's . 
 SFX B Y 48
@@ -1065,7 +1086,7 @@ SFX O 0 tal [iu]t
 SFX O 0 al [^ipux]t 
 SFX O 0 al [^aebcrtxmy] 
 SFX o Y 12
-SFZ o 0 lly a 
+SFX o 0 lly a 
 SFX o e ally [^bcgv]e 
 SFX o e ially [bcgv]e 
 SFX o 0 ially [bcrx] 
