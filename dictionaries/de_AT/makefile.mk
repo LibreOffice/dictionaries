@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.2 $
+#   $Revision: 1.3 $
 #
-#   last change: $Author: rt $ $Date: 2006-02-10 10:22:18 $
+#   last change: $Author: kz $ $Date: 2006-04-27 09:41:06 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -46,6 +46,8 @@ TARGET  = dict_de_AT
 
 .IF "$(DIC_ALL)$(DIC_DEAT)"!=""
 
+## !! Note the thesaurus for de_AT is the same as for de_DE and     !! 
+## !! gets packed there                                             !!
 DIC2BIN= \
     de_AT.aff \
     de_AT.dic \
