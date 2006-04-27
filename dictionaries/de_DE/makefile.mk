@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.7 $
+#   $Revision: 1.8 $
 #
-#   last change: $Author: rt $ $Date: 2006-02-10 11:41:33 $
+#   last change: $Author: kz $ $Date: 2006-04-27 09:42:15 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -64,4 +64,16 @@ DIC2BIN= \
 
 .INCLUDE : target.mk
 .INCLUDE : $(PRJ)$/util$/target.pmk
+
+#
+# add thesaurus for de_DE de_AT
+#
+.IF "$(DIC_ALL)$(DIC_DEDE)$(DIC_DEAT)"!=""
+
+ALLTAR : $(MISC)$/thes_de_DE_v2.don
+
+$(MISC)$/thes_de_DE_v2.don: thes_de_DE_v2.zip
+    +cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/thes_de_DE_v2.zip
+
+.ENDIF
 
