@@ -17,7 +17,7 @@ $(ZIP1TARGETN) : $(BIN)$/dictionary.lst
 .ENDIF			# "$(ZIP1TARGETN)" != ""
 
 $(BIN)$/dictionary.lst : $(DICDEPS)
-    @+-$(RM) $@
-    +$(TYPE) $(BIN)$/dictionary_head > $@
-    +-$(TYPE) $(BIN)$/dictionary_*.line >> $@
+    @-$(RM) $@
+    $(TYPE) $(BIN)$/dictionary_head > $@
+    -$(TYPE) $(BIN)$/dictionary_*.line >> $@
 
