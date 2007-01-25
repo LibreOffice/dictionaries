@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.2 $
+#   $Revision: 1.3 $
 #
-#   last change: $Author: rt $ $Date: 2005-11-11 11:11:36 $
+#   last change: $Author: obo $ $Date: 2007-01-25 13:39:03 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -58,7 +58,7 @@ DIC2BIN= th_cs_CZ_license.txt
 ALLTAR : $(MISC)$/th_cs_CZ_v2.don
 
 $(MISC)$/th_cs_CZ_v2.don: th_cs_CZ_v2.zip
-    +cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_cs_CZ_v2.zip
-    +$(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_cs_CZ_v2.idx <$(BIN)$/th_cs_CZ_v2.dat && $(TOUCH) $(MISC)$/th_cs_CZ_v2.don
+    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_cs_CZ_v2.zip
+    $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_cs_CZ_v2.idx <$(BIN)$/th_cs_CZ_v2.dat && $(TOUCH) $(MISC)$/th_cs_CZ_v2.don
 
 .ENDIF			# "$(DIC_ALL)$(DIC_CSCZ)"!=""
