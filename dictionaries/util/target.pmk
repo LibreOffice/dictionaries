@@ -4,9 +4,9 @@
 #
 #   $RCSfile: target.pmk,v $
 #
-#   $Revision: 1.4 $
+#   $Revision: 1.5 $
 #
-#   last change: $Author: kz $ $Date: 2006-02-01 16:42:09 $
+#   last change: $Author: obo $ $Date: 2007-01-25 13:41:22 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -41,7 +41,7 @@ DIC2BINDEST=$(foreach,i,$(DIC2BIN) $(BIN)$/$i)
 ALLTAR : $(BIN)$/dictionary_$(DICT_LOCALE).line $(DIC2BINDEST)
 
 $(DIC2BINDEST) : $$(@:f)
-    +$(COPY) $< $@
+    $(COPY) $< $@
 .ENDIF			# "$(DIC2BIN)"!=""
 
 # only chance that "$(DIC2BIN)"=="WordNet_license.txt"
@@ -50,5 +50,5 @@ $(DIC2BINDEST) : $$(@:f)
 
 $(BIN)$/dictionary_$(DICT_LOCALE).line : dictionary.lst
 .IF "$(DIC2BIN)"!="WordNet_license.txt"
-    +$(TYPE) dictionary.lst > $(BIN)$/dictionary_$(DICT_LOCALE).line
+    $(TYPE) dictionary.lst > $(BIN)$/dictionary_$(DICT_LOCALE).line
 .ENDIF
