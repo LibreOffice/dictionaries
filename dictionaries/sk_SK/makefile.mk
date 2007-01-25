@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.2 $
+#   $Revision: 1.3 $
 #
-#   last change: $Author: vg $ $Date: 2006-03-14 16:55:15 $
+#   last change: $Author: obo $ $Date: 2007-01-25 13:40:43 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -58,7 +58,7 @@ DIC2BIN= th_sk_SK_license.txt
 ALLTAR : $(MISC)$/th_sk_SK_v2.don
 
 $(MISC)$/th_sk_SK_v2.don: th_sk_SK_v2.zip
-    +cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_sk_SK_v2.zip
-    +$(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_sk_SK_v2.idx <$(BIN)$/th_sk_SK_v2.dat && $(TOUCH) $(MISC)$/th_sk_SK_v2.don
+    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_sk_SK_v2.zip
+    $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_sk_SK_v2.idx <$(BIN)$/th_sk_SK_v2.dat && $(TOUCH) $(MISC)$/th_sk_SK_v2.don
 
 .ENDIF			# "$(DIC_ALL)$(DIC_SKSK)"!=""
