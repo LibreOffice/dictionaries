@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.16 $
+#   $Revision: 1.17 $
 #
-#   last change: $Author: kz $ $Date: 2006-02-01 16:41:46 $
+#   last change: $Author: obo $ $Date: 2007-01-25 13:40:16 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -72,7 +72,7 @@ DIC2BIN+= \
 ALLTAR : $(MISC)$/th_en_US_v2.don
 
 $(MISC)$/th_en_US_v2.don: th_en_US_v2.zip
-    +cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_v2.zip
-    +$(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_en_US_v2.idx <$(BIN)$/th_en_US_v2.dat && $(TOUCH) $(MISC)$/th_en_US_v2.don
+    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_v2.zip
+    $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_en_US_v2.idx <$(BIN)$/th_en_US_v2.dat && $(TOUCH) $(MISC)$/th_en_US_v2.don
 
 .ENDIF			# "$(DIC_ALL)$(DIC_ENUS)$(DIC_ENGB)"!=""
