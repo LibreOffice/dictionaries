@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.3 $
+#   $Revision: 1.4 $
 #
-#   last change: $Author: obo $ $Date: 2007-01-25 13:40:29 $
+#   last change: $Author: hr $ $Date: 2007-06-27 17:51:22 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -60,7 +60,7 @@ DIC2BIN = th_pl_PL_v2.zip
 ALLTAR : $(MISC)$/th_pl_PL_v2.don
 
 $(MISC)$/th_pl_PL_v2.don: th_pl_PL_v2.zip
-    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_pl_PL_v2.zip
+    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_pl_PL_v2.zip && $(TOUCH) ..$/misc$/th_pl_PL_v2.don
 # .idx file is already part of the zip-archive
 #    +$(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_pl_PL_v2.idx <$(BIN)$/th_pl_PL_v2.dat && $(TOUCH) $(MISC)$/th_pl_PL_v2.don
 
