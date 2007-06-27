@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.9 $
+#   $Revision: 1.10 $
 #
-#   last change: $Author: obo $ $Date: 2007-01-25 13:39:48 $
+#   last change: $Author: hr $ $Date: 2007-06-27 17:51:07 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -73,7 +73,7 @@ DIC2BIN= \
 ALLTAR : $(MISC)$/thes_de_DE_v2.don
 
 $(MISC)$/thes_de_DE_v2.don: thes_de_DE_v2.zip
-    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/thes_de_DE_v2.zip
+    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/thes_de_DE_v2.zip && $(TOUCH) ..$/misc$/thes_de_DE_v2.don
 
 .ENDIF
 
