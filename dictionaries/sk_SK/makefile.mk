@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.3 $
+#   $Revision: 1.4 $
 #
-#   last change: $Author: obo $ $Date: 2007-01-25 13:40:43 $
+#   last change: $Author: rt $ $Date: 2007-07-03 12:30:23 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -44,7 +44,10 @@ TARGET	= dict_sk_SK
 
 .IF "$(DIC_ALL)$(DIC_SKSK)"!=""
 
-DIC2BIN= th_sk_SK_license.txt
+DIC2BIN= th_sk_SK_license.txt \
+         sk_SK.aff \
+         sk_SK.dic \
+         README_sk_SK.txt
 
 .ENDIF
 
