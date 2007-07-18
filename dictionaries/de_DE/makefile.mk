@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.10 $
+#   $Revision: 1.11 $
 #
-#   last change: $Author: hr $ $Date: 2007-06-27 17:51:07 $
+#   last change: $Author: obo $ $Date: 2007-07-18 08:02:42 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -51,12 +51,7 @@ DIC2BIN= \
     README_hyph_de_DE.txt \
     de_DE.aff \
     de_DE.dic \
-    COPYING \
-    COPYING_OASIS \
-    Copyright \
-    INSTALL_de.txt \
-    README_de_DE.txt \
-    VERSION
+    README_de_DE.txt
 
 .ENDIF
 
