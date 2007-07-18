@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.5 $
+#   $Revision: 1.6 $
 #
-#   last change: $Author: hr $ $Date: 2007-06-27 17:50:51 $
+#   last change: $Author: obo $ $Date: 2007-07-18 08:02:28 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -49,12 +49,7 @@ TARGET  = dict_de_CH
 DIC2BIN= \
     de_CH.aff \
     de_CH.dic \
-    COPYING \
-    COPYING_OASIS \
-    Copyright \
-    INSTALL_de.txt \
-    README_de_CH.txt \
-    VERSION
+    README_de_CH.txt
 
 .ENDIF
 
