@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.3 $
+#   $Revision: 1.4 $
 #
-#   last change: $Author: kz $ $Date: 2006-04-27 09:41:06 $
+#   last change: $Author: obo $ $Date: 2007-07-18 08:02:14 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -51,12 +51,7 @@ TARGET  = dict_de_AT
 DIC2BIN= \
     de_AT.aff \
     de_AT.dic \
-    COPYING \
-    COPYING_OASIS \
-    Copyright \
-    INSTALL_de.txt \
-    README_de_AT.txt \
-    VERSION
+    README_de_AT.txt
 
 .ENDIF
 
