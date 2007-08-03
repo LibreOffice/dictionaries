@@ -15,9 +15,11 @@ di	dictionaries\it_IT	nmake	-	all	di_it_IT di_diclst NULL
 di	dictionaries\lt_LT	nmake	-	all	di_lt_LT di_diclst NULL
 di	dictionaries\nl_NL	nmake	-	all	di_nl_NL di_diclst NULL
 di      dictionaries\pl_PL      nmake   -       all     di_pl_PL di_diclst NULL
+di      dictionaries\pt_BR      nmake   -       all     di_pt_BR di_diclst NULL
 di	dictionaries\ru_RU	nmake	-	all	di_ru_RU di_diclst NULL
 di      dictionaries\th_TH      nmake   -       all     di_th_TH di_diclst NULL
 di      dictionaries\sk_SK      nmake   -       all     di_sk_SK di_diclst NULL
+di	dictionaries\sl_SI	nmake	-	all	di_sl_SI di_diclst NULL
 di      dictionaries\sv_SE      nmake   -       all     di_sv_SE di_diclst NULL
 di      dictionaries\sw_TZ      nmake   -       all     di_sw_TZ di_diclst NULL
-di      dictionaries\util       nmake   -       all     di_util di_af_ZA di_cs_CZ di_da_DK di_de_DE di_de_CH di_de_AT di_en_GB di_en_US di_et_EE di_hu_HU di_it_IT di_lt_LT di_nl_NL di_pl_PL di_ru_RU di_th_TH di_sk_SK di_sv_SE di_sw_TZ di_diclst NULL
+di      dictionaries\util       nmake   -       all     di_util di_af_ZA di_cs_CZ di_da_DK di_de_DE di_de_CH di_de_AT di_en_GB di_en_US di_et_EE di_hu_HU di_it_IT di_lt_LT di_nl_NL di_pl_PL di_pt_BR di_ru_RU di_th_TH di_sk_SK di_sl_SI di_sv_SE di_sw_TZ di_diclst NULL
