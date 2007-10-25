@@ -1,135 +1,135 @@
+Autor/Author: Raimundo Moura <raimundomoura@openoffice.org>
+
+pt-BR: Este dicionário está em desenvolvimento por Raimundo Moura e sua equipe. Ele está licenciado sob os termos da Licença Pública Geral Menor versão 2.1 (LGPLv2.1), como publicado pela Free Software Foundation. Os créditos estão disponíveis em http://www.broffice.org/creditos e você pode encontrar novas versões em http://www.broffice.org/verortografico.
+
+en-US: This dictionary is under development by Raimundo Moura and his team. It is licensed under the terms of the GNU Lesser General Public License version 2.1 (LGPLv2.1), as published by the Free Software Foundation. The credits are available at http://www.broffice.org/creditos and you can find new releases at http://www.broffice.org/verortografico.
+
+
 Copyright (C) 2006 - 2007 por/by Raimundo Santos Moura <raimundomoura@openoffice.org>
 
 =============
-APRESENTAÃ‡ÃƒO
+APRESENTAÇÃO
 =============
 
-O Projeto Verificador OrtogrÃ¡fico do BrOffice.org Ã© um projeto 
-colaborativo desenvolvido pela comunidade Brasileira. 
-A relaÃ§Ã£o completa dos colaboradores deste projeto estÃ¡ em: 
+O Projeto Verificador Ortográfico do BrOffice.org é um projeto
+colaborativo desenvolvido pela comunidade Brasileira.
+A relação completa dos colaboradores deste projeto está em:
 http://www.broffice.org.br/creditos
 
 ***********************************************************************
-* Este Ã© um dicionÃ¡rio para correÃ§Ã£o ortogrÃ¡fica da lÃ­ngua Portuguesa *
+* Este é um dicionário para correção ortográfica da língua Portuguesa *
 * para o Myspell.                                                     *
-* Este programa Ã© livre e pode ser redistribuÃ­do e/ou modificado nos  *
-* termos da GNU Lesser General Public License (LGPL) versÃ£o 2.1.      *
+* Este programa é livre e pode ser redistribuído e/ou modificado nos  *
+* termos da GNU Lesser General Public License (LGPL) versão 2.1.      *
 *                                                                     *
 ***********************************************************************
 
 ======================
-SOBRE ESTA ATUALIZAÃ‡ÃƒO
+SOBRE ESTA ATUALIZAÇÃO
 ======================
-
-Nova Estrutura de Afixos  
-
-Os arquivos foram totalmente reestruturados visando tornÃ¡-los mais
-organizados e mais compreensÃ­veis. Novas regras foram criadas e 
-aplicadas em todo o lÃ©xico. As regras para prefixos, sufixos e verbos
-receberam padronizaÃ§Ãµes que vieram facilitar suas identificaÃ§Ãµes,
-gerando mais otimizaÃ§Ã£o dos arquivos.
-
-O Trema 
-
-Ponto de controvÃ©rsias quanto Ã  sua usabilidade, este elemento Ã© tema
-de discussÃ£o entre os que defendem a sua aboliÃ§Ã£o e os que desejam a
-sua permanÃªncia embasados na legislaÃ§Ã£o vigente.
-
-AtÃ© a versÃ£o anterior as palavras com tremas eram validadas tambÃ©m sem
-ele, a exemplo de 'freqÃ¼Ãªncia' e 'frequÃªncia', como forma de tentar
-agradar a gregos e troianos, uma vez que muitos veÃ­culos de comunicaÃ§Ã£o
-jÃ¡ aboliram a sua utilizaÃ§Ã£o.
-
-A partir desta atualizaÃ§Ã£o, em atenÃ§Ã£o Ã s solicitaÃ§Ãµes dos nossos
-colaboradores, decidimos rever a nossa posiÃ§Ã£o e retirar as variaÃ§Ãµes
-sem o trema, respeitando o que estÃ¡ definido no sistema ortogrÃ¡fico
-brasileiro aprovado pela Academia Brasileira de Letras em 1943, com as
-alteraÃ§Ãµes introduzidas pela reforma de 1971.
-
-Salientamos que esta situaÃ§Ã£o ocorria apenas na versÃ£o brasileira. A 
-versÃ£o portuguesa desde o inÃ­cio fora concebida sem o uso do trema.
-
-Verbos 
-
-Foram corrigidas vÃ¡rias conjugaÃ§Ãµes de verbos terminados em 'ear', 
-'gar', e 'zer'.
-ConjugaÃ§Ãµes terminadas em 'Ã­rdes' (com acento) foram tambÃ©m corrigidas.
-Mais verbos foram acrescentados nesta atualizaÃ§Ã£o.
-
-Diminutivos  
-
-Muitos diminutivos de palavras terminadas em 'sÃ£o' e 'Ã§Ã£o' foram 
-endireitados. Outras palavras tambÃ©m sofreram correÃ§Ã£o em suas formas 
-diminutivas.
-
-Novos Termos JurÃ­dicos  
-
-Nesta atualizaÃ§Ã£o foram incluÃ­dos novos Termos JurÃ­dicos do idioma 
-portuguÃªs, uma colaboraÃ§Ã£o de Roberto Carlos Martins Pires, que tambÃ©m 
-Ã© autor de um dicionÃ¡rio temÃ¡tico sobre o assunto retratando os termos 
-em outros idiomas, usados pelo Direito Brasileiro, disponibilizado na 
-pÃ¡gina do Projeto DicionÃ¡rios TemÃ¡ticos.
-
-Novas palavras  
-
-O lÃ©xico conta ainda com inÃºmeras palavras novas, resultado da 
-participaÃ§Ã£o ativa dos nossos colaboradores. Houve, tambÃ©m, algumas 
-alteraÃ§Ãµes e exclusÃµes de termos incorretos.
-
+. Inclusão das regras para a formação das Ênclises e Mesóclises;
+. Nesta atualização foram analisados 1.849 termos, em sua maioria 
+  parônimos. Foram encontradas palavras grafadas com mais de uma
+  forma, a exemplo de 'charreu' e charréu, e eliminadas as incorretas 
+  (Colaboração de Leonardo Fontenelle).
+. Revisão e exclusão de 1.113 nomes próprios duplicados; 
+. Exclusão de associações errôneas de termos à regras (colaboração de
+  Leonardo Fontenelle), exemplos: ação/K, ligeiro/M, duplex/B, etc;  
+. Inclusão de algumas letras como 'à' e 'é' para correção de falha na 
+  versão 2.3 do BrOffice.org;
+. Correção do apóstrofo em algumas palavras com d' como: 
+  açucenas-d'água e pai-d'égua, cuja grafia apresentava o d´
+  (asento agudo ao invés do apóstrofo). Leonardo Fontenelle;
+. Inclusão dos termos 'triangularização','dinamicidade', 'mestranda',
+  colaboração de Leo Barichello;
+. Inclusão do  termo 'cochilos', colaboração de Rafael da Fonseca 
+  Duarte;
+. Inclusão dos termos 'couché', 'pré-obliterado', 'pré-filatelia' e 
+  'regomado', colaboração de Carlos Dalmiro Silva Soares;
+. Criação do Temático Filatélico por Carlos Dalmiro Silva Soares;
+. Correção da conjugação de verbos terminados em ear com som aberto,
+  como: idear e estrear. Colaboração Hortência Maria Moura;
+. Inclusão do gênero feminino dos numerais ordinais como:
+  ducentésima, trecentésima, tricentésima, quadringentésima, 
+  qüingentésima, sexcentésima, seiscentésima, septingentésima,
+  octingentésima e nongentésima;
+. Inclusão ds siglas dos Estados de Alagoas (AL) e Amapá (AP);
+. Inclusão de algumas palavras no gênero feminino, tais como: 
+  oficiala, hipopótama, faquiresa, etc.
+. Exclusão da forma singular da palavra 'víveres';
+. Correção na regra de conjugação de verbos terminados em: aguar,
+  equar e inquar. Exemplos adequar(adéqüe,adéqüem), desaguar (deságüem),
+  minguar (míngüe);
+. Correção de 'argüeiro' e 'desmilingüir' (trema);
+. Correção da conjugação dos verbos haver e reaver
+  inclusão de 'hemos' e 'heis', e exlusão de 'reei',
+  'reás', reá e reão;
+. Exclusão de 'corma' e 'satividade', colaboração Leo Barichello;
+. Exclusão de 'indentar' verbo e derivados;
+. Inclusão de 'hidroplanagem','biodisponibilidade';
+. Correção de termos compostos com prefixos: Neo, Contra,
+  ultra, semi, proto, supra, pseudo, auto, intra, extra,
+  infra. Evitando-se erros como: semianalfabeto,
+  infraestrutura, semiárido, etc.
+. Criação do Temático Microbiologia por Gervásio Paulo da Silva;
+. Inclusão dos termos 'historicamente' e 'Finlândia', colaboração de 
+  Sérgio A. Elarrat Canto;
+. Exclusão de 1.309 termos terminados em 'icamente' derivados de
+  palavras acentuadas terminadas em 'ia'. Aplicação errônea da regra;  
+ 
 =======================================================
 COMO INSTALAR O VERIFICADOR BRASILEIRO NO BROFFICE.ORG
 =======================================================
 
-Copie os arquivos pt_BR.dic e pt_BR.aff para o diretÃ³rio <BrOffice.org>
-/share/dict/ooo, onde <BrOffice.org> Ã© o diretÃ³rio em que o programa 
+Copie os arquivos pt_BR.dic e pt_BR.aff para o diretório <BrOffice.org>
+/share/dict/ooo, onde <BrOffice.org> é o diretório em que o programa 
 foi instalado.
 
-No Windows, normalmente, o caminho Ã© este: 
+No Windows, normalmente, o caminho é este: 
 C:\Arquivos de programas\BrOffice.org 2.0\share\dict\ooo, e no  Linux
 /opt/BrOffice.org/share/dict/ooo/.
 
-No mesmo diretÃ³rio, localize o arquivo dictionary.lst. Abra-o com um
-editor de textos e acrescente a seguinte linha ao final(se nÃ£o
+No mesmo diretório, localize o arquivo dictionary.lst. Abra-o com um
+editor de textos e acrescente a seguinte linha ao final(se não
 existir):
 
 DICT pt BR pt_BR
 
-Ã‰ necessÃ¡rio reiniciar o BrOffice, inclusive o inÃ­cio rÃ¡pido da versÃ£o
+É necessário reiniciar o BrOffice, inclusive o início rápido da versão
 para Windows que fica na barra de tarefas, para que o corretor
 funcione.
 
 ===================
-DÃšVIDAS FREQÃœENTES
+DÚVIDAS FREQUENTES
 ===================
 
-Os arquivos foram copiados mas o Verificador nÃ£o estÃ¡ funcionando.
-O Verificador OrtogrÃ¡fico nÃ£o deve estar configurado corretamente,
+Os arquivos foram copiados mas o Verificador não está funcionando.
+O Verificador Ortográfico não deve estar configurado corretamente,
 isto pode estar ocorrendo por um dos seguintes motivos:
 
-1- O dicionÃ¡rio provavelmente nÃ£o estÃ¡ instalado.
+1- O dicionário provavelmente não está instalado.
 
-Para se certificar de que estÃ¡ utilizando o idioma correto confira como
-estÃ£o as informaÃ§Ãµes em: Ferramentas >> OpÃ§Ãµes >>   ConfiguraÃ§Ãµes de
-Idioma >> Idiomas. O item Ocidental deve apresentar o dicionÃ¡rio
+Para se certificar de que está utilizando o idioma correto confira como
+estão as informações em: Ferramentas >> Opções >>   Configurações de
+Idioma >> Idiomas. O item Ocidental deve apresentar o dicionário
 selecionado (deve aparecer um logo "Abc" do lado do idioma).
 
-Se nÃ£o estiver PortuguÃªs (Brasil) mude para esse idioma. ApÃ³s
+Se não estiver Português (Brasil) mude para esse idioma. Após
 configurado clique em 'OK'.
-Feche o BrOffice.org, inclusive o Iniciador RÃ¡pido,  e em seguida reabra-o;
+Feche o BrOffice, inclusive o Iniciador Rápido,  e em seguida reabra-o;
 
 
-2 - O verificador nÃ£o estÃ¡ configurado para verificar texto ao digitar.
-Neste caso confira como estÃ£o as informaÃ§Ãµes em: Ferramentas >> OpÃ§Ãµes
->> ConfiguraÃ§Ãµes de Idiomas >> Recursos de VerificaÃ§Ã£o OrtogrÃ¡fica e, 
-no campo opÃ§Ãµes deste formulÃ¡rio marque a opÃ§Ã£o 'Verificar texto ao 
+2 - O verificador não está configurado para verificar texto ao digitar.
+Neste caso confira como estão as informações em: Ferramentas >> Opções
+>> Configurações de Idiomas >> Recursos de Verificação Ortográfica e, 
+no campo opções deste formulário marque a opção 'Verificar texto ao 
 digitar';
 
 
-Novas atualizaÃ§Ãµes estarÃ£o disponÃ­veis no site do BrOffice.Org, na
-pÃ¡gina do Verificador OrtogrÃ¡fico.
+Novas atualizações estarão disponíveis no site do BrOffice.Org, na
+página do Verificador Ortográfico.
 
-http://www.broffice.org.br/verortografico
-
+http://www.openoffice.org.br/?q=verortografico
 
 
 ============
@@ -153,66 +153,6 @@ http://www.broffice.org.br/creditos
 =================
 ABOUT THIS UPDATE
 =================
-
-New affix structure
-
-The files have been completely restructured with the purpose of letting
-them more organized and understandable. New rules have been created and
-applied in all the lexicon. The rules for prefixes, suffixes and verbs
-have been standardized ir order to ease their identifications,
-generating more optimized files.
-
-
-The diaresis
-
-A point of controversy as to its usability, this element is topic for discussion
-among those that defend its abolition and those who desire its permanence, based
-on current legislation.
-
-As far as the previous version, words with diaresis were also validated
-without it, in words such as 'freqÃ¼Ãªncia' and 'frequÃªncia', as a way to
-try to please both Greeks and Trojans, as many communication vehicles
-have already abolished its use.
-
-From this update onwards, answering the requests of our colaborators,
-we have decided to review this stance and remove the variations without the
-diaresis, respecting what is defined in the Brazilian ortographic system approved
-by the Brazilian Academy of Letters in 1943, with the changes introduced by the
-1971 reform.
-
-We enphasize that this situation occurred only in the Brazilian version. The
-Portuguse version, from its very start, was conceived without the use of the
-diaresis.
-
-
-Verbs
-
-Many verb conjugations ending in 'ear', 'gar', and 'zer'. Conjugations
-ending in 'Ã­rdes' (with accent) have also been corrected. More verbs
-have been added in this update.
-
-
-Diminutives
-
-Many word diminutives ending in 'sÃ£o' and 'Ã§Ã£o' have been straightened
-out. Other words have also been corrected in its diminutive forms.
-
-
-New Legal Terms
-
-In this update new Law Terms from the portuguese language have been
-included, a colaboration by Roberto Carlos Martins Pires, who is also
-the author of a theme dictionary on the subject, portraying the terms
-in other languages, used by Brazilian law, available on the page of the
-Thematic Dictionary Projects.
-
-
-New words
-
-The lexicon has now many new words, a result of the active participation
-of our colaborators. There has been, in addition, a few changes and
-exclusion of incorrect terms.
-
 
 ==============================================================
 HOW TO INSTALL THE BRAZILIAN ORTOGRAPH CHECKER IN BROFFICE.ORG
@@ -246,20 +186,21 @@ configured correctly, this may be due to one of the following reasons:
 1- The dictionary is probably not installed.
 
 To make sure that you are using the right language, check the information at
-Ferramentas >> OpÃ§Ãµes >>  ConfiguraÃ§Ãµes de Idioma >> Idiomas.
+Ferramentas >> Opções >>  Configurações de Idioma >> Idiomas.
 The item "Ocidental" must present the selected dictionary (a logo "Abc" should
 appear beside the language).
-If the language selected is not "PortuguÃªs (Brasil)" change to this language.
+If the language selected is not "Português (Brasil)" change to this language.
 After the configuration is correct, click on 'OK'.
 Close BrOffice and the fast start, and open it afterwards;
 
 2 - The checker is not configured to verify the orthography on typing. For this
 
 problem, check the information at
-"Ferramentas >> OpÃ§Ãµes >> ConfiguraÃ§Ãµes de Idiomas >> Recursos de VerificaÃ§Ã£o OrtogrÃ¡fica"
-and, in the field "OpÃ§Ãµes" of this form, check the option ''Verificar texto ao digitar';
+"Ferramentas >> Opções >> Configurações de Idiomas >> Recursos de Verificação Ortográfica"
+and, in the field "Opções" of this form, check the option ''Verificar texto ao digitar';
 
 New updates will be available at the BrOffice.Org website, on the page of the
 Orthography Checker.
 
 http://www.broffice.org/verortografico
+
