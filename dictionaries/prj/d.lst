@@ -1,7 +1,2 @@
 mkdir: %_DEST%\pck%_EXT%
 ..\%__SRC%\bin\*.zip %_DEST%\pck%_EXT%\*.zip
-..\pl_PL\hyph_pl_PL.dic                 %_DEST%\pck%_EXT%\hyph_pl_PL.dic
-..\pl_PL\README_hyph_pl_PL.txt          %_DEST%\pck%_EXT%\README_hyph_pl_PL.txt
-..\pl_PL\pl_PL.aff                      %_DEST%\pck%_EXT%\pl_PL.aff
-..\pl_PL\pl_PL.dic                      %_DEST%\pck%_EXT%\pl_PL.dic
-..\pl_PL\README_pl_PL.txt               %_DEST%\pck%_EXT%\README_pl_PL.txt
