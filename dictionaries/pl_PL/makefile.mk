@@ -2,9 +2,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.5 $
+#   $Revision: 1.6 $
 #
-#   last change: $Author: vg $ $Date: 2007-08-30 16:48:02 $
+#   last change: $Author: hr $ $Date: 2007-11-01 11:45:43 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -47,16 +47,12 @@ TARGET  = dict_pl_PL
 # DIC2BIN must be non-empty in order to generate the respective lines for
 # Polish in the dictionary.lst of the writingaids.zip
 
-# hyphenation and spell checking not yet to be included in OOo 2.3.
-# should happen starting with with OOo 2.3.1
-#DIC2BIN = \
-#    hyph_pl_PL.dic \
-#    README_hyph_pl_PL.txt \
-#    pl_PL.aff \
-#    pl_PL.dic \
-#    README_pl_PL.txt
-
-DIC2BIN = th_pl_PL_v2.zip
+DIC2BIN = \
+    hyph_pl_PL.dic \
+    README_hyph_pl_PL.txt \
+    pl_PL.aff \
+    pl_PL.dic \
+    README_pl_PL.txt
 
 .ENDIF
 
