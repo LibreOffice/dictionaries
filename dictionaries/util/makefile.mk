@@ -4,7 +4,7 @@ TARGET=pack_writing_aids
 
 .INCLUDE : settings.mk
 
-DICDEPS:=$(subst,/,$/ $(shell $(FIND) $(subst,$/,/ $(BIN)) -name "*.line"))
+DICDEPS:=$(subst,/,$/ $(shell @$(FIND) $(subst,$/,/ $(BIN)) -name "*.line"))
 
 
 ZIP1TARGET      = writingaids
