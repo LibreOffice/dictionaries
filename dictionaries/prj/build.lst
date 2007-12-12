@@ -9,10 +9,14 @@ di	dictionaries\de_CH	nmake	-	all	di_de_CH di_diclst NULL
 di	dictionaries\de_AT	nmake	-	all	di_de_AT di_diclst NULL
 di	dictionaries\en_GB	nmake	-	all	di_en_GB di_en_US di_diclst NULL
 di	dictionaries\en_US	nmake	-	all	di_en_US di_diclst NULL
+di	dictionaries\en_ZA	nmake	-	all	di_en_ZA di_diclst NULL
+di	dictionaries\es_ES	nmake	-	all	di_es_ES di_diclst NULL
 di	dictionaries\et_EE	nmake	-	all	di_et_EE di_diclst NULL
+di	dictionaries\fr_FR	nmake	-	all	di_fr_FR di_diclst NULL
 di	dictionaries\hu_HU	nmake	-	all	di_hu_HU di_diclst NULL
 di	dictionaries\it_IT	nmake	-	all	di_it_IT di_diclst NULL
 di	dictionaries\lt_LT	nmake	-	all	di_lt_LT di_diclst NULL
+di	dictionaries\ne_NP	nmake	-	all	di_ne_NP di_diclst NULL
 di	dictionaries\nl_NL	nmake	-	all	di_nl_NL di_diclst NULL
 di      dictionaries\pl_PL      nmake   -       all     di_pl_PL di_diclst NULL
 di      dictionaries\pt_BR      nmake   -       all     di_pt_BR di_diclst NULL
@@ -22,4 +26,5 @@ di      dictionaries\sk_SK      nmake   -       all     di_sk_SK di_diclst NULL
 di	dictionaries\sl_SI	nmake	-	all	di_sl_SI di_diclst NULL
 di      dictionaries\sv_SE      nmake   -       all     di_sv_SE di_diclst NULL
 di      dictionaries\sw_TZ      nmake   -       all     di_sw_TZ di_diclst NULL
-di      dictionaries\util       nmake   -       all     di_util di_af_ZA di_cs_CZ di_da_DK di_de_DE di_de_CH di_de_AT di_en_GB di_en_US di_et_EE di_hu_HU di_it_IT di_lt_LT di_nl_NL di_pl_PL di_pt_BR di_ru_RU di_th_TH di_sk_SK di_sl_SI di_sv_SE di_sw_TZ di_diclst NULL
+di      dictionaries\zu_ZA      nmake   -       all     di_zu_ZA di_diclst NULL
+di      dictionaries\util       nmake   -       all     di_util di_af_ZA di_cs_CZ di_da_DK di_de_DE di_de_CH di_de_AT di_en_GB di_en_US di_en_ZA di_es_ES di_et_EE di_fr_FR di_hu_HU di_it_IT di_lt_LT di_ne_NP di_nl_NL di_pl_PL di_pt_BR di_ru_RU di_th_TH di_sk_SK di_sl_SI di_sv_SE di_sw_TZ di_zu_ZA di_diclst NULL
