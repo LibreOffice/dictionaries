@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.6 $
+#   $Revision: 1.7 $
 #
-#   last change: $Author: rt $ $Date: 2005-09-08 17:57:57 $
+#   last change: $Author: kz $ $Date: 2007-12-12 13:21:42 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -50,7 +50,8 @@ DIC2BIN= \
     it_IT.aff \
     it_IT.dic \
     hyph_it_IT.dic \
-    README_it_IT.txt
+    README_it_IT.txt \
+    README_it_IT_thes.txt
 
 .ENDIF
 
@@ -59,3 +60,12 @@ DIC2BIN= \
 .INCLUDE : target.mk
 .INCLUDE : $(PRJ)$/util$/target.pmk
 
+.IF "$(DIC_ALL)$(DIC_ITIT)"!=""
+
+ALLTAR : $(MISC)$/th_it_IT_v2.don
+
+$(MISC)$/th_it_IT_v2.don: th_it_IT_v2.zip
+    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_it_IT_v2.zip
+    $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_it_IT_v2.idx <$(BIN)$/th_it_IT_v2.dat && $(TOUCH) $(MISC)$/th_it_IT_v2.don
+
+.ENDIF			# "$(DIC_ALL)$(DIC_ITIT)"!=""
