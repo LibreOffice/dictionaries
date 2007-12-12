@@ -4,9 +4,9 @@
 #
 #   $RCSfile: makefile.mk,v $
 #
-#   $Revision: 1.5 $
+#   $Revision: 1.6 $
 #
-#   last change: $Author: rt $ $Date: 2005-09-08 17:56:19 $
+#   last change: $Author: kz $ $Date: 2007-12-12 13:16:21 $
 #
 #   The Contents of this file are made available subject to
 #   the terms of GNU Lesser General Public License Version 2.1.
@@ -46,6 +46,8 @@ TARGET	= dict_da_DK
 .IF "$(DIC_ALL)$(DIC_DADK)"!=""
 
 DIC2BIN= \
+    da_DK.dic \
+    da_DK.aff \
     hyph_da_DK.dic
 
 .ENDIF
