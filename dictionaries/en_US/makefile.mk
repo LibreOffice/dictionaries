@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.18 $
+# $Revision: 1.19 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -44,8 +44,7 @@ TARGET	= dict_en_US
 
 DIC2BIN= \
     en_US.aff \
-    en_US.dic \
-    hyph_en_US.dic
+    en_US.dic
 
 .ENDIF
 
