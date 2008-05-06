@@ -8,7 +8,7 @@ DICDEPS:=$(subst,/,$/ $(shell @$(FIND) $(subst,$/,/ $(BIN)) -name "*.line"))
 
 
 ZIP1TARGET      = writingaids
-ZIP1LIST        = $(BIN)$/*.dic $(BIN)$/*.aff $(BIN)$/*.txt $(BIN)$/*.lst $(BIN)$/*.idx $(BIN)$/*.dat $(BIN)$/*.sxw
+ZIP1LIST        = $(BIN)$/*.dic $(BIN)$/*.aff $(BIN)$/*.txt $(BIN)$/*.lst $(BIN)$/*.idx $(BIN)$/*.dat $(BIN)$/*.sxw $(SOLARVER)$/$(INPATH)$/bin$/hyph_en_US.dic
 
 .INCLUDE : target.mk
 
