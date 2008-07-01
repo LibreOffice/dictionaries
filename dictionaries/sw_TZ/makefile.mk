@@ -1,14 +1,14 @@
 #*************************************************************************
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-# 
+#
 # Copyright 2008 by Sun Microsystems, Inc.
 #
 # OpenOffice.org - a multi-platform office productivity suite
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.4 $
+# $Revision: 1.5 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -29,28 +29,51 @@
 #
 #*************************************************************************
 
-PRJ = ..
+PRJ=..
 
-PRJNAME	= dictionaries
-TARGET  = dict_sw_TZ
+PRJNAME=dictionaries
+TARGET=dict-sw
 
-#----- Settings ---------------------------------------------------------
+# --- Settings -----------------------------------------------------
 
-.INCLUDE : settings.mk
+.INCLUDE: settings.mk
+# it might be useful to have an extension wide include to set things
+# like the EXTNAME variable (used for configuration processing)
+# .INCLUDE :  $(PRJ)$/source$/<extension name>$/<extension_name>.pmk
 
 # --- Files --------------------------------------------------------
 
-.IF "$(DIC_ALL)$(DIC_SWTZ)"!=""
+# name for uniq directory
+EXTENSIONNAME:=dict-sw
+EXTENSION_ZIPNAME:=dict-sw
 
-DIC2BIN= \
-    sw_TZ.dic \
-    sw_TZ.aff \
-    README_sw_TZ.txt
+# some other targets to be done
 
-.ENDIF
+# --- Extension packaging ------------------------------------------
 
-# --- Targets ------------------------------------------------------
+# just copy:
+COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/sw_TZ.aff \
+    $(EXTENSIONDIR)$/sw_TZ.dic \
+    $(EXTENSIONDIR)$/README_sw_TZ.txt
 
+COMPONENT_CONFIGDEST=.
+COMPONENT_XCU= \
+    $(EXTENSIONDIR)$/dictionaries.xcu
+
+# disable fetching default OOo license text
+# CUSTOM_LICENSE=README_da_DK.txt
+# override default license destination
+# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+
+# add own targets to packing dependencies (need to be done before
+# packing the xtension
+# EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
+EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)
+
+# global settings for extension packing
+.INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
-.INCLUDE : $(PRJ)$/util$/target.pmk
+# global targets for extension packing
+.INCLUDE : extension_post.mk
 
