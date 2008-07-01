@@ -1,30 +1,28 @@
 di      dictionaries :       lingucomponent hyphen NULL
 di	dictionaries					usr1 - all di_mkout NULL
-di	dictionaries\diclst	nmake	-	all	di_diclst NULL
-di	dictionaries\af_ZA	nmake	-	all	di_af_ZA di_diclst NULL
-di	dictionaries\cs_CZ	nmake	-	all	di_cs_CZ di_diclst NULL
-di	dictionaries\da_DK	nmake	-	all	di_da_DK di_diclst NULL
-di	dictionaries\de_DE	nmake	-	all	di_de_DE di_diclst NULL
-di	dictionaries\de_CH	nmake	-	all	di_de_CH di_diclst NULL
-di	dictionaries\de_AT	nmake	-	all	di_de_AT di_diclst NULL
-di	dictionaries\en_GB	nmake	-	all	di_en_GB di_en_US di_diclst NULL
-di	dictionaries\en_US	nmake	-	all	di_en_US di_diclst NULL
-di	dictionaries\en_ZA	nmake	-	all	di_en_ZA di_diclst NULL
-di	dictionaries\es_ES	nmake	-	all	di_es_ES di_diclst NULL
-di	dictionaries\et_EE	nmake	-	all	di_et_EE di_diclst NULL
-di	dictionaries\fr_FR	nmake	-	all	di_fr_FR di_diclst NULL
-di	dictionaries\hu_HU	nmake	-	all	di_hu_HU di_diclst NULL
-di	dictionaries\it_IT	nmake	-	all	di_it_IT di_diclst NULL
-di	dictionaries\lt_LT	nmake	-	all	di_lt_LT di_diclst NULL
-di	dictionaries\ne_NP	nmake	-	all	di_ne_NP di_diclst NULL
-di	dictionaries\nl_NL	nmake	-	all	di_nl_NL di_diclst NULL
-di      dictionaries\pl_PL      nmake   -       all     di_pl_PL di_diclst NULL
-di      dictionaries\pt_BR      nmake   -       all     di_pt_BR di_diclst NULL
-di	dictionaries\ru_RU	nmake	-	all	di_ru_RU di_diclst NULL
-di      dictionaries\th_TH      nmake   -       all     di_th_TH di_diclst NULL
-di      dictionaries\sk_SK      nmake   -       all     di_sk_SK di_diclst NULL
-di	dictionaries\sl_SI	nmake	-	all	di_sl_SI di_diclst NULL
-di      dictionaries\sv_SE      nmake   -       all     di_sv_SE di_diclst NULL
-di      dictionaries\sw_TZ      nmake   -       all     di_sw_TZ di_diclst NULL
-di      dictionaries\zu_ZA      nmake   -       all     di_zu_ZA di_diclst NULL
-di      dictionaries\util       nmake   -       all     di_util di_af_ZA di_cs_CZ di_da_DK di_de_DE di_de_CH di_de_AT di_en_GB di_en_US di_en_ZA di_es_ES di_et_EE di_fr_FR di_hu_HU di_it_IT di_lt_LT di_ne_NP di_nl_NL di_pl_PL di_pt_BR di_ru_RU di_th_TH di_sk_SK di_sl_SI di_sv_SE di_sw_TZ di_zu_ZA di_diclst NULL
+di      dictionaries\af_ZA      nmake   -       all     di_af_ZA NULL
+di      dictionaries\cs_CZ      nmake   -       all     di_cs_CZ NULL
+di      dictionaries\da_DK      nmake   -       all     di_da_DK NULL
+di      dictionaries\de_AT      nmake   -       all     di_de_AT NULL
+di      dictionaries\de_CH      nmake   -       all     di_de_CH NULL
+di      dictionaries\de_DE      nmake   -       all     di_de_DE di_de_AT di_de_CH NULL
+di      dictionaries\en_US      nmake   -       all     di_en_US NULL
+di      dictionaries\en_ZA      nmake   -       all     di_en_ZA NULL
+di      dictionaries\en_GB      nmake   -       all     di_en_GB di_en_US di_en_ZA NULL
+di      dictionaries\es_ES      nmake   -       all     di_es_ES NULL
+di      dictionaries\et_EE      nmake   -       all     di_et_EE NULL
+di      dictionaries\fr_FR      nmake   -       all     di_fr_FR NULL
+di      dictionaries\hu_HU      nmake   -       all     di_hu_HU NULL
+di      dictionaries\it_IT      nmake   -       all     di_it_IT NULL
+di      dictionaries\lt_LT      nmake   -       all     di_lt_LT NULL
+di      dictionaries\ne_NP      nmake   -       all     di_ne_NP NULL
+di      dictionaries\nl_NL      nmake   -       all     di_nl_NL NULL
+di      dictionaries\pl_PL      nmake   -       all     di_pl_PL NULL
+di      dictionaries\pt_BR      nmake   -       all     di_pt_BR NULL
+di      dictionaries\ru_RU      nmake   -       all     di_ru_RU NULL
+di      dictionaries\th_TH      nmake   -       all     di_th_TH NULL
+di      dictionaries\sk_SK      nmake   -       all     di_sk_SK NULL
+di      dictionaries\sl_SI      nmake   -       all     di_sl_SI NULL
+di      dictionaries\sv_SE      nmake   -       all     di_sv_SE NULL
+di      dictionaries\sw_TZ      nmake   -       all     di_sw_TZ NULL
+di      dictionaries\zu_ZA      nmake   -       all     di_zu_ZA NULL
