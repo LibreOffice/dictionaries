@@ -1,2 +1,2 @@
 mkdir: %_DEST%\pck%_EXT%
-..\%__SRC%\bin\*.zip %_DEST%\pck%_EXT%\*.zip
+..\%__SRC%\bin\*.oxt %_DEST%\pck%_EXT%\*.oxt
