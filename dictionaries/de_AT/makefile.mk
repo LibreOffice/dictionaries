@@ -1,14 +1,14 @@
 #*************************************************************************
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-# 
+#
 # Copyright 2008 by Sun Microsystems, Inc.
 #
 # OpenOffice.org - a multi-platform office productivity suite
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.5 $
+# $Revision: 1.6 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -29,30 +29,54 @@
 #
 #*************************************************************************
 
-PRJ = ..
+PRJ=..
 
-PRJNAME	= dictionaries
-TARGET  = dict_de_AT
+PRJNAME=dictionaries
+TARGET=dict-de
 
-#----- Settings ---------------------------------------------------------
+# --- Settings -----------------------------------------------------
 
-.INCLUDE : settings.mk
+.INCLUDE: settings.mk
+# it might be useful to have an extension wide include to set things
+# like the EXTNAME variable (used for configuration processing)
+# .INCLUDE :  $(PRJ)$/source$/<extension name>$/<extension_name>.pmk
 
 # --- Files --------------------------------------------------------
 
-.IF "$(DIC_ALL)$(DIC_DEAT)"!=""
+# name for uniq directory
+EXTENSIONNAME:=dict-de
+EXTENSION_ZIPNAME:=dict-de
+COMPONNENT_COPYONLY=TRUE
 
-## !! Note the thesaurus for de_AT is the same as for de_DE and     !! 
-## !! gets packed there                                             !!
-DIC2BIN= \
-    de_AT.aff \
-    de_AT.dic \
-    README_de_AT.txt
+# some other targets to be done
 
-.ENDIF
+# --- Extension packaging ------------------------------------------
 
-# --- Targets ------------------------------------------------------
+# just copy:
+COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/COPYING \
+    $(EXTENSIONDIR)$/COPYING_OASIS \
+    $(EXTENSIONDIR)$/Copyright \
+    $(EXTENSIONDIR)$/de_AT.aff \
+    $(EXTENSIONDIR)$/de_AT.dic \
+    $(EXTENSIONDIR)$/INSTALL_de.txt \
+    $(EXTENSIONDIR)$/README_de_AT.txt \
+    $(EXTENSIONDIR)$/README_de_AT_thes.txt \
+    $(EXTENSIONDIR)$/VERSION
 
+# disable fetching default OOo license text
+# CUSTOM_LICENSE=Copyright
+# override default license destination
+# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+
+# add own targets to packing dependencies (need to be done before
+# packing the xtension
+# EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
+EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)
+
+# global settings for extension packing
+.INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
-.INCLUDE : $(PRJ)$/util$/target.pmk
+# global targets for extension packing
+.INCLUDE : extension_post.mk
 
