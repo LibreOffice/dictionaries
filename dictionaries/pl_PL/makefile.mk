@@ -1,14 +1,14 @@
 #*************************************************************************
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-# 
+#
 # Copyright 2008 by Sun Microsystems, Inc.
 #
 # OpenOffice.org - a multi-platform office productivity suite
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.7 $
+# $Revision: 1.8 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -29,43 +29,63 @@
 #
 #*************************************************************************
 
-PRJ = ..
+PRJ=..
 
-PRJNAME	= dictionaries
-TARGET  = dict_pl_PL
+PRJNAME=dictionaries
+TARGET=dict-pl
 
-#----- Settings ---------------------------------------------------------
+# --- Settings -----------------------------------------------------
 
-.INCLUDE : settings.mk
+.INCLUDE: settings.mk
+# it might be useful to have an extension wide include to set things
+# like the EXTNAME variable (used for configuration processing)
+# .INCLUDE :  $(PRJ)$/source$/<extension name>$/<extension_name>.pmk
 
 # --- Files --------------------------------------------------------
 
-.IF "$(DIC_ALL)$(DIC_PLPL)"!="" 
+# name for uniq directory
+EXTENSIONNAME:=dict-pl
+EXTENSION_ZIPNAME:=dict-pl
 
-# DIC2BIN must be non-empty in order to generate the respective lines for
-# Polish in the dictionary.lst of the writingaids.zip
+# some other targets to be done
 
-DIC2BIN = \
-    hyph_pl_PL.dic \
-    README_hyph_pl_PL.txt \
-    pl_PL.aff \
-    pl_PL.dic \
-    README_pl_PL.txt
+# --- Extension packaging ------------------------------------------
 
-.ENDIF
+# just copy:
+COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/pl_PL.aff \
+    $(EXTENSIONDIR)$/pl_PL.dic \
+    $(EXTENSIONDIR)$/hyph_pl_PL.dic \
+    $(EXTENSIONDIR)$/README_pl_PL.txt \
+    $(EXTENSIONDIR)$/README_hyph_pl_PL.txt
 
-# --- Targets ------------------------------------------------------
+COMPONENT_CONFIGDEST=.
+COMPONENT_XCU= \
+    $(EXTENSIONDIR)$/dictionaries.xcu
 
+# disable fetching default OOo license text
+# CUSTOM_LICENSE=Copyright
+# override default license destination
+# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+
+COMPONENT_ZIP:=$(PWD)$/th_pl_PL_v2.zip
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_pl_PL_v2.dat \
+    $(EXTENSIONDIR)$/th_pl_PL_v2.idx \
+    $(EXTENSIONDIR)$/README_th_pl_PL_v2.txt
+
+# add own targets to packing dependencies (need to be done before
+# packing the xtension
+# EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
+EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)
+
+# global settings for extension packing
+.INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
-.INCLUDE : $(PRJ)$/util$/target.pmk
+# global targets for extension packing
+.INCLUDE : extension_post.mk
 
-.IF "$(DIC_ALL)$(DIC_PLPL)"!=""
-
-ALLTAR : $(MISC)$/th_pl_PL_v2.don
-
-$(MISC)$/th_pl_PL_v2.don: th_pl_PL_v2.zip
-    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_pl_PL_v2.zip && $(TOUCH) ..$/misc$/th_pl_PL_v2.don
-# .idx file is already part of the zip-archive
-#    +$(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_pl_PL_v2.idx <$(BIN)$/th_pl_PL_v2.dat && $(TOUCH) $(MISC)$/th_pl_PL_v2.don
-
-.ENDIF          # "$(DIC_ALL)$(DIC_PLPL)"!=""
+.IF "$(COMPONENT_UNZIP_FILES)"!=""
+$(COMPONENT_UNZIP_FILES) : "$(COMPONENT_ZIP)"
+    cd $(EXTENSIONDIR) && unzip -o $< $(subst,$(EXTENSIONDIR)$/, $@)
+.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
