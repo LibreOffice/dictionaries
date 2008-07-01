@@ -1,14 +1,14 @@
 #*************************************************************************
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-# 
+#
 # Copyright 2008 by Sun Microsystems, Inc.
 #
 # OpenOffice.org - a multi-platform office productivity suite
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.8 $
+# $Revision: 1.9 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -29,39 +29,65 @@
 #
 #*************************************************************************
 
-PRJ = ..
+PRJ=..
 
-PRJNAME	= dictionaries
-TARGET	= dict_it_IT
+PRJNAME=dictionaries
+TARGET=dict-it
 
-#----- Settings ---------------------------------------------------------
+# --- Settings -----------------------------------------------------
 
-.INCLUDE : settings.mk
+.INCLUDE: settings.mk
+# it might be useful to have an extension wide include to set things
+# like the EXTNAME variable (used for configuration processing)
+# .INCLUDE :  $(PRJ)$/source$/<extension name>$/<extension_name>.pmk
 
 # --- Files --------------------------------------------------------
 
-.IF "$(DIC_ALL)$(DIC_ITIT)"!=""
+# name for uniq directory
+EXTENSIONNAME:=dict-it
+EXTENSION_ZIPNAME:=dict-it
 
-DIC2BIN= \
-    it_IT.aff \
-    it_IT.dic \
-    hyph_it_IT.dic \
-    README_it_IT.txt \
-    README_it_IT_thes.txt
+# some other targets to be done
 
-.ENDIF
+# --- Extension packaging ------------------------------------------
 
-# --- Targets ------------------------------------------------------
+# just copy:
+COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/it_IT.aff \
+    $(EXTENSIONDIR)$/it_IT.dic \
+    $(EXTENSIONDIR)$/hyph_it_IT.dic \
+    $(EXTENSIONDIR)$/README_it_IT.txt \
+    $(EXTENSIONDIR)$/README_it_IT_thes.txt \
+    $(EXTENSIONDIR)$/README_hyph_it_IT.txt
 
+COMPONENT_CONFIGDEST=.
+COMPONENT_XCU= \
+    $(EXTENSIONDIR)$/dictionaries.xcu
+
+# disable fetching default OOo license text
+# CUSTOM_LICENSE=README_da_DK.txt
+# override default license destination
+# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+
+COMPONENT_ZIP:=$(PWD)$/th_it_IT_v2.zip
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_it_IT_v2.dat 
+
+# add own targets to packing dependencies (need to be done before
+# packing the xtension
+# EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
+EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)     $(EXTENSIONDIR)$/th_it_IT_v2.idx
+
+# global settings for extension packing
+.INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
-.INCLUDE : $(PRJ)$/util$/target.pmk
+# global targets for extension packing
+.INCLUDE : extension_post.mk
 
-.IF "$(DIC_ALL)$(DIC_ITIT)"!=""
+.IF "$(COMPONENT_UNZIP_FILES)"!=""
+$(COMPONENT_UNZIP_FILES) : "$(COMPONENT_ZIP)"
+    cd $(EXTENSIONDIR) && unzip -o $< $(subst,$(EXTENSIONDIR)$/, $@)
+.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
 
-ALLTAR : $(MISC)$/th_it_IT_v2.don
-
-$(MISC)$/th_it_IT_v2.don: th_it_IT_v2.zip
-    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_it_IT_v2.zip
-    $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_it_IT_v2.idx <$(BIN)$/th_it_IT_v2.dat && $(TOUCH) $(MISC)$/th_it_IT_v2.don
-
-.ENDIF			# "$(DIC_ALL)$(DIC_ITIT)"!=""
+$(EXTENSIONDIR)$/th_it_IT_v2.idx : "$(EXTENSIONDIR)$/th_it_IT_v2.dat"
+        $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_it_IT_v2.idx <$(EXTENSIONDIR)$/th_it_IT_v2.dat
