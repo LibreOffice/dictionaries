@@ -1,14 +1,14 @@
 #*************************************************************************
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-# 
+#
 # Copyright 2008 by Sun Microsystems, Inc.
 #
 # OpenOffice.org - a multi-platform office productivity suite
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.3 $
+# $Revision: 1.4 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -29,28 +29,52 @@
 #
 #*************************************************************************
 
-PRJ = ..
+PRJ=..
 
-PRJNAME	= dictionaries
-TARGET  = dict_pt_BR
+PRJNAME=dictionaries
+TARGET=dict-pt
 
-#----- Settings ---------------------------------------------------------
+# --- Settings -----------------------------------------------------
 
-.INCLUDE : settings.mk
+.INCLUDE: settings.mk
+# it might be useful to have an extension wide include to set things
+# like the EXTNAME variable (used for configuration processing)
+# .INCLUDE :  $(PRJ)$/source$/<extension name>$/<extension_name>.pmk
 
 # --- Files --------------------------------------------------------
 
-.IF "$(DIC_ALL)$(DIC_PTBR)"!=""
+# name for uniq directory
+EXTENSIONNAME:=dict-pt
+EXTENSION_ZIPNAME:=dict-pt
 
-DIC2BIN= \
-    pt_BR.aff \
-    pt_BR.dic \
-    README_pt_BR.txt
+# some other targets to be done
 
-.ENDIF
+# --- Extension packaging ------------------------------------------
 
-# --- Targets ------------------------------------------------------
+# just copy:
+COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/pt_BR.aff \
+    $(EXTENSIONDIR)$/pt_BR.dic \
+    $(EXTENSIONDIR)$/copyright.txt \
+    $(EXTENSIONDIR)$/README_pt_BR.txt
 
+COMPONENT_CONFIGDEST=.
+COMPONENT_XCU= \
+    $(EXTENSIONDIR)$/dictionaries.xcu
+
+# disable fetching default OOo license text
+# CUSTOM_LICENSE=README_da_DK.txt
+# override default license destination
+# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+
+# add own targets to packing dependencies (need to be done before
+# packing the xtension
+# EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
+EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)
+
+# global settings for extension packing
+.INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
-.INCLUDE : $(PRJ)$/util$/target.pmk
+# global targets for extension packing
+.INCLUDE : extension_post.mk
 
