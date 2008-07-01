@@ -1,14 +1,14 @@
 #*************************************************************************
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-# 
+#
 # Copyright 2008 by Sun Microsystems, Inc.
 #
 # OpenOffice.org - a multi-platform office productivity suite
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.7 $
+# $Revision: 1.8 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -29,40 +29,63 @@
 #
 #*************************************************************************
 
-PRJ = ..
+PRJ=..
 
-PRJNAME	= dictionaries
-TARGET  = dict_de_CH
+PRJNAME=dictionaries
+TARGET=dict-de
 
-#----- Settings ---------------------------------------------------------
+# --- Settings -----------------------------------------------------
 
-.INCLUDE : settings.mk
+.INCLUDE: settings.mk
+# it might be useful to have an extension wide include to set things
+# like the EXTNAME variable (used for configuration processing)
+# .INCLUDE :  $(PRJ)$/source$/<extension name>$/<extension_name>.pmk
 
 # --- Files --------------------------------------------------------
 
-.IF "$(DIC_ALL)$(DIC_DECH)"!=""
+# name for uniq directory
+EXTENSIONNAME:=dict-de
+EXTENSION_ZIPNAME:=dict-de
+COMPONNENT_COPYONLY=TRUE
 
-DIC2BIN= \
-    de_CH.aff \
-    de_CH.dic \
-    README_de_CH.txt
+# some other targets to be done
 
-.ENDIF
+# --- Extension packaging ------------------------------------------
 
-# --- Targets ------------------------------------------------------
+# just copy:
+COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/COPYING \
+    $(EXTENSIONDIR)$/COPYING_OASIS \
+    $(EXTENSIONDIR)$/Copyright \
+    $(EXTENSIONDIR)$/de_CH.aff \
+    $(EXTENSIONDIR)$/de_CH.dic \
+    $(EXTENSIONDIR)$/INSTALL_de.txt \
+    $(EXTENSIONDIR)$/README_de_CH.txt \
+    $(EXTENSIONDIR)$/VERSION
 
+# disable fetching default OOo license text
+# CUSTOM_LICENSE=Copyright
+# override default license destination
+# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+
+COMPONENT_ZIP:=$(PWD)$/thes_de_CH_v2.zip
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_de_CH_v2.dat \
+    $(EXTENSIONDIR)$/th_de_CH_v2.idx \
+    $(EXTENSIONDIR)$/README_th_de_CH_v2.txt
+
+# add own targets to packing dependencies (need to be done before
+# packing the xtension
+# EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
+EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)
+
+# global settings for extension packing
+.INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
-.INCLUDE : $(PRJ)$/util$/target.pmk
+# global targets for extension packing
+.INCLUDE : extension_post.mk
 
-#
-# add thesaurus for de_CH
-#
-.IF "$(DIC_ALL)$(DIC_DECH)"!=""
-
-ALLTAR : $(MISC)$/thes_de_CH_v2.don
-
-$(MISC)$/thes_de_CH_v2.don: thes_de_CH_v2.zip
-    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/thes_de_CH_v2.zip && $(TOUCH) ..$/misc$/thes_de_CH_v2.don
-
-.ENDIF
-
+.IF "$(COMPONENT_UNZIP_FILES)"!=""
+$(COMPONENT_UNZIP_FILES) : "$(COMPONENT_ZIP)"
+    cd $(EXTENSIONDIR) && unzip -o $< $(subst,$(EXTENSIONDIR)$/, $@)
+.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
