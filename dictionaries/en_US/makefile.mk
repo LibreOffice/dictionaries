@@ -1,14 +1,14 @@
 #*************************************************************************
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-# 
+#
 # Copyright 2008 by Sun Microsystems, Inc.
 #
 # OpenOffice.org - a multi-platform office productivity suite
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.19 $
+# $Revision: 1.20 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -29,45 +29,60 @@
 #
 #*************************************************************************
 
-PRJ = ..
+PRJ=..
 
-PRJNAME	= dictionaries
-TARGET	= dict_en_US
+PRJNAME=dictionaries
+TARGET=dict-en
 
-#----- Settings ---------------------------------------------------------
+# --- Settings -----------------------------------------------------
 
-.INCLUDE : settings.mk
+.INCLUDE: settings.mk
+# it might be useful to have an extension wide include to set things
+# like the EXTNAME variable (used for configuration processing)
+# .INCLUDE :  $(PRJ)$/source$/<extension name>$/<extension_name>.pmk
 
 # --- Files --------------------------------------------------------
 
-.IF "$(DIC_ALL)$(DIC_ENUS)"!=""
+# name for uniq directory
+EXTENSIONNAME:=dict-en
+EXTENSION_ZIPNAME:=dict-en
+COMPONNENT_COPYONLY=TRUE
 
-DIC2BIN= \
-    en_US.aff \
-    en_US.dic
+# some other targets to be done
 
-.ENDIF
+# --- Extension packaging ------------------------------------------
 
-# add WordNet license to American and British English
-.IF "$(DIC_ALL)$(DIC_ENUS)$(DIC_ENGB)"!=""
+# just copy:
+COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/en_US.aff \
+    $(EXTENSIONDIR)$/en_US.dic \
+    $(EXTENSIONDIR)$/README_en_US.txt \
+    $(EXTENSIONDIR)$/WordNet_license.txt
 
-DIC2BIN+= \
-    WordNet_license.txt
+# disable fetching default OOo license text
+# CUSTOM_LICENSE=WordNet_license.txt
+# override default license destination
+# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
 
-.ENDIF
+COMPONENT_ZIP:=$(PWD)$/th_en_US_v2.zip
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_en_US_v2.dat 
 
-# --- Targets ------------------------------------------------------
+# add own targets to packing dependencies (need to be done before
+# packing the xtension
+# EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
+EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(EXTENSIONDIR)$/th_en_US_v2.idx
 
+# global settings for extension packing
+.INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
-.INCLUDE : $(PRJ)$/util$/target.pmk
+# global targets for extension packing
+.INCLUDE : extension_post.mk
 
-# add WordNet thesaurus to American and British English
-.IF "$(DIC_ALL)$(DIC_ENUS)$(DIC_ENGB)"!=""
+.IF "$(COMPONENT_UNZIP_FILES)"!=""
+$(COMPONENT_UNZIP_FILES) : "$(COMPONENT_ZIP)"
+    cd $(EXTENSIONDIR) && unzip -o $< $(subst,$(EXTENSIONDIR)$/, $@)
+.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
 
-ALLTAR : $(MISC)$/th_en_US_v2.don
-
-$(MISC)$/th_en_US_v2.don: th_en_US_v2.zip
-    cd $(BIN) && $(WRAPCMD) unzip -o $(PWD)$/th_en_US_v2.zip
-    $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(BIN)$/th_en_US_v2.idx <$(BIN)$/th_en_US_v2.dat && $(TOUCH) $(MISC)$/th_en_US_v2.don
-
-.ENDIF			# "$(DIC_ALL)$(DIC_ENUS)$(DIC_ENGB)"!=""
+$(EXTENSIONDIR)$/th_en_US_v2.idx : "$(EXTENSIONDIR)$/th_en_US_v2.dat"
+        $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_en_US_v2.idx <$(EXTENSIONDIR)$/th_en_US_v2.dat
