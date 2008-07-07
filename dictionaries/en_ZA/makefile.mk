@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.4 $
+# $Revision: 1.5 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -46,7 +46,7 @@ TARGET=dict-en
 # name for uniq directory
 EXTENSIONNAME:=dict-en
 EXTENSION_ZIPNAME:=dict-en
-COMPONNENT_COPYONLY=TRUE
+COMPONENT_COPYONLY=TRUE
 
 # some other targets to be done
 
@@ -66,7 +66,7 @@ COMPONENT_FILES= \
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk

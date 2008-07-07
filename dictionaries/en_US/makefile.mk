@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.20 $
+# $Revision: 1.21 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -46,7 +46,7 @@ TARGET=dict-en
 # name for uniq directory
 EXTENSIONNAME:=dict-en
 EXTENSION_ZIPNAME:=dict-en
-COMPONNENT_COPYONLY=TRUE
+COMPONENT_COPYONLY=TRUE
 
 # some other targets to be done
 
@@ -81,8 +81,10 @@ EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(EXTENSIONDIR)$/th_en_US_v2.idx
 
 .IF "$(COMPONENT_UNZIP_FILES)"!=""
 $(COMPONENT_UNZIP_FILES) : "$(COMPONENT_ZIP)"
+    @@-$(MKDIRHIER) $(@:d)
     cd $(EXTENSIONDIR) && unzip -o $< $(subst,$(EXTENSIONDIR)$/, $@)
 .ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
 
 $(EXTENSIONDIR)$/th_en_US_v2.idx : "$(EXTENSIONDIR)$/th_en_US_v2.dat"
-        $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_en_US_v2.idx <$(EXTENSIONDIR)$/th_en_US_v2.dat
+    @@-$(MKDIRHIER) $(@:d)
+    $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_en_US_v2.idx <$(EXTENSIONDIR)$/th_en_US_v2.dat

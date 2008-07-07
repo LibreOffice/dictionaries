@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.7 $
+# $Revision: 1.8 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -72,7 +72,7 @@ COMPONENT_XCU= \
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
