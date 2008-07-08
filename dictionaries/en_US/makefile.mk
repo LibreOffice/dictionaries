@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.21 $
+# $Revision: 1.22 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -71,7 +71,7 @@ COMPONENT_UNZIP_FILES= \
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(EXTENSIONDIR)$/th_en_US_v2.idx
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES) $(EXTENSIONDIR)$/th_en_US_v2.idx
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
