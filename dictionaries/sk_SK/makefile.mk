@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.6 $
+# $Revision: 1.7 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -55,21 +55,20 @@ EXTENSION_ZIPNAME:=dict-sk
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/sk_SK.aff \
     $(EXTENSIONDIR)$/sk_SK.dic \
-    $(EXTENSIONDIR)$/README_sk_SK.txt \
-    $(EXTENSIONDIR)$/th_sk_SK_license.txt
+    $(EXTENSIONDIR)$/README_sk_SK.txt
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=WordNet_license.txt
+CUSTOM_LICENSE=th_sk_SK_license.txt
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 COMPONENT_ZIP:=$(PWD)$/th_sk_SK_v2.zip
 COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_sk_SK_v2.dat 
+    $(EXTENSIONDIR)$/th_sk_SK_v2.dat
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
