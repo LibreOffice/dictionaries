@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.5 $
+# $Revision: 1.6 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -52,21 +52,20 @@ EXTENSION_ZIPNAME:=dict-cs
 # --- Extension packaging ------------------------------------------
 
 # just copy:
-COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/th_cs_CZ_license.txt
+# COMPONENT_FILES=
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=th_cs_CZ_license.txt
+CUSTOM_LICENSE=th_cs_CZ_license.txt
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 COMPONENT_ZIP:=$(PWD)$/th_cs_CZ_v2.zip
 COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_cs_CZ_v2.dat 
+    $(EXTENSIONDIR)$/th_cs_CZ_v2.dat
 
 
 # add own targets to packing dependencies (need to be done before
