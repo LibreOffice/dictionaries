@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.9 $
+# $Revision: 1.10 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -56,7 +56,6 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/it_IT.aff \
     $(EXTENSIONDIR)$/it_IT.dic \
     $(EXTENSIONDIR)$/hyph_it_IT.dic \
-    $(EXTENSIONDIR)$/README_it_IT.txt \
     $(EXTENSIONDIR)$/README_it_IT_thes.txt \
     $(EXTENSIONDIR)$/README_hyph_it_IT.txt
 
@@ -65,13 +64,13 @@ COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=README_da_DK.txt
+CUSTOM_LICENSE=README_it_IT.txt
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 COMPONENT_ZIP:=$(PWD)$/th_it_IT_v2.zip
 COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_it_IT_v2.dat 
+    $(EXTENSIONDIR)$/th_it_IT_v2.dat
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
