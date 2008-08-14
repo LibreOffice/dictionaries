@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.4 $
+# $Revision: 1.5 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -54,22 +54,21 @@ EXTENSION_ZIPNAME:=dict-es
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/es_ES.aff \
-    $(EXTENSIONDIR)$/es_ES.dic \
-    $(EXTENSIONDIR)$/README_es_ES.txt
+    $(EXTENSIONDIR)$/es_ES.dic
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=README_da_DK.txt
+CUSTOM_LICENSE=README_es_ES.txt
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
