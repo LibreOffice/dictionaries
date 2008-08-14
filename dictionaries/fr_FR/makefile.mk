@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.4 $
+# $Revision: 1.5 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -54,17 +54,16 @@ EXTENSION_ZIPNAME:=dict-fr
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/fr_FR.aff \
-    $(EXTENSIONDIR)$/fr_FR.dic \
-    $(EXTENSIONDIR)$/README_fr_FR.txt
+    $(EXTENSIONDIR)$/fr_FR.dic
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=README_da_DK.txt
+CUSTOM_LICENSE=README_fr_FR.txt
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
