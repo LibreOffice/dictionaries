@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.8 $
+# $Revision: 1.9 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -56,7 +56,6 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/pl_PL.aff \
     $(EXTENSIONDIR)$/pl_PL.dic \
     $(EXTENSIONDIR)$/hyph_pl_PL.dic \
-    $(EXTENSIONDIR)$/README_pl_PL.txt \
     $(EXTENSIONDIR)$/README_hyph_pl_PL.txt
 
 COMPONENT_CONFIGDEST=.
@@ -64,9 +63,9 @@ COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=Copyright
+CUSTOM_LICENSE=README_pl_PL.txt
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 COMPONENT_ZIP:=$(PWD)$/th_pl_PL_v2.zip
 COMPONENT_UNZIP_FILES= \
@@ -77,7 +76,7 @@ COMPONENT_UNZIP_FILES= \
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(COMPONENT_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk

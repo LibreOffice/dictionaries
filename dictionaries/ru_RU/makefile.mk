@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.8 $
+# $Revision: 1.9 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -53,21 +53,20 @@ EXTENSION_ZIPNAME:=dict-ru
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/hyph_ru_RU.dic \
-    $(EXTENSIONDIR)$/README_thes_ru_RU.txt
+    $(EXTENSIONDIR)$/hyph_ru_RU.dic
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=Copyright
+CUSTOM_LICENSE=README_thes_ru_RU.txt
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 COMPONENT_ZIP:=$(PWD)$/th_ru_RU_v2.zip
 COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_ru_RU_v2.dat 
+    $(EXTENSIONDIR)$/th_ru_RU_v2.dat
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
