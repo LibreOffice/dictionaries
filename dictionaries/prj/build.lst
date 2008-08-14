@@ -12,6 +12,7 @@ di      dictionaries\en_GB      nmake   -       all     di_en_GB di_en_US di_en_
 di      dictionaries\es_ES      nmake   -       all     di_es_ES NULL
 di      dictionaries\et_EE      nmake   -       all     di_et_EE NULL
 di      dictionaries\fr_FR      nmake   -       all     di_fr_FR NULL
+di      dictionaries\gl         nmake   -       all     di_gl NULL
 di      dictionaries\hu_HU      nmake   -       all     di_hu_HU NULL
 di      dictionaries\it_IT      nmake   -       all     di_it_IT NULL
 di      dictionaries\lt_LT      nmake   -       all     di_lt_LT NULL
