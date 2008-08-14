@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.4 $
+# $Revision: 1.5 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -55,7 +55,6 @@ EXTENSION_ZIPNAME:=dict-ne
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/ne_NP.aff \
     $(EXTENSIONDIR)$/ne_NP.dic \
-    $(EXTENSIONDIR)$/README_ne_NP.txt \
     $(EXTENSIONDIR)$/README_th_ne_NP_v2.txt
 
 COMPONENT_CONFIGDEST=.
@@ -63,13 +62,13 @@ COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=WordNet_license.txt
+CUSTOM_LICENSE=README_ne_NP.txt
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 COMPONENT_ZIP:=$(PWD)$/th_ne_NP_v2.zip
 COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_ne_NP_v2.dat 
+    $(EXTENSIONDIR)$/th_ne_NP_v2.dat
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
