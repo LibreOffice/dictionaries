@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.8 $
+# $Revision: 1.9 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -55,22 +55,21 @@ EXTENSION_ZIPNAME:=dict-da
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/da_DK.aff \
     $(EXTENSIONDIR)$/da_DK.dic \
-    $(EXTENSIONDIR)$/hyph_da_DK.dic \
-    $(EXTENSIONDIR)$/README_da_DK.txt
+    $(EXTENSIONDIR)$/hyph_da_DK.dic
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=README_da_DK.txt
+CUSTOM_LICENSE=README_da_DK.txt
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
