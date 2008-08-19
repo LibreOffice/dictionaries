@@ -3,6 +3,8 @@ TRY eiarsntolucéÉmpdgbhfvqjyxèÈzâÂkêÊçÇîÎïÏwûÛôÔàÀëËüÜöÖóÓíÍùÙáÁäÄ½æ¼Æ
 
 WORDCHARS -
 
+NOSUGGEST Z
+
 MAP 12
 MAP aàâä
 MAP eéèêë
@@ -12,16 +14,20 @@ MAP uùûü
 MAP cç
 MAP AÀÂÄ
 MAP EÉÈÊË
-MAP IÎÏ
+MAP IÎÏY
 MAP OÔÖ
 MAP UÙÛÜ
 MAP CÇ
 
-REP 28
+REP 60
 REP f ph
 REP ph f
 REP c qu
 REP qu c
+REP k qu
+REP qu k
+REP x ct
+REP ct x
 REP bb b
 REP b bb
 REP cc c
@@ -40,40 +46,40 @@ REP rr r
 REP r rr
 REP ss s
 REP s ss
+REP ss c
+REP c ss
+REP ss ç
+REP ç ss
 REP tt t
 REP t tt
 REP ½ oe
 REP oe ½
 REP æ ae
 REP ae æ
-
-PFX C Y 3
-PFX C   0          contre-    [aàâeèéêiîoôuh½æ]
-PFX C   0          contr      [aàâeèéêiîoôu½æ]
-PFX C   0          contre     [^aàâeèéêiîoôu½æ]
-
-PFX D Y 2
-PFX D   0          dé         [^aàâeèéêiîoôuh½æ]
-PFX D   0          dés        [aàâeèéêiîoôuh½æ]
-
-PFX N Y 2
-PFX N   0          dis        [^f]
-PFX N   0          dif        [f]
-
-PFX P Y 1
-PFX P   0          pré        .
-
-PFX R Y 3
-PFX R   0          re         [^aàâeèéêiîoôuhs½æ]
-PFX R   0          ré         [aàâeèéêiîoôuh½æ]
-PFX R   0          res        [s]
-
-PFX O Y 2
-PFX O   0          ré         [^aàâeèéêiîoôuhs½æ]
-PFX O   0          r          [aàâeèéêiîoôuh½æ]
-
-PFX T Y 1
-PFX T   0          sur        .
+REP ai é
+REP é ai
+REP ai è
+REP è ai
+REP ai ê
+REP ê ai
+REP ei é
+REP é ei
+REP ei è
+REP è ei
+REP ei ê
+REP ê ei
+REP o au
+REP au o
+REP o eau
+REP eau o
+REP disez dites
+REP fesez faites
+REP faisez faites
+REP sanctionnable punissable
+REP questionnable discutable
+REP décrédibilis discrédit
+REP antitartre détartrant
+REP puit puits
 
 PFX L N 1
 PFX L   0          l'         [aàâeèéêiîoôuyh½æAÀÂEÈÉÊIÎOÔUYH¼Æ]
@@ -451,7 +457,7 @@ SFX x   ai         iez        rai
 SFX x   0          ent        rai
 
 SFX y Y 73
-SFX y   er         è          er
+SFX y   er         è-je       er
 SFX y   er         é          er
 SFX y   er         és         er
 SFX y   er         ée         er
