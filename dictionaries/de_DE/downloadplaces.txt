@@ -1,0 +1,3 @@
+hunspell dicitonaries:  http://www.j3e.de/hunspell/
+thesaurus:              http://www.openthesaurus.de/faq.php#ooo
+hyphenation:            ftp://ftp.stardiv.de/pub/OpenOffice.org/contrib/dictionaries/
