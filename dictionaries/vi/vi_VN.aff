@@ -1,0 +1,36 @@
+SET UTF-8
+TRY esianrtolcdugmphbyfvkwzESIANRTOLCDUGMPHBYFVKWZ'-
+
+MAP 18
+MAP aàảãáạăằẳẵắặâầẩẫấậ
+MAP AÀẢÃÁẠĂẰẲẴẮẶÂẦẨẪẤẬ
+MAP dđ
+MAP DĐ
+MAP eèẻẽéẹêềểễếệ
+MAP EÈẺẼÉẸÊỀỂỄẾỆ
+MAP iìỉĩíị
+MAP IÌỈĨÍỊ
+MAP oòỏõóọôồổỗốộơờởỡớợ
+MAP OÒỎÕÓỌÔỒỔỖỐỘƠỜỞỠỚỢ
+MAP uùủũúụưừửữứự
+MAP UÙỦŨÚỤƯỪỬỮỨỰ
+MAP yỳỷỹýỵ
+MAP YỲỶỸÝỴ
+MAP óòỏaàáả
+MAP óóỏeèéẻ
+MAP úùủụyýỳỷỵ
+MAP uưoờớỡởợ
+
+REP 12
+REP ch tr
+REP d gi
+REP dz d
+REP f ph
+REP g gh
+REP gh g
+REP gi d
+REP ng ngh
+REP ngh ng
+REP s x
+REP tr ch
+REP x s
