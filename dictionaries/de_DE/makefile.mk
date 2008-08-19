@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.14 $
+# $Revision: 1.15 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -58,6 +58,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/de_DE.aff \
     $(EXTENSIONDIR)$/de_DE.dic \
     $(EXTENSIONDIR)$/hyph_de_DE.dic \
+    $(EXTENSIONDIR)$/downloadplaces.txt \
     $(EXTENSIONDIR)$/INSTALL_de.txt \
     $(EXTENSIONDIR)$/README_de_DE.txt \
     $(EXTENSIONDIR)$/README_hyph_de_DE.txt \
