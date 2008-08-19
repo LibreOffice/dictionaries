@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="Version 20051213" />
-    <identifier value="org.openoffice.de.hunspell.dictionaries" />
+    <version value="2008.07.09" />
+    <identifier value="org.openoffice.de.dictionaries.AT-CH-DE" />
     <display-name>
-        <name lang="en">German spelling, hyphenation and thesaurus dictionaries</name>
+        <name lang="en">Spelling and hyphenation dictionary, thesaurus for German (DE, AT, CH)</name>
+        <name lang="de">Rechtschreibprüfung, Silbentrennung und Thesaurus Deutsch (DE, AT, CH)</name>
     </display-name>
     <platform value="all" />
     <dependencies>
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>
 </description>
-
