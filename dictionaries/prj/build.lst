@@ -26,4 +26,5 @@ di      dictionaries\sk_SK      nmake   -       all     di_sk_SK NULL
 di      dictionaries\sl_SI      nmake   -       all     di_sl_SI NULL
 di      dictionaries\sv_SE      nmake   -       all     di_sv_SE NULL
 di      dictionaries\sw_TZ      nmake   -       all     di_sw_TZ NULL
+di      dictionaries\vi         nmake   -       all     di_vi NULL
 di      dictionaries\zu_ZA      nmake   -       all     di_zu_ZA NULL
