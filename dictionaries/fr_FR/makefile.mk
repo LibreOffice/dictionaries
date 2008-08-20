@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.6 $
+# $Revision: 1.7 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -58,8 +58,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/fr_FR.aff \
     $(EXTENSIONDIR)$/fr_FR.dic \
     $(EXTENSIONDIR)$/LICENCES-fr.txt \
-    $(EXTENSIONDIR)$/LICENSES-en.txt \
-    $(EXTENSIONDIR)$/README_fr_FR.txt
+    $(EXTENSIONDIR)$/LICENSES-en.txt 
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
