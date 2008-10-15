@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.9 $
+# $Revision: 1.9.2.1 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -32,7 +32,7 @@
 PRJ=..
 
 PRJNAME=dictionaries
-TARGET=dict-en
+TARGET=dict-en-gb
 
 # --- Settings -----------------------------------------------------
 

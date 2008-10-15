@@ -8,7 +8,7 @@
 #
 # $RCSfile: makefile.mk,v $
 #
-# $Revision: 1.7 $
+# $Revision: 1.7.8.1 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -32,7 +32,7 @@
 PRJ=..
 
 PRJNAME=dictionaries
-TARGET=dict-de
+TARGET=dict-de-at
 
 # --- Settings -----------------------------------------------------
 
@@ -54,15 +54,10 @@ COMPONENT_COPYONLY=TRUE
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/COPYING \
-    $(EXTENSIONDIR)$/COPYING_OASIS \
-    $(EXTENSIONDIR)$/Copyright \
     $(EXTENSIONDIR)$/de_AT.aff \
     $(EXTENSIONDIR)$/de_AT.dic \
-    $(EXTENSIONDIR)$/INSTALL_de.txt \
     $(EXTENSIONDIR)$/README_de_AT.txt \
-    $(EXTENSIONDIR)$/README_de_AT_thes.txt \
-    $(EXTENSIONDIR)$/VERSION
+    $(EXTENSIONDIR)$/README_de_AT_thes.txt
 
 # disable fetching default OOo license text
 # CUSTOM_LICENSE=Copyright
