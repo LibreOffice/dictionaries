@@ -9,13 +9,6 @@
         !!! Don't change the values for 'accept-by' or 'suppress-on-update' it  !!!
         !!! might be troublesome in multi-user installations if no shared-layer !!!
         !!! installation can be done.                                           !!! -->
-    <registration>
-        <simple-license accept-by="admin" suppress-on-update="false" >
-            <license-text xlink:href="LICENSES-en.txt" lang="en" />
-            <license-text xlink:href="LICENCES-vi.txt" lang="vi" />
-        </simple-license>
-    </registration>
-
     <!-- The version of your extension. NOT the one of OpenOffice.org...
          It will also be used to automatically check if there are updates for this
          extension available. Newer versions should have higher values. -->
