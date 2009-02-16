@@ -57,17 +57,16 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/hu_HU.dic \
     $(EXTENSIONDIR)$/hyph_hu_HU.dic \
     $(EXTENSIONDIR)$/README_hu_HU.txt \
-    $(EXTENSIONDIR)$/README_hyph_hu_HU.txt \
-     $(EXTENSIONDIR)$/LICENSES-en.txt \
+    $(EXTENSIONDIR)$/README_hyph_hu_HU.txt
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-#CUSTOM_LICENSE=COPYING_OASIS
+CUSTOM_LICENSE=LICENSES-en.txt
 # override default license destination
-#PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 COMPONENT_ZIP:=$(PWD)$/thes_hu_HU_v2.zip
 COMPONENT_UNZIP_FILES= \

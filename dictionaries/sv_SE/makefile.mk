@@ -54,14 +54,15 @@ EXTENSION_ZIPNAME:=dict-sv
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/sv_SE.aff \
-    $(EXTENSIONDIR)$/sv_SE.dic
+    $(EXTENSIONDIR)$/sv_SE.dic \
+    $(EXTENSIONDIR)$/LICENSE_en_US.txt
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=README_sv_SE.txt
+CUSTOM_LICENSE=LICENSE_sv_SE.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
