@@ -56,7 +56,10 @@ COMPONENT_COPYONLY=TRUE
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/en_US.aff \
     $(EXTENSIONDIR)$/en_US.dic \
+    $(EXTENSIONDIR)$/hyph_en_US.dic \
+    $(EXTENSIONDIR)$/README.txt \
     $(EXTENSIONDIR)$/README_en_US.txt \
+    $(EXTENSIONDIR)$/README_hyph_en_US.txt \
     $(EXTENSIONDIR)$/WordNet_license.txt
 
 # disable fetching default OOo license text
@@ -66,7 +69,7 @@ COMPONENT_FILES= \
 
 COMPONENT_ZIP:=$(PWD)$/th_en_US_v2.zip
 COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_en_US_v2.dat 
+    $(EXTENSIONDIR)$/th_en_US_v2.dat
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension

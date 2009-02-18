@@ -1,9 +1,25 @@
 SET ISO8859-1
-TRY aerndtislogmkpbhfjuväcöåyqxzvw
+TRY aerndtislogmkpbhfjuväcöåyqxzvwéâàá
 
+#WORDCHARS -
+
+NOSUGGEST !
 
 # May appear anywhere in compound words:
 COMPOUNDFLAG S
+
+# At least this many letters in each word within a compound:
+#COMPOUNDMIN 1
+COMPOUNDMIN 3
+
+# Only two word compounds:
+COMPOUNDWORDMAX 2
+
+# Disallow triple letters, like "fall"+"lucka":
+CHECKCOMPOUNDTRIPLE
+
+# For suffixes used to create first part of a compound
+COMPOUNDPERMITFLAG W
 
 # May appear first in compound words:
 COMPOUNDBEGIN X
@@ -14,21 +30,67 @@ COMPOUNDEND Y
 # Non-word that may be part of a compund:
 ONLYINCOMPOUND Z
 
-# At least this many letters in each word within a compound:
-COMPOUNDMIN 3
-# Only two word compounds:
-COMPOUNDWORDMAX 2
+NOSPLITSUGS
 
+# Some letters that should be replacable and have higher priority
+REP 30
+REP e ä
+REP ä e
+REP ngn gn
+REP je ge
+REP ge je
+REP gö jö
+REP jö gö
+REP gt kt
+REP kt gt
+REP dj g
+REP j lj
+REP j gj
+REP gj j
+REP kj tj
+REP tj kj
+REP ch tj
+REP tj ch
+REP ch kj
+REP kj ch
+REP ch ige
+REP ch j
+REP ch i
+REP ch ge
+REP ch stg
+REP sk skj
+REP skj sk
+REP sj sti
+REP ti ssi
+REP ssi ti
+REP tj k
 
+# Genitiv. Som Göran: Görans
 SFX  A  Y  1
 SFX  A  0  s  .
 
-SFX  B  Y  4
+#--------------------------------------------
+# Bestämd form, neutrum.
+#--------------------------------------------
+# Substantivformer av verb.
+# Som lida: lidande, lidandet...
+SFX  B  Y  6
 SFX  B  0  et  [^a]
 SFX  B  0  ets  [^a]
+SFX  B  0  nde  a
+SFX  B  0  ndes  a
 SFX  B  0  ndet  a
 SFX  B  0  ndets  a
 
+# Som täcke: täcket, täckets
+# Även: öra, alibi, foto
+# Som kakel: kaklet, kaklets
+# Som vimmel: vimlet, vimlets
+# Som socker: sockret, sockrets
+# Som nummer: numret, numrets
+# Som rum: rummet, rummets
+# Som tecken: tecknet, tecknets
+# Som ton: tonnet, tonnets
 SFX  C  Y  16
 SFX  C  0  t  [aeiouyåäöé]
 SFX  C  0  ts  [aeiouyåäöé]
@@ -44,19 +106,50 @@ SFX  C  0  met  m
 SFX  C  0  mets  m
 SFX  C  en net en
 SFX  C  en nets en
-SFX  C  0  net  nets [^e]n
+SFX  C  0  net  [^e]n
 SFX  C  0  nets  [^e]n
 
+#--------------------------------------------
+# Bestämd form, utrum.
+#--------------------------------------------
+# Som katt: katten, kattens
+#--------------------------------------------
+# Adjektivformer av verb (och presens particip):
+#--------------------------------------------
+# Som söka: sökande
+#--------------------------------------------
 SFX  D  Y  3
 SFX  D  0  en  [^a]
 SFX  D  0  ens  [^a]
 SFX  D  0  nde  a
 
-SFX  E  N  3
+# Bestämd form, utrum samt
+# obestämd form pluralis, neutrum.
+#--------------------------------------------
+# Som myra, cykel: cykeln, cykelns
+# Som frö: frön, fröns
+# Som faktum: fakta, faktas
+SFX  E  Y  4
 SFX  E  0  n  [^m]
 SFX  E  0  ns  [^m]
 SFX  E  um  a  um
+SFX  E  um  as  um
 
+#--------------------------------------------
+# Neutrum, bestämd form pluralis samt
+# utrum, bestämd form singularis.
+#--------------------------------------------
+# Som fönster, fader
+# Som nummer
+# Som exempel
+# Som vimmel, himmel
+# Som tecken: tecknen, tecknens
+# Som socken: socknen, socknens
+# Som hem, rem
+# Som ton, man
+# Som täcke, bi, kilo, knä
+# Substantivformer av verb:
+# Som avslöja: avslöjandena, avslöjandenas
 SFX  F  Y  18
 SFX  F  er  ren  [^m]er
 SFX  F  er  rens  [^m]er
@@ -77,6 +170,13 @@ SFX  F  0  nas  [eioä]
 SFX  F  0  ndena  a
 SFX  F  0  ndenas  a
 
+#--------------------------------------------
+# Pluralis, reale.
+#--------------------------------------------
+# Som stol: stolar, stolarna, stolarnas, stolars
+# Även: del
+# Som timme: timmar, timmarna, timmarnas, timmars
+# Som fara: faror, farorna, farornas, farors
 SFX  G  Y  12
 SFX  G  0  ar  [^ae]
 SFX  G  0  arna  [^ae]
@@ -91,6 +191,8 @@ SFX  G  a  orna  a
 SFX  G  a  ornas  a
 SFX  G  a  ors  a
 
+# Som katt: katter, katterna, katternas, katters
+# Som historia: historier, historierna, historiernas, historiers 
 SFX  H  Y  8
 SFX  H  0  er  [^a]
 SFX  H  0  ers  [^a]
@@ -101,6 +203,16 @@ SFX  H  a  erna  a
 SFX  H  a  ernas  a
 SFX  H  a  ers  a
 
+# Som tå
+# Som fröken: fröknar, fröknarna, fröknarnas, fröknars
+# Även: socken, öken
+# Som afton
+# Som dröm: drömmar, drömmarna, drömmarnas, drömmars
+# Som tistel
+# Som lymmel
+# Som tiger: tigrar, tigrarna, tigrarnas, tigrars
+# Som klammer: klamrar, klamrarna, klamrarnas, klamrars
+# Som sommar: somrar, somrarna, somrarnas, somrars 
 SFX  I  Y  36
 SFX  I  0  r  [^lmnr]
 SFX  I  0  rna  [^lmnr]
@@ -139,7 +251,28 @@ SFX  I  mar  rarna  mar
 SFX  I  mar  rarnas  mar
 SFX  I  mar  rars  mar
 
-SFX  J  Y  30
+# Som formel
+# Även neutrum: sekel, mirakel
+# Som fot: fötter, fötterna, fötternas, fötters
+# Som get: getter, getterna, getternas, getters
+# Som tand: tänder, tänderna, tändernas, tänders
+# Som musiker: musikerna, musikernas
+# Som ägare: ägarna, ägarnas
+# Som museum: museet, museets, museer, museerna, museernas, museers
+#*******************************************#
+#*******************************************#
+#*******************************************#
+#                   Verb                    #
+#*******************************************#
+#*******************************************#
+#*******************************************#
+#--------------------------------------------
+# Andra konjugationen; imperativ.
+#--------------------------------------------
+# Som springa: spring
+# Som tämja
+# Som komma
+SFX  J  Y  29
 SFX  J  el  ler  el
 SFX  J  el  lerna  el
 SFX  J  el  lernas  el
@@ -168,9 +301,29 @@ SFX  J  um  ernas  um
 SFX  J  um  ers  um
 SFX  J  a  0  [^m][^m]a
 SFX  J  a  0  m[^m]a
-SFX  J  a  0  [^m]ma
-SFX  J  ma  0  mma
+SFX  J  ma 0  mma
 
+#--------------------------------------------
+# Andra konjugationen.
+#--------------------------------------------
+#***********************
+# presens:
+#***********************
+# Som köpa: köper
+# Inte som köra: kör
+#***********************
+# imperfekt:
+#***********************
+# Som köpa
+# Som köra
+# Som tömma
+# Som förnimma
+# Som komma
+# Som värma, döma
+# Som nämna
+# Som kunna
+# Som vina
+# Som bryna, kröna
 SFX  K  Y  61
 SFX  K  a  er  [^r]a
 SFX  K  a  te  [ks]a
@@ -333,8 +486,9 @@ SFX  M  en  a  nen
 SFX  M  men  na  mmen
 SFX  M  0  ma  m
 
-SFX  N  Y  27
+SFX  N  Y  28
 SFX  N  0  des  a
+SFX  N  0  ts  a
 SFX  N  0  ddes  [oyäö]
 SFX  N  e  ads  be
 SFX  N  e  avs  ge
@@ -345,7 +499,6 @@ SFX  N  0  ddes  [^s]lå
 SFX  N  å  ogs  slå
 SFX  N  å  ods  tå
 SFX  N  0  ddes  [^fglt]å
-SFX  N  0  ts  a
 SFX  N  0  tts  [oyäö]
 SFX  N  0  tts  e
 SFX  N  0  tts  [^l]å
@@ -361,6 +514,7 @@ SFX  N  en  nas  en
 SFX  N  en  nes  en
 SFX  N  er  ras  er
 SFX  N  er  res  er
+SFX  N  d  t  d
 
 SFX  O  Y  23
 SFX  O  a  d  [^mn][^mnd]a
@@ -403,3 +557,69 @@ SFX  R  Y  3
 SFX  R  a  es  a
 SFX  R  0  as  [^a]
 SFX  R  0  es  [^a]
+
+SFX  T  Y  3
+SFX  T  0  iska  .
+SFX  T  0  iskt  .
+SFX  T  0  isk  .
+
+# Som myra: myr- (stack)
+# Som förare: förar- (platsen)
+# Som avgud: avguda- (dyrkan)
+SFX  z  N  3
+SFX  z  a  0/WXZ  a
+SFX  z  e  0/WXZ  e
+SFX  z  0  a/WXZ  [^ae]
+
+# Som ränta: ränte- (höjning)
+# Som tjänst: tjänste- (man)
+SFX  y  N  2
+SFX  y  a  e/WXZ  a
+SFX  y  0  e/WXZ  [^a]
+
+# Som vecka: vecko- (dag)
+# Som psyke: psyko- (analys)
+# Som land: lant- (brukare)
+SFX  x  N  3
+SFX  x  a  o/WXZ  a
+SFX  x  e  o/WXZ  e
+SFX  x  d  t/WXZ  d
+
+# Som vara: varu- (hus)
+# Som maximum: maximi- (gräns)
+SFX  w  N  2
+SFX  w  a   u/WXZ  a
+SFX  w  um  i/WXZ  um
+
+# Som pepparkaka: pepparkaks- (hus)
+# Som yrke: yrkes- (man)
+# Som förhand: förhands- (granskning)
+SFX  v  N  2
+SFX  v  a  s/WXZ  a
+SFX  v  0  s/WXZ  [^a]
+
+# Som hyra: hyres- (gäst)
+# Som säd: sädes- (fält)
+# Som ansikte: ansikts- (uttryck)
+SFX  u  N  3
+SFX  u  a  es/WXZ  a
+SFX  u  e  s/WXZ  e
+SFX  u  0  es/WXZ  [^ae]
+
+# Som tavla: tavel- (försäljare)
+# Som stämma: stäm- (gaffel)
+# Som timme: tim- (lön)
+# Som siffra: siffer- (kombination)
+# Som förälder: föräldra- (möte)
+# Som äpple: äppel- (must)
+# Som gymnasium: gymnasie- (elev)
+# Som ängel: ängla- (vakt)
+SFX  t  N  8
+SFX  t  la  el/WXZ  la
+SFX  t  ma  0/WXZ   ma
+SFX  t  me  0/WXZ   me
+SFX  t  ra  er/WXZ  ra
+SFX  t  er  ra/WXZ  er
+SFX  t  le  el/WXZ  le
+SFX  t  um  e/WXZ   um
+SFX  t  el  la/WXZ  el
