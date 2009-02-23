@@ -3,19 +3,6 @@
 
     <!-- SHOULD OR MUST BE PROVIDED ENTRIES FOLLOWING... -->
 
-    <!-- Here you can state the license text to be displayed during installation.
-        You can provide more than one localized version if you like.
-        If no matching locale was found the first one will be displayed.
-        !!! Don't change the values for 'accept-by' or 'suppress-on-update' it  !!!
-        !!! might be troublesome in multi-user installations if no shared-layer !!!
-        !!! installation can be done.                                           !!! -->
-    <registration>
-        <simple-license accept-by="admin" suppress-on-update="false" >
-            <license-text xlink:href="README_en.TXT" lang="en" />
-            <license-text xlink:href="README_pt_BR.TXT" lang="pt-BR" />
-        </simple-license>
-    </registration>
-
     <!-- The version of your extension. NOT the one of OpenOffice.org...
          It will also be used to automatically check if there are updates for this
          extension available. Newer versions should have higher values. -->
