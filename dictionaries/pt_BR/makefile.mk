@@ -55,6 +55,7 @@ EXTENSION_ZIPNAME:=dict-pt
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/pt_BR.aff \
     $(EXTENSIONDIR)$/pt_BR.dic \
+    $(EXTENSIONDIR)$/hyph_pt_BR.dic \
     $(EXTENSIONDIR)$/README_pt_BR.txt
 
 COMPONENT_CONFIGDEST=.
