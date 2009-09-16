@@ -1,4 +1,4 @@
-di      dictionaries : readlicense_oo soltools NULL
+di      dictionaries : soltools NULL
 di	dictionaries					usr1 - all di_mkout NULL
 di      dictionaries\af_ZA      nmake   -       all     di_af_ZA NULL
 di      dictionaries\cs_CZ      nmake   -       all     di_cs_CZ NULL
