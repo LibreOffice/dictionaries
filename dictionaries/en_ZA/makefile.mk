@@ -56,6 +56,7 @@ COMPONENT_COPYONLY=TRUE
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/en_ZA.aff \
     $(EXTENSIONDIR)$/en_ZA.dic \
+    $(EXTENSIONDIR)$/VERSION_en_ZA.txt \
     $(EXTENSIONDIR)$/README_en_ZA.txt
 
 # disable fetching default OOo license text
