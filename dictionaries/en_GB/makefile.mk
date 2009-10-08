@@ -57,6 +57,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/en_GB.dic \
     $(EXTENSIONDIR)$/hyph_en_GB.dic \
     $(EXTENSIONDIR)$/affDescription.txt \
+    $(EXTENSIONDIR)$/README_hyph_en_GB.txt \
     $(EXTENSIONDIR)$/README_en_GB_thes.txt
 
 COMPONENT_CONFIGDEST=.

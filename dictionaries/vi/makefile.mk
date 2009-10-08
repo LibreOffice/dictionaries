@@ -54,17 +54,16 @@ EXTENSION_ZIPNAME:=dict-vi
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/vi_VN.aff \
-    $(EXTENSIONDIR)$/vi_VN.dic \
-    $(EXTENSIONDIR)$/LICENSES-en.txt
+    $(EXTENSIONDIR)$/vi_VN.dic
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=README_da_DK.txt
+CUSTOM_LICENSE=LICENSES-en.txt
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
