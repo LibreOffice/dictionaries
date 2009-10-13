@@ -46,6 +46,9 @@ TARGET=dict-de-at
 # name for uniq directory
 EXTENSIONNAME:=dict-de
 EXTENSION_ZIPNAME:=dict-de
+
+# extension will be buiild in de_DE (see build.prj) and the
+# dictionary.xcu from there will be used
 COMPONENT_COPYONLY=TRUE
 
 # some other targets to be done
@@ -54,15 +57,25 @@ COMPONENT_COPYONLY=TRUE
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/de_AT.aff \
-    $(EXTENSIONDIR)$/de_AT.dic \
-    $(EXTENSIONDIR)$/README_de_AT.txt \
-    $(EXTENSIONDIR)$/README_de_AT_thes.txt
+    $(EXTENSIONDIR)$/COPYING_OASIS \
+    $(EXTENSIONDIR)$/de_AT_frami.aff \
+    $(EXTENSIONDIR)$/de_AT_frami.dic \
+    $(EXTENSIONDIR)$/hyph_de_AT.dic \
+    $(EXTENSIONDIR)$/README_de_AT_frami.txt \
+    $(EXTENSIONDIR)$/README_extension_owner.txt \
+    $(EXTENSIONDIR)$/README_hyph_de_AT.txt \
+    $(EXTENSIONDIR)$/README_th_de_AT_v2.txt \
+    $(EXTENSIONDIR)$/th_de_AT_v2.dat \
+    $(EXTENSIONDIR)$/th_de_AT_v2.idx 
+
+COMPONENT_CONFIGDEST=.
+COMPONENT_XCU= \
+    $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=Copyright
+CUSTOM_LICENSE=COPYING
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
@@ -74,4 +87,3 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
-

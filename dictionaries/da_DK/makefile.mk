@@ -55,7 +55,10 @@ EXTENSION_ZIPNAME:=dict-da
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/da_DK.aff \
     $(EXTENSIONDIR)$/da_DK.dic \
-    $(EXTENSIONDIR)$/hyph_da_DK.dic
+    $(EXTENSIONDIR)$/desc_da_DK.txt \
+    $(EXTENSIONDIR)$/desc_en_US.txt \
+    $(EXTENSIONDIR)$/hyph_da_DK.dic \
+    $(EXTENSIONDIR)$/path2516.png 
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
