@@ -18,7 +18,7 @@
         It will also be used to automatically check if there are updates for this
         extension available. Newer versions should have higher values.
     -->
-    <version value="1.0" />
+    <version value="2009.10.17" />
 
     <!--A unique identifier for your extension.
         In order to avoid name clashes with other extensions it should probably hold
@@ -30,7 +30,7 @@
         When choosing the identifier keep in mind that others may provide a dictionary for that
         very same language as well and even then your identifier still needs to be unique!
     -->
-    <identifier value="sl.openoffice.org.dictionary" />
+    <identifier value="org.openoffice.sl.hunspell.dictionaries" />
 
     <!--A name for the extension to be used in the UI.
         For dictionaries it should show the locales supported
