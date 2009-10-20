@@ -77,4 +77,3 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
-

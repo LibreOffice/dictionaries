@@ -1,10 +1,10 @@
 SET ISO8859-1
 TRY áàãâéêíóõôúüçesianrtolcdugmphbyfvkwjqxz
 
-#   Copyright (C) 2006 - 2008  por Raimundo Santos Moura
+#   Copyright (C) 2006 - 2009  por Raimundo Santos Moura
 #   <raimundomoura@openoffice.org>
 #   Colaboradores deste projeto: http://www.openoffice.org.br/?q=creditos
-#   Brasil - Julho 2008
+#   Brasil - Outubro 2009
 #   Este é um dicionário para correção ortográfica da língua Portuguesa   
 #   para o Myspell.                                                       
 #   Este programa é livre e pode ser redistribuído e/ou modificado nos    
@@ -20,33 +20,63 @@ MAP uúüUÚÜ
 MAP cçCÇ
 
 
-REP 194
+REP 288
+REP -           r
+REP -           s
+REP a           á
+REP a           ã
+REP a           â
+REP ã           â
+REP â           ã
 REP a           a-
 REP á           á-
 REP ã           ã-
 REP a           a-h
+REP a-          a
+REP á-          á
+REP ã-          ã
+REP a-h         a
+REP ad          izad
 REP ada         ável
 REP adas        áveis
 REP ado         ável
 REP ados        áveis
-REP ãe          õe
 REP ãe          ão
+REP ãe          õe
+REP agu         águ
+REP ainers      êineres
+REP ala         á-la
+REP ala         á-las
 REP alh         áli
+REP all         ol
+REP alo         á-lo
+REP alos        á-los
+REP am          ã 
 REP am          an
 REP âm          ân
+REP an          ã 
 REP an          am
 REP ân          âm
-REP ao          ão
 REP ão          ãe
+REP ao          ão
 REP ão          õe
+REP aqu         áqu
+REP ars         raç  
 REP ás          az
 REP athlon      átlon
 REP ayout       eiaute
 REP az          ás
 REP azinh       inh
 REP b           b-
+REP b-          b
+REP bakup       becape
 REP bilidade    lidade
+REP boy         bói 
+REP btâ         bstâ
+REP bta         bstâ
+REP c           ç
 REP c           sc
+REP ç           c
 REP ç           ss
 REP cao         ção
 REP cão         ção
@@ -62,14 +92,27 @@ REP ck          que
 REP cõ          çõ
 REP çõe         mento
 REP cs          x
-REP de          -de-
 REP des         dis
 REP dis         des
+REP e           ê
+REP e           é
+REP é           ê
+REP ê           é
 REP e           e-
 REP é           é-
 REP ê           ê-
 REP e           e-h
 REP é           é-h
+REP e-          e
+REP é-          é
+REP é-          e
+REP ê-          ê
+REP e-h         e
+REP é-h         é
+REP ebã         ibã
+REP ebam        ibã
+REP eban        ibã
+REP eem         êm
 REP elh         éli
 REP em          en
 REP ém          én
@@ -77,6 +120,7 @@ REP êm          ên
 REP en          em
 REP én          ém
 REP ên          êm
+REP épit        ept
 REP es          ex
 REP es          ez
 REP ês          ez
@@ -86,28 +130,37 @@ REP ez          es
 REP ez          és
 REP ez          ês
 REP ezinh       inh
+REP ffice       ffice.org 
 REP gcoc        guecoque
 REP gem         mento
 REP gen         mento
 REP gkok        guecoque
 REP hak         acc
 REP hkek        queque
+REP i           í
+REP í           i
 REP i           i-
 REP í           í-
 REP i           i-h
+REP i-          i
+REP í-          í
+REP i-h         i
 REP ida         ível
 REP idas        íveis
 REP ido         ível
 REP idos        íveis
+REP ifem        ífen 
 REP ilh         íli
 REP im          in
 REP ím          ín
 REP in          im
-REP in          não-
 REP ín          ím
+REP in          não-
 REP inh         azinh
 REP inh         ezinh
 REP inh         ozinh
+REP izad        ad
+REP j           gi
 REP je          ge
 REP jê          gê
 REP ji          gi
@@ -121,31 +174,53 @@ REP Khmer       Cambojano
 REP ki          qui
 REP ko          co
 REP ku          cu
+REP Kwanyama    Cuanhama
 REP l           l-
 REP l           u
+REP l           u
+REP l-          l
 REP la          -la-
 REP las         -las-
+REP lç          ls
+REP lg          l_G
 REP lhe         -lhe-
 REP lhes        -lhes-
 REP li          lh
 REP lidade      bilidade
 REP lo          -lo-
 REP los         -los-
+REP ls          lç
 REP m           m-
+REP m-          m
 REP me          -me-
 REP mento       ção
 REP mento       çõe
+REP n           n-
+REP n-          n
 REP não-        in
 REP nhe         in
 REP nhi         in
 REP nos         -nos-
+REP o           ó
+REP o           õ
+REP o           ô
+REP ó           ô
+REP ô           ó
 REP o           o-
+REP o           ó-
 REP ó           ó-
 REP ô           ô-
 REP o           o-h
 REP ó           ó-h
-REP õe          ão
+REP o-          o
+REP ó-          o
+REP ó-          ó
+REP ô-          ô
+REP o-h         o
+REP ó-h         ó
 REP õe          ãe
+REP õe          ão
+REP ós-s        oss
 REP ografista   ógrafo
 REP oi          ói
 REP oky         óqui
@@ -159,8 +234,9 @@ REP ón          óm
 REP ôn          ôm
 REP ozinh       inh
 REP ping        pingue-pongue
-REP pong        pingue-pongue
 REP ping-pong   pingue-pongue
+REP pong        pingue-pongue
+REP pre         pré-
 REP Quait       Kuwait
 REP quinque     quinquê
 REP quinquê     quinquê
@@ -178,33 +254,51 @@ REP quinqüí     quinquí
 REP qüinqui     quinqui
 REP qüinqui     quinquí
 REP qüinquí     quinquí
+REP r           -
 REP r           r-
 REP r           rr
+REP r-          r
+REP rça         rsa
+REP res-de      r-de  
+REP revigoração revitalização
 REP ridão       ridade
 REP ridõe       ridade
+REP rsa         rça
+REP s           -
 REP s           s-
 REP s           z
+REP s-          s
 REP sc          c
 REP se          -se-
 REP septec      septing
 REP septic      septing
 REP setec       septing
+REP sh          ch
+REP sh          che
 REP sie         sciê
 REP ss          ç
 REP ss          rs
 REP sse         ce
 REP ssi         ci
 REP te          -te-
-REP tivar       tar
+REP tiva        ta
 REP u           l
+REP u           ú
+REP ú           u
 REP u           u-
+REP u-          u
 REP uait        uwait
+REP uç          lç
+REP uç          ls
+REP üe          uê
+REP üê          uê
 REP ulh         úli
 REP um          un
 REP úm          ún
 REP un          um
 REP ún          úm
 REP v           env
+REP vigoração   vigência
 REP vos         -vos-
 REP x           cç
 REP x           ch
@@ -213,19 +307,19 @@ REP yongyang    ionguiangue
 REP York        Iorque
 REP z           s
 REP z           z-
+REP z-          z
 REP zzavill     zavil
-REP ffice       ffice.org 
-
 
 
 # ================================================================
 # PREFIXOS - Estão identificados por letras acentuadas.
-#            ÀÁÂÃÄÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÑŸÝàáâãäèéêëìíîïòóôõöùúûüñÿý
+#            ÀÁÂÃÄÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÑÝàáâãäèéêëìíîïòóôõöùúûüñÿý
 # ================================================================
 
-PFX À Y 2
-PFX À   0     re      [^e]
-PFX À   0     re-     e
+PFX À Y 3
+PFX À   0     re      [^rs]
+PFX À   0     rer     r
+PFX À   0     res     s
 
 PFX Á Y 4
 PFX Á   0     anti    [^ihrs]
@@ -330,10 +424,13 @@ PFX Û Y 1
 PFX Û   0     pro     .
 
 PFX Ü Y 4
-PFX Ü   0     semi   [^ihrs]
-PFX Ü   0     semi-  [ih]
-PFX Ü   0     semir  r
-PFX Ü   0     semis  s
+PFX Ü   0     semi    [^ihrs]
+PFX Ü   0     semi-   [ih]
+PFX Ü   0     semir   r
+PFX Ü   0     semis   s
+
+PFX Ñ Y 1
+PFX Ñ   0     co      .
 
 PFX à Y 4
 PFX à   0     ultra   [^ahrs]
@@ -405,6 +502,11 @@ PFX ù   0     hipo    .
 PFX ú Y 1
 PFX ú   0     pré-    .
 
+PFX û Y 4
+PFX û   0     micro   [^ohrs]
+PFX û   0     micro-  [oh]
+PFX û   0     micror  r
+PFX û   0     micros  s
  
 # ================================================================
 # SUFIXOS - Representados pelo alfabeto maiúsculo+números
@@ -556,7 +658,7 @@ SFX I   ível  ibilíssimos       ível
 
 SFX J Y 4
 SFX J   0     ente         m
-SFX J   0     mente        [elrz]
+SFX J   0     mente        [aelrz]
 SFX J   o     amente       o
 SFX J   os    amente       os
 
@@ -720,14 +822,30 @@ SFX P   ês     esinhos ês
 
 # Diminutivos femininos -Q- Terminação: zinha
 
-SFX Q Y 14
+SFX Q Y 32
 SFX Q   0      azinha   [lr]
 SFX Q   0      azinhas  [lr]
-SFX Q   0      inha     [sz]
-SFX Q   0      inhas    [sz]
-SFX Q   0      zinha    [aáeéiíuúã]
+SFX Q   0      inha     [^o]s
+SFX Q   0      inhas    [^o]s
+SFX Q   0      inha     z
+SFX Q   0      inhas    z
+SFX Q   0      zinha    [aeiuã]
+SFX Q   á      azinha   á
+SFX Q   é      ezinha   é
+SFX Q   ê      ezinha   ê
+SFX Q   í      izinha   í
+SFX Q   ó      ozinha   ó
+SFX Q   ô      ozinha   ô
+SFX Q   ú      uzinha   ú
 SFX Q   0      zinha    [xsç]ão
-SFX Q   0      zinhas   [aáeéiíuúã]
+SFX Q   0      zinhas   [aeiuã]
+SFX Q   á      azinhas  á
+SFX Q   é      ezinhas  é
+SFX Q   ê      ezinhas  ê
+SFX Q   í      izinhas  í
+SFX Q   ó      ozinhas  ó
+SFX Q   ô      ozinhas  ô
+SFX Q   ú      uzinhas  ú
 SFX Q   ão     õezinhas [xsç]ão
 SFX Q   m      nzinha   m
 SFX Q   m      nzinhas  m
@@ -735,20 +853,42 @@ SFX Q   o      azinha   [^ã]o
 SFX Q   o      azinhas  [^ã]o
 SFX Q   o      zinha    [^xsç]ão
 SFX Q   o      zinhas   [^xsç]ão
+SFX Q   os     azinha   os
+SFX Q   os     azinhas  os
 
 #  Diminutivos masculinos -R- Terminação: zinho
 
-SFX R Y 10
+SFX R Y 30
 SFX R   0      ezinhos  r
-SFX R   0      inho     [sz]
-SFX R   0      inhos    [sz]
-SFX R   0      zinho    [aeéiíoôóuúlr]
+SFX R   0      inho     [^o]s
+SFX R   0      inhos    [^o]s
+SFX R   0      inho     z
+SFX R   0      inhos    z
+SFX R   0      zinho    [aeiulr]
+SFX R   á      azinho   á
+SFX R   é      ezinho   é
+SFX R   ê      ezinho   ê
+SFX R   í      izinho   í
+SFX R   ó      ozinho   ó
+SFX R   ô      ozinho   ô
+SFX R   ú      uzinho   ú
+SFX R   0      zinho    [^ã]o
 SFX R   0      zinhos   [^ã]o
-SFX R   0      zinhos   [aeéiíôóuú]
+SFX R   0      zinhos   [aeiu]
+SFX R   á      azinhos  á
+SFX R   é      ezinhos  é
+SFX R   ê      ezinhos  ê
+SFX R   í      izinhos  í
+SFX R   ó      ozinhos  ó
+SFX R   ô      ozinhos  ô
+SFX R   ú      uzinhos  ú
+SFX R   0      zinho    ão
 SFX R   ão     õezinhos ão
 SFX R   l      izinhos  l
 SFX R   m      nzinho   m
 SFX R   m      nzinhos  m
+SFX R   s      zinho    os
+SFX R   s      zinhos   os
 
 #  Diminutivos femininos -S- Terminação: zinha
 #     para palavras acentuadas
@@ -1214,7 +1354,7 @@ SFX b   er      idos     er
 # VERBOS -c-  Terminados em VIR TER AIR GUIR GIR GAR: 
 #             intervir convir manter conter sair seguir distinguir  
 
-SFX c Y 848
+SFX c Y 851
 SFX c  ar   á   ar
 SFX c  er   ê   er
 SFX c  or   ô   or
@@ -2016,7 +2156,10 @@ SFX c   r       nha      vir
 SFX c   r       nham     vir
 SFX c   r       nhas     vir
 SFX c   iliar   ília     mobiliar
+SFX c   r       da       mobiliar
+SFX c   r       das      mobiliar
 SFX c   r       do       mobiliar
+SFX c   r       dos      mobiliar
 SFX c   r       i        mobiliar
 SFX c   r       is       mobiliar
 SFX c   iliar   íliam    mobiliar
@@ -3065,7 +3208,7 @@ SFX f   erer   iséssemos    querer
 # VERBOS -g-  abolir demolir emolir prevenir desprevenir arguir argüir
 #                 prover desprover gear repelir
 
-SFX g Y 318
+SFX g Y 319
 SFX g   r       0         olir
 SFX g   r       a         olir
 SFX g   r       am        olir
@@ -3222,6 +3365,7 @@ SFX g   üir     uas       üir
 SFX g   ir      as        uir
 SFX g   ir      em        üir
 SFX g   ir      em        uir
+SFX g   ir      í         [üu]ir
 SFX g   r       0         [üu]ir
 SFX g   r       a         [üu]ir
 SFX g   ir      ía        [üu]ir
@@ -3391,7 +3535,7 @@ SFX g   r       dos       gear
 #                          (desfazer              reouvir transferir   pedir)
 #            guar quar     (desaguar coliquar  deslinguar  averiguar adequar)
 
-SFX h Y 621
+SFX h Y 625
 SFX h   ar       á            ar
 SFX h   er       ê            er
 SFX h   or       ô            or
@@ -3955,13 +4099,17 @@ SFX h   iquar    íquo         iquar
 SFX h   inguar   ínguo        inguar
 SFX h   inquar   ínquo        inquar
 SFX h   ar       ou           uar
-SFX h   r        0            uar
-SFX h   r        s            uar
-SFX h   r        m            uar
 SFX h   ar       e            uar
-SFX h   ar       em           uar
 SFX h   ar       es           uar
-SFX h   ar       o            uar
+SFX h   ar       em           uar
+SFX h   r        m            uar
+SFX h   r        0            [^qg]uar
+SFX h   r        s            [^qg]uar
+SFX h   r        m            [^qg]uar
+SFX h   ar       e            [^qg]uar
+SFX h   ar       em           [^qg]uar
+SFX h   ar       es           [^qg]uar
+SFX h   ar       o            [^qg]uar
 SFX h   izar     íza          [aeou]izar
 SFX h   r        da           [aeou]izar
 SFX h   r        das          [aeou]izar
