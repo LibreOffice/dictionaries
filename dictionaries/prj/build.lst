@@ -16,6 +16,7 @@ di      dictionaries\es_ES      nmake   -       all     di_es_ES NULL
 di      dictionaries\et_EE      nmake   -       all     di_et_EE NULL
 di      dictionaries\fr_FR      nmake   -       all     di_fr_FR NULL
 di      dictionaries\gl         nmake   -       all     di_gl NULL
+di      dictionaries\he_IL      nmake   -       all     di_he_IL NULL
 di      dictionaries\hu_HU      nmake   -       all     di_hu_HU NULL
 di      dictionaries\it_IT      nmake   -       all     di_it_IT NULL
 di      dictionaries\lt_LT      nmake   -       all     di_lt_LT NULL

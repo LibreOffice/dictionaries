@@ -47,49 +47,43 @@ TARGET=dict-de-de
 EXTENSIONNAME:=dict-de
 EXTENSION_ZIPNAME:=dict-de
 
+#build the dict-de extension when building this directory using the 
+#dictionaries.xcu from here. For this COMPONENT_COPYONLY has to be undefdined
+#COMPONENT_COPYONLY=TRUE
+
 # some other targets to be done
 
 # --- Extension packaging ------------------------------------------
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/COPYING \
-    $(EXTENSIONDIR)$/Copyright \
-    $(EXTENSIONDIR)$/de_DE.aff \
-    $(EXTENSIONDIR)$/de_DE.dic \
+    $(EXTENSIONDIR)$/COPYING_OASIS \
+    $(EXTENSIONDIR)$/de_DE_frami.aff \
+    $(EXTENSIONDIR)$/de_DE_frami.dic \
     $(EXTENSIONDIR)$/hyph_de_DE.dic \
-    $(EXTENSIONDIR)$/downloadplaces.txt \
-    $(EXTENSIONDIR)$/INSTALL_de.txt \
-    $(EXTENSIONDIR)$/README_de_DE.txt \
+    $(EXTENSIONDIR)$/README_de_DE_frami.txt \
+    $(EXTENSIONDIR)$/README_extension_owner.txt \
     $(EXTENSIONDIR)$/README_hyph_de_DE.txt \
-    $(EXTENSIONDIR)$/VERSION
+    $(EXTENSIONDIR)$/README_th_de_DE_v2.txt \
+    $(EXTENSIONDIR)$/th_de_DE_v2.dat \
+    $(EXTENSIONDIR)$/th_de_DE_v2.idx
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=COPYING_OASIS
+CUSTOM_LICENSE=COPYING
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
-
-COMPONENT_ZIP:=$(PWD)$/thes_de_DE_v2.zip
-COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_de_DE_v2.dat \
-    $(EXTENSIONDIR)$/th_de_DE_v2.idx
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
-
-.IF "$(COMPONENT_UNZIP_FILES)"!=""
-$(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
-    cd $(EXTENSIONDIR) && unzip -o $< $(COMPONENT_UNZIP_FILES:f:t" ")
-.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
