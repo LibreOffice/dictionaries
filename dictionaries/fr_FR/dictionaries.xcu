@@ -2,7 +2,7 @@
 <oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Linguistic" oor:package="org.openoffice.Office">
  <node oor:name="ServiceManager">
     <node oor:name="Dictionaries">
-        <node oor:name="HunSpellDic_fr_FR-Classique-et-Réforme1990" oor:op="fuse">
+        <node oor:name="HunSpellDic_fr_Classique-et-Réforme1990" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/fr_FR.aff %origin%/fr_FR.dic</value>
             </prop>
@@ -14,7 +14,7 @@
             </prop>
         </node>
 
-        <node oor:name="HyphDic_fr-FR" oor:op="fuse">
+        <node oor:name="HyphDic_fr" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/hyph_fr_FR.dic</value>
             </prop>
@@ -26,9 +26,9 @@
             </prop>
         </node>
 
-        <node oor:name="ThesDic_fr-FR" oor:op="fuse">
+        <node oor:name="ThesDic_fr" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/th_fr_FR_v2.dat %origin%/th_fr_FR_v2.idx</value>
+                <value>%origin%/thes_fr_FR.dat %origin%/thes_fr_FR.idx</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_THES</value>

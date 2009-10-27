@@ -6,7 +6,7 @@
 # R 1.18, 11/04/05
 SET ISO8859-1
 TRY esiaÈnrtolcdugmfphbyvkw-'.zqjxSNRTLCGDMFPHBEAUYOIVKWÛˆ‚ÙZQJX≈ÁËÓÍ‡Ô¸‰Ò
-REP 27
+REP 36
 REP f ph
 REP ph f
 REP f gh
@@ -25,6 +25,7 @@ REP leness ility
 REP ness ivity
 REP eness ity
 REP og ogue
+REP ck qu
 REP ck que
 REP eg e.g.
 REP ie i.e.
@@ -41,6 +42,7 @@ REP ie y
 REP y ie
 REP ll l
 REP l ll
+REP ua ue
 PFX A Y 2
 PFX A 0 re [^e] 
 PFX A 0 re- e 

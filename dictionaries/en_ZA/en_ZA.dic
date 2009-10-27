@@ -1,4 +1,7 @@
-53363
+53476
+!boerbul
+!likable
+!poes
 A
 AA
 AAA
@@ -4260,7 +4263,7 @@ colloquialism/SM
 collusion/M
 colophon/MS
 colorimeter/MSW
-colour/nRj8pSMDGqQ-6NJ
+colour/nRj8pSM3DGqQ-6NJ
 colourless/Y
 colourlessness
 colours/EA
@@ -4704,6 +4707,7 @@ deadener/M
 deadening/M
 deadwood/MS
 deaf/TPY
+deaf-blind
 dealt/a
 death-rattle
 death-toll/M
@@ -6260,9 +6264,12 @@ homogenise/DRSG
 homograph/MS
 homologous
 homomorph/M1ZW
+homophonous
+homopteran
 homozygous/Y
 homunculus
 honest/EYZ
+honest-to-God
 honeymoon/GMRSD
 honorary/SY
 honourably/S
@@ -6275,6 +6282,7 @@ hopeful/PS
 hoppled
 hopples
 hopscotch/M
+hornfels
 horology/3SMWw
 horoscope/MS
 horrendous/Y
@@ -6282,11 +6290,13 @@ horrid/PY
 horse-doctor
 horse-drawn
 horseback
+horsebean
 horsefly/SM
 horsiest
 hos/dS
 hosepipe
 hot-blooded
+hot-swap
 hot-tempered
 hotcake/S
 hotelier/SM
@@ -6306,6 +6316,7 @@ housebreaking/M
 houseful/MS
 household/SMR
 housekeep/RG
+housemater's
 houser
 housewife/YM
 housewifely/P
@@ -7677,6 +7688,7 @@ nouveau
 nouveaux
 novel/MQ-3S
 now
+now-now
 nroff/M
 nth
 nuance/MDS
@@ -7691,6 +7703,7 @@ nullification/M
 numberer/M
 numerator/SM
 numerical/S
+nunchaku/S
 nuptial/S
 nutation/M
 nuthatch/MS
@@ -8657,6 +8670,7 @@ red/TZSP
 red-head/MDS
 redecorate
 redeliver/dZ
+redgrass
 redhead/S
 redirection
 redistribute/V
@@ -8665,6 +8679,7 @@ redraft/G
 redress/G
 reduce/DRGVnbSN
 reduced/U
+redwater
 reeding/M
 referenced/U
 referent/MS
@@ -8804,7 +8819,6 @@ revive/DGS
 revivify/n
 revolution/Q8y3SM
 rework/7
-rewritable
 rhapsody/wSWMQ
 rheostat/MS
 rhodium/M
@@ -8849,6 +8863,7 @@ ritualism/M
 rivet/SrdkM
 rivulet/MS
 roadblock/MS
+roadroller/SM
 roadrunner/SM
 roast/RJSDG
 rockabilly/M
@@ -8862,6 +8877,7 @@ role-play/DG
 roll-out
 romanise/nSGD
 rondavel/S
+rooihout
 room/MZS62
 room-mate/SM
 root-mean-square
@@ -9315,7 +9331,8 @@ small-time
 smallholder/S
 smallish
 smarmy/T
-smart/SZTYDG
+smart/kSZTYDG
+smart-arse
 smarts/e
 smarty-pants
 smear/GSZD
@@ -9341,6 +9358,7 @@ snappy/TP
 sneer/GMkSD
 sneerer/M
 sneeze/DSG
+sneezewood/M
 sniffler/M
 snifter/MS
 snobbishness
@@ -9580,6 +9598,7 @@ straight-faced
 straightish
 strait-laced
 strangulation/M
+strategise
 strati
 stratify/SGNDn
 stratigraphy/WMw
@@ -9856,6 +9875,7 @@ tercentennial/S
 term/DSMG
 terminal/YSM
 termination/CM
+terminologist/S
 terminology/wS1M
 terns/I
 terrarium/MS
@@ -10377,6 +10397,7 @@ vocal/sQ3-8Yq9S
 vocation/IMFAS
 vocative/YS
 voetsak
+voiceprint
 voided
 volcanoes
 volitional
@@ -10468,6 +10489,7 @@ well-rounded
 well-trained
 well-wisher/S
 welled
+welwitschia
 wend/DGS
 were
 werewolf/M
@@ -10623,6 +10645,7 @@ zippy/T
 zonked
 zwieback/SM
 zymurgy/S
+'mongst
 ALU
 ATC
 ATM/M
@@ -10841,6 +10864,7 @@ Blantyre/M
 Bloemside
 Blommekloof
 Blomtuin
+Blu-ray
 Bluebeard/M
 Bluegumbush
 Bluegumview
@@ -12330,6 +12354,7 @@ Nabisco/M
 Nadia/M
 Naku'alofa/M
 Naledi
+Nama
 Nambiti
 Namibiaplein
 Nancefield
@@ -12444,7 +12469,7 @@ Ntuzuma
 Nuku'alofa
 Nuwerus
 Nyandeni
-Nyanja
+Nyanja/S
 Nyerere/M
 Nyokana
 Nyssa/M
@@ -12599,7 +12624,7 @@ Qoqodala
 Qualbert
 Qudeni
 Qwayinduku
-R1
+R1/M
 R1s
 RPO
 RSPCA
@@ -12730,6 +12755,7 @@ SCSI
 SEATO
 SIMD
 SLR
+SMME
 SOE
 SS
 SSA/SM
@@ -14474,6 +14500,7 @@ chat/GMS2ZDz
 cheapish
 cheapskate/SM
 cheat/SDRG
+checklist/SM
 cheerio/S
 cheerlessness/S
 cheese/MSGZD
@@ -14672,6 +14699,7 @@ colonised/U
 colorimetry
 colossi
 colourant/MS
+colourist/W1
 coma/SM
 comae
 combed/U
@@ -15078,6 +15106,7 @@ dawn/MDGS
 daycare/S
 de/G
 de-ice/RSGD
+deaccession
 deacon/MdS
 deafen/dkS
 deafening/M
@@ -15108,6 +15137,7 @@ decomposability/M
 decomposable/I
 decompress/GNX
 deconstructionism
+decontextialisation
 decorated/AUc
 decorousness/S
 decoupage/DGSM
@@ -15507,6 +15537,7 @@ earthly/TP
 earthworm/MS
 eased/E
 easing/M
+easy-peasy
 eccentricity/MS
 ecclesiology/3w
 ecology/3SwM1
@@ -15853,7 +15884,9 @@ fairway/MS
 faithlessness/S
 falcon/ryMS
 fall's/ec
+fallback
 fallen
+falling-out
 falsifiability/M
 falter/drJkS
 faltering/UY
@@ -16087,6 +16120,7 @@ foretold
 foreverness
 forewarn/GDSJ
 foreword/SM
+forex
 forge/RyGJDMS
 forgive/7PRSlkG
 forgiveness/S
@@ -16695,12 +16729,15 @@ homoeostases
 homogenisation
 homogenize/nSRNGD
 homomorphous
+homophobe/SW
 homophobia/S
 hone/DTSGM
 honey/SMD
+honeybird/MS
 honeycomb/SMDG
+honeyguide/MS
 honorarium/SM
-honorific
+honorific/Y
 hood/iSDMG
 hooded/P
 hooliganism/MS
@@ -16709,9 +16746,11 @@ hoover/d
 hopefulness/S
 hoper/M
 hormone/oSM
+hornbill/SM
 horner
 hornlike
 hornpipe/MS
+horsebox
 horsedom
 horseflesh/M
 horselike
@@ -16726,6 +16765,8 @@ hospital/Q-8SqM
 host/SDMYG
 hot/PDYSGT
 hot-air
+hot-swappable
+hot-water
 hothead/hMiSD
 hotheadedness/S
 hotrod
@@ -16741,6 +16782,8 @@ housebroken
 housecleaning/M
 housed/A
 housemaid/MS
+housemistress
+housemother/S
 housewine
 however
 howitzer/MS
@@ -17775,6 +17818,8 @@ millstone/SM
 millwright/MS
 mimesis/M
 mimicry/MS
+mind-bending
+mind-blowing/Y
 mind-expanding
 mind-numbing/Y
 minds/A
@@ -17782,6 +17827,7 @@ mindset/S
 mine-detector
 minefield/SM
 mineral/Q-SMq8
+minibar/S
 minicab/M
 minimax/M
 mining/f
@@ -18172,6 +18218,7 @@ north-East/M
 north-Easterly
 north-Eastern
 north-eastward/S
+north-north-west
 northbound
 nose-cone/S
 nosebleed/SM
@@ -18192,6 +18239,7 @@ nuclear-free
 nucleolus/M
 nucleus/WM
 nuder/C
+num-num
 numbering/S
 numeric/YS
 nurse/RDSGMJ
@@ -19175,6 +19223,7 @@ rarebit/MS
 rarefaction/SM
 raspy/T
 raster/SM
+ratel/S
 ratepayer/SM
 ration/DGM
 rattle/SYRDGJ
@@ -19421,6 +19470,7 @@ riverine
 riverside/MS
 road-based
 road-hog/S
+roadholding
 roam/DRGS
 roar/RkJSDG
 robber/Z
@@ -19946,6 +19996,7 @@ smooth-tongued
 snaaks
 snaky/T
 snarer/M
+snarky/T
 snarler/M
 snarly/T
 snatch/RSDG
@@ -21010,6 +21061,7 @@ vociferousness
 vocoded
 voguish
 voice-over/S
+voicelessness
 voidable
 volleyball/MS
 volte-face
@@ -21215,7 +21267,6 @@ wreck/RGDS
 wriggly/T
 write/fGARS
 write-up/S
-writeable
 writes/c
 wrong/6jYGDS
 wryer
@@ -21255,6 +21306,7 @@ zoology/wS13M
 Ågar
 éclat/M
 émigré/S
+!soutpiel
 .NET
 3GPP/M
 AC
@@ -22233,6 +22285,7 @@ Hologo
 Holomisa
 Holpan
 Holt
+Homoptera
 Honecker
 Honeycomb
 Honeydew
@@ -23222,6 +23275,7 @@ Punts
 Pushto
 Putfontein
 Pyongyang/M
+Pyrex
 Python
 Qa'ida/M
 Qamata
@@ -24045,6 +24099,7 @@ Zulu/MS
 Zuni
 Zwide
 a/o
+aardwolf/M
 abacus/MS
 abashed/UY
 abdominal/YS
@@ -25238,6 +25293,7 @@ chocolate/SMZ
 cholesterol/MS
 choline/M
 cholinesterase/M
+chommie
 choosy/T
 choroid/S
 chromite/M
@@ -26232,6 +26288,7 @@ earthwork/MS
 earwig/MDGS
 easiness/S
 east-north-east
+east-south-east
 eastward/S
 eaten/Uc
 eave/SM
@@ -27389,12 +27446,12 @@ homoeotherm/ZW
 homogeneity/MIS
 homogeneously
 homology/SwM
-homophobes
 homosexual/YSM
 honer/S
 honestest
 honeylocust
 honk/RSDMG
+honoraria
 hoofer/M
 hook's
 hookah/SM
@@ -27406,6 +27463,8 @@ horrible/PY
 horribleness/S
 horror/MS
 horse/Mm5pYSDG
+horse-trade/G
+horse-trader
 horticultural
 hosp
 hospitable/IY
@@ -27413,14 +27472,17 @@ hospitably/I
 hostelry/SM
 hostess/GSMD
 hostler/MS
+hot-headed/Y
 hotbed/MS
 hotbox/SM
 hotfoot/GDS
+house-hunter
 house-parent/SM
 house-to-house
 housebreak/GJRS
 housebroke
 houseclean/GDSJ
+housemanship
 housewives
 howl/DRMGS
 html
@@ -28430,10 +28492,12 @@ millipede/MS
 millivolt/MS
 mimeograph/DMGS
 minaret/MS
+mind-boggling/Y
 mindless/PY
 mindshare
 mineshaft
 minibus/SM
+minigolf
 minim/qQsSM89o-
 minimalism/S
 minion/SM
@@ -30081,6 +30145,7 @@ river/MS
 road/SM
 roadbed/MS
 roadmap
+roadshow/SM
 roadside/S
 roadster/MS
 roan/S
@@ -30586,7 +30651,7 @@ snack/GMSD
 snappable
 snapshot/MS
 snare/SMGD
-snazzy/TY
+snazzy/TYP
 sneaky/TP
 snigger/Sd
 snip/SrDGZ
@@ -31922,6 +31987,10 @@ zircon/M
 zloty/M
 zoophyte/SM
 zygote/MSW
+!boerseun
+!gatvol
+!koedoe
+!pomp
 'strewth
 'twas
 AI
@@ -36022,6 +36091,7 @@ colossal/Y
 colour-code/D
 colour-fastness/S
 colourful/P
+colourise/C
 columbine/MS
 columnist
 combatant/SM
@@ -36425,15 +36495,17 @@ darneder
 dashiki/MS
 dastardliness/S
 dastardly/P
+databank/MS
 datable
 datagram/MS
 datedness/e
 daunt/DkGpS
 day/MS
 daydream/DRSGM
+daypack/SM
 dead/TPY
 deadliness/S
-deadpan
+deadpan/DG
 dealing/M
 dean/GMDS
 dearness/S
@@ -36606,6 +36678,7 @@ dimensional
 diminish/SD7G
 diminuendo/SM
 ding/DzG2Z
+dingus/S
 diocesan/S
 diocese/SM
 dioxin/S
@@ -36816,6 +36889,7 @@ earwax/M
 easel/MS
 easer/M
 eastern/R
+easy-going
 eating's
 ebullience/MS
 ecclesiastical
@@ -37958,11 +38032,16 @@ homicide/oSM
 homoeopathy/SM
 homoeothermal
 homogeneous/I
+homonymous
 homosexuality/SM
+honcho/S
+honest-to-goodness
 honesty/MSE
 honeybee/MS
 honeybush
+honeypot/SM
 honeysuckle/MS
+honorand
 honour/ERl7SMGD
 honourable/MS
 honourableness
@@ -37996,6 +38075,8 @@ hosanna/SDG
 hosier/MSZ
 hospitalities
 hostage/SM
+hot-desking
+hot-headedness
 hotchpotch/M
 hothouse/MDSG
 hound/SGMD
@@ -38003,7 +38084,9 @@ house/M6DmGJS
 house-plant/S
 houseboy/MS
 housecoat/SM
+housefather/S
 housefly/MS
+housemaster
 housing/M
 hovel/SM
 hover/Sd
@@ -39054,8 +39137,10 @@ millivoltmeter/SM
 millrace/MS
 milt/RMS
 mimer/M
+mind-reading
 mined/f
 minicomputer/SM
+minidisc/S
 minimal/S3
 minimalist/W
 minimization/M
@@ -39233,7 +39318,7 @@ nailbrush's
 naive/TY
 naked/YP
 namby
-namby-pamby
+namby-pamby/S
 nano
 napkin/MS
 narcosis/M
@@ -40657,9 +40742,10 @@ rival/MDySG
 rive/CSGD
 riverbed/S
 roach/MS
-roadie/S
+roadie/MS
 roadway/SM
 roadwork/MS
+roadworthiness
 rob/RDGS
 rock-climbing
 rocker/Z
@@ -41177,6 +41263,7 @@ small-town
 smarted/e
 smarting/e
 smash/DRkSG
+smelling-out
 smidgen/SM
 smite/SG
 smiter/M
@@ -41187,11 +41274,12 @@ smocking/M
 smog/MZ
 smoke-stone
 smoking-room
+smoorvis
 smudge/SZGDp
 snakelike
 snakeskin
 snarl/DkSYG
-sneezer
+sneezer/M
 snick/RM
 snide/PTY
 snitch/DSG
@@ -42481,6 +42569,7 @@ wrack/M
 wraith/MS
 wrestle/RSDG
 wretched/P
+writable/A
 wrong-headed/Y
 wrote/Acf
 wroth
@@ -42526,6 +42615,8 @@ zodiacal
 zoom/GSD
 éclair/SM
 élan/M
+!hotnot/S
+!kak
 'neath
 'struth
 'twixt
@@ -44453,6 +44544,7 @@ Omo
 Onega/M
 Oos-londen
 Oostersee
+OpenDocument
 OpenOffice/M
 Ophirton
 Oppenheimer/M
@@ -44580,6 +44672,7 @@ Prospecton
 Provence/M
 Pudimoe
 Punjabi
+Putt-Putt
 Pythagoras
 Qalabotjiha
 Qeto
@@ -44595,7 +44688,7 @@ Quinton
 Quito/M
 Qumbu
 Quti
-R4
+R4/M
 R4s
 RAC
 Ra
@@ -45331,6 +45424,7 @@ Zwartkop
 Zwaveldspoort
 Zweletemba
 Zwelisha
+aardwolves
 abandoner/M
 abate/GDLS
 abbess/MS
@@ -46659,6 +46753,8 @@ colour-blind/P
 colour-fast/P
 colouration/EM
 colourfulness/S
+colourisation/C
+colourway
 colt/SM
 column/Q3MD8S
 comatose
@@ -46809,6 +46905,7 @@ contemporariness/S
 contented/P
 contestable/I
 contestant/MS
+contextualise/C
 contiguity/MS
 contiguous/PY
 continent/IY
@@ -47104,6 +47201,7 @@ declamation/MS
 declared/AKU
 declension/MS
 declivity/MS
+decoke
 decompose/B
 decompresser
 decontrol/DG
@@ -47886,6 +47984,7 @@ fairing/M
 fairness/U
 faithful/UY
 fajitas
+fall-off
 fallibly/I
 fallout/SM
 falsetto/MS
@@ -48742,10 +48841,11 @@ homoerotic
 homogenate/MS
 homologue/M
 homomorphism/MS
-homonym/MS
-homophobic
+homonym/MWSZ
 homophone/ZMS
+homopolar
 homopolymers
+homopterous
 homotopy
 honester
 honeydew/SM
@@ -48756,10 +48856,10 @@ hopeless/YP
 horde/SM
 horizon/SM
 horn/Gi2DpSZM
+horn-rimmed
 horrify/WDk1GS
 horror-stricken
 horror-struck
-horse-trading
 horsehair/MS
 horsemanship/SM
 horsing/M
@@ -48767,11 +48867,14 @@ hospitality/IM
 hostel/MRSyDG
 hostile/Y
 hostility/SM
+hot-wire
 hotel/mMS
 hotheaded/P
 hotline
 house-husband
+house-sit/R
 housebuilding
+housematers
 houses/Ae
 housetop/MS
 housewares
@@ -49085,6 +49188,7 @@ interlude/SM
 intermediary/SM
 international/-q8Q3S
 internetwork
+internship/SM
 interocular
 interpenetrates
 interpolatable
@@ -49468,6 +49572,7 @@ lied/M
 lien/MS
 lies/cAf
 life-giving
+lifeboatman
 lifeguard/MGDS
 lifeless/PY
 lifelessness/S
@@ -49532,6 +49637,7 @@ lo
 loamy/T
 loathe/S
 lobotomy/SQM
+localisable
 locater/M
 locational/Y
 locknut/M
@@ -49872,7 +49978,7 @@ microsecond/SM
 mid/Z
 mid-air/MS
 mid-flight
-middelmannetjie
+middelmannetjie/S
 middle-sized
 middler
 midfield/M
@@ -50093,6 +50199,7 @@ mélange
 nacelle/SM
 nadir/MS
 naf/S
+nagmaal
 nail-biting
 nailer/M
 nakedness/S
@@ -50442,6 +50549,7 @@ ordinands
 organelle/MS
 organiser/AMS
 organizational/S
+organogram
 organometallic
 orgiastic
 orgy/SM
@@ -51218,7 +51326,7 @@ quadraphonic/S
 quadrillion/MSH
 quadripartite/Y
 quadriplegic/SM
-quagga/S
+quagga/MS
 quail/MDGS
 quake/ZGDS
 qualifiedly
@@ -51483,6 +51591,7 @@ ridden/c
 riderless
 ridge-pole/MS
 ridicule/DSMG
+rietbok
 riff-raff/M
 rigger/eMS
 right-angled
@@ -51527,7 +51636,7 @@ romanize/SDnGN
 romantic/Y38MQS
 roofing/M
 rooigras
-rooinek/S
+rooinek/MS
 roomful/SM
 rosebush/SM
 rot-gut/M
@@ -52000,6 +52109,7 @@ smaak
 small-scale
 smallholding/MS
 smarten/dS
+smartish
 smartness
 smeller/M
 smelt/RGSD
@@ -53102,6 +53212,7 @@ vocational/Y
 vociferate/SGDNn
 vociferous/Y
 voice-band
+voicemail
 void/C
 voiding
 voids
@@ -53199,6 +53310,8 @@ wellness
 welt/RMDGS
 welterweight/MS
 wench/MS
+west-north-west
+west-south-west
 westbound
 western/RqSQ
 westward/S
@@ -53321,7 +53434,7 @@ wretch/MSDhi
 wriggle/DRYGS
 wring/SGR
 wristwatch/SM
-writ/MrS
+writ/Mr7S
 writing's
 written/afUcA
 wrong-foot/D

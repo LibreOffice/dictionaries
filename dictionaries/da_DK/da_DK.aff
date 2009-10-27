@@ -1,7 +1,7 @@
-#Stavekontrolden version 1.1
+#Stavekontrolden version 1.4
 #Denne fil er en del af Stavekontrolden - et softwareprodukt, der gør det muligt at stavekontrollere på dansk.
 
-#Copyright (C) 2007 Foreningen for frit tilgængelige sprogværktøjer
+#Copyright (C) 2009 Foreningen for frit tilgængelige sprogværktøjer
 #Website: http://www.stavekontrolden.dk
 #E-mail: info@stavekontrolden.dk
 
@@ -25,13 +25,14 @@
 SET UTF-8
 TRY esrntliadkogmufbvphæøyjåcSMAKBHTLzRNEGéJVFDCwPIxOZ'.UWqØYÅüXQöèóáúðëÆíÖäÜÁàôïêÞÓÿîçãÒÍ.
 FLAG num
+KEY qwertyuiopå|asdfghjklæø|zxcvbnm
 #Til sammensætninger: Bindestreg er et ord i sammensætninger
 COMPOUNDMIN 1
 WORDCHARS -
 #Undlad at foreslå opdeling af ord - opdeling vil forårsage flere fejl end det vil afhjælpe
 NOSPLITSUGS
 
-REP 89
+REP 96
 REP k g
 REP g k
 REP b p
@@ -121,6 +122,13 @@ REP ø eu
 REP y ud
 REP sj g
 REP ds c
+REP u in #ueffektiv ineffektiv
+REP in u #inkorrekte ukorrekt
+REP ind u #indkorrekte ukorrekt
+REP je æ #kjekke kække
+REP le ti #stalestikkerne -> statistikkerne
+REP op efter #opfølgeren -> efterfølgeren
+REP ede te #låsede -> låste
 
 
 #Verbum, svagt bøjet, -ede i datid
@@ -272,6 +280,8 @@ SFX 20 0 e/70,944 .	+PLUR_UBEK
 SFX 20 0 es/944 .	+GENITIV
 SFX 20 0 enes/944 [^e][^r]	+PLUR_BEK
 SFX 20 0 nes/944 er	+GENITIV
+#Ulovligt ord
+FORBIDDENWORD 36
 #Substantiv, konsonantfordobling, fælleskøn, -er i flertal 
 SFX 46 Y 120 
 SFX 46 0 ben/944 b	+KONSONANT_FORDOBLING
@@ -797,7 +807,7 @@ SFX 207 0 stes/944 .	+GENITIV
 #Adjektiv, svagt bøjet uden komparation
 SFX 913 Y 2
 SFX 913 0 e/944 .	+PLUR_BEK
-SFX 913 0 t/944 .	+BESTEMT_ENTAL
+SFX 913 0 t/944 [^t]	+BESTEMT_ENTAL
 #Adjektiv, d erstatter t med komparation
 SFX 914 Y 4
 SFX 914 t de/70,70,944 .	+PLUR_BEK
@@ -1106,7 +1116,7 @@ SFX 402 0 '/53,10,73,70,945 .
 #Sammensætning, fugeelement -
 SFX 466 Y 2
 SFX 466 0 -/942,945 .
-SFX 466 0 -/943,945 .
+SFX 466 0 -/943,945,943 .
 #Proprium med mulighed for retning som præfix
 PFX 699 Y 261
 PFX 699 A Norda/55 A
@@ -1370,4 +1380,85 @@ PFX 699 Å Nordøstå/55 Å
 PFX 699 Å Sydvestå/55 Å
 PFX 699 Å Sydøstå/55 Å
 PFX 699 Å Midtå/55 Å
-
+#Sammensætning, fugeelement fjern e
+SFX 404 Y 2
+SFX 404 e 0/946,943 .
+SFX 404 e 0/946,945,942 .
+#Sammensætning, fugeelement fjern e tilføj s
+SFX 405 Y 2
+SFX 405 e s/946,942,945 .
+SFX 405 e s/946,943,945 .
+#Substantiv, konsonantfordobling, intetkøn, torso
+SFX 736 Y 20
+SFX 736 0 bet/944,70 b	+KONSONANT_FORDOBLING
+SFX 736 0 cet/944,70 c	+KONSONANT_FORDOBLING
+SFX 736 0 det/944,70 d	+KONSONANT_FORDOBLING
+SFX 736 0 fet/944,70 f	+KONSONANT_FORDOBLING
+SFX 736 0 get/944,70 g	+KONSONANT_FORDOBLING
+SFX 736 0 het/944,70 h	+KONSONANT_FORDOBLING
+SFX 736 0 jet/944,70 j	+KONSONANT_FORDOBLING
+SFX 736 0 ket/944,70 k	+KONSONANT_FORDOBLING
+SFX 736 0 let/944,70 l	+KONSONANT_FORDOBLING
+SFX 736 0 met/944,70 m	+KONSONANT_FORDOBLING
+SFX 736 0 net/944,70 n	+KONSONANT_FORDOBLING
+SFX 736 0 pet/944,70 p	+KONSONANT_FORDOBLING
+SFX 736 0 qet/944,70 q	+KONSONANT_FORDOBLING
+SFX 736 0 ret/944,70 r	+KONSONANT_FORDOBLING
+SFX 736 0 set/944,70 s	+KONSONANT_FORDOBLING
+SFX 736 0 tet/944,70 t	+KONSONANT_FORDOBLING
+SFX 736 0 vet/944,70 v	+KONSONANT_FORDOBLING
+SFX 736 0 wet/944,70 w	+KONSONANT_FORDOBLING
+SFX 736 0 xet/944,70 x	+KONSONANT_FORDOBLING
+SFX 736 0 zet/944,70 z	+KONSONANT_FORDOBLING
+#Substantiv, konsonantfordobling, fælleskøn, torso
+SFX 737 Y 20
+SFX 737 0 ben/944,70 b	+KONSONANT_FORDOBLING
+SFX 737 0 cen/944,70 c	+KONSONANT_FORDOBLING
+SFX 737 0 den/944,70 d	+KONSONANT_FORDOBLING
+SFX 737 0 fen/944,70 f	+KONSONANT_FORDOBLING
+SFX 737 0 gen/944,70 g	+KONSONANT_FORDOBLING
+SFX 737 0 hen/944,70 h	+KONSONANT_FORDOBLING
+SFX 737 0 jen/944,70 j	+KONSONANT_FORDOBLING
+SFX 737 0 ken/944,70 k	+KONSONANT_FORDOBLING
+SFX 737 0 len/944,70 l	+KONSONANT_FORDOBLING
+SFX 737 0 men/944,70 m	+KONSONANT_FORDOBLING
+SFX 737 0 nen/944,70 n	+KONSONANT_FORDOBLING
+SFX 737 0 pen/944,70 p	+KONSONANT_FORDOBLING
+SFX 737 0 qen/944,70 q	+KONSONANT_FORDOBLING
+SFX 737 0 ren/944,70 r	+KONSONANT_FORDOBLING
+SFX 737 0 sen/944,70 s	+KONSONANT_FORDOBLING
+SFX 737 0 ten/944,70 t	+KONSONANT_FORDOBLING
+SFX 737 0 ven/944,70 v	+KONSONANT_FORDOBLING
+SFX 737 0 wen/944,70 w	+KONSONANT_FORDOBLING
+SFX 737 0 xen/944,70 x	+KONSONANT_FORDOBLING
+SFX 737 0 zen/944,70 z	+KONSONANT_FORDOBLING
+#Adjektiv, svagt bøjet uden komparation, dobbeltkonsonant
+SFX 841 Y 20
+SFX 841 0 b b	+KONSONANT_FORDOBLING
+SFX 841 0 c c	+KONSONANT_FORDOBLING
+SFX 841 0 d d	+KONSONANT_FORDOBLING
+SFX 841 0 f f	+KONSONANT_FORDOBLING
+SFX 841 0 g g	+KONSONANT_FORDOBLING
+SFX 841 0 h h	+KONSONANT_FORDOBLING
+SFX 841 0 j j	+KONSONANT_FORDOBLING
+SFX 841 0 k k	+KONSONANT_FORDOBLING
+SFX 841 0 l l	+KONSONANT_FORDOBLING
+SFX 841 0 m m	+KONSONANT_FORDOBLING
+SFX 841 0 n n	+KONSONANT_FORDOBLING
+SFX 841 0 p p	+KONSONANT_FORDOBLING
+SFX 841 0 q q	+KONSONANT_FORDOBLING
+SFX 841 0 r r	+KONSONANT_FORDOBLING
+SFX 841 0 s s	+KONSONANT_FORDOBLING
+SFX 841 0 t t	+KONSONANT_FORDOBLING
+SFX 841 0 v v	+KONSONANT_FORDOBLING
+SFX 841 0 w w	+KONSONANT_FORDOBLING
+SFX 841 0 x x	+KONSONANT_FORDOBLING
+SFX 841 0 z z	+KONSONANT_FORDOBLING
+#Sammensætning, fugeelement -er-
+SFX 437 Y 2
+SFX 437 0 er/942,945,946 .
+SFX 437 0 er/946,943,945 .
+#Sammensætning, fugeelement -ne-
+SFX 449 Y 2
+SFX 449 0 ne/946,945,942 .
+SFX 449 0 ne/946,943,945 .
