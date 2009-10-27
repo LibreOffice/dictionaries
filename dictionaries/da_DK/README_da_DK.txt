@@ -1,7 +1,6 @@
 Stavekontrolden - Danish dictionary files for Hunspell
-Version 1.1 - 2007-11-17
-
-da_DK.dic, da_DK.aff: © 2007 Foreningen for frit tilgængelige sprogværktøjer
+Version 1.4 - 2009-09-25
+da_DK.dic, da_DK.aff: © 2009 Foreningen for frit tilgængelige sprogværktøjer
 http://www.stavekontrolden.dk
 These files are published under the following open source licenses:
 

@@ -46,6 +46,9 @@ TARGET=dict-de-ch
 # name for uniq directory
 EXTENSIONNAME:=dict-de
 EXTENSION_ZIPNAME:=dict-de
+
+# extension will be buiild in de_DE (see build.prj) and the
+# dictionary.xcu from there will be used
 COMPONENT_COPYONLY=TRUE
 
 # some other targets to be done
@@ -55,33 +58,32 @@ COMPONENT_COPYONLY=TRUE
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/COPYING_OASIS \
-    $(EXTENSIONDIR)$/de_CH.aff \
-    $(EXTENSIONDIR)$/de_CH.dic \
-    $(EXTENSIONDIR)$/README_de_CH.txt
+    $(EXTENSIONDIR)$/de_CH_frami.aff \
+    $(EXTENSIONDIR)$/de_CH_frami.dic \
+    $(EXTENSIONDIR)$/hyph_de_CH.dic \
+    $(EXTENSIONDIR)$/README_de_CH_frami.txt \
+    $(EXTENSIONDIR)$/README_extension_owner.txt \
+    $(EXTENSIONDIR)$/README_hyph_de_CH.txt \
+    $(EXTENSIONDIR)$/README_th_de_CH_v2.txt \
+    $(EXTENSIONDIR)$/th_de_CH_v2.dat \
+    $(EXTENSIONDIR)$/th_de_CH_v2.idx
+
+COMPONENT_CONFIGDEST=.
+COMPONENT_XCU= \
+    $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-# CUSTOM_LICENSE=Copyright
+CUSTOM_LICENSE=COPYING
 # override default license destination
-# PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
-
-COMPONENT_ZIP:=$(PWD)$/thes_de_CH_v2.zip
-COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_de_CH_v2.dat \
-    $(EXTENSIONDIR)$/th_de_CH_v2.idx \
-    $(EXTENSIONDIR)$/README_th_de_CH_v2.txt
+PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
-
-.IF "$(COMPONENT_UNZIP_FILES)"!=""
-$(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
-    cd $(EXTENSIONDIR) && unzip -o $< $(COMPONENT_UNZIP_FILES:f:t" ")
-.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
