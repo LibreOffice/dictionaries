@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
 
     <!-- SHOULD OR MUST BE PROVIDED ENTRIES FOLLOWING... -->
@@ -6,7 +6,7 @@
     <!-- The version of your extension. NOT the one of OpenOffice.org...
          It will also be used to automatically check if there are updates for this
          extension available. Newer versions should have higher values. -->
-    <version value="2.0.3" />
+    <version value="2.0.6" />
 
     <!-- A unique identifier for your extension.
         In order to avoid name clashes with other extensions it should probably hold
