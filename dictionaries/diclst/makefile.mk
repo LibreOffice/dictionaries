@@ -45,10 +45,6 @@ all_target: $(MISC)$/$(TARGET).don
 DIC2BIN= \
     dictionary_head
 
-.IF "$(WITH_FONTOOO)" == "YES"
-DIC2BIN+=	FontOOo.sxw
-.ENDIF
-
 $(MISC)$/$(TARGET).don : $(DIC2BIN)
     $(COPY) $(foreach,i,$(DIC2BIN) $i) $(BIN)
     @$(TOUCH) $@
