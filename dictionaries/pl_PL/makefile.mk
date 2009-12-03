@@ -53,30 +53,27 @@ EXTENSION_ZIPNAME:=dict-pl
 
 # just copy:
 COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/flaga.png \
+    $(EXTENSIONDIR)$/hyph_pl_PL.dic \
     $(EXTENSIONDIR)$/pl_PL.aff \
     $(EXTENSIONDIR)$/pl_PL.dic \
-    $(EXTENSIONDIR)$/hyph_pl_PL.dic \
-    $(EXTENSIONDIR)$/README_hyph_pl_PL.txt
+    $(EXTENSIONDIR)$/README_pl.txt \
+    $(EXTENSIONDIR)$/th_pl_PL_v2.dat \
+    $(EXTENSIONDIR)$/th_pl_PL_v2.idx \
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=README_pl_PL.txt
+CUSTOM_LICENSE=README_en.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
-
-COMPONENT_ZIP:=$(PWD)$/th_pl_PL_v2.zip
-COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_pl_PL_v2.dat \
-    $(EXTENSIONDIR)$/th_pl_PL_v2.idx \
-    $(EXTENSIONDIR)$/README_th_pl_PL_v2.txt
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
@@ -84,7 +81,3 @@ EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(COMPONENT_FILES)
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
-.IF "$(COMPONENT_UNZIP_FILES)"!=""
-$(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
-    cd $(EXTENSIONDIR) && unzip -o $< $(COMPONENT_UNZIP_FILES:f:t" ")
-.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""

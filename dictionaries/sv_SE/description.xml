@@ -2,13 +2,22 @@
 
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
 
-    <version value="1.29" />
+<!-- suppressing this since it will give trouble at installation time for bundled extensions
+    <registration>
+        <simple-license accept-by="admin" suppress-on-update="true">
+            <license-text xlink:href="LICENSE_en_US.txt" lang="en" />
+            <license-text xlink:href="LICENSE_sv_SE.txt" lang="sv" />
+        </simple-license>
+    </registration>
+-->
+
+    <version value="1.40" />
 
     <identifier value="sv.dsso.dicts.ooo" />
 
     <display-name>
-    <name lang="en">Swedish Dictionary</name>
-    <name lang="sv">Svensk ordlista</name>
+        <name lang="en">Swedish Dictionary</name>
+        <name lang="sv">Svensk ordlista</name>
     </display-name>
 
     <platform value="all" />
