@@ -61,15 +61,15 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/README_sr.txt \
     $(EXTENSIONDIR)$/hyph_sh.dic \
     $(EXTENSIONDIR)$/hyph_sr.dic \
-    $(EXTENSIONDIR)$/LICENSE_sr \
-    $(EXTENSIONDIR)$/LICENSE_sh
+    $(EXTENSIONDIR)$/license_sr.txt \
+    $(EXTENSIONDIR)$/license_sh.txt
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=LICENSE_en-US
+CUSTOM_LICENSE=license_en-US.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
