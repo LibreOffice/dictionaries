@@ -44,12 +44,12 @@ TARGET=dict-de-at
 # --- Files --------------------------------------------------------
 
 # name for uniq directory
-EXTENSIONNAME:=dict-de
-EXTENSION_ZIPNAME:=dict-de
+EXTENSIONNAME:=dict-de-AT
+EXTENSION_ZIPNAME:=dict-de-AT
 
 # extension will be buiild in de_DE (see build.prj) and the
 # dictionary.xcu from there will be used
-COMPONENT_COPYONLY=TRUE
+#COMPONENT_COPYONLY=TRUE
 
 # some other targets to be done
 
