@@ -22,7 +22,7 @@ HYPH de DE hyph_de_DE
 HYPH de CH hyph_de_CH
 
 --------------------------------------------------------------------------------
-Trennmuster (hyph_de_DE.dic):
+Trennmuster (hyph_de_AT.dic):
 --------------------------------------------------------------------------------
 
 Die Trennmuster (hyph_de_AT.dic) basieren auf den TeX Trennmustern
