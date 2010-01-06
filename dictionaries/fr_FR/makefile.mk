@@ -53,39 +53,30 @@ EXTENSION_ZIPNAME:=dict-fr
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/hyph_fr_FR.dic \
-    $(EXTENSIONDIR)$/README_hyph_fr_FR.txt \
     $(EXTENSIONDIR)$/fr_FR.aff \
     $(EXTENSIONDIR)$/fr_FR.dic \
-    $(EXTENSIONDIR)$/LICENCES-fr.txt \
-    $(EXTENSIONDIR)$/LICENSES-en.txt 
+    $(EXTENSIONDIR)$/hyph_fr_FR.dic \
+    $(EXTENSIONDIR)$/README_hyph_fr.txt \
+    $(EXTENSIONDIR)$/README_thes_fr.txt \
+    $(EXTENSIONDIR)$/thes_fr_FR.dat \
+    $(EXTENSIONDIR)$/thes_fr_FR.idx 
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=README_fr_FR.txt
+CUSTOM_LICENSE=README_fr.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
-
-COMPONENT_ZIP:=$(PWD)$/th_fr_FR_v2.zip
-COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_fr_FR_v2.dat \
-    $(EXTENSIONDIR)$/th_fr_FR_v2.idx
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)     $(EXTENSIONDIR)$/th_fr_FR_v2.idx
+#EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)     $(EXTENSIONDIR)$/thes_fr_FR.idx
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
-
-.IF "$(COMPONENT_UNZIP_FILES)"!=""
-$(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
-    cd $(EXTENSIONDIR) && unzip -o $< $(COMPONENT_UNZIP_FILES:f:t" ")
-.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""

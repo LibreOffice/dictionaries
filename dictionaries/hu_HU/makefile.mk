@@ -56,35 +56,27 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/hu_HU.aff \
     $(EXTENSIONDIR)$/hu_HU.dic \
     $(EXTENSIONDIR)$/hyph_hu_HU.dic \
-    $(EXTENSIONDIR)$/README_hu_HU.txt \
-    $(EXTENSIONDIR)$/README_hyph_hu_HU.txt
+    $(EXTENSIONDIR)$/README_hyph_hu_HU.txt \
+    $(EXTENSIONDIR)$/README_th_hu_HU_v2.txt \
+    $(EXTENSIONDIR)$/th_hu_HU_v2.dat \
+    $(EXTENSIONDIR)$/th_hu_HU_v2.idx
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=LICENSES-en.txt
+CUSTOM_LICENSE=README_hu_HU.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
-
-COMPONENT_ZIP:=$(PWD)$/thes_hu_HU_v2.zip
-COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_hu_HU_v2.dat \
-    $(EXTENSIONDIR)$/th_hu_HU_v2.idx
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
-
-.IF "$(COMPONENT_UNZIP_FILES)"!=""
-$(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
-    cd $(EXTENSIONDIR) && unzip -o $< $(COMPONENT_UNZIP_FILES:f:t" ")
-.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
