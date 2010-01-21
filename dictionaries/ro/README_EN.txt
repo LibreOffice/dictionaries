@@ -4,7 +4,7 @@ a thesaurus. The extension was build by Lucian Constantin (http://rospell.source
 
 Authors and licenses:
 
-1. Romanian hyphenation dictionary 
+1. Romanian hyphenation dictionary
 Author:  Adrian Stoica (office@cuvinte.ro)
 License: GNU GPL, please see COPYING.GPL for more details
 
@@ -16,9 +16,10 @@ Authors:
 License:
    GNU General Public License Version 2 or later (see COPYING.GPL)
 
-2. Romanian Spelling Dictionary
+3. Romanian Spelling Dictionary
 Authors:
     Lucian Constantin (http://rospell.sourceforge.net)
+    Sorin Sbarnea (http://www.i18n.ro)
     Alexandru Szasz (Mozilla and OpenOffice.org Romanian Translation Team)
     Ionuț Păduraru (http://www.archeus.ro)
     Adrian Stoica (OpenOffice.org Romanian Translation Team) <adrian dot stoica at cuvinte dot ro>

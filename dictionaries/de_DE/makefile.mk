@@ -44,8 +44,8 @@ TARGET=dict-de-de
 # --- Files --------------------------------------------------------
 
 # name for uniq directory
-EXTENSIONNAME:=dict-de
-EXTENSION_ZIPNAME:=dict-de
+EXTENSIONNAME:=dict-de-DE
+EXTENSION_ZIPNAME:=dict-de-DE
 
 #build the dict-de extension when building this directory using the 
 #dictionaries.xcu from here. For this COMPONENT_COPYONLY has to be undefdined
