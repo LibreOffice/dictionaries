@@ -3,14 +3,11 @@
 
     <identifier value="romanian.contemporary.dictionaries.by.lucian" />
 
-    <version value="1.0" />
+    <version value="1.1" />
 
     <dependencies>
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>
-
-    <registration>
-    </registration>
 
     <publisher>
       <name lang="ro" xlink:href="http://rospell.sourceforge.net">rospell</name>
@@ -19,8 +16,8 @@
 
    <!-- using i18n.ro for release notes -->
     <release-notes>
-      <src xlink:href="http://www.i18n.ro/dictionaries-ro" lang="ro" />
-      <src xlink:href="http://www.i18n.ro/dictionaries-ro" lang="en" />
+      <src xlink:href="http://rospell.sourceforge.net/dictionary_ro.html" lang="ro" />
+      <src xlink:href="http://rospell.sourceforge.net/dictionary_ro.html" lang="en" />
     </release-notes>
 
     <display-name>
