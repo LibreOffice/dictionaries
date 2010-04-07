@@ -1,4 +1,4 @@
-The package contains current versions of all OpenOffice.org Slovak dictionaries as of 2009-12-16.
+The package contains current versions of all OpenOffice.org Slovak dictionaries as of 2010-02-09.
 
 Spellchecker
 ------------

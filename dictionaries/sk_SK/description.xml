@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
 
-
-    <version value="2009.12.16" />
+    <version value="2010.02.09" />
 
     <!--A unique identifier for your extension... -->
     <identifier value="org.openoffice.sk.dictionary" />
@@ -44,7 +43,7 @@
     <release-notes>
         <src xlink:href="release_en.txt" lang="en" />
         <src xlink:href="release_sk.txt" lang="sk" />
-        <src xlink:href="release_sk.txt" lang="cs" />
+            <src xlink:href="release_sk.txt" lang="cs" />
     </release-notes>
 
 </description>

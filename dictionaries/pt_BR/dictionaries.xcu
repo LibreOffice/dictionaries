@@ -14,7 +14,7 @@
             </prop>
         </node>
 
-      <node oor:name="HyphDic_pt-BR" oor:op="fuse">
+        <node oor:name="HyphDic_pt-BR" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/hyph_pt_BR.dic</value>
             </prop>
