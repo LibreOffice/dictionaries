@@ -19,6 +19,7 @@ di      dictionaries\gl         nmake   -       all     di_gl NULL
 di      dictionaries\he_IL      nmake   -       all     di_he_IL NULL
 di      dictionaries\hu_HU      nmake   -       all     di_hu_HU NULL
 di      dictionaries\it_IT      nmake   -       all     di_it_IT NULL
+di      dictionaries\ku_TR      nmake   -       all     di_ku_TR NULL
 di      dictionaries\lt_LT      nmake   -       all     di_lt_LT NULL
 di      dictionaries\ne_NP      nmake   -       all     di_ne_NP NULL
 di      dictionaries\nl_NL      nmake   -       all     di_nl_NL NULL
