@@ -1,4 +1,4 @@
-# verzia: 2.03-0, 2009-12-05
+# verzia: 2.03-1, 2009-12-19
 SET UTF-8
 TRY aoeintsvrlkmdpuhjzácbyčžíšýúťéľôďgfňäóŕxĺwěřqůAOEINTSVRLKMDPUHJZÁCBYČŽÍŠÝÚŤÉĽÔĎGFŇÄÓŔXĹWĚŘQŮ
 
@@ -693,23 +693,30 @@ SFX c   ľ           lia        ľ
 SFX c   n           nia        čan
 SFX c   0           ia         brat
 
-SFX C Y 83
-SFX C   ec          ci         [^o]tec
-SFX C   ec          ci         [^t]ec
-SFX C   0           i          [^r]odič
+SFX C Y 83 # vzor pre živ. pod.mená. ak N plurál je -i okrem hosť
+SFX C   0           i          [^acéhiklľnortť]
 SFX C   0           i          [^o]dič
 SFX C   0           i          [^d]ič
 SFX C   0           i          [^i]č
-SFX C   ch          si         ích
+SFX C   0           i          [ln]
+SFX C   ch          si         ch
 SFX C   k           ci         k
+SFX C   ec          ci         ec
 SFX C   0           i          jel
-SFX C   el          li         zel
+SFX C   el          li         el
+SFX C   ľ           li         [áeo]ľ
 SFX C   0           i          lan
 SFX C   0           i          [^b]rat
 SFX C   0           i          [^r]at
 SFX C   0           i          [^a]t
-SFX C   0           i          [^acéhiklľnortť]
 SFX C   ť           tia        ť
+SFX C   on          ni         zon
+SFX C   0           vi         o
+SFX C   0           i          [inp]er
+SFX C   er          ri         [^inp]er
+SFX C   or          ri         bor	# obor
+SFX C   0           i          [^b]or
+SFX C   0           i          [^eo][cr]
 SFX C   ť           tí         ť
 SFX C   0           ami        ť
 SFX C   ec          ca         ec
@@ -727,39 +734,32 @@ SFX C   on          noch       zon
 SFX C   on          nami       zon
 SFX C   o           a          o
 SFX C   0           v          o
-SFX C   0           vi         o
 SFX C   0           ch         o
 SFX C   0           m          o
 SFX C   o           ami        o
-SFX C   0           i          [inp]er
-SFX C   0           a          [inp]er
 SFX C   0           ov         [inp]er
 SFX C   0           ovi        [inp]er
 SFX C   0           om         [inp]er
 SFX C   0           och        [inp]er
 SFX C   0           mi         [inp]er
-SFX C   er          ri         [^inp]er
 SFX C   er          ra         [^inp]er
 SFX C   er          rov        [^inp]er
 SFX C   er          rovi       [^inp]er
 SFX C   er          rom        [^inp]er
 SFX C   er          roch       [^inp]er
 SFX C   er          rami       [^inp]er
-SFX C   or          ri         bor
 SFX C   or          ra         [bg]or
 SFX C   or          rov        [bg]or
 SFX C   or          rovi       [bg]or
 SFX C   or          rom        [bg]or
 SFX C   or          roch       [bg]or
 SFX C   or          rami       [bg]or
-SFX C   0           i          [^bg]or
 SFX C   0           a          [^bg]or
 SFX C   0           ov         [^bg]or
 SFX C   0           ovi        [^bg]or
 SFX C   0           om         [^bg]or
 SFX C   0           och        [^bg]or
 SFX C   0           ami        [^bg]or
-SFX C   0           i          [^eon][cr]
 SFX C   0           a          [^eo][cr]
 SFX C   0           ov         [^eo][cr]
 SFX C   0           ovi        [^eo][cr]

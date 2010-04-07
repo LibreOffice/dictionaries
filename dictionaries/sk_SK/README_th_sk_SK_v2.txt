@@ -1,7 +1,7 @@
 OpenThesaurus-SK - Slovak thesaurus - version for OpenOffice.org
 Copyright (c) 2004-2009 Tibor Bako, yorik (zavinac) szm.sk,
 Zdenko Podobný, zdposter (zavinac) gmail.com
-Snapshot, generated automatically 2009-12-16 06:00, Language: sk
+Snapshot, generated automatically 2010-02-08 06:00, Language: sk
 Homepage: http://www.sk-spell.sk.cx/thesaurus
 
 Requirements: ==========================================================
@@ -40,7 +40,7 @@ Otvorený Slovenský Synonymický Slovník (Thesaurus) pre OpenOffice.org
 3.0 a vyšší
 Copyright (c) 2004-2009 Tibor Bako, yorik (zavinac) szm.sk,
 Zdenko Podobný, zdposter (zavinac) gmail.com
-Súbor bol vygenerovaný automaticky 2009-12-16 06:00,
+Súbor bol vygenerovaný automaticky 2010-02-08 06:00,
 Jazyk: sk
 Domovská stránka: http://www.sk-spell.sk.cx/thesaurus
 =======================================================================

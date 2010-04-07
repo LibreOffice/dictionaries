@@ -277,7 +277,7 @@ akurát|1
 akurátny|1
 -|akurátny (hovorovo)|precízny|presný
 akustický|1
--|sluchový|zvukový
+-|sluchový|tonálny|zvukový
 akvafóbia|1
 -|akvafóbia (term.)|hydrofóbia (term.)
 akvizícia|1
@@ -867,7 +867,7 @@ bar|2
 -|hostinec|krčma (hovorovo)|lokál|nízkotriedna reštaurácia|pohostinstvo
 -|klub|nočný podnik
 barak|1
--|chajda|chatrč
+-|búda|chajda|chatrč
 barbar|1
 -|divoch|surovec|vandal
 barbarský|1
@@ -1071,12 +1071,14 @@ bezvlasý|1
 bezvládie|1
 -|anarchia|chaos|neporiadok|spleť|zmätok
 bezvládny|1
--|imobilný|nehybný
+-|imobilný|nehybný|nemobilný
 bezvýhradný|2
 -|absolútny|bezpodmienečný|dokonalý|neobmedzený|perfektný|stopercentný|totálny (hovorovo)|zvrchovaný|úplný
 -|bezpodmienečný
 bezvýznamná osoba|1
 -|nič|nula
+bezvýznamný|1
+-|marginálny|nedôležitý
 bezzásadový|1
 -|bez chrbtovej kosti|bezcharakterný
 bezúhonnosť|1
@@ -1126,6 +1128,8 @@ biografia|1
 -|životopis
 bisexualita|1
 -|ambisexualita (term.)|hermafroditizmus
+bisexuálny|1
+-|dvojpohlavný|obojpohlavný
 bisie|1
 -|perkusie
 biskvit|1
@@ -1142,6 +1146,8 @@ bituminózny|1
 -|živičný
 bitúmen|1
 -|živica
+bizardný|1
+-|divný|neobvyklý|podivný|zvláštny
 biznis|1
 -|podnikanie
 biznismen|1
@@ -1180,6 +1186,8 @@ blankytný|1
 -|azúrový
 blasfémia|1
 -|rúhanie
+blastóm|1
+-|novotvar|nádor
 blato|1
 -|bahnisko|bahurina (hovorovo)|barina (archaizmus)|bažina (hovorovo)|mokraď|močarina|močiar|rašelinisko|slatina|trasovisko
 blatový|1
@@ -1361,7 +1369,7 @@ božekať|1
 božsky|1
 -|nebesky|vznešene
 božský|1
--|chutný|delikátny|lahodný
+-|nadpozemský
 brak|1
 -|menejcenný tovar|nehodnotná vec
 bralo|1
@@ -1378,8 +1386,10 @@ bratríčkovať sa|1
 -|bratať sa|kamarátiť sa|priateliť sa
 bratstvo|1
 -|cech|korporácia|spolok|spoločenstvo
+bravo|1
+-|skvele|výborne|znamenite
 bravúra|1
--|virtuozita
+-|majstrovstvo|virtuozita
 brašna|1
 -|aktovka|kabela|kufrík
 bremeno|1
@@ -1618,7 +1628,8 @@ bôžik|1
 -|boh|modla
 búchať|1
 -|biť|báchať|mlátiť|práskať|trepať|trieskať|tĺcť|udierať
-búda|1
+búda|2
+-|barak|chajda|chatrč
 -|chatrč|chyža|kôlňa
 búdka|1
 -|kabínka|klietka|kója
@@ -1745,7 +1756,7 @@ cez|2
 -|behom (nesprávne)|kým|počas|v priebehu|za
 -|krížom|naprieč|skrz
 chajda|1
--|barak|chatrč
+-|barak|búda|chatrč
 chalupa|1
 -|bungalov|chata|domček|horská búda
 chalupár|1
@@ -1779,7 +1790,7 @@ chatrný|1
 -|biedny|mizerný|naničhodný|nepodarený|psotný|psovský|psí|zlý|úbohy|žobrácky
 chatrč|2
 -|búda|chyža|kôlňa
--|barak|chajda
+-|barak|búda|chajda
 chatár|1
 -|chalupár|domkár
 chcenie|1
@@ -1801,14 +1812,14 @@ chladný|2
 -|mrazivý|nepriateľský|neprívetivý|nevľúdny|studený|ľadovo studený|ľadový
 -|neprístupný|neprívetivý|nevľúdny|odmeraný|odmietavý|prísny|rezervovaný|strohý|zdržanlivý|úsečný
 chlap|1
--|chlapík|muž|pán
+-|chlapík|muž|pán|seňor
 chlapec|2
 -|dieťa|syn|synček
 -|mladík|mládenec|šuhaj
 chlapský|1
 -|chrabrý|mužný|mužský|nebojácny|neohrozený|odvážny|rozhodný|smelý|statočný|udatný
 chlapík|1
--|chlap|muž|pán
+-|chlap|muž|pán|seňor
 chlapček|1
 -|dieťa|potomok
 chleba|1
@@ -1830,6 +1841,8 @@ chlpatý|1
 -|huňatý
 chládok|1
 -|basa|kriminál|trestnica (archaizmus)|väzenie|árešt|žalár
+chlípny|1
+-|nehanebný|obscénny|oplzlý|vulgárny
 chmuľo|1
 -|hlupák|hňup|ignorant|nevzdelanec|obmedzenec|osol|somár|sprosták|tupec
 chmára|1
@@ -1927,7 +1940,7 @@ chumeliť|1
 chumáč|1
 -|chuchvalec|otep|snop|zväzok
 chutný|1
--|božský|delikátny|lahodný
+-|delikátny|jemný|lahodný
 chuť|3
 -|apetít
 -|gusto|vkus
@@ -1998,7 +2011,7 @@ chátrať|1
 chór|1
 -|spevácky zbor|súbor|zbor
 chúlostivý|1
--|ošemetný
+-|citlivý|delikátny|ošemetný
 chýbať|1
 -|mať nedostatok|nemať|postrádať
 chýliť sa|1
@@ -2018,8 +2031,10 @@ cieľ|4
 -|méta|predsavzatie|úmysel
 -|terč
 -|zámer|účel
+cieľavedomosť|1
+-|dôslednosť
 cieľavedomý|1
--|majúci význam|zmysluplný|zámerný|účelný
+-|majúci význam|plánovitý|systematický|zmysluplný|zámerný|účelný
 cifra|1
 -|číslica|číslo
 cinkanie|1
@@ -2046,9 +2061,10 @@ citeľný|1
 -|badateľný|evidentný|jasný|očividný|pozorovateľný|viditeľný|zjavný|zrejmý|zreteľný
 citlivosť|1
 -|senzibilita|senzitivita
-citlivý|2
+citlivý|3
 -|boľavý
 -|bystrý|cítiaci|pozorný|precitlivený|prístupný|senzitívny|vnímajúci|vnímavý|všímavý
+-|chúlostivý|delikátny|ošemetný
 citovať|1
 -|uviesť
 citový|1
@@ -2300,10 +2316,14 @@ delegát|1
 -|hovorca|námestník|zástupca
 delikatesa|1
 -|chuťovka|dobrôtka|lahôdka
-delikt|1
+delikt|2
+-|previnenie|trestný čin
 -|priestupok
-delikátny|1
--|božský|chutný|lahodný
+delikvent|1
+-|páchateľ|vinník
+delikátny|2
+-|chúlostivý|citlivý|ošemetný
+-|chutný|jemný|lahodný
 deliť|1
 -|oddeľovať|rozdeľovať
 deliť sa|1
@@ -2369,6 +2389,8 @@ des|1
 -|horor|hrôza|strach
 desaťročie|1
 -|dekáda
+desckriptívny|1
+-|popisný
 desiata|1
 -|olovrant
 desivý|3
@@ -2554,6 +2576,8 @@ diverzita|1
 -|mnohorakosť|rozdielnosť|rozmanitosť|rôznorodosť|variabilita
 diviť sa|1
 -|žasnúť
+divný|1
+-|bizardný|neobvyklý|podivný|zvláštny
 divný človek|1
 -|patrón|výstredný človek|zvláštny človek|čudák
 divoch|2
@@ -2627,7 +2651,7 @@ doberať si|1
 dobový|1
 -|štýlový
 dobre|1
--|super (hovorovo)
+-|správne|super (hovorovo)
 dobro|2
 -|blaho|prospech|zisk|úžitok
 -|klad|plus|pozitívum
@@ -2645,7 +2669,7 @@ dobrovoľný|1
 dobrozdanie|1
 -|expertíza|posudok
 dobročinný|1
--|ľudský
+-|humánny|ľudský
 dobrácky|1
 -|dobromyseľný|dobrosrdečný|láskavý|prostoduchý|úprimný
 dobré meno|1
@@ -2827,7 +2851,7 @@ donášať|1
 donútiť|1
 -|dohnať|nabádať|nútiť|prinútiť|vyzývať
 dopad|1
--|dôsledok|následok|pôsobenie|vplyv|účinok
+-|dôsledok|konzekvencia|následok|pôsobenie|vplyv|účinok
 dopis|1
 -|list
 dopisovanie|1
@@ -2885,7 +2909,7 @@ doručovateľ|1
 dosadnúť|1
 -|pristáť
 dosah|1
--|dôležitosť|následok|pôsobenie|veľkosť|vplyv|význam|závažnosť|účinok
+-|veľkosť|vplyv|význam|závažnosť|účinok
 dosiahnuteľnosť|1
 -|dostupnosť|prístupnosť
 dosiahnuteľný|1
@@ -3034,7 +3058,7 @@ dravé zviera|1
 drať sa|1
 -|predierať sa
 dres|1
--|rovnošata|uniforma|úbor
+-|livrej|rovnošata|uniforma|úbor
 drevo|1
 -|babroš|babrák|laik|nedouk|nemehlo|poleno|ťarbák|ťuťmák
 drez|1
@@ -3217,6 +3241,8 @@ dvojnásobný|1
 -|dvojitý
 dvojník|1
 -|náhradník
+dvojpohlavný|1
+-|bisexuálny|obojpohlavný
 dvojstranný|1
 -|bilaterálny
 dvojtvar|1
@@ -3264,7 +3290,7 @@ dysmenorea|1
 dyňa|1
 -|tekvica
 dáma|1
--|pani|slečna|žena
+-|pani|seňora|žena
 dámska toaleta|1
 -|dámsky záchod
 dámsky záchod|1
@@ -3320,9 +3346,8 @@ dôkladne|1
 -|podrobne|poriadne
 dôkladný|1
 -|podrobný|pozorný|starostlivý
-dôležitosť|2
+dôležitosť|1
 -|cena|cennosť|hodnota|odmena|prémia|vzácnosť|význam
--|dosah|následok|pôsobenie|veľkosť|vplyv|význam|závažnosť|účinok
 dôležitý|2
 -|cenný|drahý|závažný
 -|kritický|osudný|rozhodujúci|vážny|závažný|životný
@@ -3334,8 +3359,10 @@ dômyselný|1
 -|prepracovaný|sofistikovaný
 dôraz|1
 -|akcent|prízvuk
+dôslednosť|1
+-|cieľavedomosť
 dôsledok|1
--|dopad|následok|pôsobenie|vplyv|účinok
+-|dopad|konzekvencia|následok|pôsobenie|vplyv|účinok
 dôstojník|1
 -|oficier (hovorovo)
 dôstojný|1
@@ -3484,7 +3511,7 @@ elita|1
 -|špička
 elán|2
 -|drzosť|guráž|impertinencia|nebojácnosť|neohrozenosť|odvaha|sebadôvera|smelosť|trúfalosť|šťava
--|entuziazmus|mánia|nadšenie|oduševnenie|vrúcnosť|vášeň|zápal
+-|nadšenie|oduševnenie|vrúcnosť|zápal
 elégia|1
 -|trúchlospev (poeticky)|žalospev
 email|2
@@ -3524,7 +3551,7 @@ energický|2
 -|intenzívny
 -|rázny
 entuziazmus|1
--|elán|mánia|nadšenie|oduševnenie|vrúcnosť|vášeň|zápal
+-|horlivosť|nadšenie
 epická báseň|1
 -|epopeja|epos
 epilóg|1
@@ -3606,6 +3633,8 @@ evolúcia|1
 -|vývoj
 exaktnosť|1
 -|presnosť|výstižnosť
+excelentný|1
+-|najlepší|prvotriedny|skvelý|vynikajúci|výberový
 excelovať|1
 -|dariť sa|mať sa|mať úspech|vynikať|ísť|žiariť
 excentrik|1
@@ -3684,6 +3713,8 @@ extrémny|2
 -|nekompromisný|neústupný|radikálny
 extáza|1
 -|vytrženie
+exuberancia|1
+-|hojnosť|prebytok
 exulant|1
 -|emigrant|presídlenec|utečenec|vyhnanec|vysťahovalec
 ešte|1
@@ -3796,7 +3827,7 @@ fatálny|1
 fauna|1
 -|zvieratstvo|živočíšstvo
 favorit|1
--|obľúbenec
+-|miláčik|obľúbenec
 fax|2
 -|aparát|mobil (hovorovo)|telefón
 -|telefax
@@ -4131,13 +4162,13 @@ guvernér|1
 -|miestodržiteľ
 guľatý|2
 -|baňatý|klenutý|vydutý|vypuklý
--|guľovitý|guľový|oblý|okrúhly|zaoblený|zaokrúhlený
+-|guľovitý|guľový|klenutý|oblý|okrúhly|zaoblený|zaokrúhlený
 guľka|1
 -|brok|náboj|nábojnica|patrón|projektil|strela
 guľovitý|1
--|guľatý|guľový|oblý|okrúhly|zaoblený|zaokrúhlený
+-|guľatý|guľový|klenutý|oblý|okrúhly|zaoblený|zaokrúhlený
 guľový|1
--|guľatý|guľovitý|oblý|okrúhly|zaoblený|zaokrúhlený
+-|guľatý|guľovitý|klenutý|oblý|okrúhly|zaoblený|zaokrúhlený
 gymnastika|1
 -|telocvik
 gyps|1
@@ -4205,7 +4236,8 @@ haravara|1
 -|chaos|galimatiáš (hovorovo)|haravara (hovorovo)|hurhaj|motanica|motanina|mrvenica|tlačenica|trma-vrma (poeticky)|virvar|zmätok
 harmonický|1
 -|melodický|spevný|ľubozvučný
-harmonizovať|1
+harmonizovať|2
+-|koordinovať|zladiť|zosúladiť
 -|ladiť
 harmonogram|1
 -|rozvrh
@@ -4484,8 +4516,9 @@ hojiť sa|1
 -|hojiť|liečiť sa|zaceliť sa
 hojne|1
 -|veľa
-hojnosť|1
+hojnosť|2
 -|blahobyt|bujnosť|dostatok|opulencia
+-|exuberancia|prebytok
 hojný|1
 -|bohatý|opulentný|veľkorysý|značný|štedrý
 hold|1
@@ -4536,8 +4569,9 @@ horiaci|1
 -|planúci|plápolajúci
 horizont|1
 -|obzor
-horlivosť|1
+horlivosť|2
 -|ašpirácia|dychtivosť|snaha|túžba|úsilie
+-|entuziazmus|nadšenie
 horlivý|2
 -|ambiciózny|ctižiadostivý|pilný (archaizmus)|snaživý|usilovný
 -|neúnavný|pilný|príčinlivý|snaživý|vytrvalý
@@ -4574,6 +4608,8 @@ hotovosť|1
 -|bankovka|minca|peniaz|peniaze
 hotový|1
 -|pripravený
+hovieť|1
+-|leňošiť|odpočívať|polihovať|posedávať|povaľovať sa|prevaľovať sa|vyvaľovať sa|váľať sa
 hovno|1
 -|exkrement|lajno|moč|stolica|trus|výkal|výlučok
 hovor|1
@@ -4607,7 +4643,7 @@ hrad|2
 hrada|1
 -|brvno|trám
 hradba|1
--|stena|val
+-|násyp|oporný múr|stena|taras|val
 hradba z kolov|1
 -|palisáda
 hradisko|1
@@ -4771,6 +4807,8 @@ humorista|1
 -|komik|zabávač
 humorný|1
 -|komický|smiešny|vtipný|žartovný
+humánny|1
+-|dobročinný|ľudský
 huncút|1
 -|nezbedník|viťúz (poeticky)
 hurhaj|2
@@ -4966,7 +5004,7 @@ imitácia|2
 imitátor|1
 -|napodobiteľ|napodobňovateľ
 imobilný|1
--|bezvládny|nehybný
+-|bezvládny|nehybný|nemobilný
 imperatív|2
 -|imperatív (term.)|povel|príkaz|rozkaz
 -|rozkazovací spôsob
@@ -5072,6 +5110,9 @@ inklinácia|1
 -|náchylnosť|sklon|tendencia
 inkontinencia|1
 -|pomočovanie
+inkonzistencia|2
+-|nesúdržnosť|nesúvislosť
+-|neudržateľnosť
 inkubátor|1
 -|liaheň
 inotaj|1
@@ -5122,6 +5163,8 @@ internacionálny|1
 -|celosvetový|medzinárodný|svetový
 internetová stránka|1
 -|web stránka
+internácia|1
+-|nútený pobyt
 interný|1
 -|domáci|vnútorný
 interpret|1
@@ -5138,6 +5181,12 @@ intervencia|1
 -|zákrok|zásah
 intimita|1
 -|dôvernosť|súkromie|útulnosť
+intoxikovaný|1
+-|opitý
+intoxikácia|1
+-|otrava|otravenie
+intrauterinný|1
+-|vnútromaternicový
 intriga|1
 -|komplot|konšpirácia|pikle|spiknutie (nesprávne)|sprisahanie|úklad
 intrigovať|1
@@ -5188,7 +5237,7 @@ inštitút|1
 inštrukcia|1
 -|direktíva|nariadenie|poučenie|predpis|príručka|smernica
 inštruktor|1
--|pedagóg|učiteľ|vychovávateľ
+-|kantor|pedagóg|učiteľ|vychovávateľ
 inštrument|1
 -|nástoj
 inštruovať|1
@@ -5323,7 +5372,7 @@ jedlo|5
 -|potravina|potraviny|stravovanie
 jednanie|2
 -|debata|diskusia|rokovanie|rozprava
--|skutok|čin
+-|počin|skutok|čin
 jednať|2
 -|dohadovať|vyjednávať
 -|konať|robiť|uskutočňovať|činiť
@@ -5367,10 +5416,11 @@ jedovať sa|1
 -|besniť|hnevať sa|ježiť sa|mať zlosť|soptiť|srdiť sa|vyvádzať|zlostiť sa|zúriť|štvať sa
 jedáleň|1
 -|bufet
-jemný|1
+jemný|2
+-|chutný|delikátny|lahodný
 -|distingvovaný|elegantný|hladký|uhladený|ulízaný|vyhladený|zdvorilý
 jesť|2
--|konzumovať
+-|konzumovať|tráviť
 -|obedovať|požierať|stolovať|súkať|večerať|živiť sa|žrať
 ješitnosť|1
 -|egoizmus|zahľadenosť do seba
@@ -5386,6 +5436,8 @@ junák|1
 -|bohatier|hrdina
 junček|1
 -|býček
+jury|1
+-|porota|rozhodcovia
 justícia|1
 -|súdnictvo
 južne|1
@@ -5505,6 +5557,8 @@ kanonizovať|1
 -|vysvätiť
 kanonizácia|1
 -|beatifikácia|blahorečenie|glorifikácia|svätorečenie
+kantor|1
+-|inštruktor|pedagóg|učiteľ|vychovávateľ
 kantína|1
 -|závodná jedáleň
 kanvica|1
@@ -5685,6 +5739,8 @@ klamný|2
 -|fiktívny|iluzórny|imaginárny|lživý|mylný|mätúci|nepresný|nereálny|neskutočný|neživotný|vymyslený|zdanlivý
 klamstvo|1
 -|lož|nepravda
+klan|1
+-|rod
 klapačka|1
 -|huba (vulgarizmus)|hubica|klapačka (nesprávne)|nátrubok|náustok|papuľa (nesprávne)|ústa
 klapať|1
@@ -5701,8 +5757,9 @@ klavír|1
 -|krídlo|piano
 klenot|1
 -|diamant|drahokam|perla|polodrahokam|skvost|šperk
-klenutý|1
+klenutý|2
 -|baňatý|guľatý|vydutý|vypuklý
+-|guľatý|guľovitý|guľový|oblý|okrúhly|zaoblený|zaokrúhlený
 klepať|1
 -|chvieť sa|kmitať|oscilovať|rozklepať|rozochvieť|rozochvieť sa|roztriasť|trepať|trepotať|triasť|triasť sa|vibrovať
 klerika|1
@@ -5833,7 +5890,7 @@ kolega|1
 kolegyňa|1
 -|spolupracovníčka
 kolekcia|1
--|sortiment|všehochuť|zmes|zmiešanina
+-|sortiment
 kolektív|1
 -|družstvo|mužstvo|skupina|tím
 kolektívny|1
@@ -5948,10 +6005,14 @@ komprimácia|1
 -|zhustenie
 kompromis|1
 -|dohoda|dohovor|kontrakt|pakt|stredná cesta|ujednanie|vyrovnanie|zmier|zmierenie|zmluva
+komunikatívny|1
+-|zhovorčivý
 komunista|1
 -|boľševik
 komunita|1
 -|spoločenstvo
+komár|1
+-|moskyt
 komédia|1
 -|fraška
 konajúci v prospech spoločnosti|1
@@ -6019,7 +6080,8 @@ konina|1
 -|bláznovstvo|hlúposť|kravina (vulgarizmus)|nezmysel|somarina
 konjunktúra|1
 -|doba rozkvetu|rozkvet|rozmach|rozpuk|rozvoj
-konkrétny|1
+konkrétny|2
+-|špecifický
 -|faktický|hmatateľný|naozajstný|nefalšovaný|poctivý|pravdivý|pravý|rýdzi|skutočný|čistý
 konkurencia|1
 -|rivalita|súperenie|súťaž|súťaženie
@@ -6096,10 +6158,16 @@ konverzácia|1
 -|dialóg|rozhovor
 konvexná šošovka|1
 -|spojka
+konvulzia|1
+-|kŕč
+konzekvencia|1
+-|dopad|dôsledok|následok|pôsobenie|vplyv|účinok
 konzervatívny|1
 -|konvenčný|pravicový|štandardný
 konzervovať|1
 -|nakladať|zavárať|zmraziť|údiť
+konzistencia|1
+-|pevnosť|súdržnosť
 konzultačný|1
 -|poradenský
 konzultovať|1
@@ -6111,7 +6179,7 @@ konzument|1
 konzumovaný|1
 -|zjedený
 konzumovať|1
--|jesť
+-|jesť|tráviť
 konzumácia|1
 -|stravovanie
 koníček|1
@@ -6119,6 +6187,8 @@ koníček|1
 končatina|2
 -|chodidlo|noha
 -|noha|ruka|úd
+končiar|1
+-|vrchol
 končina|1
 -|oblasť|pásmo|sféra|zóna|územie|časť
 konšpirovať|1
@@ -6144,6 +6214,8 @@ kooperatívny|1
 -|kolaboračný|spolupracujúci
 kooperácia|1
 -|partnerstvo|spolupráca|súčinnosť|vzťah
+koordinovať|1
+-|harmonizovať|zladiť|zosúladiť
 kop|1
 -|kopanec|kopnutie
 kopa|3
@@ -6207,7 +6279,7 @@ korheľ|1
 korigovanie|1
 -|korekcia|korektúra|oprava|usporiadanie|zlepšenie|úprava
 korisť|1
--|lup|úlovok
+-|lup|trofej|úlovok
 kornút|1
 -|kužeľ
 korodovať|1
@@ -6216,12 +6288,15 @@ korporácia|1
 -|bratstvo|cech|spolok|spoločenstvo
 korpulentný|1
 -|objemný|rozložitý|rozmerný|silný|statný|telnatý|tlstý|tučný
+korpus|1
+-|teleso|telo
 korunka|1
 -|chochol|hrebeň|hrebienok
 korupcia|1
 -|podplácanie|úplatkárstvo
-koryto|1
+koryto|2
 -|kanál|priekopa|priepust|zákop|žľab
+-|válov
 korzo|1
 -|promenáda
 korzár|1
@@ -6702,6 +6777,8 @@ kúpiť|1
 -|zakúpiť
 kúr|1
 -|dym|čad|čmud
+kúra|1
+-|liečba|liečenie
 kúrenie|1
 -|kurivo|palivo
 kúsok|2
@@ -6758,8 +6835,12 @@ kňučať|1
 -|kvičať|pišťať|pískať|zakvičať|zapišťať
 kŕmenie|1
 -|krmivo
+kŕč|1
+-|konvulzia
 kšeftovať|1
 -|obchodovať|čachrovať
+laba|1
+-|noha|packa|paprča
 labilný|1
 -|nepevný|nestabilný|pohyblivý|vratký
 labužník|1
@@ -6779,7 +6860,7 @@ ladný|1
 lahodnosť|1
 -|optimizmus|príjemnosť|roztomilosť|sympatickosť|veselosť
 lahodný|2
--|božský|chutný|delikátny
+-|chutný|delikátny|jemný
 -|príjemný|ľúbezný
 lahôdka|2
 -|chuťovka|delikatesa|dobrôtka
@@ -6856,11 +6937,11 @@ legislatíva|1
 legitimácia|1
 -|doklad|potvrdenie|preukaz|preukážka
 legitímnosť|1
--|legálnosť|právny stav|zákonnosť
+-|legálnosť|oprávnenosť|právny stav|zákonnosť
 legitímny|1
 -|legálny|oprávnený|spravodlivý|zákonitý|zákonný
 legálnosť|1
--|legitímnosť|právny stav|zákonnosť
+-|legitímnosť|oprávnenosť|právny stav|zákonnosť
 legálny|1
 -|legitímny|oprávnený|spravodlivý|zákonitý|zákonný
 lehota|1
@@ -6919,6 +7000,8 @@ lepší|1
 -|nadradený|prednostný|preferenčný|výhodnejší
 lesa|1
 -|ohrada|ohradenie|oplotenie|plot|výbeh|zábradlie
+lesbický|1
+-|sapfický
 lesk|1
 -|jas|teplo|vyhňa|žiara
 lesklý|1
@@ -6966,6 +7049,8 @@ leukocyt|1
 -|krvinka
 leukoplast|1
 -|náplasť
+level|1
+-|level (hovorovo)|stupeň|úroveň
 levituje|1
 -|lieta|vznáša sa
 lexikograf|1
@@ -6975,7 +7060,7 @@ lexikón|1
 leňoch|1
 -|darmošľap|flákač|pecivál|pocestný|povaľač|pútnik|tulák|vagabund|vandrák|zaháľač
 leňošiť|1
--|odpočívať|polihovať|posedávať|povaľovať sa|prevaľovať sa|vyvaľovať sa|váľať sa
+-|hovieť|odpočívať|polihovať|posedávať|povaľovať sa|prevaľovať sa|vyvaľovať sa|váľať sa
 leňoška|2
 -|diván|gauč|kanape|otoman|pohovka
 -|kreslo|lavica|lavička|sedadlo|sedačka|stolička
@@ -6993,7 +7078,8 @@ libela|1
 -|vodováha
 liberalizmus|1
 -|slobodomyseľnosť|veľkorysosť|štedrosť
-liberálny|1
+liberálny|2
+-|nezávislý|samostatný|slobodný|voľný
 -|slobodomyseľný|tolerantný|znášanlivý
 lichotenie|1
 -|lichôtky|pochlebovanie
@@ -7019,11 +7105,11 @@ lieta|1
 liezť|1
 -|vyliezť|vystúpiť|šplhať
 liečba|1
--|liečenie
+-|kúra|liečenie
 liečebný|1
 -|hojivý|liečivý
 liečenie|1
--|liečba
+-|kúra|liečba
 liečivý|1
 -|hojivý|liečebný
 liečiť|1
@@ -7059,6 +7145,8 @@ litera|1
 -|písmeno
 literát|1
 -|majster pera|spisovateľ
+livrej|1
+-|dres|rovnošata|uniforma|úbor
 lišaj|1
 -|ekzém|kožná vyrážka|vyrážka
 lišiak|1
@@ -7094,6 +7182,8 @@ lokál|1
 -|bar|hostinec|krčma (hovorovo)|nízkotriedna reštaurácia|pohostinstvo
 lokálny|1
 -|miestny
+lomoz|1
+-|povyk|rozruch
 longitudinálny|1
 -|pozdĺžny|rovnobežný s osou
 lono|1
@@ -7128,7 +7218,7 @@ luminiscencia|1
 lump|1
 -|darebák|gauner|lotor|ničomník|podliak|zlosyn
 lup|1
--|korisť|úlovok
+-|korisť|trofej|úlovok
 lupa|1
 -|zväčšovacie sklo
 lupič|2
@@ -7213,6 +7303,8 @@ lúpiť|1
 -|drancovať|kradnúť|plieniť|rabovať
 lúč|1
 -|fakľa|lúč (poeticky)|pochodeň
+lúčina|1
+-|niva|pažiť
 lúštiť|1
 -|riešiť|rozlúštiť|rozriešiť|vylúštiť|vyriešiť
 lživosť|1
@@ -7257,6 +7349,8 @@ majstrovské dielo|1
 -|majstrovský kus
 majstrovský kus|1
 -|majstrovské dielo
+majstrovstvo|1
+-|bravúra|virtuozita
 maják|1
 -|výstražné svetlo
 majúci|1
@@ -7266,7 +7360,7 @@ majúci pekný tvar|1
 majúci strach|1
 -|postrašený|poľakaný|vystrašený|vyľakaný
 majúci význam|1
--|cieľavedomý|zmysluplný|zámerný|účelný
+-|cieľavedomý|plánovitý|systematický|zmysluplný|zámerný|účelný
 makať|1
 -|makať (hovorovo)|pracovať|robiť|spôsobiť
 malebný|1
@@ -7282,6 +7376,8 @@ maloletý|1
 -|nedorastený|nedospelý|nezrelý
 malomestský|1
 -|dedinský|provinčný|zaostalý|zastaraný
+malátnosť|1
+-|mdloba|únava
 malér|1
 -|katastrofa|malér (hovorovo)|nehoda|nemilosť|nepriazeň|nepríjemnosť|nešťastie|pohroma|smola|tragédia
 malý|2
@@ -7311,11 +7407,11 @@ manažérka|1
 mandatár|1
 -|splnomocnenec|zmocnenec
 mandatórny|1
--|mandatórny (term.)|mandátny|nariadený|povinný|záväzný
+-|mandatórny (term.)|mandátny|nariadený|obligátny|povinný|záväzný
 mandát|1
 -|autorizácia
 mandátny|1
--|mandatórny (term.)|nariadený|povinný|záväzný
+-|mandatórny (term.)|nariadený|obligátny|povinný|záväzný
 maniacky|1
 -|duševne chorý|šialený
 maniak|1
@@ -7345,7 +7441,8 @@ mapa|1
 -|plán
 mapovať|1
 -|preniesť do mapy|zakreslovať|zmapovať
-marginálny|1
+marginálny|2
+-|bezvýznamný|nedôležitý
 -|krajný|medzný|okrajový
 marioneta|1
 -|bábka
@@ -7480,8 +7577,9 @@ mať zlosť|1
 -|besniť|hnevať sa|jedovať sa|ježiť sa|soptiť|srdiť sa|vyvádzať|zlostiť sa|zúriť|štvať sa
 mať úspech|1
 -|dariť sa|excelovať|mať sa|vynikať|ísť|žiariť
-mdloba|1
+mdloba|2
 -|bezvedomie|nemohúcnosť|obnubilácia (term.)|slabosť|strata vedomia|závrat
+-|malátnosť|únava
 mdloby|1
 -|mrákoty|ťažoba
 mdlý|2
@@ -7566,6 +7664,8 @@ menovka|1
 -|ceduľka|doštička|etiketa|nálepka|popisok|vineta|visačka|visiačka|štít|štítok
 menový|1
 -|finančný|peňažitý|peňažný
+mentor|1
+-|poradca|vychovávateľ
 menu|1
 -|podmenu|ponuka
 menšina|1
@@ -7703,8 +7803,9 @@ milovať|1
 -|mať rád|ľúbiť
 milá|1
 -|priateľka
-miláčik|2
+miláčik|3
 -|amant|milenec|milý|nápadník
+-|favorit|obľúbenec
 -|maznáčik|zlatíčko
 milícia|1
 -|domobrana
@@ -7758,6 +7859,8 @@ misa|1
 -|pohár|čaša
 miska|1
 -|disk|podnos|tanier|tácka
+mix|1
+-|všehochuť|zmes|zmiešanina
 mixér|1
 -|zmiešavač
 mizantrop|1
@@ -7775,6 +7878,8 @@ mladistvý|1
 -|mladý|mladý človek
 mladosť|1
 -|dospievanie
+mladá dáma|1
+-|seňorita|slečna|žena|žieňa
 mladík|2
 -|chlapec|mládenec|šuhaj
 -|pubertiak|tínedžer
@@ -7923,6 +8028,8 @@ morálka|1
 morálny|2
 -|bezúhonný|férový|korektný|mravný|poctivý|počestný|seriózny|slušný|vzorný|vážený|čestný
 -|cnostný|etický|mravný|počestný
+moskyt|1
+-|komár
 most|1
 -|lávka
 motanica|1
@@ -8078,7 +8185,7 @@ mučiť|2
 mušľa|1
 -|lastúra|ulita
 muž|2
--|chlap|chlapík|pán
+-|chlap|chlapík|pán|seňor
 -|druh|manžel
 mužný|1
 -|chlapský|chrabrý|mužský|nebojácny|neohrozený|odvážny|rozhodný|smelý|statočný|udatný
@@ -8128,8 +8235,7 @@ málokrvnosť|1
 -|anémia|chudokrvnosť
 mámivý|1
 -|lákavý|príťažlivý|pôvabný|pútavý|sugestívny|vábivý|vábny|zvodný
-mánia|2
--|elán|entuziazmus|nadšenie|oduševnenie|vrúcnosť|vášeň|zápal
+mánia|1
 -|mánia (term.)|posadnutosť
 márniť|1
 -|mrhať|plytvať|rozhadzovať
@@ -8291,6 +8397,8 @@ nadobudnúť|1
 -|docieliť|dosiahnuť|dostať|načerpať|pumpovať|vyťažiť|zaistiť si|zaobstarať|zarobiť|zohnať|získať|čerpať
 nadpis|1
 -|hlavička|názov|titul|titulok|záhlavie
+nadpozemský|1
+-|božský
 nadpočetný|1
 -|nadbytočný|nadmerný|nepotrebný|prebytočný|prílišný|zbytočný
 nadpriemerný|1
@@ -8334,8 +8442,9 @@ nadávka|1
 -|potupa|urážka
 nadšenec|1
 -|fanatik|fanúšik|nadšený obdivovateľ|prívrženec|stúpenec|zástanca
-nadšenie|1
--|elán|entuziazmus|mánia|oduševnenie|vrúcnosť|vášeň|zápal
+nadšenie|2
+-|elán|oduševnenie|vrúcnosť|zápal
+-|entuziazmus|horlivosť
 nadšený|1
 -|oduševnený|vrelý|vrúcny|zanietený|zapálený
 nadšený obdivovateľ|1
@@ -8412,7 +8521,7 @@ najbližší|1
 najdôležitejší|1
 -|hlavný|kľúčový|prevažný|prevažujúci|prevládajúci|prvoradý|rozhodujúci|základný|zásadný|ústredný
 najlepší|1
--|prvotriedny|skvelý|vynikajúci|výberový
+-|excelentný|prvotriedny|skvelý|vynikajúci|výberový
 najlepší výsledok|1
 -|rekord
 najmenej|1
@@ -8637,7 +8746,7 @@ nariadenie|2
 -|dekrét|edikt|rozhodnutie
 -|direktíva|inštrukcia|poučenie|predpis|príručka|smernica
 nariadený|1
--|mandatórny (term.)|mandátny|povinný|záväzný
+-|mandatórny (term.)|mandátny|obligátny|povinný|záväzný
 nariadiť|2
 -|nakázať|naordinovať|povedať|predpísať|prideliť|prikázať|rozkázať|stanoviť|určiť|ustanoviť|uzákoniť|vytýčiť
 -|uložiť
@@ -8656,6 +8765,8 @@ narovnať sa|1
 -|natiahnuť|natiahnuť sa|položiť sa
 narysovať|1
 -|nakresliť|vyznačiť|zakresliť
+narátor|1
+-|poviedkar|rozprávač
 narážka|1
 -|náznak|zmienka
 narýchlo|1
@@ -8713,6 +8824,8 @@ nasýtiť|1
 -|ukojiť
 nasýtiť sa|1
 -|napchať sa
+natalita|1
+-|nativita|pôrodnosť
 natiahnutý|1
 -|napnutý|roztiahnutý
 natiahnuť|1
@@ -8721,6 +8834,8 @@ natiahnuť sa|1
 -|narovnať sa|natiahnuť|položiť sa
 natieranie|1
 -|kresba|kreslenie|maľba|maľovanie
+nativita|1
+-|natalita|pôrodnosť
 natlačený|1
 -|napchatý|naplnený|plný|preplnený
 natlačiť|1
@@ -8966,6 +9081,8 @@ nedávno|1
 -|minule|naposledy
 nedávny|1
 -|aktuálny|dnešný|horúci|najnovší|posledný|čerstvý
+nedôležitý|1
+-|bezvýznamný|marginálny
 nedôvera|1
 -|pochybnosť|pochybovanie|váhanie
 nedôverovať|2
@@ -8999,8 +9116,11 @@ negramotný|2
 -|laický|nekultivovaný|neodborný|nevzdelaný|neškolený
 negácia|1
 -|popretie|zápor
-nehanebnosť|1
+nehanebnosť|2
 -|neslušnosť|obscénnosť|oplzlosť|vulgárnosť
+-|obscenita|obscénnosť|oplzlosť|vulgárnosť
+nehanebný|1
+-|chlípny|obscénny|oplzlý|vulgárny
 neharmonický|1
 -|nesúzvučný
 nehatený|1
@@ -9024,7 +9144,7 @@ nehodnotná vec|1
 nehospodárny|1
 -|neekonomický|nešetrný
 nehybný|2
--|bezvládny|imobilný
+-|bezvládny|imobilný|nemobilný
 -|nehnutý|nemeniaci sa|nemenný|stojatý
 nehynúci|1
 -|nesmrteľný|večný
@@ -9090,9 +9210,10 @@ nemeniaci sa|1
 -|nehnutý|nehybný|nemenný|stojatý
 nemennosť|1
 -|nepremennosť|stálosť
-nemenný|2
+nemenný|3
 -|nehnutý|nehybný|nemeniaci sa|stojatý
 -|nekonečný|neutíchajúci|stály|trvalý|ustavičný|večný
+-|neochvejný|pevný
 nemiestne|1
 -|nevhodné
 nemiestny|1
@@ -9105,6 +9226,8 @@ nemilý|1
 -|antipatický|nepríjemný|nesympatický|odporný
 nemluvňa|1
 -|batoľa|bábo|bábätko|dieťatko
+nemobilný|1
+-|bezvládny|imobilný|nehybný
 nemoc|1
 -|choroba|neduh
 nemocný|1
@@ -9181,7 +9304,8 @@ neobutý|1
 -|bosý
 neobvyklosť|1
 -|abnormalita|abnormita (archaizmus)|mimoriadnosť|odchylka|zriedkavosť|zvláštnosť
-neobvyklý|2
+neobvyklý|3
+-|bizardný|divný|podivný|zvláštny
 -|fenomenálny|nadpriemerný|neobyčajný|nevšedný|nezvyklý|ojedinelý|vynikajúci|výnimočný
 -|mimoriadny|neobyčajný|nevídaný|nevšedný|nezvyklý|nezvyčajný|nečakaný|výnimočný|zriedkavý|zvláštny
 neobyčajne|1
@@ -9196,6 +9320,8 @@ neochotne|1
 -|nerád|proti svojej vôli
 neochotný|1
 -|neúslužný
+neochvejný|1
+-|nemenný|pevný
 neodborník|1
 -|amatér|laik|neprofesionál
 neodborný|1
@@ -9645,6 +9771,8 @@ nesympatický|2
 -|nepríjemný
 nesúci|1
 -|nekvalifikovaný|nemožný|neostrieľaný|neschopný|neskúsený|nespôsobilý|nevýkonný|nezrelý
+nesúdržnosť|1
+-|inkonzistencia|nesúvislosť
 nesúhlas|1
 -|nedorozumenie|nejednota|nezhoda|rozpor|spor|svár
 nesúhlasiť|2
@@ -9660,6 +9788,8 @@ nesústredený|1
 -|nepozorný|nevšímavý|roztržitý
 nesúvisejúci|1
 -|akcidentálny (term.)|nepodstatný|náhodný
+nesúvislosť|1
+-|inkonzistencia|nesúdržnosť
 nesúzvučný|1
 -|neharmonický
 nesčíselný|1
@@ -9676,6 +9806,8 @@ netrpezlivý|1
 -|dychtivý|nedočkavý|žiadostivý
 netvor|1
 -|obluda|príšera
+neudržateľnosť|1
+-|inkonzistencia
 neuhladený|1
 -|hrubý|nemotorný|neobratný|neogabaný|neohrabaný|neokresaný|neokrôchaný|neotesaný
 neumytý|1
@@ -9690,8 +9822,9 @@ neuspokojivý|1
 -|biedny|nedostačujúci|nepostačujúci|nevyhovujúci|úbohý|žalostný
 neusporiadaný|1
 -|chaotický|nejasný|popletený|rozvrátený|zmätený
-neustály|1
+neustály|2
 -|nepretržitý|permanentný|plynulý|pravidelný|stály|súvislý|trvalý|trvanlivý|ustavičný|večný|viacročný|vytrvalý
+-|opakujúci sa|systematický|sústavný
 neutrálny|1
 -|držiaci sa faktov|faktický|neosobný|nestranný|nezaujatý|objektívny|vecný
 neutíchajúci|1
@@ -9950,7 +10083,7 @@ nezávislosť|1
 -|autonómia|autonómnosť|samospráva|samostatnosť
 nezávislý|2
 -|absolútny|infinitezimálny (term.)|neobmedzený|neohraničený|samostatný|úplný
--|samostatný|slobodný|voľný
+-|liberálny|samostatný|slobodný|voľný
 nezáživný|1
 -|suchopárny
 nezúčastnený|1
@@ -10084,6 +10217,8 @@ nikotinizmus|1
 -|achloropsia (term.)|achromatopsia (term.)|daltonizmus (term.)|farbosleposť|nikotinizmus (term.)
 nimród|1
 -|lovec|poľovník
+niva|1
+-|lúčina|pažiť
 nič|1
 -|bezvýznamná osoba|nula
 ničiaci|1
@@ -10108,9 +10243,10 @@ niť|2
 -|kontext|spojenie|súvislosť
 no|1
 -|ale|ibaže|lenže
-noha|2
+noha|3
 -|chodidlo|končatina
 -|končatina|ruka|úd
+-|laba|packa|paprča
 nohavice|1
 -|gate (hovorovo)|nohavky (hovorovo)
 nohavky|1
@@ -10143,6 +10279,8 @@ noviny|1
 -|denník|magazín|periodikum (term.)|časopis|žurnál
 novinár|1
 -|komentátor|publicista|žurnalista
+novotvar|1
+-|blastóm|nádor
 novátor|2
 -|avantgardista|priekopník|progresivista
 -|zlepšovateľ
@@ -10216,7 +10354,8 @@ nádoba|1
 -|nádržka|schránka
 nádobka|1
 -|ampulka|fľaša|fľaštička
-nádor|1
+nádor|2
+-|blastóm|novotvar
 -|tumor
 nádržka|1
 -|nádoba|schránka
@@ -10387,9 +10526,8 @@ následne|1
 -|zakrátko|zanedlho
 následný|1
 -|budúci|druhý|ešte jeden|nasledujúci|nový|ďalší
-následok|2
--|dopad|dôsledok|pôsobenie|vplyv|účinok
--|dosah|dôležitosť|pôsobenie|veľkosť|vplyv|význam|závažnosť|účinok
+následok|1
+-|dopad|dôsledok|konzekvencia|pôsobenie|vplyv|účinok
 nástenka|1
 -|vývesná tabuľa
 nástoj|1
@@ -10402,8 +10540,9 @@ nástup|1
 -|príchod|vstup
 nástupište|1
 -|perón
-násyp|1
+násyp|2
 -|hať|hrádza|nábrežie|priehrada
+-|hradba|oporný múr|stena|taras|val
 náter|2
 -|email|farba
 -|lak|maľba
@@ -10475,6 +10614,8 @@ nútenie|1
 nútený|2
 -|nedobrovoľný|neprirodzený|násilný|povinný|vynútený|zaviazaný
 -|nevyhnutný|obligatórny|obligátny|povinný|záväzný
+nútený pobyt|1
+-|internácia
 nútiť|1
 -|dohnať|donútiť|nabádať|prinútiť|vyzývať
 o mnoho|1
@@ -10593,8 +10734,9 @@ obligatórny|1
 -|nevyhnutný|nútený|obligátny|povinný|záväzný
 obligácia|1
 -|dlhopis|dlžný úpis
-obligátny|2
+obligátny|3
 -|bežný|pravidelný
+-|mandatórny (term.)|mandátny|nariadený|povinný|záväzný
 -|nevyhnutný|nútený|obligatórny|povinný|záväzný
 obloha|1
 -|nebo
@@ -10611,7 +10753,7 @@ obludný|1
 oblúk|1
 -|meander|ohyb|riečna zákruta|zatáčka|záhyb
 oblý|1
--|guľatý|guľovitý|guľový|okrúhly|zaoblený|zaokrúhlený
+-|guľatý|guľovitý|guľový|klenutý|okrúhly|zaoblený|zaokrúhlený
 obmedzenec|1
 -|chmuľo|hlupák|hňup|ignorant|nevzdelanec|osol|somár|sprosták|tupec
 obmedzenie|4
@@ -10659,6 +10801,8 @@ obohnať|1
 -|ohradiť|oplotiť
 obojaký|1
 -|dvojaký|falošný|farizejský|fingovaný|nepravý|neúprimný|pokrytecký|predstieraný|strojený|zdanlivý|údajný
+obojpohlavný|1
+-|bisexuálny|dvojpohlavný
 obojstrannosť|1
 -|reciprocita|solidarita|vzájomnosť
 oboplávať|1
@@ -10735,9 +10879,13 @@ obsah|1
 -|pointa|vtip|význam
 obsahovať|1
 -|mať|zahŕňať
-obscénnosť|1
+obscenita|1
+-|nehanebnosť|obscénnosť|oplzlosť|vulgárnosť
+obscénnosť|2
 -|nehanebnosť|neslušnosť|oplzlosť|vulgárnosť
-obscénny|1
+-|nehanebnosť|obscenita|oplzlosť|vulgárnosť
+obscénny|2
+-|chlípny|nehanebný|oplzlý|vulgárny
 -|nemorálny|nemravný|nerestný|neslušný|oplzlý|zhýralý
 obsedantný|1
 -|naliehavý|nutkavý|obsedantný (term.)|vtieravý
@@ -10839,7 +10987,7 @@ občiansky|1
 obľuba|1
 -|obľúbenosť|popularita|priazeň
 obľúbenec|1
--|favorit
+-|favorit|miláčik
 obľúbenosť|1
 -|obľuba|popularita|priazeň
 obľúbený|1
@@ -11156,7 +11304,7 @@ odpočítať|1
 -|odčítať
 odpočívať|2
 -|chrápať|spať
--|leňošiť|polihovať|posedávať|povaľovať sa|prevaľovať sa|vyvaľovať sa|váľať sa
+-|hovieť|leňošiť|polihovať|posedávať|povaľovať sa|prevaľovať sa|vyvaľovať sa|váľať sa
 odpočúvacie zariadenie|1
 -|ploštica
 odpočúvanie|1
@@ -11297,8 +11445,9 @@ odtrhnúť|1
 -|odlúčiť|rozorvať|roztrhnúť|utrhnúť
 odtrhnúť sa|1
 -|odlúčiť sa|odštiepiť sa
-oduševnenie|1
--|elán|entuziazmus|mánia|nadšenie|vrúcnosť|vášeň|zápal
+oduševnenie|2
+-|elán|nadšenie|vrúcnosť|zápal
+-|vášeň
 oduševnený|1
 -|nadšený|vrelý|vrúcny|zanietený|zapálený
 odvaha|1
@@ -11374,6 +11523,8 @@ odškodniť|1
 -|kompenzovať|nahradiť
 odškodné|1
 -|náhrada škody
+odštiepenecký|1
+-|secesný
 odštiepiť sa|1
 -|odlúčiť sa|odtrhnúť sa
 odťahovať sa|1
@@ -11552,7 +11703,7 @@ okrášliť|1
 -|ozdobiť|prikrášliť|prizdobiť|skrášliť|vyzdobiť
 okrúhly|2
 -|bacuľatý|kyprý|plnoštíhly|sypký|zaoblený
--|guľatý|guľovitý|guľový|oblý|zaoblený|zaokrúhlený
+-|guľatý|guľovitý|guľový|klenutý|oblý|zaoblený|zaokrúhlený
 okultný|1
 -|mystický|nevysvetliteľný|parapsychologický|tajomný|tajuplný|záhadný
 okupant|1
@@ -11628,7 +11779,7 @@ omámenie|1
 omámiť|1
 -|opojiť|uspať
 omáčka|1
--|šťava
+-|sós|zós|šťava
 omša|1
 -|bohoslužba|pobožnosť
 onanovanie|1
@@ -11653,7 +11804,8 @@ opak|2
 -|protiklad|rozpor
 opakovaný|1
 -|opakujúci sa
-opakujúci sa|2
+opakujúci sa|3
+-|neustály|systematický|sústavný
 -|opakovaný
 -|periodický|pravidelný
 opar|2
@@ -11704,6 +11856,8 @@ opisovať|1
 -|vysvetľovať
 opitosť|1
 -|alkoholizmus|etylizmus (term.)|nestriedmosť|pijanstvo
+opitý|1
+-|intoxikovaný
 oplakávať|1
 -|fňukať|kvíliť|lamentovať|nariekať|plakať|stonať|trúchliť|vyť
 oplatiť|1
@@ -11712,9 +11866,11 @@ oplotenie|1
 -|lesa|ohrada|ohradenie|plot|výbeh|zábradlie
 oplotiť|1
 -|obohnať|ohradiť
-oplzlosť|1
+oplzlosť|2
 -|nehanebnosť|neslušnosť|obscénnosť|vulgárnosť
-oplzlý|1
+-|nehanebnosť|obscenita|obscénnosť|vulgárnosť
+oplzlý|2
+-|chlípny|nehanebný|obscénny|vulgárny
 -|nemorálny|nemravný|nerestný|neslušný|obscénny|zhýralý
 oplývať|1
 -|prekypovať
@@ -11740,6 +11896,8 @@ opora|3
 -|podpora|pomoc|výpomoc
 oporná stena|1
 -|oporný pilier
+oporný múr|1
+-|hradba|násyp|stena|taras|val
 oporný pilier|1
 -|oporná stena
 opotrebovať|1
@@ -11772,6 +11930,8 @@ oprávnene|1
 -|právom|zaslúžene
 oprávnenie|1
 -|autorita|kompetencia|právo|právomoc
+oprávnenosť|1
+-|legitímnosť|legálnosť|právny stav|zákonnosť
 oprávnený|2
 -|kompetentný|náležitý|opodstatnený|príslušný|riadny|správny|vhodný|zaslúžený|zákonitý
 -|legitímny|legálny|spravodlivý|zákonitý|zákonný
@@ -12021,9 +12181,12 @@ otras|1
 -|šok
 otrasný|1
 -|desivý|desný|hrozný|príšerný|strašný
-otrava|2
+otrava|3
+-|intoxikácia|otravenie
 -|jed
 -|nuda
+otravenie|1
+-|intoxikácia|otrava
 otravovať|1
 -|obťažovať|prenasledovať|rozčuľovať|sužovať|súžiť|trápiť|znepokojovať|ísť na nervy
 otrepaná fráza|1
@@ -12187,7 +12350,9 @@ očíslovať|1
 ošatenie|1
 -|háv|oblečenie|odev|róba|rúcho|úbor|šat|šaty
 ošemetný|1
--|chúlostivý
+-|chúlostivý|citlivý|delikátny
+ošetrovateľ|1
+-|sanitár|zdravotník
 ošetrovateľka|1
 -|sestra|sestrička (hovorovo)|zdravotná sestra
 ošetrovať|1
@@ -12227,6 +12392,8 @@ pach|1
 -|aróma|buket (term.)|odor (term.)|parfum|puch|smrad|vôňa|zápach
 pachuť|1
 -|chuť|príchuť
+packa|1
+-|laba|noha|paprča
 padať|1
 -|chýliť sa|klesať|letieť|skláňať sa|zvažovať sa
 padnúť|2
@@ -12279,7 +12446,7 @@ panel|1
 panenský|1
 -|nedotknutý
 pani|1
--|dáma|slečna|žena
+-|dáma|seňora|žena
 pankreas|1
 -|podžalúdková žľaza
 panovať|1
@@ -12302,6 +12469,8 @@ papier|1
 -|dokument
 papračka|1
 -|babračka|piplačka|prplačka|šiplačka
+paprča|1
+-|laba|noha|packa
 papuče|1
 -|pantófle (archaizmus)|šľapky
 papuľa|2
@@ -12450,7 +12619,8 @@ paľba|1
 -|streľba
 pažerák|1
 -|kráter
-pažiť|1
+pažiť|2
+-|lúčina|niva
 -|tráva|trávnik
 pažravec|1
 -|nenásytník|pahltník|žráč
@@ -12459,7 +12629,7 @@ pchať|1
 pecivál|1
 -|darmošľap|flákač|leňoch|pocestný|povaľač|pútnik|tulák|vagabund|vandrák|zaháľač
 pedagóg|1
--|inštruktor|učiteľ|vychovávateľ
+-|inštruktor|kantor|učiteľ|vychovávateľ
 pedant|1
 -|puntičkár
 pedantský|1
@@ -12575,14 +12745,16 @@ pevnina|1
 -|súš|zem
 pevninský|1
 -|kontinentálny
-pevnosť|3
+pevnosť|4
 -|bunker|hradisko|kryt|pevnôstka
 -|hrad|kaštieľ|palác|sídlo|zámok
+-|konzistencia|súdržnosť
 -|solídnosť|spoľahlivosť|stabilita
 pevnôstka|1
 -|bunker|hradisko|kryt|pevnosť
-pevný|2
+pevný|3
 -|fixný|konštantný|stály
+-|nemenný|neochvejný
 -|nezdolný|nezlomný|trvalý
 pečiatka|1
 -|razítko
@@ -12851,6 +13023,8 @@ plánovač|1
 plánovať|2
 -|chcieť|chystať sa|hodlať|mať v úmysle|predsavziať si|priať si|rozhodnúť sa|zamýšľať|zaumieniť si
 -|projektovať
+plánovitý|1
+-|cieľavedomý|majúci význam|systematický|zmysluplný|zámerný|účelný
 plápolajúci|1
 -|horiaci|planúci
 plápolať|1
@@ -13004,6 +13178,8 @@ podivenie|1
 -|div|podiv|počudovanie|prekvapenie|začudovanie|údiv|úžas
 podivnosť|1
 -|kuriozita|rarita|vzácnosť|výnimočnosť|výstrednosť|zvláštnosť|čudáctvo
+podivný|1
+-|bizardný|divný|neobvyklý|zvláštny
 podivuhodný|1
 -|kúzelný|magický|rozprávkový|zázračný|čarovný
 podklad|3
@@ -13395,7 +13571,7 @@ poklona|2
 pokloniť sa|1
 -|ukloniť sa
 poklop|1
--|príklop
+-|príklop|veko
 pokoj|3
 -|chladnokrvnosť|kľud (nesprávne)|obozretnosť|opatrnosť|prezieravosť|rozvážnosť|nepokoj (Antonym)
 -|mier
@@ -13500,7 +13676,7 @@ policajný zbor|1
 policajt|1
 -|fízel|príslušník verejnej bezpečnosti (archaizmus)|strážnik
 polihovať|1
--|leňošiť|odpočívať|posedávať|povaľovať sa|prevaľovať sa|vyvaľovať sa|váľať sa
+-|hovieť|leňošiť|odpočívať|posedávať|povaľovať sa|prevaľovať sa|vyvaľovať sa|váľať sa
 polička|1
 -|polica|regál
 polodrahokam|1
@@ -13633,6 +13809,8 @@ popis|3
 -|avízo|informácia|oznam|oznámenie|správa|zvesť
 -|deskripcia|opis
 -|označenie|symbol|znak|značka|známka
+popisný|1
+-|desckriptívny
 popisok|1
 -|ceduľka|doštička|etiketa|menovka|nálepka|vineta|visačka|visiačka|štít|štítok
 popkorn|1
@@ -13689,8 +13867,9 @@ popísať|1
 -|excerpovať|vypísať
 porada|1
 -|schôdza|zasadanie|zhromaždenie
-poradca|1
+poradca|2
 -|expert
+-|mentor|vychovávateľ
 poradenie|1
 -|konzultácia|rada
 poradenský|1
@@ -13726,6 +13905,8 @@ poriadok|1
 -|organizácia|systém
 poriománia|1
 -|dromománia (term.)|poriománia (term.)|túlavosť
+porota|1
+-|jury|rozhodcovia
 porozumenie|1
 -|harmónia|pochopenie
 portier|1
@@ -13768,7 +13949,7 @@ poschodie|1
 posedenie|1
 -|besiedka
 posedávať|1
--|leňošiť|odpočívať|polihovať|povaľovať sa|prevaľovať sa|vyvaľovať sa|váľať sa
+-|hovieť|leňošiť|odpočívať|polihovať|povaľovať sa|prevaľovať sa|vyvaľovať sa|váľať sa
 posilniť|3
 -|byť podporou|napomáhať|podporiť|podporovať|povzbudiť|povzbudzovať|presadzovať|schvaľovať
 -|konsolidovať|spevniť|spevniť sa|upevniť|ustáliť sa|utužiť|utvrdiť
@@ -13995,7 +14176,7 @@ potupa|1
 -|nadávka|urážka
 potupiť|2
 -|pohrdnúť
--|zahanbiť|znesvätiť|zneuctiť
+-|sprzniť|zahanbiť|znesvätiť|zneuctiť
 potvora|1
 -|mrcha|mršina|zdochlina
 potvrdenie|4
@@ -14051,7 +14232,7 @@ povala|1
 povaľač|1
 -|darmošľap|flákač|leňoch|pecivál|pocestný|pútnik|tulák|vagabund|vandrák|zaháľač
 povaľovať sa|1
--|leňošiť|odpočívať|polihovať|posedávať|prevaľovať sa|vyvaľovať sa|váľať sa
+-|hovieť|leňošiť|odpočívať|polihovať|posedávať|prevaľovať sa|vyvaľovať sa|váľať sa
 povedať|4
 -|avizovať|informovať|inštruovať|oboznámiť|oznámiť|poučiť|predniesť|prezradiť
 -|definovať|formulovať|spísať|vyjadriť|vystihnúť|štylizovať
@@ -14069,12 +14250,12 @@ poveternosť|1
 povetrie|1
 -|atmosféra|nálada|ovzdušie|pomery|prostredie|ráz|situácia|stav|vzduch
 poviedkar|1
--|rozprávač
+-|narátor|rozprávač
 povinnosť|2
 -|nevyhnutnosť|záväzok
 -|práca|úloha
 povinný|3
--|mandatórny (term.)|mandátny|nariadený|záväzný
+-|mandatórny (term.)|mandátny|nariadený|obligátny|záväzný
 -|nedobrovoľný|neprirodzený|násilný|nútený|vynútený|zaviazaný
 -|nevyhnutný|nútený|obligatórny|obligátny|záväzný
 povlak|1
@@ -14127,6 +14308,8 @@ povstanie|1
 -|rebélia|revolta|vzbura|vzbúrenie
 povstať|1
 -|nadvihnúť|nadvihnúť sa|pozdvihnúť|vstať|zdvihnúť|zdvihnúť sa
+povyk|1
+-|lomoz|rozruch
 povzbudenie|1
 -|potecha|potešenie|útecha
 povzbudivo|1
@@ -14263,6 +14446,8 @@ počiatok|1
 -|spustenie|zahájenie|začiatok|štart
 počiatočný|1
 -|prvotný|prvý|práve započatý|pôvodný|začiatočný|začínajúci
+počin|1
+-|jednanie|skutok|čin
 počkať|1
 -|dočkať|pozhovieť (hovorovo)|vyčkať
 počudovanie|1
@@ -14475,8 +14660,9 @@ prebudený|1
 prebudiť|2
 -|byť príčinou|navodiť|podnietiť|privodiť|spôsobiť|vyvolať|vzbudiť|zapríčiniť
 -|zobudiť
-prebytok|1
+prebytok|2
 -|bohatstvo|komfort|luxus|nadbytok|pohodlie|prepych|prosperita
+-|exuberancia|hojnosť
 prebytočný|1
 -|nadbytočný|nadmerný|nadpočetný|nepotrebný|prílišný|zbytočný
 preceniť|1
@@ -15159,7 +15345,7 @@ preukážka|1
 prevaha|1
 -|energia|intenzita|moc|nadvláda|sila|vláda|vodcovstvo|vplyv
 prevaľovať sa|1
--|leňošiť|odpočívať|polihovať|posedávať|povaľovať sa|vyvaľovať sa|váľať sa
+-|hovieť|leňošiť|odpočívať|polihovať|posedávať|povaľovať sa|vyvaľovať sa|váľať sa
 prevažne|1
 -|z veľkej časti
 prevažný|1
@@ -15174,10 +15360,12 @@ preventívny|1
 -|ochranný|profylaktický
 prevetranie|1
 -|ventilácia|vetranie|vyvetranie
-previnenie|1
+previnenie|2
+-|delikt|trestný čin
 -|vina
-previnilec|1
+previnilec|2
 -|hriešnik
+-|vinník
 previs|1
 -|výrastok|výstupok|výčnelok
 prevliecť|1
@@ -15987,7 +16175,7 @@ prvotný|1
 prvotriednosť|1
 -|vynikanie
 prvotriedny|1
--|najlepší|skvelý|vynikajúci|výberový
+-|excelentný|najlepší|skvelý|vynikajúci|výberový
 prvé|1
 -|prvotné|pôvodné
 prvé miesto|1
@@ -16019,7 +16207,7 @@ právny|1
 právny dogmatizmus|1
 -|právnický formalizmus
 právny stav|1
--|legitímnosť|legálnosť|zákonnosť
+-|legitímnosť|legálnosť|oprávnenosť|zákonnosť
 právo|1
 -|autorita|kompetencia|oprávnenie|právomoc
 právom|1
@@ -16085,7 +16273,7 @@ príklad|1
 príkladný|1
 -|exemplárny|vzorový|výstražný
 príklop|1
--|poklop
+-|poklop|veko
 príležitostne|1
 -|chvíľami|občas|prerušovane|sem tam|z času na čas|časom
 príležitostný|1
@@ -16337,6 +16525,8 @@ pyšniť sa|1
 pyšný|2
 -|chvastavý (hovorovo)|neskromný|náročný (hovorovo)|povýšený|požadovačný|vystatovačný
 -|hrdý|nadutý
+páchateľ|1
+-|delikvent|vinník
 páchnuť|1
 -|smrdieť|zapáchať
 pád|2
@@ -16352,7 +16542,7 @@ páliť|2
 -|myslieť|páliť (hovorovo)
 -|opáliť|spáliť|upáliť
 pán|1
--|chlap|chlapík|muž
+-|chlap|chlapík|muž|seňor
 páperie|1
 -|perie
 pár|2
@@ -16432,9 +16622,10 @@ pôdorysný plán|1
 -|plán prízemia|pôdorys
 pôjd|1
 -|podkrovie|povala
-pôsobenie|2
--|dopad|dôsledok|následok|vplyv|účinok
--|dosah|dôležitosť|následok|veľkosť|vplyv|význam|závažnosť|účinok
+pôrodnosť|1
+-|natalita|nativita
+pôsobenie|1
+-|dopad|dôsledok|konzekvencia|následok|vplyv|účinok
 pôsobivý|5
 -|efektný|účinný
 -|impozantný|kúzelný|očarujúci|skvelý|úchvatný|úžasný
@@ -16967,8 +17158,9 @@ robotník|2
 -|pracovník|zamestnanec
 robustný|1
 -|mocný|mohutný|silný|vplyvný|významný
-rod|2
+rod|3
 -|druh|kmeň|kultivar (hovorovo)|odroda|sorta
+-|klan
 -|príbuzenstvo|príbuznosť|príbuzní|pôvod|rodina|rodokmeň
 rodený|1
 -|dedičný|prirodzený|vrodený|zdedený
@@ -17057,7 +17249,7 @@ rovnováha|2
 rovnovážny stav|1
 -|rovnocennosť|rovnosť|rovnováha|vyrovnanosť
 rovnošata|1
--|dres|uniforma|úbor
+-|dres|livrej|uniforma|úbor
 rovný|3
 -|lineárny|stály
 -|plochý|rovinatý
@@ -17119,6 +17311,8 @@ rozhnevať sa|1
 -|rozjedovať sa
 rozhodca|1
 -|sudca|sudcovský zbor
+rozhodcovia|1
+-|jury|porota
 rozhodne|1
 -|evidentne|iste|jasne|naisto|nepochybne|nesporne|podľa všetkého|samozrejme|určite|zaiste
 rozhodnosť|1
@@ -17256,7 +17450,7 @@ rozmerný|2
 rozmery|1
 -|proporcie
 rozmiestnenie|1
--|rozostavenie
+-|rozostavenie|umiestnenie
 rozmiestniť|1
 -|rozostaviť|rozvinúť|umiestniť
 rozmnožovať|1
@@ -17284,7 +17478,7 @@ rozopnúť|1
 rozorvať|1
 -|odlúčiť|odtrhnúť|roztrhnúť|utrhnúť
 rozostavenie|1
--|rozmiestnenie
+-|rozmiestnenie|umiestnenie
 rozostaviť|1
 -|rozmiestniť|rozvinúť|umiestniť
 rozoznateľný|1
@@ -17362,7 +17556,7 @@ rozprestrieť|1
 rozprávanie|1
 -|historka|naratívum (term.)|príbeh|story (hovorovo)|vypravovanie
 rozprávač|1
--|poviedkar
+-|narátor|poviedkar
 rozprávať|1
 -|drmoliť|hovoriť|klábosiť|konverzovať|potrebný|povedať|prehovoriť|rečniť|rozprávať sa|vravieť
 rozprávať sa|1
@@ -17400,8 +17594,9 @@ rozriešenie|1
 -|vyriešenie
 rozriešiť|1
 -|lúštiť|riešiť|rozlúštiť|vylúštiť|vyriešiť
-rozruch|2
+rozruch|3
 -|bomba|senzácia|sranda (nesprávne)
+-|lomoz|povyk
 -|nepokoj|poplach|rozrušenie|rozčúlenie|vzruch|vzrušenie
 rozrušenie|2
 -|nepokoj|poplach|rozruch|rozčúlenie|vzruch|vzrušenie
@@ -17815,7 +18010,7 @@ samostatnosť|1
 samostatný|3
 -|absolútny|infinitezimálny (term.)|neobmedzený|neohraničený|nezávislý|úplný
 -|autarktný|sebestačný
--|nezávislý|slobodný|voľný
+-|liberálny|nezávislý|slobodný|voľný
 samostrel|1
 -|kuša|luk
 samota|1
@@ -17843,6 +18038,8 @@ samoľúby|1
 -|narcistický
 samá ruka samá noha|1
 -|vysoký a chudý
+sanabilný|1
+-|sanabilný (term.)|vyliečiteľný|zhojiteľný
 sanatórium|1
 -|ozdravovňa
 sanita|1
@@ -17852,11 +18049,13 @@ sanitka|1
 sanitné auto|1
 -|sanita|sanitka|záchranka
 sanitár|1
--|zdravotník
+-|ošetrovateľ|zdravotník
 sankcia|1
 -|penále|pokuta
 sanovať|1
 -|zachraňovať
+sapfický|1
+-|lesbický
 saponát|1
 -|syntetický prací prostriedok
 saranča|1
@@ -17954,6 +18153,10 @@ sebectvo|1
 -|egoizmus
 sebestačný|1
 -|autarktný|samostatný
+secco|1
+-|secco (term.)|stroho|úsečne
+secesný|1
+-|odštiepenecký
 sedadlo|1
 -|kreslo|lavica|lavička|leňoška|sedačka|stolička
 sedatívum|1
@@ -18065,6 +18268,12 @@ sexuálny život|1
 -|sexualita
 sezóna|1
 -|obdobie
+seňor|1
+-|chlap|chlapík|muž|pán
+seňora|1
+-|dáma|pani|žena
+seňorita|1
+-|mladá dáma|slečna|žena|žieňa
 sfalšovať|1
 -|falšovať|podvrhnúť|zmanipulovať
 sféra|2
@@ -18292,7 +18501,7 @@ skupáň|1
 -|chamtivec|držgroš|lakomec
 skutok|2
 -|akt|výkon|úkon|čin
--|jednanie|čin
+-|jednanie|počin|čin
 skutočne|1
 -|fakticky|namojdušu|naozaj|veru|vskutku|vážne|čestné slovo
 skutočnosť|2
@@ -18304,13 +18513,13 @@ skutočný|2
 skvapalniť|1
 -|kvapalnieť
 skvele|1
--|výborne|znamenite
+-|bravo|výborne|znamenite
 skvelosť|1
 -|krása|nádhera|veľkoleposť
 skvelý|3
 -|báječný (hovorovo)|jedinečný|nádherný|ohromný|prekrásny|utešený|výborný|znamenitý|úžasný
+-|excelentný|najlepší|prvotriedny|vynikajúci|výberový
 -|impozantný|kúzelný|očarujúci|pôsobivý|úchvatný|úžasný
--|najlepší|prvotriedny|vynikajúci|výberový
 skvost|2
 -|diamant|drahokam|klenot|perla|polodrahokam|šperk
 -|poklad
@@ -18401,7 +18610,7 @@ slepota|1
 slepý|1
 -|zaslepený
 slečna|1
--|dáma|pani|žena
+-|mladá dáma|seňorita|žena|žieňa
 sliedič|1
 -|prieskumník|zved|špeh
 slina|1
@@ -18423,8 +18632,8 @@ slobodne|1
 slobodná|1
 -|nevydatá
 slobodný|2
+-|liberálny|nezávislý|samostatný|voľný
 -|neženatý
--|nezávislý|samostatný|voľný
 slobodný muž|1
 -|starý mládenec
 slobodomyseľnosť|1
@@ -18454,7 +18663,7 @@ slovný|1
 slovo|1
 -|pojem|termín|výraz
 sluchový|1
--|akustický|zvukový
+-|akustický|tonálny|zvukový
 sluha|1
 -|posluhovač (archaizmus)|služobná|služobník|slúžka
 slušivý|1
@@ -18637,7 +18846,7 @@ soptiť|1
 sorta|1
 -|druh|kmeň|kultivar (hovorovo)|odroda|rod
 sortiment|1
--|kolekcia|všehochuť|zmes|zmiešanina
+-|kolekcia
 sosna|2
 -|borovica
 -|borovica|ihličnan|ihličnatý strom|jedlička
@@ -18937,6 +19146,8 @@ sprudka opečený|1
 -|polosurový
 sprvu|1
 -|na začiatku|najskôr|napred|spočiatku|v prvej rade|v prvom rade|za prvé|zo začiatku
+sprzniť|1
+-|potupiť|zahanbiť|znesvätiť|zneuctiť
 správa|5
 -|administrácia|riadenie
 -|administratíva
@@ -18952,7 +19163,8 @@ správca|3
 -|administrátor|superpoužívateľ
 -|hlava rodiny|hospodár
 -|kurátor|opatrovník|poručník
-správne|2
+správne|3
+-|dobre|super (hovorovo)
 -|poriadne|riadne
 -|primerane|vhodne
 správny|4
@@ -19153,7 +19365,7 @@ stelesnený|1
 stelesniť|1
 -|zosobniť
 stena|2
--|hradba|val
+-|hradba|násyp|oporný múr|taras|val
 -|múr
 stenčiť sa|1
 -|zcvrknúť sa|zmenšiť|zmenšiť sa|zmrštiť sa|zraziť sa
@@ -19331,6 +19543,8 @@ streľba|2
 -|rana|výstrel
 strešné okno|1
 -|vikier
+strhnúť|1
+-|zbúrať|zrúcať
 strhnúť sa|1
 -|prepuknúť
 strhujúci|1
@@ -19363,7 +19577,7 @@ strnulý|2
 -|letargický|tuhý
 -|nepružný|rigidný
 stroho|1
--|úsečne
+-|secco (term.)|úsečne
 strohosť|1
 -|odmeranosť|triezvosť|úsečnosť
 strohý|2
@@ -19447,8 +19661,8 @@ stuhnúť|1
 stupaj|1
 -|odtlačok|stopa|stupaj (archaizmus)|šľapaj
 stupeň|2
--|úroveň
 -|dimenzia|kaliber|miera|objem|rozloha|rozmer|rozsah|veľkosť
+-|level (hovorovo)|úroveň
 stupienok|1
 -|kazateľnica|pódium|tribúna
 stupnica|2
@@ -19580,7 +19794,7 @@ sumár|2
 -|rekapitulácia|súhrn|zhrnutie
 -|rezumé
 super|1
--|dobre|super (hovorovo)
+-|dobre|správne|super (hovorovo)
 supernaturálny|1
 -|nadprirodzený
 superpoužívateľ|1
@@ -19745,6 +19959,10 @@ sypký|1
 -|bacuľatý|kyprý|okrúhly|plnoštíhly|zaoblený
 syrinx|1
 -|Panova píšťala
+systematický|3
+-|cieľavedomý|majúci význam|plánovitý|zmysluplný|zámerný|účelný
+-|neustály|opakujúci sa|sústavný
+-|usporiadaný
 systém|1
 -|organizácia|poriadok
 syčanie|1
@@ -19768,6 +19986,8 @@ sídlisko|1
 sídlo|2
 -|bydlisko|byt|bytová jednotka|dom|domov|domácnosť|obydlie|príbytok|rezidencia
 -|hrad|kaštieľ|palác|pevnosť|zámok
+sós|1
+-|omáčka|zós|šťava
 súbežný|1
 -|paralelný|rovnobežný|simultánny
 súboj|1
@@ -19799,6 +20019,8 @@ súdok|2
 -|džber|kýbeľ|kýblik|vedro
 súdruh|1
 -|spoludruh
+súdržnosť|1
+-|konzistencia|pevnosť
 súhlas|5
 -|autorizácia|obsignácia|odsúhlasenie|overenie|potvrdenie|povolenie
 -|dovolenie|povolenie|požehnanie|ratifikácia|schválenie
@@ -19864,6 +20086,8 @@ súsošie|1
 -|plastika|skulptúra|socha
 sústava|1
 -|organizácia|usporiadanie
+sústavný|1
+-|neustály|opakujúci sa|systematický
 sústo|1
 -|kúsok|trocha|troška|útržok|čiastočka|štipka
 sústrasť|1
@@ -20033,6 +20257,8 @@ tanier|1
 -|disk|miska|podnos|tácka
 tank|1
 -|panciernik (hovorovo)
+taras|1
+-|hradba|násyp|oporný múr|stena|val
 tarifa|1
 -|sadzba|sadzobník
 tasiť|1
@@ -20087,6 +20313,8 @@ telesná stráž|1
 -|osobný strážca
 telesný|1
 -|fyzický|hmotný|materiálny
+teleso|1
+-|korpus|telo
 teliť sa|1
 -|oteliť sa
 telnatosť|1
@@ -20094,7 +20322,8 @@ telnatosť|1
 telnatý|2
 -|bachratý|bruchatý|pupkatý|tučný
 -|korpulentný|objemný|rozložitý|rozmerný|silný|statný|tlstý|tučný
-telo|1
+telo|2
+-|korpus|teleso
 -|kostra|rám|rámček|skelet|torzo|trup
 telocvik|1
 -|gymnastika
@@ -20303,6 +20532,8 @@ tolerantný|1
 -|liberálny|slobodomyseľný|znášanlivý
 tombola|1
 -|vecná lotéria
+tonálny|1
+-|akustický|sluchový|zvukový
 tornádo|1
 -|búrka|cyklón|hurikán|orkán|smršť|uragán|víchrica
 torus|1
@@ -20396,6 +20627,8 @@ trestnica|1
 -|basa|chládok|kriminál|trestnica (archaizmus)|väzenie|árešt|žalár
 trestný|1
 -|kárny
+trestný čin|1
+-|delikt|previnenie
 trezor|1
 -|bezpečnostná schránka|sejf
 trh|1
@@ -20462,6 +20695,8 @@ trocha|1
 -|kúsok|sústo|troška|útržok|čiastočka|štipka
 trochu|1
 -|málo|niekoľko|pár|zopár
+trofej|1
+-|korisť|lup|úlovok
 trojitý|1
 -|trojnásobný
 trojnásobný|1
@@ -20538,6 +20773,8 @@ trápnosť|1
 -|rozpaky|zdržanlivosť|zábrany
 tráva|1
 -|pažiť|trávnik
+tráviť|1
+-|jesť|konzumovať
 trávnik|1
 -|pažiť|tráva
 trénovať|1
@@ -21001,9 +21238,10 @@ umiernenosť|1
 -|rezervovanosť|sebakontrola|sebaovládanie|striedmosť|zdržanlivosť
 umiernený|1
 -|diplomatický|obozretný|opatrný|ostražitý|predvídavý|prezieravý|rozumný|taktický
-umiestnenie|2
+umiestnenie|3
 -|miesto|poloha
 -|miesto|pozícia
+-|rozmiestnenie|rozostavenie
 umiestnený|1
 -|situovaný
 umiestniť|3
@@ -21029,7 +21267,7 @@ umŕtviť|1
 uniesť|1
 -|fascinovať|nadchnúť|okúzliť|oslniť|očarovať|uchvátiť|učarovať|vzrušiť
 uniforma|1
--|dres|rovnošata|úbor
+-|dres|livrej|rovnošata|úbor
 uniformný|1
 -|jednotný
 uniknúť|1
@@ -21217,8 +21455,9 @@ uspokojiť|1
 usporiadanie|2
 -|korekcia|korektúra|korigovanie|oprava|zlepšenie|úprava
 -|organizácia|sústava
-usporiadaný|1
+usporiadaný|2
 -|poriadkumilovný|poriadny|riadny|správny
+-|systematický
 usporiadateľ|2
 -|aranžér|organizátor|osnovateľ
 -|organizátor
@@ -21441,7 +21680,7 @@ učiniť|1
 učiniť dojem|1
 -|zapôsobiť
 učiteľ|1
--|inštruktor|pedagóg|vychovávateľ
+-|inštruktor|kantor|pedagóg|vychovávateľ
 učiť|1
 -|vyučovať
 učiť sa naspamäť|1
@@ -21535,7 +21774,7 @@ vagón|1
 vak|1
 -|batoh|noša|pinkeľ (hovorovo)|plecniak|ruksak|uzol (hovorovo)
 val|1
--|hradba|stena
+-|hradba|násyp|oporný múr|stena|taras
 valec|1
 -|bubon
 valencia|1
@@ -21647,7 +21886,8 @@ vedľajší|4
 vek|2
 -|dni|doba|obdobie|úsek|čas|časy
 -|staroba|starobylosť
-veko|1
+veko|2
+-|poklop|príklop
 -|vrchnák
 velebenie|1
 -|oslavovanie
@@ -21800,7 +22040,7 @@ veľkostatok|1
 -|šľachtická usadlosť
 veľkosť|2
 -|dimenzia|kaliber|miera|objem|rozloha|rozmer|rozsah|stupeň
--|dosah|dôležitosť|následok|pôsobenie|vplyv|význam|závažnosť|účinok
+-|dosah|vplyv|význam|závažnosť|účinok
 veľké brucho|1
 -|bachor|pupok
 veľké písmeno|1
@@ -21904,12 +22144,15 @@ vineta|1
 -|ceduľka|doštička|etiketa|menovka|nálepka|popisok|visačka|visiačka|štít|štítok
 viniť|1
 -|obviňovať
+vinník|2
+-|delikvent|páchateľ
+-|previnilec
 vinš|1
 -|prianie|túžba|vinš (hovorovo)|želanie|žiadosť
 vinšovať|1
 -|priať|vinšovať (hovorovo)|želať|žičiť
 virtuozita|1
--|bravúra
+-|bravúra|majstrovstvo
 virvar|1
 -|chaos|galimatiáš (hovorovo)|haravara (hovorovo)|hurhaj|motanica|motanina|mrvenica|tlačenica|trma-vrma (poeticky)|zmätok
 visačka|1
@@ -22063,6 +22306,8 @@ vnútorný|2
 -|kradmý|pokútny|skrytý|tajný|utajovaný
 vnútro|1
 -|vnútornosti|útroby
+vnútromaternicový|1
+-|intrauterinný
 vnútroštátny|1
 -|tuzemský
 vo vnútri|1
@@ -22159,8 +22404,8 @@ voľno|1
 voľnosť|1
 -|sloboda jednania
 voľný|3
+-|liberálny|nezávislý|samostatný|slobodný
 -|nehatený|nerušený
--|nezávislý|samostatný|slobodný
 -|priechodný
 voľný čas|1
 -|dovolenka|prázdniny|rekreácia|sviatok|voľno
@@ -22169,8 +22414,8 @@ voňavý|1
 vpadnúť|1
 -|vrútiť sa
 vplyv|4
--|dopad|dôsledok|následok|pôsobenie|účinok
--|dosah|dôležitosť|následok|pôsobenie|veľkosť|význam|závažnosť|účinok
+-|dopad|dôsledok|konzekvencia|následok|pôsobenie|účinok
+-|dosah|veľkosť|význam|závažnosť|účinok
 -|energia|intenzita|moc|nadvláda|prevaha|sila|vláda|vodcovstvo
 -|ingerencia|zasahovanie|zásah
 vplyvný|1
@@ -22211,7 +22456,8 @@ vrchnák|1
 vrchný|2
 -|horný
 -|najvrchnejší|najvyšší
-vrchol|1
+vrchol|2
+-|končiar
 -|najvyšší bod|prvé miesto|vrcholok|špica|špička
 vrcholiť|1
 -|dosiahnuť vrchol|kulminovať|vyvrcholiť
@@ -22294,7 +22540,7 @@ vrúbkovaný|1
 vrúbok|1
 -|kanálik|ryha|vrub|vryp|vyhĺbenina|zárez|žliabik (hovorovo)|žliabok
 vrúcnosť|1
--|elán|entuziazmus|mánia|nadšenie|oduševnenie|vášeň|zápal
+-|elán|nadšenie|oduševnenie|zápal
 vrúcny|1
 -|nadšený|oduševnený|vrelý|zanietený|zapálený
 vrútiť sa|1
@@ -22351,8 +22597,11 @@ vtlačiť|1
 -|hlboko vtisnúť|napchať|natlačiť|vopchať|vtisnúť|vštepiť|vštiepiť
 vtrhnutie|1
 -|invázia|nájazd|preniknutie|vniknutie|vpád
-vulgárnosť|1
+vulgárnosť|2
 -|nehanebnosť|neslušnosť|obscénnosť|oplzlosť
+-|nehanebnosť|obscenita|obscénnosť|oplzlosť
+vulgárny|1
+-|chlípny|nehanebný|obscénny|oplzlý
 vulkanický|1
 -|sopečný
 vulkanizmus|1
@@ -22396,8 +22645,9 @@ vychladiť|1
 -|ochladiť|schladiť
 vychodiť|1
 -|dohotoviť|dokončiť|dorobiť|dovŕšiť|skončiť|ukončiť|uzavrieť|zakončiť|zavŕšiť
-vychovávateľ|1
--|inštruktor|pedagóg|učiteľ
+vychovávateľ|2
+-|inštruktor|kantor|pedagóg|učiteľ
+-|mentor|poradca
 vychovávať|1
 -|kázniť|vzdelávať
 vychvaľovanie|1
@@ -22606,6 +22856,8 @@ vyliať|1
 -|vypratať|vyprázdniť|vysypať
 vyliezť|1
 -|liezť|vystúpiť|šplhať
+vyliečiteľný|1
+-|sanabilný (term.)|zhojiteľný
 vylisovať|1
 -|zlisovať
 vylučovanie|2
@@ -22678,8 +22930,8 @@ vynechať|1
 -|opomenúť|vypustiť
 vynikajúci|3
 -|dokonalý|ideálny|obdivuhodný|výborný|úctyhodný
+-|excelentný|najlepší|prvotriedny|skvelý|výberový
 -|fenomenálny|nadpriemerný|neobvyklý|neobyčajný|nevšedný|nezvyklý|ojedinelý|výnimočný
--|najlepší|prvotriedny|skvelý|výberový
 vynikanie|1
 -|prvotriednosť
 vynikať|1
@@ -22798,8 +23050,9 @@ vyrezať|1
 -|vykrojiť|vytesať
 vyriešenie|1
 -|rozriešenie
-vyriešiť|1
+vyriešiť|2
 -|lúštiť|riešiť|rozlúštiť|rozriešiť|vylúštiť
+-|vyrovnať|vysporiadať
 vyrobiť|1
 -|produkovať|splniť|stvoriť|tvoriť|urobiť|utvoriť|vykonať|vyrábať|vytvoriť|vytvárať
 vyrovnanie|2
@@ -22810,9 +23063,10 @@ vyrovnanosť|1
 vyrovnaný|2
 -|chladno uvažujúci|inteligentný|kľudný|logický|mierny|múdry|racionálny|rozumný|rozumový|rozvážny|uvážlivý
 -|zarovnaný
-vyrovnať|2
+vyrovnať|3
 -|uhradiť|zaplatiť
 -|uviesť do rovnováhy|vyvážiť
+-|vyriešiť|vysporiadať
 vyrovnávanie rozdielov|1
 -|konvergencia|približovanie|zbližovanie
 vyrábať|1
@@ -22859,6 +23113,8 @@ vysoký a chudý|1
 -|samá ruka samá noha
 vyspelý|1
 -|pokročilý|zdokonalený
+vysporiadať|1
+-|vyriešiť|vyrovnať
 vystatovanie|1
 -|chvastanie
 vystatovačný|1
@@ -22992,7 +23248,7 @@ využívať|1
 vyvarovať sa|1
 -|strániť sa|vyhnúť sa|vyhýbať sa
 vyvaľovať sa|1
--|leňošiť|odpočívať|polihovať|posedávať|povaľovať sa|prevaľovať sa|váľať sa
+-|hovieť|leňošiť|odpočívať|polihovať|posedávať|povaľovať sa|prevaľovať sa|váľať sa
 vyvedenie z miery|1
 -|rozrušenie|rozčúlenie|vzrušenie|zmätenie|zmätok
 vyvedený z miery|1
@@ -23320,6 +23576,8 @@ váhavo|1
 -|nerozhodne
 váhať|1
 -|byť nerozhodný|okúňať|otáľať|rozpakovať sa|zaváhať
+válov|1
+-|koryto
 vápenatieť|1
 -|kalcifikovať
 vápenec|1
@@ -23331,9 +23589,9 @@ vápno|1
 váľať|1
 -|valiť
 váľať sa|1
--|leňošiť|odpočívať|polihovať|posedávať|povaľovať sa|prevaľovať sa|vyvaľovať sa
+-|hovieť|leňošiť|odpočívať|polihovať|posedávať|povaľovať sa|prevaľovať sa|vyvaľovať sa
 vášeň|1
--|elán|entuziazmus|mánia|nadšenie|oduševnenie|vrúcnosť|zápal
+-|oduševnenie
 vážený|1
 -|bezúhonný|férový|korektný|morálny|mravný|poctivý|počestný|seriózny|slušný|vzorný|čestný
 vážiť si|1
@@ -23402,7 +23660,7 @@ výber|2
 -|kasting|konkurz
 -|selekcia|stručný obsah|voľba
 výberový|1
--|najlepší|prvotriedny|skvelý|vynikajúci
+-|excelentný|najlepší|prvotriedny|skvelý|vynikajúci
 výbežok|1
 -|kondyl
 výboj|1
@@ -23415,7 +23673,7 @@ výbor|1
 -|komisia
 výborne|2
 -|bezchybne|dokonale|perfektne|plynne
--|skvele|znamenite
+-|bravo|skvele|znamenite
 výborná|1
 -|jednotka
 výborný|2
@@ -23662,7 +23920,7 @@ výzdoba|1
 význam|5
 -|cena|cennosť|dôležitosť|hodnota|odmena|prémia|vzácnosť
 -|charakter|letora|nátura|povaha|profil|rys|ráz|stránka|temperament|typ|vlastnosť|znak
--|dosah|dôležitosť|následok|pôsobenie|veľkosť|vplyv|závažnosť|účinok
+-|dosah|veľkosť|vplyv|závažnosť|účinok
 -|obsah|pointa|vtip
 -|zmysel
 významnosť|1
@@ -23734,7 +23992,7 @@ všednosť|1
 všedný|1
 -|banálny|jednoduchý|neprikrášlený|obyčajný|prostý|prozaický|radový|tuctový|ľudový
 všehochuť|1
--|kolekcia|sortiment|zmes|zmiešanina
+-|mix|zmes|zmiešanina
 všeliek|1
 -|univerzálny liek
 všemocne|1
@@ -23921,7 +24179,7 @@ zahalený|1
 zahaliť|1
 -|zakryť|zastrieť|zatemniť
 zahanbiť|1
--|potupiť|znesvätiť|zneuctiť
+-|potupiť|sprzniť|znesvätiť|zneuctiť
 zahliadnuť|1
 -|spozorovať|uvidieť|uzrieť|všimnúť si|zazrieť|zbadať|zočiť
 zahltenie|1
@@ -24168,11 +24426,11 @@ zaoberať sa|1
 -|venovať sa|zamestnávať sa
 zaoblený|2
 -|bacuľatý|kyprý|okrúhly|plnoštíhly|sypký
--|guľatý|guľovitý|guľový|oblý|okrúhly|zaokrúhlený
+-|guľatý|guľovitý|guľový|klenutý|oblý|okrúhly|zaokrúhlený
 zaobstarať|1
 -|docieliť|dosiahnuť|dostať|nadobudnúť|načerpať|pumpovať|vyťažiť|zaistiť si|zarobiť|zohnať|získať|čerpať
 zaokrúhlený|1
--|guľatý|guľovitý|guľový|oblý|okrúhly|zaoblený
+-|guľatý|guľovitý|guľový|klenutý|oblý|okrúhly|zaoblený
 zaostalosť|1
 -|nevzdelanosť
 zaostalý|1
@@ -24638,8 +24896,9 @@ zbytočnosť|1
 zbytočný|2
 -|nadbytočný|nadmerný|nadpočetný|nepotrebný|prebytočný|prílišný
 -|nanič|neužitočný
-zbúrať|1
+zbúrať|2
 -|demolovať|zdemolovať
+-|strhnúť|zrúcať
 zcvrknúť sa|1
 -|stenčiť sa|zmenšiť|zmenšiť sa|zmrštiť sa|zraziť sa
 zdanlivý|3
@@ -24704,7 +24963,7 @@ zdravotná sestra|1
 zdravotné|1
 -|medicinálne
 zdravotník|1
--|sanitár
+-|ošetrovateľ|sanitár
 zdravý|1
 -|neporušený|nepoškodený|nezdravý (Antonym)
 zdravý rozum|1
@@ -24823,6 +25082,8 @@ zhodný|2
 -|kladný|pozitívny|súhlasný
 zhodovať sa|1
 -|byť v súhlase|byť v súlade|byť v zhode|korešpondovať|kryť sa|súhlasiť|zodpovedať
+zhojiteľný|1
+-|sanabilný (term.)|vyliečiteľný
 zhon|1
 -|pohyb|ruch
 zhora|1
@@ -24838,6 +25099,8 @@ zhovievavosť|1
 zhovievavý|2
 -|benevolentný
 -|blahosklonný|dobromyseľný|vľúdny|žoviálny
+zhovorčivý|1
+-|komunikatívny
 zhrbiť|1
 -|hrbiť|hrbiť sa|krčiť sa|nahrbiť|nahrbiť sa|prikrčiť sa|schúliť sa|skrčiť sa|zhrbiť sa
 zhrbiť sa|1
@@ -24934,7 +25197,8 @@ zjemniť|1
 -|zmäkčiť
 zjesť|1
 -|zhltnúť|zlupnúť
-zladiť|1
+zladiť|2
+-|harmonizovať|koordinovať|zosúladiť
 -|zharmonizovať
 zlatíčko|1
 -|maznáčik|miláčik
@@ -25080,7 +25344,7 @@ zmenšiť sa|1
 zmeravený|1
 -|kľavý|meravý|neohybný|stŕpnutý
 zmes|1
--|kolekcia|sortiment|všehochuť|zmiešanina
+-|mix|všehochuť|zmiešanina
 zmeták|1
 -|metla
 zmeškať|1
@@ -25112,7 +25376,7 @@ zmiesiť sa|1
 zmiesť|1
 -|neschváliť|zamietnuť|zavrhnúť
 zmiešanina|1
--|kolekcia|sortiment|všehochuť|zmes
+-|mix|všehochuť|zmes
 zmiešavač|1
 -|mixér
 zmiešať|1
@@ -25160,7 +25424,7 @@ zmyslovosť|1
 zmyslový|1
 -|senzuálny
 zmysluplný|1
--|cieľavedomý|majúci význam|zámerný|účelný|nezmyselný (Antonym)
+-|cieľavedomý|majúci význam|plánovitý|systematický|zámerný|účelný|nezmyselný (Antonym)
 zmyť|1
 -|rafinovať|umyť|čistiť
 zmáčať|1
@@ -25217,7 +25481,7 @@ znamenie|3
 -|predzvesť
 -|stigma|stopa
 znamenite|1
--|skvele|výborne
+-|bravo|skvele|výborne
 znamenitý|2
 -|báječný (hovorovo)|jedinečný|nádherný|ohromný|prekrásny|skvelý|utešený|výborný|úžasný
 -|hádherný|veľkolepý
@@ -25249,7 +25513,7 @@ znesiteľný|1
 znesväcovať|1
 -|bagatelizovať|podceňovať|znevažovať|znižovať|zľahčovať
 znesvätiť|2
--|potupiť|zahanbiť|zneuctiť
+-|potupiť|sprzniť|zahanbiť|zneuctiť
 -|sprofanovať|zneuctiť
 znetvorenie|1
 -|deformita|deformácia
@@ -25258,7 +25522,7 @@ znetvorený|1
 znetvoriť|1
 -|mrzačiť|zmrzačiť|zohaviť|zohyzdiť
 zneuctiť|2
--|potupiť|zahanbiť|znesvätiť
+-|potupiť|sprzniť|zahanbiť|znesvätiť
 -|sprofanovať|znesvätiť
 zneužitie|1
 -|týranie|zneužívanie
@@ -25382,8 +25646,9 @@ zorný uhol|1
 -|aspekt|hľadisko|ohľad|postoj|stanovisko|zreteľ
 zosadenie|1
 -|degradácia
-zosadiť|1
+zosadiť|2
 -|anulovať|odrieknuť|odvolať|prehlásiť neplatným|prehlásiť za neplatný|stornovať|vziať späť|zaraziť|zastaviť|zrušiť
+-|zvrhnúť
 zosilnenie|1
 -|zvýšenie
 zosilniť|1
@@ -25436,6 +25701,8 @@ zosunúť sa|1
 -|zložiť sa|zosypať sa|zrútiť sa
 zosypať sa|1
 -|zložiť sa|zosunúť sa|zrútiť sa
+zosúladiť|1
+-|harmonizovať|koordinovať|zladiť
 zotavenie|1
 -|rekreácia|uzdravenie
 zotročiť|1
@@ -25584,6 +25851,8 @@ zrážka|3
 -|odpočet|odpočítanie|odčítanie
 zröntgenovať|1
 -|röntgenovať
+zrúcať|1
+-|strhnúť|zbúrať
 zrútenie|1
 -|kolaps|spadnutie
 zrútiť sa|1
@@ -25681,8 +25950,9 @@ zvláštnosť|3
 -|abnormalita|abnormita (archaizmus)|mimoriadnosť|neobvyklosť|odchylka|zriedkavosť
 -|kuriozita|podivnosť|rarita|vzácnosť|výnimočnosť|výstrednosť|čudáctvo
 -|originalita|svojráznosť
-zvláštny|3
+zvláštny|4
 -|abnormálny|mimoriadny|nenormálny|nepravidelný|nezvyčajný|odlišný|osobitný
+-|bizardný|divný|neobvyklý|podivný
 -|kuriózny|nezvyklý
 -|mimoriadny|neobvyklý|neobyčajný|nevídaný|nevšedný|nezvyklý|nezvyčajný|nečakaný|výnimočný|zriedkavý
 zvláštny človek|1
@@ -25730,6 +26000,8 @@ zvrhlý|1
 -|chlipný|perverzný|zvrátený
 zvrhnutie|1
 -|prevrat|puč|pád|štátny prevrat
+zvrhnúť|1
+-|zosadiť
 zvrátenosť|1
 -|chlipnosť|perverzita|zvrhlosť|úchylnosť
 zvrátený|1
@@ -25739,7 +26011,7 @@ zvrátiť|1
 zvuk|1
 -|šum
 zvukový|1
--|akustický|sluchový
+-|akustický|sluchový|tonálny
 zvučať|2
 -|cengať|cinkať|zacinkať|zazvoniť|znieť|zvoniť
 -|rezonovať|rozliehať sa|zaznievať|znieť|zvoniť
@@ -25888,7 +26160,7 @@ zákonitý|2
 -|kompetentný|náležitý|opodstatnený|oprávnený|príslušný|riadny|správny|vhodný|zaslúžený
 -|legitímny|legálny|oprávnený|spravodlivý|zákonný
 zákonnosť|1
--|legitímnosť|legálnosť|právny stav
+-|legitímnosť|legálnosť|oprávnenosť|právny stav
 zákonník|1
 -|kódex|zbierka zákonov
 zákonný|1
@@ -25928,7 +26200,7 @@ zámerne|1
 -|naschvál|schválne|vedome|úmyselne
 zámerný|2
 -|chcený|schválny|vedomý|úmyselný|účelný
--|cieľavedomý|majúci význam|zmysluplný|účelný
+-|cieľavedomý|majúci význam|plánovitý|systematický|zmysluplný|účelný
 zámienka|1
 -|pláštik|výhovorka
 zámok|2
@@ -25946,7 +26218,7 @@ zápach|1
 západka|1
 -|zarážka|záchytka|zástrčka|závora
 zápal|1
--|elán|entuziazmus|mánia|nadšenie|oduševnenie|vrúcnosť|vášeň
+-|elán|nadšenie|oduševnenie|vrúcnosť
 zápas|2
 -|bitka|boj|borba (archaizmus)|konflikt|konfrontácia|nešvár|rozpor|zrážka
 -|pretek (hovorovo)|preteky|súťaž|turnaj|zápolenie|závod
@@ -26049,7 +26321,7 @@ závada|2
 závan|1
 -|náraz|poryv|prudký závan
 závažnosť|1
--|dosah|dôležitosť|následok|pôsobenie|veľkosť|vplyv|význam|účinok
+-|dosah|veľkosť|vplyv|význam|účinok
 závažný|4
 -|cenný|drahý|dôležitý
 -|dôležitý|kritický|osudný|rozhodujúci|vážny|životný
@@ -26095,7 +26367,7 @@ závora|1
 závrat|1
 -|bezvedomie|mdloba|nemohúcnosť|obnubilácia (term.)|slabosť|strata vedomia
 záväzný|2
--|mandatórny (term.)|mandátny|nariadený|povinný
+-|mandatórny (term.)|mandátny|nariadený|obligátny|povinný
 -|nevyhnutný|nútený|obligatórny|obligátny|povinný
 záväzok|2
 -|nevyhnutnosť|povinnosť
@@ -26143,6 +26415,8 @@ zízať|1
 -|civieť|uprene hľadieť|čumieť
 zóna|1
 -|končina|oblasť|pásmo|sféra|územie|časť
+zós|1
+-|omáčka|sós|šťava
 zúbkovanie|1
 -|vrub|vrúbkovanie|zárez
 zúbkovaný|1
@@ -26214,7 +26488,7 @@ zľutovať sa|1
 -|biedny|nedostačujúci|nepostačujúci|neuspokojivý|nevyhovujúci|žalostný
 -|dezolátny|katastrofálny|neblahý|nepriaznivý|nešťastný|žalostný
 úbor|2
--|dres|rovnošata|uniforma
+-|dres|livrej|rovnošata|uniforma
 -|háv|oblečenie|odev|ošatenie|róba|rúcho|šat|šaty
 úbočie|1
 -|hora|kopec|kopček|pahorok|stráň|svah|vrch|vyvýšenina|špička
@@ -26286,7 +26560,7 @@ zľutovať sa|1
 úlomok|1
 -|trieska|črepina
 úlovok|1
--|korisť|lup
+-|korisť|lup|trofej
 úmorný|1
 -|komplikovaný|namáhavý|neľahký|ťažký
 úmrtie|1
@@ -26300,7 +26574,8 @@ zľutovať sa|1
 -|naschvál|schválne|vedome|zámerne
 úmyselný|1
 -|chcený|schválny|vedomý|zámerný|účelný
-únava|1
+únava|2
+-|malátnosť|mdloba
 -|vyčerpanie|vyčerpanosť
 únia|1
 -|liga|zväz
@@ -26363,14 +26638,14 @@ zľutovať sa|1
 -|bujný|kvitnúci|plodný|podnetný|produktívny|tvorivý|žírny
 úroveň|2
 -|hladina
--|stupeň
+-|level (hovorovo)|stupeň
 úschovňa|1
 -|depozitár|sklad|skladisko|zdroj|zásobáreň
 úsek|2
 -|dni|doba|obdobie|vek|čas|časy
 -|etapa|fáza|štádium
 úsečne|1
--|stroho
+-|secco (term.)|stroho
 úsečnosť|1
 -|odmeranosť|strohosť|triezvosť
 úsečný|1
@@ -26490,7 +26765,7 @@ zľutovať sa|1
 -|funkčnosť
 účelný|3
 -|chcený|schválny|vedomý|zámerný|úmyselný
--|cieľavedomý|majúci význam|zmysluplný|zámerný
+-|cieľavedomý|majúci význam|plánovitý|systematický|zmysluplný|zámerný
 -|funkčný|použiteľný|vhodný
 účet|1
 -|faktúra|konto|účtenka
@@ -26505,8 +26780,8 @@ zľutovať sa|1
 -|efektný|pôsobivý
 účinok|3
 -|dojem|efekt|pocit|výsledok
--|dopad|dôsledok|následok|pôsobenie|vplyv
--|dosah|dôležitosť|následok|pôsobenie|veľkosť|vplyv|význam|závažnosť
+-|dopad|dôsledok|konzekvencia|následok|pôsobenie|vplyv
+-|dosah|veľkosť|vplyv|význam|závažnosť
 účtenka|1
 -|faktúra|konto|účet
 účtovať|1
@@ -26677,7 +26952,7 @@ zľutovať sa|1
 -|individuálny|jednotlivý|čiastkový
 čin|2
 -|akt|skutok|výkon|úkon
--|jednanie|skutok
+-|jednanie|počin|skutok
 činiteľ|1
 -|faktor|okolnosť
 činiť|1
@@ -26847,7 +27122,7 @@ zľutovať sa|1
 ľudskosť|1
 -|humanita
 ľudský|1
--|dobročinný
+-|dobročinný|humánny
 ľudský rod|1
 -|kmeň|masa|národ|ľud|ľudia|ľudstvo
 ľudstvo|1
@@ -27094,8 +27369,9 @@ zľutovať sa|1
 -|chybný|defektný|falošný|klamný|mylný|nedokonalý|nekvalitný|nepravdivý|nesprávny|vadný (nesprávne)
 špecialista|1
 -|expert|odborník|profesionál|zasvätenec|znalec
-špecifický|1
+špecifický|2
 -|daný|istý|určitý|špeciálny
+-|konkrétny
 špecifikovaný|1
 -|určený|uvedený
 špecifikovať|1
@@ -27380,7 +27656,7 @@ zľutovať sa|1
 šťava|3
 -|drzosť|elán|guráž|impertinencia|nebojácnosť|neohrozenosť|odvaha|sebadôvera|smelosť|trúfalosť
 -|lymfa|tkanivový mok
--|omáčka
+-|omáčka|sós|zós
 šťať|1
 -|močiť|vymočiť sa|čurať (vulgarizmus)|šťať (vulgarizmus)
 šťúranie|1
@@ -27494,8 +27770,9 @@ zľutovať sa|1
 -|železitý|železnatý
 želieť|1
 -|banovať|mrzieť|ľutovať|ľútiť|ľútostiť (poeticky)
-žena|1
--|dáma|pani|slečna
+žena|2
+-|dáma|pani|seňora
+-|mladá dáma|seňorita|slečna|žieňa
 ženskosť|1
 -|ženstvo
 ženstvo|1
@@ -27552,6 +27829,8 @@ zľutovať sa|1
 -|judaizmus
 žieravý|1
 -|korózny|leptavý
+žieňa|1
+-|mladá dáma|seňorita|slečna|žena
 žila|1
 -|aorta (term.)|artéria (term.)|cieva|kapilára (term.)|tepna|vlásočnica (term.)|véna (term.)|žilka
 žilka|1

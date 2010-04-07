@@ -625,6 +625,11 @@ SFX  u  a  es/WXZ  a
 SFX  u  e  s/WXZ  e
 SFX  u  0  es/WXZ  [^ae]
 
+SFX  i  N  3
+SFX  i  a  es/WUZ  a
+SFX  i  e  s/WUZ  e
+SFX  i  0  es/WUZ  [^ae]
+
 # Som tavla: tavel- (försäljare)
 # Som stämma: stäm- (gaffel)
 # Som timme: tim- (lön)
