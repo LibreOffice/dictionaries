@@ -27,11 +27,12 @@ Avalik Litsents) alla.
 Kasutatud on Enn Saare (saar@aai.ee) poolt koostatud LaTeX-i poolitusfaili. Enn Saar on
 allkirjastanud JCA (Joint Copyright Agreement), mis lubab tema tööd OpenOffice.org
 koosseisus kasutada.
+Originaalfail on saadaval asukohas: http://www.cs.ut.ee/~tqnu/eehyph.tex ja selle päises on ka viide LPPL litsentsile.
 
 Hyphenation file is adapted to OpenOffice.org by Jaak Pruulmann (jjpp@meso.ee,
 http://www.meso.ee/~jjpp/speller/ ) on the base of the LaTeX hyphenation file created by Enn
 Saar (saar@aai.ee), who has signed the JCA (Joint Copyright Agreement) allowing to use
-his work for OpenOffice.org.
+his work for OpenOffice.org. The original file is available at address http://www.cs.ut.ee/~tqnu/eehyph.tex and in the heading of the file it is written that this file is licensed under LPPL.
 The work of Jaak Pruulmann is licensed under LGPL (GNU Lesser General Public License).
 
 -----------------------------------
