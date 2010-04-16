@@ -49,12 +49,13 @@ EXTENSION_ZIPNAME:=dict-no
 
 # just copy:
 COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/hyph_nb_NO.dic \
+    $(EXTENSIONDIR)$/hyph_nn_NO.dic \
     $(EXTENSIONDIR)$/nb_NO.aff \
     $(EXTENSIONDIR)$/nb_NO.dic \
     $(EXTENSIONDIR)$/nn_NO.aff \
     $(EXTENSIONDIR)$/nn_NO.dic \
-    $(EXTENSIONDIR)$/hyph_nb_NO.dic \
-    $(EXTENSIONDIR)$/hyph_nn_NO.dic \
+    $(EXTENSIONDIR)$/README_hyph_nn_NO.txt \
     $(EXTENSIONDIR)$/th_nb_NO_v2.dat \
     $(EXTENSIONDIR)$/th_nb_NO_v2.idx \
     $(EXTENSIONDIR)$/th_nn_NO_v2.dat \
