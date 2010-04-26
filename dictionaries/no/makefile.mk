@@ -55,7 +55,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/nb_NO.dic \
     $(EXTENSIONDIR)$/nn_NO.aff \
     $(EXTENSIONDIR)$/nn_NO.dic \
-    $(EXTENSIONDIR)$/README_hyph_nn_NO.txt \
+    $(EXTENSIONDIR)$/README_hyph_NO.txt \
     $(EXTENSIONDIR)$/th_nb_NO_v2.dat \
     $(EXTENSIONDIR)$/th_nb_NO_v2.idx \
     $(EXTENSIONDIR)$/th_nn_NO_v2.dat \
