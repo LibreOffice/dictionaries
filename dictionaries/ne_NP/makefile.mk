@@ -83,4 +83,4 @@ $(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
 .ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
 
 $(EXTENSIONDIR)$/th_ne_NP_v2.idx : "$(EXTENSIONDIR)$/th_ne_NP_v2.dat"
-        $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_ne_NP_v2.idx <$(EXTENSIONDIR)$/th_ne_NP_v2.dat
+        $(PERL) $(SOLARBINDIR)$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_ne_NP_v2.idx <$(EXTENSIONDIR)$/th_ne_NP_v2.dat

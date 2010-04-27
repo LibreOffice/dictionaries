@@ -85,4 +85,4 @@ $(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
 
 $(EXTENSIONDIR)$/th_en_US_v2.idx : "$(EXTENSIONDIR)$/th_en_US_v2.dat"
     @@-$(MKDIRHIER) $(@:d)
-    $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_en_US_v2.idx <$(EXTENSIONDIR)$/th_en_US_v2.dat
+    $(PERL) $(SOLARBINDIR)$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_en_US_v2.idx <$(EXTENSIONDIR)$/th_en_US_v2.dat
