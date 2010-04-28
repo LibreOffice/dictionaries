@@ -1,11 +1,13 @@
 _______________________________________________________________________________
 
    Dictionnaire des synonymes français myThes
-   version 2.2
+   version 2.2.1
    
-   Dicollecte: http://www.dicollecte.org/
+   Dicollecte: http://www.dicollecte.org/thesaurus.php?prj=fr
    
-   Licence: LGPL
+   Licence:
+     LGPL: GNU Lesser General Public License
+     version 2.1 ou supérieure  --  http://www.gnu.org/licenses/lgpl-2.1.html
 _______________________________________________________________________________
 
    Ce dictionnaire des synonymes est encore en cours d'élaboration.

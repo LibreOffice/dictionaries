@@ -49,6 +49,7 @@ EXTENSION_ZIPNAME:=dict-et
 
 # just copy:
 COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/eehyph.tex \
     $(EXTENSIONDIR)$/et_EE.aff \
     $(EXTENSIONDIR)$/et_EE.dic \
     $(EXTENSIONDIR)$/hyph_et_EE.dic \

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="2009.09.18" />
+    <version value="2010.03.29" />
     <identifier value="org.openoffice.hu.hunspell.dictionaries" />
     <display-name>
         <name lang="en">Hungarian spelling dictionary, hyphenation patterns, and thesaurus</name>
@@ -12,7 +12,7 @@
     </publisher>
     <platform value="all" />
     <dependencies>
-        <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
+        <OpenOffice.org-minimal-version value="3.2" d:name="OpenOffice.org 3.2" />
     </dependencies>
 </description>
 
