@@ -1,18 +1,18 @@
-﻿The Slovenian patterns for hyphenation were created by: Matjaz Vrecko,
+﻿The Slovenian hyphenation rules were created by: Matjaz Vrecko,
 MG-SOFT Corp. <matjaz.vrecko@mg-soft.si> and are covered by the
 GNU/LGPL and GNU/GPL License and supports Slovenian language (sl_SI).
 
-Slovenski vzorci za deljenje besed je ustvaril Matjaž Vrečko, MG-SOFT Corp.
+Slovenske vzorce za deljenje besed je ustvaril Matjaž Vrečko, MG-SOFT Corp.
 <matjaz.vrecko@mg-soft.si> in so izdani pod licencama 
 GNU/LGPL in GNU/GPL ter so namenjeni podpori za slovenski jezik (sl_SI).
 
 For use in OpenOffice.org adapted by/Za rabo v OpenOffice.org priredil:
 Robert Ludvik, <r@aufbix.org>
+
 The OpenOffice.org extension by/Razširitev OpenOffice.org pripravil:
 Martin Srebotnjak, <miles@filmsi.net>
 
 HYPH sl SI hyph_sl_SI
-
 
 =======================================================================
 http://external.openoffice.org/ form data:
