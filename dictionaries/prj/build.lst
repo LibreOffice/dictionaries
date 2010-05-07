@@ -7,11 +7,7 @@ di      dictionaries\da_DK      nmake   -       all     di_da_DK NULL
 di      dictionaries\de_AT      nmake   -       all     di_de_AT NULL
 di      dictionaries\de_CH      nmake   -       all     di_de_CH NULL
 di      dictionaries\de_DE      nmake   -       all     di_de_DE di_de_AT di_de_CH NULL
-di      dictionaries\en_US      nmake   -       all     di_en_US NULL
-di      dictionaries\en_ZA      nmake   -       all     di_en_ZA NULL
-di      dictionaries\en_AU      nmake   -       all     di_en_AU NULL
-di      dictionaries\en_CA      nmake   -       all     di_en_CA NULL
-di      dictionaries\en_GB      nmake   -       all     di_en_GB di_en_US di_en_ZA di_en_ZA di_en_AU NULL
+di      dictionaries\en         nmake   -       all     di_en NULL
 di      dictionaries\es_ES      nmake   -       all     di_es_ES NULL
 di      dictionaries\et_EE      nmake   -       all     di_et_EE NULL
 di      dictionaries\fr_FR      nmake   -       all     di_fr_FR NULL
