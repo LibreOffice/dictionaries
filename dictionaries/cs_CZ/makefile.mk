@@ -81,4 +81,4 @@ $(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
 .ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
 
 $(EXTENSIONDIR)$/th_cs_CZ_v2.idx : "$(EXTENSIONDIR)$/th_cs_CZ_v2.dat"
-        cat $(EXTENSIONDIR)$/th_cs_CZ_v2.dat | $(PERL) $(SOLARBINDIR)$/th_gen_idx.pl -o > $(EXTENSIONDIR)$/th_cs_CZ_v2.idx
+        $(PERL) $(SOLARBINDIR)$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_cs_CZ_v2.idx <$(EXTENSIONDIR)$/th_cs_CZ_v2.dat
