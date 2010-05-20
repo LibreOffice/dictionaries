@@ -6,28 +6,24 @@ This extension is based on:
 
 Spell checking:
 ===============
-de-AT_frami spell checking - Version: 2009-06-27
+de-AT_frami spell checking - Version: 2010-03-05
 Author: Franz Michael Baumann <frami.baumann@web.de>
 License: GNU GPL Version 2 or later or OASIS 0.1
 
 The "frami"-dictionary contains the complete word list of Björn Jacke's "igerman98" 
-(Version: 2008-11-06) and numerous supplements by Franz Michael Baumann according to
+(Version: 2009-10-06) and numerous supplements by Franz Michael Baumann according to
 the reform of 2006-08-01.
-
-http://sunsite.informatik.rwth-aachen.de/ftp/pub/mirror/OpenOffice/contrib/dictionaries/
-ftp://ftp.stardiv.de/pub/OpenOffice.org/contrib/dictionaries/
 
 Hyphenation:
 ============
 Authors: Marco Huggenberger <marco@by-night.ch> / Daniel Naber <naber at danielnaber de>
-Version: N/A
+Version: 2010-01-13 (bug in hyphenation modul and license problems in Readme file fixed)
 License: GNU LGPL
-ftp://ftp.stardiv.de/pub/OpenOffice.org/contrib/dictionaries/
 
 Thesaurus:
 ==========
 OpenThesaurus - Deutscher Thesaurus - Synonyme und Assoziationen
-Version: 2009-07-01
+Version: 2010-03-07
 License: GNU LGPL
 http://www.openthesaurus.de
 
