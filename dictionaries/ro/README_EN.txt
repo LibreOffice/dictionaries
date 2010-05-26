@@ -1,5 +1,5 @@
 This is Romanian OpenOffice.org dictionary extension, implementing the orthography
-after 1993 (â din a). The package contains hyphenation and spelling dictionaries, and
+after 1993 (â/sunt). The package contains hyphenation and spelling dictionaries, and
 a thesaurus. The extension was build by Lucian Constantin (http://rospell.sourceforge.net).
 
 Authors and licenses:

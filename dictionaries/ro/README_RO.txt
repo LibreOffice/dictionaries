@@ -1,5 +1,5 @@
 Aceasta este extensia de dicționare românești pentru OpenOffice.org. Extensia
-implementează ortografia de după 1993 (ortografia cu â din a) și cuprinde un
+implementează ortografia de după 1993 (â/sunt) și cuprinde un
 dicționar de depărțire în silabe, un dicționar de corectare ortografică, și un dicționar
 de sinonime. Arhiva a fost pregătită de Lucian Constantin (http://rospell.sourceforge.net).
 
