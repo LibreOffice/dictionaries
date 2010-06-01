@@ -1,4 +1,4 @@
-#Stavekontrolden version 1.4
+#Stavekontrolden version 1.5
 #Denne fil er en del af Stavekontrolden - et softwareprodukt, der gør det muligt at stavekontrollere på dansk.
 
 #Copyright (C) 2009 Foreningen for frit tilgængelige sprogværktøjer
@@ -32,7 +32,7 @@ WORDCHARS -
 #Undlad at foreslå opdeling af ord - opdeling vil forårsage flere fejl end det vil afhjælpe
 NOSPLITSUGS
 
-REP 96
+REP 99
 REP k g
 REP g k
 REP b p
@@ -129,6 +129,9 @@ REP je æ #kjekke kække
 REP le ti #stalestikkerne -> statistikkerne
 REP op efter #opfølgeren -> efterfølgeren
 REP ede te #låsede -> låste
+REP i i_ #iaften -> i aften
+REP hen hen_ #henover -> hen over
+REP ved ved_ #vedlige -> ved lige
 
 
 #Verbum, svagt bøjet, -ede i datid
@@ -417,7 +420,7 @@ SFX 55 0 es s	+GENITIV
 SFX 70 Y 5
 SFX 70 0 s/944 [^s]	+GENITIV
 SFX 70 0 es/944 s	+GENITIV
-SFX 70 0 s/944 s	+GENITIV
+SFX 70 0 's/944 s	+GENITIV
 SFX 70 0 '/944 s	+GENITIV
 SFX 70 0 es/944 s	+GENITIV
 #Substantiv, flertal, med -er

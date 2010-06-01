@@ -30,6 +30,12 @@ Language: Polish (pl PL).
 Origin:   Based on the TeX hyphenation patterns plhyph.tex,
 version 3.0a, Wednesday, May 17th, 1995
 
+The original file is in CTAN archives, for example here:
+
+http://ctan.binkerton.com/ctan.readme.php?filename=language/polish/plhyph.tex
+
+and is licensed under LPPL.
+
 The first version of the patterns was developed
 by Hanna Kołodziejska (1987).
 
@@ -54,7 +60,7 @@ under the conditions specified by the author of TeX:
      unless the changes are authorized by the authors of the macros.''
 
                                            Donald E. Knuth 
-
-Current license:  GNU LGPL license.
+License	OpenOffice.org Adaptions of this package are licensed under the
+  		GNU LGPL license.
 Author:  conversion and corrects author is
           Artur Polaczyński <artiip@gmail.com>
