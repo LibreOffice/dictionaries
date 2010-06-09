@@ -1,12 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
 
     <!-- SHOULD OR MUST BE PROVIDED ENTRIES FOLLOWING... -->
 
+    <!-- Here you can state the license text to be displayed during installation.
+        You can provide more than one localized version if you like.
+        If no matching locale was found the first one will be displayed.
+        !!! Don't change the values for 'accept-by' or 'suppress-on-update' it  !!!
+        !!! might be troublesome in multi-user installations if no shared-layer !!!
+        !!! installation can be done.                                           !!! -->
+
     <!-- The version of your extension. NOT the one of OpenOffice.org...
          It will also be used to automatically check if there are updates for this
          extension available. Newer versions should have higher values. -->
-    <version value="2.0.6" />
+    <version value="2.0.7" />
 
     <!-- A unique identifier for your extension.
         In order to avoid name clashes with other extensions it should probably hold

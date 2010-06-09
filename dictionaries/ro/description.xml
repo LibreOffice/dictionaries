@@ -3,7 +3,7 @@
 
     <identifier value="romanian.contemporary.dictionaries.by.lucian" />
 
-    <version value="1.1" />
+    <version value="1.2" />
 
     <dependencies>
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />

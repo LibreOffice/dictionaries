@@ -48,28 +48,33 @@ EXTENSION_ZIPNAME:=dict-sk
 # --- Extension packaging ------------------------------------------
 
 # just copy:
+
 COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/hyph_sk_SK.dic \
+    $(EXTENSIONDIR)$/iconsk3.png \
+    $(EXTENSIONDIR)$/README_en.txt \
+    $(EXTENSIONDIR)$/README_sk.txt \
+    $(EXTENSIONDIR)$/README_th_sk_SK_v2.txt \
+    $(EXTENSIONDIR)$/release_en.txt \
+    $(EXTENSIONDIR)$/release_sk.txt \
     $(EXTENSIONDIR)$/sk_SK.aff \
     $(EXTENSIONDIR)$/sk_SK.dic \
-    $(EXTENSIONDIR)$/README_sk_SK.txt
+    $(EXTENSIONDIR)$/th_sk_SK_v2.dat \
+    $(EXTENSIONDIR)$/th_sk_SK_v2.idx
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=th_sk_SK_license.txt
+CUSTOM_LICENSE=LICENSE.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
-
-COMPONENT_ZIP:=$(PWD)$/th_sk_SK_v2.zip
-COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_sk_SK_v2.dat
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(EXTENSIONDIR)$/th_sk_SK_v2.idx
+EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
@@ -77,10 +82,3 @@ EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(EXTENSIONDIR)$/th_sk_SK_v2.idx
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
-.IF "$(COMPONENT_UNZIP_FILES)"!=""
-$(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
-    cd $(EXTENSIONDIR) && unzip -o $< $(COMPONENT_UNZIP_FILES:f:t" ")
-.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
-
-$(EXTENSIONDIR)$/th_sk_SK_v2.idx : "$(EXTENSIONDIR)$/th_sk_SK_v2.dat"
-        $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_sk_SK_v2.idx <$(EXTENSIONDIR)$/th_sk_SK_v2.dat

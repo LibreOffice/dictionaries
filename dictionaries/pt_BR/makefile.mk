@@ -52,14 +52,15 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/pt_BR.aff \
     $(EXTENSIONDIR)$/pt_BR.dic \
     $(EXTENSIONDIR)$/hyph_pt_BR.dic \
-    $(EXTENSIONDIR)$/README_pt_BR.txt
+    $(EXTENSIONDIR)$/README_en.TXT \
+    $(EXTENSIONDIR)$/README_hyph_pt_BR.TXT
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=copyright.txt
+CUSTOM_LICENSE=README_pt_BR.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
