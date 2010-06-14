@@ -82,3 +82,4 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
+    $(COMMAND_ECHO)-$(MKDIRHIER) $(EXTENSIONDIR)
