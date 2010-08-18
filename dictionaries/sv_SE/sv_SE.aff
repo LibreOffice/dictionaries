@@ -12,17 +12,23 @@ COMPOUNDFLAG S
 #COMPOUNDMIN 1
 COMPOUNDMIN 3
 
-# Only two word compounds:
-COMPOUNDWORDMAX 2
+# Only two or three word compounds:
+COMPOUNDWORDMAX 3
 
 # Disallow triple letters, like "fall"+"lucka":
 CHECKCOMPOUNDTRIPLE
+# Convert triple letters to double in compounds,
+# e.g. "fall"+"lucka" = "fallucka":
+SIMPLIFIEDTRIPLE
 
 # For suffixes used to create first part of a compound
 COMPOUNDPERMITFLAG W
 
 # May appear first in compound words:
 COMPOUNDBEGIN X
+
+# May be middle elements in compound words:
+COMPOUNDMIDDLE U
 
 # May appear last in compound words:
 COMPOUNDEND Y
@@ -571,11 +577,20 @@ SFX  z  a  0/WXZ  a
 SFX  z  e  0/WXZ  e
 SFX  z  0  a/WXZ  [^ae]
 
+SFX  g  N  3
+SFX  g  a  0/WUZ  a
+SFX  g  e  0/WUZ  e
+SFX  g  0  a/WUZ  [^ae]
+
 # Som ränta: ränte- (höjning)
 # Som tjänst: tjänste- (man)
 SFX  y  N  2
 SFX  y  a  e/WXZ  a
 SFX  y  0  e/WXZ  [^a]
+
+SFX  h  N  2
+SFX  h  a  e/WUZ  a
+SFX  h  0  e/WUZ  [^a]
 
 # Som vecka: vecko- (dag)
 # Som psyke: psyko- (analys)
@@ -598,6 +613,10 @@ SFX  v  N  2
 SFX  v  a  s/WXZ  a
 SFX  v  0  s/WXZ  [^a]
 
+SFX  f  N  2
+SFX  f  a  s/WUZ  a
+SFX  f  0  s/WUZ  [^a]
+
 # Som hyra: hyres- (gäst)
 # Som säd: sädes- (fält)
 # Som ansikte: ansikts- (uttryck)
@@ -605,6 +624,11 @@ SFX  u  N  3
 SFX  u  a  es/WXZ  a
 SFX  u  e  s/WXZ  e
 SFX  u  0  es/WXZ  [^ae]
+
+SFX  i  N  3
+SFX  i  a  es/WUZ  a
+SFX  i  e  s/WUZ  e
+SFX  i  0  es/WUZ  [^ae]
 
 # Som tavla: tavel- (försäljare)
 # Som stämma: stäm- (gaffel)

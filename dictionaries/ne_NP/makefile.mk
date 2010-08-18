@@ -1,14 +1,10 @@
 #*************************************************************************
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-#
-# Copyright 2008 by Sun Microsystems, Inc.
+# 
+# Copyright 2000, 2010 Oracle and/or its affiliates.
 #
 # OpenOffice.org - a multi-platform office productivity suite
-#
-# $RCSfile: makefile.mk,v $
-#
-# $Revision: 1.5 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -83,8 +79,9 @@ EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(EXTENSIONDIR)$/th_ne_NP_v2.idx
 
 .IF "$(COMPONENT_UNZIP_FILES)"!=""
 $(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
+    $(COMMAND_ECHO)-$(MKDIRHIER) $(EXTENSIONDIR)
     cd $(EXTENSIONDIR) && unzip -o $< $(COMPONENT_UNZIP_FILES:f:t" ")
 .ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
 
 $(EXTENSIONDIR)$/th_ne_NP_v2.idx : "$(EXTENSIONDIR)$/th_ne_NP_v2.dat"
-        $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_ne_NP_v2.idx <$(EXTENSIONDIR)$/th_ne_NP_v2.dat
+        $(PERL) $(SOLARBINDIR)$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_ne_NP_v2.idx <$(EXTENSIONDIR)$/th_ne_NP_v2.dat

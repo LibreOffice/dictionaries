@@ -5,7 +5,7 @@ pt-BR: Este dicionário está em desenvolvimento por Raimundo Moura e sua equipe. 
 en-US: This dictionary is under development by Raimundo Moura and his team. It is licensed under the terms of the GNU Lesser General Public License version 2.1 (LGPLv2.1), as published by the Free Software Foundation. The credits are available at http://www.broffice.org/creditos and you can find new releases at http://www.broffice.org/verortografico.
 
 
-Copyright (C) 2006 - 2007 por/by Raimundo Santos Moura <raimundomoura@openoffice.org>
+Copyright (C) 2006 - 2009 por/by Raimundo Santos Moura <raimundomoura@openoffice.org>
 
 =============
 APRESENTAÇÃO
@@ -27,56 +27,43 @@ http://www.broffice.org.br/creditos
 ======================
 SOBRE ESTA ATUALIZAÇÃO
 ======================
-. Inclusão das regras para a formação das Ênclises e Mesóclises;
-. Nesta atualização foram analisados 1.849 termos, em sua maioria 
-  parônimos. Foram encontradas palavras grafadas com mais de uma
-  forma, a exemplo de 'charreu' e charréu, e eliminadas as incorretas 
-  (Colaboração de Leonardo Fontenelle).
-. Revisão e exclusão de 1.113 nomes próprios duplicados; 
-. Exclusão de associações errôneas de termos à regras (colaboração de
-  Leonardo Fontenelle), exemplos: ação/K, ligeiro/M, duplex/B, etc;  
-. Inclusão de algumas letras como 'à' e 'é' para correção de falha na 
-  versão 2.3 do BrOffice.org;
-. Correção do apóstrofo em algumas palavras com d' como: 
-  açucenas-d'água e pai-d'égua, cuja grafia apresentava o d´
-  (asento agudo ao invés do apóstrofo). Leonardo Fontenelle;
-. Inclusão dos termos 'triangularização','dinamicidade', 'mestranda',
-  colaboração de Leo Barichello;
-. Inclusão do  termo 'cochilos', colaboração de Rafael da Fonseca 
-  Duarte;
-. Inclusão dos termos 'couché', 'pré-obliterado', 'pré-filatelia' e 
-  'regomado', colaboração de Carlos Dalmiro Silva Soares;
-. Criação do Temático Filatélico por Carlos Dalmiro Silva Soares;
-. Correção da conjugação de verbos terminados em ear com som aberto,
-  como: idear e estrear. Colaboração Hortência Maria Moura;
-. Inclusão do gênero feminino dos numerais ordinais como:
-  ducentésima, trecentésima, tricentésima, quadringentésima, 
-  qüingentésima, sexcentésima, seiscentésima, septingentésima,
-  octingentésima e nongentésima;
-. Inclusão ds siglas dos Estados de Alagoas (AL) e Amapá (AP);
-. Inclusão de algumas palavras no gênero feminino, tais como: 
-  oficiala, hipopótama, faquiresa, etc.
-. Exclusão da forma singular da palavra 'víveres';
-. Correção na regra de conjugação de verbos terminados em: aguar,
-  equar e inquar. Exemplos adequar(adéqüe,adéqüem), desaguar (deságüem),
-  minguar (míngüe);
-. Correção de 'argüeiro' e 'desmilingüir' (trema);
-. Correção da conjugação dos verbos haver e reaver
-  inclusão de 'hemos' e 'heis', e exlusão de 'reei',
-  'reás', reá e reão;
-. Exclusão de 'corma' e 'satividade', colaboração Leo Barichello;
-. Exclusão de 'indentar' verbo e derivados;
-. Inclusão de 'hidroplanagem','biodisponibilidade';
-. Correção de termos compostos com prefixos: Neo, Contra,
-  ultra, semi, proto, supra, pseudo, auto, intra, extra,
-  infra. Evitando-se erros como: semianalfabeto,
-  infraestrutura, semiárido, etc.
-. Criação do Temático Microbiologia por Gervásio Paulo da Silva;
-. Inclusão dos termos 'historicamente' e 'Finlândia', colaboração de 
-  Sérgio A. Elarrat Canto;
-. Exclusão de 1.309 termos terminados em 'icamente' derivados de
-  palavras acentuadas terminadas em 'ia'. Aplicação errônea da regra;  
- 
+
+. Alteração da regra 'B' para inclusão de plural para sufixos 'és'
+  Exemplo: viés - vieses;
+. Correção da regra 'a' para conjugação correta do verbo 'cuspir'.
+  Não estava contemplado 'cospem';
+. Correção da regra 'm' para verbos terminados em quir/guir nas formas de
+  ênclises e mesóclises
+. Inclusão do comando BREAK para permitir a verificação correta dos compostos;
+. Inclusão do comando MAXNGRAMSUGS para limitar o número de sugestões;
+. Atualização da regra REP melhorando as opções de sugestão;
+. Inclusão de 'hidrossanitário', colaboração de Gilmar Grespan;
+. Inclusão de 'tropeirismo', colaboração de Tiago Hillebrandt;
+. Correção da regra 'a' para verbos para inclusão de superlativos;
+. Inclusão de: marquetagem, lasqueira, esquerdopata, latinoide, colaboração Edson Costa;
+. Correção da regra de sugestões 'REP';
+. Inclusão de: sudoestino e Sanepar, colaboração Marcos Vinícius Piccinini   
+. Correção da conjugação de verbos nas formas de ênclises e mesóclises;
+. Inclusão de regras para composição de paises;
+. Inclusão das siglas dos partidos políticos brasileiros;
+. reforço do prefixo ex-; 
+. Inclusão de: precursoramente, neoconstitucionalismo, alopoiese, alopoiético,
+  autopoiético, BrOffice, paradoxização, programaticidade, sistemismo, comteano,
+  durkheimiano e luhmanniano. Colaboração Pablo Feitosa;
+. Exclusão de 'fundamenais'. Colaboração de João Paulo Vinha Bittar;
+  Judicialização.  Colaboração Pablo Feitosa;
+. Inclusão de: Judicialização, externaliza, externalizado, externalização, externalizei, etc.
+  Paradoxização, desparadoxização, procedimentalizar, procedimentalização , 
+  procedimentalizo, etc. Colaboração Pablo Feitosa;
+. Alterações no Divsilab. Colaboração Flavio Figueiredo Cardoso;
+. Aplicação das regras de prefíxo: sub, super, auto, re, inter, etc. na formação de novos
+  compostos.  
+. Inclusão de:  racistoide, melequento, burraldo, entregação, prum, pruns
+  (contração para+artigo), comezinha, yakuzá (máfia japonesa) e figuraça. 
+  Exclusão de: 'pãozinhos' no plural está incorreto. Colaboração de Edson Costa.
+. Inclusão de 'dimetilsulfato' e 'dietilsulfato'. Colaboração Luis Alcides Brandini De Boni;
+
+
 =======================================================
 COMO INSTALAR O VERIFICADOR BRASILEIRO NO BROFFICE.ORG
 =======================================================
@@ -120,10 +107,16 @@ Feche o BrOffice, inclusive o Iniciador Rápido,  e em seguida reabra-o;
 
 
 2 - O verificador não está configurado para verificar texto ao digitar.
-Neste caso confira como estão as informações em: Ferramentas >> Opções
->> Configurações de Idiomas >> Recursos de Verificação Ortográfica e, 
-no campo opções deste formulário marque a opção 'Verificar texto ao 
-digitar';
+Neste caso confira como estão as informações em: 
+
+(Até a Versão 3.0.X)
+Ferramentas >> Opções>> Configurações de Idiomas >> Recursos de Verificação
+Ortográfica e, no campo opções deste formulário marque a opção 'Verificar 
+texto ao digitar';
+
+(Versão 3.1 em diante)
+Ferramentas >> Opções >> Configurações de Idiomas >> Recursos para redação e,
+no campo opções deste formulário marque a opção 'Verificar ortografia ao digitar
 
 
 Novas atualizações estarão disponíveis no site do BrOffice.Org, na

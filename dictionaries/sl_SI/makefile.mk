@@ -1,14 +1,10 @@
 #*************************************************************************
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-#
-# Copyright 2008 by Sun Microsystems, Inc.
+# 
+# Copyright 2000, 2010 Oracle and/or its affiliates.
 #
 # OpenOffice.org - a multi-platform office productivity suite
-#
-# $RCSfile: makefile.mk,v $
-#
-# $Revision: 1.5 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -53,6 +49,11 @@ EXTENSION_ZIPNAME:=dict-sl
 
 # just copy:
 COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/desc_en_US.txt \
+    $(EXTENSIONDIR)$/desc_sl_SI.txt \
+    $(EXTENSIONDIR)$/th_sl_SI_v2.dat \
+    $(EXTENSIONDIR)$/th_sl_SI_v2.idx \
+    $(EXTENSIONDIR)$/README_th_sl_SI.txt \
     $(EXTENSIONDIR)$/sl_SI.aff \
     $(EXTENSIONDIR)$/sl_SI.dic \
     $(EXTENSIONDIR)$/hyph_sl_SI.dic \

@@ -2,13 +2,9 @@
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
 # 
-# Copyright 2008 by Sun Microsystems, Inc.
+# Copyright 2000, 2010 Oracle and/or its affiliates.
 #
 # OpenOffice.org - a multi-platform office productivity suite
-#
-# $RCSfile: makefile.mk,v $
-#
-# $Revision: 1.9 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -44,10 +40,6 @@ all_target: $(MISC)$/$(TARGET).don
 
 DIC2BIN= \
     dictionary_head
-
-.IF "$(WITH_FONTOOO)" == "YES"
-DIC2BIN+=	FontOOo.sxw
-.ENDIF
 
 $(MISC)$/$(TARGET).don : $(DIC2BIN)
     $(COPY) $(foreach,i,$(DIC2BIN) $i) $(BIN)

@@ -1,14 +1,10 @@
 #*************************************************************************
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-#
-# Copyright 2008 by Sun Microsystems, Inc.
+# 
+# Copyright 2000, 2010 Oracle and/or its affiliates.
 #
 # OpenOffice.org - a multi-platform office productivity suite
-#
-# $RCSfile: makefile.mk,v $
-#
-# $Revision: 1.5 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -56,14 +52,15 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/pt_BR.aff \
     $(EXTENSIONDIR)$/pt_BR.dic \
     $(EXTENSIONDIR)$/hyph_pt_BR.dic \
-    $(EXTENSIONDIR)$/README_pt_BR.txt
+    $(EXTENSIONDIR)$/README_en.TXT \
+    $(EXTENSIONDIR)$/README_hyph_pt_BR.TXT
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=copyright.txt
+CUSTOM_LICENSE=README_pt_BR.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
@@ -77,4 +74,3 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
-

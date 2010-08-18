@@ -1,14 +1,10 @@
 #*************************************************************************
 #
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-#
-# Copyright 2008 by Sun Microsystems, Inc.
+# 
+# Copyright 2000, 2010 Oracle and/or its affiliates.
 #
 # OpenOffice.org - a multi-platform office productivity suite
-#
-# $RCSfile: makefile.mk,v $
-#
-# $Revision: 1.7 $
 #
 # This file is part of OpenOffice.org.
 #
@@ -53,39 +49,31 @@ EXTENSION_ZIPNAME:=dict-fr
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/hyph_fr_FR.dic \
-    $(EXTENSIONDIR)$/README_hyph_fr_FR.txt \
-    $(EXTENSIONDIR)$/fr_FR.aff \
-    $(EXTENSIONDIR)$/fr_FR.dic \
-    $(EXTENSIONDIR)$/LICENCES-fr.txt \
-    $(EXTENSIONDIR)$/LICENSES-en.txt 
+    $(EXTENSIONDIR)$/fr.aff \
+    $(EXTENSIONDIR)$/fr.dic \
+    $(EXTENSIONDIR)$/frhyph.tex \
+    $(EXTENSIONDIR)$/hyph_fr.dic \
+    $(EXTENSIONDIR)$/README_hyph_fr.txt \
+    $(EXTENSIONDIR)$/README_thes_fr.txt \
+    $(EXTENSIONDIR)$/thes_fr.dat \
+    $(EXTENSIONDIR)$/thes_fr.idx 
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=README_fr_FR.txt
+CUSTOM_LICENSE=README_fr.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
-
-COMPONENT_ZIP:=$(PWD)$/th_fr_FR_v2.zip
-COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_fr_FR_v2.dat \
-    $(EXTENSIONDIR)$/th_fr_FR_v2.idx
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)     $(EXTENSIONDIR)$/th_fr_FR_v2.idx
+#EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)     $(EXTENSIONDIR)$/thes_fr_FR.idx
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
-
-.IF "$(COMPONENT_UNZIP_FILES)"!=""
-$(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
-    cd $(EXTENSIONDIR) && unzip -o $< $(COMPONENT_UNZIP_FILES:f:t" ")
-.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
