@@ -24,7 +24,7 @@ License: GNU LGPL
 Thesaurus:
 ==========
 OpenThesaurus - Deutscher Thesaurus - Synonyme und Assoziationen
-Version: 2010-03-07 CH
+Version: 2010-05-25 CH
 License: GNU LGPL
 http://www.openthesaurus.de
 
