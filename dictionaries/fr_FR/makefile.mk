@@ -56,7 +56,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/frhyph.tex \
     $(EXTENSIONDIR)$/hyph_fr.dic \
     $(EXTENSIONDIR)$/thes_fr.dat \
-    $(EXTENSIONDIR)$/thes_fr.idx \ 
+    $(EXTENSIONDIR)$/thes_fr.idx \
     $(EXTENSIONDIR)$/package-description.txt \
     $(EXTENSIONDIR)$/drapeau_tricolore.png
 
