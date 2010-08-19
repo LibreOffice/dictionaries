@@ -49,14 +49,16 @@ EXTENSION_ZIPNAME:=dict-fr
 
 # just copy:
 COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/README_hyph_fr.txt \
+    $(EXTENSIONDIR)$/README_thes_fr.txt \
     $(EXTENSIONDIR)$/fr.aff \
     $(EXTENSIONDIR)$/fr.dic \
     $(EXTENSIONDIR)$/frhyph.tex \
     $(EXTENSIONDIR)$/hyph_fr.dic \
-    $(EXTENSIONDIR)$/README_hyph_fr.txt \
-    $(EXTENSIONDIR)$/README_thes_fr.txt \
     $(EXTENSIONDIR)$/thes_fr.dat \
-    $(EXTENSIONDIR)$/thes_fr.idx 
+    $(EXTENSIONDIR)$/thes_fr.idx \ 
+    $(EXTENSIONDIR)$/package-description.txt \
+    $(EXTENSIONDIR)$/drapeau_tricolore.png
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
