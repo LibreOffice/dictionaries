@@ -53,7 +53,9 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/it_IT.dic \
     $(EXTENSIONDIR)$/hyph_it_IT.dic \
     $(EXTENSIONDIR)$/README_it_IT_thes.txt \
-    $(EXTENSIONDIR)$/README_hyph_it_IT.txt
+    $(EXTENSIONDIR)$/README_hyph_it_IT.txt \
+    $(EXTENSIONDIR)$/th_it_IT_v2.dat \
+    $(EXTENSIONDIR)$/th_it_IT_v2.idx
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
@@ -63,10 +65,6 @@ COMPONENT_XCU= \
 CUSTOM_LICENSE=README_it_IT.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
-
-COMPONENT_ZIP:=$(PWD)$/th_it_IT_v2.zip
-COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_it_IT_v2.dat
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
@@ -79,11 +77,3 @@ EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)     $(EXTENSIONDIR)$/th_it_IT_v2.idx
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
-.IF "$(COMPONENT_UNZIP_FILES)"!=""
-$(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
-    $(COMMAND_ECHO)-$(MKDIRHIER) $(EXTENSIONDIR)
-    cd $(EXTENSIONDIR) && unzip -o $< $(COMPONENT_UNZIP_FILES:f:t" ")
-.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
-
-$(EXTENSIONDIR)$/th_it_IT_v2.idx : "$(EXTENSIONDIR)$/th_it_IT_v2.dat"
-        $(PERL) $(SOLARBINDIR)$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_it_IT_v2.idx <$(EXTENSIONDIR)$/th_it_IT_v2.dat
