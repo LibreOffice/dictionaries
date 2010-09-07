@@ -1,41 +1,7 @@
-OpenThesaurus - Deutscher Thesaurus - Version für OpenOffice.org
-Copyright (C) 2003-2008 Daniel Naber (naber at danielnaber de)
-Snapshot, automatisch generiert 2010-03-07 00:09, Sprache: de_DE
+OpenThesaurus - Deutscher Thesaurus - Version fÃ¼r OpenOffice.org
+Copyright (C) 2003-2010 Daniel Naber (naber at danielnaber de)
+Snapshot, automatisch generiert 2010-05-25 21:41
 Homepage: http://www.openthesaurus.de
-
-Voraussetzungen: ==========================================================
-
- OpenOffice.org 2.0 oder neuer
-
-Manuelle Installation: ====================================================
-
- 1. th_de_DE_v2.dat und th_de_DE_v2.idx in folgendes Verzeichnis
-    kopieren:
-    OpenOffice.org/share/dict/ooo/
-    Wo genau dieses Vereichnis liegt, hängt von der Installation ab.
-    Unter Linux liegt es oft unter /usr/local oder /opt, unter Windows
-    unter C:\Programme oder C:\Program Files.
-
- 2. In die Datei OpenOffice.org/share/dict/ooo/dictionary.lst
-    folgende Zeile eingefügen:
-    THES de DE th_de_DE_v2
-
- 3. OOo neu starten (auch den Schnellstarter, falls man den benutzt)
-
- 4. Im Text ein Wort markieren oder einfach den Cursor auf das Wort
-    setzen und Extras->Sprache->Thesaurus auswählen. Sollten keine Synonyme 
-    angezeigt werden, kann man es mit dem Wort "Test" versuchen. Es werden 
-    nur Grundformen gefunden, z.B. "groß" aber nicht "größer", "laufen" aber
-    nicht "lief".
-
-Sollte etwas nicht funktionieren, bitte beachten: Während der Installation 
-von  OpenOffice.org muss unter unter "Optionale Komponenten" das
-"Englische (US) Sprachmodul" installiert worden sein. Ohne dieses Modul 
-ist auch der deutsche  Thesaurus nicht funktionsfähig.
-
-Wer Fehler im Thesaurus findet oder Wörter vermisst, kann sich unter
-http://www.openthesaurus.de anmelden und dort Fehler beheben und 
-neue Wörter einfügen.
 
 
 This library is free software; you can redistribute it and/or
@@ -202,7 +168,7 @@ such a program is covered only if its contents constitute a work based
 on the Library (independent of the use of the Library in a tool for
 writing it).  Whether that is true depends on what the Library does
 and what the program that uses the Library does.
-  
+
   1. You may copy and distribute verbatim copies of the Library's
 complete source code as you receive it, in any medium, provided that
 you conspicuously and appropriately publish on each copy an
