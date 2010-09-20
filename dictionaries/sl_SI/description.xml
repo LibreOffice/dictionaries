@@ -31,8 +31,8 @@
     </dependencies>
 
    <extension-description>
-        <src xlink:href="description/desc_sl_SI.txt" lang="sl" />
-        <src xlink:href="description/desc_en_US.txt" lang="en" />
+        <src xlink:href="desc_sl_SI.txt" lang="sl" />
+        <src xlink:href="desc_en_US.txt" lang="en" />
     </extension-description>
 
     <publisher>
