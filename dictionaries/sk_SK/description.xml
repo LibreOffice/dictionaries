@@ -22,7 +22,7 @@
     </display-name>
 
     <icon>
-        <default xlink:href="icon.png" />
+        <default xlink:href="iconsk3.png" />
     </icon>
 
     <!--Dictionaries should work with all platforms...-->
