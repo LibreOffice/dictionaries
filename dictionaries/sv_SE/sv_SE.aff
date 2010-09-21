@@ -5,6 +5,8 @@ TRY aerndtislogmkpbhfjuv‰cˆÂyqxzvwÈ‚‡·
 
 NOSUGGEST !
 
+FORBIDDENWORD %
+
 # May appear anywhere in compound words:
 COMPOUNDFLAG S
 
@@ -20,6 +22,8 @@ CHECKCOMPOUNDTRIPLE
 # Convert triple letters to double in compounds,
 # e.g. "fall"+"lucka" = "fallucka":
 SIMPLIFIEDTRIPLE
+# Disallow word duplication in compounds, like "bil"+"bil":
+CHECKCOMPOUNDDUP
 
 # For suffixes used to create first part of a compound
 COMPOUNDPERMITFLAG W
