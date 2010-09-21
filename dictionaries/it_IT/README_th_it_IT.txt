@@ -1,9 +1,9 @@
 Version 3.3 (21/09/2010) (dd/mm/yyyy)
 
-# Dizionario italiano - Italian Dictionary
-# Copyright (C) 2001, 2002 Gianluca Turconi
-# Copyright (C) 2002, 2003, 2004 Gianluca Turconi and Davide Prina
-# Copyright (C) 2004, 2005, 2006, 2007  Davide Prina
+# Dizionario dei sinonimi italiano - Italian Thesaurus
+# Copyright (C) 2004,2005,2006,2007,2008 Daniela Volta
+# Copyright (C) 2008 Giovanni Zuliani
+# Copyright (C) 2006,2007,2008 Davide Prina
 # Copyright (C) 2010  Andrea Pescetti
 # E-Mail: pescetti<AT>openoffice<DOT>org
 # License: GNU GPL 3
@@ -18,181 +18,177 @@ For English Readers: please scroll down for English version.
 SOMMARIO
 
 1. Licenza
-2. Integrazione con altri prodotti e correttori ortografici
+2. Compatibilità
 3. Ringraziamenti
 
 1. Licenza
 ----------
-Il file affix e il dizionario italiano per il correttore ortografico
-MySpell usato da OpenOffice.org sono rilasciati da Andrea Pescetti
-pescetti<at>openoffice<dot>org (sostituire <at> con @ e <dot> con . per
-il contatto via E-Mail) sotto i termini e le condizioni della GNU
-General Public License (GPL) 3. Una volta accettata la licenza per
-l'uso, la distribuzione e la modifica di questo prodotto, l'accettante
-dovrà rispettare tutti i termini e le condizioni riportate nella
-licenza scelta.
+
+Il thesaurus italiano per il programma MyThes usato da OpenOffice.org è
+distribuito da Andrea Pescetti, contattabile all'indirizzo e-mail:
+pescetti(chiocciola)openoffice(punto)org sotto i termini e le
+condizioni della GNU General Public License (GPL) versione 3.
+Una volta accettata la licenza, l'accettante dovrà rispettare tutti i
+termini e le condizioni riportate nella licenza scelta.
 
 Una copia della licenza applicabile a questo lavoro è disponibile in
 coda al presente file.
 
-2. Integrazione con altri prodotti e correttori ortografici
------------------------------------------------------------
-Il dizionario italiano può essere usato con vari programmi.
-Qui di seguito ne vengono riportati alcuni:
-* OpenOffice.org: in modo nativo
-  Caratteristiche: controllo ortografico durante la digitazione o su richiesta
-  http://it.openoffice.org
-* Mozilla Thunderbird e Firefox: in modo nativo
-  http://www.mozilla.org
-* Evolution: in modo nativo
-  http://projects.gnome.org/evolution/
-* Pidgin: in modo nativo
-  http://pidgin.im/
+Dalla versione 2.0 è stato incluso parzialmente anche un altro
+thesaurus presente anche nel programma GPL http://search.mnogo.ru.
+Questo thesaurus è stato fornito da Marcello Bianchetti sotto licenza
+di pubblico dominio per l'integrazione con il thesaurus di OOo.
 
-Questo dizionario può essere usato dai seguenti programmi di correzione
-ortografica:
-* MySpell. http://lingucomponent.openoffice.org
-* Aspell. http://aspell.net
-* HunSpell. http://hunspell.sf.net
+2. Compatibilità
+----------------
 
-3. Ringraziamenti 
+Il presente thesaurus funziona con le versioni di OpenOffice.org (OOo)
+maggiori o uguali della versione 2.0, comprese alcune delle sue beta
+nominate 1.9.x.
+
+Il file degli indici è ottenuto con MyThes, disponibile sul sito di
+OOo.
+
+3. Ringraziamenti
 -----------------
-I volontari della Comunità OpenOffice.org e del PLIO http://www.plio.it
-hanno partecipato attivamente al controllo di qualità del contenuto
-dell'attuale dizionario per la correzione ortografica. Con questa
-sezione si vuole rendere merito a tutti coloro che hanno collaborato
-in questa attività.
+Hanno collaborato:
 
-Versione 3.3
-- Andrea Pescetti, maintainer
-- Paolo Mantovani, struttura dell'estensione
-- Carlo Strata, suggerimenti e segnalazione di errori
-- Renzo Bianchi, grafica
-Versione 2.4
-- Davide Prina per la manutenzione di numerose versioni, fino alla 2.4
-- Daniela Volta per il supporto linguistico
-- Valter Mura per il supporto linguistico
-Versione 2.3
-- Daniela Volta per il supporto linguistico
-- Andrea Sanavia per l'aiuto nella gestione del sito su sourceforge
-- Valter Mura per il supporto linguistico, segnalazione di errori, per
-  l'aiuto nei controlli per la correzione delle parole elise e per
-  l'estrapolazione di parole contenute in circa 850 verbi inizianti per
-  vocale (attualmente [09/04/2006] sono state applicate le modifiche
-  per poco più di 150 di questi)
-- Daniela dell'Aquila per il supporto linguistico e segnalazione di
-  errori
-- Michela Merlo per la segnalazione di alcuni errori
-Versioni da 1.7 a 2.1
-- Riccardo Caverni e Marco Saba aka Metropolinux (i più meritevoli,
-  hanno contribuito alla correzione di più di 4000 vocaboli); 
-- Edgardo Lugaresi, Marco Ciacci, Claudio Rampini, Elisa Calcagni,
-  Carlo aka Cadfael, Giuseppe Delli Santi, Fabio Bossi aka bioFa,
-  Giovanni Molteni (menzione speciale, più di 1000 controlli);
-- Ugo Bresolin, Carlo Facci, Silvio Bacchetta, Giuseppe Lettieri aka
-  Peterpunk, Pierluigi Andreoli, Massimiliano Vessi, Giuseppe Santo
-  Barile, Riccardo Furlan (Fsug-Venezia), Marco Menardi, Alex De Maria
-  aka ADBlues, Claudia Ginocchio, Isaac (Fsug-Venezia), Andrea
-  Spitaleri aka XspiriX, Mr. Crocodile, Joram, Daniele Vazzola aka
-  Vazzo, Marco Spigolon, Mr Coke, Stefano Dal Pra, Giacomo Magnini,
-  Giuseppe Garzotto aka double-g, Alberto (Fsug-Venezia), Mike, Andrea
-  Dieni aka daigo, Paolo Bolettieri, Paolo Finetti, Umberto Bertolini,
-  Roberta Annoni, Gianmaria Visconti, Angelo Conforti aka angeloxx,
-  Oliver Maurizio, Michele Bariani, Filippo Spanò Felipe, Mariangela
-  Pansini, Galblait, Salvatore Comito aka Linuxino, Eugenio, Massimo,
-  Rossella Diomede, Mauro Bonetti (in ordine di controlli effettuati).
-
+- Versione 3.3: Andrea Pescetti (maintainer), Paolo Mantovani
+  (struttura dell'estensione), Diego Favaro, Renzo Bianchi.
+- Versioni 2.0 - 2.07.gh_2008_02_10: Daniela Volta (coordinatrice dei
+  lavori e responsabile del progetto), Davide Prina (creazione
+  pacchetti, controlli generali finali, allineamento
+  dizionario <-> thesaurus, estrazione controlli, definizioni), Valter
+  Mura e Fernando Nappo (thesaurus 1.x e 2.x); Marcella Audino, Edgardo
+  Lugaresi, Daniele Limonta, Ambrogio Ratti, Piero Graziano (thesaurus
+  1.x e 2.x); Enzo Coacci, Renzo Perer, Lanfranco Fabriani, Renzo
+  Coacci, Giacomo Scocco, Giovanni Zuliani (thesaurus 2.x).
+- Versioni 1.x: Giuseppe Modugno (autore di ThesCoder utilizzato per
+  ottenere i binari del thesaurus per OOo 1.x.y), gli alunni del liceo
+  scientifico dell'Istituto di Istruzione Superiore J.M. Keynes di
+  Castelmaggiore Bologna Classi 3HL, 3GL, 5GL anno scolastico 2003/2004,
+  Prof. Giuseppe Gioffré Florio con la classe 3 A ITC Leonida Rapaci
+  Villa San Giovanni (RC) anno scolastico 2003/2004; Marco Ardito,
+  Valter Ballantini, Paolo Baldi, Luca Baralis, Michele Bariani,
+  Giuseppe Santo Barile, Stefano Battocletti, Luigi Belli, Lorenzo
+  Bellini, Roberto Bellucci, Enrico Benucci, Andrea Bernasconi, Marco
+  Boneff, Massimiliano Borghesi, Enrico Boschi, Laura Brandi, Francesco
+  Brollo, Elisa Calcagni, Fabio Cantoni, Marco Caresia, Paolo
+  Castagnini, Riccardo Caverni, Claudia Ciabatti, Marco Ciacci, Ascanio
+  Colacino, Claudio Colombo, Luigi Conti, Alberto Crescentini,
+  Alessandro Cum, Dario Curvino, Antonio D'Andrea, Alessio Del Ben,
+  Alessandro Della Torre, Vittorio De Zan, Enrico Diacci, Luca Di
+  Gianleonardo, Marco Di Meo, Carlo Dodi, Alessandro Donati, Marco
+  Faenzi Vallés, Andrea Favini, Carlo Ferrari, Fabio Ferriccioli,
+  Massimo Forti, Lorenzo Fragiacomo, Diego Favaro, Ferdinando Fiumara,
+  Davide Gallo, Fabrizio Gareggia, Silvio Gaspar, Fabrizio Gerardi,
+  Mario Govoni, Ilaria Giacalone, Alberto Gilardi, Paolo Iacobazzi,
+  Andrea Iavarone, Enrico Imberti, Andrea Invernizzi, Lorenzo Iorio,
+  Mario L'Abbate, Valerio Magnani, Luca Marletta, Pietro Marogna,
+  Angelo Mastrogiacomo, Cristian Michelini, Marco Montanari, Andrea
+  Nardi, Enrico Nardi, Fernando Nappo, Simone Paolucci, Valerio
+  Passini, Federico Pellagatta, Daniele Pertile, Enrico Pitea, Fabiano
+  e Fabiola Piva, Maurizio Placidi, Antonio Pistis, Carlo Poggiali,
+  Daniele Ragusa, Diego Regina, Giuseppe Restuccia, Antonio Ricci,
+  Carla Rigamonti, Nicola Romana, Aldo Rossi, Luca Saba, Virginio
+  Savani, Carlo Scarpato, Simone Severa, Riccardo Signorotto, Dario
+  Tambone, Pietro Tamburrano, Eugenio Tiziani, Anna Treossi, Alessandro
+  Turato, Livio Trucano, Andrea Vaccari, Giuseppe Zafarone, Riccardo
+  Zancan, Fabio Zeneudelli, Mirco Zorzo. 
 
 **********************************
 ***********  English  ************
 **********************************
 
-The Italian dictionary.
+The Italian Thesaurus
 
 INDEX
 
 1. License
-2. Other products and spell checkers that can use this dictionary
+2. Compatibility
 3. Acknowledgements
 
 1. License
 ----------
-The Italian dictionary and affix file for the MySpell spell-checker
-used by OpenOffice.org are released by Andrea Pescetti
-pescetti<at>openoffice<dot>org (please change <at> with @ and <dot>
-with . in order to contact the authors) under the terms and conditions
-of the GNU General Public License (GPL) version 3. Any user must obey
-these licensing terms.
+
+Il thesaurus italiano per il programma MyThes usato da OpenOffice.org è
+distribuito da Andrea Pescetti, contattabile all'indirizzo e-mail:
+pescetti(chiocciola)openoffice(punto)org sotto i termini e le
+condizioni della GNU General Public License (GPL) versione 3.0.
+Una volta accettata la licenza, l'accettante dovrà rispettare tutti i
+termini e le condizioni riportate nella licenza scelta.
+
+The Italian thesaurus used by OpenOffice.org is released by Andrea
+Pescetti pescetti(at)openoffice(dot)org under the terms and conditions
+of the GNU General Public License (GPL), version 3. The users must
+obey the licensing terms.
 
 A copy of the license is at the end of this file.
 
-2. Other products and spell checkers that can use this dictionary
------------------------------------------------------------------
-The Italian dictionary can be used with many programs.
-Here is a short list:
-* OpenOffice.org
-  spell checking when you type or upon request
-  http://it.openoffice.org
-* Mozilla Thunderbird and Firefox
-  http://www.mozilla.org
-* Evolution
-  http://projects.gnome.org/evolution/
-* Pidgin
-  http://pidgin.im/
+Starting with version 2.0, it includes a GPL thesaurus found here: 
+http://search.mnogo.ru by Marcello Bianchetti, who agreed to contribute
+it under public domain for use in the current thesaurus.
 
-This dictionary can be used with different spell checking programs:
-* MySpell. http://lingucomponent.openoffice.org
-* Aspell. http://aspell.net
-* HunSpell. http://hunspell.sf.net
+2. Compatibility
+----------------
+
+The Italian Thesaurus works with OpenOffice.org (OOo) version 2.0 and
+above.
+
+The index file is created using MyThes; you can find MyThes on the OOo
+site.
 
 3. Acknowledgements
 -------------------
-The volunteers of the OpenOffice.org Community and PLIO
-http://www.plio.it have actively taken part in the quality check of
-this dictionary. With this section, we want to give the right credit
-to all people who have helped in this activity.
+The following people helped in developing the thesaurus:
 
-Version 3.3
-- Andrea Pescetti, maintainer
-- Paolo Mantovani, extension structure
-- Carlo Strata, suggestions and corrections
-- Renzo Bianchi, graphics
-Version 2.4
-- Davide Prina, maintainer of several versions up to 2.4
-- Daniela Volta
-- Valter Mura
-Version 2.3
-- Daniela Volta
-- Andrea Sanavia
-- Valter Mura
-- Daniela dell'Aquila
-- Michela Merlo
-Versions 1.7 to 2.1
-- Riccardo Caverni and Marco Saba aka Metropolinux (checked more than
-  4000 words);
-- Edgardo Lugaresi, Marco Ciacci, Claudio Rampini, Elisa Calcagni,
-  Carlo aka Cadfael, Giuseppe Delli Santi, Fabio Bossi aka bioFa,
-  Giovanni Molteni (more than 1000 checks);
-- Ugo Bresolin, Carlo Facci, Silvio Bacchetta, Giuseppe Lettieri aka
-  Peterpunk, Pierluigi Andreoli, Massimiliano Vessi, Giuseppe Santo
-  Barile, Riccardo Furlan (Fsug-Venezia), Marco Menardi, Alex De Maria
-  aka ADBlues, Claudia Ginocchio, Isaac (Fsug-Venezia), Andrea
-  Spitaleri aka XspiriX, Mr. Crocodile, Joram, Daniele Vazzola aka
-  Vazzo, Marco Spigolon, Mr Coke, Stefano Dal Pra, Giacomo Magnini,
-  Giuseppe Garzotto aka double-g, Alberto (Fsug-Venezia), Mike, Andrea
-  Dieni aka daigo, Paolo Bolettieri, Paolo Finetti, Umberto Bertolini,
-  Roberta Annoni, Gianmaria Visconti, Angelo Conforti aka angeloxx,
-  Oliver Maurizio, Michele Bariani, Filippo Spanò Felipe, Mariangela
-  Pansini, Galblait, Salvatore Comito aka Linuxino, Eugenio, Massimo,
-  Rossella Diomede, Mauro Bonetti (in order of checked words).
+- Versione 3.3: Andrea Pescetti (maintainer), Paolo Mantovani
+  (extension structure), Diego Favaro, Renzo Bianchi.
+- Versions 2.0 - 2.07.gh_2008_02_10: Daniela Volta (coordinator),
+  Davide Prina (maintainer), Valter Mura and Fernando Nappo (thesaurus
+  1.x and 2.x); Marcella Audino, Edgardo Lugaresi, Daniele Limonta,
+  Ambrogio Ratti, Piero Graziano (thesaurus 1.x and 2.x); Enzo Coacci,
+  Renzo Perer, Lanfranco Fabriani, Renzo Coacci, Giacomo Scocco,
+  Giovanni Zuliani (thesaurus 2.x).
+- Versions 1.x: Giuseppe Modugno (author of ThesCoder), students from
+  "liceo scientifico dell'Istituto di Istruzione Superiore J.M. Keynes
+  di Castelmaggiore Bologna Classi 3HL, 3GL, 5GL anno scolastico
+  2003/2004", Prof. Giuseppe Gioffré Florio with "classe 3 A ITC
+  Leonida Rapaci Villa San Giovanni (RC) anno scolastico 2003/2004";
+  Marco Ardito, Valter Ballantini, Paolo Baldi, Luca Baralis, Michele
+  Bariani, Giuseppe Santo Barile, Stefano Battocletti, Luigi Belli,
+  Lorenzo Bellini, Roberto Bellucci, Enrico Benucci, Andrea Bernasconi,
+  Marco Boneff, Massimiliano Borghesi, Enrico Boschi, Laura Brandi,
+  Francesco Brollo, Elisa Calcagni, Fabio Cantoni, Marco Caresia, Paolo
+  Castagnini, Riccardo Caverni, Claudia Ciabatti, Marco Ciacci, Ascanio
+  Colacino, Claudio Colombo, Luigi Conti, Alberto Crescentini,
+  Alessandro Cum, Dario Curvino, Antonio D'Andrea, Alessio Del Ben,
+  Alessandro Della Torre, Vittorio De Zan, Enrico Diacci, Luca Di
+  Gianleonardo, Marco Di Meo, Carlo Dodi, Alessandro Donati, Marco
+  Faenzi Vallés, Andrea Favini, Carlo Ferrari, Fabio Ferriccioli,
+  Massimo Forti, Lorenzo Fragiacomo, Diego Favaro, Ferdinando Fiumara,
+  Davide Gallo, Fabrizio Gareggia, Silvio Gaspar, Fabrizio Gerardi,
+  Mario Govoni, Ilaria Giacalone, Alberto Gilardi, Paolo Iacobazzi,
+  Andrea Iavarone, Enrico Imberti, Andrea Invernizzi, Lorenzo Iorio,
+  Mario L'Abbate, Valerio Magnani, Luca Marletta, Pietro Marogna,
+  Angelo Mastrogiacomo, Cristian Michelini, Marco Montanari, Andrea
+  Nardi, Enrico Nardi, Fernando Nappo, Simone Paolucci, Valerio
+  Passini, Federico Pellagatta, Daniele Pertile, Enrico Pitea, Fabiano
+  e Fabiola Piva, Maurizio Placidi, Antonio Pistis, Carlo Poggiali,
+  Daniele Ragusa, Diego Regina, Giuseppe Restuccia, Antonio Ricci,
+  Carla Rigamonti, Nicola Romana, Aldo Rossi, Luca Saba, Virginio
+  Savani, Carlo Scarpato, Simone Severa, Riccardo Signorotto, Dario
+  Tambone, Pietro Tamburrano, Eugenio Tiziani, Anna Treossi, Alessandro
+  Turato, Livio Trucano, Andrea Vaccari, Giuseppe Zafarone, Riccardo
+  Zancan, Fabio Zeneudelli, Mirco Zorzo. 
 
 ----------------------------------------------------------------------
 
-# The "dizionario italiano" is free software; you can redistribute it
+# The "Italian thesaurus" is free software; you can redistribute it
 # and/or modify it under the terms of the GNU General Public License,
 # version 3, as published by the Free Software Foundation.
 #
-# The "dizionario italiano" is distributed in the hope that it will be 
+# The "Italian thesaurus" is distributed in the hope that it will be 
 # useful, but WITHOUT ANY WARRANTY; without even the implied warranty
 # of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 # GNU General Public License for more details.
