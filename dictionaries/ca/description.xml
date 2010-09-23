@@ -26,7 +26,7 @@
         entry for each language it implements and one default English entry.
         The default entry is the one listed first. -->
     <display-name>
-        <name lang="en">Spelling and hyphenation dictionaries and thesaurus for Catalan language (general)</name>
+        <name lang="en">Catalan spelling, hyphenation and thesaurus dictionaries</name>
         <name lang="ca">Diccionari ortogràfic per a la llengua catalana (general)</name>
     </display-name>
 
