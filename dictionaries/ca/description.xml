@@ -3,23 +3,10 @@
     <!-- Fitxer basat en la versió francesa. S'ha de depurar. JMo, 06.jul.08 -->
     <!-- SHOULD OR MUST BE PROVIDED ENTRIES FOLLOWING... -->
 
-    <!-- Here you can state the license text to be displayed during installation.
-        You can provide more than one localized version if you like.
-        If no matching locale was found the first one will be displayed.
-        !!! Don't change the values for 'accept-by' or 'suppress-on-update' it  !!!
-        !!! might be troublesome in multi-user installations if no shared-layer !!!
-        !!! installation can be done.
-    <registration>
-        <simple-license accept-by="admin" suppress-on-update="false" >
-            <license-text xlink:href="LICENSES-en.txt" lang="en" />
-            <license-text xlink:href="LLICENCIES-ca.txt" lang="ca" />
-        </simple-license>
-    </registration>                                                             !!! -->
-
     <!-- The version of your extension. NOT the one of OpenOffice.org...
          It will also be used to automatically check if there are updates for this
          extension available. Newer versions should have higher values. -->
-    <version value="2009.06.03" />
+    <version value="2010.09.23" />
 
     <!-- A unique identifier for your extension.
         In order to avoid name clashes with other extensions it should probably hold
@@ -30,7 +17,7 @@
         For the very same reason they should NOT start with 'org.openoffice'.
         When choosing the identifier keep in mind that others may provide a dictionary for that
         very same language as well and even then your identifier still needs to be unique! -->
-    <identifier value="softcatala.catalan.general.dictionaries.by.joan.moratinos" />
+    <identifier value="org.openoffice.extensions.catalan_dictionaries" />
 
     <!-- A name for the extension to be used in the UI.
         For dictionaries it should show the locales supported
@@ -39,7 +26,7 @@
         entry for each language it implements and one default English entry.
         The default entry is the one listed first. -->
     <display-name>
-        <name lang="en">Spelling and hyphenation dictionaries and Thesaurus for Catalan language (general)</name>
+        <name lang="en">Spelling and hyphenation dictionaries and thesaurus for Catalan language (general)</name>
         <name lang="ca">Diccionari ortogràfic per a la llengua catalana (general)</name>
     </display-name>
 
@@ -64,6 +51,5 @@
     <publisher>
         <name xlink:href="http://www.softcatala.org" lang="ca">Softcatalà</name>
     </publisher>
-
 
 </description>
