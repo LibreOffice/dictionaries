@@ -3,13 +3,13 @@
 
     <!-- SHOULD OR MUST BE PROVIDED ENTRIES FOLLOWING... -->
 
-    <!--
     <!-- Here you can state the license text to be displayed during installation.
         You can provide more than one localized version if you like.
         If no matching locale was found the first one will be displayed.
         !!! Don't change the values for 'accept-by' or 'suppress-on-update' it  !!!
         !!! might be troublesome in multi-user installations if no shared-layer !!!
         !!! installation can be done.                                           !!! -->
+    <!--
     <registration>
         <simple-license accept-by="admin" suppress-on-update="false" >
             <license-text xlink:href="LICENSES-en.txt" lang="en" />
