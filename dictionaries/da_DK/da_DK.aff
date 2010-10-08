@@ -1,7 +1,7 @@
-#Stavekontrolden version 1.5
+#Stavekontrolden version 1.6
 #Denne fil er en del af Stavekontrolden - et softwareprodukt, der gør det muligt at stavekontrollere på dansk.
 
-#Copyright (C) 2009 Foreningen for frit tilgængelige sprogværktøjer
+#Copyright (C) 2010 Foreningen for frit tilgængelige sprogværktøjer
 #Website: http://www.stavekontrolden.dk
 #E-mail: info@stavekontrolden.dk
 
@@ -28,11 +28,14 @@ FLAG num
 KEY qwertyuiopå|asdfghjklæø|zxcvbnm
 #Til sammensætninger: Bindestreg er et ord i sammensætninger
 COMPOUNDMIN 1
+COMPOUNDWORDMAX 3
 WORDCHARS -
 #Undlad at foreslå opdeling af ord - opdeling vil forårsage flere fejl end det vil afhjælpe
 NOSPLITSUGS
+ 
+NOSUGGEST 1111
 
-REP 99
+REP 100
 REP k g
 REP g k
 REP b p
@@ -98,10 +101,10 @@ REP d dd
 REP dd d
 REP t tt
 REP tt t
-REP mang ment
-REP ch tj
+REP mang ment #varesortimanget -> varesortimentet
+REP ch tj #chekke -> tjekke 
 REP and an
-REP t s
+REP t s #invation -> invasion
 REP t ed
 REP in ind
 REP ind in
@@ -113,26 +116,26 @@ REP dt d
 REP ene ende
 REP ende ene
 REP erer ere
+REP ene erne #lærene -> lærerne
 REP e en
-REP x ks
+REP x ks #syntax -> syntaks
 REP e de
 REP sj ch
-REP øv eu
-REP ø eu
+REP øv eu #øvforisk -> euforisk
+REP ø eu #øforisk -> euforisk
 REP y ud
 REP sj g
 REP ds c
-REP u in #ueffektiv ineffektiv
-REP in u #inkorrekte ukorrekt
-REP ind u #indkorrekte ukorrekt
-REP je æ #kjekke kække
+REP u in #ueffektiv -> ineffektiv
+REP in u #inkorrekte -> ukorrekt
+REP ind u #indkorrekte -> ukorrekt
+REP je æ #kjekke -> kække
 REP le ti #stalestikkerne -> statistikkerne
 REP op efter #opfølgeren -> efterfølgeren
 REP ede te #låsede -> låste
 REP i i_ #iaften -> i aften
 REP hen hen_ #henover -> hen over
 REP ved ved_ #vedlige -> ved lige
-
 
 #Verbum, svagt bøjet, -ede i datid
 SFX 6 Y 4
@@ -420,7 +423,7 @@ SFX 55 0 es s	+GENITIV
 SFX 70 Y 5
 SFX 70 0 s/944 [^s]	+GENITIV
 SFX 70 0 es/944 s	+GENITIV
-SFX 70 0 's/944 s	+GENITIV
+SFX 70 0 s/944 s	+GENITIV
 SFX 70 0 '/944 s	+GENITIV
 SFX 70 0 es/944 s	+GENITIV
 #Substantiv, flertal, med -er

@@ -5,7 +5,7 @@ pt-BR: Este dicionário está em desenvolvimento por Raimundo Moura e sua equipe. 
 en-US: This dictionary is under development by Raimundo Moura and his team. It is licensed under the terms of the GNU Lesser General Public License version 2.1 (LGPLv2.1), as published by the Free Software Foundation. The credits are available at http://www.broffice.org/creditos and you can find new releases at http://www.broffice.org/verortografico.
 
 
-Copyright (C) 2006 - 2009 por/by Raimundo Santos Moura <raimundomoura@openoffice.org>
+Copyright (C) 2006 - 2010 por/by Raimundo Santos Moura <raimundomoura@openoffice.org>
 
 =============
 APRESENTAÇÃO
@@ -28,41 +28,52 @@ http://www.broffice.org.br/creditos
 SOBRE ESTA ATUALIZAÇÃO
 ======================
 
-. Alteração da regra 'B' para inclusão de plural para sufixos 'és'
-  Exemplo: viés - vieses;
-. Correção da regra 'a' para conjugação correta do verbo 'cuspir'.
-  Não estava contemplado 'cospem';
-. Correção da regra 'm' para verbos terminados em quir/guir nas formas de
-  ênclises e mesóclises
-. Inclusão do comando BREAK para permitir a verificação correta dos compostos;
-. Inclusão do comando MAXNGRAMSUGS para limitar o número de sugestões;
-. Atualização da regra REP melhorando as opções de sugestão;
-. Inclusão de 'hidrossanitário', colaboração de Gilmar Grespan;
-. Inclusão de 'tropeirismo', colaboração de Tiago Hillebrandt;
-. Correção da regra 'a' para verbos para inclusão de superlativos;
-. Inclusão de: marquetagem, lasqueira, esquerdopata, latinoide, colaboração Edson Costa;
-. Correção da regra de sugestões 'REP';
-. Inclusão de: sudoestino e Sanepar, colaboração Marcos Vinícius Piccinini   
-. Correção da conjugação de verbos nas formas de ênclises e mesóclises;
-. Inclusão de regras para composição de paises;
-. Inclusão das siglas dos partidos políticos brasileiros;
-. reforço do prefixo ex-; 
-. Inclusão de: precursoramente, neoconstitucionalismo, alopoiese, alopoiético,
-  autopoiético, BrOffice, paradoxização, programaticidade, sistemismo, comteano,
-  durkheimiano e luhmanniano. Colaboração Pablo Feitosa;
-. Exclusão de 'fundamenais'. Colaboração de João Paulo Vinha Bittar;
-  Judicialização.  Colaboração Pablo Feitosa;
-. Inclusão de: Judicialização, externaliza, externalizado, externalização, externalizei, etc.
-  Paradoxização, desparadoxização, procedimentalizar, procedimentalização , 
-  procedimentalizo, etc. Colaboração Pablo Feitosa;
-. Alterações no Divsilab. Colaboração Flavio Figueiredo Cardoso;
-. Aplicação das regras de prefíxo: sub, super, auto, re, inter, etc. na formação de novos
-  compostos.  
-. Inclusão de:  racistoide, melequento, burraldo, entregação, prum, pruns
-  (contração para+artigo), comezinha, yakuzá (máfia japonesa) e figuraça. 
-  Exclusão de: 'pãozinhos' no plural está incorreto. Colaboração de Edson Costa.
-. Inclusão de 'dimetilsulfato' e 'dietilsulfato'. Colaboração Luis Alcides Brandini De Boni;
-
+. Inclusão de "neuropediatra","neuropediatria","dermatofitose","estomatognático','neuropsicomotor',
+  'somatóforme','traumato','supralegal','farmacoepidemiologia','farmacoeconomia','farmacovigilância',
+  'farmacoeconômico','gonometria','disfluência','testamentos','metacompetência','dermatofitose'.
+  Colaboração de Leandro Senni Tsujiguchi;
+. Inclusão de "adjuntoria", colaboração de Tiago Hillebrandt;
+. Inclusão de "ProJovem", "pré-admissional" e "pré-executividade", colaboração de Leandro Senni Tsujiguchi;
+. Inclusão de: angiorressonância, antiendomísio, antigliadina, hemitórax, intravítreo, intravítrea,
+  nodulação, nodulações, oxigenioterapia, radioiodoterapia, Rosilene, semiobstruído(a), seroma.
+  Colaboração de Eduardo Ribeiro Mundim;
+. Exclusão de “ondó” e “explendor”. Colaboração de Eduardo Ribeiro Mundim;
+. Inclusão de "reescritura", colaboração de Tiago Hillebrandt;
+. Inclusão de: semiperfeito, éons, hobby, Salma, vidinha e cantiguinha. Colaboração de
+  João Octávio Anderson Trindade Boaventura
+. Inclusão de: relevantíssimo, intrassistêmico, orgásmico, charlatãos, latíssimo, silogismos
+  e jurisdicização. Colaboração de  Pablo Feitosa.
+. Correção das unidades KV para kV e KW para kW. Colaboração Seff - Celesc;
+. Inclusão de: besifloxacino, Ca, Calfactanto, carboximaltose, certolizumabe, degarelix, di-hidratado,
+  dibutila, diotirosina, fanolesomabe, Fe, gadoxetato, iodipamida, iodofenazona, iodofíltico, iodopiracete,
+  iomazenil, iotirosina, medronato, nitridocade, oxidronato, oxiquinolina, pazopanibe, pentreotida,
+  Racevalina, Romiplostima, Sm, tacatuzumabe, Tc, tetraxetana, tiatida, Ticagrelor, Tl, Vorinos, Zn.
+  Colaboração Leonardo Fontenelle;
+. Inclusão de 'sobrevindos'. Colaboração João Eduardo Strottmann.
+. Inclusão de 'sincretismo'. Colaboração Luyse Moraes Moura.
+. Inclusão de 'testamentos','inexo','inexos', 'inexa' e 'inexa'.Colaboração João Eduardo Strottmann.
+. Inclusão de: acetoacético, alílicas, benzílicas, amidação, arilação, benzoilação, butilação, 
+  deidrociclização, desidroalogenação, desidro-halogenação, epoxidação, fosfatização, hidrossililação,
+  sililação, sulfoclorinação, sulfoxidação, tiocarbonilação e clorossulfonação. Colaboração de Luis 
+  Alcides Brandini De Boni;
+. Inclusão de: prestacional, ecletismo, pré-compromisso, sub-reptícia, assistivo(a), inacabamento,
+  reprodutivista(s), reprodutivismo. Colaboração de Francysco Pablo Feitosa Gonçalves;
+. Inclusão de 'retroestipulado' e 'retroassinado', colaboração de João Octávio Anderson Trindade Boaventura;
+. Inclusão de: antixenófobo, ciberserviço, skinhead, ciberdisfarce e Adolf, colaboração de Luyse Moraes Moura;
+. Inclusão de 'microemulsões',microemulsão. Colaboração de Luis Alcides Brandini De Boni;
+. Inclusão de 'fragmentariedade'. Colaboração de Pablo Feitosa
+. Inclusão de: Lattes, Giuseppe, Florestan, Ab'Sáber, Nacib, Aziz, Oppenheimer, Manhattan, Niltomar,
+  Marili, Lorenz, Edward, Joélson, Jandir, Jamir, Ilena, Ildo, Graciela, Glenda, Fredolino, Feynmann,
+  Ferrabraz, Corsan, Cohab, Matheus, Jayme, Mathilde,  Bernoulli e Pitot. Colaboração João Eduardo Strottmann;
+. Reforço na aplicação das regras de prefixos auto, sub, re, super, hiper, anti, ante, sobre, contra etc;
+. reinclusão do hífen para os casos em que a palavra 'não' funcione como prefixo.
+DivSilab
+. Correção da quebra de sílabas das palavras com 'br', como: 'vibração' ERRADO(vib-ra-ção)
+  Colaboração Leandro Dutra;
+. Correção da quebra de sílabas das palavras com 'psic', como: 'neuropsicologia' ERRADO(neu-rop-si-co-lo-gia)
+  Colaboração Raimundo;
+. Correção da quebra de sílabas das palavras com 'uin', como: 'contribuinte' ERRADO(con-tri-buin-te)
+  Colaboração João Paulo Vinha Bittar;
 
 =======================================================
 COMO INSTALAR O VERIFICADOR BRASILEIRO NO BROFFICE.ORG

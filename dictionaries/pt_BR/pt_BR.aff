@@ -1,12 +1,12 @@
 SET ISO8859-1
 TRY áàãâéêíóõôúüçesianrtolcdugmphbyfvkwjqxz
 
-#   Copyright (C) 2006 - 2009  por Raimundo Santos Moura
+#   Copyright (C) 2006 - 2010  por Raimundo Santos Moura
 #   <raimundomoura@openoffice.org>
 #   Colaboradores deste projeto: http://www.openoffice.org.br/?q=creditos
-#   Brasil - Janeiro 2010
+#   Brasil - Setembro 2010
 #   Este é um dicionário para correção ortográfica da língua Portuguesa   
-#   para o Myspell.                                                       
+#   para o Hunspell.                                                       
 #   Este programa é livre e pode ser redistribuído e/ou modificado nos    
 #   termos da  GNU Lesser General Public License (LGPL) versão 2.1.       
 
@@ -19,7 +19,7 @@ MAP oóõôOÓÕÔ
 MAP uúüUÚÜ
 MAP cçCÇ
 
-BREAK 15
+BREAK 67
 BREAK BREAK
 BREAK ^-
 BREAK -$
@@ -33,8 +33,61 @@ BREAK ^pós-
 BREAK ^Pós-
 BREAK ^PÓS-
 BREAK ^pró-
-BREAK ^pró-
+BREAK ^Pró-
 BREAK ^PRÓ-
+BREAK -alvo$
+BREAK -chave$
+BREAK -piloto$
+BREAK -padrão$
+BREAK -chefe$
+BREAK ^Vice-
+BREAK ^vice-
+BREAK ^VICE-
+BREAK ^além-
+BREAK ^aquém-
+BREAK ^Além-
+BREAK ^Aquém-
+BREAK ^não-
+BREAK ^Não-
+BREAK ^NÃO-
+BREAK -fêmeas$
+BREAK -fêmea$
+BREAK -macho$
+BREAK -machos$
+BREAK ^quase-
+BREAK ^Quase-
+BREAK ^QUASE-
+BREAK -teste$
+BREAK -Teste$
+BREAK -TESTE$
+BREAK -AC$
+BREAK -AL$
+BREAK -AP$
+BREAK -AM$
+BREAK -BA$
+BREAK -CE$
+BREAK -DF$
+BREAK -GO$
+BREAK -ES$
+BREAK -MA$
+BREAK -MT$
+BREAK -MS$
+BREAK -MG$
+BREAK -PA$
+BREAK -PB$
+BREAK -PR$
+BREAK -PE$
+BREAK -PI$
+BREAK -RJ$
+BREAK -RN$
+BREAK -RS$
+BREAK -RO$
+BREAK -RR$
+BREAK -SP$
+BREAK -SC$
+BREAK -SE$
+BREAK -TO$
+
 
 #   Número máximo de sugestões       
 MAXNGRAMSUGS 12
@@ -47,10 +100,13 @@ WORDCHARS -
 CHECKCOMPOUNDREP
 
 # melhorar a sugestão de palavras
-REP 365
+REP 385
 REP -           s-
 REP -           r
 REP -           s
+REP -a-         _a_
+REP -com-       _com_
+REP -da-        _da_
 REP -de-        _de_
 REP -l          l
 REP a           á
@@ -93,10 +149,11 @@ REP ão          ãe
 REP ao          ão
 REP ão          õe
 REP aqu         áqu
-REP ára-q       araq
+REP ára-        ara
 REP ars         raç
 REP ás          az
 REP athlon      átlon
+REP áudio-      audio
 REP ayout       eiaute
 REP az          ás
 REP azinh       inh
@@ -108,6 +165,7 @@ REP boy         bói
 REP btâ         bstâ
 REP bta         bstâ
 REP c           ç
+REP c           s
 REP c           sc
 REP ç           c
 REP ç           ss
@@ -151,6 +209,7 @@ REP ebã         ibã
 REP ebam        ibã
 REP eban        ibã
 REP eem         êm
+REP el          éis
 REP elh         éli
 REP em          en
 REP ém          én
@@ -160,6 +219,7 @@ REP én          ém
 REP ên          êm
 REP ensi        ênci
 REP épit        ept
+REP ereo        eoro
 REP erug        irurg
 REP es          ex
 REP es          ez
@@ -176,6 +236,7 @@ REP gem         mento
 REP gen         mento
 REP gkok        guecoque
 REP g           gue
+REP g           j
 REP gs          gues
 REP hak         acc
 REP hkek        queque
@@ -194,6 +255,7 @@ REP idos        íveis
 REP ifem        ífen
 REP ilh         íli
 REP im          in
+REP impecíli    empecilh
 REP ím          ín
 REP in          im
 REP ín          ím
@@ -203,6 +265,7 @@ REP inh         ezinh
 REP inh         ilzinh
 REP inh         ozinh
 REP izad        ad
+REP j           g
 REP j           gi
 REP je          ge
 REP jê          gê
@@ -215,6 +278,7 @@ REP ke          que
 REP kê          quê
 REP Khmer       Cambojano
 REP ki          qui
+REP kiwi        quiuí
 REP ko          co
 REP ku          cu
 REP Kwanyama    Cuanhama
@@ -242,6 +306,7 @@ REP mento       çõe
 REP n           n-
 REP n-          n
 REP não-        in
+REP não-        ir
 REP nhe         in
 REP nhi         in
 REP nos         -nos-
@@ -280,6 +345,7 @@ REP on          om
 REP ón          óm
 REP ôn          ôm
 REP ozinh       inh
+REP pára-q      paraq
 REP perdo       perco
 REP ph          f
 REP ping        pingue-pongue
@@ -305,10 +371,12 @@ REP qüinqui     quinquí
 REP qüinquí     quinquí
 REP q           que
 REP qs          ques
+REP qu          c
 REP r           -
 REP r           r-
 REP r           rr
 REP r-          r
+REP rádio-      radio
 REP rça         rsa
 REP res-de      r-de
 REP revigoração revitalização
@@ -329,16 +397,20 @@ REP riam-lhes   r-lhes-iam
 REP riam-nos    r-nos-iam
 REP riam-vos    r-vos-iam
 REP s           -
+REP s           c
+REP s           ç
 REP s           s-
 REP s           z
 REP s-          -
 REP s-chuvas    -chuvas
 REP s-          s
+REP s-papel     -papéis
 REP sc          c
 REP scann       escân
 REP scaners     escâneres 
 REP scanners    escâneres
 REP se          -se-
+REP selofo      celofa
 REP septec      septing
 REP septic      septing
 REP setec       septing
@@ -375,6 +447,7 @@ REP un          um
 REP ún          úm
 REP v           env
 REP vídeo-      video
+REP vídeos-     video
 REP vigoração   vigência
 REP vos         -vos-
 REP x           cç
@@ -533,8 +606,11 @@ PFX Ü   0     semi-   [ih]
 PFX Ü   0     semir   r
 PFX Ü   0     semis   s
 
-PFX Ñ Y 1
-PFX Ñ   0     co      .
+PFX Ñ Y 4
+PFX Ñ   0     co      [^hrs]
+PFX Ñ   h     co      h
+PFX Ñ   0     cor     r
+PFX Ñ   0     cos     s
 
 PFX à Y 4
 PFX à   0     ultra   [^ahrs]
@@ -632,7 +708,7 @@ SFX A   0     as      [lmr]
 # Plural -B- Genérico - (ão ões) - (l lis) - (r res)...
 
 SFX B Y 7
-SFX B   0     s        [^ã][ntaiouáéíóúôêã]
+SFX B   0     s        [^ã][gpkdywbfcntaiouáéíóúôêã]
 SFX B   0     s        e
 SFX B   0     es       [rsz]
 SFX B   ão    ões      ão
@@ -906,7 +982,7 @@ SFX O   os     uinhas  gos
 
 SFX P Y 24
 SFX P   0      inho    z
-SFX P   0      inhos   z
+SFX P   0      ezinhos z
 SFX P   0      nho     i
 SFX P   0      nhos    i
 SFX P   ço     cinho   ço
@@ -928,17 +1004,25 @@ SFX P   os     inhos   [^cgç]os
 SFX P   os     uinho   gos
 SFX P   os     uinhos  gos
 SFX P   ês     esinho  ês
-SFX P   ês     esinhos ês
+SFX P   ês     esezinhos ês
 
 # Diminutivos femininos -Q- Terminação: zinha
 
-SFX Q Y 32
-SFX Q   0      azinha   [lr]
-SFX Q   0      azinhas  [lr]
+SFX Q Y 40
+SFX Q   0      azinha   r
+SFX Q   0      azinhas  r
+SFX Q   0      zinha    al
+SFX Q   l      izinhas  al
+SFX Q   0      zinha    el
+SFX Q   l      izinhas  el
+SFX Q   0      zinha    il
+SFX Q   il     eizinhas il
+SFX Q   0      zinha    ol
+SFX Q   l      izinhas  ol
 SFX Q   0      inha     [^o]s
 SFX Q   0      inhas    [^o]s
 SFX Q   0      inha     z
-SFX Q   0      inhas    z
+SFX Q   0      ezinhas  z
 SFX Q   0      zinha    [aeiuã]
 SFX Q   á      azinha   á
 SFX Q   é      ezinha   é
@@ -971,9 +1055,9 @@ SFX Q   os     azinhas  os
 SFX R Y 30
 SFX R   0      ezinhos  r
 SFX R   0      inho     [^o]s
-SFX R   0      inhos    [^o]s
+SFX R   0      ezinhos  [^o]s
 SFX R   0      inho     z
-SFX R   0      inhos    z
+SFX R   0      ezinhos  z
 SFX R   0      zinho    [aeiulr]
 SFX R   á      azinho   á
 SFX R   é      ezinho   é
@@ -1023,11 +1107,12 @@ SFX U   o      ezinhos  ão
 
 #  Aumentativos masculinos -V- Terminação: ão
 
-SFX V Y 12
+SFX V Y 13
 SFX V   o      ão      [^ã]o
 SFX V   o      ões     [^ã]o
 SFX V   0      zão     [ôólru]
-SFX V   0      zões    [ôólru]
+SFX V   0      zões    [ôólu]
+SFX V   0      ezões   r
 SFX V   a      ão      a
 SFX V   a      ões     a
 SFX V   0      zão     ão
@@ -1227,13 +1312,35 @@ SFX 4   ogia    ógicos    ogia
 SFX 4   ogia    ógica     ogia
 SFX 4   ogia    ógicas    ogia
 
-# Plural -5- número/gênero(masculino e feminino)
-#            (eu - eus - eia - eias)... 
+# Estados Brasileiros -5-
 
-SFX 5 Y 3
-SFX 5   0       s         eu
-SFX 5   u       ia        eu
-SFX 5   u       ias       eu
+SFX 5 Y 26
+SFX 5   AL   Alagoas/Ý      AL
+SFX 5   AM   Amazonas/Ý     AM
+SFX 5   AP   Amapá/Ý        AP
+SFX 5   BA   Bahia/Ý        BA
+SFX 5   CE   Ceará/Ý        CE
+SFX 5   DF   Distrito/Ý     DF
+SFX 5   ES   Espírito/Ý     ES
+SFX 5   GO   Goiás/Ý        GO
+SFX 5   MA   Maranhão/Ý     MA
+SFX 5   MG   Minas/Ý        MG
+SFX 5   MS   Mato/Ý         MS
+SFX 5   MT   Mato/Ý         MT
+SFX 5   PA   Pará/Ý         PA
+SFX 5   PB   Paraíba/Ý      PB
+SFX 5   PE   Pernambuco/Ý   PE
+SFX 5   PI   Piauí/Ý        PI
+SFX 5   PR   Paraná/Ý       PR
+SFX 5   RJ   Rio/Ý          RJ
+SFX 5   RN   Rio/Ý          RN
+SFX 5   RO   Rodônia/Ý      RO
+SFX 5   RR   Roraima/Ý      RR
+SFX 5   RS   Rio/Ý          RS
+SFX 5   SC   Santa/Ý        SC
+SFX 5   SE   Sergipe/Ý      SE
+SFX 5   SP   São/Ý          SP
+SFX 5   TO   Tocantins/Ý    TO
 
 #  Aumentativos masculinos -6- Terminação: ão
 
@@ -1735,7 +1842,7 @@ SFX b   er      ido-lhes  er
 # VERBOS -c-  Terminados em VIR TER AIR GUIR GIR GAR: 
 #             intervir convir manter conter sair seguir distinguir  
 
-SFX c Y 899
+SFX c Y 902
 SFX c  ar   á   ar
 SFX c  er   ê   er
 SFX c  or   ô   or
@@ -2622,7 +2729,10 @@ SFX c   itar   íte       uitar
 SFX c   itar   ítem      uitar
 SFX c   itar   ítes      uitar
 SFX c   itar   íto       uitar
+SFX c   r      da        uitar
+SFX c   r      das       uitar
 SFX c   r      do        uitar
+SFX c   r      dos       uitar
 SFX c   r      i         uitar
 SFX c   r      is        uitar
 SFX c   r      mos       uitar
@@ -2641,7 +2751,7 @@ SFX c   r      vas       uitar
 #                    e verbos terminados em ear com som aberto: 
 #                    idear, estrear
 
-SFX d Y 207
+SFX d Y 213
 SFX d   ar      á         ar
 SFX d   er      ê         er
 SFX d   or      ô         or
@@ -2748,6 +2858,12 @@ SFX d   odir    udam      odir
 SFX d   odir    udamos    odir
 SFX d   odir    udas      odir
 SFX d   odir    udo       odir
+SFX d   ir      a         plodir
+SFX d   ir      ais       plodir
+SFX d   ir      am        plodir
+SFX d   ir      amos      plodir
+SFX d   ir      as        plodir
+SFX d   ir      o         plodir
 SFX d   ir      e         erzir
 SFX d   ir      em        erzir
 SFX d   ir      es        erzir
@@ -12270,7 +12386,7 @@ SFX n   ar      ou-vos         ear
 
 # ÊNCLISES E MESÓCLISES -o- Para verbos da regra -e- 
 
-SFX o Y 2386
+SFX o Y 2393
 SFX o   0        -me             [aei]r
 SFX o   0        -te             [aei]r
 SFX o   0        -se             [aei]r
@@ -13367,6 +13483,13 @@ SFX o   er       ê-la            ler
 SFX o   er       ê-las           ler
 SFX o   er       ê-lo            ler
 SFX o   er       ê-los           ler
+SFX o   er       ê-se            ler
+SFX o   er       ê-te            ler
+SFX o   er       ê-lhe           ler
+SFX o   er       ê-lhes          ler
+SFX o   er       ê-me            ler
+SFX o   er       ê-nos           ler
+SFX o   er       ê-vos           ler
 SFX o   r        em-lhe          ler
 SFX o   r        em-lhes         ler
 SFX o   r        em-me           ler
@@ -17715,7 +17838,7 @@ SFX q   r       do-se          gear
 
 # ÊNCLISES E MESÓCLISES -r- Para verbos da regra -h- 
 
-SFX r Y 3120
+SFX r Y 3122
 SFX r   0        -me             [aeio]r
 SFX r   0        -te             [aeio]r
 SFX r   0        -se             [aeio]r
@@ -18246,6 +18369,8 @@ SFX r   er       ido-vos         caber
 SFX r   aber     oube-a          caber
 SFX r   aber     oube-as         caber
 SFX r   aber     oube-me         caber
+SFX r   aber     oube-lhe        caber
+SFX r   aber     oube-lhes       caber
 SFX r   aber     oube-nos        caber
 SFX r   aber     oube-o          caber
 SFX r   aber     oube-os         caber

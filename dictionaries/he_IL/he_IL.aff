@@ -1,17 +1,12 @@
 SET UTF-8
-# Copyright 2004-2006, Nadav Har'El and Dan Kenigsberg
-#
-# This dictionary (this file and the corresponding word list)
-# is licensed under the terms of the GNU General Public License 
-# (GPL) version 2, as published by the Free Software Foundation.
-#
+TRY יוהאעחכק'"שסזדגברנמטצתפםףךץןל
 # This file was generated automatically from data prepared
 # by the Hspell project (http://ivrix.org.il/projects/spell-checker).
-# Hspell version 1.0 was used.
-# The conversion was carried out in May 17 2006
-
-TRY יוהאעחכק'"שסזדגברנמטצתפםףךץןל
-
+# Hspell version 1.1 was used.
+# The conversion was carried out in Apr  5 2010
+# Copyright 2004-2009, Nadav Har'El and Dan Kenigsberg
+# This dictionary (this file and the corresponding word list)
+# is licensed under the GNU General Public License (GPL)
 PFX a N 962
 PFX a   0 ב [^ו]
 PFX a   0 ב וו

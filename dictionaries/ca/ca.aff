@@ -21,7 +21,8 @@
 #        Diccionari Català/Castellà - Castellà/Català, de Francesc de B. Moll
 #        Diccionari d'Ispell, d'Ignasi Labastida
 #        Recull de gentilicis, de M.M. Ramon i C. Rigo
-# Amb aportacions de: Miquel Font, Francesc Xavier Moratinos, Jordi Mas, Jordi Mallach
+# Amb aportacions de: Miquel Font, Francesc Xavier Moratinos, Jordi Mas, Jordi Mallach,
+#                     Joan Montané
 # =======================================================================================
 
 # Regles:
@@ -105,7 +106,7 @@ REP ó Ó
 REP ú Ú
 REP ü Ü
 
-SFX A Y 351
+SFX A Y 355
 SFX A ava ar/CY ava
 SFX A ava ant/C ava
 SFX A ava at/vY ava
@@ -139,9 +140,9 @@ SFX A çava ç/Z çava
 SFX A dava d/Z dava
 SFX A fava f/Z fava
 SFX A gava g/Z gava
-SFX A lava l/Z lava
+SFX A lava l/Z [^·]lava
 SFX A mava m/Z mava
-SFX A nava n/Z [^ei]nava
+SFX A nava n/Z [^ein]nava
 SFX A pava p/Z pava
 SFX A rava r/Z rava
 SFX A sava s/Z [^aeious]sava
@@ -191,11 +192,15 @@ SFX A ava ava/Z ava
 SFX A ava àvem/Z ava
 SFX A ava àveu/Z ava
 SFX A ava aven/Z ava
-SFX A ava í/Z [^cçgj]ava
+SFX A ava í/Z [^cçgij]ava
 SFX A cava quí/Z cava
 SFX A çava cí/Z çava
 SFX A gava guí/Z gava
 SFX A java gí/Z java
+SFX A iava í/Z [aeo]iava
+SFX A iava í/Z [^gq]uiava
+SFX A ava í/Z [gq]uiava
+SFX A ava í/Z [^aeou]iava
 SFX A ava ares/Z ava
 SFX A ava à/Z ava
 SFX A ava àrem/Z ava
@@ -671,8 +676,12 @@ SFX D 0 -la-hi .
 SFX D 0 -les-hi .
 SFX D 0 -n'hi .
 
-SFX E Y 10
-SFX E 0 s [^as]
+SFX E Y 14
+SFX E 0 s [^ans]
+SFX E 0 s [^íéè]n
+SFX E ín ins ín
+SFX E èn ens èn
+SFX E én ens én
 SFX E 0 os [sx][ct]
 SFX E ig jos [aeo]ig
 SFX E a es [^cçgju]a
@@ -683,7 +692,7 @@ SFX E ça ces ça
 SFX E ga gues ga
 SFX E ja ges ja
 
-SFX F Y 15
+SFX F Y 18
 SFX F 0 a [^eosxç]
 SFX F e a e
 SFX F o a o
@@ -693,7 +702,10 @@ SFX F 0 os [sx][ct]
 SFX F 0 es [^aeocçgsux]
 SFX F a es a
 SFX F 0 s e
-SFX F o es o
+SFX F o es [^jgc]o
+SFX F jo ges jo
+SFX F go gues go
+SFX F co ques co
 SFX F c ques c
 SFX F ç ces ç
 SFX F g gues g
@@ -710,8 +722,8 @@ SFX G à ans à
 SFX G è ens è
 SFX G é ens é
 SFX G í ins [^aeou]í
-SFX G í ins [gq]uí
-SFX G í ïns [^gq]uí
+SFX G í ins [gqaeoi]uí
+SFX G í ïns [^gqaeoi]uí
 SFX G í ïns [aeo]í
 SFX G ò ons ò
 SFX G ó ons ó
@@ -818,12 +830,24 @@ SFX K oli òlies oli
 SFX K ogen ògenes ogen
 SFX K ogin ògines ogin
 
-SFX L Y 5
+SFX L Y 17
 SFX L ini ínia ini
 SFX L igi ígia igi
-SFX L 0 s .
+SFX L igin ígina igin
+SFX L igen ígena igen
+SFX L agen àgena agen
+SFX L umen úmena umen
+SFX L 0 s i
+SFX L igin ígins igin
+SFX L igen ígens igen
+SFX L agen àgens agen
+SFX L umen úmens umen
 SFX L ini ínies ini
 SFX L igi ígies igi
+SFX L igin ígines igin
+SFX L igen ígenes igen
+SFX L agen àgenes agen
+SFX L umen úmenes umen
 
 SFX M Y 124
 SFX M iré ir/CY iré
@@ -1157,24 +1181,30 @@ SFX T é íem/Z é
 SFX T é íeu/Z é
 SFX T é ien/Z é
 
-SFX U Y 19
-SFX U 0 o/Z .
-SFX U t t/Z t
+SFX U Y 25
+SFX U 0 o/Z [^gl]
+SFX U g g/Z g
+SFX U l lo/Z ll
+SFX U l l/Z ll
 SFX U s s/Z s
+SFX U t t/Z t
 SFX U y y/Z y
-SFX U 0 s/Z [^sx]
-SFX U 0 es/Z [sx]
+SFX U 0 s/Z [^gsx]
+SFX U 0 es/Z [gsx]
 SFX U 0 en/Z .
 SFX U 0 i/Z .
-SFX U 0 a/Z .
+SFX U 0 a/Z [^g]
+SFX U g ja/Z g
 SFX U 0 is/Z .
 SFX U 0 es/Z .
 SFX U 0 i/Z .
-SFX U 0 a/Z .
+SFX U 0 a/Z [^g]
+SFX U g ja/Z g
 SFX U 0 in/Z .
 SFX U 0 en/Z .
 SFX U 0 i/D .
-SFX U 0 a/D .
+SFX U 0 a/D [^g]
+SFX U g ja/D g
 SFX U 0 in/C .
 SFX U 0 en/C .
 
