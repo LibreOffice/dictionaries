@@ -1,7 +1,7 @@
 _______________________________________________________________________________
 
    Dictionnaire des synonymes français myThes
-   version 2.2.1
+   version 2.2.2
    
    Dicollecte: http://www.dicollecte.org/thesaurus.php?prj=fr
    
