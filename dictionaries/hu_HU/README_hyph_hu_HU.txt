@@ -12,7 +12,7 @@ Honlap: http://www.tipogral.hu
 Licenc: GPL v2, 2006
 
 A kibővítés Németh László <nemeth (at) OOo> munkája.
-A kiadás dátuma: 2010-02-12
+A kiadás dátuma: 2010-05-06
 Honlap: http://sourceforge.net/project/magyarispell (OOo Huhyphn package)
 Licenc:  MPL/GPL/LGPL
 
@@ -30,4 +30,4 @@ Version:  v20060713
 Patch:    László Németh <nemeth (at) OOo>
           source: http://sourceforge.net/project/magyarispell (OOo huhyphn)
           license: MPL/GPL/LGPL
-Patch version: 2010-02-12
+Patch version: 2010-05-06
