@@ -54,7 +54,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/desc_da_DK.txt \
     $(EXTENSIONDIR)$/desc_en_US.txt \
     $(EXTENSIONDIR)$/hyph_da_DK.dic \
-    $(EXTENSIONDIR)$/path2516.png 
+    $(EXTENSIONDIR)$/Trold_42x42.png 
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
