@@ -54,7 +54,14 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/desc_da_DK.txt \
     $(EXTENSIONDIR)$/desc_en_US.txt \
     $(EXTENSIONDIR)$/hyph_da_DK.dic \
-    $(EXTENSIONDIR)$/Trold_42x42.png 
+    $(EXTENSIONDIR)$/Trold_42x42.png \
+    $(EXTENSIONDIR)$/th_da_DK.dat \
+    $(EXTENSIONDIR)$/th_da_DK.idx \
+    $(EXTENSIONDIR)$/README_th_da_DK.txt \
+    $(EXTENSIONDIR)$/help/da/help.tree \
+    $(EXTENSIONDIR)$/help/da/dk.oooforum.synonym/page1.xhp \
+    $(EXTENSIONDIR)$/help/da/dk.oooforum.synonym/Trold.png
+
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
