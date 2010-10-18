@@ -4,7 +4,7 @@
 <meta>
 <topic id="Danske_Synonymer" indexer="include" status="PUBLISH">
 <title id="title">Danske Synonymer</title>
-<filename>/dk.oooforum.synonym/page1.xhp</filename>
+<filename>/org.openoffice.da.hunspell.dictionaries/page1.xhp</filename>
 </topic>
 </meta>
 <body>
@@ -39,7 +39,7 @@ Synonymordbogen består af data fra <emph>DanNet</emph>, <emph>Den Danske Ordbog
 Synonymordbogen er ikke komplet men vi arbejdet ihærdigt for at forbedre indholdet.
 </paragraph>
 <paragraph role="paragraph">
-<image id="img_idtrold02" src="dk.oooforum.synonym/Trold.png" width="1.2156cm" height="0.6888cm"><alt id="alt_idtrold">Trolden</alt></image>
+<image id="img_idtrold02" src="org.openoffice.da.hunspell.dictionaries/Trold.png" width="1.2156cm" height="0.6888cm"><alt id="alt_idtrold">Trolden</alt></image>
 </paragraph>
 
 <paragraph role="heading" level="2">Links

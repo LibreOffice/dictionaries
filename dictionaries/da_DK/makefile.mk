@@ -59,8 +59,8 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/th_da_DK.idx \
     $(EXTENSIONDIR)$/README_th_da_DK.txt \
     $(EXTENSIONDIR)$/help/da/help.tree \
-    $(EXTENSIONDIR)$/help/da/dk.oooforum.synonym/page1.xhp \
-    $(EXTENSIONDIR)$/help/da/dk.oooforum.synonym/Trold.png
+    $(EXTENSIONDIR)$/help/da/org.openoffice.da.hunspell.dictionaries/page1.xhp \
+    $(EXTENSIONDIR)$/help/da/org.openoffice.da.hunspell.dictionaries/Trold.png
 
 
 COMPONENT_CONFIGDEST=.
