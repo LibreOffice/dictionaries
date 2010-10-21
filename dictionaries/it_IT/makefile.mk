@@ -49,13 +49,16 @@ EXTENSION_ZIPNAME:=dict-it
 
 # just copy:
 COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/desc_en.txt \
+    $(EXTENSIONDIR)$/desc_it.txt \
+    $(EXTENSIONDIR)$/hyph_it_IT.dic \
+    $(EXTENSIONDIR)$/ico.png \
     $(EXTENSIONDIR)$/it_IT.aff \
     $(EXTENSIONDIR)$/it_IT.dic \
-    $(EXTENSIONDIR)$/hyph_it_IT.dic \
-    $(EXTENSIONDIR)$/README_it_IT_thes.txt \
     $(EXTENSIONDIR)$/README_hyph_it_IT.txt \
+    $(EXTENSIONDIR)$/README_th_it_IT.txt \
     $(EXTENSIONDIR)$/th_it_IT_v2.dat \
-    $(EXTENSIONDIR)$/th_it_IT_v2.idx
+    $(EXTENSIONDIR)$/th_it_IT_v2.idx 
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \

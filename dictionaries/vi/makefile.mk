@@ -49,6 +49,7 @@ EXTENSION_ZIPNAME:=dict-vi
 
 # just copy:
 COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/LICENSES-en.txt \
     $(EXTENSIONDIR)$/vi_VN.aff \
     $(EXTENSIONDIR)$/vi_VN.dic
 
@@ -57,7 +58,7 @@ COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=LICENSES-en.txt
+CUSTOM_LICENSE=LICENSES-vi.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/registration$/$(CUSTOM_LICENSE)
 
