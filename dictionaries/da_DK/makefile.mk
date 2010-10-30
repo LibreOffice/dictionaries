@@ -56,7 +56,6 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/hyph_da_DK.dic \
     $(EXTENSIONDIR)$/Trold_42x42.png \
     $(EXTENSIONDIR)$/th_da_DK.dat \
-    $(EXTENSIONDIR)$/th_da_DK.idx \
     $(EXTENSIONDIR)$/README_th_da_DK.txt \
     $(EXTENSIONDIR)$/help/da/help.tree \
     $(EXTENSIONDIR)$/help/da/org.openoffice.da.hunspell.dictionaries/page1.xhp \
@@ -72,14 +71,20 @@ CUSTOM_LICENSE=README_da_DK.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_da_DK.idx
+
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
+
+$(EXTENSIONDIR)$/th_da_DK.idx : "$(EXTENSIONDIR)$/th_da_DK.dat"
+        $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_da_DK.idx <$(EXTENSIONDIR)$/th_da_DK.dat
 

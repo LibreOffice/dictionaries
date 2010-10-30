@@ -49,7 +49,8 @@ EXTENSION_ZIPNAME:=dict-ru
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/hyph_ru_RU.dic
+    $(EXTENSIONDIR)$/hyph_ru_RU.dic \
+    $(EXTENSIONDIR)$/th_ru_RU_v2.dat
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
@@ -60,14 +61,13 @@ CUSTOM_LICENSE=README_thes_ru_RU.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
-COMPONENT_ZIP:=$(PWD)$/th_ru_RU_v2.zip
 COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_ru_RU_v2.dat
+    $(EXTENSIONDIR)$/th_ru_RU_v2.idx
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(EXTENSIONDIR)$/th_ru_RU_v2.idx
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
@@ -75,11 +75,5 @@ EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(EXTENSIONDIR)$/th_ru_RU_v2.idx
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
-.IF "$(COMPONENT_UNZIP_FILES)"!=""
-$(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
-    $(COMMAND_ECHO)-$(MKDIRHIER) $(EXTENSIONDIR)
-    cd $(EXTENSIONDIR) && unzip -o $< $(COMPONENT_UNZIP_FILES:f:t" ")
-.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
-
 $(EXTENSIONDIR)$/th_ru_RU_v2.idx : "$(EXTENSIONDIR)$/th_ru_RU_v2.dat"
-        $(PERL) $(SOLARBINDIR)$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_ru_RU_v2.idx <$(EXTENSIONDIR)$/th_ru_RU_v2.dat
+        $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_ru_RU_v2.idx <$(EXTENSIONDIR)$/th_ru_RU_v2.dat

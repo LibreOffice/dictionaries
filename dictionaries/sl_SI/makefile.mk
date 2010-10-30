@@ -52,7 +52,6 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/desc_en_US.txt \
     $(EXTENSIONDIR)$/desc_sl_SI.txt \
     $(EXTENSIONDIR)$/th_sl_SI_v2.dat \
-    $(EXTENSIONDIR)$/th_sl_SI_v2.idx \
     $(EXTENSIONDIR)$/README_th_sl_SI.txt \
     $(EXTENSIONDIR)$/sl_SI.aff \
     $(EXTENSIONDIR)$/sl_SI.dic \
@@ -68,14 +67,20 @@ CUSTOM_LICENSE=README_sl_SI.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_sl_SI_v2.idx
+
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
+
+$(EXTENSIONDIR)$/th_sl_SI_v2.idx : "$(EXTENSIONDIR)$/th_sl_SI_v2.dat"
+        $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_sl_SI_v2.idx <$(EXTENSIONDIR)$/th_sl_SI_v2.dat
 

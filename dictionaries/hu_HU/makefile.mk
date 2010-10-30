@@ -55,7 +55,6 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/README_hyph_hu_HU.txt \
     $(EXTENSIONDIR)$/README_th_hu_HU_v2.txt \
     $(EXTENSIONDIR)$/th_hu_HU_v2.dat \
-    $(EXTENSIONDIR)$/th_hu_HU_v2.idx \
     $(EXTENSIONDIR)$/help/hu/help.tree \
     $(EXTENSIONDIR)$/help/hu/org.openoffice.hu.hunspell.dictionaries/page1.xhp \
     $(EXTENSIONDIR)$/help/hu/org.openoffice.hu.hunspell.dictionaries/fsfhu.png \
@@ -70,13 +69,19 @@ CUSTOM_LICENSE=README_hu_HU.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_hu_HU_v2.idx
+
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
+
+$(EXTENSIONDIR)$/th_hu_HU_v2.idx : "$(EXTENSIONDIR)$/th_hu_HU_v2.dat"
+        $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_hu_HU_v2.idx <$(EXTENSIONDIR)$/th_hu_HU_v2.dat

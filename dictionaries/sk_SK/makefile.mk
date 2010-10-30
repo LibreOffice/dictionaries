@@ -59,8 +59,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/release_sk.txt \
     $(EXTENSIONDIR)$/sk_SK.aff \
     $(EXTENSIONDIR)$/sk_SK.dic \
-    $(EXTENSIONDIR)$/th_sk_SK_v2.dat \
-    $(EXTENSIONDIR)$/th_sk_SK_v2.idx
+    $(EXTENSIONDIR)$/th_sk_SK_v2.dat
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
@@ -71,10 +70,13 @@ CUSTOM_LICENSE=LICENSE.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_sk_SK_v2.idx
+
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
@@ -82,4 +84,5 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
-    $(COMMAND_ECHO)-$(MKDIRHIER) $(EXTENSIONDIR)
+$(EXTENSIONDIR)$/th_sk_SK_v2.idx : "$(EXTENSIONDIR)$/th_sk_SK_v2.dat"
+        $(PERL) $(PRJ)$/util$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_sk_SK_v2.idx <$(EXTENSIONDIR)$/th_sk_SK_v2.dat
