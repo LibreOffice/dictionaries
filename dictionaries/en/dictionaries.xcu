@@ -10,7 +10,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>en-GB en-IE</value>
+                <value>en-GB en-IE en-IN</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_en-ZA" oor:op="fuse">
@@ -21,7 +21,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>en-ZA</value>
+                <value>en-ZA en-NA en-ZW</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_en-US" oor:op="fuse">
@@ -32,7 +32,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>en-US</value>
+                <value>en-US en-PH</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_en-AU" oor:op="fuse">
@@ -65,7 +65,7 @@
                 <value>DICT_HYPH</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>en-GB en-US en-ZA en-AU en-CA en-IE</value>
+                <value>en-GB en-US en-PH en-ZA en-NA en-ZW en-AU en-CA en-IE en-IN en-BZ en-BS en-GH en-JM en-NZ en-TT</value>
             </prop>
         </node>
         <node oor:name="ThesDic_en-US" oor:op="fuse">
@@ -76,7 +76,7 @@
                 <value>DICT_THES</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>en-GB en-US en-ZA en-AU en-CA en-IE</value>
+                <value>en-GB en-US en-PH en-ZA en-NA en-ZW en-AU en-CA en-IE en-IN en-BZ en-BS en-GH en-JM en-NZ en-TT</value>
             </prop>
         </node>
     </node>
