@@ -3175,7 +3175,7 @@ borovnièevje|1
 borovnièje|1
 (sam.)|borovnièevje
 borzni posrednik|1
-(sam.)|broker
+(sam.)|broker|senzal
 borznoposredni¹ki|1
 (prid.)|brokerski
 borzoj|1
@@ -3726,7 +3726,7 @@ brodovje|1
 brogovita|1
 (sam.)|tr¹ljika|Viburnum opulus (strokovno)
 broker|1
-(sam.)|borzni posrednik
+(sam.)|borzni posrednik|senzal
 brokerski|1
 (prid.)|borznoposredni¹ki
 bron|1
@@ -5483,6 +5483,8 @@ dol¾nik|1
 (sam.)|debitor
 dol¾nost|1
 (sam.)|obligacija|obveznost
+dolet|1
+(sam.)|pristanek
 dolgoèasen|1
 (prid.)|pust|suhoparen (ekspresivno)
 dolgoèasnost|1
@@ -7274,6 +7276,8 @@ enokrilnik|1
 (sam.)|monoplan
 enolièen|1
 (prid.)|enolik|lajnast (slab¹alno)|monoton
+enolièno|1
+(prisl.)|monotono
 enoliènost|1
 (sam.)|monotonija|monotonost
 enolik|1
@@ -7517,6 +7521,26 @@ etnolo¹ki|1
 (prid.)|narodosloven
 etnologija|1
 (sam.)|narodoslovje
+etrov|1
+(prid.)|etrski
+etrski|1
+(prid.)|etrov
+etru¹èan|1
+(sam.)|Etru¹èanka|Etrurijec|Etrurijka
+etru¹èanka|1
+(sam.)|Etru¹èan|Etrurijec|Etrurijka
+etru¹èanski jezik|1
+(sam.)|etru¹èina|etrurijski jezik|etrurski jezik
+etru¹èina|1
+(sam.)|etru¹èanski jezik|etrurijski jezik|etrurski jezik
+etrurijec|1
+(sam.)|Etru¹èan|Etru¹èanka|Etrurijka
+etrurijka|1
+(sam.)|Etru¹èan|Etru¹èanka|Etrurijec
+etrurijski jezik|1
+(sam.)|etru¹èanski jezik|etru¹èina|etrurski jezik
+etrurski jezik|1
+(sam.)|etru¹èanski jezik|etru¹èina|etrurijski jezik
 etui|1
 (sam.)|futeral|tok
 eu|1
@@ -7592,6 +7616,8 @@ evnuh|1
 (sam.)|kastrat|kastriranec|skopljenec
 evolucija|1
 (sam.)|filogeneza|filogenija
+evolucijski|1
+(prid.)|filogenetièen|filogenetski
 evolutiven|1
 (prid.)|razvojen
 evolvirati|1
@@ -7711,7 +7737,7 @@ farinks|1
 farizej|1
 (sam.)|hinavec|hipokrit|licemer|licemerec|tartif
 farizejstvo|1
-(sam.)|hinav¹èina|hipokrizija|licemerje|licemerstvo
+(sam.)|hinav¹èina|hinavstvo|hipokrizija|licemerje|licemerstvo
 farsi|1
 (sam.)|perzij¹èina|perzijski jezik
 fasada|1
@@ -7784,6 +7810,12 @@ filantropski|1
 (prid.)|èlovekoljuben|filantropièen
 filiala|1
 (sam.)|podru¾nica
+filmati|1
+(gl.)|snemati
+filogenetièen|1
+(prid.)|evolucijski|filogenetski
+filogenetski|1
+(prid.)|evolucijski|filogenetièen
 filogeneza|1
 (sam.)|evolucija|filogenija
 filogenija|1
@@ -7800,6 +7832,8 @@ filtrat|1
 (sam.)|filtrat (strokovno)|precedek
 fin¹èina|1
 (sam.)|finski jezik
+fingiran|1
+(prid.)|hlinjen|izmi¹ljen
 fingiranje|1
 (sam.)|hlinjenje|igranje
 fingirati|1
@@ -8456,7 +8490,7 @@ gradbinstvo|1
 gradi¹èe|1
 (sam.)|kostel
 gradivo|1
-(sam.)|snov
+(sam.)|material|snov|tvorivo
 graduacija|1
 (sam.)|razdelba
 gradualen|1
@@ -8848,13 +8882,17 @@ higrometrski|1
 (prid.)|vlagomerski
 himen|1
 (sam.)|devi¹ka ko¾ica
+himenij|1
+(sam.)|plodovnica|trosovnica
 hinav¹èina|1
-(sam.)|farizejstvo|hipokrizija|licemerje|licemerstvo
+(sam.)|farizejstvo|hinavstvo|hipokrizija|licemerje|licemerstvo
 hinavec|1
 (sam.)|farizej|hipokrit|licemer|licemerec|tartif
 hinavski|2
 (prid.)|bigoten|pobo¾nja¹ki
 (prid.)|licemeren|licemerski|tartifski
+hinavstvo|1
+(sam.)|farizejstvo|hinav¹èina|hipokrizija|licemerje|licemerstvo
 hinduizem|1
 (sam.)|hindujstvo
 hindujstvo|1
@@ -8878,7 +8916,7 @@ hipofiza|1
 hipokrit|1
 (sam.)|farizej|hinavec|licemer|licemerec|tartif
 hipokrizija|1
-(sam.)|farizejstvo|hinav¹èina|licemerje|licemerstvo
+(sam.)|farizejstvo|hinav¹èina|hinavstvo|licemerje|licemerstvo
 hiponim|1
 (sam.)|podpomenka
 hipotetièen|1
@@ -8931,6 +8969,8 @@ hlaèevina|1
 (sam.)|cajg (neknji¾no)
 hliniti|1
 (gl.)|fingirati|igrati|pritvarjati (zastarelo)|simulirati
+hlinjen|1
+(prid.)|fingiran|izmi¹ljen
 hlinjenje|1
 (sam.)|fingiranje|igranje
 hodnik|1
@@ -10011,8 +10051,9 @@ izmerek|1
 (sam.)|meritev|merjenje
 izmet|1
 (sam.)|bastard (slab¹alno)|izmeèek|izrod|izrodek|izvr¾ek
-izmi¹ljen|2
+izmi¹ljen|3
 (prid.)|brezov (ekspresivno)|neverjeten
+(prid.)|fingiran|hlinjen
 (prid.)|idealen|nami¹ljen
 izmi¹ljenina|1
 (sam.)|¹torija (pogovorno)|bajka|èenèa|fabula|izmi¹ljija|izmi¹ljotina|kvanta|marnja
@@ -11537,7 +11578,7 @@ konsternirati|1
 konstitutiven|1
 (prid.)|bistven|centralen|poglaviten|pomemben
 konstruktiven|1
-(prid.)|ploden|ustvarjalen
+(prid.)|ploden|tvoren|ustvarjalen
 konsum|1
 (sam.)|konsumpcija|poraba|potro¹nja
 konsumen|2
@@ -12701,12 +12742,12 @@ licemerec|1
 licemeren|1
 (prid.)|hinavski|licemerski|tartifski
 licemerje|1
-(sam.)|farizejstvo|hinav¹èina|hipokrizija|licemerstvo
+(sam.)|farizejstvo|hinav¹èina|hinavstvo|hipokrizija|licemerstvo
 licemerski|1
 (prid.)|hinavski|licemeren|tartifski
 licemerstvo|2
 (sam.)|bigotizem|bigotnost|pobo¾nja¹tvo
-(sam.)|farizejstvo|hinav¹èina|hipokrizija|licemerje
+(sam.)|farizejstvo|hinav¹èina|hinavstvo|hipokrizija|licemerje
 licitator|1
 (sam.)|avkcionar|dra¾bar|dra¾ilec
 licitatorka|1
@@ -13220,6 +13261,8 @@ mastika|2
 (sam.)|tri¹lja
 masturbacija|1
 (sam.)|samozadovoljevanje
+material|1
+(sam.)|gradivo|snov|tvorivo
 materialen|3
 (prid.)|gmoten|tvaren
 (prid.)|konkreten|predmeten|reèen|stvaren
@@ -13555,6 +13598,8 @@ mezga|1
 (sam.)|limfa
 mezolitik|1
 (sam.)|srednja kamena doba
+mezzotinta|1
+(sam.)|stru¾enka
 mg|1
 (sam.)|magnezij
 mi¹elovka|1
@@ -13927,6 +13972,8 @@ monokel|1
 (sam.)|enooènik (zastarelo)
 monokromatièen|1
 (prid.)|enobarven
+monolo¹ki|1
+(prid.)|samogovorni
 monolog|1
 (sam.)|samogovor
 monom|1
@@ -13943,6 +13990,8 @@ monoton|1
 (prid.)|enolièen|enolik|lajnast (slab¹alno)
 monotonija|1
 (sam.)|enoliènost|monotonost
+monotono|1
+(prisl.)|enolièno
 monotonost|1
 (sam.)|enoliènost|monotonija
 monstrum|1
@@ -15270,8 +15319,9 @@ neizrabljen|1
 neizrazen|2
 (prid.)|brezizrazen
 (prid.)|neizrazljiv
-neizrazit|1
+neizrazit|2
 (prid.)|anemièen|bled|brezizrazen|brezobrazen|malokrven|medel|slabokrven
+(prid.)|ubit (ekspresivno)
 neizrazitost|1
 (sam.)|brezobraznost|malokrvnost|medlost|slabokrvnost
 neizrazljiv|1
@@ -15715,7 +15765,7 @@ neporoèen|1
 neposeljen|1
 (prid.)|nenaseljen|neobljuden
 neposlu¹en|1
-(prid.)|neubogljiv
+(prid.)|neubogljiv|poslu¹en (protipomenka)
 neposlu¹nost|1
 (sam.)|neubogljivost
 neposreden|2
@@ -16107,7 +16157,7 @@ neu¾iten|1
 neube¾en|1
 (prid.)|fatalen|neizbe¾en|neizogiben|neizogibljiv|neobhoden|neodklonljiv|neodlo¾ljiv|neodvraèljiv|neodvraten|neodvrnljiv|neogiben|nujen
 neubogljiv|1
-(prid.)|neposlu¹en
+(prid.)|neposlu¹en|ubogljiv (protipomenka)
 neubogljivost|1
 (sam.)|neposlu¹nost
 neubran|1
@@ -16891,6 +16941,10 @@ obto¾iti|1
 (gl.)|obdol¾iti|okriviti
 obtok|1
 (sam.)|cirkulacija|kro¾enje
+obubo¾anje|1
+(sam.)|osiroma¹enje|pavperizacija
+obubo¾ati|1
+(gl.)|osiroma¹iti|pavperizirati
 obupanec|1
 (sam.)|desperado|izgubljenec
 obupen|3
@@ -17008,7 +17062,7 @@ odgonetiti|1
 odgovoren|1
 (prid.)|zadol¾en
 odgovoriti|1
-(gl.)|replicirati
+(gl.)|odvrniti|replicirati
 odi¹avljen|1
 (prid.)|aromatiziran
 odica|1
@@ -17233,6 +17287,8 @@ odvraten|3
 (prid.)|grd|nelep|nepogleden (zastarelo)|neprikupen
 odvratnost|1
 (sam.)|averzija|mr¾nja|mrzkost|odpor|omrza (zastarelo)
+odvrniti|1
+(gl.)|odgovoriti|replicirati
 odzemlje|1
 (sam.)|apogej|prizemlje (protipomenka)
 odziv|1
@@ -17798,6 +17854,10 @@ osebnost|1
 (sam.)|èlovek|individuum|oseba|subjekt|jr. (podpomenka)|junior (podpomenka)|ml. (podpomenka)|mlaj¹i (podpomenka)|senior (podpomenka)|sr. (podpomenka)|st. (podpomenka)|starej¹i (podpomenka)|morilec (podpomenka)|ubijalec (podpomenka)|vinar (zastarelo) (podpomenka)|vinièar (zastarelo) (podpomenka)|vinogradnik (podpomenka)|lovec (podpomenka)|lovica (podpomenka)|lovka (podpomenka)|nimrod (podpomenka)|drug (starinsko) (podpomenka)|frend (nizko) (podpomenka)|kolega (pogovorno) (podpomenka)|prijatelj (podpomenka)|tovari¹ (podpomenka)
 osen|1
 (prid.)|aksialen
+osiroma¹enje|1
+(sam.)|obubo¾anje|pavperizacija
+osiroma¹iti|1
+(gl.)|obubo¾ati|pavperizirati
 oskorjiti|1
 (gl.)|gratinirati
 oskruniti|1
@@ -17960,6 +18020,8 @@ otok|1
 (sam.)|ostrov (starinsko)
 otolèenina|1
 (sam.)|kontuzija|udarjenina|udarnina
+otopel|1
+(prid.)|ubit (ekspresivno)
 otro¹ka paraliza|1
 (sam.)|polio|poliomielitis
 otro¹tvo|1
@@ -18275,6 +18337,10 @@ pavka|1
 (sam.)|bobnica|timpan
 pavliha|1
 (sam.)|burkaè|burke¾
+pavperizacija|1
+(sam.)|obubo¾anje|osiroma¹enje
+pavperizirati|1
+(gl.)|obubo¾ati|osiroma¹iti
 pavza|2
 (sam.)|odmor
 (sam.)|predah|predih|premolk|premor|zastanek
@@ -18405,7 +18471,7 @@ perjanica|1
 perjanka|1
 (sam.)|badminton|perjanica
 peroksid|1
-(sam.)|peroksid (strokovno)|superoksid
+(sam.)|peroksid (strokovno)|prekis|superoksid
 personal|1
 (sam.)|osebje|personal (pogovorno)
 personifikacija|1
@@ -18665,7 +18731,7 @@ plod|3
 (sam.)|sad|sade¾|strok|del rastline (nadpomenka)|rastlinski del (nadpomenka)
 ploden|3
 (prid.)|fertilen
-(prid.)|konstruktiven|ustvarjalen
+(prid.)|konstruktiven|tvoren|ustvarjalen
 (prid.)|plodonosen|plodovit
 plodnik|1
 (sam.)|amnij|amnion
@@ -18675,6 +18741,8 @@ plodonosen|1
 (prid.)|ploden|plodovit
 plodovit|1
 (prid.)|ploden|plodonosen
+plodovnica|1
+(sam.)|himenij|trosovnica
 plodra|1
 (sam.)|brljuzga|brozga|èobodra|plundra
 plojkokljun|1
@@ -19620,6 +19688,8 @@ porotnik|1
 (sam.)|asesor|prisednik
 portir|1
 (sam.)|vratar
+portirnica|1
+(sam.)|vratarnica
 portugal¹èina|1
 (sam.)|portugalski jezik
 portugalski jezik|1
@@ -19679,6 +19749,8 @@ poslovne¾|1
 (sam.)|biznismen (pogovorno)
 poslu¹alstvo|1
 (sam.)|avditorij
+poslu¹en|1
+(prid.)|ubogljiv|neposlu¹en (protipomenka)
 posmehljiv|2
 (prid.)|cinièen
 (prid.)|ironièen
@@ -20021,6 +20093,8 @@ povrtalo|1
 (sam.)|razvrtaè
 povsod|1
 (prisl.)|èezinèez|vseèez
+povsoden|1
+(prid.)|ubikvitaren
 povsodnost|1
 (sam.)|ubikviteta
 povzdigovanje|1
@@ -20484,6 +20558,8 @@ prekatni strop|1
 (sam.)|kasetirani strop
 prekinjen|1
 (prid.)|intermitenten|nepovezan|pretrgan
+prekis|1
+(sam.)|peroksid (strokovno)|superoksid
 prekla|1
 (sam.)|fi¾olovka
 preklic|1
@@ -21468,6 +21544,8 @@ prista¹|1
 (sam.)|paladin|pobornik|prista¹inja|privr¾enec|privr¾enka|simpatizer|somi¹ljenec|somi¹ljenica|somi¹ljenik|zagovornik
 prista¹inja|1
 (sam.)|paladin|pobornik|prista¹|privr¾enec|privr¾enka|simpatizer|somi¹ljenec|somi¹ljenica|somi¹ljenik|zagovornik
+pristanek|1
+(sam.)|dolet
 pristani¹èe|1
 (sam.)|brodi¹èe (zastarelo)
 pristati|1
@@ -23286,7 +23364,7 @@ repeticija|2
 repetirati|1
 (gl.)|ponoviti
 replicirati|1
-(gl.)|odgovoriti
+(gl.)|odgovoriti|odvrniti
 reporter|1
 (sam.)|poroèevalec
 reprezentativen|5
@@ -23804,6 +23882,8 @@ samoglasni¹ki stik|1
 (sam.)|asonanca
 samogovor|1
 (sam.)|monolog
+samogovorni|1
+(prid.)|monolo¹ki
 samohoten|2
 (prid.)|arbitraren|samolasten (zastarelo)|samovoljen|svojevoljen
 (prid.)|spontan
@@ -24056,6 +24136,8 @@ senjorita|1
 (sam.)|gospodièna
 sentiment|1
 (sam.)|afekt|èustvo|obèutenje|obèutje
+senzal|1
+(sam.)|borzni posrednik|broker
 senzibilen|1
 (prid.)|obèutljiv
 senzibilnost|1
@@ -24870,6 +24952,8 @@ snemalna knjiga|1
 (sam.)|re¾ijska knjiga|skript
 snemalnik|1
 (sam.)|rekorder|zapisovalnik
+snemati|1
+(gl.)|filmati
 snemen|1
 (prid.)|snemljiv
 snemljiv|1
@@ -24885,7 +24969,7 @@ snohodec|1
 snohodka|1
 (sam.)|meseènica|meseènik|snohodec|somnambulist
 snov|2
-(sam.)|gradivo
+(sam.)|gradivo|material|tvorivo
 (sam.)|materija|substanca|tvar|tvarina|element (podpomenka)|kemièna prvina (podpomenka)|kemièni element (podpomenka)
 snovati|2
 (gl.)|ustanavljati
@@ -25767,6 +25851,8 @@ strpen|1
 (prid.)|toleranten
 strpnost|1
 (sam.)|toleranca
+stru¾enka|1
+(sam.)|mezzotinta
 struposlovje|1
 (sam.)|toksikologija
 stu¹irati|1
@@ -25895,7 +25981,7 @@ sumnja|1
 suniti|1
 (gl.)|boksniti|udariti
 superoksid|1
-(sam.)|peroksid (strokovno)
+(sam.)|peroksid (strokovno)|prekis
 superprevoden|1
 (prid.)|supraprevoden
 superprevodnost|1
@@ -26865,6 +26951,8 @@ trosni podstavek|1
 (sam.)|bazidij
 trosnik|1
 (sam.)|sporangij|trosovnik
+trosovnica|1
+(sam.)|himenij|plodovnica
 trosovnik|1
 (sam.)|sporangij|trosnik
 trot|1
@@ -26994,11 +27082,16 @@ tvoravost|1
 (sam.)|furunkuloza
 tvorec|1
 (sam.)|avtor|ustvarjalec
-tvoren|2
+tvoren|3
 (prid.)|aktiven
 (prid.)|dejaven|dejavnosten
+(prid.)|konstruktiven|ploden|ustvarjalen
+tvorivo|1
+(sam.)|gradivo|material|snov
 tvornik|1
 (sam.)|aktiv
+tvorno|1
+(prisl.)|ustvarjalno
 u¹esce|1
 (sam.)|narekovaj|navednica|u¹esce (zastarelo)
 u¹esnik|1
@@ -27016,8 +27109,13 @@ ubijalec|1
 (sam.)|morilec|glavorez (ekspresivno) (podpomenka)|glavosek (ekspresivno) (podpomenka)|grlorezec (ekspresivno) (podpomenka)|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 ubijanje|1
 (sam.)|morija (ekspresivno)|morjenje
+ubikvitaren|1
+(prid.)|povsoden
 ubikviteta|1
 (sam.)|povsodnost
+ubit|2
+(prid.)|neizrazit|ubit (ekspresivno)
+(prid.)|otopel|ubit (ekspresivno)
 ubo¹èina|1
 (sam.)|mizerija (neknji¾no)|rev¹èina|siroma¹tvo|ubo¹tvo
 ubo¹tvo|1
@@ -27032,6 +27130,8 @@ ubo¾nik|1
 (sam.)|bosjak|nemaniè|nimaniè|reve¾|siromak|socialec (¾argon)
 ubog|1
 (prid.)|boren|bori (starinsko)|mizeren (neknji¾no)|reven|siroma¹en
+ubogljiv|1
+(prid.)|poslu¹en|neubogljiv (protipomenka)
 ubran|1
 (prid.)|enoten|enovit|harmonièen|skladen
 ubranost|1
@@ -27474,8 +27574,10 @@ ustroj|2
 ustvarjalec|1
 (sam.)|avtor|tvorec
 ustvarjalen|2
-(prid.)|konstruktiven|ploden
+(prid.)|konstruktiven|ploden|tvoren
 (prid.)|kreativen
+ustvarjalno|1
+(prisl.)|tvorno
 ustvarjati|1
 (gl.)|snovati
 usvajanje|1
@@ -28251,6 +28353,8 @@ vrata|2
 vratar|2
 (sam.)|golman
 (sam.)|portir
+vratarnica|1
+(sam.)|portirnica
 vraten|1
 (prid.)|cervikalen
 vratina|1
