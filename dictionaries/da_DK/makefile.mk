@@ -54,7 +54,6 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/desc_da_DK.txt \
     $(EXTENSIONDIR)$/desc_en_US.txt \
     $(EXTENSIONDIR)$/hyph_da_DK.dic \
-    $(EXTENSIONDIR)$/path2516.png \
     $(EXTENSIONDIR)$/README_th_da_DK.txt \
     $(EXTENSIONDIR)$/README_th_en-US.txt \
     $(EXTENSIONDIR)$/th_da_DK.dat \
@@ -63,6 +62,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/th_desc_en_US.txt \
     $(EXTENSIONDIR)$/th_release_note.txt \
     $(EXTENSIONDIR)$/th_Statistics.txt
+    $(EXTENSIONDIR)$/Trold_42x42.png 
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \

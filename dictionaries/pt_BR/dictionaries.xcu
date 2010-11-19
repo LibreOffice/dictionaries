@@ -22,7 +22,7 @@
                 <value>DICT_HYPH</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>pt-BR </value>
+                <value>pt-BR</value>
             </prop>
         </node>
 
