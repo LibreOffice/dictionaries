@@ -61,7 +61,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/th_desc_da_DK.txt \
     $(EXTENSIONDIR)$/th_desc_en_US.txt \
     $(EXTENSIONDIR)$/th_release_note.txt \
-    $(EXTENSIONDIR)$/th_Statistics.txt
+    $(EXTENSIONDIR)$/th_Statistics.txt \
     $(EXTENSIONDIR)$/Trold_42x42.png 
 
 COMPONENT_CONFIGDEST=.
