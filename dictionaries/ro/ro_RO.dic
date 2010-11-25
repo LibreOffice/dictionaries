@@ -1,4 +1,4 @@
-154954
+154974
 ABC
 ACK
 ACLU
@@ -664,6 +664,7 @@ Bența
 Bențe
 Berbești
 Berceanu
+Berceni
 Bereș
 Berești
 Berg
@@ -775,6 +776,7 @@ Boieșan
 Boingeanu
 Boldești-Scăieni
 Boldiș
+Bolintin
 Bolintin-Vale
 Bolintiș
 Bolivia
@@ -1090,6 +1092,7 @@ Caucazul
 Caucazului
 Cavendish
 Cavnic
+Cayce
 Cazacu
 Cazanciuc
 Cața
@@ -1395,6 +1398,7 @@ Cozmeanu
 Coșa
 Coșarcă
 Coșbuc
+Coșereanu
 Coșeriu
 Coșescu
 Coșniță
@@ -1856,6 +1860,7 @@ Ecuadorului
 Ecuatorială
 Eda/U
 Eddy
+Edgar
 Edi
 Edison
 Edmeia/U
@@ -2424,6 +2429,7 @@ GnuPG
 Goanță
 God
 Godwin
+Godzilla
 Goe
 Goethe
 Goga
@@ -3909,6 +3915,7 @@ Mogadishu
 Mogoș
 Mogoșan
 Mogoșanu
+Mogoșoaia
 Mohamed
 Mohammed
 Moieciu
@@ -4290,6 +4297,7 @@ OK
 ONG
 ONG-uri
 ONU
+OOo
 OPEC
 OSF
 OSLoader
@@ -4534,6 +4542,7 @@ Panciu
 Panonice
 Panonică
 Panseluța/U
+Pantelimon
 Panther
 Pantiș
 Panța
@@ -5482,6 +5491,7 @@ Strathmore
 Strehaia
 Streșnă
 Strâmbeanu
+Străulești
 Sturza
 Stuttgart
 Stănescu
@@ -8808,6 +8818,7 @@ agrozootehnic/S
 agrozootehnician/L
 agrozootehniciană/R
 agrozootehnie/f
+agrozootehnist/Q
 agrăiesc/I
 agrăire/F
 agrăiseți
@@ -28996,15 +29007,6 @@ cordon/P
 cordonal/Q
 cordonală/A
 cordovan/P
-corean
-coreana
-coreana-i
-coreano
-coreanu
-coreanu-i
-coreanul
-coreanule
-coreană
 coreclamant/L
 coreclamantă/A
 corecliză/A
@@ -29028,7 +29030,16 @@ corecțional/Q
 corecțională/A
 coredactor/Q
 coree/A
+coreean
 coreean/Q
+coreeana
+coreeana-i
+coreeano
+coreeanu
+coreeanu-i
+coreeanul
+coreeanule
+coreeană
 coreene
 coreenele
 coreenelor
@@ -33334,12 +33345,15 @@ dedând/N
 deetanizaseți
 deetatizaseți
 def
+defalc
 defalcare/A
 defalcaseți
 defalcat/Q
 defalcată/A
+defalce
 defalchare/A
 defalchez/B
+defalci
 defalsificaseți
 defapt
 default
@@ -59083,6 +59097,7 @@ karling/C
 karma
 karme
 karmei
+karmic/Q
 kasidă/A
 kasolit/c
 kazah/L
@@ -67738,6 +67753,7 @@ multicolorului
 multicoloră
 multicontinental/Q
 multicultural/L
+multiculturalism/c
 multiculturală/A
 multidimensional/Q
 multidimensionalitate/A
@@ -118536,6 +118552,7 @@ stomatologic/Q
 stomatologie/f
 stomatoscop/P
 stomatoscopie/A
+stop/C
 stop/P
 stopaj/P
 stopare/A
@@ -124956,6 +124973,7 @@ trenchcoat/Q
 trenci/c
 trencicot/c
 trend-ul/n
+trend/C
 trenez/B
 trening/C
 trensferare/A
@@ -128304,6 +128322,7 @@ vandalic/L
 vandalic/S
 vandalism/P
 vandalizare/A
+vandalizat/Q
 vandală/A
 vandrug/L
 vang/C
@@ -131242,6 +131261,7 @@ widiei
 widii
 wifi
 wiki-ul/n
+wikipedist/Q
 willemit/c
 willy-willy
 wireless
