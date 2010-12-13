@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="2010.03.07" />
+    <version value="2010.05.25" />
     <identifier value="German.frami2006AT.dictionary.from.org.openoffice.de.by.Karl.Zeiler" />
     <display-name>
         <name lang="en">German (AT-frami) spelling, hyphenation, thesaurus</name>
