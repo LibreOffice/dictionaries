@@ -24,9 +24,20 @@ da linha inferior.
 ======================
 SOBRE ESTA ATUALIZAÇÃO
 ======================
+Versão 1.0.6 DivSilab
+
+Correção da quebra de sílabas das palavras com 'br', como: 'vibração' ERRADO(vib-ra-ção)
+Colaboração Leandro Dutra;
+Correção da quebra de sílabas das palavras com 'psic', como: 'neuropsicologia' ERRADO(neu-rop-si-co-lo-gia)
+Colaboração Raimundo;
+Correção da quebra de sílabas das palavras com 'uin', como: 'contribuinte' ERRADO(con-tri-buin-te)
+Colaboração João Paulo Vinha Bittar;
+
+
+
 Versão 1.0.5 DivSilab
 
-Correção da quebra de sílabas das palavras com 'gn', como: 'incógnito' (in-có-g-ni-to)
+Correção da quebra de sílabas das palavras com 'gn', como: 'incógnito' ERRADO(in-có-g-ni-to)
 
 Exclusão dos códigos
 ó2s3t2

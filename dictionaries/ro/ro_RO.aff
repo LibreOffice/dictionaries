@@ -1,4 +1,4 @@
-# word list version 3.3.1
+# word list version 3.3.4
 SET UTF-8
 TRY iaertolncusămpdbgțfzvșhâjîxkwyqACDM
 
@@ -47,7 +47,7 @@ TRY iaertolncusămpdbgțfzvșhâjîxkwyqACDM
 #
 # Adjective
 # DQS - adjective (adj.utf8)
-#       - D si Q ar trebui sa fie mergiuite
+#       - check overlap between Q and S
 #       - e - adjective terminate in e, care au aceeasi forma la sing m si f
 #       - t - adjective terminate in eț
 #       - automatic prefix ne
@@ -275,7 +275,7 @@ PFX K 0 re .
 
 #********************************************************************************
 # verbe conj 1.2,  terminate in a la infinitiv si ez la pers I sing (v1/B)
-SFX B Y 159
+SFX B Y 161
 SFX B z zi z
 SFX B ez ează [^i]ez
 SFX B ez ează-mă [^i]ez
@@ -291,9 +291,10 @@ SFX B ez ază-l iez
 SFX B ez ază-o iez
 SFX B ez ază-ne iez
 SFX B ez ază-le iez
-SFX B ez ăm [^h]ez
+SFX B ez ăm [^hi]ez
 SFX B ghez găm ghez
 SFX B chez căm chez
+SFX B ez em iez
 SFX B ez ați [^h]ez
 SFX B chez cați chez
 SFX B ghez gați ghez
@@ -396,7 +397,7 @@ SFX B ghez gat-o ghez
 SFX B ez asem [^h]ez
 SFX B ez aseți [^h]ez
 SFX B chez casem chez
-SFX B chez casți chez
+SFX B chez caseți chez
 SFX B ghez gasem ghez
 SFX B ghez gaseți ghez
 SFX B ez aseși [^h]ez
@@ -419,7 +420,8 @@ SFX B chez ca chez
 SFX B ghez ga ghez
 SFX B ez ai [^h]ez
 SFX B ez ași [^h]ez
-SFX B ez ă [^h]ez
+SFX B ez ă [^hi]ez
+SFX B ez e iez
 SFX B ez arăm [^h]ez
 SFX B ez arăți [^h]ez
 SFX B ez ară [^h]ez
@@ -445,7 +447,7 @@ PFX B 0 re .
 #********************************************************************************
 # verbe conj 3, terminate in g, c, p la pers I sing (v3/EH, maybe /G)
 # pun, țin, rămân, râd, transmit, țes, descing, zic, seduc, petrec
-SFX E Y 150
+SFX E Y 157
 SFX E n i n
 SFX E d zi d
 SFX E t ți t
@@ -492,6 +494,13 @@ SFX E n sese un
 SFX E n seserăm un
 SFX E n seserăți un
 SFX E n seseră un
+SFX E d sesem d
+SFX E d seseși d
+SFX E d sese d
+SFX E d seseți d
+SFX E d seserăm d
+SFX E d seserăți d
+SFX E d seseră d
 SFX E 0 usem ec
 SFX E 0 useși ec
 SFX E 0 use ec
@@ -732,7 +741,7 @@ PFX G 0 re .
 #********************************************************************************
 # verbe conjugarea 4.2 (esc) si 4.4 (ăsc) (v4/I)
 #********************************************************************************
-SFX I Y 151
+SFX I Y 203
 SFX I esc ești esc    #prezent
 SFX I esc ește esc
 SFX I esc ește-mă esc #prezent imperativ
@@ -808,7 +817,9 @@ SFX I esc sem iesc
 SFX I esc seși iesc
 SFX I esc se iesc
 SFX I esc serăm iesc
+SFX I esc sem iesc
 SFX I esc serăți iesc
+SFX I esc seți iesc
 SFX I esc seră iesc
 SFX I esc i [^i]esc #viitor1
 SFX I esc it [^i]esc #viitor2
@@ -884,7 +895,56 @@ SFX I ăsc î ăsc
 SFX I ăsc ârăm ăsc
 SFX I ăsc ârăți ăsc
 SFX I ăsc âră ăsc
-
+SFX I 0  ește-mă i #prezent imperativ
+SFX I 0 ește-te i
+SFX I 0 ește-l i
+SFX I 0 ește-o i
+SFX I 0 ește-ne i
+SFX I 0 ește-i i
+SFX I 0 e i
+SFX I 0 m i
+SFX I 0 ți i
+SFX I 0 ți-mă i #prezent imperativ
+SFX I 0 ți-vă i
+SFX I 0 ți-l i
+SFX I 0 ți-o i
+SFX I 0 ți-ne i
+SFX I 0 ți-i i
+SFX I 0 am i #imperfect
+SFX I 0 ai i
+SFX I 0 a i
+SFX I 0 ați i
+SFX I 0 au i
+SFX I 0 nd i #gerunziu
+SFX I 0 ndu-mă i
+SFX I 0 ndu-te i
+SFX I 0 ndu-l i
+SFX I 0 nd-o i
+SFX I 0 ndu-se i
+SFX I 0 ndu-și i
+SFX I 0 ndu-și-i i
+SFX I 0 ndu-și-o i
+SFX I 0 ndu-și-l i
+SFX I 0 ndu-și-le i
+SFX I 0 ndu-ne i
+SFX I 0 ndu-vă i
+SFX I 0 ndu-i i
+SFX I 0 ndu-le i
+SFX I 0 sem i #mai mult ca perfect
+SFX I 0 seși i
+SFX I 0 se i
+SFX I 0 sem i
+SFX I 0 seți i
+SFX I 0 serăm i
+SFX I 0 serăți i
+SFX I 0 seră i
+SFX I 0 t i #participiu
+SFX I 0 t-o i
+SFX I 0 i i  #perfect simplu
+SFX I 0 și i
+SFX I 0 răm i
+SFX I 0 răți i
+SFX I 0 ră i
 PFX I Y 1
 PFX I 0 re .
 #end*******************************************************************************
