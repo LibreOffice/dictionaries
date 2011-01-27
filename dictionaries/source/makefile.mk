@@ -1,0 +1,15 @@
+PRJ=..
+PRJNAME=dictionaries
+TARGET=idxdict
+TARGETTYPE=CUI
+LIBTARGET=NO
+LIBSALCPPRT=$(0)
+
+.INCLUDE : settings.mk
+
+OBJFILES=$(OBJ)$/idxdict.obj
+APP1TARGET=idxdict
+APP1RPATH=NONE
+APP1OBJS=$(OBJFILES)
+
+.INCLUDE : target.mk
