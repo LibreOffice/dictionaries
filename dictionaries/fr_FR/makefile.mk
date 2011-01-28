@@ -83,4 +83,4 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 .INCLUDE : extension_post.mk
 
 $(EXTENSIONDIR)$/thes_fr.idx : "$(EXTENSIONDIR)$/thes_fr.dat"
-         $(LOCAL_OUT)$/bin$/idxdict -o $(EXTENSIONDIR)$/thes_fr.idx <$(EXTENSIONDIR)$/thes_fr.dat
+         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT)$/bin$/idxdict -o $(EXTENSIONDIR)$/thes_fr.idx <$(EXTENSIONDIR)$/thes_fr.dat
