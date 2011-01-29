@@ -22,6 +22,7 @@ di      dictionaries\lt_LT      nmake   -       all     di_lt_LT di_src NULL
 di      dictionaries\ne_NP      nmake   -       all     di_ne_NP di_src NULL
 di      dictionaries\nl_NL      nmake   -       all     di_nl_NL di_src NULL
 di      dictionaries\no         nmake   -       all     di_no di_src NULL
+di      dictionaries\oc_FR      nmake   -       all     di_oc_FR di_src NULL
 di      dictionaries\pl_PL      nmake   -       all     di_pl_PL di_src NULL
 di      dictionaries\pt_BR      nmake   -       all     di_pt_BR di_src NULL
 di      dictionaries\ro         nmake   -       all     di_ro di_src NULL
