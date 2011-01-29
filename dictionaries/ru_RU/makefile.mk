@@ -50,14 +50,17 @@ EXTENSION_ZIPNAME:=dict-ru
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/hyph_ru_RU.dic \
-    $(EXTENSIONDIR)$/th_ru_RU_v2.dat
+    $(EXTENSIONDIR)$/th_ru_RU_v2.dat \
+    $(EXTENSIONDIR)$/ru_RU.aff \
+    $(EXTENSIONDIR)$/ru_RU.dic \
+    $(EXTENSIONDIR)$/README_thes_ru_RU.txt
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=README_thes_ru_RU.txt
+CUSTOM_LICENSE=README_ru_RU.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
