@@ -32,5 +32,6 @@ di      dictionaries\sr         nmake   -       all     di_sr di_src NULL
 di      dictionaries\sv_SE      nmake   -       all     di_sv_SE di_src NULL
 di      dictionaries\sw_TZ      nmake   -       all     di_sw_TZ di_src NULL
 di      dictionaries\th_TH      nmake   -       all     di_th_TH di_src NULL
+di      dictionaries\uk_UA      nmake   -       all     di_uk_UA di_src NULL
 di      dictionaries\vi         nmake   -       all     di_vi di_src NULL
 di      dictionaries\zu_ZA      nmake   -       all     di_zu_ZA di_src NULL
