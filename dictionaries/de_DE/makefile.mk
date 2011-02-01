@@ -54,6 +54,7 @@ EXTENSION_ZIPNAME:=dict-de-DE
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/COPYING_OASIS \
+    $(EXTENSIONDIR)$/COPYING_GPLv3 \
     $(EXTENSIONDIR)$/de_DE_frami.aff \
     $(EXTENSIONDIR)$/de_DE_frami.dic \
     $(EXTENSIONDIR)$/hyph_de_DE.dic \
@@ -68,7 +69,7 @@ COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=COPYING
+CUSTOM_LICENSE=COPYING_GPLv2
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
