@@ -82,5 +82,7 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
+.INCLUDE :  $(PRJ)$/prj$/tests.mk
+
 $(EXTENSIONDIR)$/thes_fr.idx : "$(EXTENSIONDIR)$/thes_fr.dat"
          $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT)$/bin$/idxdict -o $(EXTENSIONDIR)$/thes_fr.idx <$(EXTENSIONDIR)$/thes_fr.dat

@@ -78,5 +78,7 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
+#.INCLUDE :  $(PRJ)$/prj$/tests.mk
+
 $(EXTENSIONDIR)$/th_ru_RU_v2.idx : "$(EXTENSIONDIR)$/th_ru_RU_v2.dat"
          $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_ru_RU_v2.idx <$(EXTENSIONDIR)$/th_ru_RU_v2.dat
