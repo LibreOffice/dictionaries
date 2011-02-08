@@ -53,7 +53,10 @@ EXTENSION_ZIPNAME:=dict-de-CH
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/COPYING_OASIS \
+    $(EXTENSIONDIR)$/COPYING_OASIS.txt \
+    $(EXTENSIONDIR)$/COPYING_GPLv2.txt \
+    $(EXTENSIONDIR)$/COPYING_LGPL_v2.0.txt \
+    $(EXTENSIONDIR)$/COPYING_LGPL_v2.1.txt \
     $(EXTENSIONDIR)$/de_CH_frami.aff \
     $(EXTENSIONDIR)$/de_CH_frami.dic \
     $(EXTENSIONDIR)$/hyph_de_CH.dic \
@@ -69,7 +72,7 @@ COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=COPYING
+CUSTOM_LICENSE=COPYING_GPLv3.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
