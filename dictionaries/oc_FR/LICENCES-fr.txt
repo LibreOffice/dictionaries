@@ -1,12 +1,20 @@
-LICENCES :
-Dictionnaire orthographique "Classique & Réforme 1990" : LGPL, GPL, MPL
-Dictionnaire des césures : LGPL
-Dictionnaire des synonymes : LGPL
+﻿Les fichiers Dic et Aff de la version 0.6 ont étés créés par Bruno GALLART et sont distribués sous licence GPL.
 
-IMPORTANT :
-Le dictionnaire orthographique reconnaît comme correctes les nouvelles et les anciennes graphies des mots rectifiés par la réforme de l'orthographe de 1990, enseignée depuis 2007 dans les écoles françaises.
-Si vous considérez que le français devrait évoluer vers une orthographe simplifiée et que maitre, relai, cout, évènement, connaitre, assoir, contrindiquer, bassefosse, révolver, règlementaire, j'amoncèle, aigüe, etc. ne sont pas des fautes d'orthographe, c'est probablement le dictionnaire qui vous conviendra. Vous pouvez écrire selon l'orthographe classique ou la nouvelle.
+Licéncia, licence :
 
-A propos de la réforme de l'orthographe de 1990:
-http://www.renouvo.org/introduction.php
-http://www.orthographe-recommandee.info/index.htm
+Occitan Lengadocian wordlist for MySpell version 0.1
+Copyright (C) 2006-2011 Bruno GALLART
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
