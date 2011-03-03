@@ -1,4 +1,4 @@
-di      dictionaries : soltools mythes NULL
+di      dictionaries : sal soltools mythes NULL
 di	dictionaries					usr1 - all di_mkout NULL
 di	dictionaries\source	nmake   -       all	di_src NULL
 di      dictionaries\af_ZA      nmake   -       all     di_af_ZA di_src NULL
