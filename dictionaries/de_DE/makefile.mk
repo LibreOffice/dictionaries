@@ -53,7 +53,7 @@ EXTENSION_ZIPNAME:=dict-de-DE
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/COPYING_OASIS \
+    $(EXTENSIONDIR)$/COPYING_OASIS.txt \
     $(EXTENSIONDIR)$/COPYING_GPLv3 \
     $(EXTENSIONDIR)$/de_DE_frami.aff \
     $(EXTENSIONDIR)$/de_DE_frami.dic \
