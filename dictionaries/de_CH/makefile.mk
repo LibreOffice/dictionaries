@@ -54,6 +54,7 @@ EXTENSION_ZIPNAME:=dict-de-CH
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/COPYING_OASIS \
+    $(EXTENSIONDIR)$/COPYING_GPLv3 \
     $(EXTENSIONDIR)$/de_CH_frami.aff \
     $(EXTENSIONDIR)$/de_CH_frami.dic \
     $(EXTENSIONDIR)$/hyph_de_CH.dic \

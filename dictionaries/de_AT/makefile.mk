@@ -54,6 +54,7 @@ EXTENSION_ZIPNAME:=dict-de-AT
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/COPYING_OASIS \
+    $(EXTENSIONDIR)$/COPYING_GPLv3 \
     $(EXTENSIONDIR)$/de_AT_frami.aff \
     $(EXTENSIONDIR)$/de_AT_frami.dic \
     $(EXTENSIONDIR)$/hyph_de_AT.dic \
