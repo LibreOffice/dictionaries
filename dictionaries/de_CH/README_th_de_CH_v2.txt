@@ -1,6 +1,6 @@
-OpenThesaurus - Deutscher Thesaurus - Version für OpenOffice.org
+OpenThesaurus - Deutscher Thesaurus (CH) - Version für OpenOffice.org/LibreOffice.org
 Copyright (C) 2003-2010 Daniel Naber (naber at danielnaber de)
-Snapshot, automatisch generiert 2010-05-25 21:33
+Snapshot, automatisch generiert 2010-12-04 16:30
 Homepage: http://www.openthesaurus.de
 
 
