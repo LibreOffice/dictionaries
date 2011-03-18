@@ -3,7 +3,7 @@
     <version value="2010.10.14" />
     <identifier value="org.openoffice.da.hunspell.dictionaries" />
     <display-name>
-        <name lang="en">Spelling and hyphenation dictionary for Danish + Danish thesaurus</name>
+        <name lang="en">Spelling, hyphenation and thesaurus dictionary for Danish</name>
         <name lang="da">Ordbøger for dansk stavekontrol og orddeling + Danske synonymer</name>
     </display-name>
     <platform value="all" />
@@ -17,9 +17,5 @@
     <icon>
         <default xlink:href="Trold_42x42.png" />
     </icon>
-    <extension-description>
-        <src xlink:href="desc_da_DK.txt" lang="da" />
-        <src xlink:href="desc_en_US.txt" lang="en" />
-    </extension-description>
 </description>
 
