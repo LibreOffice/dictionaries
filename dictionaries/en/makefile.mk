@@ -50,7 +50,6 @@ EXTENSION_ZIPNAME:=dict-en
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/affDescription.txt \
-    $(EXTENSIONDIR)$/changelog.txt \
     $(EXTENSIONDIR)$/dictionaries.xcu \
     $(EXTENSIONDIR)$/en_AU.aff \
     $(EXTENSIONDIR)$/en_AU.dic \
