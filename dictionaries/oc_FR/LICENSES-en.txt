@@ -1,7 +1,7 @@
-﻿The aff's files and dic's files for the version 0.6, are created by Bruno GALLART under GPL license
-Licéncia, licence :
+﻿The aff's files and dic's files for the version 0.6.1, are created 
+by Bruno GALLART under GPL license Licéncia, licence :
 
-Occitan Lengadocian wordlist for MySpell version 0.6
+Occitan Lengadocian wordlist for MySpell version 0.6.1
 Copyright (C) 2006-2011 Bruno GALLART
 
 This program is free software; you can redistribute it and/or

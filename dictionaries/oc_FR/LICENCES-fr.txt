@@ -1,4 +1,4 @@
-﻿Les fichiers Dic et Aff de la version 0.6 ont étés créés par Bruno GALLART et sont distribués sous licence GPL.
+﻿Les fichiers Dic et Aff de la version 0.6.1 ont étés créés par Bruno GALLART et sont distribués sous licence GPL.
 
 Licéncia, licence :
 
