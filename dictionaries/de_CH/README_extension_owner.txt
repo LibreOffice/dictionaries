@@ -7,31 +7,31 @@ This extension is based on:
 Spell checking:
 ===============
 de-CH_frami
-Version: 2010-12-04
-Author: Franz Michael Baumann <frami.baumann@web.de>
+Version: 2011-05-05
+Author:  Franz Michael Baumann <frami.baumann@web.de>
 License: GNU GPL Version 2 or GPL Version 3 or OASIS 0.1
 
-The "frami"-dictionary contains the complete word list of Björn Jacke's "igerman98"
-(Version: 2010-07-27) and numerous supplements by Franz Michael Baumann according to
+The "frami"-dictionary contains the complete word list of Björn Jacke's "igerman98" 
+(Version: 2011-03-21) and numerous supplements by Franz Michael Baumann according to
 the reform of 2006-08-01.
 
 Hyphenation:
 ============
 Authors: Marco Huggenberger <marco@by-night.ch> / Daniel Naber <naber at danielnaber de>
-Version: 2010-01-13 (bug in hyphenation modul and license problems in Readme file fixed)
+Version: 2011-05-05 (author and license information in source file added)
 License: GNU LGPL
 
 Thesaurus:
 ==========
 OpenThesaurus - Deutscher Thesaurus - Synonyme und Assoziationen
-Version: 2010-12-04 CH
+Version: 2011-05-04 CH
 License: GNU LGPL
 http://www.openthesaurus.de
 
 Please note:
 Even though having built and published the dictionary extension, the extension owner has
-no responsibility for maintaining related dictionaries. For contacting the author of
-dictionaries, please read his related README files. Updated extension is intended to be
+no responsibility for maintaining related dictionaries. For contacting the author of 
+dictionaries, please read his related README files. Updated extension is intended to be 
 published, as soon related dictionaries will have been actualized.
 
 For contacting the extension owner write to:
