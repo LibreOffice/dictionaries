@@ -21,10 +21,6 @@
         <name lang="it">Dizionario ortografico, dei sinonimi e di sillabazione per la lingua italiana</name>
     </display-name>
 
-    <icon>
-        <default xlink:href="ico.png" />
-    </icon>
-
     <extension-description>
         <src xlink:href="desc_en.txt" lang="en" />
         <src xlink:href="desc_it.txt" lang="it" />

@@ -51,7 +51,6 @@ EXTENSION_ZIPNAME:=dict-sk
 
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/hyph_sk_SK.dic \
-    $(EXTENSIONDIR)$/iconsk3.png \
     $(EXTENSIONDIR)$/README_en.txt \
     $(EXTENSIONDIR)$/README_sk.txt \
     $(EXTENSIONDIR)$/README_th_sk_SK_v2.txt \

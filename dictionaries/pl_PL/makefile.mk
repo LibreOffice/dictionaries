@@ -49,7 +49,6 @@ EXTENSION_ZIPNAME:=dict-pl
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/flaga.png \
     $(EXTENSIONDIR)$/hyph_pl_PL.dic \
     $(EXTENSIONDIR)$/pl_PL.aff \
     $(EXTENSIONDIR)$/pl_PL.dic \

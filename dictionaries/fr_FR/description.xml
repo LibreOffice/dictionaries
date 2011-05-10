@@ -21,10 +21,6 @@
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>
 
-    <icon>
-        <default xlink:href="drapeau_tricolore.png" />
-    </icon>
-
     <publisher>
         <name xlink:href="http://www.dicollecte.org/home.php?prj=fr" lang="fr">Dicollecte</name>
     </publisher>

@@ -52,7 +52,6 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/desc_en.txt \
     $(EXTENSIONDIR)$/desc_it.txt \
     $(EXTENSIONDIR)$/hyph_it_IT.dic \
-    $(EXTENSIONDIR)$/ico.png \
     $(EXTENSIONDIR)$/it_IT.aff \
     $(EXTENSIONDIR)$/it_IT.dic \
     $(EXTENSIONDIR)$/README_hyph_it_IT.txt \
