@@ -1,32 +1,3 @@
-##################################################################################
-# This is the hyphenation file "hyph_de_AT.dic" of the German dictionary	 	 #
-# according to the reform of 2006-08-01	(i.e. reformed or new spelling)			 #
-#																			 	 #
-# Language: German (de AT)													 	 #
-#																			 	 #
-# Version:  2011-05-05 (author and license information in source file added)	 #
-#																			 	 #
-# Origin:   Based on the TeX hyphenation tables	"dehyphn.tex", revision level 31.#
-#           http://www.ctan.org/tex-archive/language/hyphenation/dehyphn.tex 	 #
-#		    The TeX hyphenation tables are released under the LaTeX Project  	 #
-#		    Public License (LPPL)											 	 #
-#																			 	 #
-# License:  OpenOffice.org Adaptions of this package are licensed under the  	 #
-#           GNU Lesser General Public License (LGPL 2 or later) and are under 	 #
-#		    Copyright by													 	 #
-#																			 	 #
-# Author:   conversion author is Marco Huggenberger<marco@by-night.ch>		 	 #
-#           revised conversion and extensions: Daniel Naber					 	 #
-#           http://qa.openoffice.org/issues/show_bug.cgi?id=26355			 	 #
-#																			 	 #
-# Please note, this dictionary is based on syllable matching patterns		 	 #
-# and thus should be suitable under other variations of German				 	 #
-#																			 	 #
-# HYPH de DE hyph_de_DE														 	 #
-# HYPH de AT hyph_de_AT														 	 #
-# HYPH de CH hyph_de_CH														 	 #
-#																			 	 #
-##################################################################################
 ISO8859-1
 .aa6l
 .6a1ba
