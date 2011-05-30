@@ -7,7 +7,7 @@ http://www.broffice.org/creditos e você pode encontrar novas versões em
 http://www.broffice.org/verortografico.
 
 
-Copyright (C) 2008 - 2009 por/by Raimundo Santos Moura <raimundomoura@openoffice.org>
+Copyright (C) 2008 - 2010 por/by Raimundo Santos Moura <raimundomoura@openoffice.org>
 
 ========================================================================================
 APRESENTAÇÃO
@@ -24,6 +24,29 @@ da linha inferior.
 ======================
 SOBRE ESTA ATUALIZAÇÃO
 ======================
+Versão 1.0.7 DivSilab
+Correção da quebra de sílabas das palavras com 'guin', como: 'seguintes' ERRADO(se-gu-in-tes)
+Colaboração Flávio Cardoso;
+inclusão das regras:
+1g2u4i3n2a
+1g2u4i3n2á
+1g2u4i2n1c
+1g2u4i2n1d
+1g2u4i3n2e
+1g2u4i3n2é
+1g2u4i2n1g
+1g2u4i3n2h
+1g2u4i3n2i
+1g2u4i3n2í
+1g2u4i2n1j
+1g2u4i3n2o
+1g2u4i3n2ó
+1g2u4i2n2s
+1g2u4i2n1t
+1g2u4i3n2u
+1g2u4i2n1x
+
+
 Versão 1.0.6 DivSilab
 
 Correção da quebra de sílabas das palavras com 'br', como: 'vibração' ERRADO(vib-ra-ção)
