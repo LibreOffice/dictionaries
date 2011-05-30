@@ -1,6 +1,13 @@
 SET ISO8859-15
 TRY eiarsntolucéÉmpdgbhfvqjyxèÈzkçÇîÎïÏwûÛôÔàÀáÁëËüÜöÖóÓòÒíÍìÌùÙúÚäÄ
 
+MAP 5
+MAP eëéè
+MAP oöòó
+MAP iïíì
+MAP úüu
+MAP aàá
+
 PFX M Y 1
 PFX M   0      m'      [aeéèiouàáóòíìúùh]
 

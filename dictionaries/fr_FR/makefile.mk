@@ -56,8 +56,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/frhyph.tex \
     $(EXTENSIONDIR)$/hyph_fr.dic \
     $(EXTENSIONDIR)$/thes_fr.dat \
-    $(EXTENSIONDIR)$/package-description.txt \
-    $(EXTENSIONDIR)$/drapeau_tricolore.png
+    $(EXTENSIONDIR)$/package-description.txt
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \

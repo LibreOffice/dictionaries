@@ -1,9 +1,9 @@
 # this is the affix file of the de_CH Hunspell dictionary
 # derived from the igerman98 dictionary
 #
-# Version: 20100727+frami20101020 (build 20101020)
+# Version: 20110321+frami20110505 (build 20110505)
 #
-# Copyright (C) 1998-2010 Bjoern Jacke <bjoern@j3e.de>
+# Copyright (C) 1998-2011 Bjoern Jacke <bjoern@j3e.de>
 #
 # License: GPLv2, GPLv3 or OASIS distribution license agreement
 # There should be a copy of both of this licenses included
@@ -565,9 +565,9 @@ WORDCHARS ß-.
 COMPOUNDMIN 2
 
 # this ones are for Duden R36 (old orthography)
-#CHECKCOMPOUNDPATTERN 2
-#CHECKCOMPOUNDPATTERN ee e
-#CHECKCOMPOUNDPATTERN oo o
+#CHECKCOMPOUNDPATTERN 2  #oldspell
+#CHECKCOMPOUNDPATTERN ee e #oldspell
+#CHECKCOMPOUNDPATTERN oo o #oldspell
 # also need oo o
 
 # this one needs to be flagable to be used for old orthography
