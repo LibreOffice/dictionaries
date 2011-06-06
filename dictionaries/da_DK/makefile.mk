@@ -88,5 +88,5 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 .INCLUDE :  $(PRJ)$/prj$/tests.mk
 
 $(EXTENSIONDIR)$/th_da_DK.idx : "$(EXTENSIONDIR)$/th_da_DK.dat"
-         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_da_DK.idx <$(EXTENSIONDIR)$/th_da_DK.dat
+         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_da_DK.idx <$(EXTENSIONDIR)$/th_da_DK.dat
 
