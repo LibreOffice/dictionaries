@@ -1,10 +1,11 @@
 SET ISO8859-1
 TRY áàãâéêíóõôúüçesianrtolcdugmphbyfvkwjqxz
 
+#   VERO - Verificador Ortográfico do LibreOffice - Versão 2.0.9
 #   Copyright (C) 2006 - 2010  por Raimundo Santos Moura
 #   <raimundomoura@openoffice.org>
 #   Colaboradores deste projeto: http://www.openoffice.org.br/?q=creditos
-#   Brasil - Setembro 2010
+#   Brasil - maio 2011
 #   Este é um dicionário para correção ortográfica da língua Portuguesa   
 #   para o Hunspell.                                                       
 #   Este programa é livre e pode ser redistribuído e/ou modificado nos    
@@ -100,7 +101,7 @@ WORDCHARS -
 CHECKCOMPOUNDREP
 
 # melhorar a sugestão de palavras
-REP 385
+REP 393
 REP -           s-
 REP -           r
 REP -           s
@@ -108,7 +109,9 @@ REP -a-         _a_
 REP -com-       _com_
 REP -da-        _da_
 REP -de-        _de_
+REP -jóia       joia
 REP -l          l
+REP -r          rr
 REP a           á
 REP a           ã
 REP a           â
@@ -145,6 +148,7 @@ REP am          ão
 REP an          ã 
 REP an          am
 REP ân          âm
+REP ância       ança
 REP ão          ãe
 REP ao          ão
 REP ão          õe
@@ -181,10 +185,12 @@ REP ci          ssi
 REP cie         sciê
 REP cinss       sinc
 REP ck          que
+REP copérnic    unúmbi
 REP cõ          çõ
 REP çõe         mento
 REP cs          x
 REP des         dis
+REP devagar     vagarosa
 REP difissi     difíci
 REP defissio    difícil
 REP difissio    difícil
@@ -225,6 +231,7 @@ REP es          ex
 REP es          ez
 REP ês          ez
 REP ês          ez
+REP este        éster
 REP ex          es
 REP ez          es
 REP ez          és
@@ -264,6 +271,7 @@ REP inh         azinh
 REP inh         ezinh
 REP inh         ilzinh
 REP inh         ozinh
+REP it          inh
 REP izad        ad
 REP j           g
 REP j           gi
@@ -352,6 +360,7 @@ REP ping        pingue-pongue
 REP ping-pong   pingue-pongue
 REP pong        pingue-pongue
 REP pre         pré-
+REP quadri      tetra
 REP Quait       Kuwait
 REP quinque     quinquê
 REP quinquê     quinquê
@@ -850,7 +859,7 @@ SFX J   os    amente       os
 
 # Advérbios -K-  Terminação:  mente (variantes)
 
-SFX K Y 49
+SFX K Y 50
 SFX K   0        amente        dor
 SFX K   a        camente       ia
 SFX K   áfico    aficamente    áfico
@@ -877,6 +886,7 @@ SFX K   ígico    igicamente    ígico
 SFX K   ímico    imicamente    ímico
 SFX K   ínico    inicamente    ínico
 SFX K   ínimo    inimamente    ínimo
+SFX K   ípico    ipicamente    ípico
 SFX K   írgico   irgicamente   írgico
 SFX K   ístico   isticamente   ístico
 SFX K   ítico    iticamente    ítico

@@ -56,9 +56,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/frhyph.tex \
     $(EXTENSIONDIR)$/hyph_fr.dic \
     $(EXTENSIONDIR)$/thes_fr.dat \
-    $(EXTENSIONDIR)$/thes_fr.idx \
-    $(EXTENSIONDIR)$/package-description.txt \
-    $(EXTENSIONDIR)$/drapeau_tricolore.png
+    $(EXTENSIONDIR)$/package-description.txt
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
@@ -69,13 +67,21 @@ CUSTOM_LICENSE=README_fr.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/thes_fr.idx
+
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-#EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)     $(EXTENSIONDIR)$/thes_fr_FR.idx
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
+
+.INCLUDE :  $(PRJ)$/prj$/tests.mk
+
+$(EXTENSIONDIR)$/thes_fr.idx : "$(EXTENSIONDIR)$/thes_fr.dat"
+         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/thes_fr.idx <$(EXTENSIONDIR)$/thes_fr.dat

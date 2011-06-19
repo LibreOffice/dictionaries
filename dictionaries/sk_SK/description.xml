@@ -21,10 +21,6 @@
         <name lang="sk">Slovenský slovník pre kontrolu pravopisu, delenie slov a slovník synoným</name>
     </display-name>
 
-    <icon>
-        <default xlink:href="iconsk3.png" />
-    </icon>
-
     <!--Dictionaries should work with all platforms...-->
     <platform value="all" />
 

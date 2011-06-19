@@ -48,7 +48,8 @@ EXTENSION_ZIPNAME:=dict-cs
 # --- Extension packaging ------------------------------------------
 
 # just copy:
-# COMPONENT_FILES=
+COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/th_cs_CZ_v2.dat
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
@@ -59,15 +60,13 @@ CUSTOM_LICENSE=th_cs_CZ_license.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
-COMPONENT_ZIP:=$(PWD)$/th_cs_CZ_v2.zip
 COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_cs_CZ_v2.dat
-
+    $(EXTENSIONDIR)$/th_cs_CZ_v2.idx
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(EXTENSIONDIR)$/th_cs_CZ_v2.idx
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
@@ -75,11 +74,7 @@ EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES) $(EXTENSIONDIR)$/th_cs_CZ_v2.idx
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
-.IF "$(COMPONENT_UNZIP_FILES)"!=""
-$(COMPONENT_UNZIP_FILES) .SILENT .UPDATEALL : "$(COMPONENT_ZIP)"
-    $(COMMAND_ECHO)-$(MKDIRHIER) $(EXTENSIONDIR)
-    cd $(EXTENSIONDIR) && unzip -o $< $(COMPONENT_UNZIP_FILES:f:t" ")
-.ENDIF			# "$(COMPONENT_UNZIP_FILES)"!=""
+.INCLUDE :  $(PRJ)$/prj$/tests.mk
 
 $(EXTENSIONDIR)$/th_cs_CZ_v2.idx : "$(EXTENSIONDIR)$/th_cs_CZ_v2.dat"
-        $(PERL) $(SOLARBINDIR)$/th_gen_idx.pl -o $(EXTENSIONDIR)$/th_cs_CZ_v2.idx <$(EXTENSIONDIR)$/th_cs_CZ_v2.dat
+         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_cs_CZ_v2.idx <$(EXTENSIONDIR)$/th_cs_CZ_v2.dat

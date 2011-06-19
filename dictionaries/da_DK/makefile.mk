@@ -54,15 +54,13 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/desc_da_DK.txt \
     $(EXTENSIONDIR)$/desc_en_US.txt \
     $(EXTENSIONDIR)$/hyph_da_DK.dic \
-    $(EXTENSIONDIR)$/README_th_da_DK.txt \
-    $(EXTENSIONDIR)$/README_th_en-US.txt \
+    $(EXTENSIONDIR)$/Trold_42x42.png \
     $(EXTENSIONDIR)$/th_da_DK.dat \
-    $(EXTENSIONDIR)$/th_da_DK.idx \
-    $(EXTENSIONDIR)$/th_desc_da_DK.txt \
-    $(EXTENSIONDIR)$/th_desc_en_US.txt \
-    $(EXTENSIONDIR)$/th_release_note.txt \
-    $(EXTENSIONDIR)$/th_Statistics.txt \
-    $(EXTENSIONDIR)$/Trold_42x42.png 
+    $(EXTENSIONDIR)$/README_th_da_DK.txt \
+    $(EXTENSIONDIR)$/help/da/help.tree \
+    $(EXTENSIONDIR)$/help/da/org.openoffice.da.hunspell.dictionaries/page1.xhp \
+    $(EXTENSIONDIR)$/help/da/org.openoffice.da.hunspell.dictionaries/Trold.png
+
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
@@ -73,14 +71,22 @@ CUSTOM_LICENSE=README_da_DK.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_da_DK.idx
+
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
+
+.INCLUDE :  $(PRJ)$/prj$/tests.mk
+
+$(EXTENSIONDIR)$/th_da_DK.idx : "$(EXTENSIONDIR)$/th_da_DK.dat"
+         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_da_DK.idx <$(EXTENSIONDIR)$/th_da_DK.dat
 

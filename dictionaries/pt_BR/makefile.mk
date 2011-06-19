@@ -52,8 +52,8 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/pt_BR.aff \
     $(EXTENSIONDIR)$/pt_BR.dic \
     $(EXTENSIONDIR)$/hyph_pt_BR.dic \
-    $(EXTENSIONDIR)$/README_en.TXT \
-    $(EXTENSIONDIR)$/README_hyph_pt_BR.TXT
+    $(EXTENSIONDIR)$/README_en.txt \
+    $(EXTENSIONDIR)$/README_hyph_pt_BR.txt
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \

@@ -29,11 +29,6 @@
     <dependencies>
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>
-    <icon>
-        <default xlink:href="flaga.png" />
-    </icon>
-
-    
 
     <!-- MORE OPTIONAL LIKE ENTRIES FOLLOWING (may easily be omitted, out-commented by default)... -->
 

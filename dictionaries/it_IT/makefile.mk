@@ -52,13 +52,11 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/desc_en.txt \
     $(EXTENSIONDIR)$/desc_it.txt \
     $(EXTENSIONDIR)$/hyph_it_IT.dic \
-    $(EXTENSIONDIR)$/ico.png \
     $(EXTENSIONDIR)$/it_IT.aff \
     $(EXTENSIONDIR)$/it_IT.dic \
     $(EXTENSIONDIR)$/README_hyph_it_IT.txt \
     $(EXTENSIONDIR)$/README_th_it_IT.txt \
-    $(EXTENSIONDIR)$/th_it_IT_v2.dat \
-    $(EXTENSIONDIR)$/th_it_IT_v2.idx 
+    $(EXTENSIONDIR)$/th_it_IT_v2.dat
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
@@ -69,14 +67,22 @@ CUSTOM_LICENSE=README_it_IT.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_it_IT_v2.idx
+
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_UNZIP_FILES)     $(EXTENSIONDIR)$/th_it_IT_v2.idx
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
+
+.INCLUDE :  $(PRJ)$/prj$/tests.mk
+
+$(EXTENSIONDIR)$/th_it_IT_v2.idx : "$(EXTENSIONDIR)$/th_it_IT_v2.dat"
+         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_it_IT_v2.idx <$(EXTENSIONDIR)$/th_it_IT_v2.dat
 

@@ -64,9 +64,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/README_extension_owner.txt \
     $(EXTENSIONDIR)$/README_hyph_de_AT.txt \
     $(EXTENSIONDIR)$/README_th_de_AT_v2.txt \
-    $(EXTENSIONDIR)$/th_de_AT_v2.dat \
-    $(EXTENSIONDIR)$/th_de_AT_v2.idx 
-
+    $(EXTENSIONDIR)$/th_de_AT_v2.dat
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
@@ -76,13 +74,21 @@ CUSTOM_LICENSE=COPYING_GPLv3.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_de_AT_v2.idx
+
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
+
+#.INCLUDE :  $(PRJ)$/prj$/tests.mk
+
+$(EXTENSIONDIR)$/th_de_AT_v2.idx : "$(EXTENSIONDIR)$/th_de_AT_v2.dat"
+         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_de_AT_v2.idx <$(EXTENSIONDIR)$/th_de_AT_v2.dat

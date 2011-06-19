@@ -56,8 +56,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/README_RO.txt \
     $(EXTENSIONDIR)$/ro_RO.aff \
     $(EXTENSIONDIR)$/ro_RO.dic \
-    $(EXTENSIONDIR)$/th_ro_RO_v2.dat \
-    $(EXTENSIONDIR)$/th_ro_RO_v2.idx
+    $(EXTENSIONDIR)$/th_ro_RO_v2.dat
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
@@ -68,14 +67,22 @@ CUSTOM_LICENSE=README_EN.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_ro_RO_v2.idx
+
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
+
+#.INCLUDE :  $(PRJ)$/prj$/tests.mk
+
+$(EXTENSIONDIR)$/th_ro_RO_v2.idx : "$(EXTENSIONDIR)$/th_ro_RO_v2.dat"
+         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_ro_RO_v2.idx <$(EXTENSIONDIR)$/th_ro_RO_v2.dat
 
