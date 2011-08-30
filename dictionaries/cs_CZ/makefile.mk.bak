@@ -49,13 +49,7 @@ EXTENSION_ZIPNAME:=dict-cs
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/cs_CZ.aff \
-    $(EXTENSIONDIR)$/cs_CZ.dic \
-    $(EXTENSIONDIR)$/hyph_cs_CZ.dic \
-    $(EXTENSIONDIR)$/README_cs_CZ.txt \
-    $(EXTENSIONDIR)$/README_hyph_cs_CZ.txt \
     $(EXTENSIONDIR)$/th_cs_CZ_v2.dat
-
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
@@ -83,4 +77,4 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 .INCLUDE :  $(PRJ)$/prj$/tests.mk
 
 $(EXTENSIONDIR)$/th_cs_CZ_v2.idx : "$(EXTENSIONDIR)$/th_cs_CZ_v2.dat"
-         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_cs_CZ_v2.idx <$(EXTENSIONDIR)$/th_cs_CZ_v2.dat
+         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_cs_CZ_v2.idx <$(EXTENSIONDIR)$/th_cs_CZ_v2.dat
