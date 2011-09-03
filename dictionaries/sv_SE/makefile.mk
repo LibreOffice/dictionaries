@@ -51,11 +51,16 @@ EXTENSION_ZIPNAME:=dict-sv
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/sv_SE.aff \
     $(EXTENSIONDIR)$/sv_SE.dic \
+    $(EXTENSIONDIR)$/th_sv_SE.dat \
+    $(EXTENSIONDIR)$/README_th_sv_SE.txt \
     $(EXTENSIONDIR)$/LICENSE_en_US.txt
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
+
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/th_sv_SE.idx
 
 # disable fetching default OOo license text
 CUSTOM_LICENSE=LICENSE_sv_SE.txt
@@ -65,7 +70,7 @@ PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
@@ -73,3 +78,7 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
+.INCLUDE :  $(PRJ)$/prj$/tests.mk
+
+$(EXTENSIONDIR)$/th_sv_SE.idx : "$(EXTENSIONDIR)$/th_sv_SE.dat"
+         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_sv_SE.idx <$(EXTENSIONDIR)$/th_sv_SE.dat
