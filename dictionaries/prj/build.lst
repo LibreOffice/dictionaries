@@ -23,6 +23,7 @@ di      dictionaries\hu_HU      nmake   -       all     di_hu_HU di_src NULL
 di      dictionaries\it_IT      nmake   -       all     di_it_IT di_src NULL
 di      dictionaries\ku_TR      nmake   -       all     di_ku_TR di_src NULL
 di      dictionaries\lt_LT      nmake   -       all     di_lt_LT di_src NULL
+di      dictionaries\lv_LV      nmake   -       all     di_lv_LV di_src NULL
 di      dictionaries\ne_NP      nmake   -       all     di_ne_NP di_src NULL
 di      dictionaries\nl_NL      nmake   -       all     di_nl_NL di_src NULL
 di      dictionaries\no         nmake   -       all     di_no di_src NULL

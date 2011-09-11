@@ -28,7 +28,7 @@
 PRJ=..
 
 PRJNAME=dictionaries
-TARGET=dict-cs
+TARGET=dict-lv
 
 # --- Settings -----------------------------------------------------
 
@@ -40,8 +40,8 @@ TARGET=dict-cs
 # --- Files --------------------------------------------------------
 
 # name for uniq directory
-EXTENSIONNAME:=dict-cs
-EXTENSION_ZIPNAME:=dict-cs
+EXTENSIONNAME:=dict-lv
+EXTENSION_ZIPNAME:=dict-lv
 
 # some other targets to be done
 
@@ -49,19 +49,25 @@ EXTENSION_ZIPNAME:=dict-cs
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/th_cs_CZ_v2.dat
+    $(EXTENSIONDIR)$/lv_LV.aff \
+    $(EXTENSIONDIR)$/lv_LV.dic \
+    $(EXTENSIONDIR)$/hyph_lv_LV.dic \
+    $(EXTENSIONDIR)$/README_lv_LV.txt \
+    $(EXTENSIONDIR)$/README_hyph_lv_LV.txt \
+    $(EXTENSIONDIR)$/README_th_lv_LV_v2.txt \
+    $(EXTENSIONDIR)$/th_lv_LV_v2.dat 
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=th_cs_CZ_license.txt
+CUSTOM_LICENSE=license.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_cs_CZ_v2.idx
+    $(EXTENSIONDIR)$/th_lv_LV_v2.idx
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
@@ -74,7 +80,7 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
-.INCLUDE :  $(PRJ)$/prj$/tests.mk
+#.INCLUDE :  $(PRJ)$/prj$/tests.mk
 
-$(EXTENSIONDIR)$/th_cs_CZ_v2.idx : "$(EXTENSIONDIR)$/th_cs_CZ_v2.dat"
-         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_cs_CZ_v2.idx <$(EXTENSIONDIR)$/th_cs_CZ_v2.dat
+$(EXTENSIONDIR)$/th_lv_LV_v2.idx : "$(EXTENSIONDIR)$/th_lv_LV_v2.dat"
+         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_lv_LV_v2.idx <$(EXTENSIONDIR)$/th_lv_LV_v2.dat
