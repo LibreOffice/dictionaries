@@ -5,7 +5,7 @@
     <!--
     <registration>
         <simple-license accept-by="admin" suppress-on-update="true">
-            <license-text xlink:href="LICENSE_en_US.txt" lang="en" />
+            <license-text xlink:href="LICENSE_en_US.txt" lang="en-US" />
             <license-text xlink:href="LICENSE_sv_SE.txt" lang="sv" />
         </simple-license>
     </registration>
@@ -16,7 +16,7 @@
     <identifier value="sv.dsso.dicts.ooo" />
 
     <display-name>
-    <name lang="en">Swedish Dictionary</name>
+    <name lang="en-US">Swedish Dictionary</name>
     <name lang="sv">Svensk ordlista</name>
     </display-name>
 

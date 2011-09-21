@@ -4,13 +4,13 @@
     <identifier value="Latviešu valodas pareizrakstības līdzekļi no dict.dv.lv" />
     <display-name>
 	<name lang="lv">Latviešu pareizrakstības vārdnīcas</name>
-	<name lang="en">Latvian Dictionaries</name>
+	<name lang="en-US">Latvian Dictionaries</name>
     </display-name>
     <platform value="all" />
     <dependencies>
         <OpenOffice.org-minimal-version value="2.4" d:name="OpenOffice.org 2.4" />
     </dependencies>
     <publisher>
-        <name xlink:href="http://dict.dv.lv" lang="en">Dicollecte-LV</name>
+        <name xlink:href="http://dict.dv.lv" lang="en-US">Dicollecte-LV</name>
     </publisher>
 </description>

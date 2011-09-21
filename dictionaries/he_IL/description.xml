@@ -3,7 +3,7 @@
     <version value="2010.09.16" />
     <identifier value="Hebrew.dictionary.from.hspell.ivrix.org.il" />
     <display-name>
-        <name lang="en">Hebrew spell check dictionary</name>
+        <name lang="en-US">Hebrew spell check dictionary</name>
         <name lang="he">רשימת מילים לבדיקת איות בעברית</name>
     </display-name>
     <platform value="all" />
@@ -11,7 +11,7 @@
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>
     <publisher>
-        <name xlink:href="http://hspell.ivrix.org.il/" lang="en">The Hspell Project</name>
+        <name xlink:href="http://hspell.ivrix.org.il/" lang="en-US">The Hspell Project</name>
         <name xlink:href="http://hspell.ivrix.org.il/" lang="he">פרוייקט Hspell</name>
      </publisher>
 </description>

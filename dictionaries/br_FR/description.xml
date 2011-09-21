@@ -4,7 +4,7 @@
     <version value="0.5" />
     <identifier value="breton-dictionary.from.Drouizig" />
     <display-name>
-        <name lang="en">Breton spellchecker.</name>
+        <name lang="en-US">Breton spellchecker.</name>
         <name lang="br">Brezhoneg : spellchecker.</name>
     </display-name>
     <platform value="all" />

@@ -11,18 +11,18 @@
 
     <publisher>
       <name lang="ro" xlink:href="http://rospell.sourceforge.net">rospell</name>
-      <name lang="en" xlink:href="http://rospell.sourceforge.net">rospell</name>
+      <name lang="en-US" xlink:href="http://rospell.sourceforge.net">rospell</name>
     </publisher>
 
    <!-- using i18n.ro for release notes -->
     <release-notes>
       <src xlink:href="http://rospell.sourceforge.net/dictionary_ro.html" lang="ro" />
-      <src xlink:href="http://rospell.sourceforge.net/dictionary_ro.html" lang="en" />
+      <src xlink:href="http://rospell.sourceforge.net/dictionary_ro.html" lang="en-US" />
     </release-notes>
 
     <display-name>
       <name lang="ro">Dicționare Românești</name>
-      <name lang="en">Romanian Dictionaries</name>
+      <name lang="en-US">Romanian Dictionaries</name>
     </display-name>
 
     <platform value="all" />

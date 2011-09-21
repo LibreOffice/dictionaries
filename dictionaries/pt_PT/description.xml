@@ -3,7 +3,7 @@
     <version value="9.3.9.0" />
     <identifier value="Maracuja.OOo3.pt-PT-dictionary" />
     <display-name>
-        <name lang="en">European Portuguese spelling and hyphenation dictionaries and thesaurus.</name>
+        <name lang="en-US">European Portuguese spelling and hyphenation dictionaries and thesaurus.</name>
         <name lang="pt">Corrector ortográfico, hifenizador e dicionário de sinónimos para português europeu.</name>
     </display-name>
     <platform value="all" />
@@ -11,6 +11,6 @@
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>
     <publisher>
-        <name xlink:href="http://maracuja.homeip.net/software/dict" lang="en">Maracujá</name>
+        <name xlink:href="http://maracuja.homeip.net/software/dict" lang="en-US">Maracujá</name>
     </publisher>
 </description>

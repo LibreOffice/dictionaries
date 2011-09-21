@@ -3,7 +3,7 @@
     <version value="0.6.1" />
     <identifier value="occitan.lengadocian.by.GallartBruno" />
     <display-name>
-        <name lang="en">Spelling dictionary for occitan-languedocian</name>
+        <name lang="en-US">Spelling dictionary for occitan-languedocian</name>
         <name lang="fr">Dictionnaire orthographique occitan-languedocien</name>
     </display-name>
     <publisher>

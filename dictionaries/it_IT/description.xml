@@ -12,17 +12,17 @@
     </dependencies>
 
     <publisher>
-        <name xlink:href="http://www.plio.it/" lang="en">PLIO (Progetto Linguistico Italiano OpenOffice.org)</name>
+        <name xlink:href="http://www.plio.it/" lang="en-US">PLIO (Progetto Linguistico Italiano OpenOffice.org)</name>
 <!--        <name xlink:href="http://www.plio.it/" lang="it">PLIO (Progetto Linguistico Italiano OpenOffice.org)</name>-->
     </publisher>
 
     <display-name>
-        <name lang="en">Italian spelling and hyphenation dictionaries and thesaurus</name>
+        <name lang="en-US">Italian spelling and hyphenation dictionaries and thesaurus</name>
         <name lang="it">Dizionario ortografico, dei sinonimi e di sillabazione per la lingua italiana</name>
     </display-name>
 
     <extension-description>
-        <src xlink:href="desc_en.txt" lang="en" />
+        <src xlink:href="desc_en.txt" lang="en-US" />
         <src xlink:href="desc_it.txt" lang="it" />
     </extension-description>
 

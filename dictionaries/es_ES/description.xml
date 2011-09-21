@@ -3,7 +3,7 @@
     <version value="2008.07.01" />
     <identifier value="org.openoffice.es.hunspell.dictionaries" />
     <display-name>
-        <name lang="en">Spanish spelling dictionary</name>
+        <name lang="en-US">Spanish spelling dictionary</name>
     </display-name>
     <platform value="all" />
     <dependencies>

@@ -3,7 +3,7 @@
             <version value="2008.02.01" />
     <identifier value="org.openoffice.hi.dictionaries.hi" />
     <display-name>
-        <name lang="en">Hindi Spellchecker Dictionary</name>
+        <name lang="en-US">Hindi Spellchecker Dictionary</name>
     </display-name>
     <platform value="all" />
     <dependencies>

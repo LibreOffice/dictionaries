@@ -3,7 +3,7 @@
     <version value="2008.07.01" />
     <identifier value="org.openoffice.th.hunspell.dictionaries" />
     <display-name>
-        <name lang="en">Thai spelling dictionary</name>
+        <name lang="en-US">Thai spelling dictionary</name>
     </display-name>
     <platform value="all" />
     <dependencies>

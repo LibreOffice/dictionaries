@@ -3,7 +3,7 @@
     <version value="2010.12.30" />
     <identifier value="org.openoffice.ar.hunspell.dictionaries" />
     <display-name>
-        <name lang="en">Arabic Spelling and Thesaurus (Ayaspell)</name>
+        <name lang="en-US">Arabic Spelling and Thesaurus (Ayaspell)</name>
         <name lang="ar">قاموس التدقيق اﻹملائي والمترادفات (آيةسبل)</name>
 
     </display-name>

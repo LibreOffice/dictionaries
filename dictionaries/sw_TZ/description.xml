@@ -3,7 +3,7 @@
     <version value="2008.07.01" />
     <identifier value="org.openoffice.sw.hunspell.dictionaries" />
     <display-name>
-        <name lang="en">Swahili spelling dictionary</name>
+        <name lang="en-US">Swahili spelling dictionary</name>
     </display-name>
     <platform value="all" />
     <dependencies>

@@ -3,7 +3,7 @@
     <version value="2008.07.01" />
     <identifier value="org.openoffice.zu.hunspell.dictionaries" />
     <display-name>
-        <name lang="en">Zulu hyphenation dictionary</name>
+        <name lang="en-US">Zulu hyphenation dictionary</name>
     </display-name>
     <platform value="all" />
     <dependencies>

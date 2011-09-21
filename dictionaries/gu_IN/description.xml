@@ -3,7 +3,7 @@
             <version value="2008.02.01" />
     <identifier value="org.openoffice.gu.dictionaries.gu" />
     <display-name>
-        <name lang="en">Gujarati Spellchecker Dictionary</name>
+        <name lang="en-US">Gujarati Spellchecker Dictionary</name>
     </display-name>
     <platform value="all" />
     <dependencies>

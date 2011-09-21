@@ -3,7 +3,7 @@
     <version value="2008.07.01" />
     <identifier value="org.openoffice.af.hunspell.dictionaries" />
     <display-name>
-        <name lang="en">Afrikaans spell checker</name>
+        <name lang="en-US">Afrikaans spell checker</name>
     </display-name>
     <platform value="all" />
     <dependencies>

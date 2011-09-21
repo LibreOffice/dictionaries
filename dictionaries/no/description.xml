@@ -3,7 +3,7 @@
 <version value="1.0.-RC1" />
 <identifier value="org.no.openoffice.dictionary.no-NO" />
 <display-name>
-<name lang="en">
+<name lang="en-US">
 Norwegian dictionaries (Nynorsk and Bokmål)
 </name>
 <name lang="nb">

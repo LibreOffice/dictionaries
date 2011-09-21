@@ -3,7 +3,7 @@
     <version value="2008.07.01" />
     <identifier value="org.openoffice.lt.hunspell.dictionaries" />
     <display-name>
-        <name lang="en">Lithuanian spelling and hyphenation dictionaries</name>
+        <name lang="en-US">Lithuanian spelling and hyphenation dictionaries</name>
     </display-name>
     <platform value="all" />
     <dependencies>
