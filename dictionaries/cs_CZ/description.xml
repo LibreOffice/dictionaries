@@ -3,7 +3,7 @@
     <version value="2011.08.30" />
     <identifier value="org.openoffice.cs.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">Czech spelling dictionary, hyphenation patterns, and thesaurus</name>
+        <name lang="en-US">Czech spelling dictionary, hyphenation rules, and thesaurus</name>
     </display-name>
     <platform value="all" />
     <dependencies>

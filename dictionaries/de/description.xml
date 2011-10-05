@@ -3,8 +3,7 @@
     <version value="2011.05.05" />
     <identifier value="German.frami2006.dictionary.from.org.openoffice.de.by.Karl.Zeiler" />
     <display-name>
-        <name lang="en-US">German (AT-frami, CH-frami, DE-frami) spelling, hyphenation, thesaurus</name>
-        <name lang="de">Deutsche (AT-frami, CH-frami, DE-frami) Rechtschreibung, Trennung, Thesaurus</name>
+        <name lang="en-US">German (Austria, Germany, Switzerland) spelling dictionaries, hyphenation rules, and thesauri</name>
     </display-name>
     <platform value="all" />
     <dependencies>

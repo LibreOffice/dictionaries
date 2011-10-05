@@ -3,7 +3,7 @@
     <version value="4.2.1" />
     <identifier value="french.modern-dictionary.from.Dicollecte.by.OlivierR" />
     <display-name>
-        <name lang="fr">Dictionnaires français.</name>
+        <name lang="en-US">French spelling dictionary, hyphenation rules, and thesaurus</name>
     </display-name>
     <platform value="all" />
     <dependencies>

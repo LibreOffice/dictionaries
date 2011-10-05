@@ -4,8 +4,7 @@
     <version value="0.5" />
     <identifier value="breton-dictionary.from.Drouizig" />
     <display-name>
-        <name lang="en-US">Breton spellchecker.</name>
-        <name lang="br">Brezhoneg : spellchecker.</name>
+        <name lang="en-US">Breton spelling dictionary</name>
     </display-name>
     <platform value="all" />
     <dependencies>
@@ -14,7 +13,4 @@
     <publisher>
         <name xlink:href="http://www.drouizig.org/" lang="fr">Korvigelloù an Drouizig</name>
     </publisher>
-    <extension-description>
-        <src xlink:href="package-description.txt" lang="fr" />
-    </extension-description>
 </description>

@@ -49,8 +49,6 @@ EXTENSION_ZIPNAME:=dict-it
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/desc_en.txt \
-    $(EXTENSIONDIR)$/desc_it.txt \
     $(EXTENSIONDIR)$/hyph_it_IT.dic \
     $(EXTENSIONDIR)$/it_IT.aff \
     $(EXTENSIONDIR)$/it_IT.dic \

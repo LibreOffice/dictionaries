@@ -3,8 +3,7 @@
     <version value="2010.10.19" />
     <identifier value="org.openoffice.hu.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">Hungarian spelling dictionary, hyphenation patterns, and thesaurus</name>
-        <name lang="hu">Magyar helyesírás-ellenőrző szótár, elválasztási minták és szókincstár</name>
+        <name lang="en-US">Hungarian spelling dictionary, hyphenation rules, and thesaurus</name>
     </display-name>
     <publisher>
         <name lang="en-US" xlink:href="http://www.fsf.hu/">FSF.hu Foundation</name>

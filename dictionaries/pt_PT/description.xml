@@ -3,8 +3,7 @@
     <version value="9.3.9.0" />
     <identifier value="Maracuja.OOo3.pt-PT-dictionary" />
     <display-name>
-        <name lang="en-US">European Portuguese spelling and hyphenation dictionaries and thesaurus.</name>
-        <name lang="pt">Corrector ortográfico, hifenizador e dicionário de sinónimos para português europeu.</name>
+        <name lang="en-US">European Portuguese spelling dictionary, hyphenation rules, and thesaurus</name>
     </display-name>
     <platform value="all" />
     <dependencies>

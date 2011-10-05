@@ -3,7 +3,7 @@
     <version value="2008.07.01" />
     <identifier value="org.openoffice.ne.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">Nepali spelling dictionary and thesaurus</name>
+        <name lang="en-US">Nepali spelling dictionary, and thesaurus</name>
     </display-name>
     <platform value="all" />
     <dependencies>

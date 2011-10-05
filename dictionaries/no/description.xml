@@ -4,29 +4,16 @@
 <identifier value="org.no.openoffice.dictionary.no-NO" />
 <display-name>
 <name lang="en-US">
-Norwegian dictionaries (Nynorsk and Bokmål)
+Norwegian (Nynorsk and Bokmål) spelling dictionary, hyphenation rules, and thesaurus
 </name>
-<name lang="nb">
-Norske ordlister (Nynorsk og Bokmål)
-</name>
-<name lang="nn">
-Norske ordlister (Nynorsk og Bokmål)
-</name>
-<name lang="no">
-Norske ordlister (Nynorsk og Bokmål)
-</name>
-
 </display-name>
 <platform value="all" />
 <dependencies>
 <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
-
 </dependencies>
 <publisher>
-<name xlink:href="http://no.openoffice.org">
+<name xlink:href="http://no.libreoffice.org/" lang="nb">
 Åpne kontorprogram på norsk
 </name>
-
 </publisher>
-
 </description>

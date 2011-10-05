@@ -3,8 +3,7 @@
     <version value="0.9.4" />
     <identifier value="Latviešu valodas pareizrakstības līdzekļi no dict.dv.lv" />
     <display-name>
-	<name lang="lv">Latviešu pareizrakstības vārdnīcas</name>
-	<name lang="en-US">Latvian Dictionaries</name>
+        <name lang="en-US">Latvian spelling dictionary, and hyphenation rules</name>
     </display-name>
     <platform value="all" />
     <dependencies>

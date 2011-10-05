@@ -3,8 +3,7 @@
     <version value="2010.10.06" />
     <identifier value="org.openoffice.hr.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">Croatian spelling dictionary and hyphenation patterns</name>
-        <name lang="hr">Rječnik hrvatskog pravopisa i uzorci prijeloma riječi</name>
+        <name lang="en-US">Croatian spelling dictionary, and hyphenation rules</name>
     </display-name>
     <platform value="all" />
     <dependencies>

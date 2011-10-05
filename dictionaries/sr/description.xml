@@ -3,9 +3,7 @@
     <version value="2010.09.20" />
     <identifier value="org.openoffice.sr.dictionaries.sr" />
     <display-name>
-        <name lang="en-US">Serbian spelling and hyphenation dictionaries</name>
-        <name lang="sr">Провера писања и хифенација (ћир, лат)</name>
-        <name lang="sh">Provera pisanja i hifenacija (lat, ćir)</name>
+        <name lang="en-US">Serbian (Cyrillic and Latin) spelling dictionary, and hyphenation rules</name>
     </display-name>
     <platform value="all" />
     <dependencies>

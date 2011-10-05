@@ -3,8 +3,7 @@
     <version value="2010.09.16" />
     <identifier value="Hebrew.dictionary.from.hspell.ivrix.org.il" />
     <display-name>
-        <name lang="en-US">Hebrew spell check dictionary</name>
-        <name lang="he">רשימת מילים לבדיקת איות בעברית</name>
+        <name lang="en-US">Hebrew spelling dictionary</name>
     </display-name>
     <platform value="all" />
     <dependencies>

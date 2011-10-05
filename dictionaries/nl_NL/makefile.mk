@@ -52,8 +52,6 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/nl_NL.aff \
     $(EXTENSIONDIR)$/nl_NL.dic \
     $(EXTENSIONDIR)$/hyph_nl_NL.dic \
-    $(EXTENSIONDIR)$/desc_en_US.txt \
-    $(EXTENSIONDIR)$/desc_nl_NL.txt \
     $(EXTENSIONDIR)$/license_en_EN.txt \
     $(EXTENSIONDIR)$/licentie_nl_NL.txt \
     $(EXTENSIONDIR)$/OpenTaal.png

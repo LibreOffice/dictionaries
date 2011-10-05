@@ -50,8 +50,7 @@ EXTENSION_ZIPNAME:=dict-br
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/br_FR.aff \
-    $(EXTENSIONDIR)$/br_FR.dic \
-    $(EXTENSIONDIR)$/package-description.txt
+    $(EXTENSIONDIR)$/br_FR.dic
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \

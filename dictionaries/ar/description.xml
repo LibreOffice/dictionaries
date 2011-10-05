@@ -3,11 +3,13 @@
     <version value="2010.12.30" />
     <identifier value="org.openoffice.ar.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">Arabic Spelling and Thesaurus (Ayaspell)</name>
-        <name lang="ar">قاموس التدقيق اﻹملائي والمترادفات (آيةسبل)</name>
-
+        <name lang="en-US">Arabic spelling dictionary, and thesaurus</name>
     </display-name>
     <platform value="all" />
+    <publisher>
+        <name lang="en-US" xlink:href="http://ayaspell.sourceforge.net/">Ayaspell</name>
+        <name lang="ar" xlink:href="http://ayaspell.sourceforge.net/">آيةسبل</name>
+    </publisher>
     <dependencies>
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>

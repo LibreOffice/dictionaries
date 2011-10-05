@@ -3,7 +3,7 @@
     <version value="2008.07.01" />
     <identifier value="org.openoffice.et.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">Estonian spelling and hyphenation dictionaries</name>
+        <name lang="en-US">Estonian spelling dictionary, and hyphenation rules</name>
     </display-name>
     <platform value="all" />
     <dependencies>

@@ -49,8 +49,6 @@ EXTENSION_ZIPNAME:=dict-sl
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/desc_en_US.txt \
-    $(EXTENSIONDIR)$/desc_sl_SI.txt \
     $(EXTENSIONDIR)$/th_sl_SI_v2.dat \
     $(EXTENSIONDIR)$/README_th_sl_SI.txt \
     $(EXTENSIONDIR)$/sl_SI.aff \

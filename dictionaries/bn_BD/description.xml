@@ -3,7 +3,7 @@
             <version value="2008.02.01" />
     <identifier value="org.openoffice.bn.dictionaries.bn" />
     <display-name>
-        <name lang="en-US">Bengali Spellchecker Dictionary</name>
+        <name lang="en-US">Bengali spelling dictionary</name>
     </display-name>
     <platform value="all" />
     <dependencies>

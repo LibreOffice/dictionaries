@@ -3,8 +3,7 @@
     <version value="2008.12.06" />
     <identifier value="org.openoffice.pl.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">Polish spell check dictionary, hyphenation rules and thesaurus</name>
-        <name lang="pl">Polski słownik ortograficzny, reguły przenoszenia wyrazów, słownik synonimów</name>
+        <name lang="en-US">Polish spelling dictionary, hyphenation rules, and thesaurus</name>
     </display-name>
     <platform value="all" />
     <dependencies>
