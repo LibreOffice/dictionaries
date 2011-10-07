@@ -1,5 +1,9 @@
 hyph_en_GB.dic - British English hyphenation patterns for OpenOffice.org
 
+version 2011-10-07
+
+- remove unnecessary parts for Hyphen 2.8.2
+
 version 2010-03-16
 
 Changes
