@@ -65,7 +65,18 @@
                 <value>DICT_HYPH</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>en-GB en-US en-PH en-ZA en-NA en-ZW en-AU en-CA en-IE en-IN en-BZ en-BS en-GH en-JM en-NZ en-TT</value>
+                <value>en-GB en-ZA en-NA en-ZW en-AU en-CA en-IE en-IN en-BZ en-BS en-GH en-JM en-NZ en-TT</value>
+            </prop>
+        </node>
+        <node oor:name="HyphDic_en-US" oor:op="fuse">
+            <prop oor:name="Locations" oor:type="oor:string-list">
+                <value>%origin%/hyph_en_US.dic</value>
+            </prop>
+            <prop oor:name="Format" oor:type="xs:string">
+                <value>DICT_HYPH</value>
+            </prop>
+            <prop oor:name="Locales" oor:type="oor:string-list">
+                <value>en-US en-PH</value>
             </prop>
         </node>
         <node oor:name="ThesDic_en-US" oor:op="fuse">
