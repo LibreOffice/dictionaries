@@ -47,6 +47,10 @@ EXTENSION_ZIPNAME:=dict-sv
 
 # --- Extension packaging ------------------------------------------
 
+.IF "$(WITH_LANG)" != ""
+DESCRIPTION_SRC:=$(MISC)/$(EXTENSIONNAME)_in/description.xml
+.ENDIF 
+
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/sv_SE.aff \
@@ -82,3 +86,9 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 $(EXTENSIONDIR)$/th_sv_SE.idx : "$(EXTENSIONDIR)$/th_sv_SE.dat"
          $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_sv_SE.idx <$(EXTENSIONDIR)$/th_sv_SE.dat
+
+.IF "$(WITH_LANG)" != ""
+$(DESCRIPTION_SRC) : description.xml
+    @@-$(MKDIRHIER) $(@:d)
+    $(COMMAND_ECHO)$(XRMEX) -p $(PRJNAME) -i $< -o $@ -m $(LOCALIZESDF) -l all
+.ENDIF

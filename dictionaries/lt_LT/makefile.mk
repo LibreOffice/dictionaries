@@ -47,6 +47,10 @@ EXTENSION_ZIPNAME:=dict-lt
 
 # --- Extension packaging ------------------------------------------
 
+.IF "$(WITH_LANG)" != ""
+DESCRIPTION_SRC:=$(MISC)/$(EXTENSIONNAME)_in/description.xml
+.ENDIF 
+
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/lt_LT.aff \
@@ -75,3 +79,8 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 # global targets for extension packing
 .INCLUDE : extension_post.mk
 
+.IF "$(WITH_LANG)" != ""
+$(DESCRIPTION_SRC) : description.xml
+    @@-$(MKDIRHIER) $(@:d)
+    $(COMMAND_ECHO)$(XRMEX) -p $(PRJNAME) -i $< -o $@ -m $(LOCALIZESDF) -l all
+.ENDIF

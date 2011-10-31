@@ -47,6 +47,10 @@ EXTENSION_ZIPNAME:=dict-pt-pt
 
 # --- Extension packaging ------------------------------------------
 
+.IF "$(WITH_LANG)" != ""
+DESCRIPTION_SRC:=$(MISC)/$(EXTENSIONNAME)_in/description.xml
+.ENDIF 
+
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/hyph_pt_PT.dic \
@@ -83,3 +87,9 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 $(EXTENSIONDIR)$/th_pt_PT_v2.idx : "$(EXTENSIONDIR)$/th_pt_PT_v2.dat"
          $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_pt_PT_v2.idx <$(EXTENSIONDIR)$/th_pt_PT_v2.dat
+
+.IF "$(WITH_LANG)" != ""
+$(DESCRIPTION_SRC) : description.xml
+    @@-$(MKDIRHIER) $(@:d)
+    $(COMMAND_ECHO)$(XRMEX) -p $(PRJNAME) -i $< -o $@ -m $(LOCALIZESDF) -l all
+.ENDIF

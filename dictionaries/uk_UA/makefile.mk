@@ -47,6 +47,10 @@ EXTENSION_ZIPNAME:=dict-uk
 
 # --- Extension packaging ------------------------------------------
 
+.IF "$(WITH_LANG)" != ""
+DESCRIPTION_SRC:=$(MISC)/$(EXTENSIONNAME)_in/description.xml
+.ENDIF 
+
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/uk_UA.aff \
@@ -81,3 +85,9 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 $(EXTENSIONDIR)$/th_uk_UA.idx : "$(EXTENSIONDIR)$/th_uk_UA.dat"
         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_uk_UA.idx <$(EXTENSIONDIR)$/th_uk_UA.dat
+
+.IF "$(WITH_LANG)" != ""
+$(DESCRIPTION_SRC) : description.xml
+    @@-$(MKDIRHIER) $(@:d)
+    $(COMMAND_ECHO)$(XRMEX) -p $(PRJNAME) -i $< -o $@ -m $(LOCALIZESDF) -l all
+.ENDIF

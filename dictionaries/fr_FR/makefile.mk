@@ -47,6 +47,10 @@ EXTENSION_ZIPNAME:=dict-fr
 
 # --- Extension packaging ------------------------------------------
 
+.IF "$(WITH_LANG)" != ""
+DESCRIPTION_SRC:=$(MISC)/$(EXTENSIONNAME)_in/description.xml
+.ENDIF 
+
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/README_hyph_fr.txt \
@@ -85,3 +89,9 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 $(EXTENSIONDIR)$/thes_fr.idx : "$(EXTENSIONDIR)$/thes_fr.dat"
          $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/thes_fr.idx <$(EXTENSIONDIR)$/thes_fr.dat
+
+.IF "$(WITH_LANG)" != ""
+$(DESCRIPTION_SRC) : description.xml
+    @@-$(MKDIRHIER) $(@:d)
+    $(COMMAND_ECHO)$(XRMEX) -p $(PRJNAME) -i $< -o $@ -m $(LOCALIZESDF) -l all
+.ENDIF

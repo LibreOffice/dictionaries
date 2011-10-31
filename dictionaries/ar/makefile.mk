@@ -47,6 +47,10 @@ EXTENSION_ZIPNAME:=dict-ar
 
 # --- Extension packaging ------------------------------------------
 
+.IF "$(WITH_LANG)" != ""
+DESCRIPTION_SRC:=$(MISC)/$(EXTENSIONNAME)_in/description.xml
+.ENDIF 
+
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/ar.aff \
@@ -80,6 +84,11 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 #.INCLUDE :  $(PRJ)$/prj$/tests.mk
 
+.IF "$(WITH_LANG)" != ""
+$(DESCRIPTION_SRC) : description.xml
+    @@-$(MKDIRHIER) $(@:d)
+    $(COMMAND_ECHO)$(XRMEX) -p $(PRJNAME) -i $< -o $@ -m $(LOCALIZESDF) -l all
+.ENDIF
+
 $(EXTENSIONDIR)$/th_ar.idx : "$(EXTENSIONDIR)$/th_ar.dat"
          $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_ar.idx <$(EXTENSIONDIR)$/th_ar.dat
-
