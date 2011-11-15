@@ -13,4 +13,7 @@
         <name xlink:href="http://hspell.ivrix.org.il/" lang="en-US">The Hspell Project</name>
         <name xlink:href="http://hspell.ivrix.org.il/" lang="he">פרוייקט Hspell</name>
      </publisher>
+     <icon>
+        <default xlink:href="alphabet.png" />
+     </icon>
 </description>
