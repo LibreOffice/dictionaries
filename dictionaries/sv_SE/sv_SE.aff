@@ -1,7 +1,7 @@
 SET ISO8859-1
 TRY aerndtislogmkpbhfjuv‰cˆÂyqxzvwÈ‚‡·Ë
 
-WORDCHARS -
+WORDCHARS -0123456789
 
 BREAK 1
 BREAK -
@@ -17,7 +17,7 @@ COMPOUNDMIN 1
 #COMPOUNDMIN 3
 
 # Only two, three or four word compounds:
-COMPOUNDWORDMAX 4
+#COMPOUNDWORDMAX 4
 
 # Disallow triple letters, like "fall"+"lucka":
 CHECKCOMPOUNDTRIPLE
@@ -672,3 +672,6 @@ SFX  s  0  0/WX  .
 
 SFX  r  N  1
 SFX  r  0  -/WX  .
+
+SFX  b  N  1
+SFX  b  0  -  .
