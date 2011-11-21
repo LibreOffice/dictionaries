@@ -59,7 +59,6 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/README_hyph_hu_HU.txt \
     $(EXTENSIONDIR)$/README_th_hu_HU_v2.txt \
     $(EXTENSIONDIR)$/th_hu_HU_v2.dat \
-    $(EXTENSIONDIR)$/help/hu/help.tree \
     $(EXTENSIONDIR)$/help/hu/org.openoffice.hu.hunspell.dictionaries/page1.xhp \
     $(EXTENSIONDIR)$/help/hu/org.openoffice.hu.hunspell.dictionaries/fsfhu.png \
     $(EXTENSIONDIR)$/help/hu/org.openoffice.hu.hunspell.dictionaries/szinonima.png
