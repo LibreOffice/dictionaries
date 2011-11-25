@@ -18,7 +18,9 @@ the reform of 2006-08-01.
 Hyphenation:
 ============
 Authors: Marco Huggenberger <marco@by-night.ch> / Daniel Naber <naber at danielnaber de>
-Version: 2011-05-05 (author and license information in source file added)
+Version: 2011-06-03
+		 Author and license information in source file added,
+		 bug fixed because of that under LibO 3.4.0
 License: GNU LGPL
 
 Thesaurus:
