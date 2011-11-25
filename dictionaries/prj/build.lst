@@ -40,6 +40,7 @@ di      dictionaries\sl_SI      nmake   -       all     di_sl_SI di_src NULL
 di      dictionaries\sr         nmake   -       all     di_sr di_src NULL
 di      dictionaries\sv_SE      nmake   -       all     di_sv_SE di_src NULL
 di      dictionaries\sw_TZ      nmake   -       all     di_sw_TZ di_src NULL
+di      dictionaries\te_IN      nmake   -       all     di_te_IN di_src NULL
 di      dictionaries\th_TH      nmake   -       all     di_th_TH di_src NULL
 di      dictionaries\uk_UA      nmake   -       all     di_uk_UA di_src NULL
 di      dictionaries\vi         nmake   -       all     di_vi di_src NULL
