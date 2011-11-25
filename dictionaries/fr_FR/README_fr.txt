@@ -1,7 +1,7 @@
 _______________________________________________________________________________
 
    DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS «Moderne»
-   version 4.2.1
+   version 4.3
 
    Olivier R. - dicollecte<at>free<dot>fr
    Dicollecte: http://www.dicollecte.org/
@@ -30,7 +30,7 @@ _______________________________________________________________________________
    - Chantal Contant, pour ses recherches sur la réforme de 1990 ;
    - Benoît Sagot, qui nous a autorisé à comparer notre lexique avec Lefff,
      ce qui a mis en évidence des dizaines d’erreurs d’étiquetage grammatical ;
-   - Philipp Burgess, pour la normalisation de l’unicode avec Hunspell.
+   - Philipp Burgess, pour la normalisation Unicode avec Hunspell.
 
    Merci aussi à tous ceux qui ont apporté leur pierre à l’édifice.
    http://www.dicollecte.org/members.php?prj=fr
@@ -74,4 +74,3 @@ _______________________________________________________________________________
     Dictionnaire «Classique & Réforme 1990»
         Ce dictionnaire contient les nouvelles et les anciennes graphies des
         mots concernés par la réforme de 1990.
-
