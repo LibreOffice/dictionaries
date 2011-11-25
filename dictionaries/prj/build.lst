@@ -3,6 +3,7 @@ di	dictionaries					usr1 - all di_mkout NULL
 di	dictionaries\source	nmake   -       all	di_src NULL
 di      dictionaries\af_ZA      nmake   -       all     di_af_ZA di_src NULL
 di      dictionaries\ar         nmake   -       all     di_ar di_src NULL
+di      dictionaries\be_BY      nmake   -       all     di_be_BY di_src NULL
 di      dictionaries\bg_BG      nmake   -       all     di_bg_BG di_src NULL
 di      dictionaries\bn_BD      nmake   -       all     di_bn_BD di_src NULL
 di      dictionaries\br_FR      nmake   -       all     di_br_FR di_src NULL
