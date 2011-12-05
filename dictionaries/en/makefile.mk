@@ -77,7 +77,19 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/README_hyph_en_US.txt \
     $(EXTENSIONDIR)$/README.txt \
     $(EXTENSIONDIR)$/th_en_US_v2.dat \
-    $(EXTENSIONDIR)$/WordNet_license.txt
+    $(EXTENSIONDIR)$/WordNet_license.txt \
+    $(EXTENSIONDIR)$/README_lightproof_en.txt \
+    $(EXTENSIONDIR)$/Lightproof.py \
+    $(EXTENSIONDIR)$/Linguistic.xcu \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_en.py \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_handler_en.py \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_impl_en.py \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_opts_en.py \
+    $(EXTENSIONDIR)$/dialog/en_en_US.default \
+    $(EXTENSIONDIR)$/dialog/en_en_US.properties \
+    $(EXTENSIONDIR)$/dialog/en.xdl \
+    $(EXTENSIONDIR)$/dialog/OptionsDialog.xcu \
+    $(EXTENSIONDIR)$/dialog/OptionsDialog.xcs
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
