@@ -61,7 +61,20 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/th_hu_HU_v2.dat \
     $(EXTENSIONDIR)$/help/hu/org.openoffice.hu.hunspell.dictionaries/page1.xhp \
     $(EXTENSIONDIR)$/help/hu/org.openoffice.hu.hunspell.dictionaries/fsfhu.png \
-    $(EXTENSIONDIR)$/help/hu/org.openoffice.hu.hunspell.dictionaries/szinonima.png
+    $(EXTENSIONDIR)$/help/hu/org.openoffice.hu.hunspell.dictionaries/szinonima.png \
+    $(EXTENSIONDIR)$/Lightproof.py \
+    $(EXTENSIONDIR)$/Linguistic.xcu \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_hu_HU.py \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_handler_hu_HU.py \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_impl_hu_HU.py \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_opts_hu_HU.py \
+    $(EXTENSIONDIR)$/dialog/hu_HU_en_US.default \
+    $(EXTENSIONDIR)$/dialog/hu_HU_en_US.properties \
+    $(EXTENSIONDIR)$/dialog/hu_HU_hu_HU.properties \
+    $(EXTENSIONDIR)$/dialog/hu_HU.xdl \
+    $(EXTENSIONDIR)$/dialog/OptionsDialog.xcu \
+    $(EXTENSIONDIR)$/dialog/OptionsDialog.xcs \
+    $(EXTENSIONDIR)$/README_lightproof_hu_HU.txt
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
