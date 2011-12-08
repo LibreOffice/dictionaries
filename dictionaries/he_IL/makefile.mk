@@ -54,7 +54,8 @@ DESCRIPTION_SRC:=$(MISC)/$(EXTENSIONNAME)_in/description.xml
 # just copy:
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/he_IL.aff \
-    $(EXTENSIONDIR)$/he_IL.dic 
+    $(EXTENSIONDIR)$/he_IL.dic \
+    $(EXTENSIONDIR)$/alphabet.png
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
