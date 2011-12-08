@@ -3,7 +3,7 @@
     <version value="2011.12.05" />
     <identifier value="org.openoffice.en.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">English dictionaries, hyphenation rules, thesaurus, and grammar checker</name>
+        <name lang="en-US">English spelling dictionaries, hyphenation rules, thesaurus, and grammar checker</name>
     </display-name>
     <platform value="all" />
     <dependencies>
