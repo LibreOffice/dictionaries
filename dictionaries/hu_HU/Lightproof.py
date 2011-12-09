@@ -286,7 +286,7 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
             aRes.aErrors = proofread( nDocId, rText, rLocale, \
                 nStartOfSentencePos, aRes.nBehindEndOfSentencePosition, rProperties)
         except:
-            traceback.print_exc(file=sys.stdout)
+            # traceback.print_exc(file=sys.stdout)
             aRes.aErrors = ()
         aRes.aProperties = ()
         aRes.xProofreader = self
