@@ -37,6 +37,7 @@ di      dictionaries\pt_BR      nmake   -       all     di_pt_BR di_src NULL
 di      dictionaries\pt_PT      nmake   -       all     di_pt_PT di_src NULL
 di      dictionaries\ro         nmake   -       all     di_ro di_src NULL
 di      dictionaries\ru_RU      nmake   -       all     di_ru_RU di_src NULL
+di      dictionaries\si_LK      nmake   -       all     di_si_LK di_src NULL
 di      dictionaries\sk_SK      nmake   -       all     di_sk_SK di_src NULL
 di      dictionaries\sl_SI      nmake   -       all     di_sl_SI di_src NULL
 di      dictionaries\sr         nmake   -       all     di_sr di_src NULL
