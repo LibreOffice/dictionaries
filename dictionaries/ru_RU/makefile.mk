@@ -57,7 +57,20 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/th_ru_RU_v2.dat \
     $(EXTENSIONDIR)$/ru_RU.aff \
     $(EXTENSIONDIR)$/ru_RU.dic \
-    $(EXTENSIONDIR)$/README_thes_ru_RU.txt
+    $(EXTENSIONDIR)$/README_thes_ru_RU.txt \
+    $(EXTENSIONDIR)$/README_Lightproof_ru_RU.txt \
+    $(EXTENSIONDIR)$/Lightproof.py \
+    $(EXTENSIONDIR)$/Linguistic.xcu \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_ru_RU.py \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_handler_ru_RU.py \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_impl_ru_RU.py \
+    $(EXTENSIONDIR)$/pythonpath/lightproof_opts_ru_RU.py \
+    $(EXTENSIONDIR)$/dialog/ru_RU_en_US.default \
+    $(EXTENSIONDIR)$/dialog/ru_RU_en_US.properties \
+    $(EXTENSIONDIR)$/dialog/ru_RU_ru_RU.properties \
+    $(EXTENSIONDIR)$/dialog/ru_RU.xdl \
+    $(EXTENSIONDIR)$/dialog/OptionsDialog.xcu \
+    $(EXTENSIONDIR)$/dialog/OptionsDialog.xcs
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \

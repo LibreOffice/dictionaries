@@ -8,26 +8,23 @@
                         </prop>
                         <node oor:name="Leaves">
 
-                                <node oor:name="org.openoffice.lightproof.en" oor:op="fuse">
-                                        
+                                <node oor:name="org.openoffice.lightproof.ru_RU" oor:op="fuse">
                                         <prop oor:name="Id">
-                                                <value>org.openoffice.en.hunspell.dictionaries</value>
+                                                <value>org.openoffice.ru.hunspell.dictionaries</value>
                                         </prop>
-                                        
                                         <prop oor:name="Label">
 
-                                                <value xml:lang="en">English sentence checking</value>
+                                                <value xml:lang="en">Grammar checking (Russian)</value>
+
+                                                <value xml:lang="ru">РџСЂРѕРІРµСЂРєР° РіСЂР°РјРјР°С‚РёРєРё (Р СѓСЃСЃРєРёР№ СЏР·С‹Рє)</value>
 
                                         </prop>
-                                        
                                         <prop oor:name="OptionsPage">
-                                                <value>%origin%/en.xdl</value>
+                                                <value>%origin%/ru_RU.xdl</value>
                                         </prop>
-                                        
                                         <prop oor:name="EventHandlerService">
-                                                <value>org.openoffice.comp.pyuno.LightproofOptionsEventHandler.en</value>
+                                                <value>org.openoffice.comp.pyuno.LightproofOptionsEventHandler.ru_RU</value>
                                         </prop>
-                                        
                                 </node>
 
                         </node>
