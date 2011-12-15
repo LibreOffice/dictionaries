@@ -6,9 +6,9 @@
 # 2009-2011 (c) László Németh (nemeth at numbertext org), license: MPL 1.1 / GPLv3+ / LGPLv3+
 
 import uno, unohelper, sys, traceback, re
-from lightproof_impl_en import locales
-from lightproof_impl_en import pkg
-import lightproof_handler_en
+from lightproof_impl_ru_RU import locales
+from lightproof_impl_ru_RU import pkg
+import lightproof_handler_ru_RU
 from string import join
 
 from com.sun.star.linguistic2 import XProofreader, XSupportedLocales
@@ -33,7 +33,7 @@ calcfunc = None
 
 # check settings
 def option(lang, opt):
-    return lightproof_handler_en.get_option(lang.Language + "_" + lang.Country, opt)
+    return lightproof_handler_ru_RU.get_option(lang.Language + "_" + lang.Country, opt)
 
 # filtering affix fields (ds, is, ts etc.)
 def onlymorph(st):
@@ -242,7 +242,7 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
         currentContext = uno.getComponentContext()
         SMGR = currentContext.ServiceManager
         spellchecker = SMGR.createInstanceWithContext("com.sun.star.linguistic2.SpellChecker", currentContext)
-        lightproof_handler_en.load(currentContext)
+        lightproof_handler_ru_RU.load(currentContext)
 
     # XServiceName method implementations
     def getServiceName(self):
@@ -317,105 +317,6 @@ g_ImplementationHelper.addImplementation( Lightproof, \
         "org.openoffice.comp.pyuno.Lightproof." + pkg,
         ("com.sun.star.linguistic2.Proofreader",),)
 
-g_ImplementationHelper.addImplementation( lightproof_handler_en.LightproofOptionsEventHandler, \
+g_ImplementationHelper.addImplementation( lightproof_handler_ru_RU.LightproofOptionsEventHandler, \
         "org.openoffice.comp.pyuno.LightproofOptionsEventHandler." + pkg,
         ("com.sun.star.awt.XContainerWindowEventHandler",),)
-# pattern matching for common English abbreviations
-abbrev = re.compile("(?i)\\b([a-z]|acct|approx|appt|apr|apt|assoc|asst|aug|ave|avg|co(nt|rp)?|ct|dec|defn|dept|dr|eg|equip|esp|est|etc|excl|ext|feb|fri|ft|govt?|hrs?|ib(id)?|ie|in(c|t)?|jan|jr|jul|lit|ln|mar|max|mi(n|sc)?|mon|Mrs?|mun|natl?|neg?|no(rm|s|v)?|nw|obj|oct|org|orig|pl|pos|prev|proj|psi|qty|rd|rec|rel|reqd?|resp|rev|sat|sci|se(p|pt)?|spec(if)?|sq|sr|st|subj|sun|sw|temp|thurs|tot|tues|univ|var|vs)\\.")
-
-# pattern for paragraph checking
-paralcap = re.compile(u"(?u)^[a-z].*[.?!] [A-Z].*[.?!][)\u201d]?$")
-
-
-punct = { "?": "question mark", "!": "exclamation mark",
-  ",": "comma", ":": "colon", ";": "semicolon",
-  "(": "opening parenthesis", ")": "closing parenthesis",
-  "[": "opening square bracket", "]": "closing square bracket",
-  u"\u201c": "opening quotation mark", u"\u201d": "closing quotation mark"}
-
-
-aA = set(["eucalypti", "eucalyptus", "Eucharist", "Eucharistic",
-"euchre", "euchred", "euchring", "Euclid", "euclidean", "Eudora",
-"eugene", "Eugenia", "eugenic", "eugenically", "eugenicist",
-"eugenicists", "eugenics", "Eugenio", "eukaryote", "Eula", "eulogies",
-"eulogist", "eulogists", "eulogistic", "eulogized", "eulogizer",
-"eulogizers", "eulogizing", "eulogy", "eulogies", "Eunice", "eunuch",
-"eunuchs", "Euphemia", "euphemism", "euphemisms", "euphemist",
-"euphemists", "euphemistic", "euphemistically", "euphonious",
-"euphoniously", "euphonium", "euphony", "euphoria", "euphoric",
-"Euphrates", "euphuism", "Eurasia", "Eurasian", "Eurasians", "eureka",
-"eurekas", "eurhythmic", "eurhythmy", "Euridyce", "Euripides", "euripus",
-"Euro", "Eurocentric", "Euroclydon", "Eurocommunism", "Eurocrat",
-"eurodollar", "Eurodollar", "Eurodollars", "Euromarket", "Europa",
-"Europe", "European", "Europeanisation", "Europeanise", "Europeanised",
-"Europeanization", "Europeanize", "Europeanized", "Europeans", "europium",
-"Eurovision", "Eustace", "Eustachian", "Eustacia", "euthanasia",
-"Ewart", "ewe", "Ewell", "ewer", "ewers", "Ewing", "once", "one",
-"oneness", "ones", "oneself", "onetime", "oneway", "oneyear", "u",
-"U", "UART", "ubiquitous", "ubiquity", "Udale", "Udall", "UEFA",
-"Uganda", "Ugandan", "ugric", "UK", "ukase", "Ukraine", "Ukrainian",
-"Ukrainians", "ukulele", "Ula", "ululated", "ululation", "Ulysses",
-"UN", "unanimity", "unanimous", "unanimously", "unary", "Unesco",
-"UNESCO", "UNHCR", "uni", "unicameral", "unicameralism", "Unicef",
-"UNICEF", "unicellular", "Unicode", "unicorn", "unicorns", "unicycle",
-"unicyclist", "unicyclists", "unidimensional", "unidirectional",
-"unidirectionality", "unifiable", "unification", "unified", "unifier",
-"unifilar", "uniform", "uniformally", "uniformed", "uniformer",
-"uniforming", "uniformisation", "uniformise", "uniformitarian",
-"uniformitarianism", "uniformity", "uniformly", "uniformness", "uniforms",
-"unify", "unifying", "unijugate", "unilateral", "unilateralisation",
-"unilateralise", "unilateralism", "unilateralist", "unilaterally",
-"unilinear", "unilingual", "uniliteral", "uniliteralism", "uniliteralist",
-"unimodal", "union", "unionism", "unionist", "unionists", "unionisation",
-"unionise", "unionised", "unionising", "unionization", "unionize",
-"unionized", "unionizing", "unions", "unipolar", "uniprocessor",
-"unique", "uniquely", "uniqueness", "uniquer", "Uniroyal", "unisex",
-"unison", "Unisys", "unit", "Unitarian", "Unitarianism", "Unitarians",
-"unitary", "unite", "united", "unitedly", "uniter", "unites", "uniting",
-"unitize", "unitizing", "unitless", "units", "unity", "univ", "Univac",
-"univalent", "univalve", "univariate", "universal", "universalisation",
-"universalise", "universalised", "universaliser", "universalisers",
-"universalising", "universalism", "universalist", "universalistic",
-"universality", "universalisation", "universalization", "universalize",
-"universalized", "universalizer", "universalizers", "universalizing",
-"universally", "universalness", "universe", "universes", "universities",
-"university", "univocal", "Unix", "uracil", "Urals", "uranium", "Uranus",
-"uranyl", "urate", "urea", "uremia", "uremic", "ureter", "urethane",
-"urethra", "urethral", "urethritis", "Urey", "Uri", "uric", "urinal",
-"urinalysis", "urinary", "urinated", "urinating", "urination", "urine",
-"urogenital", "urokinase", "urologist", "urologists", "urology",
-"Uruguay", "Uruguayan", "Uruguayans", "US", "USA", "usable", "usage",
-"usages", "use", "used", "useful", "usefulness", "usefully", "useless",
-"uselessly", "uselessness", "Usenet", "user", "users", "uses", "using",
-"usual", "usually", "usurer", "usurers", "usuress", "usurial", "usurious",
-"usurp", "usurpation", "usurped", "usurper", "usurping", "usurps",
-"usury", "Utah", "utensil", "utensils", "uterine", "uterus", "Utica",
-"utilitarian", "utilitarianism", "utilities", "utility", "utilizable",
-"utilization", "utilize", "utilized", "utilizes", "utilizing", "utopia",
-"utopian", "utopians", "utopias", "Utrecht", "Uttoxeter", "uvula",
-"uvular"])
-
-aAN = set(["f", "F", "FBI", "FDA", "heir", "heirdom", "heired",
-"heirer", "heiress", "heiring", "heirloom", "heirship", "honest",
-"honester", "honestly", "honesty", "honor", "honorable", "honorableness",
-"honorably", "honorarium", "honorary", "honored", "honorer", "honorific",
-"honoring", "honors", "honour", "honourable", "honourableness",
-"honourably", "honourarium", "honourary", "honoured", "honourer",
-"honourific", "honouring", "Honours", "hors", "hour", "hourglass", "hourlong",
-"hourly", "hours", "l", "L", "LCD", "m", "M", "MBA", "MP", "mpg", "mph",
-"MRI", "MSc", "MTV", "n", "N", "NBA", "NBC", "NFL", "NGO", "NHL", "r",
-"R", "s", "S", "SMS", "sos", "SOS", "SPF", "std", "STD", "SUV", "x",
-"X", "XML"])
-
-aB = set(["H", "hallucination", "haute", "hauteur", "herb", "herbaceous", "herbal",
-"herbalist", "herbalism", "heroic", "hilarious", "historian", "historic", "historical",
-"homage", "homophone", "horrendous", "hospitable", "horrific", "hotel", "hypothesis", "Xmas"])
-
-def measurement(mnum, min, mout, mstr, decimal, remove):
-    if min == "ft" or min == "in" or min == "mi":
-        mnum = mnum.replace(" 1/2", ".5").replace(u" \xbd", ".5").replace(u"\xbd",".5")
-    m = calc("CONVERT_ADD", (float(eval(mnum.replace(remove, "").replace(decimal, ".").replace(u"\u2212", "-"))), min, mout))
-    a = list(set([str(calc("ROUND", (m, 0)))[:-2], str(calc("ROUND", (m, 1))), str(calc("ROUND", (m, 2))), str(m)])) # remove duplicated rounded items
-    a.sort(lambda x, y: len(x) - len(y)) # sort by string length
-    return join(a, mstr + "\n").replace(".", decimal).replace("-", u"\u2212") + mstr
-
