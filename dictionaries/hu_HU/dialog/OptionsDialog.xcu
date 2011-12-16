@@ -4,8 +4,7 @@
         <node oor:name="Nodes">
                 <node oor:name="org.openoffice.lightproof" oor:op="fuse">
                         <prop oor:name="Label">
-                                <value xml:lang="en">Dictionaries</value>
-                                <value xml:lang="hu">Szótárak</value>
+                                <value xml:lang="en-US">Dictionaries</value>
                         </prop>
                         <node oor:name="Leaves">
 
@@ -17,9 +16,7 @@
                                         
                                         <prop oor:name="Label">
 
-                                                <value xml:lang="en">Hungarian sentence checking</value>
-
-                                                <value xml:lang="hu">Magyar mondatellenőrzés</value>
+                                                <value xml:lang="en-US">Hungarian sentence checking</value>
 
                                         </prop>
                                         

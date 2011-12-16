@@ -4,7 +4,7 @@
         <node oor:name="Nodes">
                 <node oor:name="org.openoffice.lightproof" oor:op="fuse">
                         <prop oor:name="Label">
-                                <value xml:lang="en">Dictionaries</value>
+                                <value xml:lang="en-US">Dictionaries</value>
                         </prop>
                         <node oor:name="Leaves">
 
@@ -14,9 +14,7 @@
                                         </prop>
                                         <prop oor:name="Label">
 
-                                                <value xml:lang="en">Grammar checking (Russian)</value>
-
-                                                <value xml:lang="ru">РџСЂРѕРІРµСЂРєР° РіСЂР°РјРјР°С‚РёРєРё (Р СѓСЃСЃРєРёР№ СЏР·С‹Рє)</value>
+                                                <value xml:lang="en-US">Grammar checking (Russian)</value>
 
                                         </prop>
                                         <prop oor:name="OptionsPage">
