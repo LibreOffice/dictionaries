@@ -3,7 +3,7 @@
     <version value="2011.01.29" />
     <identifier value="org.openoffice.ru.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">Russian spelling dictionary, hyphenation rules, and thesaurus</name>
+        <name lang="en-US">Russian spelling dictionary, hyphenation rules, thesaurus, and grammar checker</name>
     </display-name>
     <platform value="all" />
     <dependencies>
