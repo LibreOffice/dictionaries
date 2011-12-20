@@ -1,7 +1,7 @@
 _______________________________________________________________________________
 
    Dictionnaire des synonymes français myThes
-   version 2.2.3
+   version 2.3
 
    Par Frédéric Labbé
 
@@ -9,7 +9,7 @@ _______________________________________________________________________________
    http://www.dicollecte.org/thesaurus.php?prj=fr
 
    Licence:
-     LGPL: GNU Lesser General Public License
+     LGPL : GNU Lesser General Public License
      version 2.1 ou supérieure  --  http://www.gnu.org/licenses/lgpl-2.1.html
 _______________________________________________________________________________
 
@@ -44,4 +44,7 @@ _______________________________________________________________________________
 
  * La version 2.2 est générée à partir de la base de données de Dicollecte.
    Pour l'instant, seules quelques modifications ont été faites.
+
+ * Version 2.3 : nettoyage des entrées erronées.
+
 _______________________________________________________________________________

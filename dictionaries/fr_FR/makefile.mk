@@ -57,7 +57,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/README_thes_fr.txt \
     $(EXTENSIONDIR)$/fr.aff \
     $(EXTENSIONDIR)$/fr.dic \
-    $(EXTENSIONDIR)$/frhyph.tex \
+    $(EXTENSIONDIR)$/hyph-fr.tex \
     $(EXTENSIONDIR)$/hyph_fr.dic \
     $(EXTENSIONDIR)$/thes_fr.dat \
     $(EXTENSIONDIR)$/package-description.txt
