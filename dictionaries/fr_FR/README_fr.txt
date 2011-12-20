@@ -1,10 +1,10 @@
 _______________________________________________________________________________
 
    DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS «Moderne»
-   version 4.3
+   version 4.4
 
    Olivier R. - dicollecte<at>free<dot>fr
-   Dicollecte: http://www.dicollecte.org/
+   Dicollecte : http://www.dicollecte.org/
 
    Licences :
    * MPL : Mozilla Public License
@@ -20,10 +20,10 @@ _______________________________________________________________________________
    Principaux contributeurs :
    - Sylvain P. ;
    - Laurent Dubois ;
-   - Pierre Poisson ;
    - Jean-Luc T. ;
-   - Pierre-Yves ;
+   - Pierre Poisson ;
    - Dominique Pellé ;
+   - Pierre-Yves ;
    - Leywen ;
    - Romain Muller et Serge Bibauw, de l’association RENOUVO, grâce à qui
      la nouvelle orthographe et ses anciennes variantes ont pu être établies ;
