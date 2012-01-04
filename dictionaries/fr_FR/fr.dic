@@ -1,4 +1,4 @@
-70210
+70219
 2D	65
 3D	65
 A/57	7
@@ -86,7 +86,7 @@ Aix-la-Chapelle/7	12
 Aix-les-Bains/7	12
 Ajaccio/7	12
 Akhenaton/7	16
-Al-Qaïda/9	2
+Al-Qaïda/9	47
 Alabama/45	44
 Alain/7	16
 Alan/7	16
@@ -1111,7 +1111,7 @@ DEUG	7
 DJ	88
 DOM	7
 DOM-TOM	126
-DRH	10
+DRH	88
 DVD	7
 DVD-ROM	7
 Da/57	7
@@ -1403,7 +1403,7 @@ Esther/7	19
 Estonie/34	33
 Estrie/34	33
 Étampes/7	12
-État-nation/7	1
+État-nation/7	18
 États-Unis	126
 États-nations/9	20
 Ethan/7	16
@@ -1444,7 +1444,7 @@ Evrard/7	16
 Évreux/7	12
 Évry/7	12
 Exbrayat/7	15
-Excalibur/9	219
+Excalibur/9	19
 Ézéchias/7	16
 Ézéchiel/7	16
 F/57	7
@@ -1594,7 +1594,7 @@ Fulcanelli	16
 Futuna	12
 G/57	7
 GBP/37	65
-GMT	277
+GMT	275
 GPL	7
 GPS	7
 GSM	7
@@ -2401,7 +2401,7 @@ Lauriane	19
 Laurie	19
 Laurine	19
 Lausanne	12
-Laval	279
+Laval	277
 Lavoisier	15
 Lazare	16
 Léa	19
@@ -3699,7 +3699,7 @@ Romuald	16
 Romulus	16
 Ronan	16
 Roncevaux	12
-Ronsard	222
+Ronsard	220
 Roosevelt	15
 Rorschach	15
 Rosalie	19
@@ -3928,7 +3928,7 @@ Schoenberg	15
 Schopenhauer	15
 Schoten	12
 Schottky	15
-Schouten	280
+Schouten	278
 Schreier	15
 Schrödinger	15
 Schubert	15
@@ -4516,7 +4516,7 @@ Violette	19
 Virasoro	15
 Virgile	16
 Virginia	19
-Virginie	218
+Virginie	217
 Virginie-Occidentale	33
 Virton	12
 Viry-Châtillon	12
@@ -4599,7 +4599,7 @@ Wilfried	16
 Willebroek	12
 William	16
 Willy	16
-Wilson	221
+Wilson	219
 Windhoek	12
 Windows
 Winnipeg	12
@@ -5101,7 +5101,7 @@ absorbeur/2	1
 absorptiométrie/2	2
 absorption/2	2
 absorptivité/2	2
-absoudre/116	79
+absoudre/117	79
 absoute/5	3
 absoute/2	2
 abstème/2	13
@@ -5189,7 +5189,7 @@ accastiller/11	5
 accastilleuse/5	9
 accédante/5	9
 accédée/5	3
-accéder/129	122
+accéder/130	122
 accelerando/9	8
 accélérando/2	1
 accélérateur/2	1
@@ -5309,7 +5309,7 @@ accoupleuse/5	9
 accourcie/5	3
 accourcir/64	100
 accourcissement/2	1
-accourir/128	91
+accourir/129	91
 accourse/2	2
 accoutrée/5	3
 accoutrement/2	1
@@ -5347,7 +5347,7 @@ accu/2	1
 accueil/2	1
 accueillante/5	3
 accueillie/5	3
-accueillir/126	82
+accueillir/127	82
 accul/2	1
 acculée/5	3
 acculer/11	5
@@ -5711,7 +5711,7 @@ adessif/2	1
 adextrée/5	3
 adhérence/2	2
 adhérente/5	6
-adhérer/129	122
+adhérer/130	122
 adhésion/2	2
 adhésive/5	6
 adhésivité/2	2
@@ -7222,7 +7222,7 @@ amont/2	1
 amorale/23	3
 amoralisme/2	1
 amoralité/2	2
-amorçable/2	3
+amorçable/2	4
 amorçage/2	1
 amorce/2	2
 amorcée/5	3
@@ -8695,7 +8695,7 @@ archaïquement/9	8
 archaïsante/5	3
 archaïser/42	14
 archaïsme/2	1
-archal/76	1
+archal/76	18
 archange/2	1
 archangélique/2	4
 arche/2	2
@@ -9684,7 +9684,7 @@ attroupement/2	1
 attrouper/15	11
 atypie/2	2
 atypique/2	4
-au/265	256
+au/265	254
 aubade/2	2
 aubage/2	1
 aubaine/5	6
@@ -9743,7 +9743,7 @@ audiotex/7	7
 audiotypiste/2	10
 audiovisuel/2	1
 audiovisuelle/5	3
-audit/79	273
+audit/79	271
 audit/2	1
 auditer/11	5
 audition/2	2
@@ -10076,7 +10076,7 @@ autour/9	8
 autour/2	1
 autovaccin/2	1
 autovaccination/2	2
-autre	254
+autre	252
 autre/2	13
 autrefois/9	8
 autrement/9	8
@@ -10086,9 +10086,9 @@ autruche/2	2
 autrui/7	78
 auvent/2	1
 auvergnate/5	6
-aux/261	257
-auxdites/79	274
-auxdits/79	272
+aux/261	255
+auxdites/79	272
+auxdits/79	270
 auxiliaire/2	13
 auxiliairement/9	8
 auxiliariat/2	1
@@ -10269,7 +10269,7 @@ avoine/2	2
 avoinée/5	3
 avoiner/11	5
 avoir/2	1
-avoir/176	216
+avoir/176	215
 avoirdupoids/34
 avoisinante/5	3
 avoisiner/15	11
@@ -10836,7 +10836,7 @@ barde/1	10
 bardeau/19	1
 bardée/1	2
 barder/4	5
-barder/131	110
+barder/132	110
 bardeuse/3	9
 bardis	7
 bardot/1	1
@@ -11243,7 +11243,7 @@ béguë/3	3
 bègue/1	13
 béguer/63	14
 béguètement/1	1
-bégueter/130	14
+bégueter/131	14
 bégueule/1	4
 bégueulerie/1	2
 béguinage/1	1
@@ -11458,7 +11458,7 @@ bêtabloquante/3	3
 bêtacarotène/1	1
 bétail/1	1
 bétaillère/1	2
-bétaïne/3	47
+bétaïne/1	2
 bêtasse/1	112
 bêtathérapie/1	2
 bêtatron/1	1
@@ -11578,7 +11578,7 @@ bichonnage/1	1
 bichonne/3	9
 bichonner/4	11
 bichonneuse/3	9
-bichoter/131	110
+bichoter/132	110
 bichromate/1	1
 bichrome/1	4
 bichromie/1	2
@@ -12864,7 +12864,7 @@ boutonnière/3	6
 bouton-poussoir	18
 bouton-pression	18
 boutons-d'argent	20
-boutons-d'or	235
+boutons-d'or	233
 boutons-pression	20
 boutre/1	1
 bouts-dehors	20
@@ -14373,7 +14373,7 @@ capital-risque	18
 capitan/1	1
 capitanat/1	1
 capitation/1	2
-capitaux-risques	234
+capitaux-risques	232
 capite/1	2
 capitée/3	3
 capiteuse/8	3
@@ -15236,7 +15236,7 @@ censure/1	2
 censurée/3	3
 censurer/4	5
 cent/1	1
-cent/132	49
+cent/113	49
 centaine/1	2
 centaurée/1	2
 centauresse/3	9
@@ -15284,6 +15284,7 @@ centrifugation/1	2
 centrifuge/1	4
 centrifuger/4	5
 centrifugeuse/3	9
+centriole/1	1
 centripète/1	4
 centrisme/1	1
 centriste/1	13
@@ -15399,7 +15400,7 @@ cervicalgie/1	2
 cervidé/1	1
 cervier/1	1
 cervoise/1	2
-ces	266
+ces	264
 césalpiniacée/1	4
 césalpiniacée/1	2
 césar/1	1
@@ -15433,7 +15434,7 @@ cétonémie/1	2
 cétonique/1	4
 cétonurie/1	2
 cétose/1	10
-cette	265
+cette	263
 ceux	78
 ceux-ci	78
 ceux-là	78
@@ -15677,7 +15678,7 @@ chapska/1	10
 chaptalisation/1	2
 chaptalisée/3	3
 chaptaliser/4	5
-chaque	262
+chaque	260
 char/1	1
 charabia/1	1
 charade/1	2
@@ -15770,7 +15771,7 @@ charte/1	2
 charte-partie	47
 charter/1	1
 chartériser/4	5
-chartes-parties	240
+chartes-parties	238
 chartisme/1	1
 chartiste/1	10
 chartreuse/8	6
@@ -15988,7 +15989,7 @@ chérifienne/3	3
 chérimolier/1	1
 chérir/29	84
 chérissable/1	4
-cherokee/1	6
+cherokee/1	13
 chérot/1	4
 cherrer/10	14
 cherry/1	1
@@ -16104,7 +16105,7 @@ chien-loup	18
 chienne/3	6
 chienner/10	14
 chiennerie/1	2
-chiens-assis	233
+chiens-assis	231
 chiens-loups	20
 chier/4	41
 chierie/1	2
@@ -16356,7 +16357,7 @@ choux-fleurs	20
 choux-navets	20
 choux-raves	20
 chow-chow	18
-chows-chows	232
+chows-chows	230
 choyée/3	6
 choyer/4	5
 chrême/1	1
@@ -17788,7 +17789,7 @@ compilée/3	3
 compiler/4	5
 compisser/4	5
 complainte/1	2
-complaire/119	150
+complaire/120	150
 complaisamment	8
 complaisance/1	2
 complaisante/3	3
@@ -18013,7 +18014,7 @@ conclave/1	1
 conclaviste/1	1
 concluante/3	3
 conclue/3	3
-conclure/117	129
+conclure/118	129
 conclusion/1	2
 conclusive/3	3
 concoctée/3	3
@@ -18032,7 +18033,7 @@ concorder/10	14
 concordisme/1	1
 concordiste/1	13
 concourante/3	3
-concourir/128	138
+concourir/129	138
 concouriste/1	10
 concours	7
 concrescence/1	2
@@ -18073,7 +18074,7 @@ condenser/4	11
 condenseur/1	1
 condescendance/1	2
 condescendante/3	3
-condescendre/121	151
+condescendre/122	151
 condiment/1	1
 condisciple/1	10
 condition/1	2
@@ -18635,7 +18636,7 @@ contragestif/1	1
 contragestive/3	3
 contraignable/1	4
 contraignante/3	3
-contraindre/118	79
+contraindre/119	79
 contrainte/3	3
 contrainte/1	2
 contraire/1	4
@@ -19243,7 +19244,7 @@ corréler/33	5
 correspondance/1	2
 correspondancière/3	9
 correspondante/3	6
-correspondre/121	137
+correspondre/122	137
 corrézienne/3	6
 corrida/1	2
 corridor/1	1
@@ -19426,7 +19427,7 @@ couder/4	5
 coudoiement/1	1
 coudoyer/4	5
 coudraie/1	2
-coudre/115	82
+coudre/116	82
 coudrier/1	1
 couenne/1	2
 couette/1	2
@@ -19594,7 +19595,7 @@ courtoise/3	3
 courtoisement	8
 courtoisie/1	2
 courts-bouillons	20
-courts-circuitages	231
+courts-circuitages	229
 courts-circuits	20
 courue/3	3
 couscous	7
@@ -19702,7 +19703,7 @@ crado/1	13
 craie/1	2
 craignos	45
 crailler/10	14
-craindre/118	113
+craindre/119	113
 crainte/3	3
 crainte/1	2
 craintive/3	6
@@ -20005,7 +20006,7 @@ cristallographie/1	2
 cristallographique/1	4
 cristalloïde/1	13
 criste-marine	47
-cristes-marines	239
+cristes-marines	237
 critère/1	1
 critériologie/1	2
 critériologique/1	4
@@ -20238,7 +20239,7 @@ cueillaison/1	2
 cueillette/1	2
 cueilleuse/3	9
 cueillie/3	3
-cueillir/126	82
+cueillir/127	82
 cueilloir/1	1
 cuesta/1	2
 cui-cui	70
@@ -20760,7 +20761,7 @@ daurade/1	2
 davantage	78
 davier/1	1
 dazibao/1	1
-de	268
+de	266
 dé/1	1
 déactiver/4	5
 deal/1	1
@@ -21388,7 +21389,7 @@ décote/1	2
 décotée/3	3
 découchage/1	1
 découcher/10	14
-découdre/115	79
+découdre/116	79
 découler/10	121
 découpage/1	1
 découpe/1	2
@@ -21556,7 +21557,7 @@ déduite/3	3
 déesse/1	2
 défaillance/1	2
 défaillante/3	3
-défaillir/125	91
+défaillir/126	91
 défaire/87	79
 défaisance/1	2
 défaite/3	3
@@ -22335,7 +22336,7 @@ démoralisation/1	2
 démoralisatrice/3	6
 démoralisée/3	3
 démoraliser/4	11
-démordre/121	151
+démordre/122	151
 démotique/1	4
 démotivante/3	3
 démotivation/1	2
@@ -22627,7 +22628,7 @@ déplacement/1	1
 déplacer/4	11
 déplafonnement/1	1
 déplafonner/4	5
-déplaire/119	150
+déplaire/120	150
 déplaisamment	8
 déplaisante/3	3
 déplaisir/1	1
@@ -22727,7 +22728,7 @@ dépréciée/3	3
 déprécier/4	11
 déprédation/1	2
 déprédatrice/3	6
-déprendre/120	120
+déprendre/121	120
 dépresseur/1	95
 dépression/1	2
 dépressionnaire/1	4
@@ -23397,7 +23398,7 @@ desserte/1	2
 dessertir/29	84
 dessertissage/1	1
 desservante/3	9
-desservir/127	79
+desservir/128	79
 dessiccation/1	2
 dessiccative/3	3
 dessiller/4	11
@@ -24453,7 +24454,7 @@ dissolvante/3	3
 dissonance/1	2
 dissonante/3	6
 dissoner/10	14
-dissoudre/116	79
+dissoudre/117	79
 dissuadée/3	3
 dissuader/4	5
 dissuasion/1	2
@@ -24848,10 +24849,10 @@ doublée/3	3
 doublement	8
 doublement/1	1
 doubler/4	41
-doubles-clics	230
+doubles-clics	228
 doubles-commandes	46
 doubles-crèmes	20
-doubles-croches	238
+doubles-croches	236
 doublet/1	1
 doublette/1	2
 doubleuse/3	9
@@ -26285,9 +26286,9 @@ elfique/2	4
 élitisme/2	1
 élitiste/2	4
 élixir/2	1
-elle/173	244
+elle/173	242
 elle-même/9	78
-elles/173	247
+elles/173	245
 elles-mêmes/9	78
 ellipse/2	2
 ellipsoïdale/23	3
@@ -26679,7 +26680,7 @@ emmuseler	11
 émoucheter/71	5
 émouchette/2	2
 émouchoir/2	1
-émoudre/114	82
+émoudre/115	82
 émoulage/2	1
 émouleur/2	1
 émoulue/5	3
@@ -27819,7 +27820,7 @@ entre-dévorer/66	105
 entrée/5	3
 entrée/2	2
 entrée-sortie/7	47
-entrées-sorties	237
+entrées-sorties	235
 entrefaite/2	2
 entrefaites	46
 entrefer/2	1
@@ -27881,7 +27882,7 @@ entretoisée/5	3
 entretoiser/11	5
 entre-tuer/66	105
 entrevoie/2	2
-entrevoir/122	79
+entrevoir/123	79
 entrevous/7	7
 entrevoûtée/5	3
 entrevoûter/11	5
@@ -28328,7 +28329,7 @@ enzymopathie/2	2
 époxydique/2	4
 épreindre	82
 épreinte/2	2
-éprendre/120	120
+éprendre/121	120
 épreuve/2	2
 éprise/5	3
 éprouvante/5	3
@@ -28897,7 +28898,7 @@ estuarienne/5	3
 estudiantine/5	3
 esturgeon/2	1
 eszett/2	1
-et	271
+et	269
 êta/7	7
 étable/2	2
 établée/5	3
@@ -29147,7 +29148,7 @@ ethnopsychologie/2	2
 étrangloir/2	1
 étrave/2	2
 être/2	1
-être/175	215
+être/175	214
 étrécie/5	3
 étrécir/43	83
 étrécissement/2	1
@@ -29508,7 +29509,7 @@ exclamation/2	2
 exclamative/5	6
 exclamer/48	56
 exclue/5	6
-exclure/117	79
+exclure/118	79
 exclusion/2	2
 exclusive/5	6
 exclusivement/9	8
@@ -30006,7 +30007,7 @@ fabuliste/1	10
 fac/1	2
 façade/1	2
 façadière/3	6
-face	258
+face	256
 face/1	2
 face-à-face	7
 face-à-main	18
@@ -30939,7 +30940,7 @@ filtre/1	1
 filtrée/3	3
 filtre-presse	18
 filtrer/4	17
-filtres-presses	229
+filtres-presses	227
 filtreuse/3	9
 fin	8
 fin/1	2
@@ -31263,7 +31264,7 @@ floréal/1	1
 florence/1	10
 florencée/3	3
 florentine/3	6
-florès	275
+florès	273
 floribondité/1	2
 floricole/1	4
 floricultrice/3	9
@@ -31782,7 +31783,7 @@ foxée/3	3
 fox-terrier/1	1
 fox-trot	7
 foyer/1	1
-fr	217
+fr	216
 frac/1	1
 fracas	7
 fracassante/3	3
@@ -32320,7 +32321,7 @@ furane/1	1
 furax	45
 furcula/1	2
 furetage/1	1
-fureter/130	14
+fureter/131	14
 fureteuse/3	6
 furette/3	9
 fureur/1	2
@@ -32978,7 +32979,7 @@ gendarmer/4	56
 gendarmerie/1	2
 gendarmesque/1	4
 gendarmette/1	2
-gendelettre/1	9
+gendelettre/1	1
 gendre/1	1
 gène/1	1
 gêne/1	2
@@ -33075,7 +33076,7 @@ gentilité/1	2
 gentille/3	6
 gentillesse/1	2
 gentillette/3	3
-gentilshommes	228
+gentilshommes	226
 gentiment	8
 gentleman/1	1
 gentleman-farmer	18
@@ -33997,7 +33998,7 @@ grands-messes	46
 grands-oncles	46
 grands-papas	20
 grands-parents	20
-grands-pères	227
+grands-pères	225
 grands-tantes	46
 grands-voiles	46
 grand-tante/1	2
@@ -34182,7 +34183,7 @@ grègues	46
 grêle/1	4
 grêle/1	2
 grêlée/3	3
-grêler/131	209
+grêler/132	209
 grelin/1	1
 grêlon/1	1
 grelot/1	1
@@ -34754,7 +34755,7 @@ haler/4	5
 hâler/4	11
 haletante/3	3
 halètement/1	1
-haleter/130	14
+haleter/131	14
 haleuse/3	9
 half-track/1	1
 halicte/2	1
@@ -35000,7 +35001,7 @@ haute-lisse	47
 haute-lissière/3	9
 hautement	8
 hautes-contre	107
-hautes-fidélités	282
+hautes-fidélités	280
 hautes-fidélités	46
 hautes-lisses	46
 hautesse/1	2
@@ -36683,7 +36684,7 @@ ignorer/15	11
 iguane/2	1
 iguanodon/2	1
 igue/2	2
-il/172	243
+il/172	241
 île/2	2
 iléale/23	3
 iléite/2	2
@@ -36748,7 +36749,7 @@ ilménite/2	2
 ilote/2	10
 îlotière/5	9
 ilotisme/2	1
-ils/172	246
+ils/172	244
 image/2	2
 imagée/5	3
 imager/11	5
@@ -37373,7 +37374,7 @@ inclination/2	2
 inclinée/5	3
 incliner/15	41
 inclinomètre/2	1
-inclure/117	79
+inclure/118	79
 incluse/5	3
 inclusion/2	2
 inclusive/5	3
@@ -38597,7 +38598,7 @@ interacadémique/2	4
 interaction/2	2
 interactionnisme/2	1
 interactionnisme/2	1
-interactionniste/2	281
+interactionniste/2	279
 interactive/5	3
 interactivement/9	8
 interactivité/2	2
@@ -39289,7 +39290,7 @@ islamiste/2	13
 islamité/2	2
 islamologie/2	2
 islamologue/2	10
-islamophobe/2	3
+islamophobe/2	4
 islamophobie/2	2
 islandaise/5	6
 ismaélienne/5	6
@@ -39632,7 +39633,7 @@ javer/4	5
 jazz	7
 jazzman/1	1
 jazzy	45
-je	249
+je	247
 jean/1	1
 jean-foutre	7
 jean-le-blanc	7
@@ -40248,7 +40249,7 @@ kyste/1	1
 kystique/1	4
 kyu/1	1
 kyudo/1	1
-l	267
+l	265
 l	7
 l/57	7
 là	8
@@ -40742,7 +40743,7 @@ laurée/3	3
 laurier/1	1
 laurier-cerise	18
 laurier-rose	18
-lauriers-cerises	226
+lauriers-cerises	224
 lauriers-roses	20
 laurylsulfate/1	1
 lauze/1	2
@@ -41008,7 +41009,7 @@ leucose/1	2
 leucotomie/1	2
 leude/1	1
 leur	147
-leur	251
+leur	249
 leur/1	10
 leurre/1	1
 leurrée/3	3
@@ -41570,6 +41571,7 @@ lobuleuse/8	3
 local/19	1
 locale/8	3
 localement	8
+localier/1	1
 localisable/1	4
 localisante/3	3
 localisateur/1	1
@@ -41586,7 +41588,7 @@ locataires-gérants	20
 locatif/1	1
 location/1	2
 location-gérance	47
-locations-gérances	236
+locations-gérances	234
 locations-ventes	46
 location-vente	47
 locative/3	3
@@ -41609,6 +41611,7 @@ locotracteur/1	1
 loculaire/1	4
 loculée/3	3
 loculeuse/8	3
+locus	7
 locuste/1	2
 locution/1	2
 locutrice/3	9
@@ -41896,7 +41899,7 @@ lugubre/1	4
 lugubrement	8
 lui	186
 lui-même	78
-luire/113	91
+luire/114	91
 luisance/1	2
 luisante/3	3
 lulu/1	1
@@ -42498,7 +42501,7 @@ maldivienne/3	6
 maldonne/1	2
 mâle/1	4
 mâle/1	1
-malebranchiste/1	6
+malebranchiste/1	13
 malédiction/1	2
 maléfice/1	1
 maléfique/1	4
@@ -42912,7 +42915,7 @@ marcher/10	14
 marchette/1	2
 marcheuse/3	6
 marcionisme/1	1
-marcionite/1	6
+marcionite/1	13
 marcottage/1	1
 marcotte/1	2
 marcotter/4	5
@@ -43166,6 +43169,7 @@ massacrée/3	6
 massacrer/4	11
 massacreuse/3	6
 massage/1	1
+massaliote/1	13
 masse/1	2
 massée/3	3
 masselotte/1	2
@@ -43266,7 +43270,7 @@ materniser/4	5
 maternité/1	2
 maternologie/1	2
 mateuse/3	9
-math/132	46
+math/113	46
 mathématicienne/3	6
 mathématique/1	4
 mathématique/1	2
@@ -43388,7 +43392,7 @@ mazoutage/1	1
 mazouter/4	17
 mazurka/1	2
 mbar/38	7
-me	253
+me	251
 mea-culpa	7
 méandre/1	1
 méandrine/1	2
@@ -43797,7 +43801,7 @@ méphitique/1	4
 méphitisme/1	1
 méplat/1	1
 méplate/3	3
-méprendre/120	120
+méprendre/121	120
 mépris	7
 méprisable/1	4
 méprisante/3	3
@@ -43884,6 +43888,7 @@ merveille/1	2
 merveilleuse/8	6
 merveilleusement	8
 mérycisme/1	1
+merzlota/1	2
 mes	148
 mesa/1	2
 mésalliance/1	2
@@ -43892,6 +43897,7 @@ mésange/1	2
 mésangette/1	2
 mésappariement/1	1
 mésaventure/1	2
+mescal/1	1
 mescaline/1	2
 mesclun/1	1
 mesdames	46
@@ -45124,6 +45130,7 @@ monologue/1	1
 monologuer/10	14
 monologueuse/3	9
 monologuiste/1	10
+monomane/1	13
 monomaniaque/1	13
 monomanie/1	2
 monôme/1	1
@@ -45464,6 +45471,7 @@ motorisée/3	3
 motoriser/4	5
 motoriste/1	10
 motorship/1	1
+motoski/1	2
 mototracteur/1	1
 motrice/3	6
 motricité/1	2
@@ -45501,7 +45509,7 @@ mouchure/1	2
 mouclade/1	2
 moudjahid	18
 moudjahidin	20
-moudre/114	82
+moudre/115	82
 moue/1	2
 mouette/1	2
 mouetter/10	14
@@ -45683,6 +45691,7 @@ multicœur/1	4
 multicœur/1	1
 multicolore/1	4
 multiconfessionnelle/3	3
+multicoque/1	1
 multicouche/1	4
 multicritère/1	4
 multiculturalisme/1	1
@@ -46419,7 +46428,7 @@ nénette/1	2
 nénies	46
 nenni	78
 nénuphar/1	1
-néo	220
+néo	218
 néoblaste/1	1
 néo-calédonienne/3	6
 néocapitalisation/1	2
@@ -47138,7 +47147,7 @@ nourrissante/3	3
 nourrisseur/1	1
 nourrisson/1	1
 nourriture/1	2
-nous	242
+nous	240
 nous-mêmes	78
 nouure/1	2
 nouveau/19	95
@@ -47218,7 +47227,7 @@ nuer/4	5
 nues-propriétaires	46
 nues-propriétés	46
 nugget/1	1
-nuire/113	150
+nuire/114	150
 nuisance/1	2
 nuisette/1	2
 nuisibilité/1	2
@@ -47438,7 +47447,7 @@ obstructionniste/2	13
 obstructive/5	3
 obstruée/5	3
 obstruer/15	11
-obtempérer/129	121
+obtempérer/130	121
 obtenir/162	79
 obtention/2	2
 obtentrice/5	9
@@ -47867,7 +47876,7 @@ omnium/2	1
 omnivore/2	13
 omoplate/2	2
 omphalos/7	7
-on/133	245
+on/133	243
 onagracée/2	2
 onagrariée/2	2
 onagre/2	10
@@ -48524,7 +48533,7 @@ otoscope/2	1
 otoscopie/2	2
 ottomane/5	6
 ottonienne/5	3
-ou	270
+ou	268
 où/268	78
 ouabaïne/2	2
 ouaille/2	2
@@ -49263,7 +49272,7 @@ pâquerette/1	2
 paquet/1	1
 paquetage/1	1
 paqueteuse/3	9
-par	255
+par	253
 parabase/1	2
 parabellum/1	1
 paraben/1	1
@@ -51543,7 +51552,7 @@ picrate/1	1
 picridium/1	1
 picrique/1	4
 picris	7
-pics-bois	225
+pics-bois	223
 picte/1	13
 picter/4	17
 pictogramme/1	1
@@ -51993,7 +52002,7 @@ plaie/1	2
 plaignante/3	6
 plain/1	1
 plain-chant	18
-plaindre/118	79
+plaindre/119	79
 plaine/3	6
 plainer/4	5
 plain-pied	87
@@ -52002,7 +52011,7 @@ plainte/3	3
 plainte/1	2
 plaintive/3	3
 plaintivement	8
-plaire/119	137
+plaire/120	137
 plaisamment	8
 plaisance/1	2
 plaisancier/1	1
@@ -52354,7 +52363,7 @@ plurivocité/1	2
 plurivoque/1	4
 plus	78
 plus	7
-plusieurs	263
+plusieurs	261
 plus-que-parfait/1	1
 plus-value/1	2
 plutino/1	1
@@ -52533,7 +52542,7 @@ poissonnière/3	6
 poissons-chats	20
 poisson-scie	18
 poissons-clowns	20
-poissons-scies	224
+poissons-scies	222
 poitevine/3	6
 poitrail/1	1
 poitrinaire/1	4
@@ -53932,7 +53941,7 @@ prêtresse/3	9
 prêtrise/1	2
 prêts-à-porter	20
 prêts-bails	20
-prêts-relais	223
+prêts-relais	221
 préture/1	2
 preuve/1	2
 preux	139
@@ -53960,7 +53969,7 @@ prévisionnelle/3	3
 prévisionniste/1	10
 prévisualisation/1	2
 prévisualiser/4	5
-prévoir/122	82
+prévoir/123	82
 prévôt/1	1
 prévôtale/8	3
 prévôté/1	2
@@ -55315,7 +55324,7 @@ quatre-quarts	7
 quatre-quatre	7
 quatre-saisons	65
 quatre-temps	7
-quatre-vingt/1	49
+quatre-vingt/113	49
 quatre-vingt-cinq	49
 quatre-vingt-deux	49
 quatre-vingt-dix	49
@@ -55343,16 +55352,16 @@ quatrillion/1	1
 quattrocento	18
 quatuor/1	1
 qubit/1	1
-que	269
+que	267
 québécisme/1	1
 québécitude/1	2
 québécoise/3	6
 quebracho/1	1
 quelconque/1	78
-quelle/3	259
+quelle/3	257
 quelque	149
 quelque/1	4
-quelque/1	264
+quelque/1	262
 quelquefois	8
 quelques-unes	78
 quelques-uns	78
@@ -55746,7 +55755,7 @@ radiographique/1	4
 radioguidage/1	1
 radioguider/4	5
 radiohéliographe/1	1
-radio-immunologie	2
+radio-immunologie/1	2
 radio-isotope/1	1
 radiolaire/1	1
 radiolésion/1	2
@@ -56710,7 +56719,7 @@ recordwoman/1	2
 recorriger/4	5
 recors	7
 recoucher/4	11
-recoudre/115	79
+recoudre/116	79
 recoupe/1	2
 recoupée/3	3
 recoupement/1	1
@@ -56721,7 +56730,7 @@ recourbée/3	3
 recourbement/1	1
 recourber/4	11
 recourbure/1	2
-recourir/128	160
+recourir/129	160
 recours	7
 recousue/3	3
 recouverte/3	3
@@ -56800,7 +56809,7 @@ reçue/3	6
 recueil/1	1
 recueillement/1	1
 recueillie/3	3
-recueillir/126	79
+recueillir/127	79
 recuire/84	113
 recuisson/1	2
 recuite/3	3
@@ -57444,7 +57453,7 @@ relooker/4	5
 relouer/4	5
 réluctance/1	2
 relue/3	3
-reluire/113	91
+reluire/114	91
 reluisante/3	3
 reluquer/4	5
 rem/1
@@ -57582,7 +57591,7 @@ remorqueuse/3	6
 remotivée/3	3
 remotiver/4	11
 remoucher/4	11
-remoudre/114	82
+remoudre/115	82
 remouiller/4	17
 rémoulade/1	2
 remoulage/1	1
@@ -57961,7 +57970,7 @@ repoussée/3	3
 repoussement/1	1
 repousser/4	41
 repoussoir/1	1
-repréciser/4	214
+repréciser/4	17
 répréhensible/1	4
 répréhension/1	2
 reprendre/88	96
@@ -58139,7 +58148,7 @@ résorbée/3	3
 résorber/4	11
 résorcine/1	2
 résorption/1	2
-résoudre/116	79
+résoudre/117	79
 respect/1	1
 respectabilité/1	2
 respectable/1	4
@@ -58194,7 +58203,7 @@ resserre/1	2
 resserrée/3	3
 resserrement/1	1
 resserrer/4	11
-resservir/127	96
+resservir/128	96
 ressort/1	1
 ressortir/55	167
 ressortir/82	113
@@ -58591,8 +58600,8 @@ révocation/1	2
 révocatoire/1	4
 revoici	78
 revoilà	78
-revoir	278
-revoir/122	79
+revoir	276
+revoir/123	79
 revoler/4	17
 révoltante/3	3
 révolte/1	2
@@ -59680,7 +59689,7 @@ saigneuse/8	3
 saignoir/1	1
 saillante/3	3
 saillie/1	2
-saillir/125	91
+saillir/126	91
 saïmiri/1	1
 sainbois	7
 saindoux	18
@@ -61202,7 +61211,7 @@ serviettes-éponges	46
 servile/1	13
 servilement	8
 servilité/1	2
-servir/127	129
+servir/128	129
 serviteur/1	1
 servitude/1	2
 servocommande/1	2
@@ -62092,7 +62101,7 @@ sortie/1	2
 sortie-de-bain	47
 sorties-de-bain	46
 sortilège/1	1
-sortir	276
+sortir	274
 sortir/249	84
 sortir/82	96
 sosie/1	1
@@ -64957,7 +64966,7 @@ tchervontsy	20
 tchétchène/1	13
 tchin-tchin	70
 tchitola/1	1
-te	252
+te	250
 té/1	1
 teaser/1	1
 tébibit/1	1
@@ -66461,10 +66470,10 @@ tousseuse/3	6
 toussotement/1	1
 toussoter/10	14
 tout	8
-tout	260
+tout	258
 tout/1	1
 tout-à-l'égout	7
-toute	261
+toute	259
 toute-bonne	47
 toute-épice	47
 toutefois	78
@@ -67012,7 +67021,7 @@ trésorière/3	9
 tressage/1	1
 tressaillante/3	3
 tressaillement/1	1
-tressaillir/125	91
+tressaillir/126	91
 tressaut/1	1
 tressautement/1	1
 tressauter/10	14
@@ -67550,7 +67559,7 @@ tsoin-tsoin	70
 tss	70
 tss-tss	70
 tsunami/1	1
-tu	248
+tu	246
 tuable/1	4
 tuage/1	1
 tuante/3	3
@@ -69169,7 +69178,7 @@ vindicte/1	2
 viner/4	5
 vinette/1	2
 vineuse/8	3
-vingt/132	49
+vingt/113	49
 vingtaine/1	2
 vingt-cinq	49
 vingt-deux	49
@@ -69617,7 +69626,7 @@ vouivre/1	2
 vouloir/1	1
 vouloir/222	129
 voulue/3	3
-vous	241
+vous	239
 vous-même/1	78
 vousseau/19	1
 voussoiement/1	1
@@ -69879,7 +69888,7 @@ xylophone/1	1
 xylophoniste/1	10
 xyste/1	1
 y	7
-y/263	250
+y/263	248
 yacht/1	1
 yacht-club/1	1
 yachting/1	1

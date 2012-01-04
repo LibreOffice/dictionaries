@@ -60,6 +60,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/hyph-fr.tex \
     $(EXTENSIONDIR)$/hyph_fr.dic \
     $(EXTENSIONDIR)$/thes_fr.dat \
+    $(EXTENSIONDIR)$/french_flag.png \
     $(EXTENSIONDIR)$/package-description.txt
 
 COMPONENT_CONFIGDEST=.
