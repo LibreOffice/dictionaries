@@ -1,7 +1,7 @@
 _______________________________________________________________________________
 
-   DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS «Moderne»
-   version 4.4
+   DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS «MODERNE»
+   version 4.4.1
 
    Olivier R. - dicollecte<at>free<dot>fr
    Dicollecte : http://www.dicollecte.org/

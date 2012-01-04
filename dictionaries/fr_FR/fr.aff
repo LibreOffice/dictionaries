@@ -1,6 +1,6 @@
-# AFFIXES DU DICTIONNAIRE FRANÇAIS «Moderne» v4.4
+# AFFIXES DU DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS «MODERNE» v4.4.1
 # par Olivier R. -- licences LGPL, GPL, MPL
-# Généré le 20 December 2011 à 17:03
+# Généré le 28 December 2011 à 21:22
 # Pour améliorer le dictionnaire, allez sur http://www.dicollecte.org/
 
 
@@ -163,7 +163,7 @@ COMPOUNDFLAG ==
 
 
 
-AM 298
+AM 296
 AM po:nom is:mas
 AM po:nom is:fem
 AM po:adj
@@ -377,12 +377,10 @@ AM po:v1t is:infi
 AM po:v1iîp
 AM po:v1itpm
 AM po:v1itm
-AM po:v1
 AM po:v0e
 AM po:v0a
 AM po:tag
-AM po:prn po:geo is:fem
-AM po:prn is:fem
+AM po:prn po:geo is:epi is:inv
 AM po:pfx
 AM po:patr is:fem is:inv
 AM po:patr
@@ -576,6 +574,7 @@ AF f3p+()
 AF f1p.()
 AF a5p.()
 AF Ui()
+AF S=
 AF yU()
 AF xP()
 AF xO()
@@ -595,7 +594,6 @@ AF iDq+()
 AF c5p.()
 AF b0p.()
 AF a8p+()
-AF S=
 AF L'D'Q'Q*
 AF D'Q'Qj
 AF A*()
@@ -792,15 +790,15 @@ PFX Q' œ qu'Œ œ 97
 PFX Q' æ qu'Æ æ 97
 
 PFX Q* Y 3
-PFX Q* 0 quoiqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 292
-PFX Q* 0 puisqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 293
-PFX Q* 0 lorsqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 296
+PFX Q* 0 quoiqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 290
+PFX Q* 0 puisqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 291
+PFX Q* 0 lorsqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 294
 
 PFX Qj Y 1
-PFX Qj 0 jusqu' [aàâeèéêiîoôuyhœæ] 297
+PFX Qj 0 jusqu' [aàâeèéêiîoôuyhœæ] 295
 
 PFX Si Y 1
-PFX Si 0 s' . 290
+PFX Si 0 s' . 288
 
 SFX S. Y 2
 SFX S. 0 0 . 118
@@ -1120,7 +1118,7 @@ PFX U. 0 z .
 PFX U. 0 y .
 
 PFX n' Y 1
-PFX n' 0 n' [aàâeèéêiîoôuyhœæ] 294
+PFX n' 0 n' [aàâeèéêiîoôuyhœæ] 292
 
 PFX q' Y 1
 PFX q' 0 qu' [aàâeèéêiîoôuyhœæ] 201
@@ -1129,7 +1127,7 @@ PFX d' Y 1
 PFX d' 0 d' [aàâeèéêiîoôuyhœæ] 97
 
 PFX j' Y 1
-PFX j' 0 j' [aàâeèéêiîoôuyhœæ] 298
+PFX j' 0 j' [aàâeèéêiîoôuyhœæ] 296
 
 PFX c' Y 2
 PFX c' 0 c' [eé] 202
@@ -1139,13 +1137,13 @@ PFX l' Y 1
 PFX l' 0 l' [aàâeèéêiîoôuyhœæ] 108
 
 PFX m' Y 1
-PFX m' 0 m' [aàâeèéêiîoôuyhœæ] 295
+PFX m' 0 m' [aàâeèéêiîoôuyhœæ] 293
 
 PFX t' Y 1
-PFX t' 0 t' [aàâeèéêiîoôuyhœæ] 289
+PFX t' 0 t' [aàâeèéêiîoôuyhœæ] 287
 
 PFX s' Y 1
-PFX s' 0 s' [aàâeèéêiîoôuyhœæ] 291
+PFX s' 0 s' [aàâeèéêiîoôuyhœæ] 289
 
 SFX zA Y 52
 SFX zA voir voir/225 avoir 62
@@ -1207,16 +1205,16 @@ SFX zE être étant/6 être 48
 SFX zE être été être 104
 SFX zE être suis être 34
 SFX zE être es/20 être 35
-SFX zE être est/123 être 21
+SFX zE être est/124 être 21
 SFX zE être sommes être 55
 SFX zE tre tes/14 être 71
 SFX zE être sont être 26
 SFX zE être étais/22 être 64
 SFX zE être étais/20 être 63
-SFX zE être était/123 être 50
+SFX zE être était/124 être 50
 SFX zE être étions/17 être 77
 SFX zE être étiez/14 être 76
-SFX zE être étaient/123 être 51
+SFX zE être étaient/124 être 51
 SFX zE être fus être 69
 SFX zE être fussé-je être 163
 SFX zE être fus être 68
@@ -4986,7 +4984,7 @@ SFX c4 éger égeons/46 éger 57
 SFX c4 er ez/31 er 75
 
 SFX c5 Y 263
-SFX c5 er er/124 er 62
+SFX c5 er er/125 er 62
 SFX c5 er ant/159 [^cg]er 48
 SFX c5 écer éçant/159 écer 48
 SFX c5 éger égeant/229 éger 48
@@ -5811,8 +5809,8 @@ SFX d4 er ons/46 er 57
 SFX d4 er ez/31 er 75
 
 SFX d5 Y 110
-SFX d5 er er/124 er 62
-SFX d5 er ant/124 er 48
+SFX d5 er er/125 er 62
+SFX d5 er ant/125 er 48
 SFX d5 eter ette/27 jeter 34
 SFX d5 eter ette/27 [^j]eter 34
 SFX d5 eler elle/27 ppeler 34
@@ -5973,13 +5971,13 @@ SFX aA ller llassiez/16 aller 58
 SFX aA ller llassent/62 aller 54
 SFX aA ller llons/13 aller 57
 SFX aA aller va aller 36
-SFX aA aller vas-y aller 283
-SFX aA aller va-t'en aller 284
-SFX aA ller llons-y aller 287
-SFX aA ller llons-nous-en aller 288
+SFX aA aller vas-y aller 281
+SFX aA aller va-t'en aller 282
+SFX aA ller llons-y aller 285
+SFX aA ller llons-nous-en aller 286
 SFX aA ller llez/13 aller 75
-SFX aA ller llez-y aller 285
-SFX aA ller llez-vous-en aller 286
+SFX aA ller llez-y aller 283
+SFX aA ller llez-vous-en aller 284
 
 SFX aD Y 51
 SFX aD voyer voyer/52 envoyer 62
