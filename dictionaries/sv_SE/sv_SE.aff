@@ -1,10 +1,11 @@
 SET ISO8859-1
 TRY aerndtislogmkpbhfjuväcöåyqxzvwéâàáè
 
-WORDCHARS -0123456789
+WORDCHARS -0123456789.
 
-BREAK 1
+BREAK 2
 BREAK -
+BREAK .
 
 NOSUGGEST !
 
@@ -26,6 +27,11 @@ CHECKCOMPOUNDTRIPLE
 SIMPLIFIEDTRIPLE
 # Disallow word duplication in compounds, like "bil"+"bil":
 CHECKCOMPOUNDDUP
+
+# The generated compound word suggestions are sometimes
+# very useful. At other times, they make users go crazy with
+# dismay since the generated words make no sense.
+MAXCPDSUGS 2
 
 FULLSTRIP
 
@@ -51,7 +57,7 @@ ONLYINCOMPOUND Z
 NOSPLITSUGS
 
 # Some letters that should be replacable and have higher priority
-REP 30
+REP 87
 REP e ä
 REP ä e
 REP ngn gn
@@ -82,6 +88,64 @@ REP sj sti
 REP ti ssi
 REP ssi ti
 REP tj k
+REP ^allsin$ all_sin
+REP ^allsindar$ all_sin_dar
+REP ^bla$ bl.a.
+REP ^pga$ p.g.a.
+REP ^tex$ t.ex.
+REP ^ditut$ dit_ut
+REP ^därbakom$ där_bakom
+REP ^därframme$ där_framme
+REP ^föredetta$ före_detta
+REP ^godafton$ god_afton
+REP ^godmiddag$ god_middag
+REP ^hitut$ hit_ut
+REP ^härborta$ här_borta
+REP ^härframme$ här_framme
+REP ^härhemma$ här_hemma
+REP ^iafton$ i_afton
+REP ^iakt$ i_akt
+REP ^iallafall$ i_alla_fall
+REP ^imorse$ i_morse
+REP ^iochmed$ i_och_med
+REP ^iordning$ i_ordning
+REP ^istyr$ i_styr
+REP ^isynnerhet$ i_synnerhet
+REP ^isåfall$ i_så_fall
+REP ^iår$ i_år
+REP ^iövrigt$ i_övrigt
+REP ^jämsmed$ jäms_med
+REP ^litegrand$ lite_grand
+REP ^litegrann$ lite_grann
+REP ^mittibland$ mitt_ibland
+REP ^mittunder$ mitt_under
+REP ^mittuppe$ mitt_uppe
+REP ^mittöver$ mitt_över
+REP ^näranog$ nära_nog
+REP ^nästefter$ näst_efter
+REP ^pga$ p.g.a.
+REP ^pånytt$ på_nytt
+REP ^rentut$ rent_ut
+REP ^rättså$ rätt_så
+REP ^sånärsom$ så_när_som
+REP ^tex$ t.ex.
+REP ^tilldess$ till_dess
+REP ^tillexempel$ till_exempel
+REP ^tillpass$ till_pass
+REP ^tillsalu$ till_salu
+REP ^tillsist$ till_sist
+REP ^tillspillo$ till_spillo
+REP ^tilltrots$ till_trots
+REP ^tilltåls$ till_tåls
+REP ^tillviljes$ till_viljes
+REP ^tillända$ till_ända
+REP ^tillövers$ till_övers
+REP ^undertiden$ under_tiden
+REP ^urstånd$ ur_stånd
+REP ^utochin$ ut_och_in
+REP ^åfärde$ å_färde
+REP ^överända$ över_ända
+
 
 # För förkortningar och ord som kräver bindestreck
 # när de är andraord i sammansättningar, t.ex. TV, OS
