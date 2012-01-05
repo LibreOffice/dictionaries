@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="2011.02.06" />
+    <version value="2012.01.04" />
     <identifier value="org.openoffice.sl.hunspell.dictionaries" />
     <display-name>
         <name lang="en-US">Slovenian spelling dictionary, hyphenation rules, and thesaurus</name>
@@ -10,6 +10,6 @@
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>
     <publisher>
-        <name xlink:href="http://sl.libreoffice.org/" lang="en-US">sl.libreoffice.org</name>
+        <name xlink:href="http://sl.libreoffice.org/slovenjenje-2/jezikovne-razsiritve/" lang="sl-SI">sl.libreoffice.org</name>
     </publisher>
 </description>
