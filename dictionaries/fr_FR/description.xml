@@ -10,7 +10,7 @@
         <OpenOffice.org-minimal-version value="3.2" d:name="OpenOffice.org 3.2" />
     </dependencies>
     <icon>
-        <default xlink:href="french_flag.png" />
+        <default xlink:href="icon.png" />
     </icon>
     <publisher>
         <name xlink:href="http://www.dicollecte.org/" lang="fr">Dicollecte</name>
