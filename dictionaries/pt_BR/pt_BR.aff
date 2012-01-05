@@ -1,11 +1,11 @@
 SET ISO8859-1
 TRY áàãâéêíóõôúüçesianrtolcdugmphbyfvkwjqxz
 
-#   VERO - Verificador Ortográfico do LibreOffice - Versão 2.0.9
-#   Copyright (C) 2006 - 2010  por Raimundo Santos Moura
+#   VERO - Verificador Ortográfico Livre - Versão 2.1.0
+#   Copyright (C) 2006 - 2012  por Raimundo Santos Moura
 #   <raimundomoura@openoffice.org>
 #   Colaboradores deste projeto: http://www.openoffice.org.br/?q=creditos
-#   Brasil - maio 2011
+#   Brasil - Janeiro 2012
 #   Este é um dicionário para correção ortográfica da língua Portuguesa   
 #   para o Hunspell.                                                       
 #   Este programa é livre e pode ser redistribuído e/ou modificado nos    
@@ -101,7 +101,7 @@ WORDCHARS -
 CHECKCOMPOUNDREP
 
 # melhorar a sugestão de palavras
-REP 393
+REP 394
 REP -           s-
 REP -           r
 REP -           s
@@ -317,6 +317,7 @@ REP não-        in
 REP não-        ir
 REP nhe         in
 REP nhi         in
+REP no-a-ma     no_a_ma
 REP nos         -nos-
 REP o           ó
 REP o           õ
@@ -3764,7 +3765,7 @@ SFX f   erer   iséssemos    querer
 # VERBOS -g-  abolir demolir emolir prevenir desprevenir arguir argüir
 #                 prover desprover gear repelir
 
-SFX g Y 319
+SFX g Y 309
 SFX g   r       0         olir
 SFX g   r       a         olir
 SFX g   r       am        olir
@@ -3909,65 +3910,55 @@ SFX g   elir    ilam      elir
 SFX g   elir    ilamos    elir
 SFX g   elir    ilas      elir
 SFX g   elir    ilo       elir
-SFX g   üir     ua        üir
 SFX g   ir      a         uir
-SFX g   üir     uais      üir
 SFX g   ir      ais       uir
-SFX g   üir     uam       üir
 SFX g   ir      am        uir
-SFX g   üir     uamos     üir
 SFX g   ir      amos      uir
-SFX g   üir     uas       üir
 SFX g   ir      as        uir
-SFX g   ir      em        üir
 SFX g   ir      em        uir
-SFX g   ir      í         [üu]ir
-SFX g   r       0         [üu]ir
-SFX g   r       a         [üu]ir
-SFX g   ir      ía        [üu]ir
-SFX g   r       am        [üu]ir
-SFX g   ir      íamos     [üu]ir
-SFX g   r       as        [üu]ir
-SFX g   r       da        [üu]ir
-SFX g   r       das       [üu]ir
-SFX g   r       do        [üu]ir
-SFX g   r       dos       [üu]ir
-SFX g   ir      íeis      [üu]ir
-SFX g   r       mos       [üu]ir
-SFX g   r       ndo       [üu]ir
-SFX g   0       a         [üu]ir
-SFX g   0       á         [üu]ir
-SFX g   ir      íra       [üu]ir
-SFX g   0       am        [üu]ir
-SFX g   ir      íramos    [üu]ir
-SFX g   0       ão        [üu]ir
-SFX g   0       as        [üu]ir
-SFX g   0       ás        [üu]ir
-SFX g   0       des       [üu]ir
-SFX g   0       ei        [üu]ir
-SFX g   0       eis       [üu]ir
-SFX g   ir      íreis     [üu]ir
-SFX g   0       em        [üu]ir
-SFX g   0       emos      [üu]ir
-SFX g   0       es        [üu]ir
-SFX g   0       ia        [üu]ir
-SFX g   0       iam       [üu]ir
-SFX g   0       íamos     [üu]ir
-SFX g   0       ias       [üu]ir
-SFX g   0       íeis      [üu]ir
-SFX g   0       mos       [üu]ir
-SFX g   üir     úis       üir
+SFX g   r       0         uir
+SFX g   r       a         uir
+SFX g   r       am        uir
+SFX g   ir      íamos     uir
+SFX g   r       as        uir
+SFX g   r       da        uir
+SFX g   r       das       uir
+SFX g   r       do        uir
+SFX g   r       dos       uir
+SFX g   ir      íeis      uir
+SFX g   r       mos       uir
+SFX g   r       ndo       uir
+SFX g   0       a         uir
+SFX g   0       á         uir
+SFX g   ir      íra       uir
+SFX g   0       am        uir
+SFX g   ir      íramos    uir
+SFX g   0       ão        uir
+SFX g   0       as        uir
+SFX g   0       ás        uir
+SFX g   0       des       uir
+SFX g   0       ei        uir
+SFX g   0       eis       uir
+SFX g   ir      íreis     uir
+SFX g   0       em        uir
+SFX g   0       emos      uir
+SFX g   0       es        uir
+SFX g   0       ia        uir
+SFX g   0       iam       uir
+SFX g   0       íamos     uir
+SFX g   0       ias       uir
+SFX g   0       íeis      uir
+SFX g   0       mos       uir
+SFX g   uir     úi        uir
 SFX g   uir     úis       uir
-SFX g   r       s         [üu]ir
-SFX g   r       sse       [üu]ir
-SFX g   ir      ísseis    [üu]ir
-SFX g   r       ssem      [üu]ir
-SFX g   ir      íssemos   [üu]ir
-SFX g   r       sses      [üu]ir
-SFX g   r       ste       [üu]ir
-SFX g   r       stes      [üu]ir
-SFX g   r       u         [üu]ir
-SFX g   üir     uo        üir
+SFX g   r       sse       uir
+SFX g   ir      ísseis    uir
+SFX g   r       ssem      uir
+SFX g   ir      íssemos   uir
+SFX g   r       sses      uir
+SFX g   r       ste       uir
+SFX g   r       stes      uir
+SFX g   r       u         uir
 SFX g   ir      o         uir
 SFX g   ir      e         tossir
 SFX g   ir      em        tossir

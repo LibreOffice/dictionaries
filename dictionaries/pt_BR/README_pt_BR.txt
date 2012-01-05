@@ -1,87 +1,98 @@
-Autor/Author: Raimundo Moura <raimundomoura@openoffice.org>
+Autor/Author: Raimundo Moura <raimundo.smoura@gmail.com>
 
-pt-BR: Este dicionário está em desenvolvimento por Raimundo Moura e sua equipe. Ele está licenciado sob os termos da Licença Pública Geral Menor versão 2.1 (LGPLv2.1), como publicado pela Free Software Foundation. Os créditos estão disponíveis em http://www.broffice.org/creditos e você pode encontrar novas versões em http://www.broffice.org/verortografico.
+pt-BR: Este dicionário está em desenvolvimento por Raimundo Moura e sua equipe.
+Ele está licenciado sob os termos da Licença Pública Geral Menor versão 3 (LGPLv3),
+como publicado pela Free Software Foundation e pela Mozilla Public License como
+publicado pela Mozilla Foundation . Os créditos estão disponíveis em
+http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
+e você pode encontrar novas versões em
 
-en-US: This dictionary is under development by Raimundo Moura and his team. It is licensed under the terms of the GNU Lesser General Public License version 2.1 (LGPLv2.1), as published by the Free Software Foundation. The credits are available at http://www.broffice.org/creditos and you can find new releases at http://www.broffice.org/verortografico.
+en-US: This dictionary is under development by Raimundo Moura and his team. It is
+licensed under the terms of the GNU Lesser General Public License version 3 (LGPLv3),
+as published by the Free Software Foundation and the Mozilla Public License as publishen
+by the Mozilla Foundation. Credits are available at
+http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
+and you can find new releases at
 
-
-Copyright (C) 2006 - 2011 por/by Raimundo Santos Moura <raimundomoura@openoffice.org>
+Copyright (C) 2006 - 2012 por/by Raimundo Santos Moura <raimundo.smoura@gmail.com>
 
 =============
 APRESENTAÇÃO
 =============
 
-O Projeto Verificador Ortográfico do BrOffice.org é um projeto
+O Projeto Verificador Ortográfico do LibreOffice é um projeto
 colaborativo desenvolvido pela comunidade Brasileira.
 A relação completa dos colaboradores deste projeto está em:
-http://www.broffice.org.br/creditos
+http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 
 ***********************************************************************
 * Este é um dicionário para correção ortográfica da língua Portuguesa *
-* para o Myspell.                                                     *
+* para o Hunspell.                                                    *
 * Este programa é livre e pode ser redistribuído e/ou modificado nos  *
-* termos da GNU Lesser General Public License (LGPL) versão 2.1.      *
+* termos da GNU Lesser General Public License (LGPL) versão 3 e a     *
+* Mozilla Public License, como publicado pela Mozilla Foundation.     *
 *                                                                     *
 ***********************************************************************
 
 ======================
 SOBRE ESTA ATUALIZAÇÃO
 ======================
-.Inclusão de amniorreia, amniorreico, andracneia, anguídeo, anguígena,
- anguilária, anguilulado, anguinha, anguissáurio, anguite, anguivípera,
- aquíparo, asplenioide, asplenióidea, asplenióideo, bálsamos-do-perúberóideo,
- caçaboia, calcoide, calcóideo, cireneia, cirroide, cirsoideu, cirsoideia,
- cirsoide, contraemergente, contraestimulação, dermatorreico, relinquimento,
- supraesternal, supraoccipital, suprarracional, suprarregional, criptozoico,
- cistiorreia, contraestai, contrainterpelação, contraoitava, contraescota,
- dactiloide, delfinoide, dactilozoide, datilozoide, dactilozóideo,
- ex-domínio, Commonwealth, equíssimo, uretrotromboide, Darmstadtio, Roentgênio,
- Rutherford, rutherfórdio, IUPAC. Colaboração de João Eduardo Strottmann;
-
-.Inclusão de siglas de elementos químicos:   Ac, Ag, Al, Am, At, Au, Ba,
- Be, Bh, Bk, Br, Cd, Ce, Cf, Cl, Cn, Cs, Db, Ds, Dy, Er, Fm, Fr, Ga, Gd,
- Ge, He, Hf, Ho, Hs, Kr, Lr, Md, Mn, Mt, Nb, Nd, Ne, Np, Pa, Pd, Pm, Po,
- Pr, Pt, Ra, Rb, Rf, Rg, Rh, Rn, Ru, Sb, Sc, Sg, Sn, Tb, Th, Tm, Xe, Yb,
- Zr. Colaboração de João Eduardo Strottmann;
-.Alterar 'ruterfórdio' para 'rutherfórdio'. Colaboração de João Eduardo Strottmann;
-.Inclusão de 'subarte', 'político-cultural', 'cênico-pedagógica'. Colaboração Larissa M. Moura;
-.Correção de regra em "livre-ocupado/". Colaboração Robson Roberto Souza Peixoto;
-. Inclusão de Albinópolis, Leonarda, pré-diálise retro-orbital. Exclusão de alem, Junior, vitoria e cardio. Colaboração de Eduardo Ribeiro Mundim.
-. Divsilab - Correção da quebra de sílabas das palavras com 'guin', como:
-  'seguintes' - ERRADO(se-gu-in-tes). Colaboração de Flávio Figueiredo  Cardoso;
-. Inclusão de 'sinantrópico', Colaboração de Carlos Eduardo Costa;
-. Exclusão de 'frustar', 'frustado', Colaboração de João Eduardo Strottmann;
-. Inclusão de: Bicalho, calcinose, secularista, ecogenicidade, gastrojejunal, locraniano, neurotoxoplasmose, radioablação, videolaringoestroboscopia, videolaringoscopia. Colaboração Eduardo Mundim;
-. Inclusão de 'prototipação', Colaboração de Vitor Pacheco;
-. Inclusão do verbo 'juridicizar'. Colaboração de João Eduardo Strottmann;
-. Inclusão de 'avolitivos', 'juridicizável', 'juridicizáveis' e 'Pavlov', João Eduardo Strottmann;
-. Correção de 'multiuso' para 'multiúso'. Colaboração de João Eduardo Strottmann;
-Inclusão de: bicorno, juncional, hiperandrogenemia, tiazolidinediona,  
-deidroepiandrosterona, insulinemia, antropilórica e acromegálica. Colaboração de Eduardo Ribeiro Mundim;
-. Inclusão de 800 termos ambientais. Colaboração de Evandro Andrade da Silva;
-. Inclusão de 'semipresencial'. Colaboração de Emerson Borges;
+.Inclusão de: Subsumível, sustido - do verbo suster,
+ jurídico-trabalhistas, subsume: de subsumir e irressarcida. Colaboração
+ de João Eduardo Strottmann;
+.Inclusão de clínico-psicológica e ciberódio. Colaboração Luyse M. Moura.
+.Correção de infanto-juvenil para infantojuvenil conforme Acordo
+ Ortográfico. Colaboração de Guilherme Rebecchi.
+.Exclusão de 'atras',  'muta', 'sitei', 'estoria', 'critozoico',
+ e 'objecto'. Colaboração de Marcelo Lima.
+.Revisão da regra 'M' (sufixo mento) em verbos terminados em 'ar'.
+ Mais de 2000 supressões, eliminando termos como: alocamento, alopramento,
+ ambientamento, amigamento, amolamento, amputamento, animamento,
+ antecipamento, aproximamento, argumentamento, azaramento, beijamento,
+ bonificamento, buzinamento, cachamento, etc.
+.Inclusão de 'correpetidor'. Colaboração de Guilherme Rebecchi.
+.Inclusão de: cramunhão, cabrunco, ruinzinho, sacizinho, carapucinha,
+  taí, pererê e Poltergeist. Colaboração de Marcelo Lima.
+.Inclusão de: antenômero, antialísio, antiduna, recirculado,
+ abelha-bota-fogo, abelhas-bota-fogo, abelha-mãe, abelhas-mãe,   abelha-mirim, abelhas-mirins, abelha-mosquito, abissopelágico, acritarco,
+ acrófita, advectivo-difusivo, advectivo, áfilo, ágrico, agriférrico,
+ agrofloresta, aleloquímico, algálico, álico, alissolo, aloclástico,
+ aloquímico, aluminossilicatado, amínico, amítico, anádromo, ândica,
+ andromonoico, anfítoca, anomalamente, anquerítica, antéclise, antiforme,
+ apidologia, apidólogo, apitoxina, aposemático, aposematismo, apterigoto,
+ aptésico, aquícludo, aquífugo, aquitardo, arcósio, Arenigiano, argílico,
+ argipã, argissolo, arlequim-de-caiena, arlequins-de-caiena, arrenótoca,
+ pseudoarrenótoca, arrenotoquia, aspídoto, atolento, autofuncionante,
+ autopolinizar, troficamente, adularescência, aventurinização,
+ bashkiriano, Baveno, bioacumulador, bioacumulativo, biodiversificado,
+ bifenila, bioestratigráfico, biofloculação. Colaboração de Evandro Andrade
+ da Silva.
+.Inclusão de nomes próprios: Cleovansóstenes, Egnaldo, Elionaldo, Elivaldo,
+ Floripa, Gilmarcos, Gismália, Jaziel, Jozonaldo, Leningrado, Piraparaná,
+ Uelizânio, Uílson.
+.Inclusão de universo-bolha, recalçar, entreguerras, nanocanal, oficineiro,
+ lobotomista, eletromagnetismo, reacionar;
+.Inclusão de plural: rastreios, respaldos
+.Inclusão de prefixos para formação de termos como: anti-hidrogênio,
+ autocirurgia, autocontido, autoefetivado, autoironia, autorregenerativo,
+ autorregenerativo, autosselecionar subparcela superanticorpo microgerador,
+ microfolículo, macroentidade, microentidade, micropigmentação,
+ supercapacitor, suborganização, supergene, superlisonjeado, subquântico,
+ semifictício,  minissatélite, retrofuturismo, solteirice.
+.Inclusão da forma feminina em alguns termos com sufíxos 'íneo', 'ário','ógeno' e
+ívoro (consanguíneas, multifacetárias, carcinógenas, crudívoras);
+.Inclusão de diminutivos como: textinho, verdurinha, charadinha, encrenquinha, leguminho, produtinho.
 
 =======================================================
-COMO INSTALAR O VERIFICADOR BRASILEIRO NO BROFFICE.ORG
+COMO INSTALAR O VERIFICADOR BRASILEIRO NO LIBREOFFICE
 =======================================================
 
-Copie os arquivos pt_BR.dic e pt_BR.aff para o diretório <BrOffice.org>
-/share/dict/ooo, onde <BrOffice.org> é o diretório em que o programa 
-foi instalado.
+O VERO vem dentro do pacote de instalação do Português do Brasil do
+LibreOffice, como uma extensão de instalação. Ele é automaticametne instalado.
 
-No Windows, normalmente, o caminho é este: 
-C:\Arquivos de programas\BrOffice.org 2.0\share\dict\ooo, e no  Linux
-/opt/BrOffice.org/share/dict/ooo/.
-
-No mesmo diretório, localize o arquivo dictionary.lst. Abra-o com um
-editor de textos e acrescente a seguinte linha ao final(se não
-existir):
-
-DICT pt BR pt_BR
-
-É necessário reiniciar o BrOffice, inclusive o início rápido da versão
-para Windows que fica na barra de tarefas, para que o corretor
-funcione.
+Caso ele não tenha sido instalado na versão de seu LibreOffice (por exemplo, se sua
+versão é de outro idioma) você pode instalá-lo como uma extensão do LibreOffice. Baixe-o de
+http://extensions.libreoffice.org
 
 ===================
 DÚVIDAS FREQUENTES
@@ -100,15 +111,15 @@ selecionado (deve aparecer um logo "Abc" do lado do idioma).
 
 Se não estiver Português (Brasil) mude para esse idioma. Após
 configurado clique em 'OK'.
-Feche o BrOffice, inclusive o Iniciador Rápido,  e em seguida reabra-o;
+Feche o LibreOffice, inclusive o Iniciador Rápido,  e em seguida reabra-o;
 
 
 2 - O verificador não está configurado para verificar texto ao digitar.
-Neste caso confira como estão as informações em: 
+Neste caso confira como estão as informações em:
 
 (Até a Versão 3.0.X)
 Ferramentas >> Opções>> Configurações de Idiomas >> Recursos de Verificação
-Ortográfica e, no campo opções deste formulário marque a opção 'Verificar 
+Ortográfica e, no campo opções deste formulário marque a opção 'Verificar
 texto ao digitar';
 
 (Versão 3.1 em diante)
@@ -116,27 +127,26 @@ Ferramentas >> Opções >> Configurações de Idiomas >> Recursos para redação e,
 no campo opções deste formulário marque a opção 'Verificar ortografia ao digitar
 
 
-Novas atualizações estarão disponíveis no site do BrOffice.Org, na
+Novas atualizações estarão disponíveis no site do LibreOffice, na
 página do Verificador Ortográfico.
-
-http://www.openoffice.org.br/?q=verortografico
+http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 
 
 ============
 INTRODUCTION
 ============
 
-The BrOffice.org Orthography Checker is a colaborative project developed
+The LibreOffice Spell Checker is a colaborative project developed
 by the Brazilian community.
 The complete list of participants in this project is at
-http://www.broffice.org.br/creditos
+http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 
 ***********************************************************************
 * This is a dictionary for orthography correction for the Portuguese  *
-* language for Myspell.                                               *
+* language for Hunspell.                                              *
 * This is a free program and it can be redistributed and/or           *
 * modified under the terms of the GNU Lesser General Public License   *
-* (LGPL) version 2.1.                                                 *
+* (LGPL) version 3 and Mozilla Public License.                        *
 *                                                                     *
 ***********************************************************************
 
@@ -145,25 +155,14 @@ ABOUT THIS UPDATE
 =================
 
 ==============================================================
-HOW TO INSTALL THE BRAZILIAN ORTOGRAPH CHECKER IN BROFFICE.ORG
+HOW TO INSTALL THE BRAZILIAN SPELL CHECKER IN LIBREOFFICE
 ==============================================================
 
-Copy the files pt_BR.dic and pt_BR.aff to the directory <BrOffice.org>
-/share/dict/ooo, where <BrOffice.org> is the directory where the software
-has been installed.
+The spell checker is included in the pt-BR packages of LibreOffice and
+should install automatically.
 
-In Windows, usually, the path is
-C:\Arquivos de programas\BrOffice.org 2.0\share\dict\ooo, and in GNU/Linux
-/opt/BrOffice.org/share/dict/ooo/.
-
-In the same directory, locate the file dictionary.lst. Open it with a
-text editor e add the following line to the end of the file (if it is
-not already there):
-
-DICT pt BR pt_BR
-
-It is necessary to restart BrOffice, including the fast start for the Windows version
-that resides on the task bar, in order to have the orthography checker to work.
+If this is not the case you can install VERO as an extension. Please
+downlad it from http://extensions.libreoffice.org
 
 
 ==========================
@@ -189,8 +188,8 @@ problem, check the information at
 "Ferramentas >> Opções >> Configurações de Idiomas >> Recursos de Verificação Ortográfica"
 and, in the field "Opções" of this form, check the option ''Verificar texto ao digitar';
 
-New updates will be available at the BrOffice.Org website, on the page of the
-Orthography Checker.
+New updates will be available at the LibreOffice website, on the page of the
+Spell Checker.
 
-http://www.broffice.org/verortografico
+http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 

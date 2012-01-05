@@ -1,26 +1,27 @@
-Autor/Author: Raimundo Moura <raimundomoura@openoffice.org>
+Autor/Author: Raimundo Moura <raimundo.smoura@gmail.com>
 
 pt-BR: Este Divisor de Sílabas está em desenvolvimento por Raimundo Moura. Ele está
-licenciado sob os termos da Licença Pública Geral Menor versão 2.1 (LGPLv2.1), como 
-publicado pela Free Software Foundation. Os créditos estão disponíveis em 
-http://www.broffice.org/creditos e você pode encontrar novas versões em 
-http://www.broffice.org/verortografico.
+licenciado sob os termos da Licença Pública Geral Menor versão 3 (LGPLv3), como
+publicado pela Free Software Foundation e pela Mozilla Public License como publicada
+pela Mozilla Foundation. Os créditos estão disponíveis em
+http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
+e você pode encontrar novas versões em
+http://extensions.libreoffice.org
 
-
-Copyright (C) 2008 - 2010 por/by Raimundo Santos Moura <raimundomoura@openoffice.org>
+Copyright (C) 2008 - 2012 por/by Raimundo Santos Moura <raimundo.smoura@gmail.com>
 
 ========================================================================================
 APRESENTAÇÃO
 ========================================================================================
 
-O Projeto DivSilab do BrOffice.org é um projeto
+O Projeto DivSilab do LibreOffice é um projeto
 colaborativo desenvolvido pela comunidade Brasileira.
 A relação completa dos colaboradores deste projeto está em:
-http://www.broffice.org.br/creditos
+http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 
 O DivSilab é uma ferramenta para realizar a translineação de textos.
 Ele divide a palavra silabicamente, ficando parte no final da linha e o restante no início
-da linha inferior.  
+da linha inferior.
 ======================
 SOBRE ESTA ATUALIZAÇÃO
 ======================
@@ -208,7 +209,7 @@ Sílabas '1rais.' estão duplicadas com 'r2a2i4s.'. Concatenada '1r2a3i4s.'!
 Sílabas 'r2a3y' estão duplicadas com 'r2a2y3'. Concatenada 'r2a3y3'!
 Sílabas '1ra3ó' estão duplicadas com 'r2a3ó'. Concatenada '1r2a3ó'!
 Sílabas '1s2e' estão duplicadas com '1s2e'. Ignorada!
-Colaboração Adriano Konzen  
+Colaboração Adriano Konzen
 
 Correção da quebra de sílabas das palavras 'envolvidos' (en-vo-lvi-dos)
 substituição  de 'o1l2v' por 'o2l1v'
@@ -638,25 +639,25 @@ Versões Anteriores
 
 Versão 1.0.2 DivSilab
 
-Nesta atualização foi implementado o DivSilab - Divisor de Sílabas do BrOffice.org.
+Nesta atualização foi implementado o DivSilab - Divisor de Sílabas do LibreOffice.
 
 Desenvolvido com base no léxico do VERO, através de análise combinatória,
 extraíndo-se os casos reais e descartando-se as condições inexistentes.
 
 O DivSilab é um arquivo texto. Seu desenvolvimento está baseado no algorítmo de Frank M. Liang.
 O algorítimo de Liang usa valores entre 0 e 9  –  exclui-se o valor 0 (zero), uma vez que está
-implícito. Valores ímpares indicam possíveis pontos divisão silábica, e os valores pares 
-(incluindo 0) indicam pontos que não devem ter divisão. Números mais altos indicam uma maior 
-magnitude do "melhor" para os números ímpares, e pares uma maior amplitude do "pior". 
+implícito. Valores ímpares indicam possíveis pontos divisão silábica, e os valores pares
+(incluindo 0) indicam pontos que não devem ter divisão. Números mais altos indicam uma maior
+magnitude do "melhor" para os números ímpares, e pares uma maior amplitude do "pior".
 O ponto (.) indica a extremidade de uma palavra. À esquerda início e à direita término.
 
 Exemplo:
 Examinemos a palavra a baixo.
- 
+
   Silábicas
- 
+
 Extraindo-se do arquivo somente as regras envolvidas para a formação desta palavra vamos encontrar:
- 
+
   s2i
   i3l2á
   l4á
@@ -665,13 +666,13 @@ Extraindo-se do arquivo somente as regras envolvidas para a formação desta palav
   i1c4
   3c2a
   2s.
- 
+
 Compondo teremos:
- 
+
 obs.: mude a fonte para Courier New para visualizar melhor o exemplo.
- 
+
 s i l á b i c a s
-s2i 
+s2i
     l4á
   i3l2á
     l4á
@@ -682,12 +683,12 @@ s2i
                2s.
 ------------------
 s2i3l4á3b2i3c4a2s   <--- Resultado
-s i-l á-b i-c a s --> si-lá-bi-cas 
- 
+s i-l á-b i-c a s --> si-lá-bi-cas
+
 Obs.: ao resultado é agregado o maior peso de cada coluna.
- 
- 
- 
+
+
+
 Esquema de Liang
 --------------------------------------------------
 Descrição         Peso       Entrada Liang
@@ -702,42 +703,20 @@ Pior que acima     -1             2
 Pior que acima     -2             4
 Pior que acima     -3             6
 Pior que acima     -4             8
--------------------------------------------------- 
- 
+--------------------------------------------------
+
 No nosso trabalho usamos até o nível 6.
 Foram desenvolvidos três pequenos aplicativos. Um para gerar combinações ' ab','ac' ,'ad'
 ... 'ich', 'ras', etc, etc.
 O outro para conferir a existência destas combinações no léxico do VERO, extraindo somente
 as válidas e o número de ocorrências de cada uma.
-E um terceiro para extrair as regras envolvidas na composição de uma determinada palavra. 
+E um terceiro para extrair as regras envolvidas na composição de uma determinada palavra.
 Usamos uma planilha no Calc para ordenar e configurar as regras, começando pelas de maior
-incidência. As combinações óbvias como 'ca', 'ba', 'pr', dr, bl... 
-foram rapidamente configuradas ...'c2a', 'b2a', 'p4r', 'd4r', 'b4l' ...   
+incidência. As combinações óbvias como 'ca', 'ba', 'pr', dr, bl...
+foram rapidamente configuradas ...'c2a', 'b2a', 'p4r', 'd4r', 'b4l' ...
 Para os mais complexos, extraímos do Vero todas as palavras contempladas com a combinação
 pesquisada, e criamos as regras. Exemplo 'ic'
 mICAreta --> i3c2a
 frICCionar --> i2c3c4
 mICRo  --> i2c3r4
 ...
-
-========================================================================================
-COMO INSTALAR O DIVSILAB NO BROFFICE.ORG
-========================================================================================
-
-Copie o arquivo hyph_pt_BR.dic para o diretório <BrOffice.org>
-/share/dict/ooo, onde <BrOffice.org> é o diretório em que o programa 
-foi instalado.
-
-No Windows, normalmente, o caminho é este: 
-C:\Arquivos de programas\BrOffice.org 2.0\share\dict\ooo, e no  Linux
-/opt/BrOffice.org/share/dict/ooo/.
-
-No mesmo diretório, localize o arquivo dictionary.lst. Abra-o com um
-editor de textos e acrescente a seguinte linha ao final(se não
-existir):
-
-HYPH pt BR hyph_pt_BR
-
-É necessário reiniciar o BrOffice, inclusive o 'Iniciador Rápido' da versão
-para Windows que fica na barra de tarefas, para que funcione.
-
