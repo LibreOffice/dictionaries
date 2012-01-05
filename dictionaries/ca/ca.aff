@@ -1209,8 +1209,8 @@ SFX U 0 in/C .
 SFX U 0 en/C .
 
 PFX V N 60
-PFX V 0 l' [aаeийiнoтуhuъ]
-PFX V 0 L' [aаeийiнoтуhuъ]
+PFX V 0 l' [1aаeийiнoтуhuъ]
+PFX V 0 L' [1aаeийiнoтуhuъ]
 PFX V 0 l' [AјE»…IЌO“”HUЏ]
 PFX V 0 L' [AјE»…IЌO“”HUЏ]
 PFX V 0 s' [aаeийiнoтуhuъ]
@@ -1271,8 +1271,8 @@ PFX V h s'H h
 PFX V h S'H h
 
 PFX v Y 60
-PFX v 0 l' [aаeийiнoтуhuъ]
-PFX v 0 L' [aаeийiнoтуhuъ]
+PFX v 0 l' [1aаeийiнoтуhuъ]
+PFX v 0 L' [1aаeийiнoтуhuъ]
 PFX v 0 l' [AјE»…IЌO“”HUЏ]
 PFX v 0 L' [AјE»…IЌO“”HUЏ]
 PFX v 0 s' [aаeийiнoтуhuъ]
@@ -1339,8 +1339,8 @@ PFX W 0 N' [AјE»…IЌO“”HUЏ]
 PFX W 0 L' [AјE»…IЌO“”HUЏ]
 
 PFX Y Y 28
-PFX Y 0 d' [aаeийiнoтуhuъAјE»…IЌO“”HUЏ]
-PFX Y 0 D' [aаeийiнoтуhuъAјE»…IЌO“”HUЏ]
+PFX Y 0 d' [1aаeийiнoтуhuъAјE»…IЌO“”HUЏ]
+PFX Y 0 D' [1aаeийiнoтуhuъAјE»…IЌO“”HUЏ]
 PFX Y a d'A a
 PFX Y a D'A a
 PFX Y а d'ј а
