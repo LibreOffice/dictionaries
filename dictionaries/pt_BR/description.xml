@@ -10,6 +10,6 @@
         <OpenOffice.org-minimal-version value="3.0" d:name="BrOffice.org / OpenOffice.org 3.0" />
     </dependencies>
     <publisher>
-        <name xlink:href="http://www.broffice.org/verortografico" lang="pt-BR">Vero</name>
+        <name xlink:href="http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico" lang="pt-BR">VERO</name>
     </publisher>
 </description>
