@@ -1,10 +1,10 @@
-﻿Swedish Dictionary for OpenOffice.org
+﻿Swedish Dictionary for LibreOffice
 Based on Den stora svenska ordlistan
 
 This Swedish Dictionary for Spell Checking is maintained by
 Göran Andersson <goran@init.se>.
 The most recent version is available at
-http://extensions.services.openoffice.org/.
+http://extensions.libreoffice.org/extension-center/swedish-spelling-dictionary-den-stora-svenska-ordlistan
 
 Essentially, the dictionary consists of the words that
 have been classified in the on-line database at
@@ -19,7 +19,7 @@ release of this dictionary.
 
 ************ COPYRIGHT ************
 
-Copyright © 2003-08 Tom Westerberg <tweg@welho.com> and Göran Andersson <goran@init.se>.
+Copyright © 2003-11 Göran Andersson <goran@init.se>.
 
 ******* BEGIN LICENSE BLOCK *******
 * Version: MPL 1.1/GPL 2.0/LGPL 2.1
@@ -35,7 +35,7 @@ Copyright © 2003-08 Tom Westerberg <tweg@welho.com> and Göran Andersson <goran
 * for the specific language governing rights and limitations under the
 * License.
 * 
-* The Original Code is the the DSSO dictionary at http://dsso.se
+* The Original Code is the DSSO dictionary at http://dsso.se
 * 
 * The Initial Developer of the Original Code is Göran Andersson.
 *
