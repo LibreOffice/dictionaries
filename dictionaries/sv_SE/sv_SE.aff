@@ -1,17 +1,27 @@
 SET ISO8859-1
 TRY aerndtislogmkpbhfjuväcöåyqxzvwéâàáè
 
-WORDCHARS -0123456789.
+WORDCHARS -0123456789.:
 
-BREAK 2
+BREAK 4
 BREAK -
 BREAK .
+BREAK :
+BREAK :$
 
 NOSUGGEST !
 
 FORBIDDENWORD %
 
 NEEDAFFIX ?
+
+# Flags used in COMPOUNDRULE definitions:
+# 0 - any nonletter character listed in WORDCHARS above
+# 1 - a digit (0-9)
+
+# All strings without letters:
+COMPOUNDRULE 1
+COMPOUNDRULE 0*
 
 # At least this many letters in each word within a compound:
 COMPOUNDMIN 1
@@ -57,7 +67,7 @@ ONLYINCOMPOUND Z
 NOSPLITSUGS
 
 # Some letters that should be replacable and have higher priority
-REP 87
+REP 94
 REP e ä
 REP ä e
 REP ngn gn
@@ -88,6 +98,7 @@ REP sj sti
 REP ti ssi
 REP ssi ti
 REP tj k
+REP ai ej
 REP ^allsin$ all_sin
 REP ^allsindar$ all_sin_dar
 REP ^bla$ bl.a.
@@ -95,7 +106,13 @@ REP ^pga$ p.g.a.
 REP ^tex$ t.ex.
 REP ^ditut$ dit_ut
 REP ^därbakom$ där_bakom
+REP ^därbortom$ där_bortom
 REP ^därframme$ där_framme
+REP ^därovan$ där_ovan
+REP ^därovanför$ där_ovanför
+REP ^däruppifrån$ där_uppifrån
+REP ^därutifrån$ där_utifrån
+REP ^därovanpå$ där_ovanpå
 REP ^föredetta$ före_detta
 REP ^godafton$ god_afton
 REP ^godmiddag$ god_middag
@@ -145,6 +162,8 @@ REP ^urstånd$ ur_stånd
 REP ^utochin$ ut_och_in
 REP ^åfärde$ å_färde
 REP ^överända$ över_ända
+#REP andet ningen
+#REP ningen andet
 
 
 # För förkortningar och ord som kräver bindestreck
@@ -254,8 +273,8 @@ SFX  F  0  men  m
 SFX  F  0  mens  m
 SFX  F  0  nen  [^e]n
 SFX  F  0  nens  [^e]n
-SFX  F  0  na  [eioä]
-SFX  F  0  nas  [eioä]
+SFX  F  0  na  [eioä:]
+SFX  F  0  nas  [eioä:]
 SFX  F  0  ndena  a
 SFX  F  0  ndenas  a
 
@@ -361,7 +380,7 @@ SFX  I  mar  rars  mar
 # Som springa: spring
 # Som tämja
 # Som komma
-SFX  J  Y  29
+SFX  J  Y  30
 SFX  J  el  ler  el
 SFX  J  el  lerna  el
 SFX  J  el  lernas  el
@@ -391,6 +410,7 @@ SFX  J  um  ers  um
 SFX  J  a  0  [^m][^m]a
 SFX  J  a  0  m[^m]a
 SFX  J  ma 0  mma
+SFX  J  :  0  :
 
 #--------------------------------------------
 # Andra konjugationen.
