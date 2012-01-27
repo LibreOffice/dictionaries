@@ -1,7 +1,7 @@
-#Stavekontrolden version 1.6
+#Stavekontrolden version 2.0
 #Denne fil er en del af Stavekontrolden - et softwareprodukt, der gør det muligt at stavekontrollere på dansk.
 
-#Copyright (C) 2010 Foreningen for frit tilgængelige sprogværktøjer
+#Copyright (C) 2012 Foreningen for frit tilgængelige sprogværktøjer
 #Website: http://www.stavekontrolden.dk
 #E-mail: info@stavekontrolden.dk
 
@@ -28,15 +28,28 @@ FLAG num
 KEY qwertyuiopå|asdfghjklæø|zxcvbnm
 #Til sammensætninger: Bindestreg er et ord i sammensætninger
 COMPOUNDMIN 1
-COMPOUNDWORDMAX 3
-WORDCHARS -
+COMPOUNDWORDMAX 2
+WORDCHARS -.
 #Undlad at foreslå opdeling af ord - opdeling vil forårsage flere fejl end det vil afhjælpe
 NOSPLITSUGS
+
+#Max. antal sammensatte ord i forslagslisten (0 switches off - n)
+MAXCPDSUGS 0
+
+#Tillad at der ingen forslag kommer
+ONLYMAXDIFF
  
 NOSUGGEST 1111
 
-REP 100
-REP k g
+REP 111
+REP ^allesammen$ alle_sammen
+REP ^altsammen$ alt_sammen
+REP ^forlængst$ for_længst
+REP ^fremfor$ frem_for
+REP ^påny$ på_ny
+REP ^nutildags$ nu_til_dags
+REP ^vedlige$ ved_lige #vedlige -> ved lige
+REP k g #Enkeltbogstaver folk tit bytter om på, som herved kommer højere op på listen 
 REP g k
 REP b p
 REP p b
@@ -59,8 +72,8 @@ REP t d
 REP o u
 REP u o
 REP d g
-REP v hv
-REP hv v
+REP v hv #hv problematikken. vilket -> hvilket 
+REP hv v #hvores -> vores 
 REP sj ti
 REP ti j
 REP j ti
@@ -75,13 +88,13 @@ REP k ch
 REP ch k
 REP ch sj
 REP ch j
-REP kk gg
+REP kk gg #Dobbelt bogstaver folk tit bytter om på 
 REP gg kk
 REP mm nn
 REP nn mm
 REP bb pp
 REP pp bb
-REP n nn
+REP n nn #Dobbelt bogstave eller ej 
 REP nn n
 REP l ll
 REP ll l
@@ -103,20 +116,21 @@ REP t tt
 REP tt t
 REP mang ment #varesortimanget -> varesortimentet
 REP ch tj #chekke -> tjekke 
-REP and an
+REP and an #andgriber -> angriber 
 REP t s #invation -> invasion
 REP t ed
 REP in ind
 REP ind in
-REP ud u
+REP ud u #overdreven brug af stumt d. udsædvanlig -> usædvanlig
 REP ud uden
 REP rd r
-REP dt t
+REP dt t #virkefeldt -> virkefelt
 REP dt d
+REP e um #akvarie -> akvarium #jubilæe -> jubilæum
+REP ene$ erne #sygeplejerskene -> sygeplejerskerne #lærene -> lærerne
 REP ene ende
 REP ende ene
 REP erer ere
-REP ene erne #lærene -> lærerne
 REP e en
 REP x ks #syntax -> syntaks
 REP e de
@@ -126,16 +140,19 @@ REP ø eu #øforisk -> euforisk
 REP y ud
 REP sj g
 REP ds c
-REP u in #ueffektiv -> ineffektiv
-REP in u #inkorrekte -> ukorrekt
-REP ind u #indkorrekte -> ukorrekt
+REP ^u in #ueffektiv -> ineffektiv
+REP ^in u #inkorrekte -> ukorrekt
+REP ^ind u #indkorrekte -> ukorrekt
 REP je æ #kjekke -> kække
 REP le ti #stalestikkerne -> statistikkerne
-REP op efter #opfølgeren -> efterfølgeren
-REP ede te #låsede -> låste
-REP i i_ #iaften -> i aften
-REP hen hen_ #henover -> hen over
-REP ved ved_ #vedlige -> ved lige
+REP ^op efter #opfølgeren -> efterfølgeren
+REP ede$ te #låsede -> låste
+REP ^i i_ #iaften -> i aften
+REP ^hen hen_ #henover -> hen over
+REP ^inden inden_ #indendøre -> inden døre
+REP aa å #Intet dansk keyboard
+REP ae æ
+REP oe ø
 
 #Verbum, svagt bøjet, -ede i datid
 SFX 6 Y 4
@@ -279,13 +296,15 @@ SFX 10 0 et/70,944 [^e]	+BESTEMT_ENTAL
 SFX 10 0 ts/944 e	+GENITIV
 SFX 10 0 ets/944 [^e]	+GENITIV
 #Substantiv, flertal, med -e
-SFX 20 Y 6
+SFX 20 Y 8
 SFX 20 0 ne/70,944 er	+PLUR_BEK
-SFX 20 0 ene/70,944 [^e][^r]	+PLUR_BEK
+SFX 20 0 ene/70,944 [^r]	+PLUR_BEK
 SFX 20 0 e/70,944 .	+PLUR_UBEK
 SFX 20 0 es/944 .	+GENITIV
-SFX 20 0 enes/944 [^e][^r]	+PLUR_BEK
+SFX 20 0 enes/944 [^r]	+PLUR_BEK
 SFX 20 0 nes/944 er	+GENITIV
+SFX 20 0 ene/944 [^e]r	+PLUR_BEK
+SFX 20 0 enes/944 [^e]r	+PLUR_BEK
 #Ulovligt ord
 FORBIDDENWORD 36
 #Substantiv, konsonantfordobling, fælleskøn, -er i flertal 
@@ -445,7 +464,7 @@ SFX 84 0 res .	+GENITIV
 #Substantiv, flertal, med -re, stamme -er fjernes
 SFX 85 Y 4
 SFX 85 er rene/944 er	+PLUR_BEK
-SFX 85 er ernes/944 er	+GENITIV
+SFX 85 er renes/944 er	+GENITIV
 SFX 85 er re/944 er	+PLUR_UBEK
 SFX 85 er res/944 er	+GENITIV
 #Substantiv, bekendt form fælleskøn med -ren eller -eren
@@ -839,7 +858,7 @@ SFX 917 0 '/944 s	+GENITIV
 SFX 917 0 es/944 .	+GENITIV
 #Sammensætning, fugeelement -s-
 SFX 939 Y 2
-SFX 939 0 s/942,945,946 .
+SFX 939 0 s/942,945,946,945 .
 SFX 939 0 s/943,945,946 .
 #Sammensætning, fugeelement -e-
 SFX 940 Y 2
@@ -939,9 +958,11 @@ SFX 194 Y 2
 SFX 194 0 et/70,944 [^e]	+BESTEMT_ENTAL
 SFX 194 0 t/70,944 e	+BESTEMT_ENTAL
 #Substantiv, flertal, med Ø
-SFX 252 Y 2
-SFX 252 0 ene/944 .	+PLUR_BEK
-SFX 252 0 enes/944 .	+GENITIV
+SFX 252 Y 4
+SFX 252 0 ene/944 [^e]	+PLUR_BEK
+SFX 252 0 enes/944 [^e]	+GENITIV
+SFX 252 0 ne/944 e	+PLUR_BEK
+SFX 252 0 nes/944 e	+GENITIV
 #Substantiv, konsonantfordobling, intetkøn, -Ø i flertal 
 SFX 254 Y 80 
 SFX 254 0 bet/944 b	+KONSONANT_FORDOBLING
@@ -1465,6 +1486,24 @@ SFX 437 Y 2
 SFX 437 0 er/942,945,946 .
 SFX 437 0 er/946,943,945 .
 #Sammensætning, fugeelement -ne-
-SFX 449 Y 2
-SFX 449 0 ne/946,945,942 .
-SFX 449 0 ne/946,943,945 .
+SFX 449 Y 20
+SFX 449 0 ne/945,942,946 n
+SFX 449 0 ne/946,943,945 n
+SFX 449 0 me/946,942,945 m
+SFX 449 0 me/946,943,945 m
+SFX 449 0 ke/946,942,945 k
+SFX 449 0 ke/946,943,945 k
+SFX 449 0 be/946,942,945 b
+SFX 449 0 be/946,943,945 b
+SFX 449 0 pe/946,942,945 p
+SFX 449 0 pe/946,943,945 p
+SFX 449 0 te/946,942,945 t
+SFX 449 0 te/946,943,945 t
+SFX 449 0 se/946,942,945 s
+SFX 449 0 se/946,943,945 s
+SFX 449 0 de/946,942,945 d
+SFX 449 0 de/946,943,945 d
+SFX 449 0 ge/946,942,945 g
+SFX 449 0 ge/946,943,945 g
+SFX 449 0 re/946,942,945 r
+SFX 449 0 re/946,943,945 r
