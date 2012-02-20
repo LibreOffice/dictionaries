@@ -85,7 +85,7 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 .INCLUDE :  $(PRJ)$/prj$/tests.mk
 
 $(EXTENSIONDIR)$/th_sv_SE.idx : "$(EXTENSIONDIR)$/th_sv_SE.dat"
-         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_sv_SE.idx <$(EXTENSIONDIR)$/th_sv_SE.dat
+         $(COMMAND_ECHO)$(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_sv_SE.idx <$(EXTENSIONDIR)$/th_sv_SE.dat
 
 .IF "$(WITH_LANG)" != ""
 $(DESCRIPTION_SRC) : description.xml

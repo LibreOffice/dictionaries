@@ -91,4 +91,4 @@ $(DESCRIPTION_SRC) : description.xml
 .ENDIF
 
 $(EXTENSIONDIR)$/th_ar.idx : "$(EXTENSIONDIR)$/th_ar.dat"
-         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_ar.idx <$(EXTENSIONDIR)$/th_ar.dat
+         $(COMMAND_ECHO)$(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_ar.idx <$(EXTENSIONDIR)$/th_ar.dat
