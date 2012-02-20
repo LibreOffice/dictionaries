@@ -67,9 +67,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/pythonpath/lightproof_opts_ru_RU.py \
     $(EXTENSIONDIR)$/dialog/ru_RU_en_US.default \
     $(EXTENSIONDIR)$/dialog/ru_RU_en_US.properties \
-    $(EXTENSIONDIR)$/dialog/ru_RU_ru_RU.properties \
     $(EXTENSIONDIR)$/dialog/ru_RU.xdl \
-    $(EXTENSIONDIR)$/dialog/OptionsDialog.xcu \
     $(EXTENSIONDIR)$/dialog/OptionsDialog.xcs
 
 COMPONENT_CONFIGDEST=.
@@ -83,6 +81,13 @@ PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 COMPONENT_UNZIP_FILES= \
     $(EXTENSIONDIR)$/th_ru_RU_v2.idx
+
+.IF "$(WITH_LANG)" != ""
+PROPERTIES_LOCALIZED:=$(MISC)/$(EXTENSIONNAME)_in/properties_localized
+COMPONENT_UNZIP_FILES+=$(EXTENSIONDIR)$/dialog/OptionsDialog.xcu $(PROPERTIES_LOCALIZED)
+.ELSE
+COMPONENT_FILES+=$(EXTENSIONDIR)$/dialog/OptionsDialog.xcu
+.ENDIF
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
@@ -104,4 +109,15 @@ $(EXTENSIONDIR)$/th_ru_RU_v2.idx : "$(EXTENSIONDIR)$/th_ru_RU_v2.dat"
 $(DESCRIPTION_SRC) : description.xml
     @@-$(MKDIRHIER) $(@:d)
     $(COMMAND_ECHO)$(XRMEX) -p $(PRJNAME) -i $< -o $@ -m $(LOCALIZESDF) -l all
+$(EXTENSIONDIR)/dialog/OptionsDialog.xcu : dialog/OptionsDialog.xcu
+    $(COMMAND_ECHO)$(CFGEX) -p $(PRJNAME) \
+                            -i $< \
+                            -o $(EXTENSIONDIR)/dialog/OptionsDialog.xcu  \
+                            -m $(L10N_MODULE)/$(COMMON_OUTDIR)$(PROEXT)/misc/sdf/dictionaries/ru_RU/dialog/localize.sdf \
+                            -l all
+$(PROPERTIES_LOCALIZED) : $(EXTENSIONDIR)/dialog/ru_RU_en_US.properties
+    $(COMMAND_ECHO)$(PERL) $(OUTDIR)/bin/propmerge \
+                            -i $< \
+                            -m $(L10N_MODULE)/$(COMMON_OUTDIR)$(PROEXT)/misc/sdf/dictionaries/ru_RU/dialog/localize.sdf
+    @@-$(TOUCH) $(PROPERTIES_LOCALIZED)
 .ENDIF
