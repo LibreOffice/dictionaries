@@ -90,8 +90,6 @@ int main(int argc, char *argv[])
                 ::exit(99);
         }
 
-        cout << outputFile << endl;
-
         outputStream << encoding << '\n' << entries.size() << '\n';
 
         for (multimap<string, size_t>::const_iterator ii(entries.begin());
