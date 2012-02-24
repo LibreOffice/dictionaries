@@ -25,4 +25,4 @@
 ALLTAR : test1
 test1 .PHONY :
 		@echo Validating thesaurus file
-		$(COMMAND_ECHO) ..$/util$/th_check.pl *.dat
+		$(COMMAND_ECHO) PERL_UNICODE=0 ..$/util$/th_check.pl *.dat
