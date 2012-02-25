@@ -119,12 +119,12 @@ $(EXTENSIONDIR)/dialog/OptionsDialog.xcu : dialog/OptionsDialog.xcu
     $(COMMAND_ECHO)$(CFGEX) -p $(PRJNAME) \
                             -i $< \
                             -o $(EXTENSIONDIR)/dialog/OptionsDialog.xcu  \
-                            -m $(L10N_MODULE)/$(COMMON_OUTDIR)$(PROEXT)/misc/sdf/dictionaries/hu_HU/dialog/localize.sdf \
+                            -m $(WORKDIR)/CustomTarget/translations/translate/sdf/dictionaries/hu_HU/dialog/localize.sdf \
                             -l all
 $(PROPERTIES_LOCALIZED) : $(EXTENSIONDIR)/dialog/hu_HU_en_US.properties
     $(COMMAND_ECHO)$(PERL) $(OUTDIR)/bin/propmerge \
                             -i $< \
-                            -m $(L10N_MODULE)/$(COMMON_OUTDIR)$(PROEXT)/misc/sdf/dictionaries/hu_HU/dialog/localize.sdf
+                            -m $(WORKDIR)/CustomTarget/translations/translate/sdf/dictionaries/hu_HU/dialog/localize.sdf
     @@-rm $(EXTENSIONDIR)/dialog/hu_HU_hu.properties
     @@-$(TOUCH) $(PROPERTIES_LOCALIZED)
 .ENDIF
