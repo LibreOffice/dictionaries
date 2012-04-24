@@ -58,7 +58,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/hyph_cs_CZ.dic \
     $(EXTENSIONDIR)$/README_cs_CZ.txt \
     $(EXTENSIONDIR)$/README_hyph_cs_CZ.txt \
-    $(EXTENSIONDIR)$/th_cs_CZ_v2.dat
+    $(EXTENSIONDIR)$/th_cs_CZ_v3.dat
 
 
 COMPONENT_CONFIGDEST=.
@@ -71,7 +71,7 @@ CUSTOM_LICENSE=th_cs_CZ_license.txt
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_cs_CZ_v2.idx
+    $(EXTENSIONDIR)$/th_cs_CZ_v3.idx
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
@@ -86,8 +86,8 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 .INCLUDE :  $(PRJ)$/prj$/tests.mk
 
-$(EXTENSIONDIR)$/th_cs_CZ_v2.idx : "$(EXTENSIONDIR)$/th_cs_CZ_v2.dat"
-         $(COMMAND_ECHO)$(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_cs_CZ_v2.idx <$(EXTENSIONDIR)$/th_cs_CZ_v2.dat
+$(EXTENSIONDIR)$/th_cs_CZ_v3.idx : "$(EXTENSIONDIR)$/th_cs_CZ_v3.dat"
+         $(COMMAND_ECHO)$(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_cs_CZ_v3.idx <$(EXTENSIONDIR)$/th_cs_CZ_v3.dat
 
 .IF "$(WITH_LANG)" != ""
 $(DESCRIPTION_SRC) : description.xml

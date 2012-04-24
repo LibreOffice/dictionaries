@@ -26,7 +26,7 @@
         </node>
         <node oor:name="ThesDic_cs-CZ" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/th_cs_CZ_v2.dat</value>
+                <value>%origin%/th_cs_CZ_v3.dat</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_THES</value>
