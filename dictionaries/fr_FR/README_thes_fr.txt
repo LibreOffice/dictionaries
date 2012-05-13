@@ -6,7 +6,7 @@ _______________________________________________________________________________
    Par Frédéric Labbé
 
    Pour les mises à jour, allez sur Dicollecte :
-   http://www.dicollecte.org/thesaurus.php?prj=fr
+   http://www.dicollecte.org/home.php?prj=fr
 
    Licence:
      LGPL : GNU Lesser General Public License
