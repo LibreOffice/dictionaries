@@ -1,7 +1,7 @@
 _______________________________________________________________________________
 
    DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS «MODERNE»
-   version 4.4.1
+   version 4.5
 
    Olivier R. - dicollecte<at>free<dot>fr
    Dicollecte : http://www.dicollecte.org/
@@ -36,7 +36,7 @@ _______________________________________________________________________________
    http://www.dicollecte.org/members.php?prj=fr
 
    Pour participer à l’amélioration du dictionnaire, allez sur :
-   http://www.dicollecte.org/
+   http://www.dicollecte.org/home.php?prj=fr
 
 _______________________________________________________________________________
 
