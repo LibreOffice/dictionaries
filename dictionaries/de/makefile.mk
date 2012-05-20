@@ -98,9 +98,9 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 #.INCLUDE :  $(PRJ)$/prj$/tests.mk
 
 $(EXTENSIONDIR)$/th_de_DE_v2.idx : "$(EXTENSIONDIR)$/th_de_DE_v2.dat"
-         $(COMMAND_ECHO)$(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_de_DE_v2.idx <$(EXTENSIONDIR)$/th_de_DE_v2.dat
+         $(COMMAND_ECHO)$(AUGMENT_LIBRARY_PATH) $(OUTDIR_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_de_DE_v2.idx <$(EXTENSIONDIR)$/th_de_DE_v2.dat
 $(EXTENSIONDIR)$/th_de_AT_v2.idx : "$(EXTENSIONDIR)$/th_de_AT_v2.dat"
-         $(COMMAND_ECHO)$(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_de_AT_v2.idx <$(EXTENSIONDIR)$/th_de_AT_v2.dat
+         $(COMMAND_ECHO)$(AUGMENT_LIBRARY_PATH) $(OUTDIR_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_de_AT_v2.idx <$(EXTENSIONDIR)$/th_de_AT_v2.dat
 
 .IF "$(WITH_LANG)" != ""
 $(DESCRIPTION_SRC) : description.xml
