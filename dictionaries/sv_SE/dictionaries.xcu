@@ -13,6 +13,17 @@
                     <value>sv-SE</value>
                 </prop>
             </node>
+            <node oor:name="HunSpellDic_sv_FI" oor:op="fuse">
+                <prop oor:name="Locations" oor:type="oor:string-list">
+                    <value>%origin%/sv_FI.aff %origin%/sv_FI.dic</value>
+                </prop>
+                <prop oor:name="Format" oor:type="xs:string">
+                    <value>DICT_SPELL</value>
+                </prop>
+                <prop oor:name="Locales" oor:type="oor:string-list">
+                    <value>sv-FI</value>
+                </prop>
+            </node>
             <node oor:name="ThesDic_sv-SE1" oor:op="fuse">
                 <prop oor:name="Locations" oor:type="oor:string-list">
                     <value>%origin%/th_sv_SE.dat</value>

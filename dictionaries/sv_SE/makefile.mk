@@ -55,6 +55,8 @@ DESCRIPTION_SRC:=$(MISC)/$(EXTENSIONNAME)_in/description.xml
 COMPONENT_FILES= \
     $(EXTENSIONDIR)$/sv_SE.aff \
     $(EXTENSIONDIR)$/sv_SE.dic \
+    $(EXTENSIONDIR)$/sv_FI.aff \
+    $(EXTENSIONDIR)$/sv_FI.dic \
     $(EXTENSIONDIR)$/th_sv_SE.dat \
     $(EXTENSIONDIR)$/README_th_sv_SE.txt \
     $(EXTENSIONDIR)$/LICENSE_en_US.txt
