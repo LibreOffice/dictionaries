@@ -1,27 +1,18 @@
 SET ISO8859-1
-TRY aerndtislogmkpbhfjuväcöåyqxzvwéâàáè
+TRY aerndtislogmkpbhfjuväcöåyqxzvwéâàáè:-
 
 WORDCHARS -0123456789.:
 
-BREAK 4
+BREAK 3
 BREAK -
-BREAK .
+BREAK .$
 BREAK :
-BREAK :$
 
 NOSUGGEST !
 
 FORBIDDENWORD %
 
 NEEDAFFIX ?
-
-# Flags used in COMPOUNDRULE definitions:
-# 0 - any nonletter character listed in WORDCHARS above
-# 1 - a digit (0-9)
-
-# All strings without letters:
-COMPOUNDRULE 1
-COMPOUNDRULE 0*
 
 # At least this many letters in each word within a compound:
 COMPOUNDMIN 1
@@ -41,7 +32,14 @@ CHECKCOMPOUNDDUP
 # The generated compound word suggestions are sometimes
 # very useful. At other times, they make users go crazy with
 # dismay since the generated words make no sense.
-MAXCPDSUGS 2
+MAXCPDSUGS 0
+
+# Users get distracted by too wild suggestions
+MAXDIFF 5
+ONLYMAXDIFF
+
+# This is a must for Swedish:
+NOSPLITSUGS
 
 FULLSTRIP
 
@@ -64,13 +62,13 @@ COMPOUNDEND Y
 # Non-word that may be part of a compund:
 ONLYINCOMPOUND Z
 
-NOSPLITSUGS
-
 # Some letters that should be replacable and have higher priority
-REP 94
+REP 59
 REP e ä
 REP ä e
 REP ngn gn
+REP gn ng
+REP ng gn
 REP je ge
 REP ge je
 REP gö jö
@@ -99,72 +97,34 @@ REP ti ssi
 REP ssi ti
 REP tj k
 REP ai ej
-REP ^allsin$ all_sin
-REP ^allsindar$ all_sin_dar
+REP mm m
+REP s ss
+REP l ll
+REP t tt
+REP n nn
+REP p pp
+REP g gg
+REP d t
+REP t d
 REP ^bla$ bl.a.
 REP ^pga$ p.g.a.
 REP ^tex$ t.ex.
-REP ^ditut$ dit_ut
-REP ^därbakom$ där_bakom
-REP ^därbortom$ där_bortom
-REP ^därframme$ där_framme
-REP ^därovan$ där_ovan
-REP ^därovanför$ där_ovanför
-REP ^däruppifrån$ där_uppifrån
-REP ^därutifrån$ där_utifrån
-REP ^därovanpå$ där_ovanpå
-REP ^föredetta$ före_detta
-REP ^godafton$ god_afton
-REP ^godmiddag$ god_middag
-REP ^hitut$ hit_ut
-REP ^härborta$ här_borta
-REP ^härframme$ här_framme
-REP ^härhemma$ här_hemma
+REP ^pga$ p.g.a.
+REP ^tex$ t.ex.
 REP ^iafton$ i_afton
 REP ^iakt$ i_akt
-REP ^iallafall$ i_alla_fall
 REP ^imorse$ i_morse
-REP ^iochmed$ i_och_med
+REP ^igår i_går_
+REP ochmed$ _och_med
 REP ^iordning$ i_ordning
 REP ^istyr$ i_styr
 REP ^isynnerhet$ i_synnerhet
-REP ^isåfall$ i_så_fall
 REP ^iår$ i_år
 REP ^iövrigt$ i_övrigt
-REP ^jämsmed$ jäms_med
-REP ^litegrand$ lite_grand
-REP ^litegrann$ lite_grann
-REP ^mittibland$ mitt_ibland
-REP ^mittunder$ mitt_under
-REP ^mittuppe$ mitt_uppe
-REP ^mittöver$ mitt_över
-REP ^näranog$ nära_nog
-REP ^nästefter$ näst_efter
-REP ^pga$ p.g.a.
-REP ^pånytt$ på_nytt
-REP ^rentut$ rent_ut
-REP ^rättså$ rätt_så
-REP ^sånärsom$ så_när_som
-REP ^tex$ t.ex.
-REP ^tilldess$ till_dess
-REP ^tillexempel$ till_exempel
-REP ^tillpass$ till_pass
-REP ^tillsalu$ till_salu
-REP ^tillsist$ till_sist
-REP ^tillspillo$ till_spillo
-REP ^tilltrots$ till_trots
-REP ^tilltåls$ till_tåls
-REP ^tillviljes$ till_viljes
-REP ^tillända$ till_ända
-REP ^tillövers$ till_övers
-REP ^undertiden$ under_tiden
-REP ^urstånd$ ur_stånd
 REP ^utochin$ ut_och_in
 REP ^åfärde$ å_färde
-REP ^överända$ över_ända
 #REP andet ningen
 #REP ningen andet
-
 
 # För förkortningar och ord som kräver bindestreck
 # när de är andraord i sammansättningar, t.ex. TV, OS
@@ -200,8 +160,8 @@ SFX  B  0  ndets  a
 # Som tecken: tecknet, tecknets
 # Som ton: tonnet, tonnets
 SFX  C  Y  16
-SFX  C  0  t  [aeiouyåäöé]
-SFX  C  0  ts  [aeiouyåäöé]
+SFX  C  0  t  [aeiouyåäöé:]
+SFX  C  0  ts  [aeiouyåäöé:]
 SFX  C  el  let  [^m]el
 SFX  C  el  lets  [^m]el
 SFX  C  mel  let  mel
@@ -380,7 +340,7 @@ SFX  I  mar  rars  mar
 # Som springa: spring
 # Som tämja
 # Som komma
-SFX  J  Y  30
+SFX  J  Y  32
 SFX  J  el  ler  el
 SFX  J  el  lerna  el
 SFX  J  el  lernas  el
@@ -411,6 +371,9 @@ SFX  J  a  0  [^m][^m]a
 SFX  J  a  0  m[^m]a
 SFX  J  ma 0  mma
 SFX  J  :  0  :
+SFX  J  -  0  -
+SFX  J  -  :s  -
+
 
 #--------------------------------------------
 # Andra konjugationen.
@@ -562,13 +525,14 @@ SFX  L  0  mare  m
 SFX  L  0  mast  m
 SFX  L  0  maste  m
 
-SFX  M  Y  31
+SFX  m  Y  1
+SFX  m  0  r  .
+
+SFX  M  Y  29
 SFX  M  0  de  a
 SFX  M  0  t  a
-SFX  M  0  r  a
 SFX  M  0  dde  [oyä]
 SFX  M  0  tt  [eoyäö]
-SFX  M  0  r  [eioyåäö]
 SFX  M  e  ad  be
 SFX  M  e  av  ge
 SFX  M  e  og  le
@@ -667,10 +631,22 @@ SFX  R  a  es  a
 SFX  R  0  as  [^a]
 SFX  R  0  es  [^a]
 
-SFX  T  Y  3
-SFX  T  0  iska  .
-SFX  T  0  iskt  .
-SFX  T  0  isk  .
+SFX  T  Y  15
+SFX  T  0  iska  [^a:]
+SFX  T  0  iskt  [^a:]
+SFX  T  0  isk  [^a:]
+SFX  T  0  re  a
+SFX  T  0  ren  a
+SFX  T  0  rens  a
+SFX  T  0  res  a
+SFX  T  0  rna  a
+SFX  T  0  rnas  a
+SFX  T  0  are  :
+SFX  T  0  aren  :
+SFX  T  0  arens  :
+SFX  T  0  ares  :
+SFX  T  0  arna  :
+SFX  T  0  arnas  :
 
 # Som myra: myr- (stack)
 # Som förare: förar- (platsen)
@@ -759,3 +735,78 @@ SFX  r  0  -/WX  .
 
 SFX  b  N  1
 SFX  b  0  -  .
+
+# Flags used in COMPOUNDRULE definitions:
+# 0 - any nonletter character listed in WORDCHARS above
+# 1 - a digit (0-9)
+# 2 - number written in letters (1-100)
+# 3 - numeric middle compund
+# 6 - numeric suffix
+# 4 - multiple of 100 written in letters (100,200,...,2000)
+# 5 - thousand, million, billion
+# - - The dash character
+# 7 - The words first,second,third,...,hundredth
+# 8 - word that is a suffix to #7 above.
+
+# Compound rules:
+# 0* - All strings without letters, e.g. 12:3-3
+# 1*-6 - number followed by suffix, e.g. 87-åringens
+# 4?2?5?6 - as above but with letters, e.g. åttiosjuåringen
+# 1*-3Y - number followed by compound suffix, e.g. 60-talsinredning
+# 4?23Y - as above but with letters, e.g. nittonhundrasextiotalsinredning
+# 43Y - as above, e.g. nittonhundratalsinredning
+# 4?2?53Y - as above, e.g. sjuhundrafemtiotusenkronorsstugan
+# 42  - a number written in letters, e.g. trehundratjugonio
+# 4?2?54?2? - as above, e.g. sjuhundrafemtiotretusentrehundratjugonio
+# 4?2?54?2?54?2? - as above, e.g. tvåhundratrettonmiljonerfemhundrasjuttontusenelva
+
+COMPOUNDRULE 10
+COMPOUNDRULE 0*
+COMPOUNDRULE 1*-6
+COMPOUNDRULE 4?5?4?5?4?2?6
+COMPOUNDRULE 1*-3U*Y
+COMPOUNDRULE 4?5?4?23U*Y
+COMPOUNDRULE 4?5?43U*Y
+COMPOUNDRULE 4?5?4?53U*Y
+COMPOUNDRULE 4?5?4?5?4?5?4?2?
+COMPOUNDRULE 47
+COMPOUNDRULE 4?78
+
+#pragma ignore-start
+SFX  1  Y  8
+SFX  1  0  :a  .
+SFX  1  0  :as  .
+SFX  1  0  :an  .
+SFX  1  0  :ans  .
+SFX  1  0  :or  .
+SFX  1  0  :ors  .
+SFX  1  0  :orna  .
+SFX  1  0  :ornas  .
+
+SFX  7  Y  25
+SFX  7  0  s  .
+SFX  7  a  e  a
+SFX  7  a  es  a
+SFX  7  0  l  [oe]nde
+SFX  7  0  ls  [oe]nde
+SFX  7  0  len  [oe]nde
+SFX  7  0  lens  [oe]nde
+SFX  7  0  lar  [oe]nde
+SFX  7  0  lars  [oe]nde
+SFX  7  0  larna  [oe]nde
+SFX  7  0  larnas  [oe]nde
+SFX  7  0  del  .
+SFX  7  0  dels-  .
+SFX  7  0  dels/WX  .
+SFX  7  0  delen  .
+SFX  7  0  delens  .
+SFX  7  0  delar  .
+SFX  7  0  delars  .
+SFX  7  0  delarna  .
+SFX  7  0  delarnas  .
+SFX  7  0  dags/WX  .
+SFX  7  0  hands/WXZ  .
+SFX  7  0  pris/WX  .
+SFX  7  0  generations/WX  .
+SFX  7  0  parts/WX  .
+#pragma ignore-end
