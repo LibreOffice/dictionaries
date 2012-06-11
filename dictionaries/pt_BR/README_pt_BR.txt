@@ -37,132 +37,62 @@ http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 ======================
 SOBRE ESTA ATUALIZAÇÃO
 ======================
-. Inclusão do Corretor Gramatical baseado no Lightproof;
-. Na versão 2.1.0, modificações para melhoria de uma regra (terminações mento)
-  ocasionaram o desaparecimento de algumas as palavras 'carreamento',
-  'compartilhamento', 'deslocamento', 'desfolhamento', 'estreitamento',
-  'disciplinamento', 'estiramento', 'georreferenciamento', 'patenteamento'
-  e 'sequenciamento',  sanadas na Versão 2.1.1. 
-. Exclusão de: alem. Colaboração de Eduardo Mundim; 
-. Inclusão de:  Justinópolis, macrodantina, micropapilar, normotensa,
-  pré-jantar, reexplicado, reexplicar e tibiofibular.  Colaboração de
-  Eduardo Mundim;
-. Inclusão de: intrapartidário e  irressarcida. Colaboração de João
-  Eduardo Strottmann;
-. Inclusão de nomes bíblicos: Abias, Abiud, Acaz, Aminadab, Arfaxad,
-  Booz, Eber, Eleazar, Eliacim, Eliud, Elmadão, Esron, Faleg, Henoc,
-  Henós, Hesli, Jané, Jared, Jonão, Lamec, Maat, Malaleel, Matat,
-  Naasson, Nacor, Nagé, Obed, Raab, Ragau, Resa, Sadoc, Salmon, Sarug,
-  Semei. Colaboração de Eduardo Mundim;
-. Inclusão de: isoecoico, pleomórfico, subterapêutico, transabdominal.
-  Colaboração de Eduardo Mundim;
-. Inclusão de: microtubo e antiasfixiante. Colaboração de Guilherme
-  Rebecchi;
-. Inclusão das abreviatursa: abrev., Adv.º, adv.º, cm², cm³, cód., cx.,
-  depto., dpto., Drs., DST, bras., exp., ext., ff., fg., públ., fl.,
-  cf., dep. e Dra. Colaboração de Guilherme Rebecchi;
-. Inclusão do verbo cofundar, e das palavras cardiolipídico, 
-  extra-acadêmica, coadequar e botucatuense.  Colaboração de
-  Guilherme Rebecchi;
-. Inclusão de: reestilizar, reesposado, reesposar, reespumas,
-  reestabelecer, reestimulado, reestimulante, reestimular,
-  reestipulação, reestipulado, reestipulador, reestipular.
-  Colaboração de Guilherme Rebecchi;
-. Inclusão de: decupagem, decupável, motoventilador,  motoboy,
-  motor-ocular. Colaboração de Guilherme Rebecchi.
-. Inclusão de: endócrino-metabólico, pré-requisitado e
-  primoinfecção. Colaboração de Eduardo Mundim;
-. Inclusão de anti-héctico, anti-helênico, anti-hélice, anti-hético,
-  anti-hidrotropina, anti-iberístico, anti-igualitário, anti-igualitarismo,
-  anti-igualitarista, anti-igualitarístico, anti-iluminístico, anti-inatismo,
-  anti-íneo, anti-infabilístico, anti-infalibilístico, anti-integralístico,
-  anti-interferencial, anticolonista, anticontagionista, antidreyfusista,
-  antievolucionário, antifens, antimanicomial, antissocialístico, antissofístico,
-  antissorologia, antissorológico, antissovietismo, antissovietista,
-  antissovietístico, correpetidora, ântia, astros-reis, correpetição,
-  correpetir, cré, creaseyita, crêmbalo, crênea, crênico, desleucocitação,
-  guiratinga, hemocomponentes, lesma-de-conchinha, microcuveta, moto-contínuo,
-  moto-perpétuo, moto-próprio, motos-contínuos, motos-perpétuos, motos-próprios,
-  pilularmente, primo-infeção, rioclarense, trifacetado.
-  Colaboração de Guilherme Rebecchi.
-. Inclusão de nomes próprios: Alcemar, Alfredinho, Amon-Rá, Camilinha, Cavalheira,
-  Dulcimar, Elza, Fibonacci, Flogêncio, Geldásio, Gotemburgo, Lemaitre, Liane,
-  Lispector, Monique, Rousseff, Talia, Tutmósis.
-. Inclusão de: acadêmico-científico, adesivação, agente-motorista, agrorreformista, almocinho,
-  amassos, americano-canadense, anabela, angioimunoblástico, anglo-nubiano, Ano-Novo, anti-intrusão,
-  antiatrito, antidistúrbio, antienchente, antiferromagnético, antimaçã, antiquark, antiquíssima,
-  antropometricamente, Apicum-Açu, asilo-colônia, astrobiologista, audio-oral, audiocomunicação,
-  audiolingual, auto-outorga, autoafastamento, autoamarrar, autoaquecer, autocicatrização,
-  autocicatrizante, autocicatrizar, autocorrigir, autodefensor, autodesligar, autoimportância,
-  autorizatário, autorresfriar, autossegregação, autossimilar, autotransplante, aventuresco,
-  barocalórico, basco-espanhol, benefício-custo, biobateria, biocélula, biocompósito,
-  biocopo, bioeletrodo, biogerador, biomáscara, biomemória, bionanotecnologia, bioneon,
-  bioviolino, birradical, boias-frias, boreto, Bose-Einstein, branco-amarelado, cães-guias,
-  cambrique, carreamento, carregadíssimo, caxotão, celão, célula-semente, células-T,
-  ciberarma, cibercondríaco, ciberdoutor, ciceronear, ciência-cidadã, científico-cultural,
-  circumbinário, clínico-patológico, cloraminação, coautoral, coevento, cogência,
-  consultor-geral, contrachapa, contrainsurgência, contraplacado, contrarrotação,
-  corpão, criptoassinatura, CTI, data-marco, dB, decotão, decretos-lei, dedo-duro,
-  defletora, desobsessão, destipificação, diarileteno, diarileteno, diarinho, didático-científico,
-  Dif., disciplinamento, Disneylândia, domo, econômico-contributivo, elegantérimo,
-  eletrônico-quântico, engraxadeira, equanimemente, espectropolarimetria, espírito-cultural,
-  espraiamento, estado-nação, estado-proprietário, Estados-Membros, exproprianda, 
-  extrassociedade, ferromagneto, firmezinho, físico-ambiental, físico-operacional,
-  fivelinha, fotodetectora, ganha-ganha, georreferenciamento, geossocialização,
-  giga-hertz, giromodelo, globinho, gluconolactona, grupo-base, hackeado,
-  helicóptero-espião, heliotérmico, hidrofilicidade, hidrofobicidade, hidrogerador,
-  histórico-antropológico, histórico-crítico, histórico-econômico, homem-borracha,
-  homem-elástico, homem-radioativo, hospital-colônia, hospital-escola, ignocelulósico,
-  indedutibilidade, inescondível, inexpropriabilidade, infracionário, ininterruptividade,
-  intercambista, interdição-relâmpago, interruptora, intradomiciliar, intraministeriais,
-  intraurbano, jogos-treino, jurídico-agrário, kandoriano, kryptoniano, lesa-cultura,
-  lesa-democracia, lesa-inteligência, lesa-língua, lesa-natureza, lesa-propriedade,
-  linguístico-comunicativa, maçarico-do-papo-vermelho, macroárea, magneto-óptico,
-  magnetorresistivo, manjelão, máquina-robô, máquinas-robôs, mata-leão, 
-  médico-odontológico, medinho, megaepisódio, megatendência, meritoriamente,
-  meta-análise, meta-humano, mexilhão-dourado, microbomba, microbraço, microcromatografia,
-  microescala, microescala, microfabricação, microfoguete, microlaboratório, microlente,
-  micromúsculo, micropinça, microrressonador, microrrobótico, microválvula, mili-elétron-volt,
-  miniarmarinho, minibolinho, minidocumentário, minissequenciador, molécula-motor,
-  molhável, motorredutor, muletante, mulher-aranha, multicombustível, multiferroico,
-  multipá, município-sede, municípios-sede, nano-orelha, nano-ouvido, nanobioeletrodo,
-  nanocamada, nanocarro, nanocircuito, nanoconcha, nanocristalino, nanodiamante,
-  nanoelétrico, nanoendoscópio, nanofábrica, nanoferramenta, nanofotônico, nanolâmpada,
-  nanomagneto, nanomemória, nanomicrofone, nanorrendimento, nanorrobô, nanotrem,
-  nanotrilho, nanoveículo, nanowatts, nascitura, neuropsicossocial, objeto-partícula,
-  objetos-partícula, obstacularizador, oculoplástico, oftalmogeneticista, oportunistamente,
-  optoquântico, organizatório-funcional, ouvintismo, ouvintizado, país-parceiro, países-parceiros,
-  papuano, para-fiscal, patenteamento, pavilhão-escola, periodozinho, pervasivo, peso-leve,
-  pica-pau-bico-de-marfim, piso-guia, plasmônico, plasmônico, plásmons, poderes-deveres,
-  político-democrático, pombagira, popozudo, Pré-Amazônia, pré-constituído, pré-cozimento,
-  pré-dimensionamento, pré-estadual, pré-incubação, pré-pessoal, pré-político, pré-regulado,
-  pré-texto, prediozinho, prevalecentemente, promissária-compradora, pseudo-obstrução,
-  quântico-eletrônico, quantílico, quasicristal, qubit, reinfestação, reizinho, 
-  relacionamento-relâmpago, reptílico, rigatone, robô-bebê, robô-gêmeo, romance-relâmpago,
-  rubisco, sanfônica, sapo-pulga, sapos-pulga, sarjetão, semicartunesco, semimaterial,
-  sensorial-motora, sequenciamento, sequestro-relâmpago, silício-germânio, site, skate,
-  socioantropológico, socioassistencial, socioespacial, subaglomeração, subaglomerado, 
-  subartigo, subcoleção, subcompacto, substância-traço, sucroenergético, super-hidrofílico,
-  super-hidrofóbico, superanimal, superarcaico, superburaco, supercavalo, superciborgue,
-  superconfidencial, supercriminoso, superemocionado, superesforçado, superestudioso,
-  superfluido, supergigante, supermoço, supermulher, supermutante, superpreciso, supersaga,
-  supertrança, supertrançado, supertratamento, supraétnico, suprarrelacionado, surdocego,
-  surdocegueira, suspeitíssimo, tartalete, teleológico-funcional, teoria-M, teórico-doutrinário,
-  transversalização, tricloroisocianúrico, turbocompressor, ultradenso, ultraminiaturizado,
-  ultraportabilidade, ultrapreciso, ultrapreciso, ultrapreciso, ultrarreligioso, ultras, urbanitário,
-  UTI, Vale-Alimentação, vale-alimentação, Vancouver, vermelho-alaranjado, vertedoura,
-  videodocumentário, vitrocerâmico e Wh.
+.Inclusão de: Subsumível, sustido - do verbo suster,
+ jurídico-trabalhistas, subsume: de subsumir e irressarcida. Colaboração
+ de João Eduardo Strottmann;
+.Inclusão de clínico-psicológica e ciberódio. Colaboração Luyse M. Moura.
+.Correção de infanto-juvenil para infantojuvenil conforme Acordo
+ Ortográfico. Colaboração de Guilherme Rebecchi.
+.Exclusão de 'atras',  'muta', 'sitei', 'estoria', 'critozoico',
+ e 'objecto'. Colaboração de Marcelo Lima.
+.Revisão da regra 'M' (sufixo mento) em verbos terminados em 'ar'.
+ Mais de 2000 supressões, eliminando termos como: alocamento, alopramento,
+ ambientamento, amigamento, amolamento, amputamento, animamento,
+ antecipamento, aproximamento, argumentamento, azaramento, beijamento,
+ bonificamento, buzinamento, cachamento, etc.
+.Inclusão de 'correpetidor'. Colaboração de Guilherme Rebecchi.
+.Inclusão de: cramunhão, cabrunco, ruinzinho, sacizinho, carapucinha,
+  taí, pererê e Poltergeist. Colaboração de Marcelo Lima.
+.Inclusão de: antenômero, antialísio, antiduna, recirculado,
+ abelha-bota-fogo, abelhas-bota-fogo, abelha-mãe, abelhas-mãe,   abelha-mirim, abelhas-mirins, abelha-mosquito, abissopelágico, acritarco,
+ acrófita, advectivo-difusivo, advectivo, áfilo, ágrico, agriférrico,
+ agrofloresta, aleloquímico, algálico, álico, alissolo, aloclástico,
+ aloquímico, aluminossilicatado, amínico, amítico, anádromo, ândica,
+ andromonoico, anfítoca, anomalamente, anquerítica, antéclise, antiforme,
+ apidologia, apidólogo, apitoxina, aposemático, aposematismo, apterigoto,
+ aptésico, aquícludo, aquífugo, aquitardo, arcósio, Arenigiano, argílico,
+ argipã, argissolo, arlequim-de-caiena, arlequins-de-caiena, arrenótoca,
+ pseudoarrenótoca, arrenotoquia, aspídoto, atolento, autofuncionante,
+ autopolinizar, troficamente, adularescência, aventurinização,
+ bashkiriano, Baveno, bioacumulador, bioacumulativo, biodiversificado,
+ bifenila, bioestratigráfico, biofloculação. Colaboração de Evandro Andrade
+ da Silva.
+.Inclusão de nomes próprios: Cleovansóstenes, Egnaldo, Elionaldo, Elivaldo,
+ Floripa, Gilmarcos, Gismália, Jaziel, Jozonaldo, Leningrado, Piraparaná,
+ Uelizânio, Uílson.
+.Inclusão de universo-bolha, recalçar, entreguerras, nanocanal, oficineiro,
+ lobotomista, eletromagnetismo, reacionar;
+.Inclusão de plural: rastreios, respaldos
+.Inclusão de prefixos para formação de termos como: anti-hidrogênio,
+ autocirurgia, autocontido, autoefetivado, autoironia, autorregenerativo,
+ autorregenerativo, autosselecionar subparcela superanticorpo microgerador,
+ microfolículo, macroentidade, microentidade, micropigmentação,
+ supercapacitor, suborganização, supergene, superlisonjeado, subquântico,
+ semifictício,  minissatélite, retrofuturismo, solteirice.
+.Inclusão da forma feminina em alguns termos com sufíxos 'íneo', 'ário','ógeno' e
+ívoro (consanguíneas, multifacetárias, carcinógenas, crudívoras);
+.Inclusão de diminutivos como: textinho, verdurinha, charadinha, encrenquinha, leguminho, produtinho.
 
 =======================================================
 COMO INSTALAR O VERIFICADOR BRASILEIRO NO LIBREOFFICE
 =======================================================
 
 O VERO vem dentro do pacote de instalação do Português do Brasil do
-LibreOffice, como uma extensão de instalação. Ele é automaticamente instalado.
+LibreOffice, como uma extensão de instalação. Ele é automaticametne instalado.
 
 Caso ele não tenha sido instalado na versão de seu LibreOffice (por exemplo, se sua
-versão é de outro idioma) você pode instalá-lo como uma extensão do LibreOffice. 
-Baixe-o de http://extensions.libreoffice.org
+versão é de outro idioma) você pode instalá-lo como uma extensão do LibreOffice. Baixe-o de
+http://extensions.libreoffice.org
 
 ===================
 DÚVIDAS FREQUENTES
@@ -170,7 +100,7 @@ DÚVIDAS FREQUENTES
 
 Os arquivos foram copiados mas o Verificador não está funcionando.
 O Verificador Ortográfico não deve estar configurado corretamente,
-isto pode ocorrer por um dos seguintes motivos:
+isto pode estar ocorrendo por um dos seguintes motivos:
 
 1- O dicionário provavelmente não está instalado.
 
