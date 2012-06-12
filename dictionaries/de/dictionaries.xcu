@@ -48,18 +48,6 @@
                 <value>de de-DE de-AT de-CH</value>
             </prop>
         </node>
-        <node oor:name="ThesDic_de-AT" oor:op="fuse">
-            <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/th_de_AT_v2.dat</value>
-            </prop>
-            <prop oor:name="Format" oor:type="xs:string">
-                <value>DICT_THES</value>
-            </prop>
-            <prop oor:name="Locales" oor:type="oor:string-list">
-                <!-- de-AT and de-CH thesauri are identical -->
-                <value>de-AT de-CH</value>
-            </prop>
-        </node>
         <node oor:name="ThesDic_de-DE" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/th_de_DE_v2.dat</value>
@@ -68,7 +56,8 @@
                 <value>DICT_THES</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>de-DE</value>
+                <!-- de-AT, de-CH and de-DE thesauri are identical -->
+                <value>de de-DE de-AT de-CH</value>
             </prop>
         </node>
     </node>
