@@ -68,7 +68,6 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/README_extension_owner.txt \
     $(EXTENSIONDIR)$/README_hyph_de.txt \
     $(EXTENSIONDIR)$/README_thesaurus.txt \
-    $(EXTENSIONDIR)$/th_de_AT_v2.dat \
     $(EXTENSIONDIR)$/th_de_DE_v2.dat
 
 COMPONENT_CONFIGDEST=.
@@ -81,7 +80,6 @@ CUSTOM_LICENSE=COPYING_GPLv2
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
 COMPONENT_UNZIP_FILES= \
-    $(EXTENSIONDIR)$/th_de_AT_v2.idx \
     $(EXTENSIONDIR)$/th_de_DE_v2.idx
 
 # add own targets to packing dependencies (need to be done before
@@ -99,8 +97,6 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 $(EXTENSIONDIR)$/th_de_DE_v2.idx : "$(EXTENSIONDIR)$/th_de_DE_v2.dat"
          $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_de_DE_v2.idx <$(EXTENSIONDIR)$/th_de_DE_v2.dat
-$(EXTENSIONDIR)$/th_de_AT_v2.idx : "$(EXTENSIONDIR)$/th_de_AT_v2.dat"
-         $(AUGMENT_LIBRARY_PATH) $(LOCAL_OUT_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_de_AT_v2.idx <$(EXTENSIONDIR)$/th_de_AT_v2.dat
 
 .IF "$(WITH_LANG)" != ""
 $(DESCRIPTION_SRC) : description.xml
