@@ -1,15 +1,16 @@
 SET ISO8859-1
 TRY áàãâéêíóõôúüçesianrtolcdugmphbyfvkwjqxz
 
-#   VERO - Verificador Ortográfico Livre - Versão 2.1.0
+#   VERO - Verificador Ortográfico Livre - Versão 2.1.1
 #   Copyright (C) 2006 - 2012  por Raimundo Santos Moura
-#   <raimundomoura@openoffice.org>
-#   Colaboradores deste projeto: http://www.openoffice.org.br/?q=creditos
-#   Brasil - Janeiro 2012
+#   <raimundo.smoura@gmail.com>
+#   Brasil - Junho 2012
 #   Este é um dicionário para correção ortográfica da língua Portuguesa   
 #   para o Hunspell.                                                       
 #   Este programa é livre e pode ser redistribuído e/ou modificado nos    
-#   termos da  GNU Lesser General Public License (LGPL) versão 2.1.       
+#   termos Licença Pública Geral Menor versão 3 (LGPLv3), como publicado
+#   pela Free Software Foundation e pela Mozilla Public License como
+#   publicado pela Mozilla Foundation.
 
 
 MAP 6
@@ -20,8 +21,9 @@ MAP oóõôOÓÕÔ
 MAP uúüUÚÜ
 MAP cçCÇ
 
-BREAK 67
+BREAK 68
 BREAK BREAK
+BREAK .
 BREAK ^-
 BREAK -$
 BREAK ^ex-
@@ -96,12 +98,14 @@ MAXNGRAMSUGS 12
 #   Não sugerir       
 NOSUGGEST Ý
 
+FORBIDDENWORD ý
+
 WORDCHARS -
 
 CHECKCOMPOUNDREP
 
 # melhorar a sugestão de palavras
-REP 394
+REP 403
 REP -           s-
 REP -           r
 REP -           s
@@ -151,9 +155,11 @@ REP ân          âm
 REP ância       ança
 REP ão          ãe
 REP ao          ão
+REP ão          am
 REP ão          õe
 REP aqu         áqu
 REP ára-        ara
+REP áre         ári
 REP ars         raç
 REP ás          az
 REP athlon      átlon
@@ -164,6 +170,7 @@ REP azinh       inh
 REP b           b-
 REP b-          b
 REP bakup       becape
+REP ben         bem-
 REP bilidade    lidade
 REP boy         bói 
 REP btâ         bstâ
@@ -257,6 +264,7 @@ REP í-          í
 REP i-h         i
 REP ida         ível
 REP idas        íveis
+REP ideo        ídeo
 REP ido         ível
 REP idos        íveis
 REP ifem        ífen
@@ -353,8 +361,10 @@ REP ôm          ôn
 REP on          om
 REP ón          óm
 REP ôn          ôm
+REP ouquet      uquê
+REP outo        outro
 REP ozinh       inh
-REP pára-q      paraq
+REP pára-quedas paraquedas
 REP perdo       perco
 REP ph          f
 REP ping        pingue-pongue
@@ -386,6 +396,7 @@ REP r           -
 REP r           r-
 REP r           rr
 REP r-          r
+REP r-cond      res-cond
 REP rádio-      radio
 REP rça         rsa
 REP res-de      r-de
@@ -440,12 +451,14 @@ REP tic-tac     tique-taque
 REP tiv         tativ
 REP tiva        ta
 REP tivide      tividade 
+REP tm          tmic
 REP u           l
 REP u           ú
 REP ú           u
 REP u           u-
 REP u-          u
 REP uait        uwait
+REP ubjúdice    ub_judice
 REP uç          lç
 REP uç          ls
 REP üe          uê
@@ -500,7 +513,7 @@ REP x           x.
 
 # ================================================================
 # PREFIXOS - Estão identificados por letras acentuadas.
-#            ÀÁÂÃÄÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÑÝàáâãäèéêëìíîïòóôõöùúûüñÿý
+#            ÀÁÂÃÄÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÑÝàáâãäèéêëìíîïòóôõöùúûüñÿ
 # ================================================================
 
 PFX À Y 3
@@ -834,13 +847,15 @@ SFX H   z     císsimos      z
 
 # Superlativo -I- (?vel) número/gênero/grau - com variante (mente)
 
-SFX I Y 13
+SFX I Y 15
 SFX I   ável  abilíssima        ável
 SFX I   ável  abilissimamente   ável
 SFX I   ável  abilíssimas       ável
 SFX I   ável  abilíssimo        ável
 SFX I   ável  abilíssimos       ável
+SFX I   go    quíssima          go
 SFX I   go    quissimamente     go
+SFX I   go    quíssimas         go
 SFX I   go    quíssimo          go
 SFX I   go    quíssimos         go
 SFX I   ível  ibilíssima        ível
@@ -956,7 +971,7 @@ SFX N   r      tórias   r
 
 # Diminutivos femininos -O- Terminação: inha
 
-SFX O Y 31
+SFX O Y 33
 SFX O   0      ezinhas z
 SFX O   ês     esinha  ês
 SFX O   ês     esinhas ês
@@ -972,6 +987,8 @@ SFX O   ca     quinha  ca
 SFX O   ca     quinhas ca
 SFX O   ço     cinha   ço
 SFX O   ço     cinhas  ço
+SFX O   ços    cinha   ços
+SFX O   ços    cinhas  ços
 SFX O   co     quinha  co
 SFX O   co     quinhas co
 SFX O   cos    quinha  cos
@@ -1854,9 +1871,9 @@ SFX b   er      ido-lhes  er
 #             intervir convir manter conter sair seguir distinguir  
 
 SFX c Y 902
-SFX c  ar   á   ar
-SFX c  er   ê   er
-SFX c  or   ô   or
+SFX c  ar   á     ar
+SFX c  er   ê     er
+SFX c  or   ô     or
 SFX c   0       á        [üu]ir
 SFX c   0       ão       [üu]ir
 SFX c   0       ás       [üu]ir
@@ -5183,57 +5200,57 @@ SFX i   car      queis        ucar
 SFX i   ucar     úquem        ucar
 SFX i   car      quemos       ucar
 SFX i   ucar     úques        ucar
-SFX i   inar     ína          ruinar
-SFX i   r        da           ruinar
-SFX i   r        das          ruinar
-SFX i   r        do           ruinar
-SFX i   r        dos          ruinar
-SFX i   r        i            ruinar
-SFX i   r        is           ruinar
-SFX i   inar     ínam         ruinar
-SFX i   r        mos          ruinar
-SFX i   r        ndo          ruinar
-SFX i   0        a            ruinar
-SFX i   0        á            ruinar
-SFX i   0        am           ruinar
-SFX i   ar       áramos       ruinar
-SFX i   0        ão           ruinar
-SFX i   0        as           ruinar
-SFX i   0        ás           ruinar
-SFX i   0        des          ruinar
-SFX i   0        ei           ruinar
-SFX i   0        eis          ruinar
-SFX i   ar       áreis        ruinar
-SFX i   0        em           ruinar
-SFX i   0        emos         ruinar
-SFX i   0        es           ruinar
-SFX i   0        ia           ruinar
-SFX i   0        iam          ruinar
-SFX i   0        íamos        ruinar
-SFX i   0        ias          ruinar
-SFX i   0        íeis         ruinar
-SFX i   0        mos          ruinar
-SFX i   inar     ínas         ruinar
-SFX i   r        sse          ruinar
-SFX i   ar       ásseis       ruinar
-SFX i   r        ssem         ruinar
-SFX i   ar       ássemos      ruinar
-SFX i   r        sses         ruinar
-SFX i   r        ste          ruinar
-SFX i   r        stes         ruinar
-SFX i   r        va           ruinar
-SFX i   r        vam          ruinar
-SFX i   ar       ávamos       ruinar
-SFX i   r        vas          ruinar
-SFX i   ar       áveis        ruinar
-SFX i   inar     íne          ruinar
-SFX i   ar       ei           ruinar
-SFX i   ar       eis          ruinar
-SFX i   inar     ínem         ruinar
-SFX i   ar       emos         ruinar
-SFX i   inar     ínes         ruinar
-SFX i   inar     íno          ruinar
-SFX i   ar       ou           ruinar
+SFX i   inar     ína          [aeu]inar
+SFX i   r        da           [aeu]inar
+SFX i   r        das          [aeu]inar
+SFX i   r        do           [aeu]inar
+SFX i   r        dos          [aeu]inar
+SFX i   r        i            [aeu]inar
+SFX i   r        is           [aeu]inar
+SFX i   inar     ínam         [aeu]inar
+SFX i   r        mos          [aeu]inar
+SFX i   r        ndo          [aeu]inar
+SFX i   0        a            [aeu]inar
+SFX i   0        á            [aeu]inar
+SFX i   0        am           [aeu]inar
+SFX i   ar       áramos       [aeu]inar
+SFX i   0        ão           [aeu]inar
+SFX i   0        as           [aeu]inar
+SFX i   0        ás           [aeu]inar
+SFX i   0        des          [aeu]inar
+SFX i   0        ei           [aeu]inar
+SFX i   0        eis          [aeu]inar
+SFX i   ar       áreis        [aeu]inar
+SFX i   0        em           [aeu]inar
+SFX i   0        emos         [aeu]inar
+SFX i   0        es           [aeu]inar
+SFX i   0        ia           [aeu]inar
+SFX i   0        iam          [aeu]inar
+SFX i   0        íamos        [aeu]inar
+SFX i   0        ias          [aeu]inar
+SFX i   0        íeis         [aeu]inar
+SFX i   0        mos          [aeu]inar
+SFX i   inar     ínas         [aeu]inar
+SFX i   r        sse          [aeu]inar
+SFX i   ar       ásseis       [aeu]inar
+SFX i   r        ssem         [aeu]inar
+SFX i   ar       ássemos      [aeu]inar
+SFX i   r        sses         [aeu]inar
+SFX i   r        ste          [aeu]inar
+SFX i   r        stes         [aeu]inar
+SFX i   r        va           [aeu]inar
+SFX i   r        vam          [aeu]inar
+SFX i   ar       ávamos       [aeu]inar
+SFX i   r        vas          [aeu]inar
+SFX i   ar       áveis        [aeu]inar
+SFX i   inar     íne          [aeu]inar
+SFX i   ar       ei           [aeu]inar
+SFX i   ar       eis          [aeu]inar
+SFX i   inar     ínem         [aeu]inar
+SFX i   ar       emos         [aeu]inar
+SFX i   inar     ínes         [aeu]inar
+SFX i   inar     íno          [aeu]inar
+SFX i   ar       ou           [aeu]inar
 SFX i   ir       e            cernir
 SFX i   ir       em           cernir
 SFX i   ir       es           cernir
@@ -6580,13 +6597,13 @@ SFX k   or      ô-lo-iam       or
 SFX k   or      ô-los-iam      or
 SFX k   r       -me            [aei]r
 SFX k   r       -te            [aei]r
-SFX k   r       -se            [aei]r
-SFX k   r       -se-lhe        [aei]r
-SFX k   r       -se-lhes       [aei]r
-SFX k   r       -nos           [aei]r
-SFX k   r       -vos           [aei]r
-SFX k   r       -lhe           [aei]r
-SFX k   r       -lhes          [aei]r
+SFX k   r       -se            [ae]r
+SFX k   r       -se-lhe        [ae]r
+SFX k   r       -se-lhes       [ae]r
+SFX k   r       -nos           [ae]r
+SFX k   r       -vos           [ae]r
+SFX k   r       -lhe           [ae]r
+SFX k   r       -lhes          [ae]r
 SFX k   r       -a             [aei]r
 SFX k   r       -as            [aei]r
 SFX k   r       -o             [aei]r
@@ -23370,271 +23387,271 @@ SFX s   ucar   quemo-vos      ucar
 SFX s   ucar   quemos-lhe     ucar
 SFX s   ucar   quemos-lhes    ucar
 SFX s   ucar   quemos-te      ucar
-SFX s   inar   ína-a          ruinar
-SFX s   inar   ína-as         ruinar
-SFX s   inar   ína-lhe        ruinar
-SFX s   inar   ína-lhes       ruinar
-SFX s   inar   ína-me         ruinar
-SFX s   inar   ína-nos        ruinar
-SFX s   inar   ína-o          ruinar
-SFX s   inar   ína-os         ruinar
-SFX s   inar   ína-se         ruinar
-SFX s   inar   ína-te         ruinar
-SFX s   inar   ína-vos        ruinar
-SFX s   r      do-a           ruinar
-SFX s   r      do-as          ruinar
-SFX s   r      do-lhe         ruinar
-SFX s   r      do-lhes        ruinar
-SFX s   r      do-me          ruinar
-SFX s   r      do-nos         ruinar
-SFX s   r      do-o           ruinar
-SFX s   r      do-os          ruinar
-SFX s   r      do-se          ruinar
-SFX s   r      do-te          ruinar
-SFX s   r      do-vos         ruinar
-SFX s   r      i-a            ruinar
-SFX s   r      i-as           ruinar
-SFX s   r      i-lhe          ruinar
-SFX s   r       i-lhes         ruinar
-SFX s   r       i-me           ruinar
-SFX s   r       i-nos          ruinar
-SFX s   r       i-o            ruinar
-SFX s   r       i-os           ruinar
-SFX s   r       i-se           ruinar
-SFX s   r       i-te           ruinar
-SFX s   r       i-vos          ruinar
-SFX s   inar    ínam-lhe       ruinar
-SFX s   inar    ínam-lhes      ruinar
-SFX s   inar    ínam-me        ruinar
-SFX s   inar    ínam-na        ruinar
-SFX s   inar    ínam-nas       ruinar
-SFX s   inar    ínam-no        ruinar
-SFX s   inar    ínam-nos       ruinar
-SFX s   inar    ínam-se        ruinar
-SFX s   inar    ínam-te        ruinar
-SFX s   inar    ínam-vos       ruinar
-SFX s   r       mo-nos         ruinar
-SFX s   r       mo-vos         ruinar
-SFX s   r       mos-lhe        ruinar
-SFX s   r       mos-lhes       ruinar
-SFX s   r       mos-te         ruinar
-SFX s   r       ndo-a          ruinar
-SFX s   r       ndo-as         ruinar
-SFX s   r       ndo-lhe        ruinar
-SFX s   r       ndo-lhes       ruinar
-SFX s   r       ndo-me         ruinar
-SFX s   r       ndo-nos        ruinar
-SFX s   r       ndo-o          ruinar
-SFX s   r       ndo-os         ruinar
-SFX s   r       ndo-se         ruinar
-SFX s   r       ndo-te         ruinar
-SFX s   r       ndo-vos        ruinar
-SFX s   0       a-a            ruinar
-SFX s   0       a-as           ruinar
-SFX s   0       a-lhe          ruinar
-SFX s   0       a-lhes         ruinar
-SFX s   0       a-me           ruinar
-SFX s   0       a-nos          ruinar
-SFX s   0       a-o            ruinar
-SFX s   0       a-os           ruinar
-SFX s   0       a-se           ruinar
-SFX s   0       a-te           ruinar
-SFX s   0       a-vos          ruinar
-SFX s   0       -la-á          ruinar
-SFX s   0       -las-á         ruinar
-SFX s   0       -lhe-á         ruinar
-SFX s   0       -lhes-á        ruinar
-SFX s   0       -lo-á          ruinar
-SFX s   0       -los-á         ruinar
-SFX s   0       -me-á          ruinar
-SFX s   0       -nos-á         ruinar
-SFX s   0       -se-á          ruinar
-SFX s   0       -te-á          ruinar
-SFX s   0       -vos-á         ruinar
-SFX s   0       am-lhe         ruinar
-SFX s   0       am-lhes        ruinar
-SFX s   0       am-me          ruinar
-SFX s   0       am-na          ruinar
-SFX s   0       am-nas         ruinar
-SFX s   0       am-no          ruinar
-SFX s   0       am-nos         ruinar
-SFX s   0       am-se          ruinar
-SFX s   0       am-te          ruinar
-SFX s   0       am-vos         ruinar
-SFX s   0       -lhe-ão        ruinar
-SFX s   0       -lhes-ão       ruinar
-SFX s   0       -me-ão         ruinar
-SFX s   0       -na-ão         ruinar
-SFX s   0       -nas-ão        ruinar
-SFX s   0       -no-ão         ruinar
-SFX s   0       -nos-ão        ruinar
-SFX s   0       -se-ão         ruinar
-SFX s   0       -te-ão         ruinar
-SFX s   0       -vos-ão        ruinar
-SFX s   0       -lhe-ei        ruinar
-SFX s   0       -lhes-ei       ruinar
-SFX s   0       -me-ei         ruinar
-SFX s   0       -nos-ei        ruinar
-SFX s   0       -se-ei         ruinar
-SFX s   0       -te-ei         ruinar
-SFX s   0       -vos-ei        ruinar
-SFX s   0       em-lhe         ruinar
-SFX s   0       em-lhes        ruinar
-SFX s   0       em-me          ruinar
-SFX s   0       em-na          ruinar
-SFX s   0       em-nas         ruinar
-SFX s   0       em-no          ruinar
-SFX s   0       em-nos         ruinar
-SFX s   0       em-se          ruinar
-SFX s   0       em-te          ruinar
-SFX s   0       em-vos         ruinar
-SFX s   0       -la-emos       ruinar
-SFX s   0       -las-emos      ruinar
-SFX s   0       -lhe-emos      ruinar
-SFX s   0       -lhes-emos     ruinar
-SFX s   0       -lo-emos       ruinar
-SFX s   0       -los-emos      ruinar
-SFX s   0       -nos-emos      ruinar
-SFX s   0       -te-emos       ruinar
-SFX s   0       -vos-emos      ruinar
-SFX s   0       -lhe-ia        ruinar
-SFX s   0       -lhes-ia       ruinar
-SFX s   0       -me-ia         ruinar
-SFX s   0       -nos-ia        ruinar
-SFX s   0       -se-ia         ruinar
-SFX s   0       -te-ia         ruinar
-SFX s   0       -vos-ia        ruinar
-SFX s   0       -lhe-iam       ruinar
-SFX s   0       -lhes-iam      ruinar
-SFX s   0       -me-iam        ruinar
-SFX s   0       -nos-iam       ruinar
-SFX s   0       -se-iam        ruinar
-SFX s   0       -te-iam        ruinar
-SFX s   0       -vos-iam       ruinar
-SFX s   0       íamo-nos       ruinar
-SFX s   0       íamo-vos       ruinar
-SFX s   0       íamos-lhe      ruinar
-SFX s   0       íamos-lhes     ruinar
-SFX s   0       íamos-te       ruinar
-SFX s   0       mo-nos         ruinar
-SFX s   0       mo-vos         ruinar
-SFX s   0       mos-lhe        ruinar
-SFX s   0       mos-lhes       ruinar
-SFX s   0       mos-te         ruinar
-SFX s   r       sse-a          ruinar
-SFX s   r       sse-as         ruinar
-SFX s   r       sse-lhe        ruinar
-SFX s   r       sse-lhes       ruinar
-SFX s   r       sse-me         ruinar
-SFX s   r       sse-nos        ruinar
-SFX s   r       sse-o          ruinar
-SFX s   r       sse-os         ruinar
-SFX s   r       sse-se         ruinar
-SFX s   r       sse-te         ruinar
-SFX s   r       sse-vos        ruinar
-SFX s   r       ssem-lhe       ruinar
-SFX s   r       ssem-lhes      ruinar
-SFX s   r       ssem-me        ruinar
-SFX s   r       ssem-na        ruinar
-SFX s   r       ssem-nas       ruinar
-SFX s   r       ssem-no        ruinar
-SFX s   r       ssem-nos       ruinar
-SFX s   r       ssem-te        ruinar
-SFX s   r       ssem-vos       ruinar
-SFX s   r       ste-a          ruinar
-SFX s   r       ste-as         ruinar
-SFX s   r       ste-lhe        ruinar
-SFX s   r       ste-lhes       ruinar
-SFX s   r       ste-me         ruinar
-SFX s   r       ste-nos        ruinar
-SFX s   r       ste-o          ruinar
-SFX s   r       ste-os         ruinar
-SFX s   r       ste-se         ruinar
-SFX s   r       ste-te         ruinar
-SFX s   r       ste-vos        ruinar
-SFX s   r       va-a           ruinar
-SFX s   r       va-as          ruinar
-SFX s   r       va-lhe         ruinar
-SFX s   r       va-lhes        ruinar
-SFX s   r       va-me          ruinar
-SFX s   r       va-nos         ruinar
-SFX s   r       va-o           ruinar
-SFX s   r       va-os          ruinar
-SFX s   r       va-se          ruinar
-SFX s   r       va-te          ruinar
-SFX s   r       va-vos         ruinar
-SFX s   r       vam-lhe        ruinar
-SFX s   r       vam-lhes       ruinar
-SFX s   r       vam-me         ruinar
-SFX s   r       vam-na         ruinar
-SFX s   r       vam-nas        ruinar
-SFX s   r       vam-no         ruinar
-SFX s   r       vam-nos        ruinar
-SFX s   r       vam-se         ruinar
-SFX s   r       vam-te         ruinar
-SFX s   r       vam-vos        ruinar
-SFX s   ar      ávamo-nos      ruinar
-SFX s   ar      ávamo-vos      ruinar
-SFX s   ar      ávamos-lhe     ruinar
-SFX s   ar      ávamos-lhes    ruinar
-SFX s   ar      ávamos-te      ruinar
-SFX s   inar    íne-a          ruinar
-SFX s   inar    íne-as         ruinar
-SFX s   inar    íne-lhe        ruinar
-SFX s   inar    íne-lhes       ruinar
-SFX s   inar    íne-me         ruinar
-SFX s   inar    íne-nos        ruinar
-SFX s   inar    íne-o          ruinar
-SFX s   inar    íne-os         ruinar
-SFX s   inar    íne-se         ruinar
-SFX s   inar    íne-te         ruinar
-SFX s   inar    íne-vos        ruinar
-SFX s   ar      ei-a           ruinar
-SFX s   ar      ei-as          ruinar
-SFX s   ar      ei-lhe         ruinar
-SFX s   ar      ei-lhes        ruinar
-SFX s   ar      ei-me          ruinar
-SFX s   ar      ei-o           ruinar
-SFX s   ar      ei-os          ruinar
-SFX s   ar      ei-se          ruinar
-SFX s   ar      ei-te          ruinar
-SFX s   ar      ei-vos         ruinar
-SFX s   inar    ínem-lhe       ruinar
-SFX s   inar    ínem-lhes      ruinar
-SFX s   inar    ínem-me        ruinar
-SFX s   inar    ínem-na        ruinar
-SFX s   inar    ínem-nas       ruinar
-SFX s   inar    ínem-no        ruinar
-SFX s   inar    ínem-nos       ruinar
-SFX s   inar    ínem-se        ruinar
-SFX s   inar    ínem-te        ruinar
-SFX s   inar    ínem-vos       ruinar
-SFX s   ar      emo-nos        ruinar
-SFX s   ar      emo-vos        ruinar
-SFX s   ar      emos-lhe       ruinar
-SFX s   ar      emos-lhes      ruinar
-SFX s   ar      emos-te        ruinar
-SFX s   inar    íno-a          ruinar
-SFX s   inar    íno-as         ruinar
-SFX s   inar    íno-lhe        ruinar
-SFX s   inar    íno-lhes       ruinar
-SFX s   inar    íno-me         ruinar
-SFX s   inar    íno-nos        ruinar
-SFX s   inar    íno-o          ruinar
-SFX s   inar    íno-os         ruinar
-SFX s   inar    íno-te         ruinar
-SFX s   inar    íno-vos        ruinar
-SFX s   ar      ou-a           ruinar
-SFX s   ar      ou-as          ruinar
-SFX s   ar      ou-lhe         ruinar
-SFX s   ar      ou-lhes        ruinar
-SFX s   ar      ou-me          ruinar
-SFX s   ar      ou-nos         ruinar
-SFX s   ar      ou-o           ruinar
-SFX s   ar      ou-os          ruinar
-SFX s   ar      ou-se          ruinar
-SFX s   ar      ou-te          ruinar
-SFX s   ar      ou-vos         ruinar
+SFX s   inar   ína-a          [aeu]inar
+SFX s   inar   ína-as         [aeu]inar
+SFX s   inar   ína-lhe        [aeu]inar
+SFX s   inar   ína-lhes       [aeu]inar
+SFX s   inar   ína-me         [aeu]inar
+SFX s   inar   ína-nos        [aeu]inar
+SFX s   inar   ína-o          [aeu]inar
+SFX s   inar   ína-os         [aeu]inar
+SFX s   inar   ína-se         [aeu]inar
+SFX s   inar   ína-te         [aeu]inar
+SFX s   inar   ína-vos        [aeu]inar
+SFX s   r      do-a           [aeu]inar
+SFX s   r      do-as          [aeu]inar
+SFX s   r      do-lhe         [aeu]inar
+SFX s   r      do-lhes        [aeu]inar
+SFX s   r      do-me          [aeu]inar
+SFX s   r      do-nos         [aeu]inar
+SFX s   r      do-o           [aeu]inar
+SFX s   r      do-os          [aeu]inar
+SFX s   r      do-se          [aeu]inar
+SFX s   r      do-te          [aeu]inar
+SFX s   r      do-vos         [aeu]inar
+SFX s   r      i-a            [aeu]inar
+SFX s   r      i-as           [aeu]inar
+SFX s   r      i-lhe          [aeu]inar
+SFX s   r       i-lhes         [aeu]inar
+SFX s   r       i-me           [aeu]inar
+SFX s   r       i-nos          [aeu]inar
+SFX s   r       i-o            [aeu]inar
+SFX s   r       i-os           [aeu]inar
+SFX s   r       i-se           [aeu]inar
+SFX s   r       i-te           [aeu]inar
+SFX s   r       i-vos          [aeu]inar
+SFX s   inar    ínam-lhe       [aeu]inar
+SFX s   inar    ínam-lhes      [aeu]inar
+SFX s   inar    ínam-me        [aeu]inar
+SFX s   inar    ínam-na        [aeu]inar
+SFX s   inar    ínam-nas       [aeu]inar
+SFX s   inar    ínam-no        [aeu]inar
+SFX s   inar    ínam-nos       [aeu]inar
+SFX s   inar    ínam-se        [aeu]inar
+SFX s   inar    ínam-te        [aeu]inar
+SFX s   inar    ínam-vos       [aeu]inar
+SFX s   r       mo-nos         [aeu]inar
+SFX s   r       mo-vos         [aeu]inar
+SFX s   r       mos-lhe        [aeu]inar
+SFX s   r       mos-lhes       [aeu]inar
+SFX s   r       mos-te         [aeu]inar
+SFX s   r       ndo-a          [aeu]inar
+SFX s   r       ndo-as         [aeu]inar
+SFX s   r       ndo-lhe        [aeu]inar
+SFX s   r       ndo-lhes       [aeu]inar
+SFX s   r       ndo-me         [aeu]inar
+SFX s   r       ndo-nos        [aeu]inar
+SFX s   r       ndo-o          [aeu]inar
+SFX s   r       ndo-os         [aeu]inar
+SFX s   r       ndo-se         [aeu]inar
+SFX s   r       ndo-te         [aeu]inar
+SFX s   r       ndo-vos        [aeu]inar
+SFX s   0       a-a            [aeu]inar
+SFX s   0       a-as           [aeu]inar
+SFX s   0       a-lhe          [aeu]inar
+SFX s   0       a-lhes         [aeu]inar
+SFX s   0       a-me           [aeu]inar
+SFX s   0       a-nos          [aeu]inar
+SFX s   0       a-o            [aeu]inar
+SFX s   0       a-os           [aeu]inar
+SFX s   0       a-se           [aeu]inar
+SFX s   0       a-te           [aeu]inar
+SFX s   0       a-vos          [aeu]inar
+SFX s   0       -la-á          [aeu]inar
+SFX s   0       -las-á         [aeu]inar
+SFX s   0       -lhe-á         [aeu]inar
+SFX s   0       -lhes-á        [aeu]inar
+SFX s   0       -lo-á          [aeu]inar
+SFX s   0       -los-á         [aeu]inar
+SFX s   0       -me-á          [aeu]inar
+SFX s   0       -nos-á         [aeu]inar
+SFX s   0       -se-á          [aeu]inar
+SFX s   0       -te-á          [aeu]inar
+SFX s   0       -vos-á         [aeu]inar
+SFX s   0       am-lhe         [aeu]inar
+SFX s   0       am-lhes        [aeu]inar
+SFX s   0       am-me          [aeu]inar
+SFX s   0       am-na          [aeu]inar
+SFX s   0       am-nas         [aeu]inar
+SFX s   0       am-no          [aeu]inar
+SFX s   0       am-nos         [aeu]inar
+SFX s   0       am-se          [aeu]inar
+SFX s   0       am-te          [aeu]inar
+SFX s   0       am-vos         [aeu]inar
+SFX s   0       -lhe-ão        [aeu]inar
+SFX s   0       -lhes-ão       [aeu]inar
+SFX s   0       -me-ão         [aeu]inar
+SFX s   0       -na-ão         [aeu]inar
+SFX s   0       -nas-ão        [aeu]inar
+SFX s   0       -no-ão         [aeu]inar
+SFX s   0       -nos-ão        [aeu]inar
+SFX s   0       -se-ão         [aeu]inar
+SFX s   0       -te-ão         [aeu]inar
+SFX s   0       -vos-ão        [aeu]inar
+SFX s   0       -lhe-ei        [aeu]inar
+SFX s   0       -lhes-ei       [aeu]inar
+SFX s   0       -me-ei         [aeu]inar
+SFX s   0       -nos-ei        [aeu]inar
+SFX s   0       -se-ei         [aeu]inar
+SFX s   0       -te-ei         [aeu]inar
+SFX s   0       -vos-ei        [aeu]inar
+SFX s   0       em-lhe         [aeu]inar
+SFX s   0       em-lhes        [aeu]inar
+SFX s   0       em-me          [aeu]inar
+SFX s   0       em-na          [aeu]inar
+SFX s   0       em-nas         [aeu]inar
+SFX s   0       em-no          [aeu]inar
+SFX s   0       em-nos         [aeu]inar
+SFX s   0       em-se          [aeu]inar
+SFX s   0       em-te          [aeu]inar
+SFX s   0       em-vos         [aeu]inar
+SFX s   0       -la-emos       [aeu]inar
+SFX s   0       -las-emos      [aeu]inar
+SFX s   0       -lhe-emos      [aeu]inar
+SFX s   0       -lhes-emos     [aeu]inar
+SFX s   0       -lo-emos       [aeu]inar
+SFX s   0       -los-emos      [aeu]inar
+SFX s   0       -nos-emos      [aeu]inar
+SFX s   0       -te-emos       [aeu]inar
+SFX s   0       -vos-emos      [aeu]inar
+SFX s   0       -lhe-ia        [aeu]inar
+SFX s   0       -lhes-ia       [aeu]inar
+SFX s   0       -me-ia         [aeu]inar
+SFX s   0       -nos-ia        [aeu]inar
+SFX s   0       -se-ia         [aeu]inar
+SFX s   0       -te-ia         [aeu]inar
+SFX s   0       -vos-ia        [aeu]inar
+SFX s   0       -lhe-iam       [aeu]inar
+SFX s   0       -lhes-iam      [aeu]inar
+SFX s   0       -me-iam        [aeu]inar
+SFX s   0       -nos-iam       [aeu]inar
+SFX s   0       -se-iam        [aeu]inar
+SFX s   0       -te-iam        [aeu]inar
+SFX s   0       -vos-iam       [aeu]inar
+SFX s   0       íamo-nos       [aeu]inar
+SFX s   0       íamo-vos       [aeu]inar
+SFX s   0       íamos-lhe      [aeu]inar
+SFX s   0       íamos-lhes     [aeu]inar
+SFX s   0       íamos-te       [aeu]inar
+SFX s   0       mo-nos         [aeu]inar
+SFX s   0       mo-vos         [aeu]inar
+SFX s   0       mos-lhe        [aeu]inar
+SFX s   0       mos-lhes       [aeu]inar
+SFX s   0       mos-te         [aeu]inar
+SFX s   r       sse-a          [aeu]inar
+SFX s   r       sse-as         [aeu]inar
+SFX s   r       sse-lhe        [aeu]inar
+SFX s   r       sse-lhes       [aeu]inar
+SFX s   r       sse-me         [aeu]inar
+SFX s   r       sse-nos        [aeu]inar
+SFX s   r       sse-o          [aeu]inar
+SFX s   r       sse-os         [aeu]inar
+SFX s   r       sse-se         [aeu]inar
+SFX s   r       sse-te         [aeu]inar
+SFX s   r       sse-vos        [aeu]inar
+SFX s   r       ssem-lhe       [aeu]inar
+SFX s   r       ssem-lhes      [aeu]inar
+SFX s   r       ssem-me        [aeu]inar
+SFX s   r       ssem-na        [aeu]inar
+SFX s   r       ssem-nas       [aeu]inar
+SFX s   r       ssem-no        [aeu]inar
+SFX s   r       ssem-nos       [aeu]inar
+SFX s   r       ssem-te        [aeu]inar
+SFX s   r       ssem-vos       [aeu]inar
+SFX s   r       ste-a          [aeu]inar
+SFX s   r       ste-as         [aeu]inar
+SFX s   r       ste-lhe        [aeu]inar
+SFX s   r       ste-lhes       [aeu]inar
+SFX s   r       ste-me         [aeu]inar
+SFX s   r       ste-nos        [aeu]inar
+SFX s   r       ste-o          [aeu]inar
+SFX s   r       ste-os         [aeu]inar
+SFX s   r       ste-se         [aeu]inar
+SFX s   r       ste-te         [aeu]inar
+SFX s   r       ste-vos        [aeu]inar
+SFX s   r       va-a           [aeu]inar
+SFX s   r       va-as          [aeu]inar
+SFX s   r       va-lhe         [aeu]inar
+SFX s   r       va-lhes        [aeu]inar
+SFX s   r       va-me          [aeu]inar
+SFX s   r       va-nos         [aeu]inar
+SFX s   r       va-o           [aeu]inar
+SFX s   r       va-os          [aeu]inar
+SFX s   r       va-se          [aeu]inar
+SFX s   r       va-te          [aeu]inar
+SFX s   r       va-vos         [aeu]inar
+SFX s   r       vam-lhe        [aeu]inar
+SFX s   r       vam-lhes       [aeu]inar
+SFX s   r       vam-me         [aeu]inar
+SFX s   r       vam-na         [aeu]inar
+SFX s   r       vam-nas        [aeu]inar
+SFX s   r       vam-no         [aeu]inar
+SFX s   r       vam-nos        [aeu]inar
+SFX s   r       vam-se         [aeu]inar
+SFX s   r       vam-te         [aeu]inar
+SFX s   r       vam-vos        [aeu]inar
+SFX s   ar      ávamo-nos      [aeu]inar
+SFX s   ar      ávamo-vos      [aeu]inar
+SFX s   ar      ávamos-lhe     [aeu]inar
+SFX s   ar      ávamos-lhes    [aeu]inar
+SFX s   ar      ávamos-te      [aeu]inar
+SFX s   inar    íne-a          [aeu]inar
+SFX s   inar    íne-as         [aeu]inar
+SFX s   inar    íne-lhe        [aeu]inar
+SFX s   inar    íne-lhes       [aeu]inar
+SFX s   inar    íne-me         [aeu]inar
+SFX s   inar    íne-nos        [aeu]inar
+SFX s   inar    íne-o          [aeu]inar
+SFX s   inar    íne-os         [aeu]inar
+SFX s   inar    íne-se         [aeu]inar
+SFX s   inar    íne-te         [aeu]inar
+SFX s   inar    íne-vos        [aeu]inar
+SFX s   ar      ei-a           [aeu]inar
+SFX s   ar      ei-as          [aeu]inar
+SFX s   ar      ei-lhe         [aeu]inar
+SFX s   ar      ei-lhes        [aeu]inar
+SFX s   ar      ei-me          [aeu]inar
+SFX s   ar      ei-o           [aeu]inar
+SFX s   ar      ei-os          [aeu]inar
+SFX s   ar      ei-se          [aeu]inar
+SFX s   ar      ei-te          [aeu]inar
+SFX s   ar      ei-vos         [aeu]inar
+SFX s   inar    ínem-lhe       [aeu]inar
+SFX s   inar    ínem-lhes      [aeu]inar
+SFX s   inar    ínem-me        [aeu]inar
+SFX s   inar    ínem-na        [aeu]inar
+SFX s   inar    ínem-nas       [aeu]inar
+SFX s   inar    ínem-no        [aeu]inar
+SFX s   inar    ínem-nos       [aeu]inar
+SFX s   inar    ínem-se        [aeu]inar
+SFX s   inar    ínem-te        [aeu]inar
+SFX s   inar    ínem-vos       [aeu]inar
+SFX s   ar      emo-nos        [aeu]inar
+SFX s   ar      emo-vos        [aeu]inar
+SFX s   ar      emos-lhe       [aeu]inar
+SFX s   ar      emos-lhes      [aeu]inar
+SFX s   ar      emos-te        [aeu]inar
+SFX s   inar    íno-a          [aeu]inar
+SFX s   inar    íno-as         [aeu]inar
+SFX s   inar    íno-lhe        [aeu]inar
+SFX s   inar    íno-lhes       [aeu]inar
+SFX s   inar    íno-me         [aeu]inar
+SFX s   inar    íno-nos        [aeu]inar
+SFX s   inar    íno-o          [aeu]inar
+SFX s   inar    íno-os         [aeu]inar
+SFX s   inar    íno-te         [aeu]inar
+SFX s   inar    íno-vos        [aeu]inar
+SFX s   ar      ou-a           [aeu]inar
+SFX s   ar      ou-as          [aeu]inar
+SFX s   ar      ou-lhe         [aeu]inar
+SFX s   ar      ou-lhes        [aeu]inar
+SFX s   ar      ou-me          [aeu]inar
+SFX s   ar      ou-nos         [aeu]inar
+SFX s   ar      ou-o           [aeu]inar
+SFX s   ar      ou-os          [aeu]inar
+SFX s   ar      ou-se          [aeu]inar
+SFX s   ar      ou-te          [aeu]inar
+SFX s   ar      ou-vos         [aeu]inar
 SFX s   ir      e-a            cernir
 SFX s   ir      e-as           cernir
 SFX s   ir      e-lhe          cernir
