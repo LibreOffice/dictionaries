@@ -1,11 +1,11 @@
 
 1. Version
 
-This is version 1.0 of hunspell-gd.
+This is version 2.3 of hunspell-gd.
 
 2. Copyright
 
-Copyright 2010 Am Faclair Beag
+Copyright 2010, 2011, 2012 Am Faclair Beag
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
