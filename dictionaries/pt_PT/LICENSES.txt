@@ -3,8 +3,10 @@ LICENSES:
 Extension distribution / Distribuição da extensão
 -------------------------------------------------
 
-Copyright (C) 2008 António Manuel Dias <ammdias@gmail.com>
+Copyright (C) 2008-2012 António Manuel Dias <ammdias@gmail.com>
   http://maracuja.homeip.net/software/dict
+
+Copyright (C) 2012 Alberto Simões <ambs@di.uminho.pt>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
