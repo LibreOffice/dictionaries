@@ -53,15 +53,20 @@ DESCRIPTION_SRC:=$(MISC)/$(EXTENSIONNAME)_in/description.xml
 
 # just copy:
 COMPONENT_FILES= \
-    $(EXTENSIONDIR)$/es_ES.aff \
-    $(EXTENSIONDIR)$/es_ES.dic
+    $(EXTENSIONDIR)$/es_ANY.aff \
+    $(EXTENSIONDIR)$/es_ANY.dic \
+    $(EXTENSIONDIR)$/hyph_es_ANY.dic \
+    $(EXTENSIONDIR)$/th_es_ANY_v2.dat \
+    $(EXTENSIONDIR)$/README_hyph_es_ANY.txt \
+    $(EXTENSIONDIR)$/README_th_es_ANY.txt \
+    $(EXTENSIONDIR)$/package-description.txt
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=README_es_ES.txt
+CUSTOM_LICENSE=README_es_ANY.txt
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
 
@@ -75,6 +80,11 @@ EXTENSION_PACKDEPS=$(COMPONENT_FILES)
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
+
+#.INCLUDE :  $(PRJ)$/prj$/tests.mk
+
+$(EXTENSIONDIR)$/th_es_ANY_v2.idx : "$(EXTENSIONDIR)$/th_es_ANY_v2.dat"
+         $(COMMAND_ECHO)$(AUGMENT_LIBRARY_PATH) $(OUTDIR_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/th_es_ANY_v2.idx <$(EXTENSIONDIR)$/th_es_ANY_v2.dat
 
 .IF "$(WITH_LANG)" != ""
 $(DESCRIPTION_SRC) : description.xml
