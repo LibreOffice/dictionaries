@@ -61,7 +61,11 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/Trold_42x42.png \
     $(EXTENSIONDIR)$/th_da_DK.dat \
     $(EXTENSIONDIR)$/README_th_da_DK.txt \
+    $(EXTENSIONDIR)$/HYPH_da_DK_README.txt \
+    $(EXTENSIONDIR)$/help/en/help.tree \
+    $(EXTENSIONDIR)$/help/da/help.tree \
     $(EXTENSIONDIR)$/help/da/org.openoffice.da.hunspell.dictionaries/page1.xhp \
+    $(EXTENSIONDIR)$/help/da/org.openoffice.da.hunspell.dictionaries/page2.xhp \
     $(EXTENSIONDIR)$/help/da/org.openoffice.da.hunspell.dictionaries/Trold.png
 
 
