@@ -1,2 +1,0 @@
-mkdir: %_DEST%\pck
-..\%__SRC%\bin\*.oxt %_DEST%\pck\*.oxt

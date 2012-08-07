@@ -1,0 +1,25 @@
+# -*- Mode: makefile-gmake; tab-width: 4; indent-tabs-mode: t -*-
+#
+# This file is part of the LibreOffice project.
+#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#
+
+$(eval $(call gb_Dictionary_Dictionary,dict-cs,dictionaries/cs_CZ))
+
+$(eval $(call gb_Dictionary_add_root_files,dict-cs,\
+	dictionaries/cs_CZ/cs_CZ.aff \
+	dictionaries/cs_CZ/cs_CZ.dic \
+	dictionaries/cs_CZ/hyph_cs_CZ.dic \
+	dictionaries/cs_CZ/README_cs_CZ.txt \
+	dictionaries/cs_CZ/README_hyph_cs_CZ.txt \
+	dictionaries/cs_CZ/th_cs_CZ_license.txt \
+))
+
+$(eval $(call gb_Dictionary_add_thesauri,dict-cs,\
+	dictionaries/cs_CZ/th_cs_CZ_v3.dat \
+))
+
+# vim: set noet sw=4 ts=4:
