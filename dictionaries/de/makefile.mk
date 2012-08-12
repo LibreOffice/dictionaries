@@ -68,6 +68,7 @@ COMPONENT_FILES= \
     $(EXTENSIONDIR)$/README_extension_owner.txt \
     $(EXTENSIONDIR)$/README_hyph_de.txt \
     $(EXTENSIONDIR)$/README_thesaurus.txt \
+    $(EXTENSIONDIR)$/th_de_CH_v2.dat \
     $(EXTENSIONDIR)$/th_de_DE_v2.dat
 
 COMPONENT_CONFIGDEST=.

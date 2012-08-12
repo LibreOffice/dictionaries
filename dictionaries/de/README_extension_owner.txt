@@ -26,7 +26,7 @@ the reform of 2006-08-01.
 
 Hyphenation
 ===========
-Version: 2012-06-09
+Version: 2012-06-15
          Enhanced blacklist to improve the hyphenation module by Karl Zeiler
 Authors: Marco Huggenberger <marco@by-night.ch>
          Daniel Naber <naber@danielnaber.de>
