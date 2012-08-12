@@ -26,6 +26,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-de,\
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-de,\
 	dictionaries/de/th_de_DE_v2.dat \
+	dictionaries/de/th_de_CH_v2.dat \
 ))
 
 # vim: set noet sw=4 ts=4:
