@@ -16,6 +16,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-it,\
 	dictionaries/it_IT/README_hyph_it_IT.txt \
 	dictionaries/it_IT/README_it_IT.txt \
 	dictionaries/it_IT/README_th_it_IT.txt \
+	dictionaries/it_IT/CHANGELOG.txt \
 ))
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-it,\
