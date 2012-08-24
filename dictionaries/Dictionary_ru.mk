@@ -23,6 +23,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-ru,\
 $(eval $(call gb_Dictionary_add_files,dict-ru,dialog,\
 	dictionaries/ru_RU/dialog/ru_RU.xdl \
 	dictionaries/ru_RU/dialog/ru_RU_en_US.default \
+	dictionaries/ru_RU/dialog/ru_RU_ru_RU.properties \
 ))
 
 $(eval $(call gb_Dictionary_add_files,dict-ru,pythonpath,\
