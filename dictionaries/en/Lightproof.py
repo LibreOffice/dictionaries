@@ -393,7 +393,7 @@ aA = set(["eucalypti", "eucalyptus", "Eucharist", "Eucharistic",
 "utilitarian", "utilitarianism", "utilities", "utility", "utilizable",
 "utilization", "utilize", "utilized", "utilizes", "utilizing", "utopia",
 "utopian", "utopians", "utopias", "Utrecht", "Uttoxeter", "uvula",
-"uvular"])
+"uvular", "usability"])
 
 aAN = set(["f", "F", "FBI", "FDA", "heir", "heirdom", "heired",
 "heirer", "heiress", "heiring", "heirloom", "heirship", "honest",
