@@ -407,7 +407,7 @@ aAN = set(["f", "F", "FBI", "FDA", "heir", "heirdom", "heired",
 "R", "s", "S", "SMS", "sos", "SOS", "SPF", "std", "STD", "SUV", "x",
 "X", "XML"])
 
-aB = set(["H", "hallucination", "haute", "hauteur", "herb", "herbaceous", "herbal",
+aB = set(["H", "habitual", "hallucination", "haute", "hauteur", "herb", "herbaceous", "herbal",
 "herbalist", "herbalism", "heroic", "hilarious", "historian", "historic", "historical",
 "homage", "homophone", "horrendous", "hospitable", "horrific", "hotel", "hypothesis", "Xmas"])
 
