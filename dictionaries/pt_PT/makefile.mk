@@ -28,7 +28,7 @@
 PRJ=..
 
 PRJNAME=dictionaries
-TARGET=dict-pt-pt
+TARGET=dict-pt-PT
 
 # --- Settings -----------------------------------------------------
 
@@ -40,8 +40,8 @@ TARGET=dict-pt-pt
 # --- Files --------------------------------------------------------
 
 # name for uniq directory
-EXTENSIONNAME:=dict-pt-pt
-EXTENSION_ZIPNAME:=dict-pt-pt
+EXTENSIONNAME:=dict-pt-PT
+EXTENSION_ZIPNAME:=dict-pt-PT
 
 # some other targets to be done
 
