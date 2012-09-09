@@ -7,9 +7,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #
 
-$(eval $(call gb_Dictionary_Dictionary,dict-pt-pt,dictionaries/pt_PT))
+$(eval $(call gb_Dictionary_Dictionary,dict-pt-PT,dictionaries/pt_PT))
 
-$(eval $(call gb_Dictionary_add_root_files,dict-pt-pt,\
+$(eval $(call gb_Dictionary_add_root_files,dict-pt-PT,\
 	dictionaries/pt_PT/hyph_pt_PT.dic \
 	dictionaries/pt_PT/LICENSES.txt \
 	dictionaries/pt_PT/pt_PT.aff \
@@ -19,7 +19,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-pt-pt,\
 	dictionaries/pt_PT/README_th_pt_PT_v2.txt \
 ))
 
-$(eval $(call gb_Dictionary_add_thesauri,dict-pt-pt,\
+$(eval $(call gb_Dictionary_add_thesauri,dict-pt-PT,\
 	dictionaries/pt_PT/th_pt_PT_v2.dat \
 ))
 

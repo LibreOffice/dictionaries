@@ -45,8 +45,8 @@ $(eval $(call gb_Module_add_targets,dictionaries,\
 	Dictionary_no \
 	Dictionary_oc \
 	Dictionary_pl \
-	Dictionary_pt-pt \
-	Dictionary_pt \
+	Dictionary_pt-BR \
+	Dictionary_pt-PT \
 	Dictionary_ro \
 	Dictionary_ru \
 	Dictionary_si \
