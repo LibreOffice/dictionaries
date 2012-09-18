@@ -119,7 +119,7 @@ def suggest(rLoc, word):
         if not x:
             return word
         t = x.getAlternatives()
-        suggestions[word] = join(t, "\\n")
+        suggestions[word] = join(t, "|")
     return suggestions[word]
 
 # get the nth word of the input string or None
