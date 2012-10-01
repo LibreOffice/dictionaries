@@ -1,6 +1,10 @@
-# AFFIXES DU DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS «MODERNE» v4.5
-# par Olivier R. -- licences LGPL, GPL, MPL
-# Généré le 13 05 2012 à 21:22
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+# AFFIXES DU DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS «MODERNE» v4.6.1
+# par Olivier R. -- licence MPL 2.0
+# Généré le 01 10 2012 à 10:24
 # Pour améliorer le dictionnaire, allez sur http://www.dicollecte.org/
 
 
@@ -166,7 +170,7 @@ COMPOUNDFLAG ==
 
 
 
-AM 321
+AM 326
 AM po:nom is:mas
 AM po:nom is:fem
 AM po:adj
@@ -194,8 +198,8 @@ AM is:ifut is:3pl
 AM is:cond is:3pl
 AM is:ipre is:3pl
 AM is:spre is:3sg
-AM is:spre is:3pl
 AM po:geo is:fem is:sg
+AM is:spre is:3pl
 AM is:ifut is:2pl
 AM is:ifut is:1pl
 AM is:cond is:2pl
@@ -207,9 +211,9 @@ AM is:ifut is:2sg
 AM is:ifut is:1sg
 AM is:cond is:2sg
 AM is:cond is:1sg
+AM po:geo is:mas is:sg
 AM is:spre is:1sg
 AM po:v1itp
-AM po:geo is:mas is:sg
 AM is:spre is:2sg
 AM po:adj is:epi is:inv
 AM po:nom is:fem is:pl
@@ -262,19 +266,20 @@ AM po:v2i
 AM po:adj is:epi is:sg
 AM po:nom po:adj is:mas
 AM po:geo is:fem is:pl
-AM po:v3itp
 AM dp:de+
+AM po:v3itp
+AM dp:le|la+
 AM po:mg po:prep
 AM po:v2itp
 AM po:v2it
 AM po:v1ip
 AM is:pl
+AM dp:que+
 AM po:nom po:adj is:epi is:inv
 AM is:ppas is:epi is:inv
-AM po:v1r
 AM po:adj is:fem
+AM po:v1r
 AM po:nom po:adj is:fem
-AM dp:le|la+
 AM po:v1itî
 AM po:v1im
 AM po:prn is:epi is:inv
@@ -289,18 +294,18 @@ AM is:sg
 AM is:ppas is:mas is:inv
 AM po:v3p
 AM po:v1iî
+AM po:adj is:mas
 AM po:v1î
 AM is:mas is:inv
-AM po:adj is:mas
+AM po:adj is:mas is:pl
 AM po:v2p
 AM po:geo is:mas is:pl
-AM po:adj is:mas is:pl
 AM po:adj is:mas is:inv
 AM po:v3itîp
 AM po:loc.adv po:loc.adj
 AM po:adj is:mas is:sg
-AM po:nom po:adj is:mas is:sg
 AM po:npr is:mas is:inv
+AM po:nom po:adj is:mas is:sg
 AM po:nom po:adj is:mas is:pl
 AM po:geo is:fem
 AM po:nom po:adj is:fem is:sg
@@ -325,21 +330,22 @@ AM po:v1îp
 AM po:titr is:mas
 AM po:titr is:fem
 AM po:mg po:proneg is:mas is:sg
-AM po:mg po:detart is:mas is:sg
+AM po:mg po:det is:mas is:sg
 AM po:mg po:cjco
 AM po:v3r
 AM po:v3itî
 AM po:v2iî
 AM po:v2ip
+AM po:v1i is:infi
+AM po:adj is:fem is:pl
 AM is:fem is:sg
 AM is:fem is:pl
 AM po:v3i is:infi
 AM po:v2î
-AM po:v1i is:infi
 AM po:titr
 AM po:patr is:epi
 AM po:mg po:detpos is:fem is:sg
-AM po:mg po:detart is:fem is:sg
+AM po:mg po:det is:fem is:sg
 AM po:geo is:epi is:pl
 AM po:adj is:fem is:sg
 AM is:impe is:2pl ds:+pr
@@ -360,12 +366,14 @@ AM po:mg po:detind is:mas is:pl
 AM po:mg po:detind is:fem is:pl
 AM po:mg po:detind
 AM po:mg po:detdem is:mas is:sg
-AM po:mg po:detart is:mas is:pl
-AM po:mg po:detart is:fem is:pl
-AM po:mg po:detart is:epi is:pl
+AM po:mg po:det is:mas is:pl
+AM po:mg po:det is:fem is:pl
+AM po:mg po:det is:epi is:pl
+AM po:mg po:cjco po:et
 AM po:geo is:fem is:inv
-AM po:adj is:fem is:pl
-AM dp:que+
+AM dp:quoique+
+AM dp:puisque+
+AM dp:lorsque+
 AM dp:ca+
 AM po:v3itm
 AM po:v3im
@@ -386,8 +394,11 @@ AM po:prn is:fem
 AM po:pfx
 AM po:patr is:fem is:inv
 AM po:patr
+AM po:npr is:fem is:inv
+AM po:nom is:mas is:pl st:prêtre-ouvrier
 AM po:nom is:mas is:pl st:prêt-relais
 AM po:nom is:mas is:pl st:poisson-scie
+AM po:nom is:mas is:pl st:plateau-repas
 AM po:nom is:mas is:pl st:pic-vert
 AM po:nom is:mas is:pl st:pic-bois
 AM po:nom is:mas is:pl st:pan-bagnat
@@ -415,6 +426,7 @@ AM po:nom is:mas is:pl st:arc-en-ciel
 AM po:nom is:mas is:pl st:analyste-programmeur
 AM po:nom is:fem is:sg st:lieutenant-gouverneur
 AM po:nom is:fem is:pl st:pot-bouille
+AM po:nom is:fem is:pl st:olla-podrida
 AM po:nom is:fem is:pl st:location-gérance
 AM po:nom is:fem is:pl st:lieutenant-gouverneur
 AM po:nom is:fem is:pl st:lampe-tempête
@@ -454,11 +466,10 @@ AM po:mg po:detind is:epi is:pl
 AM po:mg po:detind is:epi
 AM po:mg po:detdem is:fem is:sg
 AM po:mg po:detdem is:epi is:pl
-AM po:mg po:detart is:epi is:sg
-AM po:mg po:detart is:epi is:inv
+AM po:mg po:det is:epi is:sg
+AM po:mg po:det is:epi is:inv
 AM po:mg po:cjsub
 AM po:mg po:cjco po:ou
-AM po:mg po:cjco po:et
 AM po:mg is:mas is:pl
 AM po:mg is:mas
 AM po:mg is:fem is:pl
@@ -468,6 +479,7 @@ AM po:loc.nom
 AM po:loc
 AM po:geo po:patr is:epi is:inv
 AM po:geo po:patr
+AM po:adv st:vx
 AM po:adj po:nom is:epi
 AM po:adj is:epi is:pl
 AM is:ppas is:mas is:sg is:1sg
@@ -481,15 +493,12 @@ AM is:impe is:1pl ds:+en
 AM dp:te+
 AM dp:si+
 AM dp:se+
-AM dp:quoique+
-AM dp:puisque+
 AM dp:ne+
 AM dp:me+
-AM dp:lorsque+
 AM dp:jusque+
 AM dp:je+
 
-AF 267
+AF 268
 AF S.()
 AF S*()
 AF F.()
@@ -511,8 +520,8 @@ AF n'q'm't's'
 AF X.()
 AF n'q'l'm't'
 AF t'
-AF n'q'j'l'm't'
 AF W*()
+AF n'q'j'l'm't'
 AF m'
 AF n'm't'
 AF n'j'
@@ -552,9 +561,9 @@ AF m't's'
 AF c2p+()
 AF Um()
 AF n'q'm't'
-AF c0p.()
 AF f2p+()
 AF c4p+()
+AF c0p.()
 AF a6p+()
 AF wB()
 AF i0q+()
@@ -581,6 +590,7 @@ AF tF()
 AF n'q'd'm't's'
 AF pK()
 AF n'q'j'l'
+AF n'q'c'l'm't'
 AF b4p+()
 AF b2p+()
 AF wQq.()
@@ -595,7 +605,6 @@ AF wT()
 AF wS()
 AF wR()
 AF pS()
-AF n'q'c'l'm't'
 AF iG()
 AF iE()
 AF f3p+()
@@ -687,6 +696,7 @@ AF wG()
 AF wF()
 AF wA()
 AF vC()
+AF v0p+()
 AF uD()
 AF uC()
 AF tU()
@@ -759,110 +769,164 @@ AF D'S.
 AF D'Qj
 
 
-PFX L' Y 17
-PFX L' 0 l' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 108
-PFX L' a l'A a 108
-PFX L' à l'À à 108
-PFX L' â l'Â â 108
-PFX L' e l'E e 108
-PFX L' é l'É é 108
-PFX L' è l'È è 108
-PFX L' ê l'Ê ê 108
-PFX L' i l'I i 108
-PFX L' î l'Î î 108
-PFX L' o l'O o 108
-PFX L' ô l'Ô ô 108
-PFX L' u l'U u 108
-PFX L' y l'Y y 108
-PFX L' h l'H h 108
-PFX L' œ l'Œ œ 108
-PFX L' æ l'Æ æ 108
+PFX L' Y 34
+PFX L' 0 l' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 98
+PFX L' a l'A a 98
+PFX L' à l'À à 98
+PFX L' â l'Â â 98
+PFX L' e l'E e 98
+PFX L' é l'É é 98
+PFX L' è l'È è 98
+PFX L' ê l'Ê ê 98
+PFX L' i l'I i 98
+PFX L' î l'Î î 98
+PFX L' o l'O o 98
+PFX L' ô l'Ô ô 98
+PFX L' u l'U u 98
+PFX L' y l'Y y 98
+PFX L' h l'H h 98
+PFX L' œ l'Œ œ 98
+PFX L' æ l'Æ æ 98
+PFX L' 0 L' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 98
+PFX L' a L'A a 98
+PFX L' à L'À à 98
+PFX L' â L'Â â 98
+PFX L' e L'E e 98
+PFX L' é L'É é 98
+PFX L' è L'È è 98
+PFX L' ê L'Ê ê 98
+PFX L' i L'I i 98
+PFX L' î L'Î î 98
+PFX L' o L'O o 98
+PFX L' ô L'Ô ô 98
+PFX L' u L'U u 98
+PFX L' y L'Y y 98
+PFX L' h L'H h 98
+PFX L' œ L'Œ œ 98
+PFX L' æ L'Æ æ 98
 
-PFX D' Y 17
-PFX D' 0 d' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 97
-PFX D' a d'A a 97
-PFX D' à d'À à 97
-PFX D' â d'Â â 97
-PFX D' e d'E e 97
-PFX D' é d'É é 97
-PFX D' è d'È è 97
-PFX D' ê d'Ê ê 97
-PFX D' i d'I i 97
-PFX D' î d'Î î 97
-PFX D' o d'O o 97
-PFX D' ô d'Ô ô 97
-PFX D' u d'U u 97
-PFX D' y d'Y y 97
-PFX D' h d'H h 97
-PFX D' œ d'Œ œ 97
-PFX D' æ d'Æ æ 97
+PFX D' Y 34
+PFX D' 0 d' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 96
+PFX D' a d'A a 96
+PFX D' à d'À à 96
+PFX D' â d'Â â 96
+PFX D' e d'E e 96
+PFX D' é d'É é 96
+PFX D' è d'È è 96
+PFX D' ê d'Ê ê 96
+PFX D' i d'I i 96
+PFX D' î d'Î î 96
+PFX D' o d'O o 96
+PFX D' ô d'Ô ô 96
+PFX D' u d'U u 96
+PFX D' y d'Y y 96
+PFX D' h d'H h 96
+PFX D' œ d'Œ œ 96
+PFX D' æ d'Æ æ 96
+PFX D' 0 D' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 96
+PFX D' a D'A a 96
+PFX D' à D'À à 96
+PFX D' â D'Â â 96
+PFX D' e D'E e 96
+PFX D' é D'É é 96
+PFX D' è D'È è 96
+PFX D' ê D'Ê ê 96
+PFX D' i D'I i 96
+PFX D' î D'Î î 96
+PFX D' o D'O o 96
+PFX D' ô D'Ô ô 96
+PFX D' u D'U u 96
+PFX D' y D'Y y 96
+PFX D' h D'H h 96
+PFX D' œ D'Œ œ 96
+PFX D' æ D'Æ æ 96
 
-PFX Q' Y 17
-PFX Q' 0 qu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 199
-PFX Q' a qu'A a 97
-PFX Q' à qu'À à 97
-PFX Q' â qu'Â â 97
-PFX Q' e qu'E e 97
-PFX Q' é qu'É é 97
-PFX Q' è qu'È è 97
-PFX Q' ê qu'Ê ê 97
-PFX Q' i qu'I i 97
-PFX Q' î qu'Î î 97
-PFX Q' o qu'O o 97
-PFX Q' ô qu'Ô ô 97
-PFX Q' u qu'U u 97
-PFX Q' y qu'Y y 97
-PFX Q' h qu'H h 97
-PFX Q' œ qu'Œ œ 97
-PFX Q' æ qu'Æ æ 97
+PFX Q' Y 34
+PFX Q' 0 qu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 104
+PFX Q' a qu'A a 104
+PFX Q' à qu'À à 96
+PFX Q' â qu'Â â 104
+PFX Q' e qu'E e 104
+PFX Q' é qu'É é 104
+PFX Q' è qu'È è 104
+PFX Q' ê qu'Ê ê 104
+PFX Q' i qu'I i 104
+PFX Q' î qu'Î î 104
+PFX Q' o qu'O o 104
+PFX Q' ô qu'Ô ô 104
+PFX Q' u qu'U u 104
+PFX Q' y qu'Y y 104
+PFX Q' h qu'H h 104
+PFX Q' œ qu'Œ œ 104
+PFX Q' æ qu'Æ æ 104
+PFX Q' 0 Qu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 104
+PFX Q' a Qu'A a 104
+PFX Q' à Qu'À à 104
+PFX Q' â Qu'Â â 104
+PFX Q' e Qu'E e 104
+PFX Q' é Qu'É é 104
+PFX Q' è Qu'È è 104
+PFX Q' ê Qu'Ê ê 104
+PFX Q' i Qu'I i 104
+PFX Q' î Qu'Î î 104
+PFX Q' o Qu'O o 104
+PFX Q' ô Qu'Ô ô 104
+PFX Q' u Qu'U u 104
+PFX Q' y Qu'Y y 104
+PFX Q' h Qu'H h 104
+PFX Q' œ Qu'Œ œ 104
+PFX Q' æ Qu'Æ æ 104
 
-PFX Q* Y 3
-PFX Q* 0 quoiqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 315
-PFX Q* 0 puisqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 316
-PFX Q* 0 lorsqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 319
+PFX Q* Y 6
+PFX Q* 0 quoiqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 201
+PFX Q* 0 puisqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 202
+PFX Q* 0 lorsqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 203
+PFX Q* 0 Quoiqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 201
+PFX Q* 0 Puisqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 202
+PFX Q* 0 Lorsqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ] 203
 
 PFX Qj Y 1
-PFX Qj 0 jusqu' [aàâeèéêiîoôuyhœæ] 320
+PFX Qj 0 jusqu' [aàâeèéêiîoôuyhœæ] 325
 
 PFX Si Y 1
-PFX Si 0 s' . 313
+PFX Si 0 s' . 321
 
 SFX S. Y 2
-SFX S. 0 0 . 119
-SFX S. 0 s [^sxz] 102
+SFX S. 0 0 . 120
+SFX S. 0 s [^sxz] 103
 
 SFX S= Y 1
 SFX S= 0 s [^sxz]
 
 SFX X. Y 4
-SFX X. 0 0 . 119
-SFX X. 0 x [aeoœ]u 102
-SFX X. l ux al 102
-SFX X. il ux ail 102
+SFX X. 0 0 . 120
+SFX X. 0 x [aeoœ]u 103
+SFX X. l ux al 103
+SFX X. il ux ail 103
 
 SFX A. Y 9
-SFX A. 0 0 . 119
-SFX A. an en an 102
-SFX A. f ves f 102
-SFX A. h hes h 102
-SFX A. s ses s 102
-SFX A. x xes x 102
-SFX A. y ies y 102
-SFX A. zz zzes zz 102
-SFX A. z zzes [^z]z 102
+SFX A. 0 0 . 120
+SFX A. an en an 103
+SFX A. f ves f 103
+SFX A. h hes h 103
+SFX A. s ses s 103
+SFX A. x xes x 103
+SFX A. y ies y 103
+SFX A. zz zzes zz 103
+SFX A. z zzes [^z]z 103
 
 SFX I. Y 7
-SFX I. 0 0 . 119
-SFX I. a e a 102
-SFX I. e i e 102
-SFX I. en ina en 102
-SFX I. o i o 102
-SFX I. um a um 102
-SFX I. us i us 102
+SFX I. 0 0 . 120
+SFX I. a e a 103
+SFX I. e i e 103
+SFX I. en ina en 103
+SFX I. o i o 103
+SFX I. um a um 103
+SFX I. us i us 103
 
 SFX F. Y 72
-SFX F. 0 0 . 165
-SFX F. 0 s [eë] 166
+SFX F. 0 0 . 168
+SFX F. 0 s [eë] 169
 SFX F. e 0 [éiï]e 89
 SFX F. e s [éiï]e 90
 SFX F. rice eur [dt]rice 89
@@ -875,8 +939,8 @@ SFX F. anche anc anche 89
 SFX F. anche ancs anche 90
 SFX F. èche ec èche 89
 SFX F. èche ecs èche 90
-SFX F. aiche ais aiche 124
-SFX F. aîche ais aîche 124
+SFX F. aiche ais aiche 126
+SFX F. aîche ais aîche 126
 SFX F. khe kh khe 89
 SFX F. khe khs khe 90
 SFX F. he h [ut]he 89
@@ -899,15 +963,15 @@ SFX F. re r [aiuûy]re 89
 SFX F. re rs [aiuûy]re 90
 SFX F. ère er ère 89
 SFX F. ère ers ère 90
-SFX F. se s [^us]se 124
+SFX F. se s [^us]se 126
 SFX F. esse e [^eo].esse 89
 SFX F. esse es [^eo].esse 90
 SFX F. eresse eur eresse 89
 SFX F. eresse eurs eresse 90
 SFX F. oresse eur oresse 89
 SFX F. oresse eurs oresse 90
-SFX F. sse s [^e]sse 124
-SFX F. use us [^eo]use 124
+SFX F. sse s [^e]sse 126
+SFX F. use us [^eo]use 126
 SFX F. euse eur euse 89
 SFX F. euse eurs euse 90
 SFX F. te t [^èt]te 89
@@ -932,63 +996,63 @@ SFX F. uë u uë 89
 SFX F. uë us uë 90
 SFX F. üe u üe 89
 SFX F. üe us üe 90
-SFX F. ze z ze 124
+SFX F. ze z ze 126
 
 SFX W. N 8
-SFX W. 0 0 . 165
-SFX W. e es e 166
-SFX W. ce x ce 124
-SFX W. use ux [eo]use 124
-SFX W. ausse aux ausse 124
-SFX W. ousse oux ousse 124
+SFX W. 0 0 . 168
+SFX W. e es e 169
+SFX W. ce x ce 126
+SFX W. use ux [eo]use 126
+SFX W. ausse aux ausse 126
+SFX W. ousse oux ousse 126
 SFX W. ale al ale 89
 SFX W. ale aux ale 90
 
 SFX S* Y 2
-SFX S* 0 0/50 [^sxz] 119
-SFX S* 0 s/9 [^sxz] 102
+SFX S* 0 0/50 [^sxz] 120
+SFX S* 0 s/9 [^sxz] 103
 
 SFX X* Y 4
-SFX X* 0 0/50 . 119
-SFX X* 0 x/9 [aeoœ]u 102
-SFX X* l ux/9 al 102
-SFX X* il ux/9 ail 102
+SFX X* 0 0/50 . 120
+SFX X* 0 x/9 [aeoœ]u 103
+SFX X* l ux/9 al 103
+SFX X* il ux/9 ail 103
 
 SFX A* Y 16
-SFX A* an an/50 an 119
-SFX A* an en/9 an 102
-SFX A* f f/50 f 119
-SFX A* f ves/9 f 102
-SFX A* h h/50 h 119
-SFX A* h hes/9 h 102
-SFX A* s s/50 s 119
-SFX A* s ses/9 s 102
-SFX A* x h/50 x 119
-SFX A* x hes/9 x 102
-SFX A* y y/50 y 119
-SFX A* y ies/9 y 102
-SFX A* zz zz/50 zz 119
-SFX A* zz zzes/9 zz 102
-SFX A* z z/50 [^z]z 119
-SFX A* z zzes/9 [^z]z 102
+SFX A* an an/50 an 120
+SFX A* an en/9 an 103
+SFX A* f f/50 f 120
+SFX A* f ves/9 f 103
+SFX A* h h/50 h 120
+SFX A* h hes/9 h 103
+SFX A* s s/50 s 120
+SFX A* s ses/9 s 103
+SFX A* x h/50 x 120
+SFX A* x hes/9 x 103
+SFX A* y y/50 y 120
+SFX A* y ies/9 y 103
+SFX A* zz zz/50 zz 120
+SFX A* zz zzes/9 zz 103
+SFX A* z z/50 [^z]z 120
+SFX A* z zzes/9 [^z]z 103
 
 SFX I* Y 12
-SFX I* a a/50 a 119
-SFX I* a e/9 a 102
-SFX I* e e/50 e 119
-SFX I* e i/9 e 102
-SFX I* en en/50 en 119
-SFX I* en ina/9 en 102
-SFX I* o o/50 o 119
-SFX I* o i/9 o 102
-SFX I* um um/50 um 119
-SFX I* um a/9 um 102
-SFX I* us us/50 us 119
-SFX I* us i/9 us 102
+SFX I* a a/50 a 120
+SFX I* a e/9 a 103
+SFX I* e e/50 e 120
+SFX I* e i/9 e 103
+SFX I* en en/50 en 120
+SFX I* en ina/9 en 103
+SFX I* o o/50 o 120
+SFX I* o i/9 o 103
+SFX I* um um/50 um 120
+SFX I* um a/9 um 103
+SFX I* us us/50 us 120
+SFX I* us i/9 us 103
 
 SFX F* Y 59
-SFX F* 0 0/50 . 165
-SFX F* 0 s/9 [eë] 166
+SFX F* 0 0/50 . 168
+SFX F* 0 s/9 [eë] 169
 SFX F* e 0/50 [éiï]e 89
 SFX F* e s/9 [éiï]e 90
 SFX F* rice eur/50 [dt]rice 89
@@ -1013,15 +1077,15 @@ SFX F* re r/50 [aiuûy]re 89
 SFX F* re rs/9 [aiuûy]re 90
 SFX F* ère er/50 ère 89
 SFX F* ère ers/9 ère 90
-SFX F* se s/50 [^us]se 124
+SFX F* se s/50 [^us]se 126
 SFX F* esse e/50 [^eo].esse 89
 SFX F* esse es/9 [^eo].esse 90
 SFX F* eresse eur/50 eresse 89
 SFX F* eresse eurs/9 eresse 90
 SFX F* oresse eur/50 oresse 89
 SFX F* oresse eurs/9 oresse 90
-SFX F* sse s/50 [^e]sse 124
-SFX F* use us/50 [^eo]use 124
+SFX F* sse s/50 [^e]sse 126
+SFX F* use us/50 [^eo]use 126
 SFX F* euse eur/50 euse 89
 SFX F* euse eurs/9 euse 90
 SFX F* te t/50 [^èt]te 89
@@ -1048,31 +1112,31 @@ SFX F* üe u/50 üe 89
 SFX F* üe us/9 üe 90
 
 SFX W* Y 7
-SFX W* 0 0/50 . 165
-SFX W* e es/9 e 166
-SFX W* ce x/50 ce 124
-SFX W* use ux/50 [eo]use 124
-SFX W* ousse oux/50 ousse 124
+SFX W* 0 0/50 . 168
+SFX W* e es/9 e 169
+SFX W* ce x/50 ce 126
+SFX W* use ux/50 [eo]use 126
+SFX W* ousse oux/50 ousse 126
 SFX W* ale al/50 ale 89
 SFX W* ale aux/9 ale 90
 
 PFX Um Y 29
-PFX Um 0 0/259 .
-PFX Um 0 l' [aàâeèéêiîoôuyœæ] 108
-PFX Um 0 d'/1 [aàâeèéêiîoôuyœæ] 97
+PFX Um 0 0/260 .
+PFX Um 0 l' [aàâeèéêiîoôuyœæ] 98
+PFX Um 0 d'/1 [aàâeèéêiîoôuyœæ] 96
 PFX Um 0 yotta/1 .
 PFX Um 0 zetta/1 .
 PFX Um 0 exa/1 .
-PFX Um 0 l'exa . 108
-PFX Um 0 d'exa/1 . 97
+PFX Um 0 l'exa . 98
+PFX Um 0 d'exa/1 . 96
 PFX Um 0 peta/1 .
 PFX Um 0 téra/1 .
 PFX Um 0 giga/1 .
 PFX Um 0 méga/1 .
 PFX Um 0 kilo/1 .
 PFX Um 0 hecto/1 .
-PFX Um 0 l'hecto . 108
-PFX Um 0 d'hecto/1 . 97
+PFX Um 0 l'hecto . 98
+PFX Um 0 d'hecto/1 . 96
 PFX Um 0 déca/1 .
 PFX Um 0 déci/1 .
 PFX Um 0 centi/1 .
@@ -1082,28 +1146,28 @@ PFX Um 0 nano/1 .
 PFX Um 0 pico/1 .
 PFX Um 0 femto/1 .
 PFX Um 0 atto/1 .
-PFX Um 0 l'atto . 108
-PFX Um 0 d'atto/1 . 97
+PFX Um 0 l'atto . 98
+PFX Um 0 d'atto/1 . 96
 PFX Um 0 zepto/1 .
 PFX Um 0 yocto/1 .
 
 PFX Ui Y 29
 PFX Ui 0 0 .
-PFX Ui 0 l' [aàâeèéêiîoôuyœæ] 108
-PFX Ui 0 d' [aàâeèéêiîoôuyœæ] 97
+PFX Ui 0 l' [aàâeèéêiîoôuyœæ] 98
+PFX Ui 0 d' [aàâeèéêiîoôuyœæ] 96
 PFX Ui 0 yotta .
 PFX Ui 0 zetta .
 PFX Ui 0 exa .
-PFX Ui 0 l'exa . 108
-PFX Ui 0 d'exa . 97
+PFX Ui 0 l'exa . 98
+PFX Ui 0 d'exa . 96
 PFX Ui 0 peta .
 PFX Ui 0 téra .
 PFX Ui 0 giga .
 PFX Ui 0 méga .
 PFX Ui 0 kilo .
 PFX Ui 0 hecto .
-PFX Ui 0 l'hecto . 108
-PFX Ui 0 d'hecto . 97
+PFX Ui 0 l'hecto . 98
+PFX Ui 0 d'hecto . 96
 PFX Ui 0 déca .
 PFX Ui 0 déci .
 PFX Ui 0 centi .
@@ -1113,8 +1177,8 @@ PFX Ui 0 nano .
 PFX Ui 0 pico .
 PFX Ui 0 femto .
 PFX Ui 0 atto .
-PFX Ui 0 l'atto . 108
-PFX Ui 0 d'atto . 97
+PFX Ui 0 l'atto . 98
+PFX Ui 0 d'atto . 96
 PFX Ui 0 zepto .
 PFX Ui 0 yocto .
 
@@ -1141,35 +1205,35 @@ PFX U. 0 z .
 PFX U. 0 y .
 
 PFX n' Y 1
-PFX n' 0 n' [aàâeèéêiîoôuyhœæ] 317
+PFX n' 0 n' [aàâeèéêiîoôuyhœæ] 323
 
 PFX q' Y 1
-PFX q' 0 qu' [aàâeèéêiîoôuyhœæ] 199
+PFX q' 0 qu' [aàâeèéêiîoôuyhœæ] 104
 
 PFX d' Y 1
-PFX d' 0 d' [aàâeèéêiîoôuyhœæ] 97
+PFX d' 0 d' [aàâeèéêiîoôuyhœæ] 96
 
 PFX j' Y 1
-PFX j' 0 j' [aàâeèéêiîoôuyhœæ] 321
+PFX j' 0 j' [aàâeèéêiîoôuyhœæ] 326
 
 PFX c' Y 2
-PFX c' 0 c' [eé] 200
-PFX c' 0 ç' a 200
+PFX c' 0 c' [eé] 204
+PFX c' 0 ç' a 204
 
 PFX l' Y 1
-PFX l' 0 l' [aàâeèéêiîoôuyhœæ] 108
+PFX l' 0 l' [aàâeèéêiîoôuyhœæ] 98
 
 PFX m' Y 1
-PFX m' 0 m' [aàâeèéêiîoôuyhœæ] 318
+PFX m' 0 m' [aàâeèéêiîoôuyhœæ] 324
 
 PFX t' Y 1
-PFX t' 0 t' [aàâeèéêiîoôuyhœæ] 312
+PFX t' 0 t' [aàâeèéêiîoôuyhœæ] 320
 
 PFX s' Y 1
-PFX s' 0 s' [aàâeèéêiîoôuyhœæ] 314
+PFX s' 0 s' [aàâeèéêiîoôuyhœæ] 322
 
 SFX zA Y 52
-SFX zA voir voir/224 avoir 64
+SFX zA voir voir/225 avoir 64
 SFX zA voir yant/20 avoir 48
 SFX zA avoir eu avoir 85
 SFX zA avoir eus avoir 86
@@ -1177,44 +1241,44 @@ SFX zA avoir eue avoir 80
 SFX zA avoir eues avoir 81
 SFX zA voir i/30 avoir 34
 SFX zA voir s/20 avoir 35
-SFX zA voir 0/106 avoir 21
+SFX zA voir 0/92 avoir 21
 SFX zA voir vons/17 avoir 56
 SFX zA voir vez/14 avoir 72
 SFX zA avoir ont/20 avoir 26
-SFX zA voir vais/22 avoir 66
+SFX zA voir vais/23 avoir 66
 SFX zA voir vais/20 avoir 65
-SFX zA voir vait/106 avoir 50
+SFX zA voir vait/92 avoir 50
 SFX zA voir vions/17 avoir 77
 SFX zA voir viez/14 avoir 76
 SFX zA voir vaient/20 avoir 51
-SFX zA avoir eus/22 avoir 69
+SFX zA avoir eus/23 avoir 69
 SFX zA avoir eus/20 avoir 68
-SFX zA avoir eut/106 avoir 53
+SFX zA avoir eut/92 avoir 53
 SFX zA avoir eûmes/17 avoir 63
 SFX zA avoir eûtes/14 avoir 62
 SFX zA avoir eurent/20 avoir 71
-SFX zA voir urai/22 avoir 38
+SFX zA voir urai/23 avoir 38
 SFX zA voir uras/20 avoir 37
-SFX zA voir ura/20 avoir 22
+SFX zA voir ura/92 avoir 22
 SFX zA voir urons/17 avoir 31
 SFX zA voir urez/14 avoir 30
 SFX zA voir uront/20 avoir 24
-SFX zA voir urais/22 avoir 40
+SFX zA voir urais/23 avoir 40
 SFX zA voir urais/20 avoir 39
-SFX zA voir urait/20 avoir 23
+SFX zA voir urait/92 avoir 23
 SFX zA voir urions/17 avoir 33
 SFX zA voir uriez/14 avoir 32
 SFX zA voir uraient/20 avoir 25
-SFX zA voir ie/44 avoir 41
+SFX zA voir ie/44 avoir 42
 SFX zA voir ies/36 avoir 44
-SFX zA voir it/20 avoir 27
+SFX zA voir it/92 avoir 27
 SFX zA voir yons/56 avoir 74
 SFX zA voir yez/31 avoir 73
-SFX zA voir ient/20 avoir 28
-SFX zA avoir eusse/22 avoir 61
+SFX zA voir ient/20 avoir 29
+SFX zA avoir eusse/23 avoir 61
 SFX zA avoir eussé avoir 61
 SFX zA avoir eusses/20 avoir 67
-SFX zA avoir eût/106 avoir 52
+SFX zA avoir eût/92 avoir 52
 SFX zA avoir eussions/17 avoir 60
 SFX zA avoir eussiez/14 avoir 59
 SFX zA avoir eussent/20 avoir 54
@@ -1225,14 +1289,14 @@ SFX zA voir yez/13 avoir 75
 SFX zE Y 49
 SFX zE tre tre/53 être 64
 SFX zE être étant/6 être 48
-SFX zE être été être 104
+SFX zE être été être 106
 SFX zE être suis être 34
 SFX zE être es/20 être 35
 SFX zE être est/124 être 21
 SFX zE être sommes être 56
 SFX zE tre tes/14 être 72
 SFX zE être sont être 26
-SFX zE être étais/22 être 66
+SFX zE être étais/23 être 66
 SFX zE être étais/20 être 65
 SFX zE être était/124 être 50
 SFX zE être étions/17 être 77
@@ -1256,12 +1320,12 @@ SFX zE être serait être 23
 SFX zE être serions être 33
 SFX zE être seriez être 32
 SFX zE être seraient être 25
-SFX zE être sois être 41
+SFX zE être sois être 42
 SFX zE être sois être 44
 SFX zE être soit être 27
 SFX zE être soyons être 74
 SFX zE être soyez être 73
-SFX zE être soient être 28
+SFX zE être soient être 29
 SFX zE être fusse être 61
 SFX zE être fussé être 61
 SFX zE être fusses être 67
@@ -1360,9 +1424,9 @@ SFX a0 yer ieriez [aou]yer 32
 SFX a0 er eraient [^y]er 25
 SFX a0 yer yeraient [^ou]yer 25
 SFX a0 yer ieraient [aou]yer 25
-SFX a0 er e [^y]er 41
-SFX a0 yer ye [^ou]yer 41
-SFX a0 yer ie [aou]yer 41
+SFX a0 er e [^y]er 42
+SFX a0 yer ye [^ou]yer 42
+SFX a0 yer ie [aou]yer 42
 SFX a0 er es [^y]er 44
 SFX a0 yer yes [^ou]yer 44
 SFX a0 yer ies [aou]yer 44
@@ -1371,9 +1435,9 @@ SFX a0 yer ye [^ou]yer 27
 SFX a0 yer ie [aou]yer 27
 SFX a0 er ions er 74
 SFX a0 er iez er 73
-SFX a0 er ent [^y]er 28
-SFX a0 yer yent [^ou]yer 28
-SFX a0 yer ient [aou]yer 28
+SFX a0 er ent [^y]er 29
+SFX a0 yer yent [^ou]yer 29
+SFX a0 yer ient [aou]yer 29
 SFX a0 er asse [^cg]er 61
 SFX a0 cer çasse cer 61
 SFX a0 ger geasse ger 61
@@ -1487,9 +1551,9 @@ SFX a1 yer ieriez/13 [aou]yer 32
 SFX a1 er eraient/16 [^y]er 25
 SFX a1 yer yeraient/16 [^ou]yer 25
 SFX a1 yer ieraient/16 [aou]yer 25
-SFX a1 er e/26 [^y]er 41
-SFX a1 yer ye/26 [^ou]yer 41
-SFX a1 yer ie/26 [aou]yer 41
+SFX a1 er e/26 [^y]er 42
+SFX a1 yer ye/26 [^ou]yer 42
+SFX a1 yer ie/26 [aou]yer 42
 SFX a1 er es/13 [^y]er 44
 SFX a1 yer yes/13 [^ou]yer 44
 SFX a1 yer ies/13 [aou]yer 44
@@ -1498,9 +1562,9 @@ SFX a1 yer ye/16 [^ou]yer 27
 SFX a1 yer ie/16 [aou]yer 27
 SFX a1 er ions/13 er 74
 SFX a1 er iez/13 er 73
-SFX a1 er ent/16 [^y]er 28
-SFX a1 yer yent/16 [^ou]yer 28
-SFX a1 yer ient/16 [aou]yer 28
+SFX a1 er ent/16 [^y]er 29
+SFX a1 yer yent/16 [^ou]yer 29
+SFX a1 yer ient/16 [aou]yer 29
 SFX a1 er asse/26 [^cg]er 61
 SFX a1 cer çasse/26 cer 61
 SFX a1 ger geasse/26 ger 61
@@ -1614,9 +1678,9 @@ SFX a2 yer ieriez/14 [aou]yer 32
 SFX a2 er eraient/6 [^y]er 25
 SFX a2 yer yeraient/6 [^ou]yer 25
 SFX a2 yer ieraient/6 [aou]yer 25
-SFX a2 er e/54 [^y]er 41
-SFX a2 yer ye/54 [^ou]yer 41
-SFX a2 yer ie/54 [aou]yer 41
+SFX a2 er e/54 [^y]er 42
+SFX a2 yer ye/54 [^ou]yer 42
+SFX a2 yer ie/54 [aou]yer 42
 SFX a2 er es/31 [^y]er 44
 SFX a2 yer yes/31 [^ou]yer 44
 SFX a2 yer ies/31 [aou]yer 44
@@ -1625,9 +1689,9 @@ SFX a2 yer ye/6 [^ou]yer 27
 SFX a2 yer ie/6 [aou]yer 27
 SFX a2 er ions/56 er 74
 SFX a2 er iez/31 er 73
-SFX a2 er ent/6 [^y]er 28
-SFX a2 yer yent/6 [^ou]yer 28
-SFX a2 yer ient/6 [aou]yer 28
+SFX a2 er ent/6 [^y]er 29
+SFX a2 yer yent/6 [^ou]yer 29
+SFX a2 yer ient/6 [aou]yer 29
 SFX a2 er asse/30 [^cg]er 61
 SFX a2 cer çasse/30 cer 61
 SFX a2 ger geasse/30 ger 61
@@ -1741,9 +1805,9 @@ SFX a3 yer ieriez [aou]yer 32
 SFX a3 er eraient/12 [^y]er 25
 SFX a3 yer yeraient/12 [^ou]yer 25
 SFX a3 yer ieraient/12 [aou]yer 25
-SFX a3 er e/24 [^y]er 41
-SFX a3 yer ye/24 [^ou]yer 41
-SFX a3 yer ie/24 [aou]yer 41
+SFX a3 er e/24 [^y]er 42
+SFX a3 yer ye/24 [^ou]yer 42
+SFX a3 yer ie/24 [aou]yer 42
 SFX a3 er es/21 [^y]er 44
 SFX a3 yer yes/21 [^ou]yer 44
 SFX a3 yer ies/21 [aou]yer 44
@@ -1752,9 +1816,9 @@ SFX a3 yer ye/12 [^ou]yer 27
 SFX a3 yer ie/12 [aou]yer 27
 SFX a3 er ions er 74
 SFX a3 er iez er 73
-SFX a3 er ent/12 [^y]er 28
-SFX a3 yer yent/12 [^ou]yer 28
-SFX a3 yer ient/12 [aou]yer 28
+SFX a3 er ent/12 [^y]er 29
+SFX a3 yer yent/12 [^ou]yer 29
+SFX a3 yer ient/12 [aou]yer 29
 SFX a3 er asse/24 [^cg]er 61
 SFX a3 cer çasse/24 cer 61
 SFX a3 ger geasse/24 ger 61
@@ -1786,9 +1850,9 @@ SFX a4 er er/53 er 64
 SFX a4 er ant/6 [^cg]er 48
 SFX a4 cer çant/6 cer 48
 SFX a4 ger geant/6 ger 48
-SFX a4 er e/22 [^y]er 34
-SFX a4 yer ye/22 [^ou]yer 34
-SFX a4 yer ie/22 [aou]yer 34
+SFX a4 er e/23 [^y]er 34
+SFX a4 yer ye/23 [^ou]yer 34
+SFX a4 yer ie/23 [aou]yer 34
 SFX a4 er es/20 [^y]er 35
 SFX a4 yer yes/20 [^ou]yer 35
 SFX a4 yer ies/20 [aou]yer 35
@@ -1802,9 +1866,9 @@ SFX a4 er ez/14 er 72
 SFX a4 er ent/6 [^y]er 26
 SFX a4 yer yent/6 [^ou]yer 26
 SFX a4 yer ient/6 [aou]yer 26
-SFX a4 er ais/22 [^cg]er 66
-SFX a4 cer çais/22 cer 66
-SFX a4 ger geais/22 ger 66
+SFX a4 er ais/23 [^cg]er 66
+SFX a4 cer çais/23 cer 66
+SFX a4 ger geais/23 ger 66
 SFX a4 er ais/20 [^cg]er 65
 SFX a4 cer çais/20 cer 65
 SFX a4 ger geais/20 ger 65
@@ -1816,9 +1880,9 @@ SFX a4 er iez/14 er 76
 SFX a4 er aient/6 [^cg]er 51
 SFX a4 cer çaient/6 cer 51
 SFX a4 ger geaient/6 ger 51
-SFX a4 er ai/22 [^cg]er 69
-SFX a4 cer çai/22 cer 69
-SFX a4 ger geai/22 ger 69
+SFX a4 er ai/23 [^cg]er 69
+SFX a4 cer çai/23 cer 69
+SFX a4 ger geai/23 ger 69
 SFX a4 er as/20 [^cg]er 68
 SFX a4 cer ças/20 cer 68
 SFX a4 ger geas/20 ger 68
@@ -1832,9 +1896,9 @@ SFX a4 er âtes/14 [^cg]er 62
 SFX a4 cer çâtes/14 cer 62
 SFX a4 ger geâtes/14 ger 62
 SFX a4 er èrent/6 er 71
-SFX a4 er erai/22 [^y]er 38
-SFX a4 yer yerai/22 [^ou]yer 38
-SFX a4 yer ierai/22 [aou]yer 38
+SFX a4 er erai/23 [^y]er 38
+SFX a4 yer yerai/23 [^ou]yer 38
+SFX a4 yer ierai/23 [aou]yer 38
 SFX a4 er eras/20 [^y]er 37
 SFX a4 yer yeras/20 [^ou]yer 37
 SFX a4 yer ieras/20 [aou]yer 37
@@ -1850,9 +1914,9 @@ SFX a4 yer ierez/14 [aou]yer 30
 SFX a4 er eront/6 [^y]er 24
 SFX a4 yer yeront/6 [^ou]yer 24
 SFX a4 yer ieront/6 [aou]yer 24
-SFX a4 er erais/22 [^y]er 40
-SFX a4 yer yerais/22 [^ou]yer 40
-SFX a4 yer ierais/22 [aou]yer 40
+SFX a4 er erais/23 [^y]er 40
+SFX a4 yer yerais/23 [^ou]yer 40
+SFX a4 yer ierais/23 [aou]yer 40
 SFX a4 er erais/20 [^y]er 39
 SFX a4 yer yerais/20 [^ou]yer 39
 SFX a4 yer ierais/20 [aou]yer 39
@@ -1868,9 +1932,9 @@ SFX a4 yer ieriez/14 [aou]yer 32
 SFX a4 er eraient/6 [^y]er 25
 SFX a4 yer yeraient/6 [^ou]yer 25
 SFX a4 yer ieraient/6 [aou]yer 25
-SFX a4 er e/44 [^y]er 41
-SFX a4 yer ye/44 [^ou]yer 41
-SFX a4 yer ie/44 [aou]yer 41
+SFX a4 er e/44 [^y]er 42
+SFX a4 yer ye/44 [^ou]yer 42
+SFX a4 yer ie/44 [aou]yer 42
 SFX a4 er es/36 [^y]er 44
 SFX a4 yer yes/36 [^ou]yer 44
 SFX a4 yer ies/36 [aou]yer 44
@@ -1879,12 +1943,12 @@ SFX a4 yer ye/6 [^ou]yer 27
 SFX a4 yer ie/6 [aou]yer 27
 SFX a4 er ions/56 er 74
 SFX a4 er iez/31 er 73
-SFX a4 er ent/6 [^y]er 28
-SFX a4 yer yent/6 [^ou]yer 28
-SFX a4 yer ient/6 [aou]yer 28
-SFX a4 er asse/22 [^cg]er 61
-SFX a4 cer çasse/22 cer 61
-SFX a4 ger geasse/22 ger 61
+SFX a4 er ent/6 [^y]er 29
+SFX a4 yer yent/6 [^ou]yer 29
+SFX a4 yer ient/6 [aou]yer 29
+SFX a4 er asse/23 [^cg]er 61
+SFX a4 cer çasse/23 cer 61
+SFX a4 ger geasse/23 ger 61
 SFX a4 er asses/20 [^cg]er 67
 SFX a4 cer çasses/20 cer 67
 SFX a4 ger geasses/20 ger 67
@@ -1995,9 +2059,9 @@ SFX a5 yer ieriez/32 [aou]yer 32
 SFX a5 er eraient/18 [^y]er 25
 SFX a5 yer yeraient/18 [^ou]yer 25
 SFX a5 yer ieraient/18 [aou]yer 25
-SFX a5 er e/27 [^y]er 41
-SFX a5 yer ye/27 [^ou]yer 41
-SFX a5 yer ie/27 [aou]yer 41
+SFX a5 er e/27 [^y]er 42
+SFX a5 yer ye/27 [^ou]yer 42
+SFX a5 yer ie/27 [aou]yer 42
 SFX a5 er es/25 [^y]er 44
 SFX a5 yer yes/25 [^ou]yer 44
 SFX a5 yer ies/25 [aou]yer 44
@@ -2006,9 +2070,9 @@ SFX a5 yer ye/18 [^ou]yer 27
 SFX a5 yer ie/18 [aou]yer 27
 SFX a5 er ions/35 er 74
 SFX a5 er iez/32 er 73
-SFX a5 er ent/18 [^y]er 28
-SFX a5 yer yent/18 [^ou]yer 28
-SFX a5 yer ient/18 [aou]yer 28
+SFX a5 er ent/18 [^y]er 29
+SFX a5 yer yent/18 [^ou]yer 29
+SFX a5 yer ient/18 [aou]yer 29
 SFX a5 er asse/27 [^cg]er 61
 SFX a5 cer çasse/27 cer 61
 SFX a5 ger geasse/27 ger 61
@@ -2097,9 +2161,9 @@ SFX a6 yer ye/12 [^ou]yer 27
 SFX a6 yer ie/12 [aou]yer 27
 SFX a6 er ions er 74
 SFX a6 er iez er 73
-SFX a6 er ent/12 [^y]er 28
-SFX a6 yer yent/12 [^ou]yer 28
-SFX a6 yer ient/12 [aou]yer 28
+SFX a6 er ent/12 [^y]er 29
+SFX a6 yer yent/12 [^ou]yer 29
+SFX a6 yer ient/12 [aou]yer 29
 SFX a6 er ât/12 [^cg]er 52
 SFX a6 cer çât/12 cer 52
 SFX a6 ger geât/12 ger 52
@@ -2114,7 +2178,7 @@ SFX a6 cer çassent/12 cer 54
 SFX a6 ger geassent/12 ger 54
 
 SFX a8 N 17
-SFX a8 er er/227 er 64
+SFX a8 er er/228 er 64
 SFX a8 er ant [^cg]er 48
 SFX a8 cer çant cer 48
 SFX a8 ger geant ger 48
@@ -2140,7 +2204,7 @@ SFX a9 ger geaient/13 ger 51
 SFX a9 er èrent/13 er 71
 SFX a9 er eront/13 er 24
 SFX a9 er eraient/13 er 25
-SFX a9 er ent/13 er 28
+SFX a9 er ent/13 er 29
 SFX a9 er assent/13 [^cg]er 54
 SFX a9 cer çassent/13 cer 54
 SFX a9 ger geassent/13 ger 54
@@ -2333,16 +2397,16 @@ SFX b0 ever èveraient ever 25
 SFX b0 evrer èvreraient evrer 25
 SFX b0 eter èteraient eter 25
 SFX b0 eler èleraient eler 25
-SFX b0 ecer èce ecer 41
-SFX b0 emer ème emer 41
-SFX b0 ener ène ener 41
-SFX b0 eper èpe eper 41
-SFX b0 erer ère erer 41
-SFX b0 eser èse eser 41
-SFX b0 ever ève ever 41
-SFX b0 evrer èvre evrer 41
-SFX b0 eter ète eter 41
-SFX b0 eler èle eler 41
+SFX b0 ecer èce ecer 42
+SFX b0 emer ème emer 42
+SFX b0 ener ène ener 42
+SFX b0 eper èpe eper 42
+SFX b0 erer ère erer 42
+SFX b0 eser èse eser 42
+SFX b0 ever ève ever 42
+SFX b0 evrer èvre evrer 42
+SFX b0 eter ète eter 42
+SFX b0 eler èle eler 42
 SFX b0 ecer èces ecer 44
 SFX b0 emer èmes emer 44
 SFX b0 ener ènes ener 44
@@ -2365,16 +2429,16 @@ SFX b0 eter ète eter 27
 SFX b0 eler èle eler 27
 SFX b0 er ions er 74
 SFX b0 er iez er 73
-SFX b0 ecer ècent ecer 28
-SFX b0 emer èment emer 28
-SFX b0 ener ènent ener 28
-SFX b0 eper èpent eper 28
-SFX b0 erer èrent erer 28
-SFX b0 eser èsent eser 28
-SFX b0 ever èvent ever 28
-SFX b0 evrer èvrent evrer 28
-SFX b0 eter ètent eter 28
-SFX b0 eler èlent eler 28
+SFX b0 ecer ècent ecer 29
+SFX b0 emer èment emer 29
+SFX b0 ener ènent ener 29
+SFX b0 eper èpent eper 29
+SFX b0 erer èrent erer 29
+SFX b0 eser èsent eser 29
+SFX b0 ever èvent ever 29
+SFX b0 evrer èvrent evrer 29
+SFX b0 eter ètent eter 29
+SFX b0 eler èlent eler 29
 SFX b0 er asse [^c]er 61
 SFX b0 cer çasse cer 61
 SFX b0 er asses [^c]er 67
@@ -2589,16 +2653,16 @@ SFX b1 ever èveraient/16 ever 25
 SFX b1 evrer èvreraient/16 evrer 25
 SFX b1 eter èteraient/16 eter 25
 SFX b1 eler èleraient/16 eler 25
-SFX b1 ecer èce/26 ecer 41
-SFX b1 emer ème/26 emer 41
-SFX b1 ener ène/26 ener 41
-SFX b1 eper èpe/26 eper 41
-SFX b1 erer ère/26 erer 41
-SFX b1 eser èse/26 eser 41
-SFX b1 ever ève/26 ever 41
-SFX b1 evrer èvre/26 evrer 41
-SFX b1 eter ète/26 eter 41
-SFX b1 eler èle/26 eler 41
+SFX b1 ecer èce/26 ecer 42
+SFX b1 emer ème/26 emer 42
+SFX b1 ener ène/26 ener 42
+SFX b1 eper èpe/26 eper 42
+SFX b1 erer ère/26 erer 42
+SFX b1 eser èse/26 eser 42
+SFX b1 ever ève/26 ever 42
+SFX b1 evrer èvre/26 evrer 42
+SFX b1 eter ète/26 eter 42
+SFX b1 eler èle/26 eler 42
 SFX b1 ecer èces/13 ecer 44
 SFX b1 emer èmes/13 emer 44
 SFX b1 ener ènes/13 ener 44
@@ -2621,16 +2685,16 @@ SFX b1 eter ète/16 eter 27
 SFX b1 eler èle/16 eler 27
 SFX b1 er ions/13 er 74
 SFX b1 er iez/13 er 73
-SFX b1 ecer ècent/16 ecer 28
-SFX b1 emer èment/16 emer 28
-SFX b1 ener ènent/16 ener 28
-SFX b1 eper èpent/16 eper 28
-SFX b1 erer èrent/16 erer 28
-SFX b1 eser èsent/16 eser 28
-SFX b1 ever èvent/16 ever 28
-SFX b1 evrer èvrent/16 evrer 28
-SFX b1 eter ètent/16 eter 28
-SFX b1 eler èlent/16 eler 28
+SFX b1 ecer ècent/16 ecer 29
+SFX b1 emer èment/16 emer 29
+SFX b1 ener ènent/16 ener 29
+SFX b1 eper èpent/16 eper 29
+SFX b1 erer èrent/16 erer 29
+SFX b1 eser èsent/16 eser 29
+SFX b1 ever èvent/16 ever 29
+SFX b1 evrer èvrent/16 evrer 29
+SFX b1 eter ètent/16 eter 29
+SFX b1 eler èlent/16 eler 29
 SFX b1 er asse/26 [^c]er 61
 SFX b1 cer çasse/26 cer 61
 SFX b1 er asses/13 [^c]er 67
@@ -2845,16 +2909,16 @@ SFX b2 ever èveraient/6 ever 25
 SFX b2 evrer èvreraient/6 evrer 25
 SFX b2 eter èteraient/6 eter 25
 SFX b2 eler èleraient/6 eler 25
-SFX b2 ecer èce/54 ecer 41
-SFX b2 emer ème/54 emer 41
-SFX b2 ener ène/54 ener 41
-SFX b2 eper èpe/54 eper 41
-SFX b2 erer ère/54 erer 41
-SFX b2 eser èse/54 eser 41
-SFX b2 ever ève/54 ever 41
-SFX b2 evrer èvre/54 evrer 41
-SFX b2 eter ète/54 eter 41
-SFX b2 eler èle/54 eler 41
+SFX b2 ecer èce/54 ecer 42
+SFX b2 emer ème/54 emer 42
+SFX b2 ener ène/54 ener 42
+SFX b2 eper èpe/54 eper 42
+SFX b2 erer ère/54 erer 42
+SFX b2 eser èse/54 eser 42
+SFX b2 ever ève/54 ever 42
+SFX b2 evrer èvre/54 evrer 42
+SFX b2 eter ète/54 eter 42
+SFX b2 eler èle/54 eler 42
 SFX b2 ecer èces/31 ecer 44
 SFX b2 emer èmes/31 emer 44
 SFX b2 ener ènes/31 ener 44
@@ -2877,16 +2941,16 @@ SFX b2 eter ète/6 eter 27
 SFX b2 eler èle/6 eler 27
 SFX b2 er ions/56 er 74
 SFX b2 er iez/31 er 73
-SFX b2 ecer ècent/6 ecer 28
-SFX b2 emer èment/6 emer 28
-SFX b2 ener ènent/6 ener 28
-SFX b2 eper èpent/6 eper 28
-SFX b2 erer èrent/6 erer 28
-SFX b2 eser èsent/6 eser 28
-SFX b2 ever èvent/6 ever 28
-SFX b2 evrer èvrent/6 evrer 28
-SFX b2 eter ètent/6 eter 28
-SFX b2 eler èlent/6 eler 28
+SFX b2 ecer ècent/6 ecer 29
+SFX b2 emer èment/6 emer 29
+SFX b2 ener ènent/6 ener 29
+SFX b2 eper èpent/6 eper 29
+SFX b2 erer èrent/6 erer 29
+SFX b2 eser èsent/6 eser 29
+SFX b2 ever èvent/6 ever 29
+SFX b2 evrer èvrent/6 evrer 29
+SFX b2 eter ètent/6 eter 29
+SFX b2 eler èlent/6 eler 29
 SFX b2 er asse/30 [^c]er 61
 SFX b2 cer çasse/30 cer 61
 SFX b2 er asses/14 [^c]er 67
@@ -3101,16 +3165,16 @@ SFX b3 ever èveraient/12 ever 25
 SFX b3 evrer èvreraient/12 evrer 25
 SFX b3 eter èteraient/12 eter 25
 SFX b3 eler èleraient/12 eler 25
-SFX b3 ecer èce/24 ecer 41
-SFX b3 emer ème/24 emer 41
-SFX b3 ener ène/24 ener 41
-SFX b3 eper èpe/24 eper 41
-SFX b3 erer ère/24 erer 41
-SFX b3 eser èse/24 eser 41
-SFX b3 ever ève/24 ever 41
-SFX b3 evrer èvre/24 evrer 41
-SFX b3 eter ète/24 eter 41
-SFX b3 eler èle/24 eler 41
+SFX b3 ecer èce/24 ecer 42
+SFX b3 emer ème/24 emer 42
+SFX b3 ener ène/24 ener 42
+SFX b3 eper èpe/24 eper 42
+SFX b3 erer ère/24 erer 42
+SFX b3 eser èse/24 eser 42
+SFX b3 ever ève/24 ever 42
+SFX b3 evrer èvre/24 evrer 42
+SFX b3 eter ète/24 eter 42
+SFX b3 eler èle/24 eler 42
 SFX b3 ecer èces/21 ecer 44
 SFX b3 emer èmes/21 emer 44
 SFX b3 ener ènes/21 ener 44
@@ -3133,16 +3197,16 @@ SFX b3 eter ète/12 eter 27
 SFX b3 eler èle/12 eler 27
 SFX b3 er ions er 74
 SFX b3 er iez er 73
-SFX b3 ecer ècent/12 ecer 28
-SFX b3 emer èment/12 emer 28
-SFX b3 ener ènent/12 ener 28
-SFX b3 eper èpent/12 eper 28
-SFX b3 erer èrent/12 erer 28
-SFX b3 eser èsent/12 eser 28
-SFX b3 ever èvent/12 ever 28
-SFX b3 evrer èvrent/12 evrer 28
-SFX b3 eter ètent/12 eter 28
-SFX b3 eler èlent/12 eler 28
+SFX b3 ecer ècent/12 ecer 29
+SFX b3 emer èment/12 emer 29
+SFX b3 ener ènent/12 ener 29
+SFX b3 eper èpent/12 eper 29
+SFX b3 erer èrent/12 erer 29
+SFX b3 eser èsent/12 eser 29
+SFX b3 ever èvent/12 ever 29
+SFX b3 evrer èvrent/12 evrer 29
+SFX b3 eter ètent/12 eter 29
+SFX b3 eler èlent/12 eler 29
 SFX b3 er asse/24 [^c]er 61
 SFX b3 cer çasse/24 cer 61
 SFX b3 er asses/21 [^c]er 67
@@ -3173,16 +3237,16 @@ SFX b4 Y 254
 SFX b4 er er/53 er 64
 SFX b4 er ant/6 [^c]er 48
 SFX b4 cer çant/6 cer 48
-SFX b4 ecer èce/22 ecer 34
-SFX b4 emer ème/22 emer 34
-SFX b4 ener ène/22 ener 34
-SFX b4 eper èpe/22 eper 34
-SFX b4 erer ère/22 erer 34
-SFX b4 eser èse/22 eser 34
-SFX b4 ever ève/22 ever 34
-SFX b4 evrer èvre/22 evrer 34
-SFX b4 eter ète/22 eter 34
-SFX b4 eler èle/22 eler 34
+SFX b4 ecer èce/23 ecer 34
+SFX b4 emer ème/23 emer 34
+SFX b4 ener ène/23 ener 34
+SFX b4 eper èpe/23 eper 34
+SFX b4 erer ère/23 erer 34
+SFX b4 eser èse/23 eser 34
+SFX b4 ever ève/23 ever 34
+SFX b4 evrer èvre/23 evrer 34
+SFX b4 eter ète/23 eter 34
+SFX b4 eler èle/23 eler 34
 SFX b4 ecer èces/20 ecer 35
 SFX b4 emer èmes/20 emer 35
 SFX b4 ener ènes/20 ener 35
@@ -3216,8 +3280,8 @@ SFX b4 ever èvent/6 ever 26
 SFX b4 evrer èvrent/6 evrer 26
 SFX b4 eter ètent/6 eter 26
 SFX b4 eler èlent/6 eler 26
-SFX b4 er ais/22 [^c]er 66
-SFX b4 cer çais/22 cer 66
+SFX b4 er ais/23 [^c]er 66
+SFX b4 cer çais/23 cer 66
 SFX b4 er ais/20 [^c]er 65
 SFX b4 cer çais/20 cer 65
 SFX b4 er ait/6 [^c]er 50
@@ -3226,8 +3290,8 @@ SFX b4 er ions/17 er 77
 SFX b4 er iez/14 er 76
 SFX b4 er aient/6 [^c]er 51
 SFX b4 cer çaient/6 cer 51
-SFX b4 er ai/22 [^c]er 69
-SFX b4 cer çai/22 cer 69
+SFX b4 er ai/23 [^c]er 69
+SFX b4 cer çai/23 cer 69
 SFX b4 er as/20 [^c]er 68
 SFX b4 cer ças/20 cer 68
 SFX b4 er a/6 [^c]er 53
@@ -3237,16 +3301,16 @@ SFX b4 cer çâmes/17 cer 63
 SFX b4 er âtes/14 [^c]er 62
 SFX b4 cer çâtes/14 cer 62
 SFX b4 er èrent/6 er 71
-SFX b4 ecer ècerai/22 ecer 38
-SFX b4 emer èmerai/22 emer 38
-SFX b4 ener ènerai/22 ener 38
-SFX b4 eper èperai/22 eper 38
-SFX b4 erer èrerai/22 erer 38
-SFX b4 eser èserai/22 eser 38
-SFX b4 ever èverai/22 ever 38
-SFX b4 evrer èvrerai/22 evrer 38
-SFX b4 eter èterai/22 eter 38
-SFX b4 eler èlerai/22 eler 38
+SFX b4 ecer ècerai/23 ecer 38
+SFX b4 emer èmerai/23 emer 38
+SFX b4 ener ènerai/23 ener 38
+SFX b4 eper èperai/23 eper 38
+SFX b4 erer èrerai/23 erer 38
+SFX b4 eser èserai/23 eser 38
+SFX b4 ever èverai/23 ever 38
+SFX b4 evrer èvrerai/23 evrer 38
+SFX b4 eter èterai/23 eter 38
+SFX b4 eler èlerai/23 eler 38
 SFX b4 ecer èceras/20 ecer 37
 SFX b4 emer èmeras/20 emer 37
 SFX b4 ener èneras/20 ener 37
@@ -3297,16 +3361,16 @@ SFX b4 ever èveront/6 ever 24
 SFX b4 evrer èvreront/6 evrer 24
 SFX b4 eter èteront/6 eter 24
 SFX b4 eler èleront/6 eler 24
-SFX b4 ecer ècerais/22 ecer 40
-SFX b4 emer èmerais/22 emer 40
-SFX b4 ener ènerais/22 ener 40
-SFX b4 eper èperais/22 eper 40
-SFX b4 erer èrerais/22 erer 40
-SFX b4 eser èserais/22 eser 40
-SFX b4 ever èverais/22 ever 40
-SFX b4 evrer èvrerais/22 evrer 40
-SFX b4 eter èterais/22 eter 40
-SFX b4 eler èlerais/22 eler 40
+SFX b4 ecer ècerais/23 ecer 40
+SFX b4 emer èmerais/23 emer 40
+SFX b4 ener ènerais/23 ener 40
+SFX b4 eper èperais/23 eper 40
+SFX b4 erer èrerais/23 erer 40
+SFX b4 eser èserais/23 eser 40
+SFX b4 ever èverais/23 ever 40
+SFX b4 evrer èvrerais/23 evrer 40
+SFX b4 eter èterais/23 eter 40
+SFX b4 eler èlerais/23 eler 40
 SFX b4 ecer ècerais/20 ecer 39
 SFX b4 emer èmerais/20 emer 39
 SFX b4 ener ènerais/20 ener 39
@@ -3357,16 +3421,16 @@ SFX b4 ever èveraient/6 ever 25
 SFX b4 evrer èvreraient/6 evrer 25
 SFX b4 eter èteraient/6 eter 25
 SFX b4 eler èleraient/6 eler 25
-SFX b4 ecer èce/44 ecer 41
-SFX b4 emer ème/44 emer 41
-SFX b4 ener ène/44 ener 41
-SFX b4 eper èpe/44 eper 41
-SFX b4 erer ère/44 erer 41
-SFX b4 eser èse/44 eser 41
-SFX b4 ever ève/44 ever 41
-SFX b4 evrer èvre/44 evrer 41
-SFX b4 eter ète/44 eter 41
-SFX b4 eler èle/44 eler 41
+SFX b4 ecer èce/44 ecer 42
+SFX b4 emer ème/44 emer 42
+SFX b4 ener ène/44 ener 42
+SFX b4 eper èpe/44 eper 42
+SFX b4 erer ère/44 erer 42
+SFX b4 eser èse/44 eser 42
+SFX b4 ever ève/44 ever 42
+SFX b4 evrer èvre/44 evrer 42
+SFX b4 eter ète/44 eter 42
+SFX b4 eler èle/44 eler 42
 SFX b4 ecer èces/36 ecer 44
 SFX b4 emer èmes/36 emer 44
 SFX b4 ener ènes/36 ener 44
@@ -3389,18 +3453,18 @@ SFX b4 eter ète/6 eter 27
 SFX b4 eler èle/6 eler 27
 SFX b4 er ions/56 er 74
 SFX b4 er iez/31 er 73
-SFX b4 ecer ècent/6 ecer 28
-SFX b4 emer èment/6 emer 28
-SFX b4 ener ènent/6 ener 28
-SFX b4 eper èpent/6 eper 28
-SFX b4 erer èrent/6 erer 28
-SFX b4 eser èsent/6 eser 28
-SFX b4 ever èvent/6 ever 28
-SFX b4 evrer èvrent/6 evrer 28
-SFX b4 eter ètent/6 eter 28
-SFX b4 eler èlent/6 eler 28
-SFX b4 er asse/22 [^c]er 61
-SFX b4 cer çasse/22 cer 61
+SFX b4 ecer ècent/6 ecer 29
+SFX b4 emer èment/6 emer 29
+SFX b4 ener ènent/6 ener 29
+SFX b4 eper èpent/6 eper 29
+SFX b4 erer èrent/6 erer 29
+SFX b4 eser èsent/6 eser 29
+SFX b4 ever èvent/6 ever 29
+SFX b4 evrer èvrent/6 evrer 29
+SFX b4 eter ètent/6 eter 29
+SFX b4 eler èlent/6 eler 29
+SFX b4 er asse/23 [^c]er 61
+SFX b4 cer çasse/23 cer 61
 SFX b4 er asses/20 [^c]er 67
 SFX b4 cer çasses/20 cer 67
 SFX b4 er ât/6 [^c]er 52
@@ -3613,16 +3677,16 @@ SFX b5 ever èveraient/18 ever 25
 SFX b5 evrer èvreraient/18 evrer 25
 SFX b5 eter èteraient/18 eter 25
 SFX b5 eler èleraient/18 eler 25
-SFX b5 ecer èce/27 ecer 41
-SFX b5 emer ème/27 emer 41
-SFX b5 ener ène/27 ener 41
-SFX b5 eper èpe/27 eper 41
-SFX b5 erer ère/27 erer 41
-SFX b5 eser èse/27 eser 41
-SFX b5 ever ève/27 ever 41
-SFX b5 evrer èvre/27 evrer 41
-SFX b5 eter ète/27 eter 41
-SFX b5 eler èle/27 eler 41
+SFX b5 ecer èce/27 ecer 42
+SFX b5 emer ème/27 emer 42
+SFX b5 ener ène/27 ener 42
+SFX b5 eper èpe/27 eper 42
+SFX b5 erer ère/27 erer 42
+SFX b5 eser èse/27 eser 42
+SFX b5 ever ève/27 ever 42
+SFX b5 evrer èvre/27 evrer 42
+SFX b5 eter ète/27 eter 42
+SFX b5 eler èle/27 eler 42
 SFX b5 ecer èces/25 ecer 44
 SFX b5 emer èmes/25 emer 44
 SFX b5 ener ènes/25 ener 44
@@ -3645,16 +3709,16 @@ SFX b5 eter ète/18 eter 27
 SFX b5 eler èle/18 eler 27
 SFX b5 er ions/35 er 74
 SFX b5 er iez/32 er 73
-SFX b5 ecer ècent/18 ecer 28
-SFX b5 emer èment/18 emer 28
-SFX b5 ener ènent/18 ener 28
-SFX b5 eper èpent/18 eper 28
-SFX b5 erer èrent/18 erer 28
-SFX b5 eser èsent/18 eser 28
-SFX b5 ever èvent/18 ever 28
-SFX b5 evrer èvrent/18 evrer 28
-SFX b5 eter ètent/18 eter 28
-SFX b5 eler èlent/18 eler 28
+SFX b5 ecer ècent/18 ecer 29
+SFX b5 emer èment/18 emer 29
+SFX b5 ener ènent/18 ener 29
+SFX b5 eper èpent/18 eper 29
+SFX b5 erer èrent/18 erer 29
+SFX b5 eser èsent/18 eser 29
+SFX b5 ever èvent/18 ever 29
+SFX b5 evrer èvrent/18 evrer 29
+SFX b5 eter ètent/18 eter 29
+SFX b5 eler èlent/18 eler 29
 SFX b5 er asse/27 [^c]er 61
 SFX b5 cer çasse/27 cer 61
 SFX b5 er asses/25 [^c]er 67
@@ -3816,27 +3880,27 @@ SFX c0 er erait er 23
 SFX c0 er erions er 33
 SFX c0 er eriez er 32
 SFX c0 er eraient er 25
-SFX c0 ébrer èbre ébrer 41
-SFX c0 écer èce écer 41
-SFX c0 écher èche écher 41
-SFX c0 écrer ècre écrer 41
-SFX c0 éder ède éder 41
-SFX c0 éger ège éger 41
-SFX c0 égler ègle égler 41
-SFX c0 égner ègne égner 41
-SFX c0 égrer ègre égrer 41
-SFX c0 éguer ègue éguer 41
-SFX c0 éler èle éler 41
-SFX c0 émer ème émer 41
-SFX c0 éner ène éner 41
-SFX c0 éper èpe éper 41
-SFX c0 équer èque équer 41
-SFX c0 érer ère érer 41
-SFX c0 éser èse éser 41
-SFX c0 éter ète éter 41
-SFX c0 étrer ètre étrer 41
-SFX c0 évrer èvre évrer 41
-SFX c0 éyer èye éyer 41
+SFX c0 ébrer èbre ébrer 42
+SFX c0 écer èce écer 42
+SFX c0 écher èche écher 42
+SFX c0 écrer ècre écrer 42
+SFX c0 éder ède éder 42
+SFX c0 éger ège éger 42
+SFX c0 égler ègle égler 42
+SFX c0 égner ègne égner 42
+SFX c0 égrer ègre égrer 42
+SFX c0 éguer ègue éguer 42
+SFX c0 éler èle éler 42
+SFX c0 émer ème émer 42
+SFX c0 éner ène éner 42
+SFX c0 éper èpe éper 42
+SFX c0 équer èque équer 42
+SFX c0 érer ère érer 42
+SFX c0 éser èse éser 42
+SFX c0 éter ète éter 42
+SFX c0 étrer ètre étrer 42
+SFX c0 évrer èvre évrer 42
+SFX c0 éyer èye éyer 42
 SFX c0 ébrer èbres ébrer 44
 SFX c0 écer èces écer 44
 SFX c0 écher èches écher 44
@@ -3881,27 +3945,27 @@ SFX c0 évrer èvre évrer 27
 SFX c0 éyer èye éyer 27
 SFX c0 er ions er 74
 SFX c0 er iez er 73
-SFX c0 ébrer èbrent ébrer 28
-SFX c0 écer ècent écer 28
-SFX c0 écher èchent écher 28
-SFX c0 écrer ècrent écrer 28
-SFX c0 éder èdent éder 28
-SFX c0 éger ègent éger 28
-SFX c0 égler èglent égler 28
-SFX c0 égner ègnent égner 28
-SFX c0 égrer ègrent égrer 28
-SFX c0 éguer èguent éguer 28
-SFX c0 éler èlent éler 28
-SFX c0 émer èment émer 28
-SFX c0 éner ènent éner 28
-SFX c0 éper èpent éper 28
-SFX c0 équer èquent équer 28
-SFX c0 érer èrent érer 28
-SFX c0 éser èsent éser 28
-SFX c0 éter ètent éter 28
-SFX c0 étrer ètrent étrer 28
-SFX c0 évrer èvrent évrer 28
-SFX c0 éyer èyent éyer 28
+SFX c0 ébrer èbrent ébrer 29
+SFX c0 écer ècent écer 29
+SFX c0 écher èchent écher 29
+SFX c0 écrer ècrent écrer 29
+SFX c0 éder èdent éder 29
+SFX c0 éger ègent éger 29
+SFX c0 égler èglent égler 29
+SFX c0 égner ègnent égner 29
+SFX c0 égrer ègrent égrer 29
+SFX c0 éguer èguent éguer 29
+SFX c0 éler èlent éler 29
+SFX c0 émer èment émer 29
+SFX c0 éner ènent éner 29
+SFX c0 éper èpent éper 29
+SFX c0 équer èquent équer 29
+SFX c0 érer èrent érer 29
+SFX c0 éser èsent éser 29
+SFX c0 éter ètent éter 29
+SFX c0 étrer ètrent étrer 29
+SFX c0 évrer èvrent évrer 29
+SFX c0 éyer èyent éyer 29
 SFX c0 er asse [^cg]er 61
 SFX c0 écer éçasse écer 61
 SFX c0 éger égeasse éger 61
@@ -4081,27 +4145,27 @@ SFX c1 er erait/16 er 23
 SFX c1 er erions/13 er 33
 SFX c1 er eriez/13 er 32
 SFX c1 er eraient/16 er 25
-SFX c1 ébrer èbre/26 ébrer 41
-SFX c1 écer èce/26 écer 41
-SFX c1 écher èche/26 écher 41
-SFX c1 écrer ècre/26 écrer 41
-SFX c1 éder ède/26 éder 41
-SFX c1 éger ège/26 éger 41
-SFX c1 égler ègle/26 égler 41
-SFX c1 égner ègne/26 égner 41
-SFX c1 égrer ègre/26 égrer 41
-SFX c1 éguer ègue/26 éguer 41
-SFX c1 éler èle/26 éler 41
-SFX c1 émer ème/26 émer 41
-SFX c1 éner ène/26 éner 41
-SFX c1 éper èpe/26 éper 41
-SFX c1 équer èque/26 équer 41
-SFX c1 érer ère/26 érer 41
-SFX c1 éser èse/26 éser 41
-SFX c1 éter ète/26 éter 41
-SFX c1 étrer ètre/26 étrer 41
-SFX c1 évrer èvre/26 évrer 41
-SFX c1 éyer èye/26 éyer 41
+SFX c1 ébrer èbre/26 ébrer 42
+SFX c1 écer èce/26 écer 42
+SFX c1 écher èche/26 écher 42
+SFX c1 écrer ècre/26 écrer 42
+SFX c1 éder ède/26 éder 42
+SFX c1 éger ège/26 éger 42
+SFX c1 égler ègle/26 égler 42
+SFX c1 égner ègne/26 égner 42
+SFX c1 égrer ègre/26 égrer 42
+SFX c1 éguer ègue/26 éguer 42
+SFX c1 éler èle/26 éler 42
+SFX c1 émer ème/26 émer 42
+SFX c1 éner ène/26 éner 42
+SFX c1 éper èpe/26 éper 42
+SFX c1 équer èque/26 équer 42
+SFX c1 érer ère/26 érer 42
+SFX c1 éser èse/26 éser 42
+SFX c1 éter ète/26 éter 42
+SFX c1 étrer ètre/26 étrer 42
+SFX c1 évrer èvre/26 évrer 42
+SFX c1 éyer èye/26 éyer 42
 SFX c1 ébrer èbres/13 ébrer 44
 SFX c1 écer èces/13 écer 44
 SFX c1 écher èches/13 écher 44
@@ -4146,27 +4210,27 @@ SFX c1 évrer èvre/16 évrer 27
 SFX c1 éyer èye/16 éyer 27
 SFX c1 er ions/13 er 74
 SFX c1 er iez/13 er 73
-SFX c1 ébrer èbrent/16 ébrer 28
-SFX c1 écer ècent/16 écer 28
-SFX c1 écher èchent/16 écher 28
-SFX c1 écrer ècrent/16 écrer 28
-SFX c1 éder èdent/16 éder 28
-SFX c1 éger ègent/16 éger 28
-SFX c1 égler èglent/16 égler 28
-SFX c1 égner ègnent/16 égner 28
-SFX c1 égrer ègrent/16 égrer 28
-SFX c1 éguer èguent/16 éguer 28
-SFX c1 éler èlent/16 éler 28
-SFX c1 émer èment/16 émer 28
-SFX c1 éner ènent/16 éner 28
-SFX c1 éper èpent/16 éper 28
-SFX c1 équer èquent/16 équer 28
-SFX c1 érer èrent/16 érer 28
-SFX c1 éser èsent/16 éser 28
-SFX c1 éter ètent/16 éter 28
-SFX c1 étrer ètrent/16 étrer 28
-SFX c1 évrer èvrent/16 évrer 28
-SFX c1 éyer èyent/16 éyer 28
+SFX c1 ébrer èbrent/16 ébrer 29
+SFX c1 écer ècent/16 écer 29
+SFX c1 écher èchent/16 écher 29
+SFX c1 écrer ècrent/16 écrer 29
+SFX c1 éder èdent/16 éder 29
+SFX c1 éger ègent/16 éger 29
+SFX c1 égler èglent/16 égler 29
+SFX c1 égner ègnent/16 égner 29
+SFX c1 égrer ègrent/16 égrer 29
+SFX c1 éguer èguent/16 éguer 29
+SFX c1 éler èlent/16 éler 29
+SFX c1 émer èment/16 émer 29
+SFX c1 éner ènent/16 éner 29
+SFX c1 éper èpent/16 éper 29
+SFX c1 équer èquent/16 équer 29
+SFX c1 érer èrent/16 érer 29
+SFX c1 éser èsent/16 éser 29
+SFX c1 éter ètent/16 éter 29
+SFX c1 étrer ètrent/16 étrer 29
+SFX c1 évrer èvrent/16 évrer 29
+SFX c1 éyer èyent/16 éyer 29
 SFX c1 er asse/26 [^cg]er 61
 SFX c1 écer éçasse/26 écer 61
 SFX c1 éger égeasse/26 éger 61
@@ -4346,27 +4410,27 @@ SFX c2 er erait/6 er 23
 SFX c2 er erions/17 er 33
 SFX c2 er eriez/14 er 32
 SFX c2 er eraient/6 er 25
-SFX c2 ébrer èbre/54 ébrer 41
-SFX c2 écer èce/54 écer 41
-SFX c2 écher èche/54 écher 41
-SFX c2 écrer ècre/54 écrer 41
-SFX c2 éder ède/54 éder 41
-SFX c2 éger ège/54 éger 41
-SFX c2 égler ègle/54 égler 41
-SFX c2 égner ègne/54 égner 41
-SFX c2 égrer ègre/54 égrer 41
-SFX c2 éguer ègue/54 éguer 41
-SFX c2 éler èle/54 éler 41
-SFX c2 émer ème/54 émer 41
-SFX c2 éner ène/54 éner 41
-SFX c2 éper èpe/54 éper 41
-SFX c2 équer èque/54 équer 41
-SFX c2 érer ère/54 érer 41
-SFX c2 éser èse/54 éser 41
-SFX c2 éter ète/54 éter 41
-SFX c2 étrer ètre/54 étrer 41
-SFX c2 évrer èvre/54 évrer 41
-SFX c2 éyer èye/54 éyer 41
+SFX c2 ébrer èbre/54 ébrer 42
+SFX c2 écer èce/54 écer 42
+SFX c2 écher èche/54 écher 42
+SFX c2 écrer ècre/54 écrer 42
+SFX c2 éder ède/54 éder 42
+SFX c2 éger ège/54 éger 42
+SFX c2 égler ègle/54 égler 42
+SFX c2 égner ègne/54 égner 42
+SFX c2 égrer ègre/54 égrer 42
+SFX c2 éguer ègue/54 éguer 42
+SFX c2 éler èle/54 éler 42
+SFX c2 émer ème/54 émer 42
+SFX c2 éner ène/54 éner 42
+SFX c2 éper èpe/54 éper 42
+SFX c2 équer èque/54 équer 42
+SFX c2 érer ère/54 érer 42
+SFX c2 éser èse/54 éser 42
+SFX c2 éter ète/54 éter 42
+SFX c2 étrer ètre/54 étrer 42
+SFX c2 évrer èvre/54 évrer 42
+SFX c2 éyer èye/54 éyer 42
 SFX c2 ébrer èbres/31 ébrer 44
 SFX c2 écer èces/31 écer 44
 SFX c2 écher èches/31 écher 44
@@ -4411,27 +4475,27 @@ SFX c2 évrer èvre/6 évrer 27
 SFX c2 éyer èye/6 éyer 27
 SFX c2 er ions/56 er 74
 SFX c2 er iez/31 er 73
-SFX c2 ébrer èbrent/6 ébrer 28
-SFX c2 écer ècent/6 écer 28
-SFX c2 écher èchent/6 écher 28
-SFX c2 écrer ècrent/6 écrer 28
-SFX c2 éder èdent/6 éder 28
-SFX c2 éger ègent/6 éger 28
-SFX c2 égler èglent/6 égler 28
-SFX c2 égner ègnent/6 égner 28
-SFX c2 égrer ègrent/6 égrer 28
-SFX c2 éguer èguent/6 éguer 28
-SFX c2 éler èlent/6 éler 28
-SFX c2 émer èment/6 émer 28
-SFX c2 éner ènent/6 éner 28
-SFX c2 éper èpent/6 éper 28
-SFX c2 équer èquent/6 équer 28
-SFX c2 érer èrent/6 érer 28
-SFX c2 éser èsent/6 éser 28
-SFX c2 éter ètent/6 éter 28
-SFX c2 étrer ètrent/6 étrer 28
-SFX c2 évrer èvrent/6 évrer 28
-SFX c2 éyer èyent/6 éyer 28
+SFX c2 ébrer èbrent/6 ébrer 29
+SFX c2 écer ècent/6 écer 29
+SFX c2 écher èchent/6 écher 29
+SFX c2 écrer ècrent/6 écrer 29
+SFX c2 éder èdent/6 éder 29
+SFX c2 éger ègent/6 éger 29
+SFX c2 égler èglent/6 égler 29
+SFX c2 égner ègnent/6 égner 29
+SFX c2 égrer ègrent/6 égrer 29
+SFX c2 éguer èguent/6 éguer 29
+SFX c2 éler èlent/6 éler 29
+SFX c2 émer èment/6 émer 29
+SFX c2 éner ènent/6 éner 29
+SFX c2 éper èpent/6 éper 29
+SFX c2 équer èquent/6 équer 29
+SFX c2 érer èrent/6 érer 29
+SFX c2 éser èsent/6 éser 29
+SFX c2 éter ètent/6 éter 29
+SFX c2 étrer ètrent/6 étrer 29
+SFX c2 évrer èvrent/6 évrer 29
+SFX c2 éyer èyent/6 éyer 29
 SFX c2 er asse/30 [^cg]er 61
 SFX c2 écer éçasse/30 écer 61
 SFX c2 éger égeasse/30 éger 61
@@ -4611,27 +4675,27 @@ SFX c3 er erait/12 er 23
 SFX c3 er erions er 33
 SFX c3 er eriez er 32
 SFX c3 er eraient/12 er 25
-SFX c3 ébrer èbre/24 ébrer 41
-SFX c3 écer èce/24 écer 41
-SFX c3 écher èche/24 écher 41
-SFX c3 écrer ècre/24 écrer 41
-SFX c3 éder ède/24 éder 41
-SFX c3 éger ège/24 éger 41
-SFX c3 égler ègle/24 égler 41
-SFX c3 égner ègne/24 égner 41
-SFX c3 égrer ègre/24 égrer 41
-SFX c3 éguer ègue/24 éguer 41
-SFX c3 éler èle/24 éler 41
-SFX c3 émer ème/24 émer 41
-SFX c3 éner ène/24 éner 41
-SFX c3 éper èpe/24 éper 41
-SFX c3 équer èque/24 équer 41
-SFX c3 érer ère/24 érer 41
-SFX c3 éser èse/24 éser 41
-SFX c3 éter ète/24 éter 41
-SFX c3 étrer ètre/24 étrer 41
-SFX c3 évrer èvre/24 évrer 41
-SFX c3 éyer èye/24 éyer 41
+SFX c3 ébrer èbre/24 ébrer 42
+SFX c3 écer èce/24 écer 42
+SFX c3 écher èche/24 écher 42
+SFX c3 écrer ècre/24 écrer 42
+SFX c3 éder ède/24 éder 42
+SFX c3 éger ège/24 éger 42
+SFX c3 égler ègle/24 égler 42
+SFX c3 égner ègne/24 égner 42
+SFX c3 égrer ègre/24 égrer 42
+SFX c3 éguer ègue/24 éguer 42
+SFX c3 éler èle/24 éler 42
+SFX c3 émer ème/24 émer 42
+SFX c3 éner ène/24 éner 42
+SFX c3 éper èpe/24 éper 42
+SFX c3 équer èque/24 équer 42
+SFX c3 érer ère/24 érer 42
+SFX c3 éser èse/24 éser 42
+SFX c3 éter ète/24 éter 42
+SFX c3 étrer ètre/24 étrer 42
+SFX c3 évrer èvre/24 évrer 42
+SFX c3 éyer èye/24 éyer 42
 SFX c3 ébrer èbres/21 ébrer 44
 SFX c3 écer èces/21 écer 44
 SFX c3 écher èches/21 écher 44
@@ -4676,27 +4740,27 @@ SFX c3 évrer èvre/12 évrer 27
 SFX c3 éyer èye/12 éyer 27
 SFX c3 er ions er 74
 SFX c3 er iez er 73
-SFX c3 ébrer èbrent/12 ébrer 28
-SFX c3 écer ècent/12 écer 28
-SFX c3 écher èchent/12 écher 28
-SFX c3 écrer ècrent/12 écrer 28
-SFX c3 éder èdent/12 éder 28
-SFX c3 éger ègent/12 éger 28
-SFX c3 égler èglent/12 égler 28
-SFX c3 égner ègnent/12 égner 28
-SFX c3 égrer ègrent/12 égrer 28
-SFX c3 éguer èguent/12 éguer 28
-SFX c3 éler èlent/12 éler 28
-SFX c3 émer èment/12 émer 28
-SFX c3 éner ènent/12 éner 28
-SFX c3 éper èpent/12 éper 28
-SFX c3 équer èquent/12 équer 28
-SFX c3 érer èrent/12 érer 28
-SFX c3 éser èsent/12 éser 28
-SFX c3 éter ètent/12 éter 28
-SFX c3 étrer ètrent/12 étrer 28
-SFX c3 évrer èvrent/12 évrer 28
-SFX c3 éyer èyent/12 éyer 28
+SFX c3 ébrer èbrent/12 ébrer 29
+SFX c3 écer ècent/12 écer 29
+SFX c3 écher èchent/12 écher 29
+SFX c3 écrer ècrent/12 écrer 29
+SFX c3 éder èdent/12 éder 29
+SFX c3 éger ègent/12 éger 29
+SFX c3 égler èglent/12 égler 29
+SFX c3 égner ègnent/12 égner 29
+SFX c3 égrer ègrent/12 égrer 29
+SFX c3 éguer èguent/12 éguer 29
+SFX c3 éler èlent/12 éler 29
+SFX c3 émer èment/12 émer 29
+SFX c3 éner ènent/12 éner 29
+SFX c3 éper èpent/12 éper 29
+SFX c3 équer èquent/12 équer 29
+SFX c3 érer èrent/12 érer 29
+SFX c3 éser èsent/12 éser 29
+SFX c3 éter ètent/12 éter 29
+SFX c3 étrer ètrent/12 étrer 29
+SFX c3 évrer èvrent/12 évrer 29
+SFX c3 éyer èyent/12 éyer 29
 SFX c3 er asse/24 [^cg]er 61
 SFX c3 écer éçasse/24 écer 61
 SFX c3 éger égeasse/24 éger 61
@@ -4746,27 +4810,27 @@ SFX c4 er er/53 er 64
 SFX c4 er ant/6 [^cg]er 48
 SFX c4 écer éçant/6 écer 48
 SFX c4 éger égeant/6 éger 48
-SFX c4 ébrer èbre/22 ébrer 34
-SFX c4 écer èce/22 écer 34
-SFX c4 écher èche/22 écher 34
-SFX c4 écrer ècre/22 écrer 34
-SFX c4 éder ède/22 éder 34
-SFX c4 éger ège/22 éger 34
-SFX c4 égler ègle/22 égler 34
-SFX c4 égner ègne/22 égner 34
-SFX c4 égrer ègre/22 égrer 34
-SFX c4 éguer ègue/22 éguer 34
-SFX c4 éler èle/22 éler 34
-SFX c4 émer ème/22 émer 34
-SFX c4 éner ène/22 éner 34
-SFX c4 éper èpe/22 éper 34
-SFX c4 équer èque/22 équer 34
-SFX c4 érer ère/22 érer 34
-SFX c4 éser èse/22 éser 34
-SFX c4 éter ète/22 éter 34
-SFX c4 étrer ètre/22 étrer 34
-SFX c4 évrer èvre/22 évrer 34
-SFX c4 éyer èye/22 éyer 34
+SFX c4 ébrer èbre/23 ébrer 34
+SFX c4 écer èce/23 écer 34
+SFX c4 écher èche/23 écher 34
+SFX c4 écrer ècre/23 écrer 34
+SFX c4 éder ède/23 éder 34
+SFX c4 éger ège/23 éger 34
+SFX c4 égler ègle/23 égler 34
+SFX c4 égner ègne/23 égner 34
+SFX c4 égrer ègre/23 égrer 34
+SFX c4 éguer ègue/23 éguer 34
+SFX c4 éler èle/23 éler 34
+SFX c4 émer ème/23 émer 34
+SFX c4 éner ène/23 éner 34
+SFX c4 éper èpe/23 éper 34
+SFX c4 équer èque/23 équer 34
+SFX c4 érer ère/23 érer 34
+SFX c4 éser èse/23 éser 34
+SFX c4 éter ète/23 éter 34
+SFX c4 étrer ètre/23 étrer 34
+SFX c4 évrer èvre/23 évrer 34
+SFX c4 éyer èye/23 éyer 34
 SFX c4 ébrer èbres/20 ébrer 35
 SFX c4 écer èces/20 écer 35
 SFX c4 écher èches/20 écher 35
@@ -4834,9 +4898,9 @@ SFX c4 éter ètent/6 éter 26
 SFX c4 étrer ètrent/6 étrer 26
 SFX c4 évrer èvrent/6 évrer 26
 SFX c4 éyer èyent/6 éyer 26
-SFX c4 er ais/22 [^cg]er 66
-SFX c4 écer éçais/22 écer 66
-SFX c4 éger égeais/22 éger 66
+SFX c4 er ais/23 [^cg]er 66
+SFX c4 écer éçais/23 écer 66
+SFX c4 éger égeais/23 éger 66
 SFX c4 er ais/20 [^cg]er 65
 SFX c4 écer éçais/20 écer 65
 SFX c4 éger égeais/20 éger 65
@@ -4848,9 +4912,9 @@ SFX c4 er iez/14 er 76
 SFX c4 er aient/6 [^cg]er 51
 SFX c4 écer éçaient/6 écer 51
 SFX c4 éger égeaient/6 éger 51
-SFX c4 er ai/22 [^cg]er 69
-SFX c4 écer éçai/22 écer 69
-SFX c4 éger égeai/22 éger 69
+SFX c4 er ai/23 [^cg]er 69
+SFX c4 écer éçai/23 écer 69
+SFX c4 éger égeai/23 éger 69
 SFX c4 er as/20 [^cg]er 68
 SFX c4 écer éças/20 écer 68
 SFX c4 éger égeas/20 éger 68
@@ -4864,39 +4928,39 @@ SFX c4 er âtes/14 [^cg]er 62
 SFX c4 écer éçâtes/14 écer 62
 SFX c4 éger égeâtes/14 éger 62
 SFX c4 er èrent/6 er 71
-SFX c4 er erai/22 er 38
+SFX c4 er erai/23 er 38
 SFX c4 er eras/20 er 37
 SFX c4 er era/6 er 22
 SFX c4 er erons/17 er 31
 SFX c4 er erez/14 er 30
 SFX c4 er eront/6 er 24
-SFX c4 er erais/22 er 40
+SFX c4 er erais/23 er 40
 SFX c4 er erais/20 er 39
 SFX c4 er erait/6 er 23
 SFX c4 er erions/17 er 33
 SFX c4 er eriez/14 er 32
 SFX c4 er eraient/6 er 25
-SFX c4 ébrer èbre/44 ébrer 41
-SFX c4 écer èce/44 écer 41
-SFX c4 écher èche/44 écher 41
-SFX c4 écrer ècre/44 écrer 41
-SFX c4 éder ède/44 éder 41
-SFX c4 éger ège/44 éger 41
-SFX c4 égler ègle/44 égler 41
-SFX c4 égner ègne/44 égner 41
-SFX c4 égrer ègre/44 égrer 41
-SFX c4 éguer ègue/44 éguer 41
-SFX c4 éler èle/44 éler 41
-SFX c4 émer ème/44 émer 41
-SFX c4 éner ène/44 éner 41
-SFX c4 éper èpe/44 éper 41
-SFX c4 équer èque/44 équer 41
-SFX c4 érer ère/44 érer 41
-SFX c4 éser èse/44 éser 41
-SFX c4 éter ète/44 éter 41
-SFX c4 étrer ètre/44 étrer 41
-SFX c4 évrer èvre/44 évrer 41
-SFX c4 éyer èye/44 éyer 41
+SFX c4 ébrer èbre/44 ébrer 42
+SFX c4 écer èce/44 écer 42
+SFX c4 écher èche/44 écher 42
+SFX c4 écrer ècre/44 écrer 42
+SFX c4 éder ède/44 éder 42
+SFX c4 éger ège/44 éger 42
+SFX c4 égler ègle/44 égler 42
+SFX c4 égner ègne/44 égner 42
+SFX c4 égrer ègre/44 égrer 42
+SFX c4 éguer ègue/44 éguer 42
+SFX c4 éler èle/44 éler 42
+SFX c4 émer ème/44 émer 42
+SFX c4 éner ène/44 éner 42
+SFX c4 éper èpe/44 éper 42
+SFX c4 équer èque/44 équer 42
+SFX c4 érer ère/44 érer 42
+SFX c4 éser èse/44 éser 42
+SFX c4 éter ète/44 éter 42
+SFX c4 étrer ètre/44 étrer 42
+SFX c4 évrer èvre/44 évrer 42
+SFX c4 éyer èye/44 éyer 42
 SFX c4 ébrer èbres/36 ébrer 44
 SFX c4 écer èces/36 écer 44
 SFX c4 écher èches/36 écher 44
@@ -4941,30 +5005,30 @@ SFX c4 évrer èvre/6 évrer 27
 SFX c4 éyer èye/6 éyer 27
 SFX c4 er ions/56 er 74
 SFX c4 er iez/31 er 73
-SFX c4 ébrer èbrent/6 ébrer 28
-SFX c4 écer ècent/6 écer 28
-SFX c4 écher èchent/6 écher 28
-SFX c4 écrer ècrent/6 écrer 28
-SFX c4 éder èdent/6 éder 28
-SFX c4 éger ègent/6 éger 28
-SFX c4 égler èglent/6 égler 28
-SFX c4 égner ègnent/6 égner 28
-SFX c4 égrer ègrent/6 égrer 28
-SFX c4 éguer èguent/6 éguer 28
-SFX c4 éler èlent/6 éler 28
-SFX c4 émer èment/6 émer 28
-SFX c4 éner ènent/6 éner 28
-SFX c4 éper èpent/6 éper 28
-SFX c4 équer èquent/6 équer 28
-SFX c4 érer èrent/6 érer 28
-SFX c4 éser èsent/6 éser 28
-SFX c4 éter ètent/6 éter 28
-SFX c4 étrer ètrent/6 étrer 28
-SFX c4 évrer èvrent/6 évrer 28
-SFX c4 éyer èyent/6 éyer 28
-SFX c4 er asse/22 [^cg]er 61
-SFX c4 écer éçasse/22 écer 61
-SFX c4 éger égeasse/22 éger 61
+SFX c4 ébrer èbrent/6 ébrer 29
+SFX c4 écer ècent/6 écer 29
+SFX c4 écher èchent/6 écher 29
+SFX c4 écrer ècrent/6 écrer 29
+SFX c4 éder èdent/6 éder 29
+SFX c4 éger ègent/6 éger 29
+SFX c4 égler èglent/6 égler 29
+SFX c4 égner ègnent/6 égner 29
+SFX c4 égrer ègrent/6 égrer 29
+SFX c4 éguer èguent/6 éguer 29
+SFX c4 éler èlent/6 éler 29
+SFX c4 émer èment/6 émer 29
+SFX c4 éner ènent/6 éner 29
+SFX c4 éper èpent/6 éper 29
+SFX c4 équer èquent/6 équer 29
+SFX c4 érer èrent/6 érer 29
+SFX c4 éser èsent/6 éser 29
+SFX c4 éter ètent/6 éter 29
+SFX c4 étrer ètrent/6 étrer 29
+SFX c4 évrer èvrent/6 évrer 29
+SFX c4 éyer èyent/6 éyer 29
+SFX c4 er asse/23 [^cg]er 61
+SFX c4 écer éçasse/23 écer 61
+SFX c4 éger égeasse/23 éger 61
 SFX c4 er asses/20 [^cg]er 67
 SFX c4 écer éçasses/20 écer 67
 SFX c4 éger égeasses/20 éger 67
@@ -5010,7 +5074,7 @@ SFX c5 Y 263
 SFX c5 er er/125 er 64
 SFX c5 er ant/159 [^cg]er 48
 SFX c5 écer éçant/159 écer 48
-SFX c5 éger égeant/228 éger 48
+SFX c5 éger égeant/229 éger 48
 SFX c5 ébrer èbre/27 ébrer 34
 SFX c5 écer èce/27 écer 34
 SFX c5 écher èche/27 écher 34
@@ -5141,27 +5205,27 @@ SFX c5 er erait/18 er 23
 SFX c5 er erions/35 er 33
 SFX c5 er eriez/32 er 32
 SFX c5 er eraient/18 er 25
-SFX c5 ébrer èbre/27 ébrer 41
-SFX c5 écer èce/27 écer 41
-SFX c5 écher èche/27 écher 41
-SFX c5 écrer ècre/27 écrer 41
-SFX c5 éder ède/27 éder 41
-SFX c5 éger ège/27 éger 41
-SFX c5 égler ègle/27 égler 41
-SFX c5 égner ègne/27 égner 41
-SFX c5 égrer ègre/27 égrer 41
-SFX c5 éguer ègue/27 éguer 41
-SFX c5 éler èle/27 éler 41
-SFX c5 émer ème/27 émer 41
-SFX c5 éner ène/27 éner 41
-SFX c5 éper èpe/27 éper 41
-SFX c5 équer èque/27 équer 41
-SFX c5 érer ère/27 érer 41
-SFX c5 éser èse/27 éser 41
-SFX c5 éter ète/27 éter 41
-SFX c5 étrer ètre/27 étrer 41
-SFX c5 évrer èvre/27 évrer 41
-SFX c5 éyer èye/27 éyer 41
+SFX c5 ébrer èbre/27 ébrer 42
+SFX c5 écer èce/27 écer 42
+SFX c5 écher èche/27 écher 42
+SFX c5 écrer ècre/27 écrer 42
+SFX c5 éder ède/27 éder 42
+SFX c5 éger ège/27 éger 42
+SFX c5 égler ègle/27 égler 42
+SFX c5 égner ègne/27 égner 42
+SFX c5 égrer ègre/27 égrer 42
+SFX c5 éguer ègue/27 éguer 42
+SFX c5 éler èle/27 éler 42
+SFX c5 émer ème/27 émer 42
+SFX c5 éner ène/27 éner 42
+SFX c5 éper èpe/27 éper 42
+SFX c5 équer èque/27 équer 42
+SFX c5 érer ère/27 érer 42
+SFX c5 éser èse/27 éser 42
+SFX c5 éter ète/27 éter 42
+SFX c5 étrer ètre/27 étrer 42
+SFX c5 évrer èvre/27 évrer 42
+SFX c5 éyer èye/27 éyer 42
 SFX c5 ébrer èbres/25 ébrer 44
 SFX c5 écer èces/25 écer 44
 SFX c5 écher èches/25 écher 44
@@ -5206,27 +5270,27 @@ SFX c5 évrer èvre/18 évrer 27
 SFX c5 éyer èye/18 éyer 27
 SFX c5 er ions/35 er 74
 SFX c5 er iez/32 er 73
-SFX c5 ébrer èbrent/18 ébrer 28
-SFX c5 écer ècent/18 écer 28
-SFX c5 écher èchent/18 écher 28
-SFX c5 écrer ècrent/18 écrer 28
-SFX c5 éder èdent/18 éder 28
-SFX c5 éger ègent/18 éger 28
-SFX c5 égler èglent/18 égler 28
-SFX c5 égner ègnent/18 égner 28
-SFX c5 égrer ègrent/18 égrer 28
-SFX c5 éguer èguent/18 éguer 28
-SFX c5 éler èlent/18 éler 28
-SFX c5 émer èment/18 émer 28
-SFX c5 éner ènent/18 éner 28
-SFX c5 éper èpent/18 éper 28
-SFX c5 équer èquent/18 équer 28
-SFX c5 érer èrent/18 érer 28
-SFX c5 éser èsent/18 éser 28
-SFX c5 éter ètent/18 éter 28
-SFX c5 étrer ètrent/18 étrer 28
-SFX c5 évrer èvrent/18 évrer 28
-SFX c5 éyer èyent/18 éyer 28
+SFX c5 ébrer èbrent/18 ébrer 29
+SFX c5 écer ècent/18 écer 29
+SFX c5 écher èchent/18 écher 29
+SFX c5 écrer ècrent/18 écrer 29
+SFX c5 éder èdent/18 éder 29
+SFX c5 éger ègent/18 éger 29
+SFX c5 égler èglent/18 égler 29
+SFX c5 égner ègnent/18 égner 29
+SFX c5 égrer ègrent/18 égrer 29
+SFX c5 éguer èguent/18 éguer 29
+SFX c5 éler èlent/18 éler 29
+SFX c5 émer èment/18 émer 29
+SFX c5 éner ènent/18 éner 29
+SFX c5 éper èpent/18 éper 29
+SFX c5 équer èquent/18 équer 29
+SFX c5 érer èrent/18 érer 29
+SFX c5 éser èsent/18 éser 29
+SFX c5 éter ètent/18 éter 29
+SFX c5 étrer ètrent/18 étrer 29
+SFX c5 évrer èvrent/18 évrer 29
+SFX c5 éyer èyent/18 éyer 29
 SFX c5 er asse/27 [^cg]er 61
 SFX c5 écer éçasse/27 écer 61
 SFX c5 éger égeasse/27 éger 61
@@ -5352,10 +5416,10 @@ SFX d0 eter etteraient jeter 25
 SFX d0 eter etteraient [^j]eter 25
 SFX d0 eler elleraient ppeler 25
 SFX d0 eler elleraient [^p].eler 25
-SFX d0 eter ette jeter 41
-SFX d0 eter ette [^j]eter 41
-SFX d0 eler elle ppeler 41
-SFX d0 eler elle [^p].eler 41
+SFX d0 eter ette jeter 42
+SFX d0 eter ette [^j]eter 42
+SFX d0 eler elle ppeler 42
+SFX d0 eler elle [^p].eler 42
 SFX d0 eter ettes jeter 44
 SFX d0 eter ettes [^j]eter 44
 SFX d0 eler elles ppeler 44
@@ -5366,10 +5430,10 @@ SFX d0 eler elle ppeler 27
 SFX d0 eler elle [^p].eler 27
 SFX d0 er ions er 74
 SFX d0 er iez er 73
-SFX d0 eter ettent jeter 28
-SFX d0 eter ettent [^j]eter 28
-SFX d0 eler ellent ppeler 28
-SFX d0 eler ellent [^p].eler 28
+SFX d0 eter ettent jeter 29
+SFX d0 eter ettent [^j]eter 29
+SFX d0 eler ellent ppeler 29
+SFX d0 eler ellent [^p].eler 29
 SFX d0 er asse er 61
 SFX d0 er asses er 67
 SFX d0 er ât er 52
@@ -5464,10 +5528,10 @@ SFX d1 eter etteraient/16 jeter 25
 SFX d1 eter etteraient/16 [^j]eter 25
 SFX d1 eler elleraient/16 ppeler 25
 SFX d1 eler elleraient/16 [^p].eler 25
-SFX d1 eter ette/26 jeter 41
-SFX d1 eter ette/26 [^j]eter 41
-SFX d1 eler elle/26 ppeler 41
-SFX d1 eler elle/26 [^p].eler 41
+SFX d1 eter ette/26 jeter 42
+SFX d1 eter ette/26 [^j]eter 42
+SFX d1 eler elle/26 ppeler 42
+SFX d1 eler elle/26 [^p].eler 42
 SFX d1 eter ettes/13 jeter 44
 SFX d1 eter ettes/13 [^j]eter 44
 SFX d1 eler elles/13 ppeler 44
@@ -5478,10 +5542,10 @@ SFX d1 eler elle/16 ppeler 27
 SFX d1 eler elle/16 [^p].eler 27
 SFX d1 er ions/13 er 74
 SFX d1 er iez/13 er 73
-SFX d1 eter ettent/16 jeter 28
-SFX d1 eter ettent/16 [^j]eter 28
-SFX d1 eler ellent/16 ppeler 28
-SFX d1 eler ellent/16 [^p].eler 28
+SFX d1 eter ettent/16 jeter 29
+SFX d1 eter ettent/16 [^j]eter 29
+SFX d1 eler ellent/16 ppeler 29
+SFX d1 eler ellent/16 [^p].eler 29
 SFX d1 er asse/26 er 61
 SFX d1 er asses/13 er 67
 SFX d1 er ât/16 er 52
@@ -5576,10 +5640,10 @@ SFX d2 eter etteraient/6 jeter 25
 SFX d2 eter etteraient/6 [^j]eter 25
 SFX d2 eler elleraient/6 ppeler 25
 SFX d2 eler elleraient/6 [^p].eler 25
-SFX d2 eter ette/54 jeter 41
-SFX d2 eter ette/54 [^j]eter 41
-SFX d2 eler elle/54 ppeler 41
-SFX d2 eler elle/54 [^p].eler 41
+SFX d2 eter ette/54 jeter 42
+SFX d2 eter ette/54 [^j]eter 42
+SFX d2 eler elle/54 ppeler 42
+SFX d2 eler elle/54 [^p].eler 42
 SFX d2 eter ettes/31 jeter 44
 SFX d2 eter ettes/31 [^j]eter 44
 SFX d2 eler elles/31 ppeler 44
@@ -5590,10 +5654,10 @@ SFX d2 eler elle/6 ppeler 27
 SFX d2 eler elle/6 [^p].eler 27
 SFX d2 er ions/56 er 74
 SFX d2 er iez/31 er 73
-SFX d2 eter ettent/6 jeter 28
-SFX d2 eter ettent/6 [^j]eter 28
-SFX d2 eler ellent/6 ppeler 28
-SFX d2 eler ellent/6 [^p].eler 28
+SFX d2 eter ettent/6 jeter 29
+SFX d2 eter ettent/6 [^j]eter 29
+SFX d2 eler ellent/6 ppeler 29
+SFX d2 eler ellent/6 [^p].eler 29
 SFX d2 er asse/30 er 61
 SFX d2 er asses/14 er 67
 SFX d2 er ât/6 er 52
@@ -5688,10 +5752,10 @@ SFX d3 eter etteraient/12 jeter 25
 SFX d3 eter etteraient/12 [^j]eter 25
 SFX d3 eler elleraient/12 ppeler 25
 SFX d3 eler elleraient/12 [^p].eler 25
-SFX d3 eter ette/24 jeter 41
-SFX d3 eter ette/24 [^j]eter 41
-SFX d3 eler elle/24 ppeler 41
-SFX d3 eler elle/24 [^p].eler 41
+SFX d3 eter ette/24 jeter 42
+SFX d3 eter ette/24 [^j]eter 42
+SFX d3 eler elle/24 ppeler 42
+SFX d3 eler elle/24 [^p].eler 42
 SFX d3 eter ettes/21 jeter 44
 SFX d3 eter ettes/21 [^j]eter 44
 SFX d3 eler elles/21 ppeler 44
@@ -5702,10 +5766,10 @@ SFX d3 eler elle/12 ppeler 27
 SFX d3 eler elle/12 [^p].eler 27
 SFX d3 er ions er 74
 SFX d3 er iez er 73
-SFX d3 eter ettent/12 jeter 28
-SFX d3 eter ettent/12 [^j]eter 28
-SFX d3 eler ellent/12 ppeler 28
-SFX d3 eler ellent/12 [^p].eler 28
+SFX d3 eter ettent/12 jeter 29
+SFX d3 eter ettent/12 [^j]eter 29
+SFX d3 eler ellent/12 ppeler 29
+SFX d3 eler ellent/12 [^p].eler 29
 SFX d3 er asse/24 er 61
 SFX d3 er asses/21 er 67
 SFX d3 er ât/12 er 52
@@ -5722,10 +5786,10 @@ SFX d3 er ez er 75
 SFX d4 Y 110
 SFX d4 er er/53 er 64
 SFX d4 er ant/6 er 48
-SFX d4 eter ette/22 jeter 34
-SFX d4 eter ette/22 [^j]eter 34
-SFX d4 eler elle/22 ppeler 34
-SFX d4 eler elle/22 [^p].eler 34
+SFX d4 eter ette/23 jeter 34
+SFX d4 eter ette/23 [^j]eter 34
+SFX d4 eler elle/23 ppeler 34
+SFX d4 eler elle/23 [^p].eler 34
 SFX d4 eter ettes/20 jeter 35
 SFX d4 eter ettes/20 [^j]eter 35
 SFX d4 eler elles/20 ppeler 35
@@ -5740,22 +5804,22 @@ SFX d4 eter ettent/6 jeter 26
 SFX d4 eter ettent/6 [^j]eter 26
 SFX d4 eler ellent/6 ppeler 26
 SFX d4 eler ellent/6 [^p].eler 26
-SFX d4 er ais/22 er 66
+SFX d4 er ais/23 er 66
 SFX d4 er ais/20 er 65
 SFX d4 er ait/6 er 50
 SFX d4 er ions/17 er 77
 SFX d4 er iez/14 er 76
 SFX d4 er aient/6 er 51
-SFX d4 er ai/22 er 69
+SFX d4 er ai/23 er 69
 SFX d4 er as/20 er 68
 SFX d4 er a/6 er 53
 SFX d4 er âmes/17 er 63
 SFX d4 er âtes/14 er 62
 SFX d4 er èrent/6 er 71
-SFX d4 eter etterai/22 jeter 38
-SFX d4 eter etterai/22 [^j]eter 38
-SFX d4 eler ellerai/22 ppeler 38
-SFX d4 eler ellerai/22 [^p].eler 38
+SFX d4 eter etterai/23 jeter 38
+SFX d4 eter etterai/23 [^j]eter 38
+SFX d4 eler ellerai/23 ppeler 38
+SFX d4 eler ellerai/23 [^p].eler 38
 SFX d4 eter etteras/20 jeter 37
 SFX d4 eter etteras/20 [^j]eter 37
 SFX d4 eler elleras/20 ppeler 37
@@ -5776,10 +5840,10 @@ SFX d4 eter etteront/6 jeter 24
 SFX d4 eter etteront/6 [^j]eter 24
 SFX d4 eler elleront/6 ppeler 24
 SFX d4 eler elleront/6 [^p].eler 24
-SFX d4 eter etterais/22 jeter 40
-SFX d4 eter etterais/22 [^j]eter 40
-SFX d4 eler ellerais/22 ppeler 40
-SFX d4 eler ellerais/22 [^p].eler 40
+SFX d4 eter etterais/23 jeter 40
+SFX d4 eter etterais/23 [^j]eter 40
+SFX d4 eler ellerais/23 ppeler 40
+SFX d4 eler ellerais/23 [^p].eler 40
 SFX d4 eter etterais/20 jeter 39
 SFX d4 eter etterais/20 [^j]eter 39
 SFX d4 eler ellerais/20 ppeler 39
@@ -5800,10 +5864,10 @@ SFX d4 eter etteraient/6 jeter 25
 SFX d4 eter etteraient/6 [^j]eter 25
 SFX d4 eler elleraient/6 ppeler 25
 SFX d4 eler elleraient/6 [^p].eler 25
-SFX d4 eter ette/44 jeter 41
-SFX d4 eter ette/44 [^j]eter 41
-SFX d4 eler elle/44 ppeler 41
-SFX d4 eler elle/44 [^p].eler 41
+SFX d4 eter ette/44 jeter 42
+SFX d4 eter ette/44 [^j]eter 42
+SFX d4 eler elle/44 ppeler 42
+SFX d4 eler elle/44 [^p].eler 42
 SFX d4 eter ettes/36 jeter 44
 SFX d4 eter ettes/36 [^j]eter 44
 SFX d4 eler elles/36 ppeler 44
@@ -5814,11 +5878,11 @@ SFX d4 eler elle/6 ppeler 27
 SFX d4 eler elle/6 [^p].eler 27
 SFX d4 er ions/56 er 74
 SFX d4 er iez/31 er 73
-SFX d4 eter ettent/6 jeter 28
-SFX d4 eter ettent/6 [^j]eter 28
-SFX d4 eler ellent/6 ppeler 28
-SFX d4 eler ellent/6 [^p].eler 28
-SFX d4 er asse/22 er 61
+SFX d4 eter ettent/6 jeter 29
+SFX d4 eter ettent/6 [^j]eter 29
+SFX d4 eler ellent/6 ppeler 29
+SFX d4 eler ellent/6 [^p].eler 29
+SFX d4 er asse/23 er 61
 SFX d4 er asses/20 er 67
 SFX d4 er ât/6 er 52
 SFX d4 er assions/17 er 60
@@ -5912,10 +5976,10 @@ SFX d5 eter etteraient/18 jeter 25
 SFX d5 eter etteraient/18 [^j]eter 25
 SFX d5 eler elleraient/18 ppeler 25
 SFX d5 eler elleraient/18 [^p].eler 25
-SFX d5 eter ette/27 jeter 41
-SFX d5 eter ette/27 [^j]eter 41
-SFX d5 eler elle/27 ppeler 41
-SFX d5 eler elle/27 [^p].eler 41
+SFX d5 eter ette/27 jeter 42
+SFX d5 eter ette/27 [^j]eter 42
+SFX d5 eler elle/27 ppeler 42
+SFX d5 eler elle/27 [^p].eler 42
 SFX d5 eter ettes/25 jeter 44
 SFX d5 eter ettes/25 [^j]eter 44
 SFX d5 eler elles/25 ppeler 44
@@ -5926,10 +5990,10 @@ SFX d5 eler elle/18 ppeler 27
 SFX d5 eler elle/18 [^p].eler 27
 SFX d5 er ions/35 er 74
 SFX d5 er iez/32 er 73
-SFX d5 eter ettent/18 jeter 28
-SFX d5 eter ettent/18 [^j]eter 28
-SFX d5 eler ellent/18 ppeler 28
-SFX d5 eler ellent/18 [^p].eler 28
+SFX d5 eter ettent/18 jeter 29
+SFX d5 eter ettent/18 [^j]eter 29
+SFX d5 eler ellent/18 ppeler 29
+SFX d5 eler ellent/18 [^p].eler 29
 SFX d5 er asse/27 er 61
 SFX d5 er asses/25 er 67
 SFX d5 er ât/18 er 52
@@ -5956,37 +6020,37 @@ SFX aA aller va aller 21
 SFX aA ller llons/16 aller 56
 SFX aA ller llez/16 aller 72
 SFX aA aller vont aller 26
-SFX aA ller llais/97 aller 66
+SFX aA ller llais/98 aller 66
 SFX aA ller llais/16 aller 65
 SFX aA ller llait/62 aller 50
 SFX aA ller llions/16 aller 77
 SFX aA ller lliez/16 aller 76
 SFX aA ller llaient/62 aller 51
-SFX aA ller llai/97 aller 69
+SFX aA ller llai/98 aller 69
 SFX aA ller llas/16 aller 68
 SFX aA ller lla/62 aller 53
 SFX aA ller llâmes/16 aller 63
 SFX aA ller llâtes/16 aller 62
 SFX aA ller llèrent/62 aller 71
-SFX aA aller irai/97 aller 38
+SFX aA aller irai/98 aller 38
 SFX aA aller iras/16 aller 37
 SFX aA aller ira/62 aller 22
 SFX aA aller irons/16 aller 31
 SFX aA aller irez/62 aller 30
 SFX aA aller iront/16 aller 24
-SFX aA aller irais/97 aller 40
+SFX aA aller irais/98 aller 40
 SFX aA aller irais/16 aller 39
 SFX aA aller irait/62 aller 23
 SFX aA aller irions/16 aller 33
 SFX aA aller iriez/16 aller 32
 SFX aA aller iraient/62 aller 25
-SFX aA ller ille/26 aller 41
+SFX aA ller ille/26 aller 42
 SFX aA ller illes/13 aller 44
 SFX aA ller ille/62 aller 27
 SFX aA ller llions/13 aller 74
 SFX aA ller lliez/13 aller 73
-SFX aA ller illent/62 aller 28
-SFX aA ller llasse/97 aller 61
+SFX aA ller illent/62 aller 29
+SFX aA ller llasse/98 aller 61
 SFX aA ller llasses/16 aller 67
 SFX aA ller llât/62 aller 52
 SFX aA ller llassions/16 aller 60
@@ -5994,13 +6058,13 @@ SFX aA ller llassiez/16 aller 59
 SFX aA ller llassent/62 aller 54
 SFX aA ller llons/13 aller 58
 SFX aA aller va aller 36
-SFX aA aller vas-y aller 306
-SFX aA aller va-t'en aller 307
-SFX aA ller llons-y aller 310
-SFX aA ller llons-nous-en aller 311
+SFX aA aller vas-y aller 314
+SFX aA aller va-t'en aller 315
+SFX aA ller llons-y aller 318
+SFX aA ller llons-nous-en aller 319
 SFX aA ller llez/13 aller 75
-SFX aA ller llez-y aller 308
-SFX aA ller llez-vous-en aller 309
+SFX aA ller llez-y aller 316
+SFX aA ller llez-vous-en aller 317
 
 SFX aD Y 51
 SFX aD voyer voyer/53 envoyer 64
@@ -6009,43 +6073,43 @@ SFX aD voyer voyé/28 envoyer 85
 SFX aD voyer voyés/28 envoyer 86
 SFX aD voyer voyée/28 envoyer 80
 SFX aD voyer voyées/28 envoyer 81
-SFX aD voyer voie/22 envoyer 34
+SFX aD voyer voie/23 envoyer 34
 SFX aD voyer voies/20 envoyer 35
 SFX aD voyer voie/6 envoyer 21
 SFX aD voyer voyons/17 envoyer 56
 SFX aD voyer voyez/14 envoyer 72
 SFX aD voyer voient/6 envoyer 26
-SFX aD voyer voyais/22 envoyer 66
+SFX aD voyer voyais/23 envoyer 66
 SFX aD voyer voyais/20 envoyer 65
 SFX aD voyer voyait/6 envoyer 50
 SFX aD voyer voyions/17 envoyer 77
 SFX aD voyer voyiez/14 envoyer 76
 SFX aD voyer voyaient/6 envoyer 51
-SFX aD voyer voyai/22 envoyer 69
+SFX aD voyer voyai/23 envoyer 69
 SFX aD voyer voyas/20 envoyer 68
 SFX aD voyer voya/6 envoyer 53
 SFX aD voyer voyâmes/17 envoyer 63
 SFX aD voyer voyâtes/14 envoyer 62
 SFX aD voyer voyèrent/6 envoyer 71
-SFX aD voyer verrai/22 envoyer 38
+SFX aD voyer verrai/23 envoyer 38
 SFX aD voyer verras/20 envoyer 37
 SFX aD voyer verra/6 envoyer 22
 SFX aD voyer verrons/17 envoyer 31
 SFX aD voyer verrez/14 envoyer 30
 SFX aD voyer verront/6 envoyer 24
-SFX aD voyer verrais/22 envoyer 40
+SFX aD voyer verrais/23 envoyer 40
 SFX aD voyer verrais/20 envoyer 39
 SFX aD voyer verrait/6 envoyer 23
 SFX aD voyer verrions/17 envoyer 33
 SFX aD voyer verriez/14 envoyer 32
 SFX aD voyer verraient/6 envoyer 25
-SFX aD voyer voie/44 envoyer 41
+SFX aD voyer voie/44 envoyer 42
 SFX aD voyer voies/36 envoyer 44
 SFX aD voyer voie/6 envoyer 27
 SFX aD voyer voyions/56 envoyer 74
 SFX aD voyer voyiez/31 envoyer 73
-SFX aD voyer voient/6 envoyer 28
-SFX aD voyer voyasse/22 envoyer 61
+SFX aD voyer voient/6 envoyer 29
+SFX aD voyer voyasse/23 envoyer 61
 SFX aD voyer voyasses/20 envoyer 67
 SFX aD voyer voyât/6 envoyer 52
 SFX aD voyer voyassions/17 envoyer 60
@@ -6084,7 +6148,7 @@ SFX aF cerner cerneraient er 25
 SFX aG Y 19
 SFX aG er er/157 er 64
 SFX aG er ant/62 er 48
-SFX aG mber mbé mber 104
+SFX aG mber mbé mber 106
 SFX aG lter lté lter 85
 SFX aG lter ltés lter 86
 SFX aG lter ltée lter 80
@@ -6136,12 +6200,12 @@ SFX aH er erait gger 23
 SFX aH er erions gger 33
 SFX aH er eriez gger 32
 SFX aH er eraient gger 25
-SFX aH er e gger 41
+SFX aH er e gger 42
 SFX aH er es gger 44
 SFX aH er e gger 27
 SFX aH er ions gger 74
 SFX aH er iez gger 73
-SFX aH er ent gger 28
+SFX aH er ent gger 29
 SFX aH er asse gger 61
 SFX aH er asses gger 67
 SFX aH er ât gger 52
@@ -6189,12 +6253,12 @@ SFX aY éneler énellerait éneler 23
 SFX aY éneler énellerions éneler 33
 SFX aY éneler énelleriez éneler 32
 SFX aY éneler énelleraient éneler 25
-SFX aY éneler énelle éneler 41
+SFX aY éneler énelle éneler 42
 SFX aY éneler énelles éneler 44
 SFX aY éneler énelle éneler 27
 SFX aY neler nelions neler 74
 SFX aY neler neliez neler 73
-SFX aY éneler énellent éneler 28
+SFX aY éneler énellent éneler 29
 SFX aY neler nelasse neler 61
 SFX aY neler nelasses neler 67
 SFX aY neler nelât neler 52
@@ -6242,12 +6306,12 @@ SFX aZ ételer étellerait ételer 23
 SFX aZ ételer étellerions ételer 33
 SFX aZ ételer ételleriez ételer 32
 SFX aZ ételer ételleraient ételer 25
-SFX aZ ételer ételle ételer 41
+SFX aZ ételer ételle ételer 42
 SFX aZ ételer ételles ételer 44
 SFX aZ ételer ételle ételer 27
 SFX aZ teler telions teler 74
 SFX aZ teler teliez teler 73
-SFX aZ ételer étellent ételer 28
+SFX aZ ételer étellent ételer 29
 SFX aZ teler telasse teler 61
 SFX aZ teler telasses teler 67
 SFX aZ teler telât teler 52
@@ -6295,12 +6359,12 @@ SFX dA peler pellerait/6 peler 23
 SFX dA peler pellerions/17 peler 33
 SFX dA peler pelleriez/14 peler 32
 SFX dA peler pelleraient/6 peler 25
-SFX dA peler pelle/54 peler 41
+SFX dA peler pelle/54 peler 42
 SFX dA peler pelles/31 peler 44
 SFX dA peler pelle/6 peler 27
 SFX dA peler pelions/56 peler 74
 SFX dA peler peliez/31 peler 73
-SFX dA peler pellent/6 peler 28
+SFX dA peler pellent/6 peler 29
 SFX dA peler pelasse/30 peler 61
 SFX dA peler pelasses/14 peler 67
 SFX dA peler pelât/6 peler 52
@@ -6344,12 +6408,12 @@ SFX f0 ir irait ir 23
 SFX f0 ir irions ir 33
 SFX f0 ir iriez ir 32
 SFX f0 ir iraient ir 25
-SFX f0 ir isse ir 41
+SFX f0 ir isse ir 42
 SFX f0 ir isses ir 44
 SFX f0 ir isse ir 27
 SFX f0 ir issions ir 74
 SFX f0 ir issiez ir 73
-SFX f0 ir issent ir 28
+SFX f0 ir issent ir 29
 SFX f0 ir isse ir 61
 SFX f0 ir isses ir 67
 SFX f0 ir ît ir 52
@@ -6393,12 +6457,12 @@ SFX f1 ir irait/16 ir 23
 SFX f1 ir irions/13 ir 33
 SFX f1 ir iriez/13 ir 32
 SFX f1 ir iraient/16 ir 25
-SFX f1 ir isse/26 ir 41
+SFX f1 ir isse/26 ir 42
 SFX f1 ir isses/13 ir 44
 SFX f1 ir isse/16 ir 27
 SFX f1 ir issions/13 ir 74
 SFX f1 ir issiez/13 ir 73
-SFX f1 ir issent/16 ir 28
+SFX f1 ir issent/16 ir 29
 SFX f1 ir isse/26 ir 61
 SFX f1 ir isses/13 ir 67
 SFX f1 ir ît/16 ir 52
@@ -6442,12 +6506,12 @@ SFX f2 ir irait/6 ir 23
 SFX f2 ir irions/17 ir 33
 SFX f2 ir iriez/14 ir 32
 SFX f2 ir iraient/6 ir 25
-SFX f2 ir isse/54 ir 41
+SFX f2 ir isse/54 ir 42
 SFX f2 ir isses/31 ir 44
 SFX f2 ir isse/6 ir 27
 SFX f2 ir issions/56 ir 74
 SFX f2 ir issiez/31 ir 73
-SFX f2 ir issent/6 ir 28
+SFX f2 ir issent/6 ir 29
 SFX f2 ir isse/30 ir 61
 SFX f2 ir isses/14 ir 67
 SFX f2 ir ît/6 ir 52
@@ -6491,12 +6555,12 @@ SFX f3 ir irait/12 ir 23
 SFX f3 ir irions ir 33
 SFX f3 ir iriez ir 32
 SFX f3 ir iraient/12 ir 25
-SFX f3 ir isse/24 ir 41
+SFX f3 ir isse/24 ir 42
 SFX f3 ir isses/21 ir 44
 SFX f3 ir isse/12 ir 27
 SFX f3 ir issions ir 74
 SFX f3 ir issiez ir 73
-SFX f3 ir issent/12 ir 28
+SFX f3 ir issent/12 ir 29
 SFX f3 ir isse/24 ir 61
 SFX f3 ir isses/21 ir 67
 SFX f3 ir ît/12 ir 52
@@ -6510,43 +6574,43 @@ SFX f3 ir issez ir 75
 SFX f4 Y 47
 SFX f4 ir ir/53 ir 64
 SFX f4 ir issant/6 ir 48
-SFX f4 ir is/22 ir 34
+SFX f4 ir is/23 ir 34
 SFX f4 ir is/20 ir 35
 SFX f4 ir it/6 ir 21
 SFX f4 ir issons/17 ir 56
 SFX f4 ir issez/14 ir 72
 SFX f4 ir issent/6 ir 26
-SFX f4 ir issais/22 ir 66
+SFX f4 ir issais/23 ir 66
 SFX f4 ir issais/20 ir 65
 SFX f4 ir issait/6 ir 50
 SFX f4 ir issions/17 ir 77
 SFX f4 ir issiez/14 ir 76
 SFX f4 ir issaient/6 ir 51
-SFX f4 ir is/22 ir 69
+SFX f4 ir is/23 ir 69
 SFX f4 ir is/20 ir 68
 SFX f4 ir it/6 ir 53
 SFX f4 ir îmes/17 ir 63
 SFX f4 ir îtes/14 ir 62
 SFX f4 ir irent/6 ir 71
-SFX f4 ir irai/22 ir 38
+SFX f4 ir irai/23 ir 38
 SFX f4 ir iras/20 ir 37
 SFX f4 ir ira/6 ir 22
 SFX f4 ir irons/17 ir 31
 SFX f4 ir irez/14 ir 30
 SFX f4 ir iront/6 ir 24
-SFX f4 ir irais/22 ir 40
+SFX f4 ir irais/23 ir 40
 SFX f4 ir irais/20 ir 39
 SFX f4 ir irait/6 ir 23
 SFX f4 ir irions/17 ir 33
 SFX f4 ir iriez/14 ir 32
 SFX f4 ir iraient/6 ir 25
-SFX f4 ir isse/44 ir 41
+SFX f4 ir isse/44 ir 42
 SFX f4 ir isses/36 ir 44
 SFX f4 ir isse/6 ir 27
 SFX f4 ir issions/56 ir 74
 SFX f4 ir issiez/31 ir 73
-SFX f4 ir issent/6 ir 28
-SFX f4 ir isse/22 ir 61
+SFX f4 ir issent/6 ir 29
+SFX f4 ir isse/23 ir 61
 SFX f4 ir isses/20 ir 67
 SFX f4 ir ît/6 ir 52
 SFX f4 ir issions/17 ir 60
@@ -6589,12 +6653,12 @@ SFX f5 ir irait/18 ir 23
 SFX f5 ir irions/35 ir 33
 SFX f5 ir iriez/32 ir 32
 SFX f5 ir iraient/18 ir 25
-SFX f5 ir isse/27 ir 41
+SFX f5 ir isse/27 ir 42
 SFX f5 ir isses/25 ir 44
 SFX f5 ir isse/18 ir 27
 SFX f5 ir issions/35 ir 74
 SFX f5 ir issiez/32 ir 73
-SFX f5 ir issent/18 ir 28
+SFX f5 ir issent/18 ir 29
 SFX f5 ir isse/27 ir 61
 SFX f5 ir isses/25 ir 67
 SFX f5 ir ît/18 ir 52
@@ -6642,12 +6706,12 @@ SFX fA aïr aïrait aïr 23
 SFX fA aïr aïrions aïr 33
 SFX fA aïr aïriez aïr 32
 SFX fA aïr aïraient aïr 25
-SFX fA aïr aïsse aïr 41
+SFX fA aïr aïsse aïr 42
 SFX fA aïr aïsses aïr 44
 SFX fA aïr aïsse aïr 27
 SFX fA aïr aïssions aïr 74
 SFX fA aïr aïssiez aïr 73
-SFX fA aïr aïssent aïr 28
+SFX fA aïr aïssent aïr 29
 SFX fA aïr aïsse aïr 61
 SFX fA aïr aïsses aïr 67
 SFX fA aïr aït aïr 52
@@ -6688,7 +6752,7 @@ SFX fB haïr haïraient/12 aïr 25
 SFX fB haïr haïsse/12 aïr 27
 SFX fB haïr haïssions aïr 74
 SFX fB haïr haïssiez aïr 73
-SFX fB haïr haïssent/12 aïr 28
+SFX fB haïr haïssent/12 aïr 29
 SFX fB haïr haït/12 aïr 52
 SFX fB haïr haïssions aïr 60
 SFX fB haïr haïssiez aïr 59
@@ -6763,12 +6827,12 @@ SFX fY uïr uïrait/12 uïr 23
 SFX fY uïr uïrions uïr 33
 SFX fY uïr uïriez uïr 32
 SFX fY uïr uïraient/12 uïr 25
-SFX fY uïr uïsse/24 uïr 41
+SFX fY uïr uïsse/24 uïr 42
 SFX fY uïr uïsses/21 uïr 44
 SFX fY uïr uïsse/12 uïr 27
 SFX fY uïr uïssions uïr 74
 SFX fY uïr uïssiez uïr 73
-SFX fY uïr uïssent/12 uïr 28
+SFX fY uïr uïssent/12 uïr 29
 SFX fY uïr uïsse/24 uïr 61
 SFX fY uïr uïsses/21 uïr 67
 SFX fY uïr uît/12 uïr 52
@@ -6790,7 +6854,7 @@ SFX fZ gir gisse agir 27
 SFX fZ gir gît agir 52
 
 SFX p+ Y 8
-SFX p+ er é/28 er 304
+SFX p+ er é/28 er 312
 SFX p+ er és/28 er 86
 SFX p+ er ée/28 er 80
 SFX p+ er ées/28 er 81
@@ -6800,8 +6864,8 @@ SFX p+ ir ie/28 ir 80
 SFX p+ ir ies/28 ir 81
 
 SFX p. Y 2
-SFX p. er é/28 er 305
-SFX p. ir i/28 ir 104
+SFX p. er é/28 er 313
+SFX p. ir i/28 ir 106
 
 SFX i0 Y 47
 SFX i0 enir enir/80 enir 64
@@ -6836,12 +6900,12 @@ SFX i0 enir iendrait/16 enir 23
 SFX i0 enir iendrions/13 enir 33
 SFX i0 enir iendriez/13 enir 32
 SFX i0 enir iendraient/16 enir 25
-SFX i0 enir ienne/26 enir 41
+SFX i0 enir ienne/26 enir 42
 SFX i0 enir iennes/13 enir 44
 SFX i0 enir ienne/16 enir 27
 SFX i0 enir enions/13 enir 74
 SFX i0 enir eniez/13 enir 73
-SFX i0 enir iennent/16 enir 28
+SFX i0 enir iennent/16 enir 29
 SFX i0 enir insse/26 enir 61
 SFX i0 enir insses/13 enir 67
 SFX i0 enir înt/16 enir 52
@@ -6855,43 +6919,43 @@ SFX i0 enir enez/13 enir 75
 SFX i1 Y 47
 SFX i1 enir enir/53 enir 64
 SFX i1 enir enant/6 enir 48
-SFX i1 enir iens/22 enir 34
+SFX i1 enir iens/23 enir 34
 SFX i1 enir iens/20 enir 35
 SFX i1 enir ient/6 enir 21
 SFX i1 enir enons/17 enir 56
 SFX i1 enir enez/14 enir 72
 SFX i1 enir iennent/6 enir 26
-SFX i1 enir enais/22 enir 66
+SFX i1 enir enais/23 enir 66
 SFX i1 enir enais/20 enir 65
 SFX i1 enir enait/6 enir 50
 SFX i1 enir enions/17 enir 77
 SFX i1 enir eniez/14 enir 76
 SFX i1 enir enaient/6 enir 51
-SFX i1 enir ins/22 enir 69
+SFX i1 enir ins/23 enir 69
 SFX i1 enir ins/20 enir 68
 SFX i1 enir int/6 enir 53
 SFX i1 enir înmes/17 enir 63
 SFX i1 enir întes/14 enir 62
 SFX i1 enir inrent/6 enir 71
-SFX i1 enir iendrai/22 enir 38
+SFX i1 enir iendrai/23 enir 38
 SFX i1 enir iendras/20 enir 37
 SFX i1 enir iendra/6 enir 22
 SFX i1 enir iendrons/17 enir 31
 SFX i1 enir iendrez/14 enir 30
 SFX i1 enir iendront/6 enir 24
-SFX i1 enir iendrais/22 enir 40
+SFX i1 enir iendrais/23 enir 40
 SFX i1 enir iendrais/20 enir 39
 SFX i1 enir iendrait/6 enir 23
 SFX i1 enir iendrions/17 enir 33
 SFX i1 enir iendriez/14 enir 32
 SFX i1 enir iendraient/6 enir 25
-SFX i1 enir ienne/44 enir 41
+SFX i1 enir ienne/44 enir 42
 SFX i1 enir iennes/36 enir 44
 SFX i1 enir ienne/6 enir 27
 SFX i1 enir enions/56 enir 74
 SFX i1 enir eniez/31 enir 73
-SFX i1 enir iennent/6 enir 28
-SFX i1 enir insse/22 enir 61
+SFX i1 enir iennent/6 enir 29
+SFX i1 enir insse/23 enir 61
 SFX i1 enir insses/20 enir 67
 SFX i1 enir înt/6 enir 52
 SFX i1 enir inssions/17 enir 60
@@ -6934,12 +6998,12 @@ SFX i2 enir iendrait/12 enir 23
 SFX i2 enir iendrions enir 33
 SFX i2 enir iendriez enir 32
 SFX i2 enir iendraient/12 enir 25
-SFX i2 enir ienne/24 enir 41
+SFX i2 enir ienne/24 enir 42
 SFX i2 enir iennes/21 enir 44
 SFX i2 enir ienne/12 enir 27
 SFX i2 enir enions enir 74
 SFX i2 enir eniez enir 73
-SFX i2 enir iennent/12 enir 28
+SFX i2 enir iennent/12 enir 29
 SFX i2 enir insse/24 enir 61
 SFX i2 enir insses/21 enir 67
 SFX i2 enir înt/12 enir 52
@@ -6983,12 +7047,12 @@ SFX i5 tir tirait tir 23
 SFX i5 tir tirions tir 33
 SFX i5 tir tiriez tir 32
 SFX i5 tir tiraient tir 25
-SFX i5 tir te tir 41
+SFX i5 tir te tir 42
 SFX i5 tir tes tir 44
 SFX i5 tir te tir 27
 SFX i5 tir tions tir 74
 SFX i5 tir tiez tir 73
-SFX i5 tir tent tir 28
+SFX i5 tir tent tir 29
 SFX i5 tir tisse tir 61
 SFX i5 tir tisses tir 67
 SFX i5 tir tît tir 52
@@ -7017,14 +7081,14 @@ SFX iA dvenir dviendront/16 venir 24
 SFX iA dvenir dviendrait/62 venir 23
 SFX iA dvenir dviendraient/16 venir 25
 SFX iA dvenir dvienne/62 venir 27
-SFX iA dvenir dviennent/16 venir 28
+SFX iA dvenir dviennent/16 venir 29
 SFX iA dvenir dvînt/62 venir 52
 SFX iA dvenir dvinssent/16 venir 54
 
 SFX iB Y 48
 SFX iB partenir partenir/89 tenir 64
 SFX iB partenir partenant/18 tenir 48
-SFX iB partenir partenu/28 tenir 104
+SFX iB partenir partenu/28 tenir 106
 SFX iB partenir partiens/27 tenir 34
 SFX iB partenir partiens/25 tenir 35
 SFX iB partenir partient/25 tenir 21
@@ -7055,12 +7119,12 @@ SFX iB partenir partiendrait/25 tenir 23
 SFX iB partenir partiendrions/35 tenir 33
 SFX iB partenir partiendriez/32 tenir 32
 SFX iB partenir partiendraient/70 tenir 25
-SFX iB partenir partienne/27 tenir 41
+SFX iB partenir partienne/27 tenir 42
 SFX iB partenir partiennes/25 tenir 44
 SFX iB partenir partienne/25 tenir 27
 SFX iB partenir partenions/35 tenir 74
 SFX iB partenir parteniez/32 tenir 73
-SFX iB partenir partiennent/70 tenir 28
+SFX iB partenir partiennent/70 tenir 29
 SFX iB partenir partinsse/27 tenir 61
 SFX iB partenir partinsses/25 tenir 67
 SFX iB partenir partînt/25 tenir 52
@@ -7078,43 +7142,43 @@ SFX iC rir ert/28 [vf]rir 85
 SFX iC rir erts/28 [vf]rir 86
 SFX iC rir erte/28 [vf]rir 80
 SFX iC rir ertes/28 [vf]rir 81
-SFX iC rir re/22 [vf]rir 34
+SFX iC rir re/23 [vf]rir 34
 SFX iC rir res/20 [vf]rir 35
 SFX iC rir re/6 [vf]rir 21
 SFX iC rir rons/17 [vf]rir 56
 SFX iC rir rez/14 [vf]rir 72
 SFX iC rir rent/6 [vf]rir 26
-SFX iC rir rais/22 [vf]rir 66
+SFX iC rir rais/23 [vf]rir 66
 SFX iC rir rais/20 [vf]rir 65
 SFX iC rir rait/6 [vf]rir 50
 SFX iC rir rions/17 [vf]rir 77
 SFX iC rir riez/14 [vf]rir 76
 SFX iC rir raient/6 [vf]rir 51
-SFX iC rir ris/22 [vf]rir 69
+SFX iC rir ris/23 [vf]rir 69
 SFX iC rir ris/20 [vf]rir 68
 SFX iC rir rit/6 [vf]rir 53
 SFX iC rir rîmes/17 [vf]rir 63
 SFX iC rir rîtes/14 [vf]rir 62
 SFX iC rir rirent/6 [vf]rir 71
-SFX iC rir rirai/22 [vf]rir 38
+SFX iC rir rirai/23 [vf]rir 38
 SFX iC rir riras/20 [vf]rir 37
 SFX iC rir rira/6 [vf]rir 22
 SFX iC rir rirons/17 [vf]rir 31
 SFX iC rir rirez/14 [vf]rir 30
 SFX iC rir riront/6 [vf]rir 24
-SFX iC rir rirais/22 [vf]rir 40
+SFX iC rir rirais/23 [vf]rir 40
 SFX iC rir rirais/20 [vf]rir 39
 SFX iC rir rirait/6 [vf]rir 23
 SFX iC rir ririons/17 [vf]rir 33
 SFX iC rir ririez/14 [vf]rir 32
 SFX iC rir riraient/6 [vf]rir 25
-SFX iC rir re/44 [vf]rir 41
+SFX iC rir re/44 [vf]rir 42
 SFX iC rir res/36 [vf]rir 44
 SFX iC rir re/6 [vf]rir 27
 SFX iC rir rions/56 [vf]rir 74
 SFX iC rir riez/31 [vf]rir 73
-SFX iC rir rent/6 [vf]rir 28
-SFX iC rir risse/22 [vf]rir 61
+SFX iC rir rent/6 [vf]rir 29
+SFX iC rir risse/23 [vf]rir 61
 SFX iC rir risses/20 [vf]rir 67
 SFX iC rir rît/6 [vf]rir 52
 SFX iC rir rissions/17 [vf]rir 60
@@ -7161,12 +7225,12 @@ SFX iD courir courrait/13 courir 23
 SFX iD courir courrions/13 courir 33
 SFX iD courir courriez/13 courir 32
 SFX iD courir courraient/13 courir 25
-SFX iD courir coure/26 courir 41
+SFX iD courir coure/26 courir 42
 SFX iD courir coures/13 courir 44
 SFX iD courir coure/13 courir 27
 SFX iD courir courions/13 courir 74
 SFX iD courir couriez/13 courir 73
-SFX iD courir courent/13 courir 28
+SFX iD courir courent/13 courir 29
 SFX iD courir courusse/26 courir 61
 SFX iD courir courusses/13 courir 67
 SFX iD courir courût/13 courir 52
@@ -7214,12 +7278,12 @@ SFX iE ourir ourrait/58 courir 23
 SFX iE ourir ourrions/39 courir 33
 SFX iE ourir ourriez/39 courir 32
 SFX iE ourir ourraient/58 courir 25
-SFX iE ourir oure/226 courir 41
+SFX iE ourir oure/227 courir 42
 SFX iE ourir oures/56 courir 44
 SFX iE ourir oure/58 courir 27
 SFX iE ourir ourions/39 courir 74
 SFX iE ourir ouriez/46 courir 73
-SFX iE ourir ourent/225 courir 28
+SFX iE ourir ourent/226 courir 29
 SFX iE ourir ourusse/74 courir 61
 SFX iE ourir ourusses/17 courir 67
 SFX iE ourir ourût/58 courir 52
@@ -7267,12 +7331,12 @@ SFX iF ervir ervirait servir 23
 SFX iF ervir ervirions servir 33
 SFX iF ervir erviriez servir 32
 SFX iF ervir erviraient servir 25
-SFX iF ervir erve servir 41
+SFX iF ervir erve servir 42
 SFX iF ervir erves servir 44
 SFX iF ervir erve servir 27
 SFX iF ervir ervions servir 74
 SFX iF ervir erviez servir 73
-SFX iF ervir ervent servir 28
+SFX iF ervir ervent servir 29
 SFX iF ervir ervisse servir 61
 SFX iF ervir ervisses servir 67
 SFX iF ervir ervît servir 52
@@ -7320,12 +7384,12 @@ SFX iG êtir êtirait vêtir 23
 SFX iG êtir êtirions vêtir 33
 SFX iG êtir êtiriez vêtir 32
 SFX iG êtir êtiraient vêtir 25
-SFX iG êtir ête vêtir 41
+SFX iG êtir ête vêtir 42
 SFX iG êtir êtes vêtir 44
 SFX iG êtir ête vêtir 27
 SFX iG êtir êtions vêtir 74
 SFX iG êtir êtiez vêtir 73
-SFX iG êtir êtent vêtir 28
+SFX iG êtir êtent vêtir 29
 SFX iG êtir êtisse vêtir 61
 SFX iG êtir êtisses vêtir 67
 SFX iG êtir êtît vêtir 52
@@ -7339,7 +7403,7 @@ SFX iG êtir êtez vêtir 75
 SFX iI N 48
 SFX iI ormir ormir dormir 64
 SFX iI ormir ormant dormir 48
-SFX iI ormir ormi dormir 104
+SFX iI ormir ormi dormir 106
 SFX iI ormir ors dormir 34
 SFX iI ormir ors dormir 35
 SFX iI ormir ort dormir 21
@@ -7370,12 +7434,12 @@ SFX iI ormir ormirait dormir 23
 SFX iI ormir ormirions dormir 33
 SFX iI ormir ormiriez dormir 32
 SFX iI ormir ormiraient dormir 25
-SFX iI ormir orme dormir 41
+SFX iI ormir orme dormir 42
 SFX iI ormir ormes dormir 44
 SFX iI ormir orme dormir 27
 SFX iI ormir ormions dormir 74
 SFX iI ormir ormiez dormir 73
-SFX iI ormir orment dormir 28
+SFX iI ormir orment dormir 29
 SFX iI ormir ormisse dormir 61
 SFX iI ormir ormisses dormir 67
 SFX iI ormir ormît dormir 52
@@ -7393,43 +7457,43 @@ SFX iJ dormir dormi/28 dormir 85
 SFX iJ dormir dormis/28 dormir 86
 SFX iJ dormir dormie/28 dormir 80
 SFX iJ dormir dormies/28 dormir 81
-SFX iJ dormir dors/22 dormir 34
+SFX iJ dormir dors/23 dormir 34
 SFX iJ dormir dors/20 dormir 35
 SFX iJ dormir dort/6 dormir 21
 SFX iJ dormir dormons/17 dormir 56
 SFX iJ dormir dormez/14 dormir 72
 SFX iJ dormir dorment/6 dormir 26
-SFX iJ dormir dormais/22 dormir 66
+SFX iJ dormir dormais/23 dormir 66
 SFX iJ dormir dormais/20 dormir 65
 SFX iJ dormir dormait/6 dormir 50
 SFX iJ dormir dormions/17 dormir 77
 SFX iJ dormir dormiez/14 dormir 76
 SFX iJ dormir dormaient/6 dormir 51
-SFX iJ dormir dormis/22 dormir 69
+SFX iJ dormir dormis/23 dormir 69
 SFX iJ dormir dormis/20 dormir 68
 SFX iJ dormir dormit/6 dormir 53
 SFX iJ dormir dormîmes/17 dormir 63
 SFX iJ dormir dormîtes/14 dormir 62
 SFX iJ dormir dormirent/6 dormir 71
-SFX iJ dormir dormirai/22 dormir 38
+SFX iJ dormir dormirai/23 dormir 38
 SFX iJ dormir dormiras/20 dormir 37
 SFX iJ dormir dormira/6 dormir 22
 SFX iJ dormir dormirons/17 dormir 31
 SFX iJ dormir dormirez/14 dormir 30
 SFX iJ dormir dormiront/6 dormir 24
-SFX iJ dormir dormirais/22 dormir 40
+SFX iJ dormir dormirais/23 dormir 40
 SFX iJ dormir dormirais/20 dormir 39
 SFX iJ dormir dormirait/6 dormir 23
 SFX iJ dormir dormirions/17 dormir 33
 SFX iJ dormir dormiriez/14 dormir 32
 SFX iJ dormir dormiraient/6 dormir 25
-SFX iJ dormir dorme/44 dormir 41
+SFX iJ dormir dorme/44 dormir 42
 SFX iJ dormir dormes/36 dormir 44
 SFX iJ dormir dorme/6 dormir 27
 SFX iJ dormir dormions/56 dormir 74
 SFX iJ dormir dormiez/31 dormir 73
-SFX iJ dormir dorment/6 dormir 28
-SFX iJ dormir dormisse/22 dormir 61
+SFX iJ dormir dorment/6 dormir 29
+SFX iJ dormir dormisse/23 dormir 61
 SFX iJ dormir dormisses/20 dormir 67
 SFX iJ dormir dormît/6 dormir 52
 SFX iJ dormir dormissions/17 dormir 60
@@ -7442,46 +7506,46 @@ SFX iJ dormir dormez/31 dormir 75
 SFX iK Y 50
 SFX iK quérir quérir/53 quérir 64
 SFX iK quérir quérant/6 quérir 48
-SFX iK quérir quis/28 quérir 120
+SFX iK quérir quis/28 quérir 121
 SFX iK quérir quise/28 quérir 80
 SFX iK quérir quises/28 quérir 81
-SFX iK quérir quiers/22 quérir 34
+SFX iK quérir quiers/23 quérir 34
 SFX iK quérir quiers/20 quérir 35
 SFX iK quérir quiert/6 quérir 21
 SFX iK quérir quérons/17 quérir 56
 SFX iK quérir quérez/14 quérir 72
 SFX iK quérir quièrent/6 quérir 26
-SFX iK quérir quérais/22 quérir 66
+SFX iK quérir quérais/23 quérir 66
 SFX iK quérir quérais/20 quérir 65
 SFX iK quérir quérait/6 quérir 50
 SFX iK quérir quérions/17 quérir 77
 SFX iK quérir quériez/14 quérir 76
 SFX iK quérir quéraient/6 quérir 51
-SFX iK quérir quis/22 quérir 69
+SFX iK quérir quis/23 quérir 69
 SFX iK quérir quis/20 quérir 68
 SFX iK quérir quit/6 quérir 53
 SFX iK quérir quîmes/17 quérir 63
 SFX iK quérir quîtes/14 quérir 62
 SFX iK quérir quirent/6 quérir 71
-SFX iK quérir querrai/22 quérir 38
+SFX iK quérir querrai/23 quérir 38
 SFX iK quérir querras/20 quérir 37
 SFX iK quérir querra/6 quérir 22
 SFX iK quérir querrons/17 quérir 31
 SFX iK quérir querrez/14 quérir 30
 SFX iK quérir querront/6 quérir 24
-SFX iK quérir querrais/22 quérir 40
+SFX iK quérir querrais/23 quérir 40
 SFX iK quérir querrais/20 quérir 39
 SFX iK quérir querrait/6 quérir 23
 SFX iK quérir querrions/17 quérir 33
 SFX iK quérir querriez/14 quérir 32
 SFX iK quérir querraient/6 quérir 25
-SFX iK quérir quière/44 quérir 41
+SFX iK quérir quière/44 quérir 42
 SFX iK quérir quières/36 quérir 44
 SFX iK quérir quière/6 quérir 27
 SFX iK quérir quérions/56 quérir 74
 SFX iK quérir quériez/31 quérir 73
-SFX iK quérir quièrent/6 quérir 28
-SFX iK quérir quisse/22 quérir 61
+SFX iK quérir quièrent/6 quérir 29
+SFX iK quérir quisse/23 quérir 61
 SFX iK quérir quisses/20 quérir 67
 SFX iK quérir quît/6 quérir 52
 SFX iK quérir quissions/17 quérir 60
@@ -7494,7 +7558,7 @@ SFX iK quérir quérez/31 quérir 75
 SFX iM Y 50
 SFX iM quérir quérir/59 quérir 64
 SFX iM quérir quérant/59 quérir 48
-SFX iM quérir quis quérir 120
+SFX iM quérir quis quérir 121
 SFX iM quérir quise quérir 80
 SFX iM quérir quises quérir 81
 SFX iM quérir quiers/24 quérir 34
@@ -7527,12 +7591,12 @@ SFX iM quérir querrait/12 quérir 23
 SFX iM quérir querrions quérir 33
 SFX iM quérir querriez quérir 32
 SFX iM quérir querraient/12 quérir 25
-SFX iM quérir quière/24 quérir 41
+SFX iM quérir quière/24 quérir 42
 SFX iM quérir quières/21 quérir 44
 SFX iM quérir quière/12 quérir 27
 SFX iM quérir quérions quérir 74
 SFX iM quérir quériez quérir 73
-SFX iM quérir quièrent/12 quérir 28
+SFX iM quérir quièrent/12 quérir 29
 SFX iM quérir quisse/24 quérir 61
 SFX iM quérir quisses/21 quérir 67
 SFX iM quérir quît/12 quérir 52
@@ -7580,12 +7644,12 @@ SFX iN uir uirait fuir 23
 SFX iN uir uirions fuir 33
 SFX iN uir uiriez fuir 32
 SFX iN uir uiraient fuir 25
-SFX iN uir uie fuir 41
+SFX iN uir uie fuir 42
 SFX iN uir uies fuir 44
 SFX iN uir uie fuir 27
 SFX iN uir uyions fuir 74
 SFX iN uir uyiez fuir 73
-SFX iN uir uient fuir 28
+SFX iN uir uient fuir 29
 SFX iN uir uisse fuir 61
 SFX iN uir uisses fuir 67
 SFX iN uir uît fuir 52
@@ -7633,12 +7697,12 @@ SFX iO fuir fuirait/12 enfuir 23
 SFX iO fuir fuirions enfuir 33
 SFX iO fuir fuiriez enfuir 32
 SFX iO fuir fuiraient/12 enfuir 25
-SFX iO fuir fuie/24 enfuir 41
+SFX iO fuir fuie/24 enfuir 42
 SFX iO fuir fuies/21 enfuir 44
 SFX iO fuir fuie/12 enfuir 27
 SFX iO fuir fuyions enfuir 74
 SFX iO fuir fuyiez enfuir 73
-SFX iO fuir fuient/12 enfuir 28
+SFX iO fuir fuient/12 enfuir 29
 SFX iO fuir fuisse/24 enfuir 61
 SFX iO fuir fuisses/21 enfuir 67
 SFX iO fuir fuît/12 enfuir 52
@@ -7686,12 +7750,12 @@ SFX iP ourir ourrait mourir 23
 SFX iP ourir ourrions mourir 33
 SFX iP ourir ourriez mourir 32
 SFX iP ourir ourraient mourir 25
-SFX iP ourir eure mourir 41
+SFX iP ourir eure mourir 42
 SFX iP ourir eures mourir 44
 SFX iP ourir eure mourir 27
 SFX iP ourir ourions mourir 74
 SFX iP ourir ouriez mourir 73
-SFX iP ourir eurent mourir 28
+SFX iP ourir eurent mourir 29
 SFX iP ourir ourusse mourir 61
 SFX iP ourir ourusses mourir 67
 SFX iP ourir ourût mourir 52
@@ -7739,12 +7803,12 @@ SFX iQ ouillir ouillirait bouillir 23
 SFX iQ ouillir ouillirions bouillir 33
 SFX iQ ouillir ouilliriez bouillir 32
 SFX iQ ouillir ouilliraient bouillir 25
-SFX iQ ouillir ouille bouillir 41
+SFX iQ ouillir ouille bouillir 42
 SFX iQ ouillir ouilles bouillir 44
 SFX iQ ouillir ouille bouillir 27
 SFX iQ ouillir ouillions bouillir 74
 SFX iQ ouillir ouilliez bouillir 73
-SFX iQ ouillir ouillent bouillir 28
+SFX iQ ouillir ouillent bouillir 29
 SFX iQ ouillir ouillisse bouillir 61
 SFX iQ ouillir ouillisses bouillir 67
 SFX iQ ouillir ouillît bouillir 52
@@ -7792,12 +7856,12 @@ SFX iR ueillir ueillerait/6 cueillir 23
 SFX iR ueillir ueillerions/17 cueillir 33
 SFX iR ueillir ueilleriez/14 cueillir 32
 SFX iR ueillir ueilleraient/6 cueillir 25
-SFX iR ueillir ueille/54 cueillir 41
+SFX iR ueillir ueille/54 cueillir 42
 SFX iR ueillir ueilles/31 cueillir 44
 SFX iR ueillir ueille/6 cueillir 27
 SFX iR ueillir ueillions/56 cueillir 74
 SFX iR ueillir ueilliez/31 cueillir 73
-SFX iR ueillir ueillent/6 cueillir 28
+SFX iR ueillir ueillent/6 cueillir 29
 SFX iR ueillir ueillisse/30 cueillir 61
 SFX iR ueillir ueillisses/14 cueillir 67
 SFX iR ueillir ueillît/6 cueillir 52
@@ -7811,7 +7875,7 @@ SFX iR ueillir ueillez/31 cueillir 75
 SFX iS N 48
 SFX iS aillir aillir aillir 64
 SFX iS aillir aillant aillir 48
-SFX iS aillir ailli aillir 104
+SFX iS aillir ailli aillir 106
 SFX iS aillir aille aillir 34
 SFX iS aillir ailles aillir 35
 SFX iS aillir aille aillir 21
@@ -7842,12 +7906,12 @@ SFX iS aillir aillirait aillir 23
 SFX iS aillir aillirions aillir 33
 SFX iS aillir ailliriez aillir 32
 SFX iS aillir ailliraient aillir 25
-SFX iS aillir aille aillir 41
+SFX iS aillir aille aillir 42
 SFX iS aillir ailles aillir 44
 SFX iS aillir aille aillir 27
 SFX iS aillir aillions aillir 74
 SFX iS aillir ailliez aillir 73
-SFX iS aillir aillent aillir 28
+SFX iS aillir aillent aillir 29
 SFX iS aillir aillisse aillir 61
 SFX iS aillir aillisses aillir 67
 SFX iS aillir aillît aillir 52
@@ -7865,43 +7929,43 @@ SFX iT saillir sailli/28 aillir 85
 SFX iT saillir saillis/28 aillir 86
 SFX iT saillir saillie/28 aillir 80
 SFX iT saillir saillies/28 aillir 81
-SFX iT saillir saille/22 aillir 34
+SFX iT saillir saille/23 aillir 34
 SFX iT saillir sailles/20 aillir 35
 SFX iT saillir saille/6 aillir 21
 SFX iT saillir saillons/17 aillir 56
 SFX iT saillir saillez/14 aillir 72
 SFX iT saillir saillent/6 aillir 26
-SFX iT saillir saillais/22 aillir 66
+SFX iT saillir saillais/23 aillir 66
 SFX iT saillir saillais/20 aillir 65
 SFX iT saillir saillait/6 aillir 50
 SFX iT saillir saillions/17 aillir 77
 SFX iT saillir sailliez/14 aillir 76
 SFX iT saillir saillaient/6 aillir 51
-SFX iT saillir saillis/22 aillir 69
+SFX iT saillir saillis/23 aillir 69
 SFX iT saillir saillis/20 aillir 68
 SFX iT saillir saillit/6 aillir 53
 SFX iT saillir saillîmes/17 aillir 63
 SFX iT saillir saillîtes/14 aillir 62
 SFX iT saillir saillirent/6 aillir 71
-SFX iT saillir saillirai/22 aillir 38
+SFX iT saillir saillirai/23 aillir 38
 SFX iT saillir sailliras/20 aillir 37
 SFX iT saillir saillira/6 aillir 22
 SFX iT saillir saillirons/17 aillir 31
 SFX iT saillir saillirez/14 aillir 30
 SFX iT saillir sailliront/6 aillir 24
-SFX iT saillir saillirais/22 aillir 40
+SFX iT saillir saillirais/23 aillir 40
 SFX iT saillir saillirais/20 aillir 39
 SFX iT saillir saillirait/6 aillir 23
 SFX iT saillir saillirions/17 aillir 33
 SFX iT saillir sailliriez/14 aillir 32
 SFX iT saillir sailliraient/6 aillir 25
-SFX iT saillir saille/44 aillir 41
+SFX iT saillir saille/44 aillir 42
 SFX iT saillir sailles/36 aillir 44
 SFX iT saillir saille/6 aillir 27
 SFX iT saillir saillions/56 aillir 74
 SFX iT saillir sailliez/31 aillir 73
-SFX iT saillir saillent/6 aillir 28
-SFX iT saillir saillisse/22 aillir 61
+SFX iT saillir saillent/6 aillir 29
+SFX iT saillir saillisse/23 aillir 61
 SFX iT saillir saillisses/20 aillir 67
 SFX iT saillir saillît/6 aillir 52
 SFX iT saillir saillissions/17 aillir 60
@@ -7914,7 +7978,7 @@ SFX iT saillir saillez/31 aillir 75
 SFX iU N 45
 SFX iU aillir aillir faillir 64
 SFX iU aillir aillant faillir 48
-SFX iU aillir ailli faillir 104
+SFX iU aillir ailli faillir 106
 SFX iU aillir aux faillir 34
 SFX iU aillir aux faillir 35
 SFX iU aillir aut faillir 21
@@ -7945,12 +8009,12 @@ SFX iU aillir aillirait faillir 23
 SFX iU aillir aillirions faillir 33
 SFX iU aillir ailliriez faillir 32
 SFX iU aillir ailliraient faillir 25
-SFX iU aillir aille faillir 41
+SFX iU aillir aille faillir 42
 SFX iU aillir ailles faillir 44
 SFX iU aillir aille faillir 27
 SFX iU aillir aillions faillir 74
 SFX iU aillir ailliez faillir 73
-SFX iU aillir aillent faillir 28
+SFX iU aillir aillent faillir 29
 SFX iU aillir aillisse faillir 61
 SFX iU aillir aillisses faillir 67
 SFX iU aillir aillît faillir 52
@@ -7981,26 +8045,26 @@ SFX iW uïr uï/28 ouïr 85
 SFX iW uïr uïs/28 ouïr 86
 SFX iW uïr uïe/28 ouïr 80
 SFX iW uïr uïes/28 ouïr 81
-SFX iW uïr is/22 ouïr 34
+SFX iW uïr is/23 ouïr 34
 SFX iW uïr is/20 ouïr 35
 SFX iW uïr it/20 ouïr 21
 SFX iW uïr yons/17 ouïr 56
 SFX iW uïr yez/14 ouïr 72
 SFX iW uïr ient/6 ouïr 26
-SFX iW uïr yais/22 ouïr 66
+SFX iW uïr yais/23 ouïr 66
 SFX iW uïr yais/20 ouïr 65
 SFX iW uïr yait/20 ouïr 50
 SFX iW uïr yions/17 ouïr 77
 SFX iW uïr yiez/14 ouïr 76
 SFX iW uïr yaient/6 ouïr 51
-SFX iW uïr uïs/22 ouïr 69
+SFX iW uïr uïs/23 ouïr 69
 SFX iW uïr uïs/20 ouïr 68
 SFX iW uïr uït/20 ouïr 53
 SFX iW uïr uïmes/17 ouïr 63
 SFX iW uïr uïtes/14 ouïr 62
 SFX iW uïr uïrent/6 ouïr 71
-SFX iW uïr uïrai/22 ouïr 38
-SFX iW uïr rrai/22 ouïr 38
+SFX iW uïr uïrai/23 ouïr 38
+SFX iW uïr rrai/23 ouïr 38
 SFX iW uïr uïras/20 ouïr 37
 SFX iW uïr rras/20 ouïr 37
 SFX iW uïr uïra/20 ouïr 22
@@ -8011,8 +8075,8 @@ SFX iW uïr uïrez/14 ouïr 30
 SFX iW uïr rrez/14 ouïr 30
 SFX iW uïr uïront/6 ouïr 24
 SFX iW uïr rront/6 ouïr 24
-SFX iW uïr uïrais/22 ouïr 40
-SFX iW uïr rrais/22 ouïr 40
+SFX iW uïr uïrais/23 ouïr 40
+SFX iW uïr rrais/23 ouïr 40
 SFX iW uïr uïrais/20 ouïr 39
 SFX iW uïr rrais/20 ouïr 39
 SFX iW uïr uïrait/20 ouïr 23
@@ -8023,13 +8087,13 @@ SFX iW uïr uïriez/14 ouïr 32
 SFX iW uïr rriez/14 ouïr 32
 SFX iW uïr uïraient/6 ouïr 25
 SFX iW uïr rraient/6 ouïr 25
-SFX iW uïr ie/44 ouïr 41
+SFX iW uïr ie/44 ouïr 42
 SFX iW uïr ies/36 ouïr 44
 SFX iW uïr ie/6 ouïr 27
 SFX iW uïr yions/56 ouïr 74
 SFX iW uïr yiez/31 ouïr 73
-SFX iW uïr ient/6 ouïr 28
-SFX iW uïr uïsse/22 ouïr 61
+SFX iW uïr ient/6 ouïr 29
+SFX iW uïr uïsse/23 ouïr 61
 SFX iW uïr uïsses/20 ouïr 67
 SFX iW uïr uït/20 ouïr 52
 SFX iW uïr uïssions/17 ouïr 60
@@ -8056,7 +8120,7 @@ SFX iY ssir ssues/28 issir 81
 SFX pA N 48
 SFX pA ouvoir ouvoir pouvoir 64
 SFX pA ouvoir ouvant pouvoir 48
-SFX pA ouvoir u pouvoir 104
+SFX pA ouvoir u pouvoir 106
 SFX pA ouvoir eux pouvoir 34
 SFX pA ouvoir uis pouvoir 34
 SFX pA ouvoir uis pouvoir 34
@@ -8089,13 +8153,13 @@ SFX pA ouvoir ourrait pouvoir 23
 SFX pA ouvoir ourrions pouvoir 33
 SFX pA ouvoir ourriez pouvoir 32
 SFX pA ouvoir ourraient pouvoir 25
-SFX pA ouvoir uisse pouvoir 41
-SFX pA ouvoir uissé pouvoir 41
+SFX pA ouvoir uisse pouvoir 42
+SFX pA ouvoir uissé pouvoir 42
 SFX pA ouvoir uisses pouvoir 44
 SFX pA ouvoir uisse pouvoir 27
 SFX pA ouvoir uissions pouvoir 74
 SFX pA ouvoir uissiez pouvoir 73
-SFX pA ouvoir uissent pouvoir 28
+SFX pA ouvoir uissent pouvoir 29
 SFX pA ouvoir usse pouvoir 61
 SFX pA ouvoir usses pouvoir 67
 SFX pA ouvoir ût pouvoir 52
@@ -8140,13 +8204,13 @@ SFX pB ouloir oudrait vouloir 23
 SFX pB ouloir oudrions vouloir 33
 SFX pB ouloir oudriez vouloir 32
 SFX pB ouloir oudraient vouloir 25
-SFX pB ouloir euille vouloir 41
-SFX pB ouloir euillé vouloir 41
+SFX pB ouloir euille vouloir 42
+SFX pB ouloir euillé vouloir 42
 SFX pB ouloir euilles vouloir 44
 SFX pB ouloir euille vouloir 27
 SFX pB ouloir oulions vouloir 74
 SFX pB ouloir ouliez vouloir 73
-SFX pB ouloir euillent vouloir 28
+SFX pB ouloir euillent vouloir 29
 SFX pB ouloir oulusse vouloir 61
 SFX pB ouloir oulusses vouloir 67
 SFX pB ouloir oulût vouloir 52
@@ -8162,7 +8226,7 @@ SFX pB ouloir euillez vouloir 75
 SFX pC N 52
 SFX pC evoir evoir devoir 64
 SFX pC evoir evant devoir 48
-SFX pC evoir û redevoir 104
+SFX pC evoir û redevoir 106
 SFX pC evoir us devoir 86
 SFX pC evoir ue devoir 80
 SFX pC evoir ues devoir 81
@@ -8196,12 +8260,12 @@ SFX pC evoir evrait devoir 23
 SFX pC evoir evrions devoir 33
 SFX pC evoir evriez devoir 32
 SFX pC evoir evraient devoir 25
-SFX pC evoir oive devoir 41
+SFX pC evoir oive devoir 42
 SFX pC evoir oives devoir 44
 SFX pC evoir oive devoir 27
 SFX pC evoir evions devoir 74
 SFX pC evoir eviez devoir 73
-SFX pC evoir oivent devoir 28
+SFX pC evoir oivent devoir 29
 SFX pC evoir usse devoir 61
 SFX pC evoir ussé devoir 61
 SFX pC evoir usses devoir 67
@@ -8253,12 +8317,12 @@ SFX pE avoir aurait savoir 23
 SFX pE avoir aurions savoir 33
 SFX pE avoir auriez savoir 32
 SFX pE avoir auraient savoir 25
-SFX pE avoir ache savoir 41
+SFX pE avoir ache savoir 42
 SFX pE avoir aches savoir 44
 SFX pE avoir ache savoir 27
 SFX pE avoir achions savoir 74
 SFX pE avoir achiez savoir 73
-SFX pE avoir achent savoir 28
+SFX pE avoir achent savoir 29
 SFX pE avoir usse savoir 61
 SFX pE avoir usses savoir 67
 SFX pE avoir ût savoir 52
@@ -8276,25 +8340,25 @@ SFX pF oir u/28 voir 85
 SFX pF oir us/28 voir 86
 SFX pF oir ue/28 voir 80
 SFX pF oir ues/28 voir 81
-SFX pF oir ois/22 voir 34
+SFX pF oir ois/23 voir 34
 SFX pF oir ois/20 voir 35
 SFX pF oir oit/6 voir 21
 SFX pF oir oyons/17 voir 56
 SFX pF oir oyez/14 voir 72
 SFX pF oir oient/6 voir 26
-SFX pF oir oyais/22 voir 66
+SFX pF oir oyais/23 voir 66
 SFX pF oir oyais/20 voir 65
 SFX pF oir oyait/6 voir 50
 SFX pF oir oyions/17 voir 77
 SFX pF oir oyiez/14 voir 76
 SFX pF oir oyaient/6 voir 51
-SFX pF oir is/22 voir 69
+SFX pF oir is/23 voir 69
 SFX pF oir is/20 voir 68
 SFX pF oir it/6 voir 53
 SFX pF oir îmes/17 voir 63
 SFX pF oir îtes/14 voir 62
 SFX pF oir irent/6 voir 71
-SFX pF oir errai/22 [^é]voir 38
+SFX pF oir errai/23 [^é]voir 38
 SFX pF oir oirai évoir 38
 SFX pF oir erras/20 [^é]voir 37
 SFX pF oir oiras évoir 37
@@ -8306,7 +8370,7 @@ SFX pF oir errez/14 [^é]voir 30
 SFX pF oir oirez évoir 30
 SFX pF oir erront/6 [^é]voir 24
 SFX pF oir oiront évoir 24
-SFX pF oir errais/22 [^é]voir 40
+SFX pF oir errais/23 [^é]voir 40
 SFX pF oir oirais évoir 40
 SFX pF oir errais/20 [^é]voir 39
 SFX pF oir oirais évoir 39
@@ -8318,13 +8382,13 @@ SFX pF oir erriez/14 [^é]voir 32
 SFX pF oir oiriez évoir 32
 SFX pF oir erraient/6 [^é]voir 25
 SFX pF oir oiraient évoir 25
-SFX pF oir oie/44 voir 41
+SFX pF oir oie/44 voir 42
 SFX pF oir oies/36 voir 44
 SFX pF oir oie/6 voir 27
 SFX pF oir oyions/56 voir 74
 SFX pF oir oyiez/31 voir 73
-SFX pF oir oient/6 voir 28
-SFX pF oir isse/22 voir 61
+SFX pF oir oient/6 voir 29
+SFX pF oir isse/23 voir 61
 SFX pF oir isses/20 voir 67
 SFX pF oir ît/6 voir 52
 SFX pF oir issions/17 voir 60
@@ -8355,43 +8419,43 @@ SFX pH ouvoir u/28 .mouvoir 85
 SFX pH ouvoir us/28 mouvoir 86
 SFX pH ouvoir ue/28 mouvoir 80
 SFX pH ouvoir ues/28 mouvoir 81
-SFX pH ouvoir eus/22 mouvoir 34
+SFX pH ouvoir eus/23 mouvoir 34
 SFX pH ouvoir eus/20 mouvoir 35
 SFX pH ouvoir eut/6 mouvoir 21
 SFX pH ouvoir ouvons/17 mouvoir 56
 SFX pH ouvoir ouvez/14 mouvoir 72
 SFX pH ouvoir euvent/6 mouvoir 26
-SFX pH ouvoir ouvais/22 mouvoir 66
+SFX pH ouvoir ouvais/23 mouvoir 66
 SFX pH ouvoir ouvais/20 mouvoir 65
 SFX pH ouvoir ouvait/6 mouvoir 50
 SFX pH ouvoir ouvions/17 mouvoir 77
 SFX pH ouvoir ouviez/14 mouvoir 76
 SFX pH ouvoir ouvaient/6 mouvoir 51
-SFX pH ouvoir us/22 mouvoir 69
+SFX pH ouvoir us/23 mouvoir 69
 SFX pH ouvoir us/20 mouvoir 68
 SFX pH ouvoir ut/6 mouvoir 53
 SFX pH ouvoir ûmes/17 mouvoir 63
 SFX pH ouvoir ûtes/14 mouvoir 62
 SFX pH ouvoir urent/6 mouvoir 71
-SFX pH ouvoir ouvrai/22 mouvoir 38
+SFX pH ouvoir ouvrai/23 mouvoir 38
 SFX pH ouvoir ouvras/20 mouvoir 37
 SFX pH ouvoir ouvra/6 mouvoir 22
 SFX pH ouvoir ouvrons/17 mouvoir 31
 SFX pH ouvoir ouvrez/14 mouvoir 30
 SFX pH ouvoir ouvront/6 mouvoir 24
-SFX pH ouvoir ouvrais/22 mouvoir 40
+SFX pH ouvoir ouvrais/23 mouvoir 40
 SFX pH ouvoir ouvrais/20 mouvoir 39
 SFX pH ouvoir ouvrait/6 mouvoir 23
 SFX pH ouvoir ouvrions/17 mouvoir 33
 SFX pH ouvoir ouvriez/14 mouvoir 32
 SFX pH ouvoir ouvraient/6 mouvoir 25
-SFX pH ouvoir euve/44 mouvoir 41
+SFX pH ouvoir euve/44 mouvoir 42
 SFX pH ouvoir euves/36 mouvoir 44
 SFX pH ouvoir euve/6 mouvoir 27
 SFX pH ouvoir ouvions/17 mouvoir 74
 SFX pH ouvoir ouviez/14 mouvoir 73
-SFX pH ouvoir euvent/6 mouvoir 28
-SFX pH ouvoir usse/22 mouvoir 61
+SFX pH ouvoir euvent/6 mouvoir 29
+SFX pH ouvoir usse/23 mouvoir 61
 SFX pH ouvoir usses/20 mouvoir 67
 SFX pH ouvoir ût/6 mouvoir 52
 SFX pH ouvoir ussions/17 mouvoir 60
@@ -8441,12 +8505,12 @@ SFX pJ ourvoir ourvoirait pourvoir 23
 SFX pJ ourvoir ourvoirions pourvoir 33
 SFX pJ ourvoir ourvoiriez pourvoir 32
 SFX pJ ourvoir ourvoiraient pourvoir 25
-SFX pJ ourvoir ourvoie pourvoir 41
+SFX pJ ourvoir ourvoie pourvoir 42
 SFX pJ ourvoir ourvoies pourvoir 44
 SFX pJ ourvoir ourvoie pourvoir 27
 SFX pJ ourvoir ourvoyions pourvoir 74
 SFX pJ ourvoir ourvoyiez pourvoir 73
-SFX pJ ourvoir ourvoient pourvoir 28
+SFX pJ ourvoir ourvoient pourvoir 29
 SFX pJ ourvoir ourvusse pourvoir 61
 SFX pJ ourvoir ourvusses pourvoir 67
 SFX pJ ourvoir ourvût pourvoir 52
@@ -8464,43 +8528,43 @@ SFX pK cevoir çu/28 cevoir 85
 SFX pK cevoir çus/28 cevoir 86
 SFX pK cevoir çue/28 cevoir 80
 SFX pK cevoir çues/28 cevoir 81
-SFX pK cevoir çois/22 cevoir 34
+SFX pK cevoir çois/23 cevoir 34
 SFX pK cevoir çois/20 cevoir 35
 SFX pK cevoir çoit/6 cevoir 21
 SFX pK cevoir cevons/17 cevoir 56
 SFX pK cevoir cevez/14 cevoir 72
 SFX pK cevoir çoivent/6 cevoir 26
-SFX pK cevoir cevais/22 cevoir 66
+SFX pK cevoir cevais/23 cevoir 66
 SFX pK cevoir cevais/20 cevoir 65
 SFX pK cevoir cevait/6 cevoir 50
 SFX pK cevoir cevions/17 cevoir 77
 SFX pK cevoir ceviez/14 cevoir 76
 SFX pK cevoir cevaient/6 cevoir 51
-SFX pK cevoir çus/22 cevoir 69
+SFX pK cevoir çus/23 cevoir 69
 SFX pK cevoir çus/20 cevoir 68
 SFX pK cevoir çut/6 cevoir 53
 SFX pK cevoir çûmes/17 cevoir 63
 SFX pK cevoir çûtes/14 cevoir 62
 SFX pK cevoir çurent/6 cevoir 71
-SFX pK cevoir cevrai/22 cevoir 38
+SFX pK cevoir cevrai/23 cevoir 38
 SFX pK cevoir cevras/20 cevoir 37
 SFX pK cevoir cevra/6 cevoir 22
 SFX pK cevoir cevrons/17 cevoir 31
 SFX pK cevoir cevrez/14 cevoir 30
 SFX pK cevoir cevront/6 cevoir 24
-SFX pK cevoir cevrais/22 cevoir 40
+SFX pK cevoir cevrais/23 cevoir 40
 SFX pK cevoir cevrais/20 cevoir 39
 SFX pK cevoir cevrait/6 cevoir 23
 SFX pK cevoir cevrions/17 cevoir 33
 SFX pK cevoir cevriez/14 cevoir 32
 SFX pK cevoir cevraient/6 cevoir 25
-SFX pK cevoir çoive/44 cevoir 41
+SFX pK cevoir çoive/44 cevoir 42
 SFX pK cevoir çoives/36 cevoir 44
 SFX pK cevoir çoive/6 cevoir 27
 SFX pK cevoir cevions/56 cevoir 74
 SFX pK cevoir ceviez/31 cevoir 73
-SFX pK cevoir çoivent/6 cevoir 28
-SFX pK cevoir çusse/22 cevoir 61
+SFX pK cevoir çoivent/6 cevoir 29
+SFX pK cevoir çusse/23 cevoir 61
 SFX pK cevoir çusses/20 cevoir 67
 SFX pK cevoir çût/6 cevoir 52
 SFX pK cevoir çussions/17 cevoir 60
@@ -8513,7 +8577,7 @@ SFX pK cevoir cevez/31 cevoir 75
 SFX pM N 48
 SFX pM aloir aloir valoir 64
 SFX pM aloir alant valoir 48
-SFX pM aloir alu valoir 104
+SFX pM aloir alu valoir 106
 SFX pM aloir aux valoir 34
 SFX pM aloir aux valoir 35
 SFX pM aloir aut valoir 21
@@ -8544,12 +8608,12 @@ SFX pM aloir audrait valoir 23
 SFX pM aloir audrions valoir 33
 SFX pM aloir audriez valoir 32
 SFX pM aloir audraient valoir 25
-SFX pM aloir aille valoir 41
+SFX pM aloir aille valoir 42
 SFX pM aloir ailles valoir 44
 SFX pM aloir aille valoir 27
 SFX pM aloir alions valoir 74
 SFX pM aloir aliez valoir 73
-SFX pM aloir aillent valoir 28
+SFX pM aloir aillent valoir 29
 SFX pM aloir alusse valoir 61
 SFX pM aloir alusses valoir 67
 SFX pM aloir alût valoir 52
@@ -8593,16 +8657,16 @@ SFX pN valoir vaudrait/70 valoir 23
 SFX pN valoir vaudrions/35 valoir 33
 SFX pN valoir vaudriez/32 valoir 32
 SFX pN valoir vaudraient/70 valoir 25
-SFX pN valoir vaille/27 quivaloir 41
-SFX pN valoir vale révaloir 41
+SFX pN valoir vaille/27 quivaloir 42
+SFX pN valoir vale révaloir 42
 SFX pN valoir vailles/25 quivaloir 44
 SFX pN valoir vales révaloir 44
 SFX pN valoir vaille/70 quivaloir 27
 SFX pN valoir vale révaloir 27
 SFX pN valoir valions/35 valoir 74
 SFX pN valoir valiez/32 valoir 73
-SFX pN valoir vaillent/70 quivaloir 28
-SFX pN valoir valent révaloir 28
+SFX pN valoir vaillent/70 quivaloir 29
+SFX pN valoir valent révaloir 29
 SFX pN valoir valusse/27 valoir 61
 SFX pN valoir valusses/25 valoir 67
 SFX pN valoir valût/70 valoir 52
@@ -8649,76 +8713,76 @@ SFX pS Y 84
 SFX pS oir oir/53 oir 64
 SFX pS sseoir sseyant/6 seoir 48
 SFX pS sseoir ssoyant/6 seoir 48
-SFX pS sseoir ssis/28 seoir 120
+SFX pS sseoir ssis/28 seoir 121
 SFX pS sseoir ssise/28 seoir 80
 SFX pS sseoir ssises/28 seoir 81
-SFX pS sseoir ssieds/22 seoir 34
+SFX pS sseoir ssieds/23 seoir 34
 SFX pS sseoir ssieds/20 seoir 35
 SFX pS sseoir ssied/6 seoir 21
 SFX pS sseoir sseyons/17 seoir 56
 SFX pS sseoir sseyez/14 seoir 72
 SFX pS sseoir sseyent/6 seoir 26
-SFX pS sseoir ssois/22 seoir 34
+SFX pS sseoir ssois/23 seoir 34
 SFX pS sseoir ssois/20 seoir 35
 SFX pS sseoir ssoit/6 seoir 21
 SFX pS sseoir ssoyons/17 seoir 56
 SFX pS sseoir ssoyez/14 seoir 72
 SFX pS sseoir ssoient/6 seoir 26
-SFX pS sseoir sseyais/22 seoir 66
+SFX pS sseoir sseyais/23 seoir 66
 SFX pS sseoir sseyais/20 seoir 65
 SFX pS sseoir sseyait/6 seoir 50
 SFX pS sseoir sseyions/17 seoir 77
 SFX pS sseoir sseyiez/14 seoir 76
 SFX pS sseoir sseyaient/6 seoir 51
-SFX pS sseoir ssoyais/22 seoir 66
+SFX pS sseoir ssoyais/23 seoir 66
 SFX pS sseoir ssoyais/20 seoir 65
 SFX pS sseoir ssoyait/6 seoir 50
 SFX pS sseoir ssoyions/17 seoir 77
 SFX pS sseoir ssoyiez/14 seoir 76
 SFX pS sseoir ssoyaient/6 seoir 51
-SFX pS sseoir ssis/22 seoir 69
+SFX pS sseoir ssis/23 seoir 69
 SFX pS sseoir ssis/20 seoir 68
 SFX pS sseoir ssit/6 seoir 53
 SFX pS sseoir ssîmes/17 seoir 63
 SFX pS sseoir ssîtes/14 seoir 62
 SFX pS sseoir ssirent/6 seoir 71
-SFX pS sseoir ssiérai/22 seoir 38
+SFX pS sseoir ssiérai/23 seoir 38
 SFX pS sseoir ssiéras/20 seoir 37
 SFX pS sseoir ssiéra/6 seoir 22
 SFX pS sseoir ssiérons/17 seoir 31
 SFX pS sseoir ssiérez/14 seoir 30
 SFX pS sseoir ssiéront/6 seoir 24
-SFX pS sseoir ssoirai/22 seoir 38
+SFX pS sseoir ssoirai/23 seoir 38
 SFX pS sseoir ssoiras/20 seoir 37
 SFX pS sseoir ssoira/6 seoir 22
 SFX pS sseoir ssoirons/17 seoir 31
 SFX pS sseoir ssoirez/14 seoir 30
 SFX pS sseoir ssoiront/6 seoir 24
-SFX pS sseoir ssiérais/22 seoir 40
+SFX pS sseoir ssiérais/23 seoir 40
 SFX pS sseoir ssiérais/20 seoir 39
 SFX pS sseoir ssiérait/6 seoir 23
 SFX pS sseoir ssiérions/17 seoir 33
 SFX pS sseoir ssiériez/14 seoir 32
 SFX pS sseoir ssiéraient/6 seoir 25
-SFX pS sseoir ssoirais/22 seoir 40
+SFX pS sseoir ssoirais/23 seoir 40
 SFX pS sseoir ssoirais/20 seoir 39
 SFX pS sseoir ssoirait/6 seoir 23
 SFX pS sseoir ssoirions/17 seoir 33
 SFX pS sseoir ssoiriez/14 seoir 32
 SFX pS sseoir ssoiraient/6 seoir 25
-SFX pS sseoir sseye/44 seoir 41
+SFX pS sseoir sseye/44 seoir 42
 SFX pS sseoir sseyes/36 seoir 44
 SFX pS sseoir sseye/6 seoir 27
 SFX pS sseoir sseyions/56 seoir 74
 SFX pS sseoir sseyiez/31 seoir 73
-SFX pS sseoir sseyent/6 seoir 28
-SFX pS sseoir ssoie/44 seoir 41
+SFX pS sseoir sseyent/6 seoir 29
+SFX pS sseoir ssoie/44 seoir 42
 SFX pS sseoir ssoies/36 seoir 44
 SFX pS sseoir ssoie/6 seoir 27
 SFX pS sseoir ssoyions/56 seoir 74
 SFX pS sseoir ssoyiez/31 seoir 73
-SFX pS sseoir ssoient/6 seoir 28
-SFX pS sseoir ssisse/22 seoir 61
+SFX pS sseoir ssoient/6 seoir 29
+SFX pS sseoir ssisse/23 seoir 61
 SFX pS sseoir ssisses/20 seoir 67
 SFX pS sseoir ssît/6 seoir 52
 SFX pS sseoir ssissions/17 seoir 60
@@ -8734,7 +8798,7 @@ SFX pS sseoir ssoyez/31 seoir 75
 SFX pT N 50
 SFX pT oir oir oir 64
 SFX pT urseoir ursoyant seoir 48
-SFX pT urseoir ursis seoir 120
+SFX pT urseoir ursis seoir 121
 SFX pT urseoir ursise seoir 80
 SFX pT urseoir ursises seoir 81
 SFX pT urseoir ursois seoir 34
@@ -8767,12 +8831,12 @@ SFX pT urseoir urseoirait seoir 23
 SFX pT urseoir urseoirions seoir 33
 SFX pT urseoir urseoiriez seoir 32
 SFX pT urseoir urseoiraient seoir 25
-SFX pT urseoir ursoie seoir 41
+SFX pT urseoir ursoie seoir 42
 SFX pT urseoir ursoies seoir 44
 SFX pT urseoir ursoie seoir 27
 SFX pT urseoir ursoyions seoir 74
 SFX pT urseoir ursoyiez seoir 73
-SFX pT urseoir ursoient seoir 28
+SFX pT urseoir ursoient seoir 29
 SFX pT urseoir ursisse seoir 61
 SFX pT urseoir ursisses seoir 67
 SFX pT urseoir ursît seoir 52
@@ -8786,7 +8850,7 @@ SFX pT urseoir ursoyez seoir 75
 SFX pU N 5
 SFX pU eoir eoir seoir 64
 SFX pU eoir éant seoir 48
-SFX pU eoir is seoir 120
+SFX pU eoir is seoir 121
 SFX pU eoir ise seoir 80
 SFX pU eoir ises seoir 81
 
@@ -8794,7 +8858,7 @@ SFX pV N 14
 SFX pV eoir eoir seoir 64
 SFX pV eoir éant seoir 48
 SFX pV eoir eyant seoir 48
-SFX pV eoir is seoir 104
+SFX pV eoir is seoir 106
 SFX pV eoir ied seoir 21
 SFX pV eoir iéent seoir 26
 SFX pV eoir eyait seoir 50
@@ -8804,7 +8868,7 @@ SFX pV eoir iéront seoir 24
 SFX pV eoir iérait seoir 23
 SFX pV eoir iéraient seoir 25
 SFX pV eoir iée seoir 27
-SFX pV eoir iéent seoir 28
+SFX pV eoir iéent seoir 29
 
 SFX pW N 12
 SFX pW oir oir oir 64
@@ -8818,7 +8882,7 @@ SFX pW sseoir ssiéront seoir 24
 SFX pW sseoir ssiérait seoir 23
 SFX pW sseoir ssiéraient seoir 25
 SFX pW sseoir ssiée seoir 27
-SFX pW sseoir ssiéent seoir 28
+SFX pW sseoir ssiéent seoir 29
 
 SFX pX N 62
 SFX pX hoir hoir choir 64
@@ -8868,12 +8932,12 @@ SFX pX hoir hoiriez choir 32
 SFX pX hoir herriez choir 32
 SFX pX hoir hoiraient choir 25
 SFX pX hoir herraient choir 25
-SFX pX hoir hoie choir 41
+SFX pX hoir hoie choir 42
 SFX pX hoir hoies choir 44
 SFX pX hoir hoie choir 27
 SFX pX hoir hoyions choir 74
 SFX pX hoir hoyiez choir 73
-SFX pX hoir hoient choir 28
+SFX pX hoir hoient choir 29
 SFX pX hoir husse choir 61
 SFX pX hoir husses choir 67
 SFX pX hoir hût choir 52
@@ -8908,14 +8972,14 @@ SFX pY choir cherrait/16 échoir 23
 SFX pY choir choiraient/16 échoir 25
 SFX pY choir cherraient/16 échoir 25
 SFX pY choir choie/16 échoir 27
-SFX pY choir choient/16 échoir 28
+SFX pY choir choient/16 échoir 29
 SFX pY choir chût/16 échoir 52
 SFX pY choir chussent/16 échoir 54
 
 SFX pZ N 20
 SFX pZ euvoir euvoir pleuvoir 64
 SFX pZ euvoir euvant pleuvoir 48
-SFX pZ euvoir u pleuvoir 104
+SFX pZ euvoir u pleuvoir 106
 SFX pZ euvoir eut pleuvoir 21
 SFX pZ euvoir euvent pleuvoir 26
 SFX pZ euvoir euvait pleuvoir 50
@@ -8927,7 +8991,7 @@ SFX pZ euvoir euvront pleuvoir 24
 SFX pZ euvoir euvrait pleuvoir 23
 SFX pZ euvoir euvraient pleuvoir 25
 SFX pZ euvoir euve pleuvoir 27
-SFX pZ euvoir euvent pleuvoir 28
+SFX pZ euvoir euvent pleuvoir 29
 SFX pZ euvoir ût pleuvoir 52
 SFX pZ euvoir ussent pleuvoir 54
 SFX pZ euvoir eus pleuvoir 36
@@ -8936,7 +9000,7 @@ SFX pZ euvoir euvez pleuvoir 75
 
 SFX qA N 9
 SFX qA alloir alloir falloir 64
-SFX qA alloir allu falloir 104
+SFX qA alloir allu falloir 106
 SFX qA alloir aut falloir 21
 SFX qA alloir allait falloir 50
 SFX qA alloir allut falloir 53
@@ -8948,33 +9012,33 @@ SFX qA alloir allût falloir 52
 SFX rA Y 32
 SFX rA lore lore/53 clore 64
 SFX rA lore losant/6 clore 48
-SFX rA lore los/28 clore 120
+SFX rA lore los/28 clore 121
 SFX rA lore lose/28 clore 80
 SFX rA lore loses/28 clore 81
-SFX rA lore los/22 clore 34
+SFX rA lore los/23 clore 34
 SFX rA lore los/20 clore 35
 SFX rA lore lot/6 .clore 21
 SFX rA lore losons/17 clore 56
 SFX rA lore losez/14 clore 72
 SFX rA lore losent/6 clore 26
-SFX rA lore lorai/22 clore 38
+SFX rA lore lorai/23 clore 38
 SFX rA lore loras/20 clore 37
 SFX rA lore lora/6 clore 22
 SFX rA lore lorons/17 clore 31
 SFX rA lore lorez/14 clore 30
 SFX rA lore loront/6 clore 24
-SFX rA lore lorais/22 clore 40
+SFX rA lore lorais/23 clore 40
 SFX rA lore lorais/20 clore 39
 SFX rA lore lorait/6 clore 23
 SFX rA lore lorions/17 clore 33
 SFX rA lore loriez/14 clore 32
 SFX rA lore loraient/6 clore 25
-SFX rA lore lose/44 clore 41
+SFX rA lore lose/44 clore 42
 SFX rA lore loses/36 clore 44
 SFX rA lore lose/6 clore 27
 SFX rA lore losions/56 clore 74
 SFX rA lore losiez/31 clore 73
-SFX rA lore losent/6 clore 28
+SFX rA lore losent/6 clore 29
 SFX rA lore los/31 clore 36
 SFX rA lore losons/46 clore 58
 SFX rA lore losez/31 clore 75
@@ -8985,7 +9049,7 @@ SFX rB lore lôt clore 21
 SFX rC Y 32
 SFX rC clore clore/80 clore 64
 SFX rC clore closant/16 clore 48
-SFX rC clore clos/28 clore 120
+SFX rC clore clos/28 clore 121
 SFX rC clore close/28 clore 80
 SFX rC clore closes/28 clore 81
 SFX rC clore clos/26 clore 34
@@ -9006,19 +9070,19 @@ SFX rC clore clorait/16 clore 23
 SFX rC clore clorions/13 clore 33
 SFX rC clore cloriez/13 clore 32
 SFX rC clore cloraient/16 clore 25
-SFX rC clore close/26 clore 41
+SFX rC clore close/26 clore 42
 SFX rC clore closes/13 clore 44
 SFX rC clore close/16 clore 27
 SFX rC clore closions/13 clore 74
 SFX rC clore closiez/13 clore 73
-SFX rC clore closent/16 clore 28
+SFX rC clore closent/16 clore 29
 SFX rC clore clos/13 clore 36
 SFX rC clore closons/13 clore 58
 SFX rC clore closez/13 clore 75
 
 SFX rD N 4
 SFX rD clore clore clore 64
-SFX rD clore clos clore 120
+SFX rD clore clos clore 121
 SFX rD clore close clore 80
 SFX rD clore closes clore 81
 
@@ -9029,44 +9093,44 @@ SFX tA re u/28 [dp]re 85
 SFX tA re us/28 [dp]re 86
 SFX tA re ue/28 [dp]re 80
 SFX tA re ues/28 [dp]re 81
-SFX tA re s/22 [dp]re 34
+SFX tA re s/23 [dp]re 34
 SFX tA re s/20 [dp]re 35
 SFX tA dre d/6 dre 21
 SFX tA pre pt/6 pre 21
 SFX tA re ons/17 [dp]re 56
 SFX tA re ez/14 [dp]re 72
 SFX tA re ent/6 [dp]re 26
-SFX tA re ais/22 [dp]re 66
+SFX tA re ais/23 [dp]re 66
 SFX tA re ais/20 [dp]re 65
 SFX tA re ait/6 [dp]re 50
 SFX tA re ions/17 [dp]re 77
 SFX tA re iez/14 [dp]re 76
 SFX tA re aient/6 [dp]re 51
-SFX tA re is/22 [dp]re 69
+SFX tA re is/23 [dp]re 69
 SFX tA re is/20 [dp]re 68
 SFX tA re it/6 [dp]re 53
 SFX tA re îmes/17 [dp]re 63
 SFX tA re îtes/14 [dp]re 62
 SFX tA re irent/6 [dp]re 71
-SFX tA re rai/22 [dp]re 38
+SFX tA re rai/23 [dp]re 38
 SFX tA re ras/20 [dp]re 37
 SFX tA re ra/6 [dp]re 22
 SFX tA re rons/17 [dp]re 31
 SFX tA re rez/14 [dp]re 30
 SFX tA re ront/6 [dp]re 24
-SFX tA re rais/22 [dp]re 40
+SFX tA re rais/23 [dp]re 40
 SFX tA re rais/20 [dp]re 39
 SFX tA re rait/6 [dp]re 23
 SFX tA re rions/17 [dp]re 33
 SFX tA re riez/14 [dp]re 32
 SFX tA re raient/6 [dp]re 25
-SFX tA re e/44 [dp]re 41
+SFX tA re e/44 [dp]re 42
 SFX tA re es/36 [dp]re 44
 SFX tA re e/6 [dp]re 27
 SFX tA re ions/56 [dp]re 74
 SFX tA re iez/31 [dp]re 73
-SFX tA re ent/6 [dp]re 28
-SFX tA re isse/22 [dp]re 61
+SFX tA re ent/6 [dp]re 29
+SFX tA re isse/23 [dp]re 61
 SFX tA re isses/20 [dp]re 67
 SFX tA re ît/6 [dp]re 52
 SFX tA re issions/17 [dp]re 60
@@ -9113,12 +9177,12 @@ SFX tD perdre perdrait/12 perdre 23
 SFX tD perdre perdrions perdre 33
 SFX tD perdre perdriez perdre 32
 SFX tD perdre perdraient/12 perdre 25
-SFX tD perdre perde perdre 41
+SFX tD perdre perde perdre 42
 SFX tD perdre perdes perdre 44
 SFX tD perdre perde perdre 27
 SFX tD perdre perdions perdre 74
 SFX tD perdre perdiez perdre 73
-SFX tD perdre perdent perdre 28
+SFX tD perdre perdent perdre 29
 SFX tD perdre perdisse/24 perdre 61
 SFX tD perdre perdisses/21 perdre 67
 SFX tD perdre perdît/12 perdre 52
@@ -9162,12 +9226,12 @@ SFX tE dre drait dre 23
 SFX tE dre drions dre 33
 SFX tE dre driez dre 32
 SFX tE dre draient dre 25
-SFX tE dre de dre 41
+SFX tE dre de dre 42
 SFX tE dre des dre 44
 SFX tE dre de dre 27
 SFX tE dre dions dre 74
 SFX tE dre diez dre 73
-SFX tE dre dent dre 28
+SFX tE dre dent dre 29
 SFX tE dre disse dre 61
 SFX tE dre disses dre 67
 SFX tE dre dît dre 52
@@ -9181,46 +9245,46 @@ SFX tE dre dez dre 75
 SFX tF Y 50
 SFX tF rendre rendre/53 prendre 64
 SFX tF rendre renant/6 prendre 48
-SFX tF rendre ris/28 prendre 120
+SFX tF rendre ris/28 prendre 121
 SFX tF rendre rise/28 prendre 80
 SFX tF rendre rises/28 prendre 81
-SFX tF rendre rends/22 prendre 34
+SFX tF rendre rends/23 prendre 34
 SFX tF rendre rends/20 prendre 35
 SFX tF rendre rend/6 prendre 21
 SFX tF rendre renons/17 prendre 56
 SFX tF rendre renez/14 prendre 72
 SFX tF rendre rennent/6 prendre 26
-SFX tF rendre renais/22 prendre 66
+SFX tF rendre renais/23 prendre 66
 SFX tF rendre renais/20 prendre 65
 SFX tF rendre renait/6 prendre 50
 SFX tF rendre renions/17 prendre 77
 SFX tF rendre reniez/14 prendre 76
 SFX tF rendre renaient/6 prendre 51
-SFX tF rendre ris/22 prendre 69
+SFX tF rendre ris/23 prendre 69
 SFX tF rendre ris/20 prendre 68
 SFX tF rendre rit/6 prendre 53
 SFX tF rendre rîmes/17 prendre 63
 SFX tF rendre rîtes/14 prendre 62
 SFX tF rendre rirent/6 prendre 71
-SFX tF rendre rendrai/22 prendre 38
+SFX tF rendre rendrai/23 prendre 38
 SFX tF rendre rendras/20 prendre 37
 SFX tF rendre rendra/6 prendre 22
 SFX tF rendre rendrons/17 prendre 31
 SFX tF rendre rendrez/14 prendre 30
 SFX tF rendre rendront/6 prendre 24
-SFX tF rendre rendrais/22 prendre 40
+SFX tF rendre rendrais/23 prendre 40
 SFX tF rendre rendrais/20 prendre 39
 SFX tF rendre rendrait/6 prendre 23
 SFX tF rendre rendrions/17 prendre 33
 SFX tF rendre rendriez/14 prendre 32
 SFX tF rendre rendraient/6 prendre 25
-SFX tF rendre renne/44 prendre 41
+SFX tF rendre renne/44 prendre 42
 SFX tF rendre rennes/36 prendre 44
 SFX tF rendre renne/6 prendre 27
 SFX tF rendre renions/56 prendre 74
 SFX tF rendre reniez/31 prendre 73
-SFX tF rendre rennent/6 prendre 28
-SFX tF rendre risse/22 prendre 61
+SFX tF rendre rennent/6 prendre 29
+SFX tF rendre risse/23 prendre 61
 SFX tF rendre risses/20 prendre 67
 SFX tF rendre rît/6 prendre 52
 SFX tF rendre rissions/17 prendre 60
@@ -9233,7 +9297,7 @@ SFX tF rendre renez/31 prendre 75
 SFX tG Y 50
 SFX tG prendre prendre/59 prendre 64
 SFX tG prendre prenant/59 prendre 48
-SFX tG prendre pris/28 prendre 120
+SFX tG prendre pris/28 prendre 121
 SFX tG prendre prise/28 prendre 80
 SFX tG prendre prises/28 prendre 81
 SFX tG prendre prends/24 prendre 34
@@ -9266,12 +9330,12 @@ SFX tG prendre prendrait/12 prendre 23
 SFX tG prendre prendrions prendre 33
 SFX tG prendre prendriez prendre 32
 SFX tG prendre prendraient/12 prendre 25
-SFX tG prendre prenne/24 prendre 41
+SFX tG prendre prenne/24 prendre 42
 SFX tG prendre prennes/21 prendre 44
 SFX tG prendre prenne/12 prendre 27
 SFX tG prendre prenions prendre 74
 SFX tG prendre preniez prendre 73
-SFX tG prendre prennent/12 prendre 28
+SFX tG prendre prennent/12 prendre 29
 SFX tG prendre prisse/24 prendre 61
 SFX tG prendre prisses/21 prendre 67
 SFX tG prendre prît/12 prendre 52
@@ -9313,12 +9377,12 @@ SFX tM outre outrait foutre 23
 SFX tM outre outrions foutre 33
 SFX tM outre outriez foutre 32
 SFX tM outre outraient foutre 25
-SFX tM outre oute foutre 41
+SFX tM outre oute foutre 42
 SFX tM outre outes foutre 44
 SFX tM outre oute foutre 27
 SFX tM outre outions foutre 74
 SFX tM outre outiez foutre 73
-SFX tM outre outent foutre 28
+SFX tM outre outent foutre 29
 SFX tM outre ous foutre 36
 SFX tM outre outons foutre 58
 SFX tM outre outez foutre 75
@@ -9337,46 +9401,46 @@ SFX uA tre tu/28 tre 85
 SFX uA tre tus/28 tre 86
 SFX uA tre tue/28 tre 80
 SFX uA tre tues/28 tre 81
-SFX uA ttre ts/22 ttre 34
+SFX uA ttre ts/23 ttre 34
 SFX uA ttre ts/20 ttre 35
 SFX uA ttre t/6 ttre 21
-SFX uA tre ts/22 embatre 34
+SFX uA tre ts/23 embatre 34
 SFX uA tre ts/20 embatre 35
 SFX uA tre t/6 embatre 21
 SFX uA tre tons/17 tre 56
 SFX uA tre tez/14 tre 72
 SFX uA tre tent/6 tre 26
-SFX uA tre tais/22 tre 66
+SFX uA tre tais/23 tre 66
 SFX uA tre tais/20 tre 65
 SFX uA tre tait/6 tre 50
 SFX uA tre tions/17 tre 77
 SFX uA tre tiez/14 tre 76
 SFX uA tre taient/6 tre 51
-SFX uA tre tis/22 tre 69
+SFX uA tre tis/23 tre 69
 SFX uA tre tis/20 tre 68
 SFX uA tre tit/6 tre 53
 SFX uA tre tîmes/17 tre 63
 SFX uA tre tîtes/14 tre 62
 SFX uA tre tirent/6 tre 71
-SFX uA tre trai/22 tre 38
+SFX uA tre trai/23 tre 38
 SFX uA tre tras/20 tre 37
 SFX uA tre tra/6 tre 22
 SFX uA tre trons/17 tre 31
 SFX uA tre trez/14 tre 30
 SFX uA tre tront/6 tre 24
-SFX uA tre trais/22 tre 40
+SFX uA tre trais/23 tre 40
 SFX uA tre trais/20 tre 39
 SFX uA tre trait/6 tre 23
 SFX uA tre trions/17 tre 33
 SFX uA tre triez/14 tre 32
 SFX uA tre traient/6 tre 25
-SFX uA tre te/44 tre 41
+SFX uA tre te/44 tre 42
 SFX uA tre tes/36 tre 44
 SFX uA tre te/6 tre 27
 SFX uA tre tions/56 tre 74
 SFX uA tre tiez/31 tre 73
-SFX uA tre tent/6 tre 28
-SFX uA tre tisse/22 tre 61
+SFX uA tre tent/6 tre 29
+SFX uA tre tisse/23 tre 61
 SFX uA tre tisses/20 tre 67
 SFX uA tre tît/6 tre 52
 SFX uA tre tissions/17 tre 60
@@ -9423,12 +9487,12 @@ SFX uC battre battrait/12 battre 23
 SFX uC battre battrions battre 33
 SFX uC battre battriez battre 32
 SFX uC battre battraient/12 battre 25
-SFX uC battre batte/24 battre 41
+SFX uC battre batte/24 battre 42
 SFX uC battre battes/21 battre 44
 SFX uC battre batte/12 battre 27
 SFX uC battre battions battre 74
 SFX uC battre battiez battre 73
-SFX uC battre battent/12 battre 28
+SFX uC battre battent/12 battre 29
 SFX uC battre battisse/24 battre 61
 SFX uC battre battisses/21 battre 67
 SFX uC battre battît/12 battre 52
@@ -9469,57 +9533,57 @@ SFX uD battre battraient/12 battre 25
 SFX uD battre batte/12 battre 27
 SFX uD battre battions battre 74
 SFX uD battre battiez battre 73
-SFX uD battre battent/12 battre 28
+SFX uD battre battent/12 battre 29
 SFX uD battre battît/12 battre 52
 SFX uD battre battissions battre 60
 SFX uD battre battissiez battre 59
 SFX uD battre battissent/12 battre 54
-SFX uD battre battons-nous battre 177
-SFX uD battre battez-vous battre 176
+SFX uD battre battons-nous battre 179
+SFX uD battre battez-vous battre 178
 
 SFX vA Y 50
 SFX vA ettre ettre/53 mettre 64
 SFX vA ettre ettant/6 mettre 48
-SFX vA ettre is/28 mettre 120
+SFX vA ettre is/28 mettre 121
 SFX vA ettre ise/28 mettre 80
 SFX vA ettre ises/28 mettre 81
-SFX vA ettre ets/22 mettre 34
+SFX vA ettre ets/23 mettre 34
 SFX vA ettre ets/20 mettre 35
 SFX vA ettre et/6 mettre 21
 SFX vA ettre ettons/17 mettre 56
 SFX vA ettre ettez/14 mettre 72
 SFX vA ettre ettent/6 mettre 26
-SFX vA ettre ettais/22 mettre 66
+SFX vA ettre ettais/23 mettre 66
 SFX vA ettre ettais/20 mettre 65
 SFX vA ettre ettait/6 mettre 50
 SFX vA ettre ettions/17 mettre 77
 SFX vA ettre ettiez/14 mettre 76
 SFX vA ettre ettaient/6 mettre 51
-SFX vA ettre is/22 mettre 69
+SFX vA ettre is/23 mettre 69
 SFX vA ettre is/20 mettre 68
 SFX vA ettre it/6 mettre 53
 SFX vA ettre îmes/17 mettre 63
 SFX vA ettre îtes/14 mettre 62
 SFX vA ettre irent/6 mettre 71
-SFX vA ettre ettrai/22 mettre 38
+SFX vA ettre ettrai/23 mettre 38
 SFX vA ettre ettras/20 mettre 37
 SFX vA ettre ettra/6 mettre 22
 SFX vA ettre ettrons/17 mettre 31
 SFX vA ettre ettrez/14 mettre 30
 SFX vA ettre ettront/6 mettre 24
-SFX vA ettre ettrais/22 mettre 40
+SFX vA ettre ettrais/23 mettre 40
 SFX vA ettre ettrais/20 mettre 39
 SFX vA ettre ettrait/6 mettre 23
 SFX vA ettre ettrions/17 mettre 33
 SFX vA ettre ettriez/14 mettre 32
 SFX vA ettre ettraient/6 mettre 25
-SFX vA ettre ette/44 mettre 41
+SFX vA ettre ette/44 mettre 42
 SFX vA ettre ettes/36 mettre 44
 SFX vA ettre ette/6 mettre 27
 SFX vA ettre ettions/56 mettre 74
 SFX vA ettre ettiez/31 mettre 73
-SFX vA ettre ettent/6 mettre 28
-SFX vA ettre isse/22 mettre 61
+SFX vA ettre ettent/6 mettre 29
+SFX vA ettre isse/23 mettre 61
 SFX vA ettre isses/20 mettre 67
 SFX vA ettre ît/6 mettre 52
 SFX vA ettre issions/17 mettre 60
@@ -9532,7 +9596,7 @@ SFX vA ettre ettez/31 mettre 75
 SFX vC Y 50
 SFX vC mettre mettre/59 mettre 64
 SFX vC mettre mettant/59 mettre 48
-SFX vC mettre mis mettre 120
+SFX vC mettre mis mettre 121
 SFX vC mettre mise mettre 80
 SFX vC mettre mises mettre 81
 SFX vC mettre mets/24 mettre 34
@@ -9565,12 +9629,12 @@ SFX vC mettre mettrait/12 mettre 23
 SFX vC mettre mettrions mettre 33
 SFX vC mettre mettriez mettre 32
 SFX vC mettre mettraient/12 mettre 25
-SFX vC mettre mette/24 mettre 41
+SFX vC mettre mette/24 mettre 42
 SFX vC mettre mettes/21 mettre 44
 SFX vC mettre mette/12 mettre 27
 SFX vC mettre mettions mettre 74
 SFX vC mettre mettiez mettre 73
-SFX vC mettre mettent/12 mettre 28
+SFX vC mettre mettent/12 mettre 29
 SFX vC mettre misse/24 mettre 61
 SFX vC mettre misses/21 mettre 67
 SFX vC mettre mît/12 mettre 52
@@ -9618,12 +9682,12 @@ SFX wA eindre eindrait eindre 23
 SFX wA eindre eindrions eindre 33
 SFX wA eindre eindriez eindre 32
 SFX wA eindre eindraient eindre 25
-SFX wA eindre eigne eindre 41
+SFX wA eindre eigne eindre 42
 SFX wA eindre eignes eindre 44
 SFX wA eindre eigne eindre 27
 SFX wA eindre eignions eindre 74
 SFX wA eindre eigniez eindre 73
-SFX wA eindre eignent eindre 28
+SFX wA eindre eignent eindre 29
 SFX wA eindre eignisse eindre 61
 SFX wA eindre eignisses eindre 67
 SFX wA eindre eignît eindre 52
@@ -9641,43 +9705,43 @@ SFX wB indre int/28 indre 85
 SFX wB indre ints/28 indre 86
 SFX wB indre inte/28 indre 80
 SFX wB indre intes/28 indre 81
-SFX wB indre ins/22 indre 34
+SFX wB indre ins/23 indre 34
 SFX wB indre ins/20 indre 35
 SFX wB indre int/6 indre 21
 SFX wB indre ignons/17 indre 56
 SFX wB indre ignez/14 indre 72
 SFX wB indre ignent/6 indre 26
-SFX wB indre ignais/22 indre 66
+SFX wB indre ignais/23 indre 66
 SFX wB indre ignais/20 indre 65
 SFX wB indre ignait/6 indre 50
 SFX wB indre ignions/17 indre 77
 SFX wB indre igniez/14 indre 76
 SFX wB indre ignaient/6 indre 51
-SFX wB indre ignis/22 indre 69
+SFX wB indre ignis/23 indre 69
 SFX wB indre ignis/20 indre 68
 SFX wB indre ignit/6 indre 53
 SFX wB indre ignîmes/17 indre 63
 SFX wB indre ignîtes/14 indre 62
 SFX wB indre ignirent/6 indre 71
-SFX wB indre indrai/22 indre 38
+SFX wB indre indrai/23 indre 38
 SFX wB indre indras/20 indre 37
 SFX wB indre indra/6 indre 22
 SFX wB indre indrons/17 indre 31
 SFX wB indre indrez/14 indre 30
 SFX wB indre indront/6 indre 24
-SFX wB indre indrais/22 indre 40
+SFX wB indre indrais/23 indre 40
 SFX wB indre indrais/20 indre 39
 SFX wB indre indrait/6 indre 23
 SFX wB indre indrions/17 indre 33
 SFX wB indre indriez/14 indre 32
 SFX wB indre indraient/6 indre 25
-SFX wB indre igne/44 indre 41
+SFX wB indre igne/44 indre 42
 SFX wB indre ignes/36 indre 44
 SFX wB indre igne/6 indre 27
 SFX wB indre ignions/56 indre 74
 SFX wB indre igniez/31 indre 73
-SFX wB indre ignent/6 indre 28
-SFX wB indre ignisse/22 indre 61
+SFX wB indre ignent/6 indre 29
+SFX wB indre ignisse/23 indre 61
 SFX wB indre ignisses/20 indre 67
 SFX wB indre ignît/6 indre 52
 SFX wB indre ignissions/17 indre 60
@@ -9724,12 +9788,12 @@ SFX wD aire erait faire 23
 SFX wD aire erions faire 33
 SFX wD aire eriez faire 32
 SFX wD aire eraient faire 25
-SFX wD aire asse faire 41
+SFX wD aire asse faire 42
 SFX wD aire asses faire 44
 SFX wD aire asse faire 27
 SFX wD aire assions faire 74
 SFX wD aire assiez faire 73
-SFX wD aire assent faire 28
+SFX wD aire assent faire 29
 SFX wD aire isse faire 61
 SFX wD aire isses faire 67
 SFX wD aire ît faire 52
@@ -9772,36 +9836,36 @@ SFX wL raire rait/28 traire 85
 SFX wL raire raits/28 traire 86
 SFX wL raire raite/28 traire 80
 SFX wL raire raites/28 traire 81
-SFX wL raire rais/22 traire 34
+SFX wL raire rais/23 traire 34
 SFX wL raire rais/20 traire 35
 SFX wL raire rait/6 traire 21
 SFX wL raire rayons/17 traire 56
 SFX wL raire rayez/14 traire 72
 SFX wL raire raient/6 traire 26
-SFX wL raire rayais/22 traire 66
+SFX wL raire rayais/23 traire 66
 SFX wL raire rayais/20 traire 65
 SFX wL raire rayait/6 traire 50
 SFX wL raire rayions/17 traire 77
 SFX wL raire rayiez/14 traire 76
 SFX wL raire rayaient/6 traire 51
-SFX wL raire rairai/22 traire 38
+SFX wL raire rairai/23 traire 38
 SFX wL raire rairas/20 traire 37
 SFX wL raire raira/6 traire 22
 SFX wL raire rairons/17 traire 31
 SFX wL raire rairez/14 traire 30
 SFX wL raire rairont/6 traire 24
-SFX wL raire rairais/22 traire 40
+SFX wL raire rairais/23 traire 40
 SFX wL raire rairais/20 traire 39
 SFX wL raire rairait/6 traire 23
 SFX wL raire rairions/17 traire 33
 SFX wL raire rairiez/14 traire 32
 SFX wL raire rairaient/6 traire 25
-SFX wL raire raie/22 traire 41
+SFX wL raire raie/23 traire 42
 SFX wL raire raies/20 traire 44
 SFX wL raire raie/6 traire 27
 SFX wL raire rayions/17 traire 74
 SFX wL raire rayiez/14 traire 73
-SFX wL raire raient/6 traire 28
+SFX wL raire raient/6 traire 29
 SFX wL raire rais/36 traire 36
 SFX wL raire rayons/46 traire 58
 SFX wL raire rayez/31 traire 75
@@ -9809,7 +9873,7 @@ SFX wL raire rayez/31 traire 75
 SFX wM N 36
 SFX wM aire aire raire 64
 SFX wM aire ayant raire 48
-SFX wM aire ait raire 104
+SFX wM aire ait raire 106
 SFX wM aire ais raire 34
 SFX wM aire ais raire 35
 SFX wM aire ait raire 21
@@ -9834,12 +9898,12 @@ SFX wM aire airait raire 23
 SFX wM aire airions raire 33
 SFX wM aire airiez raire 32
 SFX wM aire airaient raire 25
-SFX wM aire aie raire 41
+SFX wM aire aie raire 42
 SFX wM aire aies raire 44
 SFX wM aire aie raire 27
 SFX wM aire ayions raire 74
 SFX wM aire ayiez raire 73
-SFX wM aire aient raire 28
+SFX wM aire aient raire 29
 SFX wM aire ais raire 36
 SFX wM aire ayons raire 58
 SFX wM aire ayez raire 75
@@ -9878,12 +9942,12 @@ SFX wN aire airait aire 23
 SFX wN aire airions aire 33
 SFX wN aire airiez aire 32
 SFX wN aire airaient aire 25
-SFX wN aire aise aire 41
+SFX wN aire aise aire 42
 SFX wN aire aises aire 44
 SFX wN aire aise aire 27
 SFX wN aire aisions aire 74
 SFX wN aire aisiez aire 73
-SFX wN aire aisent aire 28
+SFX wN aire aisent aire 29
 SFX wN aire usse aire 61
 SFX wN aire usses aire 67
 SFX wN aire ût aire 52
@@ -9931,12 +9995,12 @@ SFX wO aindre aindrait aindre 23
 SFX wO aindre aindrions aindre 33
 SFX wO aindre aindriez aindre 32
 SFX wO aindre aindraient aindre 25
-SFX wO aindre aigne aindre 41
+SFX wO aindre aigne aindre 42
 SFX wO aindre aignes aindre 44
 SFX wO aindre aigne aindre 27
 SFX wO aindre aignions aindre 74
 SFX wO aindre aigniez aindre 73
-SFX wO aindre aignent aindre 28
+SFX wO aindre aignent aindre 29
 SFX wO aindre aignisse aindre 61
 SFX wO aindre aignisses aindre 67
 SFX wO aindre aignît aindre 52
@@ -9984,12 +10048,12 @@ SFX wP aincre aincrait vaincre 23
 SFX wP aincre aincrions vaincre 33
 SFX wP aincre aincriez vaincre 32
 SFX wP aincre aincraient vaincre 25
-SFX wP aincre ainque vaincre 41
+SFX wP aincre ainque vaincre 42
 SFX wP aincre ainques vaincre 44
 SFX wP aincre ainque vaincre 27
 SFX wP aincre ainquions vaincre 74
 SFX wP aincre ainquiez vaincre 73
-SFX wP aincre ainquent vaincre 28
+SFX wP aincre ainquent vaincre 29
 SFX wP aincre ainquisse vaincre 61
 SFX wP aincre ainquisses vaincre 67
 SFX wP aincre ainquît vaincre 52
@@ -10033,12 +10097,12 @@ SFX wQ tre trait/6 tre 23
 SFX wQ tre trions/17 tre 33
 SFX wQ tre triez/14 tre 32
 SFX wQ tre traient/6 tre 25
-SFX wQ aître aisse/30 aître 41
+SFX wQ aître aisse/30 aître 42
 SFX wQ aître aisses/14 aître 44
 SFX wQ aître aisse/6 aître 27
 SFX wQ aître aissions/17 aître 74
 SFX wQ aître aissiez/14 aître 73
-SFX wQ aître aissent/6 aître 28
+SFX wQ aître aissent/6 aître 29
 SFX wQ aître usse/30 aître 61
 SFX wQ aître usses/14 aître 67
 SFX wQ aître ût/6 aître 52
@@ -10089,12 +10153,12 @@ SFX wR tre trait tre 23
 SFX wR tre trions tre 33
 SFX wR tre triez tre 32
 SFX wR tre traient tre 25
-SFX wR aître aisse naître 41
+SFX wR aître aisse naître 42
 SFX wR aître aisses naître 44
 SFX wR aître aisse naître 27
 SFX wR aître aissions naître 74
 SFX wR aître aissiez naître 73
-SFX wR aître aissent naître 28
+SFX wR aître aissent naître 29
 SFX wR aître aquisse naître 61
 SFX wR aître aquisses naître 67
 SFX wR aître aquît naître 52
@@ -10142,12 +10206,12 @@ SFX wS tre trait tre 23
 SFX wS tre trions tre 33
 SFX wS tre triez tre 32
 SFX wS tre traient tre 25
-SFX wS aître aisse paître 41
+SFX wS aître aisse paître 42
 SFX wS aître aisses paître 44
 SFX wS aître aisse paître 27
 SFX wS aître aissions paître 74
 SFX wS aître aissiez paître 73
-SFX wS aître aissent paître 28
+SFX wS aître aissent paître 29
 SFX wS aître usse repaître 61
 SFX wS aître usses repaître 67
 SFX wS aître ût repaître 52
@@ -10199,12 +10263,12 @@ SFX wT tre trait tre 23
 SFX wT tre trions tre 33
 SFX wT tre triez tre 32
 SFX wT tre traient tre 25
-SFX wT roître roisse croître 41
+SFX wT roître roisse croître 42
 SFX wT roître roisses croître 44
 SFX wT roître roisse croître 27
 SFX wT roître roissions croître 74
 SFX wT roître roissiez croître 73
-SFX wT roître roissent croître 28
+SFX wT roître roissent croître 29
 SFX wT roître russe .croître 61
 SFX wT roître russes .croître 67
 SFX wT roître rût croître 52
@@ -10271,12 +10335,12 @@ SFX wV tre trait/58 tre 23
 SFX wV tre trions/39 tre 33
 SFX wV tre triez/39 tre 32
 SFX wV tre traient/58 tre 25
-SFX wV croître croisse/74 croître 41
+SFX wV croître croisse/74 croître 42
 SFX wV croître croisses/17 croître 44
 SFX wV croître croisse/58 croître 27
 SFX wV croître croissions/39 croître 74
 SFX wV croître croissiez/39 croître 73
-SFX wV croître croissent/58 croître 28
+SFX wV croître croissent/58 croître 29
 SFX wV croître crusse/74 croître 61
 SFX wV croître crusses/17 croître 67
 SFX wV croître crût/58 croître 52
@@ -10324,12 +10388,12 @@ SFX xA roire roirait croire 23
 SFX xA roire roirions croire 33
 SFX xA roire roiriez croire 32
 SFX xA roire roiraient croire 25
-SFX xA roire roie croire 41
+SFX xA roire roie croire 42
 SFX xA roire roies croire 44
 SFX xA roire roie croire 27
 SFX xA roire royions croire 74
 SFX xA roire royiez croire 73
-SFX xA roire roient croire 28
+SFX xA roire roient croire 29
 SFX xA roire russe croire 61
 SFX xA roire russes croire 67
 SFX xA roire rût croire 52
@@ -10380,12 +10444,12 @@ SFX xC oire oirait boire 23
 SFX xC oire oirions boire 33
 SFX xC oire oiriez boire 32
 SFX xC oire oiraient boire 25
-SFX xC oire oive boire 41
+SFX xC oire oive boire 42
 SFX xC oire oives boire 44
 SFX xC oire oive boire 27
 SFX xC oire uvions boire 74
 SFX xC oire uviez boire 73
-SFX xC oire oivent boire 28
+SFX xC oire oivent boire 29
 SFX xC oire usse boire 61
 SFX xC oire usses boire 67
 SFX xC oire ût boire 52
@@ -10433,12 +10497,12 @@ SFX xD boire boirait/12 boire 23
 SFX xD boire boirions boire 33
 SFX xD boire boiriez boire 32
 SFX xD boire boiraient/12 boire 25
-SFX xD boire boive/24 boire 41
+SFX xD boire boive/24 boire 42
 SFX xD boire boives/21 boire 44
 SFX xD boire boive/12 boire 27
 SFX xD boire buvions boire 74
 SFX xD boire buviez boire 73
-SFX xD boire boivent/12 boire 28
+SFX xD boire boivent/12 boire 29
 SFX xD boire busse/24 boire 61
 SFX xD boire busses/21 boire 67
 SFX xD boire bût/12 boire 52
@@ -10451,14 +10515,14 @@ SFX xD boire buvez boire 75
 
 SFX xJ N 4
 SFX xJ clure clure clure 64
-SFX xJ clure clus clure 120
+SFX xJ clure clus clure 121
 SFX xJ clure cluse clure 80
 SFX xJ clure cluses clure 81
 
 SFX xK Y 50
 SFX xK clure clure/53 clure 64
 SFX xK clure cluant/6 clure 48
-SFX xK clure clus/28 clure 120
+SFX xK clure clus/28 clure 121
 SFX xK clure cluse/28 clure 80
 SFX xK clure cluses/28 clure 81
 SFX xK clure clus/91 clure 34
@@ -10491,12 +10555,12 @@ SFX xK clure clurait/39 clure 23
 SFX xK clure clurions/39 clure 33
 SFX xK clure cluriez/39 clure 32
 SFX xK clure cluraient/39 clure 25
-SFX xK clure clue/91 clure 41
+SFX xK clure clue/91 clure 42
 SFX xK clure clues/39 clure 44
 SFX xK clure clue/39 clure 27
 SFX xK clure cluions/39 clure 74
 SFX xK clure cluiez/39 clure 73
-SFX xK clure cluent/39 clure 28
+SFX xK clure cluent/39 clure 29
 SFX xK clure clusse/91 clure 61
 SFX xK clure clusses/39 clure 67
 SFX xK clure clût/39 clure 52
@@ -10510,50 +10574,50 @@ SFX xK clure cluez/46 clure 75
 SFX xL Y 54
 SFX xL clure clure/53 clure 64
 SFX xL clure cluant/6 clure 48
-SFX xL clure clus/28 inclure 120
+SFX xL clure clus/28 inclure 121
 SFX xL clure cluse/28 inclure 80
 SFX xL clure cluses/28 inclure 81
 SFX xL clure clu/28 [eo].clure 85
 SFX xL clure clus/28 [eo].clure 86
 SFX xL clure clue/28 [eo].clure 80
 SFX xL clure clues/28 [eo].clure 81
-SFX xL clure clus/22 clure 34
+SFX xL clure clus/23 clure 34
 SFX xL clure clus/20 clure 35
 SFX xL clure clut/6 clure 21
 SFX xL clure cluons/17 clure 56
 SFX xL clure cluez/14 clure 72
 SFX xL clure cluent/6 clure 26
-SFX xL clure cluais/22 clure 66
+SFX xL clure cluais/23 clure 66
 SFX xL clure cluais/20 clure 65
 SFX xL clure cluait/6 clure 50
 SFX xL clure cluions/17 clure 77
 SFX xL clure cluiez/14 clure 76
 SFX xL clure cluaient/6 clure 51
-SFX xL clure clus/22 clure 69
+SFX xL clure clus/23 clure 69
 SFX xL clure clus/20 clure 68
 SFX xL clure clut/6 clure 53
 SFX xL clure clûmes/17 clure 63
 SFX xL clure clûtes/14 clure 62
 SFX xL clure clurent/6 clure 71
-SFX xL clure clurai/22 clure 38
+SFX xL clure clurai/23 clure 38
 SFX xL clure cluras/20 clure 37
 SFX xL clure clura/6 clure 22
 SFX xL clure clurons/17 clure 31
 SFX xL clure clurez/14 clure 30
 SFX xL clure cluront/6 clure 24
-SFX xL clure clurais/22 clure 40
+SFX xL clure clurais/23 clure 40
 SFX xL clure clurais/20 clure 39
 SFX xL clure clurait/6 clure 23
 SFX xL clure clurions/17 clure 33
 SFX xL clure cluriez/14 clure 32
 SFX xL clure cluraient/6 clure 25
-SFX xL clure clue/44 clure 41
+SFX xL clure clue/44 clure 42
 SFX xL clure clues/36 clure 44
 SFX xL clure clue/6 clure 27
 SFX xL clure cluions/56 clure 74
 SFX xL clure cluiez/31 clure 73
-SFX xL clure cluent/6 clure 28
-SFX xL clure clusse/22 clure 61
+SFX xL clure cluent/6 clure 29
+SFX xL clure clusse/23 clure 61
 SFX xL clure clusses/20 clure 67
 SFX xL clure clût/6 clure 52
 SFX xL clure clussions/17 clure 60
@@ -10577,57 +10641,57 @@ SFX xM ourdre ourdront sourdre 24
 SFX xM ourdre ourdrait sourdre 23
 SFX xM ourdre ourdraient sourdre 25
 SFX xM ourdre ourde sourdre 27
-SFX xM ourdre ourdent sourdre 28
+SFX xM ourdre ourdent sourdre 29
 SFX xM ourdre ourdît sourdre 52
 SFX xM ourdre ourdissent sourdre 54
 
 SFX xN Y 54
 SFX xN soudre soudre/53 soudre 64
 SFX xN soudre solvant/6 soudre 48
-SFX xN soudre sous/28 soudre 120
+SFX xN soudre sous/28 soudre 121
 SFX xN soudre soute/28 soudre 80
 SFX xN soudre soutes/28 soudre 81
 SFX xN soudre solu/28 résoudre 85
 SFX xN soudre solus/28 résoudre 86
 SFX xN soudre solue/28 résoudre 80
 SFX xN soudre solues/28 résoudre 81
-SFX xN soudre sous/22 soudre 34
+SFX xN soudre sous/23 soudre 34
 SFX xN soudre sous/20 soudre 35
 SFX xN soudre sout/6 soudre 21
 SFX xN soudre solvons/17 soudre 56
 SFX xN soudre solvez/14 soudre 72
 SFX xN soudre solvent/6 soudre 26
-SFX xN soudre solvais/22 soudre 66
+SFX xN soudre solvais/23 soudre 66
 SFX xN soudre solvais/20 soudre 65
 SFX xN soudre solvait/6 soudre 50
 SFX xN soudre solvions/17 soudre 77
 SFX xN soudre solviez/14 soudre 76
 SFX xN soudre solvaient/6 soudre 51
-SFX xN soudre solus/22 soudre 69
+SFX xN soudre solus/23 soudre 69
 SFX xN soudre solus/20 soudre 68
 SFX xN soudre solut/6 soudre 53
 SFX xN soudre solûmes/17 soudre 63
 SFX xN soudre solûtes/14 soudre 62
 SFX xN soudre solurent/6 soudre 71
-SFX xN soudre soudrai/22 soudre 38
+SFX xN soudre soudrai/23 soudre 38
 SFX xN soudre soudras/20 soudre 37
 SFX xN soudre soudra/6 soudre 22
 SFX xN soudre soudrons/17 soudre 31
 SFX xN soudre soudrez/14 soudre 30
 SFX xN soudre soudront/6 soudre 24
-SFX xN soudre soudrais/22 soudre 40
+SFX xN soudre soudrais/23 soudre 40
 SFX xN soudre soudrais/20 soudre 39
 SFX xN soudre soudrait/6 soudre 23
 SFX xN soudre soudrions/17 soudre 33
 SFX xN soudre soudriez/14 soudre 32
 SFX xN soudre soudraient/6 soudre 25
-SFX xN soudre solve/44 soudre 41
+SFX xN soudre solve/44 soudre 42
 SFX xN soudre solves/36 soudre 44
 SFX xN soudre solve/6 soudre 27
 SFX xN soudre solvions/56 soudre 74
 SFX xN soudre solviez/31 soudre 73
-SFX xN soudre solvent/6 soudre 28
-SFX xN soudre solusse/22 soudre 61
+SFX xN soudre solvent/6 soudre 29
+SFX xN soudre solusse/23 soudre 61
 SFX xN soudre solusses/20 soudre 67
 SFX xN soudre solût/6 soudre 52
 SFX xN soudre solussions/17 soudre 60
@@ -10674,12 +10738,12 @@ SFX xO oudre oudrait coudre 23
 SFX xO oudre oudrions coudre 33
 SFX xO oudre oudriez coudre 32
 SFX xO oudre oudraient coudre 25
-SFX xO oudre ouse coudre 41
+SFX xO oudre ouse coudre 42
 SFX xO oudre ouses coudre 44
 SFX xO oudre ouse coudre 27
 SFX xO oudre ousions coudre 74
 SFX xO oudre ousiez coudre 73
-SFX xO oudre ousent coudre 28
+SFX xO oudre ousent coudre 29
 SFX xO oudre ousisse coudre 61
 SFX xO oudre ousisses coudre 67
 SFX xO oudre ousît coudre 52
@@ -10727,12 +10791,12 @@ SFX xP oudre oudrait/39 moudre 23
 SFX xP oudre oudrions/39 moudre 33
 SFX xP oudre oudriez/39 moudre 32
 SFX xP oudre oudraient/39 moudre 25
-SFX xP oudre oule/46 moudre 41
+SFX xP oudre oule/46 moudre 42
 SFX xP oudre oules/46 moudre 44
 SFX xP oudre oule/39 moudre 27
 SFX xP oudre oulions/46 moudre 74
 SFX xP oudre ouliez/46 moudre 73
-SFX xP oudre oulent/39 moudre 28
+SFX xP oudre oulent/39 moudre 29
 SFX xP oudre oulusse/39 moudre 61
 SFX xP oudre oulusses/39 moudre 67
 SFX xP oudre oulût/39 moudre 52
@@ -10780,12 +10844,12 @@ SFX xQ uivre uivrait suivre 23
 SFX xQ uivre uivrions suivre 33
 SFX xQ uivre uivriez suivre 32
 SFX xQ uivre uivraient suivre 25
-SFX xQ uivre uive suivre 41
+SFX xQ uivre uive suivre 42
 SFX xQ uivre uives suivre 44
 SFX xQ uivre uive suivre 27
 SFX xQ uivre uivions suivre 74
 SFX xQ uivre uiviez suivre 73
-SFX xQ uivre uivent suivre 28
+SFX xQ uivre uivent suivre 29
 SFX xQ uivre uivisse suivre 61
 SFX xQ uivre uivisses suivre 67
 SFX xQ uivre uivît suivre 52
@@ -10799,7 +10863,7 @@ SFX xQ uivre uivez suivre 75
 SFX xR Y 17
 SFX xR suivre suivre/12 suivre 64
 SFX xR suivre suivant/12 suivre 48
-SFX xR suivre suivi suivre 104
+SFX xR suivre suivi suivre 106
 SFX xR suivre suit/12 suivre 21
 SFX xR suivre suivent/12 suivre 26
 SFX xR suivre suivait/12 suivre 50
@@ -10811,7 +10875,7 @@ SFX xR suivre suivront/12 suivre 24
 SFX xR suivre suivrait/12 suivre 23
 SFX xR suivre suivraient/12 suivre 25
 SFX xR suivre suive/12 suivre 27
-SFX xR suivre suivent/12 suivre 28
+SFX xR suivre suivent/12 suivre 29
 SFX xR suivre suivît/12 suivre 52
 SFX xR suivre suivissent/12 suivre 54
 
@@ -10848,12 +10912,12 @@ SFX xS ivre ivrait vivre 23
 SFX xS ivre ivrions vivre 33
 SFX xS ivre ivriez vivre 32
 SFX xS ivre ivraient vivre 25
-SFX xS ivre ive vivre 41
+SFX xS ivre ive vivre 42
 SFX xS ivre ives vivre 44
 SFX xS ivre ive vivre 27
 SFX xS ivre ivions vivre 74
 SFX xS ivre iviez vivre 73
-SFX xS ivre ivent vivre 28
+SFX xS ivre ivent vivre 29
 SFX xS ivre écusse vivre 61
 SFX xS ivre écusses vivre 67
 SFX xS ivre écût vivre 52
@@ -10871,43 +10935,43 @@ SFX y1 crire crit/28 crire 85
 SFX y1 crire crits/28 crire 86
 SFX y1 crire crite/28 crire 80
 SFX y1 crire crites/28 crire 81
-SFX y1 crire cris/22 crire 34
+SFX y1 crire cris/23 crire 34
 SFX y1 crire cris/20 crire 35
 SFX y1 crire crit/6 crire 21
 SFX y1 crire crivons/17 crire 56
 SFX y1 crire crivez/14 crire 72
 SFX y1 crire crivent/6 crire 26
-SFX y1 crire crivais/22 crire 66
+SFX y1 crire crivais/23 crire 66
 SFX y1 crire crivais/20 crire 65
 SFX y1 crire crivait/6 crire 50
 SFX y1 crire crivions/17 crire 77
 SFX y1 crire criviez/14 crire 76
 SFX y1 crire crivaient/6 crire 51
-SFX y1 crire crivis/22 crire 69
+SFX y1 crire crivis/23 crire 69
 SFX y1 crire crivis/20 crire 68
 SFX y1 crire crivit/6 crire 53
 SFX y1 crire crivîmes/17 crire 63
 SFX y1 crire crivîtes/14 crire 62
 SFX y1 crire crivirent/6 crire 71
-SFX y1 crire crirai/22 crire 38
+SFX y1 crire crirai/23 crire 38
 SFX y1 crire criras/20 crire 37
 SFX y1 crire crira/6 crire 22
 SFX y1 crire crirons/17 crire 31
 SFX y1 crire crirez/14 crire 30
 SFX y1 crire criront/6 crire 24
-SFX y1 crire crirais/22 crire 40
+SFX y1 crire crirais/23 crire 40
 SFX y1 crire crirais/20 crire 39
 SFX y1 crire crirait/6 crire 23
 SFX y1 crire cririons/17 crire 33
 SFX y1 crire cririez/14 crire 32
 SFX y1 crire criraient/6 crire 25
-SFX y1 crire crive/44 crire 41
+SFX y1 crire crive/44 crire 42
 SFX y1 crire crives/36 crire 44
 SFX y1 crire crive/6 crire 27
 SFX y1 crire crivions/56 crire 74
 SFX y1 crire criviez/31 crire 73
-SFX y1 crire crivent/6 crire 28
-SFX y1 crire crivisse/22 crire 61
+SFX y1 crire crivent/6 crire 29
+SFX y1 crire crivisse/23 crire 61
 SFX y1 crire crivisses/20 crire 67
 SFX y1 crire crivît/6 crire 52
 SFX y1 crire crivissions/17 crire 60
@@ -10954,12 +11018,12 @@ SFX yA ire irait lire 23
 SFX yA ire irions lire 33
 SFX yA ire iriez lire 32
 SFX yA ire iraient lire 25
-SFX yA ire ise lire 41
+SFX yA ire ise lire 42
 SFX yA ire ises lire 44
 SFX yA ire ise lire 27
 SFX yA ire isions lire 74
 SFX yA ire isiez lire 73
-SFX yA ire isent lire 28
+SFX yA ire isent lire 29
 SFX yA ire usse lire 61
 SFX yA ire usses lire 67
 SFX yA ire ût lire 52
@@ -10977,43 +11041,43 @@ SFX yB lire lu/28 lire 85
 SFX yB lire lus/28 lire 86
 SFX yB lire lue/28 lire 80
 SFX yB lire lues/28 lire 81
-SFX yB lire lis/22 lire 34
+SFX yB lire lis/23 lire 34
 SFX yB lire lis/20 lire 35
 SFX yB lire lit/6 lire 21
 SFX yB lire lisons/17 lire 56
 SFX yB lire lisez/14 lire 72
 SFX yB lire lisent/6 lire 26
-SFX yB lire lisais/22 lire 66
+SFX yB lire lisais/23 lire 66
 SFX yB lire lisais/20 lire 65
 SFX yB lire lisait/6 lire 50
 SFX yB lire lisions/17 lire 77
 SFX yB lire lisiez/14 lire 76
 SFX yB lire lisaient/6 lire 51
-SFX yB lire lus/22 lire 69
+SFX yB lire lus/23 lire 69
 SFX yB lire lus/20 lire 68
 SFX yB lire lut/6 lire 53
 SFX yB lire lûmes/17 lire 63
 SFX yB lire lûtes/14 lire 62
 SFX yB lire lurent/6 lire 71
-SFX yB lire lirai/22 lire 38
+SFX yB lire lirai/23 lire 38
 SFX yB lire liras/20 lire 37
 SFX yB lire lira/6 lire 22
 SFX yB lire lirons/17 lire 31
 SFX yB lire lirez/14 lire 30
 SFX yB lire liront/6 lire 24
-SFX yB lire lirais/22 lire 40
+SFX yB lire lirais/23 lire 40
 SFX yB lire lirais/20 lire 39
 SFX yB lire lirait/6 lire 23
 SFX yB lire lirions/17 lire 33
 SFX yB lire liriez/14 lire 32
 SFX yB lire liraient/6 lire 25
-SFX yB lire lise/44 lire 41
+SFX yB lire lise/44 lire 42
 SFX yB lire lises/36 lire 44
 SFX yB lire lise/6 lire 27
 SFX yB lire lisions/56 lire 74
 SFX yB lire lisiez/31 lire 73
-SFX yB lire lisent/6 lire 28
-SFX yB lire lusse/22 lire 61
+SFX yB lire lisent/6 lire 29
+SFX yB lire lusse/23 lire 61
 SFX yB lire lusses/20 lire 67
 SFX yB lire lût/6 lire 52
 SFX yB lire lussions/17 lire 60
@@ -11060,12 +11124,12 @@ SFX yC ire irait dire 23
 SFX yC ire irions dire 33
 SFX yC ire iriez dire 32
 SFX yC ire iraient dire 25
-SFX yC ire ise dire 41
+SFX yC ire ise dire 42
 SFX yC ire ises dire 44
 SFX yC ire ise dire 27
 SFX yC ire isions dire 74
 SFX yC ire isiez dire 73
-SFX yC ire isent dire 28
+SFX yC ire isent dire 29
 SFX yC ire isse dire 61
 SFX yC ire isses dire 67
 SFX yC ire ît dire 52
@@ -11083,43 +11147,43 @@ SFX yD dire dit/28 dire 85
 SFX yD dire dits/28 dire 86
 SFX yD dire dite/28 dire 80
 SFX yD dire dites/28 dire 81
-SFX yD dire dis/22 dire 34
+SFX yD dire dis/23 dire 34
 SFX yD dire dis/20 dire 35
 SFX yD dire dit/6 dire 21
 SFX yD dire disons/17 dire 56
 SFX yD dire disez/14 dire 72
 SFX yD dire disent/6 dire 26
-SFX yD dire disais/22 dire 66
+SFX yD dire disais/23 dire 66
 SFX yD dire disais/20 dire 65
 SFX yD dire disait/6 dire 50
 SFX yD dire disions/17 dire 77
 SFX yD dire disiez/14 dire 76
 SFX yD dire disaient/6 dire 51
-SFX yD dire dis/22 dire 69
+SFX yD dire dis/23 dire 69
 SFX yD dire dis/20 dire 68
 SFX yD dire dit/6 dire 53
 SFX yD dire dîmes/17 dire 63
 SFX yD dire dîtes/14 dire 62
 SFX yD dire dirent/6 dire 71
-SFX yD dire dirai/22 dire 38
+SFX yD dire dirai/23 dire 38
 SFX yD dire diras/20 dire 37
 SFX yD dire dira/6 dire 22
 SFX yD dire dirons/17 dire 31
 SFX yD dire direz/14 dire 30
 SFX yD dire diront/6 dire 24
-SFX yD dire dirais/22 dire 40
+SFX yD dire dirais/23 dire 40
 SFX yD dire dirais/20 dire 39
 SFX yD dire dirait/6 dire 23
 SFX yD dire dirions/17 dire 33
 SFX yD dire diriez/14 dire 32
 SFX yD dire diraient/6 dire 25
-SFX yD dire dise/44 dire 41
+SFX yD dire dise/44 dire 42
 SFX yD dire dises/36 dire 44
 SFX yD dire dise/6 dire 27
 SFX yD dire disions/56 dire 74
 SFX yD dire disiez/31 dire 73
-SFX yD dire disent/6 dire 28
-SFX yD dire disse/22 dire 61
+SFX yD dire disent/6 dire 29
+SFX yD dire disse/23 dire 61
 SFX yD dire disses/20 dire 67
 SFX yD dire dît/6 dire 52
 SFX yD dire dissions/17 dire 60
@@ -11132,7 +11196,7 @@ SFX yD dire disez/31 dire 75
 SFX yE N 48
 SFX yE édire édire dire 64
 SFX yE édire édisant dire 48
-SFX yE édire édit dire 104
+SFX yE édire édit dire 106
 SFX yE édire édis dire 34
 SFX yE édire édis dire 35
 SFX yE édire édit dire 21
@@ -11163,12 +11227,12 @@ SFX yE édire édirait dire 23
 SFX yE édire édirions dire 33
 SFX yE édire édiriez dire 32
 SFX yE édire édiraient dire 25
-SFX yE édire édise dire 41
+SFX yE édire édise dire 42
 SFX yE édire édises dire 44
 SFX yE édire édise dire 27
 SFX yE édire édisions dire 74
 SFX yE édire édisiez dire 73
-SFX yE édire édisent dire 28
+SFX yE édire édisent dire 29
 SFX yE édire édisse dire 61
 SFX yE édire édisses dire 67
 SFX yE édire édît dire 52
@@ -11216,12 +11280,12 @@ SFX yF audire audirait dire 23
 SFX yF audire audirions dire 33
 SFX yF audire audiriez dire 32
 SFX yF audire audiraient dire 25
-SFX yF audire audisse dire 41
+SFX yF audire audisse dire 42
 SFX yF audire audisses dire 44
 SFX yF audire audisse dire 27
 SFX yF audire audissions dire 74
 SFX yF audire audissiez dire 73
-SFX yF audire audissent dire 28
+SFX yF audire audissent dire 29
 SFX yF audire audisse dire 61
 SFX yF audire audisses dire 67
 SFX yF audire audît dire 52
@@ -11235,7 +11299,7 @@ SFX yF audire audissez dire 75
 SFX yG Y 48
 SFX yG dire dire/59 dire 64
 SFX yG dire disant/59 dire 48
-SFX yG dire dit dire 104
+SFX yG dire dit dire 106
 SFX yG dire dis/24 dire 34
 SFX yG dire dis/21 dire 35
 SFX yG dire dit/12 dire 21
@@ -11266,12 +11330,12 @@ SFX yG dire dirait/12 dire 23
 SFX yG dire dirions dire 33
 SFX yG dire diriez dire 32
 SFX yG dire diraient/12 dire 25
-SFX yG dire dise dire 41
+SFX yG dire dise dire 42
 SFX yG dire dises dire 44
 SFX yG dire dise dire 27
 SFX yG dire disions dire 74
 SFX yG dire disiez dire 73
-SFX yG dire disent dire 28
+SFX yG dire disent dire 29
 SFX yG dire disse/24 dire 61
 SFX yG dire disses/21 dire 67
 SFX yG dire dît/12 dire 52
@@ -11285,13 +11349,13 @@ SFX yG dire disez dire 75
 SFX yJ N 9
 SFX yJ ruire ruire uire 64
 SFX yJ ruire ruissant uire 48
-SFX yJ ruire rui uire 104
+SFX yJ ruire rui uire 106
 SFX yJ ruire ruit uire 21
 SFX yJ ruire ruissent uire 26
 SFX yJ ruire ruissait uire 50
 SFX yJ ruire ruissaient uire 51
 SFX yJ ruire ruisse uire 27
-SFX yJ ruire ruissent uire 28
+SFX yJ ruire ruissent uire 29
 
 SFX yK N 5
 SFX yK bduire bduire uire 64
@@ -11337,12 +11401,12 @@ SFX yL uire uirait/6 uire 23
 SFX yL uire uirions/17 uire 33
 SFX yL uire uiriez/14 uire 32
 SFX yL uire uiraient/6 uire 25
-SFX yL uire uise/54 uire 41
+SFX yL uire uise/54 uire 42
 SFX yL uire uises/31 uire 44
 SFX yL uire uise/6 uire 27
 SFX yL uire uisions/56 uire 74
 SFX yL uire uisiez/31 uire 73
-SFX yL uire uisent/6 uire 28
+SFX yL uire uisent/6 uire 29
 SFX yL uire uisisse/30 uire 61
 SFX yL uire uisisses/14 uire 67
 SFX yL uire uisît/6 uire 52
@@ -11360,43 +11424,43 @@ SFX yM uire uit/28 uire 85
 SFX yM uire uits/28 uire 86
 SFX yM uire uite/28 uire 80
 SFX yM uire uites/28 uire 81
-SFX yM uire uis/22 uire 34
+SFX yM uire uis/23 uire 34
 SFX yM uire uis/20 uire 35
 SFX yM uire uit/6 uire 21
 SFX yM uire uisons/17 uire 56
 SFX yM uire uisez/14 uire 72
 SFX yM uire uisent/6 uire 26
-SFX yM uire uisais/22 uire 66
+SFX yM uire uisais/23 uire 66
 SFX yM uire uisais/20 uire 65
 SFX yM uire uisait/6 uire 50
 SFX yM uire uisions/17 uire 77
 SFX yM uire uisiez/14 uire 76
 SFX yM uire uisaient/6 uire 51
-SFX yM uire uisis/22 uire 69
+SFX yM uire uisis/23 uire 69
 SFX yM uire uisis/20 uire 68
 SFX yM uire uisit/6 uire 53
 SFX yM uire uisîmes/17 uire 63
 SFX yM uire uisîtes/14 uire 62
 SFX yM uire uisirent/6 uire 71
-SFX yM uire uirai/22 uire 38
+SFX yM uire uirai/23 uire 38
 SFX yM uire uiras/20 uire 37
 SFX yM uire uira/6 uire 22
 SFX yM uire uirons/17 uire 31
 SFX yM uire uirez/14 uire 30
 SFX yM uire uiront/6 uire 24
-SFX yM uire uirais/22 uire 40
+SFX yM uire uirais/23 uire 40
 SFX yM uire uirais/20 uire 39
 SFX yM uire uirait/6 uire 23
 SFX yM uire uirions/17 uire 33
 SFX yM uire uiriez/14 uire 32
 SFX yM uire uiraient/6 uire 25
-SFX yM uire uise/44 uire 41
+SFX yM uire uise/44 uire 42
 SFX yM uire uises/36 uire 44
 SFX yM uire uise/6 uire 27
 SFX yM uire uisions/56 uire 74
 SFX yM uire uisiez/31 uire 73
-SFX yM uire uisent/6 uire 28
-SFX yM uire uisisse/22 uire 61
+SFX yM uire uisent/6 uire 29
+SFX yM uire uisisse/23 uire 61
 SFX yM uire uisisses/20 uire 67
 SFX yM uire uisît/6 uire 52
 SFX yM uire uisissions/17 uire 60
@@ -11436,13 +11500,13 @@ SFX yN truire truiraient/12 uire 25
 SFX yN truire truise/12 uire 27
 SFX yN truire truisions uire 74
 SFX yN truire truisiez uire 73
-SFX yN truire truisent/12 uire 28
+SFX yN truire truisent/12 uire 29
 SFX yN truire truisît/12 uire 52
 SFX yN truire truisissions uire 60
 SFX yN truire truisissiez uire 59
 SFX yN truire truisissent/12 uire 54
-SFX yN truire truisons-nous uire 177
-SFX yN truire truisez-vous uire 176
+SFX yN truire truisons-nous uire 179
+SFX yN truire truisez-vous uire 178
 
 SFX yO Y 51
 SFX yO détruire détruire/59 détruire 64
@@ -11481,12 +11545,12 @@ SFX yO détruire détruirait/12 détruire 23
 SFX yO détruire détruirions détruire 33
 SFX yO détruire détruiriez détruire 32
 SFX yO détruire détruiraient/12 détruire 25
-SFX yO détruire détruise/24 détruire 41
+SFX yO détruire détruise/24 détruire 42
 SFX yO détruire détruises/21 détruire 44
 SFX yO détruire détruise/12 détruire 27
 SFX yO détruire détruisions détruire 74
 SFX yO détruire détruisiez détruire 73
-SFX yO détruire détruisent/12 détruire 28
+SFX yO détruire détruisent/12 détruire 29
 SFX yO détruire détruisisse/24 détruire 61
 SFX yO détruire détruisisses/21 détruire 67
 SFX yO détruire détruisît/12 détruire 52
@@ -11500,7 +11564,7 @@ SFX yO détruire détruisez détruire 75
 SFX yU N 48
 SFX yU uire uire uire 64
 SFX yU uire uisant uire 48
-SFX yU uire ui uire 104
+SFX yU uire ui uire 106
 SFX yU uire uis uire 34
 SFX yU uire uis uire 35
 SFX yU uire uit uire 21
@@ -11531,12 +11595,12 @@ SFX yU uire uirait uire 23
 SFX yU uire uirions uire 33
 SFX yU uire uiriez uire 32
 SFX yU uire uiraient uire 25
-SFX yU uire uise uire 41
+SFX yU uire uise uire 42
 SFX yU uire uises uire 44
 SFX yU uire uise uire 27
 SFX yU uire uisions uire 74
 SFX yU uire uisiez uire 73
-SFX yU uire uisent uire 28
+SFX yU uire uisent uire 29
 SFX yU uire uisisse uire 61
 SFX yU uire uisisses uire 67
 SFX yU uire uisît uire 52
@@ -11554,10 +11618,10 @@ SFX yV ire it nfire 85
 SFX yV ire its nfire 86
 SFX yV ire ite nfire 80
 SFX yV ire ites nfire 81
-SFX yV ire is cire 120
+SFX yV ire is cire 121
 SFX yV ire ise cire 80
 SFX yV ire ises cire 81
-SFX yV ire i ffire 104
+SFX yV ire i ffire 106
 SFX yV ire is ire 34
 SFX yV ire is ire 35
 SFX yV ire it ire 21
@@ -11588,12 +11652,12 @@ SFX yV ire irait ire 23
 SFX yV ire irions ire 33
 SFX yV ire iriez ire 32
 SFX yV ire iraient ire 25
-SFX yV ire ise ire 41
+SFX yV ire ise ire 42
 SFX yV ire ises ire 44
 SFX yV ire ise ire 27
 SFX yV ire isions ire 74
 SFX yV ire isiez ire 73
-SFX yV ire isent ire 28
+SFX yV ire isent ire 29
 SFX yV ire isse ire 61
 SFX yV ire isses ire 67
 SFX yV ire ît ire 52
@@ -11607,7 +11671,7 @@ SFX yV ire isez ire 75
 SFX yW N 48
 SFX yW ire ire rire 64
 SFX yW ire iant rire 48
-SFX yW ire i rire 104
+SFX yW ire i rire 106
 SFX yW ire is rire 34
 SFX yW ire is rire 35
 SFX yW ire it rire 21
@@ -11638,12 +11702,12 @@ SFX yW ire irait rire 23
 SFX yW ire irions rire 33
 SFX yW ire iriez rire 32
 SFX yW ire iraient rire 25
-SFX yW ire ie rire 41
+SFX yW ire ie rire 42
 SFX yW ire ies rire 44
 SFX yW ire ie rire 27
 SFX yW ire iions rire 74
 SFX yW ire iiez rire 73
-SFX yW ire ient rire 28
+SFX yW ire ient rire 29
 SFX yW ire isse rire 61
 SFX yW ire isses rire 67
 SFX yW ire ît rire 52
@@ -11657,7 +11721,7 @@ SFX yW ire iez rire 75
 SFX yX Y 33
 SFX yX nuire nuire/12 nuire 64
 SFX yX nuire nuisant/12 nuire 48
-SFX yX nuire nui nuire 104
+SFX yX nuire nui nuire 106
 SFX yX nuire nuit/12 nuire 21
 SFX yX nuire nuisons nuire 56
 SFX yX nuire nuisez nuire 72
@@ -11681,17 +11745,17 @@ SFX yX nuire nuiraient/12 nuire 25
 SFX yX nuire nuise/12 nuire 27
 SFX yX nuire nuisions nuire 74
 SFX yX nuire nuisiez nuire 73
-SFX yX nuire nuisent/12 nuire 28
+SFX yX nuire nuisent/12 nuire 29
 SFX yX nuire nuisît/12 nuire 52
 SFX yX nuire nuisissions nuire 60
 SFX yX nuire nuisissiez nuire 59
 SFX yX nuire nuisissent/12 nuire 54
-SFX yX nuire nuisons-nous nuire 177
-SFX yX nuire nuisez-vous nuire 176
+SFX yX nuire nuisons-nous nuire 179
+SFX yX nuire nuisez-vous nuire 178
 
 SFX yY Y 4
 SFX yY ccire ccire/53 occire 64
-SFX yY ccire ccis/28 occire 120
+SFX yY ccire ccis/28 occire 121
 SFX yY ccire ccise/28 occire 80
 SFX yY ccire ccises/28 occire 81
 
@@ -11748,11 +11812,11 @@ SFX q+ aître ue/28 aître 80
 SFX q+ aître ues/28 aître 81
 
 SFX q. Y 8
-SFX q. enir enu/28 enir 104
-SFX q. tir ti/28 tir 104
-SFX q. courir couru/28 courir 104
-SFX q. ivre écu vivre 104
-SFX q. aire u aire 104
-SFX q. dre du dre 104
-SFX q. valoir valu/28 .valoir 104
-SFX q. aître u/28 aître 104
+SFX q. enir enu/28 enir 106
+SFX q. tir ti/28 tir 106
+SFX q. courir couru/28 courir 106
+SFX q. ivre écu vivre 106
+SFX q. aire u aire 106
+SFX q. dre du dre 106
+SFX q. valoir valu/28 .valoir 106
+SFX q. aître u/28 aître 106
