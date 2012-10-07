@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="12.7.1.1" />
+    <version value="12.10.1.1" />
+
     <identifier value="Natura.OOo3.pt-PT-dictionary" />
     <display-name>
         <name lang="en-US">European Portuguese spelling dictionary, hyphenation rules, and thesaurus</name>
@@ -10,6 +11,6 @@
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>
     <publisher>
-        <name xlink:href="http://maracuja.homeip.net/software/dict" lang="en-US">Maracujá</name>
+        <name xlink:href="http://natura.di.uminho.pt/wiki/doku.php?id=dicionarios:main" lang="en">Natura</name>
     </publisher>
 </description>
