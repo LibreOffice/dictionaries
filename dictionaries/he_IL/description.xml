@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="2010.09.16" />
+    <version value="2012.10.07" />
     <identifier value="Hebrew.dictionary.from.hspell.ivrix.org.il" />
     <display-name>
         <name lang="en-US">Hebrew spelling dictionary</name>
