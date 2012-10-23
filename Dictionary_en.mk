@@ -54,7 +54,7 @@ $(eval $(call gb_Dictionary_add_files,dict-en,pythonpath,\
 $(eval $(call gb_Dictionary_add_generated_file,dict-en,dialog/OptionsDialog.xcs,$(call gb_XcsTarget_get_target,dictionaries/en/dialog/registry/schema/org/openoffice/Lightproof_en.xcs)))
 
 $(eval $(call gb_Dictionary_add_generated_files,dict-en,dialog,\
-	$(call gb_XcuMergeTarget_get_target,dictionaries/en/dialog/registry/data/org/openoffice/Office/OptionsDialog.xcu) \
+	$(call gb_XcuFile_for_extension,dictionaries/en/dialog/registry/data/org/openoffice/Office/OptionsDialog.xcu) \
 ))
 
 $(eval $(call gb_Dictionary_add_propertyfiles,dict-en,dialog,\
