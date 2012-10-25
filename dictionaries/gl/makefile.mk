@@ -53,31 +53,45 @@ DESCRIPTION_SRC:=$(MISC)/$(EXTENSIONNAME)_in/description.xml
 
 # just copy:
 COMPONENT_FILES= \
+    $(EXTENSIONDIR)$/Changelog.txt \
+    $(EXTENSIONDIR)$/COPYING_th_gl \
     $(EXTENSIONDIR)$/gl_ES.aff \
     $(EXTENSIONDIR)$/gl_ES.dic \
-    $(EXTENSIONDIR)$/spell.txt \
-    $(EXTENSIONDIR)$/LICENCES-gl.txt \
-    $(EXTENSIONDIR)$/README-gl-ES.txt
+    $(EXTENSIONDIR)$/GPLv3.txt \
+    $(EXTENSIONDIR)$/hyph_gl.dic \
+    $(EXTENSIONDIR)$/package-description.txt \
+    $(EXTENSIONDIR)$/ProxectoTrasno.png \
+    $(EXTENSIONDIR)$/README_hyph-gl.txt \
+    $(EXTENSIONDIR)$/README_th_gl.txt \
+    $(EXTENSIONDIR)$/thesaurus_gl.dat
 
 COMPONENT_CONFIGDEST=.
 COMPONENT_XCU= \
     $(EXTENSIONDIR)$/dictionaries.xcu
 
 # disable fetching default OOo license text
-CUSTOM_LICENSE=LICENSES-en.txt
+CUSTOM_LICENSE=README
 # override default license destination
 PACKLICS= $(EXTENSIONDIR)$/$(CUSTOM_LICENSE)
+
+COMPONENT_UNZIP_FILES= \
+    $(EXTENSIONDIR)$/thesaurus_gl.idx
 
 # add own targets to packing dependencies (need to be done before
 # packing the xtension
 # EXTENSION_PACKDEPS=makefile.mk $(CUSTOM_LICENSE)
-EXTENSION_PACKDEPS=$(COMPONENT_FILES)
+EXTENSION_PACKDEPS=$(COMPONENT_FILES) $(COMPONENT_UNZIP_FILES)
 
 # global settings for extension packing
 .INCLUDE : extension_pre.mk
 .INCLUDE : target.mk
 # global targets for extension packing
 .INCLUDE : extension_post.mk
+
+#.INCLUDE :  $(PRJ)$/prj$/tests.mk
+
+$(EXTENSIONDIR)$/thesaurus_gl.idx : "$(EXTENSIONDIR)$/thesaurus_gl.dat"
+         $(COMMAND_ECHO)$(AUGMENT_LIBRARY_PATH) $(OUTDIR_FOR_BUILD)$/bin$/idxdict -o $(EXTENSIONDIR)$/thesaurus_gl.idx <$(EXTENSIONDIR)$/thesaurus_gl.dat
 
 .IF "$(WITH_LANG)" != ""
 $(DESCRIPTION_SRC) : description.xml

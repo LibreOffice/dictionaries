@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="3.2" />
-    <identifier value="galician_2003_spellchecker.from.Frco.Javier.Rial.Rodriguez" />
+
+    <version value="12.10" />
+    <identifier value="galician.gl.dicts.from.Proxecto.Trasno" />
+
     <display-name>
-        <name lang="en-US">Galician spelling dictionary</name>
+        <name lang="en-US">Galician spelling dictionary, hyphenation rules, and thesaurus</name>
     </display-name>
+
     <platform value="all" />
+
     <dependencies>
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>
+
+    <icon>
+        <default xlink:href="ProxectoTrasno.png" />
+    </icon>
+
     <publisher>
-        <name xlink:href="http://www.mancomun.org" lang="gl">Mancomún</name>
+        <name xlink:href="https://github.com/meixome/hunspell-gl-volga/issues" lang="en">Hunspell-gl-volga</name>
     </publisher>
+
 </description>
