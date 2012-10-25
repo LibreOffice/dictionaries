@@ -10,12 +10,22 @@
 $(eval $(call gb_Dictionary_Dictionary,dict-gl,dictionaries/gl))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-gl,\
+	dictionaries/gl/Changelog.txt \
+	dictionaries/gl/COPYING_th_gl \
+	dictionaries/gl/description.xml \
 	dictionaries/gl/gl_ES.aff \
 	dictionaries/gl/gl_ES.dic \
-	dictionaries/gl/LICENCES-gl.txt \
-	dictionaries/gl/LICENSES-en.txt \
-	dictionaries/gl/README-gl-ES.txt \
-	dictionaries/gl/spell.txt \
+	dictionaries/gl/GPLv3.txt \
+	dictionaries/gl/hyph_gl.dic \
+	dictionaries/gl/package-description.txt \
+	dictionaries/gl/ProxectoTrasno.png \
+	dictionaries/gl/README \
+	dictionaries/gl/README_hyph-gl.txt \
+	dictionaries/gl/README_th_gl.txt \
+))
+
+$(eval $(call gb_Dictionary_add_thesauri,dict-gl,\
+	dictionaries/gl/thesaurus_gl.dat \
 ))
 
 # vim: set noet sw=4 ts=4:
