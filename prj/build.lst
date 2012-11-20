@@ -1,3 +1,3 @@
-di      dictionaries : sal soltools DESKTOP:l10ntools mythes TRANSLATIONS:translations NULL
+di      dictionaries : sal soltools DESKTOP:l10ntools mythes NULL
 di	dictionaries					usr1 - all di_mkout NULL
 di      dictionaries\prj      nmake   -       all     di_prj NULL
