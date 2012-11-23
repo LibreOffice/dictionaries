@@ -54,6 +54,8 @@ def _morph(rLoc, word, pattern, all, onlyaffix):
             return None
         t = x.getAlternatives()
         if not t:
+            if not analyses: # fix synchronization problem (missing alternatives with unloaded dictionary)
+                return None
             t = [""]
         analyses[word] = t[0].split("</a>")[:-1]
     a = analyses[word]
