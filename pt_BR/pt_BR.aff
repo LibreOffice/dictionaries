@@ -1,10 +1,10 @@
 SET ISO8859-1
 TRY áàãâéêíóõôúüçesianrtolcdugmphbyfvkwjqxz
 
-#   VERO - Verificador Ortográfico Livre - Versão 2.1.1
+#   VERO - Verificador Ortográfico Livre - Versão 3.0.0
 #   Copyright (C) 2006 - 2012  por Raimundo Santos Moura
 #   <raimundo.smoura@gmail.com>
-#   Brasil - Junho 2012
+#   Brasil - Novembro 2012
 #   Este é um dicionário para correção ortográfica da língua Portuguesa   
 #   para o Hunspell.                                                       
 #   Este programa é livre e pode ser redistribuído e/ou modificado nos    
@@ -100,12 +100,17 @@ NOSUGGEST Ý
 
 FORBIDDENWORD ý
 
-WORDCHARS -
+# WORDCHARS -
 
-CHECKCOMPOUNDREP
+# CHECKCOMPOUNDREP
+
+MAXDIFF 10
+
+ONLYMAXDIFF
+
 
 # melhorar a sugestão de palavras
-REP 403
+REP 410
 REP -           s-
 REP -           r
 REP -           s
@@ -186,6 +191,8 @@ REP ção         mento
 REP cc          c
 REP cç          x
 REP ce          sse
+REP ceromano    ser_humano
+REP cerumano    ser_humano
 REP ch          x
 REP chi         qui
 REP ci          ssi
@@ -230,6 +237,7 @@ REP êm          ên
 REP en          em
 REP én          ém
 REP ên          êm
+REP enalte      ênalti
 REP ensi        ênci
 REP épit        ept
 REP ereo        eoro
@@ -292,6 +300,7 @@ REP ka          ca
 REP ká          cá
 REP ke          que
 REP kê          quê
+REP Kg          kg
 REP Khmer       Cambojano
 REP ki          qui
 REP kiwi        quiuí
@@ -352,6 +361,7 @@ REP õe          ão
 REP ós-s        oss
 REP ografista   ógrafo
 REP oi          ói
+REP ok          o.k.
 REP oky         óqui
 REP olh         óli
 REP ologista    ólogo
@@ -434,6 +444,8 @@ REP se          -se-
 REP selofo      celofa
 REP septec      septing
 REP septic      septing
+REP seromano    ser_humano
+REP serumano    ser_humano
 REP setec       septing
 REP sh          ch
 REP sh          che
@@ -522,8 +534,8 @@ PFX À   0     rer     r
 PFX À   0     res     s
 
 PFX Á Y 4
-PFX Á   0     anti    [^ihrs]
-PFX Á   0     anti-   [ih]
+PFX Á   0     anti    [^iíhrs]
+PFX Á   0     anti-   [iíh]
 PFX Á   0     antir   r
 PFX Á   0     antis   s
 
@@ -531,8 +543,8 @@ PFX Â Y 1
 PFX Â   0     des     .
 
 PFX Ã Y 4
-PFX Ã   0     auto    [^ohrs]
-PFX Ã   0     auto-   [oh]
+PFX Ã   0     auto    [^oóôhrs]
+PFX Ã   0     auto-   [oóôh]
 PFX Ã   0     autor   r
 PFX Ã   0     autos   s
 
@@ -545,8 +557,8 @@ PFX È   0     sub    [^bhr]
 PFX È   0     sub-   [bhr]
 
 PFX É Y 4
-PFX É   0     neo    [^ohrs]
-PFX É   0     neo-   [oh]
+PFX É   0     neo    [^oóôhrs]
+PFX É   0     neo-   [oóôh]
 PFX É   0     neor   r
 PFX É   0     neos   s
 
@@ -555,8 +567,8 @@ PFX Ê Y 1
 PFX Ê   0     tragi   .
 
 PFX Ë Y 4
-PFX Ë   0     sobre   [^ehrs]
-PFX Ë   0     sobre-  [eh]
+PFX Ë   0     sobre   [^eéêhrs]
+PFX Ë   0     sobre-  [eéêh]
 PFX Ë   0     sobrer  r
 PFX Ë   0     sobres  s
 
@@ -573,50 +585,50 @@ PFX Î   0     hiper   [^hr]
 PFX Î   0     hiper-  [rh]
 
 PFX Ï Y 4
-PFX Ï   0     ante    [^ehrs]
-PFX Ï   0     ante-   [eh]
+PFX Ï   0     ante    [^eéêhrs]
+PFX Ï   0     ante-   [eéêh]
 PFX Ï   0     anter   r
 PFX Ï   0     antes   s
 
 PFX Ò Y 4
-PFX Ò   0     arqui   [^ihrs]
-PFX Ò   0     arqui-  [ih]
+PFX Ò   0     arqui   [^iíhrs]
+PFX Ò   0     arqui-  [iíh]
 PFX Ò   0     arquir  r
 PFX Ò   0     arquis  s
 
 PFX Ó Y 4
-PFX Ó   0     contra   [^ahrs]
-PFX Ó   0     contra-  [ah]
+PFX Ó   0     contra   [^aáâhrs]
+PFX Ó   0     contra-  [aáâh]
 PFX Ó   0     contrar  r
 PFX Ó   0     contras  s
 
 PFX Ô Y 4
-PFX Ô   0     extra   [^ahrs]
-PFX Ô   0     extra-  [ah]
+PFX Ô   0     extra   [^aáâhrs]
+PFX Ô   0     extra-  [aáâh]
 PFX Ô   0     extrar  r
 PFX Ô   0     extras  s
 
 PFX Õ Y 4
-PFX Õ   0     infra   [^ahrs]
-PFX Õ   0     infra-  [ah]
+PFX Õ   0     infra   [^aáâhrs]
+PFX Õ   0     infra-  [aáâh]
 PFX Õ   0     infrar  r
 PFX Õ   0     infras  s
 
 PFX Ö Y 4
-PFX Ö   0     intra   [^ahrs]
-PFX Ö   0     intra-  [ah]
+PFX Ö   0     intra   [^aáâhrs]
+PFX Ö   0     intra-  [aáâh]
 PFX Ö   0     intrar  r
 PFX Ö   0     intras  s
 
 PFX Ù Y 4
-PFX Ù   0     proto   [^ohrs]
-PFX Ù   0     proto-  [oh]
+PFX Ù   0     proto   [^oóôhrs]
+PFX Ù   0     proto-  [oóôh]
 PFX Ù   0     protor  r
 PFX Ù   0     protos  s
 
 PFX Ú Y 4
-PFX Ú   0     pseudo   [^ohrs]
-PFX Ú   0     pseudo-  [oh]
+PFX Ú   0     pseudo   [^oóôhrs]
+PFX Ú   0     pseudo-  [oóôh]
 PFX Ú   0     pseudor  r
 PFX Ú   0     pseudos  s
 
@@ -624,8 +636,8 @@ PFX Û Y 1
 PFX Û   0     pro     .
 
 PFX Ü Y 4
-PFX Ü   0     semi    [^ihrs]
-PFX Ü   0     semi-   [ih]
+PFX Ü   0     semi    [^iíhrs]
+PFX Ü   0     semi-   [iíh]
 PFX Ü   0     semir   r
 PFX Ü   0     semis   s
 
@@ -636,8 +648,8 @@ PFX Ñ   0     cor     r
 PFX Ñ   0     cos     s
 
 PFX à Y 4
-PFX à   0     ultra   [^ahrs]
-PFX à   0     ultra-  [ah]
+PFX à   0     ultra   [^aáâhrs]
+PFX à   0     ultra-  [aáâh]
 PFX à   0     ultrar  r
 PFX à   0     ultras  s
 
@@ -656,8 +668,13 @@ PFX ä   0     cis     .
 PFX è Y 1
 PFX è   0     hepta   .
 
-PFX é Y 1
-PFX é   0     hexa    .
+PFX é Y 4
+PFX é   0     hexa   [^aáâhrs]
+PFX é   0     hexa-  [aáâh]
+PFX é   0     hexar  r
+PFX é   0     hexas  s
+
+
 
 PFX ê Y 1
 PFX ê   0     penta   .
@@ -685,29 +702,32 @@ PFX ó   0     as      s
 PFX ó   0     ar      r
 
 PFX ô Y 4
-PFX ô   0     supra   [^ahrs]
-PFX ô   0     supra-  [ah]
+PFX ô   0     supra   [^aáâhrs]
+PFX ô   0     supra-  [aáâh]
 PFX ô   0     suprar  r
 PFX ô   0     supras  s
 
 PFX õ Y 4
-PFX õ   0     macro   [^ohrs]
-PFX õ   0     macro-  [oh]
+PFX õ   0     macro   [^oóôhrs]
+PFX õ   0     macro-  [oóôh]
 PFX õ   0     macror  r
 PFX õ   0     macros  s
 
 PFX ö Y 1
 PFX ö   0     poli    .
 
-PFX ù Y 1
-PFX ù   0     hipo    .
+PFX ù Y 4
+PFX ù   0     hipo   [^oóôhrs]
+PFX ù   0     hipo-  [oóôh]
+PFX ù   0     hipor  r
+PFX ù   0     hipos  s
 
 PFX ú Y 1
 PFX ú   0     pré-    .
 
 PFX û Y 4
-PFX û   0     micro   [^ohrs]
-PFX û   0     micro-  [oh]
+PFX û   0     micro   [^oóôhrs]
+PFX û   0     micro-  [oóôh]
 PFX û   0     micror  r
 PFX û   0     micros  s
 
@@ -833,7 +853,7 @@ SFX H   o     uissimamente  go
 SFX H   o     uíssimo       go
 SFX H   o     uíssimos      go
 SFX H   o     uíssima       go
-SFX H   o     uíssima       go
+SFX H   o     uíssimas      go
 SFX H   os    íssima        os
 SFX H   os    issimamente   os
 SFX H   os    íssimas       os
@@ -3966,8 +3986,8 @@ SFX g   0       íamos     uir
 SFX g   0       ias       uir
 SFX g   0       íeis      uir
 SFX g   0       mos       uir
-SFX g   uir     úi        uir
-SFX g   uir     úis       uir
+SFX g   ir      í         uir
+SFX g   ir      ís        uir
 SFX g   r       sse       uir
 SFX g   ir      ísseis    uir
 SFX g   r       ssem      uir
@@ -4663,10 +4683,10 @@ SFX h   iquar    íquo         iquar
 SFX h   inguar   ínguo        inguar
 SFX h   inquar   ínquo        inquar
 SFX h   ar       ou           uar
-SFX h   ar       e            uar
-SFX h   ar       es           uar
-SFX h   ar       em           uar
-SFX h   r        m            uar
+SFX h   ar       e            [^qg]uar
+SFX h   ar       es           [^qg]uar
+SFX h   ar       em           [^qg]uar
+SFX h   r        m            [^qg]uar
 SFX h   r        0            [^qg]uar
 SFX h   r        s            [^qg]uar
 SFX h   r        m            [^qg]uar
@@ -20591,110 +20611,110 @@ SFX r   equar    éqüe-os         equar
 SFX r   equar    éqüe-se         equar
 SFX r   equar    éqüe-te         equar
 SFX r   equar    éqüe-vos        equar
-SFX r   iquar    íqüe-a          iquar
-SFX r   iquar    íqüe-as         iquar
-SFX r   iquar    íqüe-lhe        iquar
-SFX r   iquar    íqüe-lhes       iquar
-SFX r   iquar    íqüe-me         iquar
-SFX r   iquar    íqüe-o          iquar
-SFX r   iquar    íqüe-os         iquar
-SFX r   iquar    íqüe-se         iquar
-SFX r   iquar    íqüe-te         iquar
-SFX r   iquar    íqüe-vos        iquar
-SFX r   inquar   ínqüe-a         inquar
-SFX r   inquar   ínqüe-as        inquar
-SFX r   inquar   ínqüe-lhe       inquar
-SFX r   inquar   ínqüe-lhes      inquar
-SFX r   inquar   ínqüe-me        inquar
-SFX r   inquar   ínqüe-o         inquar
-SFX r   inquar   ínqüe-os        inquar
-SFX r   inquar   ínqüe-se        inquar
-SFX r   inquar   ínqüe-te        inquar
-SFX r   inquar   ínqüe-vos       inquar
-SFX r   uar      üei-a           uar
-SFX r   uar      üei-as          uar
-SFX r   uar      üei-lhe         uar
-SFX r   uar      üei-lhes        uar
-SFX r   uar      üei-me          uar
-SFX r   uar      üei-o           uar
-SFX r   uar      üei-os          uar
-SFX r   uar      üei-te          uar
-SFX r   uar      üei-vos         uar
-SFX r   aguar    ágüem-lhe       aguar
-SFX r   aguar    ágüem-lhes      aguar
-SFX r   aguar    ágüem-me        aguar
-SFX r   aguar    ágüem-na        aguar
-SFX r   aguar    ágüem-nas       aguar
-SFX r   aguar    ágüem-no        aguar
-SFX r   aguar    ágüem-nos       aguar
-SFX r   aguar    ágüem-se        aguar
-SFX r   aguar    ágüem-te        aguar
-SFX r   aguar    ágüem-vos       aguar
-SFX r   eguar    égüem-lhe       eguar
-SFX r   eguar    égüem-lhes      eguar
-SFX r   eguar    égüem-me        eguar
-SFX r   eguar    égüem-na        eguar
-SFX r   eguar    égüem-nas       eguar
-SFX r   eguar    égüem-no        eguar
-SFX r   eguar    égüem-nos       eguar
-SFX r   eguar    égüem-se        eguar
-SFX r   eguar    égüem-te        eguar
-SFX r   eguar    égüem-vos       eguar
-SFX r   iguar    ígüem-lhe       iguar
-SFX r   iguar    ígüem-lhes      iguar
-SFX r   iguar    ígüem-me        iguar
-SFX r   iguar    ígüem-na        iguar
-SFX r   iguar    ígüem-nas       iguar
-SFX r   iguar    ígüem-no        iguar
-SFX r   iguar    ígüem-nos       iguar
-SFX r   iguar    ígüem-se        iguar
-SFX r   iguar    ígüem-te        iguar
-SFX r   iguar    ígüem-vos       iguar
-SFX r   inguar   íngüem-lhe      inguar
-SFX r   inguar   íngüem-lhes     inguar
-SFX r   inguar   íngüem-me       inguar
-SFX r   inguar   íngüem-na       inguar
-SFX r   inguar   íngüem-nas      inguar
-SFX r   inguar   íngüem-no       inguar
-SFX r   inguar   íngüem-nos      inguar
-SFX r   inguar   íngüem-se       inguar
-SFX r   inguar   íngüem-te       inguar
-SFX r   inguar   íngüem-vos      inguar
-SFX r   equar    éqüem-lhe       equar
-SFX r   equar    éqüem-lhes      equar
-SFX r   equar    éqüem-me        equar
-SFX r   equar    éqüem-na        equar
-SFX r   equar    éqüem-nas       equar
-SFX r   equar    éqüem-no        equar
-SFX r   equar    éqüem-nos       equar
-SFX r   equar    éqüem-se        equar
-SFX r   equar    éqüem-te        equar
-SFX r   equar    éqüem-vos       equar
-SFX r   iquar    íqüem-lhe       iquar
-SFX r   iquar    íqüem-lhes      iquar
-SFX r   iquar    íqüem-me        iquar
-SFX r   iquar    íqüem-na        iquar
-SFX r   iquar    íqüem-nas       iquar
-SFX r   iquar    íqüem-no        iquar
-SFX r   iquar    íqüem-nos       iquar
-SFX r   iquar    íqüem-se        iquar
-SFX r   iquar    íqüem-te        iquar
-SFX r   iquar    íqüem-vos       iquar
-SFX r   inquar   ínqüem-lhe      inquar
-SFX r   inquar   ínqüem-lhes     inquar
-SFX r   inquar   ínqüem-me       inquar
-SFX r   inquar   ínqüem-na       inquar
-SFX r   inquar   ínqüem-nas      inquar
-SFX r   inquar   ínqüem-no       inquar
-SFX r   inquar   ínqüem-nos      inquar
-SFX r   inquar   ínqüem-se       inquar
-SFX r   inquar   ínqüem-te       inquar
-SFX r   inquar   ínqüem-vos      inquar
-SFX r   uar      üemo-nos        uar
-SFX r   uar      üemo-vos        uar
-SFX r   uar      üemos-lhe       uar
-SFX r   uar      üemos-lhes      uar
-SFX r   uar      üemos-te        uar
+SFX r   iquar    iqúe-a          iquar
+SFX r   iquar    iqúe-as         iquar
+SFX r   iquar    iqúe-lhe        iquar
+SFX r   iquar    iqúe-lhes       iquar
+SFX r   iquar    iqúe-me         iquar
+SFX r   iquar    iqúe-o          iquar
+SFX r   iquar    iqúe-os         iquar
+SFX r   iquar    iqúe-se         iquar
+SFX r   iquar    iqúe-te         iquar
+SFX r   iquar    iqúe-vos        iquar
+SFX r   inquar   ínque-a         inquar
+SFX r   inquar   ínque-as        inquar
+SFX r   inquar   ínque-lhe       inquar
+SFX r   inquar   ínque-lhes      inquar
+SFX r   inquar   ínque-me        inquar
+SFX r   inquar   ínque-o         inquar
+SFX r   inquar   ínque-os        inquar
+SFX r   inquar   ínque-se        inquar
+SFX r   inquar   ínque-te        inquar
+SFX r   inquar   ínque-vos       inquar
+SFX r   uar      uei-a           uar
+SFX r   uar      uei-as          uar
+SFX r   uar      uei-lhe         uar
+SFX r   uar      uei-lhes        uar
+SFX r   uar      uei-me          uar
+SFX r   uar      uei-o           uar
+SFX r   uar      uei-os          uar
+SFX r   uar      uei-te          uar
+SFX r   uar      uei-vos         uar
+SFX r   aguar    águem-lhe       aguar
+SFX r   aguar    águem-lhes      aguar
+SFX r   aguar    águem-me        aguar
+SFX r   aguar    águem-na        aguar
+SFX r   aguar    águem-nas       aguar
+SFX r   aguar    águem-no        aguar
+SFX r   aguar    águem-nos       aguar
+SFX r   aguar    águem-se        aguar
+SFX r   aguar    águem-te        aguar
+SFX r   aguar    águem-vos       aguar
+SFX r   eguar    éguem-lhe       eguar
+SFX r   eguar    éguem-lhes      eguar
+SFX r   eguar    éguem-me        eguar
+SFX r   eguar    éguem-na        eguar
+SFX r   eguar    éguem-nas       eguar
+SFX r   eguar    éguem-no        eguar
+SFX r   eguar    éguem-nos       eguar
+SFX r   eguar    éguem-se        eguar
+SFX r   eguar    éguem-te        eguar
+SFX r   eguar    éguem-vos       eguar
+SFX r   iguar    íguem-lhe       iguar
+SFX r   iguar    íguem-lhes      iguar
+SFX r   iguar    íguem-me        iguar
+SFX r   iguar    íguem-na        iguar
+SFX r   iguar    íguem-nas       iguar
+SFX r   iguar    íguem-no        iguar
+SFX r   iguar    íguem-nos       iguar
+SFX r   iguar    íguem-se        iguar
+SFX r   iguar    íguem-te        iguar
+SFX r   iguar    íguem-vos       iguar
+SFX r   inguar   ínguem-lhe      inguar
+SFX r   inguar   ínguem-lhes     inguar
+SFX r   inguar   ínguem-me       inguar
+SFX r   inguar   ínguem-na       inguar
+SFX r   inguar   ínguem-nas      inguar
+SFX r   inguar   ínguem-no       inguar
+SFX r   inguar   ínguem-nos      inguar
+SFX r   inguar   ínguem-se       inguar
+SFX r   inguar   ínguem-te       inguar
+SFX r   inguar   ínguem-vos      inguar
+SFX r   equar    équem-lhe       equar
+SFX r   equar    équem-lhes      equar
+SFX r   equar    équem-me        equar
+SFX r   equar    équem-na        equar
+SFX r   equar    équem-nas       equar
+SFX r   equar    équem-no        equar
+SFX r   equar    équem-nos       equar
+SFX r   equar    équem-se        equar
+SFX r   equar    équem-te        equar
+SFX r   equar    équem-vos       equar
+SFX r   iquar    iqúem-lhe       iquar
+SFX r   iquar    iqúem-lhes      iquar
+SFX r   iquar    iqúem-me        iquar
+SFX r   iquar    iqúem-na        iquar
+SFX r   iquar    iqúem-nas       iquar
+SFX r   iquar    iqúem-no        iquar
+SFX r   iquar    iqúem-nos       iquar
+SFX r   iquar    iqúem-se        iquar
+SFX r   iquar    iqúem-te        iquar
+SFX r   iquar    iqúem-vos       iquar
+SFX r   inquar   ínquem-lhe      inquar
+SFX r   inquar   ínquem-lhes     inquar
+SFX r   inquar   ínquem-me       inquar
+SFX r   inquar   ínquem-na       inquar
+SFX r   inquar   ínquem-nas      inquar
+SFX r   inquar   ínquem-no       inquar
+SFX r   inquar   ínquem-nos      inquar
+SFX r   inquar   ínquem-se       inquar
+SFX r   inquar   ínquem-te       inquar
+SFX r   inquar   ínquem-vos      inquar
+SFX r   uar      uemo-nos        uar
+SFX r   uar      uemo-vos        uar
+SFX r   uar      uemos-lhe       uar
+SFX r   uar      uemos-lhes      uar
+SFX r   uar      uemos-te        uar
 SFX r   ar       o-a             uar
 SFX r   ar       o-as            uar
 SFX r   ar       o-lhe           uar

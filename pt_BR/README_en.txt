@@ -1,11 +1,11 @@
 Author: Raimundo Moura <raimundomoura@openoffice.org>
 
-en-US: This dictionary is under continuous development by Raimundo Moura and his team. It is 
+en-US: This dictionary is under continuous development by Raimundo Moura and his team. It is
 licensed under the terms of the GNU Lesser General Public License version 3 (LGPLv3),
-as published by the Free Software Foundation, and Mozilla Public License as published by 
-The Mozilla Foundation.  The credits are available at 
-http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/ and you can 
-find new releases at 
+as published by the Free Software Foundation, and Mozilla Public License as published by
+The Mozilla Foundation.  The credits are available at
+http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/ and you can
+find new releases at
 http://extensions.libreoffice.org
 
 Copyright (C) 2006 - 2012 by Raimundo Santos Moura <raimundo.smoura@gmail.com>

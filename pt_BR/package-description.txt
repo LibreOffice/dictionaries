@@ -1,0 +1,2 @@
+﻿Ferramenta para verificação ortográfica, gramatical e de regras de hifenização.
+Projeto mantido pela comunidade brasileira do LibreOffice.

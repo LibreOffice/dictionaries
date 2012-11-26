@@ -12,6 +12,7 @@ $(eval $(call gb_Module_Module,dictionaries))
 $(eval $(call gb_Module_add_targets,dictionaries,\
 	Configuration_en \
 	Configuration_hu \
+	Configuration_pt_BR \
 	Configuration_ru \
 	Dictionary_af \
 	Dictionary_an \

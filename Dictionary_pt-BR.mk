@@ -10,12 +10,41 @@
 $(eval $(call gb_Dictionary_Dictionary,dict-pt-BR,dictionaries/pt_BR))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-pt-BR,\
-	dictionaries/pt_BR/hyph_pt_BR.dic \
-	dictionaries/pt_BR/pt_BR.aff \
-	dictionaries/pt_BR/pt_BR.dic \
-	dictionaries/pt_BR/README_en.txt \
-	dictionaries/pt_BR/README_hyph_pt_BR.txt \
-	dictionaries/pt_BR/README_pt_BR.txt \
+    dictionaries/pt_BR/hyph_pt_BR.dic \
+    dictionaries/pt_BR/pt_BR.aff \
+    dictionaries/pt_BR/pt_BR.dic \
+    dictionaries/pt_BR/Lightproof.py \
+    dictionaries/pt_BR/Linguistic.xcu \
+    dictionaries/pt_BR/README_Lightproof_pt_BR.txt \
+    dictionaries/pt_BR/README_en.txt \
+    dictionaries/pt_BR/README_hyph_pt_BR.txt \
+    dictionaries/pt_BR/README_pt_BR.txt \
+))
+
+$(eval $(call gb_Dictionary_add_files,dict-pt-BR,dialog,\
+    dictionaries/pt_BR/dialog/pt_BR.xdl \
+    dictionaries/pt_BR/dialog/pt_BR_en_US.default \
+))
+
+$(eval $(call gb_Dictionary_add_files,dict-pt-BR,pythonpath,\
+    dictionaries/pt_BR/pythonpath/lightproof_pt_BR.py \
+    dictionaries/pt_BR/pythonpath/lightproof_handler_pt_BR.py \
+    dictionaries/pt_BR/pythonpath/lightproof_impl_pt_BR.py \
+    dictionaries/pt_BR/pythonpath/lightproof_opts_pt_BR.py \
+))
+
+$(eval $(call gb_Dictionary_add_files,dict-pt-BR,icons,\
+    dictionaries/pt_BR/icons/VERO-logo.png \
+))
+
+$(eval $(call gb_Dictionary_add_generated_file,dict-pt-BR,dialog/OptionsDialog.xcs,$(call gb_XcsTarget_get_target,dictionaries/pt_BR/dialog/registry/schema/org/openoffice/Lightproof_pt_BR.xcs)))
+
+$(eval $(call gb_Dictionary_add_generated_files,dict-pt-BR,dialog,\
+    $(call gb_XcuFile_for_extension,dictionaries/pt_BR/dialog/registry/data/org/openoffice/Office/OptionsDialog.xcu) \
+))
+
+$(eval $(call gb_Dictionary_add_propertyfiles,dict-hu,dialog,\
+    dictionaries/pt_BR/dialog/pt_BR_en_US.properties \
 ))
 
 # vim: set noet sw=4 ts=4:
