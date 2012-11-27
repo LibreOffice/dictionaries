@@ -43,7 +43,7 @@ $(eval $(call gb_Dictionary_add_generated_files,dict-pt-BR,dialog,\
     $(call gb_XcuFile_for_extension,dictionaries/pt_BR/dialog/registry/data/org/openoffice/Office/OptionsDialog.xcu) \
 ))
 
-$(eval $(call gb_Dictionary_add_propertyfiles,dict-hu,dialog,\
+$(eval $(call gb_Dictionary_add_propertyfiles,dict-pt-BR,dialog,\
     dictionaries/pt_BR/dialog/pt_BR_en_US.properties \
 ))
 
