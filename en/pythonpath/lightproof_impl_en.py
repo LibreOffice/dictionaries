@@ -1,6 +1,5 @@
 # -*- encoding: UTF-8 -*-
 import uno, re, sys, os, traceback
-from string import join
 from com.sun.star.text.TextMarkupType import PROOFREADING
 from com.sun.star.beans import PropertyValue
 
@@ -119,7 +118,7 @@ def suggest(rLoc, word):
         if not x:
             return word
         t = x.getAlternatives()
-        suggestions[word] = join(t, "\\n")
+        suggestions[word] = "\\n".join(t)
     return suggestions[word]
 
 # get the nth word of the input string or None
@@ -330,7 +329,7 @@ def measurement(mnum, min, mout, mstr, decimal, remove):
     m = calc("CONVERT_ADD", (float(eval(mnum.replace(remove, "").replace(decimal, ".").replace(u"\u2212", "-"))), min, mout))
     a = list(set([str(calc("ROUND", (m, 0)))[:-2], str(calc("ROUND", (m, 1))), str(calc("ROUND", (m, 2))), str(m)])) # remove duplicated rounded items
     a.sort(lambda x, y: len(x) - len(y)) # sort by string length
-    return join(a, mstr + "\n").replace(".", decimal).replace("-", u"\u2212") + mstr
+    return (mstr + "\n").join(a).replace(".", decimal).replace("-", u"\u2212") + mstr
 
 
 
