@@ -1,6 +1,5 @@
 # -*- encoding: UTF-8 -*-
 import uno, re, sys, os, traceback
-from string import join
 from com.sun.star.text.TextMarkupType import PROOFREADING
 from com.sun.star.beans import PropertyValue
 
@@ -119,7 +118,7 @@ def suggest(rLoc, word):
         if not x:
             return word
         t = x.getAlternatives()
-        suggestions[word] = join(t, "\\n")
+        suggestions[word] = "\\n".join(t)
     return suggestions[word]
 
 # get the nth word of the input string or None
