@@ -9,6 +9,7 @@ import uno, unohelper, sys, traceback, re
 from lightproof_impl_pt_BR import locales
 from lightproof_impl_pt_BR import pkg
 import lightproof_handler_pt_BR
+from string import join
 
 from com.sun.star.linguistic2 import XProofreader, XSupportedLocales
 from com.sun.star.linguistic2 import ProofreadingResult, SingleProofreadingError
@@ -119,7 +120,7 @@ def suggest(rLoc, word):
         if not x:
             return word
         t = x.getAlternatives()
-        suggestions[word] = "\n".join(t)
+        suggestions[word] = join(t, "\n")
     return suggestions[word]
 
 # get the nth word of the input string or None
@@ -207,7 +208,7 @@ def get_rule(rLocale):
                         try:
                                 d = __import__("lightproof_" + pkg)
                         except:
-                                print ("Error: missing language data: " + module)
+                                print "Error: missing language data: " + module
                                 return None
         # compile regular expressions
         for i in d.dic:
@@ -219,7 +220,7 @@ def get_rule(rLocale):
                                 i += [False]
                         i[0] = re.compile(i[0])
                 except:
-                        print ("Lightproof: bad rule -- " +  str(i[0]))
+                        print "Lightproof: bad rule -- ", i[0]
                         i[0] = None
         langrule[module] = d.dic
         return langrule[module]
@@ -2505,7 +2506,7 @@ excAdo = set(["almoxarif", "arcebisp", "atent", "cade", "c"+u"\u00E1"+"g",
 "superfadig", "supermerc", "supersold", "tecl", "xax"])
 
 
-# excplMasco - exc. preposicao A - palavras masculinas terminadas em -o- que nao possui correspondente feminino- Ex.: A principio
+# excplMasco - exceção preposicao A - palavras masculinas terminadas em -o- que nao possui correspondente feminino- Ex.: A principio
 excplMasco = set(["crit"+u"\u00E9"+"rio", "exemplo", "pedido", "pretexto", "princ"+u"\u00ED"+"pio", "prop"+u"\u00F3"+"sito", "tempo", "t"+u"\u00ED"+"tulo"])
 
 # plvrMasxo - ESPECIAL - palavras masculinas terminadas em -o- que nao possui correspondente feminino- ano e auto
@@ -4209,7 +4210,7 @@ plvrMfoa = set(["abecedarian", "abelan", "abelian", "abelonian",
 "franklinian", "frase"+u"\u00F4"+"man", "frasnian", "frebelian",
 "fregelan", "freirean", "freirian", "frentan",
 "freudian", "fri", "fris", "frisian",
-"friulan", "fr"+u"\u00ED"+"vol", u"fr\u00F6belian", "froebelian",
+"friulan", "fr"+u"\u00ED"+"vol", "fröbelian", "froebelian",
 "froux", "frut", "fuchsian", "fucsian",
 "fulan", "f"+u"\u00FA"+"lgid", "fulian", "fund",
 "fundan", "funest", "furan", "furfuran",
@@ -4280,7 +4281,7 @@ plvrMfoa = set(["abecedarian", "abelan", "abelian", "abelonian",
 "holbachian", "holbaquian", "hollywoodian", "holocranian",
 "homeousian", "hominian", "homoplan", "homousian",
 "honest", "horacian", "hospedeir", "hospitaleir",
-"h\u00FCbnerian", "hudsonian", "hugoan", "hullian",
+"hübnerian", "hudsonian", "hugoan", "hullian",
 "human", "humaniformian", "humanitarian", "humboldtian",
 "humian", "h"+u"\u00FA"+"ngar", "hunterian", "huronian",
 "husserlian", "hutchinsonian", "huterian", "huttonian",
@@ -4458,7 +4459,7 @@ plvrMfoa = set(["abecedarian", "abelan", "abelian", "abelonian",
 "moametan", "mo"+u"\u00E7", "mo"+u"\u00E7"+"ambican", "mocan",
 "mocinh", "mococan", "mod", "modern",
 "modest", "modinh", "moican", "mojian",
-"molibduran", "moli\u00F8rian", "molucan", "moment"+u"\u00E2"+"ne", "monasterian",
+"molibduran", "molièrian", "molucan", "moment"+u"\u00E2"+"ne", "monasterian",
 "mongolian", "monjolan", "monocarpian", "monocefalian",
 "mon"+u"\u00F4"+"man", "mononfalian", "monoplan", "monossilan",
 "mon"+u"\u00F3"+"ton", "monovarian", "monozonian", "monroean",
@@ -4687,7 +4688,7 @@ plvrMfoa = set(["abecedarian", "abelan", "abelian", "abelonian",
 "sardian", "sarian", "sarmacian", "sartrian",
 "satanian", "saticulan", "satrican", "saturnian",
 "saumurian", "saurisquian", "saussurian", "saxonian",
-"schillerian", "schlegelian", "schoenbergian", "sch\u00F6nbergian",
+"schillerian", "schlegelian", "schoenbergian", "schönbergian",
 "schopenhauerian", "schubertian", "scottian", "seabranan",
 "sebastianopolitan", "sebusian", "sec", "secan",
 "secret", "secundan", "secundian", "sedetan",
@@ -5171,7 +5172,7 @@ plvrMfel = set(["cru", "fi", "gosp", "infi", "isab", "isra", "nob", "no"])
 # plvrFemel - palavras femininas terminadas em -el- 
 plvrFemel = set(["cascav"])
 
-# excplMascu - exc. preposicao A - palavras masculinas terminadas em -u- - Ex.: A meu, A seu, A teu
+# excplMascu - exceção preposicao A - palavras masculinas terminadas em -u- - Ex.: A meu, A seu, A teu
 excplMascu = set(["me", "se", "te"])
 
 # plvrMascu - palavras masculinas terminadas em -u- 
@@ -9911,7 +9912,7 @@ plvrMasce = set(["abacat", "abat", "acident", "a"+u"\u00E7"+"ougu",
 "biscat", "bisont", "bispot", "bitat",
 "bit", "bivaqu", "blagu", "blecaut",
 "bobech", "bocet", "bod", "bof",
-"bofet", "boicot", "boiot", "bo\u00EEt",
+"bofet", "boicot", "boiot", "boît",
 "bond", "bonifrat", "bosqu", "bosquet",
 "bot", "botoqu", "box", "bracelet",
 "brand", "breloqu", "brequ", "bricabraqu",
@@ -13983,7 +13984,7 @@ u"\u00ED"+"bis-sagrado", "icacor"+u"\u00E9"+"s-catinga", "idades-limite", "ideia
 "quartzos-fantasma", "quartzos-m"+u"\u00F3"+"rion", "qu"+u"\u00E1"+"ssias-simaruba", "queijos-cavalo",
 "queixas-crime", "quenqu"+u"\u00E9"+"ns-caiap"+u"\u00F3", "quest"+u"\u00F5"+"es-chave", "quic"+u"\u00EA"+"s-acica",
 "quilogramas-for"+u"\u00E7"+"a", "quilogramas-metro", "quilogramas-peso", "quil"+u"\u00F4"+"metros-passageiro",
-"quilovares-hora", "quilov"+u"\u00E1"+"tios-hora", "quilovolts-ampere", "quilovolts-amp\u00E8re",
+"quilovares-hora", "quilov"+u"\u00E1"+"tios-hora", "quilovolts-ampere", "quilovolts-ampère",
 "quilowats-hora", "quinas-calisaia", "quinas-carib"+u"\u00E9", "quinas-cruzeiro",
 "quinas-laranjeira", "quinas-pereira", "quissandas-muxito", "quotas-parte",
 "r"+u"\u00E3"+"s-cachorro", "r"+u"\u00E3"+"s-manteiga", "rabelos-coelha", "r"+u"\u00E1"+"dios-cassete",
@@ -14632,7 +14633,7 @@ u"\u00E1"+"sio-portugu"+u"\u00EA"+"s", u"\u00E1"+"sio-sax"+u"\u00E3"+"o", "asses
 "aux"+u"\u00ED"+"lio-reclus"+u"\u00E3"+"o", "aux"+u"\u00ED"+"lio-refei"+u"\u00E7"+u"\u00E3"+"o",
 "Aux"+u"\u00ED"+"lio-Refei"+u"\u00E7"+u"\u00E3"+"o", "aux"+u"\u00ED"+"lio-sa"+u"\u00FA"+"de",
 "aux"+u"\u00ED"+"lio-transporte",
-"avant-garde", "avant-premi\u00E8re", "avant-sc\u00E8ne", "ave-maria",
+"avant-garde", "avant-première", "avant-scène", "ave-maria",
 "Ave-Maria", "ave-marias", "Ave-Marias",
 "aveia-amarela", "aveia-comum", "aveia-est"+u"\u00E9"+"ril",
 "aveias-amarelas", "aveias-comuns", "aveias-est"+u"\u00E9"+"reis",
@@ -15581,7 +15582,7 @@ u"\u00ED"+"talo-turco", "jiu-jitsu", "judaico-crist"+u"\u00E3",
 "quiloel"+u"\u00E9"+"tron-volt", "quiloel"+u"\u00E9"+"trons-volt", "quilo"+u"\u00E9"+"letrons-volts",
 "quilograma-for"+u"\u00E7"+"a", "quilograma-metro", "quilograma-padr"+u"\u00E3"+"o",
 "quilograma-peso", "quil"+u"\u00F4"+"metro-passageiro", "quilovar-hora",
-"quilov"+u"\u00E1"+"tio-hora", "quilovolt-ampere", "quilovolt-amp\u00E8re",
+"quilov"+u"\u00E1"+"tio-hora", "quilovolt-ampere", "quilovolt-ampère",
 "quilovolts-amperes", "quilowatt-hora", "qu"+u"\u00ED"+"mico-analista",
 "qu"+u"\u00ED"+"mico-anal"+u"\u00ED"+"tico", "qu"+u"\u00ED"+"mico-bacteriol"+u"\u00F3"+"gico", "qu"+u"\u00ED"+"mico-bacteriologista",
 "qu"+u"\u00ED"+"mico-biol"+u"\u00F3"+"gico", "qu"+u"\u00ED"+"mico-bromatol"+u"\u00F3"+"gico", "qu"+u"\u00ED"+"mico-farmac"+u"\u00EA"+"utico",
@@ -15922,10 +15923,10 @@ u"\u00ED"+"talo-turco", "jiu-jitsu", "judaico-crist"+u"\u00E3",
 "vi"+u"\u00FA"+"va-alegre", "vi"+u"\u00FA"+"va-azul", "vi"+u"\u00FA"+"va-mo"+u"\u00E7"+"a",
 "vi"+u"\u00FA"+"va-negra", "vi"+u"\u00FA"+"vas-alegres", "vi"+u"\u00FA"+"vas-azuis",
 "vi"+u"\u00FA"+"vas-mo"+u"\u00E7"+"as", "vi"+u"\u00FA"+"vas-negras", "volt-ampere",
-"volt-amp\u00E8re", "volt-amper"+u"\u00ED"+"metro", "volt-coulomb",
+"volt-ampère", "volt-amper"+u"\u00ED"+"metro", "volt-coulomb",
 "volt-el"+u"\u00E9"+"ctron", "volt-el"+u"\u00E9"+"tron", "volt-segundo",
 "volta-alegrense", "volta-freitense", "volta-grandense",
-"volta-redondense", "volts-amperes", "volts-amp\u00E8res",
+"volta-redondense", "volts-amperes", "volts-ampères",
 "volts-coulombs", "volts-el"+u"\u00E9"+"ctrons", "volts-el"+u"\u00E9"+"trons",
 "volts-segundos", "voto-vista", "watt-hora",
 "watt-hor"+u"\u00ED"+"metro", "watt-minuto", "watt-segundo",
@@ -18606,5 +18607,5 @@ def measurement(mnum, min, mout, mstr, decimal, remove):
     m = calc("CONVERT_ADD", (float(eval(mnum.replace(remove, "").replace(decimal, ".").replace(u"\u2212", "-"))), min, mout))
     a = list(set([str(calc("ROUND", (m, 0)))[:-2], str(calc("ROUND", (m, 1))), str(calc("ROUND", (m, 2))), str(m)])) # remove duplicated rounded items
     a.sort(lambda x, y: len(x) - len(y)) # sort by string length
-    return (mstr + "\n").join(a).replace(".", decimal).replace("-", u"\u2212") + mstr
+    return join(a, mstr + "\n").replace(".", decimal).replace("-", u"\u2212") + mstr
 
