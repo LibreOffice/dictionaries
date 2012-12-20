@@ -231,7 +231,20 @@ SOBRE ESTA ATUALIZAÇÃO
   Denatran, trojan, gigawatts-hora, elétrico-eletrônico, magneto-indutivo,
   uperterra, vermicompostagem, vermicomposto e inexecutar, bioimpressão,
   biotinta, desprofissionalização, jurisdicionário, republicanamente,
-  supermúsculo;
+  supermúsculo, autonumeração, ultraminiaturização, microcomponente.
+. Inclusão de: coinvestigador, eletropermanente, Isadorinha, moteína,
+  motor-proteína, motores-proteína, multicampeão, nanocola, nanopeça,
+  pantera-nebulosa-de-bornéu, panteras-nebulosas-de-bornéu,
+  publicitário-financeiro, semideserto, superassassino e supermaravilha.
+. Inclusão de: autoadvocacia, boletinzinho, cacoetezinho, cães-guia,
+  coalhos, Eliomar, encefalopata, folhetinho, mainha, microplítica,
+  penas-do-mar, pós-protetização, pré-protetização, preventivista,
+  protetização, protetizado, seguro-reabilitação, supercerto,
+  supercorreto, supererrado, zagueiro-volante;
+. Exclusão de estrela-cadente e terahertz;
+. Inclusão de: geminídeo(s), ultraforte, tera-hertz, microssatélite,
+  desinterdição, ciclopassarela, peta-hertz, PHz e nanoscopia;
+
 
 =======================================================
 COMO INSTALAR O VERIFICADOR BRASILEIRO NO LIBREOFFICE

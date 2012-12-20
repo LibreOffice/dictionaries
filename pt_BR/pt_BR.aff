@@ -110,7 +110,7 @@ ONLYMAXDIFF
 
 
 # melhorar a sugestão de palavras
-REP 410
+REP 415
 REP -           s-
 REP -           r
 REP -           s
@@ -154,6 +154,7 @@ REP am          ã
 REP am          an
 REP âm          ân
 REP am          ão
+REP ampanhi     ampainh
 REP an          ã 
 REP an          am
 REP ân          âm
@@ -184,6 +185,7 @@ REP c           ç
 REP c           s
 REP c           sc
 REP ç           c
+REP ç           ce
 REP ç           ss
 REP cao         ção
 REP cão         ção
@@ -247,6 +249,8 @@ REP es          ez
 REP ês          ez
 REP ês          ez
 REP este        éster
+REP eteira      auta
+REP eteiro      auta
 REP ex          es
 REP ez          es
 REP ez          és
@@ -307,6 +311,7 @@ REP kiwi        quiuí
 REP ko          co
 REP ku          cu
 REP Kwanyama    Cuanhama
+REP l           is
 REP l           l-
 REP l           u
 REP l           u
