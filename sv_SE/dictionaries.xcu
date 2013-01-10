@@ -24,6 +24,17 @@
                     <value>sv-FI</value>
                 </prop>
             </node>
+            <node oor:name="HyphDic_sv" oor:op="fuse">
+                <prop oor:name="Locations" oor:type="oor:string-list">
+                    <value>%origin%/hyph_sv.dic</value>
+                </prop>
+                <prop oor:name="Format" oor:type="xs:string">
+                    <value>DICT_HYPH</value>
+                </prop>
+                <prop oor:name="Locales" oor:type="oor:string-list">
+                    <value>sv-SE sv-FI</value>
+                </prop>
+            </node>
             <node oor:name="ThesDic_sv-SE1" oor:op="fuse">
                 <prop oor:name="Locations" oor:type="oor:string-list">
                     <value>%origin%/th_sv_SE.dat</value>
