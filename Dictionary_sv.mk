@@ -12,7 +12,9 @@ $(eval $(call gb_Dictionary_Dictionary,dict-sv,dictionaries/sv_SE))
 $(eval $(call gb_Dictionary_add_root_files,dict-sv,\
 	dictionaries/sv_SE/LICENSE_en_US.txt \
 	dictionaries/sv_SE/LICENSE_sv_SE.txt \
+	dictionaries/sv_SE/README_hyph_sv.txt \
 	dictionaries/sv_SE/README_th_sv_SE.txt \
+	dictionaries/sv_SE/hyph_sv.dic \
 	dictionaries/sv_SE/sv_FI.aff \
 	dictionaries/sv_SE/sv_FI.dic \
 	dictionaries/sv_SE/sv_SE.aff \
