@@ -10,12 +10,13 @@
 $(eval $(call gb_Dictionary_Dictionary,dict-lt,dictionaries/lt_LT))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-lt,\
-	dictionaries/lt_LT/COPYING_lt_LT \
-	dictionaries/lt_LT/hyph_lt_LT.dic \
-	dictionaries/lt_LT/lt_LT.aff \
-	dictionaries/lt_LT/lt_LT.dic \
-	dictionaries/lt_LT/README_hyph_lt_LT.txt \
-	dictionaries/lt_LT/README_lt_LT.txt \
+	dictionaries/lt_LT/AUTHORS \
+	dictionaries/lt_LT/COPYING \
+	dictionaries/lt_LT/hyph_lt.dic \
+	dictionaries/lt_LT/lt.aff \
+	dictionaries/lt_LT/lt.dic \
+	dictionaries/lt_LT/README \
+	dictionaries/lt_LT/README_hyph \
 ))
 
 # vim: set noet sw=4 ts=4:
