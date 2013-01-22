@@ -21,6 +21,7 @@ $(eval $(call gb_Module_add_targets,dictionaries,\
 	Dictionary_bg \
 	Dictionary_bn \
 	Dictionary_br \
+	Dictionary_bs \
 	Dictionary_ca \
 	Dictionary_cs \
 	Dictionary_da \
