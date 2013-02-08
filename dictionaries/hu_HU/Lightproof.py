@@ -1,3 +1,4 @@
+es
 # -*- encoding: UTF-8 -*-
 # Lightproof grammar checker for LibreOffice and OpenOffice.org
 # http://launchpad.net/lightproof
@@ -232,7 +233,7 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
         global SMGR
         self.ctx = ctx
         self.ServiceName = "com.sun.star.linguistic2.Proofreader"
-        self.ImplementationName = "org.openoffice.comp.pyuno.Lightproof." + pkg
+        self.ImplementationName = "org.libreoffice.comp.pyuno.Lightproof." + pkg
         self.SupportedServiceNames = (self.ServiceName, )
         self.locales = []
         for i in locales:
@@ -314,11 +315,11 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
 
 g_ImplementationHelper = unohelper.ImplementationHelper()
 g_ImplementationHelper.addImplementation( Lightproof, \
-        "org.openoffice.comp.pyuno.Lightproof." + pkg,
+        "org.libreoffice.comp.pyuno.Lightproof." + pkg,
         ("com.sun.star.linguistic2.Proofreader",),)
 
 g_ImplementationHelper.addImplementation( lightproof_handler_hu_HU.LightproofOptionsEventHandler, \
-        "org.openoffice.comp.pyuno.LightproofOptionsEventHandler." + pkg,
+        "org.libreoffice.comp.pyuno.LightproofOptionsEventHandler." + pkg,
         ("com.sun.star.awt.XContainerWindowEventHandler",),)
 
 abbrev=re.compile(ur"(?i)\\b([a-z\xf6\xfc\xf3\u0151\xfa\xe9\xe1\u0171\xed\xd6\xdc\xd3\u0150\xda\xc9\xc1\u0170\xcd]|\xc1e|\xc1ht|AkH|al|\xe1lt|\xe1pr|aug|Avtv|bek|Bp|br|bt|Btk|cca|ci(i|ii|v|x)?|cl(i|ii|iii|iv|ix|v|vi|vii|viii|x|xi|xii|xiii|xiv|xix|xv|xvi|xvii|xviii|xx|xxi|xxii|xxiii|xxiv|xxix|xxv|xxvi|xxvii|xxviii|xxx|xxxi|xxxii|xxxiii|xxxiv|xxxix|xxxv|xxxvi|xxxvii|xxxviii)?|Co|cv(i|ii|iii)?|cx(c|ci|cii|ciii|civ|cix|cv|cvi|cvii|cviii|i|ii|iii|iv|ix|l|li|lii|liii|liv|lix|lv|lvi|lvii|lviii|v|vi|vii|viii|x|xi|xii|xiii|xiv|xix|xv|xvi|xvii|xviii|xx|xxi|xxii|xxiii|xxiv|xxix|xxv|xxvi|xxvii|xxviii)?|cs|Csjt|Cstv|cs\xfct|dec|dk|dny|dr|du|dz(s)?|egy|\xe9k|\xc9Ksz|em|\xe9ny|\xc9pt|\xe9rk|etc|Etv|e\xfc|ev|\xe9vf|febr|felv|Flt|ford|f\u0151isk|fsz(la|t)?|Ftv|gimn|g\xf6r|gr|Gt|gy|Gyvt|habil|hg|hiv|Hjt|honv|Hpt|hrsz|hsz|Hszt|htb|id|ifj|ig(h)?|ii(i)?|ill|Inc|ind|isk|iv|ix|izr|jan|jegyz|j\xfal|j\xfan|kat|kb|Kbt|ker|kft|kgy|kht|kir|kiv|Kjt|kk(t)?|koll|korm|k\xf6v|kp|Kr|krt|Kt(v)?|ld|li(i|ii|v|x)?|Ltd|ltp|Ltv|luth|lv(i|ii|iii)?|lx(i|ii|iii|iv|ix|v|vi|vii|viii|x|xi|xii|xiii|xiv|xix|xv|xvi|xvii|xviii|xx|xxi|xxii|xxiii|xxiv|xxix|xxv|xxvi|xxvii|xxviii)?|ly|m\xe1j|m\xe1rc|mat|max|mb|megh|megj|MHSz|min|mk|Mo|Mt|NB|nov|ny(\xe1)?|Nyilv|nyrt|okl|okt|olv|op|orsz|ort|ov(h)?|\xf6ssz|\xd6tv|\xf6zv|Pf|pl(d)?|prof|prot|Ptk|pu|ref|rk(p)?|r\xf3m|r\xf6v|rt|sgt|spec|stb|sz(ept|erk)?|Szjt|szoc|Szt(v)?|sz\xfcl|Tbj|tc|tel|tkp|tszf|tvr|ty|ua|ui|\xfam|\xfan|uo|Ve|Vhr|vi(i|ii)?|v\xf6|vsz|Vt(v)?|xc(i|ii|iii|iv|ix|v|vi|vii|viii)?|xi(i|ii|v|x)?|xl(i|ii|iii|iv|ix|v|vi|vii|viii)?|xv(i|ii|iii)?|xx(i|ii|iii|iv|ix|v|vi|vii|viii|x|xi|xii|xiii|xiv|xix|xv|xvi|xvii|xviii)?|zrt)\\.")
