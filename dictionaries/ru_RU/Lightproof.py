@@ -232,7 +232,7 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
         global SMGR
         self.ctx = ctx
         self.ServiceName = "com.sun.star.linguistic2.Proofreader"
-        self.ImplementationName = "org.openoffice.comp.pyuno.Lightproof." + pkg
+        self.ImplementationName = "org.libreoffice.comp.pyuno.Lightproof." + pkg
         self.SupportedServiceNames = (self.ServiceName, )
         self.locales = []
         for i in locales:
@@ -314,9 +314,9 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
 
 g_ImplementationHelper = unohelper.ImplementationHelper()
 g_ImplementationHelper.addImplementation( Lightproof, \
-        "org.openoffice.comp.pyuno.Lightproof." + pkg,
+        "org.libreoffice.comp.pyuno.Lightproof." + pkg,
         ("com.sun.star.linguistic2.Proofreader",),)
 
 g_ImplementationHelper.addImplementation( lightproof_handler_ru_RU.LightproofOptionsEventHandler, \
-        "org.openoffice.comp.pyuno.LightproofOptionsEventHandler." + pkg,
+        "org.libreoffice.comp.pyuno.LightproofOptionsEventHandler." + pkg,
         ("com.sun.star.awt.XContainerWindowEventHandler",),)
