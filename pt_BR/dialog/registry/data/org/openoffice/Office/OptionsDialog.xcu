@@ -18,7 +18,7 @@
             <value>%origin%/pt_BR.xdl</value>
           </prop>
           <prop oor:name="EventHandlerService">
-            <value>org.openoffice.comp.pyuno.LightproofOptionsEventHandler.pt_BR</value>
+            <value>org.libreoffice.comp.pyuno.LightproofOptionsEventHandler.pt_BR</value>
           </prop>
         </node>
       </node>

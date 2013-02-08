@@ -25,7 +25,7 @@
                                         </prop>
                                         
                                         <prop oor:name="EventHandlerService">
-                                                <value>org.openoffice.comp.pyuno.LightproofOptionsEventHandler.hu_HU</value>
+                                                <value>org.libreoffice.comp.pyuno.LightproofOptionsEventHandler.hu_HU</value>
                                         </prop>
                                         
                                 </node>
