@@ -38,7 +38,7 @@ class LightproofOptionsEventHandler( unohelper.Base, XServiceInfo, XContainerWin
         p.Value = "/org.openoffice.Lightproof_%s/Leaves"%pkg
         self.xConfig = ctx.ServiceManager.createInstance( 'com.sun.star.configuration.ConfigurationProvider' )
         self.node = self.xConfig.createInstanceWithArguments( 'com.sun.star.configuration.ConfigurationUpdateAccess', (p, ) )
-        self.service = "org.openoffice.comp.pyuno.LightproofOptionsEventHandler." + pkg
+        self.service = "org.libreoffice.comp.pyuno.LightproofOptionsEventHandler." + pkg
         self.ImplementationName = self.service
         self.services = (self.service, )
 
