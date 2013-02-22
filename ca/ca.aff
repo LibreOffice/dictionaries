@@ -22,7 +22,7 @@
 #        Diccionari d'Ispell, d'Ignasi Labastida
 #        Recull de gentilicis, de M.M. Ramon i C. Rigo
 # Amb aportacions de: Miquel Font, Francesc Xavier Moratinos, Jordi Mas, Jordi Mallach,
-#                     Joan Montané
+#                     Joan Montané, Jaume Ortolà
 # =======================================================================================
 
 # Regles:
@@ -53,6 +53,8 @@
 #     Z Pronoms personals prefixats
 
 SET ISO8859-1
+
+WORDCHARS ·-'
 
 TRY easirtocnlumdpgvfbqjwxyzhàèéíïòóúüç·-'
 
@@ -106,7 +108,7 @@ REP ó Ó
 REP ú Ú
 REP ü Ü
 
-SFX A Y 355
+SFX A Y 361
 SFX A ava ar/CY ava
 SFX A ava ant/C ava
 SFX A ava at/vY ava
@@ -223,9 +225,9 @@ SFX A ava ï/Z [^aeiou][eio]ava
 SFX A iava ï/Z [aeiou]iava
 SFX A ava ï/Z [gq]uiava
 SFX A iava ï/Z [^gq]uiava
-SFX A guava güi/Z guava
-SFX A quava qüi/Z quava
-SFX A uava uï/Z [^gq]uava
+SFX A uava üi/Z [gq]uava
+SFX A ava i/Z [eo]uava
+SFX A uava uï/Z [^eogq]uava
 SFX A cava qui/Z cava
 SFX A çava ci/Z çava
 SFX A gava gui/Z gava
@@ -243,9 +245,9 @@ SFX A ava ïs/Z [^aeiou][eio]ava
 SFX A iava ïs/Z [aeiou]iava
 SFX A ava ïs/Z [gq]uiava
 SFX A iava ïs/Z [^gq]uiava
-SFX A guava güis/Z guava
-SFX A quava qüis/Z quava
-SFX A uava uïs/Z [^gq]uava
+SFX A uava üis/Z [gq]uava
+SFX A ava is/Z [eo]uava
+SFX A uava uïs/Z [^eogq]uava
 SFX A cava quis/Z cava
 SFX A çava cis/Z çava
 SFX A gava guis/Z gava
@@ -261,9 +263,11 @@ SFX A java ges/Z java
 SFX A ava i/Z [^cçgjieou]ava
 SFX A ava ï/Z [^aeiou][eio]ava
 SFX A iava ï/Z [aeiou]iava
-SFX A guava güi/Z guava
-SFX A quava qüi/Z quava
-SFX A uava uï/Z [^gq]uava
+SFX A ava ï/Z [gq]uiava
+SFX A iava ï/Z [^gq]uiava
+SFX A uava üi/Z [gq]uava
+SFX A ava i/Z [eo]uava
+SFX A uava uï/Z [^eogq]uava
 SFX A cava qui/Z cava
 SFX A çava ci/Z çava
 SFX A gava gui/Z gava
@@ -325,6 +329,7 @@ SFX A ava ara/Z ava
 SFX A ava essis/Z [^cçgju]ava
 SFX A ava esses/Z [^cçgju]ava
 SFX A ava assis/Z ava
+SFX A ava asses/Z ava
 SFX A ava ares/Z ava
 SFX A ava essis/Z [^gq]uava
 SFX A ava esses/Z [^gq]uava
@@ -353,6 +358,7 @@ SFX A ava ara/Z ava
 SFX A ava éssim/Z [^cçgju]ava
 SFX A ava éssem/Z [^cçgju]ava
 SFX A ava àssim/Z ava
+SFX A ava àssem/Z ava
 SFX A ava àrem/Z ava
 SFX A ava éssim/Z [^gq]uava
 SFX A ava éssem/Z [^gq]uava
@@ -371,6 +377,7 @@ SFX A java géssem/Z java
 SFX A ava éssiu/Z [^cçgju]ava
 SFX A ava ésseu/Z [^cçgju]ava
 SFX A ava àssiu/Z ava
+SFX A ava àsseu/Z ava
 SFX A ava àreu/Z ava
 SFX A ava éssiu/Z [^gq]uava
 SFX A ava ésseu/Z [^gq]uava
@@ -389,6 +396,7 @@ SFX A java gésseu/Z java
 SFX A ava essin/Z [^cçgju]ava
 SFX A ava essen/Z [^cçgju]ava
 SFX A ava assin/Z ava
+SFX A ava assen/Z ava
 SFX A ava aren/Z ava
 SFX A ava essin/Z [^gq]uava
 SFX A ava essen/Z [^gq]uava
@@ -410,9 +418,9 @@ SFX A ava ï/D [^aeiou][eio]ava
 SFX A iava ï/D [aeiou]iava
 SFX A ava ï/D [gq]uiava
 SFX A iava ï/D [^gq]uiava
-SFX A guava güi/D guava
-SFX A quava qüi/D quava
-SFX A uava uï/D [^gq]uava
+SFX A uava üi/D [gq]uava
+SFX A ava i/D [eo]uava
+SFX A uava uï/D [^eogq]uava
 SFX A cava qui/D cava
 SFX A çava ci/D çava
 SFX A gava gui/D gava
@@ -510,7 +518,7 @@ SFX B ós osses ós
 SFX B ús usses [^aeoi]ús
 SFX B ús üsses [aeoi]ús
 
-SFX C Y 81
+SFX C Y 85
 SFX C 0 -ne .
 SFX C 0 -me .
 SFX C 0 -nos .
@@ -592,8 +600,12 @@ SFX C 0 -los-hi .
 SFX C 0 -la-hi .
 SFX C 0 -les-hi .
 SFX C 0 -n'hi .
+SFX C 0 -li'l .
+SFX C 0 -li'ls .
+SFX C 0 -li-la .
+SFX C 0 -li-les .
 
-SFX D Y 81
+SFX D Y 85
 SFX D 0 'n .
 SFX D 0 'm .
 SFX D 0 'ns .
@@ -675,6 +687,10 @@ SFX D 0 'ls-hi .
 SFX D 0 -la-hi .
 SFX D 0 -les-hi .
 SFX D 0 -n'hi .
+SFX D 0 -li'l .
+SFX D 0 -li'ls .
+SFX D 0 -li-la .
+SFX D 0 -li-les .
 
 SFX E Y 14
 SFX E 0 s [^ans]
@@ -975,7 +991,7 @@ SFX M iré iu/C [gq]uiré
 SFX M iré ïu/C [^gq]uiré
 SFX M iré ïu/C [aeio]iré
 
-SFX N Y 62
+SFX N Y 66
 SFX N iré eixo/Z iré
 SFX N iré esc/Z iré
 SFX N iré isc/Z [^aeiou]iré
@@ -999,24 +1015,28 @@ SFX N iré ïxen/Z [^gq]uiré
 SFX N iré ïxen/Z [aeio]iré
 SFX N iré eixi/Z iré
 SFX N iré esqui/Z iré
+SFX N iré esca/Z iré
 SFX N iré isca/Z [^aeiou]iré
 SFX N iré isca/Z [gq]uiré
 SFX N iré ïsca/Z [^gq]uiré
 SFX N iré ïsca/Z [aeio]iré
 SFX N iré eixis/Z iré
 SFX N iré esquis/Z iré
+SFX N iré esques/Z iré
 SFX N iré isques/Z [^aeiou]iré
 SFX N iré isques/Z [gq]uiré
 SFX N iré ïsques/Z [^gq]uiré
 SFX N iré ïsques/Z [aeio]iré
 SFX N iré eixi/Z iré
 SFX N iré esqui/Z iré
+SFX N iré esca/Z iré
 SFX N iré isca/Z [^aeiou]iré
 SFX N iré isca/Z [gq]uiré
 SFX N iré ïsca/Z [^gq]uiré
 SFX N iré ïsca/Z [aeio]iré
 SFX N iré eixin/Z iré
 SFX N iré esquin/Z iré
+SFX N iré esquen/Z iré
 SFX N iré isquen/Z [^aeiou]iré
 SFX N iré isquen/Z [gq]uiré
 SFX N iré ïsquen/Z [^gq]uiré

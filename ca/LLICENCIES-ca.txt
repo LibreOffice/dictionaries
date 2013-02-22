@@ -1,2 +1,10 @@
-LLICÈNCIES:
-Diccionari ortogràfic : LGPL, GPL
+﻿Llicència:
+
+ Diccionari ortogràfic: GPL/LGPL
+   Copyright (c) 2013 Joan Moratinos <jmoratinos@softcata.org) i Jaume Ortalà <jaumeortola@gmail.com> --- Softcatalà
+
+ Diccionari de partició de mots: GPLv3
+   Copyright (c) 2013 Jaume Ortalà <jaumeortola@gmail.com> --- Softcatalà
+  
+ Tesaurus (sinònims i mots relacionats): GPL/LGPL
+   Copyright (c) 2009 Joan Montané <jmontane@softcatala.org> --- Softcatalà
