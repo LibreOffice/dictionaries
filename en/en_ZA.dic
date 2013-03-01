@@ -1,4 +1,4 @@
-53476
+53477
 !boerbul
 !likable
 !poes
@@ -4215,7 +4215,7 @@ cock-a-hoop
 cock-of-the-wood
 cockiness/S
 cockscomb/MS
-cocksucker/S
+cocksucker/S!
 cocksure
 cocky/TP
 coco/MS
@@ -5764,7 +5764,7 @@ frustrate/DhnSkGN
 frustrater/M
 frustum/MS
 ftp
-fuck/RGJMDS
+fuck/RGJMDS!
 fudge/DGMS
 fulfiller
 full/RPYTG
@@ -25771,7 +25771,7 @@ cumber/dS
 cumin/MS
 cumulonimbi
 cunnilingus/MS
-cunt/MS
+cunt/MS!
 cupful/MS
 cupidity/SM
 cupping/M
@@ -42019,9 +42019,10 @@ trait/E
 traitor/MS
 trammel/DSG
 tramway/SM
-tranny/S
+tranny/S!
 tranquillity/S
 tranquilly/q89Qs-
+trans
 transceiver/SM
 transcendentalism/SM
 transcriptional
@@ -46327,7 +46328,7 @@ bullheadedness/S
 bullied/M
 bullion/SM
 bullpen/SM
-bullshit/RGSDM
+bullshit/RGSDM!
 bullying/M
 bum/TDGRMS
 bumble/RSkDG
@@ -50280,7 +50281,7 @@ nicotine/MS
 niece/MS
 nifty/TYS
 niggard/MSY
-nigger/MS
+nigger/MS!
 night's
 night-blindness
 night-life/M
