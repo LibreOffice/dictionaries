@@ -12,6 +12,7 @@
 #  - add phonetic suggestion (Copyright (C) 2000 Björn Jacke, see the end of the file)
 SET UTF-8
 TRY esiaénrtolcdugmfphbyvkw-'.zqjxSNRTLCGDMFPHBEAUYOIVKWóöâôZQJXÅçèîêàïüäñ
+NOSUGGEST !
 REP 36
 REP f ph
 REP ph f
