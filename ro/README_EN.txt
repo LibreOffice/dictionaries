@@ -20,6 +20,7 @@ License:
 Authors:
     Lucian Constantin (http://rospell.sourceforge.net)
     Sorin Sbarnea (http://www.i18n.ro)
+    Andrei Cipu <strainu10@gmail.com>
     Alexandru Szasz (Mozilla and OpenOffice.org Romanian Translation Team)
     Ionuț Păduraru (http://www.archeus.ro)
     Adrian Stoica (OpenOffice.org Romanian Translation Team) <adrian dot stoica at cuvinte dot ro>
