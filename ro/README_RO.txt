@@ -20,6 +20,7 @@ Licență:
 3. Dicționarul de corectare ortografică
 Autori:
     Lucian Constantin (http://rospell.sourceforge.net)
+    Andrei Cipu <strainu10@gmail.com>
     Sorin Sbarnea (http://www.i18n.ro)
     Alexandru Szasz (Mozilla and OpenOffice.org Romanian Translation Team)
     Ionuț Păduraru (http://www.archeus.ro)
