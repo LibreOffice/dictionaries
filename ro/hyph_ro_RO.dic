@@ -1,4 +1,30 @@
+%Versiune:
+% 3.3.6
+%
+%Authors:
+% Adrian Stoica (office@cuvinte.ro)
+% Lucian Constantin (http://rospell.sourceforge.net)
+%
+%License:
+% GNU General Public License Version 2 or later (see COPYING.GPL)
+%
+%Support:
+%  Please direct all your questions on http://groups.google.com/group/rospell mailing list.
+
 UTF-8
+%
+% excepții
+%
+% românească, românesc, românește
+ro1m
+neas
+
+.alt1fel.
+.ast1fel.
+.de1altfel.
+.a1no1fel.
+.a1no1fe1lă.
+
 %
 % terminații
 %
