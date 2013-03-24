@@ -1,6 +1,7 @@
-# word list version 3.3.6
+# word list version 3.3.8
 SET UTF-8
-TRY iaertolncusămpdbgțfzvșhâjîxkwyqACDM
+TRY iaăâșțîertolncusmpdbgfzvhjxkwyqACDM
+KEY qwertyuiop|asdfghjkl|zxcvbnm
 
 #***************************************
 # Romanian Hunspell Dictionary
@@ -8,6 +9,7 @@ TRY iaertolncusămpdbgțfzvșhâjîxkwyqACDM
 #***************************************
 # Authors:
 #   Lucian Constantin (rospell) <struct_bylighting at yahoo dot com>
+#   Andrei Cipu <strainu10@gmail.com>
 #   Sorin Sbarnea (http://www.i18n.ro)
 #   Alexandru Szasz (Mozilla and OpenOffice.org Romanian Translation Team)
 #   Ionut Paduraru (http://www.archeus.ro)
@@ -46,7 +48,7 @@ TRY iaertolncusămpdbgțfzvșhâjîxkwyqACDM
 # l - masculine cu defect de plural
 #
 # Adjective
-# DQS - adjective (adj.utf8)
+# DQST - adjective (adj.utf8)
 #       - check overlap between Q and S
 #       - e - adjective terminate in e, care au aceeasi forma la sing m si f
 #       - t - adjective terminate in eț
@@ -55,10 +57,16 @@ TRY iaertolncusămpdbgțfzvșhâjîxkwyqACDM
 #
 # Nume proprii
 # U - feminine
+# T - masculine
 #
 # Neologisme
 # n - substantive neutre
 #********************************************************************************
+
+#********************************************************************************
+# prefix auto
+PFX o Y 1
+PFX o 0 auto .
 
 #********************************************************************************
 # adjective terminate in eț
@@ -1470,24 +1478,24 @@ SFX z oc oace oc
 SFX z om oame om
 SFX z oz oaze oz
 SFX z ov oave ov
-SFX z ov oaie oi
-SFX z ov oane on
+SFX z oi oaie oi
+SFX z on oane on
 SFX z ol oalele ol
 SFX z oș oașele oș
 SFX z oc oacele oc
 SFX z om oamele om
 SFX z oz oazele oz
 SFX z ov oavele ov
-SFX z ov oaiele oi
-SFX z ov oanele on
+SFX z oi oaiele oi
+SFX z on oanele on
 SFX z ol oalelor ol
 SFX z oș oașelor oș
 SFX z oc oacelor oc
 SFX z om oamelor om
 SFX z oz oazelor oz
 SFX z ov oavelor ov
-SFX z ov oaielor oi
-SFX z ov oanelor on
+SFX z oi oaielor oi
+SFX z on oanelor on
 
 
 #end********************************************************************************
@@ -1795,23 +1803,30 @@ SFX l   t     tu-i      [^s]t
 SFX l   st    stu-i     st
 #end*******************************************************************************
 
-# Nume proprii
+# Nume proprii feminine
 SFX U Y 3
 SFX U a o a
 SFX U a ei [^cgk]a
 SFX U a ăi [cgk]a
+#end*******************************************************************************
 
-# inlocuiri
+# Nume proprii masculine
+SFX T Y 3
+SFX T 0 le u
+SFX T 0 e an
+SFX T 0 e el
+#end*******************************************************************************
+
+
+#
+# Sugestii
+#
 REP 4
 REP ce che
 REP ci chi
 REP ge ghe
 REP gi ghi
 
-
-# this is a addon for hunspell-utf8 only dictionaries
-# it allows sugestions based on both cedilla and commabelow
-# it also allows transliteration for î to â
 MAP 8
 MAP aăâî
 MAP iîâ
@@ -1822,3 +1837,11 @@ MAP IÎÂ
 MAP SŞȘ
 MAP TŢȚ
 
+#
+# Conversie de caractere
+#
+#MOZILLA ICONV 4
+#MOZILLA ICONV ş ș
+#MOZILLA ICONV ţ ț
+#MOZILLA ICONV Ş Ș
+#MOZILLA ICONV Ţ Ț
