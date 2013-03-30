@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Linguistic" oor:package="org.openoffice.Office">
  <node oor:name="ServiceManager">
-
     <node oor:name="Dictionaries">
         <node oor:name="HunSpellDic_sr" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
@@ -16,7 +15,7 @@
         </node>
         <node oor:name="HunSpellDic_sh" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/sh.aff %origin%/sh.dic</value>
+                <value>%origin%/sr-Latn.aff %origin%/sr-Latn.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_SPELL</value>
@@ -38,7 +37,7 @@
         </node>
         <node oor:name="HyphDic_sh" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/hyph_sh.dic</value>
+                <value>%origin%/hyph_sr-Latn.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_HYPH</value>
