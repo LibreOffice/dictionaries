@@ -8,7 +8,7 @@ http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/ and 
 find new releases at
 http://extensions.libreoffice.org
 
-Copyright (C) 2006 - 2012 by Raimundo Santos Moura <raimundo.smoura@gmail.com>
+Copyright (C) 2006 - 2013 by Raimundo Santos Moura <raimundo.smoura@gmail.com>
 
 ============
 INTRODUCTION
