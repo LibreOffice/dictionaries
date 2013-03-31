@@ -110,7 +110,7 @@ ONLYMAXDIFF
 
 
 # melhorar a sugestão de palavras
-REP 415
+REP 430
 REP -           s-
 REP -           r
 REP -           s
@@ -163,6 +163,20 @@ REP ão          ãe
 REP ao          ão
 REP ão          am
 REP ão          õe
+REP aprazi      aprouve
+REP aprazeste   aprouveste
+REP aprazeu     aprouve
+REP aprazestes  aprouvestes
+REP aprazeram   aprouveram
+REP aprazera    aprouvera
+REP aprazeras   aprouveras
+REP aprazêramos aprouvéramos
+REP aprazéramos aprouvéramos
+REP aprazisse   aprouvesse
+REP aprazisses  aprouvesse
+REP aprazíssemo aprouvéssemo
+REP aprazísseis aprouvésseis
+REP aprazissem  aprouvessem
 REP aqu         áqu
 REP ára-        ara
 REP áre         ári
@@ -179,6 +193,7 @@ REP bakup       becape
 REP ben         bem-
 REP bilidade    lidade
 REP boy         bói 
+REP brid        bert 
 REP btâ         bstâ
 REP bta         bstâ
 REP c           ç
@@ -1663,7 +1678,7 @@ SFX 9   0   -Zimbábue         .
 
 # VERBOS REGULARES -a- Todas as terminações
 
-SFX a Y 195
+SFX a Y 211
 SFX a   ar      á       ar
 SFX a   or      ô       or
 SFX a   er      ê       er
@@ -1825,14 +1840,30 @@ SFX a   r       0       [aei]r
 SFX a   r       a       ir
 SFX a   r       am      ir
 SFX a   r       as      ir
-SFX a   r       da      [ai]r
-SFX a   r       das     [ai]r
-SFX a   r       do      [ai]r
-SFX a   r       dos     [ai]r
-SFX a   r       díssima  [ai]r
-SFX a   r       díssimas [ai]r
-SFX a   r       díssimo  [ai]r
-SFX a   r       díssimos [ai]r
+SFX a   r       da      ar
+SFX a   r       das     ar
+SFX a   r       do      ar
+SFX a   r       dos     ar
+SFX a   r       díssima  ar
+SFX a   r       díssimas ar
+SFX a   r       díssimo  ar
+SFX a   r       díssimos ar
+SFX a   r       da      [^b]rir
+SFX a   r       das     [^b]rir
+SFX a   r       do      [^b]rir
+SFX a   r       dos     [^b]rir
+SFX a   r       díssima  [^b]rir
+SFX a   r       díssimas [^b]rir
+SFX a   r       díssimo  [^b]rir
+SFX a   r       díssimos [^b]rir
+SFX a   r       da      [^r]ir
+SFX a   r       das     [^r]ir
+SFX a   r       do      [^r]ir
+SFX a   r       dos     [^r]ir
+SFX a   r       díssima  [^r]ir
+SFX a   r       díssimas [^r]ir
+SFX a   r       díssimo  [^r]ir
+SFX a   r       díssimos [^r]ir
 SFX a   r       i       [ae]r
 SFX a   r       is      [ae]r
 SFX a   r       m       [ae]r
