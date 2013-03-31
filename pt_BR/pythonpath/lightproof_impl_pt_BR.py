@@ -1,4 +1,4 @@
-# -*- encoding: UTF-8 -*-
+﻿# -*- encoding: UTF-8 -*-
 pkg = "pt_BR"
 lang = "pt_BR"
 locales = {'pt-BR': ['pt', 'BR', '']}

@@ -1,4 +1,4 @@
-import uno
+﻿import uno
 import unohelper
 
 from lightproof_opts_pt_BR import lopts

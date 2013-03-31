@@ -19,11 +19,13 @@ $(eval $(call gb_Dictionary_add_root_files,dict-pt-BR,\
     dictionaries/pt_BR/README_en.txt \
     dictionaries/pt_BR/README_hyph_pt_BR.txt \
     dictionaries/pt_BR/README_pt_BR.txt \
+    dictionaries/pt_BR/package-description.txt \
 ))
 
 $(eval $(call gb_Dictionary_add_files,dict-pt-BR,dialog,\
     dictionaries/pt_BR/dialog/pt_BR.xdl \
     dictionaries/pt_BR/dialog/pt_BR_en_US.default \
+    dictionaries/pt_BR/dialog/pt_BR_pt_BR.properties \
 ))
 
 $(eval $(call gb_Dictionary_add_files,dict-pt-BR,pythonpath,\
