@@ -40,8 +40,8 @@ $(eval $(call gb_Dictionary_add_files,dict-pt-BR,icons,\
 
 $(eval $(call gb_Dictionary_add_generated_file,dict-pt-BR,dialog/OptionsDialog.xcs,$(call gb_XcsTarget_get_target,dictionaries/pt_BR/dialog/registry/schema/org/openoffice/Lightproof_pt_BR.xcs)))
 
-$(eval $(call gb_Dictionary_add_generated_files,dict-pt-BR,dialog,\
-    $(call gb_XcuFile_for_extension,dictionaries/pt_BR/dialog/registry/data/org/openoffice/Office/OptionsDialog.xcu) \
+$(eval $(call gb_Dictionary_add_localized_xcu_file,dict-pt-BR,dialog,\
+    dictionaries/pt_BR/dialog/registry/data/org/openoffice/Office/OptionsDialog.xcu \
 ))
 
 $(eval $(call gb_Dictionary_add_propertyfiles,dict-pt-BR,dialog,\
