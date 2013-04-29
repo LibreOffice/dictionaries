@@ -13,6 +13,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-hu,\
 	dictionaries/hu_HU/hu_HU.aff \
 	dictionaries/hu_HU/hu_HU.dic \
 	dictionaries/hu_HU/hyph_hu_HU.dic \
+	dictionaries/hu_HU/Lightproof.components \
 	dictionaries/hu_HU/Lightproof.py \
 	dictionaries/hu_HU/Linguistic.xcu \
 	dictionaries/hu_HU/README_hu_HU.txt \

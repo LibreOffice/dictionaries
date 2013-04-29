@@ -11,6 +11,7 @@ $(eval $(call gb_Dictionary_Dictionary,dict-ru,dictionaries/ru_RU))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-ru,\
 	dictionaries/ru_RU/hyph_ru_RU.dic \
+	dictionaries/ru_RU/Lightproof.components \
 	dictionaries/ru_RU/Lightproof.py \
 	dictionaries/ru_RU/Linguistic.xcu \
 	dictionaries/ru_RU/README_Lightproof_ru_RU.txt \

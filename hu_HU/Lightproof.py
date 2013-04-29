@@ -148,8 +148,8 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
 g_ImplementationHelper = unohelper.ImplementationHelper()
 g_ImplementationHelper.addImplementation( Lightproof, \
     "org.libreoffice.comp.pyuno.Lightproof." + pkg,
-    ("com.sun.star.linguistic2.Proofreader",),)
+    ("com.sun.star.linguistic2.Proofreader",))
 
 g_ImplementationHelper.addImplementation( lightproof_handler_hu_HU.LightproofOptionsEventHandler, \
     "org.libreoffice.comp.pyuno.LightproofOptionsEventHandler." + pkg,
-    ("com.sun.star.awt.XContainerWindowEventHandler",),)
+    ())

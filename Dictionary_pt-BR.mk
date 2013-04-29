@@ -13,6 +13,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-pt-BR,\
     dictionaries/pt_BR/hyph_pt_BR.dic \
     dictionaries/pt_BR/pt_BR.aff \
     dictionaries/pt_BR/pt_BR.dic \
+    dictionaries/pt_BR/Lightproof.components \
     dictionaries/pt_BR/Lightproof.py \
     dictionaries/pt_BR/Linguistic.xcu \
     dictionaries/pt_BR/README_Lightproof_pt_BR.txt \

@@ -314,11 +314,12 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
 g_ImplementationHelper = unohelper.ImplementationHelper()
 g_ImplementationHelper.addImplementation( Lightproof, \
         "org.libreoffice.comp.pyuno.Lightproof." + pkg,
-        ("com.sun.star.linguistic2.Proofreader",),)
+        ("com.sun.star.linguistic2.Proofreader",))
 
 g_ImplementationHelper.addImplementation( lightproof_handler_pt_BR.LightproofOptionsEventHandler, \
         "org.libreoffice.comp.pyuno.LightproofOptionsEventHandler." + pkg,
-        ("com.sun.star.awt.XContainerWindowEventHandler",),)
+        ())
+
 # pattern matching for common English abbreviations
 abbrev = re.compile("(?i)\\b([a-z]|acct|approx|appt|apr|apt|assoc|asst|aug|ave|avg|co(nt|rp)?|ct|dec|defn|dept|dr|eg|equip|esp|est|etc|excl|ext|feb|fri|ft|govt?|hrs?|ib(id)?|ie|in(c|t)?|jan|jr|jul|lit|ln|mar|max|mi(n|sc)?|mon|Mrs?|mun|natl?|neg?|no(rm|s|v)?|nw|obj|oct|org|orig|pl|pos|prev|proj|psi|qty|rd|rec|rel|reqd?|resp|rev|sat|sci|se(p|pt)?|spec(if)?|sq|sr|st|subj|sun|sw|temp|thurs|tot|tues|univ|var|vs)\\.")
 
