@@ -12,7 +12,6 @@ $(eval $(call gb_Dictionary_Dictionary,dict-gl,dictionaries/gl))
 $(eval $(call gb_Dictionary_add_root_files,dict-gl,\
 	dictionaries/gl/Changelog.txt \
 	dictionaries/gl/COPYING_th_gl \
-	dictionaries/gl/description.xml \
 	dictionaries/gl/gl_ES.aff \
 	dictionaries/gl/gl_ES.dic \
 	dictionaries/gl/GPLv3.txt \
