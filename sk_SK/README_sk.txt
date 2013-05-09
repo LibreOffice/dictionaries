@@ -20,7 +20,7 @@ Tieto dáta sú vydané pod týmito licenciami:
 Slovník synoným
 ---------------
 
-Copyright (c) 2004-2010 Tibor Bako, yorik (at) szm.sk, 
+Copyright (c) 2004-2011 Tibor Bako, yorik (at) szm.sk, 
 Zdenko Podobný, zposter (at) gmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining 
