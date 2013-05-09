@@ -1,4 +1,4 @@
-The package contains current versions of all OpenOffice.org Slovak dictionaries as of 2010-09-19.
+The package contains current versions of all OpenOffice.org Slovak dictionaries as of 2011-02-28.
 
 Spellchecker
 ------------
@@ -19,7 +19,7 @@ Further information are available (in Slovak):
 Thesaurus
 ---------
 
-Copyright (c) 2004-2010 Tibor Bako, yorik (at) szm.sk, 
+Copyright (c) 2004-2011 Tibor Bako, yorik (at) szm.sk, 
 Zdenko Podobný, zposter (at) gmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining 
