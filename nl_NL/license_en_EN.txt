@@ -3,7 +3,7 @@
      and to keep a copy of it with every copy you make of this language file.
 
 1. Name: Dutch word list for spell checking - OpenTaal
-2. Version of words list: 2.00G; version of spell checking: 2.00G.
+2. Version of words list: 2.10G; version of spell checking: 2.10G.
 3. Requirements: Hunspell 1.2.8 and higher
 4. Spelling Seal of Dutch Language Union: The OpenTaal list of lemmas has 
    received the Spelling Seal of Approval from the Dutch Language Union, the 
@@ -42,4 +42,3 @@
    you believe OpenTaal is violating your rights, we ask you to send us a 
    written notice as soon as possible.
 10.Contact: OpenTaal Foundation, http://www.opentaal.org, bestuur@opentaal.org
-

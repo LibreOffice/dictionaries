@@ -1,9 +1,9 @@
-                              [NEDERLANDS]
+ 				[NEDERLANDS]
         U wordt vriendelijk verzocht om dit bestand ("licentie_nl_NL.txt") 
       te lezen en mee te leveren bij iedere kopie van dit taalhulpbestand.
 
 1. Naam: Nederlandstalige woordenlijst voor spellingcontrole - OpenTaal
-2. Versie woordenlijst: 2.00G; versie spellingcontrole: 2.00G
+2. Versie woordenlijst: 2.10G; versie spellingcontrole: 2.10G
 3. Vereisten: Hunspell 1.2.8 en hoger
 4. Keurmerk Spelling Nederlandse Taalunie: De lijst met basiswoorden van 
    OpenTaal draagt het keurmerk van de Nederlandse Taalunie. Voor meer 
