@@ -38,6 +38,7 @@ $(eval $(call gb_Module_add_targets,dictionaries,\
 	Dictionary_hi \
 	Dictionary_hr \
 	Dictionary_hu \
+	Dictionary_is \
 	Dictionary_it \
 	Dictionary_ku-TR \
 	Dictionary_lt \
