@@ -27,7 +27,7 @@ ICONV 1
 ICONV ’ '
 
 # To avoid breaking h- n- t- words
-LEFTHYPHENMIN 3
+LEFTHYPHENMIN 2
 
 # BREAK 0 does not work (reported as bug), so this is a work-around
 # This also causes the - to be seen as part of the word,
