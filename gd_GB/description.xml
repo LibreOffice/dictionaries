@@ -26,7 +26,7 @@
         entry for each language it implements and one default English entry.
         The default entry is the one listed first. -->
     <display-name>
-        <name lang="en">Scottish Gaelic spell checker</name>
+        <name lang="en-US">Scottish Gaelic spelling dictionary</name>
     </display-name>
 
     <!-- Dictionaries should work with all platforms... -->
