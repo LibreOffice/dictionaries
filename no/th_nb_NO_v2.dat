@@ -333,6 +333,8 @@ adressat|1
 -|mottager|mottaker
 adresse|1
 -|asyl|base|bivuakk|bo|bolig|bopel|bosted|fristed|heim|hjem|hjemsted|hus|husrom|kvarter|leir|losji|oppholdssted|paulun|stasjon|tilfluktssted|tilholdssted
+adskillig|1
+-|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 adskilt|2
 -|alene|asosial|avsondret|ene|enslig|ensom|forlatt|isolert|på egen hånd|separat|singel|tilbaketrukket|uforstyrret|uten selskap
 -|avgrenset|delt|desentralisert|differensiert|distribuert|dividert|fordelt|fraksjonert|kløyvd|loddet ut|oppdelt|porsjonert|revet løs|segregert|separert|skilt|sondret|sortert|spaltet|splittet|spredt|stykket opp|tildelt|tilmålt|utdelt
@@ -616,7 +618,7 @@ alvorstung|1
 amasone|1
 -|furie|heks|hespetre|rivjern
 ambisiøs|1
--|fremadstrebende|herskesyk|maktglad|maktsyk|målbevisst|perfeksjonistisk|stolt|streberaktig|ærekjær|æresjuk|æresyk|ærgjerrig
+-|fremadstrebende|målbevisst|streberaktig|ærekjær|ærgjerrig
 ambulanse|1
 -|brannbil|patruljebil|politibil|sykebil
 amfetamin|1
@@ -763,21 +765,24 @@ ankel|1
 ankelring|1
 -|anheng|armbånd|bijouteri|diadem|halsring|hodesmykke|juvel|kjede|klenodium|pryd|prydelse|pynt|ring|sirat|smykke
 anker|1
--|dregg|gjenopptar (terminologisk)|ile
+-|dregg|ile
 anklage|1
 -|bebreide|beskylde|påtale|sikte|tiltale
 anklager|1
 -|advokat|aktor|apologet|forsvarer|jurist|prokurator|rådgiver|sakfører|talsmann|vinkelskriver
+ankomme|1
+-|komme|komme fram|komme frem
 ankringsplass|1
 -|flåtestasjon|hamn|havn|kai|marinebase|pir
 anledning|1
 -|adgang|aksess|innpass|rett|tilgang|tillatelse
-anlegg|5
+anlegg|6
 -|aksiom|antakelse|bakgrunn|basis|betingelse|forutsetning|grunn|grunnlag|grunnsetning|krav|kvalifikasjon|nødvendighet|postulat|premiss|skikkethet|utgangspunkt|vilkår
 -|anstalt|bedrift|etablissement|firma|foretak|forretning|institusjon|institutt|kompani|konsern|selskap|virksomhet
 -|bedrift|fabrikk|fabrikkanlegg|produksjonsanlegg|produksjonsbedrift|verk
 -|begavelse|dyktighet|ekspertise|evne|ferdighet|genialitet|kompetanse|kunnen|kunnskap|kyndighet|talent|åre
 -|begynnelse|bengel|frø|groe|kime|kjerne|pode|renning|skudd|spire|sæd|yngling
+-|innstilling|legning
 anlegge|1
 -|angripe|anstifte|begynne|debutere|etablere|gi seg i kast med|gi seg til|gripe an|grunne|grunnlegge|gå i gang (med)|initiere|innlate seg på|innlede|innvie|intonere|introdusere|istemme|iverksette|kjøre i gang|lansere|nedsette|opprette|starte|åpne
 anliggende|1
@@ -1089,7 +1094,7 @@ armere|1
 armod|1
 -|eksistensminimum|elendighet|fattigdom|hunger|hungersnød|jammer|knipe|krise|lidelse|mangel|nød|savn|sult|trengsel|ulykke|usselhet|utsatt posisjon|vanskelighet
 arnested|2
--|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 -|brennpunkt|bykjerne|city|hjerte|hoved-|kjerne|knutepunkt|midte|midtpunkt|nav|navle|senter|sentral|sentrum|smørøye|vital|øye
 aroma|1
 -|ange|balsam|bouquet|buke|damp|duft|dunst|eim|essens|fert|godlukt|gufs|lukt|myrra|odør|os|parfyme|røkelse|stank|teft|vellukt|vær
@@ -1187,9 +1192,9 @@ atlet|1
 atmosfære|1
 -|det blå|eter|gass|himmel|intet|luft|miljø|oksygen (muntlig mening)|stemning|tomrom|trekk|vær|ånd
 atriumshus|1
--|arnested|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 atskillig|1
--|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 atskillige|1
 -|allehånde|alskens|ditt og datt|diverse|flere|noe av hvert|noen|spredte|ulike|visse|ymse
 atspredelse|1
@@ -1198,8 +1203,6 @@ atspredt|1
 -|befippet|bestyrtet|betuttet|borte vekk|brydd|desorientert|forfjamset|forlegen|forstyrret|fortumlet|forvirret|fra konseptene|håndfallen|i ørska|kaotisk|konfus|omtåket|perpleks|rotete|rådløs|rørete|surrete|tankeløs|vimsete|ør
 attentat|1
 -|angrep|avliving|blodbad|drap|folkemord|henrettelse|likvidasjon|massakre|nedsabling|nedslakting|rovmord|slakteri|terrorhandling
-attenåring|1
--|backfish|femtenåring|fjortenåring|fjortis|nittenåring|sekstenåring|syttenåring|tenåring|tolvåring|trettenåring|unggutt|ungpike|yngling|ynglingalder
 atter og atter|1
 -|flittig|for det meste|gjentatte ganger|hyppig|i ett kjør|ikke sjelden|jevnlig|mer enn en gang|ofte|rett som det er/var|se(i)nt og tidlig|som regel|uavlatelig|ustanselig|vanligvis
 attest|2
@@ -1377,7 +1380,7 @@ avgift|1
 avgjort|3
 -|absolutt|bestemt|betingelsesløs|definitiv|deterministisk|endelig|faktisk|forutbestemt|hard|ikke ettergivende|karmisk|konstant|nådeløs|resolutt|skjebnebestemt|ubetinget|ugjenkallelig
 -|avsluttet|bestemt|endelig|fastsatt|ferdig|ferdigstilt|fullbrakt|fullbyrdet|fullendt|fullført|fullkommen|gjennomført|i boks|kronen på verket|lagt siste hånd på|perfekt|satt ut i verden|virkeliggjort
--|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 avgjøre|3
 -|angi|bringe på det rene|dokumentere|fastslå|fokusere på|framheve|fremheve|gjøre oppmerksom på|klarlegge|konstatere|markere|nevne|poengtere|påpeke|sette fingeren på|slå fast|trekke fram|understreke|utpeke|vektlegge|vise til
 -|avrunde|avslutte|avvende|avvikle|besegle|bli ferdig med|bringe i havn|bringe til ende|bringe til opphør|fullbyrde|fullende|få fra hånden|gjøre en ende på|gjøre ferdig|gjøre opp|heve|krone|legge siste hånd på|likvidere|nedlegge|oppløse|ordne|runde av|slutte|stanse
@@ -1625,6 +1628,8 @@ avstumpet|3
 -|avkortet|avskåren|avskåret|forkortet|kort|lav|liten|ringe|småvokst|snau|stutt
 -|bagatellmessig|bitteliten|diminutiv|forsvinnende liten|knapp|kort|lav|liten|mikroskopisk|mindreårig|minimal|smal|småfallen|småvokst|sped|spinkel|ubetydelig|ørende liten
 -|dum|dustete|idiotisk (vulgær)|imbesill|innskrenket|korka (muntlig mening)|sløv|stupid|teit|tett (muntlig mening)|tykk i hodet (muntlig mening)|uforstandig|uintelligent|uklok|uvitende
+avstå|1
+-|droppe|sløyfe|utelate
 avstå fra|1
 -|avskrive|avsverge|bryte|forsage|frafalle|fratre|fravike|gi avkall|gi opp|gi på båten|gi slipp på|gi tapt|henlegge|hoppe av|kapitulere|la falle/være/fare|legge på hylla|oppgi|rømme|si farvel til|skrinlegge|skyte en hvit pinn etter|slippe|slå fra seg|venne seg av med
 avsverge|2
@@ -1690,8 +1695,6 @@ bachelor|1
 -|akademisk grad|bachelorgrad|cand. mag. (m.fl.)|doktorgrad|dr. philos.|embedseksamen|grunnfag|hovedfag|høyere utdanning|høyskoleutdannelse|ingeniør|kandidatgrad|lic. jur. (m.fl.)|lisensiatgrad|mag. art.|mag. scient.|magister|magistergrad|master|mastergrad|mellomfag|sivilingeniør|universitetsgrad|universitetsutdannelse|yrkesutdannelse
 bachelorgrad|1
 -|akademisk grad|bachelor|cand. mag. (m.fl.)|doktorgrad|dr. philos.|embedseksamen|grunnfag|hovedfag|høyere utdanning|høyskoleutdannelse|ingeniør|kandidatgrad|lic. jur. (m.fl.)|lisensiatgrad|mag. art.|mag. scient.|magister|magistergrad|master|mastergrad|mellomfag|sivilingeniør|universitetsgrad|universitetsutdannelse|yrkesutdannelse
-backfish|1
--|attenåring|femtenåring|fjortenåring|fjortis|nittenåring|sekstenåring|syttenåring|tenåring|tolvåring|trettenåring|unggutt|ungpike|yngling|ynglingalder
 bad|1
 -|alkove|auditorium|aula|celle|dagligstue|forsamlingssted|forum|gang|gutterom|hall|jenterom|jomfrubur|kammers|kjellerrom|kjellerstue|kontor|krypinn|kvarter|kvistværelse|loftsrom|lokale|oppholdsrom|rom|sal|værelse
 bade|1
@@ -1718,7 +1721,7 @@ bake|1
 bakelitt|1
 -|akryl|kunstsilke|kunststoff|plast|plaststoff|polyamid|polyester|syntetisk stoff|viskose
 bakende|1
--|ende|hekk|rektum|rumpe|ræv|stump|stuss
+-|ende|hekk|rektum|rumpe|ræv|sess|stump|stuss
 bakevekt|1
 -|badevekt|ballast|bilvekt|byrde|kraft|myntvekt|måleapparat|skala|skålvekt|trykk|tyngde|veieinstrument|veieredskap|vekt|vektskål|vektstang
 bakgrunn|1
@@ -1743,7 +1746,7 @@ bakteriefri|1
 balanse|1
 -|enighet|formlikhet|gjenklang|harmoni|identitet|konformitet|kongruens|korrelasjon|korrespondanse|likevekt|likhet|motsvarighet|overensstemmelse|proporsjonalitet|samsvar|symmetri
 balje|1
--|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 balkong|1
 -|altan|galleri|hylle|loggia|svalgang|veranda
 ball|2
@@ -1755,7 +1758,7 @@ ballast|1
 -|badevekt|bakevekt|bilvekt|byrde|kraft|myntvekt|måleapparat|skala|skålvekt|trykk|tyngde|veieinstrument|veieredskap|vekt|vektskål|vektstang
 ballkjole|1
 -|antrekk|burka|dameklær|drakt|kjole|kreasjon|krinoline|kvinnedrakt|miniskjørt|modell|robe|sarong|selskapskjole|skjørt|stakk
-balllong|1
+ballong|1
 -|balje|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 ballsal|1
 -|festlokale|festsal
@@ -1845,7 +1848,7 @@ barn|3
 barn født utenfor ekteskap|1
 -|bastard|frillesønn|lausunge|løsunge|uekte barn
 barnaktig|1
--|barnslig|infantil|tilbakestående|uferdig|umoden|uutviklet
+-|barnlig|barnslig|infantil|tilbakestående|uferdig|umoden|uutviklet
 barndom|2
 -|avspark|begynnelse|debut|førstning|genesis|grunnleggelse|ilddåp|innføring|innledning|intro|introduksjon|kilde|opphav|opprettelse|opprinnelse|oppstart|opptakt|skapelse|spire|start|startskudd|utgangsposisjon|utgangspunkt|utspring|åpning
 -|barneår|barnsben|begynnelse|første tid|oppvekst|som baby|som liten|spedbarnstid
@@ -1873,10 +1876,12 @@ barnevernsinstitusjon|1
 -|barnehjem|fosterhjem|vaisenhus
 barneår|1
 -|barndom|barnsben|begynnelse|første tid|oppvekst|som baby|som liten|spedbarnstid
+barnlig|1
+-|barnaktig|barnslig|infantil|tilbakestående|uferdig|umoden|uutviklet
 barnsben|1
 -|barndom|barneår|begynnelse|første tid|oppvekst|som baby|som liten|spedbarnstid
 barnslig|1
--|barnaktig|infantil|tilbakestående|uferdig|umoden|uutviklet
+-|barnaktig|barnlig|infantil|tilbakestående|uferdig|umoden|uutviklet
 barre|1
 -|aksel|bom|hevarm|holme|lekte|list|løftearm|mast|raft|raje|rå|skåte|sleis|slind|spak|sperre|spett|spildre|staur|stokk|tro|trøe|vagle|vektstang|våg
 barrikadekjemper|1
@@ -2075,7 +2080,7 @@ begivenhetsrik|1
 -|beveget|dramatisk|effektfull|eventyrlig|gripende|handlingsmettet|interessant|livfull|med driv (muntlig mening)|nervepirrende|oppsiktsvekkende|scenisk|spennende|teatralsk|virkningsfull
 begjær|2
 -|attrå|begeistring|brann|elskov|fanatisme|fyrighet|glød|henførelse|hengivelse|hengivenhet|ild|intensitet|kjærlighet|kåthet|lidenskap|lyst|pasjon|patos|sanselighet|sinnsbevegelse|temperament|varme|ømhet
--|drift|libido|seksualdrift
+-|drift|kjønnsdrift|libido|seksualdrift
 begjæring|1
 -|behov (terminologisk)|fordring|forlangende|krav|pretensjon|pålegg|påstand|rekvisisjon|rettighet|ultimatum|vilje|ønske
 begjærlig|1
@@ -2159,7 +2164,7 @@ behersket|1
 -|avbalansert|avslappet|avstresset|avventende|besindig|ensformig|fattet|flegmatisk|fredelig|fredfull|fredsommelig|harmonisk|kaldblodig|kul (muntlig mening)|likevektig|rolig|statisk|stille|treg|uberørt|uforstyrrelig|upåvirket|urørlig|uvirksom|verdig
 beholder|3
 -|badebasseng|basseng|bekken|cisterne|dal|fordypning|kum|reservoar|sisterne|svømmebasseng|swimmingpool|tank|vannbeholder
--|balje|balllong|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 -|lager|oppbevaringssted|opplag|reservoar
 beholdning|1
 -|arsenal|batteri|depot|fond|forråd|forsyning|help|hjelpekilde|kapasitet|lager|midler|opplag|proviant|provisjon|reserve|reservoar|ressurs|resurs|rustkammer|sareptakrukke|skattekammer
@@ -2455,7 +2460,7 @@ bestemt|5
 -|absolutt|avgjort|betingelsesløs|definitiv|deterministisk|endelig|faktisk|forutbestemt|hard|ikke ettergivende|karmisk|konstant|nådeløs|resolutt|skjebnebestemt|ubetinget|ugjenkallelig
 -|abstrakt|akademisk|allmenngyldig|begrepsmessig|fjern (muntlig mening)|forstandig|hypotetisk|ikke konkret|intelligent|logisk|nonfigurativ|sikker|spekulativ|tankemessig|tankeskapt|teoretisk|ubetinget|åndelig
 -|avgjort|avsluttet|endelig|fastsatt|ferdig|ferdigstilt|fullbrakt|fullbyrdet|fullendt|fullført|fullkommen|gjennomført|i boks|kronen på verket|lagt siste hånd på|perfekt|satt ut i verden|virkeliggjort
--|avgjort|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 -|besatt|ensporet|fiksert|fokusert|intens|konsentrert|målrettet|opptatt
 bestemthet|1
 -|age|autoritet|bemyndigelse|fullmakt|herredømme|jurisdiksjon|kraft|majestet|makt|maktinstans|myndighet|respekt|rett|styrke
@@ -2531,7 +2536,7 @@ betatt|1
 -|fengslet|forelsket|forgapt|forlibt|fortryllet|glad (i)|har falt for|har huglagt|har tapt sitt hjerte|hugtatt|inntatt|kjær|oppslukt|truffet av Amors pil
 bete|2
 -|arkitrav|bjelke|bom|brand|bærebjelke|drager|grunnsvill|mønsås|skråbjelke|skråstøtte|slind|slisk|sliske|sperre|stokk|støtte|svill|sville|syll|takbjelke|takås|toppsvill|tverrbjelke|tverrtre|ås
--|bit|jafs|munnfull|snafs|tygge (muntlig mening)
+-|bit|jafs|munnfull|snafs|tugge|tygge (muntlig mening)
 betenke seg|2
 -|angre|besinne seg|endre mening|forandre mening|gjøre helomvending|komme på andre/bedre tanker|ombestemme seg|omvurdere|revurdere|ro|sale om|skifte mening|slå om|ta skjeen i en annen hånd
 -|avvente|bie|dra på det|drøye|gi/ta seg god tid|imøtese|la vente på seg|nøle|se tiden an|somle|telle på knappene|tvile|tøve|vegre seg|vike tilbake (for)|være motstrebende|være usikker
@@ -2734,7 +2739,7 @@ bistå|1
 -|assistere|avlaste|befri|berge|bidra|forbarme seg over|frelse|hjelpe|komme til unnsetning|leie|rake kastanjene ut av ilden for|redde|sekundere|slå et slag for|styrke|stå bi|støtte|subsidiere|subvenere|ta hånd i hanke med|ta seg av|tjene|tre støttende til|være behjelpelig
 bit|2
 -|andel|del|dose|fragment|komponent|kvanta|lapp|mengde|part|rasjon|stubb|stump|stykke
--|bete|jafs|munnfull|snafs|tygge (muntlig mening)
+-|bete|jafs|munnfull|snafs|tugge|tygge (muntlig mening)
 bite|1
 -|banke|denge|forderve|hudflette|jule opp|klype|kveste|piske|pryle|rise|rundjule|skade|skamslå|slå|sparke|stikke|såre|torturere|tukte|voldta
 bite av|1
@@ -2954,9 +2959,8 @@ bløt|3
 -|bøyelig|elastisk|ettergivende|fjærende|fleksibel|formbar|føyelig|gummiaktig|linn|medgjørlig|mjuk|myk|plastisk|seig|smidig|spenstig|spretten|svai|tøyelig
 bløthjertet|1
 -|bløt|fintfølende|følsom|hudløs|hårsår|kilen|kjenslevar|lettrørt|lyrisk|mottakelig|myk|nærtagende|overfølsom|prippen|romantisk|sart|sensibel|sensitiv|sentimental|sky|sårbar|tynnhudet|var|ømfintlig|ømhjertet
-bo|2
+bo|1
 -|adresse|asyl|base|bivuakk|bolig|bopel|bosted|fristed|heim|hjem|hjemsted|hus|husrom|kvarter|leir|losji|oppholdssted|paulun|stasjon|tilfluktssted|tilholdssted
--|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 bobbane|1
 -|akebakke|alpinbakke|kjelkebakke
 bod|2
@@ -2983,7 +2987,7 @@ bokmål|1
 bokorm|1
 -|akademiker|bibliofil|bokelsker|lesehest|litterat|lærd|pugghest|student
 boks|1
--|balje|balllong|beholder|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 boksamling|1
 -|arkiv|bibliotek|bildesamling|skriftsamling
 boksetrening|1
@@ -2997,9 +3001,9 @@ bokstavrim|1
 -|akrostikon|allitterasjon|dikt|dråpa|epos|gasel|haiku|halvrim|heksameter|kvad|limerick|lyrikk|mesostikon|nødrim|poem|poesi|prosadikt|rim(eri)|salme|sang|sonett|stavrim|telestikon|vers(ekunst)|visesang
 bolig|2
 -|adresse|asyl|base|bivuakk|bo|bopel|bosted|fristed|heim|hjem|hjemsted|hus|husrom|kvarter|leir|losji|oppholdssted|paulun|stasjon|tilfluktssted|tilholdssted
--|arnested|atriumshus|bo|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 bolighus|1
--|arnested|atriumshus|bo|bolig|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 boligkvarter|1
 -|boligområde|borettslag|bosted|bydel|distrikt|forvaltningsområde|hjemsted|kvartal|nabolag|omegn
 boligområde|1
@@ -3202,7 +3206,7 @@ brevsamling|1
 -|brev|brevveksling|forbindelse|formidling|forståelse|kommunikasjon|korrespondanse|post|utveksling (av informasjon)
 brevveksling|1
 -|brev|brevsamling|forbindelse|formidling|forståelse|kommunikasjon|korrespondanse|post|utveksling (av informasjon)
-briefe|1
+brife|1
 -|briske seg|bryste seg|kjekke seg|oppe seg|prale|prange|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
 briks|1
 -|benk|brisk|dobbeltseng|feltseng|hengekøye|hvilested|leie|madrass|nattely|overnattingsplass|seng|sofa|soveplass|sovepose|sovesofa|vugge
@@ -3231,7 +3235,7 @@ bris|1
 brisk|1
 -|benk|briks|dobbeltseng|feltseng|hengekøye|hvilested|leie|madrass|nattely|overnattingsplass|seng|sofa|soveplass|sovepose|sovesofa|vugge
 briske seg|1
--|briefe|bryste seg|kjekke seg|oppe seg|prale|prange|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
+-|brife|bryste seg|kjekke seg|oppe seg|prale|prange|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
 brisling|1
 -|abbor|ansjos|fisk|flyndre|gjedde|hyse|kveite|lake|laks|lange|makrell|rødspette|sik|sild|steinbitt|torsk|tunfisk|ørret
 brist|1
@@ -3324,7 +3328,7 @@ bryn|1
 bryst|1
 -|albue|ankel|arm|bein|finger|fot|fotblad|hode|hånd|hæl|kjeve|kjønnsorgan|kne|ledd|legg|lem|mage|munn|rumpe|rygg|side|skritt|skulder|torso|tå
 bryste seg|1
--|briefe|briske seg|kjekke seg|oppe seg|prale|prange|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
+-|brife|briske seg|kjekke seg|oppe seg|prale|prange|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
 brystholder|1
 -|BH|blazer|bleser|bluse|genser|jakke|kofte|lusekofte|overdel|overtrøye|røykejakke|skjorte|strikkegenser|sweater|t-skjorte|topp|trøye|ullgenser|undertrøye|vest
 brystkasse|1
@@ -3356,7 +3360,7 @@ bråkjekk|1
 bråkmaker|1
 -|barbar|beist|berserk|bråkebøtte|buldrebasse|bølle(frø)|hooligan|laban|pakk|pøbel|rabagast|rabulist|rakkerpakk|rampegutt/-jente|slamp|slubbert|slyngel|slåsskjempe|terrorist|tølper|urokråke|utskudd|vandal|villmann|voldsmann
 bråtevis|1
--|atskillig|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 brått|2
 -|akutt|direkte|fluks|fluksens|flyktig|fortere enn svint|i en fei|kortvarig|kvikt|lynkjapt|med det samme|med en gang|momentan|nå|plutselig|på flekken|på rekordtid|på røde rappet|på timen|sporenstreks|straks|svint|umiddelbar|uventet|øyeblikkelig
 -|eventyrlig|forbausende|forunderlig|mot formodning|overraskende|plutselig|som en bombe|som julekvelden på kjerringa|som lyn fra klar himmel|uant|uforutsett|uventet
@@ -3492,7 +3496,7 @@ bygge|2
 -|begrunne|grunne|støtte|tufte|underbygge
 -|konstruere|mure|oppføre|reise (rå form)
 bygge bro|1
--|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
 byggmasse|1
 -|bygg|byggverk|bygning|bygningsmasse|hus|lokale
 byggverk|1
@@ -3623,7 +3627,7 @@ callgirl|1
 campingbil|1
 -|feriebil|husbil|reisebil
 campingvogn|1
--|arnested|atriumshus|bo|bolig|bolighus|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 cand. mag. (m.fl.)|1
 -|akademisk grad|bachelor|bachelorgrad|doktorgrad|dr. philos.|embedseksamen|grunnfag|hovedfag|høyere utdanning|høyskoleutdannelse|ingeniør|kandidatgrad|lic. jur. (m.fl.)|lisensiatgrad|mag. art.|mag. scient.|magister|magistergrad|master|mastergrad|mellomfag|sivilingeniør|universitetsgrad|universitetsutdannelse|yrkesutdannelse
 cannabis|1
@@ -3918,7 +3922,7 @@ deltakelse|2
 deltaker|1
 -|part|side
 delte meninger|1
--|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 dem|1
 -|de|disse
 demaskert|1
@@ -4215,7 +4219,7 @@ diskriminere|1
 diskré|1
 -|aktpågivende|aktsom|betenksom|ettertenksom|fornuftig|forsiktig|lempelig|med fin hånd|med lav profil|måteholden|nennsom|nøysom|omhyggelig|oppmerksom|på post/vakt|påpasselig|skånsom|som ligger lavt|sparsommelig|varlig|varsom|vørdsam
 diskusjon|2
--|delte meninger|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 -|dialog|drøs|intervju|jabb|kommunikasjon|konversasjon|krangel|meningsutveksling|ordskifte|ordveksling|passiar|prat|replikkveksling|samtale|snakk
 diskutere|1
 -|drøfte|gi et intervju|ha en dialog|holde et intervju|konferere|konversere|krangle|passiere|prate|samtale|slarve|sludre
@@ -4224,7 +4228,7 @@ diskvalifikasjon|1
 dispasje|1
 -|delegering|disposisjon|fordeling|oppdeling|orden|sits|spredning|utdeling|utlodning
 dispenser|1
--|balje|balllong|beholder|boks|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 disponent|1
 -|anfører|ansvarlig|arbeidsgiver|bas|befal|bestyrer|den som bestemmer|den som trekker i trådene|direktør|folkevalgt|foresatt|forvalter|herre|hjerne|hode|husbond|kaptein|kommandant|konge/dronning|leder|overhode|overordnet|planlegger|prins(esse)|sjef
 disponere|3
@@ -4242,7 +4246,7 @@ disputere|1
 disse|1
 -|de|dem
 dissens|1
--|delte meninger|diskusjon|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 distansemåler|1
 -|avstandsmåler|kilometerteller|odometer|skritteller
 distansert|1
@@ -4355,6 +4359,8 @@ dommedag|1
 -|apokalypse|den ytterste dag|dies irae|endetid|oppgjør|ragnarokk|verdens ende|vredens dag
 dompap|1
 -|abderitt|dummenikk|dummepeter|dumrian|dust|dåre|dåsemikkel|enfoldig person|fe|fehode|fjols|hønsehjerne|idiot|ignorant|klossmajor|kløne|molbo|narr|pappskalle|stut|suppehue|tosk|tulling|tåpe|uvitende person
+domptør|1
+-|dyretemmer
 donator|1
 -|bidragsyter|giver
 donere|1
@@ -4452,7 +4458,7 @@ dratt|1
 dratte|1
 -|dale|deise|dette|dumpe|falle|gli|gå i bakken|gå omkull|gå over ende|gå på hode|ramle|rape|rause|segne|sige sammen|snuble|snåve|stupe|styrte|tryne|tumle|velte
 dregg|1
--|anker|gjenopptar (terminologisk)|ile
+-|anker|ile
 dreie|1
 -|gå rundt|manøvrere|rotere|rulle|skru|slynge|sno|snu|snurre|vende|vike|virvle|vri
 dreie seg om|1
@@ -4476,7 +4482,7 @@ drible|1
 -|drille (muntlig mening)
 drift|2
 -|aktivitet|bevegelse|fart|forflytting|frakt|gang|jogging|løping|manøver|manøvrering|mosjon|omrokkering|omstrukturering|operasjon|reise|rørelse|rørsle|samferdsel|skjelv|svingning|trafikk|troppeforflytning|vibrasjon|vind
--|begjær|libido|seksualdrift
+-|begjær|kjønnsdrift|libido|seksualdrift
 driftig|2
 -|aktiv|barsk|djerv|dristig|dynamisk|en praktiker|flink med hendene|foretaksom|freidig|ha baller til|handlekraftig|handlende|initiavtivrik|modig|nevenyttig|praktisk|pågående|skapende|tøff|uredd|virkelysten|virksom
 -|begavet|behendig|dreven|dugelig|dyktig|erfaren|evnerik|fagkyndig|flink|framtredende|fremmelig|genial|ha anlegg for noe|kan sine ting|kompetent|kunnskapsrik|kyndig|lovende|mesterlig|overlegen|overmenneskelig|profesjonell|proff|talentfull|virtuos
@@ -4532,8 +4538,9 @@ droge|1
 -|balsam|beroligende|botemiddel|farmakon|laksikativ|legemiddel|liniment|medikament|medisin|middel|mikstur|palliativ|panase|pille|pulver|remedium|salve|sedativ|smertestillende|tablett|tonikum|universalmedisin
 dronning|1
 -|diktator|farao|formann|fyrste|hersker|keiser|keiserinne|konge|krone|leder|majestet|monark|overhode|potentat|president|regent|rex|statsmakt|statsminister
-droppe|1
+droppe|2
 -|abortere|avbryte|avlyse|avslutte|bryte|desertere|forlate|forsake|fraskrive|hoppe av|kansellere|skrinlegge|stanse|stoppe
+-|avstå|sløyfe|utelate
 drops|1
 -|bongbong|godteri|halspastill|pastill|pille|sugetablett|tablett
 drosje|1
@@ -4630,7 +4637,7 @@ dundre|1
 dunete|1
 -|bustete|fyldig manke|hyet|hårete|hårfager|hårrik|krøllete|langhåret|lodden|lokkete|løen|raggete|rik i pelsen|skjeggete|tjafsete|ullen
 dunk|1
--|balje|balllong|beholder|boks|dispenser|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 dunkel|3
 -|avsides|esoterisk|hemmelig|lumsk|navnløs|obskur|okkult|skjult|ukjent
 -|beksvart|formørket|mørk|mørklagt|overskyet|skyet|sort|svart|svart som i en sekk|svarte natta|så en ikke kan se en hånd for seg|uopplyst
@@ -4694,6 +4701,8 @@ dyade|1
 -|beite|duo|ektepar|par|to|tospann|turtelduer
 dybde|1
 -|avstand|bredde|dimensjon|flatemål|forhold|grad|hulmål|høyde|lengde|lengdemål|mengde|mål|omfang|porsjon|skala|størrelse|tykkelse
+dybel|1
+-|spuns|tapp
 dyd|1
 -|attributt|begunstigelse|favør|forrang|forrett|fortjeneste|fortrinn|førstevalg|gode|opsjon|pluss|preferanse|prerogativ|prioritet|sterk side|særrett|ynde
 dydig|1
@@ -4737,6 +4746,8 @@ dyrepasser|1
 -|dyrevokter|gjeter|hyrde
 dyrepensjonat|1
 -|bur|dyrebolig|dyrehjem|grotte|hi|hule|hundehus|rede|stall
+dyretemmer|1
+-|domptør
 dyrevokter|1
 -|dyrepasser|gjeter|hyrde
 dyrke|2
@@ -4785,7 +4796,7 @@ dårskap|1
 dåsa (muntlig mening)|1
 -|blomsten|bollemus (muntlig mening)|de edlere deler|der nede / nedentil|erogen sone|fitte (vulgær)|forplantningsorgan|genitaliene|grotte (muntlig mening)|honningkrukke|høna (muntlig mening)|innovertiss|jentetiss|kjærlighetstunnellen|kjønn(sorgan)|kuse (muntlig mening)|kvinnelig kjønnsorgan|kvinnelighet|mus (muntlig mening)|skjede|skrevet (muntlig mening)|skrittet|sprekken (muntlig mening)|vagina|vulva
 dåse|1
--|balje|balllong|beholder|boks|dispenser|dunk|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 dåsemikkel|1
 -|abderitt|dompap|dummenikk|dummepeter|dumrian|dust|dåre|enfoldig person|fe|fehode|fjols|hønsehjerne|idiot|ignorant|klossmajor|kløne|molbo|narr|pappskalle|stut|suppehue|tosk|tulling|tåpe|uvitende person
 dø|1
@@ -4898,7 +4909,7 @@ egge|2
 egle|1
 -|bruke munn|bruke seg|fortelle hvor David kjøpte ølet|gi inn etter noter|gi på pukkelen|hudflette|ikke legge fingrene imellom|irettesette|kjefte|kjekle|krangle|kritisere|kverulere|overfuse|overhøvle|refse|skjelle og smelle|skjelle ut|skjenne|trette
 egling|1
--|delte meninger|diskusjon|dissens|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 egn|1
 -|areal|distrikt|domene|enemerker|himmelstrøk|kant|land|landskap|lokalitet|mark|område|plass|provins|reservat|revir|sektor|sfære|skueplass|sone|sted|strekning|strøk|terreng|territorium|trakt
 egne|1
@@ -4987,6 +4998,8 @@ eksersere|1
 -|anrette|anstifte|anstille|avlegge|bedrive|begå|bese|bestille|bevirke|bære seg at med|finne på|foreta|foreta seg|fremme|gjøre|lære|praktisere|repetere|spille|ta|trene|utfolde|utføre|utøve|øve
 eksersis|1
 -|dressur|drill|forelesning|instruksjon|kurs|leksjon|lære|opplæring|orientering|pugging|seminar|skolegang|skolering|studium|terping|time|trening|undervisning|undervisningstime|utdannelse|utdanning|videreutdanning|voksenopplæring|voksenpedagogikk|øvelse
+eksess|1
+-|flotthet|utskeielse|utsvevelse
 eksil|1
 -|bann|deportasjon|ekskludering|forvisning|proskripsjon|relegasjon|utelukkelse|utestengelse
 eksistensminimum|1
@@ -5251,15 +5264,15 @@ en brøkdel|2
 en del|1
 -|en anelse|en brøkdel|en munnfull|en smule|en tanke|et grann|et utvalg|ikke halvparten|lettere|lite|litt|noe
 en god del|1
--|atskillig|bråtevis|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 en håndfull|1
 -|en av ti|en brøkdel|en og annen|enkelte|et fåtall|et par|få|fåtallig|ikke mange|lite antall|mindretall|noen|somme|sparsomme|spredte
 en liten en|1
 -|gutt|guttepjokk|guttevalp|guttunge|håpefull|knert|pjokk|plugg|pode (muntlig mening)|ramp|ungdom|yngling
 en masse|1
--|atskillig|bråtevis|en god del|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 en mengde|1
--|atskillig|bråtevis|en god del|en masse|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 en munnfull|1
 -|en anelse|en brøkdel|en del|en smule|en tanke|et grann|et utvalg|ikke halvparten|lettere|lite|litt|noe
 en og annen|1
@@ -5287,7 +5300,7 @@ enda|2
 -|den dag i dag|ennå|fortsatt|fremdeles|stadig|stadig vekk|til dags dato|tross alt
 ende|3
 -|avbud|avrunding|avslutning|avvisning|død|endelikt|endelse|endepunkt|ferdig|finale|forbi|kroken på døra|nei|opphør|oppløsning|over|punktum|slutt|stans|stopp|stopper|teppefall|ute|utgang|utløp
--|bakende|hekk|rektum|rumpe|ræv|stump|stuss
+-|bakende|hekk|rektum|rumpe|ræv|sess|stump|stuss
 -|havne|lande|nå havn
 ende med|1
 -|avstedkomme|bety|bevirke|bringe|dra etter seg|forårsake|framkalle|fremkalle|føre med seg|føre til|innebære|involvere|kreve|medføre|resultere i|skape|volde|være forbundet med
@@ -5334,7 +5347,7 @@ ene|1
 eneboer|1
 -|anakoret|eremitt
 enebolig|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 eneforsørger|1
 -|alenefar|aleneforelder|alenemor|enslig|husfar|husmor|skilt
 enemerker|1
@@ -5435,8 +5448,9 @@ ensyklopedi|1
 -|encyclopedi|konversasjonsleksikon|leksikon|oppslagsverk|wiki|wikipedia
 entertainer|1
 -|aktør|artist|flammesluker|gatesanger|gjøgler|harlekin|klovn|kåsør|medspiller|musiker|sjonglør|skuespiller|skøyer|sportsmann|sverdsluker|trubadur|underholder|visesanger
-entre|1
+entre|2
 -|avgift|betaling|bidrag|cover charge|gebyr|kontingent|kontribusjon|kuvertavgift|leie|merverdiavgift (mva)|moms|porto|premie|pris|royalty|skatt|sportel|tiende|tillegg|tilskudd|toll|tributt|ytelse
+-|gå inn i
 entreprenør|1
 -|foregangsmann|gründer
 entré|1
@@ -5545,7 +5559,7 @@ eskapade|2
 -|apropos|avstikker|avvik|digresjon|innskudd|intermesso|parentes|sidesprang
 -|avstikker|ekstratur|krok|omvei|sidetur|snartur|snarvisitt|sving|svinkeærend|svint|svipp|svipptur|tripp|tur|utflukt
 eske|1
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 eskorte|1
 -|17. mai-tog|flokk|følge|hale|karavane|kavalkade|kompani|kortesje|lag|opptog|parade|prosesjon|påheng|rei|suite|sveit|syttendemaitog|tog|tropp|vogntog
 eskortetilbyder|1
@@ -5680,7 +5694,7 @@ ettertraktet|1
 etthulssykkel|1
 -|barnesykkel|bysykkel|damesykkel|firehjulssykkel|guttesykkel|herresykkel|hybridsykkel|jentesykkel|landeveissykkel|liggesykkel|moped|motorsykkel|offroader/offroadsykkel|racersykkel|sparkesykkel|sykkel|tandemsykkel|terrengsykkel|tohjuling|trehjulssykkel|triksesykkel|tråsykkel|utforsykkel|velosiped|veltepetter
 etui|1
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 eva|1
 -|brud|dame|det svake kjønn|donna|elskerinne|evadatter|frue|fruentimmer|hunn|husfrue|husmor|hustru|jente|kjerring|kjerringemne|kone|kvinne|kvinnemenneske|kvinnfolk|lady|medsøster|møy|rødstrømpe
 evadatter|1
@@ -5958,7 +5972,7 @@ fasjonabel|2
 fasong|1
 -|beskaffenhet|bygning|figur|form|konstitusjon|konstruksjon|morfologi|omriss|oppbygning|overflate|sammensetning|skikkelse|struktur|støpning|utseende
 fast|6
--|avgjort|bestemt|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 -|bastant|blir ved sitt|egenvillig|flegmatisk|herskende|jernhard|kolerisk|konsekvent|pågående|påståelig|rigorøs|seig|sta|sterk|tro(fast)|tverr|ubøyelig|ufravikelig|umedgjørlig|utholdende|varig|vedvarende|viljesterk|vrang(villig)
 -|beskyttet|dekket|farefri|gardert|helgardert|i gode hender|idiotsikker (muntlig mening)|på den sikre side|på det tørre|rolig|sikker|sikret|solid|sorgfri|trygg|utenfor fare
 -|detaljert|dyptgående|fullstendig|fullt og fast|fyldig|gjennomført|grundig|i dybden|inngående|nøye|omfattende|omhyggelig|profesjonelt|pålitelig|redelig|skikkelig|solid|systematisk|til bunns|til gagns|troverdig|ut og inn|utførlig|uttømmende|vidløftig
@@ -5973,11 +5987,11 @@ fasthet|2
 -|bestandighet|bæreevne|energi|godvilje|kondisjon|lojalitet|pågåenhet|påståelighet|seighet|stahet|styrke|troskap|utholdenhet|varighet|viljestyrke
 -|bravur|dristighet|dødsforakt|fighting spirit|gåpåhumør|heltemot|heroisme|kampmoral|kampånd|kurasje|mandighet|manndom|mannsmot|mot|pågangsmot|spirit|styrke|stå på-vilje|tapperhet|viljestyrke
 fastholdt|1
--|avgjort|bestemt|fast|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 fastland|1
 -|jord|jorde|kyst|land|landområde|lydrike|mark|nasjon|område|provins|region|rike|stat|territorium|åker
 fastlåst|1
--|avgjort|bestemt|fast|fastholdt|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 fastsatt|1
 -|avgjort|avsluttet|bestemt|endelig|ferdig|ferdigstilt|fullbrakt|fullbyrdet|fullendt|fullført|fullkommen|gjennomført|i boks|kronen på verket|lagt siste hånd på|perfekt|satt ut i verden|virkeliggjort
 fastsette|1
@@ -5987,7 +6001,7 @@ fastslå|1
 fastspenne|1
 -|anbringe|binde|bolte|feste|fiksere|forankre|gjøre fast|hefte|knytte|koble|kople|montere|nagle|sammenføye|spikre|tjore
 fastspikret|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 fat|1
 -|fløtemugge|glass|kaffekanne|kaffekopp|kaffeservise|kopp|middagsservise|servise|spisestell|sukkerkopp|tallerken|tefat|tekanne|tekopp|teservise
 fatal|1
@@ -6105,8 +6119,6 @@ femkamp|1
 -|mangekamp
 femtekolonist|1
 -|angiver|apostat|avhopper|bedrager|desertør|fornekter|frafallen|høyforræder|judas|kollaboratør|landsforræder|landssviker|overløper|quisling|renegat|sviker
-femtenåring|1
--|attenåring|backfish|fjortenåring|fjortis|nittenåring|sekstenåring|syttenåring|tenåring|tolvåring|trettenåring|unggutt|ungpike|yngling|ynglingalder
 fengsel|2
 -|arrest|bak lås og slå|fangehull|kakebu|kasjott|varetekt
 -|avstraffelse|bot|dom|erstatning|frihetstap|gjengjeld|gjengjeldelse|inndragning|mulkt|pryl|refselse|represalier|slaveri|straff|straffedom|tukt|vederlag
@@ -6366,10 +6378,6 @@ fjong|1
 -|dekorert|elegant|fiffet opp|fiks|fin|flidd|glansfull|gloriøs|herskapelig|i festantrekk|luksuriøs|oppstaset|overdådig|pyntet|snobbet|staselig|stelt|stilfull|stilig|storslagen|utmaiet|utsmykket|utstaffert|velkledt|velstelt
 fjording|1
 -|araber|araberhest|arbeidshest|blakk|fole|fuks|fullblodshest|føll|gamp|hest|hingst|hoppe|merr|mustang|pegasus|ponni|skimmel|tarpan|traver|øk
-fjortenåring|1
--|attenåring|backfish|femtenåring|fjortis|nittenåring|sekstenåring|syttenåring|tenåring|tolvåring|trettenåring|unggutt|ungpike|yngling|ynglingalder
-fjortis|1
--|attenåring|backfish|femtenåring|fjortenåring|nittenåring|sekstenåring|syttenåring|tenåring|tolvåring|trettenåring|unggutt|ungpike|yngling|ynglingalder
 fjærbusk|1
 -|egrett
 fjærende|1
@@ -6402,7 +6410,7 @@ flammehav|1
 flammesluker|1
 -|aktør|artist|entertainer|gatesanger|gjøgler|harlekin|klovn|kåsør|medspiller|musiker|sjonglør|skuespiller|skøyer|sportsmann|sverdsluker|trubadur|underholder|visesanger
 flaske|1
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 flaskehals|1
 -|avbrekk|avbrytelse|brems|bøyg|forbehold|forhindring|forstyrrelse|hemsko|hinder|hindring|klausul|snublestein|stans|stengsel|stopp|stopper|strek i regningen|vanske|vanskelighet
 flat|2
@@ -6513,6 +6521,8 @@ flott|3
 -|ansett|bra|brukbar|egnet|fagmessig|fint|fordelaktig|formålstjenlig|fullgod|gagnlig|godt|grei|gunstig|nyttig|positivt|rett|riktig|skikket|tilbørlig|tilfredsstillende|tjenlig|verdifull|verdig
 -|behagelig|deilig|eventyrlig|fabelaktig|fantastisk|fyrstelig|guddommelig|herlig|herskapelig|kongelig|makeløs|nydelig|overdådig|overjordisk|praktfull|rikelig|storartet|utmerket|utrolig|vidunderlig|ypperlig
 -|dyr|dyrebar|edel|eksklusiv|ikke billig|kostbar|verdifull|ypperlig
+flotthet|1
+-|eksess|utskeielse|utsvevelse
 fluidum|1
 -|noe flytende|plasma|saft|sirup|væske|væte
 fluks|1
@@ -6934,9 +6944,10 @@ forgå|1
 forhale|1
 -|forsinke|hefte|hemme|holde igjen|holde tilbake|oppholde|sinke|trekke i langdrag|trekke ut|trenere|utsette
 forhandle|1
--|bygge bro|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
-forhandler|1
+-|bygge bro|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+forhandler|2
 -|agent|antikvar|butikkdame|butikkeier|butikkmann|dørselger|ekspeditrise|ekspeditør|grossist|kassadame|kjøpmann|landhandler|marketenter|representant|selger|telefonselger
+-|intercedent|megler|mekler|mellomann
 forhekselse|1
 -|besvergelse|ed|forbannelse|gand|magiske ord|trylleformel
 forheng|1
@@ -7028,7 +7039,7 @@ forlibt|1
 forlik|1
 -|avtale|beslutning|bestemmelse|ed|enighet|forbund|forpliktelse|klausul|kompromiss|kontrakt|løfte|overenskomst
 forlike|1
--|bygge bro|forhandle|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
 forlis|1
 -|disfavør|katastrofe|mangel|mink|nederlag|skade|skår|svinn|tap|uhell|underskudd
 forlise|1
@@ -7090,7 +7101,7 @@ formgivning|1
 -|design|utvikling
 formidle|3
 -|bable|fortelle|få munnen på glid|gi et intervju|hviske|jabbe|kakle|kjefte|la munnen løpe|legge fram|meddele|mumle|mæle|rope|si|skravle|sladre|snakke|stamme|stotre|tale|tiske|tute (en) ørene fulle|ymte|ytre
--|bygge bro|forhandle|forlike|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|forlike|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
 -|demonstrere|fortelle|informere|kommunisere|legge for dagen|visualisere
 formidler|1
 -|bud|budbringer|bybud|informant|kurer|leverandør|mellommann|overbringer|postbud|sendebud|stråmann|tolk|utsending|visergutt|ærendsgutt
@@ -7305,7 +7316,7 @@ forsmedelse|1
 forsmå|1
 -|avfeie|avslå|avvise|bite av|fornekte|frabe seg|gi kurven|gjendrive|gjøre arveløs|ikke ville vite av|refusere|si nei|slå tilbake|tilbakevise|utelukke|vise bort|vise vinterveien|vrake
 forsone|1
--|bygge bro|forhandle|forlike|formidle|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|forlike|formidle|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
 forsone seg med|1
 -|akseptere|avfinne seg med|etterkomme|finne seg i|godta|gå inn/med på|si ja til|slå til|ta til følge|tro|vedta|ville|ønske
 forsoningspolitikk|1
@@ -7764,7 +7775,7 @@ frelst|2
 -|av hele sitt hjerte|begeistret|dionysisk|eksaltert|engasjert|entusiastisk|fyrig|ha-stemt|henført|henrykt|i fyr og flamme|ihuga|ildfull|ivrig|lidenskapelig|med liv og sjel|oppflammet|oppglødd|opprømt|oppsatt|overstadig|strålende|tent|utålmodig|varm
 -|dominikaner|from|gudfryktig|gudsbarn|gudsfryktig|helgen|hellig|jøde|katar|katolikk|kirkegjenger|klerikal|klerk|kristelig|kristen|munk|mystiker|nonne|nyfrelst|pastor|pave|prest|protestant|tilhenger|troende
 fremadstrebende|1
--|ambisiøs|herskesyk|maktglad|maktsyk|målbevisst|perfeksjonistisk|stolt|streberaktig|ærekjær|æresjuk|æresyk|ærgjerrig
+-|ambisiøs|målbevisst|streberaktig|ærekjær|ærgjerrig
 frembringe|1
 -|avle|belive|beånde|danne|finne opp|finne på|gi liv|komponere|kreere|lage|opprette|produsere|skape|unnfange
 fremdeles|1
@@ -7835,7 +7846,7 @@ frihetstap|1
 frikostig|1
 -|gavmild|gentil|raus|romhendt|rundhåndet|sjenerøs|spandabel|storsinnet|ødsel
 friksjon|1
--|delte meninger|diskusjon|dissens|egling|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 frikvarter|1
 -|avbrekk|avbrytelse|ferie|hvile|intervall|opphold|pause|pusterom|rast|rekreasjon|stans
 frille|1
@@ -8001,7 +8012,7 @@ fullstendig|1
 fullstendiggjøre|1
 -|belyse|definere|eksemplifisere|elaborere|forklare|gå i detalj|gå nærmere inn på|konkretisere|pensle ut|presisere|utdype|utmale|utvide|utvikle
 fullt av|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 fullt og fast|1
 -|detaljert|dyptgående|fast|fullstendig|fyldig|gjennomført|grundig|i dybden|inngående|nøye|omfattende|omhyggelig|profesjonelt|pålitelig|redelig|skikkelig|solid|systematisk|til bunns|til gagns|troverdig|ut og inn|utførlig|uttømmende|vidløftig
 fullt opp|1
@@ -8068,7 +8079,7 @@ fylde|1
 -|bilring|embonpoint|fedme|korpulense|mage|overvekt
 fyldig|4
 -|adipid|feit|fet|flesket|frodig|korpulent|kvapsete|laskete|omfangsrik|overspist|overvektig|pløsete|tjukk|tykk|velernært
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 -|bred|detaljert|grundig|i det vide og brede|inngående|lang|langvarig|minutiøs|nøyaktig|omfangsrik|omstendelig|utførlig|uttømmende|vidløftig
 -|detaljert|dyptgående|fast|fullstendig|fullt og fast|gjennomført|grundig|i dybden|inngående|nøye|omfattende|omhyggelig|profesjonelt|pålitelig|redelig|skikkelig|solid|systematisk|til bunns|til gagns|troverdig|ut og inn|utførlig|uttømmende|vidløftig
 fyldig manke|1
@@ -8690,8 +8701,6 @@ gjennomtrukken|1
 -|blaut|bløt|dyvåt|fuktig|gjennomvåt|glatt|klam|oppløst|regnfull|rå|sleip|slimete|sumpete|søkkvåt|vannaktig|vasstrukken|våt
 gjennomvåt|1
 -|blaut|bløt|dyvåt|fuktig|gjennomtrukken|glatt|klam|oppløst|regnfull|rå|sleip|slimete|sumpete|søkkvåt|vannaktig|vasstrukken|våt
-gjenopptar (terminologisk)|1
--|anker|dregg|ile
 gjensidig|1
 -|allmenn|enhetlig|felles|forent|generell|kollektiv|samkjørt|samlet|sams|simultan|solidarisk|unison
 gjensidig forståelse|1
@@ -8845,7 +8854,7 @@ glansfull|1
 glansnummer|1
 -|bølgetopp|høydepunkt|klimaks|kronen på verket|kulminasjon|maksimum|middagshøyde|senit|spiss|topp|toppunkt|vendepunkt
 glass|3
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 -|beger|drikkehorn|gral|kalk|kopp|krus|mugge|pokal|seidel|skål|staup|tint
 -|fat|fløtemugge|kaffekanne|kaffekopp|kaffeservise|kopp|middagsservise|servise|spisestell|sukkerkopp|tallerken|tefat|tekanne|tekopp|teservise
 glassbeholder|1
@@ -8855,7 +8864,7 @@ glatt|3
 -|blaut|bløt|dyvåt|fuktig|gjennomtrukken|gjennomvåt|klam|oppløst|regnfull|rå|sleip|slimete|sumpete|søkkvåt|vannaktig|vasstrukken|våt
 -|falsk|honningsøt|innsmigrende|krypende|servil|slesk|slibrig|smeiken|smiskende|snikende|snikete|sukkersøt|underdanig|unnvikende|upålitelig|åleglatt
 glatte over/ut|1
--|bygge bro|forhandle|forlike|formidle|forsone|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|forlike|formidle|forsone|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
 glattet ut|1
 -|avrundet|fasettert|fin|flat|glatt|jamn|jevn|kontinuerlig|plan|polert|pusset|regelmessig|sammenhengende|slepen|slett|slipt|utjevnet
 glede|4
@@ -9113,6 +9122,8 @@ gre|1
 -|børste|dandere|frisere|kamme|kjemme
 grei|1
 -|ansett|bra|brukbar|egnet|fagmessig|fint|flott|fordelaktig|formålstjenlig|fullgod|gagnlig|godt|gunstig|nyttig|positivt|rett|riktig|skikket|tilbørlig|tilfredsstillende|tjenlig|verdifull|verdig
+grei (muntlig mening)|1
+-|passe
 greie|4
 -|ane|anta|finne ut av|gisse|gjette|klare|løse|tippe
 -|bane|bryte|dyrke opp|fli|frigjøre|legge under plogen|ordne|pynte|re|rense|rydde|sanere|skuffe
@@ -9167,7 +9178,7 @@ gripe an|2
 gripe fatt i|1
 -|angripe|antaste|besvære|bry|forgripe seg på|forulempe|plage|røre|stanse|trakassere|uroe|være nærgående mot
 gripe inn|1
--|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
 gripe på fersk gjerning|1
 -|dupere|forbause|forbløffe|forundre|forvirre|komme bak på|komme som en bombe|komme som lyn fra klar himmel|lamslå|overliste|overraske|overrumple|ta på senga|trekke kaniner opp av hatten|undre
 gripe til|1
@@ -9210,7 +9221,7 @@ grovhugd|1
 -|bare blåbær|brukervennlig|direkte|elementær|enkel|forståelig|fundamental|hjemmestrikket|hverdagslig|ikke vanskelig|ingen heksekunst|lett|lettfattelig|liketil|opprinnelig|primitiv|simpel|tarvelig|ukomplisert|ukunstlet|usammensatt|uskyldig|vulgær
 gruble|2
 -|avveie|bruke hodet/hjernen/de små grå|erkjenne|filosofere|fundere|grunne|gå god for|ha en overbevisning om|helle til den oppfatning|klekke (ut)|kontemplere|legge hodet i bløt|meditere|planlegge|pønske (på)|reflektere|resonnere|sikte til|spekulere|synes|tenke|tvile|vurdere|være overbevist om|være usikker
--|undre
+-|kontemplere|lure|pønske|undre
 grue|1
 -|frykte
 grums|1
@@ -9469,7 +9480,9 @@ gå i vannet|1
 gå i vasken|1
 -|bli bare rot|briste|bryte sammen|falle i fisk|feile|gå i ball|gå i surr|gå nedenom (og hjem)|mislykkes|skjære seg|slå feil|sprekke|svikte
 gå imellom|1
--|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+gå inn i|1
+-|entre
 gå inn/med på|1
 -|akseptere|avfinne seg med|etterkomme|finne seg i|forsone seg med|godta|si ja til|slå til|ta til følge|tro|vedta|ville|ønske
 gå ned|1
@@ -9689,8 +9702,6 @@ handelsskole|1
 -|handelsfakultet|handelshøyskole|handelsinstitutt|økonomifakultet|økonomihøyskole|økonomiinstitutt|økonomiskole
 handikap|1
 -|funksjonshemning|tjenesteudyktighet
-handikappet|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 handkle|1
 -|dopapir|handduk|håndduk|håndkle|lommeduk|lommetørkle|papirhåndkle|serviett|smekke|toalettpapir|tørk|tørkepapir
 handle|1
@@ -9772,6 +9783,8 @@ harmonisk|3
 -|klangfullt|melodisk|melodiøs|musikalsk|velklingende
 harmoniske|1
 -|enslydende|formlik|i likevekt|identisk|konform|kongruent|korrelerende|korresponderende|lik|overensstemmende|parallelle|proporsjonal|samsvarende|symmetrisk|tilsvarende
+harpiks|1
+-|kvae|rav|sevje
 hasard|1
 -|hendelse|sammentreff|slump|spill|tilfeldighet|tilfelle|treff|vilkårlighet
 hasj|2
@@ -9802,7 +9815,7 @@ haud|1
 haug|1
 -|bakke|bakketopp|dynge|forhøyning|hump|høyde|høydedrag|knaus|kneik|kolle|røys|såte|tue
 haugevis|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 hauglegge|1
 -|avskjed|begravelse|bisettelse|bålferd|gravferd|gravlegging|gravøl|jordfestelse|kransenedleggelse|kremasjon|likferd|minnefest|seremoni|siste ære
 haus|1
@@ -9875,7 +9888,7 @@ heit|3
 -|amorøs|erotisk|kjødelig|kjønnslig|libidinøs|lidenskapelig|lysten|sanselig|seksuell|sensuell|temperamentsfull|varm|varmblodig|vellystig|yppig
 -|antent|brennende|brent|febril|glødende|het|i brann|kokende|kokt|lummer|lun|lunken|opphetet|oppvarmet|skåldet|som ild|stekt|svett|tropisk|varm
 hekk|1
--|bakende|ende|rektum|rumpe|ræv|stump|stuss
+-|bakende|ende|rektum|rumpe|ræv|sess|stump|stuss
 hekle|1
 -|brodere|sy
 heks|1
@@ -9922,7 +9935,7 @@ helle i seg|1
 helle innpå|1
 -|belje|belme|drikke|fukte strupen|helle i seg|nippe|pimpe|pjoltre|pokulere|rangle|skåle|slukke tørsten|slurpe|supe|svire|ta seg en tår over tørsten|ture|tylle (i seg)
 helle olje på opprørt hav|1
--|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|intercedere|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
 helle til den oppfatning|1
 -|avveie|bruke hodet/hjernen/de små grå|erkjenne|filosofere|fundere|gruble|grunne|gå god for|ha en overbevisning om|klekke (ut)|kontemplere|legge hodet i bløt|meditere|planlegge|pønske (på)|reflektere|resonnere|sikte til|spekulere|synes|tenke|tvile|vurdere|være overbevist om|være usikker
 hellebard|1
@@ -10114,8 +10127,7 @@ herskende|3
 -|à jour|à la mode|aktuell|en vogue|fasjonabel|hipp|hypermoderne|i skuddet|in|moderne|moteriktig|ny|nymotens|oppdatert|på moten|siste skrik|tidsmessig|tipp topp|trendy|ultramoderne|up-to-date
 hersker|1
 -|diktator|dronning|farao|formann|fyrste|keiser|keiserinne|konge|krone|leder|majestet|monark|overhode|potentat|president|regent|rex|statsmakt|statsminister
-herskesyk|2
--|ambisiøs|fremadstrebende|maktglad|maktsyk|målbevisst|perfeksjonistisk|stolt|streberaktig|ærekjær|æresjuk|æresyk|ærgjerrig
+herskesyk|1
 -|bydende|despotisk|dominerende|herskelysten|herskende|maktglad|maktkjær|maktlysten|maktsyk|myndig|rådelysten|tyrannisk
 hersketeknikk|1
 -|maktmisbruk|overgrep
@@ -10225,8 +10237,9 @@ hinmann|1
 -|Ahriman|Belsebub|demon|den onde|djevel|faen|fande|Gamle Erik|jækel|jævel|Lucifer|mannen med hestehoven|Mefistofeles|motstandermakt|pokker|satan|styggen
 hinne|1
 -|belegg|membran|overflate|plakk|rust|skimmel|snerk
-hint|1
+hint|2
 -|advarsel|forbud|formaning|forvarsel|jærtegn|memento|omen|profeti|påminnelse|signal|skremmeskudd|skriften på veggen|spådom|symbol|tegn|varsel|varsku|vink
+-|råd|vink
 hipp|2
 -|attraktiv|avholdt|etterspurt|ettertraktet|folkekjær|folkelig|godt likt|i skuddet|in|kul|moteriktig|omsvermet|persona grata|popularisert|populær|skattet|velsett|vennesæl|yndet
 -|à jour|à la mode|aktuell|en vogue|fasjonabel|herskende|hypermoderne|i skuddet|in|moderne|moteriktig|ny|nymotens|oppdatert|på moten|siste skrik|tidsmessig|tipp topp|trendy|ultramoderne|up-to-date
@@ -10276,7 +10289,7 @@ hjelpsom|1
 hjem|3
 -|adresse|asyl|base|bivuakk|bo|bolig|bopel|bosted|fristed|heim|hjemsted|hus|husrom|kvarter|leir|losji|oppholdssted|paulun|stasjon|tilfluktssted|tilholdssted
 -|anstalt|asyl|etablissement|gamlehjem|institusjon|pleiehjem|stiftelse|sykehjem
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 hjemland|1
 -|fedreland|fødeland|opphavsland|opprinnelsesland
 hjemløs|1
@@ -10434,7 +10447,7 @@ holder|1
 holdt|1
 -|annullering|avbrekk|avbrudd|avlysning|forhindring|hvil|kansellering|nei|opphevelse|opphold|oppsigelse|pause|rast|stagnasjon|stans|stopp
 holdt igjen|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 holme|1
 -|aksel|barre|bom|hevarm|lekte|list|løftearm|mast|raft|raje|rå|skåte|sleis|slind|spak|sperre|spett|spildre|staur|stokk|tro|trøe|vagle|vektstang|våg
 holograf|1
@@ -10522,7 +10535,7 @@ hovedbestanddel|1
 hovedfag|1
 -|akademisk grad|bachelor|bachelorgrad|cand. mag. (m.fl.)|doktorgrad|dr. philos.|embedseksamen|grunnfag|høyere utdanning|høyskoleutdannelse|ingeniør|kandidatgrad|lic. jur. (m.fl.)|lisensiatgrad|mag. art.|mag. scient.|magister|magistergrad|master|mastergrad|mellomfag|sivilingeniør|universitetsgrad|universitetsutdannelse|yrkesutdannelse
 hovedhus|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 hovedkvarter|1
 -|base|brohode|fristed|hamn|havn|kvarter|operasjonsbasis|sentrum|støttepunkt|tilfluktssted|tilholdssted|utpost
 hovedprosessor|1
@@ -10649,7 +10662,7 @@ hurv|1
 hus|4
 -|(ens) eget kjøtt og blod|aner|avstamning|blod|dynasti|familie|forfedre|herkomst|huslyd|husstand|klasse|nærmeste|opphav|opprinnelse|rase|slekt|stamtre|ætt
 -|adresse|asyl|base|bivuakk|bo|bolig|bopel|bosted|fristed|heim|hjem|hjemsted|husrom|kvarter|leir|losji|oppholdssted|paulun|stasjon|tilfluktssted|tilholdssted
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 -|bygg|byggmasse|byggverk|bygning|bygningsmasse|lokale
 husar|1
 -|artillerist|dragon|gardist|grenader|hugav|infanterist|ingeniørsoldat|kanonføde|kavalerist|kongens kar|kriger|krigsmann|landsknekt|legionær|medkjemper|menig|militær|ninja|rekrutt|samurai|sappør|slagsbror|slåsskjempe|soldat|voldsmann
@@ -10659,7 +10672,7 @@ husbond|1
 -|anfører|ansvarlig|arbeidsgiver|bas|befal|bestyrer|den som bestemmer|den som trekker i trådene|direktør|disponent|folkevalgt|foresatt|forvalter|herre|hjerne|hode|kaptein|kommandant|konge/dronning|leder|overhode|overordnet|planlegger|prins(esse)|sjef
 husbåt|2
 -|ark|båt|cruiseskip|dampbåt|djunke|eike|ferge|fiskeskøyte/-båt|færing|gummibåt|havseiler|hydrofoil|kajakk|kano|luftputebåt|lystbåt|motorbåt|pram|robåt|seilbåt/-skute|skip|skute|slepebåt|tanker/tankskip|yacht
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 huseier|1
 -|eier|gjestgiver|hotelleier|husets eier|oppvarter|vert|vertinne|vertshusholder
 husere|2
@@ -10672,7 +10685,7 @@ husfar|1
 husfrue|1
 -|brud|dame|det svake kjønn|donna|elskerinne|eva|evadatter|frue|fruentimmer|hunn|husmor|hustru|jente|kjerring|kjerringemne|kone|kvinne|kvinnemenneske|kvinnfolk|lady|medsøster|møy|rødstrømpe
 husgård|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 hushjelp|1
 -|au pair|barnepasser|barnevakt|daghjelp|hjemmehjelp|rengjøringsassistent|renholder|stuepike|tjener|tjenestepike|vaskehjelp|værelsesbetjening|værelsespike
 husk|1
@@ -10789,7 +10802,7 @@ hyssing|1
 hysterisk|1
 -|affektert|forskrudd|høyttravende|kunstlet|oppskrudd|oppstyltet|salvelsesfullt|svulstig|teatralsk|tilgjort|unaturlig
 hytte|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 hån|1
 -|fantord|forakt|forhånelse|fornærmelse|ironi|latterliggjørelse|nid|persiflasje|ringeakt|sarkasme|satire|skose|sneiord|spe|spitord|spott|spydighet|ydmykelse
 hånd|2
@@ -10897,6 +10910,8 @@ høste inn|1
 -|annamme|anta (form av)|arve|bli gift med|bli rammet av|bli til del|bli utsatt for|erverve|få|hale i land|høste|innhente|innkassere|motta|oppdrive|oppnå|pådra seg|skaffe seg|ta hjem|vinne
 høsttakkefest|1
 -|50-årsdag|bursdag|fridag|fødselsdag|gebursdag|helg|helligdag|høytid|høytidelighet|jubileum|jul|julefeiring|karnevalsfeiring|minnehøytid|nyttårsfeiring|påske|årstidsfest
+høvding|1
+-|leder|overhode|sjef
 høve|1
 -|besøkelsestid|eventualitet|håp|kjangs|leilighet|mulighet|odds|risiko|sannsynlighet|sjanse|slump|snitt|utsikt|vy
 høvelig|1
@@ -10924,7 +10939,7 @@ høyfjell|1
 høyforræder|1
 -|angiver|apostat|avhopper|bedrager|desertør|femtekolonist|fornekter|frafallen|judas|kollaboratør|landsforræder|landssviker|overløper|quisling|renegat|sviker
 høyhus|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 høymesse|1
 -|andakt|bønn|bønnestund|gudstjeneste|kirkesang|kult|kultus|messe|motett|rekviem|seremoni|sjelemesse|tidebønn|vekselsang
 høyne|1
@@ -10975,7 +10990,7 @@ i bruk|1
 i bås (med)|1
 -|forent|hånd i hånd|i (samlet) flokk|i (skjønn) forening|i clinch|i fellesskap|i følge|i hop|i klinsj|i samme båt|med forente anstrengelser|samlet|sammen|skulder ved skulder|solidarisk|under ett|under samme tak
 i bøtter og spann|2
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 -|de fleste|drøssevis|en (hel) haug|en (hel) mengde|en rekke|flere|flerfoldige|fullt opp|gjentatte|hvem som helst|hyppige|i lange baner|kreti og pleti|mange|masse|ola og kari|tallrike|tallsterke|utallige|ørten
 i clinch|1
 -|forent|hånd i hånd|i (samlet) flokk|i (skjønn) forening|i bås (med)|i fellesskap|i følge|i hop|i klinsj|i samme båt|med forente anstrengelser|samlet|sammen|skulder ved skulder|solidarisk|under ett|under samme tak
@@ -11047,7 +11062,7 @@ i nærheten av|2
 -|anslagsvis|bortimot|cirka|ganske|henimot|henved|nesten|noenlunde|nærmere|om lag|omkring|omtrent|rundt regna|tilnærmet
 -|attmed|bortmed|gjennom|hos|inntil|med|nær|per|ved|ved hjelp av|ved siden av
 i overflod|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 i ruiner|2
 -|alderdommelig|aldrende|annenhånds|antikk|antikvarisk|antikvert|arkaisk|avlagt|avleggs|brukt|eldgammel|fortidig|fra arilds tid|gammel|gammeldags|mosegrodd|museal|prehistorisk|umoderne|urgammel|utgått|utidsmessig
 -|falleferdig|forfallen|forsømt|medtatt|morken|møllspist|nedslitt|rusten|råtten|skrøpelig|slitt|tæret|ussel|utbrukt|vaklevoren|vanskjøttet|vanstelt
@@ -11158,9 +11173,8 @@ idé|1
 -|abstraksjon|anelse|assosiasjon|begrep|forestilling|fundering|intuisjon|kontemplasjon|meditasjon|overveielse|plan|refleksjon|slutning|tanke
 igang|1
 -|for|på|påslått
-iglo|2
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
--|snøball|snøborg|snøfigur|snøhotell|snøhule|snøhytte|snømann|snøskulptur|snøslott
+iglo|1
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 ignorant|1
 -|abderitt|dompap|dummenikk|dummepeter|dumrian|dust|dåre|dåsemikkel|enfoldig person|fe|fehode|fjols|hønsehjerne|idiot|klossmajor|kløne|molbo|narr|pappskalle|stut|suppehue|tosk|tulling|tåpe|uvitende person
 ignorere|2
@@ -11223,7 +11237,7 @@ ikke la det bli stein tilbake på stein|1
 ikke legge fingrene imellom|1
 -|bruke munn|bruke seg|egle|fortelle hvor David kjøpte ølet|gi inn etter noter|gi på pukkelen|hudflette|irettesette|kjefte|kjekle|krangle|kritisere|kverulere|overfuse|overhøvle|refse|skjelle og smelle|skjelle ut|skjenne|trette
 ikke lite|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 ikke mange|1
 -|en av ti|en brøkdel|en håndfull|en og annen|enkelte|et fåtall|et par|få|fåtallig|lite antall|mindretall|noen|somme|sparsomme|spredte
 ikke pen|1
@@ -11296,7 +11310,7 @@ ildtunge|1
 ildvåpen|1
 -|artilleri|automatpistol|børse|flintebørse|gevær|haubits|kanon|krumsabel|kårde|mitraljøse|muskedunder|pistol|revolver|sabel|skytevåpen|stikkvåpen|sverd|våpen
 ile|4
--|anker|dregg|gjenopptar (terminologisk)
+-|anker|dregg
 -|beinfly|fare|fly|fly som en vind|fyke|galoppere|haste|jage|jogge|kute|løpe|pale|pile|pilte|rase|renne|ruse|skynde seg|småspringe|sprenge|springe|sprinte|spurte|ta beina på nakken|trave
 -|bli borte|desertere|dra|fare|flykte|flytte|fordufte|forsvinne|gå under jorden|hoppe av|løpe bort|reise|renne|rømme|stikke av|stryke sin kos|ta beina på nakken|unnfly|unnslippe|unnvike
 -|hanger|kabel|lik|reip|rep|tau|trosse|vaier|varp|wire
@@ -11337,7 +11351,7 @@ immigrasjon|1
 immigrasjonsstopp|1
 -|innvandringsstopp
 immobil|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 imperativ|1
 -|befaling|beskjed|bud|dekret|diktat|forlangende|forskrift|instruks|kommando|oppdrag|ordre|parole|påbud|pålegg|vilje
 imperfektum|1
@@ -11430,7 +11444,7 @@ infamt|1
 infanterist|1
 -|artillerist|dragon|gardist|grenader|hugav|husar|ingeniørsoldat|kanonføde|kavalerist|kongens kar|kriger|krigsmann|landsknekt|legionær|medkjemper|menig|militær|ninja|rekrutt|samurai|sappør|slagsbror|slåsskjempe|soldat|voldsmann
 infantil|1
--|barnaktig|barnslig|tilbakestående|uferdig|umoden|uutviklet
+-|barnaktig|barnlig|barnslig|tilbakestående|uferdig|umoden|uutviklet
 infeksjon|2
 -|betennelse|inflammasjon|irritasjon|katarr
 -|flenge|hogg|kutt|kvestelse|revne|rift|risp|skade|skramme|skrubbsår|smittesykdom|sår
@@ -11667,7 +11681,8 @@ innstikk|1
 -|album|annonse|brosjyre|flygeblad|folder|hefte|pamflett|publikasjon|reklame|reklamemateriell|skrift|småskrift|tekst|traktat|verk
 innstille|1
 -|anbefale|foreslå|gjøre framlegg om|gjøre seg til talsmann for|gå god for|lansere|legge fram|legge inn et godt ord for|nominere|proponere|råde|slå til lyd for|stille forslag om|tilråde|utpeke
-innstilling|1
+innstilling|2
+-|anlegg|legning
 -|avstemning|helhet|hierarki|innordning|innretning|justering|konfigurasjon|oppsett|oppstilling|ordning|regulering|sammenheng|struktur|system|valg
 innstramming|1
 -|beskjæring|effektivisering|kostnadskutt|maksimering|minimering|omstilling
@@ -11795,6 +11810,10 @@ inter|1
 -|blant|hos|iblant|innen|innenfor|mellom|sammen med|ved
 interaksjon|1
 -|assosiasjon|befatning|berøring|bindeledd|bro|forbindelse|forening|forhold|kobling|konneksjon|kontakt|kontaktflate|kontekst|omstendighet|relasjon|sammenheng|tilknytning
+intercedent|1
+-|forhandler|megler|mekler|mellomann
+intercedere|1
+-|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
 interdikt|1
 -|bann|boikott|demonstrasjon|embargo|forbud|gjenmæle|innsigelse|innvending|klage|motmæle|nei|nekt|opposisjon|protest|ramaskrik|reservasjon|stopp|tabu|veto
 interessant|1
@@ -11830,7 +11849,7 @@ interpunksjonstegn|1
 intervall|1
 -|avbrekk|avbrytelse|ferie|frikvarter|hvile|opphold|pause|pusterom|rast|rekreasjon|stans
 intervenerer|1
--|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
 intervju|1
 -|dialog|diskusjon|drøs|jabb|kommunikasjon|konversasjon|krangel|meningsutveksling|ordskifte|ordveksling|passiar|prat|replikkveksling|samtale|snakk
 intervjue|1
@@ -11948,7 +11967,7 @@ jabb|1
 jabbe|1
 -|bable|formidle|fortelle|få munnen på glid|gi et intervju|hviske|kakle|kjefte|la munnen løpe|legge fram|meddele|mumle|mæle|rope|si|skravle|sladre|snakke|stamme|stotre|tale|tiske|tute (en) ørene fulle|ymte|ytre
 jafs|1
--|bete|bit|munnfull|snafs|tygge (muntlig mening)
+-|bete|bit|munnfull|snafs|tugge|tygge (muntlig mening)
 jag|1
 -|anstrengelse|arbeide|belastning|bestrebelse|besvær|jobb|jobbing|kamp|kav|kjas|kjør|mas|maøye|ork|påkjenning|slaveri|slit|slitasje|starv|strev|træl|umak
 jage|3
@@ -12184,7 +12203,7 @@ kaffekopp|1
 kaffeservise|1
 -|fat|fløtemugge|glass|kaffekanne|kaffekopp|kopp|middagsservise|servise|spisestell|sukkerkopp|tallerken|tefat|tekanne|tekopp|teservise
 kagge|1
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 kai|1
 -|ankringsplass|flåtestasjon|hamn|havn|marinebase|pir
 kajakk|1
@@ -12257,7 +12276,7 @@ kanal|1
 kandidatgrad|1
 -|akademisk grad|bachelor|bachelorgrad|cand. mag. (m.fl.)|doktorgrad|dr. philos.|embedseksamen|grunnfag|hovedfag|høyere utdanning|høyskoleutdannelse|ingeniør|lic. jur. (m.fl.)|lisensiatgrad|mag. art.|mag. scient.|magister|magistergrad|master|mastergrad|mellomfag|sivilingeniør|universitetsgrad|universitetsutdannelse|yrkesutdannelse
 kanne|1
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 kannelyre|1
 -|brist|djupål|fals|far|fordypning|fuge|fure|får|hakk|not|renne|revne|rifle|rille|rynke|spalte|splitt|spor|sprekk|søkk|ujevnhet
 kano|1
@@ -12357,7 +12376,7 @@ kasjott|1
 kassadame|1
 -|agent|antikvar|butikkdame|butikkeier|butikkmann|dørselger|ekspeditrise|ekspeditør|forhandler|grossist|kjøpmann|landhandler|marketenter|representant|selger|telefonselger
 kasse|1
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 kasserolle|1
 -|gryte|kjele|kokekar
 kassett|1
@@ -12497,7 +12516,7 @@ kiropraktor|1
 kirurg|1
 -|akupunktør|allmennlege|allmennpraktiserende|diagnostiker|doktor|gynekolog|helbreder|homeopat|håndspålegger|kiropraktor|lege|massør|massøse|medikus|medisiner|medisinflaskemann|optiker|sykepleier|sykesøster|tannlege|øyenlege
 kiste|1
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 kive|1
 -|disputere|duellere|faite|fighte|gjøre motstand|ikke harmonere|kjekle|kjempe|krangle|krige|munnhugges|opponere|slåss|stride|stå i motstrid med|støte an mot|trette|være på krigsstien|være uenig|være uforenlig med
 kjake|1
@@ -12526,9 +12545,9 @@ kjefte|2
 -|bable|formidle|fortelle|få munnen på glid|gi et intervju|hviske|jabbe|kakle|la munnen løpe|legge fram|meddele|mumle|mæle|rope|si|skravle|sladre|snakke|stamme|stotre|tale|tiske|tute (en) ørene fulle|ymte|ytre
 -|bruke munn|bruke seg|egle|fortelle hvor David kjøpte ølet|gi inn etter noter|gi på pukkelen|hudflette|ikke legge fingrene imellom|irettesette|kjekle|krangle|kritisere|kverulere|overfuse|overhøvle|refse|skjelle og smelle|skjelle ut|skjenne|trette
 kjefting|1
--|delte meninger|diskusjon|dissens|egling|friksjon|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 kjekke seg|1
--|briefe|briske seg|bryste seg|oppe seg|prale|prange|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
+-|brife|briske seg|bryste seg|oppe seg|prale|prange|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
 kjekken|1
 -|elskede|elskling|gutten min|hjertenskjær|jenta mi|kjære|skatt|snuppa|snuppen|stumpen|søta|søten
 kjekle|2
@@ -12537,7 +12556,7 @@ kjekle|2
 kjeks|1
 -|kake
 kjele|2
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 -|gryte|kasserolle|kokekar
 kjelkebakke|1
 -|akebakke|alpinbakke|bobbane
@@ -12648,6 +12667,8 @@ kjønn(sorgan)|1
 -|blomsten|bollemus (muntlig mening)|de edlere deler|der nede / nedentil|dåsa (muntlig mening)|erogen sone|fitte (vulgær)|forplantningsorgan|genitaliene|grotte (muntlig mening)|honningkrukke|høna (muntlig mening)|innovertiss|jentetiss|kjærlighetstunnellen|kuse (muntlig mening)|kvinnelig kjønnsorgan|kvinnelighet|mus (muntlig mening)|skjede|skrevet (muntlig mening)|skrittet|sprekken (muntlig mening)|vagina|vulva
 kjønnsakt|1
 -|elskov|et nummer|kjønnslig omgang|knull (vulgær)|kopulasjon|ligg (muntlig mening)|samleie|seksuell forening|sengekos|sex
+kjønnsdrift|1
+-|begjær|drift|libido|seksualdrift
 kjønnslig|1
 -|amorøs|erotisk|heit|kjødelig|libidinøs|lidenskapelig|lysten|sanselig|seksuell|sensuell|temperamentsfull|varm|varmblodig|vellystig|yppig
 kjønnslig omgang|1
@@ -12672,7 +12693,7 @@ kjøpmann|1
 -|agent|antikvar|butikkdame|butikkeier|butikkmann|dørselger|ekspeditrise|ekspeditør|forhandler|grossist|kassadame|landhandler|marketenter|representant|selger|telefonselger
 kjøpslå|2
 -|anskaffe|bestikke|bestille|betale|erverve|gå til innkjøp/anskaffelse av|handle|importere|innføre|investere i|kjøpe|løse (billett)|overta|shoppe|skaffe seg
--|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|megle|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
 kjøpsstevne|1
 -|basar|butikk|børs|handelsfellesskap|handelsmarked|loppemarked|marked|marknad|messe|torg
 kjøpstad|1
@@ -13094,6 +13115,8 @@ kolli|1
 -|befordring|brev|forsendelse|frakt|gods|leveranse|levering|pakke|sending|spedisjon
 kollidere|1
 -|bli skadet|bli ødelagt|bulke|forlise|få et uhell|grunnstøte|gå på grunn|gå til bunns|havarere|krasje|lide havari|styrte|støte sammen|synke|ødelegges
+kollisjon|1
+-|krasj|sammenstøt
 kolon|1
 -|bindestrek|hermetegn|interpunksjonstegn|komma|punkt|punktum|semikolon|skilletegn|skråstrek|spørsmålstegn|tegn|utropstegn
 kolonirike|1
@@ -13140,8 +13163,14 @@ kommandere|2
 kommando|2
 -|befaling|beskjed|bud|dekret|diktat|forlangende|forskrift|imperativ|instruks|oppdrag|ordre|parole|påbud|pålegg|vilje
 -|bevoktning|ettersyn|kontroll|ledelse|oppfølging|oppsyn|overvåking|overvåkning|regulering|spionasje
+komme|1
+-|ankomme|komme fram|komme frem
 komme bak på|1
 -|dupere|forbause|forbløffe|forundre|forvirre|gripe på fersk gjerning|komme som en bombe|komme som lyn fra klar himmel|lamslå|overliste|overraske|overrumple|ta på senga|trekke kaniner opp av hatten|undre
+komme fram|1
+-|ankomme|komme|komme frem
+komme frem|1
+-|ankomme|komme|komme fram
 komme med innsigelser|1
 -|avkrefte|dementere|imøtegå|motsi|opponere|protestere|si imot|ta til gjenmæle
 komme opp på siden av|1
@@ -13260,7 +13289,7 @@ konfirmere|1
 -|anerkjenne|attestere|bedyre|beedige|befeste|bejae|bekrefte|besegle|bestyrke|bevise|bevitne|erkjenne|forsikre|godkjenne|innrømme|konstantere|parafere|ratifisere|sanksjonere|sanne|si ja til|stadfeste|verifisere|vitne
 konflikt|2
 -|antitese|diskrepans|diversitet|kontrast|motpol|motsetning|motsigelse|motstykke|paradoks|polaritet|selvmotsigelse|splittelse|uenighet
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 konform|1
 -|enslydende|formlik|harmoniske|i likevekt|identisk|kongruent|korrelerende|korresponderende|lik|overensstemmende|parallelle|proporsjonal|samsvarende|symmetrisk|tilsvarende
 konformitet|1
@@ -13389,8 +13418,9 @@ kontekst|1
 -|assosiasjon|befatning|berøring|bindeledd|bro|forbindelse|forening|forhold|interaksjon|kobling|konneksjon|kontakt|kontaktflate|omstendighet|relasjon|sammenheng|tilknytning
 kontemplasjon|1
 -|abstraksjon|anelse|assosiasjon|begrep|forestilling|fundering|idé|intuisjon|meditasjon|overveielse|plan|refleksjon|slutning|tanke
-kontemplere|1
+kontemplere|2
 -|avveie|bruke hodet/hjernen/de små grå|erkjenne|filosofere|fundere|gruble|grunne|gå god for|ha en overbevisning om|helle til den oppfatning|klekke (ut)|legge hodet i bløt|meditere|planlegge|pønske (på)|reflektere|resonnere|sikte til|spekulere|synes|tenke|tvile|vurdere|være overbevist om|være usikker
+-|gruble|lure|pønske|undre
 kontemplerende|1
 -|avveiende|bevisst|erkjennende|filosoferende|forskende|funderende|grunnende|i tvil|kognitiv|mediterende|overveiende|prøvende|reflekterende|resonnerende|spekulerende|tenkende|tvilende|usikker|utforskende|vurderende
 kontinent|1
@@ -13463,7 +13493,7 @@ kopiering|2
 kople|1
 -|anbringe|binde|bolte|fastspenne|feste|fiksere|forankre|gjøre fast|hefte|knytte|koble|montere|nagle|sammenføye|spikre|tjore
 kopp|3
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 -|beger|drikkehorn|glass|gral|kalk|krus|mugge|pokal|seidel|skål|staup|tint
 -|fat|fløtemugge|glass|kaffekanne|kaffekopp|kaffeservise|middagsservise|servise|spisestell|sukkerkopp|tallerken|tefat|tekanne|tekopp|teservise
 kopulasjon|1
@@ -13625,7 +13655,7 @@ krampetrekning|1
 kranbil|1
 -|betongbil|biltransport|brøytemaskin|bulldoser|dampveivals|gaffeltruck|gravemaskin|hjullaster|lastebil|søppelbil|tankbil|trailer|traktor|truck|varebil|vogntog
 krangel|2
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 -|dialog|diskusjon|drøs|intervju|jabb|kommunikasjon|konversasjon|meningsutveksling|ordskifte|ordveksling|passiar|prat|replikkveksling|samtale|snakk
 krangle|3
 -|bruke munn|bruke seg|egle|fortelle hvor David kjøpte ølet|gi inn etter noter|gi på pukkelen|hudflette|ikke legge fingrene imellom|irettesette|kjefte|kjekle|kritisere|kverulere|overfuse|overhøvle|refse|skjelle og smelle|skjelle ut|skjenne|trette
@@ -13641,6 +13671,8 @@ krans|1
 -|bane|dyrekrets|ellipse|halo|korona|krets|oval|periferi|ring|runde|runding|sfære|sirkel|syklus|zodiak
 kransenedleggelse|1
 -|avskjed|begravelse|bisettelse|bålferd|gravferd|gravlegging|gravøl|hauglegge|jordfestelse|kremasjon|likferd|minnefest|seremoni|siste ære
+krasj|1
+-|kollisjon|sammenstøt
 krasje|1
 -|bli skadet|bli ødelagt|bulke|forlise|få et uhell|grunnstøte|gå på grunn|gå til bunns|havarere|kollidere|lide havari|styrte|støte sammen|synke|ødelegges
 krasse|1
@@ -13720,7 +13752,7 @@ kristen|3
 kriterium|1
 -|ansvar|aval|betryggelse|brev|dekning|forsikring|garanti|hjemmel|kausjon|lånegaranti|pant|sikkerhet|trygghet|vern
 kritikk|1
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 kritisere|2
 -|akte|anse|anslå|bedømme|beregne|betrakte|bonitere|dømme|estimere|evaluere|gjennomtenke|måle|overveie|regne|se an|se på|sensurere|sette pris på|skatte|skjønne|ta stilling til|taksere|vekte|verdsette|vurdere
 -|bruke munn|bruke seg|egle|fortelle hvor David kjøpte ølet|gi inn etter noter|gi på pukkelen|hudflette|ikke legge fingrene imellom|irettesette|kjefte|kjekle|krangle|kverulere|overfuse|overhøvle|refse|skjelle og smelle|skjelle ut|skjenne|trette
@@ -13751,7 +13783,7 @@ kroppsøving|1
 -|fysioterapi|fysisk fostring|gym|gymnastikk|idrett|kroppskultur|sport|trening
 krukke|2
 -|amfora|potte|tint|urne
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|mugge|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 krumning|1
 -|bukt|buktning|bøy|bøyning|fold|hempe|kink|krok|kurve|kveil|løkke|slyngning|spiral|vinding
 krumsabel|1
@@ -13958,8 +13990,9 @@ kvad|1
 -|akrostikon|allitterasjon|bokstavrim|dikt|dråpa|epos|gasel|haiku|halvrim|heksameter|limerick|lyrikk|mesostikon|nødrim|poem|poesi|prosadikt|rim(eri)|salme|sang|sonett|stavrim|telestikon|vers(ekunst)|visesang
 kvadrat|1
 -|firkant|kubus|parallellogram|rektangel|rombe|rute|terning|tetragon|trapes
-kvae|1
+kvae|2
 -|bark|blad|blomst|frukt|frø|grein|gren|knopp|kongle|krone|kvist|nøtt|rot|skudd|stamme
+-|harpiks|rav|sevje
 kvakksalver|1
 -|bedrager|bløffmaker|bondefanger|forræder|juksemaker|jukser|lurendreier|løgner|sjarlatan|smisker|svindler|taskenspiller|uærlig person
 kval|1
@@ -14012,7 +14045,7 @@ kverulantisk|1
 kverulere|1
 -|bruke munn|bruke seg|egle|fortelle hvor David kjøpte ølet|gi inn etter noter|gi på pukkelen|hudflette|ikke legge fingrene imellom|irettesette|kjefte|kjekle|krangle|kritisere|overfuse|overhøvle|refse|skjelle og smelle|skjelle ut|skjenne|trette
 kverulering|1
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 kveste|1
 -|banke|bite|denge|forderve|hudflette|jule opp|klype|piske|pryle|rise|rundjule|skade|skamslå|slå|sparke|stikke|såre|torturere|tukte|voldta
 kvestelse|1
@@ -14085,7 +14118,7 @@ kyt|1
 kytord|1
 -|anerkjennelse|berømmelse|bifall|godlåt|godord|kreditt|kyt|lov|lovprisnad|lovprisning|lovtale|panegyrikk|pris|ros|skryt|ære
 kåk (muntlig mening)|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 kår|1
 -|avstamning|byrd|fødsel|kaste|klasse|miljø|posisjon|samfunnslag|stand|status|stilling|verdi|yrkesgruppe
 kårde|1
@@ -14329,7 +14362,7 @@ lasaron|1
 laskete|1
 -|adipid|feit|fet|flesket|frodig|fyldig|korpulent|kvapsete|omfangsrik|overspist|overvektig|pløsete|tjukk|tykk|velernært
 lassevis|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 lassis|1
 -|boms|fant|fark|fattigmann|fattigmannsbarn|foreldreløs|gategutt|hjemløs|landstryker|lasaron|loffer|løsgjenger|omstreifer|slusk|splint|tigger|tramp|uteligger|vagabond
 laste|1
@@ -14391,10 +14424,11 @@ lede|3
 ledelse|2
 -|administrasjon|ansvarshavende|bestyrelse|direksjon|embetsverk|formynderskap|forvaltning|papirmølle|skjemavelde|stell|styre|styringsverk|verk|vesen
 -|bevoktning|ettersyn|kommando|kontroll|oppfølging|oppsyn|overvåking|overvåkning|regulering|spionasje
-leder|4
+leder|5
 -|anfører|ansvarlig|arbeidsgiver|bas|befal|bestyrer|den som bestemmer|den som trekker i trådene|direktør|disponent|folkevalgt|foresatt|forvalter|herre|hjerne|hode|husbond|kaptein|kommandant|konge/dronning|overhode|overordnet|planlegger|prins(esse)|sjef
 -|ansikt|fjes|forstand|hjerne|hjerneskalle|hode|hodeskalle|isse|kranium|nøtt (muntlig mening)|planet (muntlig mening)|pære (muntlig mening)|skolt|topp|topplokk|vett|øverste etasje
 -|diktator|dronning|farao|formann|fyrste|hersker|keiser|keiserinne|konge|krone|majestet|monark|overhode|potentat|president|regent|rex|statsmakt|statsminister
+-|høvding|overhode|sjef
 -|ureter
 ledestjerne|1
 -|eksempel|forbilde|helt|ideal|idealmenneske|idol|modell|mønster
@@ -14467,6 +14501,8 @@ legitim|2
 -|forskriftmessig|gyldig|legal|lovlig|tillatt
 legitimere|1
 -|akseptere|anerkjenne|autorisere|bemyndige|bifalle|gi lov|gi tilgang|gjøre gyldig|godkjenne|godta|kanonisere|klarere|ratifisere|si ja til|tillate|underskrive|vedta
+legning|1
+-|anlegg|innstilling
 lei|3
 -|apatisk|avkreftet|dorsk|dvask|døsen|døsig|ferdig|gåen|klar|kraftløs|matt|medtatt|nedkjørt|pumpa|sigen|slapp|sliten|søvnig|treg|trett|trøtt|utbrent|utkjørt|utmattet|vissen
 -|bane|hold|kurs|retning|side|vei
@@ -14486,7 +14522,7 @@ leie|7
 leieavtale|1
 -|avtale|bygselbrev|ektepakt|kjøpebrev|konkordat|kontrakt|leiekontrakt|ordning|overenskomst|pakt|salgsdokument|skriftlig avtale|testament|traktat
 leiebolig|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 leiebuss|1
 -|bandbuss|buss|ekspressbuss|fjernbuss|langdistansebuss|lokalbuss|londonbuss|minibuss|nattbuss|privatbuss|regionalbuss|rutebuss|skolebuss|toetasjesbuss|trolleybuss|turbuss
 leiekontrakt|1
@@ -14494,7 +14530,7 @@ leiekontrakt|1
 leik|1
 -|ap|atspredelse|ert|fleip|forlystelse|fornøyelse|gjøn|gøy|lek|lystighet|løyer|moro|morskap|muntrasjon|plaser|skjemt|skøy|spas|spøk|tidsfordriv|underholdning
 leilighet|2
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 -|besøkelsestid|eventualitet|håp|høve|kjangs|mulighet|odds|risiko|sannsynlighet|sjanse|slump|snitt|utsikt|vy
 leilighetsvis|1
 -|av og til|dann og vann|fra tid til annen|i ny og tid|iblant|innimellom|noen ganger|periodevis|stundom|undertiden
@@ -14508,7 +14544,7 @@ lek|2
 -|ap|atspredelse|ert|fleip|forlystelse|fornøyelse|gjøn|gøy|leik|lystighet|løyer|moro|morskap|muntrasjon|plaser|skjemt|skøy|spas|spøk|tidsfordriv|underholdning
 -|kappestrid|konkurranse|mesterskap|regatta|spill|tevling|turnering
 lekehus|2
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 -|atelier|brakke|brukshus|bryggerhus|dokkestue|fjøs|garasje|gårdshus|hundehus|koie|lekestue|låve|løe|redskapshus/-bod|skjul|skåle|stabbur|stall|tinghus|utedass (muntlig mening)|utedo|uthus|vedskjul|verksted|vognskjul
 lekeplass|1
 -|albuerom|areal|en plass i solen|forum|gårdsplass|idrettsplass|klaring|lebensraum|manesje|nisje|plass|plett|rom|rotunde|spillerom|stadion|sted|taje|torg|tumleplass|tun
@@ -14650,7 +14686,7 @@ libertiner|1
 libidinøs|1
 -|amorøs|erotisk|heit|kjødelig|kjønnslig|lidenskapelig|lysten|sanselig|seksuell|sensuell|temperamentsfull|varm|varmblodig|vellystig|yppig
 libido|1
--|begjær|drift|seksualdrift
+-|begjær|drift|kjønnsdrift|seksualdrift
 lic. jur. (m.fl.)|1
 -|akademisk grad|bachelor|bachelorgrad|cand. mag. (m.fl.)|doktorgrad|dr. philos.|embedseksamen|grunnfag|hovedfag|høyere utdanning|høyskoleutdannelse|ingeniør|kandidatgrad|lisensiatgrad|mag. art.|mag. scient.|magister|magistergrad|master|mastergrad|mellomfag|sivilingeniør|universitetsgrad|universitetsutdannelse|yrkesutdannelse
 lide havari|1
@@ -15087,8 +15123,9 @@ lunsje|1
 lur|2
 -|(være i) Morfei armer|blund|dorm|drøm|drømmeland|dupp|dvale|døs|hvil|hvile|høneblund|Jon Blund|napp|Ole Lukkøye|slummer|somnambulisme|søvn|søvngjengeri
 -|begavet|et lyst hode|evnerik|fornuftig|forstandig|gløgg|ikke født i går|intellektuell|intelligent|klartenkt|klok|kløktig|oppegående|oppfinnsom|opplyst|oppvakt|skarp (muntlig mening)|skarpsindig|smart|snedig|våken (muntlig mening)
-lure|2
+lure|3
 -|bedra|bløffe|bondefange|dupere|dåre|forføre|fuske|få på kroken|føre bak lyset|jukse|kaste blår i øynene|loppe|narre|overliste|sette horn på (ektemannen)|skuffe|snyte|spille et puss|svike|svikte|svindle|ta ved nesen|trikse|være utro mot
+-|gruble|kontemplere|pønske|undre
 -|liste|smugle|smyge|snike
 lure noen|2
 -|dikte|fable|fabulere|finne på noe|fordreie|forfalske|forføre|fortegne|forvrenge sannheten|føre bak lyset|gi falsk forklaring|ljuge|lyge|lyve|skrøne|slå ei plate|snakke tull|snakke usant|vase (muntlig mening)|vrøvle (muntlig mening)
@@ -15118,7 +15155,7 @@ luse|1
 lusekofte|1
 -|BH|blazer|bleser|bluse|brystholder|genser|jakke|kofte|overdel|overtrøye|røykejakke|skjorte|strikkegenser|sweater|t-skjorte|topp|trøye|ullgenser|undertrøye|vest
 lusing|1
--|slag
+-|slag|smekk|ørefik
 luske|1
 -|drive omkring|gå|loffe|promenere|spankulere|spasere|streife|trabulere|traske|trave|vandre
 lut|1
@@ -15234,7 +15271,7 @@ låneinstitusjon|1
 lånord|1
 -|fremmedord
 låst|2
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 -|avgrenset|avstengt|barrikadert|blokkert|forbudt|innesluttet|isolert|lukket|sperret|stengt|utilgjengelig
 låt|1
 -|dans|danselåt|joik|kantilene|klang|komposisjon|lyd|marsj|melodi|melodont|musikk|musikkstykke|rytme|sang|skaperverk|slager|slått|spill|strofe|sull|symfoni|tema|tone|tonekunst|vise
@@ -15440,8 +15477,7 @@ makte|1
 -|beherske|evne|fikse|fullføre|få til|gjennomføre|greie|ha i sin hule hånd|håndtere|klare|klare brasene|kunne|mestre|oppnå|ordne|takle|være mann for
 maktesløs|1
 -|avmektig|kraftløs|matt|medtatt|puslete|skjør|skral|skrøpelig|sped|svak|svekket|utilstrekkelig|utmattet|veik|viljeløs
-maktglad|2
--|ambisiøs|fremadstrebende|herskesyk|maktsyk|målbevisst|perfeksjonistisk|stolt|streberaktig|ærekjær|æresjuk|æresyk|ærgjerrig
+maktglad|1
 -|bydende|despotisk|dominerende|herskelysten|herskende|herskesyk|maktkjær|maktlysten|maktsyk|myndig|rådelysten|tyrannisk
 maktinstans|1
 -|age|autoritet|bemyndigelse|bestemthet|fullmakt|herredømme|jurisdiksjon|kraft|majestet|makt|myndighet|respekt|rett|styrke
@@ -15454,8 +15490,7 @@ maktmisbruk|2
 -|hersketeknikk|overgrep
 maktspråk|1
 -|hemning|lenker|makt|plikt|press|prokrustesseng|slaveri|trelldom|trugsmål|trussel|trykk|tvang|tvangstrøye|tyranni|ufrihet|underkuelse|undertrykkelse|vold|åk
-maktsyk|2
--|ambisiøs|fremadstrebende|herskesyk|maktglad|målbevisst|perfeksjonistisk|stolt|streberaktig|ærekjær|æresjuk|æresyk|ærgjerrig
+maktsyk|1
 -|bydende|despotisk|dominerende|herskelysten|herskende|herskesyk|maktglad|maktkjær|maktlysten|myndig|rådelysten|tyrannisk
 mal|1
 -|arketyp|eksempel|forbilde|form|modell|mønster|ramme|rammeverk|sjablong|skabelon|standard
@@ -15514,7 +15549,7 @@ manglende|1
 mangler|1
 -|borte|bortreist|distansert|dratt|fjern|forsvunnet|fraværende|glimrer ved sitt fravær|gått|ikke her|ikke hjemme|ikke til stede|langt borte|manglende|mistet|oppbrukt|oppslukt av mørket|over alle hauger|på reise|reist|ute av bildet/historien/syne/sagaen|utenlands|vandret|vekk
 mangt|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 manifest|3
 -|akkreditiv|attest|aval|budskap|bulletin|deklarasjon|dekret|erklæring|fullmakt|kommuniké|kunngjøring|meddelelse|melding|opprop|oppslag|ordre|program|programerklæring|proklamasjon
 -|annonse|avertissement|bekjentgjørelse|deklarasjon|dekret|edikt|erklæring|informasjon|kommunike|kunngjøring|lansering|lysing|melding|notis|nyhet|offentliggjørelse|opplysning|oppslag|proklamasjon|propaganda|publisering|reklame|rundskriv|sirkulære
@@ -15645,7 +15680,7 @@ masse|1
 massemorder|1
 -|drapsmann|eksekutor|morder|slakter
 massevis|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 massør|1
 -|akupunktør|allmennlege|allmennpraktiserende|diagnostiker|doktor|gynekolog|helbreder|homeopat|håndspålegger|kiropraktor|kirurg|lege|massøse|medikus|medisiner|medisinflaskemann|optiker|sykepleier|sykesøster|tannlege|øyenlege
 massøse|1
@@ -15756,7 +15791,7 @@ meddelelse|3
 -|anvisning|beskjed|data|empiri|etterretning|forklaring|fotnote|henvisning|illustrasjon|info|informasjon|kjennskap|kommentar|kunngjøring|melding|note|opplysning|tips|underretning|vink
 -|beretning|beskjed|brev|bud|erklæring|etterretning|formidling|fortelling|hemmelighet|historie|korrespondanse|melding|notat|opplysning|pressemelding|rapport|reklame|rykte|sladder
 meddelsom|1
--|ordrapp|pratsom|skravlete|slarvete|snakkesalig|snakketrengt|snakksom
+-|ordrapp|pratsom|skravlete|slarvete|snakkesalig|snakketrengt|snakksom|taletrengt
 medfølelse|2
 -|affinitet|deltakelse|fellesskap|finne tonen|forståelse|gjenklang|gjensidig åpenhet|harmoni|medlidenhet|samklang|sympati|tillit|tiltrekning|velvilje|vennlighet|vennskap|åndsfellesskap|åpenhet
 -|empati|enhet|enighet|fellesskap|gjensidig forståelse|godvilje|harmoni|kjærlighet|nestekjærlighet|overensstemmelse|samhold|samhørighet|samspill|solidaritet|sympati
@@ -15828,9 +15863,11 @@ medynk|1
 meg|1
 -|ego|individualitet|indre|jeg|mitt sentrum|person|personlighet|selv|sjel|vesen|vesenskjerne|ånd
 meget|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|mengdevis|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 megle|1
--|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|mekle|skape fred|utjevne (forskjeller)|være diplomatisk
+megler|1
+-|forhandler|intercedent|mekler|mellomann
 mekanisert|1
 -|automatisk|industriell|maskinell|maskinmessig|mekanisk|robotaktig|selvregulerende|teknisk|uselvstendig
 mekanisk|2
@@ -15839,7 +15876,9 @@ mekanisk|2
 mekke (muntlig mening)|1
 -|bøte|fikse|flikke|forbedre|fornye|gjøre/sette i stand|gå over|lappe|lime|ordne|overhale|pleie|pusse opp|rehabilitere|reparere|restaurere|rette opp|sette i stand|skifte ut|stoppe|utbedre|vedlikeholde|vøle
 mekle|1
--|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|skape fred|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|skape fred|utjevne (forskjeller)|være diplomatisk
+mekler|1
+-|forhandler|intercedent|megler|mellomann
 mektig|2
 -|boltet|gjenstridig|grunnfast|har muskler|hard (som fjell)|klippefast|kompakt|kraftig|sikker|sikret|solid|sterk|stiv|tykk|ubøyelig|utholdende
 -|diger|drabelig|enorm|gedigen|gigantisk|kjempemessig|kjempestor|kolossal|omfangsrik|omfattende|oppblåst|oppsvulmet|overdimensjonert|overdreven|overstadig|rommelig|ruvende|røslig|stor|svær|uhyrlig|veldig|vidtrekkende|voksen|voldsom
@@ -15866,6 +15905,8 @@ mellom|1
 -|blant|hos|iblant|innen|innenfor|inter|sammen med|ved
 mellom oss sagt|1
 -|familiær|fortrolig|hemmelig|i skjul|inderlig|innstendig|intim|kameratslig|konfidensiell|kordial|nær|privat|på tomannshånd|sub rosa|tillitsfull|under fire øyne|underhånden|underhånds|utvungen|vennlig|vennskapelig|åpenhjertig
+mellomann|1
+-|forhandler|intercedent|megler|mekler
 mellomfag|1
 -|akademisk grad|bachelor|bachelorgrad|cand. mag. (m.fl.)|doktorgrad|dr. philos.|embedseksamen|grunnfag|hovedfag|høyere utdanning|høyskoleutdannelse|ingeniør|kandidatgrad|lic. jur. (m.fl.)|lisensiatgrad|mag. art.|mag. scient.|magister|magistergrad|master|mastergrad|sivilingeniør|universitetsgrad|universitetsutdannelse|yrkesutdannelse
 mellommann|1
@@ -15897,7 +15938,7 @@ mengde|2
 mengderegulering|1
 -|kvotering
 mengdevis|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mer enn nok|mye|plenty|rik|rikelig|til alt overmål
 menig|1
 -|artillerist|dragon|gardist|grenader|hugav|husar|infanterist|ingeniørsoldat|kanonføde|kavalerist|kongens kar|kriger|krigsmann|landsknekt|legionær|medkjemper|militær|ninja|rekrutt|samurai|sappør|slagsbror|slåsskjempe|soldat|voldsmann
 menighet|1
@@ -15913,7 +15954,7 @@ mening|3
 -|anskuelse|betraktning|betraktningsmåte|oppfatning|standpunkt|syn|synsmåte|synsvinkel|tankegang
 -|aspekt|betraktningsmåte|grunnsyn|perspektiv|side|standpunkt|ståsted|synsvinkel|utgangspunkt|vinkling
 meningsforskjell|1
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 meningsløs|1
 -|grunnløs|poengløs|søkt|ubeføyet|ubegrunnet|ubillig|uhjemla|uhjemlet|umotivert|urettferdig|urettmessig|uten grunnlag
 meningsløshet|1
@@ -15939,7 +15980,7 @@ mentor|2
 mer enn en gang|1
 -|atter og atter|flittig|for det meste|gjentatte ganger|hyppig|i ett kjør|ikke sjelden|jevnlig|ofte|rett som det er/var|se(i)nt og tidlig|som regel|uavlatelig|ustanselig|vanligvis
 mer enn nok|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mye|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mye|plenty|rik|rikelig|til alt overmål
 merke|3
 -|ane|erfare|fornemme|føle|høre|kjenne|oppleve|sanse
 -|identifikasjon|kjennetegn|symbol
@@ -16188,7 +16229,7 @@ misfornøyd|1
 misforstå|1
 -|feiltolke|fordreie|forveksle|ironisere|misoppfatte|mistolke|ta galt opp
 misforståelse|1
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 misfoster|1
 -|abort|fosterdrap|fosterfordrivelse|svangerskapsavbrudd
 mishag|1
@@ -16212,7 +16253,7 @@ missekatt (muntlig mening)|1
 misstak|1
 -|erindringsfeil|feil|feiltakelse|forveksling|glemsel|villfarelse
 misstemning|1
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 mistak|1
 -|bom|ergrelse|fadese|fatalitet|feiltagelse|fiasko|glipp|kalamitet|misere|strek i regningen|tabbe|tape ansikt|uflaks|uhell|ulykke|ulykkestilfelle|utur|vanhell|vanskjebne|vådeskudd
 mistanke|1
@@ -16246,6 +16287,8 @@ mjøl|1
 -|dis|flimmer|partikkel|pulver|sky|støv|tåke
 mobbe|1
 -|besvære|erte|forfølge|forulempe|gi buksevann|gjøre livet surt for|gjøre trist|herse med|hundse|håne|irritere|krenke|mishandle|pine|plage|sjenere|såre|trakassere|tynge ned
+mobbstyre|1
+-|oklokrati|pøbelvelde
 modell|5
 -|analyse|analyseverktøy|forklaring|hypotese|postulat|tanke|teorem|teori
 -|antrekk|ballkjole|burka|dameklær|drakt|kjole|kreasjon|krinoline|kvinnedrakt|miniskjørt|robe|sarong|selskapskjole|skjørt|stakk
@@ -16469,7 +16512,7 @@ mudder|1
 muffins|1
 -|bolle|hvetebolle|rosinbolle|rundstykke
 mugge|2
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|potte|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|potte|reservoar|retorte|skrin|skål|trekasse|tønne
 -|beger|drikkehorn|glass|gral|kalk|kopp|krus|pokal|seidel|skål|staup|tint
 mukke|1
 -|akke|anke|besvære seg|bære seg|gråte|jamre|jøye seg|kikke|klage|klynke|kny|kvinke|oie seg|okke seg|skrike|stønne|sukke|sutre|syte|tute|vånde seg|ynke
@@ -16503,10 +16546,10 @@ munn|2
 -|ansikt|bakhode|bart|hake|hår|isse|kinn|kjake|kjeve|leppe|nese|nesebor|neserygg|panne|skjegg|tenner|tinning|øre|øreflipp|øye|øyenbryn|øyenhule|øyenlokk
 munnfull|3
 -|aperitiff|dugurd|frokost|føde|godbit|kost|kraftkost|lekkerbisken|lunsj|mat|matbit|mellommåltid|middag|morgenmat|måltid|nattmat|noe å bite i|næring|rett|snacks|snaks|vesper
--|bete|bit|jafs|snafs|tygge (muntlig mening)
+-|bete|bit|jafs|snafs|tugge|tygge (muntlig mening)
 -|slurk|sup|svelg
 munnhuggeri|1
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 munnhugges|1
 -|disputere|duellere|faite|fighte|gjøre motstand|ikke harmonere|kive|kjekle|kjempe|krangle|krige|opponere|slåss|stride|stå i motstrid med|støte an mot|trette|være på krigsstien|være uenig|være uforenlig med
 munning|1
@@ -16578,7 +16621,7 @@ mustasje|1
 mutasjon|1
 -|andre boller|avveksling|bytte|en annen dans|endring|epokeskifte|forandring|forbedring|forskjell|forvandling|hamskifte|kuvending|metamorfose|modifikasjon|modifisering|nyordning|ombytte|ombytting|omkalfatring|omstilling|paradigmeskifte|reform|rettelse|skifte|snuoperasjon
 mye|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|plenty|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|plenty|rik|rikelig|til alt overmål
 myk|3
 -|bløt|bløthjertet|fintfølende|følsom|hudløs|hårsår|kilen|kjenslevar|lettrørt|lyrisk|mottakelig|nærtagende|overfølsom|prippen|romantisk|sart|sensibel|sensitiv|sentimental|sky|sårbar|tynnhudet|var|ømfintlig|ømhjertet
 -|bløt|bøyelig|elastisk|ettergivende|fjærende|fleksibel|formbar|føyelig|gummiaktig|linn|medgjørlig|mjuk|plastisk|seig|smidig|spenstig|spretten|svai|tøyelig
@@ -16627,7 +16670,7 @@ mål|6
 -|bestemmelsessted|blink|destinasjon|goal|innkomst|målstrek|nedslagsfelt|nettkjenning
 -|dagligtale|dialekt|glose|idiom|kommunikasjonsmiddel|kreolspråk|morsmål|målføre|mæle|ord|sjargong|slang|sosiolekt|språk|uttrykk|ytring
 målbevisst|1
--|ambisiøs|fremadstrebende|herskesyk|maktglad|maktsyk|perfeksjonistisk|stolt|streberaktig|ærekjær|æresjuk|æresyk|ærgjerrig
+-|ambisiøs|fremadstrebende|streberaktig|ærekjær|ærgjerrig
 målbundet|1
 -|forbeholden|forsagt|fåmælt|innesluttet|kortfattet|lakonisk|lapidarisk|lydløs|målløs|ordknapp|ordløs|reservert|stille|stilltiende|stum|svar skyldig|tagal|taus|tyst|uhørlig|umeddelsom|umælende
 måle|2
@@ -16999,8 +17042,6 @@ nisse|1
 -|alv|dverg|elementarvesen|fe|hulder|jette|mare|marmæle|naturvesen|nøkk|troll|underjordisk|undine|vann-/jord-/luft-/ildvesen|vette
 nitrogen|1
 -|kvelstoff
-nittenåring|1
--|attenåring|backfish|femtenåring|fjortenåring|fjortis|sekstenåring|syttenåring|tenåring|tolvåring|trettenåring|unggutt|ungpike|yngling|ynglingalder
 nivå|2
 -|egenskap|gruppe|holdbarhet|inndeling|karakter|klasse|kvalitet|modenhet|orden|rang|slag|sortering|stand|standard|type|utholdenhet|varighet|verdi
 -|etasje|fase|grad|høyde|klasse|plan|stadium|trinn
@@ -17377,6 +17418,8 @@ okkult|1
 -|avsides|dunkel|esoterisk|hemmelig|lumsk|navnløs|obskur|skjult|ukjent
 okkupasjon|1
 -|anneksjon|besettelse|bytte|erobring|ervervelse|fangst|gevinst|landevinning|trofe
+oklokrati|1
+-|mobbstyre|pøbelvelde
 okse|1
 -|antilope|bison|bøffel|eland|hann|jakokse|kalv|kolle|ku|kveg|kvige|nilgau|saola|sebu|storfe|stut|tamfe|tyr|vannbøffel
 oksygen (muntlig mening)|1
@@ -17607,7 +17650,7 @@ oppdrette|1
 oppdrive|1
 -|annamme|anta (form av)|arve|bli gift med|bli rammet av|bli til del|bli utsatt for|erverve|få|hale i land|høste|høste inn|innhente|innkassere|motta|oppnå|pådra seg|skaffe seg|ta hjem|vinne
 oppe seg|1
--|briefe|briske seg|bryste seg|kjekke seg|prale|prange|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
+-|brife|briske seg|bryste seg|kjekke seg|prale|prange|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
 oppegående|2
 -|arbeidsfør|bra|frisk|førlig|helbredet|i god form|i vigør|klar til dyst|levende|livfull|livskraftig|opplagt|pigg|rask|restituert|rørig|sprek|sprudlende av liv|sunn|uthvilt|utsovet|vel til pass|vital
 -|begavet|et lyst hode|evnerik|fornuftig|forstandig|gløgg|ikke født i går|intellektuell|intelligent|klartenkt|klok|kløktig|lur|oppfinnsom|opplyst|oppvakt|skarp (muntlig mening)|skarpsindig|smart|snedig|våken (muntlig mening)
@@ -17992,7 +18035,7 @@ ordning|2
 -|avstemning|helhet|hierarki|innordning|innretning|innstilling|justering|konfigurasjon|oppsett|oppstilling|regulering|sammenheng|struktur|system|valg
 -|avtale|bygselbrev|ektepakt|kjøpebrev|konkordat|kontrakt|leieavtale|leiekontrakt|overenskomst|pakt|salgsdokument|skriftlig avtale|testament|traktat
 ordrapp|1
--|meddelsom|pratsom|skravlete|slarvete|snakkesalig|snakketrengt|snakksom
+-|meddelsom|pratsom|skravlete|slarvete|snakkesalig|snakketrengt|snakksom|taletrengt
 ordre|2
 -|akkreditiv|attest|aval|budskap|bulletin|deklarasjon|dekret|erklæring|fullmakt|kommuniké|kunngjøring|manifest|meddelelse|melding|opprop|oppslag|program|programerklæring|proklamasjon
 -|befaling|beskjed|bud|dekret|diktat|forlangende|forskrift|imperativ|instruks|kommando|oppdrag|parole|påbud|pålegg|vilje
@@ -18135,10 +18178,11 @@ overhale|1
 overhaling|2
 -|alvorsprat|bredside|det glatte lag|formaning|gardinpreken|irettesettelse|kjeft|knubbord|knups|korreks|moralpreken|oppstrammer|overhøvling|påpakning|reprimande|røffel|skjenn|skjennepreken|skrape|skyllebøtte|tilsnakk|tordentale|vondord
 -|behandling|ettersyn|fiks|flikking|justering|lappverk|pass|pleie|reparasjon|røkt|stell|utbedring|vedlikehold
-overhode|3
+overhode|4
 -|anfører|ansvarlig|arbeidsgiver|bas|befal|bestyrer|den som bestemmer|den som trekker i trådene|direktør|disponent|folkevalgt|foresatt|forvalter|herre|hjerne|hode|husbond|kaptein|kommandant|konge/dronning|leder|overordnet|planlegger|prins(esse)|sjef
 -|bábíer|bedende|biskop|buddhist|hindu|imam|islamist|kristen|lama|medisinmann|mediterende|muslim|pastor|pave|prest|shaman|taoist|troende
 -|diktator|dronning|farao|formann|fyrste|hersker|keiser|keiserinne|konge|krone|leder|majestet|monark|potentat|president|regent|rex|statsmakt|statsminister
+-|høvding|leder|sjef
 overholde|1
 -|adlyde|etterkomme|etterleve|gjøre som én blir fortalt|høre etter|lyde|lystre|oppfylle|respektere|rette seg etter|underkaste seg|underordne seg
 overhøre|1
@@ -18419,6 +18463,8 @@ passat|1
 -|blest|bris|byge|bør|kuling|luftning|monsun|nordavind|orkan|passatvind|pust|solgangsbris|storm|syklon|sønnavind|taifun|tornado|trekk|tyfon|vestavind|vind|virvelvind|vær|østavind
 passatvind|1
 -|blest|bris|byge|bør|kuling|luftning|monsun|nordavind|orkan|passat|pust|solgangsbris|storm|syklon|sønnavind|taifun|tornado|trekk|tyfon|vestavind|vind|virvelvind|vær|østavind
+passe|1
+-|grei (muntlig mening)
 passe på|1
 -|begunstige|berge|beskytte|bevare|dra omsorg for|forsvare|frede|gardere|gå/stille seg i bresjen for|hegne (om)|hjelpe|holde sin hånd over|ivareta|konvoiere|lune|protesjere|sikre|skjerme|strygge|ta under sine vinger|tre i skranken for|verge|verne|vokte|våke over
 passende|1
@@ -18547,8 +18593,6 @@ pensle ut|1
 per|2
 -|attmed|bortmed|gjennom|hos|i nærheten av|inntil|med|nær|ved|ved hjelp av|ved siden av
 -|à|for hver|pr.|til
-perfeksjonistisk|1
--|ambisiøs|fremadstrebende|herskesyk|maktglad|maktsyk|målbevisst|stolt|streberaktig|ærekjær|æresjuk|æresyk|ærgjerrig
 perfekt|1
 -|avgjort|avsluttet|bestemt|endelig|fastsatt|ferdig|ferdigstilt|fullbrakt|fullbyrdet|fullendt|fullført|fullkommen|gjennomført|i boks|kronen på verket|lagt siste hånd på|satt ut i verden|virkeliggjort
 perforere|1
@@ -18804,7 +18848,7 @@ pleietrengende|1
 plen|1
 -|beitemark|hage|havnehage|park|urtegård|vingård
 plenty|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|rik|rikelig|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|rik|rikelig|til alt overmål
 pleonasme|1
 -|tautologi
 plett|1
@@ -18994,7 +19038,7 @@ potpurri|1
 -|amfibium|blanda drops|blanding|blandingsform|forbindelse|forening|hummer og kanari|hybrid|kombinasjon|konglomerat|krysning|lappeteppe|lapskaus|legering|litt av hvert|miks|mikstur|salat|sammenbinding|sammenblanding|sammenfiltring|sammensurium|sammenveving|varia|verken fugl eller fisk
 potte|2
 -|amfora|krukke|tint|urne
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|reservoar|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|reservoar|retorte|skrin|skål|trekasse|tønne
 pr.|1
 -|à|for hver|per|til
 praksis|3
@@ -19015,20 +19059,20 @@ praktisk|1
 -|aktiv|barsk|djerv|driftig|dristig|dynamisk|en praktiker|flink med hendene|foretaksom|freidig|ha baller til|handlekraftig|handlende|initiavtivrik|modig|nevenyttig|pågående|skapende|tøff|uredd|virkelysten|virksom
 prale|2
 -|blære seg|braute|briljere|glorifisere|hovere|reklamere|skryte|skyte fram brystet|stikke nesa i sky|vise seg
--|briefe|briske seg|bryste seg|kjekke seg|oppe seg|prange|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
+-|brife|briske seg|bryste seg|kjekke seg|oppe seg|prange|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
 praler|1
 -|skrytepave|skrythals|skvadronør
 pram|1
 -|ark|båt|cruiseskip|dampbåt|djunke|eike|ferge|fiskeskøyte/-båt|færing|gummibåt|havseiler|husbåt|hydrofoil|kajakk|kano|luftputebåt|lystbåt|motorbåt|robåt|seilbåt/-skute|skip|skute|slepebåt|tanker/tankskip|yacht
 prange|1
--|briefe|briske seg|bryste seg|kjekke seg|oppe seg|prale|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
+-|brife|briske seg|bryste seg|kjekke seg|oppe seg|prale|skryte|tøffe seg|ville imponere|vise seg|være dumdristig
 prat|2
 -|abrakadabra|ammestuesnakk|ap|barneprat|bla-bla|dill|fjas|fjolleri|galimatias|hokuspokus|nonsens|oppspinn|pjatt|pølsesnakk|pølsevev|rør|sludder|snakk|sprøyt|tull|tøv|tøys|visvas|vrøvl|vås
 -|dialog|diskusjon|drøs|intervju|jabb|kommunikasjon|konversasjon|krangel|meningsutveksling|ordskifte|ordveksling|passiar|replikkveksling|samtale|snakk
 prate|1
 -|diskutere|drøfte|gi et intervju|ha en dialog|holde et intervju|konferere|konversere|krangle|passiere|samtale|slarve|sludre
 pratsom|1
--|meddelsom|ordrapp|skravlete|slarvete|snakkesalig|snakketrengt|snakksom
+-|meddelsom|ordrapp|skravlete|slarvete|snakkesalig|snakketrengt|snakksom|taletrengt
 predestinasjon|1
 -|bane|bestemmelse|fatum|forsyn|forutbestemmelse|lagnad|lodd|skjebne|styrelse
 predikere|1
@@ -19153,7 +19197,7 @@ privat|2
 privatbuss|1
 -|bandbuss|buss|ekspressbuss|fjernbuss|langdistansebuss|leiebuss|lokalbuss|londonbuss|minibuss|nattbuss|regionalbuss|rutebuss|skolebuss|toetasjesbuss|trolleybuss|turbuss
 privathus|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus|villa
 privatlærer|1
 -|adjunkt|frøken|guvernante|informator|kursansvarlig|kursholder|lektor|lærer|lærerinne|magister|mentor|pedagog|preseptor|professor|skolemester
 privatsjåfør|1
@@ -19667,10 +19711,14 @@ pøbel|1
 -|barbar|beist|berserk|bråkebøtte|bråkmaker|buldrebasse|bølle(frø)|hooligan|laban|pakk|rabagast|rabulist|rakkerpakk|rampegutt/-jente|slamp|slubbert|slyngel|slåsskjempe|terrorist|tølper|urokråke|utskudd|vandal|villmann|voldsmann
 pøbelaktig|1
 -|bråkjekk|fornærmelig|freidig|frekk|grov|hoven|nebbet|nesevis|rå|taktløs|ubehøvlet|uforskammet|uhøflig|ukultivert|uoppdragen|utekkelig
+pøbelvelde|1
+-|mobbstyre|oklokrati
 pølsesnakk|1
 -|abrakadabra|ammestuesnakk|ap|barneprat|bla-bla|dill|fjas|fjolleri|galimatias|hokuspokus|nonsens|oppspinn|pjatt|prat|pølsevev|rør|sludder|snakk|sprøyt|tull|tøv|tøys|visvas|vrøvl|vås
 pølsevev|1
 -|abrakadabra|ammestuesnakk|ap|barneprat|bla-bla|dill|fjas|fjolleri|galimatias|hokuspokus|nonsens|oppspinn|pjatt|prat|pølsesnakk|rør|sludder|snakk|sprøyt|tull|tøv|tøys|visvas|vrøvl|vås
+pønske|1
+-|gruble|kontemplere|lure|undre
 pønske (på)|1
 -|avveie|bruke hodet/hjernen/de små grå|erkjenne|filosofere|fundere|gruble|grunne|gå god for|ha en overbevisning om|helle til den oppfatning|klekke (ut)|kontemplere|legge hodet i bløt|meditere|planlegge|reflektere|resonnere|sikte til|spekulere|synes|tenke|tvile|vurdere|være overbevist om|være usikker
 quisling|1
@@ -19832,6 +19880,8 @@ rause|1
 -|dale|deise|dette|dratte|dumpe|falle|gli|gå i bakken|gå omkull|gå over ende|gå på hode|ramle|rape|segne|sige sammen|snuble|snåve|stupe|styrte|tryne|tumle|velte
 raushet|1
 -|altruisme|edelmot|filantropi|gavmildhet|idealisme|nestekjærlighet|offervilje|oppofrelse|rundhåndethet|sjenerøsitet|uegennytte|uselviskhet|veldedighet
+rav|1
+-|harpiks|kvae|sevje
 ravine|1
 -|avgrunn|brådyp|canyon|dyp|gap|gjel|juv|kløft|sluk|slukt|stup|svelg
 re|1
@@ -20053,7 +20103,7 @@ rekke|2
 rekkefølge|1
 -|batteri|geledd|kordong|kø|linje|manngard|rad|rekke|sekvens|serie|sett|suite|syklus|tog|turnus
 rekkehus|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|skyskraper|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|skyskraper|slott|terrasseblokk|terrassehus|villa
 rekkevidde|1
 -|begrensning|bredde|domensjon|format|grad|innhold|kaliber|kapasitet|lengde|mål|omfang|område|proporsjon|register|skala|spenn|spennvidde|størrelse|utbredelse|vidde|volum
 rekkverk|1
@@ -20081,7 +20131,7 @@ rekrutt|2
 rektangel|1
 -|firkant|kubus|kvadrat|parallellogram|rombe|rute|terning|tetragon|trapes
 rektum|1
--|bakende|ende|hekk|rumpe|ræv|stump|stuss
+-|bakende|ende|hekk|rumpe|ræv|sess|stump|stuss
 rekviem|1
 -|andakt|bønn|bønnestund|gudstjeneste|høymesse|kirkesang|kult|kultus|messe|motett|seremoni|sjelemesse|tidebønn|vekselsang
 rekvisisjon|1
@@ -20203,7 +20253,7 @@ reservoar|5
 -|arkiv|pakkebrønn|pakkelager
 -|arsenal|batteri|beholdning|depot|fond|forråd|forsyning|help|hjelpekilde|kapasitet|lager|midler|opplag|proviant|provisjon|reserve|ressurs|resurs|rustkammer|sareptakrukke|skattekammer
 -|badebasseng|basseng|beholder|bekken|cisterne|dal|fordypning|kum|sisterne|svømmebasseng|swimmingpool|tank|vannbeholder
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|retorte|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|retorte|skrin|skål|trekasse|tønne
 -|beholder|lager|oppbevaringssted|opplag
 resipient|2
 -|bekk|elv|elveleie|flod|foss|fossefall|kanal|løp|stryk|vannvei|vassdrag|å
@@ -20264,7 +20314,7 @@ retning|2
 -|bane|hold|kurs|lei|side|vei
 -|bevegelse|disposisjon (vulgær)|farge|hang|helning|mote|progresjon|siktepunkt|slagside|streben|strømning|tendens|tidsånd|tilbøyelighet|tilløp|trang|trend|utvikling
 retorte|1
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|skrin|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|skrin|skål|trekasse|tønne
 retroaktiv|1
 -|tilbakevirkende
 retrospektiv|1
@@ -20383,8 +20433,8 @@ rigorøs|2
 -|bastant|blir ved sitt|egenvillig|fast|flegmatisk|herskende|jernhard|kolerisk|konsekvent|pågående|påståelig|seig|sta|sterk|tro(fast)|tverr|ubøyelig|ufravikelig|umedgjørlig|utholdende|varig|vedvarende|viljesterk|vrang(villig)
 -|fast|hard|jernhard|motstandsdyktig|solid|steinhard|sterk|stiv|ubrytelig|ubøyelig|uendret
 rik|2
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rikelig|til alt overmål
 -|allsidig|differensiert|fasettert|flersidet|flersidig|mangesidig|mangfoldig|multilateral|nyansert|omfattende|sammensatt|variert|vidtfavnende
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rikelig|til alt overmål
 rik i pelsen|1
 -|bustete|dunete|fyldig manke|hyet|hårete|hårfager|hårrik|krøllete|langhåret|lodden|lokkete|løen|raggete|skjeggete|tjafsete|ullen
 rikdom|2
@@ -20393,7 +20443,7 @@ rikdom|2
 rike|1
 -|fastland|jord|jorde|kyst|land|landområde|lydrike|mark|nasjon|område|provins|region|stat|territorium|åker
 rikelig|2
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|til alt overmål
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|til alt overmål
 -|behagelig|deilig|eventyrlig|fabelaktig|fantastisk|flott|fyrstelig|guddommelig|herlig|herskapelig|kongelig|makeløs|nydelig|overdådig|overjordisk|praktfull|storartet|utmerket|utrolig|vidunderlig|ypperlig
 rikfolk|1
 -|adel|aristokrati|crème de la crème|elite|nobilitet|overklasse|sosietet
@@ -20489,7 +20539,7 @@ rojalistisk|1
 -|adelig|ansett|aristokratisk|av god familie/slekt|celeber|edel|fasjonabel|fornem|fyrstelig|herskapelig|høy(vel)båren|høyt på strå|høytstående|kongelig|majestetisk|opphøyet|prominent|statelig
 rolig|4
 -|avbalansert|avslappet|avstresset|avventende|behersket|besindig|ensformig|fattet|flegmatisk|fredelig|fredfull|fredsommelig|harmonisk|kaldblodig|kul (muntlig mening)|likevektig|statisk|stille|treg|uberørt|uforstyrrelig|upåvirket|urørlig|uvirksom|verdig
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 -|befridd|lett om hjertet|lett til sinns|lettet|sikker|sorgfri|trygg|uanfektet|ubekymret
 -|beskyttet|dekket|farefri|fast|gardert|helgardert|i gode hender|idiotsikker (muntlig mening)|på den sikre side|på det tørre|sikker|sikret|solid|sorgfri|trygg|utenfor fare
 rolling|1
@@ -20588,7 +20638,7 @@ rumle|1
 -|brake|bråke|drønne|dundre|herje|holde leven|husere|lage hurlumhei|lage leven|lage oppstyr|larme|ramle|romstere|sette huset på ende|sjaue|skralle|skråle|smelle|styre|ståke|støye|tordne
 rumpe|2
 -|albue|ankel|arm|bein|bryst|finger|fot|fotblad|hode|hånd|hæl|kjeve|kjønnsorgan|kne|ledd|legg|lem|mage|munn|rygg|side|skritt|skulder|torso|tå
--|bakende|ende|hekk|rektum|ræv|stump|stuss
+-|bakende|ende|hekk|rektum|ræv|sess|stump|stuss
 rundbrenner|1
 -|(pikenes) jens|casanova|damevenn|donjuan|elsker|forfører|hjerteknuser|jentefut|kurtisør|kvinnebedårer|kvinnejeger|libertiner|playboy|sjarmør|skjørtejeger|uthaler
 runde|2
@@ -20702,7 +20752,7 @@ rå(de) over|1
 råd|3
 -|anvisning|instruksjon|opplæring|veiledning
 -|forsamling|forum|gruppe|komite|konferanse|kongress|konklave|konsil|konvent|konventikkel|møte|rendezvous|samling|sammenkomst|seanse|sesjon|stevne|stevnemøte|storting|synode|tête-à-tête|ting|treff|utvalg
--|vink
+-|hint|vink
 råde|1
 -|anbefale|foreslå|gjøre framlegg om|gjøre seg til talsmann for|gå god for|innstille|lansere|legge fram|legge inn et godt ord for|nominere|proponere|slå til lyd for|stille forslag om|tilråde|utpeke
 rådelysten|1
@@ -20728,7 +20778,7 @@ rått|1
 råtten|1
 -|falleferdig|forfallen|forsømt|i ruiner|medtatt|morken|møllspist|nedslitt|rusten|skrøpelig|slitt|tæret|ussel|utbrukt|vaklevoren|vanskjøttet|vanstelt
 ræv|1
--|bakende|ende|hekk|rektum|rumpe|stump|stuss
+-|bakende|ende|hekk|rektum|rumpe|sess|stump|stuss
 rød fluesopp|1
 -|alkohol|amfetamin|bedøvelse|dop|hallusinogen|hasj|heroin|khat|knark|kodein|kokain|LSD|marihuana|meskalin|metadon|morfin|narkotika|opium|rusgift|rusmiddel|sentralstimulerende middel|smertestillende|stimulans|stoff|tobakk
 rødspette|1
@@ -20966,8 +21016,9 @@ sammenslå|1
 -|alliere|binde sammen|blande|brygge|flette (sammen)|forbinde|forene|fusjonere|koble|kombinere|krysse|lage|legere|melere|mikse|sammenfiltre|sammenføye|sammenveve|sette sammen|slå sammen|smelte sammen|spe|spleise|stokke|tynne
 sammenslåing|1
 -|forbund|forening|fusjon|føderasjon|koalisjon|konføderasjon|sammenslutning|union
-sammenstøt|1
+sammenstøt|2
 -|basketak|batalje|blodsutgydelser|duell|dyst|håndgemeng|håndgripeligheter|kamp|klammeri|knuffing|nappetak|oppgjør|slagsmål|slåssing|slåsskamp|strid|tvekamp|vold
+-|kollisjon|krasj
 sammensurium|1
 -|amfibium|blanda drops|blanding|blandingsform|forbindelse|forening|hummer og kanari|hybrid|kombinasjon|konglomerat|krysning|lappeteppe|lapskaus|legering|litt av hvert|miks|mikstur|potpurri|salat|sammenbinding|sammenblanding|sammenfiltring|sammenveving|varia|verken fugl eller fisk
 sammensvoren|2
@@ -21207,10 +21258,8 @@ sekretariat|2
 seksjon|2
 -|avdeling|bande|flokk|fraksjon|friskare|følge|gerilja|gjeng|gruppe|hale|haleheng|hjord|hop|horde|horg|hurv|hær|hærskare|junta|kleresi|klikk|lag|populasjon|sverm|utvalg
 -|hylle|reol
-sekstenåring|1
--|attenåring|backfish|femtenåring|fjortenåring|fjortis|nittenåring|syttenåring|tenåring|tolvåring|trettenåring|unggutt|ungpike|yngling|ynglingalder
 seksualdrift|1
--|begjær|drift|libido
+-|begjær|drift|kjønnsdrift|libido
 seksuell|1
 -|amorøs|erotisk|heit|kjødelig|kjønnslig|libidinøs|lidenskapelig|lysten|sanselig|sensuell|temperamentsfull|varm|varmblodig|vellystig|yppig
 seksuell forening|1
@@ -21409,6 +21458,8 @@ servise|1
 -|fat|fløtemugge|glass|kaffekanne|kaffekopp|kaffeservise|kopp|middagsservise|spisestell|sukkerkopp|tallerken|tefat|tekanne|tekopp|teservise
 sesjon|1
 -|forsamling|forum|gruppe|komite|konferanse|kongress|konklave|konsil|konvent|konventikkel|møte|rendezvous|råd|samling|sammenkomst|seanse|stevne|stevnemøte|storting|synode|tête-à-tête|ting|treff|utvalg
+sess|1
+-|bakende|ende|hekk|rektum|rumpe|ræv|stump|stuss
 sete|1
 -|benk|kontorstol|krakk|lenestol|plass|sofa|stol|ørelappstol
 sett|1
@@ -21457,6 +21508,8 @@ setter seg på bakbeina|1
 -|avvisende|benektende|furten|kranglete|kritisk|kverulantisk|med armene i kors|motstrebende|motvillig|negativ|nektende|sta|stedig|tverr|umedgjørlig|uvillig|vrang|vrangvillig|vrien
 severdighet|1
 -|attraksjon|fasilitet|kuriositet|kuriosum|merkverdighet|perle|raritet|reisemål|sjeldenhet|turistmål|utstilling
+sevje|1
+-|harpiks|kvae|rav
 sex|1
 -|elskov|et nummer|kjønnsakt|kjønnslig omgang|knull (vulgær)|kopulasjon|ligg (muntlig mening)|samleie|seksuell forening|sengekos
 sfinks|1
@@ -21700,10 +21753,11 @@ sjaskete|1
 -|derangert|forsømmelig|forsømt|jasket|jaskete|lurvet|lurvete|sjasket|sjusket|sjuskete|skjødesløs|slasket|slaskete|slurvet|slurvete|snusket|snuskete|uflidd|uordentlig|ustelt
 sjaue|1
 -|brake|bråke|drønne|dundre|herje|holde leven|husere|lage hurlumhei|lage leven|lage oppstyr|larme|ramle|romstere|rumle|sette huset på ende|skralle|skråle|smelle|styre|ståke|støye|tordne
-sjef|3
+sjef|4
 -|anfører|ansvarlig|arbeidsgiver|bas|befal|bestyrer|den som bestemmer|den som trekker i trådene|direktør|disponent|folkevalgt|foresatt|forvalter|herre|hjerne|hode|husbond|kaptein|kommandant|konge/dronning|leder|overhode|overordnet|planlegger|prins(esse)
 -|general|offiser
 -|hjerne|hjernemasse|hjernestammen|hode|intelligens|kontrollsenter|lillehjernen|nervesystemets sentrum|planlegger|små grå|storehjernen|tanke
+-|høvding|leder|overhode
 sjefe|1
 -|befale|beordre|bestemme|bestille|dekretere|diktere|dirigere|dominere|fastsette|foreskrive|forlange|forordne|herske|kommandere|kontrollere|pålegge|styre
 sjekk|2
@@ -21832,7 +21886,7 @@ skape|3
 -|avle|belive|beånde|danne|finne opp|finne på|frembringe|gi liv|komponere|kreere|lage|opprette|produsere|unnfange
 -|avstedkomme|bety|bevirke|bringe|dra etter seg|ende med|forårsake|framkalle|fremkalle|føre med seg|føre til|innebære|involvere|kreve|medføre|resultere i|volde|være forbundet med
 skape fred|1
--|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|utjevne (forskjeller)|være diplomatisk
+-|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|mekle|utjevne (forskjeller)|være diplomatisk
 skapelig|1
 -|disiplinert|metodisk|nøyaktig|nøye|omsorgsfull|ordentlig|pertentlig|planmessig|presis|punktlig|regelmessig|regelrett|ryddig|samvittighetsfull|sirlig|skikkelig|skrupuløs|systematisk
 skapelse|2
@@ -22173,7 +22227,7 @@ skratte|1
 skravle|1
 -|bable|formidle|fortelle|få munnen på glid|gi et intervju|hviske|jabbe|kakle|kjefte|la munnen løpe|legge fram|meddele|mumle|mæle|rope|si|sladre|snakke|stamme|stotre|tale|tiske|tute (en) ørene fulle|ymte|ytre
 skravlete|1
--|meddelsom|ordrapp|pratsom|slarvete|snakkesalig|snakketrengt|snakksom
+-|meddelsom|ordrapp|pratsom|slarvete|snakkesalig|snakketrengt|snakksom|taletrengt
 skrekk|1
 -|angst|beklemthet|bekymring|beven|engstelse|fobi|frykt|hjertebank|lampefeber|nervøsitet|opphisselse|panikk|pine|redsel|sinnsbevegelse|uhygge|uro|usikkerhet
 skrekkinnjagende|1
@@ -22221,7 +22275,7 @@ skrike|2
 -|akke|anke|besvære seg|bære seg|gråte|jamre|jøye seg|kikke|klage|klynke|kny|kvinke|mukke|oie seg|okke seg|stønne|sukke|sutre|syte|tute|vånde seg|ynke
 -|brumme|hvine|hyle|kalle|kauke|rope|skingre|skråle|støye|vræle
 skrin|1
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skål|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skål|trekasse|tønne
 skrinlegge|2
 -|abortere|avbryte|avlyse|avslutte|bryte|desertere|droppe|forlate|forsake|fraskrive|hoppe av|kansellere|stanse|stoppe
 -|avskrive|avstå fra|avsverge|bryte|forsage|frafalle|fratre|fravike|gi avkall|gi opp|gi på båten|gi slipp på|gi tapt|henlegge|hoppe av|kapitulere|la falle/være/fare|legge på hylla|oppgi|rømme|si farvel til|skyte en hvit pinn etter|slippe|slå fra seg|venne seg av med
@@ -22282,7 +22336,7 @@ skryt|1
 skryte|3
 -|annonsere|lansere|markedsføre|propagere|reklamere|spre informasjon|vise fram|øve påtrykk
 -|blære seg|braute|briljere|glorifisere|hovere|prale|reklamere|skyte fram brystet|stikke nesa i sky|vise seg
--|briefe|briske seg|bryste seg|kjekke seg|oppe seg|prale|prange|tøffe seg|ville imponere|vise seg|være dumdristig
+-|brife|briske seg|bryste seg|kjekke seg|oppe seg|prale|prange|tøffe seg|ville imponere|vise seg|være dumdristig
 skryte av|1
 -|anbefale|anerkjenne|applaudere|berømme|bøye seg i støvet for|feire|forherlige|gi honnør|gi kompliment|heve til skyene|hylle|klappe for|love|lovprise|opphøye|prise|påskjønne|rose|sette pris på|sette på gullstol|skamrose|smigre|synge ens pris|tilbe|verdsette
 skrytepave|1
@@ -22404,7 +22458,7 @@ skynde seg|1
 skyndsom|1
 -|behendig|brå|ekspeditt|ekspress|flyktig|førlig|hodekuls|hurtig|i ett nå|i fullt firsprang|i hui og hast|kjapp|kvikk|lett på labben|med stormskritt|på rekordtid|rapp|rask|snar|snøgg|som et olja lyn|som ild i tørt gress|svint|så det kost etter|så det suser
 skyskraper|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|slott|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|slott|terrasseblokk|terrassehus|villa
 skyte|2
 -|avfyre|brenne av|drepe|fyre av|løsne et skudd|såre
 -|avlive|drepe|drukne|ekspedere|felle|forgifte|gi nådestøtet|gjøre det av med|gjøre ende på|gjøre et hode kortere|henge|henrette|kvele|kverke|la hodene rulle|likvidere|lynsje|massakrere|myrde|slakte|slå i hjel|stikke ned|ta av dage|ta livet av|vri halsen om på
@@ -22425,7 +22479,7 @@ skyve/stikke under en stol/stolen|1
 -|begrave|blende|dekke|dysse ned|dølge|fortie|gjemme|hemmeligholde|holde hemmelig|holde tilbake|mørklegge|skjule|sladde|tilbakeholde|tilsløre
 skål|3
 -|avtrykk|bule|bulk|dal|dump|fals|fordypning|forsenkning|fure|grav|grop|hakk|hull|hulning|krater|kulp|lomme|nisje|renne|revne|rynke|senkning|sjakt|spor|søkk
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|trekasse|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|trekasse|tønne
 -|beger|drikkehorn|glass|gral|kalk|kopp|krus|mugge|pokal|seidel|staup|tint
 skåldet|1
 -|antent|brennende|brent|febril|glødende|heit|het|i brann|kokende|kokt|lummer|lun|lunken|opphetet|oppvarmet|som ild|stekt|svett|tropisk|varm
@@ -22469,7 +22523,7 @@ slafse|1
 slag|3
 -|angrep|antasting|bank|buksevann|dask|forbrytelse|juling|maktmisbruk|nesestyver|omgang|overfall|overgrep|pikk|pryl|ran|rapp|ris|selvtekt|sjikane|smekk|spark|tukt|urett|urettmessighet|voldtekt
 -|egenskap|gruppe|holdbarhet|inndeling|karakter|klasse|kvalitet|modenhet|nivå|orden|rang|sortering|stand|standard|type|utholdenhet|varighet|verdi
--|lusing
+-|lusing|smekk|ørefik
 slager|2
 -|dans|danselåt|joik|kantilene|klang|komposisjon|lyd|låt|marsj|melodi|melodont|musikk|musikkstykke|rytme|sang|skaperverk|slått|spill|strofe|sull|symfoni|tema|tone|tonekunst|vise
 -|døgnflue|evergreen|favoritt|favorittlåt|gjenganger|hit|landeplage|listetopp|poplåt|publikumsfavoritt|sviske|yndlingssang
@@ -22527,7 +22581,7 @@ slaps|1
 slarve|1
 -|diskutere|drøfte|gi et intervju|ha en dialog|holde et intervju|konferere|konversere|krangle|passiere|prate|samtale|sludre
 slarvete|1
--|meddelsom|ordrapp|pratsom|skravlete|snakkesalig|snakketrengt|snakksom
+-|meddelsom|ordrapp|pratsom|skravlete|snakkesalig|snakketrengt|snakksom|taletrengt
 slasket|1
 -|derangert|forsømmelig|forsømt|jasket|jaskete|lurvet|lurvete|sjasket|sjaskete|sjusket|sjuskete|skjødesløs|slaskete|slurvet|slurvete|snusket|snuskete|uflidd|uordentlig|ustelt
 slaskete|1
@@ -22626,7 +22680,7 @@ slitt|1
 sliul|1
 -|batong|hellebard|ji|kjepp|klubbe|knokejern|kølle|morgenstjerne|slagvåpen|stang|stridsøks|sverd|tomahawk|vekterstav
 slott|2
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|terrasseblokk|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|terrasseblokk|terrassehus|villa
 -|bensinstasjon|borg|brannstasjon|bu|butikk|fabrikkbygning|herberge|hospits|hotell|kirke|landhandel|motell|offentlig hus|politihus|rådhus|supermarked|sykehus|tinghus|vandrehjem
 slubbert|1
 -|barbar|beist|berserk|bråkebøtte|bråkmaker|buldrebasse|bølle(frø)|hooligan|laban|pakk|pøbel|rabagast|rabulist|rakkerpakk|rampegutt/-jente|slamp|slyngel|slåsskjempe|terrorist|tølper|urokråke|utskudd|vandal|villmann|voldsmann
@@ -22767,6 +22821,8 @@ sløseri|1
 sløv|2
 -|avstumpet|dum|dustete|idiotisk (vulgær)|imbesill|innskrenket|korka (muntlig mening)|stupid|teit|tett (muntlig mening)|tykk i hodet (muntlig mening)|uforstandig|uintelligent|uklok|uvitende
 -|bedagelig|flegmatisk|gradvis|i sneglefart|initiativløs|langsom|langtekkelig|møysommelig|sakte|seig|sen|sidrumpa|slapp|som lus på en tjærekost|treg|tungkjørt
+sløyfe|1
+-|avstå|droppe|utelate
 smal|2
 -|avstumpet|bagatellmessig|bitteliten|diminutiv|forsvinnende liten|knapp|kort|lav|liten|mikroskopisk|mindreårig|minimal|småfallen|småvokst|sped|spinkel|ubetydelig|ørende liten
 -|flat|gjennomsiktig|hårfin|ikke bred|innskrumpet|løvtynn|mager|platt|slank|spinkel|svak|tynn
@@ -22782,8 +22838,9 @@ smau|1
 -|allé|autostrada|bilvei|ferdselsåre|gate|gjennomgang|hovedvei|kurs|landevei|motorvei|passasje|promenade|riksvei|rute|sidevei|smug|sti|strekning|tråkk|tømmervei|vei|veit
 smeiken|1
 -|falsk|glatt|honningsøt|innsmigrende|krypende|servil|slesk|slibrig|smiskende|snikende|snikete|sukkersøt|underdanig|unnvikende|upålitelig|åleglatt
-smekk|1
+smekk|2
 -|angrep|antasting|bank|buksevann|dask|forbrytelse|juling|maktmisbruk|nesestyver|omgang|overfall|overgrep|pikk|pryl|ran|rapp|ris|selvtekt|sjikane|slag|spark|tukt|urett|urettmessighet|voldtekt
+-|lusing|slag|ørefik
 smekke|1
 -|dopapir|handduk|handkle|håndduk|håndkle|lommeduk|lommetørkle|papirhåndkle|serviett|toalettpapir|tørk|tørkepapir
 smelle|1
@@ -22894,7 +22951,7 @@ snacks|1
 snadder|1
 -|bongbong|godbit|godteri|knask|konfekt|slikkeri|snaks/snacks|snask|snop|sukkertøy|søtsaker
 snafs|1
--|bete|bit|jafs|munnfull|tygge (muntlig mening)
+-|bete|bit|jafs|munnfull|tugge|tygge (muntlig mening)
 snakk|2
 -|abrakadabra|ammestuesnakk|ap|barneprat|bla-bla|dill|fjas|fjolleri|galimatias|hokuspokus|nonsens|oppspinn|pjatt|prat|pølsesnakk|pølsevev|rør|sludder|sprøyt|tull|tøv|tøys|visvas|vrøvl|vås
 -|dialog|diskusjon|drøs|intervju|jabb|kommunikasjon|konversasjon|krangel|meningsutveksling|ordskifte|ordveksling|passiar|prat|replikkveksling|samtale
@@ -22905,11 +22962,11 @@ snakke tull|1
 snakke usant|1
 -|dikte|fable|fabulere|finne på noe|fordreie|forfalske|forføre|fortegne|forvrenge sannheten|føre bak lyset|gi falsk forklaring|ljuge|lure noen|lyge|lyve|skrøne|slå ei plate|snakke tull|vase (muntlig mening)|vrøvle (muntlig mening)
 snakkesalig|1
--|meddelsom|ordrapp|pratsom|skravlete|slarvete|snakketrengt|snakksom
+-|meddelsom|ordrapp|pratsom|skravlete|slarvete|snakketrengt|snakksom|taletrengt
 snakketrengt|1
--|meddelsom|ordrapp|pratsom|skravlete|slarvete|snakkesalig|snakksom
+-|meddelsom|ordrapp|pratsom|skravlete|slarvete|snakkesalig|snakksom|taletrengt
 snakksom|1
--|meddelsom|ordrapp|pratsom|skravlete|slarvete|snakkesalig|snakketrengt
+-|meddelsom|ordrapp|pratsom|skravlete|slarvete|snakkesalig|snakketrengt|taletrengt
 snaks|1
 -|aperitiff|dugurd|frokost|føde|godbit|kost|kraftkost|lekkerbisken|lunsj|mat|matbit|mellommåltid|middag|morgenmat|munnfull|måltid|nattmat|noe å bite i|næring|rett|snacks|vesper
 snaks/snacks|1
@@ -23021,35 +23078,21 @@ snåve|1
 -|dale|deise|dette|dratte|dumpe|falle|gli|gå i bakken|gå omkull|gå over ende|gå på hode|ramle|rape|rause|segne|sige sammen|snuble|stupe|styrte|tryne|tumle|velte
 snø|1
 -|byge|bøye|el|eling|hagl|nedbør|regn|regnbyge|regnskyll|skur|slaps|snødrev|snøvær|stormbyge|styrtregn|yr
-snøball|1
--|iglo|snøborg|snøfigur|snøhotell|snøhule|snøhytte|snømann|snøskulptur|snøslott
-snøborg|1
--|iglo|snøball|snøfigur|snøhotell|snøhule|snøhytte|snømann|snøskulptur|snøslott
 snødrev|2
 -|byge|bøye|el|eling|hagl|nedbør|regn|regnbyge|regnskyll|skur|slaps|snø|snøvær|stormbyge|styrtregn|yr
 -|snøfokk|snøføyk|snøstorm|snøvær
-snøfigur|1
--|iglo|snøball|snøborg|snøhotell|snøhule|snøhytte|snømann|snøskulptur|snøslott
 snøfokk|1
 -|snødrev|snøføyk|snøstorm|snøvær
 snøføyk|1
 -|snødrev|snøfokk|snøstorm|snøvær
 snøgg|1
 -|behendig|brå|ekspeditt|ekspress|flyktig|førlig|hodekuls|hurtig|i ett nå|i fullt firsprang|i hui og hast|kjapp|kvikk|lett på labben|med stormskritt|på rekordtid|rapp|rask|skyndsom|snar|som et olja lyn|som ild i tørt gress|svint|så det kost etter|så det suser
-snøhotell|1
--|iglo|snøball|snøborg|snøfigur|snøhule|snøhytte|snømann|snøskulptur|snøslott
-snøhule|1
--|iglo|snøball|snøborg|snøfigur|snøhotell|snøhytte|snømann|snøskulptur|snøslott
-snøhytte|1
--|iglo|snøball|snøborg|snøfigur|snøhotell|snøhule|snømann|snøskulptur|snøslott
 snømann|1
--|iglo|snøball|snøborg|snøfigur|snøhotell|snøhule|snøhytte|snøskulptur|snøslott
+-|snøskulptur (rå form)
 snøre|1
 -|aiguillette|bånd|fiber|galon|hyssing|line|lisse|reip|rem|snor|streng|strikke|stropp|tau|tråd|vad|vaier|wire
-snøskulptur|1
--|iglo|snøball|snøborg|snøfigur|snøhotell|snøhule|snøhytte|snømann|snøslott
-snøslott|1
--|iglo|snøball|snøborg|snøfigur|snøhotell|snøhule|snøhytte|snømann|snøskulptur
+snøskulptur (rå form)|1
+-|snømann
 snøstorm|1
 -|snødrev|snøfokk|snøføyk|snøvær
 snøvær|2
@@ -23116,7 +23159,7 @@ som baby|1
 som en bombe|1
 -|brått|eventyrlig|forbausende|forunderlig|mot formodning|overraskende|plutselig|som julekvelden på kjerringa|som lyn fra klar himmel|uant|uforutsett|uventet
 som en saltstøtte|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 som en søster eller bror|1
 -|elskverdig|faderlig|god|godhjertet|hjelpsom|hjertelig|hyggelig|imøtekommende|kjærlig|lyttende|medgjørlig|mild|moderlig|mottagelig|myk|omsorgsfull|omtenksom|snill|tillitsfull|varm|varmhjertet|velvillig|vennlig|åpen|øm
 som et olja lyn|1
@@ -23437,6 +23480,8 @@ spiss|4
 -|bølgetopp|glansnummer|høydepunkt|klimaks|kronen på verket|kulminasjon|maksimum|middagshøyde|senit|topp|toppunkt|vendepunkt
 -|elite|tet
 -|kapp|landtunge|nes|odde|pynt|skag|skage|tange|utstikker
+spissfindig|1
+-|subtil|underfundig
 spitord|1
 -|fantord|forakt|forhånelse|fornærmelse|hån|ironi|latterliggjørelse|nid|persiflasje|ringeakt|sarkasme|satire|skose|sneiord|spe|spott|spydighet|ydmykelse
 spjære|1
@@ -23456,7 +23501,7 @@ splitte|1
 -|avgrense|dele|desentralisere|differensiere|distribuere|dividere|fordele|fraksjonere|inndele|kløyve|løsrive|oppdele|porsjonere ut|separere|skille (ut)|skjelne|sondre|spalte|spre|stykke opp|stykke ut|tildele|tilmåle|utdele|utlodde
 splittelse|2
 -|antitese|diskrepans|diversitet|konflikt|kontrast|motpol|motsetning|motsigelse|motstykke|paradoks|polaritet|selvmotsigelse|uenighet
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|strid|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 splittet|1
 -|adskilt|avgrenset|delt|desentralisert|differensiert|distribuert|dividert|fordelt|fraksjonert|kløyvd|loddet ut|oppdelt|porsjonert|revet løs|segregert|separert|skilt|sondret|sortert|spaltet|spredt|stykket opp|tildelt|tilmålt|utdelt
 spon|1
@@ -23566,6 +23611,8 @@ sprøyte|1
 -|grise|plaske|skitne til|skvalpe|skvette|skvulpe|sprute|søle
 sprøyte gal|1
 -|avsindig|besatt|forrykt|forstyrret|fra forstanden|fra vettet|gal|galen|ikke riktig klok/navla|ikke vel bevart|manisk|paranoid|pling i bollen (muntlig mening)|psykopatisk|rabiat|rusk|sinnsforvirret|sinnssyk|skjør|skrullete|sprø|steingal|utilregnelig|vanvittig|vill
+spuns|1
+-|dybel|tapp
 spurte|1
 -|beinfly|fare|fly|fly som en vind|fyke|galoppere|haste|ile|jage|jogge|kute|løpe|pale|pile|pilte|rase|renne|ruse|skynde seg|småspringe|sprenge|springe|sprinte|ta beina på nakken|trave
 spydig|1
@@ -23607,7 +23654,7 @@ stab (terminologisk)|1
 stabbur|1
 -|atelier|brakke|brukshus|bryggerhus|dokkestue|fjøs|garasje|gårdshus|hundehus|koie|lekehus|lekestue|låve|løe|redskapshus/-bod|skjul|skåle|stall|tinghus|utedass (muntlig mening)|utedo|uthus|vedskjul|verksted|vognskjul
 stabil|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 stabilisere|1
 -|(for)herde|armere|avstive|befeste|bestyrke|effektivisere|forsterke|gi næring til|hjelpe|intensivere|konsolidere|kvikke opp|maksimere|minimere|oppmuntre|skjerpe|spare kostnader|stadfeste|stimulere|stive/stramme opp|stramme inn|styrke|stålsette|utbygge|væpne
 stad|1
@@ -23687,7 +23734,7 @@ stanse|6
 -|avskjære|avsperre|avstenge|barrikadere|blokkere|forby|hindre|lukke|obstruere|sperre|stenge|stoppe
 -|avskjære|avverge|begrense|blokkere|boikotte|forby|forebygge|forhindre|forpurre|forstyrre|hemme|hindre|innskrenke|motarbeide|motvirke|nekte|obstruere|oppholde|sabotere|sette en stopper for|sinke|sjenere|stoppe|utelukke|vegre
 stanset|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 stappa (muntlig mening)|1
 -|forspist|mett|overmett|sprengfull|stappfull
 stappe|3
@@ -23725,7 +23772,7 @@ stasjon|2
 stasjon (muntlig mening)|1
 -|blu-ray|båndstasjon|CD|diskett|DVD|harddisk|HD-DVD|hullbånd|hullkort|internminne|kassett|kassettbånd|kompaktplate|lagringsenhet|lagringsmedia|magnetkjerneminne|minne|minnebrikke|minnepinne|multimedium|radiorør|trommelminne|USB-disk|williamsminne|zip-disk
 stasjonær|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 stat|2
 -|bispedømme|distrikt|fylke|fyrstedømme|herred|keiserrike|kommune|kongedømme|land|landområde|landsdel|område|region|sogn|stift|territorium|verdensdel
 -|fastland|jord|jorde|kyst|land|landområde|lydrike|mark|nasjon|område|provins|region|rike|territorium|åker
@@ -23937,7 +23984,7 @@ stirre|1
 -|besiktige|betrakte|bli var|ense|fiksere|glane|glo|gløtte|iaktta|kikke|kope|la øynene hvile på|myse|måpe|observere|plire|rette blikket mot|se|skimte|skjele|skjelne|skotte|skue|titte|øyne
 stiv|4
 -|alvorlig|alvorsfull|alvorstung|andektig|dyp|dyster|formell|humørløs|høystemt|høytidelig|nedtrykt|patetisk|pompøs|seriøs|viktig
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 -|boltet|gjenstridig|grunnfast|har muskler|hard (som fjell)|klippefast|kompakt|kraftig|mektig|sikker|sikret|solid|sterk|tykk|ubøyelig|utholdende
 -|fast|hard|jernhard|motstandsdyktig|rigorøs|solid|steinhard|sterk|ubrytelig|ubøyelig|uendret
 stive/stramme opp|1
@@ -23977,8 +24024,6 @@ stole på|1
 stolpe|2
 -|kjepp|lurk|pel|pinne|påle|pæl|ribbe|spake|stake|staur|stav|stikke|stokk|støtte|sveig|vånd
 -|obelisk|pilar|staur|støtte|søyle
-stolt|1
--|ambisiøs|fremadstrebende|herskesyk|maktglad|maktsyk|målbevisst|perfeksjonistisk|streberaktig|ærekjær|æresjuk|æresyk|ærgjerrig
 stolthet|1
 -|arroganse|fordringsfullhet|hovmod|hybris|innbilskhet|overlegenhet|overmot|storsnutethet|uforskammethet|viktighet
 stopp|4
@@ -24000,7 +24045,7 @@ stopper|2
 -|avbrekk|avbrytelse|brems|bøyg|flaskehals|forbehold|forhindring|forstyrrelse|hemsko|hinder|hindring|klausul|snublestein|stans|stengsel|stopp|strek i regningen|vanske|vanskelighet
 -|avbud|avrunding|avslutning|avvisning|død|ende|endelikt|endelse|endepunkt|ferdig|finale|forbi|kroken på døra|nei|opphør|oppløsning|over|punktum|slutt|stans|stopp|teppefall|ute|utgang|utløp
 stoppet|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 stor|1
 -|diger|drabelig|enorm|gedigen|gigantisk|kjempemessig|kjempestor|kolossal|mektig|omfangsrik|omfattende|oppblåst|oppsvulmet|overdimensjonert|overdreven|overstadig|rommelig|ruvende|røslig|svær|uhyrlig|veldig|vidtrekkende|voksen|voldsom
 storartet|1
@@ -24054,7 +24099,7 @@ stramme|1
 stramme inn|1
 -|(for)herde|armere|avstive|befeste|bestyrke|effektivisere|forsterke|gi næring til|hjelpe|intensivere|konsolidere|kvikke opp|maksimere|minimere|oppmuntre|skjerpe|spare kostnader|stabilisere|stadfeste|stimulere|stive/stramme opp|styrke|stålsette|utbygge|væpne
 strandet|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 strategi|1
 -|angrepsmåte|arbeidsmåte|framgangsmåte|metode|måte|plan|praksis|prinsipp|prosedyre|prosess|renkespill|system|taktikk|tilnærmingsmåte|vei|vis
 stratenrøver|1
@@ -24065,7 +24110,7 @@ streber|2
 -|eventyrer|lykkejeger|opportunist
 -|hacker|lærenem elev|lærevillig person|nerd|pugghest|skolelys
 streberaktig|1
--|ambisiøs|fremadstrebende|herskesyk|maktglad|maktsyk|målbevisst|perfeksjonistisk|stolt|ærekjær|æresjuk|æresyk|ærgjerrig
+-|ambisiøs|fremadstrebende|målbevisst|ærekjær|ærgjerrig
 streife|1
 -|drive omkring|gå|loffe|luske|promenere|spankulere|spasere|trabulere|traske|trave|vandre
 streifer|1
@@ -24095,7 +24140,7 @@ streve|1
 strid|4
 -|angrep|bakangrep|blodhevn|blodsutgydelser|feide|fektekamp|felttog|forfølgelse|hevntokt|ild|kamp|korstog|krig|overfall|sverdslag|tokt|trefning|tumult|tvekamp|vold
 -|basketak|batalje|blodsutgydelser|duell|dyst|håndgemeng|håndgripeligheter|kamp|klammeri|knuffing|nappetak|oppgjør|sammenstøt|slagsmål|slåssing|slåsskamp|tvekamp|vold
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|stridsspørsmål|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|stridsspørsmål|uenighet|uoverensstemmelse|utskjelling
 -|prosess|påtale|rettergang|rettssak|rettstvist|sak|straffesak|tiltale|tvist
 stridbar|1
 -|aggressiv|angrepslysten|angripende|anmassende|bråkete|fiendtlig|krigersk|krigslysten|nærgående|offensiv|pågående|påtrengende|sabelraslende|stridslysten|utfordrende
@@ -24104,7 +24149,7 @@ stride|1
 stridslysten|1
 -|aggressiv|angrepslysten|angripende|anmassende|bråkete|fiendtlig|krigersk|krigslysten|nærgående|offensiv|pågående|påtrengende|sabelraslende|stridbar|utfordrende
 stridsspørsmål|1
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|uenighet|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|uenighet|uoverensstemmelse|utskjelling
 stridsøks|1
 -|batong|hellebard|ji|kjepp|klubbe|knokejern|kølle|morgenstjerne|slagvåpen|sliul|stang|sverd|tomahawk|vekterstav
 strikke|1
@@ -24178,7 +24223,7 @@ stum|1
 stump|3
 -|andel|bit|del|dose|fragment|komponent|kvanta|lapp|mengde|part|rasjon|stubb|stykke
 -|avfall|etterlatenskap|fossil|levning|relikt|reminisens|rest|ruin|slant|vrak
--|bakende|ende|hekk|rektum|rumpe|ræv|stuss
+-|bakende|ende|hekk|rektum|rumpe|ræv|sess|stuss
 stumpen|1
 -|elskede|elskling|gutten min|hjertenskjær|jenta mi|kjekken|kjære|skatt|snuppa|snuppen|søta|søten
 stund|1
@@ -24194,7 +24239,7 @@ stupid|1
 sturen|1
 -|alvorlig|bedrøvet|beklemt|deprimert|dyster|forstemt|gledesløs|lei seg|matt|melankolsk|mismodig|nedslått|plaget|på gråten|sorgfull|trist|tung til sinns|tungsindig|tynget
 stuss|1
--|bakende|ende|hekk|rektum|rumpe|ræv|stump
+-|bakende|ende|hekk|rektum|rumpe|ræv|sess|stump
 stusse|1
 -|abbreviere|amputere|avkorte|barbere|beklippe|beskjære|dra sammen|forenkle|forkorte|forminske|kappe|klippe|knappe (av)|komprimere|kondensere|korte|kupere|kutte (ned)|minske|redusere|sakse|sammenfatte|stekke|trekke sammen|trunkere
 stusslig|1
@@ -24344,6 +24389,8 @@ substansiell|1
 -|faktisk|fast|fysisk|håndfast|håndgripelig|inkarnert|jordbunden|jordisk|konkret|legemlig|materialistisk|materiell|reell|sansbar|sanselig|stofflig|timelig|virkelig
 substitutt|1
 -|avløsning|bot|erstatning|etterligning|gjengjeld|kompensasjon|oppreisning|protese|refusjon|surrogat|vederlag
+subtil|1
+-|spissfindig|underfundig
 subvenere|1
 -|assistere|avlaste|befri|berge|bidra|bistå|forbarme seg over|frelse|hjelpe|komme til unnsetning|leie|rake kastanjene ut av ilden for|redde|sekundere|slå et slag for|styrke|stå bi|støtte|subsidiere|ta hånd i hanke med|ta seg av|tjene|tre støttende til|være behjelpelig
 suge|1
@@ -24766,8 +24813,6 @@ syte|1
 -|akke|anke|besvære seg|bære seg|gråte|jamre|jøye seg|kikke|klage|klynke|kny|kvinke|mukke|oie seg|okke seg|skrike|stønne|sukke|sutre|tute|vånde seg|ynke
 syttendemaitog|1
 -|17. mai-tog|eskorte|flokk|følge|hale|karavane|kavalkade|kompani|kortesje|lag|opptog|parade|prosesjon|påheng|rei|suite|sveit|tog|tropp|vogntog
-syttenåring|1
--|attenåring|backfish|femtenåring|fjortenåring|fjortis|nittenåring|sekstenåring|tenåring|tolvåring|trettenåring|unggutt|ungpike|yngling|ynglingalder
 så det kost etter|1
 -|behendig|brå|ekspeditt|ekspress|flyktig|førlig|hodekuls|hurtig|i ett nå|i fullt firsprang|i hui og hast|kjapp|kvikk|lett på labben|med stormskritt|på rekordtid|rapp|rask|skyndsom|snar|snøgg|som et olja lyn|som ild i tørt gress|svint|så det suser
 så det suser|1
@@ -25041,6 +25086,8 @@ talent|1
 -|anlegg|begavelse|dyktighet|ekspertise|evne|ferdighet|genialitet|kompetanse|kunnen|kunnskap|kyndighet|åre
 talentfull|1
 -|begavet|behendig|dreven|driftig|dugelig|dyktig|erfaren|evnerik|fagkyndig|flink|framtredende|fremmelig|genial|ha anlegg for noe|kan sine ting|kompetent|kunnskapsrik|kyndig|lovende|mesterlig|overlegen|overmenneskelig|profesjonell|proff|virtuos
+taletrengt|1
+-|meddelsom|ordrapp|pratsom|skravlete|slarvete|snakkesalig|snakketrengt|snakksom
 talje|1
 -|heiseredskap|kraftfordobler|krafthalverer|løfteinnretning|løftesystem|tausystem
 tall|2
@@ -25123,6 +25170,8 @@ tape seg|1
 -|avta|bedage seg|blekne|bli lavere/mindre/svakere|dabbe|dale|dempes|ebbe|falle|forminskes|forsvinne|gå ned|krympe|løye|minke|minske|minskes|nee|reduseres|skrumpe|slakne|spakne|svekkes|svinne|veikne
 tapetklister|1
 -|dekstrin|gummi|klister|lim|lynlim|papirlim|superlim|trelim
+tapp|1
+-|dybel|spuns
 tapperhet|1
 -|bravur|dristighet|dødsforakt|fasthet|fighting spirit|gåpåhumør|heltemot|heroisme|kampmoral|kampånd|kurasje|mandighet|manndom|mannsmot|mot|pågangsmot|spirit|styrke|stå på-vilje|viljestyrke
 tarmsjekk|1
@@ -25264,9 +25313,9 @@ tent|2
 tentativ|1
 -|eksperimentell|foreløpig|forsøksvis
 tenåring|3
--|attenåring|backfish|femtenåring|fjortenåring|fjortis|nittenåring|sekstenåring|syttenåring|tolvåring|trettenåring|unggutt|ungpike|yngling|ynglingalder
 -|avkom|avlegger|baby|barn|den/vår håpefulle|en/ei liten en/ei|etterkommer|familieforøkelse|gullunge|gutt|mindreårig|nurk|pjokk|pode|rolling|skatt|småbarn|småfolk|smårolling|småtass|småtroll|spedbarn|tulle|umyndig|unge
 -|dryade|frøken|jente|jentebarn|jentunge|jomfru|møy|najade|nereide|nymfe|oreade|pike|pikebarn|pikelill|småpike|tulle|tøs|ungdom|ungmø|ungpike
+-|ungdom|unggutt|ungpike|yngling
 teorem|2
 -|analyse|analyseverktøy|forklaring|hypotese|modell|postulat|tanke|teori
 -|doktrine|læresetning|prinsipp
@@ -25293,9 +25342,9 @@ terning|1
 terping|1
 -|dressur|drill|eksersis|forelesning|instruksjon|kurs|leksjon|lære|opplæring|orientering|pugging|seminar|skolegang|skolering|studium|time|trening|undervisning|undervisningstime|utdannelse|utdanning|videreutdanning|voksenopplæring|voksenpedagogikk|øvelse
 terrasseblokk|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrassehus|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrassehus|villa
 terrassehus|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|villa
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|villa
 terreng|2
 -|areal|bakke|bø|eng|felt|grunn|grønnsvær|jorde|land|lende|mark|område|vang|voll|åker
 -|areal|distrikt|domene|egn|enemerker|himmelstrøk|kant|land|landskap|lokalitet|mark|område|plass|provins|reservat|revir|sektor|sfære|skueplass|sone|sted|strekning|strøk|territorium|trakt
@@ -25391,7 +25440,7 @@ til|1
 til all ulykke|1
 -|beklageligvis|dessverre|det kan ikke nektes|nok|skam å si|til alt uhell|uheldigvis
 til alt overmål|1
--|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig
+-|adskillig|atskillig|bråtevis|en god del|en masse|en mengde|fullt av|fyldig|haugevis|i bøtter og spann|i overflod|ikke lite|lassevis|mangt|massevis|meget|mengdevis|mer enn nok|mye|plenty|rik|rikelig
 til alt uhell|1
 -|beklageligvis|dessverre|det kan ikke nektes|nok|skam å si|til all ulykke|uheldigvis
 til bunns|1
@@ -25436,7 +25485,7 @@ tilbakeskuende|2
 -|mimrende|nostalgisk|sentimental|vemodig
 -|retrospektiv|tilbakeblikk
 tilbakestående|1
--|barnaktig|barnslig|infantil|uferdig|umoden|uutviklet
+-|barnaktig|barnlig|barnslig|infantil|uferdig|umoden|uutviklet
 tilbaketrukket|2
 -|adskilt|alene|asosial|avsondret|ene|enslig|ensom|forlatt|isolert|på egen hånd|separat|singel|uforstyrret|uten selskap
 -|beklemt|beskjeden|blyg|brydd|forknytt|forlegen|forsagt|fredelig|sjenert|sky|stille|stillfarende|ubemerket|usikker
@@ -25748,8 +25797,6 @@ toll|1
 -|avgift|betaling|bidrag|cover charge|entre|gebyr|kontingent|kontribusjon|kuvertavgift|leie|merverdiavgift (mva)|moms|porto|premie|pris|royalty|skatt|sportel|tiende|tillegg|tilskudd|tributt|ytelse
 tolv|1
 -|dusin
-tolvåring|1
--|attenåring|backfish|femtenåring|fjortenåring|fjortis|nittenåring|sekstenåring|syttenåring|tenåring|trettenåring|unggutt|ungpike|yngling|ynglingalder
 tom|2
 -|avkledt|beskjeden|diskre|elendig|enkel|fattigslig|kummerlig|naken|puritansk|ribbet|spartansk|spinkel|tarvelig|uanselig|ukunstlet|upretensiøs|ussel
 -|bar|død|formålsløs|kald|naken|skrinn|steril|treløs|tørr|ubevokst|ufruktbar|uproduktiv|uttørket|åndsfattig|øde|ørkenaktig
@@ -25919,7 +25966,7 @@ treghet|1
 trehjulssykkel|1
 -|barnesykkel|bysykkel|damesykkel|etthulssykkel|firehjulssykkel|guttesykkel|herresykkel|hybridsykkel|jentesykkel|landeveissykkel|liggesykkel|moped|motorsykkel|offroader/offroadsykkel|racersykkel|sparkesykkel|sykkel|tandemsykkel|terrengsykkel|tohjuling|triksesykkel|tråsykkel|utforsykkel|velosiped|veltepetter
 trekasse|1
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|tønne
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|tønne
 trekk|2
 -|atmosfære|det blå|eter|gass|himmel|intet|luft|miljø|oksygen (muntlig mening)|stemning|tomrom|vær|ånd
 -|blest|bris|byge|bør|kuling|luftning|monsun|nordavind|orkan|passat|passatvind|pust|solgangsbris|storm|syklon|sønnavind|taifun|tornado|tyfon|vestavind|vind|virvelvind|vær|østavind
@@ -25980,8 +26027,6 @@ trett|1
 trette|2
 -|bruke munn|bruke seg|egle|fortelle hvor David kjøpte ølet|gi inn etter noter|gi på pukkelen|hudflette|ikke legge fingrene imellom|irettesette|kjefte|kjekle|krangle|kritisere|kverulere|overfuse|overhøvle|refse|skjelle og smelle|skjelle ut|skjenne
 -|disputere|duellere|faite|fighte|gjøre motstand|ikke harmonere|kive|kjekle|kjempe|krangle|krige|munnhugges|opponere|slåss|stride|stå i motstrid med|støte an mot|være på krigsstien|være uenig|være uforenlig med
-trettenåring|1
--|attenåring|backfish|femtenåring|fjortenåring|fjortis|nittenåring|sekstenåring|syttenåring|tenåring|tolvåring|unggutt|ungpike|yngling|ynglingalder
 treverk|1
 -|tre|tømmer
 trevle|1
@@ -26037,9 +26082,10 @@ trofe|1
 -|anneksjon|besettelse|bytte|erobring|ervervelse|fangst|gevinst|landevinning|okkupasjon
 trolig|1
 -|antagelig|antageligvis|antakelig|formodentlig|gjerne|godt mulig|kan godt hende|muligens|rimeligvis|sannsynligvis|sikkert|ventelig
-troll|2
+troll|3
 -|alv|dverg|elementarvesen|fe|hulder|jette|mare|marmæle|naturvesen|nisse|nøkk|underjordisk|undine|vann-/jord-/luft-/ildvesen|vette
 -|gigant|jette|jøtul|kjempe|koloss|kyklop|mastodont|rise|titan
+-|tusse|vette
 trolleybuss|1
 -|bandbuss|buss|ekspressbuss|fjernbuss|langdistansebuss|leiebuss|lokalbuss|londonbuss|minibuss|nattbuss|privatbuss|regionalbuss|rutebuss|skolebuss|toetasjesbuss|turbuss
 trollmann|1
@@ -26156,6 +26202,8 @@ tufs|1
 -|dusement|dårlig|forkommen|gebrekkelig|halvsyk|hanglete|helseløs|indisponert|klein|krank|kvalm|låk|matt|sengeliggende|sjaber|skadet|skral|skranten|skrøpelig|svekket|syk|upasselig|utilpass|uvel
 tufte|1
 -|begrunne|bygge|grunne|støtte|underbygge
+tugge|1
+-|bete|bit|jafs|munnfull|snafs|tygge (muntlig mening)
 tukle|1
 -|dalke|famle|fingre|føle|grafse|gramse|grave|klø|krafse|lirke|pelle|pille|pirke|plukke|rense|ribbe|rote|røre|skrelle|trevle
 tukt|2
@@ -26224,7 +26272,7 @@ tusenår|1
 tusj|1
 -|blyant|fjærpenn|fyllepenn|griffel|kalligrafipenn|kulepenn|markeringspenn|penn|skriveredskap
 tusse|1
--|vette
+-|troll|vette
 tussmørk|1
 -|dubiøs|dunkel|dyster|fordektig|lumsk|lyssky|løen|mistenkelig|mystisk|mørk|obskur|redselsfull|skummel|suspekt|tvilsom|uhyggelig
 tust|1
@@ -26294,7 +26342,7 @@ tyfon|1
 tygge|1
 -|dinere|ete|fordøye|forsyne seg|fortære|få seg noe i livet|gnage|gomle|hugge innpå (muntlig mening)|konsumere|lunsje|nyte|slafse|sluke|spise|supere|ta en matbit
 tygge (muntlig mening)|1
--|bete|bit|jafs|munnfull|snafs
+-|bete|bit|jafs|munnfull|snafs|tugge
 tykk|4
 -|adipid|feit|fet|flesket|frodig|fyldig|korpulent|kvapsete|laskete|omfangsrik|overspist|overvektig|pløsete|tjukk|velernært
 -|betent|bolnet|bulnet|fordervet|hoven|irritert|opphovnet|oppsvulmet|pløset(e)|skadet|svullen|syk|såret|trutnet|ødematisk|øm
@@ -26383,7 +26431,7 @@ tête-à-tête|1
 tøff|1
 -|aktiv|barsk|djerv|driftig|dristig|dynamisk|en praktiker|flink med hendene|foretaksom|freidig|ha baller til|handlekraftig|handlende|initiavtivrik|modig|nevenyttig|praktisk|pågående|skapende|uredd|virkelysten|virksom
 tøffe seg|1
--|briefe|briske seg|bryste seg|kjekke seg|oppe seg|prale|prange|skryte|ville imponere|vise seg|være dumdristig
+-|brife|briske seg|bryste seg|kjekke seg|oppe seg|prale|prange|skryte|ville imponere|vise seg|være dumdristig
 tøffelhelt|1
 -|dott|feiging|kujon|pingle|pusling|pyse|reddhare|stakkar|svekling|usling
 tølper|1
@@ -26395,7 +26443,7 @@ tømmer|1
 tømmervei|1
 -|allé|autostrada|bilvei|ferdselsåre|gate|gjennomgang|hovedvei|kurs|landevei|motorvei|passasje|promenade|riksvei|rute|sidevei|smau|smug|sti|strekning|tråkk|vei|veit
 tønne|1
--|balje|balllong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse
+-|balje|ballong|beholder|boks|dispenser|dunk|dåse|eske|etui|flaske|glass|kagge|kanne|kasse|kiste|kjele|kopp|krukke|mugge|potte|reservoar|retorte|skrin|skål|trekasse
 tørk|1
 -|dopapir|handduk|handkle|håndduk|håndkle|lommeduk|lommetørkle|papirhåndkle|serviett|smekke|toalettpapir|tørkepapir
 tørke|1
@@ -26533,7 +26581,7 @@ ubetydelig|2
 ubetydelighet|1
 -|bagatell|detalj|filleting|fotnote
 ubevegelig|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 ubevegelighet|1
 -|beherskelse|flegma|fred|harmoni|hvile|passivitet|ro|sinnsro|stillhet|stillstand|uvirksomhet
 ubevisst|1
@@ -26558,7 +26606,7 @@ ubrytelig|1
 ubundet|1
 -|autonom|bred|fri|fribåren|frigjort|gratis|kreativ|myndig|selvhjulpen|selvstendig|selvstyrt|sterk|suveren|tilgjengelig|uavhengig|ubegrenset|uforpliktet|uhemmet|uhindret|vid|åpen
 ubønnhørlig|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 ubøyelig|3
 -|bastant|blir ved sitt|egenvillig|fast|flegmatisk|herskende|jernhard|kolerisk|konsekvent|pågående|påståelig|rigorøs|seig|sta|sterk|tro(fast)|tverr|ufravikelig|umedgjørlig|utholdende|varig|vedvarende|viljesterk|vrang(villig)
 -|boltet|gjenstridig|grunnfast|har muskler|hard (som fjell)|klippefast|kompakt|kraftig|mektig|sikker|sikret|solid|sterk|stiv|tykk|utholdende
@@ -26595,7 +26643,7 @@ uengasjert|1
 -|allmengyldig|beskrivende|faktisk|fordomsfri|gjengivende|lidenskapsløs|nøktern|objektiv|realistisk|reell|saklig|sann|uegennyttig|uhildet|upartisk|upersonlig|virkelig|virkelighetsnær|vitenskapelig
 uenighet|2
 -|antitese|diskrepans|diversitet|konflikt|kontrast|motpol|motsetning|motsigelse|motstykke|paradoks|polaritet|selvmotsigelse|splittelse
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uoverensstemmelse|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uoverensstemmelse|utskjelling
 uensartet|2
 -|alternativ|annerledes|antonym|avstikkende|avvikende|blandet|broket|divergerende|forskjellig|forskjelligartet|heterogen|inkommensurabel|kryssende|motsatt|motstridende|skiftende|som ild og vann|som natt og dag|ulik|ulikeartet|usammenlignbar|varierende|variert|vekslende|vesensforskjellig
 -|blandet
@@ -26607,7 +26655,7 @@ uerfaren|2
 uestetisk|1
 -|avskyelig|ekkel|forferdelig|frastøtende|ful|fæl|grim|grusom|heslig|ikke pen|motbydelig|stygg|ulekker|uskjønn|vansiret|vemmelig
 uferdig|1
--|barnaktig|barnslig|infantil|tilbakestående|umoden|uutviklet
+-|barnaktig|barnlig|barnslig|infantil|tilbakestående|umoden|uutviklet
 uflaks|1
 -|bom|ergrelse|fadese|fatalitet|feiltagelse|fiasko|glipp|kalamitet|misere|mistak|strek i regningen|tabbe|tape ansikt|uhell|ulykke|ulykkestilfelle|utur|vanhell|vanskjebne|vådeskudd
 uflidd|1
@@ -26655,16 +26703,16 @@ ufruktbar|1
 -|bar|død|formålsløs|kald|naken|skrinn|steril|tom|treløs|tørr|ubevokst|uproduktiv|uttørket|åndsfattig|øde|ørkenaktig
 ufølsom|2
 -|apatisk|doven|følelsesløs|lidenskapsløs|likegyldig|nummen|overfladisk|overlegen|rå
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufør|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufør|ugjenkallelig|urokkelig|urørlig|værfast
 ufølsomt|1
 -|daddelverdig|diabolsk|djevelsk|egoistisk|feil|forferdelig|fryktelig|fælt|galt|grusomt|hjerteløst|hjerterått|horribelt|infamt|lastefullt|nederdrektig|ondskapsfullt|ondt|rått|sadistisk|samvittighetsløst|sjofelt|slemt|stygt|vemmelig
 ufør|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ugjenkallelig|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ugjenkallelig|urokkelig|urørlig|værfast
 ugjendrivelig|1
 -|beviselig|bevist|faktisk|korrekt|objektiv|realistisk|reell|riktig|sann|sikker|uomstøtelig|utvilsom|verifisert|virkelig|vitnefast
 ugjenkallelig|2
 -|absolutt|avgjort|bestemt|betingelsesløs|definitiv|deterministisk|endelig|faktisk|forutbestemt|hard|ikke ettergivende|karmisk|konstant|nådeløs|resolutt|skjebnebestemt|ubetinget
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|urokkelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|urokkelig|urørlig|værfast
 uglese|1
 -|avsky|ekles ved|forakte|ha imot|hate|ikke kunne fordra|ikke kunne utstå|sky|vemmes ved|ønske dit pepperen gror
 uheldigvis|1
@@ -26803,7 +26851,7 @@ umiddelbar|3
 -|barbarisk|fri|hemningsløs|i vilden sky|lavtstående|naturlig|primitiv|rabiat|rå|tøylesløs|ubehersket|ubendig|uhemmet|ukultivert|uordnet|usivilisert|usjenert|ustyrlig|utemmet|vill|vilter
 -|direkte|impulsiv|likefram|likefrem|pågående|rett fram|spontan|uvilkårlig
 umoden|1
--|barnaktig|barnslig|infantil|tilbakestående|uferdig|uutviklet
+-|barnaktig|barnlig|barnslig|infantil|tilbakestående|uferdig|uutviklet
 umoderne|1
 -|alderdommelig|aldrende|annenhånds|antikk|antikvarisk|antikvert|arkaisk|avlagt|avleggs|brukt|eldgammel|fortidig|fra arilds tid|gammel|gammeldags|i ruiner|mosegrodd|museal|prehistorisk|urgammel|utgått|utidsmessig
 umoralsk|1
@@ -26847,6 +26895,8 @@ underdanig|1
 -|falsk|glatt|honningsøt|innsmigrende|krypende|servil|slesk|slibrig|smeiken|smiskende|snikende|snikete|sukkersøt|unnvikende|upålitelig|åleglatt
 underforstått|1
 -|ad omveier|antydningsvis|i skjul|implisitt|indirekte
+underfundig|1
+-|spissfindig|subtil
 undergang|1
 -|beskadigelse|degenerasjon|dekadanse|destruksjon|fordervelse|forfall|forslumming|henfall|nedgang|oppløsning|ruin|skadeverk|tilbakegang|ødeleggelse
 underhold|1
@@ -26941,22 +26991,23 @@ undine|1
 -|alv|dverg|elementarvesen|fe|hulder|jette|mare|marmæle|naturvesen|nisse|nøkk|troll|underjordisk|vann-/jord-/luft-/ildvesen|vette
 undre|2
 -|dupere|forbause|forbløffe|forundre|forvirre|gripe på fersk gjerning|komme bak på|komme som en bombe|komme som lyn fra klar himmel|lamslå|overliste|overraske|overrumple|ta på senga|trekke kaniner opp av hatten
--|gruble
+-|gruble|kontemplere|lure|pønske
 unevnelige|1
 -|be(i)nklær|brok|bukse|dongeribukse|jeans|knebukse|kortbukse|longs|mamelukk|nikkers|olabukse|panty|shorts|skinnbukse|slacks|slengbukse|stilongs|strømpebukse|truse|underbukse
-ungdom|2
+ungdom|3
 -|dryade|frøken|jente|jentebarn|jentunge|jomfru|møy|najade|nereide|nymfe|oreade|pike|pikebarn|pikelill|småpike|tenåring|tulle|tøs|ungmø|ungpike
 -|en liten en|gutt|guttepjokk|guttevalp|guttunge|håpefull|knert|pjokk|plugg|pode (muntlig mening)|ramp|yngling
+-|tenåring|unggutt|ungpike|yngling
 unge|2
 -|arvtager|avkom|avlegger|barn|etterkommer|pode (gutt)
 -|avkom|avlegger|baby|barn|den/vår håpefulle|en/ei liten en/ei|etterkommer|familieforøkelse|gullunge|gutt|mindreårig|nurk|pjokk|pode|rolling|skatt|småbarn|småfolk|smårolling|småtass|småtroll|spedbarn|tenåring|tulle|umyndig
 unggutt|1
--|attenåring|backfish|femtenåring|fjortenåring|fjortis|nittenåring|sekstenåring|syttenåring|tenåring|tolvåring|trettenåring|ungpike|yngling|ynglingalder
+-|tenåring|ungdom|ungpike|yngling
 ungmø|1
 -|dryade|frøken|jente|jentebarn|jentunge|jomfru|møy|najade|nereide|nymfe|oreade|pike|pikebarn|pikelill|småpike|tenåring|tulle|tøs|ungdom|ungpike
 ungpike|2
--|attenåring|backfish|femtenåring|fjortenåring|fjortis|nittenåring|sekstenåring|syttenåring|tenåring|tolvåring|trettenåring|unggutt|yngling|ynglingalder
 -|dryade|frøken|jente|jentebarn|jentunge|jomfru|møy|najade|nereide|nymfe|oreade|pike|pikebarn|pikelill|småpike|tenåring|tulle|tøs|ungdom|ungmø
+-|tenåring|ungdom|unggutt|yngling
 ungpikeaktig|1
 -|feminin|forfinet|kvinneaktig|kvinnelig|moderlig|umandig
 uniform|1
@@ -27025,7 +27076,7 @@ uordnet|1
 -|barbarisk|fri|hemningsløs|i vilden sky|lavtstående|naturlig|primitiv|rabiat|rå|tøylesløs|ubehersket|ubendig|uhemmet|ukultivert|umiddelbar|usivilisert|usjenert|ustyrlig|utemmet|vill|vilter
 uoverensstemmelse|2
 -|avskygning|avvik|differanse|distinksjon|divergens|forandring|forskjell|gap|grad|nyanse|overgang|skille|skilnad|sprang|tone|uensartethet|ulikhet|variasjon
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|utskelling
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|utskjelling
 up-to-date|1
 -|à jour|à la mode|aktuell|en vogue|fasjonabel|herskende|hipp|hypermoderne|i skuddet|in|moderne|moteriktig|ny|nymotens|oppdatert|på moten|siste skrik|tidsmessig|tipp topp|trendy|ultramoderne
 upartisk|1
@@ -27096,7 +27147,7 @@ uro|3
 uroe|1
 -|angripe|antaste|besvære|bry|forgripe seg på|forulempe|gripe fatt i|plage|røre|stanse|trakassere|være nærgående mot
 urokkelig|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urørlig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urørlig|værfast
 urokråke|1
 -|barbar|beist|berserk|bråkebøtte|bråkmaker|buldrebasse|bølle(frø)|hooligan|laban|pakk|pøbel|rabagast|rabulist|rakkerpakk|rampegutt/-jente|slamp|slubbert|slyngel|slåsskjempe|terrorist|tølper|utskudd|vandal|villmann|voldsmann
 urolig|1
@@ -27109,7 +27160,7 @@ urtid|1
 -|forgangne tider|forn|fortid|fra arilds tid|fra gammelt av|før|gamle dager|historie|imperfektum|oldtid|preteritum|tidligere
 urørlig|2
 -|avbalansert|avslappet|avstresset|avventende|behersket|besindig|ensformig|fattet|flegmatisk|fredelig|fredfull|fredsommelig|harmonisk|kaldblodig|kul (muntlig mening)|likevektig|rolig|statisk|stille|treg|uberørt|uforstyrrelig|upåvirket|uvirksom|verdig
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|værfast
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|værfast
 usaklig|1
 -|ensidig|for egen regning|forutinntatt|individuell|intim|nærgående|original|partisk|personlig|privat|selvstendig|subjektiv|tendensiøs|urettferdig
 usammenlignbar|1
@@ -27265,6 +27316,8 @@ utedo|2
 utekkelig|2
 -|bråkjekk|fornærmelig|freidig|frekk|grov|hoven|nebbet|nesevis|pøbelaktig|rå|taktløs|ubehøvlet|uforskammet|uhøflig|ukultivert|uoppdragen
 -|dristig|drøy|frivol|grov|lettferdig|liderlig|nærgående|obskøn|pornografisk|skamløs|uanstendig|ublu|ukysk|umoralsk|usømmelig
+utelate|1
+-|avstå|droppe|sløyfe
 uteligger|1
 -|boms|fant|fark|fattigmann|fattigmannsbarn|foreldreløs|gategutt|hjemløs|landstryker|lasaron|lassis|loffer|løsgjenger|omstreifer|slusk|splint|tigger|tramp|vagabond
 utelukke|3
@@ -27413,7 +27466,7 @@ utilregnelig|1
 utilstrekkelig|1
 -|avmektig|kraftløs|maktesløs|matt|medtatt|puslete|skjør|skral|skrøpelig|sped|svak|svekket|utmattet|veik|viljeløs
 utjevne (forskjeller)|1
--|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|skape fred|være diplomatisk
+-|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|mekle|skape fred|være diplomatisk
 utjevnet|1
 -|avrundet|fasettert|fin|flat|glatt|glattet ut|jamn|jevn|kontinuerlig|plan|polert|pusset|regelmessig|sammenhengende|slepen|slett|slipt
 utkantstrøk|2
@@ -27527,10 +27580,12 @@ utside|1
 utsikt|2
 -|besøkelsestid|eventualitet|håp|høve|kjangs|leilighet|mulighet|odds|risiko|sannsynlighet|sjanse|slump|snitt|vy
 -|drøm|ekspektanse|forhåpning|formodning|fortrøstning|forventning|håp|lit|mulighet|sjanse|tillit|von
-utskelling|1
--|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse
+utskeielse|1
+-|eksess|flotthet|utsvevelse
 utskilling|1
 -|avgrensing|deling|desentralisering|differensiering|distribusjon|divisjon|fordeling|fraksjonering|inndeling|løsrivelse|oppstykking|separasjon|skill|skille|sondring|spalt(n)ing|utdeling|utporsjonering
+utskjelling|1
+-|delte meninger|diskusjon|dissens|egling|friksjon|kjefting|konflikt|krangel|kritikk|kverulering|meningsforskjell|misforståelse|misstemning|munnhuggeri|splittelse|strid|stridsspørsmål|uenighet|uoverensstemmelse
 utskreket|1
 -|forkjølet|hes|ru|rusten|stemmeløs|svak i stemmen|tørr i halsen|uklar|uten stemme
 utskudd|1
@@ -27566,6 +27621,8 @@ utstyre|1
 -|anrette|arrangere|dandere|dekorere|drapere|fiffe opp|garnere|kle|pryde|pynte|smykke|stase opp|stelle|utbrodere|utsmykke|vaske
 utstøte|1
 -|bannlyse|bortvise|deportere|drive ut|fjerne|forvise|jage|landsforvise|sende bort|sende i eksil|utvise
+utsvevelse|1
+-|eksess|flotthet|utskeielse
 utsøkt|1
 -|alle tiders|anerkjent|anselig|briljant|eksemplarisk|eminent|fantastisk|fortreffelig|fremragende|fullendt|førsteklasses|glimrende|herlig|kongelig|makeløs|med glans|mesterlig|prektig|prima|som fisken i vannet|strålende|super|superb|utmerket|ypperlig
 uttale|1
@@ -27642,7 +27699,7 @@ uunnværlig|2
 -|alfa og omega|ansett|avgjørende|betydelig|betydningsfull|essensiell|framtredende|grunnleggende|hoven|høyt på strå|krumtapp|overlegen|signifikant|vesentlig|viktig
 -|basalt|dyptgående|elementær|empirisk|erfaringsmessig|forberedende|fundamentalt|grundig|grunnleggende|innførende|propedeutisk|vesentlig
 uutviklet|1
--|barnaktig|barnslig|infantil|tilbakestående|uferdig|umoden
+-|barnaktig|barnlig|barnslig|infantil|tilbakestående|uferdig|umoden
 uvanlig|2
 -|attpå|attåt|dessuten|ekstra|enestående|i tilgift|i tillegg|oven i kjøpet|overflod|overskytende|overtallig|på kjøpet|på varastyre|spesiell|særdeles|særlig|til overs|tillegg|tilleggs-|ualminnelig|under bordet|utenom|utmerket|utvalgt|ytterligere
 -|bare hvert jubelår|den eneste av sitt slag|egenartet|eksepsjonell|enestående|engangs|enkeltstående|ikke hverdagskost|makeløs|mangelvare|sjelden|som ikke vokser på trær|spesiell|særegen|ualminnelig|underlig|unik|unntaksvis|usedvanlig
@@ -28353,7 +28410,7 @@ vett|2
 -|dyktighet|dømmekraft|erfaring|fornuft|forstand|innsikt|intelligens|klokskap|kløkt|kunnskap|kyndighet|omtanke|resong|skarpsindighet|visdom|viten
 vette|2
 -|alv|dverg|elementarvesen|fe|hulder|jette|mare|marmæle|naturvesen|nisse|nøkk|troll|underjordisk|undine|vann-/jord-/luft-/ildvesen
--|tusse
+-|troll|tusse
 vev|1
 -|datanettverk|forbindelse|intern-nett|Internett|intranett|kobling|kommunikasjon|nett|nettverk|verdensvev
 vi|1
@@ -28440,11 +28497,11 @@ vill|5
 -|barbarisk|fri|hemningsløs|i vilden sky|lavtstående|naturlig|primitiv|rabiat|rå|tøylesløs|ubehersket|ubendig|uhemmet|ukultivert|umiddelbar|uordnet|usivilisert|usjenert|ustyrlig|utemmet|vilter
 -|djerv|dristig|dumdristig|farlig|halsbrekkende|indiskré|risikabel|tankeløs|uaktsom|ubesindig|ubetenksom|ufornuftig|uforsiktig|uvettig|uvøren|vågal
 villa|1
--|arnested|atriumshus|bo|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus
+-|arnested|atriumshus|bolig|bolighus|campingvogn|enebolig|hjem|hovedhus|hus|husbåt|husgård|hytte|høyhus|iglo|kåk (muntlig mening)|leiebolig|leilighet|lekehus|privathus|rekkehus|skyskraper|slott|terrasseblokk|terrassehus
 ville|1
 -|akseptere|avfinne seg med|etterkomme|finne seg i|forsone seg med|godta|gå inn/med på|si ja til|slå til|ta til følge|tro|vedta|ønske
 ville imponere|1
--|briefe|briske seg|bryste seg|kjekke seg|oppe seg|prale|prange|skryte|tøffe seg|vise seg|være dumdristig
+-|brife|briske seg|bryste seg|kjekke seg|oppe seg|prale|prange|skryte|tøffe seg|vise seg|være dumdristig
 villelse|1
 -|avsinn|desperasjon|dumhet|dårskap|fjolleri|forrykthet|galimatias|galskap|idioti|illusjon|meningsløshet|nonsens|rabies|sinnsforvirring|sinnsykdom|toskeskap|tåpelighet|uforstand|vanvidd|åndssvakhet
 villet|1
@@ -28489,7 +28546,7 @@ vingård|1
 vink|3
 -|advarsel|forbud|formaning|forvarsel|hint|jærtegn|memento|omen|profeti|påminnelse|signal|skremmeskudd|skriften på veggen|spådom|symbol|tegn|varsel|varsku
 -|anvisning|beskjed|data|empiri|etterretning|forklaring|fotnote|henvisning|illustrasjon|info|informasjon|kjennskap|kommentar|kunngjøring|meddelelse|melding|note|opplysning|tips|underretning
--|råd
+-|hint|råd
 vinkelskriver|1
 -|advokat|aktor|anklager|apologet|forsvarer|jurist|prokurator|rådgiver|sakfører|talsmann
 vinkling|1
@@ -28575,7 +28632,7 @@ vise livstegn|1
 -|eksistere|finnes|forekomme|foreligge|leve|være til|ånde
 vise seg|2
 -|blære seg|braute|briljere|glorifisere|hovere|prale|reklamere|skryte|skyte fram brystet|stikke nesa i sky
--|briefe|briske seg|bryste seg|kjekke seg|oppe seg|prale|prange|skryte|tøffe seg|ville imponere|være dumdristig
+-|brife|briske seg|bryste seg|kjekke seg|oppe seg|prale|prange|skryte|tøffe seg|ville imponere|være dumdristig
 vise til|1
 -|angi|avgjøre|bringe på det rene|dokumentere|fastslå|fokusere på|framheve|fremheve|gjøre oppmerksom på|klarlegge|konstatere|markere|nevne|poengtere|påpeke|sette fingeren på|slå fast|trekke fram|understreke|utpeke|vektlegge
 vise vinterveien|1
@@ -28818,9 +28875,9 @@ være behjelpelig|1
 være borte|1
 -|forbigå|forspille|forsømme|glemme|ignorere|la gå for lut og kaldt vann|la gå fra seg|la ligge|la være|mangle|neglisjere|overse|ringeakte|sette til side|skofte|skulke|slurve (med)|svikte|unntale|utebli|vanrøkte|vanskjøtte|vanstelle
 være diplomatisk|1
--|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)
+-|bygge bro|forhandle|forlike|formidle|forsone|glatte over/ut|gripe inn|gå imellom|helle olje på opprørt hav|intercedere|intervenerer|kjøpslå|megle|mekle|skape fred|utjevne (forskjeller)
 være dumdristig|1
--|briefe|briske seg|bryste seg|kjekke seg|oppe seg|prale|prange|skryte|tøffe seg|ville imponere|vise seg
+-|brife|briske seg|bryste seg|kjekke seg|oppe seg|prale|prange|skryte|tøffe seg|ville imponere|vise seg
 være forbundet med|1
 -|avstedkomme|bety|bevirke|bringe|dra etter seg|ende med|forårsake|framkalle|fremkalle|føre med seg|føre til|innebære|involvere|kreve|medføre|resultere i|skape|volde
 være først|1
@@ -28877,7 +28934,7 @@ værelsespike|1
 væremåte|1
 -|atferd|fremferd|fremtreden|manér|oppførsel|opptreden|stil
 værfast|1
--|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|handikappet|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig
+-|avgjort|bestemt|fast|fastholdt|fastlåst|fastspikret|holdt igjen|immobil|låst|rolig|som en saltstøtte|stabil|stanset|stasjonær|stiv|stoppet|strandet|ubevegelig|ubønnhørlig|ufølsom|ufør|ugjenkallelig|urokkelig|urørlig
 værmåling|1
 -|klimatologi|meteorologi|værvarsling
 værvarsling|1
@@ -28932,10 +28989,8 @@ yndlingssang|1
 -|døgnflue|evergreen|favoritt|favorittlåt|gjenganger|hit|landeplage|listetopp|poplåt|publikumsfavoritt|slager|sviske
 yngling|3
 -|anlegg|begynnelse|bengel|frø|groe|kime|kjerne|pode|renning|skudd|spire|sæd
--|attenåring|backfish|femtenåring|fjortenåring|fjortis|nittenåring|sekstenåring|syttenåring|tenåring|tolvåring|trettenåring|unggutt|ungpike|ynglingalder
 -|en liten en|gutt|guttepjokk|guttevalp|guttunge|håpefull|knert|pjokk|plugg|pode (muntlig mening)|ramp|ungdom
-ynglingalder|1
--|attenåring|backfish|femtenåring|fjortenåring|fjortis|nittenåring|sekstenåring|syttenåring|tenåring|tolvåring|trettenåring|unggutt|ungpike|yngling
+-|tenåring|ungdom|unggutt|ungpike
 ynk|1
 -|akke|anke|appell|beklagelse|gråt|innsigelse|innvending|jammer|jeremiade|kjæremål|klage|klynking|protest|ramaskrik|reklamasjon|stønn|sukk|sutring|syt|vånde
 ynke|1
@@ -29066,17 +29121,13 @@ zodiak|1
 -|aktelse|anseelse|ansikt (utad)|betydning|heder|klang|navn|omdømme|prestisje|rang|renomme|ry|tillit|tyngde|vekt|viktig|viktighet
 -|anerkjennelse|berømmelse|bifall|godlåt|godord|kreditt|kyt|kytord|lov|lovprisnad|lovprisning|lovtale|panegyrikk|pris|ros|skryt
 ærekjær|1
--|ambisiøs|fremadstrebende|herskesyk|maktglad|maktsyk|målbevisst|perfeksjonistisk|stolt|streberaktig|æresjuk|æresyk|ærgjerrig
+-|ambisiøs|fremadstrebende|målbevisst|streberaktig|ærgjerrig
 æreløs|1
 -|ekkel|feig|forrædersk|har lav moral|nedrig|ond|samvittighetsløs|sjofel|smålig|ussel
 ærendsgutt|1
 -|bud|budbringer|bybud|formidler|informant|kurer|leverandør|mellommann|overbringer|postbud|sendebud|stråmann|tolk|utsending|visergutt
-æresjuk|1
--|ambisiøs|fremadstrebende|herskesyk|maktglad|maktsyk|målbevisst|perfeksjonistisk|stolt|streberaktig|ærekjær|æresyk|ærgjerrig
-æresyk|1
--|ambisiøs|fremadstrebende|herskesyk|maktglad|maktsyk|målbevisst|perfeksjonistisk|stolt|streberaktig|ærekjær|æresjuk|ærgjerrig
 ærgjerrig|1
--|ambisiøs|fremadstrebende|herskesyk|maktglad|maktsyk|målbevisst|perfeksjonistisk|stolt|streberaktig|ærekjær|æresjuk|æresyk
+-|ambisiøs|fremadstrebende|målbevisst|streberaktig|ærekjær
 ærlig|1
 -|bona fide|fair|hederlig|med hånden på hjertet|oppriktig|ordholden|pålitelig|real|redelig|renhårig|rettlinjet|rettskaffen|sann|sanndru|sannferdig|sannhetskjærlig|tilforlatelig|tro|trofast|troverdig|ubestikkelig
 ætling|1
@@ -29180,6 +29231,8 @@ zodiak|1
 -|atspredt|befippet|bestyrtet|betuttet|borte vekk|brydd|desorientert|forfjamset|forlegen|forstyrret|fortumlet|forvirret|fra konseptene|håndfallen|i ørska|kaotisk|konfus|omtåket|perpleks|rotete|rådløs|rørete|surrete|tankeløs|vimsete
 øre|1
 -|ansikt|bakhode|bart|hake|hår|isse|kinn|kjake|kjeve|leppe|munn|nese|nesebor|neserygg|panne|skjegg|tenner|tinning|øreflipp|øye|øyenbryn|øyenhule|øyenlokk
+ørefik|1
+-|lusing|slag|smekk
 øreflipp|1
 -|ansikt|bakhode|bart|hake|hår|isse|kinn|kjake|kjeve|leppe|munn|nese|nesebor|neserygg|panne|skjegg|tenner|tinning|øre|øye|øyenbryn|øyenhule|øyenlokk
 ørelappstol|1

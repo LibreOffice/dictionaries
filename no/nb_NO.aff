@@ -5,6 +5,15 @@ SET ISO8859-1
 # sort | uniq -c | sort -rn | awk '{print $2}' | tr -d "\n"
 TRY ensrtialkogdmpuvfbjhøyåæcézSwBHAMKTFxGLNRVEODôèCPJIqUWØÅYüZçäQêöòXëÄ
 
+# These two added by Arno Teigseth 20 oct 2010
+# Due to a bug/feature in hunspell they /must/ appear /before/ the COMPOUNDMIN directive.
+
+# Forbids/marks as wrong words that forms triple consonants (trafikk+kork)
+CHECKCOMPOUNDTRIPLE
+# Makes hunspell suggest to simplify three consonants-> two: trafikk|kork-> trafikkork
+SIMPLIFIEDTRIPLE
+
+
 COMPOUNDFLAG z
 
 COMPOUNDMIN 4
