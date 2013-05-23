@@ -3,10 +3,7 @@
   <version value="2.1"/>
   <identifier value="org.no.openoffice.dictionary.no-NO"/>
   <display-name>
-    <name lang="en">Norwegian (bokmål and nynorsk) spelling and hyphenation dictionaries and thesaurus</name>
-    <name lang="nb">Norsk stavekontroll (bokmål og nynorsk) </name>
-    <name lang="nn">Norsk stavekontroll (bokmål og nynorsk) </name>
-    <name lang="no">Norsk stavekontroll (bokmål og nynorsk) </name>
+    <name lang="en-US">Norwegian (Nynorsk and Bokmål) spelling dictionary, hyphenation rules, and thesaurus</name>
   </display-name>
   <platform value="all"/>
   <dependencies>
