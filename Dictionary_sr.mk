@@ -10,11 +10,11 @@
 $(eval $(call gb_Dictionary_Dictionary,dict-sr,dictionaries/sr))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-sr,\
-	dictionaries/sr/hyph_sh.dic \
+	dictionaries/sr/hyph_sr-Latn.dic \
 	dictionaries/sr/hyph_sr.dic \
 	dictionaries/sr/README.txt \
-	dictionaries/sr/sh.aff \
-	dictionaries/sr/sh.dic \
+	dictionaries/sr/sr-Latn.aff \
+	dictionaries/sr/sr-Latn.dic \
 	dictionaries/sr/sr.aff \
 	dictionaries/sr/sr.dic \
 ))

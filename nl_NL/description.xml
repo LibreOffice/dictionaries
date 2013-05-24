@@ -2,7 +2,7 @@
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
     <identifier value="org.openoffice.nl.hunspell.dictionaries" />
     <platform value="all" />
-    <version value="2.0.0" />
+    <version value="2.10" />
     <dependencies>
         <OpenOffice.org-minimal-version value="3.2" d:name="OpenOffice.org 3.2" />
     </dependencies>
