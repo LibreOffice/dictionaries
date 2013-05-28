@@ -9502,9 +9502,9 @@ azúcar|2
 -|famélico|hambriento|ansioso|necesitado|pordiosero|indigente|desamparado
 ázoe|1
 -|nitrógeno
-balón|2
+balón|1
 -|Pelota|esférico|bola|canica|globo
-belcebú|2
+belcebú|1
 -|leviatán|demonio|lucifer|diablo|satanás|satán|Lucifer|Luzbel|Leviatán
 biblia|1
 -|Sagrada Escritura|Antiguo Testamento|Nuevo Testamento
@@ -9920,7 +9920,7 @@ baloncesto|1
 -|basketball (NoRAE)|básquet
 balonvolea|1
 -|voleibol
-balón|2
+balón|1
 -|globo|bola|esfera
 balsa|3
 -|jangada|almadía|zatara|armadía
@@ -10794,7 +10794,7 @@ bejuco|1
 -|liana|enredadera|hiedra
 bejuquear|1
 -|azotar|sacudir|apalear
-belcebú|2
+belcebú|1
 -|satanás|diablo|demonio
 beldad|2
 -|lindeza|guapeza|guapura|lindura|preciosidad|delicadeza|divinidad|encanto|esplendor|finura|graciosidad|magnificencia|perfección|sublimidad|hermosura|donaire|majeza|primor
@@ -12835,7 +12835,7 @@ ch3oh|1
 cpu|2
 (f.)|procesadora|computador|ordenador|PC|computadora
 -|microprocesador|procesador|chip|CPU (NoRAE)|microcontrolador|semiconductor
-creador|4
+creador|1
 -|Yahvé|Jehová|Dios|Señor|Altísimo|Padre|Todopoderoso
 creador, constructor, demiurgo, artista|1
 -|Hacedor|Edificador, artífice
@@ -18851,7 +18851,7 @@ crápula|2
 creación|2
 -|génesis|origen|principio|comienzo
 -|globo|mundo|tierra|planeta|orbe|universo|cosmos|espacio
-creador|4
+creador|3
 -|artífice|artista|autor|padre
 -|factor|autor|hacedor
 -|generador|procreador|productor|padre
@@ -19556,7 +19556,7 @@ cúspide|2
 -|esquina|vértice|cumbre|cima|punta|remate
 deutscher scháferhund|1
 -|alsaciano|ovejero|manto negro|pastor alemán|ovejero alemán|perro policía|Deutscher Scháferhund (NoRAE)
-dios|4
+dios|3
 -|Jesucristo|Jesús|Cristo|Nazareno|Redentor|Mesías|Salvador|Señor
 -|Todopoderoso|Jehová|Altísimo|Alá
 -|Yahvé|Jehová|Señor|Altísimo|Creador|Padre|Todopoderoso
@@ -22718,7 +22718,7 @@ dintel|1
 -|lintel
 diñar|1
 -|espichar|morir|palmar|estirar la pata
-dios|4
+dios|1
 -|deidad|divinidad|superhombre|héroe|titán|ídolo|semidiós
 diócesis|1
 -|episcopado|obispado
@@ -33171,7 +33171,7 @@ fútil|4
 -|ligero|pueril|insustancial|insignificante|trivial|baladí|somero|superficial
 -|mediocre|anodino|gris|común|regular|vulgar|insustancial|insulso|insípido|soso|ordinario|corriente|insignificante|trivial|nimio
 -|vacuo|frívolo|insustancial|nimio|pueril|superficial|trivial
-gloria|12
+gloria|1
 -|cielo|Paraíso
 guardia civil|1
 -|benemérita
@@ -34336,7 +34336,7 @@ globular|1
 -|globoso|esférico|globuloso|redondo|esferoidal
 globuloso|1
 -|globoso|esférico|globular|redondo|esferoidal
-gloria|12
+gloria|11
 -|alturas|cielo|paraíso
 -|beatitud|santidad|bienaventuranza|inmortalidad|salvación|sacralidad|benidición
 -|blasón|escudo|insignia|divisa|armas|emblema|heráldica|renombre|honor|enaltecimiento
@@ -35919,7 +35919,7 @@ güito|1
 -|sombrero
 h2o|1
 -|oxímoron|oxidado|oxígeno
-hacedor|2
+hacedor|1
 -|Creador, constructor, demiurgo, artista|Edificador, artífice
 haba|3
 -|bálano|capullo|glande
@@ -36025,7 +36025,7 @@ hace poco|1
 hacedero|2
 -|dable|posible|realizable|factible
 -|fácil|factible|realizable|posible|practicable|viable|sencillo
-hacedor|2
+hacedor|1
 -|factor|autor|creador
 hacendado|2
 -|latifundista|terrateniente
@@ -40632,13 +40632,13 @@ kiosco|3
 -|tenderete|garita|puesto|templete|quiosco
 knock-out|1
 -|knock-out (NoRAE)|fuera de combate|noqueado (NoRAE)|inconsciente|k.o. (NoRAE)|pasmado
-leviatán|4
+leviatán|1
 -|leviatán|demonio|lucifer|diablo|satanás|satán|Lucifer|Luzbel|Belcebú
 lp|1
 -|álbum|disco|elepé
-lucifer|3
+lucifer|1
 -|leviatán|demonio|lucifer|diablo|satanás|satán|Luzbel|Belcebú|Leviatán
-luzbel|2
+luzbel|1
 -|leviatán|demonio|lucifer|diablo|satanás|satán|Lucifer|Belcebú|Leviatán
 labe|1
 -|mácula|mancha|tacha|tizne|chafarrinada|churrete|trampa|mentira|engaño|embuste
@@ -41760,7 +41760,7 @@ levemente|3
 -|blandamente|suavemente|apaciblemente|dulcemente|esponjosamente (NoRAE)|muellemente|mullidamente|tiernamente
 -|ligeramente|sutilmente|tenuemente
 -|ligeramente|tenuemente|sutilmente
-leviatán|4
+leviatán|3
 -|demonio|lucifer|diablo|satanás|satán|Lucifer|Luzbel|Belcebú|Leviatán
 -|lucifer|demonio|satanás|diablo|luzbel (NoRAE)
 -|monstruo
@@ -43078,7 +43078,7 @@ lucidez|1
 -|intuición|clarividencia|sagacidad|discernimiento|penetración
 lucido|1
 -|sano|lustroso|robusto|hermoso
-lucifer|3
+lucifer|2
 -|demonio|satanás|diablo|leviatán|luzbel (NoRAE)
 -|leviatán|demonio|diablo|satanás|satán|Lucifer|Luzbel|Belcebú|Leviatán
 luciferino|1
@@ -43258,7 +43258,7 @@ luz|8
 -|luminaria|alumbrado|llama|tendido
 -|luminiscencia|claridad|luminosidad|iluminación|fulgor|refulgencia
 -|luminosidad|brillo|claridad|iluminación|resplandor|brillantez|centelleo|esplendor|fosforescencia|fulgor|refulgencia|destello
-luzbel|2
+luzbel|1
 -|lucifer|demonio|satanás|diablo|leviatán|luzbel (NoRAE)
 lúbrico|3
 -|libidinoso|lascivo|lujurioso|obsceno|sicalíptico|sensual|impúdico|incontinente|libertino|vicioso|rijoso|erótico|voluptuoso|cachondo|salido|caliente|calentorro
@@ -46441,7 +46441,7 @@ música|1
 músico|2
 -|ejecutante|intérprete
 -|maestro|profesor|preceptor|pedagogo|experto|hábil|perito|adiestrado|avezado
-nazareno|2
+nazareno|1
 -|Jesucristo|Dios|Jesús|Cristo|Redentor|Mesías|Salvador|Señor
 nuevo testamento|1
 -|Biblia|Sagrada Escritura|Antiguo Testamento
@@ -46715,7 +46715,7 @@ navío|3
 -|bajel|buque|barco|nave|nao|embarcación|galera|carabela
 -|bastimento|embarcación|barco|nave
 -|galeón|galera|embarcación|nao|nave|bajel|velero|barco|barca|carabela
-nazareno|2
+nazareno|1
 -|disciplinante|flagelado|azotado|penitente
 nazi|2
 -|facha|fascista|carca
@@ -47566,7 +47566,7 @@ nylon|1
 -|remilgado|melindroso|gazmoño|blandengue|cursi|afectado
 ok|1
 -|amén|conformidad|aprobación|conforme|vale|de acuerdo|aquiescencia
-oscilación|4
+oscilación|1
 -|vacilación|vaivén|fluctuación
 o|1
 -|ora|ya|ahora
@@ -48756,7 +48756,7 @@ osamenta|1
 osar|2
 -|acometer|enfrentarse|animarse|atreverse|arriesgarse|descararse|decidirse|lanzarse
 -|decidir|atreverse|lanzarse|arriesgarse|animarse
-oscilación|4
+oscilación|3
 -|balanceo|vaivén|bamboleo|fluctuación|balance|meneo|abaniqueo|contoneo|mecida
 -|balance|balanceo|vaivén|movimiento
 -|cabeceamiento|cabeceo|balanceo|vaivén
@@ -48964,7 +48964,7 @@ pc|1
 (f.)|procesadora|computador|ordenador|CPU|computadora
 pelota|2
 -|Balón|esférico|bola|canica|globo
-perplejidad|3
+perplejidad|1
 -|vacilación|indecisión (fig.)|irresolución (fig.)|Perplejidad (fig.)
 pabellón|5
 -|baldaquín|baldaquino|dosel|palio|cubierta|marquesina|ciborio
@@ -49005,7 +49005,7 @@ padecer|3
 -|aquejar|afectar|atacar|afligir|sufrir
 -|experimentar|sufrir
 -|llevar|sufrir|soportar|aguantar|tolerar|resistir|sobrellevar|transigir|admitir|aceptar|arrostrar|resignarse|reprimirse
-padre|3
+padre|2
 -|artífice|creador|artista|autor
 -|generador|creador|procreador|productor
 padrino|1
@@ -49118,7 +49118,7 @@ paleto|5
 -|ganapán|palurdo|gañán
 -|garrulo|hortera|rústico|cateto
 -|grullo|cateto|palurdo|cazurro|pueblerino|patán
-paliar|2
+paliar|1
 -|disimular|atenuar|ocultar|templar|ablandar|velar|disculpar|exculpar|aliviar|mitigar|calmar|apaciguar|suavizar|disminuir|dulcificar|excusar|atemperar|encubrir
 palidecer|2
 -|amarillear|amustiarse
@@ -49344,7 +49344,7 @@ parafrasear|1
 -|interpretar|revelar|imitar|remedar|glosar|ilustrar|comentar|parodiar|reproducir|explicar
 paraguayo|1
 -|guaraní
-paraíso|5
+paraíso|4
 -|alturas|gloria|cielo
 -|gloria|cielo|edén|empíreo|salvación
 -|jauja|momio|abundancia|riqueza|exuberancia|edén|ganga
@@ -50190,7 +50190,7 @@ pelo|4
 -|cabello|cabellera|mechones|guedeja|rizo|melena|pelambrera|madeja|trenza|flequillo|coleta|hebras|tupé|rodete|tirabuzón|peluca|peluquín|bisoñé|postizo
 -|lana|vellón|borra|hebra|mechón|pelusa|guata|rizo|tirabuzón
 -|melena|cabello|pelambrera|cabellera|mata de pelo
-pelota|2
+pelota|1
 -|borujo|dureza|grumo|burujo|rebujo|bolita|pella|pelotón
 pelotera|3
 -|expolio|bronca|alboroto|gresca|follón
@@ -50665,7 +50665,7 @@ perpetuo|2
 -|vitalicio|permanente
 perpicaz|1
 -|águila|lince|listo|agudo
-perplejidad|3
+perplejidad|2
 -|babel|desorden|confusión|barahúnda|galimatías|lío|caos|maremágnum|barullo|perturbación
 -|noche|confusión|incertidumbre|indeterminación
 perra|2
@@ -55214,7 +55214,7 @@ rededor|1
 -|contorno|derredor|redor
 redel|1
 -|almogama
-redentor|3
+redentor|2
 -|liberador|libertador|salvador|defensor|emancipador|salvaguarda|salvaguardia
 -|libertario|eximente|anárquico|ácrata|anarquista
 redestilar|1
@@ -56220,7 +56220,7 @@ representante|8
 -|legado|embajador|comisionado|delegado|nuncio|enviado|mandatario
 -|viajante|viajero|excursionista|pasajero|turista
 -|visitador|inspector|interventor
-representar|7
+representar|6
 -|actuar|interpretar
 -|aparentar|parecer
 -|apoderar|delegar|comisionar|tutelar
@@ -57633,9 +57633,9 @@ rústico|8
 -|villano|grosero|maleducado|tosco|inculto|bruto|rudo
 sagrada escritura|1
 -|Biblia|Antiguo Testamento|Nuevo Testamento
-salvador|2
+salvador|1
 -|Jesucristo|Dios|Jesús|Cristo|Nazareno|Redentor|Mesías|Señor
-señor|7
+señor|2
 -|Jesucristo|Dios|Jesús|Cristo|Nazareno|Redentor|Mesías|Salvador
 -|Yahvé|Jehová|Dios|Altísimo|Creador|Padre|Todopoderoso
 sos|1
@@ -58101,7 +58101,7 @@ salvación|2
 salvado|2
 -|cáscara|cascarilla
 -|rescatado|librado|liberado|redimido
-salvador|2
+salvador|1
 -|liberador|libertador|redentor|defensor|emancipador|salvaguarda|salvaguardia
 salvaguarda|2
 -|broquel|escudo|pavés|adarga|tarja|rodela|defensa|protección|amparo
@@ -60642,7 +60642,7 @@ súmmum|1
 -|acabose|colmo|exceso|desastre|catástrofe|ruina
 súplica|1
 -|letanía|invocación|discurso|ristra|ruego|sarta|sucesión|retahíla|rollo
-todopoderoso|3
+todopoderoso|2
 -|Dios|Jehová|Altísimo|Alá
 -|Yahvé|Jehová|Dios|Señor|Altísimo|Creador|Padre
 tv|1
@@ -61810,7 +61810,7 @@ tocólogo|2
 -|obstetra
 todavía|1
 -|también|igualmente|asimismo|incluso|aún|además
-todopoderoso|3
+todopoderoso|1
 -|omnipotente
 toga|2
 -|gonela|túnica|manto
