@@ -5,7 +5,7 @@ adhd|1
 -|ADD (term.)|ADHD (term.)|porucha pozornosti (term.)
 angličan|1
 -|Brit
-boh|3
+boh|1
 -|Ježiš|Kristus|Spasiteľ|Vykupiteľ
 brit|1
 -|Angličan
@@ -17,7 +17,7 @@ hádes|1
 -|podsvetie
 iluzionista|1
 -|Kúzelník|Mág
-ilúzia|4
+ilúzia|1
 -|kúzelníctvo|mágia|čarodejníctvo
 istanbul|1
 -|Carihrad
@@ -25,11 +25,11 @@ ježiš|1
 -|Boh|Kristus|Spasiteľ|Vykupiteľ
 kristus|1
 -|Boh|Ježiš|Spasiteľ|Vykupiteľ
-kúzelník|2
+kúzelník|1
 -|Iluzionista|Mág
 lucifer|1
 -|Satan|diabol|démon|zlý duch|čert
-mág|3
+mág|1
 -|Iluzionista|Kúzelník
 ok|1
 -|OK (hovorovo)|okej (hovorovo)|súhlas|áno
@@ -41,7 +41,7 @@ písmo sväté|1
 -|biblia|posvätná kniha|písmo
 satan|1
 -|Lucifer|diabol|démon|zlý duch|čert
-spasiteľ|3
+spasiteľ|2
 -|Boh|Ježiš|Kristus|Vykupiteľ
 -|Vykupiteľ|Záchranca
 veľká noc|1
@@ -1309,7 +1309,7 @@ bodovať|1
 -|skórovať
 bodľavý|1
 -|ostrý|pichľavý
-boh|3
+boh|2
 -|bôžik|modla
 -|stvoriteľ
 bohatier|1
@@ -5117,7 +5117,7 @@ ilustrovať|2
 -|predstaviť|ukázať|vykresliť|vylíčiť (archaizmus)|vyobraziť|znázorniť|zobraziť
 iluzórny|1
 -|fiktívny|imaginárny|klamný|lživý|mylný|mätúci|nepresný|nereálny|neskutočný|neživotný|vymyslený|zdanlivý
-ilúzia|4
+ilúzia|3
 -|balamutenie|blud|humbug|klam|lesť|mylný dojem|podraz|podvod|pretvárka|švindeľ (hovorovo)
 -|finta|fígeľ|fór|kúzlo|lesť|manéver|podfuk|podraz|podvod|trik|úskok|švindeľ (hovorovo)
 -|klam|klamná predstava|prelud
@@ -6998,7 +6998,7 @@ kútik|1
 -|kút|roh
 kúzelníctvo|1
 -|Ilúzia|mágia|čarodejníctvo
-kúzelník|2
+kúzelník|1
 -|eskamotér|mág|čarodejník
 kúzelný|2
 -|impozantný|očarujúci|pôsobivý|skvelý|úchvatný|úžasný
@@ -8451,7 +8451,7 @@ myšlienky|1
 -|intelekt|mienka|myseľ|nálada|presvedčenie|vôľa|zmýšľanie
 mzda|1
 -|gáža|plat|príjem|výplata
-mág|3
+mág|2
 -|bosorák|čarodej|čarodejník|černokňažník
 -|eskamotér|kúzelník|čarodejník
 mágia|2
