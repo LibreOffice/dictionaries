@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<oor:component-schema xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:name="Lightproof_pt_BR" oor:package="org.openoffice" xml:lang="en-US">
+﻿<?xml version="1.0"?>
+<oor:component-schema xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:name="Lightproof_pt_BR" oor:package="org.openoffice" xml:lang="pt-BR">
   <info>
     <desc>Contains the options data used for the test extensions.</desc>
   </info>
@@ -28,7 +28,7 @@
       </prop>
       <prop oor:name="pair" oor:type="xs:string">
         <info>
-          <desc>The par definition of one leaf.</desc>
+          <desc>The pair definition of one leaf.</desc>
         </info>
         <value/>
       </prop>
