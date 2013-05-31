@@ -110,7 +110,7 @@ ONLYMAXDIFF
 
 
 # melhorar a sugestão de palavras
-REP 430
+REP 432
 REP -           s-
 REP -           r
 REP -           s
@@ -159,6 +159,7 @@ REP an          ã
 REP an          am
 REP ân          âm
 REP ância       ança
+REP ânio-       anio
 REP ão          ãe
 REP ao          ão
 REP ão          am
@@ -426,6 +427,7 @@ REP r           -
 REP r           r-
 REP r           rr
 REP r-          r
+REP r-bombas    res-bombas
 REP r-cond      res-cond
 REP rádio-      radio
 REP rça         rsa
