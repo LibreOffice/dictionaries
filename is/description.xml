@@ -13,8 +13,7 @@
     <identifier value="org.openoffice.is-IS.hunspell.dictionaries" />
 
     <display-name>
-        <name lang="en">Icelandic spelling dictionary and thesaurus</name>
-        <name lang="is">Íslensk stafsetningar- og samheitaorðabók</name>
+        <name lang="en-US">Icelandic spelling dictionary and thesaurus</name>
     </display-name>
 
     <platform value="all" />
