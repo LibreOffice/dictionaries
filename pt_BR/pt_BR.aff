@@ -110,7 +110,7 @@ ONLYMAXDIFF
 
 
 # melhorar a sugestão de palavras
-REP 432
+REP 438
 REP -           s-
 REP -           r
 REP -           s
@@ -256,6 +256,7 @@ REP en          em
 REP én          ém
 REP ên          êm
 REP enalte      ênalti
+REP enci        ment
 REP ensi        ênci
 REP épit        ept
 REP ereo        eoro
@@ -323,6 +324,7 @@ REP kê          quê
 REP Kg          kg
 REP Khmer       Cambojano
 REP ki          qui
+REP kilo        quilô
 REP kiwi        quiuí
 REP ko          co
 REP ku          cu
@@ -422,6 +424,8 @@ REP qüinqui     quinquí
 REP qüinquí     quinquí
 REP q           que
 REP qs          ques
+REP qtde        quant
+REP qtdes       quant
 REP qu          c
 REP r           -
 REP r           r-
@@ -514,6 +518,8 @@ REP yongyang    ionguiangue
 REP z           s
 REP z           z-
 REP z-          z
+REP zação       dade
+REP zaçõe       dade
 REP zzavill     zavil
 REP g           gu
 REP -           _

@@ -110,6 +110,60 @@
         </info>
         <value/>
       </prop>
+      <prop oor:name="paronimo" oor:type="xs:string">
+        <info>
+          <desc>Words similar in spelling or pronunciation, but with different meanings.</desc>
+        </info>
+        <value/>
+      </prop>
+      <prop oor:name="composto" oor:type="xs:string">
+        <info>
+          <desc>Compound words.</desc>
+        </info>
+        <value/>
+      </prop>
+      <prop oor:name="malmau" oor:type="xs:string">
+        <info>
+          <desc>Use of evil or bad.</desc>
+        </info>
+        <value/>
+      </prop>
+      <prop oor:name="aha" oor:type="xs:string">
+        <info>
+          <desc>Use of ha or a.</desc>
+        </info>
+        <value/>
+      </prop>
+      <prop oor:name="meiameio" oor:type="xs:string">
+        <info>
+          <desc>Use of meia or meio.</desc>
+        </info>
+        <value/>
+      </prop>
+      <prop oor:name="verbo" oor:type="xs:string">
+        <info>
+          <desc>Verb agreement.</desc>
+        </info>
+        <value/>
+      </prop>
+      <prop oor:name="pronominal" oor:type="xs:string">
+        <info>
+          <desc>Pronoun placement.</desc>
+        </info>
+        <value/>
+      </prop>
+      <prop oor:name="pronome" oor:type="xs:string">
+        <info>
+          <desc>Use of pronoun.</desc>
+        </info>
+        <value/>
+      </prop>
+      <prop oor:name="porque" oor:type="xs:string">
+        <info>
+          <desc>Use of porque.</desc>
+        </info>
+        <value/>
+      </prop>
     </group>
   </templates>
   <component>
