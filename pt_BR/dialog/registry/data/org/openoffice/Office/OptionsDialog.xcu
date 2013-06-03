@@ -5,6 +5,7 @@
     <node oor:name="LanguageSettings" oor:op="fuse">
       <prop oor:name="Label">
         <value xml:lang="en-US">Language Settings</value>
+        <value xml:lang="pt-BR">Configurações de idioma</value>
       </prop>
       <node oor:name="Leaves">
         <node oor:name="org.openoffice.lightproof.pt_BR" oor:op="fuse">
@@ -12,7 +13,8 @@
             <value>org.openoffice.pt.hunspell.dictionaries</value>
           </prop>
           <prop oor:name="Label">
-            <value xml:lang="en-US">Portuguese sentence checking</value>
+            <value xml:lang="en-US">Grammar checking (Portuguese)</value>
+            <value xml:lang="pt-BR">Corretor Gramatical (Português - Brasil)</value>
           </prop>
           <prop oor:name="OptionsPage">
             <value>%origin%/pt_BR.xdl</value>
