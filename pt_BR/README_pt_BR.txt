@@ -100,10 +100,18 @@ SOBRE ESTA ATUALIZAÇÃO
   sueco-americano, supereficiente, supereficiente, supergeração, supermaratona,
   superpesado, superpsicopata, suplantável, termocristal, ultramaciço, vaticanólogo,
   videorreportagem;
-. Inclusão de:  beatlemania, bereta, carga-paridade, faixa-título, imagem-espelho,
+. Inclusão de: beatlemania, bereta, carga-paridade, faixa-título, imagem-espelho,
   kawazulita, LHC, méson-D, metassuperfície, mineral-orgânico, minifábrica,
   nanorrefrigeração, Tassiane, tecnorgânico, ultraestável;
-  
+. Inclusão de: antipânico, antieritrocitário, denuncista, microcoluna, pré-transfusional.
+  Colaboração de Guilherme Rebecchi;
+. Inclusão de 'Descriptografia' e 'impersonificação'. Colaboração de Thiago Marques Silva;
+. Inclusão de 'no-la(s)', 'no-lo(s)', 'tacão' e 'microplano'. Colaboração de efvillela;
+. Inclusão de 'sito'. Colaboração de Guilherme Rebecchi;
+. Inclusão de: biodetector, biodetetor, bioquântico, bioassinatura, nanoimpressora;
+. Inclusão de: Autoforma. Colaborção de João Mac-Cormick;
+
+   
 =======================================================
 COMO INSTALAR O VERIFICADOR BRASILEIRO NO LIBREOFFICE
 =======================================================
