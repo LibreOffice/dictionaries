@@ -1,4 +1,4 @@
 OpenTaal Dutch dicanary v. 2.10g
 Conforms to the official standard for Dutch.
 Made by OpenTaal (www.opentaal.org)
-Date of update: 2013-03-31
+Date of update: 2013-06-24
