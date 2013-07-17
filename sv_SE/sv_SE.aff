@@ -1,5 +1,5 @@
 SET UTF-8
-TRY aerndtislogmkpbhfjuväcöåyqxzvwéâàáèćńłšőř:-
+TRY aerndtislogmkpbhfjuväcöåyqxzvwéâàáèćńłšőř:-.
 
 WORDCHARS -0123456789.:
 
@@ -129,6 +129,17 @@ REP ^iår$ i_år
 REP ^iövrigt$ i_övrigt
 REP ^utochin$ ut_och_in
 REP ^åfärde$ å_färde
+#REP m mm
+#REP ss s
+#REP ll l
+#REP tt t
+#REP nn n
+#REP pp p
+#REP gg g
+#REP f ff
+#REP ff f
+#REP rr r
+#REP r rr
 #REP andet ningen
 #REP ningen andet
 
