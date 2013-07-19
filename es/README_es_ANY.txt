@@ -6,7 +6,7 @@
   **  VERSIÓN GENÉRICA PARA TODAS LAS LOCALIZACIONES                        **
   ****************************************************************************
 
-                                   Versión 0.6
+                                   Versión 0.7
 
 SUMARIO
 
