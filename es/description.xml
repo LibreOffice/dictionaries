@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="0.6" />
+    <version value="0.7" />
     <identifier value="spanish.es_ANY.dicts.from.rla-es" />
     <display-name>
         <name lang="en-US">Spanish spelling dictionary, hyphenation rules, and thesaurus</name>
