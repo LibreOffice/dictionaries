@@ -102,6 +102,9 @@ PFX u e tra es
 PFX u 0 tra s
 PFX u 0 tras [^es]
 PFX u e tras e[^s]
+PFX v Y 2
+PFX v 0 contra [^r]
+PFX v 0 contrar r
 SFX A Y 9
 SFX A r ción/S ar
 SFX A er ición/S [^cn]er
@@ -258,6 +261,25 @@ SFX T r ble/S ar
 SFX T er ible/S [^aeo]er
 SFX T er íble/S [aeo]er
 SFX T r ble/S ir
+SFX U Y 18
+SFX U a ita/S [bdfhjlmnprstv]a
+SFX U o ito/S [bdhjlmnprstv]o
+SFX U 0 cita/S ve
+SFX U za cita/S za
+SFX U 0 ecita/S d
+SFX U ón oncito/S ón
+SFX U 0 cito/S or
+SFX U zo cito/S zo
+SFX U 0 cito/S [djlnu]e
+SFX U z cecita/S z
+SFX U 0 ecito/S ur
+SFX U e ito/S [cpt]e
+SFX U 0 ito/S [ls]
+SFX U 0 ito/S [^ou]r
+SFX U co quito/S co
+SFX U go guito/S go
+SFX U ca quita/S ca
+SFX U ga guita/S ga
 SFX R Y 240
 SFX R ar ás ar
 SFX R r mos [aei]r
@@ -2491,7 +2513,7 @@ SFX G és esas és
 SFX G ós osas ós
 SFX S Y 32
 SFX S 0 s [aceéfgiíkoóptuúw]
-SFX S 0 es [bdhíjlmrúy]
+SFX S 0 es [bdhíjlmrúxy]
 SFX S á aes á
 SFX S 0 es [^áeéíóú]n
 SFX S 0 es [^áéíóú]s
