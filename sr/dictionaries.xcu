@@ -10,10 +10,10 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>sr-RS sr-CS</value>
+                <value>sr-RS sr-ME sr-BA sr-CS</value>
             </prop>
         </node>
-        <node oor:name="HunSpellDic_sh" oor:op="fuse">
+        <node oor:name="HunSpellDic_sr_Latn" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/sr-Latn.aff %origin%/sr-Latn.dic</value>
             </prop>
@@ -21,7 +21,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>sh-RS sh-CS</value>
+                <value>sr-Latn-RS sr-Latn-ME sr-Latn-BA sr-Latn-CS</value>
             </prop>
         </node>
         <node oor:name="HyphDic_sr" oor:op="fuse">
@@ -32,10 +32,10 @@
                 <value>DICT_HYPH</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>sr-RS sr-CS</value>
+                <value>sr-RS sr-ME sr-BA sr-CS</value>
             </prop>
         </node>
-        <node oor:name="HyphDic_sh" oor:op="fuse">
+        <node oor:name="HyphDic_sr_Latn" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/hyph_sr-Latn.dic</value>
             </prop>
@@ -43,7 +43,7 @@
                 <value>DICT_HYPH</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>sh-RS sh-CS</value>
+                <value>sr-Latn-RS sr-Latn-ME sr-Latn-BA sr-Latn-CS</value>
             </prop>
         </node>
     </node>
