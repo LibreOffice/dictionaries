@@ -1,4 +1,4 @@
-﻿Autor/Author: Raimundo Moura <raimundo.smoura@gmail.com>
+Autor/Author: Raimundo Moura <raimundo.smoura@gmail.com>
 
 pt-BR: Este dicionário está em desenvolvimento por Raimundo Moura e sua equipe.
 Ele está licenciado sob os termos da Licença Pública Geral Menor versão 3 (LGPLv3),
@@ -37,81 +37,96 @@ http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 ======================
 SOBRE ESTA ATUALIZAÇÃO
 ======================
-. Inclusão de: condromalácia, corresidente, treponêmico e linfotrópico,
-  telecinagem, agranelamento, agrarista. Colaboração de Guilherme Rebecchi;
-  Inclusão de: ribeirão-pretana, telecinagem, agranelamento, agrarista 
-. Inclusão de: antiagregante, coloproctologista, drogadicto, drogadito,
-  ectoscopia, intraparotideano, macroangiopatia, microcarcinoma,
-  óstio, pseudoinclusão, sistodiastólica e transdérmico.
-  Colaboração de Eduardo Mundim;
-. Inclusão de nomes próprios estrangeiros: Kelsen, Alf Ross, John Rawls,
-  Rosseau, Leibniz. Colaboração João Eduardo Strottmann; 
-. Inclusão de: vicaloi, manota, Mucuripe, sotopor e verbologia.
-  Colaboração de  William Estrela;
-. Correção de: tinocoroideo para tinocoróideo. Colaboração de  William
-  Estrela;
-. Inclusão de: ribeirão-pretana, telecinagem, agranelamento e
-  agrarista. Colaboração de Guilherme Rebecchi;
-. Inclusão de: acreditivo, ato-fato, atos-fatos, autorregramento,
-  casu, deficitante, derrilinquir, eficacial, extracambiariforme,
-  infabibilidade, interdicional, intrajurídico, multigerador,
-  pignorária e plus.  Colaboração João Eduardo Strottmann;
-. Inclusão das sigla dos Conselhos Regionais de Medicina:CREMAL, CREMEB,
-  CREMEC, CREMEGO, CREMEPA, CREMEPE, CREMERN, CREMERO, CREMERS, CREMESC,
-  CREMESE, CREMESP, CRM-AC, CRM-AP, CRM-DF, CRM-ES, CRM-MA, CRM-MS,
-  CRM-MT, CRM-PB, CRM-PI, CRM-PR, CRM-RR, CRM-TO, CRMMG.
-  Colaboração João Eduardo Strottmann;  
-. Exclusão de particípios errados de verbos terminados em brir: abrido,
-  cobrido, recobrido, etc.
-. Correção das sugestões do verbo Aprazer: aprouve, aprouver, etc.
-. Inclusão de: nanocientista, raios-T, Raios-T, fotoeletroquimicamente,
-  bem-resolvido, biocultural, biodecompósito, chinês-asiático, conglobamento,
-  desenhista-escritor, desenhista-escritora, desenhistas-escritores,
-  desenhistas-escritoras, ecomuseu, eletrocomunicação, Estado-juiz,
-  exposado, hidroinjetor, hidroteste, hierárquico-normativo, hipergravidade,
-  histórico-legislativo, indesejadamente, interparte, jurídico-material,
-  juslaborativo, juspublicista, justrabalhista, megacoalizão, microcontinente,
-  neurotecnologia, neurotecnológico, Onça-Pintada, pré-normativo, prequela,
-  rescisivo, semimumificado, semissentado, sobreutilizado, socioparticipativo,
-  subpolo, Sul-Africano, tartaruga-de-kemp, tartarugas-de-kemp, tecnoquímico,
-  Abatiá, Amambai, Anauá, Assaí, Assú, Batayporã, Bozano, Brodowski, Cabrais,
-  Caçu, Candeias, Chiapetta, Chuí, d'Aliança, D'Oeste, Erê, Floraí, Florínia,
-  Igarapé-Mirim, Iguape, Ipira, Itaetê, Itaim, Lago-Açu, Lindenberg, Longá,
-  Mamborê, Matrinchã, Mojuí, Nazária, Orizona, Paraí, Pariquera-Açu,
-  Pompéu, Quebrangulo, Trivelato, Westfália, atílio-vivacquense,
-  westfaliano, bósons, ajardinamento, antiperfuração, extralongo, bereta,
-  carga-paridade, faixas-título, faixa-título, imagem-espelho, kawazulita, LHC,
-  méson-D, metassuperfície, mineral-orgânico, minifábrica, nanorrefrigeração,
-  Tassiane, tecnorgânico, ultraestável. 
-. Inclusão de "Nicômaco". Colaboração de João Eduardo Strottmann;
-. Inclusão de: antimovimento, atentismo, autor-pesquisador, Avanildo, blochiano,
-  civil-militar, contramito, Estados-Maiores, historicização, histórico-estrutural,
-  hitlerianismo, microbateria, microtecnologia, policracia, policrático,
-  político-científico, político-moral, redução-oxidação, romântico-idealista,
-  antiformalismo;
-. Inclusão de: anticelibato, antiterremoto, aprovisionamento, autossuperação,
-  bacterio-rodopsina, bioasfalto, bioconcreto, biofotossensor, cara-pintada,
-  esqueminha, estação-base, femtocélula, fonônico, fotócito, hexacóptero, hipernovo,
-  insuplantável, judaico-messiânico, Luíses, microantena, microcóptero,
-  microperfuração, microperfurado, microrrecorte, mini-internato, miniaeronave,
-  Ministro-Relator, molinhos, nano-óptico, nano-ótico, nanocavidade, nanomotor,
-  nanoscópio, nanoválvula, neoneandertal, neuroprótese, octocóptero, optoacústico,
-  pinguim-rei, pré-computado, pré-industrializado, pré-perfuração, rotaxano,
-  sueco-americano, supereficiente, supereficiente, supergeração, supermaratona,
-  superpesado, superpsicopata, suplantável, termocristal, ultramaciço, vaticanólogo,
-  videorreportagem;
-. Inclusão de: beatlemania, bereta, carga-paridade, faixa-título, imagem-espelho,
-  kawazulita, LHC, méson-D, metassuperfície, mineral-orgânico, minifábrica,
-  nanorrefrigeração, Tassiane, tecnorgânico, ultraestável;
-. Inclusão de: antipânico, antieritrocitário, denuncista, microcoluna, pré-transfusional.
-  Colaboração de Guilherme Rebecchi;
-. Inclusão de 'Descriptografia' e 'impersonificação'. Colaboração de Thiago Marques Silva;
-. Inclusão de 'no-la(s)', 'no-lo(s)', 'tacão' e 'microplano'. Colaboração de efvillela;
-. Inclusão de 'sito'. Colaboração de Guilherme Rebecchi;
-. Inclusão de: biodetector, biodetetor, bioquântico, bioassinatura, nanoimpressora;
-. Inclusão de: Autoforma. Colaborção de João Mac-Cormick;
+. Inclusão de: autoatualizar, subposição. Colaboração de Vera Cavalcante.
+. Inclusão de: assuntor, coassunção, perfurocortocontundente,
+  perfurocontundente e cortocontundente. Colaboração de João Eduardo Strottmann.
+. Inclusão de: macrogotejamento, vertebromuscular, marca-página,
+  transmídia, policlonal e papainizada. Colaboração de Guilherme Rebecchi. 
+. Inclusão de: acontecimental, adiministrativo-pedagógico, antivaríola,
+  apicoamento, archaea, autoanticorpo, autoeliminar, autossubsistência,
+  balbuciamento, baratíssimo, beijaço, bem-inserido, betacateninas,
+  bolsa-permanência, burocrato-normativo, camarassauru, cientifização,
+  classificacional, clínico-cirúrgico, Coca-Cola, coimbrãos, coindexação,
+  computólogo, cultural-religioso, desmoplasia, desmoplásico, dessaturado,
+  didático-escolar, diligentíssimo, econômico-produtivo, edifício-escola,
+  eletrocatalítico, encalacramento, endoscopicamente, endoscopista, enlamaçado,
+  entelodonte, entoacional, Escola-Modelo, espetacularização, esquadrinhamento,
+  Étnico-Racial, etno-histórico, etnoconstrucionismo, etnoeducacional, exogeneidade,
+  extrainstitucional, extraturno, favelão, filosófico-existencial, flutuacional,
+  geoposicionamento, Governador-Geral, grafocêntrico, greco-árabe, hadrossauro,
+  hamartomatoso, hiperproliferação, HLA, HRTV, inapercebidamente, interempresarial,
+  interfrásica, interobservador, intraescolar, intramucoso, intraorganizacional,
+  linfovascular, linguístico-comunicativo, lógico-abstrato, lógico-analítico,
+  macro-organização, macroagricultura, macrossetor, macrotendência,
+  médico-assistencial, médico-dentárias, megapotência, metafunção, metafunção,
+  micro-organização, micro-RNAs, microabertura, microagricultura, microgestão,
+  microideologia, microrregulação, microssetor, microtendência, mimivírus,
+  miniacademia, miniarroz, minicolegiado, minigrão, minipôster, miRNA, mucinoso,
+  mucosectomia, multientidade, mutaburrassauro, nanocarbono, nanografeno,
+  nanografeno, não-polipoide, neurorregeneração, Palavras-Chave, pandoravírus,
+  pinhole, planaridade, planaridade, político-eleitoreira, pré-elaborado,
+  Pré-Textual, precaríssimo, pseudoempresário, pseudoestratificado,
+  pseudoinvasão, pseudoinvasivo, pseudoparticipativo, público-comunitário,
+  punctório, redescontos, semantificar, semiatacadista, semipediculado,
+  semiqualificação, sino-brasileira, sobrecusto, sociorracial, sódio-enxofre,
+  subcentro, superdotação, supersistema, tecnoburocrata, teórico-científico,
+  teórico-descritivo, tipado, toxicofilia, transfobia, transfrásica,
+  túbulo-viloso, valor-trabalho, valores-trabalhos, webjornalismo.
+. Inclusão de: outorgativa, derrelinquir, delitual, ininscritibilidade,
+  aformalidade e exigir-se-lhe-ia. Colaboração de João Eduardo Strottmann.
+. Inclusão de: incidível, Ludwig Wittgenstein e liquidativo. Colaboração
+  de João Eduardo Strottmann.
+. Inclusão de: reestender, desjuridiciza, desjuridicizante, pré-juridicizante,
+  suspensibilidade, interrompibilidade, irratificável, pré-excluiria, cogentemente
+  jurislativo, Goldschimidt e prius. Colaboração de João Eduardo Strottmann.
+. Inclusão de: extrapetita, ultrapetita e infrapetita. Colaboração de João
+  Eduardo Strottmann.
+. Inclusão de: restricionista. Colaboração de Luyse Moraes Moura.
+. Inclusão de: Adolphus, aí-ibiretê, aí-igapó, aí-mirim, aí-pixuna,
+  aís-ibiretês, aís-igapós, aís-mirins, aís-pixunas, ajudanta, âmago-furado,
+  âmagos-furados, amalgamamento, amamentamento, amaralista, amargamento,
+  amatronamento, amatutamento, âmbar-branco, âmbares-brancos, âmbares-grises,
+  âmbares-mexueiras, âmbares-pardos, âmbares-pretos, âmbares-vegetais,
+  âmbares-virgens, âmbar-gris, âmbar-mexueira, âmbar-pardo, âmbar-preto,
+  âmbar-vegetal, âmbar-virgem, atto, Bobbio, centi, Chaïm, deci, Dworkin,
+  exa, femto, Ford, Hart, Herbert, Immanuel, Lacordaire, Marinoni, mili,
+  Mitidiero, oxalufã, Perelman, Planck, Ronald, tera, yocto, yotta,
+  zepto, zetta. Colaboração de João Eduardo Strottmann.
+. Inclusão de: saltimbanca e TJDF. Colaboração de João Mac-Cormick. 
+. Exclusão de: sotopor. Colaboração de João Mac-Cormick. 
+. Inclusão de: aformal, atecnicamente, Chiovenda, continuabilidade,
+  desparcialização, desparcializado, dessecencializar, egressibilidade,
+  elipticamente, essencializar, estoicizar, estritíssimo, explicitude,
+  extracomércio, indeslocabilidade, inexcetuado, inindividuado, irrevogado,
+  irrompente, justinianeia, justianeu, personificativo, pertinencial,
+  pertinencialização, pertinencialmente, Pompônio, pré-excludente,
+  e superfluamente. Colaboração de João Eduardo Strottmann.
+. Inclusão de 'coartífice'. Colaboração e-villela.
+. Inclusão de: antiqueda, antroposófico, cavaquinista, hipocontratilidade,
+  hipocontrátil, hipocortisolismo, hiporético, posológico, pré-festa,
+  pré-gravidez, pré-lanche e vídeo-histeroscopia. Colaboração de
+  Eduardo Mundim.
+. Inclusão de: Andreas, anteprojetador, anteprojetar, anticretizado,
+  Antistio, Cincia, evitamento, ficticiamente, Golschmidt, há-o, há-se,
+  iliteral, incontagiação, iniscritibilidade, milieu, Labeo, Lex,
+  Lex Cincia, ordinariedade, pertinencialidade, pré-admissão,
+  pré-eliminação, Próculo, revelatório, sobredireito, supraestatal e 
+  vonThur. Colaboração de João Eduardo Strottmann.
+. Inclusão de: aardvark, aileron, baby-doll, Beagle, bitter, charleston,
+  Colt, copyright, copyleft, curry, Dachshund, Dewar, ecstasy,
+  factoring, Farad, Faraday, Farads, fortran, gap, garamond, hovercraft,
+  Laika, laissez-faire, laissez-passer, linguincinha, overbooking, panzer,
+  pit-bull, pizzaiolo, portland, Reich, riesling, sashimi, sauvignon,
+  shiatsu, shoyu, Sputinik, stout, sushi, tête-à-têtetime-sharing,
+  tomahawk, Vernier e waffle. Colaboração de João Eduardo Strottmann. 
 
-   
+=======================================================
+GRAMATICAL
+=======================================================
+
+Colaboradores do Gramatical nesta versão:
+ João Mac-Cormick, Olivier Halot, João Eduardo Strottmann, Guilherme Rebecchi,
+ Eduardo Mundim, Luyse M. Moura, Marcos Souza e e-villela.    
 =======================================================
 COMO INSTALAR O VERIFICADOR BRASILEIRO NO LIBREOFFICE
 =======================================================

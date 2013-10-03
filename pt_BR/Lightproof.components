@@ -12,6 +12,7 @@
     <implementation name="org.libreoffice.comp.pyuno.Lightproof.pt_BR">
       <service name="com.sun.star.linguistic2.Proofreader"/>
     </implementation>
-    <implementation  name="org.libreoffice.comp.pyuno.LightproofOptionsEventHandler.pt_BR"/>
+    <implementation
+        name="org.libreoffice.comp.pyuno.LightproofOptionsEventHandler.pt_BR"/>
   </component>
 </components>
