@@ -40,7 +40,7 @@ $(eval $(call gb_Dictionary_add_files,dict-pt-BR,icons,\
     dictionaries/pt_BR/icons/VERO-logo.png \
 ))
 
-$(eval $(call gb_Dictionary_add_generated_file,dict-pt-BR,dialog/OptionsDialog.xcs,$(call gb_XcsTarget_get_target,dictionaries/pt_BR/dialog/registry/schema/org/openoffice/Lightproof_pt_BR.xcs)))
+$(eval $(call gb_Dictionary_add_generated_file,dict-pt-BR,dialog/OptionsDialog.xcs,$(call gb_XcsTarget_get_target,org/openoffice/Lightproof_pt_BR.xcs)))
 
 $(eval $(call gb_Dictionary_add_localized_xcu_file,dict-pt-BR,dialog,\
     dictionaries/pt_BR/dialog/registry/data/org/openoffice/Office/OptionsDialog.xcu \

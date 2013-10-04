@@ -49,7 +49,7 @@ $(eval $(call gb_Dictionary_add_files,dict-hu,pythonpath,\
 	dictionaries/hu_HU/pythonpath/lightproof_opts_hu_HU.py \
 ))
 
-$(eval $(call gb_Dictionary_add_generated_file,dict-hu,dialog/OptionsDialog.xcs,$(call gb_XcsTarget_get_target,dictionaries/hu_HU/dialog/registry/schema/org/openoffice/Lightproof_hu_HU.xcs)))
+$(eval $(call gb_Dictionary_add_generated_file,dict-hu,dialog/OptionsDialog.xcs,$(call gb_XcsTarget_get_target,org/openoffice/Lightproof_hu_HU.xcs)))
 
 $(eval $(call gb_Dictionary_add_localized_xcu_file,dict-hu,dialog,\
 	dictionaries/hu_HU/dialog/registry/data/org/openoffice/Office/OptionsDialog.xcu \

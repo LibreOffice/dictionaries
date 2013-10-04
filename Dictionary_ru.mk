@@ -38,7 +38,7 @@ $(eval $(call gb_Dictionary_add_propertyfiles,dict-ru,dialog,\
 	dictionaries/ru_RU/dialog/ru_RU_en_US.properties \
 ))
 
-$(eval $(call gb_Dictionary_add_generated_file,dict-ru,dialog/OptionsDialog.xcs,$(call gb_XcsTarget_get_target,dictionaries/ru_RU/dialog/registry/schema/org/openoffice/Lightproof_ru_RU.xcs)))
+$(eval $(call gb_Dictionary_add_generated_file,dict-ru,dialog/OptionsDialog.xcs,$(call gb_XcsTarget_get_target,org/openoffice/Lightproof_ru_RU.xcs)))
 
 $(eval $(call gb_Dictionary_add_localized_xcu_file,dict-ru,dialog,\
 	dictionaries/ru_RU/dialog/registry/data/org/openoffice/Office/OptionsDialog.xcu \
