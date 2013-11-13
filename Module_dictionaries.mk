@@ -14,6 +14,9 @@ $(eval $(call gb_Module_add_targets,dictionaries,\
 	Configuration_hu \
 	Configuration_pt_BR \
 	Configuration_ru \
+))
+
+$(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_af \
 	Dictionary_an \
 	Dictionary_ar \
