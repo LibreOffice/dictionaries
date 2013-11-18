@@ -45,3 +45,11 @@ then hand-checked by Ronahi and Tovjîn.
 5. License
 
 Originally GPL, relicensed on 04-07-2007 to GPLv3, LGPLv3, MPL 1.1
+
+
+A. Changes to the original on 2013-11-18:
+   LibreOffice now uses proper ISO 639-3 language codes and ISO 15924 script
+   codes instead of the 'ku' macrolanguage code. All *ku_TR.* files have been
+   renamed to *kmr_Latn.* and the locales supported are kmr-Latn-TR and
+   kmr-Latn-SY instead of ku-TR and ku-SY.
+   See also https://bugs.freedesktop.org/show_bug.cgi?id=63460
