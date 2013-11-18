@@ -7,17 +7,17 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #
 
-$(eval $(call gb_Dictionary_Dictionary,dict-ku-TR,dictionaries/ku_TR))
+$(eval $(call gb_Dictionary_Dictionary,dict-ku-TR,dictionaries/kmr_Latn))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-ku-TR,\
-	dictionaries/ku_TR/ferheng.org.png \
-	dictionaries/ku_TR/gpl-3.0.txt \
-	dictionaries/ku_TR/ku_TR.aff \
-	dictionaries/ku_TR/ku_TR.dic \
-	dictionaries/ku_TR/lgpl-2.1.txt \
-	dictionaries/ku_TR/license.txt \
-	dictionaries/ku_TR/MPL-1.1.txt \
-	dictionaries/ku_TR/README_ku_TR.txt \
+	dictionaries/kmr_Latn/ferheng.org.png \
+	dictionaries/kmr_Latn/gpl-3.0.txt \
+	dictionaries/kmr_Latn/kmr_Latn.aff \
+	dictionaries/kmr_Latn/kmr_Latn.dic \
+	dictionaries/kmr_Latn/lgpl-2.1.txt \
+	dictionaries/kmr_Latn/license.txt \
+	dictionaries/kmr_Latn/MPL-1.1.txt \
+	dictionaries/kmr_Latn/README_kmr_Latn.txt \
 ))
 
 # vim: set noet sw=4 ts=4:
