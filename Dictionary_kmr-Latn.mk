@@ -7,9 +7,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #
 
-$(eval $(call gb_Dictionary_Dictionary,dict-ku-TR,dictionaries/kmr_Latn))
+$(eval $(call gb_Dictionary_Dictionary,dict-kmr-Latn,dictionaries/kmr_Latn))
 
-$(eval $(call gb_Dictionary_add_root_files,dict-ku-TR,\
+$(eval $(call gb_Dictionary_add_root_files,dict-kmr-Latn,\
 	dictionaries/kmr_Latn/ferheng.org.png \
 	dictionaries/kmr_Latn/gpl-3.0.txt \
 	dictionaries/kmr_Latn/kmr_Latn.aff \
