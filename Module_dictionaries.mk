@@ -63,6 +63,7 @@ $(eval $(call gb_Module_add_targets,dictionaries,\
 	Dictionary_uk \
 	Dictionary_vi \
 	Dictionary_zu \
+	Dictionary_lo \
 ))
 
 # vim: set noet sw=4 ts=4:
