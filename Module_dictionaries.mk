@@ -44,6 +44,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_is \
 	Dictionary_it \
 	Dictionary_kmr-Latn \
+	Dictionary_lo \
 	Dictionary_lt \
 	Dictionary_lv \
 	Dictionary_ne \
