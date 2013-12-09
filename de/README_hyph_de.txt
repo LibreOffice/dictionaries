@@ -4,7 +4,7 @@ Hyphenation dictionary "hyph_de_DE.dic"
 Language: German (de DE)
 		  according to the reform of 2006-08-01	(i.e. reformed or new spelling)
 
-Version:  2012-06-09
+Version:  2013-12-06
           Enhanced blacklist to improve the hyphenation module by Karl Zeiler
 
 Origin:   Based on the TeX hyphenation tables "dehyphn.tex", revision level 31.
@@ -18,6 +18,7 @@ License:  OpenOffice.org Adaptions of this package are licensed under the
 
 Author:   conversion author: Marco Huggenberger <marco@by-night.ch>
           revised conversion and extensions: Daniel Naber <naber@danielnaber.de>
+		  improvements: Karl Zeiler <karl.zeiler@t-online.de>
 
 Note:	  This dictionary is based on syllable matching patterns
 		  and thus should be suitable under other variations of German:
