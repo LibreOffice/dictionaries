@@ -13,7 +13,9 @@ $(eval $(call gb_Dictionary_add_root_files,dict-de,\
 	dictionaries/de/COPYING_GPLv2 \
 	dictionaries/de/COPYING_GPLv3 \
 	dictionaries/de/COPYING_OASIS.txt \
+	dictionaries/de/de_AT_frami.aff \
 	dictionaries/de/de_AT_frami.dic \
+	dictionaries/de/de_CH_frami.aff \
 	dictionaries/de/de_CH_frami.dic \
 	dictionaries/de/de_DE_frami.aff \
 	dictionaries/de/de_DE_frami.dic \

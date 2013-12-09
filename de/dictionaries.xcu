@@ -4,8 +4,7 @@
     <node oor:name="Dictionaries">
         <node oor:name="HunSpellDic_de-AT_frami" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <!-- affix files are identical for all German variants -->
-                <value>%origin%/de_DE_frami.aff %origin%/de_AT_frami.dic</value>
+                <value>%origin%/de_AT_frami.aff %origin%/de_AT_frami.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_SPELL</value>
@@ -16,8 +15,7 @@
         </node>
         <node oor:name="HunSpellDic_de-CH_frami" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <!-- affix files are identical for all German variants -->
-                <value>%origin%/de_DE_frami.aff %origin%/de_CH_frami.dic</value>
+                <value>%origin%/de_CH_frami.aff %origin%/de_CH_frami.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_SPELL</value>
