@@ -37,15 +37,37 @@
                 <value>de-DE</value>
             </prop>
         </node>
-        <node oor:name="HyphDic_de-DE" oor:op="fuse">
+        <node oor:name="HyphDic_de-AT" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/hyph_de.dic</value>
+                <value>%origin%/hyph_de_AT.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_HYPH</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>de de-DE de-AT de-CH</value>
+                <value>de-AT</value>
+            </prop>
+        </node>
+        <node oor:name="HyphDic_de-DE" oor:op="fuse">
+            <prop oor:name="Locations" oor:type="oor:string-list">
+                <value>%origin%/hyph_de_DE.dic</value>
+            </prop>
+            <prop oor:name="Format" oor:type="xs:string">
+                <value>DICT_HYPH</value>
+            </prop>
+            <prop oor:name="Locales" oor:type="oor:string-list">
+                <value>de de-DE</value>
+            </prop>
+        </node>
+        <node oor:name="HyphDic_de-CH" oor:op="fuse">
+            <prop oor:name="Locations" oor:type="oor:string-list">
+                <value>%origin%/hyph_de_CH.dic</value>
+            </prop>
+            <prop oor:name="Format" oor:type="xs:string">
+                <value>DICT_HYPH</value>
+            </prop>
+            <prop oor:name="Locales" oor:type="oor:string-list">
+                <value>de-CH</value>
             </prop>
         </node>
         <node oor:name="ThesDic_de-DE" oor:op="fuse">

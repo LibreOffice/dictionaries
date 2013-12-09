@@ -17,7 +17,9 @@ $(eval $(call gb_Dictionary_add_root_files,dict-de,\
 	dictionaries/de/de_CH_frami.dic \
 	dictionaries/de/de_DE_frami.aff \
 	dictionaries/de/de_DE_frami.dic \
-	dictionaries/de/hyph_de.dic \
+	dictionaries/de/hyph_de_AT.dic \
+	dictionaries/de/hyph_de_CH.dic \
+	dictionaries/de/hyph_de_DE.dic \
 	dictionaries/de/README_de_DE_frami.txt \
 	dictionaries/de/README_extension_owner.txt \
 	dictionaries/de/README_hyph_de.txt \
