@@ -1,7 +1,7 @@
 _______________________________________________________________________________
 
-   DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS “CLASSIQUE”
-   version 4.11
+   DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS «CLASSIQUE»
+   version 5.0.1
 
    Olivier R. - dicollecte<at>free<dot>fr
    Dicollecte : http://www.dicollecte.org/
