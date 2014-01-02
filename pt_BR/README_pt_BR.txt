@@ -181,7 +181,7 @@ GRAMATICAL
 =======================================================
  Colaboradores do Gramatical nesta versão:
  João Mac-Cormick, Olivier Halot, João Eduardo Strottmann, Guilherme Rebecchi,
- Eduardo Mundim, Luyse M. Moura, Marcos Souza e e-villela.    
+ Eduardo Mundim, Luyse M. Moura, Marcos Souza, e-villela e Alexandre Vicenzi.    
 =======================================================
 COMO INSTALAR O VERIFICADOR BRASILEIRO NO LIBREOFFICE
 =======================================================
