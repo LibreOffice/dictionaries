@@ -120,7 +120,7 @@ SFX m   0               mente           [^v][^q][^uo]   +FSEM=mente,CAT=adv,SUBC
 SFX m   ável            avelmente       ável            +FSEM=mente,CAT=adv,SUBCAT=modo
 SFX m   ível            ivelmente       ível            +FSEM=mente,CAT=adv,SUBCAT=modo
 
-SFX H Y 39
+SFX H Y 40
 SFX H   úrgico          urgicamente     úrgico          +FSEM=mente,CAT=adv,SUBCAT=modo
 SFX H   0               amente          dor             +FSEM=mente,CAT=adv,SUBCAT=modo
 SFX H   ório            oriamente       ório            +FSEM=mente,CAT=adv,SUBCAT=modo
@@ -159,6 +159,7 @@ SFX H   émico           emicamente      émico           +FSEM=mente,CAT=adv,SU
 SFX H   ónio            oniamente       ónio            +FSEM=mente,CAT=adv,SUBCAT=modo
 SFX H   ásico           asicamente      ásico           +FSEM=mente,CAT=adv,SUBCAT=modo
 SFX H   ágico           agicamente      ágico           +FSEM=mente,CAT=adv,SUBCAT=modo
+SFX H   ântico          anticamente     ântico          +FSEM=mente,CAT=adv,SUBCAT=modo
 SFX H   ócil            ocilmente       ócil            +FSEM=mente,CAT=adv,SUBCAT=modo
 
 SFX q Y 32
