@@ -11,6 +11,7 @@ $(eval $(call gb_Dictionary_Dictionary,dict-pt-PT,dictionaries/pt_PT))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-pt-PT,\
 	dictionaries/pt_PT/hyph_pt_PT.dic \
+	dictionaries/pt_PT/icon.png \
 	dictionaries/pt_PT/LICENSES.txt \
 	dictionaries/pt_PT/pt_PT.aff \
 	dictionaries/pt_PT/pt_PT.dic \
