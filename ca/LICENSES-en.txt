@@ -1,10 +1,4 @@
-﻿License :
-
- Spellchecker dictionary: GPLv3/LGPL
-   Copyright (c) 2013 Joan Moratinos <jmoratinos@softcata.org) and Jaume Ortalà <jaumeortola@gmail.com> --- Softcatalà
-
- Hyphenation dictionary: GPLv3
-   Copyright (c) 2013 Jaume Ortalà <jaumeortola@gmail.com> --- Softcatalà
-  
- Thesaurus: GPLv3/LGPL
-   Copyright (c) 2009 Joan Montané <jmontane@softcatala.org> --- Softcatalà
+LICENSES :
+Spelling dictionary: LGPL, GPL
+Tesaurus: LGPL, GPL
+Hyphenation: LGPL, GPL
