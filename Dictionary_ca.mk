@@ -10,18 +10,18 @@
 $(eval $(call gb_Dictionary_Dictionary,dict-ca,dictionaries/ca))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-ca,\
-	dictionaries/ca/ca.aff \
-	dictionaries/ca/ca.dic \
-	dictionaries/ca/hyph_ca.dic \
-	dictionaries/ca/SC_42x42.png \
-	dictionaries/ca/LICENCES-fr.txt \
-	dictionaries/ca/LICENCIAS-es.txt \
+	dictionaries/ca/dictionaries/ca.aff \
+	dictionaries/ca/dictionaries/ca.dic \
+	dictionaries/ca/dictionaries/ca-valencia.aff \
+	dictionaries/ca/dictionaries/ca-valencia.dic \
+	dictionaries/ca/dictionaries/hyph_ca.dic \
+	dictionaries/ca/images/SC-logo.png \
 	dictionaries/ca/LICENSES-en.txt \
 	dictionaries/ca/LLICENCIES-ca.txt \
 ))
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-ca,\
-	dictionaries/ca/th_ca_ES_v3.dat \
+	dictionaries/ca/dictionaries/th_ca_ES_v3.dat \
 ))
 
 # vim: set noet sw=4 ts=4:

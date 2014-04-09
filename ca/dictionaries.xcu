@@ -4,35 +4,47 @@
     <node oor:name="Dictionaries">
         <node oor:name="HunSpellDic_catalan_general" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/ca.aff %origin%/ca.dic</value>
+                <value>%origin%/dictionaries/ca.aff %origin%/dictionaries/ca.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>ca-ES</value>
+                <value>ca-ES ca-AD ca-FR ca-IT</value>
             </prop>
         </node>
-        <node oor:name="hyph_ca_ANY" oor:op="fuse">
+        <node oor:name="HunSpellDic_catalan_valencia" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/hyph_ca.dic</value>
+                <value>%origin%/dictionaries/ca-valencia.aff %origin%/dictionaries/ca-valencia.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
-                <value>DICT_HYPH</value>
+                <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>ca-ES</value>
+                <value>ca-ES-valencia</value>
+            </prop>
+        </node>
+
+
+        <node oor:name="hyph_ca_ANY" oor:op="fuse">
+            <prop oor:name="Locations" oor:type="oor:string-list">
+                <value>%origin%/dictionaries/hyph_ca.dic</value>
+            </prop>
+            <prop oor:name="Format" oor:type="xs:string">
+                <value>DICT_HYPH</value></prop>
+                <prop oor:name="Locales" oor:type="oor:string-list">
+                    <value>ca-ES ca-ES-valencia ca-AD ca-FR ca-IT</value>
             </prop>
         </node>
         <node oor:name="ThesDic_ca-ES" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/th_ca_ES_v3.dat %origin%/th_ca_ES_v3.idx</value>
+                <value>%origin%/dictionaries/th_ca_ES_v3.dat %origin%/dictionaries/th_ca_ES_v3.idx</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_THES</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>ca-ES</value>
+                <value>ca-ES ca-ES-valencia ca-AD ca-FR ca-IT</value>
             </prop>
         </node>
     </node>
