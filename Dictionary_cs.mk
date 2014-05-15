@@ -13,9 +13,8 @@ $(eval $(call gb_Dictionary_add_root_files,dict-cs,\
 	dictionaries/cs_CZ/cs_CZ.aff \
 	dictionaries/cs_CZ/cs_CZ.dic \
 	dictionaries/cs_CZ/hyph_cs_CZ.dic \
-	dictionaries/cs_CZ/README_cs_CZ.txt \
-	dictionaries/cs_CZ/README_hyph_cs_CZ.txt \
-	dictionaries/cs_CZ/th_cs_CZ_license.txt \
+	dictionaries/cs_CZ/README_cs.txt \
+	dictionaries/cs_CZ/README_en.txt \
 ))
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-cs,\
