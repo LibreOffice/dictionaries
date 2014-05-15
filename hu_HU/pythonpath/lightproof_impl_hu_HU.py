@@ -244,7 +244,7 @@ paralcap = re.compile(u"(?u)^[a-z\xf6\xfc\xf3\u0151\xfa\xe9\xe1\u0171\xed].*[.?!
 def measurement(mnum, min, mout, mstr):
     m = calc("CONVERT_ADD", (float(mnum.replace(",", ".").replace(u"\u2212", "-")), min, mout))
     a = list(set([str(calc("ROUND", (m, 0)))[:-2], str(calc("ROUND", (m, 1))), str(calc("ROUND", (m, 2))), str(m)])) # remove duplicated rounded items
-    a.sort(lambda x, y: len(x) - len(y)) # sort by string length
+    a.sort(key=lambda x: len(x)) # sort by string length
     return (mstr + "|").join(a).replace(".", ",").replace("-", u"\u2212") + mstr
 
 
