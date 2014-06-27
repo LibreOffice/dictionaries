@@ -4,7 +4,7 @@
     <node oor:name="Dictionaries">
         <node oor:name="HunSpellDic_catalan_general" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/dictionaries/ca.aff %origin%/dictionaries/ca.dic</value>
+                <value>%origin%/ca.aff %origin%/ca.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_SPELL</value>
@@ -15,7 +15,7 @@
         </node>
         <node oor:name="HunSpellDic_catalan_valencia" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/dictionaries/ca-valencia.aff %origin%/dictionaries/ca-valencia.dic</value>
+                <value>%origin%/ca-valencia.aff %origin%/ca-valencia.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_SPELL</value>
@@ -28,7 +28,7 @@
 
         <node oor:name="hyph_ca_ANY" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/dictionaries/hyph_ca.dic</value>
+                <value>%origin%/hyph_ca.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_HYPH</value></prop>
@@ -38,7 +38,7 @@
         </node>
         <node oor:name="ThesDic_ca-ES" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/dictionaries/th_ca_ES_v3.dat %origin%/dictionaries/th_ca_ES_v3.idx</value>
+                <value>%origin%/th_ca_ES_v3.dat %origin%/th_ca_ES_v3.idx</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_THES</value>
