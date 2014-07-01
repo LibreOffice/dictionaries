@@ -1,13 +1,8 @@
-﻿Swedish Dictionary for LibreOffice
-Based on Den stora svenska ordlistan
-
 This Swedish Dictionary for Spell Checking is maintained by
 Göran Andersson <goran@init.se>.
-The most recent version is available at
-http://extensions.libreoffice.org/extension-center/swedish-spelling-dictionary-den-stora-svenska-ordlistan
 
 ************ COPYRIGHT ************
 
-Copyright © 2003-12 Göran Andersson <goran@init.se>.
+Copyright © 2003-14 Göran Andersson <goran@init.se>.
 
-This dictionary is made available subject to the terms of GNU Lesser General Public License Version 3. A copy of the LGPL license can be found at http://www.gnu.org/licenses/lgpl-3.0.html .
+This dictionary is made available subject to the terms of GNU Lesser General Public License Version 3. A copy of the LGPL license can be found at http://www.gnu.org/licenses/lgpl-3.0.html.
