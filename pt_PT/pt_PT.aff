@@ -449,13 +449,15 @@ SFX h   e               inhas           [^ã]e           +G=f,N=p,GR=dim
 SFX h   0               zinhas          [irunl]         +G=f,N=p,GR=dim
 SFX h   m               nzinhas         m               +G=m,N=p,GR=dim
 
-SFX z Y 6
+SFX z Y 8
 SFX z   0               zinho           [^ã][eo]        +GR=dim
 SFX z   0               inho            l               +GR=dim
 SFX z   0               zinha           [^ã][eo]        +G=f,GR=dim
 SFX z   0               inha            l               +G=f,GR=dim
+SFX z   0               zinho           ão              +GR=dim
 SFX z   0               zinhos          [^ã][eo]        +N=p,GR=dim
 SFX z   0               inhos           l               +N=p,GR=dim
+SFX z   o               ezinhos         ão              +N=p,GR=dim
 
 SFX c Y 8
 SFX c   r               ção             [ae]r           +CAT=nc,G=f,N=s,FSEM=cao
