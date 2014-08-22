@@ -77,6 +77,11 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
         aRes.aProperties = ()
         aRes.xProofreader = self
         aRes.aErrors = ()
+        # PATCH FOR LO 4
+        # Fix for http://nabble.documentfoundation.org/Grammar-checker-Undocumented-change-in-the-API-for-LO-4-td4030639.html
+        if nStartOfSentencePos != 0:
+            return aRes
+        aRes.nStartOfNextSentencePosition = len(rText)
         if len(rProperties) > 0 and rProperties[0].Name == "Update":
             try:
                 import lightproof_compile_en
