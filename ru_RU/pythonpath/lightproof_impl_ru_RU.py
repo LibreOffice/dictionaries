@@ -6,7 +6,7 @@ from com.sun.star.beans import PropertyValue
 pkg = "ru_RU"
 lang = "ru_RU"
 locales = {'ru-RU': ['ru', 'RU', '']}
-version = "0.3.2"
+version = "0.3.4"
 author = "Yakov Reztsov <yr at myooo dot ru>"
 name = "Lightproof grammar checker (Russian)"
 
@@ -53,6 +53,8 @@ def _morph(rLoc, word, pattern, all, onlyaffix):
             return None
         t = x.getAlternatives()
         if not t:
+            if not analyses: # fix synchronization problem (missing alternatives with unloaded dictionary)
+                return None
             t = [""]
         analyses[word] = t[0].split("</a>")[:-1]
     a = analyses[word]
@@ -118,7 +120,7 @@ def suggest(rLoc, word):
         if not x:
             return word
         t = x.getAlternatives()
-        suggestions[word] = "\\n".join(t)
+        suggestions[word] = "|".join(t)
     return suggestions[word]
 
 # get the nth word of the input string or None
@@ -215,7 +217,7 @@ def compile_rules(dic):
             i[0] = re.compile(i[0])
         except:
             if 'PYUNO_LOGLEVEL' in os.environ:
-                print("Lightproof: bad regular expression: ", traceback.format_exc())
+                print("Lightproof: bad regular expression: " + str(traceback.format_exc()))
             i[0] = None
 
 def get_rule(loc):
