@@ -1,7 +1,7 @@
 _______________________________________________________________________________
 
    DICTIONNAIRES ORTHOGRAPHIQUES FRANÇAIS
-   version 5.0.2
+   version 5.2
 
    Olivier R. - dicollecte<at>free<dot>fr
    Dicollecte : http://www.dicollecte.org/
@@ -14,12 +14,13 @@ _______________________________________________________________________________
    correcteur Hunspell : OpenOffice.org 3.2+, Firefox 4+, Thunderbird 5+
 
    Principaux contributeurs :
+   - Jean-Luc T. ;
    - Sylvain P. ;
    - Laurent Dubois ;
-   - Jean-Luc T. ;
    - Pierre Poisson ;
    - Dominique Pellé ;
    - Pierre-Yves ;
+   - Pierre Choffardet ;
    - Leywen ;
    - Romain Muller et Serge Bibauw, de l’association RENOUVO, grâce à qui
      la nouvelle orthographe et ses anciennes variantes ont pu être établies ;
@@ -53,20 +54,20 @@ _______________________________________________________________________________
    de chacun, quatre dictionnaires existent, respectant différemment cette
    réforme.
 
-    Dictionnaire «Moderne»
+    Dictionnaire “Moderne”
         Ce dictionnaire propose une sélection des graphies classiques et
         réformées, suivant la lente évolution de l’orthographe actuelle. Ce
         dictionnaire contient les graphies les moins polémiques de la réforme.
 
-    Dictionnaire «Classique»  [recommandé]
+    Dictionnaire “Classique”  [recommandé]
         Ce dictionnaire est une extension du dictionnaire «Moderne» et propose
         en sus des graphies alternatives, parfois encore très usitées, parfois
         tombées en désuétude.
 
-    Dictionnaire «Réforme 1990»
+    Dictionnaire “Réforme 1990”
         Ce dictionnaire ne connaît que les graphies nouvelles des mots concernés
         par la réforme de 1990.
 
-    Dictionnaire «Toutes variantes»
+    Dictionnaire “Toutes variantes”
         Ce dictionnaire contient les nouvelles et les anciennes graphies des
         mots concernés par la réforme de 1990.
