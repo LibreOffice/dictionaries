@@ -5,11 +5,11 @@ Homepage: http://openthes-es.berlios.de
 
 Requisitos: ==========================================================
 
- OpenOffice.org 3.0 o superior 
+ OpenOffice.org 3.0 o superior
 
 
 Nota: ================================================================
-    
+
     * Se asume que OOo está bien instalado.
     * El diccionario de sinónimos y separación silábica es el mismo para Windows como para Linux.
 
@@ -168,7 +168,7 @@ such a program is covered only if its contents constitute a work based
 on the Library (independent of the use of the Library in a tool for
 writing it).  Whether that is true depends on what the Library does
 and what the program that uses the Library does.
-  
+
   1. You may copy and distribute verbatim copies of the Library's
 complete source code as you receive it, in any medium, provided that
 you conspicuously and appropriately publish on each copy an
@@ -521,4 +521,4 @@ necessary.  Here is a sample; alter the names:
   <signature of Ty Coon>, 1 April 1990
   Ty Coon, President of Vice
 
-That's all there is to it! 
+That's all there is to it!
