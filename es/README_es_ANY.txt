@@ -6,7 +6,7 @@
   **  VERSIÓN GENÉRICA PARA TODAS LAS LOCALIZACIONES                        **
   ****************************************************************************
 
-                                   Versión 0.7
+                                   Versión 0.8
 
 SUMARIO
 
@@ -44,6 +44,11 @@ Encontrará copias de las licencias adjuntas en este mismo paquete.
 
 3. INSTALACIÓN
 
+   NOTA: en el resto del documento, cada aparición de OpenOffice.org puede
+entenderse referida también a LibreOffice. No obstante, tenga en cuenta que
+la primera versión de LibreOffice es compatible con OpenOffice.org 3.x, por
+lo que las menciones a OpenOffice.org 1.x y 2.x no son aplicables a LibreOffice.
+
    En OpenOffice.org versión 3.x y superior, utilice el administrador de
 extensiones, seleccionando para instalar directamente el fichero con
 extensión ".oxt".
@@ -58,7 +63,7 @@ a) Copie el fichero de afijos y la lista de palabras en la carpeta de
 manera que esté disponible para todos los usuarios, copiando los ficheros al
 directorio de diccionarios de la suite. Este directorio depende de la
 plataforma de instalación. Podrá ubicarlo si ingresa en el ítem Opciones
-del menú Herramientas. Despliegue la primer lista, etiquetada "OpenOffice.org"
+del menú Herramientas. Despliegue la primera lista, etiquetada "OpenOffice.org"
 y seleccione el ítem Rutas. La carpeta donde debe copiar los ficheros se
 denomina "ooo", y la encontrará bajo el directorio que figura en la lista de
 rutas con el tipo "Lingüística".
