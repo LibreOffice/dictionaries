@@ -5,7 +5,7 @@
     <identifier value="spanish.es_ANY.dicts.from.rla-es" />
 
     <display-name>
-        <name lang="es">Español (España y América Latina): Ortografía, separación y sinónimos</name>
+        <name lang="en-US">Spanish spelling dictionary, hyphenation rules, and thesaurus</name>
     </display-name>
 
     <platform value="all" />
