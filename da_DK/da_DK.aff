@@ -1,7 +1,7 @@
-#Stavekontrolden version 2.1
+#Stavekontrolden version 2.2
 #Denne fil er en del af Stavekontrolden - et softwareprodukt, der gør det muligt at stavekontrollere på dansk.
 
-#Copyright (C) 2012 Foreningen for frit tilgængelige sprogværktøjer
+#Copyright (C) 2014 Foreningen for frit tilgængelige sprogværktøjer
 #Website: http://www.stavekontrolden.dk
 #E-mail: info@stavekontrolden.dk
 
@@ -463,11 +463,27 @@ SFX 84 0 ne/70,944 .
 SFX 84 0 nes/944,944 .	+GENITIV
 SFX 84 0 res .	+GENITIV
 #Substantiv, flertal, med -re, stamme -er fjernes
-SFX 85 Y 4
-SFX 85 er rene/944 er	+PLUR_BEK
-SFX 85 er renes/944 er	+GENITIV
-SFX 85 er re/944 er	+PLUR_UBEK
-SFX 85 er res/944 er	+GENITIV
+SFX 85 Y 20
+SFX 85 er rene/944 [^mt]er	+PLUR_BEK
+SFX 85 er renes/944 [^mt]er	+GENITIV
+SFX 85 er re/944 [^mt]er	+PLUR_UBEK
+SFX 85 er res/944 [^mt]er	+GENITIV
+SFX 85 er re/944 [^t]ter	+PLUR_UBEK
+SFX 85 er re/944 [^m]mer	+PLUR_UBEK
+SFX 85 er rene/944 [^t]ter	+PLUR_BEK
+SFX 85 er rene/944 [^m]mer	+PLUR_BEK
+SFX 85 er res/944 [^t]ter	+GENITIV
+SFX 85 er res/944 [^m]mer	+GENITIV
+SFX 85 er renes/944 [^t]ter	+GENITIV
+SFX 85 er renes/944 [^m]mer	+GENITIV
+SFX 85 ter re/944 tter	+PLUR_UBEK
+SFX 85 mer re/944 mmer	+PLUR_UBEK
+SFX 85 ter rene/944 tter	+PLUR_BEK
+SFX 85 mer rene/944 mmer	+PLUR_BEK
+SFX 85 ter res/944 tter	+GENITIV
+SFX 85 mer res/944 mmer	+GENITIV
+SFX 85 ter renes/944 tter	+GENITIV
+SFX 85 mer renes/944 mmer	+GENITIV
 #Substantiv, bekendt form fælleskøn med -ren eller -eren
 SFX 115 Y 4
 SFX 115 er ren/944 er	+BESTEMT_ENTAL
@@ -1490,7 +1506,7 @@ SFX 841 0 ze/70 z	+KONSONANT_FORDOBLING
 SFX 437 Y 2
 SFX 437 0 er/942,945,946 .
 SFX 437 0 er/946,943,945 .
-#Sammensætning, fugeelement -ne-
+#Sammensætning, fugeelement -kons.f.+e-
 SFX 449 Y 20
 SFX 449 0 ne/945,942,946 n
 SFX 449 0 ne/946,943,945 n
