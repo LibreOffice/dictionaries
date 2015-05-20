@@ -121,7 +121,7 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
                 if 'PYUNO_LOGLEVEL' in os.environ:
                     print(traceback.format_exc())
 
-        l = rText[nSuggestedSentenceEndPos:nSuggestedSentenceEndPos+1]
+        l = rText[aRes.nStartOfNextSentencePosition:aRes.nStartOfNextSentencePosition+1]
         while l == " ":
             aRes.nStartOfNextSentencePosition = aRes.nStartOfNextSentencePosition + 1
             l = rText[aRes.nStartOfNextSentencePosition:aRes.nStartOfNextSentencePosition+1]
