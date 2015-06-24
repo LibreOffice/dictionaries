@@ -19,7 +19,7 @@
     <!-- The version of your extension. NOT the one of OpenOffice.org...
          It will also be used to automatically check if there are updates for this
          extension available. Newer versions should have higher values. -->
-    <version value="2.5.1.1" />
+    <version value="3.0.0" />
 
     <!-- A unique identifier for your extension.
         In order to avoid name clashes with other extensions it should probably hold
@@ -30,7 +30,7 @@
         For the very same reason they should NOT start with 'org.openoffice'.
         When choosing the identifier keep in mind that others may provide a dictionary for that
         very same language as well and even then your identifier still needs to be unique! -->
-    <identifier value="softcatala.catalan.general.dictionary.by.joan.moratinos" />
+    <identifier value="softcatala.catalan.dictionary" />
 
     <!-- A name for the extension to be used in the UI.
         For dictionaries it should show the locales supported
