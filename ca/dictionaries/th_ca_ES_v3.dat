@@ -4978,12 +4978,11 @@ cobrir|10
 -|tacar
 cobrir-se|1
 -|cobrir-se (el temps)|ennuvolar-se
-coc|1
+coc|2
 -|antracita|atzabeja|carbó|hulla|lignit
+-|cuiner|marmitó|ranxer|xef
 cóc|1
 -|coca|pastís
-coc|1
--|cuiner|marmitó|ranxer|xef
 coca|2
 -|cóc|pastís
 -|cocaïna|neu
@@ -12775,11 +12774,9 @@ ingrés|2
 ingressar|2
 -|afiliar-se|entrar
 -|dipositar
-inhumà|1
+inhumà|3
 -|brutal|descortès|despietat|ferotge|intractable|salvatge|violent
-inhumà|1
 -|cruel|dur|inclement|insensible|rigorós|violent
-inhumà|1
 -|carnisser|cruel|despietat|fer|ferotge|salvatge|sanguinari
 inhumació|1
 -|enterrament|sepeli|sepultura|soterrament
@@ -13437,12 +13434,11 @@ licor|2
 -|llàgrima|secreció
 lignit|1
 -|antracita|atzabeja|carbó|coc|hulla
-lila|1
+lila|2
 -|arbre de Sant Josep|lilà
+-|equimosi (cultisme)|morat|musc|sangtraït|violeta
 lilà|1
 -|arbre de Sant Josep|lila
-lila|1
--|equimosi (cultisme)|morat|musc|sangtraït|violeta
 limitació|2
 -|fre|restricció
 -|restricció
@@ -14075,12 +14071,11 @@ malvat|1
 -|dolent|maligne|malintencionat|pervers
 malversar|1
 -|desaprofitar|perdre|renunciar
-mama|1
+mama|2
 -|mamà|mare
+-|mamella|pit
 mamà|1
 -|mama|mare
-mama|1
--|mamella|pit
 mamar|1
 -|mamotejar|mamussar|popar|xuclar|xumar (vulgarisme)
 mamella|1
@@ -14740,13 +14735,12 @@ misto|1
 -|cerilla|flamíger|llumí
 mitgenc|1
 -|central|intermedi|medial|mig|mitjà
-mitjà|1
+mitjà|3
 -|camí|forma|mètode|manera|procediment|recurs|solució|via
-mitja|1
--|calça|calcilla|leotards|pantis
-mitjà|2
 -|central|intermedi|medial|mig|mitgenc
 -|mediocre|passador|regular
+mitja|1
+-|calça|calcilla|leotards|pantis
 mitjó|1
 -|calcetí
 mitjancer|1
