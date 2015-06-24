@@ -1,4 +1,4 @@
-Corrector ortogràfic 2.5.1 • Tesaurus 1.5.0 • Partició de mots 1.0
+Corrector ortogràfic 3.0.0 • Tesaurus 1.5.0 • Partició de mots 1.3
 
  Per informar d'un error o suggerir mots nous, feu clic a l'enllaç.
 
