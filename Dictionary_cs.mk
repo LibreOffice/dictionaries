@@ -17,8 +17,4 @@ $(eval $(call gb_Dictionary_add_root_files,dict-cs,\
 	dictionaries/cs_CZ/README_en.txt \
 ))
 
-$(eval $(call gb_Dictionary_add_thesauri,dict-cs,\
-	dictionaries/cs_CZ/th_cs_CZ_v3.dat \
-))
-
 # vim: set noet sw=4 ts=4:
