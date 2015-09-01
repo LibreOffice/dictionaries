@@ -8,16 +8,6 @@ This dictionary for spell-checking Czech texts is licensed under GPL license.
 The dictionary is based on Czech ispell dictionary created by Petr Kolar
 and numerous contributors.
 
-Thesaurus
-----------
-
-Copyright (c) 1994,2008 Karel Pala, Jan Všianský
-pala@fi.muni.cz
-
-You can freely use the thesaurus in OpenOffice.org (or its derivatives).
-You can not modify it or use for commercial purposes without the author's
-approval.
-
 Hyphenation dictionary
 ----------------------
 

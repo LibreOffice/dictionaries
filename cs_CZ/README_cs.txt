@@ -12,16 +12,6 @@ Jsou v nem provedeny drobne zmeny nutne pro kompatibilitu s OpenOffice.org.
 Slovnik je licencovan pod GNU/GPL licenci, ktera je prilozena nize.
 
 
-Slovník synonym
----------------
-
-Copyright (c) 1994,2008 Karel Pala, Jan Všianský
-pala@fi.muni.cz
-
-Slovník můžete volně využívat v kancelářském balíku OpenOffice.org (a odvozených).
-Nesmíte jej upravovat nebo využívat pro komerční účely bez souhlasu autora.
-
-
 Slovník pro dělení slov
 -----------------------
 
