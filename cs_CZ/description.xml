@@ -31,8 +31,8 @@
         The default entry is the one listed first.
     -->
     <display-name>
-        <name lang="en">Czech spell check dictionary, hyphenation rules and thesaurus</name>
-        <name lang="cs">Český slovník pro kontrolu pravopisu, dělení slov a slovník synonym</name>
+        <name lang="en">Czech spell check dictionary and hyphenation rules</name>
+        <name lang="cs">Český slovník pro kontrolu pravopisu a dělení slov</name>
     </display-name>
 
     <!--Dictionaries should work with all platforms...-->
