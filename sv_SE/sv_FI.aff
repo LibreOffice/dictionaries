@@ -1,5 +1,5 @@
 SET UTF-8
-TRY aerndtislogmkpbhfjuväcöåyqxzvwéâàáèćńłšőř:-.
+TRY aerndtislogmkpbhfjuväcöåyqxzvwéâàáèóćńłšőř:-.
 
 WORDCHARS -0123456789.:
 
@@ -69,7 +69,7 @@ MAP ﬁ(fi)
 MAP ﬂ(fl)
 
 # Some letters that should be replacable and have higher priority
-REP 58
+REP 59
 REP e ä
 REP ä e
 REP ngn gn
@@ -128,6 +128,7 @@ REP ^iår$ i_år
 REP ^iövrigt$ i_övrigt
 REP ^utochin$ ut_och_in
 REP ^åfärde$ å_färde
+REP is eece
 #REP m mm
 #REP ss s
 #REP ll l
@@ -798,7 +799,7 @@ SFX  b  0  -  .
 # for adjectives: )k
 # for verbs: >j
 
-#pragma no-merge 268¤jk
+#pragma no-merge 268¤jkc
 
 COMPOUNDRULE 12
 COMPOUNDRULE 0*
