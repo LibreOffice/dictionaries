@@ -13,6 +13,17 @@
                 <value>is is-IS</value>
             </prop>
         </node>
+        <node oor:name="HyphDic_is" oor:op="fuse">
+            <prop oor:name="Locations" oor:type="oor:string-list">
+                <value>%origin%/hyph_is.dic</value>
+            </prop>
+            <prop oor:name="Format" oor:type="xs:string">
+                <value>DICT_HYPH</value>
+            </prop>
+            <prop oor:name="Locales" oor:type="oor:string-list">
+                <value>is is-IS</value>
+            </prop>
+        </node>
         <node oor:name="ThesDic_is" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/th_is.dat %origin%/th_is.idx</value>
