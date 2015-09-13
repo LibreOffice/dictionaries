@@ -10,6 +10,7 @@
 $(eval $(call gb_Dictionary_Dictionary,dict-is,dictionaries/is))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-is,\
+	dictionaries/is/hyph_is.dic \
 	dictionaries/is/is.aff \
 	dictionaries/is/is.dic \
 	dictionaries/is/license.txt \
