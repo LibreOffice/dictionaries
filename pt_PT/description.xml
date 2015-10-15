@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="15.7.4.1" />
+    <version value="15.10.3.1" />
     <identifier value="Natura.OOo3.pt-PT-dictionary" />
     <display-name>
         <name lang="en-US">European Portuguese spelling dictionary, hyphenation rules, and thesaurus</name>
