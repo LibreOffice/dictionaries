@@ -1,37 +1,31 @@
-Magyar Ispell helyesírási szótár – 1.6.1-es szótárállományok morfológiai adatokkal
+Magyar Ispell helyesírási szótár – 1.7 béta szótárállományok morfológiai adatokkal
 
-Követelmény: Hunspell helyesírás-ellenőrző 1.1.3-as vagy újabb változata
+A szótárállományok a LibreOffice projekt részeként a következő nyílt forráskódú
+licencek bármelyike alapján szabadon felhasználhatóak, de mindenféle garancia nélkül:
 
-A következő nyílt forráskódú licencek bármelyike alapján
-szabadon felhasználható, de mindenféle garancia nélkül:
+MPLv2 vagy LesserGPLv3+
 
-GNU GPL 2.0, GNU LGPL 2.1 vagy MPL 1.1 
-
-(c) Németh László és Godó Ferenc, 2010
+(c) Németh László és Godó Ferenc, 2015
 
 Honlap: http://magyarispell.sf.net
 
 ------------------------------------------------------------------------------
 
-Hungarian Hunspell dictionaries version 1.6.1 with morphological data
+Hungarian Hunspell dictionaries version 1.7 beta with morphological data
 
-Requirements: Hunspell 1.1.3 or newer
+These files are part of the LibreOffice project.
 
-License
-
-GPL 2.0/LGPL 2.1/MPL 1.1 tri-license
+License: MPLv2 and LesserGPLv3+
 
 The contents of this software may be used under the terms of
-the GNU General Public License Version 2 or later (the "GPL"), or
-the GNU Lesser General Public License Version 2.1 or later (the "LGPL",
-see COPYING.LGPL) or (excepting the LGPLed GNU gettext library in the
-intl/ directory) the Mozilla Public License Version 1.1 or later
-(the "MPL", see COPYING.MPL).
+the GNU Lesser General Public License Version 3 or later (the "LGPL",
+see COPYING.LGPL) or the Mozilla Public License Version 2.0 or later
+(the "MPL", see COPYING.MPL in the root folder of the source tree).
 
 Software distributed under these licenses is distributed on an "AS IS" basis,
 WITHOUT WARRANTY OF ANY KIND, either express or implied. See the licences
 for the specific language governing rights and limitations under the licenses.
 
-2010 (c) László Németh & Ferenc Godó
+2015 (c) László Németh & Ferenc Godó
 
 Home: http://magyarispell.sf.net
