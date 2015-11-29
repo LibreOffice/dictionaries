@@ -37,6 +37,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_gd \
 	Dictionary_gl \
 	Dictionary_gu \
+	Dictionary_gug \
 	Dictionary_he \
 	Dictionary_hi \
 	Dictionary_hr \
