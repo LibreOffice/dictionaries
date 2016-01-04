@@ -6,12 +6,12 @@ Dieses Wörterbuch basiert auf dem igerman98 Ispell-Wörterbuch, zu finden
 unter http://www.j3e.de/ispell/igerman98/ .
 
 Das Wörterbuch und alle enthaltenen Wortlisten sind lizenziert unter der
-GNU GPL, Version 2.
+GNU GPL, Version 2 oder 3.
 Fehlermeldungen oder Ergänzungswünsche können gemailt werden an:
-Franz Michael Baumann <frami.baumann@web.de>
+Franz Michael Baumann <fm.baumann@uni-muenster.de>
 
 Autor des Grundwörterbuchs:
 Bjoern Jacke <bjoern@j3e.de>
 
 Autor der Erweiterung
-Franz Michael Baumann <frami.baumann@web.de>
+Franz Michael Baumann <fm.baumann@uni-muenster.de>
