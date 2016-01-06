@@ -1,4 +1,4 @@
-151585
+151872
 -/XY06-
 -/b!
 ---
@@ -897,6 +897,7 @@ Afzelius
 ag-
 aga/NEAPmbG
 agaförbud/ABD
+Agamemnon/A
 agape/EA
 agat-
 Agata/A
@@ -1003,6 +1004,7 @@ aha/J
 aha-upplevelse/EAI
 Ahl/A
 Ahlberg/A
+Ahlbom/A
 Ahlborg/A
 Ahlbäck/A
 Ahlén/A
@@ -1042,6 +1044,7 @@ aioli/EAY
 air/AD
 Air
 airbag/ADGX
+Airbnb
 Airbus/X
 airedaleterrier/EAJY
 Aires
@@ -1390,6 +1393,7 @@ Alegre/A
 Aleksander/A
 Aleksandr/A
 Aleksej/A
+Aleksijevitj/A
 alemanner/AJ
 Aleppo/eAX
 alert/QOPY
@@ -1533,6 +1537,7 @@ alkemist/TAHDYX
 alkemistiske/Y
 alkfågel/EAIvX
 alkis/DGYX
+alkobom/FAIv
 alkohol/TAHDYXU
 alkoholberoende/CAY
 alkoholbruk/AB
@@ -1875,6 +1880,7 @@ almfaner/ABD
 Almgren/A
 Almgården/A
 Almhög/Av
+Almi/A!
 almkrona/EAG
 Almkvist/A
 almlund/ADG
@@ -4401,6 +4407,7 @@ Arizona/eAX
 Arjeplog/dAv
 ark/ABD
 arkad/AHDYX
+Arkadien/A
 arkadisk/Ok
 arkadspel/ABDv
 arkaisera/Pmj
@@ -4788,6 +4795,7 @@ artutveckling/ADGY
 artvariation/AHD
 artär/AHDYX
 artärbråck/ABDY
+artärnål/ADG
 artärtryck/ABDY
 artärvägg/ADGYv
 artöverskridande/k
@@ -4807,7 +4815,7 @@ arvgods/B
 Arvid/A
 Arvidsjaur/deAXv
 Arvidsson/A
-Arvika/eX
+Arvika/eAX
 Arvin/A
 arvinge/EAGY
 arvjord/ADv
@@ -5226,6 +5234,7 @@ asyl/AHDX
 asylansökan/AY
 asylansökningar/AJY
 asylant/AHDYX!
+asylboende/FECAX
 asylinvandring/ADY
 asylland/AJB
 asylpolitik/ADY
@@ -5506,6 +5515,7 @@ autobroms/DGX
 autodafé/EAH
 autodidakt/TAHDY
 autofokus/DYX
+autogen/O!
 autogiro/FECAX
 autograf/TAHDYX
 autografblock/ABDv
@@ -6243,6 +6253,7 @@ avputsning/ADGY
 avpälsning/ADv
 avrakad/NQk
 avrakning/ADGY
+avramling/ADGv!
 avrann/j
 avrapportera/NAPmDj
 avrapportering/ADGYv
@@ -6362,7 +6373,7 @@ avskild/Ok
 avskild/QOj
 avskildhet/ADYv
 avskilja/KLAJDRj
-avskiljande/CAY
+avskiljande/FECAYX
 avskiljar/XZ
 avskiljare/EAJY
 avskiljbar/OY
@@ -8436,6 +8447,7 @@ basarna/A
 basbaryton/AHDY
 basbehov/ABD
 basbelopp/ABDYv
+basdel/ADG!
 baseball/ADYX
 baseballmatch/AHDY
 baseballspelare/EAJ
@@ -8806,6 +8818,7 @@ bedömar/XZ
 bedömning/ADGYvf
 bedömningsfråga/EAGY
 bedömningsgrund/AHDY
+bedömningslandning/ADG
 bedömningssak/H
 bedömningssport/AHDYv
 bedöva/NAPmDY
@@ -9383,6 +9396,7 @@ benmuskel/EAJYX
 benmärg/ADYv
 benmärgstransplantation/AHDY
 Benny/A
+bennål/ADG!
 benpass/BD
 benpipa/EAG
 benpress/DGX
@@ -9444,6 +9458,7 @@ bensträckar/XZ
 bensträckare/EAJY
 benstyrka/EAG
 bensår/ABDv
+bensöm/FAIv
 bentag/ABDY
 Bentley/AX
 Benton/A
@@ -9634,6 +9649,7 @@ bergskristall/AHD%
 bergskrön/ABDY
 bergslag/AHDYv
 bergslagsbo/EAI
+Bergslagsleden/A
 bergslandskap/ABDY
 bergslejon/ABDY
 bergsluttning/ADGY
@@ -10096,6 +10112,7 @@ besutten/KMY
 besuttenhet/ADv
 besuttit/A
 besvara/NAPmDY
+besvarande/CA
 besvikelse/EAIYX
 besviken/KMY
 besvor/A
@@ -10366,11 +10383,14 @@ bettlare/EAJY
 bettleri/ABY
 bettlös/Ok
 Bettna/A
+bettproblem/ABD
 bettring/ADG
 bettskada/EAG
 bettskena/EAGY
 bettskiva/EAG
+bettstatistik/AD
 bettstorlek/ADG
+bettställe/FECA
 Betty/A
 bettövning/ADG
 betunga/NAPmDY
@@ -10910,6 +10930,7 @@ bilhandlar/XZ
 bilhandlare/EAJY
 bilhjul/ABD
 bilhorn/ABD
+bilhuv/ADG!
 Bilia/AX
 bilinbrott/ABDY
 bilindustri/EAHX
@@ -11214,6 +11235,7 @@ biopellet/AY
 biopolär/O%
 biopremiär/AHDY
 biopsi/EAHYX
+biopsinål/ADG
 biopublik/AHDY
 biopunk/ADX
 biorepertoar/AHDY
@@ -12295,7 +12317,7 @@ blottläggs/j
 blottning/ADGY
 blottställa/KLAJODj
 blottställd/OY
-blowout
+blowout/AX!
 bludder/CAY
 bluddra/NMAmDj
 bluddrig/OPk
@@ -12762,6 +12784,7 @@ bohuseka/EAG
 bohusgranit/ADY
 bohusjulle/EAGY
 Bohuslav
+Bohusleden/A
 Bohuslän/Av
 bohusläning/ADGY
 bohuslänning/ADGY
@@ -14323,6 +14346,7 @@ bredskuldrad/NQY
 bredskyggig/OY
 bredsladd/ADGv
 bredspackla/NAPmDj
+bredspektrum/XZ
 bredspår/ABD
 bredspårig/OY
 bredstjärtad/NQY
@@ -14519,6 +14543,7 @@ brodergarn/ABHYv
 broderi/ABHYX
 broderigarn/ABHY
 brodering/ADGY
+broderinål/ADG
 broderistygn/ABD
 broderisöm/FAIY
 broderland/AJBY
@@ -14614,6 +14639,7 @@ bronsmedalj/AHDYX
 bronsmedaljör/AHDYv
 bronsnackad/NQk
 bronsnit/ADG
+bronsnål/ADG
 bronspeng/ADGY
 bronsplats/HDY
 bronsplatta/EAGY
@@ -14625,6 +14651,7 @@ bronsålder/EAYv
 bronsåldersfynd/ABDY
 bronsåldersristning/ADG
 bronsåldersröse/FECAY
+Brontë/AX
 brontosaurus/DGY
 brony/EAH!
 Brooke/A
@@ -15001,6 +15028,7 @@ brynpenna/EAG
 brynskugga/EAG
 brynsten/ADG
 brynstål/AB
+Bryntesson/A
 Brynäs/X
 bryolog/AHD
 bryologi/EA
@@ -15652,6 +15680,7 @@ burdus/QOPk
 burdörr/ADGv
 Bure/A
 buren/KM
+Burén/A!
 Bureå/AX
 Bureätten/A
 burfågel/EAIXv
@@ -15931,6 +15960,7 @@ byaråd/ABDv
 bybildning/ADG
 bybrunn/ADG
 bydel/ADG
+Bydén/AX
 bydistrikt/ABD
 byfest/AHD
 byffé/EAHY
@@ -16535,6 +16565,7 @@ bärplockande/CA
 bärplockare/EAJz
 bärplockning/ADYv
 bärproducent/AHD
+bärprodukt/AHD!
 bärproduktion/AD
 bärpuré/EAH
 bärpåse/EAG
@@ -17041,6 +17072,8 @@ Catherine/A
 Cato/A
 Catrin/A
 catwalk/ADYX
+cavaletti/X
+cavalettibom/FAI
 Cavalli/A
 cavatina/EAG
 Cavccas
@@ -17319,6 +17352,7 @@ CGI/r
 cha-cha/EA
 cha-cha-cha
 chaffis/DGYX
+Chagall/AX
 chagrin/AHDX
 chagräng/AHDX
 chai
@@ -17342,7 +17376,7 @@ champinjon/AHDYX
 champinjonstuvad/NQk
 champinjonsås/HDY
 champion/AYX
-championat/ABDYv
+championat/ABDYXv
 championtik/ADG
 championtitel/EAIY
 Champs-Elysées
@@ -17541,7 +17575,7 @@ chevaleresk/QOY
 cheviotfår/ABD
 chèvre/EAX
 Chevrolet/A
-chevrotera/Mmj
+chevrotera/NMAmDj
 chiafrö/EABX
 chiafröna/A
 chiagröt/AD
@@ -18070,6 +18104,7 @@ Colorado/eAX
 coloradoskalbagge/EAG
 Colorama/AX
 Colosseum/A
+coltan/ABX!
 Colting/A
 Coltrane/A
 Columbia/AX
@@ -18083,6 +18118,7 @@ Com Hem/A
 comme-il-faut
 Commodore/A
 Commons
+communities/Y
 community/EAYX
 comorisk/Ok
 Computex/X
@@ -18091,6 +18127,7 @@ Conakry/A
 Conan/A
 concealer/EAYX
 Concepción/A
+Concerta/AX!
 concertina/EAGY
 Conchita/A
 Concordia/A
@@ -18132,6 +18169,7 @@ cord-
 Cordelia/A
 core-pass/BD
 core-träning/ADv
+corioliskraft/ADv
 Cork/A
 Corleone/A
 Cornelia/A
@@ -18154,10 +18192,13 @@ Corvette/AX
 cosinus/X
 Cosmonova/AX
 Cosmopol/AX
+cosplay/AX
+cosplayare/EAJ
 Costa
 costarican/AHDY
 costaricansk/QOY
 costaricanska/EAGY
+cotangens/X
 cotangent/AHDY
 Côte
 Cotonou/X
@@ -18246,6 +18287,7 @@ Crowley/A
 Cruise/A
 Crusoe/A
 Cruz
+csardas/DX
 CSN-/JX
 CSR/r
 CSS/r
@@ -18281,12 +18323,12 @@ cupvinnare/EAJ
 curacao/EAX
 curaçao/EAX
 Curaçao
-curare/CA
+curare/CAX!
 curareförgiftad/NQY
 curator/EAYX
 Curie/A
 Curitiba/AX
-curium/AB
+curium/AB!
 curla/TNAPmDY
 curling/ADYX
 curlingförälder/EAIY
@@ -18429,6 +18471,8 @@ cystbildning/ADGY
 cystein/ABH
 cystisk/Ok
 cystit/AHDX
+cystnjure/EAG
+cystometri/EAHX
 cystoskop/ABDY
 cystoskopi/EAHYX
 cytodiagnostiker/EAJ
@@ -18690,6 +18734,7 @@ dagvårdare/EAY
 Dahl/A
 Dahlberg/A
 Dahlbergh/A
+Dahlbom/A
 Dahlbäck/A
 Dahlén/A
 Dahlgren/A
@@ -18888,6 +18933,7 @@ dampryck/ABD
 dampunge/EAG
 damputbrott/ABD
 damrum/FCAv
+damsadel/EAIX
 damsektion/AHD
 damsida/EAGY
 damsingel/EAIYX
@@ -18926,8 +18972,10 @@ Daniela/AJ
 Daniella/A
 Danielle/A
 Daniels
+Danielson/A!
 Danielsson/A
 danism/AHD
+Danius/!
 dank/ADG
 danmark/AYZc
 Danmark/Av
@@ -19495,6 +19543,7 @@ dejta/NAPmDj
 dejtande/CA
 dejting/ADYX
 dejtingapp/ADG
+dejtingfas/HD!
 dejtingtjänst/AHDY
 deka/EPm
 dekad/AH
@@ -19552,6 +19601,7 @@ dekoration/AHDYvf
 dekorationsbär/ABD
 dekorationslist/AHD
 dekorationsmålare/EAJY
+dekorationsnål/ADG
 dekorationssten/ADG
 dekorativ/QOY
 dekoratör/AHDYv
@@ -20040,6 +20090,7 @@ desinformation/AHDYv
 desinformatör/AHD
 desinformera/NAPmDj
 desintegration/AHDYv
+desintegrativ/Ok
 desinvestering/ADG
 Desiré/QA
 Désirée/A
@@ -20168,7 +20219,7 @@ det här
 detonation/AHDYv
 detonator/EAHY
 detonera/NAPmDj
-detonering/ADY
+detonering/ADYv
 Detroit/eAX
 detronisera/NAPmDj
 detronisering/ADGY
@@ -20619,6 +20670,7 @@ dipsomani/EAX
 dipsås/HD
 diptyk/AHDY
 Dirac/AX
+Dirawi/A
 direkt/OPk
 direkt/bX>
 direktansluta/KLAJDRj
@@ -21170,6 +21222,7 @@ djuriske/Y
 djuriskhet/ADY
 djurklinik/AHDY
 djurkropp/ADGYv
+djurlik/ABD!
 djurliv/AB
 djurmask/AHD
 Djurmo/A
@@ -21719,6 +21772,7 @@ dovhet/AD
 dovhjort/ADGv
 Down/A
 downperiod/AHDY
+doxycyklin/A
 Doyle/A
 DR1/r
 DR2/r
@@ -21792,6 +21846,7 @@ dragspel/ABDYv
 dragspelare/EAJY
 dragspelslåt/ADGY
 dragspelsmusik/ADY
+dragspelston/AHD!
 dragspänning/ADGY
 dragster/EAYX
 dragstång/ADY
@@ -21889,6 +21944,7 @@ dressyrryttare/EAJY
 dressyrspö/ECAB
 dressyrspöna/A
 dressyrträna/NAPmDj
+dressyrträning/ADGY
 dressyrträns/BD
 dressyrtävling/ADGY
 dressör/AHDY
@@ -22033,6 +22089,7 @@ drog/ADYX
 droga/NAPmHDY
 drogbaron/AHDY
 drogberoende/Y
+drogdel/ADG!
 drogfri/QOk
 droghandel/EAY
 drogklassad/NQk
@@ -22255,6 +22312,7 @@ drömtydare/EAJY
 drömtydning/ADGYv
 drömvärld/ADGY
 dröna/Mmj
+drönande/CA
 drönar/XZ
 drönare/EAJY
 drönarlarver/AJ
@@ -22875,6 +22933,7 @@ dysfasi/EAX
 dysfori/EAH
 dysforisk/Ok
 dysfunktion/AHDY
+dysfunktionalitet/ADv
 dysfunktionell/OY
 dyskalkyli/YX
 dyslektiker/EAJYX
@@ -24037,6 +24096,7 @@ ekorre/EAGY
 ekorrhjul/ABYv
 ekorrpigg/QOY
 Ekorrsele/A
+ekosmart/Ok
 ekosof/AHD
 ekosofi/EA
 ekosofisk/Ok
@@ -24160,6 +24220,7 @@ elanvändare/EAJY
 elanvändning/ADYv
 elapparat/AHDY
 elarbete/FECA
+elartikel/EAI!
 elastan/X
 elasticitet/AHDYvf
 elasticitetsmodul/AHDY
@@ -24195,8 +24256,7 @@ elbörs/HD
 elcelli
 elcello/EA
 elcentral/AHDY
-elcertifikat/ABDYv
-elcertifikatssystem/ABDY
+elcertifikat/ABDYvX
 elchock/AHDvX
 elcykel/EAIX
 eld/ADGYX
@@ -24588,6 +24648,7 @@ Eliza/A
 Elizabeth/A
 Eljaröd/dAv
 eljest
+eljobb/ABD!
 eljusterbar/Ok
 eljätte/EAG
 elkabel/EAIX
@@ -24689,6 +24750,7 @@ elprodukt/AHDY
 elproduktion/ADYv
 elprogram/FCA
 elpryl/ADG
+elpump/ADGvX
 elradiator/EAHY
 elransonering/ADGY
 elreparatör/AHDv
@@ -24754,6 +24816,7 @@ eltransport/AHD
 eltrimmer/EAIX
 eltråd/ADG
 eltåg/ABD
+eltändare/EAJz
 eltändning/ADGv
 eluera/Mmj
 elugn/ADG
@@ -25112,6 +25175,7 @@ energiförbrukning/ADGY
 energiföretag/ABDY
 energiförlust/AHDY
 energiförsörjning/ADY
+energigas/HDX!
 energigröda/EAGY
 energihushållning/ADY
 energiinnehåll/ABDY
@@ -25287,6 +25351,7 @@ engångskod/AHDv
 engångskostnad/AHDY
 engångskull/%
 engångsligg/ABDv
+engångsnål/ADG
 engångspost/AHDY
 engångspremie/EAIY
 en gångs skull
@@ -25636,6 +25701,7 @@ epidemisk/OY
 epidermis/DYX
 epidural/ODX
 epiduralbedövning/ADG
+epiduralnål/ADG
 epifani/EAH
 epifania/A
 epifys/HD
@@ -25956,6 +26022,8 @@ Ess-dur/AX
 Esselte/AX
 essen
 essens/HDYX
+essentialism/AD
+essentialistisk/Ok
 essentiell/OY
 Essex/X
 Essingeleden/A
@@ -26018,6 +26086,7 @@ etage/ECAbI
 etagelägenhet/AHDY
 etagevåning/ADGY
 etagär/AHD
+etalong/AHD!
 etanol/ADYX
 etanolbil/ADGYv
 etanolfabrik/AHDY
@@ -26152,6 +26221,7 @@ eufoni/EA
 eufonisk/Ok
 eufonium/AJ
 eufori/EAYX
+euforiserande/k
 euforisk/QOY
 Eufrat/A
 Eugen/A
@@ -26272,6 +26342,7 @@ Ewelina/A
 Evelins
 Evelyn/A
 evenemang/ABDYv
+Evensson/A
 event/ABDYX
 eventualitet/AHDY
 eventuell/QOY
@@ -26325,6 +26396,7 @@ examensbal/AHD
 examensbetyg/ABDY
 examensbevis/BDY
 examensdag/ADGY
+examensdel/ADG!
 examensfest/AHDX
 examensfika/CA
 examensläsa/KLAJDRj
@@ -27457,6 +27529,7 @@ fartygsflotta/EAGY
 fartygsklass/HDY
 fartygskonvoj/AHDY
 fartygskropp/ADGY
+fartygslandning/ADGY
 fartygsmodell/AHDY
 fartygsmotor/EAHY
 fartygsolycka/EAGY
@@ -27876,6 +27949,7 @@ favoritsås/HD
 favoritte/ABH
 favorittillhåll/ABDY
 favorittippad/NQY
+favoritträns/BD
 favorittyngd/QOY
 favorituttryck/ABDY
 favoritvin/ABHY
@@ -28471,6 +28545,7 @@ fetaost/ADGYX
 fetaostmacka/EAG
 fetaostpaj/AHD
 fetaostsås/HD
+fetblad/ABDv
 fetbort/!
 fetglömma/KJj
 feting/ADG!
@@ -28964,6 +29039,7 @@ filthatt/ADG
 filthårig/OY
 filtjänst/AHDY
 filtning/AD
+filtnål/ADG
 filtrat/ABD
 filtration/AHDv
 filtrer-
@@ -29847,6 +29923,7 @@ fjärrlåne/XZ
 fjärrlås/BD
 fjärrmanövrera/NAPmDj
 fjärrskrift/ADY
+fjärrskådar/XZ
 fjärrskådare/EAJY
 fjärrskådning/ADY
 fjärrstyra/KLAJODRj
@@ -30425,6 +30502,7 @@ flottyrkokta/LJj
 flottyrkokte/j
 flottyrmunk/ADGY
 flottör/AHDYX
+flottörnål/ADG
 flow
 flox/D
 floxblomma/EAGY
@@ -30658,6 +30736,7 @@ flygplanskapning/ADGY
 flygplanskonstruktör/AHDY
 flygplanskrasch/AHDY
 flygplanskropp/ADGYv
+flygplanslandning/ADG
 flygplansmodell/AHDY
 flygplansmotor/EAHY
 flygplansolycka/EAGY
@@ -30884,7 +30963,9 @@ flämt/AB
 flämta/NMAmDj
 flämtning/ADGY
 flänga/KLAJODY
+flängande/CA
 flängig/QOk
+flängridning/ADGv
 fläns/DGY
 flänsa/NAPmDj
 flänsbredd/AHD
@@ -31338,6 +31419,7 @@ folkökning/ADGY
 folköl/ABDv
 follikel/EAIYX
 follikelcysta/EAGY
+follikelfas/HD
 follikelhormon/ABHY
 follikulär/Ok
 Follingbo/AX
@@ -31905,7 +31987,7 @@ fostersyster/EAIX
 fostersäck/ADG
 fostersöner/AJY
 fosterutveckling/ADY
-fostervatten/CAYv
+fostervatten/CAYvX
 fostervattenprov/ABHDY
 fostervattensprov/ABDY
 fostra/TNEAPmDY
@@ -31979,6 +32061,7 @@ fotbollsvänner/AJ
 fotbollsvärden/A%
 fotbollsår/ABD
 fotbroms/DG
+fotdel/ADG!
 fotfarande/%
 fotfel/ABD
 fotfil/ADG
@@ -32218,6 +32301,7 @@ framfog/ADGv
 framfors/%
 framforskad/NQk
 framfot/AJDv
+framfotslandning/ADG
 framfusig/QOPY
 framfusighet/ADY
 framfälg/ADG
@@ -33769,6 +33853,7 @@ fröspridare/EAJ
 fröspridning/ADY
 fröställning/ADG
 Frösunda/eAX
+Frösundaleden/A
 fröså/Mmj
 frösådd/AHDv
 frösättande/Y
@@ -34104,6 +34189,7 @@ furuskog/ADGv
 furuskåp/ABDv
 furustol/ADG
 Furusund/Av
+Furusundsleden/A
 furusäng/ADGv
 furutak/AB
 furutrapp/AD!
@@ -34271,6 +34357,7 @@ fyrbent/QO
 fyrbetjäning/AD
 fyrbiträde/FECA
 fyrbladig/Ok
+Fyrbodal/Av
 fyrboll/ADG
 fyrbyggnad/AHD
 fyrbåk/ADG
@@ -35334,6 +35421,8 @@ följebåt/ADG
 följedeklaration/AHDY
 följedokument/ABDY
 följefartyg/ABD
+följeforskare/EAJz
+följeforskning/ADv
 följemoln/ABD
 följerätt/ADv
 följesedel/EAIYv
@@ -36152,6 +36241,7 @@ förgasa/NAPmDj
 förgasar/XZ
 förgasare/EAJY
 förgasarmotor/EAHY
+förgasarnål/ADG
 förgasning/ADYvf
 förgicks
 förgifta/NAPmDY
@@ -37685,6 +37775,7 @@ förtjusning/ADYv
 förtjust/QOPY
 förtjäna/NAPmDY
 förtjänst/AHDYX
+förtjänstdel/ADG!
 förtjänstfull/QOY
 förtjänstmedalj/AHDYX
 förtjänstorden/AI
@@ -38637,6 +38728,7 @@ gasbubbla/EAG
 gasburk/ADG%
 gasbuss/DGY
 gascognare/EAJY
+Gascogne/AX
 gasdriven/MY
 gaseldad/NQY
 gasell/AHDYX
@@ -39632,6 +39724,7 @@ Georgien/AX
 georgier/EAJ
 georgisk/QOY
 georgiska/EAGY
+Georgsson/A
 geostationär/OY
 geostrategisk/OY
 geosynklinal/AHDY
@@ -40201,6 +40294,7 @@ glasfiber/EAYX
 glasfiberarmerad/NQY
 glasfiberbom/FAI
 glasfiberbåt/ADGY
+glasfiberhuv/ADG
 glasfiberkabel/EAIY
 glasfiberväv/ADGY
 glasfibrer/AJY
@@ -40312,7 +40406,7 @@ glatt/A
 glattmask/ADGYX
 glatts/j
 glaubersalt/ABHY
-glaukom/ABY
+glaukom/ABYX
 Glava/eA
 Glemminge/A
 Glemmingebro/A
@@ -40664,6 +40758,7 @@ gnällmåns/DGY
 gnällröv/ADGv!
 gnällspik/ADGYv
 gnälltråd/ADGv
+gnöl/AB!
 gnöla/NMAmDj
 go/QPb
 goa/O
@@ -41647,6 +41742,7 @@ Gripen/XZ
 Gripenberg/A
 gripenhet/ADY
 Gripenplan/ABD
+gripförmåga/EA
 griphuvud/ABDY
 griphuvudena/AY
 gripklo/EAI
@@ -41902,6 +41998,7 @@ grundbok/AD
 grundbränna/EA
 grundbult/ADGYv
 grundböcker/AJ
+grunddel/ADG!
 grunddrag/ABDY
 grundelement/ABDY
 grundera/NAPmD
@@ -42116,6 +42213,7 @@ gruppvåldtäkts-
 gruppövning/ADGYv
 grus/BYX
 grusa/NAPmj
+grusande/CA!
 grusbana/EAG
 grusbank/ADG
 grusblandad/NQY
@@ -45528,6 +45626,9 @@ haschbeslag/ABDY
 haschbrownie/EA
 haschisch/ABDYX
 haschrus/BD
+hashtag/AX
+hashtaggar/AJ
+hashtaggen/A
 hasled/AHDv
 hasp/ADG
 haspa/NAPmDj
@@ -45628,6 +45729,7 @@ hatmånad/AHD
 hatmöte/FECA
 hatobjekt/ABDY
 hatord/ABDv
+hatpolitik/AD!
 hatpredikant/AHD
 hatpropaganda/EAY
 hatramsa/EAG
@@ -46985,7 +47087,7 @@ hickory/EAX
 hickorysås/HD
 Hidinge/AX
 Hidingsta/AX
-hierarki/EAHDYX
+hierarki/EAHYX
 hierarkisk/QOY
 hieratisk/OY
 hieroglyf/TAHDYX
@@ -47140,6 +47242,7 @@ hirs/D
 Hirschfeldt/A
 hirsgröt/AD
 hirskolv/ADGv
+Hirvonen/A
 Hishult/Av
 Hising/dADv
 Hisingsbacka/AX
@@ -47726,8 +47829,11 @@ holistisk/OY
 holk/ADG
 holka/NAPmDj
 holkfjäll/ADY
+holkjärn/ABDv
+holkuppsättning/ADG
 holkyxa/EAG
 holkärm/ADGv
+holköppning/ADGv
 Holland/QAv
 hollandaise/EAY
 hollandaisesås/HDY
@@ -49198,6 +49304,7 @@ huvudmål/ABDY
 huvudmän/FAY
 huvudnummer/FCAY
 huvudnyckel/EAIYX
+huvudnål/ADG!
 huvudnäring/ADGY
 huvudord/ABD
 huvudorgan/ABDY
@@ -49296,6 +49403,7 @@ hux flux
 Huxley/A
 HV-/JX
 HV71-/JX
+HVB-/JX
 hvb-hem/FCAv
 HVB-hem/FCA
 hy/E
@@ -49608,6 +49716,7 @@ hyrkusk/ADG
 hyrköp/ABDv
 hyrläkar/XZ
 hyrläkare/EAJY
+hyrpersonal/AD
 hyrs/N
 hyrstol/ADGv
 hyrtjänst/AHDY
@@ -50858,6 +50967,7 @@ högeröron/AD
 högexplosiv/QOY
 högfarts/XZ
 högfartsdel/ADG
+högfartslandning/ADGv
 högfartsnål/ADG
 Högfeldt/A
 högfett/XZ
@@ -51469,6 +51579,7 @@ hövlighet/AHDYv
 hövålm/ADG
 hövändare/EAJY
 Höyre/A
+Höög/A!
 Höök/A
 Höör/AX
 i/br
@@ -52224,6 +52335,7 @@ implementationsfas/HD
 implementatör/AHDY
 implementera/NAPmDY
 implementering/ADGYv
+implementeringsfas/HD
 implementeringsprocess/HDY
 implicera/NAPmDj
 implicita/Jk
@@ -52278,6 +52390,7 @@ improvisatör/AHDY
 improvisera/NAPmDY
 impuls/HDYX
 impulsartad/NQk
+impulsdåd/ABD!
 impulshandla/NMAmDj
 impulshandling/ADGY
 impulsiv/QOPY
@@ -53328,6 +53441,7 @@ inköpsår/ABD
 inkörd/Ok
 inkörde
 inkörning/ADGYv
+inkörningsfas/D
 inkörningsperiod/AHDY
 inkörningsproblem/ABDY
 inkörsport/ADGYv
@@ -53483,7 +53597,7 @@ innebandymatch/AHDY
 innebandyspelare/EAJY
 innebar/j
 innebo/Mmj
-inneboende/AY
+inneboende/AYX
 innebruk
 innebränd/QOY
 innebrändes
@@ -54222,6 +54336,7 @@ insulinchock/AHDY
 insulindos/HDY
 insulinkick/ADG
 insulinkoma/EAY
+insulinnål/ADG
 insulinpump/ADGYvX
 insulinspruta/EAGY
 insulär/Ok
@@ -55436,6 +55551,7 @@ Ivarsson/A
 i vart fall
 iver/E
 IVF/r
+IVL-/JX
 IVO/r
 ivorian/AHDY
 ivoriansk/QOY
@@ -56009,6 +56125,7 @@ Jill/A
 Jim/A
 Jimmie/A
 Jimmy/A
+Jinder/A!
 jingel/EAI
 Jinping/A
 Jintao/A
@@ -58116,7 +58233,7 @@ kallvalla/EA
 kallvalsa/NAPmDj
 kallvalsning/ADGY
 kallvalsverk/ABDY
-kallvatten/CAX
+kallvatten/CAvX
 kallvind/ADGv
 kallvinter/EAI
 kallviskositet/ADv
@@ -59156,6 +59273,7 @@ Karsudden/A
 kart/ADGX
 karta/EAGY
 kartagisk/QOY
+Kartago/AX
 kartapp/ADG!
 kartbild/AHDY
 kartblad/ABDYv
@@ -59188,6 +59306,7 @@ kartläggs/Y
 kartläsar/XZ
 kartläsare/EAJY
 kartmaterial/ABDY
+kartnål/ADG
 kartograf/TAHDY
 kartografi/EAYX
 kartogram/FCAY
@@ -59602,8 +59721,8 @@ Kaukasien/A
 kaukasier/EAJY
 kaukasisk/QOY
 kaukasiska/EAGY
-kaukasoid/AHD!
-kaukasoida/!
+kaukasoid/AD!
+kaukasoida/H!
 Kaukasus/X
 Kaunisvaara/AX
 Kauppi/A
@@ -59624,6 +59743,7 @@ kava/MJm
 kavaj/AHDYX
 kavajficka/EAGY
 kavajklädd/OY
+kavajnål/ADG
 kavajslag/ABDY
 kavajärm/ADG
 kavalett/AHD
@@ -59744,6 +59864,7 @@ Kelso/A
 kelter/AJ
 keltisk/QOY
 keltiska/EAG
+keltisktalande/k
 kelvin
 kemi/EAYX
 kemiföretag/ABDY
@@ -59844,6 +59965,7 @@ ketongrupp/AHD
 ketonkroppar/AJ
 ketonkropps/XZ
 ketos/DX
+ketosfas/D!
 Kettil/A
 kettlebell/AX
 Kevin/A
@@ -60297,6 +60419,7 @@ Kjellén/A
 Kjellgren/A
 Kjellin/A
 Kjellman/A
+Kjellsson/A
 Kjellström/A
 Kjellvander/A
 Kjetil/A
@@ -60888,6 +61011,7 @@ klorbehandling/ADGY
 klorbleka/KQLAJDRj
 klorblekning/ADYv
 klordioxid/ADYX
+klordoppad/NQk
 klorera/NAPmD
 klorering/ADGYv
 klorfri/Ok
@@ -62016,6 +62140,8 @@ kolesterolsänkande/Y
 kolesterolsänkare/EAJ
 kolesterolvärde/FECAY
 kolfiber/EAX
+kolfiberbom/FAI
+kolfiberhuv/ADG
 kolfiberinsug/AB
 kolfiberkomposit/AHDX
 kolfiberlist/AHD
@@ -62398,6 +62524,7 @@ kommers/HDY
 kommerseråd/ABDYv
 kommersialisera/NAPmDY
 kommersialisering/ADGYv
+kommersialiseringsfas/HD
 kommersialism/ADY
 kommersiell/QOY
 kommerskollegiet/AY
@@ -63661,7 +63788,7 @@ kontrolluppgift/AHDY
 kontrollur/ABDY
 kontrollverksamhet/ADY
 kontrollvolym/AHDY
-kontrollväga/KLAJODj
+kontrollväga/KLAJODRj
 kontrollyta/EAGY
 kontrollåtgärd/AHDY
 kontrolläsa/KQLAJRj
@@ -63775,6 +63902,7 @@ koordinatör/AHDY
 koordinera/NAPmDY
 koordinering/ADGYvf
 kopek
+Kopernikus
 kopia/EAGY
 kopiator/EAHYX
 kopie-
@@ -63897,6 +64025,7 @@ korallö/EAG
 koralmelodi/EAHY
 koralsång/AD
 koran/HDX
+korande/CA!
 Koranen/A
 koravslutning/AD
 korbåge/EAG
@@ -64510,6 +64639,7 @@ Kotzebue/A
 Kovács
 kovalent/Ok
 kovall/AHD
+Kowalski/A
 kovarians/HDX
 kovariant/Ok
 Kovikshamn/dAv
@@ -64639,6 +64769,7 @@ krampanfall/ABDY
 krampartad/NQY
 kramphålla/KJDj
 kramplösande/Y
+kramruta/EAG!
 krams/B
 kramsfågel/EAIvX
 kramsjuk/Ok
@@ -64657,6 +64788,8 @@ kraniedjur/ABD
 kranieform/AHD
 kraniell/Ok
 kranievolym/AHD
+kraniofacial/Ok
+kraniofacial/XZ
 kraniologisk/OY
 kranium/AJY
 krank/QOY
@@ -65352,6 +65485,7 @@ kroklinje/EAIY
 kroklinjig/OY
 krokmaska/EAG
 krokna/PmDj
+kroknål/ADGv
 kroknäbb/ADGv
 kroknäsa/EAGy
 kroknäst/QOk
@@ -65419,6 +65553,7 @@ Kronberg/A
 kronblad/ABDYv
 Kronblom/A
 krondill/ADv
+Kronér/A!
 kronfall/AB
 kronfogde/EAG%
 kronfågel/EA%
@@ -65741,6 +65876,7 @@ krypande/k
 krypande/CAY
 krypare/EAJY
 krypavstånd/ABD
+krypbjörnbär/ABDv
 kryperi/ABHY
 krypfart/AD
 krypfil/AHD
@@ -65812,6 +65948,7 @@ kryssvalv/ABDY
 krysta/NAPmDY
 krystande/CA
 krystning/ADGYv
+krystningsfas/HD
 krystvärk/ADGYv
 kråk/XZ
 kråk-
@@ -66316,6 +66453,7 @@ kulturväxt/AHDYX
 kulturyttring/ADGYv
 kulturår/ABDY
 kulturäng/ADG
+kultutlots/DGX!
 kultvärde/FECAY
 kulvert/ADGYX
 kulör/AHDYX
@@ -68548,6 +68686,7 @@ köstatistik/AHDY
 kösystem/ABDY
 kötid/AHDv
 kött/ABYX
+kötta/Mm!
 köttben/ABDv
 köttberg/ABD
 köttbit/ADGY
@@ -68941,6 +69080,7 @@ Lahall/dAv
 Laholm/dAv
 laholmare/EAJ
 Laholmsbukten/A
+Lahti/A!
 Lahäll/dAv
 Laila/A
 Lainioälven/A
@@ -69271,7 +69411,7 @@ landsnummer/FCAY
 landsnäcka/EAGY
 landsomfattande/Y
 landsorganisation/AHDY
-landsort/dADYv
+landsort/dAHDYv
 landsortskommun/AHDY
 landsortsmack/ADGY
 landsortspress/DY
@@ -69737,6 +69877,7 @@ Lauder/A
 Lauker/eAX
 Laura/A
 Lauren/A
+Laurén/A!
 Laurence
 Laurent/A
 Laurentius
@@ -69938,7 +70079,7 @@ ledighetsansökningar/AJY
 ledighetsdag/ADGY
 ledighetskommitté/EAHY
 ledigkungörelse/EAI
-Ledin/A
+Ledin/A!
 ledinfektion/AHD
 ledinflammation/AHDY
 ledkapsel/EAIYX
@@ -70409,6 +70550,7 @@ leråker/EAI
 lesbian/AHDY
 lesbianism/AD
 lesbisk/OY
+Lesbos/X!
 Lesjöfors/X
 lesothier/EAJY
 lesothisk/QOY
@@ -70448,6 +70590,7 @@ levandegöra/AJDRj
 levandegörs/j
 levandes
 levang/AHD
+Levanten/A!
 levantin/AHD
 levantinsk/Ok
 levat
@@ -72097,6 +72240,7 @@ lob/AHD
 lobb/ADGY
 lobba/TNAPDY
 lobbning/ADY
+lobbredd/ADv!
 lobby/EAHYX
 lobbybar/AHD
 lobbygrupp/AHDY
@@ -72109,6 +72253,7 @@ lobformig/OY
 lobotomera/NAPmDY
 lobotomering/ADGv
 lobotomi/EAYX
+lobvinkel/EAI
 lock/ABDYX
 locka/NAPDIY
 lockanda/EA%
@@ -74166,6 +74311,7 @@ länsbokstav/ADY
 länsbokstäver/AJY
 länsbygderåd/ABDv
 länsdel/ADGv
+länsfiskekonsulent/AHD
 länsförbund/ABDY
 Länsförsäkringar/A
 länsgräns/HDY
@@ -74373,6 +74519,7 @@ läseböcker/AJY
 läsecirkel/EAIYXv
 läsefrukt/AHDv
 läsekrets/DGY
+läserfarenhet/AHDv
 läsesal/ADGYv
 läsesalong/AHDv
 läsexemplar/ABD
@@ -74930,6 +75077,7 @@ lönnmord/ABDYv
 lönnmörda/NAPmj
 lönnmördar/XZ
 lönnmördare/EAJY
+Lönnroth/A
 lönnruna/EAG
 lönnsirap/ADYv
 lönsam/MLY
@@ -75134,6 +75282,7 @@ lösprotes/HD
 lösriva/KLAJj
 lösriven/Mj
 lösryckt/Ok
+lösrygg/ADGv
 löss/D
 lössjord/ADGv
 lösskägg/ABDv
@@ -77034,6 +77183,7 @@ Mathem/A
 Matheo/A
 Matheus
 Mathias
+Mathiasson/A
 Mathilda/A
 Mathilde/A
 mathållning/ADYv
@@ -78192,6 +78342,7 @@ Mekonomen/A
 meksida/EAG
 mektips/BD
 Melander/A
+Melanesien/A
 melanesier/EAJ
 melanesisk/OY
 Melanie/A
@@ -78660,6 +78811,7 @@ metallkugg/QADG
 metallmalm/AHD
 metallmask/AHD
 metallnit/ADG
+metallnål/ADG
 metallografi/EAY
 metallografisk/OY
 metalloxid/AHDYX
@@ -78804,6 +78956,7 @@ MI6/r
 Mia/A
 Miami/eAX
 Mibit/!
+Micael/A!
 Michaela/AJ
 Michaels
 Michail/A
@@ -78817,6 +78970,7 @@ Michigan/AX
 mick/AbDG
 Micke/A
 mickelsmässa/EAGY
+Mickelsson/A
 mickstativ/ABD
 microSD
 microSDHC
@@ -78986,6 +79140,7 @@ mikronesier/EAJY
 mikronesisk/QOY
 mikronesiska/EAG
 mikroorganism/AHDYX
+mikroplast/AHDX
 mikroprocessor/EAHY
 mikroprocessorstyrd/OY
 mikroring/ADG
@@ -80838,9 +80993,9 @@ montervärd/ADG
 montervärdinna/EAG
 monteryta/EAG
 Montesquieu/A
-montessori/XZ
-Montessori/A
+Montessori/AX
 Montessoriförskola/EAG
+Montessoripedagogik/AD
 Montessoriskola/EAG
 Montevideo/AX
 Montgomery/A
@@ -82265,6 +82420,7 @@ myglar/XZ
 myglare/EAJY
 mygleri/ABHY
 mygling/AD
+Mykene/A
 mykensk/QOk
 mykolog/AHD
 mykologi/EAY
@@ -83689,6 +83845,7 @@ nalle-
 nallebjörn/ADGYv
 nallebjörnslik/Ok
 nallebud/ABD
+naloxon/ABX
 Namibia/A
 namibier/EAJ
 namibisk/QOk
@@ -85539,6 +85696,7 @@ nickskära/EAG
 nickspecialist/AHDY
 Niclas
 Nico/A
+Nicola/!
 Nicolai/A
 Nicolas
 Nicole/A
@@ -86158,6 +86316,7 @@ Norin/A
 Noring/A
 Norje/A
 Norlander/A
+Norlén/A!
 Norlin/A
 Norling/A
 norm/AHDY
@@ -86208,7 +86367,10 @@ normandisk/QOY
 Normark/A
 normativ/OY
 normativitet/ADYv
+normavvikande/k
+normavvikelse/EAI
 normbelopp/ABDv
+normberäkning/ADGv
 normbeslut/ABDY
 normbildande/Y
 normbildare/EAJY
@@ -86216,30 +86378,44 @@ normbildning/ADGYv
 normbrott/ABD
 normbrytande
 normbrytare/EAJY
+normbrytning/ADGv
 normbärare/EAJ
+normcentral/AHD
 normenlig/Ok
 normera/NAPmDY
 normering/ADGYv
+normförskjutning/ADGv
+normförändring/ADGv
 normgivande/Y
 normgivare/EAJY
 normgivning/ADYv
 normgivningsmakt/AD
+normgrupp/AHDv
 normkonflikt/AHDY
-normkritik/AD
+normkontroll/AHDX
+normkritik/AHD
+normkritiker/E
 normkritisk/QOk
 normkälla/EAG
 normlös/Ok
 normlöshet/ADY
 normperson/AHD
 normpolitik/AD
+normprövning/ADGv
+normrelaterad/NQk
 normsamhälle/CA
+normsamverkan/Av
 normskapande/k
+normstyrd/Ok
 normsystem/ABDY
 normsättare/EAJY
 normsättning/ADGY
 normtabell/AHDY
+normtänkande/CA
 normupplösning/ADYv
+normvärde/FECAv
 normöverföring/ADGv
+normöverskott/ABDv
 normöverskridande/k
 norovirus/BX
 norpa/NAPmj
@@ -86290,6 +86466,7 @@ Norrmejerier/A
 Norrmjöle/eAX
 norrmän/FAY
 Norrort/Av
+Norrortsleden/A
 Norrporten/A
 norrsida/EAG
 Norrsjön/A
@@ -89541,6 +89718,7 @@ oktanig/OZ6
 oktant/AHD
 oktantal/ABDv
 oktav/AHDYX
+oktavera/NAPmD!
 oktett/AHDY
 oktober/AX
 oktoberdag/ADGY
@@ -89619,6 +89797,7 @@ oldboy/Av
 Oldenburg/A
 Oldsberg/A
 Oldsmobile/A
+Ole/A!
 oleander/EAIX
 O'Leary/A
 Oleby/eA
@@ -91078,6 +91257,7 @@ oratoriekör/AHDY
 oratorium/AJY
 Orback/A
 Orbaden/A
+Orbán/AX
 orbitrol/AHDX
 ord/ABbDX
 orda/NMAmDb
@@ -91118,7 +91298,7 @@ ordensväsen/AY
 ordensväsende/FCAY
 ordentlig/QOPY
 ordentlighet/ADYv
-order/EAJYX
+order/EAJIYX
 orderbok/ADYv
 orderböcker/AJY
 ordergivning/ADGY
@@ -91686,6 +91866,7 @@ OS-by/EAG
 Osbyholm/dAv
 Oscar/Av
 Oscarsgala/EAG
+Oscarsleden/A
 Oscarsnominerad/NQk
 Oscarsson/A
 oschysst/QOk
@@ -93421,6 +93602,7 @@ parkområde/FECAY
 parkour/ADX
 parkrad/A%
 parkring/ADG%
+parkslide/CAX
 parksoffa/EAGY
 parlament/ABDYvf
 parlamentariker/EAJYX
@@ -93488,6 +93670,7 @@ partial-
 partialbråk/ABDYv
 partialintegration/AHDYv
 partialordning/ADG
+partialton/AHDv
 partialtryck/ABDYv
 partiapparat/AHDY
 partiarbetare/EAJY
@@ -93611,6 +93794,7 @@ partnervåld/ABv
 Parton/A
 partrederi/ABHY
 parts/3
+partsammansatt/Ok
 partsinlaga/EAGY
 partsintresse/FECAY
 partssammansatt/OY
@@ -94784,6 +94968,7 @@ piedestal/AHDY
 Piemonte/eAX
 pierca/TNAPmDY
 piercing/ADGYX
+piercingnål/ADG
 piercning/ADGY
 Pierre/A
 Pieskehaure/A
@@ -95237,7 +95422,7 @@ pivotera/Mmj
 pix
 Pixar/AX
 Pixbo/AX
-pixel/EAIX
+pixel/EAIYX
 pixlig/OPk
 pizza/EAGYXU
 pizzabagar/XZ
@@ -95432,6 +95617,7 @@ plasmafysik/ADY
 plasmaglukos/DX
 plasmaskärm/ADGY
 plasmid/AHD
+plasmodium/AJt
 plast/THDYX
 plasta/NAPmD
 plastanka/EAGY
@@ -95472,6 +95658,7 @@ plastgran/ADGY
 plastgräs/BX
 plasthink/ADGY
 plasthjul/ABDY
+plasthuv/ADG
 plasthölje/FECAY
 plasticitet/ADv
 plastig/QOPY
@@ -95509,6 +95696,7 @@ plastmöbel/EAJ
 plastning/AD
 plastningsmaskin/AHD
 plastnitar/AJ
+plastnål/ADG
 plastorm/ADG
 plastpappa/EAGY
 plastpelare/EAJ
@@ -95623,6 +95811,7 @@ platthet/AHDY
 platticka/EAG
 plattis/DG
 plattityd/AHDY
+plattlandning/ADG
 plattläggare/EAJY
 plattläggning/ADGYv
 plattläns/DG
@@ -95978,6 +96167,7 @@ plåtetui/FEABH
 plåtfat/ABD
 plåtform/ADG
 plåtfälg/ADGv
+plåthuv/ADG
 plåtkar/ABD
 plåtklädd/OY
 plåtlist/AHD
@@ -96049,8 +96239,9 @@ pocketformat/ABY
 pocketkamera/EAGY
 pocketupplaga/EAGY
 pocketutgåva/EAGY
-podcast/XZ
-podd/XZ
+podcast/AHDX!
+podd/XAD!
+podda/MDI!
 poddradio/EAYX
 poddsändning/ADGY
 Podgorica/A
@@ -96470,6 +96661,7 @@ ponnyridning/ADYv
 ponnyritt/AHD
 ponnyryttare/EAJY
 ponnytrav/ABXv
+ponnyträns/BD
 Pontén/A
 Pontiac/AX
 pontifikat/ABDY
@@ -97658,6 +97850,7 @@ prinsess/XZ
 prinsessa/EAGY
 prinsessbröllop/ABDY
 prinsessdop/ABD
+prinsessfas/HD!
 prinsessklänning/ADGY
 prinsesskrona/EAGY
 prinsesstårta/EAGY
@@ -98422,6 +98615,7 @@ protegera/Mmj
 protein/ABHYXU
 proteinbar/AHDY
 proteinberikad/NQY
+proteindel/ADG!
 proteinfattig/OY
 proteinhalt/AHDY
 proteininlagring/ADG
@@ -99974,6 +100168,7 @@ pärlhöna/EAGY
 pärlhöns/BDY
 pärllök/ADG
 pärlmudd/ADGv
+pärlnål/ADG
 pärlplatta/EAGY
 pärlplatte/XZ
 pärlprydd/OY
@@ -100415,6 +100610,7 @@ raketbeskjutning/ADGY
 raketbränsle/FECAY
 raketfart/ADY
 raketgevär/ABDYv
+raketlandning/ADGv
 raketmotor/EAHY
 raketramp/AHDY
 raketsteg/ABDY
@@ -100459,7 +100655,7 @@ rakställning/ADGv
 raksöm/FAIYv
 rakt
 raktvål/ADG
-rakvatten/FCAYX
+rakvatten/FCAYXv
 rakvuxen/KMk
 rakväxt/Ok
 Ralf/A
@@ -100714,6 +100910,7 @@ rapsolja/EAY
 rapstjärna/EAGY
 rapsåker/EAI
 raptus
+Raqqa/AX
 rar/QOP
 raring/ADG
 raritet/AHDYv
@@ -101487,6 +101684,7 @@ regndis/B
 regndisig/OY
 regndroppe/EAGY
 regndropps/XZ
+Regnér/A
 regnfattig/OY
 regnfri/Ok
 regngrå/Ok
@@ -101733,6 +101931,7 @@ rekordår/ABDY
 rekreation/AHDYv
 rekreationsområde/FECAY
 rekreationsresa/EAGY
+rekreativ/O!
 rekreera/NAPmDj
 rekristallisation/AHDYv
 rekryt/AHDYX
@@ -103062,7 +103261,7 @@ ridskole/XZ
 ridskoleponny/EAHY
 ridsport/ADYvX
 ridspår/ABDv
-ridspö/ECAB
+ridspö/ECABX
 ridspöna/A
 ridstig/ADG
 ridstil/ADG
@@ -103680,6 +103879,7 @@ Roaccutan/A
 roadmovie/EAY
 roadracing/ADYX
 roadracingförare/EAJ
+Roald/A!
 roaming/ADX
 roande/Y
 Robban/A
@@ -104090,6 +104290,7 @@ rosengång/ADGY
 rosengård/ADGYv
 Rosengård/dAv
 rosengårdsvenska/EA
+rosenhallon/ADX
 Rosenhane/A
 Rosenhill/Av
 rosenhy/EA
@@ -104158,6 +104359,7 @@ roslag/AD%
 Roslagen/A
 Roslags/X
 Roslagsbanan/A
+Roslagsleden/A
 Roslagstull/Av
 Roslin/A
 roslinda/A%
@@ -104435,6 +104637,7 @@ rudiment/ABDY
 rudimentär/OY
 rudis
 Rudolf/A
+Rudolfsson/A
 Rudolph/A
 Rudslätt/A
 ruelse/EAYX
@@ -105848,6 +106051,7 @@ rättskipning/ADYv
 rättskrivning/ADYv
 rättskrivningslära/EAGY
 rättskälla/EAGY
+rättskälle/XZ
 rättskänsla/EAGY
 rättslig/QOY
 rättsligen
@@ -106679,6 +106883,7 @@ sakgranskning/ADGv
 sakinformation/ADv
 sakinnehåll/ABY
 sakinvändning/ADG
+sakkompetens/HDX
 sakkunnig/QAOPRYX
 sakkunnighet/ADYv
 sakkunniguppdrag/ABDY
@@ -107236,6 +107441,7 @@ samlingsverk/ABDY
 samlingsvolym/AHDY
 samliv/ABv
 samljud/ABD
+samljudande/k
 samlokalisera/NAPmDj
 samlokalisering/ADGY
 samläsning/ADv
@@ -107421,7 +107627,7 @@ sammantvinnad/NQY
 sammanvaro/EAY
 sammanviga/KLAJOj
 sammanvuxen/MY
-sammanväga/KLAJODj
+sammanväga/KLAJODRj
 sammanvägning/ADGYv
 sammanväva/KLAJODj
 sammanvävd/OY
@@ -107833,6 +108039,7 @@ sanskritist/AHDY
 sanskritord/ABD
 sanslös/OPk
 sanslöshet/ADY
+Santesson/A!
 Santiago/eAX
 Santo/A
 Santorum/A
@@ -108025,6 +108232,7 @@ scampi/EAYX
 Scan/A
 Scandic/AX
 Scandinavium/A
+Scandlines
 Scania/AX
 Scaniarinken/A
 scanna/NAPmDj
@@ -109124,6 +109332,7 @@ servicebostäder/AJY
 servicebutik/AHDY
 servicecenter/FCAY
 servicecentrum/EABDY
+servicedel/ADG!
 servicedesk/ADG
 servicedisk/ADGY
 servicefunktion/AHDY
@@ -109813,6 +110022,7 @@ sidventil/AHDv
 sidventilsmotor/EAH
 sidversion/AHD
 sidvind/ADGv
+sidvindslandning/ADG
 sidvisning/ADGYv
 sidvänd/Ok
 sidvändare/EAJ
@@ -110112,6 +110322,7 @@ silvermynt/ABDY
 silvermyntfot/ADY
 silvernitar/AJ
 silvernitrat/ABYX
+silvernål/ADG
 silverpeng/ADGY
 silverpenning/ADGYv
 silverpil/ADG
@@ -110563,6 +110774,7 @@ sjukdomare/EA%
 sjukdomsalstrande/Y
 sjukdomsbild/AHDY
 sjukdomsfall/ABDv
+sjukdomsfas/HD
 sjukdomsframkallande/Y
 sjukdomsförlopp/ABDYv
 sjukdomsgen/AHD
@@ -111529,6 +111741,7 @@ skalmodell/AHDY
 skalning/ADGYv
 skaloverall/AHD
 skalp/AHDY
+skalp-
 skalpelektrod/AHD
 skalpell/AHDYX
 skalpellvass/Ok
@@ -112616,7 +112829,9 @@ skogsduva/EAGy
 skogsdöd/ADYv
 skogsekosystem/ABDY
 skogsfastighet/AHDY
+skogsfattig/O%
 skogsflis/D
+skogsfri/O%
 skogsfru/EAG
 skogsfågel/EAIYXv
 skogsfår/ABD
@@ -112648,6 +112863,7 @@ skogslandskap/ABDY
 skogslind/ADGY
 skogslund/ADG
 skogslän/ABD
+skogslös/O%
 skogsman/FA
 skogsmark/AHDYv
 skogsmaskin/AHDX
@@ -112698,6 +112914,7 @@ skogstroll/ABDv
 skogsträd/ABDv
 Skogström/A
 skogstur/AHD
+skogsvaktare/EAJ%
 skogsvallen/A%
 Skogsvallen/A
 skogsvetenskap/AHDY
@@ -112774,6 +112991,7 @@ skoldator/EAHY
 skoldel/ADG
 skoldirektör/AHDY
 skoldistrikt/ABDY
+skoldåd/ABD!
 skolelev/AHDY
 skolengelska/EA
 skolenhet/AHDY
@@ -112845,6 +113063,7 @@ skolmästar/XZ
 skolmästaraktig/QOY
 skolmästare/EAJY
 skolning/ADGYv
+skolnämnd/AHDYv
 skolnära/k
 skolorganisation/AHDY
 skolort/AHD
@@ -113527,6 +113746,7 @@ skräntärna/EAGY
 skräp/ABYX
 skräpa/NMAmj
 skräpande/CA
+skräpartikel/EAI
 skräpbod/ADGv
 skräpbot/AD
 skräpböter/AJ
@@ -113538,6 +113758,7 @@ skräpighet/ADY
 skräpkultur/AHDY
 skräpmat/ADYv
 skräppar/%
+skräppartikel/EAIY
 skräppost/ADYX
 skräpsak/AHD
 skräpvin/ABH
@@ -113794,6 +114015,7 @@ skyddshelgon/ABDY
 skyddshem/FCAYv
 skyddshjälm/ADGY
 skyddshund/ADGv
+skyddshuv/ADG
 skyddsjakt/AHDYv
 skyddsjord/ADv
 skyddsjorda/NAPmDj
@@ -113918,6 +114140,7 @@ skytt/ADGY
 skytte/FCAYX
 skytteanus/k
 skyttebataljon/AHDYv
+Skyttedal/A
 skytteförening/ADGY
 skyttegrav/ADGYv
 skyttegravskrig/ABDY
@@ -115864,6 +116087,7 @@ småaktighet/AHDY
 småanmärkning/ADGY
 småannons/HDY
 småarg/Ok
+småarter/AJ!
 småax/BDX!
 småbakis/k
 småbalar/AJ
@@ -117400,7 +117624,7 @@ sodalösning/ADGv
 sodapanna/EAG
 sodasifon/AHD
 Sodastream/AX
-sodavatten/CAY
+sodavatten/CAYvX
 Sodom/A
 sodomi/EAX!
 sodomit/AHD
@@ -118034,6 +118258,7 @@ sopskyffel/EAIY
 sopsortera/NAPmDj
 sopsortering/ADGY
 sopstation/AHDYv
+sopsug/ADGv
 sopsäck/ADGYv
 soptipp/ADGYv
 soptunna/EAGY
@@ -119241,6 +119466,7 @@ splintved/ADY
 split/ABY
 splitsa/NAPmDj
 splitsning/ADY
+splitsnål/ADG
 splitt
 splitter/FCAYX
 splitterbomb/AHDYv
@@ -120091,6 +120317,7 @@ stabil/QOPY
 stabilisator/EAHYXU
 stabilisera/NAPmDY
 stabilisering/ADGYvf
+stabiliseringsfas/HD
 stabiliseringsmedel/FCAY
 stabiliseringspolitik/ADY
 stabiliseringspolitisk/OY
@@ -120183,6 +120410,7 @@ stadsgräns/HD
 Stadsgården/A
 Stadsgårds/XZ
 Stadsgårdskajen/A
+Stadsgårdsleden/A
 stadshagen/A%
 Stadshagen/A
 stadshotell/ABDY
@@ -120443,10 +120671,14 @@ stanozolol
 stans/bDG
 stansa/NAJPmY
 stansbar/Ok
+stansbiopsi/EAHX
 stansmall/ADG
 stansmaskin/AHD
 stansning/ADGYv
 stansoperatris/HD
+stansoperatör/AHDv
+stansplatta/EAGy
+stansring/ADGv
 Stanstorp/Av
 stansverktyg/ABDv
 stapel/EAYX
@@ -120661,7 +120893,7 @@ statsmannamässig/OY
 statsmannamässighet/ADY
 statsmannaskap/AB
 statsmedel/FAY
-statsminister/EAIYX
+statsminister/EAIYXU
 statsministerfru/EAGY
 statsministerkandidat/AHDY
 statsministerpost/ADY
@@ -121370,6 +121602,7 @@ stirra/NMAmBY
 stirrig/QOPk
 stirrighet/ADv
 stirrögd/Ok
+stissig/Ok
 Stjernberg/A
 Stjernkvist/A
 Stjernström/A
@@ -122202,6 +122435,7 @@ stretching/ADYX
 stretchjeans/DY
 stretchmaterial/ABDY
 stretchning/ADYv
+stretchnål/ADG
 stretchtyg/ABHDY
 stretchövning/ADGY
 stretig/OY
@@ -122220,6 +122454,7 @@ stridis/DG
 stridsberedd/OY
 Stridsberg/A
 stridsbåt/ADGv
+stridsdel/ADG!
 stridsduglig/OY
 stridsfartyg/ABDY
 stridsfas/HD
@@ -123009,6 +123244,7 @@ stybbig/Ok
 styck/bX
 stycka/NAPmDY
 styckare/EAJ
+styckdel/ADG!
 stycke/FECAY
 stycke-
 styckebruk/ABDY
@@ -123243,6 +123479,7 @@ stålman/FAYv
 stålmantlad/NQY
 stålmän/FAY
 stålnit/ADG
+stålnål/ADG
 stålomspunnen/Mk
 stålpelare/EAJ
 stålpil/ADG
@@ -123731,6 +123968,7 @@ suboptimera/NAPmDj
 suboptimering/ADGY
 subordination/ADYv
 subordinera/Mmj
+Suboxone/AX
 subprime/XZ
 subrett/AHbD
 subrettroll/AHDY
@@ -123944,6 +124182,7 @@ sumodräkt/AHD
 sumoturnering/ADG
 sump/AbDG
 sumpa/NAPmDY
+Sumpan/A!
 sumpbäver/EAIY
 sumpelritsa/EAG
 sumpgas/HD
@@ -124487,6 +124726,7 @@ svanfamilj/AHDv
 svang
 svanhals/DGX
 svanhalsad/NQY
+Svanholm/A
 svanhopp/ABDv
 svank/ADGY
 svanka/NAPmDj
@@ -124749,6 +124989,7 @@ Sweco/A
 sveda/KLAj
 sveda/EAY
 Svedala/eAX
+Swedavia/AX
 Swedbank/AX
 Svedberg/A
 svedd/Oj
@@ -124901,6 +125142,7 @@ svepdräkt/AHD
 svepduk/ADG
 svepeblad/ABDY
 svepelektronmikroskop/ABDY
+svephastighet/ADv
 svepning/ADGYv
 sveprörelse/EAI
 svepskäl/ABD
@@ -125825,6 +126067,7 @@ syskonförtur/AHDY
 syskongrupp/AHDY
 syskonkärlek/ADY
 syskonlig/OY
+syskonlik/Ok
 syskonmys/B
 syskonpar/ABDY
 syskonsex/B!
@@ -126577,6 +126820,7 @@ särvuxelev/AHD
 säryrkande/FECA
 säråtgärd/AHDY
 Särö/eAX
+Säröleden/A
 säsong/AHDYsvf
 säsongrensad/NQY
 säsongsanställning/ADGY
@@ -126713,6 +126957,7 @@ Södersvik/Av
 Södertälje/eAX
 södertörn/A%
 Södertörn/Av
+Södertörnsleden/A
 söderut
 Södervidinge/AX
 södervägg/ADGv
@@ -127159,6 +127404,7 @@ tagelmask/ADG
 tagelskjorta/EAGY
 tagen/Mk
 tager
+Tagesson/A
 tagetes/X
 tagg/AbDG
 tagga/NMAmDj
@@ -127467,6 +127713,7 @@ talgoxe/EAGYX
 talgproduktion/ADv
 talgögd/QOk
 talhandikapp/AB
+talhastighet/ADv
 talhinder/CA
 taliban/AHDYX
 talibangrupp/AHDY
@@ -128684,6 +128931,7 @@ tenderlok/ABDY
 Teneriffa/AX
 Tengblad/A
 Tengbom/A
+Tengroth/A
 Tengström/A
 Tenhult/dAv
 tenn/ABX
@@ -129298,6 +129546,7 @@ thaimassage/EAX
 thaimat/ADYv
 thaisiden/ABY
 thaisås/HD
+Thalén/A
 Tham/A
 Thatcher/AX
 thatcherism/AD
@@ -129982,6 +130231,7 @@ tillklämd/OY
 tillklämning/AD
 tillknuten/Mk
 tillknycklad/NQY
+tillknytning/ADv
 tillknäppt/QOPY
 tillknäppthet/ADv
 tillknölad/NQY
@@ -130265,6 +130515,7 @@ tillvaro/EAY
 tillverka/TNAPmBY
 tillverkar/XZU
 tillverkning/ADGYvf
+tillverkningsfas/HD
 tillverkningsfel/ABDY
 tillverkningsindustri/EAHY
 tillverkningskapacitet/ADY
@@ -130492,6 +130743,7 @@ timvisar/XZ
 timvisare/EAJY
 tina/NAPmD
 Tina/A
+Tinder/A!
 tinderögd/OY
 tindra/MmDj
 Tindra/A
@@ -131598,6 +131850,7 @@ Tom/A
 tomahawk/AHD
 Tomas
 Tomáš
+Tomasson/A!
 tomat/AHDYX
 tomatfrö/EAB
 tomatfröna/A
@@ -131627,6 +131880,7 @@ tomflaska/EAGY
 tomglas/BDX
 tomgång/ADYv
 tomgångskörning/ADY
+tomgångsnål/ADG
 tomhet/AHDv
 tomhetskänsla/EAGY
 tomhylsa/EAG
@@ -131975,6 +132229,7 @@ torkararm/ADG
 torkarblad/ABDYv
 torkdrabbad/NQY
 Torkel/A
+Torkelsson/A
 torkeri/ABH
 torkfläkt/ADG
 torkhandduk/ADGY
@@ -132347,6 +132602,7 @@ Tove/A
 Towe/A
 tovig/QOPY
 tovning/ADv
+tovningsnål/ADG
 tovsippa/EAG
 toxicitet/ADYv
 toxikolog/TAHDY
@@ -133088,6 +133344,7 @@ trepolig/Ok
 trepoängare/EAJY
 treprocentig/OY
 trepunktsbälte/FECAY
+trepunktslandning/ADG
 trepunktslänkage/ECA
 treradig/Ok
 trerading/ADGY
@@ -133531,6 +133788,7 @@ trollslända/EAGY
 trollslände/XZ
 trollsländeart/AHD
 trollsländelarv/AHD
+trollsmör/ABv
 trollspö/ECABYX
 trollspöna/AY
 trollstav/ADGYv
@@ -133664,7 +133922,7 @@ trostolkning/ADG
 trostradition/AHD
 trostyg/AB
 trosundervisning/AD
-trosuppfattning/ADGY
+trosuppfattning/ADGYv
 trosurkund/AHDY
 trosutövare/EAJ
 trosutövning/AD
@@ -133694,6 +133952,7 @@ trotsreaktion/AHD
 trotssyndrom/ABD
 trotsålder/EAIY
 trottel/EAIYX
+trottelnål/ADGv
 trottoar/AHDYX
 trottoarkant/AHDYv
 trottoarpratare/EAJ
@@ -133761,6 +134020,7 @@ trummaskin/AHDY
 trummis/DGYX
 trummiss/DG%
 trumning/ADG
+Trump/A!
 trumpen/KMLY
 trumpenhet/AD
 trumpet/AHDYX
@@ -134324,6 +134584,7 @@ tränsbett/ABDYv
 tränsdel/ADG
 tränshängare/EAJ
 tränsning/AD
+tränsväska/EAG
 träpall/ADGv
 träpanel/AHDYv
 träpannå/EAH
@@ -134540,6 +134801,7 @@ tsunamivåg/ADY
 tsunamivågor/AJY
 Tsvangirai/A
 TT-/JX
+TTIP/r
 T-tröja/EAG
 TT-telegram/FCA
 tu/b
@@ -134707,6 +134969,7 @@ tummelplats/HDY
 tummetott/ADGY
 tumnagel/EAIX
 tumregel/EAJ
+tumrot/Dv
 tums/36
 tums-
 tumsbred/Ok
@@ -135227,6 +135490,7 @@ tvisteämne/FECAY
 tvistig/OPk
 tvistighet/AHDY
 tvistsöm/FAI
+twitter/FCAX
 Twitter/AX
 Twitteranvändare/EAJ
 Twitterflöde/FECA
@@ -136388,6 +136652,7 @@ tömköra/KLAJDj
 tömkörning/ADv
 tömkörningsgjord/ADGv
 tömma/KLODI
+tömmare/EAJY!
 tömning/ADGYvf
 tömring/ADG
 Tönnersjö/AX
@@ -136460,6 +136725,7 @@ U19/r
 U21/r
 u.a.
 Ubbhult/Av
+Uber/A!
 Ubuntu/AX
 ubåt/ADGYvf
 ubåtsbaserad/NQY
@@ -136945,6 +137211,7 @@ underhållsbeskära/AJj
 underhållsbeskärs/j
 underhållsbidrag/ABDY
 underhållsdos/HD
+underhållsfas/HD!
 underhållsfri/OY
 underhållskostnad/AHDY
 underhållsladda/NAPmj
@@ -137963,6 +138230,7 @@ upplandad/NQY
 upplandning/ADY
 Upplands-Bro/eAX
 Upplandskusten/A
+Upplandsleden/A
 Upplandsnytt/A
 Upplands-Väsby/A
 uppleta/NAPmDY
@@ -138420,6 +138688,7 @@ uppstötta/JPk
 uppstöttning/ADY
 uppsugen/Mk
 uppsugning/ADYvf
+uppsugningsdel/ADG!
 uppsugningsnål/ADG
 uppsupen/Mk
 uppsutten/MY
@@ -139011,6 +139280,7 @@ uschiamej
 uschlig/OPY
 usel/KML
 uselhet/AHDv
+uska/EAG!
 uslig/OPk
 usling/ADGY
 usurpation/ADYv
@@ -139045,7 +139315,7 @@ utannonsera/NAPmBY
 utannonsering/ADGYv
 utanordna/NAPmDj
 utanordnare/EAJ
-utanordning/ADGY
+utanordning/ADGYv
 utanpå
 utanpåficka/EAGY
 utanpåliggande/Y
@@ -139363,6 +139633,7 @@ uteplagg/ABD
 uteplats/HDYX
 uterestaurang/AHDY
 uteridbana/EAG
+uteridning/ADv
 uterink/ADG
 uteritt/AHDv
 uterum/FCAv
@@ -140100,7 +140371,7 @@ utrotningshotad/NQY
 utrotningskrig/ABDY
 utrotningsläger/FCAY
 utrullad/NQk
-utrullning/ADYv
+utrullning/ADGYv
 utrum/A
 utrunnen/Mk
 utrusande/Y
@@ -141026,6 +141297,7 @@ valframgång/ADGY
 valfri/Ok
 Valfrid/A
 Valfridsson/A
+Walfridsson/A
 valfrihet/ADYv
 valfråga/EAG
 valfrändskap/AHDv
@@ -141934,6 +142206,7 @@ varvig/Ok
 varvning/ADGYv
 varvräknar/XZ
 varvräknare/EAJY
+varvräknarnål/ADG
 varvsanställd/QOY
 varvsarbetare/EAJY
 Varvsberget/A
@@ -141998,6 +142271,7 @@ vasmålning/ADG
 vasomotorisk/OY
 vasopressin/ABX
 vass/QOPbDG
+Wass/!
 Wassberg/A
 vassbevuxen/Mk
 vassblad/ABD
@@ -142450,6 +142724,7 @@ veckopeng/ADGYv
 veckopress/DYX
 Veckorevyn/A
 veckors/36
+veckorsfas/HDZ6
 veckoschema/ECAY
 veckoschemana/AY
 veckoslut/ABDYv
@@ -142827,6 +143102,7 @@ verbfras/HD
 verbsalt/A%
 verbtempus/BD
 verbändelse/EAIY
+Verdandi/AX
 Verde/A
 Verdi/AX
 Vergilius
@@ -143025,6 +143301,7 @@ Vesterlund/A
 Westerlund/A
 Westermark/A
 western/AX
+westernträns/BD
 Westerstrand/A
 Westfalen/AX
 westfalisk/QOY
@@ -143228,7 +143505,7 @@ vicepresidentkandidat/AHD
 vicerektor/EAHY
 vicevärd/ADGYv
 Vichyregimen/A
-vichyvatten/CAY
+vichyvatten/CAYXv
 vick/ABD
 vicka/NMAmDY
 Vickan/A
@@ -143398,7 +143675,7 @@ vidtagen/Mj
 vidtager/j
 vidtagit/Aj
 vidtags/j
-vidtala/NAPmj
+vidtala/NAPmDj
 vidtog/Aj
 vidunder/FCAY
 vidunderlig/QOPY
@@ -143470,7 +143747,7 @@ vigselrätt/AHDY
 vigseltal/ABDY
 Wigström/A
 wigwam/AHDY
-vigvatten/CAY
+vigvatten/CAYXv
 vigvattenskål/ADG
 vigvattensskål/ADG
 vigör/AD
@@ -143519,6 +143796,7 @@ vikingaskepp/ABDYv
 vikingatid/ADY
 vikingatida/Yv
 vikingatåg/ABDY
+Wikingsson/A
 Vikingstad/Av
 wikipedia/XZ
 Wikipedia/A
@@ -143558,6 +143836,7 @@ viktklass/HDY
 viktlös/O
 viktlöshet/ADYv
 viktminskning/ADGY
+viktminskningsfas/HD!
 viktmått/ABDY
 viktnedgång/ADGYv
 viktning/ADGYv
@@ -143570,6 +143849,7 @@ viktorian/AHDY
 viktorianism/ADY
 viktoriansk/QOY
 Viktorsson/A
+Wiktorsson/A
 viktproblem/ABDY
 viktprocent/ADY
 viktras/B
@@ -145002,6 +145282,7 @@ Volvo/EAX
 Volvochef/AHD
 Volvokombi/EAX
 volym/AHDYX
+volymdel/ADG!
 volymenhet/AHDY
 volymetrisk/Ok
 volymförändring/ADGY
@@ -146747,6 +147028,7 @@ värma/KLAODj
 värmar/XZU
 värmare/EAJY
 Värmdö/eAX
+Värmdöleden/A
 värme/EAYX
 värme-
 värmeanläggning/ADGY
@@ -146951,6 +147233,7 @@ Västerkyrkan/A
 västerland/AB
 Västerlanda/AX
 västerled/Y
+Västerleden/A!
 Västerljung/A
 Västerlånggatan/A
 västerläge/FECAY
@@ -147160,6 +147443,7 @@ växlingsrik/OY
 växt/AHDYX
 växtart/AHDY
 växtbytardag/ADGY
+växtbytare/EAJz
 växtcell/AHD
 växtdel/ADGYv
 växte
@@ -150392,6 +150676,7 @@ Zürich/eAX
 öra/CA
 Örby/AX
 Örbyhus/X
+Örbyleden/A
 Örbäck/ADv
 öre/FECAv
 Örebro/AX
@@ -150566,6 +150851,7 @@ Zürich/eAX
 östblocksstat/AHDY
 Östby/eAX
 Östen/A
+Östensson/A
 öster/EAb
 Österberg/A
 Österbotten/AX
@@ -150638,6 +150924,7 @@ Zürich/eAX
 östgräns/HDY
 Östgöta/X
 östgötadialekt/AHD
+Östgötaleden/A
 Östgötaslätten/A
 östgöte/EAG
 östgötsk/QOk
