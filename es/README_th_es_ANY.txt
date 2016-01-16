@@ -1,21 +1,21 @@
-OpenThesaurus - Separación silábica y Tesauro Español - Versión para OpenOffice.org
+OpenThesaurus - Separación silábica y Tesauro Español - Versión para LibreOffice
 Marcelo Garrone (mgarrone at users.sf.net)
 Snapshot, generado automáticamente: 2012-01-11 21:33
 Homepage: http://openthes-es.berlios.de
 
 Requisitos: ==========================================================
 
- OpenOffice.org 3.0 o superior
+ OpenOffice.org 3.0, LibreOffice o superior
 
 
 Nota: ================================================================
 
-    * Se asume que OOo está bien instalado.
+    * Se asume que OOo/LibreOffice está bien instalado.
     * El diccionario de sinónimos y separación silábica es el mismo para Windows como para Linux.
 
 Instalación: =========================================================
 
-La instalación es sencilla. En OpenOffice.org 3:
+La instalación es sencilla. En LibreOffice/OpenOffice.org 3:
 Herramientas -> Administrador de Extensiones -> Agregar
 
 licencia: =========================================================
