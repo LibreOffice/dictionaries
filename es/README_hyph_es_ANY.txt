@@ -1,10 +1,10 @@
-  ****************************************************************************
-  **                                                                        **
-  **  Patrones de separación silábica en español para OpenOffice.org        **
-  **                                                                        **
-  ****************************************************************************
-  **  VERSIÓN GENÉRICA PARA TODAS LAS LOCALIZACIONES DEL ESPAÑOL            **
-  ****************************************************************************
+***************************************************************************
+  **                                                                     **
+  **  Patrones de separación silábica en español para LibreOffice        **
+  **                                                                     **
+  *************************************************************************
+  **  VERSIÓN GENÉRICA PARA TODAS LAS LOCALIZACIONES DEL ESPAÑOL         **
+  *************************************************************************
 
                                  Versión 0.2
 
@@ -43,6 +43,11 @@ utilizará este listado.
     Encontrará copias de las licencias adjuntas en este mismo paquete.
 
 3. INSTALACIÓN
+
+   NOTA: en el resto del documento, cada aparición de OpenOffice.org puede
+entenderse referida también a LibreOffice. No obstante, tenga en cuenta que
+la primera versión de LibreOffice es compatible con OpenOffice.org 3.x, por
+lo que las menciones a OpenOffice.org 1.x y 2.x no son aplicables a LibreOffice.
 
    En OpenOffice.org versión 3.x y superior, utilice el administrador de
 extensiones, seleccionando para instalar directamente el fichero con
