@@ -37,13 +37,13 @@ def classify(typ):
     if typ == '':
         return ''
     elif typ == 'adj':
-        return '(adj)'
+        return '(příd. jm.)'
     elif typ == 'adv':
-        return '(adv)'
+        return '(přísl.)'
     elif typ == 'n':
-        return '(noun)'
+        return '(podst. jm.)'
     elif typ == 'v':
-        return '(verb)'
+        return '(slov.)'
 
     return ''
 
