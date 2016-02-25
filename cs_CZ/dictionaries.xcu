@@ -24,6 +24,17 @@
                 <value>cs-CZ</value>
             </prop>
         </node>
+        <node oor:name="ThesDic_cs_CZ" oor:op="fuse">
+            <prop oor:name="Locations" oor:type="oor:string-list">
+                <value>%origin%/thes_cs_CZ.dat %origin%/thes_cs_CZ.idx</value>
+            </prop>
+            <prop oor:name="Format" oor:type="xs:string">
+                <value>DICT_THES</value>
+            </prop>
+            <prop oor:name="Locales" oor:type="oor:string-list">
+                <value>cs-CZ</value>
+            </prop>
+        </node>
     </node>
   </node>
 </oor:component-data>
