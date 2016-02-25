@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding=utf-8
 #
 # This file is part of the LibreOffice project.
 #
@@ -14,7 +15,17 @@
 # thanks! :-)
 
 import os
+import re
 import sys
+
+# add here the Czech words we want to leave out from the thesaurus generation
+# (misbehaving, mistranslated, etc.)
+ignore_words = [
+    '?',
+    '(by the way)',
+    '(po)štvat',
+    '14. písmeno hebrejské abecedy',
+]
 
 def usage():
     message = """Usage: {program} slovnik_data_utf8.txt
@@ -22,9 +33,26 @@ def usage():
   slovnik_data_utf8.txt: Dictionary data from http://slovnik.zcu.cz/download.php"""
     print(message.format(program = os.path.basename(sys.argv[0])))
 
+def classify(typ):
+    if typ == '':
+        return ''
+    elif typ == 'adj':
+        return '(adj)'
+    elif typ == 'adv':
+        return '(adv)'
+    elif typ == 'n':
+        return '(noun)'
+    elif typ == 'v':
+        return '(verb)'
+
+    return ''
+
 def parse(filename):
     synonyms = {}
     meanings = {}
+
+    match_ignore = re.compile('(\[neprav\.\]|\[vulg\.\])')
+    match_cleanup = re.compile('(\[.*\]|\*|:.*)')
 
     with open(filename, "r") as fp:
         for line in fp:
@@ -42,14 +70,29 @@ def parse(filename):
                     continue
 
                 word = terms[1].strip()
-                if (word == ''):
+                if (word != '' and word[0] == '"' and word[len(word)-1] == '"'):
+                    word = word.strip('" ')
+
+                if (word == '' or word in ignore_words):
                     continue
-                #type = terms[2] TODO for now the type (n:, adj:, ...) is ignored
+
+                typ = ''
+                if (len(terms) >= 2):
+                    typ = terms[2]
+
+                    # ignore non-translations
+                    if match_ignore.search(typ) != None:
+                        continue
+
+                    typ = match_cleanup.sub('', typ)
+                    typ = typ.strip()
+
+                typ = classify(typ)
 
                 if index in synonyms:
-                    synonyms[index].append(word)
+                    synonyms[index].append( (word, typ) )
                 else:
-                    synonyms[index] = [ word ]
+                    synonyms[index] = [ (word, typ) ]
 
                 if word in meanings:
                     meanings[word].append(index)
@@ -73,15 +116,26 @@ def buildThesaurus(synonyms, meanings):
         for index in indexes:
             syns = synonyms[index]
 
-            line = ''
-            for syn in syns:
-                if not syn in used_this_round:
-                    line += '|' + syn
-                    used_this_round.append(syn)
+            # collect types first
+            types = []
+            for (w, t) in syns:
+                if not t in types:
+                    types.append(t)
 
-            if line != '':
-                # TODO prepend the line with '(adj)' or '(noun)' or so; see 'type' above
-                output_lines.append(line)
+            line = {}
+            for syn in syns:
+                (w, t) = syn
+                if not w in used_this_round:
+                    if t in line:
+                        line[t] += '|' + w
+                    else:
+                        line[t] = '|' + w
+                    used_this_round.append(w)
+
+            if len(line) != 0:
+                for t in types:
+                    if t in line:
+                        output_lines.append(t + line[t])
 
         if len(output_lines) > 0:
             print word + '|' + str(len(output_lines))
