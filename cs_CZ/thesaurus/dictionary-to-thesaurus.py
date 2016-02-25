@@ -18,20 +18,13 @@ import os
 import re
 import sys
 
-# add here the Czech words we want to leave out from the thesaurus generation
-# (misbehaving, mistranslated, etc.)
-ignore_words = [
-    '?',
-    '(by the way)',
-    '(po)štvat',
-    '14. písmeno hebrejské abecedy',
-]
-
 def usage():
-    message = """Usage: {program} slovnik_data_utf8.txt
+    message = """Usage: {program} slovnik_data_utf8.txt backlist.txt
 
-  slovnik_data_utf8.txt: Dictionary data from http://slovnik.zcu.cz/download.php"""
-    print(message.format(program = os.path.basename(sys.argv[0])))
+  slovnik_data_utf8.txt: Dictionary data from http://slovnik.zcu.cz/download.php
+  blacklist.txt:         List of words that should be ignored when generating
+"""
+    sys.stderr.write(message.format(program = os.path.basename(sys.argv[0])))
 
 def classify(typ):
     if typ == '':
@@ -47,7 +40,18 @@ def classify(typ):
 
     return ''
 
-def parse(filename):
+def parse(filename, blacklistname):
+    blacklist = {}
+
+    with open(blacklistname, "r") as fp:
+        for line in fp:
+            if (line == ''):
+                continue
+            elif (line[0] == '#'):
+                continue
+            else:
+                blacklist[line.strip(' \n')] = 1
+
     synonyms = {}
     meanings = {}
 
@@ -73,7 +77,13 @@ def parse(filename):
                 if (word != '' and word[0] == '"' and word[len(word)-1] == '"'):
                     word = word.strip('" ')
 
-                if (word == '' or word in ignore_words):
+                if (word == ''):
+                    continue
+
+                if (index + '\t' + word in blacklist or
+                        index in blacklist or
+                        index + '\t' in blacklist or
+                        '\t' + word in blacklist):
                     continue
 
                 typ = ''
@@ -143,11 +153,11 @@ def buildThesaurus(synonyms, meanings):
                 print line
 
 def main(args):
-    if (len(args) != 2):
+    if (len(args) != 3):
         usage()
         sys.exit(1)
 
-    (synonyms, meanings) = parse(args[1])
+    (synonyms, meanings) = parse(args[1], args[2])
 
     print "UTF-8"
     buildThesaurus(synonyms, meanings)
