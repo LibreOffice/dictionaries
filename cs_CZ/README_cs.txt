@@ -1,4 +1,4 @@
-﻿Toto rozšíření obsahuje české slovníky pro OpenOffice.org.
+Toto rozšíření obsahuje české slovníky pro OpenOffice.org.
 
 Kontrola pravopisu
 ------------------

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Linguistic" oor:package="org.openoffice.Office">
- <node oor:name="ServiceManager">
-     
+  <node oor:name="ServiceManager">
     <node oor:name="Dictionaries">
         <node oor:name="HunSpellDic_cs_CZ" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
@@ -26,7 +25,5 @@
             </prop>
         </node>
     </node>
- </node>  
+  </node>
 </oor:component-data>
-
-
