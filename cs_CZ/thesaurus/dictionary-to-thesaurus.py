@@ -54,6 +54,7 @@ def parse(filename, blacklistname):
 
     synonyms = {}
     meanings = {}
+    classification = {}
 
     match_ignore = re.compile('(\[neprav\.\]|\[vulg\.\])')
     match_cleanup = re.compile('(\[.*\]|\*|:.*)')
@@ -109,15 +110,27 @@ def parse(filename, blacklistname):
                 else:
                     meanings[word] = [ index ]
 
-    return (synonyms, meanings)
+                if typ != '':
+                    if word in classification:
+                        if not typ in classification[word]:
+                            classification[word].append(typ)
+                    else:
+                        classification[word] = [ typ ]
 
-def buildThesaurus(synonyms, meanings):
+    return (synonyms, meanings, classification)
+
+def buildThesaurus(synonyms, meanings, classification):
     # for every word:
     #   find all the indexes, and then again map the indexes to words - these are the synonyms
     for word in sorted(meanings.keys()):
         # we assume that various indexes (english words here) are various
         # meanings; not generally true, but...
         indexes = meanings[word]
+
+        # only limit the words if the type is unambiguous
+        typ = ''
+        if word in classification and len(classification[word]) == 1:
+            typ = classification[word][0]
 
         # we want to output each word just once
         used_this_round = [ word ]
@@ -132,9 +145,14 @@ def buildThesaurus(synonyms, meanings):
                 if not t in types:
                     types.append(t)
 
+            # build the various thesaurus lines
             line = {}
             for syn in syns:
                 (w, t) = syn
+
+                if typ != '' and t != '' and typ != t:
+                    continue
+
                 if not w in used_this_round:
                     if t in line:
                         line[t] += '|' + w
@@ -145,7 +163,11 @@ def buildThesaurus(synonyms, meanings):
             if len(line) != 0:
                 for t in types:
                     if t in line:
-                        output_lines.append(t + line[t])
+                        if typ == '':
+                            # classification is abmiguous, output the type too
+                            output_lines.append(t + line[t])
+                        else:
+                            output_lines.append(line[t])
 
         if len(output_lines) > 0:
             print word + '|' + str(len(output_lines))
@@ -157,10 +179,10 @@ def main(args):
         usage()
         sys.exit(1)
 
-    (synonyms, meanings) = parse(args[1], args[2])
+    (synonyms, meanings, classification) = parse(args[1], args[2])
 
     print "UTF-8"
-    buildThesaurus(synonyms, meanings)
+    buildThesaurus(synonyms, meanings, classification)
 
 if __name__ == "__main__":
     main(sys.argv)
