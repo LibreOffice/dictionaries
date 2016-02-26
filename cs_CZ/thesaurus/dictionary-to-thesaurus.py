@@ -163,16 +163,22 @@ def buildThesaurus(synonyms, meanings, classification):
             if len(line) != 0:
                 for t in types:
                     if t in line:
-                        if typ == '':
-                            # classification is abmiguous, output the type too
-                            output_lines.append(t + line[t])
-                        else:
-                            output_lines.append(line[t])
+                        output_lines.append( (t, line[t]) )
 
         if len(output_lines) > 0:
             print word + '|' + str(len(output_lines))
-            for line in output_lines:
-                print line
+
+            # those with existing classification are probably a better fit,
+            # put them to the front (even if we don't output the
+            # classification in the end)
+            for i in [0, 1]:
+                for (t, line) in output_lines:
+                    # first pass only non-empty, 2nd pass only empty
+                    if (i == 0 and t != '') or (i == 1 and t == ''):
+                        if typ == '':
+                            print t + line
+                        else:
+                            print line
 
 def main(args):
     if (len(args) != 3):
