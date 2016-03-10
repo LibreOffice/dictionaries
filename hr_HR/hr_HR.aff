@@ -1,6 +1,46 @@
-SET ISO8859-2
+SET UTF-8
 
-TRY ABCDEFGHIJKLMNOPQRSTUVWXY�����о�abcdefghijklmnopqrstuvwxy
+TRY ABCDEFGHIJKLMNOPQRSTUVWXYćĆčČđĐžŽabcdefghijklmnopqrstuvwxy
+
+NEEDAFFIX Z
+
+REP 33
+REP x ks
+REP xy ksi
+REP c ds
+REP c ts
+REP đ dž
+REP dž đ
+REP e ije
+REP iš$ išta
+REP eš$ ešto
+REP aš$ ašto
+REP ljnj nj
+REP aću$ at_ću
+REP aćeš$ at_ćeš
+REP aće$ at_će
+REP aćemo$ at_ćemo
+REP aćete$ at_ćete
+REP iću$ it_ću
+REP ićeš$ it_ćeš
+REP iće$ it_će
+REP ićemo$ it_ćemo
+REP ićete$ it_ćete
+REP šću$ st_ću
+REP šćeš$ st_ćeš
+REP šće$ st_će
+REP šćemo$ st_ćemo
+REP šćete$ st_ćete
+REP eću$ et_ću
+REP ećeš$ et_ćeš
+REP eće$ et_će
+REP ećemo$ et_ćemo
+REP ećete$ et_ćete
+REP vaoc$ valac
+REP ^apriori$ a_priori
+
+BREAK 1
+BREAK -
 
 SFX A Y 13
 SFX A 0 a [^aeiou]
@@ -17,10 +57,9 @@ SFX A e a e
 SFX A e u e
 SFX A e em e
 
-
 SFX B Y 5
 SFX B ti m ti
-SFX B ti � ti
+SFX B ti š ti
 SFX B ti mo ti
 SFX B ti te ti
 SFX B ti u ti
@@ -29,11 +68,11 @@ SFX C Y 4
 SFX C ti h ti
 SFX C ti smo ti
 SFX C ti ste ti
-SFX C ti �e ti
+SFX C ti še ti
 
 SFX D Y 5
 SFX D ti h ti
-SFX D ti �e ti
+SFX D ti še ti
 SFX D ti smo ti
 SFX D ti ste ti
 SFX D ti hu ti
@@ -43,23 +82,19 @@ SFX E ti o ti
 SFX E ti li ti
 SFX E ti la ti
 
-
-
 SFX F Y 5
 SFX F ti h ti
-SFX F ti �e ti
+SFX F ti še ti
 SFX F ti smo ti
 SFX F ti ste ti
 SFX F iti hu ti
 
 SFX G Y 5
 SFX G ti m ti
-SFX G ti � ti
+SFX G ti š ti
 SFX G ti mo ti
 SFX G ti te ti
 SFX G iti e iti
-
-
 
 SFX H Y 6
 SFX H 0 a .
@@ -85,7 +120,6 @@ SFX J 0 ih .
 SFX J 0 im .
 SFX J 0 o .
 
-
 SFX K Y 6
 SFX K 0 a .
 SFX K 0 u .
@@ -93,7 +127,6 @@ SFX K 0 i .
 SFX K 0 ih .
 SFX K 0 ima .
 SFX K 0 o .
-
 
 SFX L Y 2
 SFX L 0 oj .
@@ -104,3 +137,156 @@ SFX M a e a
 SFX M a i a
 SFX M a o a
 SFX M a u a
+
+SFX N Y 3
+SFX N 0 a og
+SFX N 0 u om
+SFX N 0 e om
+
+SFX O Y 26
+SFX O i og/N ni
+SFX O i om/N ni
+SFX O i o ni
+SFX O i im ni
+SFX O i a ni
+SFX O i e ni
+SFX O i oj ni
+SFX O 0 h ni
+SFX O i u ni
+SFX O i og/N nji
+SFX O i om/N nji
+SFX O i im nji
+SFX O i a nji
+SFX O i e nji
+SFX O i oj nji
+SFX O 0 h nji
+SFX O i u nji
+SFX O i og/N li
+SFX O i om/N li
+SFX O i o li
+SFX O i im li
+SFX O i a li
+SFX O i e li
+SFX O i oj li
+SFX O 0 h li
+SFX O i u li
+
+SFX P Y 5
+SFX P 0 a .
+SFX P 0 u .
+SFX P 0 om .
+SFX P 0 i .
+SFX P 0 ima .
+
+SFX Q Y 30
+SFX Q ijeti im ijeti
+SFX Q ijeti iš ijeti
+SFX Q ijeti i ijeti
+SFX Q ijeti imo ijeti
+SFX Q ijeti ite ijeti
+SFX Q ijeti e ijeti
+SFX Q iti im iti
+SFX Q iti iš iti
+SFX Q iti i iti
+SFX Q iti imo iti
+SFX Q iti ite iti
+SFX Q iti e iti
+SFX Q jeti im jeti
+SFX Q jeti iš jeti
+SFX Q jeti i jeti
+SFX Q jeti imo jeti
+SFX Q jeti ite jeti
+SFX Q jeti e jeti
+SFX Q zati žem zati
+SFX Q zati žeš zati
+SFX Q zati že zati
+SFX Q zati žemo zati
+SFX Q zati žete zati
+SFX Q zati žu zati
+SFX Q ati am [^z]ati
+SFX Q ati aš [^z]ati
+SFX Q ati a [^z]ati
+SFX Q ati amo [^z]ati
+SFX Q ati ate [^z]ati
+SFX Q ati ju [^z]ati
+
+SFX R Y 30
+SFX R an ni an
+SFX R an n/PZ na
+SFX R an nog an
+SFX R an noga an
+SFX R an nom an
+SFX R an nome an
+SFX R an nomu an
+SFX R an nim an
+SFX R an no an
+SFX R an na an
+SFX R an ne an
+SFX R an noj an
+SFX R an nih an
+SFX R an nu an
+SFX R an nom an
+SFX R 0 i en
+SFX R 0 0/PZ en
+SFX R 0 og en
+SFX R 0 oga en
+SFX R 0 om en
+SFX R 0 ome en
+SFX R 0 omu en
+SFX R 0 im en
+SFX R 0 o en
+SFX R 0 a en
+SFX R 0 e en
+SFX R 0 oj en
+SFX R 0 ih en
+SFX R 0 u en
+SFX R 0 om en
+
+SFX S Y 4
+SFX S 0 a .
+SFX S 0 u .
+SFX S 0 em [jčćđ]
+SFX S 0 om [^jčćđ]
+
+SFX T Y 3
+SFX T 0 i .
+SFX T 0 e .
+SFX T 0 ima .
+
+SFX U Y 5
+SFX U a e a
+SFX U a i a
+SFX U a u a
+SFX U a om a
+SFX U 0 ama a
+
+SFX V Y 3
+SFX V 0 i st
+SFX V 0 ima st
+SFX V 0 st šću st
+
+SFX W Y 12
+SFX W 0 og .
+SFX W 0 oga .
+SFX W 0 om .
+SFX W 0 omu .
+SFX W 0 ome .
+SFX W 0 im .
+SFX W 0 i .
+SFX W 0 ih .
+SFX W 0 oj .
+SFX W 0 e . 
+SFX W 0 a .
+SFX W 0 ima .
+
+SFX X Y 6
+SFX X ar ra ar
+SFX X ar ru ar
+SFX X ar rom ar
+SFX X ar ri ar
+SFX X 0 a ar
+SFX X ar rima ar
+
+SFX Y Y 2
+SFX Y n ni an
+SFX Y 0 0/PZ na
