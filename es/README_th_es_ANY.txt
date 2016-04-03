@@ -1,21 +1,21 @@
-OpenThesaurus - Separación silábica y Tesauro Español - Versión para LibreOffice
+OpenThesaurus - SeparaciÃ³n silÃ¡bica y Tesauro EspaÃ±ol - VersiÃ³n para Apache OpenOffice/LibreOffice
 Marcelo Garrone (mgarrone at users.sf.net)
-Snapshot, generado automáticamente: 2012-01-11 21:33
+Snapshot, generado automÃ¡ticamente: 2012-01-11 21:33
 Homepage: http://openthes-es.berlios.de
 
 Requisitos: ==========================================================
 
- OpenOffice.org 3.0, LibreOffice o superior
+ Apache OpenOffice/LibreOffice
 
 
 Nota: ================================================================
+    
+    * Se asume que Apache OpenOffice/LibreOffice estÃ¡ bien instalado.
+    * El diccionario de sinÃ³nimos y separaciÃ³n silÃ¡bica es el mismo para Windows como para Linux.
 
-    * Se asume que OOo/LibreOffice está bien instalado.
-    * El diccionario de sinónimos y separación silábica es el mismo para Windows como para Linux.
+InstalaciÃ³n: =========================================================
 
-Instalación: =========================================================
-
-La instalación es sencilla. En LibreOffice/OpenOffice.org 3:
+La instalaciÃ³n es sencilla. En Apache OpenOffice/LibreOffice:
 Herramientas -> Administrador de Extensiones -> Agregar
 
 licencia: =========================================================
@@ -168,7 +168,7 @@ such a program is covered only if its contents constitute a work based
 on the Library (independent of the use of the Library in a tool for
 writing it).  Whether that is true depends on what the Library does
 and what the program that uses the Library does.
-
+  
   1. You may copy and distribute verbatim copies of the Library's
 complete source code as you receive it, in any medium, provided that
 you conspicuously and appropriately publish on each copy an
@@ -521,4 +521,4 @@ necessary.  Here is a sample; alter the names:
   <signature of Ty Coon>, 1 April 1990
   Ty Coon, President of Vice
 
-That's all there is to it!
+That's all there is to it! 

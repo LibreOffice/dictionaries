@@ -1,10 +1,11 @@
-***************************************************************************
-  **                                                                     **
-  **  Patrones de separación silábica en español para LibreOffice        **
-  **                                                                     **
-  *************************************************************************
-  **  VERSIÓN GENÉRICA PARA TODAS LAS LOCALIZACIONES DEL ESPAÑOL         **
-  *************************************************************************
+  ****************************************************************************
+  **                                                                        **
+  **              Patrones de separación silábica en español de             **
+  **                      Apache OpenOffice/LibreOffice                     **
+  **                                                                        **
+  ****************************************************************************
+  **  VERSIÓN GENÉRICA PARA TODAS LAS LOCALIZACIONES DEL ESPAÑOL            **
+  ****************************************************************************
 
                                  Versión 0.2
 
@@ -44,12 +45,7 @@ utilizará este listado.
 
 3. INSTALACIÓN
 
-   NOTA: en el resto del documento, cada aparición de OpenOffice.org puede
-entenderse referida también a LibreOffice. No obstante, tenga en cuenta que
-la primera versión de LibreOffice es compatible con OpenOffice.org 3.x, por
-lo que las menciones a OpenOffice.org 1.x y 2.x no son aplicables a LibreOffice.
-
-   En OpenOffice.org versión 3.x y superior, utilice el administrador de
+   En Apache OpenOffice/LibreOffice, utilice el administrador de
 extensiones, seleccionando para instalar directamente el fichero con
 extensión ".oxt".
 
@@ -63,7 +59,7 @@ a) Copie el fichero hyph_es_ANY.dic en la carpeta de instalación de
 manera que esté disponible para todos los usuarios, copiando el fichero al
 directorio de diccionarios de la suite. Este directorio depende de la
 plataforma de instalación. Podrá ubicarlo si ingresa en el ítem Opciones
-del menú Herramientas. Despliegue la primer lista, etiquetada "OpenOffice.org"
+del menú Herramientas. Despliegue la primera lista, etiquetada "OpenOffice.org"
 y seleccione el ítem Rutas. La carpeta donde debe copiar los ficheros se
 denomina "ooo", y la encontrará bajo el directorio que figura en la lista de
 rutas con el tipo "Lingüística".
@@ -142,7 +138,8 @@ nuevos.
 
    Si necesitara ayuda para realizar cualquiera de estos pasos, envíe un
 mensaje al encargado de mantenimiento del diccionario, o a las listas de
-correo del proyecto OpenOffice.org en español (http://es.openoffice.org/).
+correo del proyecto Apache OpenOffice en español
+(http://www.openoffice.org/es/soporte/listas.html).
 
 
 4. COLABORACIÓN

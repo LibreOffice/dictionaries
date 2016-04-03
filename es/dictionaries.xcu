@@ -26,7 +26,7 @@
         </node>
         <node oor:name="ThesDic_es-ANY" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/th_es_ANY_v2.dat %origin%/th_es_ANY_v2.idx</value>
+                <value>%origin%/th_es_ES_v2.dat %origin%/th_es_ES_v2.idx</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_THES</value>
@@ -38,3 +38,5 @@
     </node>
  </node>
 </oor:component-data>
+
+
