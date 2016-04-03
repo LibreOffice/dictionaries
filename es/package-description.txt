@@ -1,7 +1,7 @@
-Ortografía 2.0 · Separación 0.2 · Sinónimos 24/02/2013
+Ortografía 2.1 · Separación 0.2 · Sinónimos 24/02/2013
 
 Para notificar errores y solicitar la inclusión de nuevos términos,
-hacer clic sobre el enlace. 
+hacer clic sobre el enlace.
 
 Esta extensión añade la compatibilidad en idioma español de España y América Latina
 para las herramientas de asistencia a la escritura (revisión ortográfica,

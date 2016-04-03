@@ -3449,7 +3449,7 @@ SFX Ì uzar úzalas uzar
 SFX Ì uzar úzala uzar
 SFX Ì uzar úzalos uzar
 SFX Ì uzar úzalo uzar
-SFX Í Y 164
+SFX Í Y 168
 SFX Í abar ábame abar
 SFX Í abar ábanos abar
 SFX Í r me r
@@ -3508,6 +3508,8 @@ SFX Í eer éeme eer
 SFX Í eer éenos eer
 SFX Í egar égame egar
 SFX Í egar éganos egar
+SFX Í eger égeme eger
+SFX Í eger égenos eger
 SFX Í egrar égrame egrar
 SFX Í egrar égranos egrar
 SFX Í ejar éjame ejar
@@ -3542,6 +3544,8 @@ SFX Í evar évame evar
 SFX Í evar évanos evar
 SFX Í ibir íbeme ibir
 SFX Í ibir íbenos ibir
+SFX Í ibrar íbrame ibrar
+SFX Í ibrar íbranos ibrar
 SFX Í icar ícame icar
 SFX Í icar ícanos icar
 SFX Í iciar íciame iciar
