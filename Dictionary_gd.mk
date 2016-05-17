@@ -13,6 +13,7 @@ $(eval $(call gb_Dictionary_add_files,dict-gd,dictionaries,\
 	dictionaries/gd_GB/dictionaries/gd_GB.aff \
 	dictionaries/gd_GB/dictionaries/gd_GB.dic \
 	dictionaries/gd_GB/dictionaries/README_gd_GB.txt \
+	dictionaries/gd_GB/LICENSES-en.txt \
 ))
 
 # vim: set noet sw=4 ts=4:
