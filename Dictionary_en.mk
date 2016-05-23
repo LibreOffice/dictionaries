@@ -11,6 +11,7 @@ $(eval $(call gb_Dictionary_Dictionary,dict-en,dictionaries/en))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-en,\
 	dictionaries/en/affDescription.txt \
+	dictionaries/en/changelog.txt \
 	dictionaries/en/en_AU.aff \
 	dictionaries/en/en_AU.dic \
 	dictionaries/en/en_CA.aff \
@@ -64,6 +65,7 @@ $(eval $(call gb_Dictionary_add_propertyfiles,dict-en,dialog,\
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-en,\
 	dictionaries/en/th_en_US_v2.dat \
+	dictionaries/en/th_en_US_v2.idx \
 ))
 
 # vim: set noet sw=4 ts=4:
