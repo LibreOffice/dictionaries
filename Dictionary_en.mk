@@ -63,8 +63,6 @@ $(eval $(call gb_Dictionary_add_propertyfiles,dict-en,dialog,\
 	dictionaries/en/dialog/en_en_US.properties \
 ))
 
-$(eval $(call gb_Dictionary_add_thesaurus,dict-en,\
-	dictionaries/en/th_en_US_v2.dat \
-))
+$(eval $(call gb_Dictionary_add_thesaurus,dict-en,dictionaries/en/th_en_US_v2.dat))
 
 # vim: set noet sw=4 ts=4:
