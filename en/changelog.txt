@@ -1,3 +1,16 @@
+MAGP 2016-07-01
+
+Updated the hyphenation patterns to 2011-10-07 (from LibreOffice):
+- US + GB
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 1107 new words (2016-06-01) + 738 new words (2016-07-01).
+    It now uses NOSUGGEST keyword for offensive words.
+	It now uses COMPOUNDING (Áron Budea)
+
+
+
 MAGP 2016-05-01
 
 Updated the Dictionaries:

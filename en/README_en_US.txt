@@ -1,6 +1,6 @@
 en_US Hunspell Dictionary
-Version 2016.01.19
-Tue Jan 19 17:07:49 2016 -0500 [a535654]
+Version 2016.06.26
+Sun Jun 26 23:05:32 2016 -0400 [8b0808b]
 http://wordlist.sourceforge.net
 
 README file for English Hunspell dictionaries derived from SCOWL.
@@ -318,5 +318,5 @@ from the Ispell distribution they are under the Ispell copyright:
   ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
   POSSIBILITY OF SUCH DAMAGE.
 
-Build Date: Tue Jan 19 17:11:03 EST 2016
+Build Date: Sun Jun 26 23:29:12 EDT 2016
 Wordlist Command: mk-list --accents=strip en_US 60
