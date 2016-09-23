@@ -10,14 +10,15 @@
 $(eval $(call gb_Dictionary_Dictionary,dict-gug,dictionaries/gug))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-gug,\
-    dictionaries/gug/README_th_gug_PY_v2.txt\
-    dictionaries/gug/th_gug_PY_v2.dat \
-    dictionaries/gug/th_gug_PY_v2.idx \
+    dictionaries/gug/README_th_gug_PY.txt\
+    dictionaries/gug/th_gug_PY.dat \
+    dictionaries/gug/th_gug_PY.idx \
 ))
 
 
 $(eval $(call gb_Dictionary_add_files,dict-gug,description,\
     dictionaries/gug/description/desc_en_US.txt \
+    dictionaries/gug/description/desc_es_ES.txt \
     dictionaries/gug/description/desc_gug_PY.txt \
 ))
 
@@ -25,8 +26,8 @@ $(eval $(call gb_Dictionary_add_files,dict-gug,images,\
     dictionaries/gug/images/gug-PY.png \
 ))
 #$(eval $(call gb_Dictionary_add_thesauri,dict-gug,\
-#    dictionaries/gug/th_gug_PY_v2.dat \
-#    dictionaries/gug/th_gug_PY_v2.idx \
+#    dictionaries/gug/th_gug_PY.dat \
+#    dictionaries/gug/th_gug_PY.idx \
 #))
 
 
