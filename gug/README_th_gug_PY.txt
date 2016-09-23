@@ -1,8 +1,8 @@
 
 1. Version
 
-This is version 1.0 of Guarani Thesaurus for LibreOffice.
-Created by Giovanni Caligaris October 2015.
+This is version 1.1 of Guarani Thesaurus for LibreOffice.
+Created by Giovanni Caligaris September 2016.
 
 		libreguarani@gmail.com
 
