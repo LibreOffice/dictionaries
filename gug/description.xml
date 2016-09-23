@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006" xmlns:l="http://libreoffice.org/extensions/description/2011" xmlns:xlink="http://www.w3.org/1999/xlink">
 
-    <version value="1.0" />
+    <version value="1.1" />
 
     <identifier value="tezaver.gug.thesaurus" />
 
@@ -13,10 +13,12 @@
     </dependencies>
     <display-name>
         <name lang="en">Guarani thesaurus</name>
+        <name lang="es">Diccionario de Sinónimos Guaraní</name>
         <name lang="gug-PY">Ñe'ẽ juehegua Guarani Ñe'ẽme</name>
     </display-name>
 
     <extension-description>
+        <src xlink:href="description/desc_es_ES.txt" lang="es" />
         <src xlink:href="description/desc_en_US.txt" lang="en" />
         <src xlink:href="description/desc_gug_PY.txt" lang="gug-PY" />
     </extension-description>
@@ -27,6 +29,7 @@
 
     <publisher>
         <name xlink:href="http://www.twitter.com/libreguarani" lang="en">LibreGuaraní</name>
+        <name xlink:href="http://www.twitter.com/libreguarani" lang="es">LibreGuaraní</name>
         <name xlink:href="http://www.twitter.com/libreguarani" lang="gug-PY">LibreGuaraní</name>
     </publisher>
 

@@ -4,13 +4,13 @@
     <node oor:name="Dictionaries">
         <node oor:name="ThesDic_gug_PY" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/th_gug_PY_v2.dat %origin%/th_gug_PY_v2.idx</value>
+                <value>%origin%/th_gug_PY_v3.dat %origin%/th_gug_PY_v3.idx</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_THES</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>gug-PY gug</value>
+                <value>gug-PY</value>
             </prop>
         </node>
     </node>
