@@ -19,10 +19,10 @@ import re
 import sys
 
 def usage():
-    message = """Usage: {program} slovnik_data_utf8.txt backlist.txt
+    message = """Usage: {program} en-cs.txt blacklist.txt
 
-  slovnik_data_utf8.txt: Dictionary data from http://slovnik.zcu.cz/download.php
-  blacklist.txt:         List of words that should be ignored when generating
+  en-cs.txt:     Dictionary data from https://www.svobodneslovniky.cz/
+  blacklist.txt: List of words that should be ignored when generating
 """
     sys.stderr.write(message.format(program = os.path.basename(sys.argv[0])))
 
