@@ -1,3 +1,24 @@
+MAGP 2016-11-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 710 new words (2016-10-01) + 735 new words (2016-11-01).
+
+
+
+MAGP 2016-09-01
+
+Updated the Dictionaries:
+- American (Kevin Atkinson)
+- Canadian (Kevin Atkinson)
+- British (Marco A.G.Pinto)*
+  * British has 773 new words (2016-08-01) + 728 new words (2016-09-01).
+    GB changelog is no longer included in the README file,
+    instead there are links inside it that point to the information
+	(lower filesize).
+
+
+
 MAGP 2016-07-01
 
 Updated the hyphenation patterns to 2011-10-07 (from LibreOffice):
