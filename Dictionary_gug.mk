@@ -13,6 +13,8 @@ $(eval $(call gb_Dictionary_add_root_files,dict-gug,\
     dictionaries/gug/README_th_gug_PY.txt\
     dictionaries/gug/th_gug_PY.dat \
     dictionaries/gug/th_gug_PY.idx \
+    dictionaries/gug/gug.aff \
+    dictionaries/gug/gug.dic \
 ))
 
 
