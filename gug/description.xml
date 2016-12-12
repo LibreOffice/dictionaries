@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006" xmlns:l="http://libreoffice.org/extensions/description/2011" xmlns:xlink="http://www.w3.org/1999/xlink">
 
-    <version value="1.1" />
+    <version value="1.2" />
 
     <identifier value="tezaver.gug.thesaurus" />
 
@@ -12,9 +12,9 @@
         <l:LibreOffice-minimal-version value="3.5" d:name="LibreOffice 3.5" />
     </dependencies>
     <display-name>
-        <name lang="en">Guarani thesaurus</name>
-        <name lang="es">Diccionario de sinónimos guaraní</name>
-        <name lang="gug-PY">Ñeʼẽ juehegua guarani ñeʼẽme</name>
+        <name lang="en">Guarani thesaurus and spell checker</name>
+        <name lang="es">Guaraní: corrector ortográfico y sinónimos</name>
+        <name lang="gug-PY">Guarani haikatu ha ñeʼẽjuehegua ñeʼẽryru</name>
     </display-name>
 
     <extension-description>
