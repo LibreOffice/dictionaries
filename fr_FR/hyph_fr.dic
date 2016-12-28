@@ -2,8 +2,8 @@ UTF-8
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 LEFTHYPHENMIN 2
 RIGHTHYPHENMIN 2
-COUMPOUNDLEFTHYPHENMIN 2
-COUMPOUNDRIGHTHYPHENMIN 2
+COMPOUNDLEFTHYPHENMIN 2
+COMPOUNDRIGHTHYPHENMIN 2
 %%%   Do not remove the following line   %%%
 NEXTLEVEL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
