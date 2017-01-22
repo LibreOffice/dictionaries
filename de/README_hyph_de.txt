@@ -4,8 +4,9 @@ Hyphenation dictionary "hyph_de_DE.dic"
 Language: German (de DE)
 		  according to the reform of 2006-08-01	(i.e. reformed or new spelling)
 
-Version:  2015-12-28
-          Enhanced exceptional list for improved hyphenation by Karl Zeiler
+Version:  2017-01-12
+          New: using the COMPOUND feature for improved hyphenation
+		  New: list with over 69,000 words and compounds by Karl Zeiler
 
 Origin:   Based on the TeX hyphenation tables "dehyphn.tex", revision level 31.
           http://www.ctan.org/tex-archive/language/hyphenation/dehyphn.tex
