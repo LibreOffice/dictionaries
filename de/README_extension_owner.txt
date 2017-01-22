@@ -12,10 +12,10 @@ This extension is compatible with:
 Spell checking
 ==============
 de-DE_frami
-Version: 2015-12-22
+Version: 2017-01-09
 Author:  Franz Michael Baumann <fm.baumann@uni-muenster.de>
 Based on igerman98 dictionary:
-Version: 2015-12-22
+Version: 2016-12-07
 Author:  Björn Jacke <bjoern@j3e.de>
          Download: http://www.j3e.de/ispell/igerman98/dict/
 License: GNU GPL Version 2 or GPL Version 3 or OASIS 0.1
@@ -26,8 +26,9 @@ the reform of 2006-08-01.
 
 Hyphenation
 ===========
-Version: 2015-12-28
-         Enhanced exceptional list for improved hyphenation by Karl Zeiler
+Version: 2017-01-12
+         New: using the COMPOUND feature for improved hyphenation
+		 New: list with over 69,000 words and compounds by Karl Zeiler
 Authors: Marco Huggenberger <marco@by-night.ch>
          Daniel Naber <naber@danielnaber.de>
 		 Karl Zeiler <karl.zeiler@t-online.de>
@@ -36,7 +37,7 @@ License: GNU LGPL Version 2.1 or later
 Thesaurus
 =========
 OpenThesaurus - Deutscher Thesaurus - Synonyme und Assoziationen
-Version: 2015-12-23 DE
+Version: 2017-01-06 DE
 License: GNU LGPL Version 2.1 or later
 http://www.openthesaurus.de
 
