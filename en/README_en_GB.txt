@@ -62,7 +62,8 @@ OOo Issue 63541 - remove *dessicated
  2013-08-25 - GB Forked by Marco A.G.Pinto
  2016-06-10 - NOSUGGEST added to this clean version of the GB .AFF (Marco A.G.Pinto)
  2016-06-21 - COMPOUNDING added to this clean version of the GB .AFF (Áron Budea)
- 2016-08-01 - GB changelog is no longer included in the README file.
+ 2016-08-01 - GB changelog is no longer included in the README file
+ 2016-09-11 - .AFF + .DIC now use Linux line endings
  
 -------
 
