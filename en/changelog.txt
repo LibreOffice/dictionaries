@@ -1,3 +1,25 @@
+MAGP 2017-03-01
+
+Updated the Dictionaries:
+- Australian (Kevin Atkinson)
+- American (Kevin Atkinson)
+- Canadian (Kevin Atkinson)
+- British (Marco A.G.Pinto)*
+  * British has 638 new words (2017-02-01) + 326 new words (2017-03-01).
+
+
+
+MAGP 2017-01-01
+
+Updated the Dictionaries:
+- Australian (Kevin Atkinson)
+- American (Kevin Atkinson)
+- Canadian (Kevin Atkinson)
+- British (Marco A.G.Pinto)*
+  * British has 488 new words (2016-12-01) + 554 new words (2017-01-01).
+
+
+
 MAGP 2016-11-01
 
 Updated the Dictionaries:
@@ -56,7 +78,7 @@ MAGP 2016-03-01
 Updated the Dictionaries:
 - British (Marco A.G.Pinto)*
   * British has 935 new words.
-  
+
 Converted the US Thesaurus into UTF-8 and removed 752 duplicated meanings
 
 
@@ -232,9 +254,9 @@ MAGP 2014-02-10
 
 The extension, in the Extension Manager, now has an icon, a name with a link and a description.
 Also updated the en_GB dictionary.
-	
 
-	
+
+
 MAGP 2014-01-07
 
 Updated the English British Dictionary.
@@ -258,12 +280,12 @@ Removed un-Australian -ize variants of words from ths list.
 
 DNW 27/9/08
 
-A short list of Australian slang terms was added. 
+A short list of Australian slang terms was added.
 Added same new words like 'cellphone' from various online new word lists.
 
 
 
-DNW 25/9/2008 
+DNW 25/9/2008
 
 Version packaged as English Australian Dictionary Extension version 1 for OpenOffice version 3.
 
@@ -321,7 +343,7 @@ Based on en_AU_V2.1.zip from http://www.justlocal.com.au/
 
 - Removed words with spaces
 - Removed trailing spaces from words
-- Change accented characters in words where this was valid according to the 
+- Change accented characters in words where this was valid according to the
   Macquarie English dictionary.
 - Removed U.S. spellings of the words with ize so only ise and variants remain.
 - Fixed error in affix file on line 1068 from SFZ to SFX.
@@ -341,7 +363,7 @@ Their changes:
 - a list from the previously removed words with corrected spelling was added
 - a list of major rivers was added
 - a list of place names was added
-- a list of Australian mammals was added 
+- a list of Australian mammals was added
 - a list of Aboriginal/Koori words commonly used was added
 
 This dictionary was based on the en_GB dictionary, edited by David Bartlett, Brian Kelk and Andrew Brown - (originally licensed under the LGPL.)

@@ -8,9 +8,8 @@
 #   2) Collins Dictionary;     5) Wikipedia (used with caution);   
 #   3) Macmillan Dictionary;   6) Physical dictionaries.
 #   
-# David Bartlett, Andrew Brown, Kevin Atkinson,
-# Áron Budea, Marco A.G.Pinto.
-# R 2.42, 2016-11-01
+# David Bartlett, Andrew Brown, Marco A.G.Pinto.
+# R 2.46, 2017-03-01
 
 SET UTF-8
 
