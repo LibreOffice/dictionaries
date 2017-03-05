@@ -14,11 +14,13 @@ Dictionary maintainer: Marek Futrega (futrega@gmail.com)
 Thesaurus
 ----------
 
-Copyright (C) 2004-2008 Marcin Miłkowski <milek_pl@users.sourceforge.net>
+Copyright (C) 2014-2017 Dobry słownik <redakcja@dobryslownik.pl>
+Copyright (C) 2004-2014 Marcin Miłkowski <milek_pl@users.sourceforge.net>
 This product is made available subject to the terms of GNU Lesser 
 General Public License Version 2.1.
-Generated on 2008-05-12. 
-Homepage: http://synonimy.ux.pl/ 
+
+Generated on 2017.03.06.
+Homepage: http://dobryslownik.pl
 
 Hyphenation dictionary
 ----------------------
