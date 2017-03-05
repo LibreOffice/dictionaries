@@ -1,19 +1,16 @@
-﻿Pakiet słowników został stworzony przez projekt OpenOffice.org po polsku.
-Zawiera wszystkie słowniki w wersjach z dnia 2008.12.06.
-Strona główna projektu: http://pl.openoffice.org
-
 Korektor pisowni
 ----------------
-Niniejszy slownik do sprawdzania pisowni jest udostępniany na licencjach
-GPL, LGPL, MPL (Mozilla Public License) i Creative Commons ShareAlike
-(zobacz http://creativecommons.org/licenses/sa/1.0).
 
-Data utworzenia tej wersji slownika: 2008.12.06
+Niniejszy slownik do sprawdzania pisowni jest udostepniany na licencjach
+GPL, LGPL, MPL (Mozilla Public License), Apache 2.0 i Creative Commons
+ShareAlike (zobacz http://creativecommons.org/licenses/sa/1.0).
 
-Opiekun słownika: Marek Futrega (futrega@gmail.com)
+Data utworzenia tej wersji slownika: 2017-03-05
+Najnowsza wersje mozna pobrac ze strony:
+http://www.sjp.pl/
 
-Korekty: Marcin Miłkowski
- 
+Opiekun slownika: Marek Futrega (futrega@gmail.com)
+
 Słownik synonimów - wersja do programu OpenOffice.org
 -----------------------------------------------------
 
@@ -38,11 +35,11 @@ Konwersja do OOo i poprawki: Artur Polaczyński <artiip@gmail.com>
 Licencja LGPL 2.1
 -----------------
 
-		  GNU LESSER GENERAL PUBLIC LICENSE
-		       Version 2.1, February 1999
+                  GNU LESSER GENERAL PUBLIC LICENSE
+                       Version 2.1, February 1999
 
  Copyright (C) 1991, 1999 Free Software Foundation, Inc.
-     51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
 
@@ -50,7 +47,7 @@ Licencja LGPL 2.1
  as the successor of the GNU Library Public License, version 2, hence
  the version number 2.1.]
 
-			    Preamble
+                            Preamble
 
   The licenses for most software are designed to take away your
 freedom to share and change it.  By contrast, the GNU General Public
@@ -152,7 +149,7 @@ modification follow.  Pay close attention to the difference between a
 former contains code derived from the library, whereas the latter must
 be combined with the library in order to run.
 
-		  GNU LESSER GENERAL PUBLIC LICENSE
+                  GNU LESSER GENERAL PUBLIC LICENSE
    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
   0. This License Agreement applies to any software library or other
@@ -186,7 +183,7 @@ such a program is covered only if its contents constitute a work based
 on the Library (independent of the use of the Library in a tool for
 writing it).  Whether that is true depends on what the Library does
 and what the program that uses the Library does.
-  
+
   1. You may copy and distribute verbatim copies of the Library's
 complete source code as you receive it, in any medium, provided that
 you conspicuously and appropriately publish on each copy an
@@ -472,7 +469,7 @@ decision will be guided by the two goals of preserving the free status
 of all derivatives of our free software and of promoting the sharing
 and reuse of software generally.
 
-			    NO WARRANTY
+                            NO WARRANTY
 
   15. BECAUSE THE LIBRARY IS LICENSED FREE OF CHARGE, THERE IS NO
 WARRANTY FOR THE LIBRARY, TO THE EXTENT PERMITTED BY APPLICABLE LAW.
@@ -495,7 +492,7 @@ FAILURE OF THE LIBRARY TO OPERATE WITH ANY OTHER SOFTWARE), EVEN IF
 SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
 DAMAGES.
 
-		     END OF TERMS AND CONDITIONS
+                     END OF TERMS AND CONDITIONS
 
            How to Apply These Terms to Your New Libraries
 
@@ -525,7 +522,7 @@ convey the exclusion of warranty; and each file should have at least the
 
     You should have received a copy of the GNU Lesser General Public
     License along with this library; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
 Also add information on how to contact you by electronic and paper mail.
 
@@ -540,5 +537,4 @@ necessary.  Here is a sample; alter the names:
   Ty Coon, President of Vice
 
 That's all there is to it!
-
 
