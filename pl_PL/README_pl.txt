@@ -11,13 +11,15 @@ http://www.sjp.pl/
 
 Opiekun slownika: Marek Futrega (futrega@gmail.com)
 
-Słownik synonimów - wersja do programu OpenOffice.org
------------------------------------------------------
+Słownik synonimów
+-----------------
 
-Copyright (C) 2004-2008 Marcin Miłkowski <milek_pl@users.sourceforge.net>
+Copyright (C) 2014-2017 Dobry słownik <redakcja@dobryslownik.pl>
+Copyright (C) 2004-2014 Marcin Miłkowski <milek_pl@users.sourceforge.net>
 Licencja: LGPL 2.1.
-Wersja wygenerowana automatycznie dnia 2008-05-12
-Strona główna: http://synonimy.ux.pl/ 
+
+Wersja wygenerowana automatycznie dnia 2017.03.06;
+Strona główna: http://dobryslownik.pl
 
 Wzorce podziału wyrazów
 -----------------------
