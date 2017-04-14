@@ -1,22 +1,22 @@
 # Husnpellov rječnik za računalnu provjeru pravopisa hrvatskog jezika
 
 
-LGPL/SISSL license, 2003.
-
-### Autori i doprinositelji ###
-
-Mirko Kos (m i r k o s 9 9 [ a t ] g m a i l . c o m)
+GPL 2.0/LGPL 2.1/MPL 1.1 tri-license
 
 -----
 
-Kruno  (k r u n o . s e [ a t ] g m x . c o m)
+repository: https://www.github.com/krunose/hr-hunspell
 
-https://github.com/krunose/hr-hunspell
+-----
+
+### Autori i doprinositelji ###
+
+Mirko Kos (m i r k o s 9 9 [ a t ] g m a i l . c o m), 2016. - 2017.
+
+-----
+
+Krunoslav Šebetić (k r u n o . s e [ a t ] g m x . c o m), 2014. - 2017.
 
 -----
 
 Denis Lackovic (http://cvs.linux.hr/spell/), 2003.
-
------
-
-Inačica 2.0
