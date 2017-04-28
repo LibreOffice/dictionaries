@@ -1,3 +1,11 @@
+MAGP 2017-05-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 431 new words (2017-04-01) + 271 new words (2017-05-01).
+
+
+
 MAGP 2017-03-01
 
 Updated the Dictionaries:
