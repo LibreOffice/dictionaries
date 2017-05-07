@@ -5,7 +5,7 @@ Niniejszy slownik do sprawdzania pisowni jest udostepniany na licencjach
 GPL, LGPL, MPL (Mozilla Public License), Apache 2.0 i Creative Commons
 ShareAlike (zobacz http://creativecommons.org/licenses/sa/1.0).
 
-Data utworzenia tej wersji slownika: 2017-03-05
+Data utworzenia tej wersji slownika: 2017-05-14
 Najnowsza wersje mozna pobrac ze strony:
 http://www.sjp.pl/
 
