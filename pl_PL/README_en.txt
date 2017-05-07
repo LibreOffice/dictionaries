@@ -19,7 +19,7 @@ Copyright (C) 2004-2014 Marcin Miłkowski <milek_pl@users.sourceforge.net>
 This product is made available subject to the terms of GNU Lesser 
 General Public License Version 2.1.
 
-Generated on 2017.03.06.
+Generated on 2017.05.07.
 Homepage: http://dobryslownik.pl
 
 Hyphenation dictionary
