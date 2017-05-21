@@ -3,7 +3,7 @@
     <version value="2.40" />
     <identifier value="sv.dsso.dicts.ooo" />
     <display-name>
-    <name lang="en">Swedish Dictionary</name>
+    <name lang="en-US">Swedish Dictionary</name>
     <name lang="sv">Den stora svenska ordlistan</name>
     </display-name>
     <platform value="all" />

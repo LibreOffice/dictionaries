@@ -4,7 +4,7 @@
     <version value="0.3" />
     <identifier value="eu.telecom-bretagne.roux.elie.dict.bo" />
     <display-name>
-        <name lang="en">Classical Tibetan syllable spellchecker for Hunspell</name>
+        <name lang="en-US">Classical Tibetan syllable spellchecker for Hunspell</name>
     </display-name>
     <platform value="all" />
     <!--<dependencies>
