@@ -12,7 +12,7 @@
         <l:LibreOffice-minimal-version value="3.5" d:name="LibreOffice 3.5" />
     </dependencies>
     <display-name>
-        <name lang="en">Guarani thesaurus and spell checker</name>
+        <name lang="en-US">Guarani thesaurus and spell checker</name>
         <name lang="es">Guaraní: corrector ortográfico y sinónimos</name>
         <name lang="gug-PY">Guarani haikatu ha ñeʼẽjuehegua ñeʼẽryru</name>
     </display-name>
