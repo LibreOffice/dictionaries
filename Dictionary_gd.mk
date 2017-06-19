@@ -9,12 +9,11 @@
 
 $(eval $(call gb_Dictionary_Dictionary,dict-gd,dictionaries/gd_GB))
 
-$(eval $(call gb_Dictionary_add_root_file,dict-gd,dictionaries/gd_GB/LICENSES-en.txt))
-
-$(eval $(call gb_Dictionary_add_files,dict-gd,dictionaries,\
-	dictionaries/gd_GB/dictionaries/gd_GB.aff \
-	dictionaries/gd_GB/dictionaries/gd_GB.dic \
-	dictionaries/gd_GB/dictionaries/README_gd_GB.txt \
+$(eval $(call gb_Dictionary_add_root_files,dict-gd,\
+	dictionaries/gd_GB/gd_GB.aff \
+	dictionaries/gd_GB/gd_GB.dic \
+	dictionaries/gd_GB/LICENSES-en.txt \
+	dictionaries/gd_GB/README_gd_GB.txt \
 ))
 
 # vim: set noet sw=4 ts=4:
