@@ -16,8 +16,8 @@ prepared by the Hspell project:
 
         http://hspell.ivrix.org.il/
 
-Hspell version 1.2 was used.
+Hspell version 1.4 was used.
 
 Hspell is copyright:
- 2000-2012 Nadav Har'El <nyh@math.technion.ac.il>
- 2000-2012 Dan Kenigsberg <danken@cs.technion.ac.il>
+ 2000-2017 Nadav Har'El <nyh@math.technion.ac.il>
+ 2000-2017 Dan Kenigsberg <danken@cs.technion.ac.il>
