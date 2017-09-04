@@ -61,6 +61,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_si \
 	Dictionary_sk \
 	Dictionary_sl \
+	Dictionary_sq \
 	Dictionary_sr \
 	Dictionary_sv \
 	Dictionary_sw \
