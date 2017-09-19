@@ -20,7 +20,7 @@ Author:  Björn Jacke <bjoern@j3e.de>
          Download: https://www.j3e.de/ispell/igerman98/dict/
 License: GNU GPL Version 2 or GPL Version 3 or OASIS 0.1
 
-The frami dictionary contains the complete word list of igerman98 
+The frami dictionary contains the complete word list of igerman98
 and in addition numerous supplements by Franz Michael Baumann according to
 the reform of 2006-08-01.
 
