@@ -3,7 +3,7 @@ alle Wörter des Basiswörterbuchs, zusätzlich jedoch etliche, die entweder
 im Basiswörterbuch noch fehlen oder die nicht unbedingt zum Kernwortschatz
 des Deutschen gehören. Die zusätzlichen Aufnahmen sind ungeprüft.
 Dieses Wörterbuch basiert auf dem igerman98 Ispell-Wörterbuch, zu finden
-unter http://www.j3e.de/ispell/igerman98/ .
+unter https://www.j3e.de/ispell/igerman98/ .
 
 Das Wörterbuch und alle enthaltenen Wortlisten sind lizenziert unter der
 GNU GPL, Version 2 oder 3.
