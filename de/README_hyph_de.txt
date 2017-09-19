@@ -35,8 +35,8 @@ Die Trennmuster (hyph_de_DE.dic) basieren auf den TeX Trennmustern
 Lizenz der Trennmuster: LPPL. Die Anpassung der Trennmuster an
 den in OpenOffice.org benutzten "ALTLinux LibHnj Hyphenator" wurde
 mit dem Script substrings.pl durchgeführt, das unter
-http://lingucomponent.openoffice.org/hyphenator.html als Teil der
-Datei altlinux_Hyph.zip heruntergeladen werden kann.
+https://www.openoffice.org/lingucomponent/hyphenator.html als Teil
+der Datei altlinux_Hyph.zip heruntergeladen werden kann.
 Die Original-Trennmuster können hier heruntergeladen werden:
-http://www.ctan.org/tex-archive/language/hyphenation/dehyphn.tex
+https://www.ctan.org/tex-archive/language/hyphenation/dehyphn.tex
 
