@@ -14,7 +14,7 @@ Origin:   Based on the TeX hyphenation tables "dehyphn.tex", revision level 31.
 		  Public License (LPPL)
 
 License:  OpenOffice.org Adaptions of this package are licensed under the
-          GNU Lesser General Public License (LGPL 2 or later) and are under 
+          GNU Lesser General Public License (LGPL 2 or later) and are under
 		  Copyright by
 
 Author:   conversion author: Marco Huggenberger <marco@by-night.ch>
