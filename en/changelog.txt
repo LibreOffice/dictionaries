@@ -1,3 +1,30 @@
+MAGP 2017-11-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 467 new words (2017-10-01) + 824 new words (2017-11-01).
+
+
+
+MAGP 2017-09-01
+
+Updated the Dictionaries:
+- Australian (Kevin Atkinson)
+- American (Kevin Atkinson)
+- Canadian (Kevin Atkinson)
+- British (Marco A.G.Pinto)*
+  * British has 473 new words (2017-08-01) + 297 new words (2017-09-01).
+
+
+
+MAGP 2017-07-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 480 new words (2017-06-01) + 433 new words (2017-07-01).
+
+
+
 MAGP 2017-05-01
 
 Updated the Dictionaries:

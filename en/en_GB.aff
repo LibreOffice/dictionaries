@@ -7,9 +7,14 @@
 #   1) Oxford Dictionaries;    4) Wiktionary (used with caution);
 #   2) Collins Dictionary;     5) Wikipedia (used with caution);   
 #   3) Macmillan Dictionary;   6) Physical dictionaries.
-#   
+#
+# Main difficulties developing this dictionary:
+#   1) Proper names;
+#   2) Possessive forms;
+#   3) Plurals.
+#
 # David Bartlett, Andrew Brown, Marco A.G.Pinto.
-# R 2.48, 2017-05-01
+# R 2.54, 2017-11-01
 
 SET UTF-8
 
