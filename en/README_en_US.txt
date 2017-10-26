@@ -1,6 +1,6 @@
 en_US Hunspell Dictionary
-Version 2017.01.22
-Sun Jan 22 17:22:40 2017 -0500 [0c64f5c]
+Version 2017.08.24
+Thu Aug 24 14:36:19 2017 -0400 [2614b88]
 http://wordlist.sourceforge.net
 
 README file for English Hunspell dictionaries derived from SCOWL.
@@ -343,5 +343,5 @@ and Australian word list.  It is under the following copyright:
   OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
   SUCH DAMAGE.
 
-Build Date: Sun Jan 22 17:42:42 EST 2017
+Build Date: Thu Aug 24 14:39:01 EDT 2017
 Wordlist Command: mk-list --accents=strip en_US 60

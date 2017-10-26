@@ -64,6 +64,7 @@ OOo Issue 63541 - remove *dessicated
  2016-06-21 - COMPOUNDING added to this clean version of the GB .AFF (Áron Budea)
  2016-08-01 - GB changelog is no longer included in the README file
  2016-09-11 - .AFF + .DIC now use Linux line endings
+ 2017-10-08 - Mozilla: used <em:maxVersion>*</em:maxVersion> to work with all future versions
  
 -------
 
