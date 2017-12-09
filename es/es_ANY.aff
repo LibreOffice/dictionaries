@@ -1,4 +1,5 @@
 SET UTF-8
+FLAG UTF-8
 TRY aeroinsctldumpbgfvhzóíjáqéñxyúükwAEROINSCTLDUMPBGFVHZÓÍJÁQÉÑXYÚÜKW
 REP 20
 REP ás az
@@ -105,6 +106,8 @@ PFX u e tras e[^s]
 PFX v Y 2
 PFX v 0 contra [^r]
 PFX v 0 contrar r
+PFX w Y 1
+PFX w 0 ex	 .
 SFX A Y 9
 SFX A r ción/S ar
 SFX A er ición/S [^cn]er
@@ -3449,7 +3452,7 @@ SFX Ì uzar úzalas uzar
 SFX Ì uzar úzala uzar
 SFX Ì uzar úzalos uzar
 SFX Ì uzar úzalo uzar
-SFX Í Y 168
+SFX Í Y 170
 SFX Í abar ábame abar
 SFX Í abar ábanos abar
 SFX Í r me r
@@ -3566,6 +3569,8 @@ SFX Í obrar óbrame obrar
 SFX Í obrar óbranos obrar
 SFX Í ocar ócame ocar
 SFX Í ocar ócanos ocar
+SFX Í ocer óceme ocer
+SFX Í ocer ócenos ocer
 SFX Í oger ógeme oger
 SFX Í oger ógenos oger
 SFX Í ojar ójame ojar
@@ -3705,7 +3710,7 @@ SFX Î untar úntales untar
 SFX Î untar úntale untar
 SFX Î uscar úscales uscar
 SFX Î uscar úscale uscar
-SFX Ï Y 312
+SFX Ï Y 324
 SFX Ï adir ádemela adir
 SFX Ï adir ádemelas adir
 SFX Ï adir ádemelo adir
@@ -3790,6 +3795,18 @@ SFX Ï ancar áncasela ancar
 SFX Ï ancar áncaselas ancar
 SFX Ï ancar áncaselo ancar
 SFX Ï ancar áncaselos ancar
+SFX Ï andar ándamela andar
+SFX Ï andar ándamelas andar
+SFX Ï andar ándamelo andar
+SFX Ï andar ándamelos andar
+SFX Ï andar ándanosla andar
+SFX Ï andar ándanoslas andar
+SFX Ï andar ándanoslo andar
+SFX Ï andar ándanoslos andar
+SFX Ï andar ándasela andar
+SFX Ï andar ándaselas andar
+SFX Ï andar ándaselo andar
+SFX Ï andar ándaselos andar
 SFX Ï antar ántamela antar
 SFX Ï antar ántamelas antar
 SFX Ï antar ántamelo antar
