@@ -12,6 +12,7 @@ $(eval $(call gb_Dictionary_Dictionary,dict-en,dictionaries/en))
 $(eval $(call gb_Dictionary_add_root_files,dict-en,\
 	dictionaries/en/affDescription.txt \
 	dictionaries/en/changelog.txt \
+	dictionaries/en/English.png \
 	dictionaries/en/en_AU.aff \
 	dictionaries/en/en_AU.dic \
 	dictionaries/en/en_CA.aff \
