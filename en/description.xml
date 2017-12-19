@@ -12,4 +12,7 @@
     <icon>
         <default xlink:href="English.png" />
     </icon>
+    <publisher>
+        <name xlink:href="https://extensions.libreoffice.org/extensions/english-dictionaries" lang="en">Marco A.G.Pinto</name>
+    </publisher>
 </description>
