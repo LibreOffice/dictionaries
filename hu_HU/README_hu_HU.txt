@@ -1,4 +1,4 @@
-Magyar Ispell helyesírási szótár – 1.7 béta 3 szótárállományok morfológiai adatokkal
+Magyar Ispell helyesírási szótár – 1.7 béta 4 szótárállományok morfológiai adatokkal
 
 A szótárállományok a LibreOffice projekt részeként a következő nyílt forráskódú
 licencek bármelyike alapján szabadon felhasználhatóak, de mindenféle garancia nélkül:
@@ -11,7 +11,7 @@ Honlap: http://magyarispell.sf.net
 
 ------------------------------------------------------------------------------
 
-Hungarian Hunspell dictionaries version 1.7 beta 3 with morphological data
+Hungarian Hunspell dictionaries version 1.7 beta 4 with morphological data
 
 These files are part of the LibreOffice project.
 
