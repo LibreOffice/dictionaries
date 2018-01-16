@@ -1,0 +1,44 @@
+Portage Hunspell du Difazier an Drouizig.
+Version 0.15 du 07 janvier 2018.
+
+
+__/Consignes d'installation\__
+
+Le dictionnaire est constitué des deux fichiers br_FR.aff et br_FR.dic
+Il faut les mettre dans /usr/share/hunspell/
+
+Le fichier hunspell-br doit être mis dans /var/lib/dictionaries-common/hunspell/
+
+Bien veiller à ce que les droits (propriétés>permissions) soient en lecture pour tous.
+
+Hunspell peut alors utiliser le correcteur de breton. Les fichiers README.txt et Lisez-moi.txt sont des fichiers informatifs.
+
+#                                             #
+#Pour les versions antérieures à OOo 3        #
+#                                             # 
+( Nous vous conseillons de passer à LibreOffice <http://www.libreoffice.org/> !)
+ajouter au fichier /etc/openoffice/dictionary.lst/ la ligne:
+DICT br FR br_FR 
+(idéalement après ou avant la zone à ne pas modifier !)
+
+Redémarrer Openoffice.
+# (Fin de l'encart version d'OOo <3).
+
+Pour que fonctionnent le dictionnaire il faut que la langue du texte soit le breton (à modifier dans le format ou dans caractères>langue).
+L'activation du dictionnaire est visible par une petite icône dans la liste des langues. Cette icône représente une 'coche' et les lettres abc.
+Pour Firefox, dans une zone de formulaire, un clic droit permet d'activer les dictionnaires disponibles.
+
+___/Licence\___
+
+Ce correcteur orthographique est diffusé sous la triple licence GNU Lesser General Public Licence, Mozilla Public Licence et GNU General Public Licence.
+
+Voyez les sites de la FSF <http://fsf.org/> ou de Mozilla <http://www.mozilla.org/MPL/MPL-1.1.html>.
+
+___/Crédits\___
+Le Difazier an Drouizig a été porté sous Hunspell par Philippe pour l'association Korvigelloù an Drouizig (www.drouizig.org).
+Michel a revu le système de drapeaux pour les conjugaisons et mis à jour les versions 0.11, 0.12, 0.13 et 0.14. 
+La procédure d'installation a été adapté pour Ubuntu par Denis.
+
+Rapportez tous commentaire, correction ou suggestion à drouizig@drouizig.org
+
+Bons plaisirs ! 
