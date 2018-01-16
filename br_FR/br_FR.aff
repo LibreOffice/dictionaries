@@ -1,4 +1,4 @@
-# Copyright (c) 2001-2012 Korvigelloù An Drouizig
+# Copyright (c) 2001-2018 Korvigelloù An Drouizig
 #
 # Kit e darempred ganeomp : drouizig@drouizig.org - http://www.drouizig.org	
 #
@@ -80,6 +80,18 @@ SFX p5 0 où .
 
 SFX p6 Y 1
 SFX p6 0 ien .
+
+SFX p7 Y 1
+SFX p7 où eier .
+
+# Lostgerioù all
+SFX l4 Y 2
+SFX l4 0 ig .
+SFX l4 0 ioùigoù .
+
+SFX l5 Y 2
+SFX l5 0 ig .
+SFX l5 0 oùigoù .
 
 # Displegadurioù
 SFX a1 Y 42
