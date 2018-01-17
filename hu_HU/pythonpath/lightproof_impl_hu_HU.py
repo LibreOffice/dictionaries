@@ -7,7 +7,7 @@ from com.sun.star.beans import PropertyValue
 pkg = "hu_HU"
 lang = "hu_HU"
 locales = {'hu-HU': ['hu', 'HU', '']}
-version = "1.4.4"
+version = "1.6"
 author = "László Németh"
 name = "Lightproof grammar checker (magyar)"
 
@@ -193,8 +193,10 @@ def proofread( nDocId, TEXT, LOCALE, nStartOfSentencePos, nSuggestedSentenceEndP
     return tuple(aErrs)
 
 def cap(a, iscap, rLoc):
-    if iscap:
-        for i in range(0, len(a)):
+    for i in range(0, len(a)):
+        if a[i][0:6] == "!CASE!":
+            a[i] = a[i][6:]
+        elif iscap:
             if a[i][0:1] == "i":
                 if rLoc.Language == "tr" or rLoc.Language == "az":
                     a[i] = u"\u0130" + a[i][1:]
@@ -218,7 +220,7 @@ def compile_rules(dic):
             i[0] = re.compile(i[0])
         except:
             if 'PYUNO_LOGLEVEL' in os.environ:
-                print("Lightproof: bad regular expression: ", traceback.format_exc())
+                print("Lightproof: bad regular expression: " + str(traceback.format_exc()))
             i[0] = None
 
 def get_rule(loc):
@@ -239,6 +241,18 @@ abbrev=re.compile(r"(?i)\\b([a-z\xf6\xfc\xf3\u0151\xfa\xe9\xe1\u0171\xed\xd6\xdc
 
 # pattern for paragraph checking
 paralcap = re.compile(u"(?u)^[a-z\xf6\xfc\xf3\u0151\xfa\xe9\xe1\u0171\xed].*[.?!] [A-Z\xd6\xdc\xd3\u0150\xda\xc9\xc1\u0170\xcd].*[.?!][)\u201d]?$")
+
+
+foreign=["ab ovo", "ars poetica", "casus belli", "categoricus imperativus",
+    "coming out", "cash flow", "circulus vitiosus", "corpus delicti", "de facto", "de jure",
+    "delirium tremens", "doctor honoris causa", "et cetera", "fait accompli", "fixa idea",
+    "horribile dictu", "hot dog", "in flagranti", "in medias res", "in memoriam", "in vitro",
+    "in vivo", "magna cum laude", "mea culpa", "memento mori", "mountain bike", "nota bene",
+    "persona non grata", "plein air", "pro bono", "salto mortale", "status quo", "tabula rasa",
+    "terminus technicus", "vice versa", "vis maior"]
+
+def suggest_foreign(word):
+    return "\n".join([i for i in foreign if word == i.split(" ")[0]])
 
 
 def measurement(mnum, min, mout, mstr):
