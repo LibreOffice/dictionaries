@@ -7,7 +7,7 @@
   **  VERSIÓN GENÉRICA PARA TODAS LAS LOCALIZACIONES                        **
   ****************************************************************************
 
-                                   Versión 2.1
+                                  Versión 2.3
 
 SUMARIO
 
