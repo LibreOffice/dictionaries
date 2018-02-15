@@ -43,6 +43,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_hi \
 	Dictionary_hr \
 	Dictionary_hu \
+	Dictionary_id \
 	Dictionary_is \
 	Dictionary_it \
 	Dictionary_kmr-Latn \
