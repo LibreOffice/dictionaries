@@ -111,13 +111,16 @@ MAP ií
 MAP oóöő
 MAP uúüű
 
-BREAK 6
+BREAK 9
 BREAK –
 BREAK -
 BREAK ^-
 BREAK -$
 BREAK -beli$
 BREAK -féle$
+BREAK "
+BREAK ?
+BREAK !
 
 # sz�mok
 # 0. oszt�ly: sz�mjegyek
@@ -127,6 +130,8 @@ BREAK -féle$
 COMPOUNDRULE 2
 COMPOUNDRULE 0*1
 COMPOUNDRULE 00*20*1
+
+IGNORE ()]
 
 # f-ligat�r�k
 
