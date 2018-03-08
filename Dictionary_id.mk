@@ -10,10 +10,14 @@
 $(eval $(call gb_Dictionary_Dictionary,dict-id,dictionaries/id))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-id,\
-	dictionaries/id/LICENSE \
+	dictionaries/id/LICENSE-dict \
+	dictionaries/id/LICENSE-thes\
 	dictionaries/id/id_ID.aff \
 	dictionaries/id/id_ID.dic \
-	dictionaries/id/README.md \
+	dictionaries/id/README-dict.md \
+	dictionaries/id/README-thes \
 ))
+
+$(eval $(call gb_Dictionary_add_thesaurus,dict-id,dictionaries/id/thes_id.txt))
 
 # vim: set noet sw=4 ts=4:
