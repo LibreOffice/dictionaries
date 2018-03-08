@@ -13,6 +13,17 @@
                 <value>id-ID</value>
             </prop>
         </node>
+        <node oor:name="ThesDic_id-ID" oor:op="fuse">
+            <prop oor:name="Locations" oor:type="oor:string-list">
+                <value>%origin%/thes_id.txt</value>
+            </prop>
+            <prop oor:name="Format" oor:type="xs:string">
+                <value>DICT_THES</value>
+            </prop>
+            <prop oor:name="Locales" oor:type="oor:string-list">
+                <value>id-ID</value>
+            </prop>
+        </node>
     </node>
  </node>
 </oor:component-data>
