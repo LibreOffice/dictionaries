@@ -6,11 +6,11 @@
 # GPL/LGPL/MPL license as published by the FSF and Mozilla Foundation.
 #
 #
-# Version: January 2018, 1.7 beta 4
+# Version: March 2018, 1.7 beta 5
 #
 # Home page: http://magyarispell.sourceforge.net
 #
-# 2002-2017 (c) L�szl� N�meth <nemeth@numbertext.org> and Ferenc God�
+# 2002-2018 (c) L�szl� N�meth <nemeth@numbertext.org> and Ferenc God�
 #
 # Thanks to
 # Tam�s Sz�nt� <tszanto@mol.hu>,
@@ -30,7 +30,7 @@
 # amelyet N�meth L�szl� �s God� Ferenc k�sz�tett, �s a GPL/LGPL/MPL licenc
 # alatt k�zz�tett a http://magyarispell.sourceforge.net oldalon.
 #
-# Magyar Ispell 1.7 b�ta 4 v�ltozat, 2018-01
+# Magyar Ispell 1.7 beta 5 v�ltozat, 2018-03
 #
 # K�sz�net illeti a k�vetkez�ket:
 #
@@ -111,7 +111,7 @@ MAP ií
 MAP oóöő
 MAP uúüű
 
-BREAK 9
+BREAK 10
 BREAK –
 BREAK -
 BREAK ^-
@@ -119,6 +119,7 @@ BREAK -$
 BREAK -beli$
 BREAK -féle$
 BREAK "
+BREAK ”
 BREAK ?
 BREAK !
 
@@ -131,6 +132,9 @@ COMPOUNDRULE 2
 COMPOUNDRULE 0*1
 COMPOUNDRULE 00*20*1
 
+# (1)-ben, [3]-ban, c)-vel
+# LibreOffice hibajegy:
+# https://bugs.documentfoundation.org/show_bug.cgi?id=116072
 IGNORE ()]
 
 # f-ligat�r�k
@@ -153,7 +157,7 @@ ICONV ﬂ fl
 # - multicharacter suggestions
 # - well-sorted suggestions
 
-REP 147
+REP 153
 REP í i
 REP i í
 REP ó o
@@ -198,6 +202,8 @@ REP nny nyj
 REP nny nj
 REP tty tyj
 REP tty tj
+REP ttsz tsz # tettszik->tetszik
+REP ttsz tssz # tettszék->tetsszék
 REP ck dzk # óckodik->ódzkodik
 REP cc tsz # maracc->maratsz
 REP cc dsz # maracc->maradsz
@@ -264,6 +270,9 @@ REP csakazértis csak_azért_is
 REP fő fő_
 REP papír papír_
 REP közben _közben
+REP jellegű _jellegű
+REP formájú _formájú
+REP nagyságú _nagyságú
 REP vég _vég
 REP be be_
 REP módra _módra
@@ -301,8 +310,9 @@ REP ue ü # fondue->fondü, fonduet->fondüt
 REP ue- ü # fondue-t->fondüt
 REP ^rám rám_ # rámváró->rám váró
 REP ^rád rád_ # rádváró->rád váró
+REP ^hű hűe # hűn->hűen, hűk->hűek
 
-AF 1414
+AF 1477
 AF V˯j�L�n�����TtYc��l # 1
 AF Um��yiYc� # 2
 AF �CWR̯j���y���Yc� # 3
@@ -1717,7 +1727,71 @@ AF DRT # 1411
 AF DQS # 1412
 AF @ # 1413
 AF % # 1414
-AM 23361
+AF c!V�n�Llabh) # 1415
+AF bh)) # 1416
+AF nI)) # 1417
+AF !AU�m��Kkbh)) # 1418
+AF m�A$U�Ssbhc�� # 1419
+AF c!V�n�Llbh) # 1420
+AF Uʮi�K�m��yǿ�SsYc # 1421
+AF V˯j�L�n��y���TtYc # 1422
+AF UVʮ˯ij��KL��n�m�qǿ��QRTt,��kl�� # 1423
+AF �AUQʮi������xc�� # 1424
+AF �Um��yiYc� # 1425
+AF )) # 1426
+AF AU��ϵ)) # 1427
+AF �m�UAQD� # 1428
+AF �m�UAQD�F # 1429
+AF c!AU�m��KkQ) # 1430
+AF Uʮi�K�m��yǿ�SsYc�Q) # 1431
+AF Uʮi�K�m��yǿ�SsYc�Q # 1432
+AF m��AU�c!�Kk) # 1433
+AF Um��c�Q # 1434
+AF Um��yiYc�Sx # 1435
+AF V�n��jc�l # 1436
+AF V˯j�B������Rc��l # 1437
+AF �m�UAQ�D # 1438
+AF c!AU�m��Kkbh) # 1439
+AF c!AU�m��Kkabh) # 1440
+AF cAU�m��Kk) # 1441
+AF Uʮi�K�m�����SsYck # 1442
+AF U����iYc�k # 1443
+AF UVʮ˯ij��KL��n�m���������QRTtvc����kl # 1444
+AF c!AU�m��Kk) # 1445
+AF Um��c�kʮi�K����Q�� # 1446
+AF Y # 1447
+AF V˯j�L�n�����TtYcl # 1448
+AF �AUQʮi������YcFKx # 1449
+AF c!V�n�Ll) # 1450
+AF n��BV�bc!Ll) # 1451
+AF cV�n�Llabh) # 1452
+AF V˯j�L�n�����Ttvc�� # 1453
+AF �Oo�X) # 1454
+AF �Oo�X # 1455
+AF I��J��x) # 1456
+AF �yA���FU�Q # 1457
+AF �yB���GV�R # 1458
+AF ��FU�m�K�Ssk�y # 1459
+AF ��FU�m�Qk�x # 1460
+AF ��GV�n�LRTtl�y # 1461
+AF UVʮ˯ij��KL��n�m�qǿ��QRTt,��kl # 1462
+AF w���BGVLTt) # 1463
+AF UVʮ˯ij��KL��n�m�q��QRTt,��kl # 1464
+AF 1)) # 1465
+AF �V��n�LlRjTtabhz1)) # 1466
+AF 1�uLV��nRTtj&)) # 1467
+AF �A�U�m�KkQiSsabhz1)) # 1468
+AF 1�uKU��mQSsi&)) # 1469
+AF �W���MnRtabhz1)) # 1470
+AF 1�uMW���RTtj&)) # 1471
+AF 1�uCWR���j&)) # 1472
+AF 1�u)) # 1473
+AF 1�uAUQ���i&)) # 1474
+AF �B���GV�R�A��FU�Q= # 1475
+AF �C���HW�R= # 1476
+AF ABCUVWKLMQRqr= # 1477
+
+AM 24066
 AM po:noun ts:NOM
 AM po:noun ts:NOM al:üzletágak
 AM po:noun ts:NOM al:üzletházak
@@ -25079,6 +25153,711 @@ AM ip:PREF sp:abba
 AM ip:legeslegesleg_SUPERLATIVE_adj
 AM ip:legesleg_SUPERLATIVE_adj
 AM ip:leg_SUPERLATIVE_adj
+AM po:noun ts:NOM ph:übermens
+AM po:noun ts:NOM al:útiszótárak
+AM st:ötvenvalahány po:adj_num ds:An_MODE_adv
+AM po:adj_num_wh ds:An_MODE_adv
+AM st:ötvenvalahány po:adj_num is:dik_ORDINAL_adj] ts:PLUR
+AM st:ötvenvalahány po:adj_num is:dik_ORDINAL_adj ts:NOM
+AM po:adj_num_wh al:ötvenvalahányan al:ötvenvalahányadikak al:ötvenvalahányadik
+AM po:adj_num ts:NOM al:ötvenvalahányan al:ötvenvalahányadikak al:ötvenvalahányadik
+AM po:noun ts:NOM al:összterjedelmek
+AM al:összidej
+AM st:összidő po:noun ts:NOM
+AM po:noun ts:NOM al:összhosszak
+AM po:noun ts:NOM ph:élethalál
+AM po:noun ts:NOM ph:éjjelnappali
+AM po:noun_prs ts:NOM ph:csapek
+AM po:noun_prs ts:NOM ph:skoda*
+AM ph:lóddzsal
+AM po:noun_prs ts:NOM ph:lódzs ph:lódz
+AM po:noun ts:NOM ph:zlotyi
+AM st:Zaire po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM ph:zajiri
+AM st:Za"ire po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM ph:zajiri
+AM po:noun ts:NOM ph:viszki
+AM st:vásárol po:vrb ds:AndÓ_FUTPART_adj ts:NOM
+AM st:valahányszáz po:adj_num ts:An_MODE_adv
+AM st:valahány po:adj_num is:dikA_DATE_noun ts:NOM
+AM po:adj_num_wh al:valahányan al:valahányadiki al:valahányadika
+AM st:tizenvalahány po:adj_num ds:An_MODE_adv
+AM st:tizenvalahány po:adj_num is:dikA_DATE_noun ts:NOM
+AM st:tizenvalahány po:adj_num is:dik_ORDINAL_adj] ts:PLUR
+AM st:tizenvalahány po:adj_num is:dik_ORDINAL_adj ts:NOM
+AM po:adj_num_wh al:tizenvalahányan al:tizenvalahányadiki al:tizenvalahányadikak al:tizenvalahányadika al:tizenvalahányadik
+AM po:adj_num ts:NOM al:tizenvalahányan al:tizenvalahányadiki al:tizenvalahányadikak al:tizenvalahányadika al:tizenvalahányadik
+AM po:noun ts:NOM ph:tiramiszu ph:tiramisu
+AM po:noun ts:NOM ph:trombocita*
+AM st:tetszik po:vrb is:PRES_INDIC_INDEF_SG_3 al:tetszünk al:tetszés al:tetszvén al:tetszve al:tetszik al:tetszettünk al:tetszettél al:tetszettetek al:tetszettem al:tetszettek al:tetszett al:tetszetek al:tetszenünk al:tetszenétek al:tetszenénk al:tetszenének al:tetszeném al:tetszenél al:tetszenék al:tetszenék al:tetszeniük al:tetszeniök al:tetszenie al:tetszeni al:tetszenetek al:tetszenem al:tetszenek al:tetszened al:tetszene al:tetszem al:tetszel al:tetszek al:tetsszünk al:tetsszél al:tetsszék al:tetsszetek al:tetsszenek al:tetsszen al:tetsszem al:tetsszek al:tessél al:tessék al:tessetek al:tessenek al:tessen al:tessem al:tessek al:tetszhet al:tetsző al:tetszett al:tetszendő ph:tettsz->tetsz
+AM st:terajoule po:noun ds:s_ATTRIBUTE_adj ts:NOM
+AM st:terajoule po:noun is:TRANS
+AM st:terajoule po:noun is:INSTR
+AM st:terajoule po:noun ts:NOM
+AM po:noun ts:NOM al:terajoule-os al:terajoule-lá al:terajoule-lal al:terajoule-
+AM st:terabyte po:noun is:TRANS ph:terabájttá ph:terrabájttá
+AM st:terabyte po:noun is:INSTR ph:terabájttal ph:terrabájttal
+AM st:terabyte po:noun ds:s_ATTRIBUTE_adj ts:NOM ph:terabájtos ph:terrabájtos
+AM st:terabyte po:noun ts:NOM ph:terabájt ph:terrabájt
+AM po:noun ts:NOM al:terabyte-tá al:terabyte-tal al:terabyte-os al:terabyte- ph:terabájt ph:terrabájt
+AM po:noun ts:NOM al:telkek al:múlt al:jövő
+AM st:tebibyte po:noun is:TRANS ph:tebibájttá
+AM st:tebibyte po:noun is:INSTR ph:tebibájttal
+AM st:tebibyte po:noun ds:s_ATTRIBUTE_adj ts:NOM ph:tebibájtos
+AM st:tebibyte po:noun ts:NOM ph:tebibájt
+AM po:noun ts:NOM al:tebibyte-tá al:tebibyte-tal al:tebibyte-os al:tebibyte- ph:tebibájt
+AM po:noun ts:NOM ph:tím
+AM po:noun ts:NOM ph:tazmán ph:tasmán
+AM po:noun ts:NOM ph:tápász ph:tápás
+AM po:noun ts:NOM al:sörhasak
+AM po:noun ts:NOM ph:sztrítból
+AM po:noun ts:NOM ph:stih
+AM po:noun ts:NOM ph:szték
+AM po:noun ts:NOM ph:sznóbord
+AM po:noun ts:NOM ph:sómen
+AM po:noun ts:NOM ph:showbiznisz ph:showbiznis
+AM po:noun ts:NOM ph:seri
+AM po:noun ts:NOM ph:savbázis
+AM po:noun ts:NOM ph:róming
+AM po:noun ts:NOM ph:rizskoh
+AM po:noun ts:NOM al:ranchcsá al:ranchcsal ph:rancs ph:ranc
+AM po:noun ts:NOM ph:kinoa ph:kinua*
+AM po:noun ts:NOM ph:kvad
+AM po:noun ts:NOM al:pórhadak
+AM po:noun ts:NOM ph:pártitkár
+AM po:noun ts:NOM ph:pártagság
+AM po:noun ts:NOM ph:pártag
+AM st:pár_hét po:noun is:i_PLACE/TIME_adj ts:NOM al:egypárszor al:egypáran al:egypárak al:egypár al:párszor al:páran al:párak
+AM st:pár_hét po:noun is:POSS_SG_3 ts:NOM al:egypárszor al:egypáran al:egypárak al:egypár al:párszor al:páran al:párak
+AM st:pár_hó po:noun is:i_PLACE/TIME_adj ts:NOM al:egypárszor al:egypáran al:egypárak al:egypár al:párszor al:páran al:párak
+AM po:noun ts:NOM ph:prokszi
+AM po:noun ts:NOM ph:portugizer
+AM po:noun ts:NOM ph:popkorn
+AM po:noun ts:NOM ph:polifóm
+AM po:noun ts:NOM ph:polbít
+AM po:noun ts:NOM ph:prularista*
+AM po:noun ts:NOM ph:pléboj
+AM po:noun ts:NOM ph:piercing
+AM po:noun ts:NOM ph:ping-pong
+AM po:noun ts:NOM ph:pietá
+AM ph:fujj
+AM po:noun ts:NOM al:pennynyi ph:peni
+AM po:noun ts:NOM ph:peh
+AM st:pebibyte po:noun is:TRANS ph:pebibájttá
+AM st:pebibyte po:noun is:INSTR ph:pebibájttal
+AM st:pebibyte po:noun ds:s_ATTRIBUTE_adj ts:NOM ph:pebibájtos
+AM st:pebibyte po:noun ts:NOM ph:pebibájt
+AM po:noun ts:NOM al:pebibyte-tá al:pebibyte-tal al:pebibyte-os al:pebibyte- ph:pebibájt
+AM po:noun ts:NOM ph:péintból
+AM po:noun ts:NOM ph:patka*
+AM po:noun ts:NOM ph:orvgyilkos ph:orrgyilkos
+AM po:noun ts:NOM ph:orvgazda ph:orrgazda*
+AM po:noun ts:NOM ph:oktatónevelő
+AM po:noun_prs ts:NOM ph:óm
+AM st:nyolcvanvalahány po:adj_num ds:An_MODE_adv
+AM st:nyolcvanvalahány po:adj_num is:dik_ORDINAL_adj] ts:PLUR
+AM st:nyolcvanvalahány po:adj_num is:dik_ORDINAL_adj ts:NOM
+AM po:adj_num_wh al:nyolcvanvalahányan al:nyolcvanvalahányadikak al:nyolcvanvalahányadik
+AM po:adj_num ts:NOM al:nyolcvanvalahányan al:nyolcvanvalahányadikak al:nyolcvanvalahányadik
+AM po:noun ts:NOM ph:nótbuk ph:notbuk
+AM po:noun ts:NOM ph:netbuk ph:netbúk
+AM st:negyvenvalahány po:adj_num ds:An_MODE_adv
+AM st:negyvenvalahány po:adj_num is:dik_ORDINAL_adj] ts:PLUR
+AM st:negyvenvalahány po:adj_num is:dik_ORDINAL_adj ts:NOM
+AM po:adj_num_wh al:negyvenvalahányan al:negyvenvalahányadikak al:negyvenvalahányadik
+AM po:adj_num ts:NOM al:negyvenvalahányan al:negyvenvalahányadikak al:negyvenvalahányadik
+AM ph:neadjisten
+AM po:noun ts:NOM ph:napéjegyenlőség
+AM po:noun ts:NOM ph:nacsosz ph:nacsos
+AM st:múlt_idő po:noun ts:NOM al:múltak
+AM st:múlt_hét po:noun is:i_PLACE/TIME_adj ts:NOM al:múltak
+AM st:múlt_hó po:noun is:i_PLACE/TIME_adj ts:NOM al:múltak
+AM po:noun ts:NOM ph:moloh
+AM po:noun ts:NOM ph:mesdzse ph:mezsdje*
+AM st:megajoule po:noun ds:s_ATTRIBUTE_adj ts:NOM
+AM st:megajoule po:noun is:TRANS
+AM st:megajoule po:noun is:INSTR
+AM st:megajoule po:noun ts:NOM
+AM po:noun ts:NOM al:megajoule-os al:megajoule-lá al:megajoule-lal al:megajoule-
+AM st:mebibyte po:noun is:TRANS ph:mebibájttá
+AM st:mebibyte po:noun is:INSTR ph:mebibájttal
+AM st:mebibyte po:noun ds:s_ATTRIBUTE_adj ts:NOM ph:mebibájtos
+AM st:mebibyte po:noun ts:NOM ph:mebibájt
+AM po:noun ts:NOM al:mebibyte-tá al:mebibyte-tal al:mebibyte-os al:mebibyte- ph:mebibájt
+AM po:noun ts:NOM ph:mecsboksz ph:mecsboks
+AM po:noun ts:NOM ph:macsete*
+AM po:noun ts:NOM ph:leasing
+AM po:noun ts:NOM ph:lobby
+AM po:noun ts:NOM ph:lájt
+AM po:noun ts:NOM ph:licensz ph:licens
+AM po:noun ts:NOM ph:lédi
+AM po:noun ts:NOM al:közelmúltak
+AM st:kkv po:noun is:TRANS
+AM st:kkv po:noun is:INSTR
+AM st:kkv po:noun ds:s_ATTRIBUTE_adj ts:NOM
+AM st:kkv po:noun ts:NOM
+AM po:noun ts:NOM al:kkv-vá al:kkv-val al:kkv-s al:kkv-
+AM po:noun ts:NOM al:kisáruházak
+AM st:kilojoule po:noun ds:s_ATTRIBUTE_adj ts:NOM
+AM st:kilojoule po:noun is:TRANS
+AM st:kilojoule po:noun is:INSTR
+AM st:kilojoule po:noun ts:NOM
+AM po:noun ts:NOM al:kilojoule-os al:kilojoule-lá al:kilojoule-lal al:kilojoule-
+AM po:noun ts:NOM ph:kilógram
+AM st:kilencvenvalahány po:adj_num ds:An_MODE_adv
+AM st:kilencvenvalahány po:adj_num is:dik_ORDINAL_adj] ts:PLUR
+AM st:kilencvenvalahány po:adj_num is:dik_ORDINAL_adj ts:NOM
+AM po:adj_num_wh al:kilencvenvalahányan al:kilencvenvalahányadikak al:kilencvenvalahányadik
+AM po:adj_num ts:NOM al:kilencvenvalahányan al:kilencvenvalahányadikak al:kilencvenvalahányadik
+AM po:noun ts:NOM ph:kikboksz ph:kikboks
+AM st:kibibyte po:noun is:TRANS ph:kibibájttá
+AM st:kibibyte po:noun is:INSTR ph:kibibájttal
+AM st:kibibyte po:noun ds:s_ATTRIBUTE_adj ts:NOM ph:kibibájtos
+AM st:kibibyte po:noun ts:NOM ph:kibibájt
+AM po:noun ts:NOM al:kibibyte-tá al:kibibyte-tal al:kibibyte-os al:kibibyte- ph:kibibájt
+AM po:noun ts:NOM ph:kecsap ph:kecsöp
+AM st:jövő_idő po:noun ts:NOM
+AM po:noun ts:NOM ph:dzsojsztik
+AM po:noun ts:NOM ph:dzsoli ph:dzsolidzsóker
+AM ph:dzsoli ph:dzsolidzsóker
+AM po:noun ts:NOM ph:dzsóker
+AM st:jelen_idő po:noun ts:NOM
+AM po:noun ts:NOM al:jamgyökerek
+AM po:noun ts:NOM ph:dzsakudzi
+AM po:noun ts:NOM ph:intersziti
+AM po:noun ts:NOM ph:empromptü
+AM po:adv al:idéntől al:idénről al:idénre
+AM st:idő po:noun ts:NOM al:múlt al:jövő al:jelen
+AM st:idegez po:vrb ds:Ó_PRESPART_adj ts:NOM
+AM st:idegez po:vrb ds:Ás_PROCESS/RESULT_noun ts:NOM
+AM po:noun ts:NOM ph:húsvér
+AM po:noun ts:NOM ph:hókusz-pókusz ph:hókusz-pókus
+AM po:noun ts:NOM al:házilegyek
+AM ph:hálisten ph:hálistennek
+AM po:noun ts:NOM ph:hálisten ph:hálistennek
+AM st:huszonvalahány po:adj_num ds:An_MODE_adv
+AM st:huszonvalahány po:adj_num is:dikA_DATE_noun ts:NOM
+AM st:huszonvalahány po:adj_num is:dik_ORDINAL_adj] ts:PLUR
+AM st:huszonvalahány po:adj_num is:dik_ORDINAL_adj ts:NOM
+AM po:adj_num_wh al:huszonvalahányan al:huszonvalahányadiki al:huszonvalahányadikak al:huszonvalahányadika al:huszonvalahányadik
+AM po:adj_num ts:NOM al:huszonvalahányan al:huszonvalahányadiki al:huszonvalahányadikak al:huszonvalahányadika al:huszonvalahányadik
+AM po:noun ts:NOM ph:hászki
+AM po:noun ts:NOM ph:homunkulusz ph:homunkulus
+AM st:hogyan po:noun is:SBL
+AM st:hogyan po:noun is:POSS_SG_3 is:SBL
+AM po:adv al:hogyanra al:hogyanjára
+AM st:hetvenvalahány po:adj_num ds:An_MODE_adv
+AM st:hetvenvalahány po:adj_num is:dik_ORDINAL_adj] ts:PLUR
+AM st:hetvenvalahány po:adj_num is:dik_ORDINAL_adj ts:NOM
+AM po:adj_num_wh al:hetvenvalahányan al:hetvenvalahányadikak al:hetvenvalahányadik
+AM st:hét po:noun is:i_PLACE/TIME_adj ts:NOM al:pár al:múlt
+AM po:adj al:pár al:múlt
+AM st:hét po:adj_num ts:PLUR ts:NOM al:pár al:múlt al:jövő
+AM st:hét po:noun is:POSS_SG_3 ts:NOM al:pár
+AM po:noun ts:NOM al:hengeresférgek
+AM st:Heathrow po:noun_prs is:i_PLACE/TIME_adj ts:NOM ph:híthrói ph:hítrói
+AM po:noun ts:NOM ph:hedszet
+AM st:hó po:noun is:i_PLACE/TIME_adj ts:NOM al:pár al:múlt
+AM st:hatvanvalahány po:adj_num ds:An_MODE_adv
+AM st:hatvanvalahány po:adj_num is:dik_ORDINAL_adj] ts:PLUR
+AM st:hatvanvalahány po:adj_num is:dik_ORDINAL_adj ts:NOM
+AM po:adj_num_wh al:hatvanvalahányan al:hatvanvalahányadikak al:hatvanvalahányadik
+AM po:adj_num ts:NOM al:hatvanvalahányan al:hatvanvalahányadikak al:hatvanvalahányadik
+AM po:noun ts:NOM ph:hesteg
+AM st:harmincvalahány po:adj_num ds:An_MODE_adv
+AM st:harmincvalahány po:adj_num is:dikA_DATE_noun ts:NOM
+AM st:harmincvalahány po:adj_num is:dik_ORDINAL_adj] ts:PLUR
+AM st:harmincvalahány po:adj_num is:dik_ORDINAL_adj ts:NOM
+AM po:adv al:harmincvalahányan al:harmincvalahányadiki al:harmincvalahányadikak al:harmincvalahányadika al:harmincvalahányadik
+AM po:adj_num_wh al:harmincvalahányan al:harmincvalahányadiki al:harmincvalahányadikak al:harmincvalahányadika al:harmincvalahányadik
+AM po:adj_num ts:NOM al:harmincvalahányan al:harmincvalahányadiki al:harmincvalahányadikak al:harmincvalahányadika al:harmincvalahányadik
+AM po:noun ts:NOM ph:helovín ph:helovin
+AM po:noun ts:NOM ph:hekker
+AM po:noun ts:NOM ph:grizli
+AM st:gourmand po:noun ds:s_ATTRIBUTE_adj ts:NOM ph:gurmanos
+AM st:gourmand po:noun is:TRANS ph:gurmanná
+AM st:gourmand po:noun is:INSTR ph:gurmannal
+AM st:gourmand po:noun ts:NOM ph:gurman
+AM po:noun ts:NOM al:gourmand-os al:gourmand-ná al:gourmand-nal al:gourmand- ph:gurman
+AM po:noun ts:NOM ph:goszpel
+AM po:noun ts:NOM ph:nyokki
+AM st:gigajoule po:noun ds:s_ATTRIBUTE_adj ts:NOM
+AM st:gigajoule po:noun is:TRANS
+AM st:gigajoule po:noun is:INSTR
+AM st:gigajoule po:noun ts:NOM
+AM po:noun ts:NOM al:gigajoule-os al:gigajoule-lá al:gigajoule-lal al:gigajoule-
+AM st:gibibyte po:noun is:TRANS ph:gibibájttá
+AM st:gibibyte po:noun is:INSTR ph:gibibájttal
+AM st:gibibyte po:noun ds:s_ATTRIBUTE_adj ts:NOM ph:gibibájtos
+AM st:gibibyte po:noun ts:NOM ph:gibibájt
+AM po:noun ts:NOM al:gibibyte-tá al:gibibyte-tal al:gibibyte-os al:gibibyte- ph:gibibájt
+AM po:noun ts:NOM ph:főépítésvezető
+AM po:noun ts:NOM al:félmúltak
+AM al:félszer al:fél al:felek al:feledik al:felek
+AM po:noun ts:NOM ph:fánki
+AM po:noun ts:NOM ph:flopi
+AM po:noun ts:NOM ph:fíling
+AM po:noun ts:NOM ph:fentezi
+AM po:noun ts:NOM ph:fah
+AM st:ezervalahányszáz po:adj_num ts:An_MODE_adv
+AM po:adj_num ts:NOM al:ezervalahányszázan
+AM po:part al:exet
+AM po:noun ts:NOM al:exet
+AM po:noun ts:NOM ph:eunuh
+AM st:előtt po:post is:ABL
+AM po:post al:előttől al:előttről al:előttig al:előtthöz
+AM po:noun ts:NOM al:előbelek
+AM st:Edinburgh po:noun_prs is:i_PLACE/TIME_adj ts:NOM ph:edimborói ph:edimböri,edinbra*
+AM po:noun ts:NOM ph:eksztazi
+AM po:noun ts:NOM ph:í-lőrning
+AM po:noun ts:NOM al:dörzsárak
+AM po:noun ts:NOM ph:caciki ph:tzatziki
+AM st:dvd po:noun is:TRANS
+AM st:dvd po:noun is:INSTR
+AM st:dvd po:noun ds:s_ATTRIBUTE_adj ts:NOM
+AM st:dvd po:noun ts:NOM
+AM po:noun ts:NOM al:dvd-vé al:dvd-vel al:dvd-s al:dvd-
+AM po:noun ts:NOM ph:diszpléj
+AM po:noun_prs ts:NOM ph:dartanyan ph:dártányán
+AM po:noun_prs ts:NOM ph:dárk ph:dark
+AM st:d’Alembert po:noun is:TRANS
+AM st:d’Alembert po:noun is:INSTR
+AM st:d’Alembert po:noun ts:NOM
+AM po:noun ts:NOM al:d’Alembert-ré al:d’Alembert-rel al:d’Alembert-
+AM po:noun ts:NOM ph:kovboj ph:kauboj
+AM po:noun ts:NOM ph:kopirájt
+AM po:noun ts:NOM ph:kokkusz ph:kokkus
+AM po:noun ts:NOM ph:sziti
+AM po:noun ts:NOM ph:csabatta*
+AM po:noun ts:NOM ph:cseri
+AM po:noun ts:NOM ph:cset
+AM po:noun ts:NOM ph:sármőr
+AM po:noun ts:NOM ph:ceh
+AM po:noun ts:NOM ph:kapoéra*
+AM po:noun ts:NOM ph:kampusz ph:kampus
+AM po:noun ts:NOM ph:brendi
+AM po:noun ts:NOM ph:boj
+AM po:noun ts:NOM ph:bóling
+AM po:noun ts:NOM ph:börbön
+AM po:noun ts:NOM ph:bobi
+AM ph:bizisten
+AM po:noun ts:NOM ph:bekerel
+AM po:noun ts:NOM ph:bít
+AM po:noun ts:NOM ph:bézból
+AM po:noun ts:NOM ph:bajaddzó
+AM po:noun ts:NOM ph:békön
+AM ph:asziszi
+AM po:noun ts:NOM ph:eszembler
+AM po:noun ts:NOM al:apróhalak
+AM po:noun ts:NOM ph:antraksz ph:antraks
+AM po:vrb ts:PRES_INDIC_INDEF_SG_3 al:érett
+AM st:érik po:vrb is:PAST_INDIC_INDEF_SG_3
+AM po:vrb ts:PRES_INDIC_INDEF_SG_3 al:vásárló al:vásárlás al:vásárlandó
+AM st:telik po:vrb is:PRES_INDIC_INDEF_SG_1 al:telkek al:múlt al:jövő
+AM po:vrb ts:PRES_INDIC_INDEF_SG_3 ph:legitimizál
+AM po:vrb ts:PRES_INDIC_INDEF_SG_3 al:idegző al:idegzés
+AM st:útiszótár po:noun ts:PLUR ts:NOM
+AM st:összterjedelem po:noun ts:PLUR ts:NOM
+AM st:összhossz po:noun ts:PLUR ts:NOM
+AM st:tél po:noun ts:PLUR ts:NOM al:telkek al:múlt al:jövő
+AM st:sörhas po:noun ts:PLUR ts:NOM
+AM st:pórhad po:noun ts:PLUR ts:NOM
+AM st:pár_hét po:noun ts:PLUR ts:NOM al:egypárszor al:egypáran al:egypárak al:egypár al:párszor al:páran al:párak
+AM st:nyár po:noun ts:PLUR ts:NOM al:múlt al:jövő
+AM st:múlt_tél po:noun ts:PLUR ts:NOM al:múltak
+AM st:múlt_nyár po:noun ts:PLUR ts:NOM al:múltak
+AM st:múlt_hét po:noun ts:PLUR ts:NOM al:múltak
+AM st:múlt_hó po:noun ts:PLUR ts:NOM al:múltak
+AM st:közelmúlt po:noun ts:PLUR ts:NOM
+AM st:kisáruház po:noun ts:PLUR ts:NOM
+AM st:jövő_tél po:noun ts:PLUR ts:NOM
+AM st:jövő_nyár po:noun ts:PLUR ts:NOM
+AM st:jövő_hét po:noun ts:PLUR ts:NOM
+AM st:jövő_hó po:noun ts:PLUR ts:NOM
+AM st:jamgyökér po:noun ts:PLUR ts:NOM
+AM st:házilégy po:noun ts:PLUR ts:NOM
+AM st:hét po:noun ts:PLUR ts:NOM al:pár al:múlt al:jövő
+AM st:hengeresféreg po:noun ts:PLUR ts:NOM
+AM st:hó po:noun ts:PLUR ts:NOM al:múlt al:jövő
+AM st:félmúlt po:noun ts:PLUR ts:NOM
+AM st:előbél po:noun ts:PLUR ts:NOM
+AM st:dörzsár po:noun ts:PLUR ts:NOM
+AM st:apróhal po:noun ts:PLUR ts:NOM
+AM st:hét po:noun ts:POSS_SG_3 ts:NOM al:pár
+AM po:neg ph:neadjisten
+AM st:pár po:adj_num is:PLUR is:NOM al:fél
+AM st:pár po:adj_num is:PLUR is:NOM al:félszer al:fél al:felek al:feledik al:felek
+AM po:adj_num is:SG is:NOM al:félszer al:fél al:felek al:feledik al:felek
+AM po:adj ts:NOM ph:tühtig
+AM po:adj ts:NOM ph:törzsgyökeres
+AM po:adj ts:NOM ph:tazmán ph:tasmán
+AM po:adj ts:NOM al:egypárszor al:egypáran al:egypárak al:egypár al:párszor al:páran al:párak
+AM po:adj ts:NOM ph:lájtos
+AM po:adj ts:NOM al:pár al:múlt
+AM po:adj ts:NOM ph:arhiv
+AM po:noun_prs ts:NOM ph:zicsi
+AM po:noun_prs ts:NOM ph:ceisz ph:ceis
+AM st:Zaire po:noun_prs is:ACC ph:zajirt
+AM st:Zaire po:noun_prs is:TRANS ph:zajirrá
+AM st:Zaire po:noun_prs is:INSTR ph:zajirral
+AM st:Zaire po:noun_prs ts:NOM ph:zajir
+AM po:noun_prs ts:NOM al:zaire-i al:Zaire-t al:Zaire-rá al:Zaire-ral al:Zaire- ph:zajir
+AM st:Za"ire po:noun_prs is:ACC ph:zajirt
+AM st:Za"ire po:noun_prs is:TRANS ph:zajirrá
+AM st:Za"ire po:noun_prs is:INSTR ph:zajirral
+AM st:Za"ire po:noun_prs ts:NOM ph:zajir
+AM po:noun_prs ts:NOM al:za"ire-i al:Za"ire-t al:Za"ire-rá al:Za"ire-ral al:Za"ire- ph:zajir
+AM po:noun_prs ts:NOM ph:jamaha*
+AM po:noun_prs ts:NOM ph:vuszter
+AM po:noun_prs ts:NOM ph:vinthúk
+AM po:noun_prs ts:NOM ph:vörös
+AM po:noun_prs ts:NOM ph:vejerstrassz ph:vejerstrass
+AM po:noun_prs ts:NOM ph:varburg
+AM po:noun_prs ts:NOM ph:vágner
+AM po:noun_prs ts:NOM ph:folszvágen
+AM po:noun_prs ts:NOM ph:vijjon
+AM po:noun_prs ts:NOM ph:vietnam
+AM po:noun_prs ts:NOM ph:juniksz ph:juniks
+AM po:noun_prs ts:NOM ph:tyúring
+AM po:noun_prs ts:NOM ph:titanik
+AM po:noun_prs ts:NOM ph:tájmsz ph:tájms
+AM po:noun_prs ts:NOM ph:tália*
+AM po:noun_prs ts:NOM ph:tomasz ph:tomas
+AM po:noun_prs ts:NOM ph:tájföld
+AM po:noun_prs ts:NOM ph:teszkó
+AM po:noun_prs ts:NOM ph:teneszi
+AM po:noun_prs ts:NOM ph:téjlor
+AM po:noun_prs ts:NOM ph:tazmánia ph:tasmánia*
+AM po:noun_prs ts:NOM ph:szfinksz ph:szfinks
+AM po:noun_prs ts:NOM ph:szilíciumvölgy ph:szilíciumvölg
+AM po:noun_prs ts:NOM ph:szuzuki
+AM po:noun_prs ts:NOM ph:szan
+AM po:noun_prs ts:NOM ph:szukre*
+AM po:noun_prs ts:NOM ph:sztóksz ph:sztóks
+AM po:noun_prs ts:NOM ph:sztivinzon
+AM po:noun_prs ts:NOM ph:szpilberg
+AM po:noun_prs ts:NOM ph:szoni
+AM po:noun_prs ts:NOM ph:szímensz ph:szímens ph:szimensz ph:szimens
+AM po:noun_prs ts:NOM ph:senon
+AM po:noun_prs ts:NOM ph:szeneka*
+AM po:noun_prs ts:NOM ph:szent-egzüperi ph:egzüperi
+AM po:noun_prs ts:NOM ph:ród
+AM po:noun_prs ts:NOM ph:rájfájzen ph:rajfejzen
+AM po:noun_prs ts:NOM ph:kebek
+AM po:noun_prs ts:NOM ph:kvazimódó ph:kvazimodó
+AM po:noun_prs ts:NOM ph:pruszt
+AM po:noun_prs ts:NOM ph:poaszon
+AM po:noun_prs ts:NOM al:Plymouthszá al:Plymouthszal ph:plimausz ph:plimaus
+AM po:noun_prs ts:NOM ph:pidzbörg
+AM po:noun_prs ts:NOM ph:pinokkió
+AM po:noun_prs ts:NOM ph:pikk
+AM po:noun_prs ts:NOM ph:pikasszó*
+AM po:noun_prs ts:NOM ph:filipsz ph:filips
+AM st:PhD po:noun_prs is:TRANS ph:píécsdívé ph:piécsdivé
+AM st:PhD po:noun_prs is:INSTR ph:píécsdível ph:piécsdivel
+AM st:PhD po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM ph:píécsdís ph:piécsdis
+AM st:PhD po:noun_prs ts:NOM ph:píécsdí ph:piécsdi
+AM po:noun_prs ts:NOM al:PhD-vé al:PhD-vá al:PhD-vel al:PhD-val al:PhD-s al:PhD- ph:píécsdí ph:piécsdi
+AM po:noun_prs ts:NOM ph:percel
+AM po:noun_prs ts:NOM ph:pepszi-kóla ph:pepszikóla*
+AM po:noun_prs ts:NOM ph:pasztőr
+AM po:noun_prs ts:NOM ph:panaszonik
+AM po:noun_prs ts:NOM ph:vagadugu
+AM po:noun_prs ts:NOM ph:oszkár
+AM po:noun_prs ts:NOM ph:orlinsz ph:orlins
+AM st:OPEC po:abr is:TRANS
+AM st:OPEC po:abr is:INSTR
+AM st:OPEC po:abr ds:s_ATTRIBUTE_adj ts:NOM
+AM st:OPEC po:abr ts:NOM
+AM po:abr ts:NOM al:OPEC-ké al:OPEC-kel al:OPEC-es al:OPEC-cé al:OPEC-cel al:OPEC-
+AM po:noun_prs ts:NOM ph:notredam
+AM po:noun_prs ts:NOM ph:nisszan
+AM po:noun_prs ts:NOM ph:niccse*
+AM po:noun_prs ts:NOM ph:ninnyó ph:nínyó
+AM po:noun_prs ts:NOM ph:neksző
+AM po:noun_prs ts:NOM ph:nyú
+AM po:noun_prs ts:NOM al:Neumann-né ph:najman
+AM st:NER po:abr is:TRANS
+AM st:NER po:abr is:INSTR
+AM st:NER po:abr ds:s_ATTRIBUTE_adj ts:NOM
+AM st:NER po:abr ts:NOM
+AM po:abr ts:NOM al:NER-ré al:NER-rel al:NER-es al:NER-
+AM po:noun_prs ts:NOM ph:nndzsaména*
+AM po:noun_prs ts:NOM ph:móric
+AM po:noun_prs ts:NOM ph:mócárt
+AM po:noun_prs ts:NOM ph:morzbi
+AM po:noun_prs ts:NOM ph:micubisi ph:micsubisi
+AM po:noun_prs ts:NOM ph:misziszipi
+AM po:noun_prs ts:NOM ph:mineszota*
+AM po:noun_prs ts:NOM ph:micsigen
+AM po:noun_prs ts:NOM ph:misel ph:májköl
+AM po:noun_prs ts:NOM ph:mercédesz ph:mercédes
+AM po:noun_prs ts:NOM ph:megdonálc ph:megdonalc ph:mekdonálc ph:mekdonalc ph:meki
+AM po:noun_prs ts:NOM ph:móm
+AM po:noun_prs ts:NOM ph:messzecsúzec ph:messzecsuzec
+AM po:noun_prs ts:NOM ph:méri
+AM po:noun_prs ts:NOM al:Madáchcsá al:Madáchcsal ph:madács ph:madác
+AM po:noun_prs ts:NOM ph:mekintos
+AM st:MSc po:abr is:TRANS
+AM st:MSc po:abr is:INSTR
+AM st:MSc po:abr ds:s_ATTRIBUTE_adj ts:NOM
+AM st:MSc po:abr is:i_PLACETIME_adj ts:NOM
+AM st:MSc po:abr ts:NOM
+AM po:abr ts:NOM al:MSc-vé al:MSc-vel al:MSc-s al:MSc-
+AM po:noun_prs ts:NOM ph:lorka*
+AM po:noun_prs ts:NOM ph:lambordzsini
+AM po:noun_prs ts:NOM ph:ku-klux-klán
+AM po:noun_prs ts:NOM ph:kovács ph:kovác
+AM po:noun_prs ts:NOM al:Kováchcsá al:Kováchcsal ph:kovács ph:kovác
+AM po:noun_prs ts:NOM ph:kosut
+AM po:noun_prs ts:NOM ph:kítsz ph:kíts
+AM po:noun_prs ts:NOM ph:kavaszaki
+AM po:noun_prs ts:NOM ph:kalmopirin
+AM po:noun_prs ts:NOM ph:huan
+AM po:noun_prs ts:NOM ph:dzsonsz ph:dzsons
+AM po:noun_prs ts:NOM ph:dzson
+AM po:noun_prs ts:NOM ph:zsán ph:zsan ph:zsandark ph:zsándárk
+AM po:noun_prs ts:NOM ph:ajova*
+AM po:noun_prs ts:NOM ph:ájdahó*
+AM st:IBM po:abr is:TRANS ph:ájbíemmé ph:ájbiemmé
+AM st:IBM po:abr is:INSTR ph:ájbíemmel ph:ájbiemmel
+AM st:IBM po:abr ds:s_ATTRIBUTE_adj ts:NOM ph:ájbíemes ph:ájbiemes
+AM st:IBM po:abr ts:NOM ph:ájbíem ph:ájbiem
+AM po:abr ts:NOM al:IBM-mé al:IBM-mel al:IBM-es al:IBM- ph:ájbíem ph:ájbiem
+AM po:noun_prs ts:NOM al:Hyundaiok al:Hyundait al:Hyundaijá al:Hyundaijal ph:hjundáj
+AM po:noun_prs ts:NOM ph:höjhensz ph:höjhens
+AM po:noun_prs ts:NOM ph:holivud ph:halivud ph:hálivud
+AM po:noun_prs ts:NOM ph:herc
+AM po:noun_prs ts:NOM ph:hemingvéj
+AM st:Heathrow po:noun_prs is:TRANS ph:híthróvá ph:hítróvá
+AM st:Heathrow po:noun_prs is:INSTR ph:híthróval ph:hítróval
+AM st:Heathrow po:noun_prs ts:NOM ph:híthró ph:hítró
+AM po:noun_prs ts:NOM al:heathrow-i al:Heathrow-vá al:Heathrow-val al:Heathrow- ph:híthró ph:hítró
+AM po:noun_prs ts:NOM ph:hacsek
+AM po:noun_prs ts:NOM ph:havaji
+AM po:noun_prs ts:NOM ph:herri
+AM po:noun_prs ts:NOM ph:heming
+AM st:HBO po:abr is:TRANS ph:écsbíóvá ph:écsbióvá
+AM st:HBO po:abr is:INSTR ph:écsbíóval ph:écsbióval
+AM st:HBO po:abr ds:s_ATTRIBUTE_adj ts:NOM ph:écsbíós ph:écsbiós
+AM st:HBO po:abr ts:NOM ph:écsbíó ph:écsbió
+AM po:abr ts:NOM al:HBO-vá al:HBO-val al:HBO-s al:HBO- ph:écsbíó ph:écsbió
+AM po:noun_prs ts:NOM ph:ginisz ph:ginis
+AM po:noun_prs ts:NOM ph:gresem
+AM ph:griniccsel
+AM po:noun_prs ts:NOM ph:grinics ph:grinic
+AM ph:gráccal
+AM po:noun_prs ts:NOM ph:grác
+AM po:noun_prs ts:NOM ph:grafiszoft
+AM po:noun_prs ts:NOM ph:gója*
+AM po:noun_prs ts:NOM ph:gőte*
+AM po:noun_prs ts:NOM ph:göbbelsz ph:göbbels
+AM po:noun_prs ts:NOM ph:gecsemáné-kert ph:getszemáni-kert
+AM po:noun_prs ts:NOM ph:gestapó
+AM po:noun_prs ts:NOM ph:gogen
+AM st:GDP po:abr is:TRANS ph:dzsídípívé ph:dzsidipivé
+AM st:GDP po:abr is:INSTR ph:dzsídípível ph:dzsidipivel
+AM st:GDP po:abr ds:s_ATTRIBUTE_adj ts:NOM ph:dzsídípís ph:dzsidipis
+AM st:GDP po:abr ts:NOM ph:dzsídípí ph:dzsidipi
+AM po:abr ts:NOM al:GDP-vé al:GDP-vel al:GDP-s al:GDP- ph:dzsídípí ph:dzsidipi
+AM po:noun_prs ts:NOM ph:fájerfoksz ph:fájerfoks
+AM po:noun_prs ts:NOM ph:fókner
+AM po:noun_prs ts:NOM ph:feredéj
+AM po:noun_prs ts:NOM ph:ekszel
+AM po:noun_prs ts:NOM ph:ajler
+AM po:noun_prs ts:NOM ph:elninnyó ph:elnínyó ph:ninnyó ph:nínyó
+AM po:noun_prs ts:NOM ph:egresi
+AM po:noun_prs ts:NOM ph:égisz ph:égis
+AM po:noun_prs ts:NOM ph:edvárd
+AM st:Edinburgh po:noun_prs is:TRANS ph:edimboróvá ph:edimbörvá,edinbra*
+AM st:Edinburgh po:noun_prs is:INSTR ph:edimboróval ph:edimbörval,edinbra*
+AM st:Edinburgh po:noun_prs ts:NOM ph:edimboró ph:edimbör,edinbra*
+AM po:noun_prs ts:NOM al:edinburgh-i al:Edinburgh-vá al:Edinburgh-val al:Edinburgh- ph:edimboró ph:edimbör,edinbra*
+AM po:noun_prs ts:NOM ph:ekvádor
+AM po:noun_prs ts:NOM ph:dvorzsák
+AM po:noun_prs ts:NOM ph:diznilend
+AM po:noun_prs ts:NOM ph:dajcs ph:dajc
+AM po:noun_prs ts:NOM ph:döbüsszi
+AM po:noun_prs ts:NOM ph:darvin
+AM po:noun_prs ts:NOM al:Damjanichcsá al:Damjanichcsal ph:damjanics ph:damjanic
+AM po:noun_prs ts:NOM ph:dajhacu
+AM po:noun_prs ts:NOM ph:dévu ph:dévó
+AM po:noun_prs ts:NOM ph:dácsia*
+AM po:noun_prs ts:NOM ph:sziránó*
+AM po:noun_prs ts:NOM ph:krajcfelt
+AM po:noun_prs ts:NOM ph:kúk
+AM po:noun_prs ts:NOM ph:konnektikat
+AM po:noun_prs ts:NOM ph:kolosszeum
+AM po:noun_prs ts:NOM ph:koka-kóla ph:kokakóla*
+AM po:noun_prs ts:NOM ph:szitroen ph:citroen
+AM po:noun_prs ts:NOM ph:csörcsil
+AM po:noun_prs ts:NOM ph:csomszki
+AM po:noun_prs ts:NOM ph:hemnic
+AM po:noun_prs ts:NOM ph:csószer
+AM po:noun_prs ts:NOM ph:csárlsz ph:csárls
+AM po:noun_prs ts:NOM ph:sanz-elizé
+AM po:noun_prs ts:NOM ph:sagal
+AM po:noun_prs ts:NOM ph:celziusz ph:celzius
+AM po:noun_prs ts:NOM ph:csaucseszku
+AM po:noun_prs ts:NOM ph:kavinton
+AM po:noun_prs ts:NOM ph:kósi
+AM po:noun_prs ts:NOM ph:kármen
+AM po:noun_prs ts:NOM ph:kaola*
+AM po:noun_prs ts:NOM ph:kenon
+AM po:noun_prs ts:NOM ph:kedilek ph:kedilekk
+AM st:BÚÉK po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM
+AM st:BÚÉK po:noun_prs is:TRANS
+AM st:BÚÉK po:noun_prs is:INSTR
+AM st:BÚÉK po:noun_prs ts:NOM
+AM po:noun_prs ts:NOM al:BÚÉK-os al:BÚÉK-ká al:BÚÉK-kal al:BÚÉK-
+AM po:noun_prs ts:NOM ph:bunzen
+AM po:noun_prs ts:NOM ph:bundeszver
+AM po:noun_prs ts:NOM ph:buzsumbura*
+AM po:noun_prs ts:NOM ph:brőhel
+AM po:noun_prs ts:NOM ph:brúklin
+AM po:noun_prs ts:NOM ph:bródvéj
+AM po:noun_prs ts:NOM ph:breht
+AM po:noun_prs ts:NOM ph:brámsz ph:bráms
+AM po:noun_prs ts:NOM ph:burbon
+AM po:noun_prs ts:NOM ph:boticselli
+AM po:noun_prs ts:NOM ph:bór
+AM po:noun_prs ts:NOM ph:bóing
+AM po:noun_prs ts:NOM ph:bokaccsó*
+AM po:noun_prs ts:NOM ph:biszmark
+AM po:noun_prs ts:NOM ph:bétóven
+AM po:noun_prs ts:NOM ph:bitlisz ph:bitlis
+AM po:noun_prs ts:NOM ph:bajer
+AM po:noun_prs ts:NOM ph:bézik
+AM po:noun_prs ts:NOM ph:bangi
+AM po:noun_prs ts:NOM ph:balog
+AM po:noun_prs ts:NOM ph:békön
+AM po:noun_prs ts:NOM ph:bah
+AM po:noun_prs ts:NOM ph:bakhusz ph:bakhus
+AM po:noun_prs ts:NOM ph:babics ph:babic
+AM po:noun_prs ts:NOM ph:babes
+AM st:BSc po:abr is:TRANS
+AM st:BSc po:abr is:INSTR
+AM st:BSc po:abr ds:s_ATTRIBUTE_adj ts:NOM
+AM st:BSc po:abr is:i_PLACETIME_adj ts:NOM
+AM st:BSc po:abr ts:NOM
+AM po:abr ts:NOM al:BSc-vé al:BSc-vel al:BSc-s al:BSc-
+AM st:B9 po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM
+AM st:B9 po:noun_prs is:TRANS
+AM st:B9 po:noun_prs is:INSTR
+AM st:B9 po:noun_prs ts:NOM
+AM po:noun_prs ts:NOM al:B9-es al:B9-cé al:B9-cel al:B9-
+AM st:B7 po:noun_prs is:TRANS
+AM st:B7 po:noun_prs is:INSTR
+AM st:B7 po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM
+AM st:B7 po:noun_prs ts:NOM
+AM po:noun_prs ts:NOM al:B7-té al:B7-tel al:B7-es al:B7-
+AM st:B6 po:noun_prs is:TRANS
+AM st:B6 po:noun_prs is:INSTR
+AM st:B6 po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM
+AM st:B6 po:noun_prs ts:NOM
+AM po:noun_prs ts:NOM al:B6-tá al:B6-tal al:B6-os al:B6-
+AM st:B5 po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM
+AM st:B5 po:noun_prs is:TRANS
+AM st:B5 po:noun_prs is:INSTR
+AM st:B5 po:noun_prs ts:NOM
+AM po:noun_prs ts:NOM al:B5-ös al:B5-té al:B5-tel al:B5-
+AM st:B3 po:noun_prs is:TRANS
+AM st:B3 po:noun_prs is:INSTR
+AM st:B3 po:noun_prs is:ACC
+AM st:B3 po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM
+AM st:B3 po:noun_prs ts:NOM
+AM po:noun_prs ts:NOM al:B3-má al:B3-mal al:B3-at al:B3-as al:B3-
+AM st:B2 po:noun_prs is:TRANS
+AM st:B2 po:noun_prs is:INSTR
+AM st:B2 po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM
+AM st:B2 po:noun_prs ts:NOM
+AM po:noun_prs ts:NOM al:B2-vé al:B2-vel al:B2-s al:B2-
+AM st:B12 po:noun_prs is:TRANS
+AM st:B12 po:noun_prs is:INSTR
+AM st:B12 po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM
+AM st:B12 po:noun_prs ts:NOM
+AM po:noun_prs ts:NOM al:B12-vé al:B12-vel al:B12-s al:B12-
+AM st:B1 po:noun_prs is:i_PLACE/TIME_adj ts:NOM
+AM st:B1 po:noun_prs is:TRANS
+AM st:B1 po:noun_prs is:INSTR
+AM st:B1 po:noun_prs ds:s_ATTRIBUTE_adj ts:NOM
+AM st:B1 po:noun_prs ts:NOM
+AM po:noun_prs ts:NOM al:B1-jei al:B1-gyé al:B1-gyel al:B1-es al:B1-
+AM po:noun_prs ts:NOM ph:azsgabat
+AM po:noun_prs ts:NOM ph:ausvic
+AM po:noun_prs ts:NOM ph:aténé
+AM po:noun_prs ts:NOM ph:aténeum
+AM po:noun_prs ts:NOM ph:asztória*
+AM po:noun_prs ts:NOM ph:afrodité
+AM po:noun_prs ts:NOM ph:antóniusz ph:antónius
+AM po:noun_prs ts:NOM ph:anonímusz ph:anonímus
+AM po:noun_prs ts:NOM ph:anzsu
+AM po:noun_prs ts:NOM ph:anderzen
+AM po:noun_prs ts:NOM ph:algopirin
+AM po:noun_prs ts:NOM ph:éneász ph:éneás
+AM po:noun_prs ts:NOM al:Adyak ph:adi
+AM po:noun ts:NOM ph:Achilles-ínszakadás
+AM po:noun_prs ts:NOM ph:ekszesz ph:ekszes
+AM st:90 po:adj_num ds:An_MODE_adv
+AM st:90 po:adj_num is:d_FRACTION_num
+AM st:90 po:adj_num
+AM po:adj_num ts:NOM al:90-né al:90-nel al:90-es al:90-en al:90-ed al:90- al:90-
+AM st:9 po:adj_num is:d_FRACTION_num
+AM po:adj_num ts:NOM al:9-i al:9-i al:9-es al:9-en al:9-ed al:9-e al:9-cé al:9-cel al:9- al:9-
+AM st:80 po:adj_num ds:An_MODE_adv
+AM st:80 po:adj_num is:d_FRACTION_num
+AM st:80 po:adj_num
+AM po:adj_num ts:NOM al:80-ná al:80-nal al:80-at al:80-as al:80-an al:80-ad al:80- al:80-
+AM st:8 po:adj_num is:d_FRACTION_num
+AM po:adj_num ts:NOM al:8-i al:8-i al:8-cá al:8-cal al:8-at al:8-as al:8-an al:8-ad al:8-a al:8- al:8-
+AM st:70 po:adj_num ds:An_MODE_adv
+AM st:70 po:adj_num is:d_FRACTION_num
+AM st:70 po:adj_num
+AM po:adj_num ts:NOM al:70-né al:70-nel al:70-es al:70-en al:70-ed al:70- al:70-
+AM st:7 po:adj_num is:d_FRACTION_num
+AM po:adj_num ts:NOM al:7-té al:7-tel al:7-i al:7-i al:7-es al:7-en al:7-ed al:7-e al:7- al:7-
+AM st:60 po:adj_num ds:An_MODE_adv
+AM st:60 po:adj_num is:d_FRACTION_num
+AM st:60 po:adj_num
+AM po:adj_num ts:NOM al:60-ná al:60-nal al:60-at al:60-as al:60-an al:60-ad al:60- al:60-
+AM st:6 po:adj_num is:d_FRACTION_num
+AM po:adj_num ts:NOM al:6-tá al:6-tal al:6-os al:6-od al:6-i al:6-i al:6-an al:6-a al:6- al:6-
+AM st:50 po:adj_num ds:An_MODE_adv
+AM st:50 po:adj_num is:d_FRACTION_num
+AM st:50 po:adj_num
+AM po:adj_num ts:NOM al:50-né al:50-nel al:50-es al:50-en al:50-ed al:50- al:50-
+AM st:5 po:adj_num is:d_FRACTION_num
+AM po:adj_num ts:NOM al:5-ös al:5-Ăśd al:5-té al:5-tel al:5-i al:5-i al:5-en al:5-e al:5- al:5-
+AM st:40 po:adj_num ds:An_MODE_adv
+AM st:40 po:adj_num is:d_FRACTION_num
+AM st:40 po:adj_num
+AM po:adj_num ts:NOM al:40-né al:40-nel al:40-es al:40-en al:40-ed al:40- al:40-
+AM st:4 po:adj_num is:d_FRACTION_num
+AM po:adj_num ts:NOM al:4-i al:4-i al:4-gyé al:4-gyel al:4-es al:4-en al:4-ed al:4-e al:4- al:4-
+AM st:30 po:adj_num ds:An_MODE_adv
+AM st:30 po:adj_num is:d_FRACTION_num
+AM st:30 po:adj_num
+AM po:adj_num ts:NOM al:30-i al:30-cá al:30-cal al:30-at al:30-as al:30-an al:30-ad al:30-a al:30- al:30-
+AM st:3 po:adj_num is:d_FRACTION_num
+AM po:adj_num ts:NOM al:3-má al:3-mal al:3-i al:3-i al:3-at al:3-as al:3-an al:3-ad al:3-a al:3- al:3-
+AM st:20 po:adj_num ds:An_MODE_adv
+AM st:20 po:adj_num is:d_FRACTION_num
+AM st:20 po:adj_num
+AM po:adj_num ts:NOM al:20-szá al:20-szal al:20-i al:20-at al:20-as al:20-an al:20-ad al:20-a al:20- al:20-
+AM st:2 po:adj_num is:d_FRACTION_num
+AM po:adj_num ts:NOM al:2-vé al:2-vel al:2-i al:2-i al:2-es al:2-en al:2-ed al:2-ai al:2-a al:2- al:2-
+AM st:10 po:adj_num is:d_FRACTION_num
+AM po:adj_num ts:NOM al:10-zé al:10-zel al:10-i al:10-i al:10-es al:10-en al:10-ed al:10-e al:10- al:10-
+AM st:1 po:adj_num is:d_FRACTION_num
+AM po:adj_num ts:NOM al:1-ji al:1-ji al:1-jei al:1-je al:1-i al:1-gyé al:1-gyel al:1-es al:1-en al:1-ed al:1- al:1-
+AM st:000 po:adj_num is:d_FRACTION_num
+AM po:adj_num ts:NOM al:000-vá al:000-val al:000-s al:000-ré al:000-rel al:000-ot al:000-os al:000-es al:000-en al:000-ed al:000-dá al:000-dal al:000- al:000-
+AM st:00 po:adj_num is:d_FRACTION_num
+AM st:0/0 po:adj_num
+AM po:adj_num ts:NOM al:0-vá al:0-val al:0-s al:0-i al:0- al:0- al:00-
+AM st:œuvre po:noun is:TRANS ph:ővrré ph:oeuvreré
+AM st:œuvre po:noun is:INSTR ph:ővrrel ph:oeuvrerel
+AM st:œuvre po:noun ts:NOM ph:ővr ph:oeuvre*
+AM po:noun ts:NOM al:œuvre-ré al:œuvre-rel al:œuvre- ph:ővr ph:oeuvre*
+AM ds:szOr_MULTIPLICATION_adv ds:z_ACTION_vrb ts:PRES_INDIC_INDEF_SG_3
 
 SFX � Y 3
 SFX � ö ős/1247 ö 21529
@@ -26852,24 +27631,30 @@ SFX � 0 -csel ccs 21533
 SFX � 0 -cel cc 21533
 SFX � 0 -bé bb 21532
 SFX � 0 -bel bb 21533
-SFX � Y 12
+SFX � Y 15
 SFX � z szerte [^s]sz 21623
 SFX � z szeri/1296 [^s]sz 21624
+SFX � z szerez/1259 [^s]sz 24066
 SFX � z szeres/1297 [^s]sz 21625
 SFX � z szer [^s]sz 21626
 SFX � 0 szerte [^z] 21623
 SFX � 0 szerte [^s]z 21623
 SFX � 0 szeri/1296 [^z] 21624
 SFX � 0 szeri/1296 [^s]z 21624
+SFX � 0 szerez/1259 [^z] 24066
+SFX � 0 szerez/1259 [^s]z 24066
 SFX � 0 szeres/1297 [^z] 21625
 SFX � 0 szeres/1297 [^s]z 21625
 SFX � 0 szer [^z] 21626
 SFX � 0 szer [^s]z 21626
-SFX � Y 12
+SFX � Y 15
+SFX � z szöröz/1260 [^s]sz 24066
 SFX � z szörös/1298 [^s]sz 21625
 SFX � z szörte [^s]sz 21623
 SFX � z szöri/1299 [^s]sz 21624
 SFX � z ször [^s]sz 21626
+SFX � 0 szöröz/1260 [^z] 24066
+SFX � 0 szöröz/1260 [^s]z 24066
 SFX � 0 szörös/1298 [^z] 21625
 SFX � 0 szörös/1298 [^s]z 21625
 SFX � 0 szörte [^z] 21623
@@ -26878,13 +27663,16 @@ SFX � 0 szöri/1299 [^z] 21624
 SFX � 0 szöri/1299 [^s]z 21624
 SFX � 0 ször [^z] 21626
 SFX � 0 ször [^s]z 21626
-SFX � Y 12
+SFX � Y 15
 SFX � z szorta [^s]sz 21623
+SFX � z szoroz/1279 [^s]sz 24066
 SFX � z szoros/1300 [^s]sz 21625
 SFX � z szori/1301 [^s]sz 21624
 SFX � z szor [^s]sz 21626
 SFX � 0 szorta [^z] 21623
 SFX � 0 szorta [^s]z 21623
+SFX � 0 szoroz/1279 [^z] 24066
+SFX � 0 szoroz/1279 [^s]z 24066
 SFX � 0 szoros/1300 [^z] 21625
 SFX � 0 szoros/1300 [^s]z 21625
 SFX � 0 szori/1301 [^z] 21624
@@ -49599,9 +50387,11 @@ PFX r 0 legbe/1413 . 23292
 PFX r 0 legalá/1413 . 23293
 PFX r 0 legagyon/1413 . 23294
 PFX r 0 legabba/1413 . 23295
-PFX h Y 12
+PFX h Y 14
 PFX h 0 kétezer . 23296
+PFX h 0 kettőezer . 23296
 PFX h 0 ezerötszáz . 23296
+PFX h 0 ezervalahányszáz . 23296
 PFX h 0 ezerszáz . 23296
 PFX h 0 ezernégyszáz . 23296
 PFX h 0 ezernyolcszáz . 23296
@@ -49745,7 +50535,7 @@ PFX " C c C
 PFX " B b B
 PFX " A a A
 PFX " Å å Å
-PFX ! Y 27
+PFX ! Y 28
 PFX ! 0 ötven/1414 . 23296
 PFX ! 0 öt/1414 . 23296
 PFX ! 0 több/1414 [^b] 23296
@@ -49756,6 +50546,7 @@ PFX ! 0 sok/1414 . 23296
 PFX ! 0 négy/1414 . 23296
 PFX ! 0 nyolcvan/1414 . 23296
 PFX ! 0 nyolc/1414 . 23296
+PFX ! 0 nulla/1414 . 23296
 PFX ! 0 negyven/1414 . 23296
 PFX ! 0 millió/1414 . 23296
 PFX ! 0 milliárd/1414 . 23296

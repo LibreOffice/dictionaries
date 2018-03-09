@@ -1,4 +1,4 @@
-93161
+93836
 üzér/1	1
 üzletág/2	2
 üzletvezető/3	1
@@ -183,7 +183,7 @@
 ücsörögöd/36
 ücsörgő/32	41
 ücsörgés/34	42
-übermensch/1	1
+übermensch/1	23362
 ü-vé/47	43
 ü-vel/47	44
 ü-/48	45
@@ -268,6 +268,7 @@
 útitáska/18	1
 útitárs/2	58
 útiterv/1	1
+útiszótár/2	23363
 útiszámla/9	1
 útirány/8	1
 útirajz/30	1
@@ -464,7 +465,7 @@
 ötödiki/72	90
 ötödikes/1	1
 ötödike/72	90
-ötödik/73	91
+ötödik/1415	91
 ötödféltrillió/74	88
 ötödfélszázad/75	88
 ötödfélszáz/76	88
@@ -511,7 +512,12 @@
 ötvenévente	15
 ötvenévenként	15
 ötvenzłotys/30	1
-ötvenvalahány/93	94
+ötvenvalahányan/1416	23364
+ötvenvalahányan/91	23365
+ötvenvalahányadikak/1417	23366
+ötvenvalahányadik/1418	23367
+ötvenvalahány/1419	23368
+ötvenvalahány/1419	23369
 ötventrillióan/82	113
 ötventrillió/83	114
 ötventrilliárd/84	88
@@ -736,14 +742,15 @@
 ötvenedszeri/108	88
 ötvenedszer	282
 ötvenedrész/5	1
-ötvenedik/81	283
+ötvenedik/1420	283
+ötvenedannyi/79	94
 ötvened/109	284
 ötvendolláros/30	1
 ötvencentes/1	1
 ötvenbillióan/82	285
 ötvenbillió/83	286
 ötvenbilliárd/84	88
-ötven-egynéhány	287
+ötven-egynéhány	23296
 ötven/110	288
 öttusázik
 öttusaverseny/1	1
@@ -817,7 +824,7 @@
 ötbillióan/82	312
 ötbillió/83	313
 ötbilliárd/84	88
-öt-hatmillió/123	287
+öt-hatmillió/123	23296
 öt/124	314
 öszvér/27	1
 ösztönzőleg	15
@@ -831,9 +838,11 @@
 ösztrogén/17	1
 ösvény/1	1
 összóraszám/8	1
+összóra/18	1
 összérték/5	1
 összébb	15
 összár/2	318
+összvolumen/5	1
 összvagyon/8	1
 össztűz/125	319
 össztömeg/5	1
@@ -841,11 +850,15 @@
 össztérfogat/8	1
 össztáv/16	1
 össztánc/8	1
+össztámogatás/8	1
 összterület/5	1
+össztermés/5	1
 össztermék/1	1
 össztermelés/5	1
+összterjedelem/173	23370
 összteljesítmény/5	1
 összsúly/8	1
+összpéldányszám/8	1
 összpróba/18	1
 összpontszám/8	1
 összpontosul
@@ -859,24 +872,38 @@
 összmemória/18	1
 összmagyarság/8	1
 összlétszám/8	1
+összlet/1	1
 összlakosság/8	1
+összközművesít/7	1
 összköltség/5	1
 összkép/5	1
+összkredit/7	1
 összkormányzat/8	1
 összkomfort/41	1
+összkibocsátás/8	1
 összkiadás/30	1
 összkerület/5	1
-összkerékmeghajtás/8	1
+összkerékmeghajtás/1421	1
 összkerékhajtás/8	1
 összkereslet/5	1
+összkapitalizáció/18	1
+összkapacitás/8	1
+összkalória/18	1
 összjövedelem/126	320
 összjáték/8	1
+összidő	23371
+összidej/55	23372
+összhosszúság/8	1
+összhossz/154	23373
 összhatás/8	1
 összhangzik
 összhangzat/30	1
 összhang/16	1
 összhalálozás/8	1
+összhaderő/3	1
+összfényesség/5	1
 összforgalom/49	321
+összfogyasztás/8	1
 összfelület/5	1
 összeütközés/5	1
 összeállítás/8	1
@@ -902,6 +929,7 @@
 összenergia/18	1
 összemenés/5	1
 összeláncolás/8	1
+összeladás/8	1
 összekötő/3	1
 összekötés/5	1
 összeköttetés/5	1
@@ -951,6 +979,7 @@
 összberuházás/8	1
 összbenyomás/8	1
 összbefektetés/5	1
+összalapterület/1422	1
 össz.	70
 össz-szám/127	1
 örültség/36
@@ -1303,7 +1332,7 @@
 őérette/47	405
 őáltaluk/47	406
 őáltala/47	407
-őzsuta/9	1
+őzsuta/18	1
 őzláb/2	408
 őzike/20	1
 őzhús/8	1
@@ -1682,7 +1711,6 @@
 óbor/30	1
 óbirodalom/49	582
 óbester/1	1
-óangol/41	1
 ó-vá/47	583
 ó-val/47	584
 ó-/65	585
@@ -2081,6 +2109,7 @@
 éppily	717
 épphogy	15
 éppennyi/189	94
+éppenhogy	15
 éppekkora/9	1
 éppannyi/190	94
 épp	15
@@ -2210,6 +2239,7 @@
 éljenző/33	1
 éljenzés/34	793
 éljenzés/35	1
+éljent	971
 éljenezés/35	1
 éljen	35
 élharcos/8	1
@@ -2249,7 +2279,7 @@
 életbiztosítás/8	1
 életbeléptetés/5	1
 élet-halál harc/30	798
-élet‑halál/113	799
+élet‑halál/113	23374
 élet/1	1
 élesztőkazán/16	1
 élesztő/4	1
@@ -2309,8 +2339,7 @@
 éjjeliedény/1	1
 éjjelez
 éjjelente	15
-éjjelente	1
-éjjel-nappali/18	811
+éjjel-nappali/18	23375
 éjjel-nappal	812
 éjjel/1	1
 éjjel/1	15
@@ -3220,6 +3249,7 @@
 Éjszaki/214	924
 Éhik/250	924
 Égerszög/213	924
+Égei-tenger/223	924
 Édua/245	924
 Édeskuty/221	924
 Éder/250	924
@@ -3243,8 +3273,7 @@
 ÉK-/195	948
 ÉK	949
 České	950
-České	924
-Čapek/252	951
+Čapek/252	23376
 Ázsia/219	924
 Ávéd/250	924
 Átány/222	924
@@ -3333,7 +3362,7 @@
 Ábrahámhegy/217	924
 Ábrahám/244	924
 Ábrabám/243	924
-Ábel/261	924
+Ábel/1423	924
 ÁVO-vá	952
 ÁVO-val	953
 ÁVO-s/262	965
@@ -3362,11 +3391,10 @@
 ÁNTSZ-es/257	978
 ÁNTSZ-/265	979
 ÁNTSZ	980
-ÁNTSZ	981
-Škoda/249	982
+Škoda/249	23377
 Łódźdzsá	983
-Łódźdzsal	984
-Łódź/239	985
+Łódźdzsal	23378
+Łódź/239	23379
 }	986
 {	986
 zümmögő/4	1
@@ -3471,6 +3499,7 @@ záródísz/5	1
 záródugó/18	1
 zárvány/30	1
 zárvatermő/3	1
+zárvatartás/8	1
 zárulta/268	1004
 zárul
 zártvonal/2	1005
@@ -3508,7 +3537,7 @@ zálogjog/8	1
 zálogház/2	1009
 zálog/130	1
 zákány/30	1
-złoty/270	1010
+złoty/270	23380
 zuzmó/9	1
 zutty	35
 zupás/30	1
@@ -3562,6 +3591,7 @@ zsörtöl
 zsömle/20	1
 zsöllye/20	1
 zsíró/9	1
+zsírégető gép/21	1
 zsírzó/9	1
 zsírvérűség/5	1
 zsírosparaszt/41	1
@@ -3639,6 +3669,7 @@ zsivajgás/163	1023
 zsivaj/30	1
 zsiráf/41	1
 zsiradék/130	1
+zsipp-zsupp	38
 zsinórzat/41	1
 zsinórszatyor/49	1024
 zsinórpadlás/8	1
@@ -3736,6 +3767,7 @@ zrt.-s/226	1036
 zrt.-beli/227	1037
 zrt.-/172	1038
 zrt.	1039
+zootaxonómia/18	1
 zooplankton/16	1
 zoopatológus/8	1
 zoopatológia/18	1
@@ -3772,6 +3804,7 @@ zimankó/9	1
 zilíz/1	1
 ziláltság/30	1
 ziliz/1	1
+zikkurat/271	1
 ziherejsztű/4	1
 zigóta/9	1
 ziccer/21	1
@@ -3828,7 +3861,7 @@ zarándokol	1049
 zarándokló/162	1050
 zarándoklás/163	1051
 zarándoklás/161	1
-zarándoklat/30	1
+zarándoklat/130	1
 zarándok/130	1
 zanót/41	1
 zanza/9	1
@@ -3841,12 +3874,14 @@ zajtalanító/9	1
 zajgás/30	1
 zajfogó/18	1
 zaj/201	1
+zaire-i/275	23381
 zagyvalék/30	1
 zagyszivattyú/9	1
 zagy/155	1
 zafír/41	1
 zaft/155	1
 zacskó/9	1
+zacsi/1424	1
 zacsek/17	1
 zaci/9	1
 zacc/201	1
@@ -3909,11 +3944,11 @@ workshop/16	1
 wilde-i/204	1080
 wiki/20	1
 wifi/20	1
-whisky/281	1081
+whisky/281	23383
 westernfilm/17	1
 western/17	1
 wertheimzár/2	1082
-wertheimszekrény/1	1
+wertheimszekrény/5	1
 wertheimkassza/9	1
 werkfilm/282	1
 wellness/283	1
@@ -4172,7 +4207,7 @@ vérnyomásmérő/3	1
 vérnyomás/8	1
 vérmérséklet/5	1
 vérmérgezés/5	1
-vérhas/2	1122
+vérhas/1425	1122
 vérfürdő/3	1
 vérfű/53	1123
 vérfesték/5	1
@@ -4407,6 +4442,7 @@ vásárolás/161	1
 vásárló/162	1161
 vásárlás/163	1162
 vásárlás/161	1
+vásárlandó/473	23384
 vásárfia/18	1
 vásárcsarnok/8	1
 vásár/130	1
@@ -4469,6 +4505,7 @@ vándor/30	1
 vándliz
 vámút/133	1178
 vámőr/19	1
+vámáru/18	1
 vámzár/2	1179
 vámsorompó/18	1
 vámpír/41	1
@@ -4542,6 +4579,7 @@ váladék/30	1
 vákuum/30	1
 vájár/130	1
 vájolat/30	1
+vájling/41	1
 vájkál
 vájdling/41	1
 vájat/30	1
@@ -4574,12 +4612,14 @@ vádhatóság/30	1
 vádhatározat/8	1
 vád/58	1195
 vurstli/9	1
+vulva/9	1
 vulkánfíber/1	1
 vulkán/41	1
 vulkanológus/30	1
 vulkanológia/9	1
 vulkanizmus/30	1
 vulgarizmus/30	1
+vulgaritás/30	1
 vu-vé/47	1196
 vu-vel/47	1197
 vu-/48	1198
@@ -4661,6 +4701,7 @@ vok/299	1
 voilà	35
 vodka/9	1
 vodafone-os/275	1233
+vlog/155	1
 vizualizáció/9	1
 vizualitás/30	1
 vizsla/9	1
@@ -4705,6 +4746,7 @@ vitézkosbor/8	1
 vitézbükköny/22	1
 vitázó/9	1
 vitázik
+vitálkapacitás/8	1
 vityilló/9	1
 vitustánc/8	1
 vitrázs/30	1
@@ -4952,6 +4994,7 @@ virág/130	1
 virzsínia/9	1
 virulencia/9	1
 virul
+virtuóz/1243	1
 virtus/30	1
 virtuozitás/30	1
 virtualizáció/9	1
@@ -5096,22 +5139,26 @@ vidrafű/53	1348
 vidra/9	1
 vidit/36
 videózik
+videótelefon/16	1
+videóreklám/41	1
+videómagnó/18	1
+videóklip/7	1
+videókazetta/18	1
+videófilm/5	1
+videódigitalizáló/18	1
 videó/9	1
 videoátfedés/5	1
 videováltó/18	1
 videotéka/9	1
 videotorzítás/8	1
-videotelefon/41	1
 videotechnika/18	1
 videosáv/16	1
 videoszűrő/3	1
 videoszűrés/5	1
 videoszétválasztó/18	1
 videoszerkesztő/3	1
-videoszalag/8	1
 videosebesség/5	1
 videorészlet/5	1
-videoreklám/41	1
 videopuffer/27	1
 videoprogram/41	1
 videoprocesszor/30	1
@@ -5123,18 +5170,15 @@ videoméretező/3	1
 videomemória/18	1
 videomegjelenítő/3	1
 videomegjelenítés/5	1
-videomagnó/18	1
 videolevágás/8	1
 videokölcsönző/3	1
 videokódoló/18	1
 videokódolás/8	1
-videokészülék/7	1
 videoképkocka/18	1
 videokártya/9	1
 videokonferencia/18	1
 videoklub/41	1
 videokimenet/5	1
-videokazetta/18	1
 videokamera/18	1
 videojáték/8	1
 videojelet/47	1349
@@ -5144,7 +5188,6 @@ videogenerátor/12	1
 videofájl/16	1
 videoformátum/8	1
 videofolyam/12	1
-videofilm/7	1
 videofelvétel/1	1
 videoeszköz/19	1
 videoeffekt/7	1
@@ -5176,6 +5219,7 @@ vice	1318
 vicc/164	1
 vibrátor/30	1
 vibráció/9	1
+vibrato/50	1
 vibrafon/41	1
 viaszvirág/12	1
 viaszosvászon/49	1354
@@ -5224,6 +5268,7 @@ vezénylő/32	1360
 vezénylés/34	1361
 vezénylet/1	1
 vezuvián/41	1
+vezetőség/1	1
 vezetőrúd/133	1362
 vezetőképesség/5	1
 vezető/4	1
@@ -5465,6 +5510,7 @@ vegyipar/8	1
 vegyiművek/317	1418
 vegyileg	15
 vegyifülke/37	1
+vegyi áru/18	1
 vegyhatás/8	1
 vegyesúszó/18	1
 vegyesúszás/8	1
@@ -5479,6 +5525,7 @@ vegetárius/273	1
 vegetál
 vegetáció/9	1
 vegetarianizmus/30	1
+veganizmus/30	1
 veder/318	1419
 vecsernye/20	1
 vb-vé/47	1420
@@ -5508,6 +5555,7 @@ vastraverz/1	1
 vastagbél/6	1428
 vassín/7	1
 vasszerkezet/5	1
+vaspát/16	1
 vaspor/8	1
 vasoxid/16	1
 vasolvasztó/18	1
@@ -5675,14 +5723,17 @@ valameddig	15
 valakik/327	1466
 valaki/328	1467
 valahára	15
+valahányszázan/1426	23385
 valahányszor	15
 valahányfelé	15
 valahányas/332	15
-valahányan/47	1468
+valahányan/1426	1468
+valahányadiki/1427	23386
 valahányadikas/333	15
+valahányadika/1427	23386
 valahányadik/334	15
 valahányad/335	15
-valahány/93	1469
+valahány/93	23387
 valahová	15
 valahova	15
 valahonnét	15
@@ -5884,6 +5935,7 @@ utójelző/3	1
 utóirat/8	1
 utóidény/5	1
 utóidejűség/5	1
+utóhályog/12	1
 utóhatás/30	1
 utóhang/16	1
 utóhad/336	1498
@@ -5903,6 +5955,8 @@ utóellenőrzés/1	1
 utódlás/30	1
 utód/130	1
 utócsapat/30	1
+utóbél/409	1
+utóbelek
 utóbbiak/337	1499
 utóbbi/338	1500
 utóbb/182	15
@@ -5941,7 +5995,7 @@ utálatos/30	1
 utálat/30	1
 utolsósorban	15
 utolsóak/340	1512
-utolsó/341	86
+utolsó/1428	86
 utolszor	15
 utoljára/182	15
 utolj/342	1513
@@ -5953,6 +6007,7 @@ utca/9	1
 utazótáska/18	1
 utazó/9	1
 utazás/30	1
+utasszállító gép/21	1
 utasszállító/18	1
 utasit/36
 utasellátó/18	1
@@ -6342,7 +6397,7 @@ túltermelés/1	1
 túlterhelés/1	1
 túlsúly/8	1
 túlsóbb/352	86
-túlsó/353	86
+túlsó/1429	86
 túlság/30	1
 túlszaporulat/8	1
 túlszabályozottság/8	1
@@ -6544,6 +6599,7 @@ tömlő/4	1
 tömkeleg/1	1
 tömjénfüstölő/3	1
 tömjén/21	1
+tömegáru/18	1
 tömegverekedés/5	1
 tömegszállás/8	1
 tömegnyomor/8	1
@@ -6584,6 +6640,9 @@ tökéletesül
 tökmag/16	1
 tökfej/5	1
 tökbél/6	1662
+tök mindegy	15
+tök jól
+tök jó/686
 tök/355	1
 töf	35
 töbör/56	1
@@ -6764,7 +6823,7 @@ tízcentes/1	1
 tízbillióan/82	1703
 tízbillió/83	1704
 tízbilliárd/84	88
-tíz-egynéhány	287
+tíz-egynéhány	23296
 tíz/370	1705
 típus/30	1
 tímár/130	1
@@ -7130,7 +7189,6 @@ tv-s/226	1770
 tv-i/227	1771
 tv-/172	1772
 tv	1773
-tutyimutyi/9	1
 tutyi/9	1
 tutul
 tutajoz
@@ -7260,7 +7318,9 @@ trón/155	1
 tróger/322	1
 trófea/9	1
 trícium/273	1
+tréningfelső/3	1
 tréningezik
+tréningalsó/18	1
 tréning/7	1
 tréner/21	1
 trén/285	1
@@ -7302,7 +7362,6 @@ tropikálnadrág/41	1
 tropikál/41	1
 tromf/155	1
 trombózis/30	1
-trombocita/9	1
 trombitaszó/18	1
 trombitaharsogás/8	1
 trombitafolyondár/41	1
@@ -7318,9 +7377,8 @@ trocheus/30	1
 trióda/9	1
 trió/9	1
 triéder/17	1
-triászkor/36
+triászkor/113	1
 triászformáció/18	1
-triász kor/31	1
 triász/30	1
 trivialitás/30	1
 triumvirátus/30	1
@@ -7364,11 +7422,11 @@ trillióan/82	1804
 trillió/381	1805
 trilliárdszámra	15
 trilliárdszám	15
-trilliárdodik/382	1806
+trilliárdodik/1430	1806
 trilliárdod/383	1807
 trilliárd/384	1808
 trilliomodszorra/91	1809
-trilliomodik/382	1810
+trilliomodik/1430	1810
 trilliomod/383	1811
 triller/385	1
 trilla/9	1
@@ -7591,7 +7649,6 @@ tor/320	1
 topáz/30	1
 topánka/9	1
 topán/41	1
-topp/155	1
 toposz/30	1
 toportyán/41	1
 toporogunk/36
@@ -7748,7 +7805,14 @@ tizenötbillió/83	1864
 tizenötbilliárd/84	88
 tizenöt/92	1865
 tizenéves/1	1
-tizenvalahány/93	94
+tizenvalahányan/1416	23388
+tizenvalahányan/91	23365
+tizenvalahányadiki/1427	23389
+tizenvalahányadikak/1417	23390
+tizenvalahányadika/1427	23389
+tizenvalahányadik/1418	23391
+tizenvalahány/1419	23392
+tizenvalahány/1419	23393
 tizennégytrillióan/82	1866
 tizennégytrillió/83	1867
 tizennégytrilliárd/84	88
@@ -7951,7 +8015,7 @@ tizenegybillióan/82	2026
 tizenegybillió/83	2027
 tizenegybilliárd/84	88
 tizenegy/107	2028
-tizen-egynéhány	287
+tizen-egynéhány	23296
 tizedíziglen	15
 tizedízben	15
 tizedév/11	1
@@ -7964,7 +8028,7 @@ tizedmásodperc/5	1
 tizediki/72	2031
 tizedikes/1	1
 tizedike/72	2031
-tizedik/81	2032
+tizedik/1420	2032
 tizedféltrillió/74	88
 tizedfélszázad/75	88
 tizedfélszáz/76	88
@@ -7980,8 +8044,7 @@ tizedesjegy/5	1
 tizedeshely/5	1
 tizedes/1	1
 tizedannyian	93
-tizedannyi/9	1
-tizedannyi/9	94
+tizedannyi/79	94
 tized/394	2034
 tized/395	1
 tivéletek/47	2035
@@ -8053,11 +8116,11 @@ tiráda/9	1
 tirpák/41	1
 tirozin/271	1
 tiroxin/41	1
-tirisztor/30	1
+tirisztor/130	1
 tireátok/47	2050
 tirannus/30	1
 tirannizmus/30	1
-tiramisù/50	1
+tiramisù/50	23394
 tirajtatok/47	2051
 tipró/162	2052
 tiprás/163	2053
@@ -8169,6 +8232,7 @@ tialattatok/47	2104
 ti/396	2105
 ti/397	1
 théta/156	1
+thrombocyta/9	23395
 thriller/21	1
 thm-mé/47	2106
 thm-mel/47	2107
@@ -8210,6 +8274,7 @@ textília/9	1
 textus/30	1
 textológus/30	1
 textológia/9	1
+textiláru/18	1
 textil/17	1
 tevés/34	2124
 tevéled/47	2125
@@ -8253,7 +8318,7 @@ tetszésnyilvánítás/8	1
 tetszés/34	2137
 tetszvén/120	2138
 tetszve/120	2139
-tetszik/120	2140
+tetszik/120	23396
 tetszhalál/8	1
 tetszhalott/59	1
 tetszettünk/120	2141
@@ -8353,8 +8418,8 @@ testvérpár/16	1
 testvérke/20	1
 testvérgyilkosság/8	1
 testvérbátya
-testvérbáty/405	2190
-testvérbáty/406	2191
+testvérbáty/1431	2190
+testvérbáty/1432	2191
 testvér/5	2192
 testtartás/8	1
 testszövet/27	1
@@ -8408,7 +8473,7 @@ terrorizmus/30	1
 terrorista/9	1
 terror/41	1
 territórium/30	1
-terrier/17	1
+terrier/21	1
 terrarista/9	1
 terrakotta/9	1
 terra/9	1
@@ -8530,12 +8595,18 @@ terasz/30	1
 terapeutika/9	1
 terapeuta/9	1
 terapascal/16	1
+terakelvin/17	1
 terajtad/47	2209
-terabyte-tá/47	2210
-terabyte-tal/47	2211
-terabyte-os/275	2212
-terabyte-/205	2213
-terabyte	2214
+terajoule-os/275	23397
+terajoule-lá/47	23398
+terajoule-lal/47	23399
+terajoule-/205	23400
+terajoule	23401
+terabyte-tá/47	23402
+terabyte-tal/47	23403
+terabyte-os/275	23404
+terabyte-/205	23405
+terabyte	23406
 terabit/17	1
 tequila/50	1
 tepsi/20	1
@@ -8629,6 +8700,7 @@ tengerihántás/30	1
 tengerifű/23	2227
 tengeridara/18	1
 tengericső/23	2228
+tengericsillag/8	1
 tengeribetegség/1	1
 tengerentúl/41	1
 tengerbírás/8	1
@@ -8728,7 +8800,7 @@ telekommunikáció/9	1
 telekkönyv/52	1
 telekhasználat/8	1
 telekadó/18	1
-telek/173	2249
+telek/173	23407
 teleirt/36
 teleház/2	2250
 teleholda/36
@@ -8911,16 +8983,16 @@ technicus/306	1
 technicus/306	1240
 technicizálódás/30	1
 technicizmus/30	1
-tebibyte-tá/47	2301
-tebibyte-tal/47	2302
-tebibyte-os/275	2303
-tebibyte-/205	2304
-tebibyte	2305
+tebibyte-tá/47	23408
+tebibyte-tal/47	23409
+tebibyte-os/275	23410
+tebibyte-/205	23411
+tebibyte	23412
 tebenned/47	2306
 tebelőled/47	2307
 tebeléd/47	2308
 teatralitás/30	1
-team/414	2309
+team/414	23413
 tealólad/47	2310
 tealád/47	2311
 tealattad/47	2312
@@ -8984,6 +9056,12 @@ tata/9	1
 tat/155	1
 taszter/1	1
 tasztatúra/9	1
+tasmanüldözés/5
+tasmantanítás/8
+tasmannyelv-/15
+tasmanimádat/16
+tasmancentrikusság/8
+tasman/31	23414
 tasli/9	1
 tasizmus/30	1
 tasak/41	1
@@ -9072,6 +9150,7 @@ tapintat/30	1
 tapicskál
 tapasztalat/30	1
 tapasz/30	1
+tapas/531	23415
 tapadt/203	2347
 tapadt/203	2348
 taoizmus/30	1
@@ -9090,6 +9169,7 @@ tanú/9	1
 tanítóúr/43	1
 tanítóság/30	1
 tanítónő/3	1
+tanító néni/20	1
 tanítvány/30	1
 tanévzáró/18	1
 tanévzárás/8	1
@@ -9101,6 +9181,8 @@ tanársegédasszony/44	1
 tanárnő/3	1
 tanári/9	1
 tanárasszony/44	1
+tanár néni/20	1
+tanár bácsi/20	1
 tanár/130	1
 tanácsülés/5	1
 tanácstestület/5	1
@@ -9423,6 +9505,7 @@ sörény/1	1
 sörélesztő/3	1
 sörte/20	1
 sörlé/380	2397
+sörhas/1425	23416
 sörfőző/3	1
 sörfőzde/37	1
 sörcsarnok/8	1
@@ -9560,6 +9643,7 @@ síléc/5	1
 sílift/7	1
 sílesiklópálya/9	1
 síkvíz/6	2457
+síkvágó gép/21	1
 síkláp/16	1
 síkfutás/8	1
 sík/155	1
@@ -9861,6 +9945,7 @@ szőrmeáru/18	1
 szőrmentén	15
 szőrmentében	15
 szőrmekereskedelem/126	2505
+szőrmekepp/7	1
 szőrmekabát/16	1
 szőrme/20	1
 szőrcsomó/18	1
@@ -10253,6 +10338,7 @@ százévi	66
 százévente	15
 százévenként	15
 százzłotys/30	1
+százvalahányan	23365
 százvalahány/93	94
 százszámra	15
 százszorta	15
@@ -10297,7 +10383,7 @@ századparancsnok/30	1
 százados/30	1
 századmásodperc/5	1
 századikak/95	2592
-századik/444	2593
+századik/1433	2593
 századforduló/9	1
 századelő/3	1
 századannyian	93
@@ -10305,7 +10391,7 @@ századannyi/79	94
 század/445	2594
 század/445	2595
 század/446	1
-száz-egynéhány	287
+száz-egynéhány	23296
 száz/447	2596
 szászság/30	1
 szárító/9	1
@@ -10471,7 +10557,6 @@ száguldozik
 szádpalló/18	1
 szádfal/2	2616
 szádafüggöny/22	1
-szĂźletel/407
 szvit/285	1
 szving/285	1
 szvetter/21	1
@@ -10636,6 +10721,7 @@ sztori/9	1
 sztomatológus/30	1
 sztomatológia/9	1
 sztoicizmus/30	1
+sztochasztika/9	1
 sztirol/41	1
 sztetoszkóp/41	1
 szterán/271	1
@@ -10653,6 +10739,7 @@ sztereofilm/17	1
 sztereo-	2628
 szteradián/41	1
 sztepp/285	1
+sztenohigrikus/30	1
 sztenográfia/9	1
 sztenogram/41	1
 sztenderdizáció/9	1
@@ -10814,6 +10901,7 @@ szobafoglalás/8	1
 szoba/9	1
 sznúker/385	1
 sznobizmus/30	1
+sznekk/285	1
 szmájli/50	1
 szmoking/41	1
 szmog/155	1
@@ -11042,8 +11130,7 @@ szilveszterez
 szilveszter/1	1
 szilvafa/18	1
 szilva/9	1
-szilurkor/36
-szilur kor/31	1
+szilurkor/113	1
 szilur/41	1
 sziluett/17	1
 szilszkinbunda/9	1
@@ -11504,6 +11591,7 @@ szemelvény/1	1
 szemellenzősség/1	1
 szemellenző/3	1
 szemcséző/4	1
+szemcsenagyság/8	1
 szemcse/20	1
 szembogár/133	2738
 szembetegség/5	1
@@ -11628,6 +11716,7 @@ szegycsont/16	1
 szegy/164	1
 szegvágó/18	1
 szegről-végre	38
+szegregátum/30	1
 szegregáció/9	1
 szegmentáció/9	1
 szegmentum/30	1
@@ -11695,6 +11784,7 @@ szatellita/50	1
 szatellit/17	1
 szarvasünő/4	1
 szarvastehén/471	2758
+szarvassuta/18	1
 szarvasmarha/18	1
 szarvaskocsord/41	1
 szarvaskerep/17	1
@@ -11717,6 +11807,7 @@ szarkofág/41	1
 szarkazmus/30	1
 szarkaláb/2	2761
 szarka/9	1
+szarin/271	1
 szardíniásdoboz/30	1
 szardínia/9	1
 szardellapaszta/9	1
@@ -11945,7 +12036,7 @@ sydney-i/227	2797
 svédüldözés/5
 svédtorna/9	1
 svédtanítás/8
-svédszekrény/1	1
+svédszekrény/5	1
 svédpadló/18	1
 svédnyelv-/15
 svédmasszázs/8	1
@@ -12000,6 +12091,7 @@ sustorogok/36
 sustorogod/36
 sustorgó/162	2803
 sustorgás/163	2804
+susnyás/113	1
 susmus/30	1
 suskus/30	1
 suska/9	1
@@ -12102,7 +12194,7 @@ strigula/9	1
 strici/20	1
 stria/50	1
 stressz/164	1
-streetball/41	2823
+streetball/41	23417
 stratégia/9	1
 stratéga/9	1
 stratus/475	1
@@ -12114,7 +12206,6 @@ strandol
 strandkabin/16	1
 strandfürdő/3	1
 strand/155	1
-stornó/9	1
 storno/50	1
 stoppos/30	1
 stopperóra/18	1
@@ -12138,7 +12229,7 @@ stigma/9	1
 stiglic/1	1
 stift/285	1
 stichpróba/9	1
-stich/285	1
+stich/285	23418
 stewardess/283	1
 steward/41	1
 sterling/17	1
@@ -12150,7 +12241,7 @@ stencil/17	1
 stempli/20	1
 stelázsi/9	1
 steksz/164	1
-steak/414	2824
+steak/414	23419
 stb.-vé/47	2825
 stb.-vel/47	2826
 stb.-/172	2827
@@ -12196,7 +12287,7 @@ stabilitás/30	1
 stabilis/1	1
 sróf/155	1
 srác/201	1
-srapnel/211	1
+srapnel/322	1
 sramlizene/20	1
 sramli/9	1
 squash/130	2832
@@ -12213,7 +12304,6 @@ spuri/9	1
 spulni/9	1
 spré/272	1
 sprottni/9	1
-sprotni/9	1
 sprinter/1	1
 sprint/285	1
 spriccer/1	1
@@ -12288,6 +12378,7 @@ spektrométer/1	1
 spektrometria/9	1
 spektrográfia/9	1
 spektrográf/41	1
+spektrogram/41	1
 spektrofotométer/1	1
 spektrofotometria/9	1
 spejz/478	1
@@ -12329,6 +12420,7 @@ spagetti/319	1
 spachtli/9	1
 sovinizmus/30	1
 souvenir/17	1
+soul/271	1
 sosincs	2842
 során	57
 sorvezető/3	1
@@ -12475,7 +12567,7 @@ sodralék/30	1
 sodor/199	2870
 snóblizik
 snóbli/9	1
-snowboard/41	2871
+snowboard/41	23420
 snooker/385	1
 snitt/285	1
 snidling/17	1
@@ -12487,6 +12579,7 @@ snassz/201	1
 snapszli/9	1
 snapszer/322	1
 snapsz/201	1
+snack/805	1
 smár/155	1
 smukk/155	1
 smucigság/30	1
@@ -12521,6 +12614,7 @@ slapaj/273	1
 slamposság/30	1
 slampos/30	1
 slamasztika/9	1
+slam/486	1318
 slam/486	1
 slag/155	1
 slafrok/41	1
@@ -12590,7 +12684,7 @@ sipista/9	1
 sipirc/1	1
 sintó/156	1
 sintértelep/1	1
-sintér/17	1
+sintér/21	1
 sintoizmus/30	1
 sintoista/50	1
 sinológus/30	1
@@ -12642,6 +12736,7 @@ sikattyú/9	1
 siheder/21	1
 signoré/488	2893
 signore/20	2894
+sifre/348	1
 sifonér/41	1
 sifon/41	1
 sievert/284	1
@@ -12652,17 +12747,16 @@ siemens/1	1
 sicc	35
 sic	15
 si-cu/156	1
-showman/414	2895
+showman/414	23421
 show-vá/178	2896
 show-val/178	2897
-show-val/408	2898
 show-műsor/8	2899
-show-biznisz/5	2900
+show-biznisz/5	23422
 show-/417	2901
 show/408	2902
 shop/155	1
 shilling/17	1
-sherry/164	2903
+sherry/164	23423
 shelley-s/226	2904
 shelley-i/227	2905
 shaw-i/204	2906
@@ -12674,11 +12768,11 @@ shareware-es/226	2910
 shareware-/195	2911
 shareware	2912
 shakespeare-i/227	2913
-shake-ké/47	2914
-shake-kel/47	2915
-shake-es/226	2916
-shake-/195	2917
-shake	2918
+shake-ké/178	2914
+shake-kel/178	2915
+shake-es/479	2916
+shake-/808	2917
+shake/408	2918
 sgt.-tá/47	2919
 sgt.-tal/47	2920
 sgt.-i/204	2921
@@ -12903,7 +12997,7 @@ savanyúleves/5	1
 savanyúkút/2	2974
 savanyúforrás/30	1
 savanyú tojásleves/5	2975
-sav‑bázis/1	2976
+sav‑bázis/1	23424
 sav/58	2977
 satyak/41	1
 satupofa/18	1
@@ -12990,6 +13084,7 @@ salsa/50	1
 sallárium/30	1
 saller/322	1
 sallang/41	1
+sali/1424	1
 salamonpecsét/17	1
 salakpálya/18	1
 salaklerakó/9	1
@@ -13090,6 +13185,7 @@ röpte/20	3009
 röpsúly/30	1
 röppálya/18	1
 röppentyű/4	1
+röpnyílás/8	1
 röplap/16	1
 röplabdázik
 röplabda/18	1
@@ -13164,6 +13260,7 @@ rókasásos/30	1
 rókasás/30	1
 rókalyuk/133	3021
 rókakölyök/207	3022
+rókakepp/7	1
 rókafiak/60	3023
 rókafi/18	3024
 rókafarok/49	3025
@@ -13286,7 +13383,7 @@ régészet/1	1
 régész/1	1
 régtől	15
 régről	15
-régmúlt/133	3043
+régmúlt/1434	3043
 régió/9	1
 régiségkereskedő/3	1
 régiséggyűjtő/3	1
@@ -13429,7 +13526,7 @@ rulett/211	1
 rukkola/50	1
 ruházkodás/30	1
 ruházat/30	1
-ruhásszekrény/1	1
+ruhásszekrény/5	1
 ruháskosár/2	3062
 ruhaujj/2	3063
 ruhatömés/5	1
@@ -13474,7 +13571,7 @@ rubintkő/23	3068
 rubint/41	1
 rubin/41	1
 rubeola/9	1
-rubel/211	1
+rubel/322	1
 rtg.-né/47	3069
 rtg.-nel/47	3070
 rtg.-es/226	3071
@@ -13548,6 +13645,7 @@ rosszlelkű/4	1
 rosszkedv/5	1
 rosszindulat/8	1
 rosszház/2	3091
+rosszfiú/18	1
 rosszcsont/41	1
 rosszaság/30	1
 rosszallólag	15
@@ -13683,7 +13781,7 @@ robbanó/9	1
 robbantólyuk/133	3105
 robbantgatás/30	1
 robaj/30	1
-roaming/41	3106
+roaming/41	23425
 roadshow-vá/178	3107
 roadshow-val/178	3108
 roadshow-/417	3109
@@ -13700,7 +13798,7 @@ rizspuding/16	1
 rizspor/8	1
 rizspapír/16	1
 rizsma/18	1
-rizskoch/30	1
+rizskoch/30	23426
 rizsföld/136	1
 rizsa/9	1
 rizs/164	1
@@ -13878,7 +13976,7 @@ retus/30	1
 rettenet/1	1
 retrovírus/8	1
 retrospektivitás/30	1
-retriever/174	1
+retriver/174	1
 retraktum/30	1
 retorzió/9	1
 retorta/9	1
@@ -13971,6 +14069,7 @@ reparatúra/9	1
 rep/504	1
 reosztát/41	1
 reorganizáció/9	1
+reológia/9	1
 renée-i/226	3139
 renumeráció/9	1
 rentabilitás/30	1
@@ -14097,6 +14196,7 @@ rekesz/1	1
 rekenyő/4	1
 rekedt/503	3146
 rekedt/503	3147
+rekatolizáció/9	1
 rekamié/9	1
 rejtőzik
 rejtély/1	1
@@ -14129,7 +14229,6 @@ regény/1	1
 regálé/488	3153
 regálebérlő/4	1
 regále/505	3154
-regĂĄle/20
 regulátor/30	1
 regulálás/30	1
 reguláció/9	1
@@ -14199,6 +14298,7 @@ reduplikáció/9	1
 redundancia/9	1
 reduktor/30	1
 redukció/9	1
+reducens/1	1
 redoxiátalakulás/8	1
 redoxireakció/18	1
 redoxipotenciál/16	1
@@ -14281,7 +14381,7 @@ ranchhá/36
 ranchhal/36
 ranchcsá/47	3162
 ranchcsal/47	3163
-ranch/507	3164
+ranch/507	23427
 ramazúri/9	1
 ramaty/30	1
 ramadán/41	1
@@ -14507,12 +14607,12 @@ r-rel/47	3260
 r-et/47	3261
 r-/195	3262
 r	3263
-quo/156	3264
 quo/156	3265
-quinoa/9	3266
+quo/156	3264
+quinoa/9	23428
 quijotés/36	950
 quattrocento/9	1
-quad/41	3267
+quad/41	23429
 q-vá/47	3268
 q-val/47	3269
 q-/65	3270
@@ -14687,6 +14787,7 @@ pótkulcs/8	1
 pótkocsi/18	1
 pótkerék/6	3349
 pótkeret/1	1
+pótjelentkezés/5	1
 pótjegy/5	1
 pótilleték/1	1
 póthitel/1	1
@@ -14701,7 +14802,10 @@ pótelőadás/8	1
 pótdíj/57	3353
 pótcselekvés/1	1
 pótbizonyíték/30	1
+pótbeíratás/8	1
 pótberuházás/30	1
+pótbelső/3	1
+pótbeiratkozás/8	1
 pótanyag/30	1
 pótalkatrész/1	1
 pótadó/18	1
@@ -14711,6 +14815,7 @@ póréhagyma/18	1
 póráz/30	1
 pórus/30	1
 pórnép/1	1
+pórhad/1435	23430
 pór/155	1
 pópa/9	1
 póni/9	1
@@ -14809,6 +14914,7 @@ példálódzik
 példakép/5	1
 példabeszéd/27	1
 példa/9	1
+pékáru/18	1
 pékség/1	1
 pék/196	1
 pécé/348	1
@@ -14824,7 +14930,7 @@ pátosz/30	1
 páternoszter/1	1
 páter/21	1
 pátens/1	1
-pát/155	1
+pát/454	1
 pásztortáska/9	1
 pásztortarsoly/30	1
 pásztorsíp/16	1
@@ -14849,9 +14955,10 @@ pártázat/30	1
 pártásdaru/18	1
 pártvonal/2	3361
 pártviszály/8	1
-pártvezetőség/5	1
+párttitkár/12	23431
 párttisztogatás/8	1
-párttag/16	1
+párttagság/8	23432
+párttag/16	23433
 pártprogram/16	1
 pártosság/30	1
 pártosodás/30	1
@@ -14919,6 +15026,27 @@ párbaj/8	1
 páratartalom/49	3366
 páraelszívó/9	1
 pára/9	1
+pár óra/9	3367
+pár évtized/17	3367
+pár évszázad/41	3367
+pár év/1	3367
+pár tucat/41	3367
+pár perc/1	3367
+pár nap/41	3367
+pár méter/17	3367
+pár mázsa/9	3367
+pár liter/17	3367
+pár kiló/9	3367
+pár kilométer/17	3367
+pár kilogramm/30	3367
+pár hónap/41	3367
+pár hét/1436	3367
+pár heti/524	23434
+pár hete/468	23435
+pár havi/735	23436
+pár esztendő/4	3367
+pár deka/9	3367
+pár darab/41	3367
 pár/155	3367
 pápá	35
 pápaválasztás/8	1
@@ -15061,7 +15189,7 @@ pumi/9	1
 puma/9	1
 pulóver/322	1
 pulzátor/30	1
-pulzár/41	1
+pulzár/130	1
 pulzál
 pulzáció/9	1
 pulzus/30	1
@@ -15141,6 +15269,7 @@ pszichológus/30	1
 pszichológia/9	1
 pszichologizmus/30	1
 pszicholingvisztika/18	1
+pszichohistória/18	1
 pszichofizika/18	1
 pszichodráma/18	1
 pszichoanalízis/5	1
@@ -15205,7 +15334,7 @@ pruszlik/41	1
 prozódia/9	1
 prozelitizmus/30	1
 prozelita/9	1
-proxy/270	3400
+proxy/270	23437
 provízió/9	1
 provokátor/30	1
 provokáció/9	1
@@ -15339,6 +15468,7 @@ produktum/30	1
 produktivitás/30	1
 produkció/9	1
 producer/1	1
+producens/1	1
 processzus/30	1
 processzor/30	1
 processzió/9	1
@@ -15385,6 +15515,7 @@ prezent/17	1
 preventivitás/30	1
 prevenció/9	1
 pretenzió/9	1
+presztízsok/8	1
 presztízs/1	1
 presszótündér/21	1
 presszókávé/9	1
@@ -15525,7 +15656,7 @@ portugálnyelv-/15
 portugálimádat/16
 portugálcentrikusság/8
 portugál/321	1
-portugieser/17	3417
+portugieser/17	23438
 portré/9	1
 portorikószivar/41	1
 portok/16	1
@@ -15538,6 +15669,7 @@ portabilitás/30	1
 porta/9	1
 port-au-prince-szé/47	3418
 port/155	1
+porszívó gép/21	1
 porszívó/18	1
 porszén/6	3419
 porszem/5	1
@@ -15594,7 +15726,7 @@ popsztár/16	1
 popsi/9	1
 popfesztivál/16	1
 popegyüttes/5	1
-pop-corn/308	1
+popcorn/41	23439
 pop-art/308	1
 pop/155	1
 ponyvatető/3	1
@@ -15687,6 +15819,7 @@ poligon/41	1
 poliglicin/174	1
 poligenezis/5	1
 polifónia/9	1
+polifoam/130	23440
 polifenol/518	1
 polietilén/174	1
 poliandria/9	1
@@ -15753,7 +15886,7 @@ polgár/30	1
 polemizálás/30	1
 polcsor/8	1
 polc/201	1
-polbeat/519	3469
+polbeat/519	23441
 polarográfia/9	1
 polarizátor/30	1
 polarizálódó/9	1
@@ -15793,6 +15926,8 @@ pofi/9	1
 pofaszakáll/2	3472
 pofahús/8	1
 pofa/9	1
+poetry/1437	1
+poetry/1437	1240
 poetica/156	1
 poetica/156	1240
 poe-i/204	3473
@@ -15844,13 +15979,12 @@ pluszbevétel/1	1
 plusz/201	1
 pluralizmus/30	3479
 pluralitás/30	3480
-pluralista/9	3481
+pluralista/9	23442
 plomba/9	1
 ploidia/9	1
 pliszé/20	1
-pliocénkor/36
-pliocén kor/31	1
-pliocén/17	1
+pliocénkor/113	1
+pliocén/211	1
 plezúr/41	1
 plexiüveg/521	1
 plexi/348	1
@@ -15860,9 +15994,8 @@ pletykaság/30	1
 pletyka/9	1
 pletyi/20	1
 pleonazmus/30	1
-pleisztocénkor/36
-pleisztocén kor/31	1
-pleisztocén/17	1
+pleisztocénkor/113	1
+pleisztocén/211	1
 plein	1318
 plecsni/20	1
 plebsz/164	1
@@ -15878,7 +16011,7 @@ pld.	3488
 plazmon/41	1
 plazmid/41	1
 plazma/9	1
-playboy/522	3489
+playboy/522	23443
 playboj/523	1
 playback/286	1
 plauzibilitás/30	1
@@ -15917,6 +16050,8 @@ piál
 pizzéria/9	1
 pizza/9	1
 pizsi/20	1
+pizsamafelső/3	1
+pizsamaalsó/18	1
 pizsama/9	1
 pixel/21	1
 pityóka/9	1
@@ -15984,7 +16119,7 @@ pirula/9	1
 pirul
 piruettezik
 piruett/17	1
-pirszing/17	3499
+pirszing/17	23444
 pirrolidon/271	1
 pirrolidin/174	1
 pirrol/271	1
@@ -16052,8 +16187,8 @@ pinkapénz/1	1
 pinjin
 pingálmány/30	1
 pingvin/17	1
-pingpongozik	1
-pingpong/41	3507
+pingpongozik
+pingpong/41	23445
 pincézik
 pincészet/1	1
 pincérnő/3	1
@@ -16099,6 +16234,7 @@ pikrinsav/2	3511
 pikoszekundum/8	1
 pikométer/5	1
 pikoló/9	1
+pikokelvin/17	1
 pikogramm/16	1
 piknométer/1	1
 piknik/17	1
@@ -16126,7 +16262,7 @@ pigment/17	1
 piff	35
 piezoelektromosság/30	1
 pietizmus/30	1
-pietà/9	3513
+pietà/9	23446
 piedesztál/41	1
 pidzsinüldözés/5
 pidzsintanítás/8
@@ -16149,7 +16285,8 @@ piac/30	1
 pia/9	1
 pi/397	1
 phű	35
-pfuj	35
+pfű	35
+pfuj	23447
 pfennig/17	1
 peónia/9	1
 pezsgőzik
@@ -16253,7 +16390,7 @@ pernye/20	1
 pernahajder/1	1
 permutáció/18	1
 permutit/41	1
-permkor/36
+permkor/113	1
 permittivitás/30	1
 permisszió/9	1
 permetlé/380	3528
@@ -16265,7 +16402,6 @@ permeabilitás/30	1
 permangánsav/133	3529
 permanganát/41	1
 permanencia/9	1
-perm kor/31	1
 perm/164	1
 perlődés/1	1
 perlő/32	3530
@@ -16362,8 +16498,7 @@ pentagon/41	1
 pentafluorid/271	1
 pentabromid/271	1
 pennynyi/524	3541
-pennynyi/525	1
-penny/281	3542
+penny/281	23448
 penna/9	1
 penitencia/9	1
 penicilus/30	1
@@ -16493,6 +16628,7 @@ peddz/120	3602
 pedantéria/9	1
 pedagógus/30	1
 pedagógia/9	1
+pedagogikum/30	1
 pecér/17	1
 pecáz
 pecsétviasz/8	1
@@ -16502,16 +16638,16 @@ pecsét/17	1
 pecsovics/30	1
 pecsenyéstál/2	3611
 pecsenye/20	1
-pech/196	1
+pech/196	23449
 pecek/318	3612
 pecatár/41	1
 pecabot/41	1
 peca/9	1
-pebibyte-tá/47	3613
-pebibyte-tal/47	3614
-pebibyte-os/275	3615
-pebibyte-/205	3616
-pebibyte	3617
+pebibyte-tá/47	23450
+pebibyte-tal/47	23451
+pebibyte-os/275	23452
+pebibyte-/205	23453
+pebibyte	23454
 pdf-fé/47	3618
 pdf-fel/47	3619
 pdf-es/226	3620
@@ -16753,6 +16889,7 @@ paracetamol/271	1
 paraboloid/41	1
 parabolabucka/18	1
 parabola/9	1
+papírírószer/448	1
 papíráru/18	1
 papírzsebkendő-/10
 papírvágó/18	1
@@ -16766,6 +16903,7 @@ papírmasé/9	1
 papírgalacsin/16	1
 papírburkolat/8	1
 papír zsebkendő/526	1
+papír‑írószer/17	1
 papír/41	1
 papájáék/60	3644
 papája/9	1
@@ -16877,9 +17015,8 @@ paleontológia/9	1
 paleolitikum/30	1
 paleográfia/9	1
 paleodiéta/18	1
-paleocénkor/36
-paleocén kor/31	1
-paleocén/17	1
+paleocénkor/113	1
+paleocén/211	1
 paleobotanika/9	1
 paleoantropológus/8	1
 paleoantropológia/18	1
@@ -16917,7 +17054,7 @@ pajta/9	1
 pajszer/211	1
 pajor/41	1
 pajesz/210	1
-paintball/41	3648
+paintball/41	23455
 pagát/41	1
 pagony/30	1
 pagoda/9	1
@@ -16938,10 +17075,11 @@ padlásszoba/18	1
 padlásablak/8	1
 padlás/30	1
 padlizsán/41	1
-padlat/30	1
-padka/9	3650
+padlat/130	1
+padka/9	23456
 padisah/16	1
 pad/155	1
+pacák/41	1
 pacsuli/9	1
 pacsni/9	1
 pacsmag/30	1
@@ -16987,6 +17125,7 @@ oxid/271	1
 oxalát/271	1
 ovárium/30	1
 ováció/9	1
+ovulál
 ovuláció/9	1
 ovo	15
 ovis/1	1
@@ -17116,6 +17255,7 @@ orvosságosüveg/5	1
 orvosság/30	1
 orvosnő/3	1
 orvoslás/30	1
+orvoslat/30	1
 orvosgenetikus/8	1
 orvos/30	1
 orvlövész/5	1
@@ -17215,7 +17355,7 @@ orientáció/9	1
 orientalisztika/9	1
 orgánum/30	1
 orgyilkosság/30	1
-orgyilkos/8	1
+orgyilkos/8	23457
 orgonál
 orgonista/9	1
 orgonasíp/16	1
@@ -17224,7 +17364,8 @@ orgona/9	1
 orgia/9	1
 orgazmus/30	1
 orgazdaság/8	1
-orgazda/18	1
+orgazda/18	23458
+organza/9	1
 organogram/41	1
 organizátor/30	1
 organizáció/9	1
@@ -17233,8 +17374,7 @@ orfeum/30	1
 ordó/9	1
 ordítozik
 ordré/9	1
-ordovíciumkor/36
-ordovícium kor/31	1
+ordovíciumkor/113	1
 ordovícium/30	1
 ordonánc/30	1
 ordináta/9	1
@@ -17299,7 +17439,7 @@ ontogenetika/9	1
 onogur/41	1
 onnét	15
 onnantól/47	3720
-onnansó/532	86
+onnansó/1438	86
 onnan	3721
 online-t/47	3722
 online-ot/36
@@ -17372,7 +17512,7 @@ olvasztóműhely/5	1
 olvasztókemence/37	1
 olvasztókanna/18	1
 olvasztó/9	1
-olvasztár/41	1
+olvasztár/30	1
 olvastán	15
 olvasta/186	1
 olvasnivaló/9	1
@@ -17403,9 +17543,8 @@ olimpia/9	1
 oligopólium/30	1
 oligoklász/30	1
 oligofrénia/9	1
-oligocénkor/36
-oligocén kor/31	1
-oligocén/17	1
+oligocénkor/113	1
+oligocén/211	1
 oligarchia/9	1
 oligarcha/9	1
 olefin/17	1
@@ -17420,7 +17559,7 @@ oldalzseb/5	1
 oldalvást	15
 oldaltördelés/5	1
 oldalt	15
-oldalsó/341	86
+oldalsó/1438	86
 oldalszél/6	3749
 oldalszalag-szakadás/127	1
 oldalszakáll/2	3750
@@ -17456,6 +17595,7 @@ olaszóra/18	1
 olasztanítás/8
 olasztanár/12	1
 olaszrizling/17	1
+olaszperje/37	1
 olaszparéj/8	1
 olasznád/2	3755
 olasznyelv-/15
@@ -17502,7 +17642,7 @@ oktilliárd/461	88
 oktettelmélet/1	1
 oktaéder/1	1
 oktatónevelő/129	1
-oktató-nevelő/4	3760
+oktató-nevelő/4	23459
 oktatástechnológus/30	1
 oktatástan/8	1
 oktatás/30	1
@@ -17542,8 +17682,7 @@ okarina/9	1
 okapi/9	1
 ok/536	1
 ohó	35
-ohó	924
-ohm/240	3771
+ohm/240	23460
 ofszájd/41	1
 ofszet/17	1
 offshore	66
@@ -17700,7 +17839,7 @@ nút/155	1
 növés/34	3860
 növényzet/1	1
 növényvédőszer-/10
-növényvédő szer/11	1
+növényvédő szer/1	1
 növénytan/8	1
 növény/1	1
 növetlenség/34	3861
@@ -17811,7 +17950,7 @@ népbiztosság/8	1
 nép/164	1
 nénémasszony/30	1
 nénike/20	1
-néni/20	1
+néni/451	1
 néne/539	3873
 nén/540	3874
 némul
@@ -17933,7 +18072,7 @@ négyesével	15
 négyesztendőnként	15
 négyesztendei	66
 négyesfogat/193	1
-négyes fogat/41	3918
+négyes fogat/41	3919
 négyes/105	3919
 négyes/105	3920
 négyen-négyen	38
@@ -17941,7 +18080,7 @@ négyen/70	3921
 négybillióan/82	3922
 négybillió/83	3923
 négybilliárd/84	88
-négy-ötmillió/123	287
+négy-ötmillió/123	23296
 négy/542	3924
 négus/30	1
 néger/1	1
@@ -18015,6 +18154,7 @@ nyűhetőség/34	3945
 nyűhetőség/35	1
 nyűg/355	1
 nyű/543	3946
+nyúzat/30	1
 nyúlvány/30	1
 nyúltenyészet/5	1
 nyúltanya/18	1
@@ -18218,7 +18358,12 @@ nyolcvanórai	66
 nyolcvanévi	66
 nyolcvanévente	15
 nyolcvanévenként	15
-nyolcvanvalahány/93	94
+nyolcvanvalahányan/1416	23461
+nyolcvanvalahányan/91	23365
+nyolcvanvalahányadikak/1417	23462
+nyolcvanvalahányadik/1418	23463
+nyolcvanvalahány/1419	23464
+nyolcvanvalahány/1419	23465
 nyolcvantrillióan/82	4012
 nyolcvantrillió/83	4013
 nyolcvantrilliárd/84	88
@@ -18439,9 +18584,10 @@ nyolcvanadszori/108	88
 nyolcvanadszor	4183
 nyolcvanadrész/5	1
 nyolcvanadikak/95	4184
-nyolcvanadik/96	4185
+nyolcvanadik/1439	4185
+nyolcvanadannyi/79	94
 nyolcvanad/547	4186
-nyolcvan-egynéhány	287
+nyolcvan-egynéhány	23296
 nyolcvan/548	4187
 nyolctrillióan/82	4188
 nyolctrillió/83	4189
@@ -18497,7 +18643,7 @@ nyolcadikos/30	1
 nyolcadiki/391	4211
 nyolcadikak/95	4212
 nyolcadika/391	4211
-nyolcadik/550	4213
+nyolcadik/1440	4213
 nyolcadféltrillió/74	88
 nyolcadfélszázad/75	88
 nyolcadfélszáz/76	88
@@ -18509,7 +18655,7 @@ nyolcadfél/78	4214
 nyolcadannyian	93
 nyolcadannyi/79	94
 nyolcad/551	4215
-nyolc-kilencmillió/123	287
+nyolc-kilencmillió/123	23296
 nyolc/552	4216
 nyivákol
 nyitó/9	1
@@ -18695,7 +18841,7 @@ nullhipotézis/1	1
 nullfok/30	1
 nullapont/16	1
 nulladikos/30	1
-nulladik/555	4244
+nulladik/1441	4244
 nullad/556	4245
 nulla/557	4246
 null/155	1
@@ -18732,7 +18878,7 @@ nov.-/195	4252
 nov.	4253
 notesz/210	1
 notebooküzletág/2	4254
-notebook/41	4255
+notebook/41	23466
 notabilitás/30	1
 nota bene	35
 nota	1318
@@ -18914,7 +19060,7 @@ netware-es/226	4287
 netscape-es/226	4288
 netovább/41	1
 netikett/17	1
-netbook/41	4289
+netbook/41	23467
 net/560	1
 nesztek	35
 neszez
@@ -18947,6 +19093,8 @@ neohegelianizmus/30	1
 neogótika/9	1
 neofasizmus/30	1
 neodímium/273	1
+neodarwinizmus/8	1
+neodarwinista/18	1
 nenyúljhozzám/41	1
 nemű/561
 neméri/36
@@ -19091,7 +19239,12 @@ negyvenórai	66
 negyvenévi	66
 negyvenévente	15
 negyvenévenként	15
-negyvenvalahány/93	94
+negyvenvalahányan/1416	23468
+negyvenvalahányan/91	23365
+negyvenvalahányadikak/1417	23469
+negyvenvalahányadik/1418	23470
+negyvenvalahány/1419	23471
+negyvenvalahány/1419	23472
 negyventrillióan/82	4325
 negyventrillió/83	4326
 negyventrilliárd/84	88
@@ -19305,12 +19458,13 @@ negyvenedszerre/91	4493
 negyvenedszeri/108	88
 negyvenedszer	4494
 negyvenedrész/5	1
-negyvenedik/81	4495
+negyvenedik/1420	4495
+negyvenedannyi/79	94
 negyvened/109	4496
 negyvenbillióan/82	4497
 negyvenbillió/83	4498
 negyvenbilliárd/84	88
-negyven-egynéhány	287
+negyven-egynéhány	23296
 negyven/110	4499
 negyedóránként	15
 negyedórai	66
@@ -19340,7 +19494,7 @@ negyedmagával	15
 negyediki/72	4508
 negyedikes/1	1
 negyedike/72	4508
-negyedik/73	4509
+negyedik/1415	4509
 negyedidőszak/16	1
 negyedheti	66
 negyedhavi	66
@@ -19381,6 +19535,7 @@ nedv/164	1
 necc/164	1
 nebáncsvirág/12	1
 nebuló/9	1
+ne adj’ isten	23473
 navigátor/30	1
 navigáció/9	1
 natúrszelet/21	1
@@ -19477,7 +19632,7 @@ napamasszony/30	1
 napalmbomba/9	1
 napalm/41	1
 napa/156	1
-nap-éj egyenlőség/1	4520
+nap-éj egyenlőség/1	23474
 nap/155	1
 naná	35
 nanotechnológus/8	1
@@ -19490,6 +19645,8 @@ nanorészecske/37	1
 nanorobot/16	1
 nanométer/5	1
 nanokémia/18	1
+nanokristály/8	1
+nanokelvin/17	1
 nanohuzal/12	1
 nanogép/27	1
 nanogramm/16	1
@@ -19548,7 +19705,7 @@ nagytatarozás/30	1
 nagytata/9	1
 nagytanács/30	1
 nagytakarítás/30	1
-nagyság/30	1
+nagyság/1442	1
 nagyszünet/1	1
 nagyszülő/3	4529
 nagyszüleitek/131	4530
@@ -19709,6 +19866,7 @@ nagygazda/9	1
 nagyfőnök/19	1
 nagyfröccs/22	1
 nagyfrekvencia/9	1
+nagyforma/18	1
 nagyfogyasztó/18	1
 nagyfiú/18	1
 nagyfilm/17	1
@@ -19785,6 +19943,7 @@ nacionálé/9	1
 nacionálsovinizmus/30	1
 nacionalizmus/30	1
 naci/9	1
+nachos/531	23475
 nabla/9	1
 na mármost
 na most
@@ -19908,10 +20067,26 @@ múmiatan/30	1
 múmia/9	1
 múlván	57
 múlva	57
+múltkutatás/8	1
 múltkorában	15
 múltkoriban	15
+múltidézés/5	1
 múltidejűség/5	1
 múlta/578	57
+múlt ősz/22	4636
+múlt év/1	4636
+múlt tél/409	4636
+múlt tavasz/30	4636
+múlt század/41	4636
+múlt nyár/298	4636
+múlt idő/513	4636
+múlt idej/55	23476
+múlt hónap/41	4636
+múlt hó/1443	4636
+múlt hét/1436	4636
+múlt heti/524	23477
+múlt havi/735	23478
+múlt esztendő/4	4636
 múlt/58	4636
 múlottál/120	4637
 múlottunk/120	4638
@@ -20014,6 +20189,7 @@ mézel
 mézbor/8	1
 méz/183	4682
 métázik
+méteráru/18	1
 méterrendszer/5	1
 méter/21	1
 mételyfű/53	4683
@@ -20028,6 +20204,7 @@ mészárló/162	4684
 mészárlás/163	4685
 mészárlás/161	1
 mésztufa/18	1
+mészpát/16	1
 mészpor/12	1
 mészkőhegység/5	1
 mészkőbánya/18	1
@@ -20210,7 +20387,7 @@ másodikos/30	1
 másodiki/391	4708
 másodikak/95	4709
 másodika/391	4708
-második/555	4710
+második/1441	4710
 másodhegedűs/22	1
 másodfok/16	1
 másodelnök/22	1
@@ -20542,7 +20719,7 @@ motokrossz/8	1
 motiválatlanság/30	1
 motiváció/9	1
 motetta/9	1
-motel/211	1
+motel/322	1
 motalkó/9	1
 mosóteknő/3	1
 mosópor/8	1
@@ -20739,7 +20916,7 @@ monarchia/9	1
 momentán	15
 momentum/30	1
 moly/201	1
-moloch/41	1
+moloch/41	23479
 molnárka/9	1
 molnár/41	1
 molla/9	1
@@ -20767,6 +20944,7 @@ moholy/199	4819
 mohikán/41	1
 moherszövet/21	1
 moherfonal/30	1
+moher/1444	1
 moharózsa/18	1
 mohamedanizmus/30	1
 moha/9	1
@@ -20930,7 +21108,7 @@ miszlikbe	15
 miszerintünk/47	4891
 miszerint	15
 mistress/597	1
-mister/174	1
+mister/284	1
 misszió/9	1
 misszionárius/30	1
 missió/9	1
@@ -20953,9 +21131,8 @@ mireánk/47	4894
 mire	15
 mirajtunk/47	4895
 miozin/271	1
-miocénkor/36
-miocén kor/31	1
-miocén/17	1
+miocénkor/113	1
+miocén/211	1
 minősül
 minőség/1	1
 minő/323	717
@@ -21233,7 +21410,7 @@ milliárdpercenként	15
 milliárdos/606	1
 milliárdos/606	86
 milliárdodszorra/91	4989
-milliárdodik/382	4990
+milliárdodik/1430	4990
 milliárdod/383	4991
 milliárdocska/9	1
 milliárdheti	66
@@ -21248,17 +21425,19 @@ milliárd/607	4993
 milliwatt/16	1
 millivolt/41	1
 milliszekundum/8	1
+millipascal/41	1
 milliomos/30	1
 milliomodszorra/91	4994
 milliomodszori	88
 milliomodszor	4995
 milliomodrész/5	1
-milliomodik/608	4996
+milliomodik/1445	4996
 milliomod/383	4997
 millimól/16	1
 milliméter/27	1
 millimikron/16	1
 milliliter/27	1
+millikelvin/17	1
 milligramm/16	1
 millibar/41	1
 milliamper/1	1
@@ -21307,6 +21486,7 @@ mikrosebészet/5	1
 mikrorészecske/20	1
 mikrorizikó/18	1
 mikroprocesszor/8	1
+mikropascal/41	1
 mikroorganizmus/8	1
 mikron/41	1
 mikrométer/27	1
@@ -21320,6 +21500,7 @@ mikrokontroller/5	1
 mikrokolónia/18	1
 mikroklíma/18	1
 mikrokernel/17	1
+mikrokelvin/17	1
 mikrohullám/8	1
 mikrohitel/5	1
 mikrogazdaság/8	1
@@ -21446,7 +21627,7 @@ mezőgazdaság/8	1
 mező/4	5065
 mezítláb	15
 meztelencsiga/18	1
-mezsgye/20	1
+mezsgye/20	23480
 mezozoikum/30	1
 mezoszint/7	1
 mezoszféra/18	1
@@ -21564,7 +21745,7 @@ meteorológus/30	1
 meteorológia/9	1
 meteorográf/41	1
 meteorkő/23	5133
-meteorit/17	1
+meteorit/41	1
 meteor/41	1
 metatézis/1	1
 metanyelv/5	1
@@ -21689,7 +21870,7 @@ menü/4	1
 menóra/9	1
 menés/34	5168
 menés/35	1
-menázsiosztás/30	1
+menázsi/9	1
 menzúra/9	1
 menzesz/1	1
 menza/9	1
@@ -21889,6 +22070,8 @@ mellt/36
 mellső/617	86
 mellszobor/49	5214
 mellkas/8	1
+mellitus/306	1
+mellitus/306	1240
 mellitsav/133	5215
 mellhártyagyulladás/8	1
 mellhártya/18	1
@@ -22264,6 +22447,7 @@ megfordítás/30	1
 megfordulás/30	1
 megfontolás/30	1
 megfojtás/30	1
+megfojtatás/30	1
 megfogás/30	1
 megfogalmazás/30	1
 megfigyelés/1	1
@@ -22330,6 +22514,7 @@ megbasz/200	5283
 megbarnulás/30	1
 megawatt/16	1
 megatonna/18	1
+megatesla/156	1
 megasztár/271	1
 megapixel/7	1
 megapascal/16	1
@@ -22340,7 +22525,13 @@ megalvadás/30	1
 megalománia/9	1
 megalomán/41	1
 megalkuvás/30	1
+megakelvin/17	1
 megakadályozás/30	1
+megajoule-os/275	23481
+megajoule-lá/47	23482
+megajoule-lal/47	23483
+megajoule-/205	23484
+megajoule	23485
 megahertz/5	1
 megafon/41	1
 megadás/30	1
@@ -22386,11 +22577,11 @@ mechanika/9	1
 mecenatúra/9	1
 meccslabda/18	1
 meccs/164	1
-mebibyte-tá/47	5290
-mebibyte-tal/47	5291
-mebibyte-os/275	5292
-mebibyte-/205	5293
-mebibyte	5294
+mebibyte-tá/47	23486
+mebibyte-tal/47	23487
+mebibyte-os/275	23488
+mebibyte-/205	23489
+mebibyte	23490
 meandervonal/30	1
 meander/21	1
 mea	1318
@@ -22436,7 +22627,7 @@ mater/174	1
 matematikus/30	1
 matematika/9	1
 matek/41	1
-matchbox/130	5301
+matchbox/130	23491
 matador/130	1
 mat.	70
 masíroz
@@ -22528,6 +22719,7 @@ marha/9	1
 margó/9	1
 margitvirág/130	1
 marginalizáció/9	1
+marginalitás/30	1
 margaréta/9	1
 margarin/41	1
 marcipán/41	1
@@ -22850,6 +23042,7 @@ magánautó/9	1
 magánalkalmazott/59	1
 magánalapítvány/30	1
 magán/309	1240
+magácska/156	1
 magában	1453
 magzik	5336
 magzattalan/41	1
@@ -22919,6 +23112,7 @@ magnézia/50	1
 magnitúdó/9	1
 magnezitesedés/1	1
 magnezit/174	1
+magnetár/130	1
 magnetoszféra/18	1
 magnetométer/17	1
 magnetofon/41	1
@@ -23055,12 +23249,14 @@ macskagyökér/6	5408
 macska módra
 macska/9	1
 mackóruha/18	1
+mackófelső/3	1
+mackóalsó/18	1
 mackó/9	1
 maci/9	1
 machinátor/271	1
 machináció/9	1
 machiavellizmus/30	1
-machete/20	5409
+machete/20	23492
 macesz/210	1
 maceráció/50	1
 macedónüldözés/5
@@ -23340,7 +23536,7 @@ lóbálózik
 lóbálódzik
 lóbab/16	1
 ló/367	5538
-lízing/17	1
+lízing/17	23493
 lítium/273	1
 lírikus/30	1
 lírika/9	1
@@ -23794,6 +23990,7 @@ lumpol
 lumpenproletár/41	1
 lumpenproletariátus/30	1
 lump/155	1
+luminozitás/30	1
 lumineszcens/1	1
 lumineszcencia/9	1
 lumen/17	1
@@ -23909,7 +24106,7 @@ lobogó/9	1
 lobbot/47	5711
 lobbizik
 lobbista/9	1
-lobbi/9	5712
+lobbi/9	23494
 lob/155	1
 ln-né/47	5713
 ln-nel/47	5714
@@ -23972,6 +24169,7 @@ limnológia/9	1
 limlom/16	1
 limitáció/50	1
 limit/17	1
+limfocita/9	1
 limes/283	1
 limerick/174	1
 lime-os/275	5727
@@ -24000,6 +24198,7 @@ likacs/30	1
 lik/170	5733
 lignit/17	1
 lignin/17	1
+light/454	23495
 ligetszépe/37	1
 ligeterdő/4	1
 liget/1	1
@@ -24020,7 +24219,7 @@ licit/17	1
 lichthóf/41	1
 licenciátus/30	1
 licencia/9	1
-licenc/1	5734
+licenc/1	23496
 libéria/9	1
 libus/30	1
 libris/597	1
@@ -24129,6 +24328,7 @@ levegő/4	1
 levedzik
 leukémia/9	1
 leukoplaszt/41	1
+leukocita/9	1
 leucitkőzet/1	1
 leucin/271	1
 letűnte/20	1
@@ -24275,6 +24475,7 @@ lelkizés/1	1
 lelkivilág/30	1
 lelkipásztorság/8	1
 lelkipásztor/12	1
+lelkiismeret-furdalás/127	1
 lelkiismeret/5	1
 lelkigyakorlat/8	1
 lelkifurdalás/8	1
@@ -24528,7 +24729,7 @@ lateritesedés/1	1
 latens
 latencia/9	1
 lateiner/1	1
-lat/155	1
+lat/454	1
 laszti/9	1
 lasztexnadrág/16	1
 lasztex/1	1
@@ -24604,6 +24805,7 @@ lanka/9	1
 languszta/9	1
 langrange-i/204	5868
 langaléta/9	1
+langalló/9	1
 landol
 laméruha/18	1
 lampion/41	1
@@ -24647,6 +24849,7 @@ lakli/9	1
 lakkmézga/18	1
 lakkmunka/18	1
 lakk/155	1
+lakhatás/30	1
 lakbér/5	1
 lakberendező/3	1
 lakberendezés/5	1
@@ -24662,7 +24865,7 @@ lajbi/9	1
 laicizmus/30	1
 lagúna/9	1
 lagzi/9	1
-lady/281	5872
+lady/281	23497
 ladikos/30	1
 ladik/41	1
 lacipecsenye/37	1
@@ -24993,7 +25196,7 @@ közelről/47	5972
 közelre/47	5973
 közelnézet/5	1
 közelmúltban	15
-közelmúlt/208	1
+közelmúlt/1446	23498
 közellét/1	1
 közellátó/18	1
 közellátás/8	1
@@ -25091,7 +25294,7 @@ kövesút/133	6006
 kövecs/1	1
 köv.	70
 kötöző/4	1
-kötöttáru/9	1
+kötöttáru/18	1
 kötöttség/1	1
 kötöde/20	1
 kötővonal/2	6007
@@ -25505,6 +25708,7 @@ kódorogod/36
 kódorgó/162	6108
 kódorgás/163	6109
 kódex/1	1
+kóda/9	1
 kód/155	1
 kócsagtoll/2	6110
 kócsagtanya/18	1
@@ -25523,6 +25727,7 @@ kóborlás/163	6112
 kóborlás/161	1
 kóborgó/162	6113
 kóborgás/163	6114
+kóan/41	1
 kívülünk/47	6115
 kívülük/47	6116
 kívülálló/9	1
@@ -25572,6 +25777,7 @@ kínaezüst/63	1
 kínabor/8	1
 kín/155	1
 kímélet/1	1
+kílbót/41	1
 kígyózik
 kígyószisz/1	1
 kígyómarás/8	1
@@ -25780,8 +25986,8 @@ kétbillió/83	6198
 kétbilliárd/84	88
 kétannyian	93
 kétannyi/79	94
-két-hárommillió/123	287
-két-három	287
+két-hárommillió/123	23296
+két-három	23296
 két/648	88
 későbbre/179	6199
 későbbiek/497	6200
@@ -25795,7 +26001,7 @@ készület/1	1
 készítő/4	1
 készítmény/1	1
 készétel/5	1
-készáru/9	1
+készáru/18	1
 késztermék/1	1
 készség/1	1
 készruha/18	1
@@ -25946,6 +26152,7 @@ kékre-zöldre	38
 kékperje/20	1
 kékparadicsom/8	1
 kékpala/18	1
+kékoportó/18	1
 kékmoszat/16	1
 kékliliom/8	1
 kékit/36
@@ -26126,7 +26333,7 @@ kvietál
 kvietizmus/30	1
 kviddics/300	1
 kvesztúra/18	1
-kvazár/41	1
+kvazár/130	1
 kvaternió/9	1
 kvaterkázik
 kvasszia/9	1
@@ -26160,6 +26367,7 @@ kutyuska/9	1
 kutyus/30	1
 kutyulék/41	1
 kutyulmány/30	1
+kutyuli-mutyuli/9	1
 kutyuli/9	1
 kutymorogunk/36
 kutymorogott/36
@@ -26205,7 +26413,6 @@ kurázsi/9	1
 kurátor/130	1
 kuráré/488	6249
 kuráre/505	6250
-kurĂĄre/20
 kurzíva/9	1
 kurzus/30	1
 kurzor/30	1
@@ -26263,7 +26470,7 @@ kupleráj/30	1
 kupica/9	1
 kupi/9	1
 kupeckodás/30	1
-kupec/654	1
+kupec/210	1
 kupaszerda/18	1
 kupamérkőzés/5	1
 kupak/41	1
@@ -26308,6 +26515,7 @@ kun/379	1
 kumulálódás/30	1
 kumuláció/9	1
 kumuluszfelhő/3	1
+kumulusz/30	1
 kumisz/30	1
 kumarin/41	1
 kulákság/30	1
@@ -26457,8 +26665,7 @@ krónika/9	1
 króm/155	1
 krízis/1	1
 krétavonal/2	6281
-krétakor/36
-kréta kor/31	1
+krétakor/113	1
 kréta/9	1
 krém/196	1
 krédó/9	1
@@ -26489,6 +26696,7 @@ kromoszóma/9	1
 kromofág/41	1
 kromatográfia/9	1
 kromatográf/41	1
+kromatin/41	1
 kromatika/9	1
 krokodilus/30	1
 krokodil/41	1
@@ -26544,7 +26752,7 @@ krepdesin/17	1
 kreol/41	1
 kremlinológus/30	1
 krematórium/30	1
-kredit/17	1
+kredit/21	1
 kredenc/1	1
 kreatúra/9	1
 kreativitás/30	1
@@ -26635,6 +26843,7 @@ kosárfonás/8	1
 kosárfonat/8	1
 kosár/298	6300
 kosztümözés/1	1
+kosztümfelső/3	1
 kosztüm/56	1
 koszt/155	1
 koszorúér/6	6301
@@ -26651,6 +26860,7 @@ kosaras/30	1
 kos/201	1
 korév/5	1
 korántse	15
+koránt sincs
 korán	15
 korál/41	1
 korábbról/179	6302
@@ -26661,6 +26871,7 @@ korábban/179	6302
 korább/182	6305
 korzózik
 korzó/9	1
+korvina/9	1
 korvett/17	1
 korund/271	1
 korund/271
@@ -26695,6 +26906,7 @@ korporáció/9	1
 korpafű/53	6306
 korpa/9	1
 koronén/343	1
+koronária/9	1
 korongozik
 korong/41	1
 koronagyarmat/8	1
@@ -26786,6 +26998,7 @@ kopírpapír/16	1
 kopásgödör/207	6319
 kopácsol
 kopács/30	1
+kopulál
 kopula/9	1
 koprodukció/9	1
 koprocesszor/8	1
@@ -26818,6 +27031,7 @@ konzílium/30	1
 konzumtársadalom/8	1
 konzumnő/3	1
 konzumidióta/18	1
+konzumens/1	1
 konzum/30	1
 konzulátus/30	1
 konzultáns/30	1
@@ -27058,6 +27272,7 @@ kompkikötő/3	1
 kompiláció/9	1
 komphajó/18	1
 kompetíció/9	1
+kompetitor/130	1
 kompetitivitás/30	1
 kompetencia/9	1
 kompenzátor/30	1
@@ -27190,7 +27405,7 @@ kolbászka/9	1
 kolbász/30	1
 kokó/9	1
 kokárda/9	1
-koktél/211	1
+koktél/41	1
 kokszosodás/30	1
 kokszkályha/18	1
 koksz/201	1
@@ -27219,13 +27434,14 @@ koffice-os/275	6325
 koffer/322	1
 koffein/17	1
 kofa/9	1
-koenzim/1	1
+koenzim/21	1
 koegzisztál
 koegzisztencia/9	1
 koefficiens/1	1
 koedukáció/9	1
 kodon/41	1
 kodimenzió/9	1
+kodifikátor/30	1
 kodifikáció/9	1
 kodein/211	1
 kocsányzat/30	1
@@ -27309,6 +27525,7 @@ klöpli/20	1
 klórossav/133	6356
 klór/155	1
 klón/155	1
+klívia/9	1
 klíring/17	1
 klímatérkép/5	1
 klíma/9	1
@@ -27318,7 +27535,6 @@ klán/155	1
 klumpa/9	1
 klubház/2	6357
 klubhelyiség/5	1
-klubfotel/411	1
 klub/155	1
 kloáka/9	1
 klozet/211	1
@@ -27359,7 +27575,7 @@ klientúra/9	1
 klientéla/9	1
 kliensoldal/2	6358
 kliens/1	1
-klezmer/174	1
+klezmer/385	1
 klerikus/30	1
 klerikalizmus/30	1
 kleptománia/18	1
@@ -27387,6 +27603,11 @@ klappol
 klapec/30	1
 klapancia/50	1
 klakkban	15
+kkv-vá/47	23499
+kkv-val/47	23500
+kkv-s/275	23501
+kkv-/65	23502
+kkv	23503
 kkt.	70
 kk.	70
 kjokusin/41	1
@@ -27436,6 +27657,7 @@ kivitel/1	1
 kivirágzás/30	1
 kivilágítás/30	1
 kivilágosodás/30	1
+kivilágos-kivirradtig	38
 kivi/20	1
 kivetítés/1	1
 kivetés/1	1
@@ -27469,6 +27691,7 @@ kitárás/30	1
 kitárulkozik
 kitámasztó/9	1
 kitágítás/30	1
+kitty-kotty	38
 kitt/285	1
 kitombolás/30	1
 kitolás/30	1
@@ -27535,6 +27758,7 @@ kisárutermelő/3	1
 kisárutermelés/5	1
 kisárusítás/30	1
 kisárus/30	1
+kisáruház/2	23504
 kisállattenyésztő/509	1
 kisállattenyésztés/563	1
 kisállattartás/30	1
@@ -27574,6 +27798,7 @@ kisvendéglő/4	1
 kisvasút/133	6386
 kisvasárnap/16	1
 kisvad/133	6387
+kisunokám	35
 kisujj/2	6388
 kisugárzás/30	1
 kistőkés/1	1
@@ -27582,7 +27807,6 @@ kistányér/16	1
 kistáj/8	1
 kisturbina/18	1
 kistisztviselő/4	1
-kistestvér/1	1
 kisterpesz/5	1
 kistermelő/3	1
 kistermelés/5	1
@@ -27616,6 +27840,7 @@ kisparasztság/8	1
 kisparaszt/41	1
 kispapa/18	1
 kispap/41	1
+kispajtás	35
 kispados/30	1
 kispad/16	1
 kisorosz/30	1
@@ -27698,8 +27923,10 @@ kiskapitális/8	1
 kiskapitalista/18	1
 kiskanál/2	6402
 kiskamasz/8	1
+kiskakas/8	1
 kiskacsa/18	1
 kiskabát/41	1
+kisjátékfilm/7	1
 kisisten/1	1
 kisiskolás/30	1
 kisiparosság/8	1
@@ -27732,6 +27959,7 @@ kisfőnök/19	1
 kisfuvola/9	1
 kisfröccs/19	1
 kisfrekvencia/18	1
+kisforma/18	1
 kisfogyasztó/18	1
 kisfiú/18	1
 kisfiunk/588	6408
@@ -27756,6 +27984,7 @@ kisestélyi/37	1
 kiserőd/63	1
 kiserdő/4	1
 kisepika/18	1
+kisenciklopédia/18	1
 kisemlős/19	1
 kisember/1	1
 kiselőadás/8	1
@@ -27884,6 +28113,7 @@ kintre/47	6434
 kintornál
 kintorna/9	1
 kintlévőség/1	1
+kintlét/5	1
 kintlevőség/1	1
 kintiek/66	6435
 kinti/359	86
@@ -27960,6 +28190,7 @@ kilyukasztás/30	1
 kilowatt/16	1
 kilovolt/16	1
 kilotonna/18	1
+kilotesla/156	1
 kilopond/41	1
 kilopascal/16	1
 kiloohm/41	1
@@ -27967,9 +28198,15 @@ kilométeróra/18	1
 kilométerkő/23	6456
 kilométer/27	1
 kilombosodás/30	1
+kilokelvin/17	1
 kilokalória/18	1
+kilojoule-os/275	23505
+kilojoule-lá/47	23506
+kilojoule-lal/47	23507
+kilojoule-/205	23508
+kilojoule	23509
 kilohertz/5	1
-kilogramm/16	6457
+kilogramm/16	23510
 kilociklus/8	1
 kilobyte-tá/47	6458
 kilobyte-tal/47	6459
@@ -28014,7 +28251,12 @@ kilencvenórai	66
 kilencvenévi	66
 kilencvenévente	15
 kilencvenévenként	15
-kilencvenvalahány/93	94
+kilencvenvalahányan/1416	23511
+kilencvenvalahányan/91	23365
+kilencvenvalahányadikak/1417	23512
+kilencvenvalahányadik/1418	23513
+kilencvenvalahány/1419	23514
+kilencvenvalahány/1419	23515
 kilencventrillióan/82	6482
 kilencventrillió/83	6483
 kilencventrilliárd/84	88
@@ -28229,12 +28471,13 @@ kilencvenedszerre/91	6650
 kilencvenedszeri/108	88
 kilencvenedszer	6651
 kilencvenedrész/5	1
-kilencvenedik/81	6652
+kilencvenedik/1420	6652
+kilencvenedannyi/79	94
 kilencvened/109	6653
 kilencvenbillióan/82	6654
 kilencvenbillió/83	6655
 kilencvenbilliárd/84	88
-kilencven-egynéhány	287
+kilencven-egynéhány	23296
 kilencven/110	6656
 kilenctrillióan/82	6657
 kilenctrillió/83	6658
@@ -28285,7 +28528,7 @@ kilencednap/16	1
 kilencediki/72	6678
 kilencedikes/1	1
 kilencedike/72	6678
-kilencedik/73	6679
+kilencedik/1415	6679
 kilencedféltrillió/74	88
 kilencedfélszázad/75	88
 kilencedfélszáz/76	88
@@ -28300,7 +28543,7 @@ kilenced/667	6681
 kilencbillióan/82	6682
 kilencbillió/83	6683
 kilencbilliárd/84	88
-kilenc-tízmillió/123	287
+kilenc-tízmillió/123	23296
 kilenc/668	6684
 kiküldetés/1	1
 kiközösítés/1	1
@@ -28442,51 +28685,50 @@ kicsoda/156	1
 kicsiség/1	1
 kicsinyítő/4	1
 kicsinyég/10	15
-kicsinylünk/47	6706
+kicsinylünk/120	6706
 kicsinylőleg	15
 kicsinylő/32	6707
 kicsinylés/34	6708
 kicsinylés/34	6709
 kicsinylés/35	1
-kicsinylitek/47	6710
-kicsinylik/47	6711
-kicsinyli/47	6712
-kicsinylettünk/47	6713
-kicsinylettük/47	6714
-kicsinylettétek/47	6715
-kicsinylettél/47	6716
-kicsinylették/47	6717
-kicsinylettetek/47	6718
-kicsinylettem/47	6719
-kicsinylettem/47	6720
-kicsinylettek/47	6721
-kicsinyletted/47	6722
-kicsinylette/47	6723
-kicsinyletek/47	6724
-kicsinylesz/47	6725
-kicsinylenünk/47	6726
-kicsinylenétek/47	6727
-kicsinylenénk/47	6728
-kicsinyleném/47	6729
-kicsinylenék/47	6730
-kicsinylenéd/47	6731
-kicsinylené/47	6732
-kicsinyleniük/47	6733
-kicsinyleniök/47	6733
-kicsinylenie/47	6734
-kicsinyleni/47	6735
-kicsinylenetek/47	6736
-kicsinylenem/47	6737
-kicsinylened/47	6738
-kicsinylem/47	6739
-kicsinylek/47	6740
-kicsinyled/47	6741
+kicsinylitek/120	6710
+kicsinylik/120	6711
+kicsinyli/120	6712
+kicsinylettünk/120	6713
+kicsinylettük/120	6714
+kicsinylettétek/120	6715
+kicsinylettél/120	6716
+kicsinylették/120	6717
+kicsinylettetek/120	6718
+kicsinylettem/120	6719
+kicsinylettem/120	6720
+kicsinylettek/120	6721
+kicsinyletted/120	6722
+kicsinylette/120	6723
+kicsinyletek/120	6724
+kicsinylesz/120	6725
+kicsinylenünk/120	6726
+kicsinylenétek/120	6727
+kicsinylenénk/120	6728
+kicsinyleném/120	6729
+kicsinylenék/120	6730
+kicsinylenéd/120	6731
+kicsinylené/120	6732
+kicsinyleniük/120	6733
+kicsinyleniök/120	6733
+kicsinylenie/120	6734
+kicsinyleni/120	6735
+kicsinylenetek/120	6736
+kicsinylenem/120	6737
+kicsinylened/120	6738
+kicsinylem/120	6739
+kicsinylek/120	6740
+kicsinyled/120	6741
 kicsinyke/20	1
 kicsicsáz/47	6742
 kicsi/670	6743
 kicsempész/47	6744
-kicsempész	1
-kick-box/30	6745
+kick-box/30	23516
 kicikiz/47	6746
 kicentríroztatás/30	1
 kicentiz/47	6747
@@ -28500,11 +28742,11 @@ kibogarász/47	6750
 kibocsátás/30	1
 kibicel
 kibic/1	1
-kibibyte-tá/47	6751
-kibibyte-tal/47	6752
-kibibyte-os/275	6753
-kibibyte-/205	6754
-kibibyte	6755
+kibibyte-tá/47	23517
+kibibyte-tal/47	23518
+kibibyte-os/275	23519
+kibibyte-/205	23520
+kibibyte	23521
 kibertér/6	6756
 kibernetikus/30	1
 kibernetika/9	1
@@ -28655,7 +28897,7 @@ kettészakadás/8	1
 kettyintés/1	1
 kettyenés/1	1
 kettesfogat/193	1
-kettes fogat/41	6840
+kettes fogat/41	6841
 kettes/105	6841
 kettes/105	6842
 ketten/70	6843
@@ -28665,13 +28907,13 @@ kettedszerre/70	6846
 kettedszeri/673	88
 kettedszer/673	6847
 kettedrész/1	1
-kettedik/73	4710
+kettedik/1415	4710
 ketted/674	6848
 kettecskén/17	1
 ketrec/1	1
 keton/271	1
 ketolakton/271	1
-ketchup/675	6849
+ketchup/675	23522
 keszőce/20	1
 kesztyűtágító/18	1
 kesztyű/4	1
@@ -28838,6 +29080,7 @@ ker.-es/226	6890
 ker.-/195	6891
 ker.	6892
 ker.	6893
+kepp/504	1
 kepe/20	1
 kenőolaj/2	6894
 kenőkefe/37	1
@@ -28849,6 +29092,7 @@ kenó/9	1
 kenéz/1	1
 kenyérár/2	6895
 kenyérvirág/8	1
+kenyérsütő gép/21	1
 kenyérszűkében	15
 kenyérrevaló/18	1
 kenyérpirító/18	1
@@ -28931,8 +29175,8 @@ keltanyelv-/15
 keltaimádat/16
 keltacentrikusság/8
 kelta/156	1
-kelmetek/21	35
-kelmetek/21	1
+kelmetek/465	35
+kelmetek/465	1
 kelmed	35
 kelme/20	1
 kellünk/47	6907
@@ -29124,6 +29368,7 @@ katonasapka/18	1
 katonaruha/18	1
 katonaláda/18	1
 katona/9	1
+katolizáció/9	1
 katolikus/30	1
 katolicizmus/30	1
 katlan/130	1
@@ -29141,6 +29386,7 @@ kataton	66
 katasztrófa/9	1
 kataszter/21	1
 katarzis/30	1
+katarakta/9	1
 katapult/41	1
 katamarán/41	1
 katalógusszám/8	1
@@ -29210,7 +29456,7 @@ kartográfus/30	1
 kartográfia/9	1
 kartogram/41	1
 karter/21	1
-kartell/211	1
+kartell/322	1
 karszék/7	1
 karsztvíz/6	6969
 karsztosodás/30	1
@@ -29281,6 +29527,7 @@ kardhal/2	6974
 kardforgatás/8	1
 kardcsörtető/3	1
 kardbojt/16	1
+kardamom/41	1
 kard/155	1
 karcolat/130	1
 karcinóma/9	1
@@ -29296,9 +29543,8 @@ karboxilcsoport/16	1
 karborundum/30	1
 karbonát/271	1
 karbonsav/133	6976
-karbonkor/36
+karbonkor/113	1
 karbonil/271	1
-karbon kor/31	1
 karbon/41	1
 karbolsav/133	6977
 karbol/41	1
@@ -29308,6 +29554,7 @@ karbamid/271	1
 karbaldehid/174	1
 karavánút/133	6978
 karaván/41	1
+karavella/9	1
 karaté/488	6979
 karattyol
 karatebajnokság/8	1
@@ -29429,6 +29676,7 @@ kanton/41	1
 kantni/9	1
 kantinos/30	1
 kantin/41	1
+kantalup/41	1
 kanta/9	1
 kanonoktestület/1	1
 kanonok/130	1
@@ -29492,8 +29740,7 @@ kamgarnruha/18	1
 kamgarn/41	1
 kameraman/41	1
 kamera/9	1
-kambriumkor/36
-kambrium kor/31	1
+kambriumkor/113	1
 kambrium/30	1
 kambium/30	1
 kamatyol
@@ -29617,6 +29864,7 @@ kajakos/30	1
 kajak/41	1
 kaja/9	1
 kainozoikum/30	1
+kagán/41	1
 kagylótelep/27	1
 kagylóteknő/3	1
 kagylópénz/5	1
@@ -29624,6 +29872,7 @@ kagylóhéj/6	7009
 kagylófajta/18	1
 kagylódísz/5	1
 kagyló/9	1
+kaganátus/30	1
 kaftán/41	1
 kafferbivaly/8	1
 kadét/41	1
@@ -29669,6 +29918,7 @@ kabaré/9	1
 kabard/41	1
 kabala/9	1
 kabaktök/68	1
+kabaktermés/5	1
 kWh-vá/47	7012
 kWh-val/47	7013
 kWh-s/275	7014
@@ -29746,6 +29996,17 @@ jövőre	15
 jövőidejűség/5	1
 jövőbeni	66
 jövőbelátó/9	1
+jövő ősz/22	1
+jövő év/1	1
+jövő tél/409	1
+jövő tavasz/30	1
+jövő nyár/298	1
+jövő idő/513	1
+jövő idej/55	23523
+jövő hónap/41	1
+jövő hó/1443	1
+jövő hét/1436	1
+jövő esztendő/4	1
 jövő/4	1
 jövésmenés/165	1
 jövés/34	7070
@@ -29895,6 +30156,7 @@ jógi/9	1
 jóga/9	1
 jóformán/41	1
 jófiú/18	1
+jófejség/5	1
 jóember/5	1
 jódlizik
 jódli/9	1
@@ -30079,7 +30341,7 @@ járandóság/30	1
 járadék/30	1
 jánosbogárka/9	1
 jádé/691	7218
-jáde	7219
+jáde/1447	7219
 jácint/41	1
 jutalék/30	1
 jutalomút/133	7220
@@ -30094,8 +30356,7 @@ jurátus/30	1
 jurta/9	1
 jurista/9	1
 jure	15
-jurakor/36
-jura kor/31	1
+jurakor/113	1
 jura/9	1
 jupiterlámpa/18	1
 junta/9	1
@@ -30124,11 +30385,12 @@ juh/201	1
 jugoszláv/16	1
 judícium/30	1
 judaizmus/30	1
+judaisztika/9	1
 jubiláns/30	1
 jubilál
 jubileum/30	1
 jozefinizmus/30	1
-joystick/211	7224
+joystick/211	23524
 joyce-i/204	7225
 joule-os/275	7226
 joule-lá/47	7227
@@ -30137,10 +30399,20 @@ joule-/205	7229
 joule	7230
 jottista/9	1
 jotta/9	1
+jorubaüldözés/5
+jorubatanítás/8
+jorubanyelv-/15
+jorubaimádat/16
+jorubacentrikusság/8
+joruba/156	1
 jonatánalma/18	1
 jonatán/41	1
+jolly joker/322	23525
+jolly	23526
+joker/17	23527
 jojózik
 jojó/9	1
+jojoba/9	1
 jogásznő/3	1
 jogász/30	1
 jogág/2	7231
@@ -30164,7 +30436,6 @@ joghurt/41	1
 joghatóság/8	1
 joghatás/8	1
 jogharmonizáció/18	1
-jogging/41	1
 jogfosztás/8	1
 jogfosztottság/30	1
 jogfosztott/642	1
@@ -30203,6 +30474,7 @@ jobbkanyar/16	1
 jobbik/693	7235
 jobbhátvéd/7	1
 jobbfedezet/5	1
+jobbegyenes/5	1
 jobban/179	7236
 jobbadán	15
 jobb/694	7237
@@ -30267,7 +30539,7 @@ jellemkép/5	1
 jellemesség/1	1
 jellem/1	1
 jellegtelen/17	1
-jelleg/1	1
+jelleg/1448	1
 jelképező/3	1
 jelkép/5	1
 jelkulcs/8	1
@@ -30289,6 +30561,8 @@ jelenleg	15
 jeleniesül
 jelenidejűség/5	1
 jelenet/1	1
+jelen idő/513	1
+jelen idej/55	23528
 jelen/1	1
 jelelés/1	1
 jelbeütő/4	1
@@ -30388,11 +30662,12 @@ jan.-/205	7284
 jan.	7285
 jamszgyökér/6	7286
 jampi/9	1
-jampec/1	1
+jampec/429	1
+jamgyökér/6	23529
 jambósapka/18	1
 jambus/30	1
 jalapeño/9	7287
-jakuzzi/9	7288
+jakuzzi/9	23530
 jakut/41	1
 jakobinus/30	1
 jakobinizmus/30	1
@@ -30407,10 +30682,6 @@ jajjal-bajjal	38
 jajdul
 jaj	35
 jaguár/41	1
-jade-dá/47	7290
-jade-dal/47	7291
-jade-/205	7292
-jade	7293
 jachtozik
 jachtklub/16	1
 jacht/155	1
@@ -30619,6 +30890,8 @@ iskolázottság/30	1
 iskoláskönyv/19	1
 iskoláskor/8	1
 iskolásdi/9	1
+iskolás lány/30	1
+iskolás fiú/9	1
 iskolás/30	1
 iskolaév/5	1
 iskolaépület/5	1
@@ -30808,7 +31081,7 @@ interferométer/27	1
 interferencia/9	1
 interdiszciplinaritás/8	1
 interdiktum/30	1
-intercity/701	7367
+intercity/701	23531
 interaktivitás/30	1
 interakció/18	1
 intenzitás/30	1
@@ -31045,6 +31318,7 @@ impérium/30	1
 impulzus/30	1
 impulzivitás/30	1
 improvizáció/9	1
+impromptu/4	23532
 imprimatúra/9	1
 impresszárió/9	1
 impresszum/30	1
@@ -31069,6 +31343,7 @@ imperializmus/30	1
 imperativus/531	1
 imperativus/531	1240
 impedancia/9	1
+impala/9	1
 impaktfaktor/8	1
 imola/9	1
 immáron	15
@@ -31100,6 +31375,7 @@ immortella/9	1
 immoralitás/30	1
 immobilizálás/30	1
 immobilizáció/9	1
+immobilizer/1	1
 immerzió/9	1
 imitátor/30	1
 imitáció/9	1
@@ -31342,9 +31618,10 @@ idő/513	7449
 idóz/273	1
 idézet/1	1
 idény/1	1
+idéntől/47	7450
 idénről/47	7450
 idénre/47	7450
-idén	7451
+idén	23533
 idébb	15
 idáig	15
 idább	15
@@ -31375,12 +31652,14 @@ idekinn	15
 ideki	15
 idejövet	15
 idejekorán	15
-idej/710	7452
+idej/710	23534
 ideirt/36
 ideig	15
 idehaza	15
 idegösszeomlás/8	1
 idegérzékenység/5	1
+idegző/32	23535
+idegzés/34	23536
 idegzsába/18	1
 idegzet/1	1
 idegszerv/5	1
@@ -31473,7 +31752,9 @@ hűtőfolyadék/8	1
 hűtőedény/5	1
 hűtő/288	1
 hűsöl
+hűn/36
 hűl
+hűk/36
 hűhó/424	1
 hűha	35
 hűebben/179	7470
@@ -31535,7 +31816,7 @@ húszbilliárd/84	88
 húszas/549	1
 húszas/549	86
 húszan/91	7487
-húsz-egynéhány	287
+húsz-egynéhány	23296
 húsz/713	7488
 húsvétvasárnap/308	1
 húsvéthétfő/509	1
@@ -31554,7 +31835,7 @@ húshagyókedd/714	1
 húsgombóc/8	1
 húsfüstölő/3	1
 húsdaráló/18	1
-hús‑vér/1	7492
+hús‑vér/11	23537
 hús/201	1
 húrtartó/18	1
 húrozat/41	1
@@ -31693,7 +31974,7 @@ hólyag/41	1
 hólepte	66
 hólabdázik
 hólabda/18	1
-hókuszpókusz/30	7521
+hókuszpókusz/30	23538
 hókotró/18	1
 hóka/9	1
 hóhíd/166	7522
@@ -31852,7 +32133,7 @@ hétbillió/83	7564
 hétbilliárd/84	88
 hét közbeni	7565
 hét közben	7565
-hét-nyolcmillió/123	287
+hét-nyolcmillió/123	23296
 hét/716	7566
 hét/716	7567
 hérosz/30	1
@@ -31897,10 +32178,10 @@ házirend/17	1
 házipénztár/2	7572
 házipatika/18	1
 háziorvos/30	1
-házinéni/20	1
+házinéni/37	1
 házinyomda/18	1
 házimunka/9	1
-házilégy/165	1
+házilégy/409	23539
 házilag
 háziköpeny/5	1
 háziköntös/22	1
@@ -31961,7 +32242,7 @@ hátulgombolós/30	1
 hátul/182	7582
 háttér/6	7583
 háttámasz/8	1
-hátsó/341	86
+hátsó/1428	86
 hátság/30	1
 hátszín/5	1
 hátszél/6	7584
@@ -32074,8 +32355,8 @@ háromesztendei	66
 hárombillióan/82	7627
 hárombillió/83	7628
 hárombilliárd/84	88
-háromannyi/9	1
-három-négymillió/123	287
+háromannyi/79	94
+három-négymillió/123	23296
 három/722	7629
 hármótok/134	7630
 hármótok/134	7631
@@ -32088,7 +32369,7 @@ hármasszabály/8	1
 hármaspont/16	1
 hármashangzat/8	1
 hármasfogat/193	1
-hármas fogat/41	7636
+hármas fogat/41	7637
 hármas/549	7637
 hármas/549	7638
 hárman/70	7639
@@ -32150,9 +32431,15 @@ háló/9	1
 háládatosság/30	1
 hályogosul
 hályog/130	1
+hálaistennek/36
+hálaisten/36
 hálaadó/18	1
 hálaadás/8	1
-hála/9	1
+hála istennek	23540
+hála isten	23540
+hála/9	23541
+hál’ istennek	23540
+hál’ isten	23540
 hájastészta/18	1
 háj/61	7648
 hágó/9	1
@@ -32207,7 +32494,14 @@ huszonötbillió/83	7669
 huszonötbilliárd/84	88
 huszonöt/92	7670
 huszonéves/1	1
-huszonvalahány/93	94
+huszonvalahányan/1416	23542
+huszonvalahányan/91	23365
+huszonvalahányadiki/1427	23543
+huszonvalahányadikak/1417	23544
+huszonvalahányadika/1427	23543
+huszonvalahányadik/1418	23545
+huszonvalahány/1419	23546
+huszonvalahány/1419	23547
 huszonnégytrillióan/82	7671
 huszonnégytrillió/83	7672
 huszonnégytrilliárd/84	88
@@ -32408,7 +32702,7 @@ huszonegybillióan/82	7831
 huszonegybillió/83	7832
 huszonegybilliárd/84	88
 huszonegy/107	7833
-huszon-egynéhány	287
+huszon-egynéhány	23296
 huszitizmus/30	1
 huszadszorra/91	7834
 huszadszori/108	88
@@ -32418,12 +32712,11 @@ huszadrangú/9	1
 huszadiki/391	7836
 huszadikak/95	7837
 huszadika/391	7836
-huszadik/96	7838
-huszadannyi/9	1
+huszadik/1439	7838
+huszadannyi/79	94
 huszad/547	7839
 huss	35
-huss	1
-husky/270	7840
+husky/270	23548
 husika/9	1
 husi/9	1
 hurut/41	1
@@ -32512,6 +32805,7 @@ hulahoppkarika/18	1
 hulahopp/41	1
 hukk	35
 huj	35
+huh	35
 hugica/9	1
 hugi/9	1
 hubble-os/275	7849
@@ -32576,7 +32870,7 @@ hovafordítás/30	1
 hova	15
 hotplug/8	1
 hotelcímke/37	1
-hotel/211	1
+hotel/322	1
 hot-dog/523	1
 hot	1318
 hosztesz/1	1
@@ -32686,6 +32980,8 @@ horderej/137	7897
 hordalék/130	1
 horda/9	1
 hoppá	35
+hoppsza	35
+hoppsz	35
 hoppon	15
 hopp	35
 hopmester/7	1
@@ -32715,7 +33011,7 @@ homárfogó/18	1
 homár/41	1
 homályosul
 homály/30	1
-homunculus/475	7904
+homunculus/475	23549
 homozigóta/18	1
 homotópia/9	1
 homoszféra/18	1
@@ -32782,8 +33078,7 @@ holokauszt/41	1
 holográfia/9	1
 holográf/16	1
 hologram/41	1
-holocénkor/36
-holocén kor/31	1
+holocénkor/113	1
 holocén/211	1
 holnaputánkor/36
 holnapután/733	15
@@ -32825,9 +33120,10 @@ hogyisne	15
 hogyishívják/41	1
 hogyhogy	15
 hogyha	881
-hogyanra/47	7911
-hogyan	15
-hogy	7912
+hogyanra/47	23550
+hogyanjára/47	23551
+hogyan	23552
+hogy	15
 hodály/30	1
 hodzsa/9	1
 hodográf/41	1
@@ -32890,6 +33186,7 @@ hit/164	1
 hisztériázik
 hisztérika/9	1
 hisztéria/9	1
+hiszton/41	1
 hisztológus/30	1
 hisztológia/9	1
 hisztokémia/18	1
@@ -33148,7 +33445,11 @@ hetvenórai	66
 hetvenévi	66
 hetvenévente	15
 hetvenévenként	15
-hetvenvalahány/93	94
+hetvenvalahányan/1416	23553
+hetvenvalahányan/91	23365
+hetvenvalahányadikak/1417	23554
+hetvenvalahányadik/1418	23555
+hetvenvalahány/93	23556
 hetventrillióan/82	7963
 hetventrillió/83	7964
 hetventrilliárd/84	88
@@ -33364,12 +33665,13 @@ hetvenedszerre/91	8131
 hetvenedszeri/108	88
 hetvenedszer	8132
 hetvenedrész/5	1
-hetvenedik/81	8133
+hetvenedik/1420	8133
+hetvenedannyi/79	94
 hetvened/109	8134
 hetvenbillióan/82	8135
 hetvenbillió/83	8136
 hetvenbilliárd/84	88
-hetven-egynéhány	287
+hetven-egynéhány	23296
 hetven/110	8137
 hettita/9	1
 hetman/41	1
@@ -33379,8 +33681,8 @@ hetilap/16	1
 hetijegy/5	1
 hetibérlet/5	1
 hetibér/1	1
-heti/524	4583
-heti/525	66
+heti/524	23557
+heti/525	23558
 hetes/369	86
 heterózis/1	1
 heterozigóta/18	1
@@ -33395,7 +33697,7 @@ hetenként	15
 heten/70	8138
 hetel
 hetekfelé	15
-hetek/103	8139
+hetek/103	23559
 hetedíziglen	15
 hetedízben	15
 hetedév/11	1
@@ -33407,7 +33709,7 @@ hetednap/16	1
 hetediki/72	8142
 hetedikes/1	1
 hetedike/72	8142
-hetedik/73	8143
+hetedik/1415	8143
 hetedhét/17	1
 hetedféltrillió/74	88
 hetedfélszázad/75	88
@@ -33420,7 +33722,7 @@ hetedfél/78	8144
 hetedannyian	93
 hetedannyi/79	94
 heted/667	8145
-hete/468	8146
+hete/468	23560
 hess	35
 hervadt/428	8147
 hervadt/428	8148
@@ -33473,6 +33775,7 @@ heparin/174	1
 hepaj/30	1
 henyélő/4	1
 henyefenyő/3	1
+hentesáru/18	1
 hentes/1	1
 hentergőzik
 hentergő/32	8152
@@ -33489,6 +33792,7 @@ hengerlő/32	8155
 hengerlés/34	8156
 hengerlés/35	1
 hengerit/36
+hengeresféreg/126	23561
 hengerelő/33	1
 hengerelés/35	1
 henger/1	1
@@ -33512,6 +33816,7 @@ hemperegem/36
 hemperegek/36
 hempereged/36
 hemoglobin/41	1
+hemofília/9	1
 hemiszféra/9	1
 hemin/174	1
 hemicellulóz/8	1
@@ -33630,6 +33935,7 @@ hegygerinc/5	1
 hegyfok/8	1
 hegyesszög/52	1
 hegyesit/36
+hegyesfüggöly/19	1
 hegycsúcs/8	1
 hegy/164	1
 hegesedés/1	1
@@ -33645,6 +33951,7 @@ hegedős/22	1
 hegedt/194	8180
 hegedt/194	8181
 heg/164	1
+hetvenvalahány/97	88
 hedzsra/9	1
 hedonizmus/30	1
 hedonista/9	1
@@ -33652,7 +33959,10 @@ hecsedlilekvár/41	1
 hecsedli/20	1
 hecc/164	1
 hebraisztika/9	1
+hebraista/9	1
 hebetel
+heathrow-i/204	23562
+head-set/465	23563
 hazárdjáték/30	1
 hazánkfia/9	1
 hazámfia/9	1
@@ -33689,8 +33999,8 @@ havidíj/57	8187
 havibérlet/5	1
 havibér/1	1
 havibaj/8	1
-havi/735	8188
-havi/736	66
+havi/735	23564
+havi/736	23558
 haverság/30	1
 haver/41	1
 havazik
@@ -33765,7 +34075,12 @@ hatvanórai	66
 hatvanévi	66
 hatvanévente	15
 hatvanévenként	15
-hatvanvalahány/93	94
+hatvanvalahányan/1416	23565
+hatvanvalahányan/91	23365
+hatvanvalahányadikak/1417	23566
+hatvanvalahányadik/1418	23567
+hatvanvalahány/1419	23568
+hatvanvalahány/1419	23569
 hatvantrillióan/82	8214
 hatvantrillió/83	8215
 hatvantrilliárd/84	88
@@ -33986,9 +34301,10 @@ hatvanadszori/108	88
 hatvanadszor	8385
 hatvanadrész/5	1
 hatvanadikak/95	8386
-hatvanadik/96	8387
+hatvanadik/1439	8387
+hatvanadannyi/79	94
 hatvanad/547	8388
-hatvan-egynéhány	287
+hatvan-egynéhány	23296
 hatvan/713	8389
 hattátok/407
 hattál/407
@@ -34048,7 +34364,7 @@ hatodikos/30	1
 hatodiki/391	8415
 hatodikak/95	8416
 hatodika/391	8415
-hatodik/550	8417
+hatodik/1440	8417
 hatodféltrillió/74	88
 hatodfélszázad/75	88
 hatodfélszáz/76	88
@@ -34093,7 +34409,7 @@ hatan/70	8432
 hatalomátmentés/1	1
 hatalommegosztás/30	1
 hatalom/199	8433
-hat-hétmillió/123	287
+hat-hétmillió/123	23296
 hat/737	8434
 hasüreg/5	1
 hasítóbárd/16	1
@@ -34124,7 +34440,7 @@ haskó/9	1
 hasis/30	1
 hashártyagyulladás/8	1
 hashártya/18	1
-hashtag/414	8436
+hashtag/414	23570
 hashajtó/18	1
 hascsikarás/8	1
 hasbeszéd/27	1
@@ -34148,6 +34464,7 @@ harántizom/49	8441
 harántgát/133	8442
 harántgerenda/18	1
 harántfekvés/5	1
+harántcsíkolat/8	1
 harántcsavar/16	1
 harántakna/18	1
 harámbasa/18	1
@@ -34188,8 +34505,15 @@ harmincévi	66
 harmincévesforma	15
 harmincévente	15
 harmincévenként	15
-harmincvalahány/93	15
-harmincvalahány/93	94
+harmincvalahányan/1416	23571
+harmincvalahányan/91	23365
+harmincvalahányadiki/1427	23572
+harmincvalahányadikak/1417	23573
+harmincvalahányadika/1427	23572
+harmincvalahányadik/1418	23574
+harmincvalahány/1419	23575
+harmincvalahány/1419	23576
+harmincvalahány/1419	23577
 harminctrillióan/82	8460
 harminctrillió/83	8461
 harminctrilliárd/84	88
@@ -34414,9 +34738,10 @@ harmincadrész/5	1
 harmincadiki/391	8634
 harmincadikak/95	8635
 harmincadika/391	8634
-harmincadik/96	8636
+harmincadik/1439	8636
+harmincadannyi/79	94
 harmincad/547	8637
-harminc-egynéhány	287
+harminc-egynéhány	23296
 harminc/738	8638
 harmatozik
 harmatkása/9	1
@@ -34440,7 +34765,7 @@ harmadikos/30	1
 harmadiki/391	8641
 harmadikak/95	8642
 harmadika/391	8641
-harmadik/550	8643
+harmadik/1440	8643
 harmadidőszak/16	1
 harmadfű	66
 harmadféltrillió/74	88
@@ -34453,8 +34778,7 @@ harmadfélbillió/74	88
 harmadfél/78	8644
 harmadesztendőnként	15
 harmadannyian	93
-harmadannyi/9	1
-harmadannyi/9	94
+harmadannyi/79	94
 harmad/551	8645
 harlekin/41	1
 harkály/30	1
@@ -34629,7 +34953,7 @@ hami/9	1
 hamburger/322	1
 hamarábbiak/337	8666
 hamarábbi/338	8667
-hamarább	15
+hamarább/182	15
 hamarost	15
 hamarosan	15
 hamarjában	15
@@ -34706,8 +35030,7 @@ hallás/163	8676
 hallucináció/18	1
 hallucinogén/17	1
 hallszik	7344
-hallszik	1
-halloween/17	8677
+halloween/17	23578
 hallomás/30	1
 hallik	7344
 hallhatóság/163	8678
@@ -34789,6 +35112,7 @@ haldoklás/161	1
 halcsont/16	1
 halasztó/9	1
 halastó/274	8720
+halaskofa/18	1
 halandóság/30	1
 halandó/9	1
 halandzsázik
@@ -34884,6 +35208,7 @@ hajporzás/163	8740
 hajporozás/161	1
 hajperje/20	1
 hajol
+hajnyíró gép/21	1
 hajnecc/1	1
 hajnaltájt	15
 hajnalszépe/20	1
@@ -34931,6 +35256,7 @@ hajcsat/16	1
 hajcihő/4	1
 hajbókol
 hajatlan/41	1
+hajaj	35
 hajadonfőtt	15
 hajadon/41	1
 haj/61	8742
@@ -35055,7 +35381,7 @@ hadapródiskola/18	1
 hadakozik
 had/720	8753
 hacuka/9	1
-hacker/385	8754
+hacker/385	23579
 hacacáré/9	1
 habókra	15
 habán/41	1
@@ -35333,7 +35659,6 @@ gáztisztító/18	1
 gáztartály/8	1
 gázszolgáltató/18	1
 gázszerelés/5	1
-gázspray/739	1
 gázsparhelt/17	1
 gázsi/9	1
 gázrezsó/18	1
@@ -35650,6 +35975,8 @@ gyorsküldemény/5	1
 gyorskölcsön/19	1
 gyorskorcsolyázó/18	1
 gyorskorcsolyázás/30	1
+gyorskorcsolyázik
+gyorskorcsolya/18	1
 gyorskocsi/18	1
 gyorskiszolgáló/18	1
 gyorskereső/3	1
@@ -35924,7 +36251,7 @@ groupwise-os/275	8911
 grotta/9	1
 grosso/9	1
 grog/155	1
-grizzly/281	8912
+grizzly/281	23580
 grippe/20	1
 grimbusz/30	1
 grimaszol
@@ -35950,6 +36277,7 @@ grasszál
 grapefruit/41	1
 granulátum/30	1
 granuláció/9	1
+granulocyta/9	1
 granicsár/41	1
 grandiozitás/30	1
 grand/155	1
@@ -35970,12 +36298,18 @@ gradáció/9	1
 gradiens/1	1
 grabanc/30	1
 gr.	70
+gourmand-os/416	23581
+gourmand-ná/178	23582
+gourmand-nal/178	23583
+gourmand-/587	23584
+gourmand/408	23585
 gouda/50	1
 gouache-sá/47	8914
 gouache-sal/47	8915
 gouache-os/275	8916
 gouache-/205	8917
 gouache	8918
+gospel/1444	23586
 gorál/41	1
 gornyadoz
 gorilla/9	1
@@ -36075,7 +36409,7 @@ gnú/424	1
 gnózis/30	1
 gnóm/155	1
 gnoszticizmus/30	1
-gnocchi/9	8926
+gnocchi/9	23587
 gneisz/1	1
 gmk-vá/47	8927
 gmk-val/47	8928
@@ -36177,8 +36511,15 @@ gikszer/1	1
 gigász/30	1
 gigerli/20	1
 gigatonna/18	1
+gigatesla/156	1
 gigapascal/16	1
 gigantománia/18	1
+gigakelvin/17	1
+gigajoule-os/275	23588
+gigajoule-lá/47	23589
+gigajoule-lal/47	23590
+gigajoule-/205	23591
+gigajoule	23592
 gigabyte-tá/47	8950
 gigabyte-tal/47	8951
 gigabyte-os/275	8952
@@ -36189,11 +36530,11 @@ giga/9	1
 gidrán/41	1
 gida/9	1
 giccs/164	1
-gibibyte-tá/47	8955
-gibibyte-tal/47	8956
-gibibyte-os/275	8957
-gibibyte-/205	8958
-gibibyte	8959
+gibibyte-tá/47	23593
+gibibyte-tal/47	23594
+gibibyte-os/275	23595
+gibibyte-/205	23596
+gibibyte	23597
 gibbon/130	1
 gezemice/20	1
 geze/20	1
@@ -36311,6 +36652,7 @@ genealógia/9	1
 gemma/9	1
 gemkapocs/49	8966
 geller/17	1
+gekkó/9	1
 gejzír/21	1
 gejl	66
 geg/504	1
@@ -36432,6 +36774,7 @@ galantéria/9	1
 galandféreg/126	8972
 galand/41	1
 galambászik
+galambász/30	1
 galambica/9	1
 galambfióka/18	1
 galambdúc/8	1
@@ -36549,6 +36892,7 @@ fürdöl/120	8991
 fürdök/120	9014
 fürdőzik
 fürdőszoba/18	1
+fürdőruhafelső/3	1
 fürdőruha/18	1
 fürdőpapucs/8	1
 fürdőköpeny/5	1
@@ -36613,6 +36957,7 @@ függönytartó/18	1
 függönyrúd/133	9024
 függönykarnis/8	1
 függöny/22	1
+függöly/22	1
 függőágy/2	9025
 függőség/1	1
 függőpálya/18	1
@@ -36664,6 +37009,7 @@ fűrészhajtogató/18	1
 fűrészfog/2	9034
 fűrészbak/16	1
 fűrész/1	1
+fűnyíró gép/21	1
 fűnyíró/18	1
 fűnyírás/8	1
 fűmag/16	1
@@ -37045,7 +37391,7 @@ fő hiba/156	9123
 fő elv/11	9123
 fő cél/31	9123
 fő baj/113	9123
-fő-építésvezető/3	9124
+fő-építésvezető/3	23598
 fő/288	9123
 fószer/17	1
 fórum/30	1
@@ -37071,6 +37417,7 @@ fésűsfonal/8	1
 fésűsfenyő/4	1
 fésűcsiga/18	1
 fésű/4	1
+fészkesvirágzat/8	1
 fészer/1	1
 fészek/173	9125
 férőhelyet/153
@@ -37124,6 +37471,7 @@ fénynyomás/8	1
 fénymérő/3	1
 fénymérés/5	1
 fénymáz/2	9135
+fénymásoló gép/21	1
 fénymásoló/18	1
 fénymásolat/8	1
 fénykéve/37	1
@@ -37237,6 +37585,7 @@ félnivaló/18	1
 félnaponta	15
 félnaponként	15
 félművelt/17	1
+félmúlt/133	23599
 félmilliós/357	88
 félmillióan/47	9160
 félmillió/564	9161
@@ -37245,6 +37594,8 @@ félmilliárdan/47	9162
 félmilliárd/565	9163
 félkör/19	1
 félkészexport/16	1
+félkész áru/9	1
+félkész termék/17	1
 féljobb/130	1
 félisten/5	1
 félilyen	15
@@ -37288,6 +37639,30 @@ félbalra	15
 félannyiszor	15
 félannyian	93
 félannyi/79	94
+fél évtized/17	9175
+fél évszázad/41	9175
+fél évezred/17	9175
+fél áron	23600
+fél tégla/9	9175
+fél tucat/41	9175
+fél szem/1	9175
+fél pár/41	9175
+fél pohár/298	9175
+fél perc/1	9175
+fél ország/30	9175
+fél nap/41	9175
+fél méter/17	9175
+fél mázsa/9	9175
+fél liter/17	9175
+fél kézzel	23600
+fél kiló/9	9175
+fél kilométer/17	9175
+fél kilogramm/30	9175
+fél hónap/41	9175
+fél gőzzel	23600
+fél füllel	23600
+fél esztendő/4	9175
+fél deka/9	9175
 fél/752	9174
 fél/183	9175
 fékút/133	9176
@@ -37392,7 +37767,7 @@ futamit/36
 futamidő/4	1
 futam/30	1
 fuszulyka/9	1
-fuszekli/9	1
+fuszekli/319	1
 fustély/30	1
 fusizik
 fusimunka/9	1
@@ -37414,6 +37789,7 @@ furcsamód	15
 furat/30	1
 furamód	15
 furakvás/163	9190
+funky/270	23601
 funkció/9	1
 funkcionárius/30	1
 funkcionálanalízis/5	1
@@ -37442,7 +37818,6 @@ fuldokló/162	9196
 fuldoklás/163	9197
 fukszin/41	1
 fukszia/9	1
-fujj	35
 fugacitás/30	1
 fuga/9	1
 fuccsba	15
@@ -37488,7 +37863,9 @@ frissit/36
 frissiben	15
 frissesség/1	1
 frissensült/136	1
+frissdiplomás/8	1
 fringia/9	1
+frikandó/9	1
 frigó/9	1
 frigy/164	1
 frigiditás/30	1
@@ -37510,11 +37887,13 @@ freeware-et/36
 freeware-es/226	9202
 freeware-/195	9203
 freeware	9204
+frazéma/9	1
 frazeálás/30	1
 frazeológus/30	1
 frazeológia/9	1
 frazeologizmus/30	1
 fraulein/211	1
+frappé/9	1
 franko	15
 frank/155	1
 franciázás/30	1
@@ -37594,7 +37973,7 @@ fotodióda/18	1
 fotocella/18	1
 fotobaktérium/30	1
 foto-
-fotel/211	1
+fotel/322	1
 fosztogató/9	1
 foszol	9213
 foszló/162	9214
@@ -37663,7 +38042,7 @@ formalizmus/30	1
 formalitás/30	1
 formalin/41	1
 formaldehid/174	1
-forma/754	1
+forma/1449	1
 forint/41	1
 forgózsámoly/8	1
 forgószél/6	9227
@@ -37910,6 +38289,7 @@ flórharisnya/18	1
 flórfonal/8	1
 flóra/9	1
 flór/155	1
+flódni/9	1
 flóbertpuska/18	1
 flóbert/211	1
 fluxus/30	1
@@ -37936,7 +38316,7 @@ flotta/9	1
 florárium/30	1
 floroglucin/271	1
 florisztika/9	1
-floppy/270	9273
+floppy/270	23602
 flopi/9	1
 flokonruha/18	1
 flokon/41	1
@@ -37963,7 +38343,7 @@ flaskó/9	1
 flaska/9	1
 flashmemória/18	1
 flangál
-flanel/211	1
+flanel/322	1
 flancol
 flanc/201	1
 flamó/9	1
@@ -38031,6 +38411,7 @@ fitotéka/9	1
 fitotron/41	1
 fitoterápia/18	1
 fitoterapeuta/18	1
+fitotaxonómia/18	1
 fitoplankton/16	1
 fitológus/30	1
 fitológia/9	1
@@ -38157,6 +38538,7 @@ filmhíradó/18	1
 filmforgatókönyv/52	1
 filmfelvételezés/5	1
 filmfelvétel/5	1
+filmfelvevő gép/21	1
 filmfelvevő/3	1
 filmfelirat/8	1
 filmezik
@@ -38236,6 +38618,7 @@ fez/164	1
 feudálkapitalizmus/8	1
 feudum/30	1
 feudalizmus/30	1
+feudalitás/30	1
 fetisizmus/30	1
 feta/50	1
 feszültségmérő/3	1
@@ -38324,7 +38707,6 @@ fermentáció/9	1
 fergettyű/4	1
 fergeteg/1	1
 ferencjóska/9	1
-ferences/1	1
 feredzse/20	1
 ferdül
 ferdeszög/19	1
@@ -38675,7 +39057,7 @@ felek/47	9392
 felejtkezik
 feleennyi/189	94
 feledés/1	1
-feledik/760	9393
+feledik/1450	9393
 felebarát/761	1
 feleannyian	93
 feleannyi/79	94
@@ -38942,7 +39324,7 @@ fegyelmező/4	1
 fegyelmezettség/1	1
 fegyelemszegés/5	1
 fegyelem/173	9478
-feeling/17	9479
+feeling/17	23603
 feed-back/764	1
 fedü/4	1
 fedőszerv/5	1
@@ -39000,6 +39382,7 @@ favár/2	9495
 favágó/18	1
 favágás/8	1
 favorit/41	1
+favella/9	1
 fauna/9	1
 faun/41	1
 fault/41	1
@@ -39091,7 +39474,7 @@ fantazmagória/9	1
 fantazma/9	1
 fantasztikum/30	1
 fantaszta/9	1
-fantasy/701	9510
+fantasy/701	23604
 fanszőrzet/5	1
 fanfár/41	1
 fancsali/9	1
@@ -39111,7 +39494,7 @@ falépítő/3	1
 faléc/5	1
 faláb/2	9512
 falzifikáció/9	1
-falzett/17	1
+falzett/211	1
 falvédő/3	1
 falvak/289	9513
 faluz
@@ -39141,7 +39524,8 @@ falitérkép/5	1
 falitányér/16	1
 falitábla/9	1
 faliszőnyeg/5	1
-faliszekrény/1	1
+faliszekrényke/37	1
+faliszekrény/5	1
 falinaptár/2	9518
 falimosdó/18	1
 falilámpa/18	1
@@ -39270,7 +39654,7 @@ facsiszolat/12	1
 facsemete/37	1
 facsavar/16	1
 facsarógép/27	1
-fach/155	1
+fach/155	23605
 fabábu/18	1
 fabáb/16	1
 faburkolat/8	1
@@ -39331,7 +39715,7 @@ ezredorvos/8	1
 ezredmásodperc/5	1
 ezredmilliméter/5	1
 ezrediroda/18	1
-ezredik/768	9549
+ezredik/1451	9549
 ezredforduló/18	1
 ezredes/1	1
 ezredbeosztás/8	1
@@ -39353,6 +39737,9 @@ ezerévi	66
 ezerévente	15
 ezerévenként	15
 ezerzłotys/30	1
+ezervalahányszázan/1426	23606
+ezervalahányszáz/117	23607
+ezervalahányan	23365
 ezerszámra	15
 ezerszám	15
 ezerrubeles/1	1
@@ -39425,7 +39812,7 @@ ezeregyszázad/116	2595
 ezeregyszáz/117	9569
 ezerdolláros/30	1
 ezerarcúság/30	1
-ezerannyi/9	1
+ezerannyi/79	94
 ezer/773	9570
 ezentúl	15
 ezennel	15
@@ -39504,9 +39891,7 @@ exminiszter/5	1
 exkormányfő/3	1
 exkommunista/18	1
 exkommunikáció/18	1
-exklávé/488	9584
-exkláve/505	9585
-exklĂĄve/20
+exklávé/9	1
 exkluzivitás/30	1
 exkirály/8	1
 exkavátor/130	1
@@ -39533,7 +39918,9 @@ exbarátnő/3	1
 exbarát/16	1
 exbajnok/8	1
 exarchátus/30	1
-ex	9588
+ex/708	9588
+ex/708	23608
+ex/708	23609
 evőpálcika/18	1
 evőkészlet/5	1
 evőeszköztartó/18	1
@@ -39578,8 +39965,7 @@ eurorégió/9	1
 eurorakéta/18	1
 euro/309	1351
 euploidia/18	1
-eunuchhang/41	1
-eunuch/41	1
+eunuch/41	23610
 euklász/30	1
 euklideszi/47	9592
 eukarióta/9	1
@@ -39614,7 +40000,12 @@ etnográfia/9	1
 etnogenezis/5	1
 etnikum/30	1
 etnikailag	15
-etióp/41	1
+etiópüldözés/5
+etióptanítás/8
+etiópnyelv-/15
+etiópimádat/16
+etiópcentrikusság/8
+etióp/31	1
 etiológus/30	1
 etiológia/9	1
 etin/174	1
@@ -39655,6 +40046,7 @@ esztétikum/30	1
 esztétika/9	1
 esztéta/9	1
 esztrád/41	1
+eszterág/30	1
 esztergályos/30	1
 esztergom–Budapesti/36
 esztergatüske/37	1
@@ -39788,6 +40180,7 @@ erotika/9	1
 ernyőváz/2	9626
 ernyővirágzat/8	1
 ernyőtartó/18	1
+ernyősvirágzat/8	1
 ernyőskörtike/20	1
 ernyő/4	1
 ernyedt/503	9627
@@ -39803,6 +40196,7 @@ erjedtség/1	1
 erjedt/503	9629
 erjedt/503	9630
 eritróz/273	1
+eritromicin/17	1
 erika/9	1
 ergonómus/30	1
 ergonómia/9	1
@@ -39886,9 +40280,8 @@ epe/20	1
 eozinmáz/2	9641
 eozin/41	1
 eolhárfa/18	1
-eocénkor/36
-eocén kor/31	1
-eocén/17	1
+eocénkor/113	1
+eocén/211	1
 enélkül	15
 enzimológus/30	1
 enzimológia/9	1
@@ -39905,6 +40298,7 @@ enyv/164	1
 enyhül
 enyhítő/4	1
 enyhit/36
+enyhely/5	1
 enyh/164	1
 enyelgő/32	9646
 enyelgés/34	9647
@@ -39922,6 +40316,7 @@ entitás/30	1
 enthuziazmus/30	1
 enterotoxin/16	1
 enteriőr/56	1
+enter/465	1
 entellektüel/17	1
 entalpiaváltozás/8	1
 entalpiadiagram/16	1
@@ -39937,9 +40332,7 @@ ennyi/189	9652
 ennivaló/18	1
 ennek/47	9653
 enmagam/134	365
-enklávé/488	9654
-enkláve/505	9655
-enklĂĄve/20
+enklávé/9	1
 enkefalográfia/9	1
 enkefalogram/30	1
 enjambement-os/416	9656
@@ -39969,6 +40362,7 @@ endokrinológus/8	1
 endokrinológia/18	1
 endogámia/9	1
 endobionta/9	1
+endemizmus/30	1
 encsembencsem/1	1
 encián/41	1
 enciklopédista/9	1
@@ -40156,6 +40550,7 @@ előtársaság/8	1
 előtáncos/8	1
 előttünk/47	9695
 előttük/47	9696
+előttől/47	23611
 előttről/47	9697
 előttig/47	9698
 előttiek/66	9699
@@ -40165,9 +40560,10 @@ előttetek/47	9702
 előttem/47	9703
 előtted/47	9704
 előtte/47	9705
-előtt	9706
+előtt	23612
 előtor/8	1
 előterjesztés/5	1
+előtelep/27	1
 előtej/5	1
 előtanulmány/30	1
 előtakarékosság/8	1
@@ -40280,6 +40676,7 @@ előcsarnok/8	1
 előcsahos/30	1
 előbőr/19	1
 előbérlet/5	1
+előbél/409	23613
 előbástya/18	1
 előbeszéd/27	1
 előbbről/179	9722
@@ -40287,6 +40684,7 @@ előbbre/179	9722
 előbbiek/497	9723
 előbbi/498	9724
 előbb/779	9725
+előanyag/12	1
 előagy/2	9726
 előadóterem/126	9727
 előadóstílus/8	1
@@ -40726,6 +41124,7 @@ elgondolás/30	1
 elgondolkodtató/9	1
 elgaloppoz/47	9799
 elfojtódás/30	1
+elfojtatás/30	1
 elfogódottság/30	1
 elfogás/30	1
 elfogyasztás/30	1
@@ -40786,7 +41185,7 @@ elektromotor/12	1
 elektrometallurgia/18	1
 elektromechanika/18	1
 elektromasszázs/8	1
-elektrolízis/5	1
+elektrolízis/1	1
 elektrolizálócella/18	1
 elektrolit/41	1
 elektrokémia/18	1
@@ -41001,6 +41400,7 @@ egyrétűtapló/18	1
 egyrészt	15
 egyrészről	15
 egyrubeles/1	1
+egyre-másra	38
 egyre	15
 egypártrendszer/5	1
 egypárszor/47	9852
@@ -41011,7 +41411,7 @@ egypárak/134	9854
 egypár/134	9855
 egypennys/1	1
 egynémelykor	15
-egynéhány	287
+egynéhány	23296
 egymásutánt/47	9856
 egymásutánja/149	1
 egymásutániság/8	1
@@ -41084,7 +41484,7 @@ egyetértőleg	15
 egyetlenszer	15
 egyetlenegyszer	15
 egyetlenegy/791	88
-egyetlenegy/791	287
+egyetlenegy/791	23296
 egyetemlegesség/1	1
 egyetemista/9	1
 egyetemesül
@@ -41093,8 +41493,8 @@ egyesület/1	1
 egyesül
 egyesit/36
 egyesfogat/193	1
-egyesegyedül/36	1
-egyes fogat/41	9865
+egyesegyedül/36
+egyes fogat/41	9868
 egyes-egyedüli	9866
 egyes-egyedül	9867
 egyes/105	9868
@@ -41107,6 +41507,7 @@ egyensúlytészta/18	1
 egyensúlyozó/18	1
 egyensúly/8	1
 egyensapka/18	1
+egyenruházat/8	1
 egyenruha/18	1
 egyenlőség/1	1
 egyenlősdi/20	1
@@ -41134,7 +41535,7 @@ egyedszerre/792	9871
 egyedszeri/673	88
 egyedszer/673	9872
 egyediség/1	1
-egyedik/793	9758
+egyedik/1452	9758
 egyedem-begyedem	38
 egyed/794	9873
 egyed/795	1
@@ -41143,6 +41544,7 @@ egyebütt	15
 egyebünnen	15
 egyeben/47	9874
 egydolláros/30	1
+egycsapásra/36
 egycentes/1	1
 egyből	15
 egybillióan/82	9875
@@ -41163,8 +41565,9 @@ egyaránt	15
 egy összegben	9877
 egy személyben	9877
 egy helyben	9877
-egy-kétmillió/123	287
-egy-két	287
+egy csapásra	9877
+egy-kétmillió/123	23296
+egy-két	23296
 egy-egy	38
 egy/796	9878
 egres/1	1
@@ -41255,7 +41658,7 @@ edzd/120	9930
 edz/425	9931
 edukáció/9	1
 editor/30	1
-edinburgh-i/204	9932
+edinburgh-i/204	23614
 ediktum/30	1
 eddzünk/120	9933
 eddzük/120	9934
@@ -41277,12 +41680,13 @@ eddigiek/131	9946
 eddigi/787	9947
 eddigelé	15
 eddig	15
-eddegél	1
-ecstasy/797	9948
+eddegél
+ecstasy/797	23615
 ecsetpázsit/16	1
 ecsetkezelés/5	1
 ecset/21	1
 echó/9	1
+echte	66
 echokardiográfia/18	1
 echográfia/18	1
 ecettartó/18	1
@@ -41326,9 +41730,9 @@ eDirectory/221	924
 e-zik
 e-vé/47	9962
 e-vel/47	9963
-e-mailezik	1
+e-mailezik
 e-mail/17	9964
-e-learning/17	9965
+e-learning/17	23616
 e-/172	9966
 e	9967
 dürgés/1	1
@@ -41352,6 +41756,7 @@ dübörögök/36
 dübörögöd/36
 dübörgő/32	9970
 dübörgés/34	9971
+dűzni/272	1
 dűne/272	1
 dűlő/288	1
 dűl
@@ -41369,6 +41774,7 @@ dörögött/36
 dörögöm/36
 dörögök/36
 dörögöd/36
+dörzsár/133	23617
 dörzsvászon/41	1
 dörzstörülköző/4	1
 dörzspapír/16	1
@@ -41605,7 +42011,7 @@ dzsörzé/20	1
 dzsömper/21	1
 dzsóker/21	1
 dzsámi/9	1
-dzsuva/9	1
+dzsuva/156	1
 dzsunka/9	1
 dzsungel/429	1
 dzsumbuj/30	1
@@ -41616,6 +42022,7 @@ dzsinn/285	1
 dzsihád/41	1
 dzsigoló/9	1
 dzsiggel
+dzsigg/1453	1
 dzsidás/30	1
 dzsida/9	1
 dzsesszzene/37	1
@@ -41628,11 +42035,16 @@ dzs-vé/47	10025
 dzs-vel/47	10026
 dzs-/172	10027
 dzs	10028
-dzadzíki/20	10029
+dzadzíki/20	23618
 dz-vé/47	10030
 dz-vel/47	10031
 dz-/172	10032
 dz	10033
+dvd-vé/47	23619
+dvd-vel/47	23620
+dvd-s/226	23621
+dvd-/172	23622
+dvd	23623
 duó/9	1
 duzzasztómű/168	10034
 duzzasztógát/133	10035
@@ -41662,6 +42074,7 @@ duplikátum/30	1
 duplikátor/130	1
 duplikáció/9	1
 duplex/1	1
+duplaannyi/79	94
 dunyha/9	1
 dunsztosüveg/27	1
 dunsztkötés/1	1
@@ -41796,7 +42209,7 @@ dongó/9	1
 dongaboltozat/8	1
 donga/9	1
 domínium/30	1
-domén/174	1
+domén/17	1
 domonkos/30	1
 domolykó/9	1
 dominózik
@@ -41852,6 +42265,7 @@ dokkol
 dokk/155	1
 doki/9	1
 dohányáruda/18	1
+dohányáru/18	1
 dohányzó/162	10057
 dohányzó/167	1
 dohányzás/163	10058
@@ -41969,6 +42383,7 @@ diviz/1	1
 diverzáns/30	1
 diverzió/9	1
 diverzitás/30	1
+diverzifikáció/9	1
 divergál/41	1
 divergencia/9	1
 divatáru/18	1
@@ -42022,6 +42437,7 @@ disznóbőr/68	1
 disznó/9	10109
 disznaj/266	10110
 diszn/267	10110
+diszlokáció/9	1
 diszlexia/9	1
 diszkó/9	1
 diszkvalifikáció/9	1
@@ -42061,7 +42477,7 @@ disszertál
 disszertáció/9	1
 disputál
 disputa/9	1
-display/799	10111
+display/799	23624
 displaj/44	1
 disney-s/226	10112
 disney-i/227	10113
@@ -42086,7 +42502,7 @@ direktrix/1	1
 direktor/130	1
 direkte	15
 direkció/9	1
-dipólus/8	1
+dipólus/30	1
 dipólantenna/18	1
 dipól/41	1
 diptichon/41	1
@@ -42106,6 +42522,7 @@ dioráma/9	1
 dioritlap/16	1
 dioptriás/30	1
 dioptria/9	1
+dinó/9	1
 dinár/130	1
 dinoszaurusz/30	1
 dinnye/20	1
@@ -42250,7 +42667,7 @@ diadalmenet/5	1
 diadal/30	1
 diabétesz/1	1
 diaboló/9	1
-diabetes	1240
+diabetes	1318
 dia/9	1
 dg-os/275	10141
 dg-má/47	10142
@@ -42269,6 +42686,7 @@ dezorientáció/9	1
 dezorganizáció/9	1
 dezodor/130	1
 dezintegráció/9	1
+dezinformáció/9	1
 dezinfláció/9	1
 dezinficiens/1	1
 dezinfekció/9	1
@@ -42278,8 +42696,7 @@ dezertőr/25	1
 dezertál
 dextróz/30	1
 dextrin/17	1
-devonkor/36
-devon kor/31	1
+devonkor/113	1
 devon/41	1
 devla/9	1
 deviáció/9	1
@@ -42406,6 +42823,7 @@ demodulátor/12	1
 demobilizáció/9	1
 demizson/41	1
 demilitarizáció/9	1
+demencia/9	1
 dematerializáció/9	1
 demarkáció/9	1
 demagógia/9	1
@@ -42470,6 +42888,7 @@ dehogyisnem	15
 dehogyis	15
 dehidrobenzol/271	1
 dehidratáció/9	1
+degu/9	1
 degradáció/9	1
 degeszig	15
 degesz/1	1
@@ -42531,12 +42950,14 @@ darázs/298	10173
 darásláda/18	1
 darálthús/36
 darwinizmus/30	1
+darwinista/9	1
 darvak/289	10174
 darus/30	1
 darupálya/18	1
 daru/9	10175
 darts/800	1
 daravirág/30	1
+darabáru/18	1
 darabszám/8	1
 darabosítás/30	1
 darabontkormány/8	1
@@ -42616,6 +43037,7 @@ dag-má/47	10181
 dag-mal/47	10182
 dag-/205	10183
 dag	10184
+dafke	15
 dadus/30	1
 dadaizmus/30	1
 dada/9	1
@@ -42631,6 +43053,12 @@ dB	10190
 d-vé/47	10191
 d-vel/47	10192
 d-/172	10193
+d’Artagnan/255	23625
+d’Arc/1213	23626
+d’Alembert-ré/47	23627
+d’Alembert-rel/47	23628
+d’Alembert-/1117	23629
+d’Alembert	23630
 d	10194
 cúg/155	1
 cövek/17	1
@@ -42733,7 +43161,6 @@ cuvée-/195	10210
 cuvée	10211
 curukkol
 curukk	35
-curukk	1
 curry/281	10212
 curriculum/30	1
 curling/174	1
@@ -42759,6 +43186,7 @@ cukrász/30	1
 cukrozik
 cukrosláda/18	1
 cukrosit/36
+cukrosbácsi/18	1
 cukortartó/18	1
 cukorsüveg/27	1
 cukorszóró/18	1
@@ -42930,6 +43358,7 @@ csínja-bínja	38
 csín/155	1
 csíkászik
 csíkász/30	1
+csíkolat/30	1
 csík/155	1
 cséza/9	1
 cséve/20	1
@@ -43209,6 +43638,7 @@ csipkeszegély/5	1
 csipkelődés/1	1
 csipkedísz/5	1
 csipkebokor/16	1
+csipkealsó/18	1
 csipke/20	1
 csipisz/1	1
 csipetke/20	1
@@ -43645,7 +44075,7 @@ csakhamar	15
 csakennyi/189	94
 csakekkora/331	15
 csakannyi/190	94
-csakannyi/190	287
+csakannyi/190	23296
 csakakkora/331	15
 csak azért is
 csajszi/9	1
@@ -43674,7 +44104,7 @@ croissant/408	10413
 cro-Magnoni/36
 crescendo/9	1
 credo/9	1
-cowboy/522	10414
+cowboy/522	23631
 cousteau-i/204	10415
 countryénekes/5	1
 countryzene/37	1
@@ -43700,8 +44130,7 @@ corrigenda/9	1
 corpus	1318
 coronaria/9	1
 corneille-i/227	10431
-corneille-i/258	10432
-copyright/41	10433
+copyright/41	23632
 copfstílus/44	1
 copf/155	1
 coniunctivus/30	1
@@ -43730,7 +44159,7 @@ col/155	1
 coki	35
 coitus/531	1
 codec/804	10444
-coccus/475	10445
+coccus/475	23633
 coca/9	1
 coboly/30	1
 cm3-t/47	10446
@@ -43775,7 +44204,7 @@ civillista/9	1
 civilizátor/41	1
 civilizáció/9	1
 citátum/30	1
-city/281	10473
+city/281	23634
 citrál/271	1
 citrus/30	1
 citromlé/380	10474
@@ -43841,6 +44270,7 @@ cirbolyafenyő/4	1
 cirbolya/9	1
 cipővízhatlanító/18	1
 cipőtörlő/3	1
+cipősszekrény/5	1
 cipőpertli/20	1
 cipőpaszta/18	1
 cipőkrém/27	1
@@ -43891,6 +44321,7 @@ cilinder/21	1
 cilicium/30	1
 cikória/9	1
 cikázik
+cikász/30	1
 cikta/9	1
 cikornya/9	1
 ciklámen/17	1
@@ -43995,19 +44426,19 @@ cianózis/30	1
 cianát/271	1
 cianobaktérium/8	1
 cianid/271	1
-ciabatta/9	10491
+ciabatta/9	23635
 chrome-os/275	10492
 chip/285	1
 chihuahua/9	10493
 chianti/9	10494
-cherry/281	10495
+cherry/281	23636
 chef/285	1
-chatel	1
-chat/805	10496
+chatel
+chat/805	23637
 charterjárat/8	1
 charter/17	1
 charta/9	1
-charmeur/806	10497
+charmeur/806	23638
 charlie-s/275	10498
 charleston/41	1
 chardonnay-vá/178	10499
@@ -44097,16 +44528,18 @@ cellofán/41	1
 cellobióz/273	1
 celler/21	1
 cella/9	1
+celeb/17	1
 cekász/273	1
 cekker/21	1
 cekaszhuzal/12	1
 cefre/20	1
-cech/285	1
+cech/285	23639
 cecelégy/6	10524
 cca.	70
 cayenne-i/227	10525
 causa/156	1
 causa/156	1240
+cathedra	66
 categoricus	1318
 casus	1318
 cash	1318
@@ -44115,15 +44548,14 @@ carté/488	10526
 carte	10527
 caries/597	1
 capriccio/9	1
-capoeira/9	10528
+capoeira/9	23640
 cannes-i/204	10529
 cankópartfutó/18	1
 cankógoda/18	1
 cankó/9	1
 canga/9	1
 candide-i/204	10530
-candide-i/807	10531
-campus/475	10532
+campus/475	23641
 campanile/348	1
 camembert-ré/178	10533
 camembert-rel/178	10534
@@ -44248,6 +44680,7 @@ búvárréce/37	1
 búvármadár/2	10569
 búvárlúd/133	10570
 búvárlás/30	1
+búvárlat/30	1
 búvárkészülék/5	1
 búvárharang/16	1
 búvárdugattyú/18	1
@@ -44427,6 +44860,7 @@ bőgőzik
 bőgős/22	1
 bődül
 bő/432	10646
+bóvliárus/8	1
 bóraxszappan/12	1
 bórax/30	1
 bóra/9	1
@@ -44735,7 +45169,7 @@ bádogos/30	1
 bádogdoboz/8	1
 bádog/41	1
 bácsika/9	1
-bácsi/9	1
+bácsi/156	1
 bábu/9	1
 bábszínház/2	10712
 bábozás/30	1
@@ -44920,6 +45354,7 @@ bt.-s/226	10733
 bt.-beli/227	10734
 bt.-/172	10735
 bt.	10736
+brühühü	35
 brúgó/9	1
 brúder/1	1
 brómtimolkék/282	1
@@ -44937,8 +45372,10 @@ brutalitás/30	1
 bruhaha	35
 brucellózis/1	1
 brrr	35
+brr	35
 browning/41	1
 brosúra/9	1
+brossúra/351	1
 bross/201	1
 bronzvasárnap/16	1
 bronzot/47	10737
@@ -44977,6 +45414,7 @@ bridzsel
 bridzs/164	1
 bricska/9	1
 bricsesz/1	1
+brexit/174	1
 breviárium/30	1
 breton/41	1
 bretagne-i/204	10739
@@ -44988,7 +45426,7 @@ bravó	35
 bratyizik
 bratyiz
 bratyi/9	1
-brandy/281	10741
+brandy/281	23642
 brancs/201	1
 braille-i/204	10742
 brahmanizmus/30	1
@@ -45000,11 +45438,11 @@ bozótos/30	1
 bozót/41	1
 bozont/41	1
 bozon/271	1
-boy/815	10744
+boy/815	23643
 boxermotor/16	1
-bowling/41	10745
+bowling/41	23644
 bovden/17	1
-bourbon/816	10746
+bourbon/816	23645
 bouillon/41	1
 botulizmus/30	1
 botránykő/23	10747
@@ -45237,6 +45675,7 @@ bokszütés/5	1
 bokszmérkőzés/5	1
 bokszmeccs/5	1
 bokszkesztyű/3	1
+bokszermotor/16	1
 bokszeralsó/18	1
 bokszer/322	1
 boksz/201	1
@@ -45379,7 +45818,7 @@ bocs/201	35
 bocs/201	1
 boci/9	1
 bobtail/174	1
-bobby/270	10853
+bobby/270	23646
 bob/155	1
 boa/9	1
 blúz/201	1
@@ -45399,7 +45838,7 @@ blondelkeret/5	1
 blokád/41	1
 blokkház/2	10858
 blokk/155	1
-blogger/343	1
+blogger/1444	1
 blog/155	1
 blockflöte/20	1
 blindre	15
@@ -45407,6 +45846,7 @@ blikkfang/41	1
 blikk/285	1
 blende/20	1
 blazírtság/30	1
+blazár/130	1
 blattolás/30	1
 blatt/155	1
 blaszfémia/9	1
@@ -45459,6 +45899,7 @@ bizantinizmus/30	1
 bizalom/199	10862
 bizakodás/30	1
 biza	15
+biz’ isten	23647
 biz	15
 bivariáns/8	1
 bivalybőr/68	1
@@ -45521,6 +45962,7 @@ biotechnológia/18	1
 biotechnika/18	1
 bioszintézis/5	1
 bioszféra/18	1
+biosz/30	1
 biostatisztika/18	1
 bioritmus/8	1
 biopszia/9	1
@@ -45575,7 +46017,7 @@ bingó/9	1
 bimetallhőmérő/3	1
 bimetall/41	1
 bimbózik
-bimbóskel/7	1
+bimbós kel/17	1
 bimbó/9	1
 bimbamcsengő/3	1
 bim-bam	38
@@ -45598,11 +46040,11 @@ billióan/82	10870
 billió/381	10871
 billiárdszámra	15
 billiárdszám	15
-billiárdodik/382	10872
+billiárdodik/1430	10872
 billiárdod/383	10873
 billiárd/384	10874
 billiomodszorra/91	1809
-billiomodik/382	10875
+billiomodik/1430	10875
 billiomod/383	10876
 billikom/30	1
 billentyűzet/1	1
@@ -45848,6 +46290,7 @@ benyomat/30	1
 bentről/47	10904
 bentre/47	10905
 bentonit/41	1
+bentlét/5	1
 bentley-s/226	10906
 bentlakó/9	1
 bentlakás/8	1
@@ -46040,6 +46483,7 @@ begy/164	1
 beglerbég/5	1
 begina/9	1
 befűzhető/4	1
+befúvás/30	1
 befőző/4	1
 befőzés/1	1
 befőznivaló/18	1
@@ -46098,7 +46542,7 @@ becslek/401	10981
 becsled/401	10982
 becsapás/30	1
 becs/164	1
-becquerel/284	10983
+becquerel/284	23648
 becenév/6	10984
 bebújós/30	1
 bebörtönzés/1	1
@@ -46107,7 +46551,7 @@ bebizonyítás/30	1
 bebalzsamozás/30	1
 beavatás/30	1
 beavatkozás/30	1
-beat/414	10985
+beat/414	23649
 beamter/17	1
 beagle-t/822	10986
 beagle-lé/178	10987
@@ -46156,7 +46600,7 @@ basszus/30	1
 basszista/9	1
 basszbariton/16	1
 bassethound/41	1
-baseball/41	10995
+baseball/41	23650
 basa/9	1
 barázdásmoszat/16	1
 barázdabillegető/3	1
@@ -46171,7 +46615,7 @@ barátcsuha/18	1
 barát/823	1
 barterügylet/5	1
 barter/21	1
-barrel/17	1
+barrel/322	1
 barrakuda/9	1
 baronesse-szé/47	10997
 baronesse-szel/47	10998
@@ -46245,9 +46689,9 @@ barikádoz
 barikád/41	1
 barika/9	1
 bari/9	1
+barhesz/429	1
 barhentruha/18	1
 barhent/211	1
-barchesz/1	1
 barbiturát/41	1
 barbitursav/133	11010
 barbie-s/275	11011
@@ -46416,7 +46860,7 @@ bajonett/211	1
 bajnokság/30	1
 bajnok/30	1
 bajbajutott/642	1
-bajazzo/9	11035
+bajazzo/9	23651
 bajadértermet/5	1
 bajadér/41	1
 baj/201	1
@@ -46432,7 +46876,7 @@ bagett/17	1
 bagariacsizma/18	1
 bagariabőr/19	1
 baconsertés/5	1
-bacon/824	11037
+bacon/824	23652
 backhand/41	1
 bacilushordozó/18	1
 bacilus/30	1
@@ -46470,6 +46914,7 @@ azzá/47	11044
 azzal/47	11045
 azután	15
 azurit/41	1
+azulén/41	1
 azték/41	1
 aztán	881
 azt/47	11046
@@ -46606,6 +47051,7 @@ autista/9	1
 autentikáció/9	1
 autarkia/9	1
 ausztrál/31	1
+ausztralid/41	1
 auszkultáció/9	1
 australopithecus/273	1
 aurát/271	1
@@ -46790,9 +47236,9 @@ asszimiláns/30	1
 asszimiláció/9	1
 asszerció/50	1
 asszem/36
-assisi	11101
+assisi	23653
 assembly/701	11102
-assembler/1	11103
+assembler/1	23654
 aspiráns/30	1
 aspirál
 aspiráció/9	1
@@ -46976,6 +47422,7 @@ aprólék/130	1
 aprójószág/8	1
 apróhirdető/3	1
 apróhirdetés/5	1
+apróhal/2	23655
 aprófalvak/825	11115
 aprófalvak/826	1
 aprófa/18	1
@@ -47010,6 +47457,7 @@ app/155	1
 apotéka/9	1
 apoteózis/30	1
 aposztróf/41	1
+apostolság/30	1
 apostol/30	1
 apoptózis/30	1
 apoplexia/9	1
@@ -47143,7 +47591,7 @@ antiklerikalizmus/8	1
 antikaon/518	1
 antihős/19	1
 antihormon/41	1
-antigén/7	1
+antigén/17	1
 antiglobalista/18	1
 antifónia/9	1
 antifóna/9	1
@@ -47161,8 +47609,7 @@ antiatom/16	1
 antianyag/8	1
 antialkoholizmus/8	1
 anti/309	1351
-anti/309	1
-anthrax/30	11135
+anthrax/30	23656
 antennatorony/49	11136
 antenna/9	1
 antant/41	1
@@ -47665,7 +48112,7 @@ alsóing/5	1
 alsóház/2	11290
 alsógatya/9	1
 alsófogás/8	1
-alsó/341	86
+alsó/1428	86
 alszövetség/5	1
 alszél/6	11291
 alszámla/18	1
@@ -47720,7 +48167,7 @@ allűr/56	1
 allúzió/9	1
 allúvium/30	1
 allódium/30	1
-allél/211	1
+allél/322	1
 allé/9	1
 allotrópia/9	1
 allotrop/41	1
@@ -47760,6 +48207,7 @@ alkotmányozik
 alkotmányoz
 alkotmány/30	1
 alkormányzó/18	1
+alkonzul/16	1
 alkonyulat/8	1
 alkonyul
 alkonypír/8	1
@@ -47817,7 +48265,7 @@ alig	15
 alibi/20	1
 alias	15
 alhálózat/30	1
-alhas/2	11303
+alhas/1425	11303
 alhadnagy/8	1
 algoritmus/30	1
 algimnázium/8	1
@@ -48306,6 +48754,7 @@ agrikultúra/9	1
 agresszor/30	1
 agresszió/9	1
 agresszivitás/30	1
+agranulocyta/9	1
 agora/9	1
 agonizál
 agnoszticizmus/30	1
@@ -48478,7 +48927,7 @@ aceton/41	1
 acetofenon/271	1
 acetoacetát/41	1
 acetilén/174	1
-acetil/343	1
+acetil/1444	1
 acetecetészter/174	1
 acetecetsav/133	11393
 acetanilid/174	1
@@ -48880,10 +49329,11 @@ a	11401
 érintet/835	11472
 érintet/836	11402
 érint/864	11473
-érik/830	11402
+érik/830	23657
 éreztet/832	11402
 érez/840	11474
 érettségizik/841	11402
+érett/120	23658
 éretlenkedik/832	11402
 érdesít/832	11402
 érdemesül/834	11402
@@ -49352,7 +49802,7 @@ vázol/845	11402
 vázlatol/845	11402
 vásít/846	11402
 vásároz/847	11402
-vásárol/869	11579
+vásárol/869	23659
 vásik/846	11402
 városodik/850	11402
 városiasodik/850	11402
@@ -49451,6 +49901,7 @@ volnál/47	11609
 volna/47	11610
 voksol/847	11402
 vlogol/845	11402
+vizualizál/845	11402
 vizslat/846	11402
 vizsgáztat/846	11402
 vizsgázik/847	11402
@@ -49829,6 +50280,7 @@ vereget/832	11402
 verdes/832	11402
 verbuválódik/850	11402
 verbuvál/845	11402
+verbalizál/845	11402
 ver/836	11816
 ventilál/845	11402
 vennünk/120	11817
@@ -49966,6 +50418,7 @@ valorizál/845	11402
 vallat/868	11908
 vallat/867	11402
 vall/867	11909
+validál/845	11402
 vakít/846	11402
 vakációzik/847	11402
 vakul/847	11402
@@ -50447,6 +50900,7 @@ táborozik/847	11402
 táboroz/845	11402
 tábláz/845	11402
 tyúkászik/847	11402
+twitterezik/831	11402
 tvisztel/841	11402
 tv-zik/832	11402
 tutul/847	11402
@@ -50881,7 +51335,7 @@ telem/120	12171
 teleltet/832	11402
 telel/841	11402
 telekkönyvez/831	11402
-telek/120	12172
+telek/120	23660
 telegrafál/845	11402
 telefonál/845	11402
 telefonoz/847	11402
@@ -52043,6 +52497,7 @@ sorjáz/845	11402
 sorakoztat/846	11402
 sorakozik/845	11402
 sopánkodik/850	11402
+soppingol/845	11402
 sompolyog/878	12466
 somolyog/878	12467
 somfordál/847	11402
@@ -53060,6 +53515,7 @@ prostituál/845	11402
 prosperál/847	11402
 proponál/845	11402
 propagál/845	11402
+promotál/845	11402
 prolongálódik/850	11402
 prolongál/845	11402
 proletárosodik/850	11402
@@ -53072,6 +53528,7 @@ profitál/847	11402
 profilíroz/845	11402
 profiloz/845	11402
 profetizál/845	11402
+professzionalizálódik/850	11402
 profanál/845	11402
 profanizál/845	11402
 produkál/845	11402
@@ -53414,6 +53871,8 @@ parancsnokol/869	12751
 parametrizál/845	11402
 paralizál/845	11402
 parafál/845	11402
+parafrazál/845	11402
+parafrazeál/845	11402
 paprikázódik/850	11402
 paprikázik/845	11402
 paprikáz/845	11402
@@ -53461,6 +53920,7 @@ pacifikál/845	11402
 oázik/847	11402
 oxidálódik/850	11402
 oxidál/845	11402
+ovulál/847	11402
 outol/847	11402
 ottvesz/841	11402
 ottragadt/47	12752
@@ -53590,6 +54050,7 @@ odvasodik/850	11402
 odacsavaroz/845	11402
 ocsúdik/850	11402
 obstruál/845	11402
+objektivál/845	11402
 nüanszíroz/845	11402
 növünk/120	12790
 növöm/120	12791
@@ -54302,6 +54763,7 @@ misztifikál/845	11402
 mismásol/845	11402
 miskárol/845	11402
 minősül/834	11402
+minősítget/832	11402
 minősít/832	11402
 mintáz/845	11402
 mintavételez/870	11402
@@ -54317,6 +54779,7 @@ mezítelenkedik/830	11402
 meztelenít/832	11402
 meztelenkedik/830	11402
 mezsgyéz/831	11402
+metélkedik/830	11402
 metél/831	11402
 metsződik/838	11402
 metszhet/871	13038
@@ -54801,6 +55264,7 @@ lágyít/846	11402
 lágyul/847	11402
 lábszíjaz/845	11402
 lábol/845	11402
+lábjegyzetel/870	11402
 lábatlankodik/850	11402
 lábal/847	11402
 lábadt/47	5678
@@ -55011,7 +55475,7 @@ legyeskedik/830	11402
 legyenek/47	13303
 legyen/47	13304
 legyek/47	13305
-legitimál/845	11402
+legitimál/845	23661
 legidázik/845	11402
 legelészik/841	11402
 legelész/841	11402
@@ -55641,6 +56105,7 @@ korbácsol/845	11402
 kopírozódik/850	11402
 kopíroz/845	11402
 kopácsol/847	11402
+kopulál/847	11402
 koptat/846	11402
 koppintat/868	13392
 koppintat/867	11402
@@ -55679,6 +56144,7 @@ kontyol/845	11402
 kontrázik/847	11402
 kontráz/847	11402
 kontrollál/845	11402
+kontraszelektál/908	11402
 kontrahál/845	11402
 kontingentál/845	11402
 kontesztál/845	11402
@@ -56210,6 +56676,7 @@ jelképez/831	11402
 jelez/840	13438
 jeleskedik/830	11402
 jelenít/832	11402
+jelentéktelenít/832	11402
 jelentéktelenedik/830	11402
 jelentkezik/841	11402
 jelentget/832	11402
@@ -56599,7 +57066,7 @@ idomtalanít/846	11402
 ideologizál/845	11402
 identifikál/845	11402
 idegződik/838	11402
-idegez/831	11402
+idegez/840	23662
 idegesít/832	11402
 idegeskedik/830	11402
 idegenít/832	11402
@@ -57556,6 +58023,7 @@ gyorsírat/868	13887
 gyorsírat/867	11402
 gyorsír/867	13888
 gyorsul/847	11402
+gyorskorcsolyázik/854	11402
 gyorsabbodik/850	11402
 gyomroz/845	11402
 gyomosodik/850	11402
@@ -57620,6 +58088,7 @@ gurgat/846	11402
 gunnyaszt/905	11402
 gumíroz/845	11402
 gumiz/845	11402
+guglizik/831	11402
 guggoltat/846	11402
 guggol/845	11402
 gubózik/847	11402
@@ -58177,8 +58646,8 @@ fokoz/845	11402
 fokol/845	11402
 fojtódik/850	11402
 fojtogat/846	11402
-fojtat/868	14096
-fojtat/867	11402
+fojtat/1454	14096
+fojtat/1455	11402
 fojt/867	14097
 fohászkodik/850	11402
 fogózkodik/846	11402
@@ -58393,6 +58862,7 @@ fejlesztet/836	11402
 fejleszt/864	14124
 fejeződik/838	11402
 fejez/831	11402
+fejetlenkedik/830	11402
 fejet/835	14125
 fejet/836	11402
 fejesel/841	11402
@@ -58485,6 +58955,7 @@ faggat/846	11402
 facsarít/846	11402
 facsarodik/850	11402
 facsar/846	11402
+facebookozik/845	11402
 fabuláz/847	11402
 fabrikál/845	11402
 ezüstöz/833	11402
@@ -58667,6 +59138,7 @@ emésztet/835	14211
 emésztet/836	11402
 emészt/864	14212
 emulál/845	11402
+emulgál/845	11402
 emulgeál/845	11402
 említődik/838	11402
 említ/832	11402
@@ -58890,7 +59362,6 @@ dühödik/838	11402
 dühít/832	11402
 dübörög/879	14288
 dübög/839	11402
-dűt/837	11402
 dűl/928	11402
 dúsít/846	11402
 dúsul/847	11402
@@ -59195,6 +59666,7 @@ deputációzik/847	11402
 deprimál/845	11402
 deportál/845	11402
 deponál/845	11402
+depilál/845	11402
 deperszonalizál/845	11402
 denunciál/845	11402
 denominál/845	11402
@@ -59763,6 +60235,7 @@ bütyköl/833	11402
 büszkélkedik/830	11402
 bürokratásodik/850	11402
 bürokratizálódik/850	11402
+bürokratizál/845	11402
 büntet/832	11402
 büfög/839	11402
 büfizik/831	11402
@@ -60656,6 +61129,7 @@ harmadfelek/47	14515
 útvonalak/968	14539
 útlevelek/968	14540
 útitársak/968	14541
+útiszótárak/968	23663
 útifüvek/968	14542
 útfelek/968	14543
 útdíjak/968	14544
@@ -60667,7 +61141,9 @@ harmadfelek/47	14515
 ösztöndíjak/968	14550
 összárak/968	14551
 össztüzek/968	14552
+összterjedelmek/969	23664
 összjövedelmek/971	14553
+összhosszak/968	23665
 összforgalmak/971	14554
 összbirodalmak/971	14555
 örömtüzek/968	14556
@@ -61098,7 +61574,7 @@ telitalpak/968	14979
 teliholdak/968	14980
 teletalpak/968	14981
 telekárak/968	14982
-telek/976	14983
+telek/976	23666
 teleházak/968	14984
 teleholdak/968	14985
 tejárak/968	14986
@@ -61139,6 +61615,7 @@ súgólyukak/968	15020
 söröspoharak/968	15021
 söröslovak/968	15022
 sörlevek/968	15023
+sörhasak/968	23667
 sóutak/968	15024
 sótartalmak/971	15025
 sóstavak/968	15026
@@ -61375,7 +61852,7 @@ részegyházak/968	15254
 részegkorpafüvek/968	15255
 répacukrok/971	15256
 rémuralmak/971	15257
-régmúltak/968	15258
+régmúltak/972	15258
 rágalmak/969	15259
 rádiócsövek/968	15260
 ruháskosarak/968	15261
@@ -61426,12 +61903,14 @@ pótmagánvádak/968	15305
 pótkerekek/968	15306
 póthajak/968	15307
 pótdíjak/968	15308
+pórhadak/968	23668
 pévécécsövek/968	15309
 pénztárak/968	15310
 pénzestársak/968	15311
 pásztorlevelek/968	15312
 pártvonalak/968	15313
 páratartalmak/971	15314
+pár hetek/973	23669
 pántlikafüvek/968	15315
 páncélöklök/971	15316
 páncéltornyok/971	15317
@@ -61586,7 +62065,7 @@ nyersaranyak/968	15464
 nyergek/969	15465
 nyelőcsövek/968	15466
 nyelek/973	15467
-nyarak/973	3963
+nyarak/973	23670
 nyakérmek/971	15468
 nyakfodrok/971	15469
 nyakak/973	15470
@@ -61651,6 +62130,10 @@ műfogak/968	15528
 műfalak/968	15529
 műbelek/968	15530
 múltak/973	15531
+múlt telek/976	23671
+múlt nyarak/973	23672
+múlt hetek/973	23673
+múlt havak/973	23674
 mózeskosarak/968	15532
 mézfüvek/968	15533
 mézeshetek/968	15534
@@ -61838,7 +62321,7 @@ lelkek/969	15715
 lelencházak/968	15716
 legyezőfüvek/968	15717
 legyek/973	15718
-legek/969	15719
+legek/1456	15719
 laurinsavak/968	15720
 latrok/969	15721
 laposvasak/968	15722
@@ -61868,6 +62351,7 @@ közkegyelmek/971	15745
 közhatalmak/971	15746
 közfalak/968	15747
 közepek/973	15748
+közelmúltak/972	23675
 kövesutak/968	15749
 kövek/973	15750
 kötővonalak/968	15751
@@ -62007,6 +62491,7 @@ klubházak/968	15884
 kliensoldalak/968	15885
 kiutak/968	15886
 kisőrlőfogak/968	15887
+kisáruházak/968	23676
 kiságyak/968	15888
 kiszolgálóoldalak/968	15889
 kisvizek/968	15890
@@ -62121,6 +62606,10 @@ kakaslábfüvek/968	15998
 kagylóhéjak/968	15999
 kabátlyukak/968	16000
 kabasólymok/971	16001
+jövő telek/976	23677
+jövő nyarak/973	23678
+jövő hetek/973	23679
+jövő havak/973	23680
 jövedelmek/969	16002
 jómadarak/968	16003
 jégárak/968	16004
@@ -62151,6 +62640,7 @@ jegenyenyárak/968	16028
 jegek/973	16029
 javadalmak/971	16030
 jamszgyökerek/968	16031
+jamgyökerek/968	23681
 jajszavak/968	16032
 izzószálak/968	16033
 izovonalak/968	16034
@@ -62220,6 +62710,7 @@ házormok/971	16097
 házivásznak/971	16098
 háziurak/968	16099
 házipénztárak/968	16100
+házilegyek/973	23682
 házikenyerek/968	16101
 házi nyulak/968	16102
 házfalak/968	16103
@@ -62274,11 +62765,12 @@ hexándisavak/968	16151
 hexuronsavak/968	16152
 hexakarbonsavak/968	16153
 hevek/973	16154
-hetek/973	16155
+hetek/973	23683
 hetedfelek/968	16156
 hernyótalpak/968	16157
 hernyóselymek/971	16158
 hengerművek/968	16159
+hengeresférgek/971	23684
 helyárak/968	16160
 helységnévtárak/968	16161
 helységnevek/968	16162
@@ -62288,7 +62780,7 @@ hegynyergek/971	16165
 hegyhátak/968	16166
 hazautak/968	16167
 havidíjak/968	16168
-havak/973	16169
+havak/973	23685
 hatökrök/971	16170
 határvonalak/968	16171
 határozószavak/968	16172
@@ -62494,6 +62986,7 @@ fémművek/968	16371
 félárak/968	16372
 félutak/968	16373
 félselymek/971	16374
+félmúltak/968	23686
 félholdak/968	16375
 félelmek/969	16376
 féldrágakövek/968	16377
@@ -62648,6 +63141,7 @@ előoldalak/968	16525
 előnyugdíjak/968	16526
 előnevek/968	16527
 előhadak/968	16528
+előbelek/973	23687
 előagyak/968	16529
 előadótermek/971	16530
 elvtársak/968	16531
@@ -62672,6 +63166,7 @@ ebszékfüvek/968	16549
 ebnyelvfüvek/968	16550
 ebihalak/968	16551
 dúvadak/968	16552
+dörzsárak/968	23688
 dörzskerekek/968	16553
 dörgedelmek/969	16308
 döntvénytárak/968	16554
@@ -62937,6 +63432,7 @@ aranyak/973	16812
 apácafátylak/971	16813
 apróvadak/968	16814
 aprószenek/968	16815
+apróhalak/968	23689
 anyaölek/972	16816
 anyagraktárak/968	16817
 anyaegyházak/968	16818
@@ -63211,8 +63707,8 @@ jóvátedd/47	17068
 híjával/47	17070
 híján/47	17071
 híja	17072
-hetek/485	16155
-hete/981	17073
+hetek/485	23683
+hete/981	23690
 erő/982	17074
 sosem	2842
 sose	2842
@@ -63221,7 +63717,7 @@ soha	2842
 sem	2842
 se	2842
 nem	2842
-ne	2842
+ne	23691
 szátok/983	17075
 szánk/983	17076
 szám/983	17077
@@ -63286,6 +63782,7 @@ mégse	881
 mégpedig	881
 mégiscsak	881
 mégis	881
+méghogy	881
 még	881
 máskülönben	881
 másfelől	881
@@ -63318,6 +63815,7 @@ látszólag	881
 különben	881
 kétségkívül	881
 korántsem	881
+koránt	881
 kivéve	881
 jóllehet	881
 is	881
@@ -63328,7 +63826,7 @@ ideértve	881
 hátha	881
 hovatovább	881
 hogyne	881
-hogy	17085
+hogy	881
 hiszen	881
 heló	881
 helló	881
@@ -63391,67 +63889,67 @@ alulra/179	11224
 alul/182	17097
 ötöd/984	17098
 ötvened/984	17099
-xxxviii.	287
-xxxvii.	287
-xxxvi.	287
-xxxv.	287
-xxxix.	287
-xxxiv.	287
-xxxiii.	287
-xxxii.	287
-xxxi.	287
-xxx.	287
-xxviii.	287
-xxvii.	287
-xxvi.	287
-xxv.	287
-xxix.	287
-xxiv.	287
-xxiii.	287
-xxii.	287
-xxi.	287
-xx.	287
-xviii.	287
-xvii.	287
-xvi.	287
-xv.	287
-xlviii.	287
-xlvii.	287
-xlvi.	287
-xlv.	287
-xlix.	287
-xliv.	287
-xliii.	287
-xlii.	287
-xli.	287
-xl.	287
-xix.	287
-xiv.	287
-xiii.	287
-xii.	287
-xi.	287
-xcviii.	287
-xcvii.	287
-xcvi.	287
-xcv.	287
-xcix.	287
-xciv.	287
-xciii.	287
-xcii.	287
-xci.	287
-xc.	287
-x.	287
-viii.	287
-vii.	287
-vi.	287
-v.	287
+xxxviii.	23296
+xxxvii.	23296
+xxxvi.	23296
+xxxv.	23296
+xxxix.	23296
+xxxiv.	23296
+xxxiii.	23296
+xxxii.	23296
+xxxi.	23296
+xxx.	23296
+xxviii.	23296
+xxvii.	23296
+xxvi.	23296
+xxv.	23296
+xxix.	23296
+xxiv.	23296
+xxiii.	23296
+xxii.	23296
+xxi.	23296
+xx.	23296
+xviii.	23296
+xvii.	23296
+xvi.	23296
+xv.	23296
+xlviii.	23296
+xlvii.	23296
+xlvi.	23296
+xlv.	23296
+xlix.	23296
+xliv.	23296
+xliii.	23296
+xlii.	23296
+xli.	23296
+xl.	23296
+xix.	23296
+xiv.	23296
+xiii.	23296
+xii.	23296
+xi.	23296
+xcviii.	23296
+xcvii.	23296
+xcvi.	23296
+xcv.	23296
+xcix.	23296
+xciv.	23296
+xciii.	23296
+xcii.	23296
+xci.	23296
+xc.	23296
+x.	23296
+viii.	23296
+vii.	23296
+vi.	23296
+v.	23296
 trilliomod/984	17100
 tized/984	17101
 század/984	17102
 párszori	15
 párszor/47	9852
 páran/47	9853
-párak/134	9854
+párak/134	23692
 pár/142	17103
 nyolcvanad/984	17104
 nyolcad/984	17105
@@ -63460,166 +63958,168 @@ negyed/984	17107
 másod/984	17108
 milliárdod/984	17109
 milliomod/984	17110
-lxxxviii.	287
-lxxxvii.	287
-lxxxvi.	287
-lxxxv.	287
-lxxxix.	287
-lxxxiv.	287
-lxxxiii.	287
-lxxxii.	287
-lxxxi.	287
-lxxx.	287
-lxxviii.	287
-lxxvii.	287
-lxxvi.	287
-lxxv.	287
-lxxix.	287
-lxxiv.	287
-lxxiii.	287
-lxxii.	287
-lxxi.	287
-lxx.	287
-lxviii.	287
-lxvii.	287
-lxvi.	287
-lxv.	287
-lxix.	287
-lxiv.	287
-lxiii.	287
-lxii.	287
-lxi.	287
-lx.	287
-lviii.	287
-lvii.	287
-lvi.	287
-lv.	287
-lix.	287
-liv.	287
-liii.	287
-lii.	287
-li.	287
-l.	287
+lxxxviii.	23296
+lxxxvii.	23296
+lxxxvi.	23296
+lxxxv.	23296
+lxxxix.	23296
+lxxxiv.	23296
+lxxxiii.	23296
+lxxxii.	23296
+lxxxi.	23296
+lxxx.	23296
+lxxviii.	23296
+lxxvii.	23296
+lxxvi.	23296
+lxxv.	23296
+lxxix.	23296
+lxxiv.	23296
+lxxiii.	23296
+lxxii.	23296
+lxxi.	23296
+lxx.	23296
+lxviii.	23296
+lxvii.	23296
+lxvi.	23296
+lxv.	23296
+lxix.	23296
+lxiv.	23296
+lxiii.	23296
+lxii.	23296
+lxi.	23296
+lx.	23296
+lviii.	23296
+lvii.	23296
+lvi.	23296
+lv.	23296
+lix.	23296
+liv.	23296
+liii.	23296
+lii.	23296
+li.	23296
+l.	23296
 kétharmad/47	17111
 kilencvened/984	17112
 kilenced/984	17113
-ix.	287
-iv.	287
-iii.	287
-ii.	287
-i.	287
+ix.	23296
+iv.	23296
+iii.	23296
+ii.	23296
+i.	23296
 háromnegyed/47	17114
 huszad/984	17115
 hetvened/984	17116
-hetek/789	8139
+hetek/789	23559
 heted/984	17117
 hatvanad/984	17118
 hatod/984	17119
 harmincad/984	17120
 harmad/984	17121
+fél párak/134	23693
+fél pár/142	23694
 ezred/984	17122
-cxxxviii.	287
-cxxxvii.	287
-cxxxvi.	287
-cxxxv.	287
-cxxxix.	287
-cxxxiv.	287
-cxxxiii.	287
-cxxxii.	287
-cxxxi.	287
-cxxx.	287
-cxxviii.	287
-cxxvii.	287
-cxxvi.	287
-cxxv.	287
-cxxix.	287
-cxxiv.	287
-cxxiii.	287
-cxxii.	287
-cxxi.	287
-cxx.	287
-cxviii.	287
-cxvii.	287
-cxvi.	287
-cxv.	287
-cxlviii.	287
-cxlvii.	287
-cxlvi.	287
-cxlv.	287
-cxlix.	287
-cxliv.	287
-cxliii.	287
-cxlii.	287
-cxli.	287
-cxl.	287
-cxix.	287
-cxiv.	287
-cxiii.	287
-cxii.	287
-cxi.	287
-cxcviii.	287
-cxcvii.	287
-cxcvi.	287
-cxcv.	287
-cxcix.	287
-cxciv.	287
-cxciii.	287
-cxcii.	287
-cxci.	287
-cxc.	287
-cx.	287
-cviii.	287
-cvii.	287
-cvi.	287
-cv.	287
+cxxxviii.	23296
+cxxxvii.	23296
+cxxxvi.	23296
+cxxxv.	23296
+cxxxix.	23296
+cxxxiv.	23296
+cxxxiii.	23296
+cxxxii.	23296
+cxxxi.	23296
+cxxx.	23296
+cxxviii.	23296
+cxxvii.	23296
+cxxvi.	23296
+cxxv.	23296
+cxxix.	23296
+cxxiv.	23296
+cxxiii.	23296
+cxxii.	23296
+cxxi.	23296
+cxx.	23296
+cxviii.	23296
+cxvii.	23296
+cxvi.	23296
+cxv.	23296
+cxlviii.	23296
+cxlvii.	23296
+cxlvi.	23296
+cxlv.	23296
+cxlix.	23296
+cxliv.	23296
+cxliii.	23296
+cxlii.	23296
+cxli.	23296
+cxl.	23296
+cxix.	23296
+cxiv.	23296
+cxiii.	23296
+cxii.	23296
+cxi.	23296
+cxcviii.	23296
+cxcvii.	23296
+cxcvi.	23296
+cxcv.	23296
+cxcix.	23296
+cxciv.	23296
+cxciii.	23296
+cxcii.	23296
+cxci.	23296
+cxc.	23296
+cx.	23296
+cviii.	23296
+cvii.	23296
+cvi.	23296
+cv.	23296
 csomóan/47	17123
 csomó/985	17124
-clxxxviii.	287
-clxxxvii.	287
-clxxxvi.	287
-clxxxv.	287
-clxxxix.	287
-clxxxiv.	287
-clxxxiii.	287
-clxxxii.	287
-clxxxi.	287
-clxxx.	287
-clxxviii.	287
-clxxvii.	287
-clxxvi.	287
-clxxv.	287
-clxxix.	287
-clxxiv.	287
-clxxiii.	287
-clxxii.	287
-clxxi.	287
-clxx.	287
-clxviii.	287
-clxvii.	287
-clxvi.	287
-clxv.	287
-clxix.	287
-clxiv.	287
-clxiii.	287
-clxii.	287
-clxi.	287
-clx.	287
-clviii.	287
-clvii.	287
-clvi.	287
-clv.	287
-clix.	287
-cliv.	287
-cliii.	287
-clii.	287
-cli.	287
-cl.	287
-cix.	287
-civ.	287
-ciii.	287
-cii.	287
-ci.	287
-c.	287
+clxxxviii.	23296
+clxxxvii.	23296
+clxxxvi.	23296
+clxxxv.	23296
+clxxxix.	23296
+clxxxiv.	23296
+clxxxiii.	23296
+clxxxii.	23296
+clxxxi.	23296
+clxxx.	23296
+clxxviii.	23296
+clxxvii.	23296
+clxxvi.	23296
+clxxv.	23296
+clxxix.	23296
+clxxiv.	23296
+clxxiii.	23296
+clxxii.	23296
+clxxi.	23296
+clxx.	23296
+clxviii.	23296
+clxvii.	23296
+clxvi.	23296
+clxv.	23296
+clxix.	23296
+clxiv.	23296
+clxiii.	23296
+clxii.	23296
+clxi.	23296
+clx.	23296
+clviii.	23296
+clvii.	23296
+clvi.	23296
+clv.	23296
+clix.	23296
+cliv.	23296
+cliii.	23296
+clii.	23296
+cli.	23296
+cl.	23296
+cix.	23296
+civ.	23296
+ciii.	23296
+cii.	23296
+ci.	23296
+c.	23296
 billiomod/984	17125
 üzletorientált/986	86
 üzleties/987	86
@@ -63691,7 +64191,7 @@ billiomod/984	17125
 úrias/1004	86
 újsütetű/997	86
 újságírói/1000	86
-újszülött/995	86
+újszülött/1062	86
 újszájú/1000	86
 újszerű/997	86
 újromán/1003	86
@@ -63764,15 +64264,25 @@ billiomod/984	17125
 ösztönös/996	86
 ösztönző/999	86
 ösztöndíjas/1004	86
+összvárosi/1457	86
+összvállalati/1000	86
 összvonalas/1004	86
 össztársadalmi/1000	86
+összpárti/1457	86
+összpiaci/1457	86
+össznémet/1092	86
 össznemzeti/988	86
 összmagyar/1003	86
 összközműves/987	86
 összkomfortos/1004	86
+összkerék-meghajtású/1000	86
+összkerekes/987	86
+összintézményi/1458	86
 összhangzatos/1004	86
 összhangtalan/1003	86
+összhallgatói/1457	86
 összgazdasági/1006	86
+összfővárosi/1457	86
 összfegyvernemi/988	86
 összeöltött/995	86
 összeállított/1001	86
@@ -63821,8 +64331,10 @@ billiomod/984	17125
 összecsavart/1003	86
 összecsapott/1001	86
 összeaszott/1001	86
+összdolgozói/1000	86
 összakadémiai/1000	86
 össz-szövetségi/988	86
+össz-alapterületű/997	86
 örömteli/988	86
 örömtelen/989	86
 örömittas/1004	86
@@ -64006,6 +64518,7 @@ billiomod/984	17125
 ókatolikus/1004	86
 óhitű/997	86
 óhatatlan/1003	86
+ófrancia/1000	86
 ófelnémet/989	86
 óegyiptomi/1000	86
 óegyházi/1000	86
@@ -64020,6 +64533,7 @@ billiomod/984	17125
 óbudai/1013	86
 óbolgár/1003	86
 óarany/1004	86
+óangol/1003	86
 ó-kasztíliai/1013	86
 íztelen/989	86
 ízléstelen/989	86
@@ -64104,6 +64618,7 @@ billiomod/984	17125
 érvényes/987	86
 értődő/997	86
 értékű/997	86
+értékvesztett/1092	86
 értéktárgymegőrző/997	86
 értéktelen/989	86
 értéksemleges/987	86
@@ -64129,7 +64644,7 @@ billiomod/984	17125
 érintett/989	86
 érintetlen/989	86
 érező/999	86
-érett/989	86
+érett/1021	86
 éretlen/989	86
 éremtani/1000	86
 érdeslevelű/997	86
@@ -64201,6 +64716,7 @@ billiomod/984	17125
 életképtelen/989	86
 életképes/987	86
 életigenlő/997	86
+életidegen/989	86
 élethű/997	86
 élethossziglani/1006	86
 életerős/996	86
@@ -64337,6 +64853,7 @@ billiomod/984	17125
 ápolatlan/1003	86
 álvéletlen/989	86
 áltört/995	86
+álterhes/987	86
 általános/1004	86
 álságos/1004	86
 álszenteskedő/997	86
@@ -64510,6 +65027,8 @@ zabos/1004	86
 zabolátlan/1003	86
 zabagép/989	86
 ybli/1026	86
+xeromorf/1003	86
+xeromezofil/1003	86
 xenofób/1003	86
 xantofill/1003	86
 x-lábú/1000	86
@@ -64536,11 +65055,13 @@ vörös/996	86
 vörhenyesbarna/1000	86
 vörhenyes/987	86
 vízálló/1000	86
+vízvájta/1000	86
 vízumkötelezett/989	86
 víztiszta/1000	86
 víztelen/989	86
 vízszínű/997	86
 vízszintes/987	86
+vízporozta/1457	86
 vízparti/1000	86
 vízoldékony/1004	86
 víznyomásos/1004	86
@@ -64977,6 +65498,7 @@ vadonatúj/1004	86
 vadnyugati/1000	86
 vadkapitalista/1000	86
 vadiúj/1004	86
+vadidegen/989	86
 vad/1031	17157
 vacogtató/1000	86
 vacak/1003	86
@@ -65030,6 +65552,7 @@ umbilikus/1004	86
 ultravékony/1004	86
 ultraszonikus/1004	86
 ultrarövid/989	86
+ultraortodox/1004	86
 ultranacionalista/1000	86
 ultramontán/1003	86
 ultramodern/989	86
@@ -65103,6 +65626,7 @@ tükörsima/1000	86
 tüdővészes/987	86
 tüdőtágulásos/1004	86
 tüdőbeteg/1008	86
+tüchtig/989	23695
 tűzálló/1000	86
 tűzvörös/996	86
 tűzveszélyes/987	86
@@ -65202,14 +65726,13 @@ töltött/995	86
 tölcsér alakú/1000	86
 tökéletlen/989	86
 tökéletes/987	86
-töksüket/989	86
-töksötét/989	86
-tökrészeg/1008	86
-tökmindegy/987	86
 tökkelütött/995	86
-tökhülye/988	86
 tökfejű/997	86
 töketlen/989	86
+tök süket/989	86
+tök sötét/989	86
+tök részeg/1008	86
+tök hülye/988	86
 többóránkénti/988	86
 többórai/1006	86
 többévi/988	86
@@ -65246,9 +65769,10 @@ többezerszeres/987	86
 többesztendei/988	86
 többalakú/1000	86
 több száz éves/987	17174
+több száz/1004	17174
 több ezer éves/987	17174
 több ezer/989	17174
-tősgyökeres/987	86
+tősgyökeres/987	23696
 tőrőlmetszett/989	86
 tőrbeesett/989	86
 tőkés/987	86
@@ -65336,6 +65860,7 @@ tálib/1003	86
 tál alakú/1000	17176
 tájékozott/1001	86
 tájékozatlan/1003	86
+tájjellegű/1048	86
 táji/1000	86
 tágas/1004	86
 tág/1031	86
@@ -65348,6 +65873,7 @@ tábori/1000	86
 táblázatos/1004	86
 táblás/1004	86
 tyúkszemes/987	86
+tutyimutyi/1000	86
 tuti/1000	86
 tuskólábú/1000	86
 turáni/1000	86
@@ -65416,6 +65942,7 @@ trigonális/1004	86
 trigonometrikus/1004	86
 tridenti/988	86
 triciklusos/1004	86
+trendi/988	86
 trehány/1004	86
 traumás/1004	86
 traumatikus/1004	86
@@ -65533,6 +66060,7 @@ tinódias/993	86
 tiltott/1001	86
 tilos/1004	86
 tilolatlan/1003	86
+tikkadt/986	86
 thökölys/1033	86
 thökölyes/992	86
 teátrális/1004	86
@@ -65703,6 +66231,11 @@ tavalyelőtti/988	86
 tautologikus/1004	86
 tatáros/1004	86
 tatár/1003	86
+tasmangyűlölő/991	86
+tasmanellenes/992	86
+tasmancentrikus/993	86
+tasmanbarát/994	86
+tasman/1003	23697
 tartózkodás/1004	86
 tartósított/1001	86
 tartós/1004	86
@@ -65756,7 +66289,7 @@ talpraesett/989	86
 talpnyaló/1000	86
 talpatlan/1003	86
 talmi/1000	86
-talajvesztett/989	86
+talajvesztett/1092	86
 talajtalan/1003	86
 talajközeli/988	86
 talajavesztett/989	86
@@ -66017,10 +66550,12 @@ szénfekete/988	86
 szélütött/995	86
 szélütéses/987	86
 szélvédett/989	86
+szélvájta/1000	86
 szélsőséges/987	86
 szélsőbaloldali/1006	86
 szélsőbal/1003	86
 szélsebes/987	86
+szélporozta/1457	86
 szélmentes/987	86
 szélmarta/1000	86
 széllelbélelt/989	86
@@ -66041,6 +66576,7 @@ székrekedéses/987	86
 székfoglaló/1000	86
 székesfővárosi/1006	86
 szégyenteljes/987	86
+szégyenteli/988	86
 szégyentelen/989	86
 szégyenlős/996	86
 szégyenlő/998	86
@@ -66145,6 +66681,7 @@ szupererős/996	86
 szuperbiztos/990	86
 szuper/989	86
 szukcesszív/1028	86
+szuicid/1003	86
 szuggesztív/1028	86
 szudétákbeli/1026	86
 szudétanémet/989	86
@@ -66177,8 +66714,10 @@ sztereotip/1003	86
 sztereoszkopikus/1004	86
 sztereografikus/1004	86
 sztereofonikus/1004	86
+sztenök/1007	86
 sztentori/1000	86
 sztenderd/989	86
+sztatikus/1004	86
 szperszimmetrikus/1004	86
 szotyakos/1004	86
 szorzó/1012	86
@@ -66794,6 +67333,8 @@ selejtes/987	86
 selejt/989	86
 sekélyes/987	86
 sekély/987	86
+sejtmagvas/1459	86
+sejtmagnélküli/1458	86
 sejtett/989	86
 sejtes/987	86
 sehonnai/1000	86
@@ -66825,6 +67366,7 @@ sarki/1000	86
 sarkatlan/1003	86
 sarkalatos/1004	86
 sarkalatlan/1003	86
+saolin/1003	86
 sanzsan/1003	86
 sanyarú/1000	86
 sanyargó/1012	86
@@ -66916,11 +67458,13 @@ rémült/995	86
 rémületes/987	86
 rémes/987	86
 régvolt/986	86
+régióelső/997	86
 régimódi/1000	86
 régifajta/1000	86
 régies/987	86
 régi/988	86
 rázóhideg/989	86
+rávonatkozó/1046	86
 rávaló/1000	86
 rátétes/987	86
 rátermett/989	86
@@ -66936,12 +67480,14 @@ rákóczis/993	86
 rákóczias/993	86
 rákvörös/996	86
 rákos/1004	86
+rákokozó/1457	86
 ráfizetéses/987	86
 ráeső/997	86
 rádays/993	86
 rádayas/993	86
 rácsozott/1001	86
 rácsos/1004	86
+rá vonatkozó/1000	17211
 rá következő/997	17211
 ruténgyűlölő/991	86
 ruténellenes/992	86
@@ -66979,8 +67525,9 @@ rovó/1040	86
 rovátkolt/986	86
 rovott/1001	86
 rovartani/1000	86
+rovarporozta/1457	86
 rothadékony/1004	86
-rothadt/1003	86
+rothadt/986	86
 rostálatlan/1003	86
 rostos/1004	86
 rostokoló/1011	86
@@ -67050,6 +67597,7 @@ ripacsos/1004	86
 rimszkij-korszakovi/1013	86
 rigorózus/1004	86
 rideg/989	86
+riboszomális/1004	86
 riadozó/1000	86
 reális/1004	86
 rezzenéstelen/989	86
@@ -67101,6 +67649,7 @@ rendű/997	86
 rendíthetetlen/989	86
 rendszerű/997	86
 rendszertelen/989	86
+rendszerjellegű/1048	86
 rendszerhű/997	86
 rendszerető/997	86
 rendszeres/987	86
@@ -67127,6 +67676,7 @@ relativisztikus/1004	86
 relativista/1000	86
 rekurzív/1004	86
 rekuperált/986	86
+rekordnagyságú/1000	86
 rekedtes/987	86
 rekedt/989	86
 rejtélyes/987	86
@@ -67151,7 +67701,7 @@ redundáns/1004	86
 reduktív/1028	86
 recésszárnyú/1000	86
 recés/987	86
-reciprok/1004	86
+reciprok/1032	86
 reciprocitási/1006	86
 recesszív/987	86
 receptív/987	86
@@ -67170,6 +67720,7 @@ raplis/1004	86
 rapid/1003	86
 rangú/1000	86
 rangos/1004	86
+ranglistaelső/997	86
 rangjavesztett/989	86
 rangidős/996	86
 rangelső/997	86
@@ -67274,6 +67825,7 @@ pároló/1011	86
 párologó/1011	86
 párolgó/1011	86
 párnázott/1001	86
+pármai/1100	86
 párló/1012	86
 párhuzamos/1004	86
 párevezős/996	86
@@ -67282,6 +67834,7 @@ páratlan/1003	86
 páratelt/989	86
 páraelszívó/1000	86
 páradús/1004	86
+pár havi/1006	23698
 pápua/1000	86
 pápista/1000	86
 pápaszemes/987	86
@@ -67406,6 +67959,7 @@ precíziós/1004	86
 precíz/987	86
 pravoszláv/1003	86
 praktikus/1004	86
+pragmatista/1000	86
 pragmatikus/1004	86
 praetorianus/1004	86
 poétikus/1004	86
@@ -67545,6 +68099,7 @@ pisilt/1072	17228
 pisilt/1073	86
 pisilható/1042	17229
 pisilhatatlan/1050	17230
+pirruszi/1000	86
 pirotechnikai/1000	86
 pirostarka/1000	86
 pirospozsgás/1004	86
@@ -67776,6 +68331,7 @@ padlizsánlila/1000	86
 pacifista/1000	86
 paccer/989	86
 ozmotikus/1004	86
+oxigénigényes/987	86
 oxigéndús/1004	86
 oxidatív/1003	86
 ovális/1004	86
@@ -67826,6 +68382,7 @@ orsócsonti/1000	86
 országos/1004	86
 országnévi/988	86
 országházi/1000	86
+orsolyita/1000	86
 orrú/1000	86
 orrfacsaró/1000	86
 orozó/1000	86
@@ -67842,7 +68399,7 @@ ornamentális/1004	86
 ormótlan/1003	86
 originális/1004	86
 originál/1003	86
-orientált/986	86
+orientált/1460	86
 orientális/1004	86
 orientalista/1000	86
 orgonalila/1000	86
@@ -68196,6 +68753,7 @@ nonfiguratív/1004	86
 nomád/1003	86
 nominális/1004	86
 nobilis/1004	86
+nitrofil/1003	86
 nitro/1000	86
 nincstelen/989	86
 nilpotens/987	86
@@ -68211,6 +68769,7 @@ neveléstani/1000	86
 neveletlen/989	86
 neutrálvörös/996	86
 neutrális/1004	86
+neutrofil/1003	86
 neurális/1004	86
 neurotikus/1004	86
 neuroendokrin/1003	86
@@ -68361,6 +68920,7 @@ nagytiszteletű/997	86
 nagytestű/997	86
 nagytermelő/997	86
 nagysúlyú/1000	86
+nagyságú/1000	86
 nagyszívű/997	86
 nagyszámú/1000	86
 nagyszálló/1000	86
@@ -68452,6 +69012,9 @@ működésképtelen/989	86
 műkedvelő/997	86
 múlékony/1004	86
 múltkori/1000	86
+múltbéli/988	86
+múlt havi/1006	17254
+múlt esztendei/988	17254
 múlt/1035	17254
 múlhatatlan/1003	86
 múlandó/1046	86
@@ -68670,6 +69233,7 @@ monopolisztikus/1004	86
 monopolellenes/987	86
 monoploid/1003	86
 monomániás/1004	86
+monologikus/1004	86
 monolitikus/1004	86
 monokróm/1004	86
 monokromatikus/1004	86
@@ -68800,6 +69364,8 @@ mezítelen/989	86
 mezzoszoprán/1003	86
 meztelen/989	86
 mezoklimatikus/1004	86
+mezohigrofil/1003	86
+mezofil/1003	86
 mezei/988	86
 metálzöld/995	86
 metálsárga/1000	86
@@ -69192,7 +69758,7 @@ magánkiadó/1000	86
 magánkereskedő/997	86
 magánkapitalista/1000	86
 magánjáró/1000	86
-magánjellegű/997	86
+magánjellegű/1048	86
 magánhangzói/1000	86
 magánfuvarozó/1000	86
 magánfogyasztó/1000	86
@@ -69402,6 +69968,7 @@ lukasztó/1000	86
 lukas/1004	86
 lukacsos/1004	86
 ludáj/1004	86
+luddita/1000	86
 lucskos/1004	86
 lucidus/1004	86
 lovárigyűlölő/991	86
@@ -69443,6 +70010,7 @@ litotróf/1003	86
 literális/1004	86
 lisztérzékeny/987	86
 lisztes/987	86
+listaelső/997	86
 liptói/1000	86
 liptai/1000	86
 lipicai/1000	86
@@ -69465,6 +70033,7 @@ liliomfehér/989	86
 lila/1000	86
 likvid/989	86
 likacsos/1004	86
+lightos/1004	23699
 lidérces/987	86
 libériás/1004	86
 librelogós/993	86
@@ -69535,6 +70104,7 @@ lengyelbarát/994	86
 lengyel/989	86
 lenge/988	86
 lendületes/987	86
+lencsehíjas/1004	86
 lemért/989	86
 leméretlen/989	86
 lemezvezérlő/997	86
@@ -69570,6 +70140,7 @@ lehasznált/986	86
 leharcolt/986	86
 lehangolt/986	86
 lehajló/1000	86
+legű/997	86
 legújabbfajta/1000	86
 legömbölyített/989	86
 legális/1004	86
@@ -69693,6 +70264,7 @@ középzöld/995	86
 középszürke/988	86
 középszerű/997	86
 középosztálybeli/988	86
+középnagyságú/1000	86
 középmagas/1004	86
 középkék/989	86
 középkori/1000	86
@@ -69866,6 +70438,7 @@ kínai/1000	86
 kíméletlen/989	86
 kíméletes/987	86
 kézzelfogható/1000	86
+kézivezérelt/1092	86
 kéziratos/1004	86
 kézi/988	86
 kézfeji/988	86
@@ -70002,6 +70575,7 @@ kékesfekete/988	86
 kékesfehér/989	86
 kékes/987	86
 kékeres/987	86
+kékcédulás/1004	86
 kékcsőrű/997	86
 kék/1025	86
 kéjvágyó/1000	86
@@ -70218,8 +70792,10 @@ konvergens/987	86
 konvencionális/1004	86
 kontraszelektív/987	86
 kontrapunktikus/1004	86
+kontraproduktív/987	86
 kontinuus/1004	86
 kontinentális/1004	86
+kontinenselső/997	86
 kontemplatív/1004	86
 kontaktlencsefajta/1000	86
 konszenzuális/1004	86
@@ -70710,7 +71286,7 @@ kekibarna/1000	86
 kehes/987	86
 kehely alakú/1000	17314
 kegyúri/1006	86
-kegyvesztett/989	86
+kegyvesztett/1092	86
 kegyetlen/989	86
 kegyes/987	86
 kegyeletteljes/987	86
@@ -70753,6 +71329,7 @@ katonás/1004	86
 katonaviselt/989	86
 katonai/1000	86
 katolikus/1004	86
+kategóriaelső/997	86
 kategorikus/1004	86
 katasztrófasújtott/1001	86
 katasztrális/1004	86
@@ -70768,6 +71345,7 @@ karvalyorrú/1000	86
 karthágói/1000	86
 karthauzi/1000	86
 karteziánus/1004	86
+karonülő/1048	86
 karmos/1004	86
 karmikus/1004	86
 karmazsinvörös/996	86
@@ -70824,6 +71402,7 @@ kancsal/1003	86
 kanalas/1004	86
 kanadai/1000	86
 kampós/1004	86
+kampányjellegű/1048	86
 kamjanec-pogyilszkiji/1026	86
 kamenyec-podolszkiji/1026	86
 kamatozó/1000	86
@@ -70852,14 +71431,17 @@ kaján/1003	86
 kajla/1000	86
 kagylós/1004	86
 kafkás/993	86
+kafkai/1013	86
 kadmiumvörös/996	86
 kacér/1003	86
 kackiás/1004	86
 kacifántos/1004	86
+kabbalisztikus/1004	86
 kabard-balkárföldi/1026	86
 kabar/1003	86
 jövőbelátó/1000	86
 jövőbeli/988	86
+jövő esztendei/988	86
 jövő/1015	17315
 jövő/1016	86
 jövendőmondó/1000	86
@@ -70924,7 +71506,7 @@ jászbarát/994	86
 jász/1002	86
 járványos/1004	86
 járulékos/1004	86
-jártányi/1006	86
+jártányi/1000	86
 jártas/1004	86
 járt/1031	86
 járomcsonti/1000	86
@@ -70944,7 +71526,13 @@ jubiláris/1004	86
 jozefinista/1000	86
 joviális/1004	86
 joskar-olai/1013	86
+jorubagyűlölő/991	86
+jorubaellenes/992	86
+jorubacentrikus/993	86
+jorubabarát/994	86
+joruba/1000	86
 jojózik/1003	86
+johannita/1000	86
 jogérvényes/987	86
 jogvégzett/989	86
 jogvégzetlen/989	86
@@ -70988,6 +71576,7 @@ jellemtelen/989	86
 jellemszilárd/1003	86
 jellemező/999	86
 jellembeli/988	86
+jellegű/997	86
 jellegzetes/987	86
 jellegtelen/989	86
 jelképi/988	86
@@ -71134,6 +71723,7 @@ invariábilis/1004	86
 intuitív/1028	86
 introvertált/986	86
 introspektív/987	86
+intrazonális/1004	86
 intravénás/1004	86
 intranzitív/987	86
 intranzigens/987	86
@@ -71363,6 +71953,7 @@ időálló/1000	86
 időzített/989	86
 időtálló/1000	86
 időtlen/989	86
+idősügyi/988	86
 időszerűtlen/989	86
 időszerű/997	86
 időszakos/1004	86
@@ -71382,20 +71973,26 @@ időbeni/988	86
 időbeli/988	86
 időarányos/1004	86
 idétlen/989	86
+idényjellegű/1048	86
 idomítatlan/1003	86
 idomtalan/1003	86
 idióta/1000	86
+idiomatikus/1004	86
 idillikus/1004	86
+ideáltipikus/1004	86
 ideális/1004	86
+idevonatkozó/1046	86
 idevaló/1000	86
 ideológiai/1000	86
 ideologikus/1004	86
 identikus/1004	86
 idempotens/987	86
 idejétmúlt/986	86
+idejemúlt/986	86
 ideiglenes/987	86
 idei/988	86
 idegőrlő/997	86
+idegző/998	86
 idegzsábás/1004	86
 idegrendszeri/988	86
 idegkimerítő/997	86
@@ -71408,6 +72005,7 @@ idegen/989	86
 idegbajos/1004	86
 idealisztikus/1004	86
 idealista/1000	86
+ide vonatkozó/1000	86
 icurka-picurka/1000	86
 icuripicuri/1000	86
 iciripiciri/988	86
@@ -71645,6 +72243,7 @@ humuszgazdag/1003	86
 humortalan/1003	86
 humoros/1004	86
 humorisztikus/1004	86
+humid/1003	86
 humanoid/1003	86
 humanitárius/1004	86
 humanisztikus/1004	86
@@ -71713,6 +72312,7 @@ homokszínű/997	86
 homokos/1004	86
 homogénezett/989	86
 homogén/989	86
+homofób/1003	86
 homofonikus/1004	86
 homofon/1003	86
 homoerotikus/1004	86
@@ -71773,12 +72373,14 @@ hitevesztett/989	86
 hitetlen/989	86
 hites/987	86
 hitelvi/988	86
+hiteltérdemlő/1010	86
 hiteltelen/989	86
+hitelt érdemlő/997	86
 hitelképes/987	86
 hitelkárosult/986	86
 hiteles/987	86
 hitehagyó/1000	86
-hitehagyott/1001	86
+hitehagyott/1053	86
 hitbéli/988	86
 hitbuzgó/1000	86
 hitbuzgalmi/1000	86
@@ -71817,6 +72419,8 @@ hihetetlen/1020	17348
 hihetetlen/1021	86
 higroszkópos/1004	86
 higroszkopikus/1004	86
+higromorf/1003	86
+higrofil/1003	86
 higiénikus/1004	86
 higgadt/1003	86
 hifi/988	86
@@ -71861,7 +72465,7 @@ hetvenhavonkénti/988	86
 hetvenhavi/1006	86
 hetvenféle/988	86
 hetvenesztendei/988	86
-heti/988	86
+heti/988	23700
 heteró/1000	86
 heterotróf/1003	86
 heteroszexuális/1004	86
@@ -71940,7 +72544,7 @@ hazafiatlan/1003	86
 hazafias/1004	86
 havonkénti/988	86
 havidíjas/1004	86
-havi/1006	86
+havi/1006	23700
 havasi/1000	86
 havasalji/1000	86
 havas/1004	86
@@ -72191,6 +72795,7 @@ hajdani/1000	86
 hajadon/1003	86
 hagyott/1001	86
 hagyományos/1004	86
+hagyományhű/997	86
 hagymázos/1004	86
 hagyatékátadó/1000	86
 hadviselő/997	86
@@ -72837,6 +73442,7 @@ frazeológiai/1000	86
 frazeologikus/1004	86
 frappáns/1004	86
 frankó/1000	86
+frankofón/1003	86
 franciás/1004	86
 franciagyűlölő/991	86
 franciaellenes/992	86
@@ -72875,6 +73481,7 @@ forogó/1011	86
 formátlan/1003	86
 formás/1004	86
 formális/1004	86
+formájú/1000	86
 formatervezett/989	86
 formai/1000	86
 forgó/1011	86
@@ -73051,6 +73658,7 @@ fertelmes/987	86
 ferromágneses/987	86
 ferrites/987	86
 fergeteges/987	86
+ferences/987	86
 ferdeszögű/997	86
 ferde/988	86
 fentnevezett/989	86
@@ -73201,7 +73809,7 @@ feketeszárnyú/1000	86
 feketeszájú/1000	86
 feketenyakú/1000	86
 fekete/988	86
-fejvesztett/989	86
+fejvesztett/1092	86
 fejveszett/989	86
 fejlődésképtelen/989	86
 fejlett/989	86
@@ -73347,6 +73955,7 @@ extrém/987	86
 extrudált/1003	86
 extrovertált/986	86
 extremális/1004	86
+extremofil/1003	86
 extravagáns/1004	86
 extrapolált/986	86
 extrakromoszomális/1004	86
@@ -73387,6 +73996,8 @@ europid/1003	86
 eurokonform/1004	86
 eurokommunizmus/1004	86
 euroatlanti/1000	86
+euriök/1007	86
+eurihigrikus/1004	86
 euklideszi/988	17381
 euforikus/1004	86
 eufonikus/1004	86
@@ -73394,6 +74005,11 @@ eufemisztikus/1004	86
 eufemikus/1004	86
 eucharisztikus/1004	86
 etnikai/1000	86
+etiópgyűlölő/991	86
+etiópellenes/992	86
+etiópcentrikus/993	86
+etiópbarát/994	86
+etióp/1003	86
 etimológiai/1000	86
 etimologikus/1004	86
 etikátlan/1003	86
@@ -73516,6 +74132,7 @@ enervált/986	86
 energikus/1004	86
 energiaigényes/987	86
 energiagazdag/1003	86
+energiadús/1004	86
 energetikus/1004	86
 enemű/997	86
 endoterm/987	86
@@ -73637,6 +74254,7 @@ eltévedt/989	86
 eltorzult/986	86
 eltompított/1001	86
 eltompult/986	86
+eltiprandó/1000	86
 eltett/989	86
 elterült/995	86
 elterjedt/989	86
@@ -73657,6 +74275,7 @@ elsőfokú/1000	86
 elsőfilmes/987	86
 elsőfajú/1000	86
 elsődleges/987	86
+elsőbálozó/1457	86
 első számú/1000	86
 elszökött/995	86
 elszórt/1003	86
@@ -73826,6 +74445,7 @@ eleji/988	86
 elegáns/1004	86
 elegendő/997	86
 elefántcsontszínű/997	86
+elefántcsontfehér/1461	86
 eldöntetlen/989	86
 eldugott/1001	86
 elcsüggedt/989	86
@@ -73984,6 +74604,7 @@ edzett/1017	17389
 edzett/1018	86
 edzetlen/1043	17390
 edzendő/1022	17391
+edafikus/1004	86
 ecetes/987	86
 ebédi/988	86
 ebugatta/1000	86
@@ -74129,6 +74750,7 @@ diétás/1004	86
 diétai/1000	86
 divergens/987	86
 divatos/1004	86
+divatmúlt/986	86
 divatjamúlt/986	86
 divathóbortos/1004	86
 disztális/1004	86
@@ -74165,6 +74787,7 @@ dimbes-dombos/1004	86
 diluviális/1004	86
 dilis/987	86
 dilinós/1004	86
+dilinyós/1004	86
 diktatórikus/1004	86
 digitális/1004	86
 diftériás/1004	86
@@ -74188,6 +74811,7 @@ dicsekvő/1015	17392
 dicsekvő/1016	86
 diatonikus/1004	86
 diametrális/1004	86
+dialogikus/1004	86
 dialektikus/1004	86
 diakrón/1003	86
 diakronikus/1004	86
@@ -74228,6 +74852,7 @@ demotikus/1004	86
 demonstratív/1003	86
 demokratikus/1004	86
 demográfiai/1000	86
+demens/987	86
 demars/993	86
 demagóg/1003	86
 delikát/1003	86
@@ -74445,6 +75070,7 @@ csigavonalú/1000	86
 csigavonalas/1004	86
 csicsergő/998	86
 csibész/987	86
+csetres/987	86
 cserző/998	86
 cserzetlen/989	86
 cserszínű/997	86
@@ -74573,7 +75199,7 @@ centrírozó/1000	86
 centrálszimmetrikus/1004	86
 centrális/1004	86
 centripetális/1004	86
-centrikus/1004	86
+centrikus/1064	86
 centrifugális/1004	86
 centralista/1000	86
 centis/987	86
@@ -74831,7 +75457,7 @@ bokros/1004	86
 bojtos/1004	86
 bohókás/1004	86
 bohó/1000	86
-bohém/1028	86
+bohém/1047	86
 bogárfekete/988	86
 bogyósgyümölcsű/997	86
 bogumil/1003	86
@@ -74943,6 +75569,7 @@ beégetett/989	86
 beáztatott/1001	86
 beállított/1001	86
 bezárt/1003	86
+bezerédjs/992	86
 bevégzetlen/989	86
 bevágásos/1004	86
 bevont/1003	86
@@ -75085,6 +75712,9 @@ beborult/986	86
 beavatott/1001	86
 beavatatlan/1003	86
 beatricés/992	86
+baziklin/989	86
+bazifil/989	86
+bays/1054	86
 bauxitvörös/996	86
 batsányis/993	86
 batsányias/993	86
@@ -75283,6 +75913,7 @@ arktikus/1004	86
 arkhimédészi/1026	86
 aritmetikai/1000	86
 arisztokratikus/1004	86
+arid/1003	86
 argotikus/1004	86
 argentínai/1013	86
 argentin/1047	86
@@ -75290,7 +75921,7 @@ areális/1004	86
 arcátlan/1003	86
 arctalan/1003	86
 arcszínű/997	86
-archív/1004	86
+archív/1004	23701
 archivális/1004	86
 architekturális/1004	86
 architektonikus/1004	86
@@ -75489,6 +76120,7 @@ alultáplált/986	86
 alultervezett/989	86
 alulmaradt/1075	11225
 alulképzett/989	86
+aluliskolázott/1001	86
 alulinformált/986	86
 alulfizetett/989	86
 alulfinanszírozott/1001	86
@@ -75580,7 +76212,7 @@ alacsonyszintű/1010	86
 alacsonyrendű/997	86
 alacsonyabbrendűségi/988	86
 alacsony/1004	86
-alabástromfehér/989	86
+alabástromfehér/1092	86
 akós/1004	86
 akárhogy/1004	86
 akvarista/1000	86
@@ -75682,6 +76314,7 @@ aerob/1003	86
 adózatlan/1003	86
 adókötelezett/989	86
 adóköteles/987	86
+adójellegű/1048	86
 adys/1002	86
 adyas/1004	86
 adventista/1000	86
@@ -75708,6 +76341,8 @@ acélos/1004	86
 acélkék/989	86
 acsargó/1012	86
 aciklusos/1004	86
+acidoklin/1003	86
+acidofil/1003	86
 abált/986	86
 abu-dzabi/1013	86
 abszurd/1003	86
@@ -75805,6 +76440,7 @@ Závod/212	924
 Závada/219	924
 Zászkaliczky/231	924
 Zárday/221	924
+Zára/219	924
 Zánka/219	924
 Zámor/255	924
 Zámoly/222	924
@@ -75961,7 +76597,7 @@ Zielinski/214	924
 Ziegler/250	924
 Zics/251	924
 Zichyújfalu/219	924
-Zichy/246	17423
+Zichy/246	23702
 Zeyk/1113	924
 Zeusz/243	924
 Zetter/250	924
@@ -75984,8 +76620,8 @@ Zelenyák/255	924
 Zelenka/249	924
 Zelecsényi/214	924
 Zeisszé/36
-Zeisszel/36	924
-Zeiss/1114	17424
+Zeisszel/36
+Zeiss/1114	23703
 Zeichán/255	924
 Zehery/231	924
 Zechmeister/250	924
@@ -76062,7 +76698,11 @@ Zajtay/221	924
 Zajta/219	924
 Zajky/241	924
 Zajk/239	924
-Zaire/218	924
+Zaire-t/47	23704
+Zaire-rá/47	23705
+Zaire-ral/47	23706
+Zaire-/205	23707
+Zaire/218	23708
 Zahn/1109	924
 Zagyvaszántó/219	924
 Zagyvarékas/222	924
@@ -76099,7 +76739,7 @@ Yellowstone
 Ybl/1119	924
 Yaoundé/219	17441
 Yamoussoukro/219	17442
-Yamaha/249	17443
+Yamaha/249	23714
 Yahoo!-vá/47	17444
 Yahoo!-val/47	17445
 Yahoo!-/65	17446
@@ -76177,7 +76817,7 @@ Writer/250	924
 Woyciechowsky/221	924
 Wosinsky/231	924
 Word/1120	924
-Worcester/250	17498
+Worcester/250	23715
 Wonaszek/250	924
 Wolny/241	924
 Wollanka/249	924
@@ -76208,7 +76848,7 @@ Winkler/250	924
 Windsor/212	924
 Windows/1121	17499
 Windisch/224	924
-Windhoek/212	17500
+Windhoek/212	23716
 Winchkler/250	924
 Wimbledon/212	924
 Wilson/255	924
@@ -76224,6 +76864,7 @@ Wilczek/250	924
 Wilcsek/250	924
 Wilckens/224	924
 Wikipédia/249	924
+Wigner/250	924
 Wietorisz/243	924
 Wieser/250	924
 Wierzbicki/214	924
@@ -76231,7 +76872,7 @@ Wiedemann/255	924
 Widder/250	924
 Wiczián/255	924
 Whitman/255	17505
-Weöres/1123	17506
+Weöres/1123	23717
 Weér/250	924
 Weszprémi/214	924
 Weszely/231	924
@@ -76286,8 +76927,8 @@ Weimar/212	924
 Weil/250	924
 Weigl/250	924
 Weierstrasszá/36
-Weierstrasszal/36	924
-Weierstrass/1125	17507
+Weierstrasszal/36
+Weierstrass/1125	23718
 Weichinger/250	924
 Wehrle/214	924
 Wehner/250	924
@@ -76303,7 +76944,7 @@ Wass/240	924
 Washington/212	924
 Wartha/249	924
 Wartenberg/224	924
-Wartburg/243	17508
+Wartburg/243	23719
 Warou/249	924
 Wargha/249	924
 Warga/249	924
@@ -76337,7 +76978,7 @@ Walcher/250	924
 Waisbecker/250	924
 Wahrmann/255	924
 Wahlner/250	924
-Wagner/250	17509
+Wagner/250	23720
 Wachtel/250	924
 WWW-vé/47	17510
 WWW-vel/47	17511
@@ -76381,6 +77022,7 @@ Vöröss/232	924
 Vörösmarty/254	924
 Vörösmart/212	924
 Vörösberény/217	924
+Vörös/232	924
 Vörs/235	924
 Vönöczky/215	924
 Vönöck/234	924
@@ -76530,7 +77172,7 @@ Voltaire	17561
 Volta/249	924
 Volphardus/243	924
 Volny/241	924
-Volkswagen/250	17562
+Volkswagen/250	23721
 Volkmann/255	924
 Volgográd/212	924
 Volga/219	924
@@ -76623,7 +77265,7 @@ Villő/1129	924
 Villási/214	924
 Villánykövesd/223	924
 Villány/222	924
-Villon/255	17572
+Villon/255	23722
 Villing/224	924
 Villez/224	924
 Villax/243	924
@@ -76643,7 +77285,7 @@ Vigántpetend/223	924
 Vigh/1112	924
 Vig/1112	924
 Vietórisz/243	924
-Vietnám/222	17573
+Vietnám/222	23723
 Vientián/212	924
 Vidéky/231	924
 Vidákovitssá/36
@@ -76738,6 +77380,7 @@ Verespatak/212	924
 Veresmarthy/221	924
 Veresegyháza/219	924
 Veresegyház/222	924
+Veres/224	924
 Veredy/231	924
 Vereckei-hágó/219	924
 Vereckei/214	924
@@ -76960,7 +77603,7 @@ Ura/219	924
 Uppony/222	924
 Upor/212	924
 Unkelhäusser/250	924
-Unix/1121	17641
+Unix/1121	23724
 Unicum/243	924
 Unicode-dá/47	17642
 Unicode-dal/47	17643
@@ -77240,7 +77883,7 @@ Turner/250	924
 Turku/219	924
 Turkevei/214	924
 Turkesztán/212	924
-Turing/243	17704
+Turing/243	23725
 Turin/212	924
 Turgenyev/224	924
 Turcsányi/214	924
@@ -77313,6 +77956,7 @@ Toulon/212	924
 Totth/240	924
 Tot/1109	924
 Tost/1109	924
+Toshiba/249	924
 Toscana/219	924
 Torvalds/1125	924
 Torvaj/222	924
@@ -77414,7 +78058,7 @@ Titusz/244	924
 Tittel/250	924
 Tito/249	924
 Titel/223	924
-Titanic/1125	17714
+Titanic/1125	23726
 Tiszántúl/212	924
 Tisztaberek/223	924
 Tiszaújváros/222	924
@@ -77504,7 +78148,7 @@ Timon/255	924
 Timkó/249	924
 Timike/229	924
 Timi/229	924
-Times/1125	17719
+Times/1125	23727
 Timbuktu/219	924
 Tilli/214	924
 Tilla/245	924
@@ -77543,7 +78187,7 @@ Thészeusz/243	924
 Thék/1113	924
 Thébusz/243	924
 Théba/219	924
-Thália/249	17727
+Thália/249	23728
 Tháli/214	924
 Thuróczy/221	924
 Thurzó/249	924
@@ -77557,7 +78201,7 @@ Thoroczkai/214	924
 Thorma/249	924
 Thordai/214	924
 Thomán/255	924
-Thomas/1145	17728
+Thomas/1145	23729
 Thoma/249	924
 Tholdalagi/214	924
 Thirring/224	924
@@ -77580,7 +78224,7 @@ Thallmayer/250	924
 Thalhammer/250	924
 Thalaba/249	924
 Thaisz/243	924
-Thaiföld/1127	17729
+Thaiföld/1127	23730
 Texas/1128	924
 Tevel/223	924
 Tevan/255	924
@@ -77595,7 +78239,7 @@ Tesseni/214	924
 Tessedik/250	924
 Tesla/249	924
 Teskánd/212	924
-Tesco/249	17730
+Tesco/249	23731
 Terézváros/222	924
 Terézia/245	924
 Teréz/1108	924
@@ -77623,7 +78267,7 @@ Teoke/214	924
 Teofil/253	924
 Teodóra/245	924
 Tentzer/250	924
-Tennessee/218	17731
+Tennessee/218	23732
 Tenke/218	924
 Tenk/248	924
 Tengőd/234	924
@@ -77691,7 +78335,7 @@ Tbj.-/172	17746
 Tbj.	17747
 Tbj.	17748
 Tbiliszi/218	924
-Taylor/255	17749
+Taylor/255	23733
 Tavy/241	924
 Tavaszy/221	924
 Tavasi/214	924
@@ -77720,6 +78364,7 @@ Tass/220	924
 Tasnády/221	924
 Tasnád/212	924
 Tasner/250	924
+Tasmania/219	23734
 Tasman-tenger/1147	924
 Taskent/223	924
 Tas/1138	924
@@ -77988,7 +78633,7 @@ Sándorfi/214	924
 Sándorffi/214	924
 Sándorfalva/219	924
 Sándor/253	924
-Sámuel/261	924
+Sámuel/1423	924
 Sámsonháza/219	924
 Sámson/255	924
 Sámod/212	924
@@ -78202,7 +78847,7 @@ Sztambul/212	924
 Sztachovics/243	924
 Szt.	70
 Szrogh/240	924
-Szphinx/1112	17828
+Szphinx/1112	23735
 Szoyer/250	924
 Szováta/219	924
 Szotssá/36
@@ -78326,7 +78971,7 @@ Szin/248	924
 Szimő/216	924
 Szimonidesz/224	924
 Szimonetta/245	924
-Szilícium-völgy/213	17848
+Szilícium-völgy/213	23736
 Szilézia/219	924
 Szilárdy/221	924
 Szilárda/245	924
@@ -78429,6 +79074,7 @@ Szepesfalvy/221	924
 Szepes/217	924
 Szenyér/223	924
 Szenvey/231	924
+Szentírás/243	924
 Szenttamás/222	924
 Szentpéterúr/212	924
 Szentpétery/231	924
@@ -78720,7 +79366,7 @@ Sváby/241	924
 Svábhegy/224	924
 Svehla/249	924
 Svachulay/221	924
-Suzuki/249	17868
+Suzuki/249	23737
 Suva/219	924
 Susa/219	924
 Surány/222	924
@@ -78731,7 +79377,7 @@ Suriname	17872
 Surd/239	924
 Suppan/255	924
 Supka/249	924
-Sun/1109	17873
+Sun/1109	23738
 Sumony/222	924
 Sulán/255	924
 Sulyomi/214	924
@@ -78744,7 +79390,7 @@ Sujánszky/221	924
 Suhayda/249	924
 Suha/249	924
 Sugó/219	924
-Sucre/218	17874
+Sucre/218	23739
 Subich/243	924
 Subaru/249	924
 SuSE-vá/47	17875
@@ -78790,7 +79436,7 @@ Stolp/1109	924
 Stolmár/255	924
 Stollár/255	924
 Stoll/1109	924
-Stokes/1114	17879
+Stokes/1114	23740
 Stoffer/250	924
 Stodola/249	924
 Stoczek/250	924
@@ -78811,7 +79457,7 @@ Stetka/249	924
 Sternberg/224	924
 Sterk/1113	924
 Sterio/249	924
-Stephenson/255	17880
+Stephenson/255	23741
 Stephanides/224	924
 Stendhal/255	924
 Stemmer/250	924
@@ -78876,7 +79522,7 @@ Spilenberger/250	924
 Spilenberg/224	924
 Spielmann/255	924
 Spielenberg/224	924
-Spielberg/224	17893
+Spielberg/224	23742
 Spiegel/250	924
 Spett/1113	924
 Speta/249	924
@@ -78917,7 +79563,7 @@ Sopronhorpács/222	924
 Sopron/212	924
 Soponya/219	924
 Sopianae/218	924
-Sony/241	17898
+Sony/241	23743
 Sonkád/212	924
 Soni/214	924
 Somóczy/221	924
@@ -79085,9 +79731,9 @@ Sierra	950
 Sienkiewiczcé/36
 Sienkiewiczcsé	17910
 Sienkiewiczcsel	17911
-Sienkiewiczcel/36	924
+Sienkiewiczcel/36
 Sienkiewicz/224	17912
-Siemens/1114	17913
+Siemens/1114	23744
 Siegmeth/224	924
 Siebenlinder/250	924
 Sidó/249	924
@@ -79110,7 +79756,7 @@ Shaw-vá/47	17921
 Shaw-val/47	17922
 Shaw-/65	17923
 Shaw	17924
-Shannon/255	17925
+Shannon/255	23745
 Shakespeare-t/47	17926
 Shakespeare-ré/47	17927
 Shakespeare-rel/47	17928
@@ -79148,7 +79794,7 @@ Seprődi/214	924
 Seprényi/214	924
 Sennyey/231	924
 Senn/1113	924
-Seneca/249	17932
+Seneca/249	23746
 Semsey/231	924
 Semperger/250	924
 Semmelweis/1114	17933
@@ -79364,6 +80010,7 @@ Sax/240	924
 Savaria/219	924
 Sauvageot/255	924
 Saupe/214	924
+Saul/253	924
 Sauer/250	924
 Sasvár/212	924
 Sassy/241	924
@@ -79437,7 +80084,7 @@ Sajóbábony/222	924
 Sajó/219	924
 Sajtoskál/212	924
 Sajnovics/243	924
-Saint-Exupéry/1126	17945
+Saint-Exupéry/1126	23747
 Sain/255	924
 Saigon/212	924
 Safrankó/249	924
@@ -79943,7 +80590,7 @@ Rhédey/231	924
 Rhé/214	924
 Rhorer/250	924
 Rhodesia/219	924
-Rhode/218	18102
+Rhode/218	23748
 Rheinfuss/243	924
 Rheda/249	924
 Rh-pozitív/1156	1
@@ -80103,7 +80750,7 @@ Raith/243	924
 Raisz/243	924
 Raiss/243	924
 Rainer/250	924
-Raiffeisen/250	18118
+Raiffeisen/250	23749
 Raics/243	924
 Ragó/249	924
 Ragály/222	924
@@ -80183,20 +80830,17 @@ RAM-má/47	18157
 RAM-mal/47	18158
 RAM-/205	18159
 RAM	18160
-RAM	18161
-Québec/1159	18162
+Québec/1159	23750
 Quittner/250	924
 Quito/219	924
 Quirin/255	924
 Quint/255	924
 Quimby/1126	924
 Quijotés/36	950
-Quijotés/36	924
 Quijoté/1160	18163
 Quijoté/1161	18164
 Quijote/527	18165
-Quijote/527	18166
-Quasimodo/249	18167
+Quasimodo/249	23751
 Qt-vé/47	18168
 Qt-vel/47	18169
 Qt-s/226	18170
@@ -80412,7 +81056,7 @@ Provence-szá/47	18183
 Provence-szal/47	18184
 Provence-/205	18185
 Provence	18186
-Proust/255	924
+Proust/255	23752
 Proszt/1109	924
 Propper/250	924
 Prométheusz/243	924
@@ -80539,7 +81183,7 @@ Polacsek/250	924
 Pokorni/249	924
 Pokoly/243	924
 Pojják/255	924
-Poisson/255	18201
+Poisson/255	23753
 Poháros/243	924
 Pohl/1109	924
 Pogányszentpéter/223	924
@@ -80569,8 +81213,7 @@ Plymouthtá/36
 Plymouthtal/36
 Plymouthszá/47	18206
 Plymouthszal/47	18207
-Plymouthszal	924
-Plymouth/222	18208
+Plymouth/222	23754
 Plutarkhosz/243	924
 Pluhár/255	924
 Plotényi/214	924
@@ -80595,7 +81238,7 @@ Pius/1125	924
 Pityuka/245	924
 Pityu/245	924
 Pitvaros/222	924
-Pittsburgh/1166	18209
+Pittsburgh/1166	23755
 Pitagorasz/243	924
 Pisztóry/221	924
 Pistuka/245	924
@@ -80619,7 +81262,7 @@ Pirchala/249	924
 Pirandello/249	924
 Pipics/224	924
 Pintér/250	924
-Pinocchio/249	18210
+Pinocchio/249	23756
 Pinnye/218	924
 Pinkamindszent/223	924
 Pindarosz/243	924
@@ -80649,9 +81292,9 @@ Pilch/1112	924
 Pikéthy/231	924
 Pikler/250	924
 Pikay/221	924
-Pick/1113	18211
+Pick/1113	23757
 Pichler/250	924
-Picasso/249	18212
+Picasso/249	23758
 Piacsek/250	924
 Piacenzai/214	924
 PiB-tá/47	18213
@@ -80660,17 +81303,17 @@ PiB-os/275	18215
 PiB-/205	18216
 PiB	18217
 Phnompen/223	924
-Philips/1167	18218
+Philips/1167	23759
 Philadelphia/219	924
 Phenjan/212	924
 Pheidiasz/243	924
-PhD-vé/47	18219
+PhD-vé/47	23760
 PhD-vá/47	18219
-PhD-vel/47	18220
+PhD-vel/47	23761
 PhD-val/47	18220
-PhD-s/727	18221
-PhD-/744	18222
-PhD	18223
+PhD-s/727	23762
+PhD-/744	23763
+PhD	23764
 Pfitzner/250	924
 Pfeiffer/250	924
 Pfeifer/250	924
@@ -80784,9 +81427,9 @@ Peregriny/231	924
 Perecsényi/214	924
 Perecse/218	924
 Pere/218	924
-Perczel/250	924
+Perczel/250	23765
 Perbál/212	924
-Pepsi-Cola/242	18231
+Pepsi-Cola/242	23766
 Pepsi/214	924
 Penészlek/223	924
 Penyigey/231	924
@@ -80877,7 +81520,7 @@ Paszlavszky/221	924
 Paszkál/253	924
 Paszab/212	924
 Pastinszky/231	924
-Pasteur/1144	18233
+Pasteur/1144	23767
 Pasteiner/250	924
 Passuth/243	924
 Pasquich/243	924
@@ -80893,6 +81536,7 @@ Parragh/243	924
 Parrag/222	924
 Parnasszus/222	924
 Parmenius/243	924
+Parma/219	924
 Parlaghy/221	924
 Parlaghi/214	924
 Parkváros/222	924
@@ -80925,7 +81569,7 @@ Pandóra/245	924
 Pandula/249	924
 Panczer/250	924
 Pancsova/219	924
-Panasonic/1114	18234
+Panasonic/1114	23768
 Panama/219	924
 Pamír/212	924
 Pamuk/212	924
@@ -81100,7 +81744,7 @@ Oxford/212	924
 Ováry/221	924
 Ovidius/1125	924
 Oulu/219	924
-Ouagadougou/219	18340
+Ouagadougou/219	23769
 Otília/245	924
 Ottó/245	924
 Ottovay/221	924
@@ -81138,7 +81782,7 @@ Oslo/219	924
 Osli/218	924
 Oslay/221	924
 Osgyán/212	924
-Oscar/255	924
+Oscar/255	23770
 Ory/241	924
 Orwellé/36
 Orwellel/36
@@ -81177,7 +81821,7 @@ Orléans-nal/47	18345
 Orléans-/205	18346
 Orléans	18347
 Orllé/249	924
-Orleans/776	18348
+Orleans/776	23771
 Orlay/221	924
 Orlai/214	924
 Orion/255	924
@@ -81237,7 +81881,7 @@ OpenBSD-vel/47	18379
 OpenBSD-s/226	18380
 OpenBSD-/172	18381
 OpenBSD	18382
-Opel/260	924
+Opel/1462	924
 Opata/249	924
 Onyega-tó/148	18383
 Ontario-tó/148	18384
@@ -81352,6 +81996,13 @@ ORFK-val/47	18427
 ORFK-s/275	18428
 ORFK-/65	18429
 ORFK	18430
+OPEC-ké/47	23772
+OPEC-kel/47	23773
+OPEC-es/226	23774
+OPEC-cé/47	23772
+OPEC-cel/47	23773
+OPEC-/195	23775
+OPEC	23776
 OOo-vá/47	18431
 OOo-val/47	18432
 OOo-s/275	18433
@@ -81581,7 +82232,7 @@ Novaj/222	924
 Nova/219	924
 Notter/250	924
 Nottenstein/250	924
-Notre-Dame/508	18497
+Notre-Dame/508	23777
 Noszvaj/222	924
 Noszty/241	924
 Noszlopy/221	924
@@ -81602,10 +82253,10 @@ Nokia/249	924
 Nohrer/250	924
 Nogáll/255	924
 Noffry/241	924
-Nobel/260	924
+Nobel/1462	924
 Nizza/219	924
 Nizsalovszky/221	924
-Nissan/255	18498
+Nissan/255	23778
 Nirschy/246	924
 Nimród/255	924
 Nil/1113	924
@@ -81631,7 +82282,7 @@ Niki/229	924
 Nikelszky/231	924
 Nigéria/219	924
 Niger/223	924
-Nietzsche/214	18502
+Nietzsche/214	23779
 Nietschmann/255	924
 Niedermayer/250	924
 Niczky/246	924
@@ -81645,11 +82296,12 @@ Niamey-vel/47	18504
 Niamey-/172	18505
 Niamey	18506
 Niagara/219	924
-Niño/249	18507
+Niño/249	23780
 Nezvál/255	924
 Ney/246	924
-Nexø/1106	924
+Nexø/1106	23781
 Newton/255	924
+New/248	23782
 New/248	18508
 Nevada/219	924
 Neuwirth/243	924
@@ -81657,9 +82309,9 @@ Neuschloss/243	924
 Neumannál/36
 Neumanná/36
 Neumannal/36
-Neumannak/36	924
+Neumannak/36
 Neumann-né/345	18509
-Neumann/1155	18510
+Neumann/1155	23783
 Neuhold/255	924
 Neugebauer/250	924
 Neufeld/250	924
@@ -81947,6 +82599,11 @@ NFS-sel/47	18556
 NFS-es/226	18557
 NFS-/195	18558
 NFS	18559
+NER-ré/47	23784
+NER-rel/47	23785
+NER-es/226	23786
+NER-/195	23787
+NER	23788
 NDK-vá/47	18560
 NDK-val/47	18561
 NDK-s/275	18562
@@ -81978,8 +82635,7 @@ NASA	18586
 N-ná/47	18587
 N-nal/47	18588
 N-/205	18589
-N-/264	924
-N’Djamena/219	18590
+N’Djamena/219	23789
 N	18591
 Münster/250	924
 Münnich/224	924
@@ -82002,7 +82658,7 @@ Mózer/250	924
 Mórágy/222	924
 Mórocz/243	924
 Móritz/243	924
-Móricz/243	924
+Móricz/243	23790
 Móricka/245	924
 Mórichida/219	924
 Móricgát/212	924
@@ -82209,7 +82865,7 @@ Moór/255	924
 Mozsonyi/214	924
 Mozsgó/219	924
 Mozilla/249	924
-Mozart/255	18624
+Mozart/255	23791
 Mozambik/223	924
 Moussong/243	924
 Moszkvics/243	924
@@ -82242,7 +82898,7 @@ Morse	18631
 MorphoLogic/1169	924
 Morosini/214	924
 Morinyi/214	924
-Moresby/776	18632
+Moresby/776	23792
 Morelli/214	924
 Mordvinföld/1127	924
 Morbitzer/250	924
@@ -82356,7 +83012,7 @@ Miákitscsal/47	18662
 Miákits/243	18663
 Mitterpacher/250	924
 Mittay/221	924
-Mitsubishi/214	18664
+Mitsubishi/214	23793
 Mitrovics/243	924
 Mitrovica/219	924
 Mithras/243	924
@@ -82366,7 +83022,7 @@ Misztótfalusi/249	924
 Miszti/214	924
 Miszla/219	924
 Missouri/218	924
-Mississippi/218	18665
+Mississippi/218	23794
 Misoga/249	924
 Misna/249	924
 Misley/231	924
@@ -82386,7 +83042,7 @@ Mirella/245	924
 Mira/249	924
 Mináry/221	924
 Minszk/248	924
-Minnesota/219	18666
+Minnesota/219	23795
 Minich/224	924
 Minerva/249	924
 Mindszenty/1126	924
@@ -82488,9 +83144,9 @@ Micsk/1113	924
 Micsinai/214	924
 Microsoft/711	924
 Micimackó/249	924
-Michigan/212	18673
+Michigan/212	23796
 Michelangelo/249	924
-Michael/225	18674
+Michael/225	23797
 Miasszonyunk/142	924
 Mianmar/212	924
 Miami/219	924
@@ -82563,7 +83219,8 @@ Mericzay/221	924
 Merenye/218	924
 Mercédesz/1108	924
 Mercy/246	924
-Mercedes/1114	18680
+Merci/214	924
+Mercedes/1114	23798
 Mercader/250	924
 Menyhért/225	924
 Menyhárth/243	924
@@ -82578,6 +83235,7 @@ Mendrei/214	924
 Mendlik/250	924
 Mendelényi/214	924
 Mendelssohn/255	924
+Mendel/250	924
 Mende/218	924
 Menczer/250	924
 Mencshely/217	924
@@ -82661,7 +83319,7 @@ MeV-tal/47	18690
 MeV-os/275	18691
 MeV-/205	18692
 MeV	18693
-McDonald’s/1125	18694
+McDonald’s/1125	23799
 Mbabane/218	924
 Mazák/255	924
 Mazzantini/214	924
@@ -82690,7 +83348,7 @@ Maupassant	18699
 Maulbertsch/224	924
 Mauksch/243	924
 Mauks/243	924
-Maugham/243	18700
+Maugham/243	23800
 Maucha/249	924
 Matáv/243	924
 Matány/243	924
@@ -82733,7 +83391,7 @@ Maszlaghy/221	924
 Maszkat/212	924
 Massány/243	924
 Masszi/214	924
-Massachusetts/217	18707
+Massachusetts/217	23801
 Masopust/255	924
 Mason/255	924
 Maseru/219	924
@@ -82746,7 +83404,7 @@ Maróc/222	924
 Maráza/219	924
 Marányi/214	924
 Maryland/212	924
-Mary/1177	18708
+Mary/1177	23802
 Marx/240	924
 Marvalitssá/36
 Marvalitssal/36
@@ -82869,7 +83527,7 @@ Marcellá/36
 Marcellel/36
 Marcellal/36
 Marcella/245	924
-Marcell/261	924
+Marcell/1423	924
 Marcaltő/216	924
 Marcali/219	924
 Marcalgergelyi/218	924
@@ -83042,6 +83700,7 @@ Magnyitogorszk/212	924
 Magner/250	924
 Maglód/212	924
 Maglóca/219	924
+Magellán/255	924
 Magduska/245	924
 Magdus/244	924
 Magdolna/245	924
@@ -83061,7 +83720,7 @@ Madáchhal/36
 Madáchcsá/47	18755
 Madáchcsal/47	18756
 Madách-csal/36
-Madách/243	18757
+Madách/243	23803
 Madzsar/255	924
 Madrid/212	924
 Mados/243	924
@@ -83079,7 +83738,7 @@ Macskássy/221	924
 Macsali/214	924
 Macromedia/249	924
 Mack/1109	924
-Macintosh/1121	18758
+Macintosh/1121	23804
 Machán/255	924
 Machiavelli/508	924
 Mach/240	924
@@ -83117,6 +83776,12 @@ MTA-s/275	18786
 MTA-i/204	18787
 MTA-/65	18788
 MTA	18789
+MSc-vé/47	23805
+MSc-vel/47	23806
+MSc-s/226	23807
+MSc-et/1463	23808
+MSc-/172	23809
+MSc	23810
 MSZP-vé/47	18790
 MSZP-vel/47	18791
 MSZP-s/226	18792
@@ -83481,7 +84146,7 @@ Lorentzcé	18977
 Lorentzcel	18978
 Lorentz/224	924
 Lorenthey/231	924
-Lorca/249	924
+Lorca/249	23811
 Lora/245	924
 Lontay/221	924
 Lontai/214	924
@@ -83662,6 +84327,7 @@ Leone	950
 Leonardo/249	924
 Leona/245	924
 Lenti/218	924
+Lenovo/249	924
 Lenkey/231	924
 Lenkeffy/231	924
 Lenke/229	924
@@ -83801,7 +84467,7 @@ Lamotte/214	924
 Lamnitzer/250	924
 Lamm/240	924
 Lambrecht/250	924
-Lamborghini/214	19028
+Lamborghini/214	23812
 Lamberg/224	924
 Lalika/245	924
 Lali/245	924
@@ -84106,6 +84772,7 @@ Károlyi/242	924
 Károlyháza/219	924
 Károly/244	924
 Károli/249	924
+Kármán/255	924
 Kármen/225	924
 Kára/219	924
 Káptalantóti/219	924
@@ -84255,8 +84922,8 @@ Kubitsch/243	924
 Kubinyi/214	924
 Kubacska/249	924
 Kuba/219	924
-Kuala	924
-Ku-Klux-Klan/711	19105
+Kuala
+Ku-Klux-Klan/711	23813
 Ktv.	70
 Kt.-vé/47	19106
 Kt.-vel/47	19107
@@ -84364,7 +85031,7 @@ Kozmadombja/219	924
 Kozma/249	924
 Kozina/249	924
 Koy/241	924
-Kováts/243	924
+Kováts/243	23814
 Kovásznay/221	924
 Kovászna/219	924
 Kovárzik/255	924
@@ -84379,7 +85046,7 @@ Kováchhá/36
 Kováchhal/36
 Kováchcsá/47	19116
 Kováchcsal/47	19117
-Kovách/243	19118
+Kovách/243	23815
 Kovrig/243	924
 Kovatsitssá/36
 Kovatsitssal/36
@@ -84411,7 +85078,7 @@ Koszeghi/214	924
 Kosutány/243	924
 Kossányi/214	924
 Kossutány/243	924
-Kossuth/243	924
+Kossuth/243	23816
 Kossuch/243	924
 Kossovitssá/36
 Kossovitssal/36
@@ -84446,7 +85113,7 @@ Korolovszky/221	924
 Koroknay/221	924
 Koroda/249	924
 Kornélia/245	924
-Kornél/261	924
+Kornél/253	924
 Kornstein/250	924
 Korniss/243	924
 Kornis/243	924
@@ -84948,6 +85615,7 @@ Kend/248	924
 Kenczler/250	924
 Keményfy/231	924
 Keményffy/231	924
+Kemény/224	924
 Keménfa/219	924
 Keméndy/231	924
 Kemse/218	924
@@ -84997,7 +85665,7 @@ Kecskéd/223	924
 Kecskeméthy/231	924
 Kecskemét/223	924
 Kecel/223	924
-Keats/1184	19151
+Keats/1184	23817
 Kbt.-vé/47	19152
 Kbt.-vel/47	19153
 Kbt.-s/226	19154
@@ -85019,7 +85687,7 @@ Kazahsztán/212	924
 Kazacsay/221	924
 Kayser/250	924
 Kayr/1109	924
-Kawasaki/249	19159
+Kawasaki/249	23818
 Kautz/243	924
 Kauser/250	924
 Kaukázus/222	924
@@ -85054,6 +85722,7 @@ Kaszab/255	924
 Kastélyosdombó/219	924
 Kastner/250	924
 Kassák/255	924
+Kassziopeia/249	924
 Kasszandra/249	924
 Kassowitz/243	924
 Kassitzky/231	924
@@ -85189,7 +85858,7 @@ Kalota/219	924
 Kalocsay/221	924
 Kalocsa/219	924
 Kalmükföld/1127	924
-Kalmopyrin/250	19162
+Kalmopyrin/250	23819
 Kallósd/212	924
 Kallós/222	924
 Kallivoda/249	924
@@ -85399,6 +86068,7 @@ Jánoky/221	924
 Jánkmajtis/222	924
 Jánk/239	924
 Jánd/239	924
+Jámbor/255	924
 Jálics/243	924
 Jákó/219	924
 Jáky/241	924
@@ -85446,7 +86116,7 @@ Jucika/245	924
 Juci/245	924
 Jubál/255	924
 Juba/249	924
-Juan/212	19234
+Juan/212	23820
 Joós/243	924
 Joó/249	924
 Joyce-t/47	19235
@@ -85464,19 +86134,20 @@ Jordánia/219	924
 Jordán/212	924
 Jordáky/221	924
 Jordan/255	924
-Jones/1145	19240
+Jones/1145	23821
 Jonatán/253	924
 Jolánkai/214	924
 Jolán/253	924
 Jolsvai/214	924
 Joli/245	924
 Jokohama/219	924
-John/1110	19241
+John/1110	23822
 Johannesburg/222	924
 Johanna/245	924
 Johan/255	924
 Jocóka/245	924
 Jocó/245	924
+Joci/245	924
 Jobbágyi/219	924
 Jobbik/255	924
 Jobaháza/219	924
@@ -85517,6 +86188,8 @@ Jehova/249	924
 Jehlicska/249	924
 Jedlik/250	924
 Jedlicska/249	924
+Jeanne d’Arc/1125	23823
+Jeanne/229	23823
 JavaScript/252	924
 Java/249	924
 Jausz/243	924
@@ -85640,7 +86313,7 @@ Izsák/1140	924
 Izrael/223	924
 Izolda/245	924
 Izmény/217	924
-Izmael/261	924
+Izmael/1423	924
 Izland/212	924
 Izidor/253	924
 Izdenczy/231	924
@@ -85717,6 +86390,7 @@ Irma/245	924
 Irkutszk/212	924
 Irk/1113	924
 Irisz/1108	924
+Irinyi/214	924
 Irene/214	924
 Iregszemcse/218	924
 Ircsik/250	924
@@ -85736,7 +86410,7 @@ Ipolyi/214	924
 Ipolydamásd/212	924
 Ipoly/244	924
 Ipacsfa/219	924
-Iowa/219	19307
+Iowa/219	23824
 Inárcs/222	924
 Ináncs/222	924
 Interpol/255	924
@@ -85837,7 +86511,7 @@ Igmándy/221	924
 Igló/219	924
 Igar/212	924
 Igal/212	924
-Idaho/219	19316
+Idaho/219	23825
 Ida/245	924
 Icuka/245	924
 Icu/245	924
@@ -85935,11 +86609,11 @@ IBUSZ-szal/47	19388
 IBUSZ-os/275	19389
 IBUSZ-/205	19390
 IBUSZ	19391
-IBM-mé/47	19392
-IBM-mel/47	19393
-IBM-es/226	19394
-IBM-/195	19395
-IBM	19396
+IBM-mé/47	23826
+IBM-mel/47	23827
+IBM-es/226	23828
+IBM-/195	23829
+IBM	23830
 I-es/363	86
 Hüvös/232	924
 Hüttner/250	924
@@ -86032,11 +86706,11 @@ Hyundait/47	19414
 Hyundaiot/36
 Hyundaijá/47	19415
 Hyundaijal/47	19416
-Hyundaijal	924
+Hyundai/1193	23831
 Hyundai/1193	19417
 Huzián/255	924
 Huzella/249	924
-Huygens/1114	19418
+Huygens/1114	23832
 Huxley-vé/47	19419
 Huxley-vá/47	19420
 Huxley-vel/47	19421
@@ -86203,7 +86877,7 @@ Hollóháza/219	924
 Holländer/250	924
 Hollán/255	924
 Hollád/212	924
-Hollywood/255	19455
+Hollywood/255	23833
 Hollub/255	924
 Hollendonner/250	924
 Hollay/221	924
@@ -86336,7 +87010,7 @@ Hervay/221	924
 Hertzzé/36
 Hertzzel/36
 Hertzka/249	924
-Hertz/1112	19468
+Hertz/1112	23834
 Hertelendyfalva/219	924
 Hertelendy/231	924
 Herrmann/255	924
@@ -86408,7 +87082,7 @@ Hencz/1112	924
 Hencse/218	924
 Henckel/250	924
 Hencida/219	924
-Hemingway/1196	19473
+Hemingway/1196	23835
 Helén/225	924
 Helvécia/219	924
 Helvey/231	924
@@ -86483,9 +87157,13 @@ Hecker/250	924
 Heckenast/255	924
 Hebrida/247	924
 Hebenstreit/250	924
+Heathrow-vá/47	23836
+Heathrow-val/47	23837
+Heathrow-/65	23838
+Heathrow	23839
 Haáz/243	924
 Haász/243	924
-Hašek/260	19476
+Hašek/260	23840
 Hazucha/249	924
 Hazslinszky/231	924
 Hazay/221	924
@@ -86494,7 +87172,7 @@ Haynau/249	924
 Haynald/255	924
 Haynal/255	924
 Haydn/1109	924
-Hawaii/218	19477
+Hawaii/218	23841
 Havrila/249	924
 Havassy/221	924
 Havass/243	924
@@ -86529,7 +87207,7 @@ Hartmann/255	924
 Hartleben/250	924
 Harta/219	924
 Harsány/222	924
-Harry/1177	19478
+Harry/1177	23842
 Harruckern/250	924
 Harrer/250	924
 Harrach/243	924
@@ -86601,7 +87279,7 @@ Hampshire-/1117	19485
 Hampshire	19486
 Hampel/250	924
 Hamon/255	924
-Hamming/224	19487
+Hamming/224	23843
 Hammersehlag/243	924
 Hammersberg/224	924
 Hamlet/250	924
@@ -86742,6 +87420,11 @@ HIV-vel/47	19531
 HIV-es/226	19532
 HIV-/195	19533
 HIV	19534
+HBO-vá/47	23844
+HBO-val/47	23845
+HBO-s/275	23846
+HBO-/65	23847
+HBO	23848
 HB-vé/47	19535
 HB-vel/47	19536
 HB-s/226	19537
@@ -87024,14 +87707,14 @@ Guszti/245	924
 Guszmann/255	924
 Guoth/243	924
 Gundelfinger/250	924
-Gundel/260	924
+Gundel/1462	924
 Gunaras/222	924
 Gulácsy/221	924
 Gulács/222	924
 Gulliver/250	924
 Guinnesszé/36
 Guinnesszel/36
-Guinness/1114	924
+Guinness/1114	23849
 Guinea/219	924
 Guhr/1109	924
 Guevara/249	924
@@ -87096,7 +87779,7 @@ Grimm/1112	924
 Grigercsik/250	924
 Griger/250	924
 Grexa/249	924
-Gresham/1196	19580
+Gresham/1196	23850
 Greschik/250	924
 Grenada/219	924
 Greksa/249	924
@@ -87109,8 +87792,8 @@ Gregersen/250	924
 Greenwichhé/36
 Greenwichhel/36
 Greenwichcsé	19581
-Greenwichcsel	19582
-Greenwich/217	19583
+Greenwichcsel	23851
+Greenwich/217	23852
 Greenpeace-t/47	19584
 Greenpeace-szé/47	19585
 Greenpeace-szel/47	19586
@@ -87120,13 +87803,13 @@ Grecsák/255	924
 Grazzá/36
 Grazzal/36
 Grazcá	19589
-Grazcal	19590
-Graz/220	19591
+Grazcal	23853
+Graz/220	23854
 Gratz/240	924
 Grastyán/255	924
 Grassy/241	924
 Grassalkovich/243	924
-Graphisoft/255	19592
+Graphisoft/255	23855
 Grantner/250	924
 Granek/250	924
 Grandpierre/214	924
@@ -87142,7 +87825,7 @@ Grabovszky/221	924
 Grabner/250	924
 Gozsdu/249	924
 Gozmány/243	924
-Goya/242	19593
+Goya/242	23856
 Gottsegen/250	924
 Gottlieb/250	924
 Gotthardi/214	924
@@ -87195,8 +87878,9 @@ Gohl/1109	924
 Gogolák/255	924
 Gogol/255	924
 Gogh/1186	19599
-Goethe/214	19600
+Goethe/214	23857
 Goebel/250	924
+Goebbels/1114	23858
 Godó
 Godisa/219	924
 Goda/249	924
@@ -87262,7 +87946,7 @@ Ghillány/243	924
 Geöcze/214	924
 Geőcze/214	924
 Geyer/250	924
-Getsemáne-kert/250	19615
+Getsemáne-kert/250	23859
 Geszti/218	924
 Gesztes/217	924
 Geszteréd/223	924
@@ -87271,7 +87955,7 @@ Gesztely/217	924
 Geszt/248	924
 Geszler/250	924
 Gestetner/250	924
-Gestapo/249	19616
+Gestapo/249	23860
 Gesta
 Gesell/250	924
 Geschwind/250	924
@@ -87297,6 +87981,7 @@ Gerlóczy/221	924
 Gerla/219	924
 Gerl/1113	924
 Gerjen/223	924
+Geri/229	924
 Gerhárdt/255	924
 Gergő/1129	924
 Gergelyiugornya/219	924
@@ -87387,7 +88072,7 @@ Gaulle-i/204	19632
 Gaulle-/205	19633
 Gaulle	19634
 Gaul/255	924
-Gauguin/255	19635
+Gauguin/255	23861
 Gaudí/249	924
 Gasztony/222	924
 Gaszner/250	924
@@ -87569,11 +88254,11 @@ GHz-cé/47	19722
 GHz-cel/47	19723
 GHz-/195	19724
 GHz	19725
-GDP-vé/47	19726
-GDP-vel/47	19727
-GDP-s/226	19728
-GDP-/172	19729
-GDP	19730
+GDP-vé/47	23862
+GDP-vel/47	23863
+GDP-s/226	23864
+GDP-/172	23865
+GDP	23866
 GBP-vé/47	19731
 GBP-vel/47	19732
 GBP-t/47	19733
@@ -87680,6 +88365,7 @@ Funk/1109	924
 Fundland/212	924
 Fulókércs/217	924
 Fuker/250	924
+Fujitsu/249	924
 Fugulyán/255	924
 Fudzsi/218	924
 Fucskó/249	924
@@ -87850,6 +88536,7 @@ Flaubert-et/36
 Flaubert-/195	19801
 Flaubert	19802
 Flatt/1109	924
+Flandria/219	924
 Flamm/240	924
 Flachbarth/243	924
 Flach/240	924
@@ -87864,7 +88551,7 @@ Fisch/1112	924
 Firtos/243	924
 Firtinger/250	924
 Firenze/218	924
-Firefox/243	19803
+Firefox/243	23867
 Firebird/1144	924
 Firbás/243	924
 Fiora/249	924
@@ -88013,6 +88700,7 @@ Feketeházy/221	924
 Feketehegy/217	924
 Feketehalom/220	924
 Feketeerdő/216	924
+Fekete/214	924
 Feked/223	924
 Fejős/232	924
 Fejérváry/221	924
@@ -88033,6 +88721,7 @@ Fehéroroszország/222	924
 Fehérlófia/249	924
 Fehérgyarmat/212	924
 Fehéregyháza/219	924
+Fehér/250	924
 Fehrentheil/250	924
 Fegyvernek/223	924
 Fedémes/217	924
@@ -88052,7 +88741,7 @@ Fayette	19818
 Fayer/250	924
 Faust/255	924
 Fauser/250	924
-Faulkner/250	19819
+Faulkner/250	23868
 Fatime/229	924
 Fatima/245	924
 Fassola/249	924
@@ -88071,7 +88760,7 @@ Farkasdy/221	924
 Farkas/244	924
 Farczády/221	924
 Farbaky/221	924
-Faraday/1202	19820
+Faraday/1202	23869
 Fanni/245	924
 Fangh/240	924
 Fancsika/219	924
@@ -88168,7 +88857,7 @@ Exchange-dzsé/47	19868
 Exchange-dzsel/47	19869
 Exchange-/195	19870
 Exchange	19871
-Excel/250	19872
+Excel/250	23870
 Excalibur/255	924
 Evva/249	924
 Evolution/1144	924
@@ -88180,7 +88869,7 @@ Európa/219	924
 Eurázsia/219	924
 Eurovízió/249	924
 Euripidész/224	924
-Euler/250	19873
+Euler/250	23871
 Eukleidész/224	924
 Eugénia/245	924
 Eufrátesz/217	924
@@ -88334,7 +89023,7 @@ Emődi/214	924
 Emőd/1201	924
 Emő/1129	924
 Emília/245	924
-Emánuel/261	924
+Emánuel/1423	924
 Emszt/1113	924
 Emmer/250	924
 Emma/245	924
@@ -88368,7 +89057,7 @@ Elefántcsontpart/212	924
 Elbrusz/243	924
 Elbert/250	924
 Elba/249	924
-El Niño/249	19884
+El Niño/249	23872
 El-Ajún/1171	924
 Ekrem/224	924
 Ekkert/250	924
@@ -88407,12 +89096,12 @@ Egyesy/231	924
 Egyek/223	924
 Egyed/1205	924
 Egry/246	924
-Egressy/1126	924
+Egressy/1126	23873
 Egregy/217	924
 Egonka/245	924
 Egon/253	924
 Egmont/253	924
-Egis/1114	19888
+Egis/1114	23874
 Egger/250	924
 Egerág/222	924
 Egervölgy/213	924
@@ -88432,24 +89121,24 @@ Eger/1147	924
 Egan/255	924
 Edömér/225	924
 Edőcs/232	924
-Edward/255	19889
+Edward/255	23875
 Edvi/214	924
 Edve/218	924
 Eduárd/253	924
 Editke/229	924
 Edit/225	924
 Edison/255	924
-Edinburgh-vá/47	19890
-Edinburgh-val/47	19891
-Edinburgh-/65	19892
-Edinburgh	19893
+Edinburgh-vá/47	23876
+Edinburgh-val/47	23877
+Edinburgh-/65	23878
+Edinburgh	23879
 Edina/245	924
 Edelény/217	924
 Edelspacher/250	924
 Edelsheim/224	924
 Ede/229	924
 Edde/218	924
-Ecuador/212	19894
+Ecuador/212	23880
 Ecséd/223	924
 Ecser/223	924
 Ecseny/217	924
@@ -88635,7 +89324,7 @@ Dzsenifer/225	924
 Dzsalálábád/212	924
 Dzsakarta/219	924
 Dybisewszky/231	924
-Dvořák/255	19970
+Dvořák/255	23881
 Dvorák/255	924
 Duzár/255	924
 Duxler/250	924
@@ -88799,7 +89488,6 @@ Doneck/223	924
 Donatello/249	924
 Donald/253	924
 Don Quijotés/36	19983
-Don Quijotés/36	19984
 Don Quijoté/1208	19985
 Don Quijoté/1209	19984
 Don Quijote/527	19983
@@ -88890,7 +89578,7 @@ Ditróy/221	924
 Ditró/219	924
 Ditke/229	924
 Diszel/223	924
-Disneyland/1158	19994
+Disneyland/1158	23882
 Disney-vé/47	19995
 Disney-vel/47	19996
 Disney-/172	19997
@@ -88940,7 +89628,7 @@ Devich/224	924
 Devecser/223	924
 Devecis/224	924
 Deutsek/250	924
-Deutsch/243	924
+Deutsch/243	23883
 Dettre/214	924
 Detti/229	924
 Detsi/214	924
@@ -89012,7 +89700,7 @@ Decsy/246	924
 Decs/251	924
 Decrett/250	924
 Deccard/255	924
-Debussy/1126	20018
+Debussy/1126	23884
 Debrőczi/214	924
 Debréte/218	924
 Debreczy/231	924
@@ -89028,7 +89716,7 @@ Daróczy/221	924
 Daróczi/214	924
 Darázsi/218	924
 Darány/222	924
-Darwin/255	924
+Darwin/255	23885
 Darvas/222	924
 Daruváry/221	924
 Daruszentmiklós/222	924
@@ -89084,7 +89772,7 @@ Damjanichhal/36
 Damjanichcsá/47	20031
 Damjanichcsal/47	20032
 Damjanich-csal/36
-Damjanich/243	20033
+Damjanich/243	23886
 Damaszkusz/222	924
 Damaszkin/255	924
 Damak/212	924
@@ -89099,16 +89787,16 @@ Dakka/219	924
 Dakar/212	924
 Dajbukát/255	924
 Dajaszászy/221	924
-Daihatsu/249	20034
+Daihatsu/249	23887
 Daidalosz/243	924
 Dagobert/261	924
 Dagesztán/212	924
-Daewoo/249	20035
+Daewoo/249	23888
 Daday/221	924
 Dad/239	924
 Daczi
 Dacsó/249	924
-Dacia/249	20036
+Dacia/249	23889
 Dabólczi/214	924
 Dabóczi/214	924
 Dabrónaki/214	924
@@ -89331,7 +90019,7 @@ Czakó/249	924
 Czagány/243	924
 Czabán/255	924
 Czabai/214	924
-Cyrano/249	20170
+Cyrano/249	23890
 Cyprian/255	924
 Cupido/249	924
 Csüry/1107	924
@@ -89634,7 +90322,7 @@ Cromwellel/36
 Cromwell/250	924
 Cro-Magnon/1171	924
 Creutzfeldt–Jakob-kór/31	1
-Creutzfeldt/250	20185
+Creutzfeldt/250	23891
 Crettier/250	924
 Cousteau-vá/47	20186
 Cousteau-val/47	20187
@@ -89659,10 +90347,10 @@ Cora/249	924
 Coop/255	924
 Cook-szigeteki/1179	20195
 Cook-szigetek/317	20196
-Cook/255	20197
+Cook/255	23892
 Constantia/249	924
 Conrad/255	924
-Connecticut/212	20198
+Connecticut/212	23893
 Conlegner/250	924
 Concilia/249	924
 Concha/249	924
@@ -89675,11 +90363,11 @@ Commodore-/205	20203
 Commodore	20204
 Comensoli/214	924
 Comenius/1169	924
-Colosseum/243	20205
+Colosseum/243	23894
 Colorado/219	924
 Colombo/219	924
 Colbrie/214	924
-Coca-Cola/242	20206
+Coca-Cola/242	23895
 Coberus/243	924
 Co.-vá/47	20207
 Co.-val/47	20208
@@ -89700,7 +90388,7 @@ Claudius/1125	924
 Clark/1109	924
 Clair/255	924
 Claader/250	924
-Citroën/250	20216
+Citroën/250	23896
 Ciszjordánia/219	924
 Cisco/249	924
 Cirák/212	924
@@ -89722,8 +90410,8 @@ Cibakháza/219	924
 Cházár/255	924
 Chyzer/1113	924
 Chytil/1113	924
-Churchillel/36	924
-Churchill/250	20217
+Churchillel/36
+Churchill/250	23897
 Chudy/241	924
 Chrysler/1113	924
 Chrome-má/47	20218
@@ -89732,7 +90420,7 @@ Chrome-/205	20220
 Chrome	20221
 Chován/255	924
 Chopin/250	20222
-Chomsky/1139	20223
+Chomsky/1139	23898
 Choma/249	924
 Cholnoky/221	924
 Chobot/255	924
@@ -89748,7 +90436,6 @@ Cheért/47	20226
 Cheék/131	20227
 Cheé/132	20228
 Chevé/47	20229
-Chevé	924
 Chevrolet/252	20230
 Chevel/47	20231
 Chetől/47	20232
@@ -89762,8 +90449,7 @@ Chenél/47	20236
 Chenot/255	924
 Chenek/47	20237
 Chen/47	20238
-Chen	924
-Chemnitz/217	20239
+Chemnitz/217	23899
 Cheje/132	20240
 Cheig/47	20241
 Chehez/47	20242
@@ -89771,21 +90457,20 @@ Cheből/47	20243
 Cheben/47	20244
 Chebe/47	20245
 Che/47	20246
-Che	20247
-Chaucer/250	20248
+Chaucer/250	23900
 Charousek/250	924
 Charlie-vá/47	20249
 Charlie-val/47	20250
 Charlie-/65	20251
 Charlie	20252
-Charles/1145	20253
+Charles/1145	23901
 Chappon/255	924
 Chaplin/250	20254
-Champs-Élysées/217	20255
+Champs-Élysées/217	23902
 Chalupetzky/231	924
 Chagallá/36
-Chagallal/36	924
-Chagall/255	20256
+Chagallal/36
+Chagall/255	23903
 Ceylon/212	924
 Cervantes/1167	924
 Cernovic/243	924
@@ -89794,7 +90479,7 @@ Cered/223	924
 Cerbona/249	924
 Cerberus/1169	924
 Cenner/250	924
-Celsius/1125	924
+Celsius/1125	23904
 Celldömölk/234	924
 Celesztin/225	924
 Celebesz/217	924
@@ -89804,7 +90489,7 @@ Cecília/245	924
 Cecilián/253	924
 Cecil/225	924
 Cece/218	924
-Ceaușescu/249	20257
+Ceaușescu/249	23905
 Ce-tung/1121	924
 Cayenne-t/47	20258
 Cayenne-né/47	20259
@@ -89812,26 +90497,26 @@ Cayenne-nel/47	20260
 Cayenne-et/36
 Cayenne-/195	20261
 Cayenne	20262
-Cavinton/255	20263
+Cavinton/255	23906
 Cavallier/250	924
-Cauchy/221	20264
+Cauchy/221	23907
 Catullus/1125	924
 Cathry/241	924
 Castiglione/214	924
 Casanova/242	924
 Casablanca/219	924
 Carrara/219	924
-Carmen/260	20265
+Carmen/260	23908
 Carlói/36
 Carina/249	924
 Caracas/1128	924
 CapsLock
 Capri/218	924
 Capa/249	924
-Caola/249	20266
+Caola/249	23909
 Canzi/214	924
 Canossa/249	924
-Canon/255	20267
+Canon/255	23910
 Cannes-ná/47	20268
 Cannes-nal/47	20269
 Cannes-/205	20270
@@ -89862,7 +90547,7 @@ Calais	20289
 Cakóháza/219	924
 Cakó/219	924
 Caesar/255	20290
-Cadillac/1214	20291
+Cadillac/1214	23911
 Cabinda/219	924
 CT-vé/47	20292
 CT-vel/47	20293
@@ -90059,7 +90744,7 @@ Bécs/251	924
 Béber/250	924
 Béb/248	924
 Bächer/1113	924
-Bázel/1207	924
+Bázel/1464	924
 Bázakerettye/218	924
 Bátya/219	924
 Bátory/221	924
@@ -90145,6 +90830,11 @@ Bábonymegyer/223	924
 Bábolnay/221	924
 Bábolna/219	924
 Bábel/223	924
+BÚÉK-os/275	23912
+BÚÉK-ká/47	23913
+BÚÉK-kal/47	23914
+BÚÉK-/205	23915
+BÚÉK	23916
 BÉT-té/47	20370
 BÉT-tel/47	20371
 BÉT-es/226	20372
@@ -90162,15 +90852,15 @@ Burgundia/219	924
 Burghardt/255	924
 Burgenland/212	924
 Burda/219	924
-Bunsen/250	924
-Bundeswehr/250	20376
+Bunsen/250	23917
+Bundeswehr/250	23918
 Bulgária/219	924
 Bulgakov/243	924
 Bulcsú/245	924
 Bukovina/219	924
 Bukarest/223	924
 Buják/212	924
-Bujumbura/219	20377
+Bujumbura/219	23919
 Buj/220	924
 Buick/250	924
 Bugzilla/249	924
@@ -90243,18 +90933,18 @@ Bruna/249	924
 Brumiller/250	924
 Brumi/249	924
 Brukenthal/255	924
-Brueghel/250	924
+Brueghel/250	23920
 Bruder/250	924
 Bruckner/250	924
 Bruck/1109	924
 Brozer/250	924
-Brooklyn/212	20386
+Brooklyn/212	23921
 Brontosaurus/1125	924
 Brodszky/241	924
 Brodarics/243	924
 Brocskó/249	924
 Brocky/241	924
-Broadway/1196	20387
+Broadway/1196	23922
 Brno/219	924
 British
 Britannia/219	924
@@ -90275,7 +90965,6 @@ Brezán/212	924
 Brezsnyev/224	924
 Breznay/221	924
 Brezanóczy/221	924
-Brexit/250	924
 Brewer/250	924
 Breuer/250	924
 Bretán/255	924
@@ -90293,7 +90982,7 @@ Brelich/224	924
 Brein/250	924
 Breglovics/243	924
 Bredeczky/231	924
-Brecht/1113	924
+Brecht/1113	23923
 Brazíliaváros/222	924
 Brazília/219	924
 Brazzaville-t/47	20395
@@ -90315,7 +91004,7 @@ Braille-já/47	20400
 Braille-jal/47	20401
 Braille-/205	20402
 Braille	20403
-Brahms/1213	924
+Brahms/1213	23924
 Brahma/249	924
 Brada/249	924
 Brachfeld/250	924
@@ -90334,7 +91023,7 @@ Bozsik/255	924
 Bozsi/214	924
 Boyle–Mariotte-törvény/5	1
 Boyle	20408
-Bourbon/255	924
+Bourbon/255	23925
 Botár/255	924
 Botyánszki/214	924
 Botykapeterd/223	924
@@ -90343,7 +91032,7 @@ Bottyán/212	924
 Bottló/249	924
 Bottlik/255	924
 Bottka/249	924
-Botticelli/214	924
+Botticelli/214	23926
 Botta/249	924
 Botswana/219	924
 Botpalád/212	924
@@ -90500,7 +91189,7 @@ Boháti/214	924
 Bohácek/250	924
 Bohus/243	924
 Bohuniczky/231	924
-Bohr/1109	924
+Bohr/1109	23927
 Bohn/1109	924
 Bohm/240	924
 Bogátssá/36
@@ -90532,9 +91221,10 @@ Bogdánfi/214	924
 Bogdán/212	924
 Bogdanich/243	924
 Boemm/224	924
-Boeing/243	20423
+Boeing/243	23928
 Bodócsi/214	924
 Bodócs/243	924
+Bodó/249	924
 Bodrossy/221	924
 Bodrogolaszi/219	924
 Bodrogköz/213	924
@@ -90571,7 +91261,7 @@ Boconád/212	924
 Bochor/255	924
 Bochkor/255	924
 Bocfölde/218	924
-Boccaccio/249	20429
+Boccaccio/249	23929
 Bocatius/243	924
 Bobula/249	924
 Bobot/212	924
@@ -90622,7 +91312,7 @@ Bisztriczky/231	924
 Bisztray/221	924
 Bisterfeld/250	924
 Bisse/218	924
-Bismarck/255	924
+Bismarck/255	23930
 Biskek/223	924
 Biró/249	924
 Birányi/214	924
@@ -90670,7 +91360,7 @@ Beáta/245	924
 Beznák/255	924
 Bezi/218	924
 Bezerédy/231	924
-Bezerédj/224	924
+Bezerédj/1170	924
 Bezeréd/223	924
 Bezenye/218	924
 Bezedek/223	924
@@ -90903,7 +91593,7 @@ Bejcgyertyános/222	924
 Beiwinkler/250	924
 Bege/214	924
 Begawan/212	924
-Beethoven/250	20456
+Beethoven/250	23931
 Beer/250	924
 Bedő/1150	924
 Bedécs/224	924
@@ -90941,8 +91631,7 @@ Beatrix/256	924
 Beatricé/1208	20460
 Beatricé/1209	924
 Beatrice/527	20461
-Beatrice/527	20462
-Beatles/1114	20463
+Beatles/1114	23932
 Bea/245	924
 Baál/255	924
 Bazsi/1133	924
@@ -90950,7 +91639,7 @@ Bazsay/221	924
 Bazsali/214	924
 Bazita/219	924
 Bayer/250	924
-Bay/241	924
+Bay/1139	924
 Baumhorn/255	924
 Baumgartner/250	924
 Baumgarten/250	924
@@ -90961,7 +91650,7 @@ Bauma/249	924
 Baum/243	924
 Bauhofer/250	924
 Bauernfeind/250	924
-Bauer/250	924
+Bauer/250	23933
 Baudelaire-t/47	20464
 Baudelaire-ré/47	20465
 Baudelaire-rel/47	20466
@@ -91001,7 +91690,7 @@ Baskíria/219	924
 Baski/214	924
 Baskay/221	924
 Basilides/224	924
-Basic/1114	20476
+Basic/1114	23934
 Basch/240	924
 Basal/212	924
 Barót/212	924
@@ -91037,6 +91726,7 @@ Barsy/241	924
 Barsfia/249	924
 Bars/220	924
 Barra/219	924
+Barr-test/11	1
 Barossá/36
 Barossal/36
 Baross/243	924
@@ -91107,7 +91797,7 @@ Banner/250	924
 Banjul/212	924
 Bangó/249	924
 Bangya/249	924
-Bangui/219	20487
+Bangui/219	23935
 Banglades/1159	924
 Bangkok/212	924
 Bangha/249	924
@@ -91145,7 +91835,7 @@ Balsa/219	924
 Balotaszállás/222	924
 Balogunyom/222	924
 Baloghy/221	924
-Balogh/243	924
+Balogh/243	23936
 Balmazújváros/222	924
 Ballószög/213	924
 Balló/249	924
@@ -91312,7 +92002,7 @@ Bacsák/255	924
 Bacskó/219	924
 Bacsinszky/231	924
 Bacsa/249	924
-Bacon/1144	11037
+Bacon/1144	23937
 Backhausz/243	924
 Back/1109	924
 Bachó/249	924
@@ -91321,8 +92011,8 @@ Bachmegyei/214	924
 Bachmann/255	924
 Bacher/250	924
 Bachat/255	924
-Bach/240	924
-Bacchus/1125	924
+Bach/240	23938
+Bacchus/1125	23939
 Babót/212	924
 Babócsay/221	924
 Babócsa/219	924
@@ -91330,7 +92020,7 @@ Babura/249	924
 Babosdöbréte/218	924
 Babolcsai/214	924
 Babocsay/221	924
-Babits/243	924
+Babits/243	23940
 Babilónia/219	924
 Babilon/212	924
 Babik/255	924
@@ -91345,8 +92035,7 @@ Babeșsé/47	20493
 Babeșsá/47	20493
 Babeșsel/47	20494
 Babeșsal/47	20494
-Babeșsal	924
-Babeș/260	20495
+Babeș/260	23941
 Babay/221	924
 Babarcszőlős/213	924
 Babarc/222	924
@@ -91360,6 +92049,12 @@ BTK-val/47	20502
 BTK-s/275	20503
 BTK-/65	20504
 BTK	20505
+BSc-vé/47	23942
+BSc-vel/47	23943
+BSc-s/226	23944
+BSc-et/1463	23945
+BSc-/172	23946
+BSc	23947
 BSD-vé/47	20506
 BSD-vel/47	20507
 BSD-s/226	20508
@@ -91419,9 +92114,51 @@ BBC-vel/47	20561
 BBC-s/226	20562
 BBC-/172	20563
 BBC	20564
+B9-es/226	23948
+B9-cé/47	23949
+B9-cel/47	23950
+B9-/195	23951
+B9	23952
+B7-té/47	23953
+B7-tel/47	23954
+B7-es/226	23955
+B7-/195	23956
+B7	23957
+B6-tá/47	23958
+B6-tal/47	23959
+B6-os/275	23960
+B6-/205	23961
+B6	23962
+B5-ös/592	23963
+B5-té/47	23964
+B5-tel/47	23965
+B5-/1117	23966
+B5	23967
+B3-ot/36
+B3-má/47	23968
+B3-mal/47	23969
+B3-at/47	23970
+B3-as/275	23971
+B3-/205	23972
+B3	23973
+B2-vé/47	23974
+B2-vel/47	23975
+B2-s/592	23976
+B2-/1117	23977
+B2	23978
+B12-vé/47	23979
+B12-vel/47	23980
+B12-s/592	23981
+B12-/1117	23982
+B12	23983
+B1-jei/227	23984
+B1-gyé/47	23985
+B1-gyel/47	23986
+B1-es/226	23987
+B1-/195	23988
+B1	23989
 B-s/226	20565
-B-s/257	924
-Aşgabat/212	20566
+Aşgabat/212	23990
 Azovi-tenger/223	924
 Azori-szigetek/1220	950
 Azerbajdzsán/212	924
@@ -91441,10 +92178,10 @@ Ausztrália/219	924
 Ausztria/219	924
 Austerweil/250	924
 Ausfeldt/250	924
-Auschwitz/222	20574
+Auschwitz/222	23991
 Auróra/249	924
 Aurélia/245	924
-Aurél/261	924
+Aurél/1423	924
 Aulich/243	924
 Aujeszky/231	924
 Aujerszky/231	924
@@ -91467,10 +92204,10 @@ Atlantisz/222	924
 Atlanti/218	924
 Atlanta/219	924
 Atkár/212	924
-Athéné/214	20575
+Athéné/214	23992
 Athén/1207	924
 Athinai/214	924
-Athenaeum/243	20576
+Athenaeum/243	23993
 Atala/219	924
 Aszófő/216	924
 Aszódy/221	924
@@ -91482,8 +92219,9 @@ Aszlányi/214	924
 Aszaló/219	924
 Aszalay/221	924
 Aszalai/214	924
+Asus/1125	924
 Asunción/212	20577
-Astoria/249	20578
+Astoria/249	23994
 Asszíria/219	924
 Asperger/250	924
 Asimov/243	924
@@ -91582,7 +92320,7 @@ Apollinaire-et/36
 Apollinaire-/195	20598
 Apollinaire	20599
 Apod/255	924
-Aphrodité/214	924
+Aphrodité/214	23995
 Apc/220	924
 Aparhant/212	924
 Apaj/222	924
@@ -91597,7 +92335,7 @@ Anyegin/260	924
 Antónia/245	924
 Antwerpen/223	924
 Antos/222	924
-Antonius/1125	924
+Antonius/1125	23996
 Antoninus/1125	924
 Antolik/255	924
 Antoinette-té/47	20606
@@ -91620,7 +92358,7 @@ Antall/711	20612
 Antalik/255	924
 Antalffy/221	924
 Antal/253	924
-Anonymus/1145	924
+Anonymus/1145	23997
 Annuska/245	924
 Annus/244	924
 Annavölgy/213	924
@@ -91633,7 +92371,7 @@ Anna-Panna/1191	924
 Anna/245	924
 Anker/250	924
 Ankara/219	924
-Anjou/249	20613
+Anjou/249	23998
 Anita/245	924
 Anikó/245	924
 Angéla/245	924
@@ -91688,7 +92426,7 @@ Andor/253	924
 Andok/1171	924
 Andocs/222	924
 Andi/245	924
-Andersen/250	924
+Andersen/250	23999
 Anderlik/250	924
 Anderkó/249	924
 Anday/221	924
@@ -91804,7 +92542,7 @@ Ali/245	924
 Algír/212	924
 Algéria/219	924
 Algyő/1173	924
-Algopyrin/250	20630
+Algopyrin/250	24000
 Algol/255	924
 Alföldy/215	924
 Alfréd/253	924
@@ -91850,7 +92588,7 @@ Alap/212	924
 Alaksza/249	924
 Alajos/244	924
 Aladár/253	924
-Aladdin/250	924
+Aladdin/255	924
 Alacska/219	924
 Alabama/219	924
 Aknaszlatina/219	924
@@ -91889,12 +92627,12 @@ Aggházy/221	924
 Agatha/245	924
 Afrika/219	924
 Afganisztán/212	924
-Aeneas/1125	20634
-Adél/261	924
+Aeneas/1125	24001
+Adél/1423	924
 Adásztevel/223	924
 Adács/222	924
 Adyak/345	20635
-Ady/1139	20636
+Ady/1139	24002
 Adrián/253	924
 Adriennél/36
 Adriennel/36
@@ -91931,14 +92669,14 @@ Acsay/221	924
 Acsalag/222	924
 Acsa/219	924
 Ackner/260	924
-Ackner/260	1
-Achilles-ín-szakadás/127	20646
+Achilles-ín-szakadás/127	24003
 Achilles-ín/1224	20647
 Achilles-sarok/49	20648
+Acer/250	924
 Accra/219	924
 Accesszé/36
-Accesszel/36	924
-Access/1114	20649
+Accesszel/36
+Access/1114	24004
 Acapulco/219	924
 Abádszalók/212	924
 Abádi/214	924
@@ -91950,7 +92688,7 @@ Abrudbánya/219	924
 Abony/222	924
 Abody/221	924
 Abod/212	924
-Abigél/261	924
+Abigél/1423	924
 Abet/250	924
 Abesszínia/249	924
 Abelovszki/214	924
@@ -92151,8 +92889,11 @@ A	20799
 90-né/1225	20811
 90-nel/1225	20812
 90-es/1229	20813
-90-/1230	20814
-90/1228	20815
+90-en/1465	24005
+90-ed/1466	24006
+90-/1467	20814
+90-/1467	24007
+90/1228	24008
 9.-ké/1225	20816
 9.-kel/1225	20817
 9.-es/1229	20818
@@ -92162,12 +92903,13 @@ A	20799
 9-i/1232	20822
 9-es/1229	20823
 9-en/1225	20824
+9-ed/1466	24009
 9-e/72	20825
 9-cé/1225	20826
 9-cel/1225	20827
-9-/1233	20828
-9-/1233	20829
-9/1228	20830
+9-/1467	20828
+9-/1467	20829
+9/1228	24010
 8B-vé/47	20831
 8B-vel/47	20832
 8B-s/226	20833
@@ -92191,8 +92933,11 @@ A	20799
 80-nal/1225	20849
 80-at/47	20850
 80-as/1226	20851
-80-/1227	20852
-80/1228	20853
+80-an/1465	24011
+80-ad/1468	24012
+80-/1469	20852
+80-/1469	24013
+80/1228	24014
 8.-ká/1225	20854
 8.-kal/1225	20855
 8.-at/47	20856
@@ -92207,10 +92952,11 @@ A	20799
 8-at/47	20864
 8-as/1226	20865
 8-an/1225	20866
+8-ad/1468	24015
 8-a/391	20867
-8-/1235	20868
-8-/1235	20869
-8/1228	20870
+8-/1469	20868
+8-/1469	20869
+8/1228	24016
 7B-vé/47	20871
 7B-vel/47	20872
 7B-s/226	20873
@@ -92231,8 +92977,11 @@ A	20799
 70-né/1225	20887
 70-nel/1225	20888
 70-es/1229	20889
-70-/1230	20890
-70/1228	20891
+70-en/1465	24017
+70-ed/1466	24018
+70-/1467	20890
+70-/1467	24019
+70/1228	24020
 7.-ké/1225	20892
 7.-kel/1225	20893
 7.-es/1229	20894
@@ -92244,10 +92993,11 @@ A	20799
 7-i/1232	20900
 7-es/1229	20901
 7-en/1225	20902
+7-ed/1466	24021
 7-e/72	20903
-7-/1233	20904
-7-/1233	20905
-7/1228	20906
+7-/1467	20904
+7-/1467	20905
+7/1228	24022
 6B-vé/47	20907
 6B-vel/47	20908
 6B-s/226	20909
@@ -92271,8 +93021,11 @@ A	20799
 60-nal/1225	20925
 60-at/47	20926
 60-as/1226	20927
-60-/1227	20928
-60/1228	20929
+60-an/1465	24023
+60-ad/1468	24024
+60-/1469	20928
+60-/1469	24025
+60/1228	24026
 6.-ká/1225	20930
 6.-kal/1225	20931
 6.-at/47	20932
@@ -92282,13 +93035,14 @@ A	20799
 6-tá/1225	20936
 6-tal/1225	20937
 6-os/1226	20938
+6-od/1468	24027
 6-i/1234	20939
 6-i/1234	20940
 6-an/1225	20941
 6-a/391	20942
-6-/1235	20943
-6-/1235	20944
-6/1228	20945
+6-/1469	20943
+6-/1469	20944
+6/1228	24028
 5B-vé/47	20946
 5B-vel/47	20947
 5B-s/226	20948
@@ -92309,23 +93063,27 @@ A	20799
 50-né/1225	20962
 50-nel/1225	20963
 50-es/1229	20964
-50-/1230	20965
-50/1228	20966
+50-en/1465	24029
+50-ed/1466	24030
+50-/1467	20965
+50-/1467	24031
+50/1228	24032
 5.-ké/1225	20967
 5.-kel/1225	20968
 5.-es/1229	20969
 5.-/1230	20970
 5./1231	20971
 5-ös/1236	20972
+5-Ăśd/1470	24033
 5-té/1225	20973
 5-tel/1225	20974
 5-i/1232	20975
 5-i/1232	20976
 5-en/1225	20977
 5-e/72	20978
-5-/1237	20979
-5-/1237	20980
-5/1228	20981
+5-/1471	20979
+5-/1471	20980
+5/1228	24034
 4B-vé/47	20982
 4B-vel/47	20983
 4B-s/226	20984
@@ -92346,8 +93104,11 @@ A	20799
 40-né/1225	20998
 40-nel/1225	20999
 40-es/1229	21000
-40-/1230	21001
-40/1228	21002
+40-en/1465	24035
+40-ed/1466	24036
+40-/1467	21001
+40-/1467	24037
+40/1228	24038
 4.-ké/1225	21003
 4.-kel/1225	21004
 4.-es/1229	21005
@@ -92359,10 +93120,11 @@ A	20799
 4-gyel/1225	21011
 4-es/1229	21012
 4-en/1225	21013
+4-ed/1466	24039
 4-e/72	21014
-4-/1233	21015
-4-/1233	21016
-4/1228	21017
+4-/1467	21015
+4-/1467	21016
+4/1228	24040
 3D-vé/47	21018
 3D-vel/47	21019
 3D-s/226	21020
@@ -92394,9 +93156,12 @@ A	20799
 30-cal/1225	21044
 30-at/47	21045
 30-as/1226	21046
+30-an/1465	24041
+30-ad/1468	24042
 30-a/391	21047
-30-/1227	21048
-30/1228	21049
+30-/1469	21048
+30-/1469	24043
+30/1228	24044
 3.-ká/1225	21050
 3.-kal/1225	21051
 3.-at/47	21052
@@ -92404,6 +93169,7 @@ A	20799
 3.-/1227	21054
 3./1231	21055
 3-ot/36
+3-om/36
 3-má/1225	21056
 3-mal/1225	21057
 3-i/1234	21058
@@ -92411,10 +93177,11 @@ A	20799
 3-at/47	21060
 3-as/1226	21061
 3-an/1225	21062
+3-ad/1468	24045
 3-a/391	21063
-3-/1235	21064
-3-/1235	21065
-3/1228	21066
+3-/1469	21064
+3-/1469	21065
+3/1228	24046
 2B-vé/47	21067
 2B-vel/47	21068
 2B-s/226	21069
@@ -92467,26 +93234,31 @@ A	20799
 20-i/47	21114
 20-at/47	21115
 20-as/1226	21116
+20-an/1465	24047
+20-ad/1468	24048
 20-a/391	21117
-20-/1227	21118
-20/1228	21119
+20-/1469	21118
+20-/1469	24049
+20/1228	24050
 2.-ká/1225	21120
 2.-kal/1225	21121
 2.-at/47	21122
 2.-as/1226	21123
 2.-/1227	21124
 2./1231	21125
+2-ő/36
 2-vé/1225	21126
 2-vel/1225	21127
 2-i/1232	21128
 2-i/1232	21129
 2-es/1229	21130
 2-en/1225	21131
+2-ed/1466	24051
 2-ai/1232	21129
 2-a/391	21132
-2-/1238	21133
-2-/1238	21134
-2/1228	21135
+2-/1472	21133
+2-/1472	21134
+2/1228	24052
 1B-vé/47	21136
 1B-vel/47	21137
 1B-s/226	21138
@@ -92549,10 +93321,12 @@ A	20799
 10-i/1232	21194
 10-es/1229	21195
 10-en/1225	21196
+10-ed/1466	24053
 10-e/72	21197
 10-/1233	21198
 10-/1233	21199
-10/1228	21200
+10/1228	24054
+1.-én/36
 1.-vé/1225	21201
 1.-vel/1225	21202
 1.-s/1236	21203
@@ -92568,9 +93342,10 @@ A	20799
 1-gyel/1225	21211
 1-es/1229	21212
 1-en/1225	21213
-1-/1233	21214
-1-/1233	21215
-1/1228	21216
+1-ed/1466	24055
+1-/1467	21214
+1-/1467	21215
+1/1228	24056
 02-vé/1225	21217
 02-vel/1225	21218
 02-/1239	21219
@@ -92590,12 +93365,15 @@ A	20799
 000-os/1226	21229
 000-es/1229	21229
 000-en/1225	21231
+000-ed/1466	24057
 000-dá/1225	21227
 000-dal/1225	21228
 000-/1240	21232
 000-/1240	21233
-000/1228	21234
+000/1228	24058
 00-an/1225	21235
+00-ad/1468	24059
+00-/1473	24060
 0.-ká/1225	21236
 0.-kal/1225	21237
 0.-at/47	21238
@@ -92606,33 +93384,133 @@ A	20799
 0-val/1225	21243
 0-s/1226	21244
 0-i/1234	21245
-0-/1241	21246
-0-/1241	21247
-0/1228	21248
+0-/1474	21246
+0-/1474	21247
+0/1228	24061
 ...	986
 .	986
--öt	21249
--vé	21250
--vá	21250
--vel	21251
--val	21251
--t	21249
--ot	21249
--nyi	21252
--jű	21253
--jú	21253
+-öt/10	21249
+-zé/10	21250
+-zá/10	21250
+-zsé/10	21250
+-zsá/10	21250
+-zsel/10	21251
+-zsal/10	21251
+-zel/10	21251
+-zal/10	21251
+-vé/10	21250
+-vá/10	21250
+-vel/10	21251
+-val/10	21251
+-té/10	21250
+-tá/10	21250
+-tyé/10	21250
+-tyá/10	21250
+-tyel/10	21251
+-tyal/10	21251
+-tel/10	21251
+-tal/10	21251
+-t/10	21249
+-sé/10	21250
+-sá/10	21250
+-szé/10	21250
+-szá/10	21250
+-szel/10	21251
+-szal/10	21251
+-sel/10	21251
+-sal/10	21251
+-ré/10	21250
+-rá/10	21250
+-rel/10	21251
+-ral/10	21251
+-pé/10	21250
+-pá/10	21250
+-pel/10	21251
+-pal/10	21251
+-ot/10	21249
+-né/10	21250
+-ná/10	21250
+-nyé/10	21250
+-nyá/10	21250
+-nyi/1475	21252
+-nyel/10	21251
+-nyal/10	21251
+-nel/10	21251
+-nal/10	21251
+-mé/10	21250
+-má/10	21250
+-mel/10	21251
+-mal/10	21251
+-lé/10	21250
+-lá/10	21250
+-lyé/10	21250
+-lyá/10	21250
+-lyel/10	21251
+-lyal/10	21251
+-lel/10	21251
+-lal/10	21251
+-ké/10	21250
+-ká/10	21250
+-kel/10	21251
+-kal/10	21251
+-jű/1476	21253
+-jú/1060	21253
+-jé/10	21250
+-já/10	21250
+-jel/10	21251
+-jal/10	21251
 -izmus/30	1
--höz	21254
+-höz/10	21254
+-hé/10	21250
 -házifeladat/1242	1
 -házhozszállítás/1243	1
--hoz	21254
--hez	21254
+-há/10	21250
+-hoz/10	21254
+-hez/10	21254
+-hel/10	21251
+-hal/10	21251
+-gé/10	21250
+-gá/10	21250
+-gyé/10	21250
+-gyá/10	21250
+-gyel/10	21251
+-gyal/10	21251
+-gel/10	21251
+-gal/10	21251
 -féle
--et	21249
+-fé/10	21250
+-fá/10	21250
+-fel/10	21251
+-fal/10	21251
+-et/10	21249
 -e	15
--at	21249
--/1244	21255
--/1244	986
+-dé/10	21250
+-dá/10	21250
+-dzé/10	21250
+-dzá/10	21250
+-dzsé/10	21250
+-dzsá/10	21250
+-dzsel/10	21251
+-dzsal/10	21251
+-dzel/10	21251
+-dzal/10	21251
+-del/10	21251
+-dal/10	21251
+-cé/10	21250
+-cá/10	21250
+-csé/10	21250
+-csá/10	21250
+-csel/10	21251
+-csal/10	21251
+-cel/10	21251
+-cal/10	21251
+-bé/10	21250
+-bá/10	21250
+-bel/10	21251
+-bal/10	21251
+-at/10	21249
+-/1477	21255
+-/1477	986
 ,/1245	986
 +	986
 )	986
@@ -92716,10 +93594,10 @@ A	20799
 ω-val/47	21327
 ω-/65	21328
 ω	21329
-œuvre-ré/47	21330
-œuvre-rel/47	21331
-œuvre-/1117	21332
-œuvre	21333
+œuvre-ré/47	24062
+œuvre-rel/47	24063
+œuvre-/1117	24064
+œuvre	24065
 ν-vé/47	21334
 ν-vel/47	21335
 ν-/48	21336
