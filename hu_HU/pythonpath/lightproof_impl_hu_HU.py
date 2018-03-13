@@ -7,7 +7,7 @@ from com.sun.star.beans import PropertyValue
 pkg = "hu_HU"
 lang = "hu_HU"
 locales = {'hu-HU': ['hu', 'HU', '']}
-version = "1.6"
+version = "1.6.3"
 author = "László Németh"
 name = "Lightproof grammar checker (magyar)"
 
