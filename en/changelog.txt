@@ -1,3 +1,31 @@
+MAGP 2018-05-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 820 new words (2018-04-01) + 857 new words (2018-05-01).
+
+
+
+MAGP 2018-03-01
+
+Simplified the Extension description.
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 1421 new words (2018-02-01) + 1208 new words (2018-03-01).
+
+
+
+MAGP 2018-01-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 1483 new words (2017-12-01) + 3034 new words (2018-01-01).
+    In November + December I added THOUSANDS of possessives to proper names.
+	Added 500+ proper names.
+
+
+
 MAGP 2017-11-01
 
 Updated the Dictionaries:
