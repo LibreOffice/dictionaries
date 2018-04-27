@@ -6,7 +6,7 @@ KEY qwertzuiopšđ|asdfghjklčćž|yxcvbnm|žšđ|ćščđž|žćđ|đšćž|zy|
 
 FLAG long
 
-FULLSTRIP
+# FULLSTRIP
 
 NEEDAFFIX ZZ
 CIRCUMFIX ZY
@@ -25,6 +25,7 @@ SUBSTANDARD ZO
 FORBIDDENWORD ZN
 WARN ZM
 
+# NOSPLITSUGS
 # SUGSWITHDOTS
 # FORBIDWARN
 
@@ -75,12 +76,14 @@ ICONV ŕ r
 
 
 # REP - .
-REP 157
+REP 219
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
 REP nućete$ nut_ćete
 REP ^riječo$ riječ_o
+REP ^usisač usisivač
+REP rejanac rejac
 REP ^prenat prednat
 REP šćemo$ st_ćemo
 REP šćete$ st_ćete
@@ -88,14 +91,19 @@ REP aćemo$ at_ćemo
 REP aćete$ at_ćete
 REP ićete$ it_ćete
 REP avaon ovaonic
+REP ^očenaš Očenaš
 REP ićemo$ it_ćemo
 REP ećete$ et_ćete
 REP nućeš$ nut_ćeš
 REP ećemo$ et_ćemo
 REP bčanci$ pčanki
+REP ^rasazn razazn
+REP ^kosmos kozmos
 REP stravn stavn
 REP ^poravo$ pravo
 REP skinj stkinj
+REP reank rejk
+REP ampiš ampinš
 REP ^nezna ne_zna
 REP ^prdon pridon
 REP dreti$ derati
@@ -104,6 +112,7 @@ REP ićeš$ it_ćeš
 REP ^subst supst
 REP aćeš$ at_ćeš
 REP ^obama$ oboma
+REP ^lotus lotos
 REP nuću$ nut_ću
 REP nion nionic
 REP nuće$ nut_će
@@ -117,24 +126,33 @@ REP natn nantn
 REP dvgn dvagn
 REP skma$ skima
 REP ^bimo$ bismo
+REP ^kazin kasin
 REP ^htjeo$ htio
 REP ^menom$ mnom
 REP ^bite$ biste
 REP ^stim$ s_tim
 REP ^polu- polu
+REP ^moće$ može
 REP skme$ skome
 REP nara napra
 REP skmu$ skomu
+REP ^ljud$ ljut
+REP ^paje$ pa_je
 REP ^trab trav
 REP ^trab treb
 REP ^jel$ je_li
 REP bljiv biv
+REP ljiv ljav
 REP najs naes
+REP sup sump
+REP ion ijun
 REP zir rizir
 REP aon aonic
 REP iće$ it_će
 REP šće$ st_će
 REP arn arnic
+REP iju e
+REP tid tud
 REP ^poveč več
 REP aću$ at_ću
 REP iću$ it_ću
@@ -151,10 +169,13 @@ REP skm$ skim
 REP skm$ skom
 REP ioc$ ilac
 REP kno ktno
+REP ije ive
 REP isl i_sl
+REP nest nijet
 REP aoc$ alac
 REP ^mže$ može
 REP rni rnu
+REP rh rth
 REP ljnj nj
 REP mnj mlj
 REP ^bim$ bih
@@ -169,6 +190,8 @@ REP skuj šć
 REP xy ksi
 REP je ije
 REP ^biš$ bi
+REP and ad
+REP ^sa su
 REP ije je
 REP om -om
 REP ći vši
@@ -182,6 +205,7 @@ REP is ijs
 REP un utn
 REP vši ći
 REP ko$ klo
+REP nk ngk
 REP ia ija
 REP lj nj
 REP iju$ e
@@ -190,6 +214,7 @@ REP zk sk
 REP ki$ ci
 REP bč pč
 REP dk tk
+REP dp tp
 REP bs ps
 REP gi zi
 REP zc sc
@@ -217,10 +242,14 @@ REP x ks
 REP c ts
 REP c ds
 REP a -a
+REP a aa
+REP d dd
 REP e ee
 REP u -u
+REP n nn
 REP o oo
 REP u uu
+REP s ss
 REP i je
 REP zš š
 REP j dž
@@ -228,13 +257,48 @@ REP dž č
 REP ^ts c
 REP št š
 REP st s
-REP - _
 REP c k
 REP g h
 REP ć č
 REP č ć
+REP ^a A
+REP ^b B
+REP ^c C
+REP ^č Č
+REP ^ć Ć
+REP ^d D
+REP ^dž Dž
+REP ^đ Đ
+REP ^e E
+REP ^f F
+REP ^g G
+REP ^h H
+REP ^i I
+REP ^j J
+REP ^k K
+REP ^l L
+REP ^lj Lj
+REP ^m M
+REP ^n N
+REP ^nj Nj
+REP ^o O
+REP ^p P
+REP ^q Q
+REP ^r R
+REP ^s S
+REP ^š Š
+REP ^t T
+REP ^u U
+REP ^v V
+REP ^w W
+REP ^x X
+REP ^y Y
+REP ^z Z
+REP ^ž Ž
+REP - _
 
-AF 403
+
+AF 416
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -637,7 +701,20 @@ AF TF	# 399
 AF TE	# 400
 AF TD	# 401
 AF THTGTETC	# 402
-AF TB	#403
+AF TB	# 403
+AF TA	# 404
+AF SZ	# 405
+AF SY	# 406
+AF SX	# 407
+AF SW	# 408
+AF SV	# 409
+AF SU	# 410
+AF THTG	# 411
+AF ST	# 412
+AF SS	# 413
+AF SOSPSR	# 414
+AF SMSNSR	# 415
+AF SK	# 416
 
 
 SFX XZ Y      21
@@ -3612,6 +3689,7 @@ SFX TF 0 -evoga .
 SFX TF 0 -evome .
 SFX TF 0 -evomu .
 
+
 SFX TE Y 7
 SFX TE 0 -ovac .
 SFX TE 0 -ovca .
@@ -3622,13 +3700,13 @@ SFX TE 0 -ovcem .
 SFX TE 0 -ovcima .
 
 SFX TD Y 7
-SFX TD 0 -evac .
-SFX TD 0 -evca .
-SFX TD 0 -evcu .
-SFX TD 0 -evcem .
-SFX TD 0 -evci .
-SFX TD 0 -evcem .
-SFX TD 0 -evcima .
+SFX TD 0 -evac im
+SFX TD 0 -evca im
+SFX TD 0 -evcu im
+SFX TD 0 -evcem im
+SFX TD 0 -evci im
+SFX TD 0 -evcem im
+SFX TD 0 -evcima im
 
 SFX TC Y 6
 SFX TC 0 -ovka .
@@ -3642,3 +3720,188 @@ SFX TB Y 3
 SFX TB 0 -a .
 SFX TB 0 -u .
 SFX TB 0 -om .
+
+SFX TA Y 8
+SFX TA an na an
+SFX TA an nu an
+SFX TA an ne an
+SFX TA an nom an
+SFX TA an novi an
+SFX TA an nova an
+SFX TA an novima an
+SFX TA an nove an
+
+SFX SZ Y 5
+SFX SZ as sa as
+SFX SZ as su as
+SFX SZ as som as
+SFX SZ as si as
+SFX SZ as sima as
+
+SFX SY Y 5
+SFX SY o a lo
+SFX SY o u lo
+SFX SY 0 m lo
+SFX SY lo ala lo
+SFX SY o ima lo
+
+SFX SX Y 3		# Križevci
+SFX SX i e vci
+SFX SX ci aca vci	# Križevaca
+SFX SX 0 ma vci
+
+# imenica slijev: slijev, slijeva; sljevovi, sljevova
+SFX SW Y 7
+SFX SW 0 a .
+SFX SW 0 u .
+SFX SW 0 om .
+SFX SW ijev jevovi lijev
+SFX SW ijev jevova lijev
+SFX SW ijev jevove lijev
+SFX SW ijev jevovima lijev
+
+
+# imenica na -sko tipa Jastrebarsko, Topusko
+SFX SV Y 6
+SFX SV 0 g o
+SFX SV 0 ga o
+SFX SV 0 m o
+SFX SV 0 me o
+SFX SV 0 mu o
+SFX SV o im o
+
+
+# klasa za glagol slati
+SFX SU Y 27
+SFX SU slati šaljem slati
+SFX SU slati šalješ slati
+SFX SU slati šalje slati
+SFX SU slati šaljemo slati
+SFX SU slati šaljete slati
+SFX SU slati šalju slati
+SFX SU i 0 slati
+SFX SU ti h slati
+SFX SU ti še slati
+SFX SU ti smo slati
+SFX SU ti ste slati
+SFX SU ti ahu slati
+SFX SU slati šalji slati
+SFX SU slati šaljimo slati
+SFX SU slati šaljite slati
+SFX SU slati šaljući slati
+SFX SU ti o slati
+SFX SU ti la slati
+SFX SU ti lo slati
+SFX SU ti li slati
+SFX SU ti le slati
+SFX SU ti la slati
+SFX SU ti n slati
+SFX SU ti na slati
+SFX SU ti no slati
+SFX SU ti ni slati
+SFX SU ti ne slati
+
+
+# Savao
+SFX ST Y 3
+SFX ST ao la ao
+SFX ST ao lu ao
+SFX ST ao lom ao
+
+# Zvjezdana (nedostaje posvojni pridjev)
+SFX SS Y 3
+SFX SS ana ne ana
+SFX SS ana nu ana
+SFX SS ana nom ana
+
+# iscrpsti > iscrpem
+SFX SR Y 20
+SFX SR i 0 rpsti
+SFX SR sti em rpsti
+SFX SR sti eš rpsti
+SFX SR sti e rpsti
+SFX SR sti emo rpsti
+SFX SR sti ete rpsti
+SFX SR sti u rpsti
+SFX SR sti i rpsti
+SFX SR sti imo rpsti
+SFX SR sti ite rpsti
+SFX SR sti ao rpsti
+SFX SR sti la rpsti
+SFX SR sti lo rpsti
+SFX SR sti li rpsti
+SFX SR sti le rpsti
+SFX SR sti en rpsti
+SFX SR sti ena rpsti
+SFX SR sti eno rpsti
+SFX SR sti eni rpsti
+SFX SR sti ene rpsti
+
+
+# isrcpsti > gl. prid. prošli > iscrpivši
+SFX SP Y 1
+SFX SP sti avši rpsti
+
+
+# aorist iscrpsti
+SFX SO Y 5
+SFX SO sti oh rpsti
+SFX SO sti e rpsti
+SFX SO sti osmo rpsti
+SFX SO sti oste rpsti
+SFX SO sti oše rpsti
+
+
+# imperfekt crpsti
+SFX SN Y 5
+SFX SN sti ijah rpsti
+SFX SN sti ijaše rpsti
+SFX SN sti ijasmo rpsti
+SFX SN sti ijaste rpsti
+SFX SN sti ijahu rpsti
+
+
+# crpsti > gl. prid. sadašnji > crpeći
+SFX SM Y 1
+SFX SM sti ući rpsti
+
+# prostrti
+SFX SK Y 38
+SFX SK i 0 strti
+SFX SK rti arem strti
+SFX SK ti em strti
+SFX SK rti areš strti
+SFX SK ti eš strti
+SFX SK rti are strti
+SFX SK ti e strti
+SFX SK rti aremo strti
+SFX SK ti emo strti
+SFX SK rti arete strti
+SFX SK ti ete strti
+SFX SK rti aru strti
+SFX SK ti u strti
+SFX SK ti h strti
+SFX SK ti 0 strti
+SFX SK ti smo strti
+SFX SK ti ste strti
+SFX SK ti še strti
+SFX SK rti ari strti
+SFX SK ti i strti
+SFX SK rti arimo strti
+SFX SK rti arite strti
+SFX SK ti vši strti
+SFX SK ti o strti
+SFX SK ti la strti
+SFX SK ti lo strti
+SFX SK ti li strti
+SFX SK ti le strti
+SFX SK ti t strti
+SFX SK ti ven strti
+SFX SK ti ta strti
+SFX SK ti vena strti
+SFX SK ti to strti
+SFX SK ti veno strti
+SFX SK ti ti strti
+SFX SK ti veni strti
+SFX SK ti te strti
+SFX SK ti vene strti
