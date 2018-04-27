@@ -11,11 +11,16 @@ repository: https://www.github.com/krunose/hr-hunspell
 
 ### Autori i doprinositelji ###
 
-Mirko Kos (m i r k o s 9 9 [ a t ] g m a i l . c o m), 2016. - 2017.
+
+Boris Juric, 2017. - 2018.
 
 -----
 
-Krunoslav Šebetić (k r u n o . s e [ a t ] g m x . c o m), 2014. - 2017.
+Mirko Kos (m i r k o s 9 9 [ a t ] g m a i l // c o m), 2016. - 2017.
+
+-----
+
+Krunoslav Šebetić (k r u n o . s e [ a t ] g m x // c o m), 2014. - 2018.
 
 -----
 
