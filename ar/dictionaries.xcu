@@ -11,7 +11,7 @@
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
                 <value>ar-SA ar-DZ ar-BH ar-EG ar-IQ ar-JO ar-KW ar-LB ar-LY ar-MA ar-OM ar-QA ar-SD ar-SY ar-TN ar-AE ar-YE</value>
-            </prop>>
+            </prop>
         </node>
         <node oor:name="ThesDic_ar" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
