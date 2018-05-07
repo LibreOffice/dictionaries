@@ -29,6 +29,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-en,\
 	dictionaries/en/Lightproof.components \
 	dictionaries/en/Lightproof.py \
 	dictionaries/en/Linguistic.xcu \
+	dictionaries/en/package-description.txt \
 	dictionaries/en/README_en_AU.txt \
 	dictionaries/en/README_en_CA.txt \
 	dictionaries/en/README_en_GB_thes.txt \
