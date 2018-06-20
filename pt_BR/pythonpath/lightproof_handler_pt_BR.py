@@ -1,7 +1,7 @@
 ﻿import uno
 import unohelper
 import lightproof_opts_pt_BR
-from lightproof_impl_pt_BR import pkg
+pkg = "pt_BR"
 
 from com.sun.star.lang import XServiceInfo
 from com.sun.star.awt import XContainerWindowEventHandler
