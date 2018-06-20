@@ -3,9 +3,8 @@
 # 2009-2012 (c) Laszlo Nemeth (nemeth at numbertext org), license: MPL 1.1 / GPLv3+ / LGPLv3+
 
 import uno, unohelper, os, sys, traceback
-from lightproof_impl_pt_BR import locales
-from lightproof_impl_pt_BR import pkg
-import lightproof_impl_pt_BR
+locales = {'pt-BR': ['pt', 'BR', '']}
+pkg = "pt_BR"
 import lightproof_handler_pt_BR
 
 from com.sun.star.linguistic2 import XProofreader, XSupportedLocales
@@ -30,11 +29,6 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
             l = locales[i]
             self.locales += [Locale(l[0], l[1], l[2])]
         self.locales = tuple(self.locales)
-        currentContext = uno.getComponentContext()
-        lightproof_impl_pt_BR.SMGR = currentContext.ServiceManager
-        lightproof_impl_pt_BR.spellchecker = \
-            lightproof_impl_pt_BR.SMGR.createInstanceWithContext("com.sun.star.linguistic2.SpellChecker", currentContext)
-        lightproof_handler_pt_BR.load(currentContext)
 
     # XServiceName method implementations
     def getServiceName(self):
@@ -68,6 +62,13 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
 
     def doProofreading(self, nDocId, rText, rLocale, nStartOfSentencePos, \
         nSuggestedSentenceEndPos, rProperties):
+        import lightproof_impl_pt_BR
+        currentContext = uno.getComponentContext()
+        if lightproof_impl_pt_BR.SMGR == None:
+            lightproof_impl_pt_BR.SMGR = currentContext.ServiceManager
+            lightproof_impl_pt_BR.spellchecker = \
+                lightproof_impl_en.SMGR.createInstanceWithContext("com.sun.star.linguistic2.SpellChecker", currentContext)
+        lightproof_handler_pt_BR.load(currentContext)
         aRes = uno.createUnoStruct( "com.sun.star.linguistic2.ProofreadingResult" )
         aRes.aDocumentIdentifier = nDocId
         aRes.aText = rText
