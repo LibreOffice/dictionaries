@@ -29,6 +29,7 @@ suggestions = {}
 # assign Calc functions
 calcfunc = None
 
+SMGR = None
 
 # check settings
 def option(lang, opt):
