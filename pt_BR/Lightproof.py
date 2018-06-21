@@ -67,7 +67,7 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
         if lightproof_impl_pt_BR.SMGR == None:
             lightproof_impl_pt_BR.SMGR = currentContext.ServiceManager
             lightproof_impl_pt_BR.spellchecker = \
-                lightproof_impl_en.SMGR.createInstanceWithContext("com.sun.star.linguistic2.SpellChecker", currentContext)
+                lightproof_impl_pt_BR.SMGR.createInstanceWithContext("com.sun.star.linguistic2.SpellChecker", currentContext)
         lightproof_handler_pt_BR.load(currentContext)
         aRes = uno.createUnoStruct( "com.sun.star.linguistic2.ProofreadingResult" )
         aRes.aDocumentIdentifier = nDocId
