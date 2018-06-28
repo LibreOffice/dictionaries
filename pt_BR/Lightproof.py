@@ -143,13 +143,16 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
         return aRes
 
     def ignoreRule(self, rid, aLocale):
+        import lightproof_impl_pt_BR
         lightproof_impl_pt_BR.ignore[rid] = 1
 
     def resetIgnoreRules(self):
+        import lightproof_impl_pt_BR
         lightproof_impl_pt_BR.ignore = {}
 
     # XServiceDisplayName
     def getServiceDisplayName(self, aLocale):
+        import lightproof_impl_pt_BR
         return lightproof_impl_pt_BR.name
 
 g_ImplementationHelper = unohelper.ImplementationHelper()
