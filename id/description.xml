@@ -3,7 +3,7 @@
     <version value="2018.03.08" />
     <identifier value="org.openoffice.id.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">Indonesian spelling dictionary and thesaurus</name>
+        <name lang="en-US">Indonesian spelling dictionary, hyphenation rules, and thesaurus</name>
     </display-name>
     <platform value="all" />
     <dependencies>
