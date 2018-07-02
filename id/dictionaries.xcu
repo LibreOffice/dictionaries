@@ -13,6 +13,17 @@
                 <value>id-ID</value>
             </prop>
         </node>
+        <node oor:name="HyphDic_id-ID" oor:op="fuse">
+            <prop oor:name="Locations" oor:type="oor:string-list">
+                <value>%origin%/hyph_id_ID.dic</value>
+            </prop>
+            <prop oor:name="Format" oor:type="xs:string">
+                <value>DICT_HYPH</value>
+            </prop>
+            <prop oor:name="Locales" oor:type="oor:string-list">
+                <value>id-ID</value>
+            </prop>
+</node>
         <node oor:name="ThesDic_id-ID" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/th_id_ID_v2.dat %origin%/th_id_ID_v2.idx</value>
