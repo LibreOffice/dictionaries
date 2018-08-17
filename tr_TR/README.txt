@@ -1,6 +1,7 @@
 Hunspell dictionary for Turkish
-Version 3.5 (Apr 29, 2013)
+Version 1.2.0 (Apr 04, 2015)
 
-This dictionary is released under Mozilla Public License Version 1.1.
+This dictionary is released under Mozilla Public License Version 2.0.
 
-Original extension by Sezer Baglan can be found here: https://addons.mozilla.org/en-US/firefox/addon/turkce-yazim-denetimi/
+Original extension by Harun Reşit Zafer can be found here: https://extensions.libreoffice.org/extensions/turkish-spellcheck-dictionary
+Software used to generate this dictionary: https://github.com/hrzafer/hunspell-tr
