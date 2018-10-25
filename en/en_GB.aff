@@ -2,7 +2,7 @@
 # Also suitable as basis for Commonwealth and European English.
 # Built from scratch for MySpell. Released under LGPL.
 #
-# Sources used to verify the spelling of the words
+# Sources used to verify the spelling of the words which
 # Marco Pinto included in the dictionary:
 #   1) Oxford Dictionaries;    4) Wiktionary (used with caution);
 #   2) Collins Dictionary;     5) Wikipedia (used with caution);   
@@ -14,7 +14,7 @@
 #   3) Plurals.
 #
 # David Bartlett, Andrew Brown, Marco A.G.Pinto.
-# R 2.60, 2018-05-01
+# V 2.66, 2018-11-01
 
 SET UTF-8
 
@@ -627,7 +627,7 @@ SFX m 0 smen's [aeiou][bdklmnt]e
 SFX m 0 men's [^aeiou][bdklmnt]e 
 SFX m 0 men's [^bdklmnt]e 
 SFX m 0 men's [^bdeknmt] 
-SFX 5 Y 15
+SFX 5 Y 16
 SFX 5 0 swoman [bdknmt] 
 SFX 5 0 swoman [aeiou][bdklmnt]e 
 SFX 5 0 woman [^aeiou][bdklmnt]e 
@@ -643,6 +643,7 @@ SFX 5 0 swoman's [aeiou][bdklmnt]e
 SFX 5 0 woman's [^aeiou][bdklmnt]e 
 SFX 5 0 woman's [^bdklmnt]e 
 SFX 5 0 woman's [^bdeknmt] 
+SFX 5 0 women's [^bdeknmt] 
 SFX 6 Y 3
 SFX 6 y iful [^aeiou]y 
 SFX 6 0 ful [aeiou]y 
