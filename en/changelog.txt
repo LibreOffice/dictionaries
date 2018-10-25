@@ -1,3 +1,32 @@
+MAGP 2018-11-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 5225 new words (2018-10-01) + 1138 new words (2018-11-01).
+
+
+
+MAGP 2018-09-01
+
+Improved the logo quality since Pedro Marques sent me the original model which can be resized in all sizes.
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 5101 new words (2018-08-01) + 14713 new words (2018-09-01).
+
+
+
+MAGP 2018-07-01
+
+Updated the Dictionaries:
+- Australian (Kevin Atkinson)
+- American (Kevin Atkinson)
+- Canadian (Kevin Atkinson)
+- British (Marco A.G.Pinto)*
+  * British has 3656 new words (2018-06-01) + 7101 new words (2018-07-01).
+
+
+
 MAGP 2018-05-01
 
 Updated the Dictionaries:
