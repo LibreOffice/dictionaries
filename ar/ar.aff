@@ -1,3 +1,4 @@
+SET UTF-8
 FLAG	long
 AF 333
 AF TbTc # 1
