@@ -1,6 +1,6 @@
 Corrector Volga de Proxecto Trasno. 
-Edición 12.10 «Xoán Manuel Pintos»
-(http://gl.wikipedia.org/wiki/Xoán_Manuel_Pintos_Villar) 
+Edición 18.07 «Francisco Mirás»
+(https://gl.wikipedia.org/wiki/Francisco_Mirás) 
 
 Corrección ortográfica baseada en Hunspell
 (Versión desenvolvida por Miguel Solla)
