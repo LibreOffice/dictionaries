@@ -12,7 +12,7 @@
                         <value>org.openoffice.en.hunspell.dictionaries</value>
                     </prop>
                     <prop oor:name="Label">
-                        <value xml:lang="en-US">English sentence checking</value>
+                        <value xml:lang="en-US">English Sentence Checking</value>
                     </prop>
                     <prop oor:name="OptionsPage">
                         <value>%origin%/en.xdl</value>
