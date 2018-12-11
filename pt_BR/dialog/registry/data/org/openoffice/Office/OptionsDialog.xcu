@@ -13,7 +13,7 @@
             <value>org.openoffice.pt.hunspell.dictionaries</value>
           </prop>
           <prop oor:name="Label">
-            <value xml:lang="en-US">Grammar checking (Portuguese)</value>
+            <value xml:lang="en-US">Grammar Checking (Portuguese)</value>
             <value xml:lang="pt-BR">Corretor Gramatical (Português - Brasil)</value>
           </prop>
           <prop oor:name="OptionsPage">
