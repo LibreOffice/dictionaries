@@ -14,13 +14,15 @@ ISO8859-2
 ¹al|1
 (sam.)|pasica|prepasnica
 ¹ala|1
-(sam.)|¹tos (¾argon)|vic
+(sam.)|¹tos (¾argon)|posmeh|vic
 ¹aliti se|1
 (gl.)|briti norce|norèevati se
 ¹aljiv|1
 (prid.)|hudomu¹en|komièen|pavlihast
 ¹aljivec|1
-(sam.)|¹toser (¾argon)|lahkomiselne¾|neresne¾|obe¹enjak
+(sam.)|¹aljivka|¹toser (¾argon)|¹toserka (¾argon)|lahkomiselne¾|lahkomiselnica|neresne¾|neresnica|obe¹enjak|obe¹enjakinja
+¹aljivka|1
+(sam.)|¹aljivec|¹toser (¾argon)|¹toserka (¾argon)|lahkomiselne¾|lahkomiselnica|neresne¾|neresnica|obe¹enjak|obe¹enjakinja
 ¹aman|1
 (sam.)|vraè
 ¹amoa|1
@@ -119,7 +121,9 @@ ISO8859-2
 ¹epetajoè|1
 (prisl.)|¹epetaje|¹epetoma
 ¹epetalec|1
-(sam.)|sufler
+(sam.)|¹epetalka|sufler|suflerka
+¹epetalka|1
+(sam.)|¹epetalec|sufler|suflerka
 ¹epetalski|1
 (prid.)|suflerski
 ¹epetati|1
@@ -300,14 +304,22 @@ ISO8859-2
 (gl.)|taboriti
 ¹pan¹èina|1
 (sam.)|¹panski jezik
+¹panec|1
+(sam.)|¹panski konj
 ¹panska muha|1
 (sam.)|Lytta vesicatoria (strokovno)
 ¹panski jezik|1
 (sam.)|¹pan¹èina
+¹panski konj|1
+(sam.)|¹panec
 ¹pargelj|1
 (sam.)|belu¹
 ¹pargljev|1
 (prid.)|¹pargljev (pogovorno)|belu¹ev
+¹partanec|1
+(sam.)|¹partanec (ekspresivno)|¹partanka (ekspresivno)|asket|asketinja
+¹partanka|1
+(sam.)|¹partanec (ekspresivno)|¹partanka (ekspresivno)|asket|asketinja
 ¹pec|1
 (sam.)|¹peca|¹pecar|¹peckahla|to¾ljivec
 ¹peca|1
@@ -321,7 +333,7 @@ ISO8859-2
 ¹peh|1
 (sam.)|¹peh (pogovorno)|slanina
 ¹pelunka|1
-(sam.)|beznica
+(sam.)|beznica|pajzelj (neknji¾no)
 ¹petir|1
 (sam.)|¹petir (neknji¾no)|prepir|prerekanje|prièkanje
 ¹picelj|1
@@ -356,8 +368,10 @@ ISO8859-2
 (prid.)|¹piriten
 ¹pirovec|1
 (sam.)|¹karjevec|¹karnica|¹karnik|lemez|ro¾enica
+¹portnica|1
+(sam.)|¹portnik|fizkulturnica|fizkulturnik|telovadec|telovadka
 ¹portnik|1
-(sam.)|fizkulturnik|telovadec
+(sam.)|¹portnica|fizkulturnica|fizkulturnik|telovadec|telovadka
 ¹pranja|1
 (sam.)|poka (starinsko)|poklina (starinsko)|raza|razpoka|re¾a|rega
 ¹pricati|1
@@ -428,10 +442,12 @@ ISO8859-2
 ¹torkljast|1
 (prid.)|¹kornjast (ekspresivno)|¹torast (slab¹alno)|¹torkljast (ekspresivno)|bukov (ekspresivno)|coklast|neokreten|neroden|nespreten|okoren|poèasen|te¾konog
 ¹tos|2
-(sam.)|¹ala|¹tos (¾argon)|vic
+(sam.)|¹ala|¹tos (¾argon)|posmeh|vic
 (sam.)|¹tos (¾argon)|potegav¹èina
 ¹toser|1
-(sam.)|¹aljivec|¹toser (¾argon)|lahkomiselne¾|neresne¾|obe¹enjak
+(sam.)|¹aljivec|¹aljivka|¹toser (¾argon)|¹toserka (¾argon)|lahkomiselne¾|lahkomiselnica|neresne¾|neresnica|obe¹enjak|obe¹enjakinja
+¹toserka|1
+(sam.)|¹aljivec|¹aljivka|¹toser (¾argon)|¹toserka (¾argon)|lahkomiselne¾|lahkomiselnica|neresne¾|neresnica|obe¹enjak|obe¹enjakinja
 ¹trajk|1
 (sam.)|¹trajk (pogovorno)|stavka
 ¹trajkar|1
@@ -440,6 +456,8 @@ ISO8859-2
 (gl.)|¹trajkati (pogovorno)|stavkati
 ¹trajkoven|1
 (prid.)|¹trajkoven (pogovorno)|stavkoven
+¹trbunk|1
+(sam.)|¹trbunk (ekspresivno)|pad|padec
 ¹tudiranec|1
 (sam.)|inteligent|iz¹olanec|izobra¾enec
 ¹tuka|1
@@ -492,6 +510,10 @@ ISO8859-2
 (sam.)|britof (nizko)|pokopali¹èe
 ¾aleèe|1
 (prisl.)|¾aljivo
+¾aljiva beseda|1
+(sam.)|¾aljivka|invektiva
+¾aljivka|1
+(sam.)|¾aljiva beseda|invektiva
 ¾aljivo|1
 (prisl.)|¾aleèe
 ¾alni trak|1
@@ -519,8 +541,16 @@ ISO8859-2
 (sam.)|bar¾un
 ¾ametast|1
 (prid.)|bar¾unast
+¾ametaste hlaèe|1
+(sam.)|¾ametke (pogovorno)|¾ametne hlaèe|¾ametovke
+¾ametke|1
+(sam.)|¾ametaste hlaèe|¾ametke (pogovorno)|¾ametne hlaèe|¾ametovke
+¾ametne hlaèe|1
+(sam.)|¾ametaste hlaèe|¾ametke (pogovorno)|¾ametovke
 ¾ametnica|1
 (sam.)|tagetes
+¾ametovke|1
+(sam.)|¾ametaste hlaèe|¾ametke (pogovorno)|¾ametne hlaèe
 ¾andar|1
 (sam.)|oro¾nik
 ¾anr|1
@@ -561,8 +591,11 @@ ISO8859-2
 (sam.)|¾arina|¾ega (zastarelo)|¾galina (zastarelo)|pripeka
 ¾egnanje|1
 (sam.)|patrocinij|pro¹èenje
-¾elatina|1
+¾elatina|2
+(sam.)|¾ele|zdriz
 (sam.)|¾olca|aspik
+¾ele|1
+(sam.)|¾elatina|zdriz
 ¾elezni¹ka postaja|1
 (sam.)|kolodvor
 ¾elezo|1
@@ -635,7 +668,7 @@ ISO8859-2
 ¾ivalstvo|1
 (sam.)|favna|klop (podpomenka)
 ¾ive¾|1
-(sam.)|¾ivilo|hrana
+(sam.)|¾ivila|¾ivilo (zastarelo)|hrana|jelo (starinsko)|prehrana
 ¾ivèen|1
 (prid.)|nervozen
 ¾ivènina|1
@@ -649,8 +682,10 @@ ISO8859-2
 (sam.)|¾ivica (starinsko)|studenec
 ¾ivikasti kreè|1
 (sam.)|judovska brada
+¾ivila|1
+(sam.)|¾ive¾|¾ivilo (zastarelo)|hrana|jelo (starinsko)|prehrana
 ¾ivilo|1
-(sam.)|¾ive¾|hrana
+(sam.)|¾ive¾|¾ivila|¾ivilo (zastarelo)|hrana|jelo (starinsko)|prehrana
 ¾ivinozdravnik|1
 (sam.)|veterinar
 ¾ivinozdravstvo|1
@@ -742,16 +777,21 @@ ISO8859-2
 (sam.)|èasni¹tvo|èasnikarstvo
 ¾venketati|1
 (gl.)|brenketati|ro¾ljati
+¾vi¾g|1
+(sam.)|brlizg (ekspresivno)|pisk
 ¾vrgoleti|1
 (gl.)|gostoleti|peti
 a¾uren|1
 (prid.)|pravoèasen|sproten
 abalineacija|1
 (sam.)|alienacija|odtujevanje|odtujitev
+abdikacija|1
+(sam.)|demisija|odreka|odstop|odstopitev|ostavka
 abdomen|2
 (sam.)|trebuh
 (sam.)|zadek
-abeceda|1
+abeceda|2
+(sam.)|èrkopis|pisava
 (sam.)|alfabet
 abeceden|1
 (prid.)|alfabetièen
@@ -829,6 +869,8 @@ abstrakten|3
 (prid.)|afiguralen|brezpredmeten|nepredmeten
 (prid.)|miseln|nezaznaven|pojmoven|konkreten (protipomenka)
 (prid.)|neeksakten|neizèi¹èen|neizoblikovan|nejasen|nenazoren|konkreten (protipomenka)
+abstraktni svet|1
+(sam.)|miselni svet|neèutni svet|pojmovni svet|pojmovnik|predstavni svet
 abstruzen|1
 (prid.)|nejasen
 absurden|2
@@ -1094,13 +1136,15 @@ ahistorièen|1
 ajdi¹èe|1
 (sam.)|ajdovi¹èe
 ajdnik|1
-(sam.)|ajdovec|ajdovnik
+(sam.)|ajdov kruh|ajdovec|ajdovnik
+ajdov kruh|1
+(sam.)|ajdnik|ajdovec|ajdovnik
 ajdovec|1
-(sam.)|ajdnik|ajdovnik
+(sam.)|ajdnik|ajdov kruh|ajdovnik
 ajdovi¹èe|1
 (sam.)|ajdi¹èe
 ajdovnik|1
-(sam.)|ajdnik|ajdovec
+(sam.)|ajdnik|ajdov kruh|ajdovec
 ajdovstvo|1
 (sam.)|ajdovstvo (starinsko)|paganizem|poganstvo
 akacija|1
@@ -1118,6 +1162,10 @@ akcent|1
 (sam.)|naglas|poudarek
 akcentologija|1
 (sam.)|naglasoslovje
+akcentski premik|1
+(sam.)|akcentski preskok|naglasni premik|premik naglasa
+akcentski preskok|1
+(sam.)|akcentski premik|naglasni premik|premik naglasa
 akcentuacija|1
 (sam.)|nagla¹evanje|poudarjanje
 akcentuirati|1
@@ -1304,11 +1352,13 @@ alpinec|1
 alpinetum|1
 (sam.)|alpinum|skalnik|skalnjak
 alpinist|1
-(sam.)|hribolazec (starinsko)|planinec|veleturist (zastarelo)
+(sam.)|alpinistka|gornica|gornik|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinec|planinka|veleturist (zastarelo)|veleturistka (zastarelo)
 alpinistièen|1
 (prid.)|gorni¹ki|hribola¹ki (starinsko)|planinski
 alpinistika|1
 (sam.)|hribola¹tvo (starinsko)|hribovstvo|planinstvo
+alpinistka|1
+(sam.)|alpinist|gornica|gornik|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinec|planinka|veleturist (zastarelo)|veleturistka (zastarelo)
 alpinum|1
 (sam.)|alpinetum|skalnik|skalnjak
 altana|1
@@ -1974,18 +2024,20 @@ artezijski|1
 artikel|1
 (sam.)|blago|izdelek
 artikulacija|1
-(sam.)|izgovarjava|izgovorjava|izreka
+(sam.)|artikuliranje|izgovarjanje|izgovarjava|izgovor|izreka
+artikuliranje|1
+(sam.)|artikulacija|izgovarjanje|izgovarjava|izgovor|izreka
 artikulirati|2
 (gl.)|izgovarjati|izgovoriti
 (gl.)|oblikovati
 artilerec|1
-(sam.)|artilerist|baterijec (¾argon)|topnièar
+(sam.)|artilerist|baterijec (¾argon)|bombardir (starinsko)|kanonir (zastarelo)|topnièar|topnièarka
 artilerija|1
 (sam.)|topni¹tvo
 artilerijski|1
 (prid.)|topni¹ki
 artilerist|1
-(sam.)|artilerec|baterijec (¾argon)|topnièar
+(sam.)|artilerec|baterijec (¾argon)|bombardir (starinsko)|kanonir (zastarelo)|topnièar|topnièarka
 arzenal|1
 (sam.)|oro¾arna
 arzenik|1
@@ -2039,6 +2091,10 @@ asist.|1
 (sam.)|asistent
 asistent|1
 (sam.)|asist.
+asket|1
+(sam.)|¹partanec (ekspresivno)|¹partanka (ekspresivno)|asketinja
+asketinja|1
+(sam.)|¹partanec (ekspresivno)|¹partanka (ekspresivno)|asket
 askorbinska kislina|1
 (sam.)|askorbinska kislina (strokovno)|vitamin C
 asociacija|2
@@ -2151,10 +2207,14 @@ atomski|1
 (prid.)|jedrski
 atonièen|1
 (prid.)|breznaglasen
+atonièna beseda|1
+(sam.)|atonon|breznaglasna beseda|breznaglasnica
 atoniènost|1
 (sam.)|breznaglasnost
 atonija|1
 (sam.)|mlahavost
+atonon|1
+(sam.)|atonièna beseda|breznaglasna beseda|breznaglasnica
 atrakcija|1
 (sam.)|privlaènost|zanimivost
 atraktiven|1
@@ -2247,7 +2307,7 @@ avtentièno|1
 avto|1
 (sam.)|avtomobil
 avtobus|1
-(sam.)|bus (¾argon)
+(sam.)|bus (¾argon)|skibus (podpomenka)|smuèarski avtobus (podpomenka)|krpan (pogovorno) (podpomenka)|zgibni avtobus (podpomenka)
 avtocenzura|1
 (sam.)|samocenzura
 avtodidakt|1
@@ -2293,10 +2353,16 @@ avtomatka|1
 (sam.)|¹majser (¾argon)|avtomat|brzostrelka|hitrostrelka
 avtomatski|1
 (prid.)|avtomatièen|samodejen
+avtomehanièni servis|1
+(sam.)|avtomobilski servis|avtopopravljalnica|avtoservis
 avtomobil|1
 (sam.)|avto
+avtomobilski servis|1
+(sam.)|avtomehanièni servis|avtopopravljalnica|avtoservis
 avtonomen|1
 (prid.)|samostojen
+avtopopravljalnica|1
+(sam.)|avtomehanièni servis|avtomobilski servis|avtoservis
 avtor|1
 (sam.)|tvorec|ustvarjalec
 avtoritaren|1
@@ -2309,6 +2375,8 @@ avtoriziran|1
 (prid.)|opolnomoèen (zastarelo)|poobla¹èen
 avtorizirati|1
 (gl.)|pooblastiti|potrditi
+avtoservis|1
+(sam.)|avtomehanièni servis|avtomobilski servis|avtopopravljalnica
 azil|1
 (sam.)|zaveti¹èe
 ba|1
@@ -2492,7 +2560,7 @@ banda|2
 banda¾a|1
 (sam.)|obveza|preveza
 bandati|1
-(gl.)|bandati (pogovorno)|popivati|veseljaèiti
+(gl.)|bandati (pogovorno)|piti|popivati|veseljaèiti
 banditizem|1
 (sam.)|banditstvo|razbojni¹tvo|roparstvo
 banditstvo|1
@@ -2570,13 +2638,20 @@ barometer|1
 barva|2
 (sam.)|obarvanost|odtenek
 (sam.)|timbre
+barvanje|1
+(sam.)|beljenje|pleskanje
+barvarija|1
+(sam.)|barvarna|barvarnica|barvarska delavnica
 barvarna|1
-(sam.)|barvarnica
+(sam.)|barvarija|barvarnica|barvarska delavnica
 barvarnica|1
-(sam.)|barvarna
+(sam.)|barvarija|barvarna|barvarska delavnica
+barvarska delavnica|1
+(sam.)|barvarija|barvarna|barvarnica
 barvast|1
 (prid.)|barven
-barvati|1
+barvati|2
+(gl.)|beliti|pleskati
 (gl.)|tingirati
 barven|1
 (prid.)|barvast
@@ -2610,7 +2685,7 @@ bastarden|1
 bastardirati|1
 (gl.)|kri¾ati
 baterijec|1
-(sam.)|artilerec|artilerist|baterijec (¾argon)|topnièar
+(sam.)|artilerec|artilerist|baterijec (¾argon)|bombardir (starinsko)|kanonir (zastarelo)|topnièar|topnièarka
 batialen|1
 (prid.)|abisalen|globinski|globokomorski
 batimeter|1
@@ -2712,6 +2787,10 @@ beletristièen|1
 (prid.)|leposloven
 beletristika|1
 (sam.)|beletrija|besedna umetnost|leposlovje|lepoznanstvo (zastarelo)
+belgijec|1
+(sam.)|belgijski konj
+belgijski konj|1
+(sam.)|belgijec
 beli èepljec|1
 (sam.)|èepljec|zlati koren
 beli svinèenec|1
@@ -2726,12 +2805,16 @@ belin|1
 (sam.)|albin|beliènik
 belina|1
 (sam.)|belota
+beliti|1
+(gl.)|barvati|pleskati
 beljakovina|1
 (sam.)|albumen
 beljava|1
 (sam.)|beljavina|èrnjava (protipomenka)
 beljavina|1
 (sam.)|beljava
+beljenje|1
+(sam.)|barvanje|pleskanje
 beloglav|2
 (prid.)|sivolas
 (prid.)|svetlolas
@@ -2811,12 +2894,16 @@ berljiv|1
 (prid.)|èitljiv
 bes|1
 (sam.)|besnilo
+beseda|1
+(sam.)|besedica (ekspresivno)|izraz|pojem|slovo (zastarelo)|termin|determinanta (podpomenka)|doloèilna beseda (podpomenka)|doloèilnica (podpomenka)|enomiselna beseda (starinsko) (podpomenka)|enopomenka (podpomenka)|enopomenska beseda (podpomenka)|enosmiselna beseda (podpomenka)|enoznaèna beseda (zastarelo) (podpomenka)|hipokoristikon (podpomenka)|ljubkovalna beseda (podpomenka)|ljubkovalnica (podpomenka)|atonièna beseda (podpomenka)|atonon (podpomenka)|breznaglasna beseda (podpomenka)|breznaglasnica (podpomenka)|nezlo¾ena beseda (podpomenka)|simpleks (podpomenka)|porogljiva beseda (podpomenka)|porogljivka (ekspresivno) (podpomenka)|mnogopomenska beseda (podpomenka)|mnogoznaèna beseda (podpomenka)|polivalentna beseda (podpomenka)|veèpomenka (podpomenka)|veèpomenska beseda (podpomenka)|¾aljiva beseda (podpomenka)|¾aljivka (podpomenka)|invektiva (podpomenka)|motivirana beseda (podpomenka)|tvorjena beseda (podpomenka)|tvorjenka (podpomenka)
 besedavelj|1
 (sam.)|besedavelj (slab¹alno)|besedun (slab¹alno)|gostobesedne¾|zgovorne¾ (ekspresivno)
 beseden|1
 (prid.)|usten|ustmen|verbalen
 besedi¹èe|1
 (sam.)|besedje|besedni zaklad|besednjak
+besedica|1
+(sam.)|beseda|besedica (ekspresivno)|izraz|pojem|slovo (zastarelo)|termin|determinanta (podpomenka)|doloèilna beseda (podpomenka)|doloèilnica (podpomenka)|enomiselna beseda (starinsko) (podpomenka)|enopomenka (podpomenka)|enopomenska beseda (podpomenka)|enosmiselna beseda (podpomenka)|enoznaèna beseda (zastarelo) (podpomenka)|hipokoristikon (podpomenka)|ljubkovalna beseda (podpomenka)|ljubkovalnica (podpomenka)|atonièna beseda (podpomenka)|atonon (podpomenka)|breznaglasna beseda (podpomenka)|breznaglasnica (podpomenka)|nezlo¾ena beseda (podpomenka)|simpleks (podpomenka)|porogljiva beseda (podpomenka)|porogljivka (ekspresivno) (podpomenka)|mnogopomenska beseda (podpomenka)|mnogoznaèna beseda (podpomenka)|polivalentna beseda (podpomenka)|veèpomenka (podpomenka)|veèpomenska beseda (podpomenka)|¾aljiva beseda (podpomenka)|¾aljivka (podpomenka)|invektiva (podpomenka)|motivirana beseda (podpomenka)|tvorjena beseda (podpomenka)|tvorjenka (podpomenka)
 besedièen|1
 (prid.)|besedièen (ekspresivno)|gostobeseden|mnogobeseden|pregostobeseden|radobeseden|zgovoren
 besedièiti|1
@@ -2909,7 +2996,7 @@ bezjak|1
 bezljati|1
 (gl.)|bezljati (pogovorno)|dirjati|divjati
 beznica|1
-(sam.)|¹pelunka
+(sam.)|¹pelunka|pajzelj (neknji¾no)
 bi¹kot|1
 (sam.)|pi¹kot
 biblièen|1
@@ -3035,6 +3122,8 @@ bilten|1
 (sam.)|vestnik
 bimbo|1
 (sam.)|bimbo (ekspresivno)|drenovec|nerodne¾|okorne¾
+bimèkati|1
+(gl.)|bimèkati (ekspresivno)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|dragovati (zastarelo)|ljubèkati (ekspresivno)|ljubkovati|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 binaren|1
 (prid.)|diaden|diadièen|dvoji¹ki
 binom|1
@@ -3140,6 +3229,8 @@ biter|1
 (sam.)|grenèica
 biti|1
 (gl.)|eksistirati|obstajati
+biti nezvest|1
+(gl.)|skakati èez ojnice|skakati èez plot
 biti odvisen|1
 (gl.)|zaviseti
 bitje|2
@@ -3170,7 +3261,7 @@ bizaren|1
 bizarnost|1
 (sam.)|abnormalnost|èudnost|kurioznost|nenavadnost|posebnost|znamenitost
 biznis|1
-(sam.)|biznis (pogovorno)|posel
+(sam.)|biznis (pogovorno)|k¹eft (neknji¾no)|posel
 biznismen|1
 (sam.)|biznismen (pogovorno)|poslovne¾
 bla¾enost|1
@@ -3362,7 +3453,7 @@ bo¾anstvenost|1
 bo¾anstvo|1
 (sam.)|bog|bogstvo (zastarelo)
 bo¾ati|1
-(gl.)|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|ljubkovati
+(gl.)|bimèkati (ekspresivno)|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|dragovati (zastarelo)|ljubèkati (ekspresivno)|ljubkovati|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 bo¾ec|1
 (sam.)|bo¾èek|revèek|ubo¾ec|ubo¾èek
 bo¾èek|1
@@ -3391,6 +3482,8 @@ bo¾jepotnik|1
 (sam.)|romar
 bo¾ji hram|1
 (sam.)|cerkev
+bo¾ji namestnik|1
+(sam.)|cerkvenec (starinsko)|cerkvenjak (starinsko)|du¹ni pastir (starinsko)|duhoven (starinsko)|duhovnik|èastiti|klerik|ma¹nik (starinsko)|preèastiti|sveèenik (zastarelo)
 boa|1
 (sam.)|udav
 bobika|2
@@ -3521,7 +3614,7 @@ bogotajstvo|1
 bogovladje|1
 (sam.)|bogovladje (starinsko)|teokracija
 bogovski|1
-(prid.)|ekskviziten|imeniten|izbran|izvrsten
+(prid.)|ekskviziten|ekstra|imeniten|izbran|izvrsten
 bogovsko|1
 (prisl.)|èudovito|imenitno
 bogstvo|1
@@ -3531,9 +3624,11 @@ bogvaruj|1
 bohota|1
 (sam.)|bohotenje|bohotnost
 bohoten|1
-(prid.)|bujen
+(prid.)|bujen|poln
 bohotenje|1
 (sam.)|bohota|bohotnost
+bohotno|1
+(prisl.)|bujno|polno
 bohotnost|1
 (sam.)|bohota|bohotenje
 boja|1
@@ -3643,6 +3738,8 @@ bombaj|1
 (sam.)|Mumbaj
 bombarder|1
 (sam.)|bombnik
+bombardir|1
+(sam.)|artilerec|artilerist|baterijec (¾argon)|bombardir (starinsko)|kanonir (zastarelo)|topnièar|topnièarka
 bombardirati|1
 (gl.)|bombardirati (ekspresivno)|obmetavati
 bombnik|1
@@ -3675,6 +3772,8 @@ boren|2
 (prid.)|mizeren (neknji¾no)|nezadosten
 bori|1
 (prid.)|boren|bori (starinsko)|mizeren (neknji¾no)|reven|siroma¹en|ubog
+boriti se za|1
+(gl.)|braniti|postaviti se za|zagovarjati|zavzeti se za
 borno|1
 (prisl.)|revno|siroma¹no
 borovka|1
@@ -3695,12 +3794,16 @@ bos|3
 (sam.)|¹ef|¹efica (¾argon)|¹efija (sleng)|¹efinja|bos (¾argon)|vodja
 bosan¹èina|1
 (sam.)|bosanski jezik
+bosanec|1
+(sam.)|bosanski konj
 bosanèica|1
 (sam.)|bosanska cirilica|bukvica
 bosanska cirilica|1
 (sam.)|bosanèica|bukvica
 bosanski jezik|1
 (sam.)|bosan¹èina
+bosanski konj|1
+(sam.)|bosanec
 bosilje|1
 (sam.)|ba¾iljka|bazilika|Ocymum basilicum (strokovno)
 bosjak|2
@@ -3730,6 +3833,10 @@ br¾kobr¾|1
 (prisl.)|èim prej
 br¾kone|1
 (prisl.)|br¾da|br¾èas|najbr¾|nemara (starinsko)|prejkone
+bra¹nja|1
+(sam.)|bra¹nja (starinsko)|bra¹no (starinsko)|odhodnica|odhodnja (starinsko)|popotnica|popotnja (starinsko)|proviant|suha hrana
+bra¹no|1
+(sam.)|bra¹nja (starinsko)|bra¹no (starinsko)|odhodnica|odhodnja (starinsko)|popotnica|popotnja (starinsko)|proviant|suha hrana
 brada|1
 (sam.)|obradek
 bradaè|3
@@ -3781,6 +3888,8 @@ branilec|2
 (sam.)|bek (¾argon)
 branitelj|1
 (sam.)|apologet|besednik|branilec|tribun|zagovornik
+braniti|1
+(gl.)|boriti se za|postaviti se za|zagovarjati|zavzeti se za
 branjevec|1
 (sam.)|drobninar (starinsko)|kramar|kro¹njar
 branjevka|1
@@ -4010,6 +4119,10 @@ breznaden|1
 (prid.)|brezizgleden|breznadejen (starinsko)|brezperspektiven|brezupen|desolaten|desperaten|obupen
 breznaglasen|1
 (prid.)|atonièen
+breznaglasna beseda|1
+(sam.)|atonièna beseda|atonon|breznaglasnica
+breznaglasnica|1
+(sam.)|atonièna beseda|atonon|breznaglasna beseda
 breznaglasnost|1
 (sam.)|atoniènost
 brezno|1
@@ -4186,7 +4299,7 @@ brezzvezen|2
 (prid.)|asindetièen|asindetski|brezvezen
 (prid.)|brezvezen|nesmiseln
 brhek|1
-(prid.)|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 brhkost|1
 (sam.)|bajnost|bo¾anstvenost (ekspresivno)|brhkost (zastarelo)|brhkota|divnost (zastarelo)|divota (zastarelo)|èar|èaroba|èarobnost|èudovitost|kras|krasota|lepota|lepotija|prelest
 brhkota|1
@@ -4280,6 +4393,8 @@ brkljati|1
 (gl.)|¹ariti|brèkati|brkljariti (ekspresivno)|brkljati (pogovorno)|brskati|stikati
 brleti|1
 (gl.)|mrlikati
+brlizg|1
+(sam.)|¾vi¾g|brlizg (ekspresivno)|pisk
 brljavost|1
 (sam.)|brljavost (ekspresivno)|slabovidnost
 brljuzga|1
@@ -4441,7 +4556,9 @@ buèen|1
 buffet|1
 (sam.)|bar|bife|pivnica|pivotoè|pub|saloon|taverna|toèilnica
 bujen|1
-(prid.)|bohoten
+(prid.)|bohoten|poln
+bujno|1
+(prisl.)|bohotno|polno
 bujnobarven|1
 (prid.)|¾ivobarven
 buke|1
@@ -4460,7 +4577,7 @@ bukvarnica|2
 (sam.)|biblioteka|bukvarnica (zastarelo)|knji¾nica
 (sam.)|bukvarna (zastarelo)|bukvarnica (zastarelo)|knjigarna|knjigarnica (zastarelo)|knjigotr¾nica (zastarelo)
 bukve|1
-(sam.)|bukve (starinsko)|knji¾ura (slab¹alno)|knjiga
+(sam.)|bukve (starinsko)|knji¾ura (slab¹alno)|knjiga|kuharica (podpomenka)|kuharska knjiga (podpomenka)
 bukvica|1
 (sam.)|bosanèica|bosanska cirilica
 buldo¾er|1
@@ -4511,7 +4628,7 @@ burnat|1
 burnica|1
 (sam.)|burjevka|Fregata aquila (strokovno)
 bus|1
-(sam.)|avtobus|bus (¾argon)
+(sam.)|avtobus|bus (¾argon)|skibus (podpomenka)|smuèarski avtobus (podpomenka)|krpan (pogovorno) (podpomenka)|zgibni avtobus (podpomenka)
 busola|1
 (sam.)|kompas
 busta|1
@@ -4601,12 +4718,12 @@ carinjenje|1
 carski rez|1
 (sam.)|cesarski rez
 cartati|2
-(gl.)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|ljubkovati
+(gl.)|bimèkati (ekspresivno)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|dragovati (zastarelo)|ljubèkati (ekspresivno)|ljubkovati|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 (gl.)|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati (pogovorno)|razvajati
 cartkan|1
 (prid.)|cartkan (neknji¾no)|mil|ne¾en
 cartljati|2
-(gl.)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|ljubkovati
+(gl.)|bimèkati (ekspresivno)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|dragovati (zastarelo)|ljubèkati (ekspresivno)|ljubkovati|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 (gl.)|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati (pogovorno)|razvajati
 cca.|1
 (prisl.)|circa|cirka|okoli|pribli¾no
@@ -4876,6 +4993,10 @@ ceremonialen|2
 (prid.)|obreden
 cerkev|1
 (sam.)|bo¾ji hram
+cerkvenec|1
+(sam.)|bo¾ji namestnik|cerkvenec (starinsko)|cerkvenjak (starinsko)|du¹ni pastir (starinsko)|duhoven (starinsko)|duhovnik|èastiti|klerik|ma¹nik (starinsko)|preèastiti|sveèenik (zastarelo)
+cerkvenjak|1
+(sam.)|bo¾ji namestnik|cerkvenec (starinsko)|cerkvenjak (starinsko)|du¹ni pastir (starinsko)|duhoven (starinsko)|duhovnik|èastiti|klerik|ma¹nik (starinsko)|preèastiti|sveèenik (zastarelo)
 certifikat|1
 (sam.)|potrdilo|sprièevalo
 ceruzit|1
@@ -5142,7 +5263,7 @@ coprati|1
 coprni¹ki|1
 (prid.)|coprni¹ki (neknji¾no)|èarodejski|èarovni¹ki
 coprnica|1
-(sam.)|coprnica (neknji¾no)|èarodejka|èarodejnica|èarovnica
+(sam.)|coprnica (neknji¾no)|èarodejka|èarodejnica|èarovnica|ve¹èa (starinsko)|zlodejka (zastarelo)
 coprnija|1
 (sam.)|coprnija (neknji¾no)|èarovnija
 coprnik|1
@@ -5162,7 +5283,7 @@ crkel|1
 crkljanèek|1
 (sam.)|miljenèek
 crkljati|2
-(gl.)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|ljubkovati
+(gl.)|bimèkati (ekspresivno)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|dragovati (zastarelo)|ljubèkati (ekspresivno)|ljubkovati|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 (gl.)|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati (pogovorno)|razvajati
 crknina|1
 (sam.)|crkovina (neknji¾no)|mrhovina|mrtvina
@@ -5184,6 +5305,8 @@ cuker|1
 cukniti|2
 (gl.)|cukniti (pogovorno)|popiti
 (gl.)|cukniti (pogovorno)|potegniti
+cukniti ga|1
+(gl.)|piti|srkniti ga
 cukrovka|1
 (sam.)|cukrovka (¾argon)|diabetes|Diabetes mellitus (strokovno)|sladkorna bolezen
 cunjast|2
@@ -5360,6 +5483,8 @@ dati|3
 (gl.)|dati (pogovorno)|plaèati
 (gl.)|izroèiti|predati
 (gl.)|nakloniti|podariti|pokloniti
+dati se dol|1
+(gl.)|dati se dol (nizko)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|ljubiti se|pariti se (nizko)|porivati (nizko)|povaljati se|seksati (pogovorno)|spolno obèevati
 datiranje|1
 (sam.)|datacija
 dativ|1
@@ -5368,6 +5493,8 @@ dativen|1
 (prid.)|dajalni¹ki
 dav¹èina|1
 (sam.)|dajatev
+davek na dodano vrednost|1
+(sam.)|dedeve|DV
 daven|1
 (prid.)|daljnodaljen|davnodaven
 davica|1
@@ -5419,14 +5546,20 @@ debatant|1
 (sam.)|debater
 debater|1
 (sam.)|debatant
+debaterka|1
+(sam.)|debatorka
 debatirati|1
-(gl.)|konferirati|razpravljati
+(gl.)|diskutirati|konferirati|razpravljati
+debatorka|1
+(sam.)|debaterka
 debel|5
 (prid.)|debelkast|debelu¹ast|debelu¹en|debelu¹nat|debeluhast (ekspresivno)|polnouden (zastarelo)
 (prid.)|korpulenten|obilen
 (prid.)|mastit (starinsko)|salast (ekspresivno)|zavaljen
 (prid.)|mesarski (ekspresivno)|moèen
 (prid.)|tolst
+debela la¾|1
+(sam.)|debela la¾ (ekspresivno)|èista la¾ (ekspresivno)|kosmata la¾ (ekspresivno)|la¾|neresnica|neresniènost|popolna la¾ (ekspresivno)|pravljica
 debelkast|1
 (prid.)|debel|debelu¹ast|debelu¹en|debelu¹nat|debeluhast (ekspresivno)|polnouden (zastarelo)
 debelobuèen|1
@@ -5490,15 +5623,21 @@ decimirati|1
 deciziven|1
 (prid.)|decidiven|odloèilen|odloèujoè
 ded|1
-(sam.)|nono|stari oèe
+(sam.)|dedek|nono|stari oèe
 dedec|1
 (sam.)|mo¹ki
+dedek|1
+(sam.)|ded|nono|stari oèe
 deden|1
-(prid.)|hereditaren
+(prid.)|dedièen (zastarelo)|hereditaren
+dedeve|1
+(sam.)|davek na dodano vrednost|DV
 dedi¹èina|1
 (sam.)|dedovina
 dedicirati|1
 (gl.)|posvetiti
+dedièen|1
+(prid.)|deden|dedièen (zastarelo)|hereditaren
 dedièna|1
 (sam.)|dedinja
 dedikacija|1
@@ -5613,6 +5752,8 @@ dejavnosten|1
 (prid.)|dejaven|tvoren
 dejstvo|1
 (sam.)|fakt|faktum
+deka|1
+(sam.)|deka (pogovorno)|dekagram|dg
 dekabristièni|1
 (prid.)|dekabristovski
 dekabristovski|1
@@ -5621,6 +5762,8 @@ dekadièni|1
 (prid.)|dekadni|deseti¹ki
 dekadni|1
 (prid.)|dekadièni|deseti¹ki
+dekagram|1
+(sam.)|deka (pogovorno)|dg
 dekarbonizacija|1
 (sam.)|razogljièenje
 dekarbonizirati|1
@@ -5672,9 +5815,13 @@ del telesa|1
 (sam.)|organ|seèevod (podpomenka)|ureter (strokovno) (podpomenka)|obseènica (podpomenka)|prostata (podpomenka)|mehur (pogovorno) (podpomenka)|seèni mehur (podpomenka)|epitel (podpomenka)|epitelij (podpomenka)|krovno tkivo (podpomenka)|poko¾nica (podpomenka)|povrhnjica (podpomenka)|vrhnjica (podpomenka)|spolni organ (podpomenka)|spolovilo (podpomenka)|sram (starinsko) (podpomenka)|duodenum (strokovno) (podpomenka)|dvanajsternik (podpomenka)|dvanajstnik (podpomenka)|grlo (podpomenka)|larinks (podpomenka)|pankreas (strokovno) (podpomenka)|trebu¹na slinavka (podpomenka)|ledvica (podpomenka)|obist (podpomenka)
 delati|1
 (gl.)|poèeti
+delati grimase|1
+(gl.)|delati grimase (ekspresivno)|paèiti se|spakovati se
 delaven|2
 (prid.)|agilen|aktiven|prizadeven
 (prid.)|marljiv
+delavnica|1
+(sam.)|obratovalnica|obrtni¹ka delavnica|rokodelnica (zastarelo)|rokodelska delavnica (zastarelo)|barvarija (podpomenka)|barvarna (podpomenka)|barvarnica (podpomenka)|barvarska delavnica (podpomenka)|kroja¹ka delavnica (podpomenka)|kroja¹tvo (podpomenka)|krojaènica (podpomenka)|kolarna (podpomenka)|kolarnica (podpomenka)|kolarska delavnica (podpomenka)|knjigove¹ka delavnica (podpomenka)|knjigoveznica (podpomenka)|strojarna (podpomenka)|strojarska delavnica (podpomenka)|zlatarna (podpomenka)|zlatarnica (starinsko) (podpomenka)|zlatarska delavnica (podpomenka)|strugalnica (podpomenka)|strugarna (podpomenka)|strugarnica (zastarelo) (podpomenka)|strugarska delavnica (podpomenka)|kulisarna (podpomenka)|kulisna delavnica (podpomenka)|urarna (podpomenka)|urarska delavnica (podpomenka)|urarstvo (podpomenka)
 delavnost|1
 (sam.)|agilnost|prizadevnost
 dele¾|1
@@ -5746,7 +5893,7 @@ deminutiv|1
 deminutiven|1
 (prid.)|manj¹alen|pomanj¹evalen
 demisija|1
-(sam.)|odstop|ostavka
+(sam.)|abdikacija|odreka|odstop|odstopitev|ostavka
 demisionirati|1
 (gl.)|odstopiti
 demolirati|1
@@ -5899,6 +6046,8 @@ detektor|1
 (sam.)|odkrivalec
 determinacija|1
 (sam.)|doloèitev|omejitev|opredelitev
+determinanta|1
+(sam.)|doloèilna beseda|doloèilnica
 detinstvo|1
 (sam.)|otro¹tvo
 devalorizacija|1
@@ -5939,6 +6088,10 @@ dezinficirati|1
 (gl.)|razku¾iti
 dezinteresiranost|1
 (sam.)|brezbri¾nost|malobri¾nost|nebri¾nost|nemar|ravnodu¹nost|vnemarnost (zastarelo)
+dg|1
+(sam.)|deka (pogovorno)|dekagram
+di¹ati|1
+(gl.)|vonjati
 di¹ava|1
 (sam.)|di¹avina (zastarelo)|di¹eèina (zastarelo)
 di¹avina|1
@@ -6054,6 +6207,8 @@ dihotomièen|1
 (prid.)|dihotomen
 dihtiv|1
 (prid.)|dehtiv (ekspresivno)|dihtiv (starinsko)|hrepeneè|po¾eljiv
+dihurnica|1
+(sam.)|past za dihurje
 dika|2
 (sam.)|dika (zastarelo)|kinè (zastarelo)|kras|okras
 (sam.)|dika (zastarelo)|odliènost|slava
@@ -6138,6 +6293,8 @@ diskurz|1
 (sam.)|debata|diskusija|pogovor|razgovor|razprava|razpravljanje
 diskusija|1
 (sam.)|debata|diskurz|pogovor|razgovor|razprava|razpravljanje
+diskutirati|1
+(gl.)|debatirati|konferirati|razpravljati
 disonanèen|1
 (prid.)|disonanten
 disonanten|1
@@ -6277,6 +6434,10 @@ dobr¹en|1
 (prid.)|precej¹en|prilièen|znaten
 dobrièina|1
 (sam.)|dobrièina (ekspresivno)|dobrodu¹ne¾|dobrosrène¾
+dobrikanje|1
+(sam.)|laskanje
+dobrikati|1
+(gl.)|laskati
 dobro|1
 (prisl.)|kakovostno|kvalitetno
 dobro¾ivec|1
@@ -6414,6 +6575,8 @@ dokonènost|2
 (sam.)|definitivnost
 doktor|1
 (sam.)|dohtar (nizko)|eskulap|leènik (zastarelo)|medicinec|zdravnik
+dol¾inski prerez|1
+(sam.)|longitudinalni prerez|podol¾ni prerez|vzdol¾ni prerez
 dol¾iti|1
 (gl.)|bremeniti|obto¾evati
 dol¾nik|1
@@ -6441,6 +6604,8 @@ dolgoglavec|1
 (sam.)|dolihokefal
 dolgoglavost|1
 (sam.)|dolihokefalija
+dolgojezièen|1
+(prid.)|obrekljiv|opravljiv|zlogolk (zastarelo)
 dolgoleten|1
 (prid.)|mnogoleten
 dolgono¾en|1
@@ -6474,6 +6639,10 @@ doloèati|1
 doloèen|2
 (prid.)|decidiran|jasen|odloèen
 (prid.)|izvesten (zastarelo)|nekateri|neki
+doloèilna beseda|1
+(sam.)|determinanta|doloèilnica
+doloèilnica|1
+(sam.)|determinanta|doloèilna beseda
 doloèitev|1
 (sam.)|determinacija|omejitev|opredelitev
 doloèiti|3
@@ -6518,6 +6687,8 @@ domi¹ljijski|3
 (prid.)|fantastièen
 (prid.)|fantazijski|imaginativen
 (prid.)|iracionalen|nerazumski
+domi¹ljijski svet|1
+(sam.)|dozdevni svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginacijski svet|imaginarni svet|iracionalni svet|irealni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 domi¹ljiv|2
 (prid.)|bahav|domi¹ljav|domi¹ljiv (zastarelo)|hvastav|prevzeten|velièav
 (prid.)|domiseln|invenciozen|inventiven|iznajdljiv
@@ -6785,6 +6956,8 @@ dozdevek|1
 (sam.)|dozdeva
 dozdeven|1
 (prid.)|navidezen|prividen
+dozdevni svet|1
+(sam.)|domi¹ljijski svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginacijski svet|imaginarni svet|iracionalni svet|irealni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 dozdevnost|1
 (sam.)|navideznost|prividnost
 dozidek|1
@@ -6863,6 +7036,8 @@ dragotina|1
 (sam.)|dragocenost
 dragotinarstvo|1
 (sam.)|draguljarstvo|juvelirstvo
+dragovati|1
+(gl.)|bimèkati (ekspresivno)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|dragovati (zastarelo)|ljubèkati (ekspresivno)|ljubkovati|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 draguljar|1
 (sam.)|juvelir
 draguljarstvo|1
@@ -6991,7 +7166,7 @@ drmati|1
 drobec|1
 (sam.)|drobivec|drobtina|ko¹èek
 droben|1
-(prid.)|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)
+(prid.)|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)|debel (podpomenka)|korpulenten (podpomenka)|obilen (podpomenka)
 drobencati|1
 (gl.)|drobencljati|drobenteti|drobentiti|drobiti|drobneti
 drobencljati|1
@@ -7003,7 +7178,7 @@ drobentiti|1
 drobi¾arski|1
 (prid.)|dlakocepski|majhnosten|malenkosten
 drobi¾ast|1
-(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)
+(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)|debel (podpomenka)|korpulenten (podpomenka)|obilen (podpomenka)
 drobiti|1
 (gl.)|drobencati|drobencljati|drobenteti|drobentiti|drobneti
 drobivec|1
@@ -7017,7 +7192,7 @@ drobninar|1
 drobnjakarski|1
 (prid.)|pikolovski
 drobnjav|1
-(prid.)|droben|drobi¾ast (ekspresivno)|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)
+(prid.)|droben|drobi¾ast (ekspresivno)|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)|debel (podpomenka)|korpulenten (podpomenka)|obilen (podpomenka)
 drobno¾ivka|1
 (sam.)|mikroorganizem
 drobnobur¾oazen|1
@@ -7074,7 +7249,7 @@ dru¾nica|1
 (sam.)|dru¾abnica
 drug|2
 (prid.)|drugaèen|sicer¹nji
-(sam.)|drug (starinsko)|frend (nizko)|kolega (pogovorno)|prijatelj|tovari¹|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+(sam.)|drug (starinsko)|frend (nizko)|frendica (nizko)|kolega (pogovorno)|kolegica (pogovorno)|prijatelj|prijateljica|tovari¹|tovari¹ica|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 drugaèen|2
 (prid.)|drug|sicer¹nji
 (prid.)|razlièen
@@ -7133,6 +7308,8 @@ du¹ica|1
 (sam.)|astma|du¹ica (zastarelo)|naduha
 du¹ilec|1
 (sam.)|sordina
+du¹ni pastir|1
+(sam.)|bo¾ji namestnik|cerkvenec (starinsko)|cerkvenjak (starinsko)|du¹ni pastir (starinsko)|duhoven (starinsko)|duhovnik|èastiti|klerik|ma¹nik (starinsko)|preèastiti|sveèenik (zastarelo)
 du¹nopastirski|1
 (prid.)|pastoralen
 dual|1
@@ -7165,17 +7342,19 @@ duh|2
 (sam.)|intelekt|razum|um
 (sam.)|vonj|vzduh (zastarelo)
 duhamoren|1
-(prid.)|duhomoren|moreè|muèen|svinèen (ekspresivno)|te¾ek
+(prid.)|duhomoren|moreè|muèen|mukotrpen|svinèen (ekspresivno)|te¾ek
 duhapristnost|1
 (sam.)|duhapristnost (zastarelo)|prièujoènost|prisebnost
 duhati|1
 (gl.)|¹nofati (neknji¾no)|vohati
 duhomoren|1
-(prid.)|duhamoren|moreè|muèen|svinèen (ekspresivno)|te¾ek
+(prid.)|duhamoren|moreè|muèen|mukotrpen|svinèen (ekspresivno)|te¾ek
 duhosloven|1
 (prid.)|du¹esloven|duhosloven (zastarelo)|psiholo¹ki
 duhov¹èina|1
 (sam.)|duhovniki|kler
+duhoven|1
+(sam.)|bo¾ji namestnik|cerkvenec (starinsko)|cerkvenjak (starinsko)|du¹ni pastir (starinsko)|duhoven (starinsko)|duhovnik|èastiti|klerik|ma¹nik (starinsko)|preèastiti|sveèenik (zastarelo)
 duhovit|1
 (prid.)|bister|domiseln|ingeniozen|iskriv|pogodljiv
 duhovitost|1
@@ -7184,6 +7363,8 @@ duhovne vaje|1
 (sam.)|eksercicije
 duhovnija|1
 (sam.)|vikariat
+duhovnik|1
+(sam.)|bo¾ji namestnik|cerkvenec (starinsko)|cerkvenjak (starinsko)|du¹ni pastir (starinsko)|duhoven (starinsko)|èastiti|klerik|ma¹nik (starinsko)|preèastiti|sveèenik (zastarelo)
 duhovniki|1
 (sam.)|duhov¹èina|kler
 dukat|1
@@ -7204,6 +7385,8 @@ duri|1
 (sam.)|duri (starinsko)|dver (starinsko)|vrata
 durnica|1
 (sam.)|durnica (starinsko)|krilo|vratnica
+dv|1
+(sam.)|davek na dodano vrednost|dedeve
 dvajseterec|1
 (sam.)|ikozaeder
 dvanajsterec|1
@@ -7317,10 +7500,18 @@ dvorezen|1
 (prid.)|dvosmiseln|dvoumen|pitijski
 dvoriti|1
 (gl.)|osvajati|sviriliriti (zastarelo)|udvarjati
+dvorjan|1
+(sam.)|dvorjanik|dvornik (starinsko)|palatin (zastarelo)|pridvornik (zastarelo)
+dvorjanik|1
+(sam.)|dvorjan|dvornik (starinsko)|palatin (zastarelo)|pridvornik (zastarelo)
+dvorjenje|1
+(sam.)|nagovarjanje|osvajanje|pihanje na du¹o|snubljenje
 dvorljivec|1
 (sam.)|slavilec|trubadur (ekspresivno)
 dvorljivost|1
 (sam.)|udvorljivost
+dvornik|1
+(sam.)|dvorjan|dvorjanik|dvornik (starinsko)|palatin (zastarelo)|pridvornik (zastarelo)
 dvoslojen|1
 (prid.)|dvoplasten
 dvosmiseln|1
@@ -7400,7 +7591,7 @@ e¹arpa|1
 èaroben|3
 (prid.)|èaren|èaroven
 (prid.)|èarovit (zastarelo)|oèarljiv|privlaèen
-(prid.)|brhek|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 èarobnost|2
 (sam.)|èarovitost (zastarelo)|oèarljivost
 (sam.)|bajnost|bo¾anstvenost (ekspresivno)|brhkost (zastarelo)|brhkota|divnost (zastarelo)|divota (zastarelo)|èar|èaroba|èudovitost|kras|krasota|lepota|lepotija|prelest
@@ -7411,9 +7602,9 @@ e¹arpa|1
 èarodejen|1
 (prid.)|bajalen|èarodelen|èaroven|èudodelen
 èarodejka|1
-(sam.)|coprnica (neknji¾no)|èarodejnica|èarovnica
+(sam.)|coprnica (neknji¾no)|èarodejnica|èarovnica|ve¹èa (starinsko)|zlodejka (zastarelo)
 èarodejnica|1
-(sam.)|coprnica (neknji¾no)|èarodejka|èarovnica
+(sam.)|coprnica (neknji¾no)|èarodejka|èarovnica|ve¹èa (starinsko)|zlodejka (zastarelo)
 èarodejnost|1
 (sam.)|èarovnost|èudodelnost
 èarodejski|1
@@ -7434,7 +7625,7 @@ e¹arpa|1
 èarovni¹tvo|1
 (sam.)|èaroba
 èarovnica|1
-(sam.)|coprnica (neknji¾no)|èarodejka|èarodejnica
+(sam.)|coprnica (neknji¾no)|èarodejka|èarodejnica|ve¹èa (starinsko)|zlodejka (zastarelo)
 èarovnija|1
 (sam.)|coprnija (neknji¾no)
 èarovnik|1
@@ -7511,6 +7702,8 @@ e¹arpa|1
 (sam.)|èastihlepnost|èastilakomnost
 èastitati|1
 (gl.)|èestitati|gratulirati
+èastiti|1
+(sam.)|bo¾ji namestnik|cerkvenec (starinsko)|cerkvenjak (starinsko)|du¹ni pastir (starinsko)|duhoven (starinsko)|duhovnik|klerik|ma¹nik (starinsko)|preèastiti|sveèenik (zastarelo)
 èastni¹ki|1
 (prid.)|oficirski
 èastnik|1
@@ -7593,7 +7786,7 @@ edukativen|1
 èedalje|1
 (prisl.)|èezdalje
 èeden|1
-(prid.)|brhek|èaroben|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èaroben|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 èediti|1
 (gl.)|èistiti|sna¾iti
 èelada|1
@@ -7807,6 +8000,8 @@ eholot|1
 èist|2
 (prid.)|èistkan (ekspresivno)|sna¾en
 (prid.)|gol|zgolj
+èista la¾|1
+(sam.)|debela la¾ (ekspresivno)|èista la¾ (ekspresivno)|kosmata la¾ (ekspresivno)|la¾|neresnica|neresniènost|popolna la¾ (ekspresivno)|pravljica
 èistilka|1
 (sam.)|sna¾ilka
 èistilnik|1
@@ -7984,7 +8179,7 @@ ekskralj|1
 ekskrement|1
 (sam.)|blato|drek (nizko)|govno|iztrebki
 ekskviziten|1
-(prid.)|bogovski|imeniten|izbran|izvrsten
+(prid.)|bogovski|ekstra|imeniten|izbran|izvrsten
 ekskvizitnost|1
 (sam.)|izbornost|izrednost|izvrstnost
 eksleks|1
@@ -8155,8 +8350,9 @@ eksteriorizirati|1
 (gl.)|povnanjiti
 eksternost|1
 (sam.)|vnanjost|zunanjost
-ekstra|1
+ekstra|2
 (prid.)|aparten|ekscentrièen|eksotièen|kuriozen|nenavaden|neobièajen|opazen|opozorljiv|poseben
+(prid.)|bogovski|ekskviziten|imeniten|izbran|izvrsten
 ekstradicija|1
 (sam.)|izroèitev
 ekstradr¾aven|1
@@ -8347,7 +8543,7 @@ elitnik|1
 èloveènost|1
 (sam.)|èloveèanstvo
 èlovek|1
-(sam.)|individuum|oseba|osebnost|subjekt|jr. (podpomenka)|junior (podpomenka)|ml. (podpomenka)|mlaj¹i (podpomenka)|senior (podpomenka)|sr. (podpomenka)|st. (podpomenka)|starej¹i (podpomenka)|morilec (podpomenka)|ubijalec (podpomenka)|vinar (zastarelo) (podpomenka)|vinièar (zastarelo) (podpomenka)|vinogradnik (podpomenka)|lovec (podpomenka)|lovica (podpomenka)|lovka (podpomenka)|nimrod (podpomenka)|drug (starinsko) (podpomenka)|frend (nizko) (podpomenka)|kolega (pogovorno) (podpomenka)|prijatelj (podpomenka)|tovari¹ (podpomenka)
+(sam.)|individuum|oseba|osebnost|subjekt|jr. (podpomenka)|junior (podpomenka)|ml. (podpomenka)|mlaj¹i (podpomenka)|senior (podpomenka)|sr. (podpomenka)|st. (podpomenka)|starej¹i (podpomenka)|morilec (podpomenka)|morilka (podpomenka)|ubijalec (podpomenka)|ubijalka (podpomenka)|vinar (zastarelo) (podpomenka)|vinièar (zastarelo) (podpomenka)|vinogradnik (podpomenka)|lovec (podpomenka)|lovica (podpomenka)|lovka (podpomenka)|nimrod (podpomenka)|drug (starinsko) (podpomenka)|frend (nizko) (podpomenka)|frendica (nizko) (podpomenka)|kolega (pogovorno) (podpomenka)|kolegica (pogovorno) (podpomenka)|prijatelj (podpomenka)|prijateljica (podpomenka)|tovari¹ (podpomenka)|tovari¹ica (podpomenka)
 èlovekoljub|1
 (sam.)|filantrop
 èlovekoljuben|1
@@ -8590,12 +8786,18 @@ enologija|1
 (sam.)|vinoslovje
 enomeren|1
 (prid.)|enakomeren|enomeren (starinsko)|ravnomeren
+enomiselna beseda|1
+(sam.)|enomiselna beseda (starinsko)|enopomenka|enopomenska beseda|enosmiselna beseda|enoznaèna beseda (zastarelo)
 enooènik|1
 (sam.)|enooènik (starinsko)|monokel|naoènik (starinsko)
 enoplasten|1
 (prid.)|enoslojen
 enopolen|1
 (prid.)|unipolaren
+enopomenka|1
+(sam.)|enomiselna beseda (starinsko)|enopomenska beseda|enosmiselna beseda|enoznaèna beseda (zastarelo)
+enopomenska beseda|1
+(sam.)|enomiselna beseda (starinsko)|enopomenka|enosmiselna beseda|enoznaèna beseda (zastarelo)
 enopomenski|1
 (prid.)|enoznaèen
 enormen|1
@@ -8610,6 +8812,8 @@ enorok|1
 (prid.)|samorok
 enoslojen|1
 (prid.)|enoplasten
+enosmiselna beseda|1
+(sam.)|enomiselna beseda (starinsko)|enopomenka|enopomenska beseda|enoznaèna beseda (zastarelo)
 enostaven|1
 (prid.)|nezamotan|nezapleten|pode¾elski|preprost|rustièen|rustikalen
 enostavni sladkor|1
@@ -8648,6 +8852,8 @@ enovito|1
 (prisl.)|enotno|homogeno
 enoznaèen|1
 (prid.)|enopomenski
+enoznaèna beseda|1
+(sam.)|enomiselna beseda (starinsko)|enopomenka|enopomenska beseda|enosmiselna beseda|enoznaèna beseda (zastarelo)
 enteritis|1
 (sam.)|èrevesni katar
 entiteta|1
@@ -8768,6 +8974,8 @@ erizipel|1
 (sam.)|èrkolivar
 èrkomer|1
 (sam.)|tipometer
+èrkopis|1
+(sam.)|abeceda|pisava
 èrkostavec|1
 (sam.)|stavec
 èrkovno-¹tevilèen|1
@@ -8861,6 +9069,10 @@ esplanada|1
 (sam.)|plato|plo¹èad
 espri|1
 (sam.)|domiselnost|duhovitost
+estetski èut|1
+(sam.)|estetski posluh|lepotni èut
+estetski posluh|1
+(sam.)|estetski èut|lepotni èut
 eston¹èina|1
 (sam.)|estonski jezik
 estonski jezik|1
@@ -8976,7 +9188,11 @@ euproctis chrysorrhoea|1
 (sam.)|afekt|obèutenje|obèutje|sentiment
 (sam.)|emocija
 èut|1
-(sam.)|slut (starinsko)
+(sam.)|instinkt|posluh|slut (starinsko)
+èutna ljubezen|1
+(sam.)|fizièna ljubezen|mesena ljubezen (ekspresivno)|poltena ljubezen (slab¹alno)|senzualna ljubezen|spolna ljubezen|telesna ljubezen
+èutni svet|1
+(sam.)|fenomenalni svet|fenomenski svet|pojavni svet
 èutnost|1
 (sam.)|mesenost|poèutnost (starinsko)|poltnost|senzualnost|sladnost (zastarelo)
 ev|1
@@ -9068,6 +9284,8 @@ fabula|2
 (sam.)|¹torija (pogovorno)|storija (ekspresivno)|zgodba
 fabulist|1
 (sam.)|pripovednik
+faca|1
+(sam.)|faca (pogovorno)|fris (neknji¾no)|ksiht (neknji¾no)|oblièje|obraz
 fajanèen|1
 (prid.)|fajansen|majolièast|majolièen|majolikast
 fajansen|1
@@ -9144,10 +9362,14 @@ fantast|1
 fantastièen|2
 (prid.)|bo¾anski (ekspresivno)|diven|divoten (zastarelo)|èarokrasen (zastarelo)|èudapoln (zastarelo)|èudovit|kolosalen|sijajen
 (prid.)|domi¹ljijski
+fantastièni svet|1
+(sam.)|domi¹ljijski svet|dozdevni svet|fantazijski svet|fiktivni svet|imaginacijski svet|imaginarni svet|iracionalni svet|irealni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 fantazija|1
 (sam.)|domi¹ljija|imaginacija
 fantazijski|1
 (prid.)|domi¹ljijski|imaginativen
+fantazijski svet|1
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fiktivni svet|imaginacijski svet|imaginarni svet|iracionalni svet|irealni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 fantazirati|1
 (gl.)|sanjariti
 fantazma|1
@@ -9198,7 +9420,7 @@ fatum|1
 faux pas|1
 (sam.)|kiks|napaka|neuspeh|spodrsljaj
 favl|1
-(sam.)|favl (¾argon)|prekr¹ek
+(sam.)|favl (¾argon)|prekr¹ek|prestopek
 favna|1
 (sam.)|¾ivalstvo|klop (podpomenka)
 fe|1
@@ -9210,7 +9432,7 @@ februar|1
 federalen|1
 (prid.)|zvezen
 fejst|1
-(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 feldkirchen|1
 (sam.)|Trg
 feljton|1
@@ -9227,6 +9449,10 @@ fenolen|1
 (sam.)|fenolen (strokovno)|karbolen
 fenomen|1
 (sam.)|pojav
+fenomenalni svet|1
+(sam.)|èutni svet|fenomenski svet|pojavni svet
+fenomenski svet|1
+(sam.)|èutni svet|fenomenalni svet|pojavni svet
 fermata|1
 (sam.)|dr¾aj|korona
 ferment|1
@@ -9260,6 +9486,8 @@ fiksiren|1
 (prid.)|utrjevalen
 fiktiven|1
 (prid.)|izmi¹ljen
+fiktivni svet|1
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fantazijski svet|imaginacijski svet|imaginarni svet|iracionalni svet|irealni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 filantrop|1
 (sam.)|èlovekoljub
 filantropièen|1
@@ -9318,6 +9546,10 @@ fitologija|1
 (sam.)|rastlinoslovje
 fizièen|1
 (prid.)|telesen
+fizièna ljubezen|1
+(sam.)|èutna ljubezen|mesena ljubezen (ekspresivno)|poltena ljubezen (slab¹alno)|senzualna ljubezen|spolna ljubezen|telesna ljubezen
+fizièni svet|1
+(sam.)|oprijemljivi svet (ekspresivno)|predmetni svet|realni svet (ekspresivno)|resnièni svet (ekspresivno)|stvarni svet|zaresni svet (ekspresivno)
 fiziognomija|1
 (sam.)|fizionomija
 fizionomija|1
@@ -9327,8 +9559,10 @@ fizis|1
 fizkultura|2
 (sam.)|fizkultura (pogovorno)|telesna kultura
 (sam.)|fizkultura (pogovorno)|telesna vzgoja|telovadba (pogovorno)
+fizkulturnica|1
+(sam.)|¹portnica|¹portnik|fizkulturnik|telovadec|telovadka
 fizkulturnik|1
-(sam.)|¹portnik|telovadec
+(sam.)|¹portnica|¹portnik|fizkulturnica|telovadec|telovadka
 fla¹a|1
 (sam.)|fla¹a (nizko)|fla¹ka (nizko)|steklenica|steklenièka|demi¾on (podpomenka)|fla¹kon (pogovorno) (podpomenka)|opletenka (podpomenka)|pletenka (podpomenka)
 fla¹ka|1
@@ -9364,9 +9598,9 @@ flektirati|2
 (gl.)|pregibati
 (gl.)|upogibati|upogniti
 fleten|1
-(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 fletkan|1
-(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 flika|1
 (sam.)|flika (pogovorno)|krpa|zaplata
 flikniti|2
@@ -9433,8 +9667,12 @@ formular|1
 (sam.)|obrazec
 forsitija|1
 (sam.)|forzicija (pogovorno)
+fort|1
+(sam.)|trdnjava
 fortepiano|1
 (sam.)|fortepiano (zastarelo)|glasovir (zastarelo)|klavir
+fortifikacija|1
+(sam.)|trdnjava|utrdba
 fortifikacijski|1
 (prid.)|utrjevalen
 fortuna|1
@@ -9503,7 +9741,9 @@ frekventiran|1
 frekventirati|1
 (gl.)|izkori¹èati|uporabljati
 frend|1
-(sam.)|drug (starinsko)|frend (nizko)|kolega (pogovorno)|prijatelj|tovari¹|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+(sam.)|drug (starinsko)|frend (nizko)|frendica (nizko)|kolega (pogovorno)|kolegica (pogovorno)|prijatelj|prijateljica|tovari¹|tovari¹ica|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+frendica|1
+(sam.)|drug (starinsko)|frend (nizko)|frendica (nizko)|kolega (pogovorno)|kolegica (pogovorno)|prijatelj|prijateljica|tovari¹|tovari¹ica|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 freza|2
 (sam.)|frezalnik|rezkalnik
 (sam.)|prekopalnik|prekopavalnik
@@ -9529,6 +9769,8 @@ frikativa|1
 (sam.)|pripornik
 frikcija|1
 (sam.)|tor|trenje
+fris|1
+(sam.)|faca (pogovorno)|fris (neknji¾no)|ksiht (neknji¾no)|oblièje|obraz
 friteza|1
 (sam.)|cvrtnik|cvrtnjak
 frivolen|2
@@ -9549,7 +9791,7 @@ frontovec|1
 fruktoza|1
 (sam.)|sadni sladkor
 fukati|1
-(gl.)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|pariti se (nizko)|porivati (nizko)|seksati (pogovorno)|spolno obèevati
+(gl.)|dati se dol (nizko)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|ljubiti se|pariti se (nizko)|porivati (nizko)|povaljati se|seksati (pogovorno)|spolno obèevati
 fundament|1
 (sam.)|temelj
 fundamentalen|1
@@ -9559,6 +9801,8 @@ fundator|2
 (sam.)|utemeljitelj
 fungi|1
 (sam.)|Fungi (strokovno)|glive
+funkcija|1
+(sam.)|polo¾aj|pozicija
 furijast|1
 (prid.)|burjast|furijast (ekspresivno)|nagel|neuèakan|neuèakljiv|vihrav
 furijasto|1
@@ -9648,6 +9892,8 @@ garje|1
 (sam.)|skabies
 gartro¾a|1
 (sam.)|gartro¾a (starinsko)|vrtnica
+gate|1
+(sam.)|gate (neknji¾no)|spodnje hlaèe|spodnjice|svitice (starinsko)
 gavzniti|1
 (gl.)|¹kripniti (nizko)|crkniti (nizko)|gagniti (nizko)|gavzniti (nizko)|guzniti (nizko)|hropniti (nizko)|izdihniti|izhirati (ekspresivno)|iztegniti pete (ekspresivno)|preminiti|umreti
 gazometer|1
@@ -9662,6 +9908,8 @@ geminacija|1
 (sam.)|podvojitev|reduplikacija
 genealo¹ki|1
 (prid.)|rodosloven
+genealo¹ko deblo|1
+(sam.)|rodoslovno deblo
 genealog|1
 (sam.)|rodoslovec
 genealogija|1
@@ -9803,6 +10051,8 @@ glasen|1
 (prid.)|buèen|gromek (ekspresivno)|gromoglasen|gromoven|gromovit|gromski|hrumen|hrupen|urnebesen (zastarelo)|tih (protipomenka)
 glasilec|1
 (sam.)|glasnik|oznanjevalec|razgla¹alec|tribun
+glaska|1
+(sam.)|glaska (starinsko)|nota
 glasnik|1
 (sam.)|glasilec|oznanjevalec|razgla¹alec|tribun
 glasoslovje|1
@@ -9828,9 +10078,9 @@ glavnovezen|1
 glavobol|1
 (sam.)|cefalgija
 glavorez|1
-(sam.)|glavorez (ekspresivno)|glavosek (ekspresivno)|grlorezec (ekspresivno)|morilec (nadpomenka)|ubijalec (nadpomenka)
+(sam.)|glavorez (ekspresivno)|glavosek (ekspresivno)|grlorezec (ekspresivno)|morilec (nadpomenka)|morilka (nadpomenka)|ubijalec (nadpomenka)|ubijalka (nadpomenka)
 glavosek|1
-(sam.)|glavorez (ekspresivno)|glavosek (ekspresivno)|grlorezec (ekspresivno)|morilec (nadpomenka)|ubijalec (nadpomenka)
+(sam.)|glavorez (ekspresivno)|glavosek (ekspresivno)|grlorezec (ekspresivno)|morilec (nadpomenka)|morilka (nadpomenka)|ubijalec (nadpomenka)|ubijalka (nadpomenka)
 glazura|1
 (sam.)|emajl|lo¹è|posteklina
 gle¾njak|1
@@ -10000,8 +10250,16 @@ gorkota|1
 (sam.)|toplota
 gorni¹ki|1
 (prid.)|alpinistièen|hribola¹ki (starinsko)|planinski
+gornica|1
+(sam.)|alpinist|alpinistka|gornik|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinec|planinka|veleturist (zastarelo)|veleturistka (zastarelo)
+gornik|1
+(sam.)|alpinist|alpinistka|gornica|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinec|planinka|veleturist (zastarelo)|veleturistka (zastarelo)
 gornji|1
 (prid.)|gorenji|zgornji
+gorohodec|1
+(sam.)|alpinist|alpinistka|gornica|gornik|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinec|planinka|veleturist (zastarelo)|veleturistka (zastarelo)
+gorohodka|1
+(sam.)|alpinist|alpinistka|gornica|gornik|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinec|planinka|veleturist (zastarelo)|veleturistka (zastarelo)
 goropisec|1
 (sam.)|orograf
 goropisen|1
@@ -10248,6 +10506,10 @@ grdoba|1
 grdobija|2
 (sam.)|barabinstvo (ekspresivno)|barabstvo|fakinstvo (slab¹alno)|lumparija|malopridnost
 (sam.)|lumparija|pokvarjenost
+grdost|1
+(sam.)|grdota
+grdota|1
+(sam.)|grdost|lepota (protipomenka)
 grebaè|1
 (sam.)|kultivator
 grebaèa|1
@@ -10267,8 +10529,12 @@ greder|1
 gredoè|1
 (prisl.)|medpotoma|mimogrede|spotoma
 greh|2
+(sam.)|greh (ekspresivno)|grehec (ekspresivno)|grehek (ekspresivno)|padec (ekspresivno)|pregre¹ek (ekspresivno)|pregreha (ekspresivno)|prekr¹ek|prestop|prestopek
 (sam.)|greh (ekspresivno)|napaka|pomanjkljivost
-(sam.)|greh (ekspresivno)|pregre¹ek (ekspresivno)|prekr¹ek|prestopek
+grehec|1
+(sam.)|greh (ekspresivno)|grehec (ekspresivno)|grehek (ekspresivno)|padec (ekspresivno)|pregre¹ek (ekspresivno)|pregreha (ekspresivno)|prekr¹ek|prestop|prestopek
+grehek|1
+(sam.)|greh (ekspresivno)|grehec (ekspresivno)|grehek (ekspresivno)|padec (ekspresivno)|pregre¹ek (ekspresivno)|pregreha (ekspresivno)|prekr¹ek|prestop|prestopek
 grejaèa|1
 (sam.)|grelnica (zastarelo)|ogrevaèa|ogrevalnik|termofor
 grelnica|1
@@ -10294,6 +10560,10 @@ gri¾av|1
 (prid.)|dizenterièen
 grièevje|1
 (sam.)|holmovje (starinsko)
+grif|1
+(sam.)|grif (¾argon)|oprijem|oprijemali¹èe|oprimek|prijem|prijemek
+grimasa|1
+(sam.)|grimasa (ekspresivno)|mrda (ekspresivno)|spaka|zmrda (ekspresivno)|zmrdek (ekspresivno)
 grintavec|1
 (sam.)|skabioza
 gripa|1
@@ -10313,7 +10583,7 @@ grlnost|1
 grlo|1
 (sam.)|larinks|del telesa (nadpomenka)|organ (nadpomenka)
 grlorezec|1
-(sam.)|glavorez (ekspresivno)|glavosek (ekspresivno)|grlorezec (ekspresivno)|morilec (nadpomenka)|ubijalec (nadpomenka)
+(sam.)|glavorez (ekspresivno)|glavosek (ekspresivno)|grlorezec (ekspresivno)|morilec (nadpomenka)|morilka (nadpomenka)|ubijalec (nadpomenka)|ubijalka (nadpomenka)
 grlovka|1
 (sam.)|davica ¾rela|krup
 grmièast|1
@@ -10528,6 +10798,8 @@ hasniti|1
 (gl.)|hasniti (starinsko)|koristiti|pomagati
 hazard|1
 (sam.)|igra na sreèo
+hazarder|1
+(sam.)|kockar
 he|1
 (sam.)|helij|element (nadpomenka)|kemièna prvina (nadpomenka)|kemièni element (nadpomenka)
 hebrej¹èina|1
@@ -10587,7 +10859,7 @@ heraldika|1
 herbivor|1
 (sam.)|herbivor (strokovno)|rastlinojedec
 hereditaren|1
-(prid.)|deden
+(prid.)|deden|dedièen (zastarelo)
 hereditarno|1
 (prid.)|dedno
 hereditarnost|1
@@ -10710,6 +10982,8 @@ hipokoristièen|1
 (prid.)|ljubkovalen
 hipokoristiènost|1
 (sam.)|ljubkovalnost
+hipokoristikon|1
+(sam.)|ljubkovalna beseda|ljubkovalnica
 hipokrit|1
 (sam.)|farizej|hinavec|licemer|licemerec|tartif
 hipokrizija|1
@@ -10780,16 +11054,20 @@ hladnoèa|1
 (sam.)|hlad|hladnost
 hladnokrven|1
 (prid.)|gostokrven|hladen|hladnodu¹en
+hladnokrvni konj|1
+(sam.)|mrzlokrvni konj
 hladnost|1
 (sam.)|hlad|hladnoèa
 hlaèevina|1
 (sam.)|cajg (neknji¾no)
+hlap|1
+(sam.)|zadah
 hlapèevski|1
 (prid.)|kleèeplazen|servilen
 hlapèevstvo|1
 (sam.)|kleèeplaznost|servilnost
 hleb|2
-(sam.)|hleb (zastarelo)|kruh
+(sam.)|hleb (zastarelo)|kruh|kruhek (ekspresivno)|ajdnik (podpomenka)|ajdov kruh (podpomenka)|ajdovec (podpomenka)|ajdovnik (podpomenka)|koruzni kruh (podpomenka)|koruznik (podpomenka)|koruznjak (starinsko) (podpomenka)|nekva¹eni kruh (podpomenka)|opresni kruh (starinsko) (podpomenka)|opresnik (starinsko) (podpomenka)|presmec (starinsko) (podpomenka)|maslenec (ekspresivno) (podpomenka)|masleni kruh (podpomenka)|ovseni kruh (podpomenka)|ovsenjak (starinsko) (podpomenka)|jeèmenjak (starinsko) (podpomenka)|jeèmenov kruh (podpomenka)|jeèmenovec (podpomenka)|sor¾ièni kruh (podpomenka)|sor¾ni kruh (podpomenka)
 (sam.)|hlebec
 hlebec|1
 (sam.)|hleb
@@ -10890,7 +11168,7 @@ hrabriti|1
 hrabrost|1
 (sam.)|bravura|bravurnost|drznost|pogumnost|smelost
 hrana|1
-(sam.)|¾ive¾|¾ivilo
+(sam.)|¾ive¾|¾ivila|¾ivilo (zastarelo)|jelo (starinsko)|prehrana
 hranilec|1
 (sam.)|prehranjevalec
 hranilnik|1
@@ -10918,7 +11196,9 @@ hribola¹ki|1
 hribola¹tvo|1
 (sam.)|alpinistika|hribola¹tvo (starinsko)|hribovstvo|planinstvo
 hribolazec|1
-(sam.)|alpinist|hribolazec (starinsko)|planinec|veleturist (zastarelo)
+(sam.)|alpinist|alpinistka|gornica|gornik|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinec|planinka|veleturist (zastarelo)|veleturistka (zastarelo)
+hribolazka|1
+(sam.)|alpinist|alpinistka|gornica|gornik|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinec|planinka|veleturist (zastarelo)|veleturistka (zastarelo)
 hribovstvo|1
 (sam.)|alpinistika|hribola¹tvo (starinsko)|planinstvo
 hripast|1
@@ -11065,6 +11345,8 @@ idealen|3
 (prid.)|imaginaren|izmi¹ljen|nami¹ljen
 (prid.)|odlièen
 (prid.)|plemenit|rujen (ekspresivno)
+idealni svet|1
+(sam.)|izmi¹ljeni svet|nami¹ljeni svet|nestvarni svet
 ideja|1
 (sam.)|domislek|domislica|namislek (starinsko)|umislek|zamisel
 identièen|1
@@ -11180,8 +11462,12 @@ iluzoren|1
 (prid.)|absurden|gorostasen (ekspresivno)|nemogoè|neverjeten
 imaginacija|1
 (sam.)|domi¹ljija|fantazija
+imaginacijski svet|1
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginarni svet|iracionalni svet|irealni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 imaginaren|1
 (prid.)|idealen|izmi¹ljen|nami¹ljen
+imaginarni svet|1
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginacijski svet|iracionalni svet|irealni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 imaginativen|1
 (prid.)|domi¹ljijski|fantazijski
 imanenten|1
@@ -11195,7 +11481,7 @@ imenik|1
 imeniten|4
 (prid.)|aristokratski|gosposki|nobel (pogovorno)|plemenita¹ki|plemi¹ki
 (prid.)|bistven|centralen|glaven|imeniten (zastarelo)|kardinalen|konstitutiven|poglaviten|pomemben
-(prid.)|bogovski|ekskviziten|izbran|izvrsten
+(prid.)|bogovski|ekskviziten|ekstra|izbran|izvrsten
 (prid.)|dièen (zastarelo)|distingviran|eminenten|famozen|odlièen|slaven|slovit|znamenit
 imenitnik|3
 (sam.)|¾lahèiè (zastarelo)|¾lahtniè (zastarelo)|¾lahtnik (zastarelo)|aristokrat|kavalir (zastarelo)|odliènik|plemenita¹|plemenitnik|plemiè|plemkinja
@@ -11314,7 +11600,7 @@ inavguralen|1
 inavgurirati|1
 (gl.)|uvesti|vpeljati
 incest|1
-(sam.)|krvoskrunstvo|krvosramstvo
+(sam.)|krvoskrunstvo|krvosramstvo (starinsko)
 incesten|1
 (prid.)|incestuozen|krvoskrunski|krvosramen
 incestuozen|1
@@ -11345,7 +11631,7 @@ individualen|2
 (prid.)|posamièen
 (prid.)|poseben|samolasten
 individuum|1
-(sam.)|èlovek|oseba|osebnost|subjekt|jr. (podpomenka)|junior (podpomenka)|ml. (podpomenka)|mlaj¹i (podpomenka)|senior (podpomenka)|sr. (podpomenka)|st. (podpomenka)|starej¹i (podpomenka)|morilec (podpomenka)|ubijalec (podpomenka)|vinar (zastarelo) (podpomenka)|vinièar (zastarelo) (podpomenka)|vinogradnik (podpomenka)|lovec (podpomenka)|lovica (podpomenka)|lovka (podpomenka)|nimrod (podpomenka)|drug (starinsko) (podpomenka)|frend (nizko) (podpomenka)|kolega (pogovorno) (podpomenka)|prijatelj (podpomenka)|tovari¹ (podpomenka)
+(sam.)|èlovek|oseba|osebnost|subjekt|jr. (podpomenka)|junior (podpomenka)|ml. (podpomenka)|mlaj¹i (podpomenka)|senior (podpomenka)|sr. (podpomenka)|st. (podpomenka)|starej¹i (podpomenka)|morilec (podpomenka)|morilka (podpomenka)|ubijalec (podpomenka)|ubijalka (podpomenka)|vinar (zastarelo) (podpomenka)|vinièar (zastarelo) (podpomenka)|vinogradnik (podpomenka)|lovec (podpomenka)|lovica (podpomenka)|lovka (podpomenka)|nimrod (podpomenka)|drug (starinsko) (podpomenka)|frend (nizko) (podpomenka)|frendica (nizko) (podpomenka)|kolega (pogovorno) (podpomenka)|kolegica (pogovorno) (podpomenka)|prijatelj (podpomenka)|prijateljica (podpomenka)|tovari¹ (podpomenka)|tovari¹ica (podpomenka)
 indolenca|1
 (sam.)|malomarnost|neprizadevnost
 inè|1
@@ -11477,8 +11763,8 @@ inozemec|1
 inozemski|1
 (prid.)|eksotièen|tuj|tujeroden|tujezemski
 inscenacija|2
+(sam.)|odrska izvedba|uprizoritev
 (sam.)|scena|scenografija
-(sam.)|uprizoritev
 inscenator|1
 (sam.)|scenograf
 insekt|1
@@ -11506,7 +11792,8 @@ inspirativen|1
 (prid.)|inspiracijski|navdihovalen|navdihujoè
 inspirativnost|1
 (prid.)|navdihovalnost
-instinkt|1
+instinkt|2
+(sam.)|èut|posluh|slut (starinsko)
 (sam.)|gon|nagon
 institucija|1
 (sam.)|ustanova
@@ -11540,7 +11827,7 @@ integriteta|1
 intelekt|1
 (sam.)|duh|razum|um
 intelektualec|1
-(sam.)|razumnik
+(sam.)|intelektualka|razumnica|razumnik
 intelektualen|2
 (prid.)|cerebralen|intelektualistièen|razumski|umski
 (prid.)|razumni¹ki
@@ -11549,7 +11836,7 @@ intelektualistièen|1
 intelektualizem|1
 (sam.)|razumskost
 intelektualka|1
-(sam.)|razumnica
+(sam.)|intelektualec|razumnica|razumnik
 inteligent|1
 (sam.)|¹tudiranec|iz¹olanec|izobra¾enec
 inteligenten|1
@@ -11704,7 +11991,8 @@ inundacija|1
 (sam.)|poplava|povodenj
 invazija|1
 (sam.)|vpad
-invektiva|1
+invektiva|2
+(sam.)|¾aljiva beseda|¾aljivka
 (sam.)|ozmerjanje
 invencija|1
 (sam.)|domiselnost|invencioznost|iznajdljivost|izumljivost|znajdenost (zastarelo)
@@ -11735,10 +12023,14 @@ ir|1
 iracionalen|2
 (prid.)|domi¹ljijski|nerazumski|racionalen (protipomenka)
 (prid.)|nedoumljiv
+iracionalni svet|1
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginacijski svet|imaginarni svet|irealni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 iradiacija|1
 (sam.)|¹irjenje|raz¹irjanje
 irealen|1
 (prid.)|neresnièen|nestvaren
+irealni svet|1
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginacijski svet|imaginarni svet|iracionalni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 iregularen|1
 (prid.)|nenavaden|nepravilen|nereden
 irelevanten|1
@@ -11777,6 +12069,8 @@ isker|1
 (prid.)|¾ivahen|¾uren (zastarelo)|brz|hiter|jadrn|lahkonog (ekspresivno)|nagel|nezamuden|rapiden|strelovit (ekspresivno)|uren
 iskren|1
 (prid.)|nenarejen|nepotvorjen|resnièen
+iskreno|1
+(prisl.)|v obraz
 iskri¹èe|1
 (sam.)|iskrilo
 iskrilo|1
@@ -11840,6 +12134,10 @@ iteracija|1
 (sam.)|ponovitev
 iterativen|1
 (prid.)|ponavljalen
+iti pod prho|1
+(gl.)|iti pod tu¹ (pogovorno)|prhati se|tu¹irati se (pogovorno)
+iti pod tu¹|1
+(gl.)|iti pod prho|iti pod tu¹ (pogovorno)|prhati se|tu¹irati se (pogovorno)
 iti v fran¾e|1
 (gl.)|iti v fran¾e (pogovorno)|propadati
 iver|1
@@ -11905,7 +12203,7 @@ izbor|2
 izbornost|1
 (sam.)|ekskvizitnost|izrednost|izvrstnost
 izbran|3
-(prid.)|bogovski|ekskviziten|imeniten|izvrsten
+(prid.)|bogovski|ekskviziten|ekstra|imeniten|izvrsten
 (prid.)|bolj¹i|reprezentativen
 (prid.)|izostren|rafiniran
 izbruh|2
@@ -12027,16 +12325,17 @@ izgon|1
 (sam.)|ostrakizem
 izgotoviti|1
 (gl.)|dokonèati|izdelati
+izgovarjanje|1
+(sam.)|artikulacija|artikuliranje|izgovarjava|izgovor|izreka
 izgovarjati|1
 (gl.)|artikulirati|izgovoriti
 izgovarjava|1
-(sam.)|artikulacija|izgovorjava|izreka
-izgovor|1
+(sam.)|artikulacija|artikuliranje|izgovarjanje|izgovor|izreka
+izgovor|2
 (sam.)|alibi|izvinek (zastarelo)|opravièba (zastarelo)|opravièilo
+(sam.)|artikulacija|artikuliranje|izgovarjanje|izgovarjava|izreka
 izgovoriti|1
 (gl.)|artikulirati|izgovarjati
-izgovorjava|1
-(sam.)|artikulacija|izgovarjava|izreka
 izgradnja|1
 (sam.)|graditev
 izgrèati|1
@@ -12062,9 +12361,12 @@ izhlapina|1
 (sam.)|izpara|izparina|sparina
 izhod|1
 (sam.)|pomoèek (starinsko)|re¹itev|solucija
-izhodi¹èe|2
-(sam.)|iztoènica|odskoènica|opori¹èe|osnova|temelj
+izhodi¹èe|3
+(sam.)|izhodi¹èna toèka|iztoènica|odskoènica|opori¹èe|osnova|temelj
+(sam.)|odskoèi¹èe (ekspresivno)|odskoèna deska|odskoènica (ekspresivno)
 (sam.)|postulat|predpostavka
+izhodi¹èna toèka|1
+(sam.)|izhodi¹èe|iztoènica|odskoènica|opori¹èe|osnova|temelj
 izhodnica|1
 (sam.)|geslo
 izimenski|1
@@ -12083,6 +12385,10 @@ izjedkanina|1
 (sam.)|izjeda|razjeda|razjedenina
 izjedlina|1
 (sam.)|izjedina
+izjema|1
+(sam.)|izjemek (zastarelo)
+izjemek|1
+(sam.)|izjema|izjemek (zastarelo)
 izjemen|2
 (prid.)|anomalen|nepravilen
 (prid.)|ekstraordinaren|izreden|nadvsakdanji|neèuven (zastarelo)
@@ -12241,10 +12547,11 @@ izmenljiv|1
 (prid.)|izmenjalen|komutativen|zamenljiv
 izmenljivost|1
 (sam.)|komutativnost|zamenljivost
-izmera|1
+izmera|2
 (sam.)|dimenzija|mera
+(sam.)|izmerek|meritev|merjenje
 izmerek|1
-(sam.)|meritev|merjenje
+(sam.)|izmera|meritev|merjenje
 izmet|1
 (sam.)|bastard (slab¹alno)|izmeèek|izrod|izrodek|izvr¾ek
 izmi¹ljen|5
@@ -12253,6 +12560,9 @@ izmi¹ljen|5
 (prid.)|fingiran|hlinjen
 (prid.)|idealen|imaginaren|nami¹ljen
 (prid.)|navidezen|umiseln
+izmi¹ljeni svet|2
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginacijski svet|imaginarni svet|iracionalni svet|irealni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
+(sam.)|idealni svet|nami¹ljeni svet|nestvarni svet
 izmi¹ljenina|1
 (sam.)|¹torija (pogovorno)|bajka|èenèa|èenèarija|fabula|izmi¹ljija|izmi¹ljotina|kvanta|marenj|marnja
 izmi¹ljija|1
@@ -12449,8 +12759,11 @@ izpostavljen|1
 (prid.)|eksponiran
 izpostavljenost|1
 (sam.)|eksponiranost
-izpoved|1
+izpoved|2
+(sam.)|izpovedba
 (sam.)|konfesija
+izpovedba|1
+(sam.)|izpoved
 izpovedovalec|1
 (sam.)|izra¾evalec|izrazitelj|izraznik
 izpovedovati|1
@@ -12506,7 +12819,8 @@ izravnan|1
 (prid.)|zniveliran
 izravnati|1
 (gl.)|egalizirati|izenaèiti|znivelirati
-izraz|1
+izraz|2
+(sam.)|beseda|besedica (ekspresivno)|pojem|slovo (zastarelo)|termin|determinanta (podpomenka)|doloèilna beseda (podpomenka)|doloèilnica (podpomenka)|enomiselna beseda (starinsko) (podpomenka)|enopomenka (podpomenka)|enopomenska beseda (podpomenka)|enosmiselna beseda (podpomenka)|enoznaèna beseda (zastarelo) (podpomenka)|hipokoristikon (podpomenka)|ljubkovalna beseda (podpomenka)|ljubkovalnica (podpomenka)|atonièna beseda (podpomenka)|atonon (podpomenka)|breznaglasna beseda (podpomenka)|breznaglasnica (podpomenka)|nezlo¾ena beseda (podpomenka)|simpleks (podpomenka)|porogljiva beseda (podpomenka)|porogljivka (ekspresivno) (podpomenka)|mnogopomenska beseda (podpomenka)|mnogoznaèna beseda (podpomenka)|polivalentna beseda (podpomenka)|veèpomenka (podpomenka)|veèpomenska beseda (podpomenka)|¾aljiva beseda (podpomenka)|¾aljivka (podpomenka)|invektiva (podpomenka)|motivirana beseda (podpomenka)|tvorjena beseda (podpomenka)|tvorjenka (podpomenka)
 (sam.)|odraz|refleks
 izrazit|3
 (prid.)|drastièen
@@ -12552,7 +12866,7 @@ izrek|3
 (sam.)|iver|misel
 (sam.)|teorem
 izreka|1
-(sam.)|artikulacija|izgovarjava|izgovorjava
+(sam.)|artikulacija|artikuliranje|izgovarjanje|izgovarjava|izgovor
 izrez|1
 (sam.)|odstranitev|resekcija
 izrezaèa|1
@@ -12661,7 +12975,7 @@ iztisnjenje|1
 iztoèen|1
 (prid.)|iztoèen (zastarelo)|vzhoden
 iztoènica|1
-(sam.)|izhodi¹èe|odskoènica|opori¹èe|osnova|temelj
+(sam.)|izhodi¹èe|izhodi¹èna toèka|odskoènica|opori¹èe|osnova|temelj
 iztrebki|1
 (sam.)|blato|drek (nizko)|ekskrement|govno
 iztrebljanje|1
@@ -12803,7 +13117,7 @@ izvr¾ek|1
 izvrg|1
 (sam.)|abortus|zvrg
 izvrsten|1
-(prid.)|bogovski|ekskviziten|imeniten|izbran
+(prid.)|bogovski|ekskviziten|ekstra|imeniten|izbran
 izvrstnost|1
 (sam.)|ekskvizitnost|izbornost|izrednost
 izvzetje|1
@@ -12845,6 +13159,14 @@ jahaè|1
 (sam.)|jahalec|jezdec|konjik (starinsko)|konjuh
 jahalec|1
 (sam.)|jahaè|jezdec|konjik (starinsko)|konjuh
+jahalke|1
+(sam.)|jahalne hlaèe
+jahalne hlaèe|1
+(sam.)|jahalke
+jahalni konj|1
+(sam.)|jahanec|je¾ni konj|jezdni konj|roncin
+jahanec|1
+(sam.)|jahalni konj|je¾ni konj|jezdni konj|roncin
 jajce|1
 (sam.)|modo (pogovorno)
 jajèevec|1
@@ -12940,8 +13262,10 @@ je¾a na pegazu|1
 (sam.)|pesnikovanje|pesnjenje
 je¾ek|1
 (sam.)|Sparganium (strokovno)
+je¾ni konj|1
+(sam.)|jahalni konj|jahanec|jezdni konj|roncin
 jebati|1
-(gl.)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|pariti se (nizko)|porivati (nizko)|seksati (pogovorno)|spolno obèevati
+(gl.)|dati se dol (nizko)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|ljubiti se|pariti se (nizko)|porivati (nizko)|povaljati se|seksati (pogovorno)|spolno obèevati
 jecavost|1
 (sam.)|jecljavost
 jecljavost|1
@@ -12992,11 +13316,18 @@ jeèa|1
 (sam.)|arest (pogovorno)|keha (pogovorno)|luknja (ekspresivno)|tranèa (zastarelo)|voza (zastarelo)|zapor|zatvor (zastarelo)
 jeèar|1
 (sam.)|kljuèar|paznik
+jeèmenjak|1
+(sam.)|jeèmenjak (starinsko)|jeèmenov kruh|jeèmenovec
+jeèmenov kruh|1
+(sam.)|jeèmenjak (starinsko)|jeèmenovec
+jeèmenovec|1
+(sam.)|jeèmenjak (starinsko)|jeèmenov kruh
 jeklenka|1
 (sam.)|bomba
 jekomer|1
 (sam.)|eholot|sonar|ultrazvoèni globinomer
-jelo|1
+jelo|2
+(sam.)|¾ive¾|¾ivila|¾ivilo (zastarelo)|hrana|jelo (starinsko)|prehrana
 (sam.)|jed|jedaèa|jelo (starinsko)
 jenjavati|1
 (gl.)|nehavati|ponehavati
@@ -13028,6 +13359,8 @@ jeza|1
 (sam.)|jarost (starinsko)|nejevolja|nemilost|ozlovoljenost|srd
 jezdec|1
 (sam.)|jahaè|jahalec|konjik (starinsko)|konjuh
+jezdni konj|1
+(sam.)|jahalni konj|jahanec|je¾ni konj|roncin
 jezen|1
 (prid.)|ogorèen|razkaèen|revoltiran
 jezernica|1
@@ -13093,6 +13426,8 @@ jugoslavija|1
 (sam.)|SFRJ|Socialistièna federativna republika Jugoslavija
 jugovina|1
 (sam.)|meèava|odjuga
+juhar|1
+(sam.)|juhar (slab¹alno)|kuhar|kuharèek (ekspresivno)
 jukstapozicija|1
 (sam.)|sklop
 julij|1
@@ -13131,6 +13466,8 @@ juvelir|1
 (sam.)|draguljar
 juvelirstvo|1
 (sam.)|dragotinarstvo|draguljarstvo
+k¹eft|1
+(sam.)|biznis (pogovorno)|k¹eft (neknji¾no)|posel
 ka¹èa|1
 (sam.)|ka¹ta (starinsko)
 ka¹ta|2
@@ -13262,6 +13599,8 @@ kanister|1
 (sam.)|kanta
 kaniti|1
 (gl.)|nameravati
+kanonir|1
+(sam.)|artilerec|artilerist|baterijec (¾argon)|bombardir (starinsko)|kanonir (zastarelo)|topnièar|topnièarka
 kanta|1
 (sam.)|kanister
 kaos|1
@@ -13347,6 +13686,10 @@ kasen|1
 (prid.)|pozen
 kasetirani strop|1
 (sam.)|prekatni strop
+kasetnik|1
+(sam.)|kasetofon
+kasetofon|1
+(sam.)|kasetnik
 kasiterit|1
 (sam.)|kositrovec
 kasne|1
@@ -13409,6 +13752,10 @@ kavalerijski|1
 (prid.)|kavalerijski (starinsko)|konjeni¹ki
 kavalir|1
 (sam.)|¾lahèiè (zastarelo)|¾lahtniè (zastarelo)|¾lahtnik (zastarelo)|aristokrat|imenitnik|kavalir (zastarelo)|odliènik|plemenita¹|plemenitnik|plemiè|plemkinja
+kavbojke|1
+(sam.)|kavbojke (pogovorno)|kavbojske hlaèe
+kavbojske hlaèe|1
+(sam.)|kavbojke (pogovorno)
 kavcija|1
 (sam.)|jam¹èina|vadij (strokovno)|var¹èina
 kavelj|1
@@ -13418,7 +13765,7 @@ kavèukast|1
 kavka|1
 (sam.)|¾enska|bab¹e (slab¹alno)|baba (slab¹alno)|babela (slab¹alno)|babetina (slab¹alno)|babnica (slab¹alno)|babura (slab¹alno)|kavka (slab¹alno)|kikla (ekspresivno)
 kavsati|1
-(gl.)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|pariti se (nizko)|porivati (nizko)|seksati (pogovorno)|spolno obèevati
+(gl.)|dati se dol (nizko)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|ljubiti se|pariti se (nizko)|porivati (nizko)|povaljati se|seksati (pogovorno)|spolno obèevati
 kavzalen|1
 (prid.)|vzroèen
 kavzativni|1
@@ -13502,6 +13849,8 @@ kimelj|1
 (sam.)|kimelj (pogovorno)|kumina
 kinè|1
 (sam.)|dika (zastarelo)|kinè (zastarelo)|kras|okras
+kinestetièni obèutek|1
+(sam.)|mi¹ièni èut
 kinik|1
 (sam.)|cinik
 kinkati|1
@@ -13568,6 +13917,10 @@ klavièembalo|1
 (sam.)|èembalo|klavicimbal
 klavir|1
 (sam.)|fortepiano (zastarelo)|glasovir (zastarelo)
+klavna dobit|1
+(sam.)|klavni izkoristek
+klavni izkoristek|1
+(sam.)|klavna dobit
 kle¹èiti|1
 (gl.)|omejevati|utesnjevati
 kleèeplazen|1
@@ -13592,6 +13945,8 @@ klepetav|1
 (prid.)|gobèen|jezikav
 kler|1
 (sam.)|duhov¹èina|duhovniki
+klerik|1
+(sam.)|bo¾ji namestnik|cerkvenec (starinsko)|cerkvenjak (starinsko)|du¹ni pastir (starinsko)|duhoven (starinsko)|duhovnik|èastiti|ma¹nik (starinsko)|preèastiti|sveèenik (zastarelo)
 klet|1
 (sam.)|podpodje
 kletar|1
@@ -13730,9 +14085,9 @@ knji¾nièarstvo|1
 knji¾nièen|1
 (prid.)|bibliote¹ki|biblioteèen
 knji¾ura|1
-(sam.)|bukve (starinsko)|knji¾ura (slab¹alno)|knjiga
+(sam.)|bukve (starinsko)|knji¾ura (slab¹alno)|knjiga|kuharica (podpomenka)|kuharska knjiga (podpomenka)
 knjiga|2
-(sam.)|bukve (starinsko)|knji¾ura (slab¹alno)
+(sam.)|bukve (starinsko)|knji¾ura (slab¹alno)|kuharica (podpomenka)|kuharska knjiga (podpomenka)
 (sam.)|tom|zvezek
 knjigarna|1
 (sam.)|bukvarna (zastarelo)|bukvarnica (zastarelo)|knjigarnica (zastarelo)|knjigotr¾nica (zastarelo)
@@ -13756,6 +14111,10 @@ knjigotiskar|1
 (sam.)|tipograf
 knjigotr¾nica|1
 (sam.)|bukvarna (zastarelo)|bukvarnica (zastarelo)|knjigarna|knjigarnica (zastarelo)|knjigotr¾nica (zastarelo)
+knjigove¹ka delavnica|1
+(sam.)|knjigoveznica
+knjigoveznica|1
+(sam.)|knjigove¹ka delavnica
 ko¹arka¹|1
 (sam.)|ko¹arka¹ (¾argon)|ko¹arkar
 ko¹arkar|1
@@ -13796,6 +14155,8 @@ kocina|1
 (sam.)|dlaka|kosmatina (ekspresivno)
 kocka|1
 (sam.)|¹esterec|heksaeder|kub|kubus
+kockar|1
+(sam.)|hazarder
 kodeks|1
 (sam.)|zakonik
 kodificirati|2
@@ -13820,7 +14181,7 @@ kognitiven|1
 kognitivnost|1
 (sam.)|spoznavnost
 koitirati|1
-(gl.)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|pariti se (nizko)|porivati (nizko)|seksati (pogovorno)|spolno obèevati
+(gl.)|dati se dol (nizko)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|ljubiti se|pariti se (nizko)|porivati (nizko)|povaljati se|seksati (pogovorno)|spolno obèevati
 koketa|1
 (sam.)|koketka|namigu¹a|spogledljivka
 koketen|1
@@ -13836,10 +14197,18 @@ kolajna|1
 (sam.)|medalja|odlièje
 kolaps|1
 (sam.)|sesed|upad
+kolarna|1
+(sam.)|kolarnica|kolarska delavnica
+kolarnica|1
+(sam.)|kolarna|kolarska delavnica
+kolarska delavnica|1
+(sam.)|kolarna|kolarnica
 kolednik|1
 (sam.)|pola¾iè
 kolega|1
-(sam.)|drug (starinsko)|frend (nizko)|kolega (pogovorno)|prijatelj|tovari¹|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+(sam.)|drug (starinsko)|frend (nizko)|frendica (nizko)|kolega (pogovorno)|kolegica (pogovorno)|prijatelj|prijateljica|tovari¹|tovari¹ica|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+kolegica|1
+(sam.)|drug (starinsko)|frend (nizko)|frendica (nizko)|kolega (pogovorno)|kolegica (pogovorno)|prijatelj|prijateljica|tovari¹|tovari¹ica|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 kolekta|1
 (sam.)|nabirka
 kolektor|1
@@ -13877,6 +14246,8 @@ kolo|1
 kolobar|2
 (sam.)|kolobarjenje|vrstenje
 (sam.)|kotaè|zvitek
+kolobarjasti prerez|1
+(sam.)|obroèni prerez
 kolobarjenje|1
 (sam.)|kolobar|vrstenje
 kolobocija|1
@@ -14105,7 +14476,7 @@ konènoveljaven|1
 konferansje|1
 (sam.)|napovedovalec|voditelj
 konferirati|1
-(gl.)|debatirati|razpravljati
+(gl.)|debatirati|diskutirati|razpravljati
 konfesija|2
 (sam.)|izpoved
 (sam.)|vera|veroizpoved
@@ -14160,6 +14531,8 @@ konièast|1
 (prid.)|¹pièast (pogovorno)
 konièen|1
 (prid.)|¹ilast|konusen|sto¾èast
+konj|1
+(sam.)|konjèek (ekspresivno)|konjiè (ekspresivno)|konjièek (ekspresivno)|kopitar (ekspresivno)|kopitljaè (ekspresivno)|dirjaè (podpomenka)|dirjalec (podpomenka)|dirkaè (podpomenka)|dirkalni konj (podpomenka)|¹panec (podpomenka)|¹panski konj (podpomenka)|belgijec (podpomenka)|belgijski konj (podpomenka)|hladnokrvni konj (podpomenka)|mrzlokrvni konj (podpomenka)|polnokrvec (podpomenka)|polnokrvni konj (podpomenka)|bosanec (podpomenka)|bosanski konj (podpomenka)|jahalni konj (podpomenka)|jahanec (podpomenka)|je¾ni konj (podpomenka)|jezdni konj (podpomenka)|roncin (podpomenka)|nori¹ki konj (podpomenka)|pincgavec (podpomenka)|pincgavski konj (podpomenka)
 konjaè|1
 (sam.)|konjederec (slab¹alno)|konjederka|mrhovinar (slab¹alno)
 konjaèija|2
@@ -14175,6 +14548,8 @@ konjedernica|1
 (sam.)|konjaèija|konjedernica (slab¹alno)
 konjederstvo|1
 (sam.)|kafilerija|konjaèija
+konjèek|1
+(sam.)|konj|konjèek (ekspresivno)|konjiè (ekspresivno)|konjièek (ekspresivno)|kopitar (ekspresivno)|kopitljaè (ekspresivno)|dirjaè (podpomenka)|dirjalec (podpomenka)|dirkaè (podpomenka)|dirkalni konj (podpomenka)|¹panec (podpomenka)|¹panski konj (podpomenka)|belgijec (podpomenka)|belgijski konj (podpomenka)|hladnokrvni konj (podpomenka)|mrzlokrvni konj (podpomenka)|polnokrvec (podpomenka)|polnokrvni konj (podpomenka)|bosanec (podpomenka)|bosanski konj (podpomenka)|jahalni konj (podpomenka)|jahanec (podpomenka)|je¾ni konj (podpomenka)|jezdni konj (podpomenka)|roncin (podpomenka)|nori¹ki konj (podpomenka)|pincgavec (podpomenka)|pincgavski konj (podpomenka)
 konjektura|1
 (sam.)|domneva|ugibanje
 konjeni¹ki|1
@@ -14187,8 +14562,11 @@ konjereja|1
 (sam.)|konjarstvo (zastarelo)
 konjica|1
 (sam.)|kavalerija (zastarelo)|konjenica|konjica (zastarelo)
-konjièek|1
+konjiè|1
+(sam.)|konj|konjèek (ekspresivno)|konjiè (ekspresivno)|konjièek (ekspresivno)|kopitar (ekspresivno)|kopitljaè (ekspresivno)|dirjaè (podpomenka)|dirjalec (podpomenka)|dirkaè (podpomenka)|dirkalni konj (podpomenka)|¹panec (podpomenka)|¹panski konj (podpomenka)|belgijec (podpomenka)|belgijski konj (podpomenka)|hladnokrvni konj (podpomenka)|mrzlokrvni konj (podpomenka)|polnokrvec (podpomenka)|polnokrvni konj (podpomenka)|bosanec (podpomenka)|bosanski konj (podpomenka)|jahalni konj (podpomenka)|jahanec (podpomenka)|je¾ni konj (podpomenka)|jezdni konj (podpomenka)|roncin (podpomenka)|nori¹ki konj (podpomenka)|pincgavec (podpomenka)|pincgavski konj (podpomenka)
+konjièek|2
 (sam.)|hobby
+(sam.)|konj|konjèek (ekspresivno)|konjiè (ekspresivno)|konjièek (ekspresivno)|kopitar (ekspresivno)|kopitljaè (ekspresivno)|dirjaè (podpomenka)|dirjalec (podpomenka)|dirkaè (podpomenka)|dirkalni konj (podpomenka)|¹panec (podpomenka)|¹panski konj (podpomenka)|belgijec (podpomenka)|belgijski konj (podpomenka)|hladnokrvni konj (podpomenka)|mrzlokrvni konj (podpomenka)|polnokrvec (podpomenka)|polnokrvni konj (podpomenka)|bosanec (podpomenka)|bosanski konj (podpomenka)|jahalni konj (podpomenka)|jahanec (podpomenka)|je¾ni konj (podpomenka)|jezdni konj (podpomenka)|roncin (podpomenka)|nori¹ki konj (podpomenka)|pincgavec (podpomenka)|pincgavski konj (podpomenka)
 konjik|2
 (sam.)|jahaè|jahalec|jezdec|konjik (starinsko)|konjuh
 (sam.)|konjenik|konjik (starinsko)
@@ -14223,7 +14601,7 @@ konkretizirati|2
 (gl.)|opredmetiti|uresnièiti
 (gl.)|pojasniti|ponazoriti
 konkubina|1
-(sam.)|ljubica|metresa|prile¾nica
+(sam.)|ljubavnica (zastarelo)|ljubica (ekspresivno)|ljubimka|metresa|prile¾nica
 konkubinat|1
 (sam.)|koruzni¹tvo (pogovorno)|prile¾ni¹tvo
 konkurent|1
@@ -14440,6 +14818,10 @@ konvencionalen|2
 (prid.)|obièajen
 konvergenca|1
 (sam.)|zbli¾evanje
+konverter|1
+(sam.)|konvertor
+konvertor|1
+(sam.)|konverter
 konverzija|3
 (sam.)|prestop|spreobrnjenje
 (sam.)|pretvorba
@@ -14495,6 +14877,10 @@ kopièiti|2
 (gl.)|kumulirati|nabirati|zbirati
 kopija|1
 (sam.)|falzifikat|ponaredba|ponaredek|potvroba
+kopitar|1
+(sam.)|konj|konjèek (ekspresivno)|konjiè (ekspresivno)|konjièek (ekspresivno)|kopitar (ekspresivno)|kopitljaè (ekspresivno)|dirjaè (podpomenka)|dirjalec (podpomenka)|dirkaè (podpomenka)|dirkalni konj (podpomenka)|¹panec (podpomenka)|¹panski konj (podpomenka)|belgijec (podpomenka)|belgijski konj (podpomenka)|hladnokrvni konj (podpomenka)|mrzlokrvni konj (podpomenka)|polnokrvec (podpomenka)|polnokrvni konj (podpomenka)|bosanec (podpomenka)|bosanski konj (podpomenka)|jahalni konj (podpomenka)|jahanec (podpomenka)|je¾ni konj (podpomenka)|jezdni konj (podpomenka)|roncin (podpomenka)|nori¹ki konj (podpomenka)|pincgavec (podpomenka)|pincgavski konj (podpomenka)
+kopitljaè|1
+(sam.)|konj|konjèek (ekspresivno)|konjiè (ekspresivno)|konjièek (ekspresivno)|kopitar (ekspresivno)|kopitljaè (ekspresivno)|dirjaè (podpomenka)|dirjalec (podpomenka)|dirkaè (podpomenka)|dirkalni konj (podpomenka)|¹panec (podpomenka)|¹panski konj (podpomenka)|belgijec (podpomenka)|belgijski konj (podpomenka)|hladnokrvni konj (podpomenka)|mrzlokrvni konj (podpomenka)|polnokrvec (podpomenka)|polnokrvni konj (podpomenka)|bosanec (podpomenka)|bosanski konj (podpomenka)|jahalni konj (podpomenka)|jahanec (podpomenka)|je¾ni konj (podpomenka)|jezdni konj (podpomenka)|roncin (podpomenka)|nori¹ki konj (podpomenka)|pincgavec (podpomenka)|pincgavski konj (podpomenka)
 kopje|1
 (sam.)|o¹èep (zastarelo)|ostnik (zastarelo)
 koprc|1
@@ -14580,6 +14966,8 @@ koristen|1
 koristiti|2
 (gl.)|hasniti (starinsko)|pomagati
 (gl.)|posegati (ekspresivno)|rabiti|uporabljati
+koristnica|1
+(sam.)|uporabnica
 koristnik|1
 (sam.)|konsument|porabnik|potro¹nik|rabnik
 koristoljubje|1
@@ -14601,15 +14989,17 @@ korteks|1
 (sam.)|skorja
 korupcija|1
 (sam.)|podkupljivost|podkupovanje
+koruzni kruh|1
+(sam.)|koruznik|koruznjak (starinsko)
 koruzni¹ki|1
 (prid.)|koruzni¹ki (pogovorno)|prile¾ni¹ki
 koruzni¹tvo|1
 (sam.)|konkubinat|koruzni¹tvo (pogovorno)|prile¾ni¹tvo
 koruznik|2
 (sam.)|koruznik (pogovorno)|prile¾nik
-(sam.)|koruznjak (starinsko)
+(sam.)|koruzni kruh|koruznjak (starinsko)
 koruznjak|1
-(sam.)|koruznik|koruznjak (starinsko)
+(sam.)|koruzni kruh|koruznik|koruznjak (starinsko)
 korzar|1
 (sam.)|gusar
 korzet|1
@@ -14642,6 +15032,8 @@ kosmaè|1
 kosmat|2
 (prid.)|frivolen|kosmat (ekspresivno)|lasciven|nespodoben|obscen|opolzek|opolzel (starinsko)|polzek|spolzek|spotakljiv (ekspresivno)|svinjski (slab¹alno)|zaèinjen (ekspresivno)
 (prid.)|kosmatinast
+kosmata la¾|1
+(sam.)|debela la¾ (ekspresivno)|èista la¾ (ekspresivno)|kosmata la¾ (ekspresivno)|la¾|neresnica|neresniènost|popolna la¾ (ekspresivno)|pravljica
 kosmati|1
 (gl.)|ku¹trati|mr¹iti
 kosmatina|1
@@ -15080,6 +15472,12 @@ kro¾nik|1
 (sam.)|plo¹èek (zastarelo)
 krogotek|1
 (sam.)|cirkulacija|kro¾enje|obtok
+kroja¹ka delavnica|1
+(sam.)|kroja¹tvo|krojaènica
+kroja¹tvo|1
+(sam.)|kroja¹ka delavnica|krojaènica
+krojaènica|1
+(sam.)|kroja¹ka delavnica|kroja¹tvo
 krok|1
 (sam.)|krok (pogovorno)|krokada (ekspresivno)|krokarija (pogovorno)|popivanje
 krokada|1
@@ -15114,6 +15512,8 @@ krotiteljica|1
 (sam.)|krotilka
 krotiti|1
 (gl.)|brzdati|kontrolirati|obvladovati|zadr¾evati
+krotkost|1
+(sam.)|podlo¾nost|podredljivost|pohlevnost|pokornost|poni¾nost
 krotovica|1
 (sam.)|èrnavka|èrnica|krotovica (starinsko)|modrica|podplutba
 krotovièast|2
@@ -15123,6 +15523,8 @@ krovno tkivo|1
 (sam.)|epitel|epitelij|poko¾nica|povrhnjica|vrhnjica|del telesa (nadpomenka)|organ (nadpomenka)
 krpa|1
 (sam.)|flika (pogovorno)|zaplata
+krpan|1
+(sam.)|krpan (pogovorno)|zgibni avtobus
 krsta|1
 (sam.)|rakev|truga (nizko)
 krsten|1
@@ -15140,7 +15542,9 @@ krtaèa|1
 krucifiks|1
 (sam.)|kri¾|razpelo
 kruh|1
-(sam.)|hleb (zastarelo)
+(sam.)|hleb (zastarelo)|kruhek (ekspresivno)|ajdnik (podpomenka)|ajdov kruh (podpomenka)|ajdovec (podpomenka)|ajdovnik (podpomenka)|koruzni kruh (podpomenka)|koruznik (podpomenka)|koruznjak (starinsko) (podpomenka)|nekva¹eni kruh (podpomenka)|opresni kruh (starinsko) (podpomenka)|opresnik (starinsko) (podpomenka)|presmec (starinsko) (podpomenka)|maslenec (ekspresivno) (podpomenka)|masleni kruh (podpomenka)|ovseni kruh (podpomenka)|ovsenjak (starinsko) (podpomenka)|jeèmenjak (starinsko) (podpomenka)|jeèmenov kruh (podpomenka)|jeèmenovec (podpomenka)|sor¾ièni kruh (podpomenka)|sor¾ni kruh (podpomenka)
+kruhek|1
+(sam.)|hleb (zastarelo)|kruh|kruhek (ekspresivno)|ajdnik (podpomenka)|ajdov kruh (podpomenka)|ajdovec (podpomenka)|ajdovnik (podpomenka)|koruzni kruh (podpomenka)|koruznik (podpomenka)|koruznjak (starinsko) (podpomenka)|nekva¹eni kruh (podpomenka)|opresni kruh (starinsko) (podpomenka)|opresnik (starinsko) (podpomenka)|presmec (starinsko) (podpomenka)|maslenec (ekspresivno) (podpomenka)|masleni kruh (podpomenka)|ovseni kruh (podpomenka)|ovsenjak (starinsko) (podpomenka)|jeèmenjak (starinsko) (podpomenka)|jeèmenov kruh (podpomenka)|jeèmenovec (podpomenka)|sor¾ièni kruh (podpomenka)|sor¾ni kruh (podpomenka)
 kruhovec|1
 (sam.)|baobab
 krulec|1
@@ -15181,19 +15585,21 @@ krvoskrunec|1
 krvoskrunski|1
 (prid.)|incesten|incestuozen|krvosramen
 krvoskrunstvo|1
-(sam.)|incest|krvosramstvo
+(sam.)|incest|krvosramstvo (starinsko)
 krvosramen|1
 (prid.)|incesten|incestuozen|krvoskrunski
 krvosramnik|1
 (sam.)|krvoskrunec
 krvosramstvo|1
-(sam.)|incest|krvoskrunstvo
+(sam.)|incest|krvoskrunstvo|krvosramstvo (starinsko)
 krznina|1
 (sam.)|ko¾uhovina|krzno
 krzno|1
 (sam.)|ko¾uhovina|krznina
 ksenon|1
 (sam.)|Xe|element (nadpomenka)|kemièna prvina (nadpomenka)|kemièni element (nadpomenka)
+ksiht|1
+(sam.)|faca (pogovorno)|fris (neknji¾no)|ksiht (neknji¾no)|oblièje|obraz
 ksilen|1
 (sam.)|ksilol
 ksilografija|1
@@ -15224,8 +15630,16 @@ kuhalnik|1
 (sam.)|re¹o (pogovorno)
 kuhanje|1
 (sam.)|kuha|kuharija (slab¹alno)
+kuhar|1
+(sam.)|juhar (slab¹alno)|kuharèek (ekspresivno)
+kuharèek|1
+(sam.)|juhar (slab¹alno)|kuhar|kuharèek (ekspresivno)
+kuharica|1
+(sam.)|kuharska knjiga
 kuharija|1
 (sam.)|kuha|kuhanje|kuharija (slab¹alno)
+kuharska knjiga|1
+(sam.)|kuharica
 kujon|1
 (sam.)|grdoba|poredne¾
 kukalnik|1
@@ -15238,6 +15652,10 @@ kulanten|1
 (prid.)|postre¾ljiv (starinsko)|uslu¾en|ustre¾en|ustre¾ljiv
 kuli|1
 (sam.)|kemièni svinènik|kuli (pogovorno)|pisalo (nadpomenka)
+kulisarna|1
+(sam.)|kulisna delavnica
+kulisna delavnica|1
+(sam.)|kulisarna
 kulminacija|2
 (sam.)|dvig|rast|vzpon
 (sam.)|paroksizem|vi¹ek|vrh|vrhunec
@@ -15304,6 +15722,10 @@ kvadratast|1
 (prid.)|kvadraten
 kvadraten|1
 (prid.)|kvadratast
+kvadratièni prerez|1
+(sam.)|kvadratni prerez
+kvadratni prerez|1
+(sam.)|kvadratièni prerez
 kvadratura|1
 (sam.)|plo¹èina|povr¹ina
 kvadrilja|1
@@ -15392,7 +15814,7 @@ la|1
 la¹èina|1
 (sam.)|italijan¹èina|italijanski jezik
 la¾|1
-(sam.)|neresnica|pravljica
+(sam.)|debela la¾ (ekspresivno)|èista la¾ (ekspresivno)|kosmata la¾ (ekspresivno)|neresnica|neresniènost|popolna la¾ (ekspresivno)|pravljica
 labial|1
 (sam.)|ustniènik
 labialen|1
@@ -15438,6 +15860,8 @@ lahen|1
 (prid.)|nalahen|polahen|rahel
 lahet|1
 (sam.)|laket
+lahko|1
+(prisl.)|mogoèe|morda|morebiti|najbr¾ (ekspresivno)|nemara (starinsko)|verjetno (ekspresivno)|znabiti (starinsko)
 lahko¾ivec|1
 (sam.)|bonvivan|dobro¾ivec|u¾ivaè
 lahko¾ivka|1
@@ -15447,7 +15871,9 @@ lahkomi¹ljen|1
 lahkomiseln|1
 (prid.)|frivolen|lahkomi¹ljen|lahkoumen|neresen|objesten
 lahkomiselne¾|1
-(sam.)|¹aljivec|¹toser (¾argon)|neresne¾|obe¹enjak
+(sam.)|¹aljivec|¹aljivka|¹toser (¾argon)|¹toserka (¾argon)|lahkomiselnica|neresne¾|neresnica|obe¹enjak|obe¹enjakinja
+lahkomiselnica|1
+(sam.)|¹aljivec|¹aljivka|¹toser (¾argon)|¹toserka (¾argon)|lahkomiselne¾|neresne¾|neresnica|obe¹enjak|obe¹enjakinja
 lahkomiselno|1
 (prisl.)|nalahko (ekspresivno)|neresno
 lahkomiselnost|1
@@ -15562,6 +15988,10 @@ lasciven|1
 (prid.)|frivolen|kosmat (ekspresivno)|nespodoben|obscen|opolzek|opolzel (starinsko)|polzek|spolzek|spotakljiv (ekspresivno)|svinjski (slab¹alno)|zaèinjen (ekspresivno)
 lascivnost|1
 (sam.)|nespodobnost|opolzkost
+laskanje|1
+(sam.)|dobrikanje
+laskati|1
+(gl.)|dobrikati
 lasnica|2
 (sam.)|kapilara
 (sam.)|Trichinella (strokovno)|trihina
@@ -15643,7 +16073,7 @@ leènik|1
 lega|4
 (sam.)|gantar
 (sam.)|plast
-(sam.)|polo¾aj
+(sam.)|polo¾aj|pozicija
 (sam.)|tram
 legacija|1
 (sam.)|poslani¹tvo
@@ -15712,7 +16142,7 @@ lenuh|1
 lenuhar|1
 (sam.)|lenuh (slab¹alno)|lenuhar (slab¹alno)|zabu¹ant (nizko)
 lep|1
-(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)|grd (protipomenka)
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)|grd (protipomenka)
 lep¹ati|1
 (gl.)|cifrati (starinsko)|kititi (starinsko)|krasiti|lepotiti|odièiti (starinsko)
 lepek|2
@@ -15731,7 +16161,7 @@ leposloven|1
 leposlovje|1
 (sam.)|beletrija|beletristika|besedna umetnost|lepoznanstvo (zastarelo)
 lepota|1
-(sam.)|bajnost|bo¾anstvenost (ekspresivno)|brhkost (zastarelo)|brhkota|divnost (zastarelo)|divota (zastarelo)|èar|èaroba|èarobnost|èudovitost|kras|krasota|lepotija|prelest
+(sam.)|bajnost|bo¾anstvenost (ekspresivno)|brhkost (zastarelo)|brhkota|divnost (zastarelo)|divota (zastarelo)|èar|èaroba|èarobnost|èudovitost|kras|krasota|lepotija|prelest|grdota (protipomenka)
 lepotec|1
 (sam.)|adonis
 lepoten|1
@@ -15744,6 +16174,8 @@ lepotija|1
 (sam.)|bajnost|bo¾anstvenost (ekspresivno)|brhkost (zastarelo)|brhkota|divnost (zastarelo)|divota (zastarelo)|èar|èaroba|èarobnost|èudovitost|kras|krasota|lepota|prelest
 lepotiti|1
 (gl.)|cifrati (starinsko)|kititi (starinsko)|krasiti|lep¹ati|odièiti (starinsko)
+lepotni èut|1
+(sam.)|estetski èut|estetski posluh
 lepoznanstvo|1
 (sam.)|beletrija|beletristika|besedna umetnost|leposlovje|lepoznanstvo (zastarelo)
 lesk|1
@@ -15858,7 +16290,7 @@ lidit|1
 lièati|1
 (gl.)|lakirati
 lièen|1
-(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 lièenje|1
 (sam.)|¹minkanje (pogovorno)
 lièilo|1
@@ -15969,12 +16401,16 @@ ljubav|1
 (sam.)|eros|erotika|ljubav (starinsko)|ljubezen
 ljubaven|1
 (prid.)|erotièen|galanten (starinsko)|ljubezenski
+ljubavnica|1
+(sam.)|konkubina|ljubavnica (zastarelo)|ljubica (ekspresivno)|ljubimka|metresa|prile¾nica
 ljubèek|2
 (sam.)|cmok|poljub|poljubec (starinsko)|poljubèek (ekspresivno)
 (sam.)|fant|ljubimec|ljubovnik (zastarelo)
 ljubek|2
 (prid.)|apetiten (zastarelo)|dra¾esten|mikaven|privlaèen
-(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
+ljubèkati|1
+(gl.)|bimèkati (ekspresivno)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|dragovati (zastarelo)|ljubèkati (ekspresivno)|ljubkovati|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 ljubezen|1
 (sam.)|eros|erotika|ljubav (starinsko)
 ljubezenski|1
@@ -15984,9 +16420,11 @@ ljubeznièenje|1
 ljubezniv|1
 (prid.)|kordialen (zastarelo)|prisrèen
 ljubica|1
-(sam.)|konkubina|metresa|prile¾nica
+(sam.)|konkubina|ljubavnica (zastarelo)|ljubica (ekspresivno)|ljubimka|metresa|prile¾nica
 ljubimec|1
 (sam.)|fant|ljubèek|ljubovnik (zastarelo)
+ljubimka|1
+(sam.)|konkubina|ljubavnica (zastarelo)|ljubica (ekspresivno)|metresa|prile¾nica
 ljubimkanje|1
 (sam.)|flirt|flirtanje|ljubeznièenje
 ljubimkati|1
@@ -15995,14 +16433,20 @@ ljubiteljski|1
 (prid.)|amaterski|nepoklicen
 ljubiteljstvo|1
 (sam.)|amaterizem
+ljubiti se|1
+(gl.)|dati se dol (nizko)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|pariti se (nizko)|porivati (nizko)|povaljati se|seksati (pogovorno)|spolno obèevati
 ljubkost|1
 (sam.)|¹arm|dra¾|dra¾est|mik|mikavnost|oèarljivost|privlaènost
 ljubkovalen|1
 (prid.)|hipokoristièen
+ljubkovalna beseda|1
+(sam.)|hipokoristikon|ljubkovalnica
+ljubkovalnica|1
+(sam.)|hipokoristikon|ljubkovalna beseda
 ljubkovalnost|1
 (sam.)|hipokoristiènost
 ljubkovati|1
-(gl.)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati
+(gl.)|bimèkati (ekspresivno)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|dragovati (zastarelo)|ljubèkati (ekspresivno)|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 ljubkovati se|1
 (gl.)|muckati se (ekspresivno)
 ljubljenec|1
@@ -16052,6 +16496,10 @@ loèilnik|1
 (sam.)|ablativ
 loèina|1
 (sam.)|sekta
+loèitev|1
+(sam.)|loèitev od mize in postelje (strokovno)|razdru¾itev zakona|razporoka (starinsko)|razveza (pogovorno)|razveza zakona (pogovorno)|razveza zakonske zveze (strokovno)
+loèitev od mize in postelje|1
+(sam.)|loèitev|loèitev od mize in postelje (strokovno)|razdru¾itev zakona|razporoka (starinsko)|razveza (pogovorno)|razveza zakona (pogovorno)|razveza zakonske zveze (strokovno)
 loèiti|1
 (gl.)|raztakniti
 logogram|1
@@ -16101,6 +16549,8 @@ lonec|2
 (sam.)|urna|vrè
 longituda|1
 (sam.)|geografska dol¾ina|geografska longituda|zemljepisna dol¾ina
+longitudinalni prerez|1
+(sam.)|dol¾inski prerez|podol¾ni prerez|vzdol¾ni prerez
 lopatica|1
 (sam.)|skapula
 loputa|1
@@ -16135,7 +16585,7 @@ lovorika|2
 lu¹èina|1
 (sam.)|lupina|del rastline (nadpomenka)|rastlinski del (nadpomenka)
 lu¹ten|1
-(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 lu¾a|1
 (sam.)|kal|kalu¾a|mlaka
 lu¾nat|1
@@ -16235,6 +16685,8 @@ ma¹èevanje|1
 (sam.)|osveta (zastarelo)
 ma¹èevati|1
 (gl.)|osvetiti (zastarelo)
+ma¹nik|1
+(sam.)|bo¾ji namestnik|cerkvenec (starinsko)|cerkvenjak (starinsko)|du¹ni pastir (starinsko)|duhoven (starinsko)|duhovnik|èastiti|klerik|ma¹nik (starinsko)|preèastiti|sveèenik (zastarelo)
 ma¾a|1
 (sam.)|krema|ma¾a (pogovorno)|maz|mazilo|pomada
 macerat|1
@@ -16279,6 +16731,10 @@ magneten|1
 (prid.)|magnetski
 magnetit|1
 (sam.)|magnetovec
+magnetni fluks|1
+(sam.)|magnetni pretok
+magnetni pretok|1
+(sam.)|magnetni fluks
 magnetovec|1
 (sam.)|magnetit
 magnetski|1
@@ -16294,17 +16750,17 @@ maja squinado|1
 majaron|1
 (sam.)|majoran
 majcen|1
-(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)
+(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)|debel (podpomenka)|korpulenten (podpomenka)|obilen (podpomenka)
 majcken|1
-(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)
+(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)|debel (podpomenka)|korpulenten (podpomenka)|obilen (podpomenka)
 majèken|1
-(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)
+(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)|debel (podpomenka)|korpulenten (podpomenka)|obilen (podpomenka)
 majestetièen|1
 (prid.)|grandiozen|impozanten|kolosalen|mogoèen|reprezentativen|sijajen|velièasten
 majestetiènost|1
 (sam.)|mogoènost|velièastnost
 majhen|4
-(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|mièken (ekspresivno)
+(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|mièken (ekspresivno)|debel (podpomenka)|korpulenten (podpomenka)|obilen (podpomenka)
 (prid.)|infinitezimalen|neznaten
 (prid.)|nepomemben
 (prid.)|neznaten|nièen|nièev|velik (protipomenka)
@@ -16346,10 +16802,14 @@ mala gospojnica|1
 (sam.)|mala ma¹a|mali ¹maren
 mala ma¹a|1
 (sam.)|mala gospojnica|mali ¹maren
+malar|1
+(sam.)|malar (slab¹alno)|malarka (slab¹alno)|slikar|slikarka
 malarija|1
 (sam.)|tre¹ljika (starinsko)|èetrtnica (podpomenka)|èetrtodnevnica (podpomenka)|kvartana (podpomenka)|terciana (podpomenka)
 malarin|1
 (sam.)|¹iroèka
+malarka|1
+(sam.)|malar (slab¹alno)|malarka (slab¹alno)|slikar|slikarka
 malenkost|1
 (sam.)|brezpomembnost|nepomembnost|nièevost
 malenkosten|1
@@ -16581,6 +17041,10 @@ maskulinizacija|1
 (sam.)|pomo¹èenje
 maskulinizirati|1
 (gl.)|pomo¹èiti
+maslenec|1
+(sam.)|maslenec (ekspresivno)|masleni kruh
+masleni kruh|1
+(sam.)|maslenec (ekspresivno)
 maslenica|1
 (sam.)|lilijan
 maslo|1
@@ -16650,6 +17114,8 @@ mavèen|1
 maz|2
 (sam.)|krema|ma¾a (pogovorno)|mazilo|pomada
 (sam.)|mast
+mazaè|1
+(sam.)|packaè
 mazati|1
 (gl.)|onesna¾evati|svinjati (slab¹alno)
 mazilo|1
@@ -16664,7 +17130,7 @@ me¹alnica|1
 (sam.)|me¹alec|me¹alnik
 me¹alnik|2
 (sam.)|me¹alec|me¹alnica
-(sam.)|mikser
+(sam.)|mikser (pogovorno)
 me¹anec|1
 (sam.)|kri¾anec|polutan (zastarelo)
 me¹anica|1
@@ -16795,6 +17261,8 @@ meèava|3
 (sam.)|jugovina|odjuga
 (sam.)|mehkost
 (sam.)|sredica
+meèkati|1
+(gl.)|bimèkati (ekspresivno)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|dragovati (zastarelo)|ljubèkati (ekspresivno)|ljubkovati|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 meènica|1
 (sam.)|fibula
 megafon|2
@@ -16880,6 +17348,8 @@ memorandum|2
 (sam.)|sporazum
 mena|1
 (sam.)|klimakterij
+mena¾a|1
+(sam.)|voja¹ka hrana
 menada|1
 (sam.)|bakhantka
 mencav|1
@@ -16925,12 +17395,12 @@ merilec|1
 merilo|1
 (sam.)|kriterij|sodilo
 meritev|1
-(sam.)|izmerek|merjenje
+(sam.)|izmera|izmerek|merjenje
 meriti|2
 (gl.)|ciljati
 (gl.)|ciljati (ekspresivno)|meriti (ekspresivno)|namigovati
 merjenje|1
-(sam.)|izmerek|meritev
+(sam.)|izmera|izmerek|meritev
 merjevec|1
 (sam.)|geometer|merjevec (zastarelo)|zemljemerec
 merkantilen|2
@@ -16966,6 +17436,8 @@ meseènost|1
 (sam.)|somnambulizem
 mesen|1
 (prid.)|hoten
+mesena ljubezen|1
+(sam.)|èutna ljubezen|fizièna ljubezen|mesena ljubezen (ekspresivno)|poltena ljubezen (slab¹alno)|senzualna ljubezen|spolna ljubezen|telesna ljubezen
 mesenost|1
 (sam.)|èutnost|poèutnost (starinsko)|poltnost|senzualnost|sladnost (zastarelo)
 mesing|1
@@ -17043,7 +17515,7 @@ metoda|1
 metonimija|1
 (sam.)|preimenovanje
 metresa|1
-(sam.)|konkubina|ljubica|prile¾nica
+(sam.)|konkubina|ljubavnica (zastarelo)|ljubica (ekspresivno)|ljubimka|prile¾nica
 metrga|1
 (sam.)|mentrga
 metrika|1
@@ -17071,7 +17543,7 @@ mezzotinta|1
 mg|1
 (sam.)|magnezij
 mi¹elovka|1
-(sam.)|mi¹nica
+(sam.)|mi¹nica|past za mi¹i
 mi¹ica zapiralka|1
 (sam.)|sfinkter
 mi¹ièast|1
@@ -17088,6 +17560,8 @@ mi¹ièna ovojnica|1
 (sam.)|fascija
 mi¹iènat|1
 (prid.)|mi¹ièast|mi¹ièav|muskulozen
+mi¹ièni èut|1
+(sam.)|kinestetièni obèutek
 mi¹iènja¹ki|1
 (prid.)|bodibilderski
 mi¹iènjak|1
@@ -17098,7 +17572,7 @@ mi¹ljenje|1
 (sam.)|komentar (ekspresivno)|mnenje|stali¹èe
 mi¹nica|2
 (sam.)|arzenik|arzenov trioksid (strokovno)
-(sam.)|mi¹elovka
+(sam.)|mi¹elovka|past za mi¹i
 mi¾av|1
 (prid.)|mi¾av (ekspresivno)|mraèen|oblaèen
 mi¾ek|1
@@ -17108,7 +17582,7 @@ micelij|1
 mièen|1
 (prid.)|mameè|mamljiv|mikaven|privlaèen|vabljiv
 mièken|1
-(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)
+(prid.)|droben|drobi¾ast (ekspresivno)|drobnjav|majcen (ekspresivno)|majcken (ekspresivno)|majèken (ekspresivno)|majhen|mièken (ekspresivno)|debel (podpomenka)|korpulenten (podpomenka)|obilen (podpomenka)
 migetalka|1
 (sam.)|cilija
 migetati|1
@@ -17138,7 +17612,7 @@ mikroskop|1
 mikrotom|1
 (sam.)|drobnoreznica
 mikser|1
-(sam.)|me¹alnik
+(sam.)|me¹alnik|mikser (pogovorno)
 mil|1
 (prid.)|cartkan (neknji¾no)|ne¾en
 miliènik|1
@@ -17151,6 +17625,8 @@ milina|1
 (sam.)|blagost|dobrosrènost
 militanten|1
 (prid.)|boja¾eljen|bojevit|borben|voja¹ki
+militi|1
+(gl.)|bimèkati (ekspresivno)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|dragovati (zastarelo)|ljubèkati (ekspresivno)|ljubkovati|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 milje|1
 (sam.)|okolje|ozraèje
 miljenec|1
@@ -17164,6 +17640,8 @@ milosrèen|1
 (prid.)|dobrosrèen
 milost|1
 (sam.)|soèutje|usmiljenje
+milovati|1
+(gl.)|bimèkati (ekspresivno)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|dragovati (zastarelo)|ljubèkati (ekspresivno)|ljubkovati|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 mimogrede|2
 (prisl.)|be¾no
 (prisl.)|gredoè|medpotoma|spotoma
@@ -17213,6 +17691,8 @@ misel|1
 (sam.)|iver|izrek
 miseln|1
 (prid.)|abstrakten|nezaznaven|pojmoven
+miselni svet|1
+(sam.)|abstraktni svet|neèutni svet|pojmovni svet|pojmovnik|predstavni svet
 mislec|1
 (sam.)|modrec|modrijan
 misliti|1
@@ -17388,6 +17868,8 @@ mnogomo¹tvo|1
 (sam.)|poliandrija|poligamija
 mnogonacionalen|1
 (prid.)|raznonaroden|veènacionalen|veènaroden
+mnogopomenska beseda|1
+(sam.)|mnogoznaèna beseda|polivalentna beseda|veèpomenka|veèpomenska beseda
 mnogopomenski|1
 (prid.)|mnogoznaèen|veèpomenski|veèznaèen
 mnogostranski|1
@@ -17400,6 +17882,8 @@ mnogovrstnost|1
 (sam.)|pluralnost|razliènost|raznost|raznoterost|raznovrstnost|varieteta|veèvrstnost
 mnogoznaèen|1
 (prid.)|mnogopomenski|veèpomenski|veèznaèen
+mnogoznaèna beseda|1
+(sam.)|mnogopomenska beseda|polivalentna beseda|veèpomenka|veèpomenska beseda
 mo|1
 (sam.)|molibden|element (nadpomenka)|kemièna prvina (nadpomenka)|kemièni element (nadpomenka)
 mo¹ek|1
@@ -17451,6 +17935,16 @@ mo¾nost|3
 (sam.)|kontingenca|sluèajnost
 mo¾nostni|1
 (prid.)|mo¾en (pogovorno)|mogoè|potencialen
+mobi|1
+(sam.)|mobi (pogovorno)|mobilec (pogovorno)|mobilni telefon|mobilnik|mobitel (pogovorno)|prenosni telefon
+mobilec|1
+(sam.)|mobi (pogovorno)|mobilec (pogovorno)|mobilni telefon|mobilnik|mobitel (pogovorno)|prenosni telefon
+mobilni telefon|1
+(sam.)|mobi (pogovorno)|mobilec (pogovorno)|mobilnik|mobitel (pogovorno)|prenosni telefon
+mobilnik|1
+(sam.)|mobi (pogovorno)|mobilec (pogovorno)|mobilni telefon|mobitel (pogovorno)|prenosni telefon
+mobitel|1
+(sam.)|mobi (pogovorno)|mobilec (pogovorno)|mobilni telefon|mobilnik|mobitel (pogovorno)|prenosni telefon
 model|1
 (sam.)|predloga|prototip
 moder|1
@@ -17495,13 +17989,15 @@ moèen|5
 (prid.)|mo¾at
 moèerad|1
 (sam.)|salamander
+moènik|1
+(sam.)|podmet
 moèvirska cipresa|1
 (sam.)|taksodij
 mogoè|1
 (prid.)|mo¾en (pogovorno)|mo¾nostni|potencialen
 mogoèe|2
+(prisl.)|lahko|morda|morebiti|najbr¾ (ekspresivno)|nemara (starinsko)|verjetno (ekspresivno)|znabiti (starinsko)
 (prisl.)|mo¾no
-(prisl.)|morda|morebiti|nemara (zastarelo)
 mogoèen|1
 (prid.)|grandiozen|impozanten|kolosalen|majestetièen|reprezentativen|sijajen|velièasten
 mogoène¾|1
@@ -17645,7 +18141,7 @@ monotono|1
 monotonost|1
 (sam.)|enoliènost|monotonija
 monstrum|1
-(sam.)|nakazen (starinsko)|nestvor|po¹ast|spaka
+(sam.)|nakazen (starinsko)|nestvor|po¹ast|spak|spaka
 monstruozen|1
 (prid.)|po¹asten|spaèen
 montanski|1
@@ -17669,15 +18165,15 @@ morbiditeta|1
 morbidnost|1
 (sam.)|bolehnost|slabotnost
 morda|1
-(prisl.)|mogoèe|morebiti|nemara (zastarelo)
+(prisl.)|lahko|mogoèe|morebiti|najbr¾ (ekspresivno)|nemara (starinsko)|verjetno (ekspresivno)|znabiti (starinsko)
 morebiten|1
 (prid.)|eventualen|mo¾en
 morebiti|1
-(prisl.)|mogoèe|morda|nemara (zastarelo)
+(prisl.)|lahko|mogoèe|morda|najbr¾ (ekspresivno)|nemara (starinsko)|verjetno (ekspresivno)|znabiti (starinsko)
 morebitnost|1
 (sam.)|eventualnost|mo¾nost
 moreè|1
-(prid.)|duhamoren|duhomoren|muèen|svinèen (ekspresivno)|te¾ek
+(prid.)|duhamoren|duhomoren|muèen|mukotrpen|svinèen (ekspresivno)|te¾ek
 morena|1
 (sam.)|groblja
 morfij|1
@@ -17693,7 +18189,9 @@ morfonologija|1
 morija|1
 (sam.)|krvolitje (ekspresivno)|krvoprelitje (ekspresivno)|morija (ekspresivno)|morjenje|ubijanje
 morilec|1
-(sam.)|ubijalec|glavorez (ekspresivno) (podpomenka)|glavosek (ekspresivno) (podpomenka)|grlorezec (ekspresivno) (podpomenka)|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+(sam.)|morilka|ubijalec|ubijalka|glavorez (ekspresivno) (podpomenka)|glavosek (ekspresivno) (podpomenka)|grlorezec (ekspresivno) (podpomenka)|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+morilka|1
+(sam.)|morilec|ubijalec|ubijalka|glavorez (ekspresivno) (podpomenka)|glavosek (ekspresivno) (podpomenka)|grlorezec (ekspresivno) (podpomenka)|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 morjenje|1
 (sam.)|krvolitje (ekspresivno)|krvoprelitje (ekspresivno)|morija (ekspresivno)|ubijanje
 morjeplovec|1
@@ -17737,6 +18235,8 @@ motiv|2
 (sam.)|obrazlo¾itev|utemeljitev
 motivacijski|1
 (prid.)|spodbujevalen
+motivirana beseda|1
+(sam.)|tvorjena beseda|tvorjenka
 motivirati|1
 (gl.)|animirati|navdu¹iti|odu¹eviti (zastarelo)|ogreti (ekspresivno)|podnetiti|razpaliti (starinsko)|razvneti|spod¾gati (ekspresivno)|spodbuditi
 motnjava|1
@@ -17801,6 +18301,8 @@ mrazica|1
 (sam.)|groznica|mrzlica|ognjenica|tresavica|treslica|vroèica
 mrazoten|1
 (prid.)|hladen|leden|mrzeè|mrzel|mrzloben
+mrda|1
+(sam.)|grimasa (ekspresivno)|mrda (ekspresivno)|spaka|zmrda (ekspresivno)|zmrdek (ekspresivno)
 mre¾a|2
 (sam.)|omre¾je
 (sam.)|pajèevina
@@ -17860,6 +18362,8 @@ mrzlièno|1
 (prisl.)|mrzlièavo
 mrzloben|1
 (prid.)|hladen|leden|mrazoten|mrzeè|mrzel
+mrzlokrvni konj|1
+(sam.)|hladnokrvni konj
 muc|1
 (sam.)|maèek|maèka|muc (ljubkovalno)|muca (ljubkovalno)|mucek (ljubkovalno)|mucica (ljubkovalno)|mucka (ljubkovalno)
 muca|1
@@ -17873,7 +18377,7 @@ mucka|1
 muckati se|1
 (gl.)|ljubkovati se|muckati se (ekspresivno)
 muèen|2
-(prid.)|duhamoren|duhomoren|moreè|svinèen (ekspresivno)|te¾ek
+(prid.)|duhamoren|duhomoren|moreè|mukotrpen|svinèen (ekspresivno)|te¾ek
 (prid.)|mukotrpen|neprijeten|nezavidljiv|obupen|prekaren (zastarelo)|te¾aven
 muèeni¹tvo|1
 (sam.)|martirij
@@ -17896,7 +18400,8 @@ muja|1
 (sam.)|marter (nizko)|napor|prizadevanje|trud
 muka|1
 (sam.)|boleèina|trpljenje
-mukotrpen|1
+mukotrpen|2
+(prid.)|duhamoren|duhomoren|moreè|muèen|svinèen (ekspresivno)|te¾ek
 (prid.)|muèen|neprijeten|nezavidljiv|obupen|prekaren (zastarelo)|te¾aven
 mulast|1
 (prid.)|èukast (ekspresivno)|mrk|neprijazen|nepriljuden
@@ -18074,6 +18579,8 @@ nadi¹avljen|1
 (prid.)|naparfumiran
 nadindividualen|1
 (prid.)|nadoseben
+nadizkustveni svet|1
+(sam.)|prese¾ni svet|transcendentni svet
 nadkriliti|1
 (gl.)|posekati (ekspresivno)|prekositi|preseèi
 nadkriti|1
@@ -18238,6 +18745,8 @@ naglas|1
 (sam.)|akcent|poudarek
 naglasiti|1
 (gl.)|intonirati|poudariti
+naglasni premik|1
+(sam.)|akcentski premik|akcentski preskok|premik naglasa
 naglasoslovje|1
 (sam.)|akcentologija
 nagliti|1
@@ -18267,8 +18776,11 @@ nagodek|1
 (sam.)|dogodek|nagodek (starinsko)|prigodek|pripetljaj
 nagon|1
 (sam.)|gon|instinkt
+nagovarjanje|2
+(sam.)|dvorjenje|osvajanje|pihanje na du¹o|snubljenje
+(sam.)|preprièevanje
 nagovarjati|1
-(gl.)|napeljevati|navajati
+(gl.)|napeljevati|navajati|pozivati|prigovarjati|snubiti
 nagovoriti|1
 (gl.)|apostrofirati|ogovoriti
 nagrada|1
@@ -18303,8 +18815,9 @@ najavljen|1
 (prid.)|nameravan|napovedan|predviden|prognoziran
 najbolj¹i|1
 (prid.)|optimalen
-najbr¾|1
+najbr¾|2
 (prisl.)|br¾da|br¾èas|br¾kone|nemara (starinsko)|prejkone
+(prisl.)|lahko|mogoèe|morda|morebiti|najbr¾ (ekspresivno)|nemara (starinsko)|verjetno (ekspresivno)|znabiti (starinsko)
 najemni¹ki vojak|1
 (sam.)|najemnik|plaèanec
 najemnik|1
@@ -18330,7 +18843,7 @@ nakazan|1
 nakazati|1
 (gl.)|naznaèiti
 nakazen|1
-(sam.)|monstrum|nakazen (starinsko)|nestvor|po¹ast|spaka
+(sam.)|monstrum|nakazen (starinsko)|nestvor|po¹ast|spak|spaka
 nakaznica|1
 (sam.)|asignacija
 nakazovalec|1
@@ -18408,6 +18921,8 @@ nalièkati|1
 (gl.)|na¹minkati (pogovorno)|nalepotièiti|nalièiti|nalièkati (ekspresivno)
 naliènica|1
 (sam.)|krinka|larfa (nizko)|maska|nalièje
+naliènik|1
+(sam.)|vizir
 nalika|2
 (sam.)|afiniteta|podobnost|sorodnost
 (sam.)|analogija|podobnost
@@ -18464,6 +18979,8 @@ namestnik|2
 (sam.)|substitut|zastopnik
 nami¹ljen|1
 (prid.)|idealen|imaginaren|izmi¹ljen
+nami¹ljeni svet|1
+(sam.)|idealni svet|izmi¹ljeni svet|nestvarni svet
 namigniti|1
 (gl.)|cikniti (ekspresivno)|natolkniti (starinsko)
 namigovati|2
@@ -18519,7 +19036,7 @@ napaka|4
 naparfumiran|1
 (prid.)|nadi¹avljen
 napeljevati|1
-(gl.)|nagovarjati|navajati
+(gl.)|nagovarjati|navajati|pozivati|prigovarjati|snubiti
 napetnajstiti|1
 (gl.)|nafarbati (neknji¾no)|napetnajstiti (ekspresivno)|naplahtati (pogovorno)|nasmukati (ekspresivno)|nasukati (ekspresivno)|nategniti (sleng)|ogoljufati|opehariti (ekspresivno)|oslepariti (ekspresivno)|pregoljufati (ekspresivno)|preplahtati (pogovorno)|preslepariti (ekspresivno)|pretentati|prevarati
 napetost|2
@@ -18930,6 +19447,8 @@ nato|1
 (prisl.)|nakar|potem|potlej|zatem
 natolkniti|1
 (gl.)|cikniti (ekspresivno)|namigniti|natolkniti (starinsko)
+natovoriti|1
+(gl.)|vkrcati
 natreskati|1
 (gl.)|na¹e¹kati (ekspresivno)|na¹vrkati (ekspresivno)|namlatiti|natepsti|natreskati (pogovorno)|pretepsti
 natrij|1
@@ -18982,7 +19501,7 @@ navadnost|3
 navajanje|1
 (sam.)|alegacija|citiranje
 navajati|2
-(gl.)|nagovarjati|napeljevati
+(gl.)|nagovarjati|napeljevati|pozivati|prigovarjati|snubiti
 (gl.)|privajati
 naval|1
 (sam.)|prival
@@ -19051,6 +19570,8 @@ navor|1
 (sam.)|moment
 navpièen|1
 (prid.)|vertikalen
+navpièni prerez|1
+(sam.)|vertikalni prerez
 navpiènica|1
 (sam.)|vertikala
 navr¾ek|1
@@ -19397,6 +19918,8 @@ neenovitost|1
 (sam.)|neenotnost|nehomogenost
 neèuten|1
 (prid.)|neopazen|neopazljiv|nezaznaven
+neèutni svet|1
+(sam.)|abstraktni svet|miselni svet|pojmovni svet|pojmovnik|predstavni svet
 neèuven|1
 (prid.)|ekstraordinaren|izjemen|izreden|nadvsakdanji|neèuven (zastarelo)
 neformiran|1
@@ -19679,6 +20202,8 @@ nekuranten|1
 (prid.)|neidoè
 nekva¹en|1
 (prid.)|opresen (starinsko)
+nekva¹eni kruh|1
+(sam.)|opresni kruh (starinsko)|opresnik (starinsko)|presmec (starinsko)
 nekvaliteten|1
 (prid.)|¹kandalozen (ekspresivno)|grozen (ekspresivno)|hud|neprebavljiv (ekspresivno)|neu¾iten (ekspresivno)|neznosen|obupen|po¹asten (ekspresivno)|slab|srep|stra¹en (ekspresivno)
 nelagoden|1
@@ -19716,7 +20241,7 @@ nemar|1
 (sam.)|brezbri¾nost|dezinteresiranost|malobri¾nost|nebri¾nost|ravnodu¹nost|vnemarnost (zastarelo)
 nemara|2
 (prisl.)|br¾da|br¾èas|br¾kone|najbr¾|nemara (starinsko)|prejkone
-(prisl.)|mogoèe|morda|morebiti|nemara (zastarelo)
+(prisl.)|lahko|mogoèe|morda|morebiti|najbr¾ (ekspresivno)|nemara (starinsko)|verjetno (ekspresivno)|znabiti (starinsko)
 nemaren|3
 (prid.)|brezbri¾en|brezvesten|malomaren|nebri¾en|neprizadeven|neskrben|nevesten|nevnemaren|zanikrn (slab¹alno)
 (prid.)|capinast (slab¹alno)|capinski (slab¹alno)|malopriden|malovreden|neèasten (zastarelo)|neèeden|nepriden (zastarelo)|nevreden|nièen|nièvreden|plesniv (ekspresivno)|pokvarjen (slab¹alno)|slab|snetiv (ekspresivno)|zanikrn (slab¹alno)
@@ -20413,6 +20938,8 @@ nerazvozljiv|1
 (prid.)|nerazre¹ljiv|nere¹ljiv
 nere¹ljiv|1
 (prid.)|nerazre¹ljiv|nerazvozljiv
+nerealni svet|1
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginacijski svet|imaginarni svet|iracionalni svet|irealni svet|izmi¹ljeni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 nered|1
 (sam.)|homatija|kaos|kolobocija (pogovorno)|kvodlibet|preplah|tumult|zme¹njava|zmeda
 neredek|1
@@ -20434,11 +20961,16 @@ nerentabilnost|1
 neresen|1
 (prid.)|frivolen|lahkomi¹ljen|lahkomiseln|lahkoumen|objesten
 neresne¾|1
-(sam.)|¹aljivec|¹toser (¾argon)|lahkomiselne¾|obe¹enjak
-neresnica|1
-(sam.)|la¾|pravljica
+(sam.)|¹aljivec|¹aljivka|¹toser (¾argon)|¹toserka (¾argon)|lahkomiselne¾|lahkomiselnica|neresnica|obe¹enjak|obe¹enjakinja
+neresnica|2
+(sam.)|¹aljivec|¹aljivka|¹toser (¾argon)|¹toserka (¾argon)|lahkomiselne¾|lahkomiselnica|neresne¾|obe¹enjak|obe¹enjakinja
+(sam.)|debela la¾ (ekspresivno)|èista la¾ (ekspresivno)|kosmata la¾ (ekspresivno)|la¾|neresniènost|popolna la¾ (ekspresivno)|pravljica
 neresnièen|1
 (prid.)|irealen|nestvaren
+neresnièni svet|1
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginacijski svet|imaginarni svet|iracionalni svet|irealni svet|izmi¹ljeni svet|nerealni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
+neresniènost|1
+(sam.)|debela la¾ (ekspresivno)|èista la¾ (ekspresivno)|kosmata la¾ (ekspresivno)|la¾|neresnica|popolna la¾ (ekspresivno)|pravljica
 neresno|1
 (prisl.)|lahkomiselno|nalahko (ekspresivno)
 neresnost|1
@@ -20634,8 +21166,11 @@ nestrupenost|2
 nestvaren|2
 (prid.)|akademski (slab¹alno)|ne¾ivljenjski|papiren (ekspresivno)|papirnat (ekspresivno)
 (prid.)|irealen|neresnièen
+nestvarni svet|2
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginacijski svet|imaginarni svet|iracionalni svet|irealni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
+(sam.)|idealni svet|izmi¹ljeni svet|nami¹ljeni svet
 nestvor|1
-(sam.)|monstrum|nakazen (starinsko)|po¹ast|spaka
+(sam.)|monstrum|nakazen (starinsko)|po¹ast|spak|spaka
 nesvobodnik|1
 (sam.)|svojak
 netalentiran|1
@@ -20814,8 +21349,9 @@ nevedne¾|2
 (sam.)|neznalec
 nevednost|1
 (sam.)|ignoranca (slab¹alno)|omejenost
-neveren|1
+neveren|2
 (prid.)|areligiozen|brezveren|nereligiozen
+(prid.)|neveren (zastarelo)|nezvest
 neverjeten|2
 (prid.)|absurden|gorostasen (ekspresivno)|iluzoren|nemogoè
 (prid.)|brezov (ekspresivno)|izmi¹ljen
@@ -20944,6 +21480,8 @@ nezdru¾ljivost|1
 (sam.)|inkompatibilnost
 nezgodovinski|1
 (prid.)|ahistorièen
+nezlo¾ena beseda|1
+(sam.)|simpleks
 neznaèajen|1
 (prid.)|brezhrbtenièen|brezznaèajen
 neznaèajnost|1
@@ -20967,8 +21505,9 @@ neznosen|3
 (prid.)|nevzdr¾en
 nezrelost|1
 (sam.)|infantilnost|otroèjost
-nezvest|1
+nezvest|2
 (prid.)|izdajalski|perfiden
+(prid.)|neveren (zastarelo)|zvest (protipomenka)
 ni|1
 (sam.)|nikelj|element (nadpomenka)|kemièna prvina (nadpomenka)|kemièni element (nadpomenka)
 ni¹a|1
@@ -21035,6 +21574,8 @@ nikniti|1
 (gl.)|izginiti|nikniti (starinsko)|ponikniti
 nikoli|1
 (prisl.)|nikdar|nobenkrat
+nilski konj|1
+(sam.)|veliki povodni konj
 nimaniè|1
 (sam.)|bosjak|nemaniè|reve¾|siromak|socialec (¾argon)|ubo¾nik
 nimb|1
@@ -21112,7 +21653,7 @@ non¹alantno|1
 nona|1
 (sam.)|babica|oma|stara mati
 nono|1
-(sam.)|ded|stari oèe
+(sam.)|ded|dedek|stari oèe
 nonsens|1
 (sam.)|nesmisel|neumnost
 nonstop|1
@@ -21120,10 +21661,13 @@ nonstop|1
 nor|2
 (prid.)|aboten|av¹ast|bebast (slab¹alno)|bedast|blesav (sleng)|budalast (slab¹alno)|butast|kretenski (slab¹alno)|maloumen|nespameten|neumen|nor (ekspresivno)|omejen|stupiden|topoglav (ekspresivno)|topoumen (ekspresivno)|trapast (pogovorno)
 (prid.)|du¹evno bolan|nor (pogovorno)
-norèevanje|1
+norèevanje|2
 (sam.)|dra¾enje|zafrkacija (pogovorno)|zafrkancija (pogovorno)
+(sam.)|porog|posmehovanje|roganje|zasmehovanje|zbadanje
 norèevati se|1
 (gl.)|¹aliti se|briti norce
+nori¹ki konj|1
+(sam.)|pincgavec|pincgavski konj
 norka|1
 (sam.)|ponorec
 normativ|1
@@ -21148,6 +21692,8 @@ nosoro¾ec|1
 (sam.)|nosorog|rinoceros
 nosorog|1
 (sam.)|nosoro¾ec|rinoceros
+nota|1
+(sam.)|glaska (starinsko)
 notes|1
 (sam.)|bele¾ka|bele¾nica
 notni zapis|1
@@ -21345,9 +21891,11 @@ obe¹anka|1
 obe¹enec|1
 (sam.)|obe¹enjak
 obe¹enjak|3
-(sam.)|¹aljivec|¹toser (¾argon)|lahkomiselne¾|neresne¾
+(sam.)|¹aljivec|¹aljivka|¹toser (¾argon)|¹toserka (¾argon)|lahkomiselne¾|lahkomiselnica|neresne¾|neresnica|obe¹enjakinja
 (sam.)|malovredne¾|nièvredne¾|pridaniè
 (sam.)|obe¹enec
+obe¹enjakinja|1
+(sam.)|¹aljivec|¹aljivka|¹toser (¾argon)|¹toserka (¾argon)|lahkomiselne¾|lahkomiselnica|neresne¾|neresnica|obe¹enjak
 obèasno|1
 (prisl.)|vèasih
 obed|1
@@ -21480,8 +22028,12 @@ objektnik|1
 (sam.)|objektno stekelce
 objektno stekelce|1
 (sam.)|objektnik
+objem|1
+(sam.)|objetje
 objesten|1
 (prid.)|frivolen|lahkomi¹ljen|lahkomiseln|lahkoumen|neresen
+objetje|1
+(sam.)|objem
 obkladek|1
 (sam.)|kompresa
 obkolitev|1
@@ -21524,7 +22076,7 @@ oblièast|1
 (prid.)|obel|oblièast (zastarelo)|okrogel|zaobljen
 oblièje|2
 (sam.)|aspekt|podoba|videz|zunanjost
-(sam.)|obraz
+(sam.)|faca (pogovorno)|fris (neknji¾no)|ksiht (neknji¾no)|obraz
 obligacija|3
 (sam.)|dol¾nost|obveznost
 (sam.)|obligacija (strokovno)|obveza|obveznost
@@ -21662,12 +22214,14 @@ obrambno ministrstvo zda|1
 (sam.)|Pentagon
 obrat|1
 (sam.)|oddelek|pogon
+obratovalnica|1
+(sam.)|delavnica|obrtni¹ka delavnica|rokodelnica (zastarelo)|rokodelska delavnica (zastarelo)|barvarija (podpomenka)|barvarna (podpomenka)|barvarnica (podpomenka)|barvarska delavnica (podpomenka)|kroja¹ka delavnica (podpomenka)|kroja¹tvo (podpomenka)|krojaènica (podpomenka)|kolarna (podpomenka)|kolarnica (podpomenka)|kolarska delavnica (podpomenka)|knjigove¹ka delavnica (podpomenka)|knjigoveznica (podpomenka)|strojarna (podpomenka)|strojarska delavnica (podpomenka)|zlatarna (podpomenka)|zlatarnica (starinsko) (podpomenka)|zlatarska delavnica (podpomenka)|strugalnica (podpomenka)|strugarna (podpomenka)|strugarnica (zastarelo) (podpomenka)|strugarska delavnica (podpomenka)|kulisarna (podpomenka)|kulisna delavnica (podpomenka)|urarna (podpomenka)|urarska delavnica (podpomenka)|urarstvo (podpomenka)
 obravnati|1
 (gl.)|prouèiti|raziskati
 obravnavati|1
 (gl.)|pretresati|re¹etati (ekspresivno)
 obraz|1
-(sam.)|oblièje
+(sam.)|faca (pogovorno)|fris (neknji¾no)|ksiht (neknji¾no)|oblièje
 obrazec|2
 (sam.)|¹ablona|stereotip|vzorec
 (sam.)|formular
@@ -21689,6 +22243,8 @@ obreden|2
 (prid.)|hieratièen|sveèeni¹ki
 obredno èist|1
 (prid.)|ko¹er
+obrekljiv|1
+(prid.)|dolgojezièen|opravljiv|zlogolk (zastarelo)
 obrekovalec|1
 (sam.)|klevetnik
 obrekovanje|1
@@ -21731,6 +22287,8 @@ obrobnost|1
 (sam.)|nepomembnost|perifernost|postranskost
 obroè|1
 (sam.)|blokada|obkolitev
+obroèni prerez|1
+(sam.)|kolobarjasti prerez
 obroènica|2
 (sam.)|Adenophora liliifolia (strokovno)
 (sam.)|krinolina
@@ -21740,6 +22298,8 @@ obrov|1
 (sam.)|bre¾ina|breg|strmina
 obrt|1
 (sam.)|delo|metier|posel
+obrtni¹ka delavnica|1
+(sam.)|delavnica|obratovalnica|rokodelnica (zastarelo)|rokodelska delavnica (zastarelo)|barvarija (podpomenka)|barvarna (podpomenka)|barvarnica (podpomenka)|barvarska delavnica (podpomenka)|kroja¹ka delavnica (podpomenka)|kroja¹tvo (podpomenka)|krojaènica (podpomenka)|kolarna (podpomenka)|kolarnica (podpomenka)|kolarska delavnica (podpomenka)|knjigove¹ka delavnica (podpomenka)|knjigoveznica (podpomenka)|strojarna (podpomenka)|strojarska delavnica (podpomenka)|zlatarna (podpomenka)|zlatarnica (starinsko) (podpomenka)|zlatarska delavnica (podpomenka)|strugalnica (podpomenka)|strugarna (podpomenka)|strugarnica (zastarelo) (podpomenka)|strugarska delavnica (podpomenka)|kulisarna (podpomenka)|kulisna delavnica (podpomenka)|urarna (podpomenka)|urarska delavnica (podpomenka)|urarstvo (podpomenka)
 obrtni¹ki|1
 (prid.)|metierski|metjejski|tehnièen
 obrtni¹ko|1
@@ -21961,6 +22521,10 @@ odgovoriti|1
 (gl.)|odbrusiti (slab¹alno)|odvrniti|replicirati
 odgovornostno zavarovanje|1
 (sam.)|jamstveno zavarovanje
+odhodnica|1
+(sam.)|bra¹nja (starinsko)|bra¹no (starinsko)|odhodnja (starinsko)|popotnica|popotnja (starinsko)|proviant|suha hrana
+odhodnja|1
+(sam.)|bra¹nja (starinsko)|bra¹no (starinsko)|odhodnica|odhodnja (starinsko)|popotnica|popotnja (starinsko)|proviant|suha hrana
 odi¹avljen|1
 (prid.)|aromatiziran
 odica|1
@@ -22161,6 +22725,8 @@ odredba|1
 odrejati|2
 (gl.)|doloèati
 (gl.)|predpisovati
+odreka|1
+(sam.)|abdikacija|demisija|odstop|odstopitev|ostavka
 odreti|1
 (gl.)|izko¾iti
 odrevenelost|1
@@ -22181,6 +22747,8 @@ odriv|1
 (sam.)|odgon (¾argon)
 odrnik|1
 (sam.)|jambornik|lantena
+odrska izvedba|1
+(sam.)|inscenacija|uprizoritev
 odrtina|1
 (sam.)|odrgnina|praska
 odseèen|1
@@ -22191,8 +22759,13 @@ odseljevati|1
 (gl.)|izseljevati
 odsev|1
 (sam.)|refleks
-odskoènica|1
-(sam.)|izhodi¹èe|iztoènica|opori¹èe|osnova|temelj
+odskoèi¹èe|1
+(sam.)|izhodi¹èe|odskoèi¹èe (ekspresivno)|odskoèna deska|odskoènica (ekspresivno)
+odskoèna deska|1
+(sam.)|izhodi¹èe|odskoèi¹èe (ekspresivno)|odskoènica (ekspresivno)
+odskoènica|2
+(sam.)|izhodi¹èe|izhodi¹èna toèka|iztoènica|opori¹èe|osnova|temelj
+(sam.)|izhodi¹èe|odskoèi¹èe (ekspresivno)|odskoèna deska|odskoènica (ekspresivno)
 odsoditi|1
 (gl.)|doloèiti|odsoditi (zastarelo)|razsoditi
 odsonèje|1
@@ -22200,9 +22773,11 @@ odsonèje|1
 odsotnost|1
 (sam.)|absenca|izostanek|manjkanje
 odstop|1
-(sam.)|demisija|ostavka
+(sam.)|abdikacija|demisija|odreka|odstopitev|ostavka
 odstopen|1
 (prid.)|cesijski
+odstopitev|1
+(sam.)|abdikacija|demisija|odreka|odstop|ostavka
 odstopiti|1
 (gl.)|demisionirati
 odstopnica|1
@@ -22306,7 +22881,7 @@ oèarljivost|2
 oèe|1
 (sam.)|ata
 oèigled|1
-(predl.)|oèigled (zastarelo)|sprièo|voèigled (zastarelo)|zaradi
+(predl.)|oèigled (zastarelo)|po zaslugi|sprièo|voèigled (zastarelo)|zaradi
 oèistiti|1
 (gl.)|izèediti|osna¾iti|posna¾iti|preèistiti
 oèitek|1
@@ -22777,7 +23352,7 @@ opeèenec|1
 opehariti|1
 (gl.)|nafarbati (neknji¾no)|napetnajstiti (ekspresivno)|naplahtati (pogovorno)|nasmukati (ekspresivno)|nasukati (ekspresivno)|nategniti (sleng)|ogoljufati|opehariti (ekspresivno)|oslepariti (ekspresivno)|pregoljufati (ekspresivno)|preplahtati (pogovorno)|preslepariti (ekspresivno)|pretentati|prevarati
 opekaè|1
-(sam.)|toaster
+(sam.)|pra¾ilec za kruh|pra¾ilnik za kruh|toaster
 opica|1
 (sam.)|afna (neknji¾no)
 opij|1
@@ -22848,7 +23423,7 @@ oporeèno|1
 oporekati|1
 (gl.)|kontestirati|ugovarjati
 opori¹èe|1
-(sam.)|izhodi¹èe|iztoènica|odskoènica|osnova|temelj
+(sam.)|izhodi¹èe|izhodi¹èna toèka|iztoènica|odskoènica|osnova|temelj
 opornik|1
 (sam.)|opiraè
 oporoèitelj|1
@@ -22880,7 +23455,7 @@ opraviti|1
 opravljati|1
 (gl.)|klevetati|obrekovati
 opravljiv|1
-(prid.)|zlogolk (zastarelo)
+(prid.)|dolgojezièen|obrekljiv|zlogolk (zastarelo)
 opredelitev|2
 (sam.)|atribut|karakteristika|obele¾je|posebnost|znaèilnost
 (sam.)|determinacija|doloèitev|omejitev
@@ -22900,6 +23475,10 @@ opremiti|1
 opresen|2
 (prid.)|nekva¹en|opresen (starinsko)
 (prid.)|surov|sve¾
+opresni kruh|1
+(sam.)|nekva¹eni kruh|opresni kruh (starinsko)|opresnik (starinsko)|presmec (starinsko)
+opresnik|1
+(sam.)|nekva¹eni kruh|opresni kruh (starinsko)|opresnik (starinsko)|presmec (starinsko)
 opreti|1
 (gl.)|nasloniti|osloniti
 oprezen|1
@@ -22914,10 +23493,18 @@ oprh|1
 (sam.)|poprh
 oprhati|1
 (gl.)|stu¹irati (pogovorno)
+oprijem|1
+(sam.)|grif (¾argon)|oprijemali¹èe|oprimek|prijem|prijemek
+oprijemali¹èe|1
+(sam.)|grif (¾argon)|oprijem|oprimek|prijem|prijemek
 oprijemljiv|1
 (prid.)|prijemljiv|neoprijemljiv (protipomenka)
+oprijemljivi svet|1
+(sam.)|fizièni svet|oprijemljivi svet (ekspresivno)|predmetni svet|realni svet (ekspresivno)|resnièni svet (ekspresivno)|stvarni svet|zaresni svet (ekspresivno)
 oprijetnik|1
 (sam.)|bodi
+oprimek|1
+(sam.)|grif (¾argon)|oprijem|oprijemali¹èe|prijem|prijemek
 oprsje|2
 (sam.)|grod (zastarelo)|grudi|prsi
 (sam.)|toraks
@@ -23071,7 +23658,7 @@ oscilacija|1
 oscilirati|1
 (gl.)|nihati
 oseba|1
-(sam.)|èlovek|individuum|osebnost|subjekt|jr. (podpomenka)|junior (podpomenka)|ml. (podpomenka)|mlaj¹i (podpomenka)|senior (podpomenka)|sr. (podpomenka)|st. (podpomenka)|starej¹i (podpomenka)|morilec (podpomenka)|ubijalec (podpomenka)|vinar (zastarelo) (podpomenka)|vinièar (zastarelo) (podpomenka)|vinogradnik (podpomenka)|lovec (podpomenka)|lovica (podpomenka)|lovka (podpomenka)|nimrod (podpomenka)|drug (starinsko) (podpomenka)|frend (nizko) (podpomenka)|kolega (pogovorno) (podpomenka)|prijatelj (podpomenka)|tovari¹ (podpomenka)
+(sam.)|èlovek|individuum|osebnost|subjekt|jr. (podpomenka)|junior (podpomenka)|ml. (podpomenka)|mlaj¹i (podpomenka)|senior (podpomenka)|sr. (podpomenka)|st. (podpomenka)|starej¹i (podpomenka)|morilec (podpomenka)|morilka (podpomenka)|ubijalec (podpomenka)|ubijalka (podpomenka)|vinar (zastarelo) (podpomenka)|vinièar (zastarelo) (podpomenka)|vinogradnik (podpomenka)|lovec (podpomenka)|lovica (podpomenka)|lovka (podpomenka)|nimrod (podpomenka)|drug (starinsko) (podpomenka)|frend (nizko) (podpomenka)|frendica (nizko) (podpomenka)|kolega (pogovorno) (podpomenka)|kolegica (pogovorno) (podpomenka)|prijatelj (podpomenka)|prijateljica (podpomenka)|tovari¹ (podpomenka)|tovari¹ica (podpomenka)
 osebek|1
 (sam.)|subjekt
 osebje|1
@@ -23079,7 +23666,7 @@ osebje|1
 osebno ime|1
 (sam.)|antroponim
 osebnost|1
-(sam.)|èlovek|individuum|oseba|subjekt|jr. (podpomenka)|junior (podpomenka)|ml. (podpomenka)|mlaj¹i (podpomenka)|senior (podpomenka)|sr. (podpomenka)|st. (podpomenka)|starej¹i (podpomenka)|morilec (podpomenka)|ubijalec (podpomenka)|vinar (zastarelo) (podpomenka)|vinièar (zastarelo) (podpomenka)|vinogradnik (podpomenka)|lovec (podpomenka)|lovica (podpomenka)|lovka (podpomenka)|nimrod (podpomenka)|drug (starinsko) (podpomenka)|frend (nizko) (podpomenka)|kolega (pogovorno) (podpomenka)|prijatelj (podpomenka)|tovari¹ (podpomenka)
+(sam.)|èlovek|individuum|oseba|subjekt|jr. (podpomenka)|junior (podpomenka)|ml. (podpomenka)|mlaj¹i (podpomenka)|senior (podpomenka)|sr. (podpomenka)|st. (podpomenka)|starej¹i (podpomenka)|morilec (podpomenka)|morilka (podpomenka)|ubijalec (podpomenka)|ubijalka (podpomenka)|vinar (zastarelo) (podpomenka)|vinièar (zastarelo) (podpomenka)|vinogradnik (podpomenka)|lovec (podpomenka)|lovica (podpomenka)|lovka (podpomenka)|nimrod (podpomenka)|drug (starinsko) (podpomenka)|frend (nizko) (podpomenka)|frendica (nizko) (podpomenka)|kolega (pogovorno) (podpomenka)|kolegica (pogovorno) (podpomenka)|prijatelj (podpomenka)|prijateljica (podpomenka)|tovari¹ (podpomenka)|tovari¹ica (podpomenka)
 osemenjevalen|1
 (prid.)|inseminacijski
 osen|1
@@ -23169,7 +23756,7 @@ osmoditi|1
 osna¾iti|1
 (gl.)|izèediti|oèistiti|posna¾iti|preèistiti
 osnova|2
-(sam.)|izhodi¹èe|iztoènica|odskoènica|opori¹èe|temelj
+(sam.)|izhodi¹èe|izhodi¹èna toèka|iztoènica|odskoènica|opori¹èe|temelj
 (sam.)|podlaga|substrat
 osnovati|1
 (gl.)|etablirati (zastarelo)|postaviti|ustanoviti
@@ -23242,7 +23829,7 @@ ostanek|3
 (sam.)|preostanek|residuum|rezidij
 (sam.)|rudiment
 ostavka|1
-(sam.)|demisija|odstop
+(sam.)|abdikacija|demisija|odreka|odstop|odstopitev
 ostekliti|1
 (gl.)|zastekliti
 ostentativen|1
@@ -23302,6 +23889,8 @@ osvajalen|1
 (sam.)|zavojevalen
 osvajalnost|1
 (sam.)|zavojevalnost
+osvajanje|1
+(sam.)|dvorjenje|nagovarjanje|pihanje na du¹o|snubljenje
 osvajati|1
 (gl.)|dvoriti|sviriliriti (zastarelo)|udvarjati
 osve¹èen|1
@@ -23491,6 +24080,10 @@ ovreèi|1
 (gl.)|izpodbiti|zanikati
 ovreti|1
 (gl.)|zadr¾ati|zavreti
+ovseni kruh|1
+(sam.)|ovsenjak (starinsko)
+ovsenjak|1
+(sam.)|ovseni kruh|ovsenjak (starinsko)
 ovzdu¹je|1
 (sam.)|¹timunga (pogovorno)|ambient|obèutje|ovzdu¹je (zastarelo)|ozraèje|razpolo¾enje|vzdu¹je|vzduh (zastarelo)
 ozadje|1
@@ -23561,10 +24154,22 @@ pa¾nja|1
 (sam.)|briga|pazljivost|paznost|pozornost|skrb
 pacemaker|1
 (sam.)|spodbujevalnik|vzbujevalnik
+packaè|1
+(sam.)|mazaè
+pad|1
+(sam.)|¹trbunk (ekspresivno)|padec
+padati v besedo|1
+(gl.)|padati v besedo (ekspresivno)|prekinjati|segati v besedo (ekspresivno)|skakati v besedo (ekspresivno)|vpadati v besedo (ekspresivno)
 padavica|1
 (sam.)|bo¾jast|epilepsija|metavica (zastarelo)
+padec|3
+(sam.)|¹trbunk (ekspresivno)|pad
+(sam.)|greh (ekspresivno)|grehec (ekspresivno)|grehek (ekspresivno)|padec (ekspresivno)|pregre¹ek (ekspresivno)|pregreha (ekspresivno)|prekr¹ek|prestop|prestopek
+(sam.)|skok (ekspresivno)
 paèiti|1
 (gl.)|izkrivljati|potvarjati
+paèiti se|1
+(gl.)|delati grimase (ekspresivno)|spakovati se
 paganizem|1
 (sam.)|ajdovstvo (starinsko)|poganstvo
 pagina|1
@@ -23582,6 +24187,8 @@ pajèolanast|1
 pajèolanka|2
 (sam.)|Carassius auratus
 (sam.)|Gypsophila paniculata (strokovno)
+pajzelj|1
+(sam.)|¹pelunka|beznica|pajzelj (neknji¾no)
 pak|1
 (sam.)|plo¹èek|plo¹èica|puck
 paka¾a|1
@@ -23604,6 +24211,8 @@ palas|1
 (sam.)|palacij
 palatalizacija|1
 (sam.)|mehèanje|nebnjenje
+palatin|1
+(sam.)|dvorjan|dvorjanik|dvornik (starinsko)|palatin (zastarelo)|pridvornik (zastarelo)
 pale¾|2
 (sam.)|o¾ig
 (sam.)|prigrevica|pripalica|vroèina|¾arina (podpomenka)|¾ega (zastarelo) (podpomenka)|¾galina (zastarelo) (podpomenka)|pripeka (podpomenka)
@@ -23611,6 +24220,8 @@ palec|1
 (sam.)|inè
 palèek|1
 (sam.)|¹krat|¹kratelj (ekspresivno)|¹krateljc|gnom
+palèna dlanska kepa|1
+(sam.)|tenar (strokovno)|veliki pe¹èaj
 palènik|1
 (sam.)|brezprstnik
 paleolitik|1
@@ -23751,7 +24362,7 @@ paris quadrifolia|1
 pariteten|1
 (prid.)|proporcionalen|proporèen|razmeren|skladen|sorazmeren
 pariti se|1
-(gl.)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|pariti se (nizko)|porivati (nizko)|seksati (pogovorno)|spolno obèevati
+(gl.)|dati se dol (nizko)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|ljubiti se|pariti se (nizko)|porivati (nizko)|povaljati se|seksati (pogovorno)|spolno obèevati
 parkelj|1
 (sam.)|¹ent|¹ment|hudiè|hudiman|hudimar|hudir|hudnik|peklen¹èek|rogaè|satan|sku¹njavec|vrag|vragec|vranè|zlobec|zlodej
 parkrat|1
@@ -23813,6 +24424,12 @@ pasji rep|1
 (sam.)|grebenèica
 past|1
 (sam.)|zanka
+past za dihurje|1
+(sam.)|dihurnica
+past za mi¹i|1
+(sam.)|mi¹elovka|mi¹nica
+past za rake|1
+(sam.)|rakolovka
 pasta|1
 (sam.)|lo¹èilo|mastilo (starinsko)
 pasti|2
@@ -23972,7 +24589,7 @@ peneèe vino|1
 penina|1
 (sam.)|¹ampanjec (pogovorno)|peneèe vino|sekt
 penis|1
-(sam.)|penis|spolni organ (nadpomenka)|spolovilo (nadpomenka)|sram (starinsko) (nadpomenka)
+(sam.)|tiè (pogovorno)|spolni organ (nadpomenka)|spolovilo (nadpomenka)|sram (starinsko) (nadpomenka)
 penkalo|1
 (sam.)|nalivnik|nalivno pero|penkalo (¾argon)
 pennatula phosphorea|1
@@ -24150,6 +24767,8 @@ pigment|1
 (sam.)|barvilo
 pihalka|1
 (sam.)|pahljaèa
+pihanje na du¹o|1
+(sam.)|dvorjenje|nagovarjanje|osvajanje|snubljenje
 pihati|1
 (gl.)|veti
 pihniti|1
@@ -24183,6 +24802,10 @@ pilula|1
 (sam.)|bobika|dra¾e
 pinceta|1
 (sam.)|prijemalka
+pincgavec|1
+(sam.)|nori¹ki konj|pincgavski konj
+pincgavski konj|1
+(sam.)|nori¹ki konj|pincgavec
 pinja|1
 (sam.)|maselnica
 pinna nobilis|1
@@ -24216,6 +24839,10 @@ pisarnica|1
 (sam.)|biro|kanclija (nizko)|pisalnica (zastarelo)|pisarna|pisarnica (zastarelo)|urad|uradnica (zastarelo)
 pisatelj|1
 (sam.)|knji¾evnik|literat
+pisava|1
+(sam.)|abeceda|èrkopis
+pisk|1
+(sam.)|¾vi¾g|brlizg (ekspresivno)
 pisker|2
 (sam.)|betica (ekspresivno)|buèa (pogovorno)|butica (ekspresivno)|èelada (ekspresivno)|èrepinja (nizko)|glava|glavaèa (slab¹alno)|hrganja (ekspresivno)|lobanja (ekspresivno)|pisker (nizko)
 (sam.)|lonec|pisker (pogovorno)
@@ -24223,8 +24850,13 @@ pismenka|1
 (sam.)|èrka
 pisniti|1
 (gl.)|èrhniti (ekspresivno)|pisniti (ekspresivno)|reèi|spregovoriti
+pisoar|1
+(sam.)|scalnik (zastarelo)
 pisum arvense|1
 (sam.)|njivski grah
+piti|2
+(gl.)|bandati (pogovorno)|popivati|veseljaèiti
+(gl.)|cukniti ga|srkniti ga
 pitijski|1
 (prid.)|dvorezen|dvosmiseln|dvoumen
 pitoresken|1
@@ -24284,7 +24916,9 @@ plamenica|1
 plan|1
 (sam.)|ekspozicija|naèrt
 planinec|1
-(sam.)|alpinist|hribolazec (starinsko)|veleturist (zastarelo)
+(sam.)|alpinist|alpinistka|gornica|gornik|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinka|veleturist (zastarelo)|veleturistka (zastarelo)
+planinka|1
+(sam.)|alpinist|alpinistka|gornica|gornik|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinec|veleturist (zastarelo)|veleturistka (zastarelo)
 planinska pevka|1
 (sam.)|Prunella collaris (strokovno)
 planinski|1
@@ -24395,6 +25029,14 @@ plemkinja|1
 (sam.)|¾lahèiè (zastarelo)|¾lahtniè (zastarelo)|¾lahtnik (zastarelo)|aristokrat|imenitnik|kavalir (zastarelo)|odliènik|plemenita¹|plemenitnik|plemiè
 plemstvo|1
 (sam.)|aristokracija
+pleskanje|1
+(sam.)|barvanje|beljenje
+pleskar|1
+(sam.)|pleskarka|sobopleskar|sobopleskarka|soboslikar|soboslikarka
+pleskarka|1
+(sam.)|pleskar|sobopleskar|sobopleskarka|soboslikar|soboslikarka
+pleskati|1
+(gl.)|barvati|beliti
 plesniv|1
 (prid.)|capinast (slab¹alno)|capinski (slab¹alno)|malopriden|malovreden|neèasten (zastarelo)|neèeden|nemaren|nepriden (zastarelo)|nevreden|nièen|nièvreden|plesniv (ekspresivno)|pokvarjen (slab¹alno)|slab|snetiv (ekspresivno)|zanikrn (slab¹alno)
 pletenka|1
@@ -24515,10 +25157,12 @@ po|1
 (sam.)|polonij|element (nadpomenka)|kemièna prvina (nadpomenka)|kemièni element (nadpomenka)
 po ¾elji|1
 (prisl.)|ad libitum|poljubno
+po zaslugi|1
+(predl.)|oèigled (zastarelo)|sprièo|voèigled (zastarelo)|zaradi
 po¹ariti|1
 (gl.)|pobrkljati (pogovorno)|pobrskati
 po¹ast|1
-(sam.)|monstrum|nakazen (starinsko)|nestvor|spaka
+(sam.)|monstrum|nakazen (starinsko)|nestvor|spak|spaka
 po¹asten|2
 (prid.)|¹kandalozen (ekspresivno)|grozen (ekspresivno)|hud|nekvaliteten|neprebavljiv (ekspresivno)|neu¾iten (ekspresivno)|neznosen|obupen|po¹asten (ekspresivno)|slab|srep|stra¹en (ekspresivno)
 (prid.)|monstruozen|spaèen
@@ -24729,8 +25373,12 @@ podlo¾ek|1
 (sam.)|pladenj|plitvica (zastarelo)|podnos|tableta|tasa (pogovorno)
 podlo¾iti|1
 (gl.)|podvleèi (starinsko)
+podlo¾nost|1
+(sam.)|krotkost|podredljivost|pohlevnost|pokornost|poni¾nost
 podloga|1
 (sam.)|podvleka (starinsko)
+podmet|1
+(sam.)|moènik
 podmolkel|3
 (prid.)|globok|zamolkel
 (prid.)|neiskren|neodkrit|potuhnjen|tiholazen
@@ -24765,6 +25413,8 @@ pododdelek|1
 (sam.)|podsekcija
 podoktorski|1
 (prid.)|postdoktorski
+podol¾ni prerez|1
+(sam.)|dol¾inski prerez|longitudinalni prerez|vzdol¾ni prerez
 podolgast|1
 (prid.)|podolgovat
 podolgem|1
@@ -24796,8 +25446,13 @@ podpritlièen|1
 (prid.)|podkleten|polkleten|polpritlièen|prikleten|suterenski
 podpritlièje|1
 (sam.)|prikletje|suteren
-podrejenost|1
+podredljivost|1
+(sam.)|krotkost|podlo¾nost|pohlevnost|pokornost|poni¾nost
+podrejen|1
+(prid.)|submisiven
+podrejenost|2
 (sam.)|heteronomija|nesamostojnost|odvisnost|slu¾nost
+(sam.)|submisivnost
 podroben|1
 (prid.)|akuraten (starinsko)|avtentièen|detajlen|eksakten|minuciozen|nadroben|natanèen|natanek|potanek|pravilen|precizen|strikten|tanek|toèen
 podrobneje|1
@@ -24883,6 +25538,8 @@ poèez|1
 (prisl.)|poèezno|poprek|povprek
 poèezen|1
 (prid.)|aproksimativen|pribli¾en
+poèezni prerez|1
+(sam.)|preèni prerez|profil
 poèezno|1
 (prisl.)|poèez|poprek|povprek
 poèitek|1
@@ -25011,6 +25668,8 @@ pohlepne¾|1
 (sam.)|lakomne¾|lakomnik|lakotne¾|po¾eruh|pogoltne¾
 pohlepno|1
 (prisl.)|lahkomno|nenasitno|pogoltno
+pohlevnost|1
+(sam.)|krotkost|podlo¾nost|podredljivost|pokornost|poni¾nost
 pohod|1
 (sam.)|mar¹
 pohot|1
@@ -25064,12 +25723,20 @@ pojav|2
 (sam.)|fenomen
 pojavljati se|1
 (gl.)|figurirati|nastopati
+pojavni svet|1
+(sam.)|èutni svet|fenomenalni svet|fenomenski svet
+pojem|1
+(sam.)|beseda|besedica (ekspresivno)|izraz|slovo (zastarelo)|termin|determinanta (podpomenka)|doloèilna beseda (podpomenka)|doloèilnica (podpomenka)|enomiselna beseda (starinsko) (podpomenka)|enopomenka (podpomenka)|enopomenska beseda (podpomenka)|enosmiselna beseda (podpomenka)|enoznaèna beseda (zastarelo) (podpomenka)|hipokoristikon (podpomenka)|ljubkovalna beseda (podpomenka)|ljubkovalnica (podpomenka)|atonièna beseda (podpomenka)|atonon (podpomenka)|breznaglasna beseda (podpomenka)|breznaglasnica (podpomenka)|nezlo¾ena beseda (podpomenka)|simpleks (podpomenka)|porogljiva beseda (podpomenka)|porogljivka (ekspresivno) (podpomenka)|mnogopomenska beseda (podpomenka)|mnogoznaèna beseda (podpomenka)|polivalentna beseda (podpomenka)|veèpomenka (podpomenka)|veèpomenska beseda (podpomenka)|¾aljiva beseda (podpomenka)|¾aljivka (podpomenka)|invektiva (podpomenka)|motivirana beseda (podpomenka)|tvorjena beseda (podpomenka)|tvorjenka (podpomenka)
 pojenjati|1
 (gl.)|nehati|ponehati
 pojesti|1
 (gl.)|pou¾iti|snesti|vnesti v telo|zau¾iti
 pojmoven|1
 (prid.)|abstrakten|miseln|nezaznaven
+pojmovni svet|1
+(sam.)|abstraktni svet|miselni svet|neèutni svet|pojmovnik|predstavni svet
+pojmovnik|1
+(sam.)|abstraktni svet|miselni svet|neèutni svet|pojmovni svet|predstavni svet
 poka|1
 (sam.)|¹pranja|poka (starinsko)|poklina (starinsko)|raza|razpoka|re¾a|rega
 pokaditi|1
@@ -25127,6 +25794,8 @@ pokonèen|1
 (prid.)|brezkompromisen|dosleden|konsekventen|naèelen|nekompromisen|znaèajen
 pokopali¹èe|1
 (sam.)|¾ale|britof (nizko)
+pokornost|1
+(sam.)|krotkost|podlo¾nost|podredljivost|pohlevnost|poni¾nost
 pokositren|1
 (prid.)|pocinjen
 pokositriti|1
@@ -25295,6 +25964,8 @@ politiène znanosti|1
 (sam.)|politologija
 politologija|1
 (sam.)|politiène znanosti
+polivalentna beseda|1
+(sam.)|mnogopomenska beseda|mnogoznaèna beseda|veèpomenka|veèpomenska beseda
 polivinilen|1
 (prid.)|polivinilen (strokovno)|vinilen
 polivinilklorid|1
@@ -25345,14 +26016,22 @@ polmer|1
 (sam.)|radij
 polmrak|1
 (sam.)|somrak
+poln|1
+(prid.)|bohoten|bujen
 polnilec|1
 (sam.)|polnilnik
 polnilnik|1
 (sam.)|polnilec
 polniti|1
 (gl.)|napolnjevati|natrpavati (ekspresivno)
+polno|1
+(prisl.)|bohotno|bujno
+polnokrvec|1
+(sam.)|polnokrvni konj
 polnokrven|1
 (prid.)|rdeèelièen|zdrav
+polnokrvni konj|1
+(sam.)|polnokrvec
 polnoleten|1
 (prid.)|doleten
 polnoletnost|1
@@ -25365,8 +26044,9 @@ polnota|1
 (sam.)|polnost
 polnouden|1
 (prid.)|debel|debelkast|debelu¹ast|debelu¹en|debelu¹nat|debeluhast (ekspresivno)|polnouden (zastarelo)
-polo¾aj|3
-(sam.)|lega
+polo¾aj|4
+(sam.)|funkcija|pozicija
+(sam.)|lega|pozicija
 (sam.)|situacija
 (sam.)|stadij|stanje|status|bolezen (podpomenka)|obolelost (podpomenka)|obolenje (podpomenka)
 polo¾en|1
@@ -25396,6 +26076,8 @@ polsteno pero|1
 (sam.)|flomaster
 poltar|1
 (sam.)|ribnjaèa
+poltena ljubezen|1
+(sam.)|èutna ljubezen|fizièna ljubezen|mesena ljubezen (ekspresivno)|poltena ljubezen (slab¹alno)|senzualna ljubezen|spolna ljubezen|telesna ljubezen
 poltnost|1
 (sam.)|èutnost|mesenost|poèutnost (starinsko)|senzualnost|sladnost (zastarelo)
 polukati|1
@@ -25515,7 +26197,8 @@ pomirljiv|1
 (prid.)|koncilianten|popustljiv|spravljiv
 pomirljivost|1
 (sam.)|konciliantnost|odjenljivost|odnehljivost|popustljivost|prijenljivost (starinsko)|spravljivost
-pomislek|1
+pomislek|2
+(sam.)|premislek|razmislek|refleksija
 (sam.)|skrupul
 pomlad|1
 (sam.)|mladoletje|spomlad (zastarelo)|vesna (ekspresivno)|vigred
@@ -25609,6 +26292,8 @@ ponazoritev|1
 (sam.)|konkretizacija|pojasnitev
 ponazoriti|1
 (gl.)|konkretizirati|pojasniti
+pondirek|1
+(sam.)|ponirek
 ponehati|1
 (gl.)|nehati|pojenjati
 ponehavati|1
@@ -25628,10 +26313,14 @@ poneveriti|1
 (gl.)|defravdirati
 poneverjevalec|1
 (sam.)|malverzant
+poni¾nost|1
+(sam.)|krotkost|podlo¾nost|podredljivost|pohlevnost|pokornost
 ponikalnica|1
 (sam.)|ponornica
 ponikniti|1
 (gl.)|izginiti|nikniti (starinsko)
+ponirek|1
+(sam.)|pondirek
 ponjava|1
 (sam.)|cerada|plahta
 ponoèen|1
@@ -25695,7 +26384,7 @@ popiti|1
 popivanje|1
 (sam.)|krok (pogovorno)|krokada (ekspresivno)|krokarija (pogovorno)
 popivati|1
-(gl.)|bandati (pogovorno)|veseljaèiti
+(gl.)|bandati (pogovorno)|piti|veseljaèiti
 poplava|1
 (sam.)|inundacija|povodenj
 popoldanji|1
@@ -25706,6 +26395,8 @@ popoln|3
 (prid.)|absoluten|vsestranski
 (prid.)|dovr¹en|perfekten (pogovorno)
 (prid.)|vseobse¾en
+popolna la¾|1
+(sam.)|debela la¾ (ekspresivno)|èista la¾ (ekspresivno)|kosmata la¾ (ekspresivno)|la¾|neresnica|neresniènost|popolna la¾ (ekspresivno)|pravljica
 popolnem|1
 (prisl.)|celoma (zastarelo)|docela|èisto|en bloc|nasploh|popolnem (zastarelo)|popolnoma|povsem|v celoti
 popolnoma|1
@@ -25714,6 +26405,11 @@ popolnost|3
 (prisl.)|integriteta|skladnost
 (sam.)|bravura|dovr¹enost|perfekcija
 (sam.)|dograjenost|dovr¹enost|izdelanost
+popotnica|2
+(sam.)|bra¹nja (starinsko)|bra¹no (starinsko)|odhodnica|odhodnja (starinsko)|popotnja (starinsko)|proviant|suha hrana
+(sam.)|sveta popotnica|zadnja popotnica
+popotnja|1
+(sam.)|bra¹nja (starinsko)|bra¹no (starinsko)|odhodnica|odhodnja (starinsko)|popotnica|popotnja (starinsko)|proviant|suha hrana
 poprava|1
 (sam.)|izbolj¹ava|rektifikacija
 popravek|1
@@ -25801,7 +26497,7 @@ poreklo|2
 poriv|1
 (sam.)|impulz|vzpodbuda
 porivati|1
-(gl.)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|pariti se (nizko)|porivati (nizko)|seksati (pogovorno)|spolno obèevati
+(gl.)|dati se dol (nizko)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|ljubiti se|pariti se (nizko)|porivati (nizko)|povaljati se|seksati (pogovorno)|spolno obèevati
 poro¹tven|1
 (prid.)|garancijski|jamstven
 poro¹tvo|1
@@ -25816,6 +26512,12 @@ poroèevalen|1
 (prid.)|referativen
 poroèilo|1
 (sam.)|referat
+porog|1
+(sam.)|norèevanje|posmehovanje|roganje|zasmehovanje|zbadanje
+porogljiva beseda|1
+(sam.)|porogljivka (ekspresivno)
+porogljivka|1
+(sam.)|porogljiva beseda|porogljivka (ekspresivno)
 porotnik|1
 (sam.)|asesor|prisednik
 portfelj|1
@@ -25882,7 +26584,7 @@ posegati|2
 posekati|1
 (gl.)|nadkriliti|posekati (ekspresivno)|prekositi|preseèi
 posel|2
-(sam.)|biznis (pogovorno)
+(sam.)|biznis (pogovorno)|k¹eft (neknji¾no)
 (sam.)|delo|metier|obrt
 poselitev|1
 (sam.)|naselitev
@@ -25938,6 +26640,10 @@ poslu¹en|1
 (prid.)|ubogljiv|neposlu¹en (protipomenka)
 poslu¹nost|1
 (sam.)|ubogljivost
+posluh|1
+(sam.)|èut|instinkt|slut (starinsko)
+posmeh|1
+(sam.)|¹ala|¹tos (¾argon)|vic
 posmehljiv|2
 (prid.)|cinièen
 (prid.)|ironièen
@@ -25945,6 +26651,8 @@ posmehljivec|1
 (sam.)|cinik
 posmehljivost|1
 (sam.)|ciniènost|cinizem|podsmehljivost
+posmehovanje|1
+(sam.)|norèevanje|porog|roganje|zasmehovanje|zbadanje
 posmrten|1
 (prid.)|zagroben
 posmrtnost|1
@@ -26009,10 +26717,12 @@ postava|2
 postavek|1
 (sam.)|domneva|hipoteza|predpostavka|presumpcija|privzetek
 postaven|1
-(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 postaviti|2
 (gl.)|etablirati (zastarelo)|osnovati|ustanoviti
 (gl.)|situirati|umestiti
+postaviti se za|1
+(gl.)|boriti se za|braniti|zagovarjati|zavzeti se za
 postavljaè|1
 (sam.)|¹irokoustne¾|¹vadroner (zastarelo)|bahaè|baharitne¾ (ekspresivno)|blefer (pogovorno)|razustnik
 postavljati se|1
@@ -26217,8 +26927,9 @@ potro¹iti|1
 (gl.)|konsumirati|porabiti
 potro¹ni¹ki|1
 (prid.)|konsumen|konsumpcijski|potro¹en
-potro¹nik|1
+potro¹nik|2
 (sam.)|konsument|koristnik|porabnik|rabnik
+(sam.)|uporabnik
 potro¹nja|1
 (sam.)|konsum|konsumacija|konsumpcija|konzum|konzumacija|poraba
 potrpe¾ljivost|1
@@ -26282,6 +26993,8 @@ poustvarjati|1
 (gl.)|podajati|reproducirati
 pov¹eè|1
 (prisl.)|v¹eè
+povaljati se|1
+(gl.)|dati se dol (nizko)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|ljubiti se|pariti se (nizko)|porivati (nizko)|seksati (pogovorno)|spolno obèevati
 povedek|1
 (sam.)|predikat
 povedkovnik|1
@@ -26431,11 +27144,16 @@ pozdravljica|1
 (sam.)|napitnica|pozdravljica (zastarelo)|zdravica
 pozen|1
 (prid.)|kasen
+pozicija|2
+(sam.)|funkcija|polo¾aj
+(sam.)|lega|polo¾aj
 pozitiven|2
 (prid.)|afirmativen|pritrdilen|trdilen
 (prid.)|dober|izgleden|sprejemljiv|ugoden
 pozitura|1
 (sam.)|dr¾a|poza
+pozivati|1
+(gl.)|nagovarjati|napeljevati|navajati|prigovarjati|snubiti
 pozlatiti|1
 (gl.)|ozlatiti
 poznavalec|1
@@ -26487,6 +27205,10 @@ pra¹ilec|1
 (sam.)|plemenilnik
 pra¹nica|1
 (sam.)|krvnica
+pra¾ilec za kruh|1
+(sam.)|opekaè|pra¾ilnik za kruh|toaster
+pra¾ilnik za kruh|1
+(sam.)|opekaè|pra¾ilec za kruh|toaster
 prabiten|2
 (prid.)|elementaren|neponarejen|prvinski
 (prid.)|osnoven|prvoten
@@ -26558,8 +27280,8 @@ pravilnost|2
 pravilo|1
 (sam.)|normativ|predpis|reglement|zahteva
 pravljica|2
+(sam.)|debela la¾ (ekspresivno)|èista la¾ (ekspresivno)|kosmata la¾ (ekspresivno)|la¾|neresnica|neresniènost|popolna la¾ (ekspresivno)
 (sam.)|govorica
-(sam.)|la¾|neresnica
 pravljièna ¾ival|1
 (sam.)|bajeslovna ¾ival|bajeslovno bitje|mitolo¹ka ¾ival|mitolo¹ko bitje|pravljièno bitje|¹krat (podpomenka)|¹kratelj (ekspresivno) (podpomenka)|¹krateljc (podpomenka)|gnom (podpomenka)|palèek (podpomenka)|lintvern (pogovorno) (podpomenka)|pozoj (podpomenka)|zmaj (podpomenka)|enoro¾ec (podpomenka)|enorog (podpomenka)|samorog (podpomenka)
 pravljièno bitje|1
@@ -26752,6 +27474,8 @@ predmet|2
 (sam.)|objekt|reè|stvar
 predmeten|1
 (prid.)|konkreten|materialen|praktièen|reèen|stvaren
+predmetni svet|1
+(sam.)|fizièni svet|oprijemljivi svet (ekspresivno)|realni svet (ekspresivno)|resnièni svet (ekspresivno)|stvarni svet|zaresni svet (ekspresivno)
 predmetnost|1
 (sam.)|materialnost|snovnost|tvarnost
 prednaroèilo|2
@@ -26842,6 +27566,8 @@ predstavljati|3
 (gl.)|figurirati
 (gl.)|reprezentirati|zastopati
 (gl.)|upodabljati|utele¹ati
+predstavni svet|1
+(sam.)|abstraktni svet|miselni svet|neèutni svet|pojmovni svet|pojmovnik
 predstavni¹tvo|1
 (sam.)|ekspozitura|izpostava
 predujem|1
@@ -26869,6 +27595,8 @@ predznamba|1
 (sam.)|prenotacija
 preèastit|1
 (prid.)|cenjen|gnadljiv (zastarelo)|plemenit|presvitli (zastarelo)|spo¹tovan
+preèastiti|1
+(sam.)|bo¾ji namestnik|cerkvenec (starinsko)|cerkvenjak (starinsko)|du¹ni pastir (starinsko)|duhoven (starinsko)|duhovnik|èastiti|klerik|ma¹nik (starinsko)|sveèenik (zastarelo)
 preèi¹èevanje|1
 (sam.)|rafinacija|rafiniranje
 preèi¹èevati|1
@@ -26878,6 +27606,8 @@ preèistiti|2
 (gl.)|izèistiti|prejasniti
 preèitati|1
 (gl.)|prebrati
+preèni prerez|1
+(sam.)|poèezni prerez|profil
 preènica|1
 (sam.)|trajektorija
 preèrkovati|2
@@ -26944,7 +27674,9 @@ pregraden|1
 pregradnja|1
 (sam.)|predelava|preureditev
 pregre¹ek|1
-(sam.)|greh (ekspresivno)|pregre¹ek (ekspresivno)|prekr¹ek|prestopek
+(sam.)|greh (ekspresivno)|grehec (ekspresivno)|grehek (ekspresivno)|padec (ekspresivno)|pregre¹ek (ekspresivno)|pregreha (ekspresivno)|prekr¹ek|prestop|prestopek
+pregreha|1
+(sam.)|greh (ekspresivno)|grehec (ekspresivno)|grehek (ekspresivno)|padec (ekspresivno)|pregre¹ek (ekspresivno)|pregreha (ekspresivno)|prekr¹ek|prestop|prestopek
 pregrinjalo|1
 (sam.)|prekrivalo
 pregrniti|1
@@ -26968,6 +27700,8 @@ prehod|1
 prehoden|2
 (prid.)|interimen|provizorièen|temporaren|tranzienten|tranzitoren|zaèasen|zasilen
 (prid.)|tranzitiven
+prehrana|1
+(sam.)|¾ive¾|¾ivila|¾ivilo (zastarelo)|hrana|jelo (starinsko)
 prehranjevalec|1
 (sam.)|hranilec
 prehranski dodatek|1
@@ -27020,6 +27754,9 @@ prekatni strop|1
 (sam.)|kasetirani strop
 prekcelinski|1
 (prid.)|èezcelinski|transkontinentalen
+prekinjati|2
+(gl.)|padati v besedo (ekspresivno)|segati v besedo (ekspresivno)|skakati v besedo (ekspresivno)|vpadati v besedo (ekspresivno)
+(gl.)|ustavljati
 prekinjen|1
 (prid.)|intermitenten|nepovezan|pretrgan
 prekis|1
@@ -27073,8 +27810,8 @@ prekr¹èevalec|1
 prekr¹èevalstvo|1
 (sam.)|anabaptizem
 prekr¹ek|2
-(sam.)|favl (¾argon)
-(sam.)|greh (ekspresivno)|pregre¹ek (ekspresivno)|prestopek
+(sam.)|favl (¾argon)|prestopek
+(sam.)|greh (ekspresivno)|grehec (ekspresivno)|grehek (ekspresivno)|padec (ekspresivno)|pregre¹ek (ekspresivno)|pregreha (ekspresivno)|prestop|prestopek
 prekr¹itelj|1
 (sam.)|kr¹ilec|kr¹itelj
 prekretnica|1
@@ -27173,8 +27910,12 @@ premièen|1
 (prid.)|potujoè
 premier|1
 (sam.)|ministrski predsednik|predsednik vlade
+premik naglasa|1
+(sam.)|akcentski premik|akcentski preskok|naglasni premik
 preminiti|1
 (gl.)|¹kripniti (nizko)|crkniti (nizko)|gagniti (nizko)|gavzniti (nizko)|guzniti (nizko)|hropniti (nizko)|izdihniti|izhirati (ekspresivno)|iztegniti pete (ekspresivno)|umreti
+premislek|1
+(sam.)|pomislek|razmislek|refleksija
 premisliti|1
 (gl.)|pregruntati (neknji¾no)|razmisliti
 premo¹èati|1
@@ -27247,6 +27988,8 @@ prenoènina|1
 (sam.)|noènina
 prenos|1
 (sam.)|prestavitev|transpozicija
+prenosni telefon|1
+(sam.)|mobi (pogovorno)|mobilec (pogovorno)|mobilni telefon|mobilnik|mobitel (pogovorno)
 prenotacija|1
 (sam.)|predznamba
 prenova|1
@@ -27399,6 +28142,10 @@ preplah|3
 (sam.)|homatija|kaos|kolobocija (pogovorno)|kvodlibet|nered|tumult|zme¹njava|zmeda
 preplahtati|1
 (gl.)|nafarbati (neknji¾no)|napetnajstiti (ekspresivno)|naplahtati (pogovorno)|nasmukati (ekspresivno)|nasukati (ekspresivno)|nategniti (sleng)|ogoljufati|opehariti (ekspresivno)|oslepariti (ekspresivno)|pregoljufati (ekspresivno)|preplahtati (pogovorno)|preslepariti (ekspresivno)|pretentati|prevarati
+preplet|1
+(sam.)|prepletek|spreplet
+prepletek|1
+(sam.)|preplet|spreplet
 preplonkati|1
 (gl.)|plonkati (¾argon)|prepisati|prepisovati|preplonkati (¾argon)
 prepoènica|1
@@ -27453,6 +28200,8 @@ prepreèitev|1
 (sam.)|inhibicija|prepoved|zabrana (zastarelo)
 prepreèiti|1
 (gl.)|onemogoèiti
+preprièevanje|1
+(sam.)|nagovarjanje
 preprièljiv|1
 (prid.)|eklatanten|evidenten|jasen|nedvoumen|oèiten
 preprièljivost|1
@@ -27497,6 +28246,8 @@ prerazvrstiti|1
 (gl.)|pregrupirati|prerazdeliti
 prerekanje|1
 (sam.)|¹petir (neknji¾no)|prepir|prièkanje
+prerez|1
+(sam.)|presek|dol¾inski prerez (podpomenka)|longitudinalni prerez (podpomenka)|podol¾ni prerez (podpomenka)|vzdol¾ni prerez (podpomenka)|poèezni prerez (podpomenka)|preèni prerez (podpomenka)|profil (podpomenka)|kolobarjasti prerez (podpomenka)|obroèni prerez (podpomenka)|kvadratièni prerez (podpomenka)|kvadratni prerez (podpomenka)|navpièni prerez (podpomenka)|vertikalni prerez (podpomenka)
 prerivati se|1
 (gl.)|drenjati se (neknji¾no)|gnesti se
 prero¹tvo|1
@@ -27535,12 +28286,16 @@ prese¾ek|1
 prese¾en|2
 (prid.)|èez¹tevilen|nad¹tevilen|odveèen|prebiten
 (prid.)|odveèen|suficitaren
+prese¾ni svet|1
+(sam.)|nadizkustveni svet|transcendentni svet
 presedlati|1
 (gl.)|preiti|presedlati (ekspresivno)|prestopiti
 preseèi|1
 (gl.)|nadkriliti|posekati (ekspresivno)|prekositi
 presegati|1
 (gl.)|preka¹ati
+presek|1
+(sam.)|prerez|dol¾inski prerez (podpomenka)|longitudinalni prerez (podpomenka)|podol¾ni prerez (podpomenka)|vzdol¾ni prerez (podpomenka)|poèezni prerez (podpomenka)|preèni prerez (podpomenka)|profil (podpomenka)|kolobarjasti prerez (podpomenka)|obroèni prerez (podpomenka)|kvadratièni prerez (podpomenka)|kvadratni prerez (podpomenka)|navpièni prerez (podpomenka)|vertikalni prerez (podpomenka)
 preseneèenje|1
 (sam.)|iznenadenje
 presenetiti|1
@@ -27557,6 +28312,8 @@ presledek|1
 (sam.)|interval
 preslepariti|1
 (gl.)|nafarbati (neknji¾no)|napetnajstiti (ekspresivno)|naplahtati (pogovorno)|nasmukati (ekspresivno)|nasukati (ekspresivno)|nategniti (sleng)|ogoljufati|opehariti (ekspresivno)|oslepariti (ekspresivno)|pregoljufati (ekspresivno)|preplahtati (pogovorno)|preslepariti (ekspresivno)|pretentati|prevarati
+presmec|1
+(sam.)|nekva¹eni kruh|opresni kruh (starinsko)|opresnik (starinsko)|presmec (starinsko)
 presnavljanje|1
 (sam.)|metabolizem|presnova
 presnet|1
@@ -27583,13 +28340,15 @@ prestaviti|2
 (gl.)|prenesti|transponirati
 prestolnica|1
 (sam.)|glavno mesto
-prestop|3
+prestop|4
 (sam.)|an¾ambma
+(sam.)|greh (ekspresivno)|grehec (ekspresivno)|grehek (ekspresivno)|padec (ekspresivno)|pregre¹ek (ekspresivno)|pregreha (ekspresivno)|prekr¹ek|prestopek
 (sam.)|konverzija|spreobrnjenje
 (sam.)|transfer
-prestopek|2
+prestopek|3
 (sam.)|ekscedenca|izgred|razuzdanost
-(sam.)|greh (ekspresivno)|pregre¹ek (ekspresivno)|prekr¹ek
+(sam.)|favl (¾argon)|prekr¹ek
+(sam.)|greh (ekspresivno)|grehec (ekspresivno)|grehek (ekspresivno)|padec (ekspresivno)|pregre¹ek (ekspresivno)|pregreha (ekspresivno)|prekr¹ek|prestop
 prestopiti|1
 (gl.)|preiti|presedlati (ekspresivno)
 prestreti|1
@@ -27834,6 +28593,8 @@ prfoks|1
 (sam.)|prfoks (¾argon)|prof.|profesor
 prha|1
 (sam.)|pr¹a (zastarelo)|tu¹ (pogovorno)
+prhati se|1
+(gl.)|iti pod prho|iti pod tu¹ (pogovorno)|tu¹irati se (pogovorno)
 prhek|2
 (prid.)|drobljiv|krhek|mrvljiv|prhljiv
 (prid.)|preperel|prhel|prhljiv|trhel|tro¹en (zastarelo)
@@ -27933,6 +28694,8 @@ pridvi¾en|1
 (prid.)|dvi¾en|privzdi¾en
 pridvor|1
 (sam.)|preddurje|preddverje|preddvor|preddvorje|predve¾je|vestibul
+pridvornik|1
+(sam.)|dvorjan|dvorjanik|dvornik (starinsko)|palatin (zastarelo)|pridvornik (zastarelo)
 prièakovanje|1
 (sam.)|nada|nadeja (starinsko)|upanje
 prièati|1
@@ -27989,6 +28752,8 @@ prigodek|1
 (sam.)|dogodek|nagodek (starinsko)|pripetljaj
 prigodnost|1
 (sam.)|nakljuènost|sluèajnost
+prigovarjati|1
+(gl.)|nagovarjati|napeljevati|navajati|pozivati|snubiti
 prigovor|1
 (sam.)|nestrinjanje|oèitek|priziv|ugovor
 prigrevica|1
@@ -28004,7 +28769,9 @@ prihranek|1
 prihraniti|1
 (gl.)|pri¹tediti|prièuvati|privarèevati
 prijatelj|1
-(sam.)|drug (starinsko)|frend (nizko)|kolega (pogovorno)|tovari¹|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+(sam.)|drug (starinsko)|frend (nizko)|frendica (nizko)|kolega (pogovorno)|kolegica (pogovorno)|prijateljica|tovari¹|tovari¹ica|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+prijateljica|1
+(sam.)|drug (starinsko)|frend (nizko)|frendica (nizko)|kolega (pogovorno)|kolegica (pogovorno)|prijatelj|tovari¹|tovari¹ica|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 prijati|1
 (gl.)|pasati (pogovorno)
 prijava|1
@@ -28021,8 +28788,12 @@ prijavnica|1
 (sam.)|priglasnica
 prijavnina|1
 (sam.)|priglasnina
+prijem|1
+(sam.)|grif (¾argon)|oprijem|oprijemali¹èe|oprimek|prijemek
 prijemalka|1
 (sam.)|pinceta
+prijemek|1
+(sam.)|grif (¾argon)|oprijem|oprijemali¹èe|oprimek|prijem
 prijemljiv|1
 (prid.)|oprijemljiv
 prijenljivost|1
@@ -28117,7 +28888,7 @@ prile¾ni¹ki|1
 prile¾ni¹tvo|1
 (sam.)|konkubinat|koruzni¹tvo (pogovorno)
 prile¾nica|1
-(sam.)|konkubina|ljubica|metresa
+(sam.)|konkubina|ljubavnica (zastarelo)|ljubica (ekspresivno)|ljubimka|metresa
 prile¾nik|1
 (sam.)|koruznik (pogovorno)
 prilepek|1
@@ -28533,6 +29304,8 @@ privid|3
 (sam.)|vizija
 prividen|1
 (prid.)|dozdeven|navidezen
+prividni svet|1
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginacijski svet|imaginarni svet|iracionalni svet|irealni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 prividnost|1
 (sam.)|dozdevnost|navideznost
 privihati|1
@@ -28545,7 +29318,7 @@ privlaèen|5
 (prid.)|èaroben|èarovit (zastarelo)|oèarljiv
 (prid.)|apetiten (zastarelo)|dra¾esten|ljubek|mikaven
 (prid.)|atraktiven|dra¾ljiv|interesanten|mikaven|pikanten (ekspresivno)|zanimiv
-(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 (prid.)|mameè|mamljiv|mièen|mikaven|vabljiv
 privlaèevati|1
 (gl.)|mamiti|vabiti
@@ -28690,6 +29463,8 @@ profesor|1
 (sam.)|prfoks (¾argon)|prof.
 profet|1
 (sam.)|prerok
+profil|1
+(sam.)|poèezni prerez|preèni prerez
 profilaksa|1
 (sam.)|prepreèevanje|preventiva
 profilaktièen|1
@@ -29008,6 +29783,8 @@ prouèiti|1
 (gl.)|obravnati|raziskati
 provenienca|1
 (sam.)|izvor
+proviant|1
+(sam.)|bra¹nja (starinsko)|bra¹no (starinsko)|odhodnica|odhodnja (starinsko)|popotnica|popotnja (starinsko)|suha hrana
 provinca|2
 (sam.)|pode¾elje
 (sam.)|pokrajina
@@ -29375,6 +30152,8 @@ rakev|1
 (sam.)|krsta|truga (nizko)
 rakija|1
 (sam.)|¾ganje
+rakolovka|1
+(sam.)|past za rake
 rakotvoren|1
 (prid.)|kancerogen|karcinogen
 rakotvornost|1
@@ -29610,6 +30389,8 @@ razdreti|1
 (gl.)|demontirati|razstaviti
 razdrobiti|1
 (gl.)|razmrviti
+razdru¾itev zakona|1
+(sam.)|loèitev|loèitev od mize in postelje (strokovno)|razporoka (starinsko)|razveza (pogovorno)|razveza zakona (pogovorno)|razveza zakonske zveze (strokovno)
 razdvojen|1
 (prid.)|dvojni¹ki|razklan
 razèehati|1
@@ -29898,6 +30679,8 @@ razminiranje|1
 (sam.)|deminiranje
 razminirati|1
 (gl.)|deminirati
+razmislek|1
+(sam.)|pomislek|premislek|refleksija
 razmisliti|1
 (gl.)|pregruntati (neknji¾no)|premisliti
 razmno¾ek|1
@@ -30037,6 +30820,8 @@ razporejenost|1
 (sam.)|alociranost
 razporek|1
 (sam.)|razpora
+razporoka|1
+(sam.)|loèitev|loèitev od mize in postelje (strokovno)|razdru¾itev zakona|razporoka (starinsko)|razveza (pogovorno)|razveza zakona (pogovorno)|razveza zakonske zveze (strokovno)
 razposajen|2
 (prid.)|bur¹ikozen|pre¹eren
 (prid.)|nebrzdan|neugnan
@@ -30064,7 +30849,7 @@ razpraviti|1
 razpravljanje|1
 (sam.)|debata|diskurz|diskusija|pogovor|razgovor|razprava
 razpravljati|1
-(gl.)|debatirati|konferirati
+(gl.)|debatirati|diskutirati|konferirati
 razpredelek|1
 (sam.)|razdelek|rubrika
 razpredelnica|1
@@ -30199,9 +30984,9 @@ razumljivost|1
 razumni¹ki|1
 (prid.)|intelektualen
 razumnica|1
-(sam.)|intelektualka
+(sam.)|intelektualec|intelektualka|razumnik
 razumnik|1
-(sam.)|intelektualec
+(sam.)|intelektualec|intelektualka|razumnica
 razumski|2
 (prid.)|cerebralen|intelektualen|intelektualistièen|umski
 (prid.)|racionalen
@@ -30242,6 +31027,12 @@ razveljaviti|2
 (gl.)|derogirati
 razveseliti|1
 (gl.)|obradostiti (zastarelo)|obradovati (zastarelo)|osreèiti|oveseliti (starinsko)|razradostiti (zastarelo)|vzradostiti|vzradovati|zveseliti|razjeziti (protipomenka)
+razveza|1
+(sam.)|loèitev|loèitev od mize in postelje (strokovno)|razdru¾itev zakona|razporoka (starinsko)|razveza (pogovorno)|razveza zakona (pogovorno)|razveza zakonske zveze (strokovno)
+razveza zakona|1
+(sam.)|loèitev|loèitev od mize in postelje (strokovno)|razdru¾itev zakona|razporoka (starinsko)|razveza (pogovorno)|razveza zakona (pogovorno)|razveza zakonske zveze (strokovno)
+razveza zakonske zveze|1
+(sam.)|loèitev|loèitev od mize in postelje (strokovno)|razdru¾itev zakona|razporoka (starinsko)|razveza (pogovorno)|razveza zakona (pogovorno)|razveza zakonske zveze (strokovno)
 razvezanec|1
 (sam.)|loèenec
 razvezanka|1
@@ -30382,6 +31173,8 @@ realiteta|1
 (sam.)|nepremiènina
 realiteten|1
 (prid.)|imobiliaren|nepremièninski
+realni svet|1
+(sam.)|fizièni svet|oprijemljivi svet (ekspresivno)|predmetni svet|realni svet (ekspresivno)|resnièni svet (ekspresivno)|stvarni svet|zaresni svet (ekspresivno)
 realnost|1
 (sam.)|dejanskost|istinitost (zastarelo)|preprièljivost|resniènost|stvarnost|vernost|zaresnost
 reanimacija|1
@@ -30534,8 +31327,9 @@ refleks|2
 (sam.)|odsev
 refleksen|1
 (prid.)|reflektoren|reflektorièen
-refleksija|2
+refleksija|3
 (sam.)|odboj
+(sam.)|pomislek|premislek|razmislek
 (sam.)|premi¹ljanje|premi¹ljevanje|razglabljanje|razmi¹ljanje|rezoniranje
 refleksijski|1
 (prid.)|odbojen
@@ -30818,6 +31612,8 @@ resnièen|3
 (prid.)|aktualen|dejanski|dejanstven|efektiven|faktièen|istinit (zastarelo)|realen|stvaren
 (prid.)|iskren|nenarejen|nepotvorjen
 (prid.)|pravcat|pravi
+resnièni svet|1
+(sam.)|fizièni svet|oprijemljivi svet (ekspresivno)|predmetni svet|realni svet (ekspresivno)|resnièni svet (ekspresivno)|stvarni svet|zaresni svet (ekspresivno)
 resniènost|1
 (sam.)|dejanskost|istinitost (zastarelo)|preprièljivost|realnost|stvarnost|vernost|zaresnost
 resno|1
@@ -31174,6 +31970,8 @@ rodosloven|1
 (prid.)|genealo¹ki
 rodoslovje|1
 (sam.)|genealogija
+rodoslovno deblo|1
+(sam.)|genealo¹ko deblo
 rodovina|2
 (sam.)|familija|rodbina|rodovina (starinsko)
 (sam.)|gens|rod|rodovina (starinsko)
@@ -31189,6 +31987,8 @@ roènost|1
 (sam.)|pripravnost|roènost (starinsko)|spretnost
 rogaè|1
 (sam.)|¹ent|¹ment|hudiè|hudiman|hudimar|hudir|hudnik|parkelj|peklen¹èek|satan|sku¹njavec|vrag|vragec|vranè|zlobec|zlodej
+roganje|1
+(sam.)|norèevanje|porog|posmehovanje|zasmehovanje|zbadanje
 rogljièar|1
 (sam.)|kifeljèar
 rogovaènik|1
@@ -31205,6 +32005,10 @@ rokada|1
 (sam.)|ro¹ada
 rokav|1
 (sam.)|zatok
+rokodelnica|1
+(sam.)|delavnica|obratovalnica|obrtni¹ka delavnica|rokodelnica (zastarelo)|rokodelska delavnica (zastarelo)|barvarija (podpomenka)|barvarna (podpomenka)|barvarnica (podpomenka)|barvarska delavnica (podpomenka)|kroja¹ka delavnica (podpomenka)|kroja¹tvo (podpomenka)|krojaènica (podpomenka)|kolarna (podpomenka)|kolarnica (podpomenka)|kolarska delavnica (podpomenka)|knjigove¹ka delavnica (podpomenka)|knjigoveznica (podpomenka)|strojarna (podpomenka)|strojarska delavnica (podpomenka)|zlatarna (podpomenka)|zlatarnica (starinsko) (podpomenka)|zlatarska delavnica (podpomenka)|strugalnica (podpomenka)|strugarna (podpomenka)|strugarnica (zastarelo) (podpomenka)|strugarska delavnica (podpomenka)|kulisarna (podpomenka)|kulisna delavnica (podpomenka)|urarna (podpomenka)|urarska delavnica (podpomenka)|urarstvo (podpomenka)
+rokodelska delavnica|1
+(sam.)|delavnica|obratovalnica|obrtni¹ka delavnica|rokodelnica (zastarelo)|rokodelska delavnica (zastarelo)|barvarija (podpomenka)|barvarna (podpomenka)|barvarnica (podpomenka)|barvarska delavnica (podpomenka)|kroja¹ka delavnica (podpomenka)|kroja¹tvo (podpomenka)|krojaènica (podpomenka)|kolarna (podpomenka)|kolarnica (podpomenka)|kolarska delavnica (podpomenka)|knjigove¹ka delavnica (podpomenka)|knjigoveznica (podpomenka)|strojarna (podpomenka)|strojarska delavnica (podpomenka)|zlatarna (podpomenka)|zlatarnica (starinsko) (podpomenka)|zlatarska delavnica (podpomenka)|strugalnica (podpomenka)|strugarna (podpomenka)|strugarnica (zastarelo) (podpomenka)|strugarska delavnica (podpomenka)|kulisarna (podpomenka)|kulisna delavnica (podpomenka)|urarna (podpomenka)|urarska delavnica (podpomenka)|urarstvo (podpomenka)
 rokohitrc|1
 (sam.)|eskamoter|hitroprstnik
 rokopis|1
@@ -31239,6 +32043,8 @@ romun¹èina|1
 (sam.)|romunski jezik
 romunski jezik|1
 (sam.)|romun¹èina
+roncin|1
+(sam.)|jahalni konj|jahanec|je¾ni konj|jezdni konj
 ropar|1
 (sam.)|ravbar (nizko)|razbojnik
 roparski|1
@@ -31412,12 +32218,18 @@ samoglasni¹ki stik|1
 (sam.)|asonanca
 samoglasnik|1
 (sam.)|vokal
+samoglav|1
+(prid.)|samoglav (starinsko)|samosvoj (ekspresivno)|svojeglav|svojeglaven (starinsko)|trdoglav (ekspresivno)|trdokoren (ekspresivno)|trmast
 samoglavost|1
 (sam.)|svojeglavost|trdoglavost|trmoglavost
 samogovor|1
 (sam.)|monolog
 samogovorni|1
 (prid.)|monolo¹ki
+samohodka|1
+(sam.)|samohodka (¾argon)|samohodni top|samovozni top
+samohodni top|1
+(sam.)|samohodka (¾argon)|samovozni top
 samohoten|2
 (prid.)|arbitraren|samolasten (zastarelo)|samovoljen|svojevoljen
 (prid.)|spontan
@@ -31504,6 +32316,8 @@ samostojnost|1
 (sam.)|neodvisnost|samostalnost (zastarelo)|svojost
 samostrel|1
 (sam.)|lokostrel
+samosvoj|1
+(prid.)|samoglav (starinsko)|samosvoj (ekspresivno)|svojeglav|svojeglaven (starinsko)|trdoglav (ekspresivno)|trdokoren (ekspresivno)|trmast
 samota|2
 (sam.)|osama|osamljenost
 (sam.)|pustota|samija
@@ -31536,6 +32350,8 @@ samovoljen|2
 (prid.)|avtokratski|avtoritaren|oblasten|prepotenten (ekspresivno)|samopa¹en
 samovoljno|1
 (prisl.)|avtokratièno|avtokratsko|avtoritarno|oblastno|samopa¹no
+samovozni top|1
+(sam.)|samohodka (¾argon)|samohodni top
 samozadovoljevanje|1
 (sam.)|masturbacija
 samozastrupljenje|1
@@ -31558,6 +32374,8 @@ sanjavec|1
 (sam.)|fantast|sanjaè|utopist
 sanje|1
 (sam.)|sen
+sanjski svet|1
+(sam.)|domi¹ljijski svet|dozdevni svet|fantastièni svet|fantazijski svet|fiktivni svet|imaginacijski svet|imaginarni svet|iracionalni svet|irealni svet|izmi¹ljeni svet|nerealni svet|neresnièni svet|nestvarni svet|prividni svet (ekspresivno)|sanjski svet (ekspresivno)
 sankcija|1
 (sam.)|aprobacija|odobritev|potrditev|potrjenje
 sanskilot|1
@@ -31592,6 +32410,8 @@ saturirati|1
 (gl.)|zasititi
 sc|1
 (sam.)|skandij|element (nadpomenka)|kemièna prvina (nadpomenka)|kemièni element (nadpomenka)
+scalnik|1
+(sam.)|pisoar|scalnik (zastarelo)
 scapan|1
 (prid.)|candrav (slab¹alno)|capast|razcapan|raztrgan
 scena|2
@@ -31668,6 +32488,8 @@ seènina|1
 (sam.)|karbamid
 sef|1
 (sam.)|safe
+segati v besedo|1
+(gl.)|padati v besedo (ekspresivno)|prekinjati|segati v besedo (ekspresivno)|skakati v besedo (ekspresivno)|vpadati v besedo (ekspresivno)
 segment|1
 (sam.)|del|odsek
 segmentirati|1
@@ -31681,7 +32503,9 @@ sejem|1
 sekanta|1
 (sam.)|seènica
 seksati|1
-(gl.)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|pariti se (nizko)|porivati (nizko)|seksati (pogovorno)|spolno obèevati
+(gl.)|dati se dol (nizko)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|ljubiti se|pariti se (nizko)|porivati (nizko)|povaljati se|seksati (pogovorno)|spolno obèevati
+seksi|1
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 sekstant|1
 (sam.)|¹esternik
 seksualen|1
@@ -31770,6 +32594,8 @@ senzibilnost|1
 (sam.)|obèutljivost
 senzor|1
 (sam.)|tipalo
+senzualna ljubezen|1
+(sam.)|èutna ljubezen|fizièna ljubezen|mesena ljubezen (ekspresivno)|poltena ljubezen (slab¹alno)|spolna ljubezen|telesna ljubezen
 senzualnost|1
 (sam.)|èutnost|mesenost|poèutnost (starinsko)|poltnost|sladnost (zastarelo)
 separat|1
@@ -31797,6 +32623,11 @@ servilnost|1
 (sam.)|hlapèevstvo|kleèeplaznost
 serviren|1
 (prid.)|ponuden
+servis|2
+(sam.)|servisna delavnica|avtomehanièni servis (podpomenka)|avtomobilski servis (podpomenka)|avtopopravljalnica (podpomenka)|avtoservis (podpomenka)
+(sam.)|zaèetni udarec
+servisna delavnica|1
+(sam.)|servis|avtomehanièni servis (podpomenka)|avtomobilski servis (podpomenka)|avtopopravljalnica (podpomenka)|avtoservis (podpomenka)
 sesalec|1
 (sam.)|sesalnik
 sesalnik|1
@@ -31979,6 +32810,8 @@ simetrijska os|1
 (sam.)|simetrala|somernica
 simpatizer|1
 (sam.)|paladin|pobornik|pripadnik|prista¹|prista¹inja|privr¾enec|privr¾enka|somi¹ljenec|somi¹ljenica|somi¹ljenik|zagovornik
+simpleks|1
+(sam.)|nezlo¾ena beseda
 simptom|2
 (sam.)|bolezenski znak|bolezensko znamenje
 (sam.)|znak|znamenje
@@ -32108,6 +32941,12 @@ skadenca|1
 (sam.)|zapadlost
 skaditi|1
 (gl.)|pokaditi
+skakati èez ojnice|1
+(gl.)|biti nezvest|skakati èez plot
+skakati èez plot|1
+(gl.)|biti nezvest|skakati èez ojnice
+skakati v besedo|1
+(gl.)|padati v besedo (ekspresivno)|prekinjati|segati v besedo (ekspresivno)|skakati v besedo (ekspresivno)|vpadati v besedo (ekspresivno)
 skala|1
 (sam.)|lestvica
 skaliti|1
@@ -32149,6 +32988,8 @@ skeptik|1
 (sam.)|dvomilec|dvomljivec
 skibucka|1
 (sam.)|sne¾ka
+skibus|1
+(sam.)|smuèarski avtobus
 skica|1
 (sam.)|osnutek
 skif|1
@@ -32237,6 +33078,8 @@ skoèljiv|1
 (prid.)|hoten|hotljiv|pohoten
 skoèljivo|1
 (prisl.)|hotljivo|hotno|pohotno
+skok|1
+(sam.)|padec|skok (ekspresivno)
 skomig|1
 (sam.)|skomizg
 skomigati|1
@@ -32581,8 +33424,12 @@ slièen|1
 (prid.)|afiniteten|podoben|slièen (zastarelo)|soroden
 slika|1
 (sam.)|fotka (pogovorno)|fotografija|kontrofe (zastarelo)
+slikar|1
+(sam.)|malar (slab¹alno)|malarka (slab¹alno)|slikarka
 slikar pejsa¾ev|1
 (sam.)|krajinar|pejsa¾ist
+slikarka|1
+(sam.)|malar (slab¹alno)|malarka (slab¹alno)|slikar
 slikovit|2
 (prid.)|jeder|klen|nazoren|soèen
 (prid.)|pitoresken
@@ -32655,6 +33502,8 @@ slovnièar|1
 (sam.)|gramatik
 slovnièen|1
 (prid.)|gramatièen|gramatikalen
+slovo|1
+(sam.)|beseda|besedica (ekspresivno)|izraz|pojem|slovo (zastarelo)|termin|determinanta (podpomenka)|doloèilna beseda (podpomenka)|doloèilnica (podpomenka)|enomiselna beseda (starinsko) (podpomenka)|enopomenka (podpomenka)|enopomenska beseda (podpomenka)|enosmiselna beseda (podpomenka)|enoznaèna beseda (zastarelo) (podpomenka)|hipokoristikon (podpomenka)|ljubkovalna beseda (podpomenka)|ljubkovalnica (podpomenka)|atonièna beseda (podpomenka)|atonon (podpomenka)|breznaglasna beseda (podpomenka)|breznaglasnica (podpomenka)|nezlo¾ena beseda (podpomenka)|simpleks (podpomenka)|porogljiva beseda (podpomenka)|porogljivka (ekspresivno) (podpomenka)|mnogopomenska beseda (podpomenka)|mnogoznaèna beseda (podpomenka)|polivalentna beseda (podpomenka)|veèpomenka (podpomenka)|veèpomenska beseda (podpomenka)|¾aljiva beseda (podpomenka)|¾aljivka (podpomenka)|invektiva (podpomenka)|motivirana beseda (podpomenka)|tvorjena beseda (podpomenka)|tvorjenka (podpomenka)
 slovstvenokritièen|1
 (prid.)|literarnokritièen
 slovstvo|1
@@ -32690,7 +33539,7 @@ sluèajnosten|1
 sluga|1
 (sam.)|slu¾abnik|slu¾itelj (zastarelo)
 slut|2
-(sam.)|èut|slut (starinsko)
+(sam.)|èut|instinkt|posluh|slut (starinsko)
 (sam.)|predèutje (zastarelo)|slut (starinsko)|slutnja
 slutnja|1
 (sam.)|predèutje (zastarelo)|slut (starinsko)
@@ -32764,6 +33613,8 @@ smradna ¾leza|1
 (sam.)|smradnica
 smradnica|1
 (sam.)|smradna ¾leza
+smrdeti|1
+(gl.)|zaudarjati
 smrt|1
 (sam.)|eksitus|smrtni izid
 smrten|1
@@ -32778,6 +33629,8 @@ smrtonosen|1
 (prid.)|letalen|smrten
 smuè|1
 (sam.)|smoj
+smuèarski avtobus|1
+(sam.)|skibus
 smuèen|1
 (prid.)|smièen
 sn|1
@@ -32859,6 +33712,10 @@ snubec|1
 (sam.)|snubaè|snubilec
 snubilec|1
 (sam.)|snubaè|snubec
+snubiti|1
+(gl.)|nagovarjati|napeljevati|navajati|pozivati|prigovarjati
+snubljenje|1
+(sam.)|dvorjenje|nagovarjanje|osvajanje|pihanje na du¹o
 so¾itelj|1
 (sam.)|simbiont
 so¾itje|1
@@ -32874,13 +33731,17 @@ sobojevnica|1
 sobojevnik|1
 (sam.)|komiliton|soborec|tovari¹
 sobopleskar|1
-(sam.)|soboslikar
+(sam.)|pleskar|pleskarka|sobopleskarka|soboslikar|soboslikarka
+sobopleskarka|1
+(sam.)|pleskar|pleskarka|sobopleskar|soboslikar|soboslikarka
 soborec|1
 (sam.)|komiliton|sobojevnik|tovari¹
 soborka|1
 (sam.)|sobojevnica
 soboslikar|1
-(sam.)|sobopleskar
+(sam.)|pleskar|pleskarka|sobopleskar|sobopleskarka|soboslikarka
+soboslikarka|1
+(sam.)|pleskar|pleskarka|sobopleskar|sobopleskarka|soboslikar
 sobota|1
 (sam.)|¹abat|¹abes|sabat
 sobrat|1
@@ -33025,8 +33886,12 @@ sonèev sestav|1
 (sam.)|osonèje|Sonèev sistem
 sonèev sistem|1
 (sam.)|osonèje|Sonèev sestav
+sonèna ro¾a|1
+(sam.)|sonèna ro¾a (starinsko)|sonènica
 sonèni obrat|1
 (sam.)|solsticij
+sonènica|1
+(sam.)|sonèna ro¾a (starinsko)
 sonènik|1
 (sam.)|parazol (zastarelo)
 sonihanje|1
@@ -33065,6 +33930,10 @@ sor¾en|1
 (prid.)|sor¾ièen
 sor¾ièen|1
 (prid.)|sor¾en
+sor¾ièni kruh|1
+(sam.)|sor¾ni kruh
+sor¾ni kruh|1
+(sam.)|sor¾ièni kruh
 sora|1
 (sam.)|svora
 sorazmeren|1
@@ -33121,8 +33990,13 @@ spaèen|1
 (prid.)|monstruozen|po¹asten
 spajanje|1
 (sam.)|kontaminacija|zdru¾evanje
-spaka|1
-(sam.)|monstrum|nakazen (starinsko)|nestvor|po¹ast
+spak|1
+(sam.)|monstrum|nakazen (starinsko)|nestvor|po¹ast|spaka
+spaka|2
+(sam.)|grimasa (ekspresivno)|mrda (ekspresivno)|zmrda (ekspresivno)|zmrdek (ekspresivno)
+(sam.)|monstrum|nakazen (starinsko)|nestvor|po¹ast|spak
+spakovati se|1
+(gl.)|delati grimase (ekspresivno)|paèiti se
 spanec|1
 (sam.)|sen|spanje
 spanje|1
@@ -33247,6 +34121,10 @@ spodjeden|1
 (prid.)|erodiran|razjeden
 spodlesti|1
 (gl.)|izpodlesti
+spodnje hlaèe|1
+(sam.)|gate (neknji¾no)|spodnjice|svitice (starinsko)
+spodnjice|1
+(sam.)|gate (neknji¾no)|spodnje hlaèe|svitice (starinsko)
 spodoben|1
 (prid.)|korekten|obziren
 spodobiti se|1
@@ -33296,15 +34174,17 @@ spolna ¾leza|1
 (sam.)|gonada
 spolna celica|1
 (sam.)|gameta
+spolna ljubezen|1
+(sam.)|èutna ljubezen|fizièna ljubezen|mesena ljubezen (ekspresivno)|poltena ljubezen (slab¹alno)|senzualna ljubezen|telesna ljubezen
 spolni organ|1
-(sam.)|spolovilo|sram (starinsko)|maternica (podpomenka)|uterus (strokovno) (podpomenka)|no¾nica (podpomenka)|vagina (strokovno) (podpomenka)|penis (podpomenka)|jajènik (podpomenka)|ovarij (strokovno) (podpomenka)|mo¹nja (pogovorno) (podpomenka)|modnik (podpomenka)|skrotum (strokovno) (podpomenka)|del telesa (nadpomenka)|organ (nadpomenka)
+(sam.)|spolovilo|sram (starinsko)|maternica (podpomenka)|uterus (strokovno) (podpomenka)|no¾nica (podpomenka)|vagina (strokovno) (podpomenka)|penis (podpomenka)|tiè (pogovorno) (podpomenka)|jajènik (podpomenka)|ovarij (strokovno) (podpomenka)|mo¹nja (pogovorno) (podpomenka)|modnik (podpomenka)|skrotum (strokovno) (podpomenka)|del telesa (nadpomenka)|organ (nadpomenka)
 spolno dra¾ilo|1
 (sam.)|afrodiziak
 spolno obèevati|1
-(gl.)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|pariti se (nizko)|porivati (nizko)|seksati (pogovorno)
+(gl.)|dati se dol (nizko)|fukati (nizko)|jebati (nizko)|kavsati (nizko)|koitirati|ljubiti se|pariti se (nizko)|porivati (nizko)|povaljati se|seksati (pogovorno)
 spolovilo|2
 (sam.)|plodilo
-(sam.)|spolni organ|sram (starinsko)|maternica (podpomenka)|uterus (strokovno) (podpomenka)|no¾nica (podpomenka)|vagina (strokovno) (podpomenka)|penis (podpomenka)|jajènik (podpomenka)|ovarij (strokovno) (podpomenka)|mo¹nja (pogovorno) (podpomenka)|modnik (podpomenka)|skrotum (strokovno) (podpomenka)|del telesa (nadpomenka)|organ (nadpomenka)
+(sam.)|spolni organ|sram (starinsko)|maternica (podpomenka)|uterus (strokovno) (podpomenka)|no¾nica (podpomenka)|vagina (strokovno) (podpomenka)|penis (podpomenka)|tiè (pogovorno) (podpomenka)|jajènik (podpomenka)|ovarij (strokovno) (podpomenka)|mo¹nja (pogovorno) (podpomenka)|modnik (podpomenka)|skrotum (strokovno) (podpomenka)|del telesa (nadpomenka)|organ (nadpomenka)
 spolzek|2
 (prid.)|drèav|drèljiv|drsen|gladek|opolzek|opolzel (starinsko)|polzek
 (prid.)|frivolen|kosmat (ekspresivno)|lasciven|nespodoben|obscen|opolzek|opolzel (starinsko)|polzek|spotakljiv (ekspresivno)|svinjski (slab¹alno)|zaèinjen (ekspresivno)
@@ -33465,6 +34345,8 @@ sprenevedanje|1
 (sam.)|prenevedanje
 spreobrnjenje|1
 (sam.)|konverzija|prestop
+spreplet|1
+(sam.)|preplet|prepletek
 spreten|1
 (prid.)|ekspeditiven|hiter
 spretno|1
@@ -33490,7 +34372,7 @@ sprhnina|1
 sprièevalo|1
 (sam.)|certifikat|potrdilo
 sprièo|1
-(predl.)|oèigled (zastarelo)|voèigled (zastarelo)|zaradi
+(predl.)|oèigled (zastarelo)|po zaslugi|voèigled (zastarelo)|zaradi
 sprijemanje|1
 (sam.)|aglutinacija|zlepljanje
 sprijemljivost|1
@@ -33539,10 +34421,13 @@ sr.|1
 (sam.)|senior|st.|starej¹i|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 sr¾|1
 (sam.)|bistvo|jedro|kajstvo|kvintesenca|srèika|substanca|sukus
-sram|1
-(sam.)|spolni organ|spolovilo|sram (starinsko)|maternica (podpomenka)|uterus (strokovno) (podpomenka)|no¾nica (podpomenka)|vagina (strokovno) (podpomenka)|penis (podpomenka)|jajènik (podpomenka)|ovarij (strokovno) (podpomenka)|mo¹nja (pogovorno) (podpomenka)|modnik (podpomenka)|skrotum (strokovno) (podpomenka)|del telesa (nadpomenka)|organ (nadpomenka)
+sram|2
+(sam.)|spolni organ|spolovilo|sram (starinsko)|maternica (podpomenka)|uterus (strokovno) (podpomenka)|no¾nica (podpomenka)|vagina (strokovno) (podpomenka)|penis (podpomenka)|tiè (pogovorno) (podpomenka)|jajènik (podpomenka)|ovarij (strokovno) (podpomenka)|mo¹nja (pogovorno) (podpomenka)|modnik (podpomenka)|skrotum (strokovno) (podpomenka)|del telesa (nadpomenka)|organ (nadpomenka)
+(sam.)|sramota
 sramni pas|1
 (sam.)|opasnik
+sramota|1
+(sam.)|sram
 sramoten|1
 (prid.)|brezèasten|neèasten
 sramotenje|2
@@ -33620,6 +34505,8 @@ sreèolovec|1
 (sam.)|sreèelovec
 srèika|1
 (sam.)|bistvo|jedro|kajstvo|kvintesenca|sr¾|substanca|sukus
+srèkati|1
+(gl.)|bimèkati (ekspresivno)|bo¾ati|cartati (neknji¾no)|cartljati (neknji¾no)|crkljati|dragovati (zastarelo)|ljubèkati (ekspresivno)|ljubkovati|meèkati (ekspresivno)|militi (zastarelo)|milovati (starinsko)|srèkati (ekspresivno)
 srèni prekat|1
 (sam.)|ventrikel
 srep|1
@@ -33630,6 +34517,8 @@ srhljivka|1
 (sam.)|grozljivka|triler
 srkati|1
 (gl.)|cmrkati|srebati
+srkniti ga|1
+(gl.)|cukniti ga|piti
 st.|1
 (sam.)|senior|sr.|starej¹i|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 stadij|3
@@ -33662,7 +34551,7 @@ stara mati|1
 starej¹i|1
 (sam.)|senior|sr.|st.|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 stari oèe|1
-(sam.)|ded|nono
+(sam.)|ded|dedek|nono
 stari rim|1
 (sam.)|antièni Rim
 starina|1
@@ -33967,8 +34856,11 @@ strog|1
 (prid.)|nepopustljiv|neprizanesljiv|rigorozen|trd (ekspresivno)
 strohneti|1
 (sam.)|sprhneti
-strojarna|1
+strojarna|2
+(sam.)|strojarska delavnica
 (sam.)|strojnica
+strojarska delavnica|1
+(sam.)|strojarna
 strojepis|1
 (sam.)|tipkanje
 strojnica|1
@@ -34006,6 +34898,14 @@ stru¾enka|1
 (sam.)|mezzotinta
 struga|1
 (sam.)|korito
+strugalnica|1
+(sam.)|strugarna|strugarnica (zastarelo)|strugarska delavnica
+strugarna|1
+(sam.)|strugalnica|strugarnica (zastarelo)|strugarska delavnica
+strugarnica|1
+(sam.)|strugalnica|strugarna|strugarnica (zastarelo)|strugarska delavnica
+strugarska delavnica|1
+(sam.)|strugalnica|strugarna|strugarnica (zastarelo)
 strunjak|1
 (sam.)|monokord|strunjak (starinsko)
 strupen|1
@@ -34039,6 +34939,8 @@ stvariteljstvo|1
 (sam.)|kreativnost|obraznost (zastarelo)|stvarilnost|stvariteljnost|stvarjalnost|stvarni¹tvo|tvornost|ustvarjalnost|ustvarjalstvo
 stvarjalnost|1
 (sam.)|kreativnost|obraznost (zastarelo)|stvarilnost|stvariteljnost|stvariteljstvo|stvarni¹tvo|tvornost|ustvarjalnost|ustvarjalstvo
+stvarni svet|1
+(sam.)|fizièni svet|oprijemljivi svet (ekspresivno)|predmetni svet|realni svet (ekspresivno)|resnièni svet (ekspresivno)|zaresni svet (ekspresivno)
 stvarni¹tvo|1
 (sam.)|kreativnost|obraznost (zastarelo)|stvarilnost|stvariteljnost|stvariteljstvo|stvarjalnost|tvornost|ustvarjalnost|ustvarjalstvo
 stvarnica|1
@@ -34060,12 +34962,16 @@ su¹ilnik|1
 su¾njiti|1
 (gl.)|zasu¾njevati
 subjekt|2
-(sam.)|èlovek|individuum|oseba|osebnost|jr. (podpomenka)|junior (podpomenka)|ml. (podpomenka)|mlaj¹i (podpomenka)|senior (podpomenka)|sr. (podpomenka)|st. (podpomenka)|starej¹i (podpomenka)|morilec (podpomenka)|ubijalec (podpomenka)|vinar (zastarelo) (podpomenka)|vinièar (zastarelo) (podpomenka)|vinogradnik (podpomenka)|lovec (podpomenka)|lovica (podpomenka)|lovka (podpomenka)|nimrod (podpomenka)|drug (starinsko) (podpomenka)|frend (nizko) (podpomenka)|kolega (pogovorno) (podpomenka)|prijatelj (podpomenka)|tovari¹ (podpomenka)
+(sam.)|èlovek|individuum|oseba|osebnost|jr. (podpomenka)|junior (podpomenka)|ml. (podpomenka)|mlaj¹i (podpomenka)|senior (podpomenka)|sr. (podpomenka)|st. (podpomenka)|starej¹i (podpomenka)|morilec (podpomenka)|morilka (podpomenka)|ubijalec (podpomenka)|ubijalka (podpomenka)|vinar (zastarelo) (podpomenka)|vinièar (zastarelo) (podpomenka)|vinogradnik (podpomenka)|lovec (podpomenka)|lovica (podpomenka)|lovka (podpomenka)|nimrod (podpomenka)|drug (starinsko) (podpomenka)|frend (nizko) (podpomenka)|frendica (nizko) (podpomenka)|kolega (pogovorno) (podpomenka)|kolegica (pogovorno) (podpomenka)|prijatelj (podpomenka)|prijateljica (podpomenka)|tovari¹ (podpomenka)|tovari¹ica (podpomenka)
 (sam.)|osebek
 subkutan|1
 (prid.)|podko¾en
 sublimen|1
 (prid.)|plemenit|velièasten|vzvi¹en
+submisiven|1
+(prid.)|podrejen
+submisivnost|1
+(sam.)|podrejenost
 subsidiaren|1
 (prid.)|nadomesten|pomo¾en
 subskribent|1
@@ -34114,7 +35020,9 @@ sufiks|1
 sufiksalen|1
 (prid.)|priponski
 sufler|1
-(sam.)|¹epetalec
+(sam.)|¹epetalec|¹epetalka|suflerka
+suflerka|1
+(sam.)|¹epetalec|¹epetalka|sufler
 suflerski|1
 (prid.)|¹epetalski
 suflirati|2
@@ -34125,6 +35033,8 @@ sugerirati|1
 suh|2
 (prid.)|ariden|su¹en
 (prid.)|mr¹av|tanek (ekspresivno)|vitek
+suha hrana|1
+(sam.)|bra¹nja (starinsko)|bra¹no (starinsko)|odhodnica|odhodnja (starinsko)|popotnica|popotnja (starinsko)|proviant
 suhljad|1
 (sam.)|draèje
 suhoparen|1
@@ -34257,14 +35167,19 @@ sveèan|2
 (sam.)|februar|sveèan (zastarelo)
 sveèeni¹ki|1
 (prid.)|hieratièen|obreden
+sveèenik|1
+(sam.)|bo¾ji namestnik|cerkvenec (starinsko)|cerkvenjak (starinsko)|du¹ni pastir (starinsko)|duhoven (starinsko)|duhovnik|èastiti|klerik|ma¹nik (starinsko)|preèastiti|sveèenik (zastarelo)
 sveèka|1
 (sam.)|supozitorij
 svesten|1
 (prid.)|osve¹èen|svesten (zastarelo)|zaveden
-svet|3
+svet|4
 (prid.)|hagiolo¹ki|nabo¾en|svetosten
 (prid.)|nedotakljiv|sakrosankten
 (sam.)|plast|sfera
+(sam.)|teren|zemlja (ekspresivno)|zemlji¹èe
+sveta popotnica|1
+(sam.)|popotnica|zadnja popotnica
 svetek|1
 (sam.)|praznik|svetek (zastarelo)|jo¾efovo (podpomenka)
 svetilka|1
@@ -34368,7 +35283,7 @@ svilorejec|1
 svilotisk|1
 (sam.)|serigrafija|sitotisk
 svinèen|1
-(prid.)|duhamoren|duhomoren|moreè|muèen|svinèen (ekspresivno)|te¾ek
+(prid.)|duhamoren|duhomoren|moreè|muèen|mukotrpen|svinèen (ekspresivno)|te¾ek
 svinina|1
 (sam.)|pra¹ièevina|svinjina|svinjsko meso
 svinja|2
@@ -34397,6 +35312,8 @@ svit|2
 (sam.)|zor|zora
 svitati se|1
 (gl.)|daniti se
+svitice|1
+(sam.)|gate (neknji¾no)|spodnje hlaèe|spodnjice|svitice (starinsko)
 svoboden|1
 (prid.)|elevterièen|neoddan|neoviran|nezaseden|prost
 svobodnja¹tvo|1
@@ -34426,7 +35343,9 @@ svojat|1
 svojèas|1
 (prisl.)|nekdaj|nekoè|vèasih
 svojeglav|1
-(prid.)|trdoglav|trmast
+(prid.)|samoglav (starinsko)|samosvoj (ekspresivno)|svojeglaven (starinsko)|trdoglav (ekspresivno)|trdokoren (ekspresivno)|trmast
+svojeglaven|1
+(prid.)|samoglav (starinsko)|samosvoj (ekspresivno)|svojeglav|svojeglaven (starinsko)|trdoglav (ekspresivno)|trdokoren (ekspresivno)|trmast
 svojeglavost|1
 (sam.)|samoglavost|trdoglavost|trmoglavost
 svojevoljen|1
@@ -34653,7 +35572,7 @@ te¾avnost|1
 te¾ec|1
 (sam.)|barijev sulfat|barit
 te¾ek|2
-(prid.)|duhamoren|duhomoren|moreè|muèen|svinèen (ekspresivno)
+(prid.)|duhamoren|duhomoren|moreè|muèen|mukotrpen|svinèen (ekspresivno)
 (prid.)|mastit (starinsko)|o¹aben|te¾ak
 te¾enje|1
 (sam.)|inklinacija|nagnjenje
@@ -34750,6 +35669,8 @@ telesen|1
 (prid.)|fizièen
 telesna kultura|1
 (sam.)|fizkultura (pogovorno)
+telesna ljubezen|1
+(sam.)|èutna ljubezen|fizièna ljubezen|mesena ljubezen (ekspresivno)|poltena ljubezen (slab¹alno)|senzualna ljubezen|spolna ljubezen
 telesna vzgoja|1
 (sam.)|fizkultura (pogovorno)|telovadba (pogovorno)
 telesnost|1
@@ -34767,7 +35688,9 @@ telica|1
 telovadba|1
 (sam.)|fizkultura (pogovorno)|telesna vzgoja|telovadba (pogovorno)
 telovadec|1
-(sam.)|¹portnik|fizkulturnik
+(sam.)|¹portnica|¹portnik|fizkulturnica|fizkulturnik|telovadka
+telovadka|1
+(sam.)|¹portnica|¹portnik|fizkulturnica|fizkulturnik|telovadec
 telovnik|1
 (sam.)|lajbiè (neknji¾no)|oprsnik
 telur|1
@@ -34778,7 +35701,7 @@ teme|1
 (sam.)|temeni¹èe|vrh
 temelj|2
 (sam.)|fundament
-(sam.)|izhodi¹èe|iztoènica|odskoènica|opori¹èe|osnova
+(sam.)|izhodi¹èe|izhodi¹èna toèka|iztoènica|odskoènica|opori¹èe|osnova
 temeljen|2
 (prid.)|bazalen|elementaren|fundamentalen|osnoven
 (prid.)|grundiren
@@ -34803,6 +35726,8 @@ temporalen|1
 (prid.)|èasoven
 temporaren|1
 (prid.)|interimen|prehoden|provizorièen|tranzienten|tranzitoren|zaèasen|zasilen
+tenar|1
+(sam.)|palèna dlanska kepa|tenar (strokovno)|veliki pe¹èaj
 tenor|1
 (sam.)|dispozitiv|izrek
 tenzija|1
@@ -34831,12 +35756,16 @@ terasasto|1
 (prisl.)|stopnièasto|stopnjema
 terciana|1
 (sam.)|terciana
+teren|1
+(sam.)|svet|zemlja (ekspresivno)|zemlji¹èe
 terilnik|1
 (sam.)|mo¾nar
 teritorij|1
 (sam.)|ozemlje
 termièen|1
 (prid.)|toploten
+termin|1
+(sam.)|beseda|besedica (ekspresivno)|izraz|pojem|slovo (zastarelo)|determinanta (podpomenka)|doloèilna beseda (podpomenka)|doloèilnica (podpomenka)|enomiselna beseda (starinsko) (podpomenka)|enopomenka (podpomenka)|enopomenska beseda (podpomenka)|enosmiselna beseda (podpomenka)|enoznaèna beseda (zastarelo) (podpomenka)|hipokoristikon (podpomenka)|ljubkovalna beseda (podpomenka)|ljubkovalnica (podpomenka)|atonièna beseda (podpomenka)|atonon (podpomenka)|breznaglasna beseda (podpomenka)|breznaglasnica (podpomenka)|nezlo¾ena beseda (podpomenka)|simpleks (podpomenka)|porogljiva beseda (podpomenka)|porogljivka (ekspresivno) (podpomenka)|mnogopomenska beseda (podpomenka)|mnogoznaèna beseda (podpomenka)|polivalentna beseda (podpomenka)|veèpomenka (podpomenka)|veèpomenska beseda (podpomenka)|¾aljiva beseda (podpomenka)|¾aljivka (podpomenka)|invektiva (podpomenka)|motivirana beseda (podpomenka)|tvorjena beseda (podpomenka)|tvorjenka (podpomenka)
 terminolog|1
 (sam.)|izrazoslovec
 terminologija|1
@@ -34894,6 +35823,8 @@ thlaspi praecox|1
 (sam.)|rani mo¹njak|Thlaspi praecox (strokovno)
 ti¹ina|1
 (sam.)|brezglasje|molk|nemota|tihoèa|tihota
+tiè|1
+(sam.)|penis|tiè (pogovorno)|spolni organ (nadpomenka)|spolovilo (nadpomenka)|sram (starinsko) (nadpomenka)
 tiènik|1
 (sam.)|ptiènica|tiènik (zastarelo)
 tifozen|1
@@ -35024,7 +35955,7 @@ to¾ljivec|1
 toast|1
 (sam.)|opeèenec
 toaster|1
-(sam.)|opekaè
+(sam.)|opekaè|pra¾ilec za kruh|pra¾ilnik za kruh
 toèen|1
 (prid.)|akuraten (starinsko)|avtentièen|detajlen|eksakten|minuciozen|nadroben|natanèen|natanek|podroben|potanek|pravilen|precizen|strikten|tanek
 toèilna miza|1
@@ -35078,12 +36009,15 @@ tom|1
 (sam.)|knjiga|zvezek
 toniti|1
 (gl.)|potonevati
-top|1
+top|2
 (prid.)|apatièen|brezèuten|neobèuten|neobèutljiv|trd (ekspresivno)
+(sam.)|topiè (ekspresivno)|trdnjava
 topel|1
 (prid.)|gorek
 topen|1
 (prid.)|raztopen
+topiè|1
+(sam.)|top|topiè (ekspresivno)|trdnjava
 toplina|1
 (sam.)|temperatura|toplina (zastarelo)
 topliti|1
@@ -35101,7 +36035,9 @@ topni¹ki|1
 topni¹tvo|1
 (sam.)|artilerija
 topnièar|1
-(sam.)|artilerec|artilerist|baterijec (¾argon)
+(sam.)|artilerec|artilerist|baterijec (¾argon)|bombardir (starinsko)|kanonir (zastarelo)|topnièarka
+topnièarka|1
+(sam.)|artilerec|artilerist|baterijec (¾argon)|bombardir (starinsko)|kanonir (zastarelo)|topnièar
 topoglav|1
 (prid.)|aboten|av¹ast|bebast (slab¹alno)|bedast|blesav (sleng)|budalast (slab¹alno)|butast|kretenski (slab¹alno)|maloumen|nespameten|neumen|nor (ekspresivno)|omejen|stupiden|topoglav (ekspresivno)|topoumen (ekspresivno)|trapast (pogovorno)
 topoglavost|1
@@ -35130,8 +36066,10 @@ tortura|1
 tostranski|1
 (prid.)|èasen (starinsko)|zemeljski
 tovari¹|2
-(sam.)|drug (starinsko)|frend (nizko)|kolega (pogovorno)|prijatelj|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+(sam.)|drug (starinsko)|frend (nizko)|frendica (nizko)|kolega (pogovorno)|kolegica (pogovorno)|prijatelj|prijateljica|tovari¹ica|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 (sam.)|komiliton|sobojevnik|soborec
+tovari¹ica|1
+(sam.)|drug (starinsko)|frend (nizko)|frendica (nizko)|kolega (pogovorno)|kolegica (pogovorno)|prijatelj|prijateljica|tovari¹|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 tovarna|1
 (sam.)|fabrika (pogovorno)
 tovarni¹ki|1
@@ -35168,6 +36106,8 @@ tramvaj|1
 (sam.)|cestna ¾eleznica|elektrièna cestna ¾eleznica
 tranèa|1
 (sam.)|arest (pogovorno)|jeèa|keha (pogovorno)|luknja (ekspresivno)|tranèa (zastarelo)|voza (zastarelo)|zapor|zatvor (zastarelo)
+transcendentni svet|1
+(sam.)|nadizkustveni svet|prese¾ni svet
 transfer|1
 (sam.)|prestop
 transformacija|1
@@ -35176,6 +36116,8 @@ transkontinentalen|1
 (prid.)|èezcelinski|prekcelinski
 transkribirati|1
 (gl.)|preèrkovati
+translacija|1
+(sam.)|vzporedni premik
 translatologija|1
 (sam.)|prevodoslovje
 transliterirati|1
@@ -35238,14 +36180,20 @@ trdna snov|1
 (sam.)|trdnina
 trdnina|1
 (sam.)|trdna snov
+trdnjava|3
+(sam.)|fort
+(sam.)|fortifikacija|utrdba
+(sam.)|top|topiè (ekspresivno)
 trdnost|1
 (sam.)|èvrstost
 trdoglav|2
 (prid.)|nenadarjen|netalentiran
-(prid.)|svojeglav|trmast
+(prid.)|samoglav (starinsko)|samosvoj (ekspresivno)|svojeglav|svojeglaven (starinsko)|trdoglav (ekspresivno)|trdokoren (ekspresivno)|trmast
 trdoglavost|2
 (sam.)|nenadarjenost
 (sam.)|samoglavost|svojeglavost|trmoglavost
+trdokoren|1
+(prid.)|samoglav (starinsko)|samosvoj (ekspresivno)|svojeglav|svojeglaven (starinsko)|trdoglav (ekspresivno)|trdokoren (ekspresivno)|trmast
 trdosrèen|1
 (prid.)|brezdu¹en|neizprosen|nemilosten|neprizanesljiv|neusmiljen|trdosrèen (ekspresivno)
 trdovraten|1
@@ -35412,7 +36360,7 @@ triumf|1
 trivejni ¾ivec|1
 (sam.)|trigeminus (strokovno)
 trmast|1
-(prid.)|svojeglav|trdoglav
+(prid.)|samoglav (starinsko)|samosvoj (ekspresivno)|svojeglav|svojeglaven (starinsko)|trdoglav (ekspresivno)|trdokoren (ekspresivno)
 trmoglavost|1
 (sam.)|samoglavost|svojeglavost|trdoglavost
 trn|1
@@ -35487,6 +36435,8 @@ tu|1
 (prisl.)|tukaj|tukajle (ekspresivno)
 tu¹|1
 (sam.)|pr¹a (zastarelo)|prha|tu¹ (pogovorno)
+tu¹irati se|1
+(gl.)|iti pod prho|iti pod tu¹ (pogovorno)|prhati se|tu¹irati se (pogovorno)
 tuberkuloza|1
 (sam.)|jetika|su¹ica (zastarelo)
 tudi|1
@@ -35612,8 +36562,12 @@ tvoritev|1
 (sam.)|tvorba|tvorjenje
 tvorivo|1
 (sam.)|gradivo|material|snov
+tvorjena beseda|1
+(sam.)|motivirana beseda|tvorjenka
 tvorjenje|1
 (sam.)|tvorba|tvoritev
+tvorjenka|1
+(sam.)|motivirana beseda|tvorjena beseda
 tvornik|1
 (sam.)|aktiv
 tvorno|1
@@ -35638,7 +36592,9 @@ u¾ivaè|2
 ube¾nik|1
 (sam.)|dezerter
 ubijalec|1
-(sam.)|morilec|glavorez (ekspresivno) (podpomenka)|glavosek (ekspresivno) (podpomenka)|grlorezec (ekspresivno) (podpomenka)|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+(sam.)|morilec|morilka|ubijalka|glavorez (ekspresivno) (podpomenka)|glavosek (ekspresivno) (podpomenka)|grlorezec (ekspresivno) (podpomenka)|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
+ubijalka|1
+(sam.)|morilec|morilka|ubijalec|glavorez (ekspresivno) (podpomenka)|glavosek (ekspresivno) (podpomenka)|grlorezec (ekspresivno) (podpomenka)|èlovek (nadpomenka)|individuum (nadpomenka)|oseba (nadpomenka)|osebnost (nadpomenka)|subjekt (nadpomenka)
 ubijanje|1
 (sam.)|krvolitje (ekspresivno)|krvoprelitje (ekspresivno)|morija (ekspresivno)|morjenje
 ubikvitaren|1
@@ -36017,6 +36973,10 @@ uporabljiv|1
 (prid.)|poraben|raben|rabljiv
 uporabljivost|1
 (sam.)|primernost|rabnost|uporabnost
+uporabnica|1
+(sam.)|koristnica
+uporabnik|1
+(sam.)|potro¹nik
 uporabnost|2
 (sam.)|boniteta|kakovost
 (sam.)|primernost|rabnost|uporabljivost
@@ -36045,7 +37005,7 @@ upreti se|1
 uprhniti|1
 (gl.)|odprhniti|prhniti
 uprizoritev|1
-(sam.)|inscenacija
+(sam.)|inscenacija|odrska izvedba
 upropastiti|1
 (gl.)|ruinirati|ugonobiti|unièiti
 urad|1
@@ -36054,6 +37014,12 @@ uradnica|1
 (sam.)|biro|kanclija (nizko)|pisalnica (zastarelo)|pisarna|pisarnica (zastarelo)|urad|uradnica (zastarelo)
 uradnik|1
 (sam.)|èinovnik (zastarelo)
+urarna|1
+(sam.)|urarska delavnica|urarstvo
+urarska delavnica|1
+(sam.)|urarna|urarstvo
+urarstvo|1
+(sam.)|urarna|urarska delavnica
 uravnalnost|1
 (sam.)|regulativnost|urejevalnost
 uravnati|1
@@ -36231,6 +37197,8 @@ ustanovnik|1
 (sam.)|fundator|ustanovitelj|ustanovnik (starinsko)
 ustava|1
 (sam.)|konstitucija
+ustavljati|1
+(gl.)|prekinjati
 usten|1
 (prid.)|beseden|ustmen|verbalen
 ustmen|1
@@ -36324,6 +37292,8 @@ utopist|1
 (sam.)|fantast|sanjaè|sanjavec
 utopiti se|1
 (gl.)|utoniti
+utrdba|1
+(sam.)|fortifikacija|trdnjava
 utrditev|2
 (sam.)|afirmacija|potrditev|uveljavitev
 (sam.)|konsolidacija|ojaèenje|okrepitev|uèvrstitev
@@ -36376,6 +37346,8 @@ v drugo|1
 (prisl.)|drugiè|v drugo (starinsko)|vdrugo (starinsko)
 v kratkem|1
 (prisl.)|kmalu
+v obraz|1
+(prisl.)|iskreno
 v vsakem primeru|1
 (prisl.)|na vsak naèin|vsekako (zastarelo)|vsekakor
 v¹eè|1
@@ -36517,6 +37489,8 @@ vdolbina|1
 (sam.)|izdolbek|izdolbina
 vdrugo|1
 (prisl.)|drugiè|v drugo (starinsko)|vdrugo (starinsko)
+ve¹èa|1
+(sam.)|coprnica (neknji¾no)|èarodejka|èarodejnica|èarovnica|ve¹èa (starinsko)|zlodejka (zastarelo)
 ve¹èak|1
 (sam.)|mojster|poznavalec|strokovnjak|umetelnik (starinsko)
 vèasih|2
@@ -36575,6 +37549,10 @@ veènaroden|1
 (prid.)|mnogonacionalen|raznonaroden|veènacionalen
 veèplasten|1
 (prid.)|kompleksen|zapleten
+veèpomenka|1
+(sam.)|mnogopomenska beseda|mnogoznaèna beseda|polivalentna beseda|veèpomenska beseda
+veèpomenska beseda|1
+(sam.)|mnogopomenska beseda|mnogoznaèna beseda|polivalentna beseda|veèpomenka
 veèpomenski|1
 (prid.)|mnogopomenski|mnogoznaèen|veèznaèen
 veèpomenskost|1
@@ -36655,7 +37633,9 @@ velepotezen|1
 velesila|1
 (sam.)|supersila
 veleturist|1
-(sam.)|alpinist|hribolazec (starinsko)|planinec|veleturist (zastarelo)
+(sam.)|alpinist|alpinistka|gornica|gornik|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinec|planinka|veleturist (zastarelo)|veleturistka (zastarelo)
+veleturistka|1
+(sam.)|alpinist|alpinistka|gornica|gornik|gorohodec (zastarelo)|gorohodka (zastarelo)|hribolazec (starinsko)|hribolazka (starinsko)|planinec|planinka|veleturist (zastarelo)|veleturistka (zastarelo)
 veleum|1
 (sam.)|genij
 veleumen|1
@@ -36691,6 +37671,10 @@ velikanski|2
 (prid.)|impozanten|kolosalen
 veliki kalin|1
 (sam.)|Pyrrhula pyrrhula
+veliki pe¹èaj|1
+(sam.)|palèna dlanska kepa|tenar (strokovno)
+veliki povodni konj|1
+(sam.)|nilski konj
 veliki srpan|1
 (sam.)|avgust|porcijunkula
 veliki traven|1
@@ -36760,10 +37744,13 @@ verbena|1
 (sam.)|spori¹
 verbum|1
 (sam.)|glagol
-veren|1
+veren|2
 (prid.)|religiozen
+(prid.)|veren (zastarelo)|zvest
 verifikabilen|1
 (prid.)|preverljiv
+verjetno|1
+(prisl.)|lahko|mogoèe|morda|morebiti|najbr¾ (ekspresivno)|nemara (starinsko)|verjetno (ekspresivno)|znabiti (starinsko)
 vernalizacija|1
 (sam.)|jarovizacija
 vernost|2
@@ -36797,6 +37784,8 @@ vertikala|1
 (sam.)|navpiènica
 vertikalen|1
 (prid.)|navpièen
+vertikalni prerez|1
+(sam.)|navpièni prerez
 verva|1
 (sam.)|¾ivahnost|¾ivost|brio|ognjevitost|polet
 verzija|1
@@ -36808,7 +37797,7 @@ vesel|1
 veseliti|1
 (gl.)|osreèevati|radostiti|radovati
 veseljaèiti|1
-(gl.)|bandati (pogovorno)|popivati
+(gl.)|bandati (pogovorno)|piti|popivati
 veselje|1
 (sam.)|radost|sinjina|sreèa|vedrina
 veselnica|1
@@ -36932,12 +37921,16 @@ vi¹nja|1
 (sam.)|èe¹nja
 viba|1
 (sam.)|spirala
+vibracijski valjar|1
+(sam.)|vibrovaljar (¾argon)
+vibrovaljar|1
+(sam.)|vibracijski valjar|vibrovaljar (¾argon)
 viburnum lantana|1
 (sam.)|dobrovita|Viburnum lantana (strokovno)
 viburnum opulus|1
 (sam.)|brogovita|tr¹ljika|Viburnum opulus (strokovno)
 vic|1
-(sam.)|¹ala|¹tos (¾argon)
+(sam.)|¹ala|¹tos (¾argon)|posmeh
 vice|1
 (sam.)|purgatorij
 vid|1
@@ -37047,6 +38040,8 @@ vizija|4
 (sam.)|videnje
 vizionar|1
 (sam.)|jasnovidec
+vizir|1
+(sam.)|naliènik
 vizitka|1
 (sam.)|posetnica
 vizualen|1
@@ -37066,6 +38061,8 @@ vknji¾ba|1
 (sam.)|intabulacija
 vknji¾iti|1
 (gl.)|intabulirati
+vkrcati|1
+(gl.)|natovoriti
 vkri¾|1
 (prisl.)|kri¾em|kri¾ema|kri¾emkra¾em|kri¾kra¾|nakri¾em|navkri¾|navzkri¾|skri¾em|vzkri¾
 vla¾en|1
@@ -37179,7 +38176,7 @@ vodoravnica|1
 vodoslovje|1
 (sam.)|hidrologija
 voèigled|1
-(predl.)|oèigled (zastarelo)|sprièo|voèigled (zastarelo)|zaradi
+(predl.)|oèigled (zastarelo)|po zaslugi|sprièo|voèigled (zastarelo)|zaradi
 vogelnik|1
 (sam.)|ogelnik
 vohati|1
@@ -37196,6 +38193,8 @@ vohunski|1
 (prid.)|¹pijona¾en|¹pijonski
 vohunstvo|1
 (sam.)|¹pijona¾a
+voja¹ka hrana|1
+(sam.)|mena¾a
 voja¹ki|1
 (prid.)|boja¾eljen|bojevit|borben|militanten
 voja¹nica|1
@@ -37234,6 +38233,8 @@ voluta|1
 (sam.)|pol¾
 vonj|1
 (sam.)|duh|vzduh (zastarelo)
+vonjati|1
+(gl.)|di¹ati
 votliè|1
 (sam.)|plovec
 votlina|1
@@ -37257,6 +38258,8 @@ voznina|1
 (sam.)|vozarina
 vpad|1
 (sam.)|invazija
+vpadati v besedo|1
+(gl.)|padati v besedo (ekspresivno)|prekinjati|segati v besedo (ekspresivno)|skakati v besedo (ekspresivno)|vpadati v besedo (ekspresivno)
 vpadnica|1
 (sam.)|izpadnica
 vpeljati|1
@@ -37578,6 +38581,8 @@ vzdigovanje|1
 (sam.)|dviganje|elevacija
 vzdol¾|1
 (prisl.)|navzdol¾|podolgem|podolgoma
+vzdol¾ni prerez|1
+(sam.)|dol¾inski prerez|longitudinalni prerez|podol¾ni prerez
 vzdr¾evati|1
 (gl.)|alimentirati|pre¾ivljati
 vzdr¾ljiv|1
@@ -37674,6 +38679,8 @@ vzporedba|1
 vzporeden|2
 (prid.)|boèen|lateralen|obstranski|stranski
 (prid.)|sporeden
+vzporedni premik|1
+(sam.)|translacija
 vzporednica|2
 (sam.)|paralela
 (sam.)|paralelka
@@ -37714,6 +38721,8 @@ za¹èita|1
 (sam.)|okrilje|varstvo
 za¹èiten|1
 (prid.)|prepreèevalen|preventiven|prezervativen|profilaktièen|varovalen
+za¹èititi se|1
+(gl.)|zavarovati se
 za¹èitnik|1
 (sam.)|mecen|podpiralec|podpornik|sponzor
 za¹inek|1
@@ -37753,6 +38762,8 @@ zabrana|1
 (sam.)|inhibicija|prepoved|prepreèitev|zabrana (zastarelo)
 zabu¹ant|1
 (sam.)|lenuh (slab¹alno)|lenuhar (slab¹alno)|zabu¹ant (nizko)
+zadah|1
+(sam.)|hlap
 zadehteti|1
 (gl.)|zadi¹ati
 zadek|1
@@ -37779,6 +38790,8 @@ zadirljivec|1
 (sam.)|zadirène¾
 zadirljivost|1
 (sam.)|zadirènost
+zadnja popotnica|1
+(sam.)|popotnica|sveta popotnica
 zadnjica|1
 (sam.)|guza (nizko)|rit (nizko)|rita (pogovorno)|ritka (ljubkovalno)|sedalo
 zadnjiè|1
@@ -37854,6 +38867,8 @@ zaèeten|2
 (prid.)|inicialen|prvi
 zaèeti|1
 (gl.)|prièeti|spro¾iti
+zaèetni udarec|1
+(sam.)|servis
 zaèetni¹ki|1
 (prid.)|elementaren|osnoven
 zaèetnica|1
@@ -37896,6 +38911,8 @@ zagoneten|1
 (prid.)|enigmatièen|nedoumljiv|nenavaden|neodgonetljiv|skrivnosten|tajinstven|tajnosten|tajnovit
 zagonetka|1
 (sam.)|enigma|uganka
+zagovarjati|1
+(gl.)|boriti se za|braniti|postaviti se za|zavzeti se za
 zagovor|1
 (sam.)|apologija|obramba
 zagovornik|3
@@ -38045,7 +39062,7 @@ zakup|2
 zakupnina|1
 (sam.)|arenda|zakup
 zal|1
-(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 zalaznik|1
 (sam.)|zalaznik (starinsko)|zalezovalec
 zaledje|1
@@ -38217,7 +39234,7 @@ zapahniti|1
 zapeka|1
 (sam.)|obstipacija|zaprtje
 zapeljiv|1
-(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|zal (zastarelo)|zapeljiv (ekspresivno)
+(prid.)|brhek|èaroben|èeden|fejst (pogovorno)|fleten (pogovorno)|fletkan (pogovorno)|lep|lièen|ljubek|lu¹ten (pogovorno)|postaven|privlaèen|seksi (pogovorno)|zal (zastarelo)|zapeljiv (ekspresivno)
 zapeti|1
 (gl.)|zakaèiti|zatakniti
 zapetljaj|1
@@ -38299,13 +39316,15 @@ zaprtje|1
 zapu¹èina|1
 (sam.)|ostalina|pre¾itek
 zaradi|1
-(predl.)|oèigled (zastarelo)|sprièo|voèigled (zastarelo)
+(predl.)|oèigled (zastarelo)|po zaslugi|sprièo|voèigled (zastarelo)
 zarastek|1
 (sam.)|zarastlina
 zarastlina|1
 (sam.)|zarastek
 zarebrnica|1
 (sam.)|kotlet
+zaresni svet|1
+(sam.)|fizièni svet|oprijemljivi svet (ekspresivno)|predmetni svet|realni svet (ekspresivno)|resnièni svet (ekspresivno)|stvarni svet|zaresni svet (ekspresivno)
 zaresnost|1
 (sam.)|dejanskost|istinitost (zastarelo)|preprièljivost|realnost|resniènost|stvarnost|vernost
 zareza|2
@@ -38372,6 +39391,8 @@ zasluh|1
 (sam.)|zasli¹anje|zasluh (zastarelo)
 zaslutiti|1
 (gl.)|oslutiti
+zasmehovanje|1
+(sam.)|norèevanje|porog|posmehovanje|roganje|zbadanje
 zasmrèati|1
 (gl.)|zadrnjohati (ekspresivno)
 zasnova|1
@@ -38452,6 +39473,8 @@ zau¹nica|1
 (sam.)|klapou¹nica (zastarelo)|klofuta|pljuska (starinsko)
 zau¾iti|1
 (gl.)|pojesti|pou¾iti|snesti|vnesti v telo
+zaudarjati|1
+(gl.)|smrdeti
 zaupen|1
 (prid.)|intimen
 zaupnik|1
@@ -38464,6 +39487,8 @@ zavaljen|1
 (prid.)|debel|mastit (starinsko)|salast (ekspresivno)
 zavarovati|1
 (gl.)|nadkriti|pokriti
+zavarovati se|1
+(gl.)|za¹èititi se
 zaveden|1
 (prid.)|osve¹èen|svesten (zastarelo)
 zavesa|1
@@ -38531,6 +39556,8 @@ zavrtaè|2
 (sam.)|Pholas dactylus (strokovno)
 zavrte¾|1
 (sam.)|zatrte¾
+zavzeti se za|1
+(gl.)|boriti se za|braniti|postaviti se za|zagovarjati
 zavzetost|1
 (sam.)|pozornost|preokupacija|zanimanje
 zazdaj|1
@@ -38558,6 +39585,8 @@ zazveneti|1
 (gl.)|zadoneti
 zazvenketati|1
 (gl.)|za¾venketati
+zbadanje|1
+(sam.)|norèevanje|porog|posmehovanje|roganje|zasmehovanje
 zbadljiv|1
 (prid.)|bodièast|kaèepièen (ekspresivno)|kaèjepièen (ekspresivno)|na¹pièen (pogovorno)|osat (ekspresivno)|piker|u¹èipljiv
 zbegan|1
@@ -38642,7 +39671,8 @@ zdravnik|1
 (sam.)|dohtar (nizko)|doktor|eskulap|leènik (zastarelo)|medicinec
 zdrgniti|1
 (gl.)|otreti
-zdriz|1
+zdriz|2
+(sam.)|¾elatina|¾ele
 (sam.)|galerta
 zdrsniti|1
 (gl.)|spodrsniti
@@ -38683,8 +39713,9 @@ zemeljska o¾ina|1
 (sam.)|istmus|medmorje
 zemeljski|1
 (prid.)|èasen (starinsko)|tostranski
-zemlja|1
+zemlja|2
 (sam.)|prst|zemljina
+(sam.)|svet|teren|zemlja (ekspresivno)|zemlji¹èe
 zemljak|1
 (sam.)|rojak|rojakinja|sobrat|sonarodnjak|sorojak
 zemljemerec|1
@@ -38701,6 +39732,8 @@ zemljeslovje|1
 (sam.)|geologija|zemljeslovje (zastarelo)
 zemljevid|1
 (sam.)|geografska karta
+zemlji¹èe|1
+(sam.)|svet|teren|zemlja (ekspresivno)
 zemljina|2
 (sam.)|celina|kontinent
 (sam.)|prst|zemlja
@@ -38718,6 +39751,8 @@ zgaga|1
 (sam.)|nadloga|neprijetnost|neprilika|problem|te¾ava|te¾koèa|teginja (zastarelo)|tegoba|zadrga (zastarelo)|zagata|zgaga (ekspresivno)
 zgaran|1
 (prid.)|onemogel
+zgibni avtobus|1
+(sam.)|krpan (pogovorno)
 zgled|2
 (sam.)|eksempel (zastarelo)|primer
 (sam.)|prapodoba|vzor
@@ -38827,6 +39862,12 @@ zlata ¾ila|1
 (sam.)|hemoroidi
 zlata minica|1
 (sam.)|Cetonia aurata (strokovno)
+zlatarna|1
+(sam.)|zlatarnica (starinsko)|zlatarska delavnica
+zlatarnica|1
+(sam.)|zlatarna|zlatarnica (starinsko)|zlatarska delavnica
+zlatarska delavnica|1
+(sam.)|zlatarna|zlatarnica (starinsko)
 zlatarska oslica|1
 (sam.)|preizkusni kamen
 zlatenica|1
@@ -38898,6 +39939,8 @@ zlobnost|1
 (sam.)|¹kodo¾eljnost|¾lehtnoba (neknji¾no)|hudobnost|malicioznost
 zlodej|1
 (sam.)|¹ent|¹ment|hudiè|hudiman|hudimar|hudir|hudnik|parkelj|peklen¹èek|rogaè|satan|sku¹njavec|vrag|vragec|vranè|zlobec
+zlodejka|1
+(sam.)|coprnica (neknji¾no)|èarodejka|èarodejnica|èarovnica|ve¹èa (starinsko)|zlodejka (zastarelo)
 zloèin|1
 (sam.)|grozodejstvo
 zlog|2
@@ -38906,7 +39949,7 @@ zlog|2
 zloglasen|1
 (prid.)|famozen|proslul (zastarelo)|razvpit
 zlogolk|1
-(prid.)|opravljiv|zlogolk (zastarelo)
+(prid.)|dolgojezièen|obrekljiv|opravljiv|zlogolk (zastarelo)
 zlogomerje|1
 (sam.)|metrika
 zlogoven|1
@@ -38979,6 +40022,10 @@ zmota|2
 (sam.)|napaka|pogre¹ek|pomota
 zmoten|1
 (prid.)|bloden|napaèen|nepravi|nepravilen|zgre¹en
+zmrda|1
+(sam.)|grimasa (ekspresivno)|mrda (ekspresivno)|spaka|zmrda (ekspresivno)|zmrdek (ekspresivno)
+zmrdek|1
+(sam.)|grimasa (ekspresivno)|mrda (ekspresivno)|spaka|zmrda (ekspresivno)|zmrdek (ekspresivno)
 zmrzi¹èe|1
 (sam.)|ledi¹èe|strdi¹èe|tali¹èe|zmrzovali¹èe
 zmrzovali¹èe|1
@@ -38987,6 +40034,8 @@ zmrzovalnik|1
 (sam.)|zamrzovalna omara|zamrzovalna skrinja|zamrzovalnik
 zn|1
 (sam.)|cink|element (nadpomenka)|kemièna prvina (nadpomenka)|kemièni element (nadpomenka)
+znabiti|1
+(prisl.)|lahko|mogoèe|morda|morebiti|najbr¾ (ekspresivno)|nemara (starinsko)|verjetno (ekspresivno)|znabiti (starinsko)
 znaèaj|1
 (sam.)|narava
 znaèajen|1
@@ -39166,8 +40215,9 @@ zverinstvo|1
 (sam.)|bestialnost
 zveseliti|1
 (gl.)|obradostiti (zastarelo)|obradovati (zastarelo)|osreèiti|oveseliti (starinsko)|razradostiti (zastarelo)|razveseliti|vzradostiti|vzradovati
-zvest|1
+zvest|2
 (prid.)|lojalen
+(prid.)|veren (zastarelo)|nezvest (protipomenka)
 zvestoba|1
 (sam.)|vdanost|vernost
 zveza|2
