@@ -1,7 +1,13 @@
-SET TIS620-2533
+SET UTF-8
 
-REP 4
-REP �� �
-REP � ��
-REP � �
-REP � �
+REP 10
+REP ทร ซ
+REP ซ ทร
+REP ส ซ
+REP ซ ส
+REP รร ะ
+REP ะ รร
+REP ั รร
+REP รร ั
+REP ฎ ฏ
+REP ฏ ฎ
