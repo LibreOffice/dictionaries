@@ -1,3 +1,29 @@
+MAGP 2019-05-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 2358 new words (2019-04-01) + 458 new words (2019-05-01).
+
+
+
+MAGP 2019-03-01
+
+Added the LGPL_V3 License .txt into the Extension.
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 764 new words (2019-02-01) + 1046 new words (2019-03-01).
+
+
+
+MAGP 2019-01-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 1529 new words (2018-12-01) + 1175 new words (2019-01-01).
+
+
+
 MAGP 2018-11-01
 
 Updated the Dictionaries:
