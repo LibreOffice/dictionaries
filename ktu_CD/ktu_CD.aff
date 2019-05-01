@@ -1,0 +1,72 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+# AFFIXES DU DICTIONNAIRE ORTHOGRAPHIQUE KIKONGO
+# par L'Africain
+# Généré le 19-06-2017 à 10:06
+# Pour améliorer le dictionnaire, allez sur 
+
+
+
+SET UTF-8
+
+WORDCHARS -’'1234567890.
+
+
+TRY esntiarulodcpmvfgbhxjyMILzACPJFSBVRDGNETHXkOwKWYU'
+
+
+PFX A Y 1
+PFX A 0 ba .
+
+PFX M Y 1
+PFX M di ma di
+
+PFX B Y 1
+PFX B 0 ku .
+
+PFX I Y 1
+PFX I 0 ki .
+
+PFX N Y 1
+PFX N ki bi ki
+
+PFX J Y 1
+PFX J mu ba mu
+
+PFX P Y 1
+PFX P mu mi mu
+
+PFX C Y 1
+PFX C 0 kudi .
+
+PFX O Y 1
+PFX O 0 kuki .
+
+SFX D Y 1
+SFX D a ila a
+
+SFX E Y 1
+SFX E a isa a
+
+SFX F Y 1
+SFX F 0 ma
+
+SFX G Y 1
+SFX G 0 na
+
+SFX H Y 1
+SFX H 0 ka
+
+SFX K Y 1
+SFX K a ilaka a
+
+SFX L Y 1
+SFX L a isaka a
+
+SFX Q Y 1
+SFX Q 0 naka
+
+SFX R Y 1
+SFX R 0 maka

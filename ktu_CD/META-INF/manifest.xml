@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You have to add all new registry or help files here //-->
+<manifest:manifest xmlns:manifest="http://openoffice.org/2001/manifest">
+  <manifest:file-entry manifest:media-type="application/vnd.sun.star.configuration-data" 
+  manifest:full-path="dictionaries.xcu"/>
+     <manifest:file-entry manifest:full-path="pkg-description.txt" 
+     manifest:media-type="application/vnd.sun.star.package-bundle-description"/>
+</manifest:manifest>
