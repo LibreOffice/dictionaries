@@ -1,0 +1,212 @@
+# Hunspell affix file for Lingala
+# Copyright 2009 Kevin P. Scannell
+# This file is distributed under the same license as hunspell-ln 
+SET UTF-8
+TRY ankmolbáiístyɔóǵeɛépzdwuúNMBALKEOTfrâSIYvôZhPÉcÓÍÁCWÚUGFêƐVRîDǐûƆxǒqjJHÂǔǍ
+WORDCHARS ‘’-
+CIRCUMFIX X
+NEEDAFFIX Z
+
+REP 2
+REP o ɔ
+REP e ɛ
+
+#  Note no pronouns mo, li, mi, ... for noun classes 3+ - easy enough to add
+# pronoun prefixes for verbs
+PFX P Y 8
+PFX P 0	na/X	.
+PFX P 0	o/X	.
+PFX P 0	a/X	.
+PFX P 0	e/X	.
+PFX P 0	to/X	.
+PFX P 0	bo/X	.
+PFX P 0	ba/X	.
+PFX P 0	i/X	.
+
+# high tone pronoun prefixes, for the subjunctive
+PFX H Y 8
+PFX H 0	ná/X	.
+PFX H 0	ó/X	.
+PFX H 0	á/X	.
+PFX H 0	é/X	.
+PFX H 0	tó/X	.
+PFX H 0	bó/X	.
+PFX H 0	bá/X	.
+PFX H 0	í/X	.
+
+# future prefix: combination of pronoun and -ko-
+PFX F Y 8
+PFX F 0	nako/X	.
+PFX F 0	oko/X	.
+PFX F 0	ako/X	.
+PFX F 0	eko/X	.
+PFX F 0	toko/X	.
+PFX F 0	boko/X	.
+PFX F 0	bako/X	.
+PFX F 0	iko/X	.
+
+# ko- prefix for infinitives
+PFX K Y 1
+PFX K 0	ko/X	.
+
+# bo-, to- prefix for imperatives
+PFX B Y 2
+PFX B 0	bo/X	.
+PFX B 0	to/X	.
+
+# plurals 1->2, 5->6, 7->8, 11->6, 14->6 (bo->ma)
+PFX I Y 10
+PFX I mo ba mo
+PFX I mɔ ba mɔ
+PFX I li ma li
+PFX I lí mí lí
+PFX I e bi e
+PFX I ɛ bi ɛ
+PFX I lo ma lo
+PFX I lɔ ma lɔ
+PFX I bo ma bo
+PFX I bɔ ma bɔ
+
+# plurals "1a"->2, 9->2, etc. add ba
+PFX M Y 1
+PFX M 0 ba .
+
+# class 3 plurals in class 4
+PFX J Y 2
+PFX J mo mi mo
+PFX J mɔ mi mɔ
+
+# nasal plurals in class 10
+# note no rule for n-, mp-, etc. words - they are left alone
+PFX L Y 10
+PFX L mo n mo
+PFX L mɔ n mɔ
+PFX L lo n lo[^bilmnpy]
+PFX L lo m lo[bp]
+PFX L lo mp loi
+PFX L lol nd lol
+PFX L lom m lom
+PFX L lon n lon
+PFX L loy nz loy
+PFX L lɔ n lɔ
+
+# no present continuatif for now - same as future but caron on pronoun 
+# so just copy F to a new prefix and use that
+SFX V Y 63
+SFX V 0 a/PX	.	+FUTURIMMEDIAT
+SFX V 0 ɛ/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURIMMEDIAT
+SFX V 0 ɛ/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURIMMEDIAT
+SFX V 0 ɛ/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURIMMEDIAT
+SFX V 0 ɔ/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURIMMEDIAT
+SFX V 0 ɔ/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURIMMEDIAT
+SFX V 0 ɔ/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURIMMEDIAT
+SFX V 0 aka/PX	.	+HABITUAL1
+SFX V 0 ɛkɛ/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL1
+SFX V 0 ɛkɛ/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL1
+SFX V 0 ɛkɛ/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL1
+SFX V 0 ɔkɔ/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL1
+SFX V 0 ɔkɔ/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL1
+SFX V 0 ɔkɔ/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL1
+SFX V 0 aka/FX	.	+HABITUAL2
+SFX V 0 ɛkɛ/FX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL2
+SFX V 0 ɛkɛ/FX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL2
+SFX V 0 ɛkɛ/FX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL2
+SFX V 0 ɔkɔ/FX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL2
+SFX V 0 ɔkɔ/FX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL2
+SFX V 0 ɔkɔ/FX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+HABITUAL2
+SFX V 0 a/HX	.	+SUBJUNCTIVE
+SFX V 0 ɛ/HX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIVE
+SFX V 0 ɛ/HX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIVE
+SFX V 0 ɛ/HX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIVE
+SFX V 0 ɔ/HX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIVE
+SFX V 0 ɔ/HX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIVE
+SFX V 0 ɔ/HX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIVE
+SFX V 0 aka/HX	.	+SUBJUNCTIFHABITUEL
+SFX V 0 ɛkɛ/HX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIFHABITUEL
+SFX V 0 ɛkɛ/HX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIFHABITUEL
+SFX V 0 ɛkɛ/HX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIFHABITUEL
+SFX V 0 ɔkɔ/HX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIFHABITUEL
+SFX V 0 ɔkɔ/HX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIFHABITUEL
+SFX V 0 ɔkɔ/HX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+SUBJUNCTIFHABITUEL
+SFX V 0 a/KX	.	+INFINITIVE
+SFX V 0 ɛ/KX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 ɛ/KX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 ɛ/KX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 ɔ/KX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 ɔ/KX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 ɔ/KX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 aka/KX	.	+INFINITIVE
+SFX V 0 ɛkɛ/KX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 ɛkɛ/KX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 ɛkɛ/KX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 ɔkɔ/KX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 ɔkɔ/KX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 ɔkɔ/KX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+INFINITIVE
+SFX V 0 a/FX	.	+FUTURELOIGNE
+SFX V 0 ɛ/FX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURELOIGNE
+SFX V 0 ɛ/FX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURELOIGNE
+SFX V 0 ɛ/FX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURELOIGNE
+SFX V 0 ɔ/FX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURELOIGNE
+SFX V 0 ɔ/FX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURELOIGNE
+SFX V 0 ɔ/FX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+FUTURELOIGNE
+SFX V 0 áni/BX		.	+IMPERATIVE
+SFX V 0 ɛ́ni/BX		[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX V 0 ɛ́ni/BX		[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX V 0 ɛ́ni/BX		[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX V 0 ɔ́ni/BX		[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX V 0 ɔ́ni/BX		[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX V 0 ɔ́ni/BX		[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+
+SFX W Y 52
+SFX W 0 í/PX	[^ií]	+NEARPAST
+SFX W i í/PX	i	+NEARPAST
+SFX W í éí/PX	í	+NEARPAST
+SFX W 0 ákí/PX	.	+REMOTEPAST
+SFX W 0 ɛ́kí/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+REMOTEPAST
+SFX W 0 ɛ́kí/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+REMOTEPAST
+SFX W 0 ɛ́kí/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+REMOTEPAST
+SFX W 0 ɔ́kí/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+REMOTEPAST
+SFX W 0 ɔ́kí/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+REMOTEPAST
+SFX W 0 ɔ́kí/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+REMOTEPAST
+SFX W 0 á		.	+IMPERATIVE
+SFX W 0 ɛ́		[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 ɛ́		[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 ɛ́		[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 ɔ́		[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 ɔ́		[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 ɔ́		[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 áká		.	+IMPERATIFHABITUEL
+SFX W 0 ɛ́kɛ́		[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIFHABITUEL
+SFX W 0 ɛ́kɛ́		[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIFHABITUEL
+SFX W 0 ɛ́kɛ́		[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIFHABITUEL
+SFX W 0 ɔ́kɔ́		[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIFHABITUEL
+SFX W 0 ɔ́kɔ́		[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIFHABITUEL
+SFX W 0 ɔ́kɔ́		[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIFHABITUEL
+SFX W 0 á/BX	.	+IMPERATIVE
+SFX W 0 ɛ́/BX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 ɛ́/BX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 ɛ́/BX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 ɔ́/BX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 ɔ́/BX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 ɔ́/BX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+IMPERATIVE
+SFX W 0 á/PX	.	+PASSEELOIGNE
+SFX W 0 ɛ́/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSEELOIGNE
+SFX W 0 ɛ́/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSEELOIGNE
+SFX W 0 ɛ́/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSEELOIGNE
+SFX W 0 ɔ́/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSEELOIGNE
+SFX W 0 ɔ́/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSEELOIGNE
+SFX W 0 ɔ́/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSEELOIGNE
+SFX W 0 áká/PX	.	+PASSELOINTAIN
+SFX W 0 ɛ́kɛ́/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSELOINTAIN
+SFX W 0 ɛ́kɛ́/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSELOINTAIN
+SFX W 0 ɛ́kɛ́/PX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSELOINTAIN
+SFX W 0 ɔ́kɔ́/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSELOINTAIN
+SFX W 0 ɔ́kɔ́/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSELOINTAIN
+SFX W 0 ɔ́kɔ́/PX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASSELOINTAIN
+SFX W 0 áká/KX		.	+PASTHABITUALINFINITIVE
+SFX W 0 ɛ́kɛ́/KX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASTHABITUALINFINITIVE
+SFX W 0 ɛ́kɛ́/KX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASTHABITUALINFINITIVE
+SFX W 0 ɛ́kɛ́/KX	[ɛɛ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASTHABITUALINFINITIVE
+SFX W 0 ɔ́kɔ́/KX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASTHABITUALINFINITIVE
+SFX W 0 ɔ́kɔ́/KX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASTHABITUALINFINITIVE
+SFX W 0 ɔ́kɔ́/KX	[ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́][^aáeéiíoóuúɛɛ́ɔɔ́]	+PASTHABITUALINFINITIVE
