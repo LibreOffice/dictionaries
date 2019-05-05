@@ -15,9 +15,12 @@ $(eval $(call gb_Dictionary_add_root_files,dict-ca,\
 	dictionaries/ca/dictionaries/ca-valencia.aff \
 	dictionaries/ca/dictionaries/ca-valencia.dic \
 	dictionaries/ca/dictionaries/hyph_ca.dic \
-	dictionaries/ca/images/SC-logo.png \
 	dictionaries/ca/LICENSES-en.txt \
 	dictionaries/ca/LLICENCIES-ca.txt \
+))
+
+$(eval $(call gb_Dictionary_add_files,dict-ca,images,\
+    dictionaries/ca/images/SC-logo.png \
 ))
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-ca,\
