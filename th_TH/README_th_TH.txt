@@ -1,5 +1,5 @@
 name   :  th_TH version of the thai dictionary
-date   :  2019.04.11
+date   :  2019.05.30
 License:  LGPL
 
 This dictionary, Thai wordlist are compound from 
