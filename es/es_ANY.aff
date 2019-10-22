@@ -202,13 +202,14 @@ SFX M o eza/S nto
 SFX M o eza/S [aie]sto
 SFX M o ez/S usto
 SFX M o uez/S go
-SFX N Y 18
+SFX N Y 19
 SFX N a illa/S [bdfhjlmnprstv]a
 SFX N o illo/S [bdhjlmnprstv]o
 SFX N 0 cilla/S ve
 SFX N za cilla/S za
 SFX N 0 ecilla/S d
-SFX N ón oncillo/S ón
+SFX N ión ioncilla/S [cglnstx]ión
+SFX N ón oncillo/S [^i]ón
 SFX N 0 cillo/S or
 SFX N zo cillo/S zo
 SFX N 0 cillo/S [djlnu]e
@@ -4275,7 +4276,7 @@ SFX Ó ostrar uéstrasela ostrar
 SFX Ó ostrar uéstraselas ostrar
 SFX Ó ostrar uéstraselo ostrar
 SFX Ó ostrar uéstraselos ostrar
-SFX Ô Y 60
+SFX Ô Y 64
 SFX Ô aer áela aer
 SFX Ô aer áelas aer
 SFX Ô aer áelo aer
@@ -4300,6 +4301,10 @@ SFX Ô edir ídela edir
 SFX Ô edir ídelas edir
 SFX Ô edir ídelo edir
 SFX Ô edir ídelos edir
+SFX Ô egir ígela egir
+SFX Ô egir ígelas egir
+SFX Ô egir ígelo egir
+SFX Ô egir ígelos egir
 SFX Ô eguir íguela eguir
 SFX Ô eguir íguelas eguir
 SFX Ô eguir íguelo eguir
