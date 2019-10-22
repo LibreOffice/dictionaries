@@ -7,7 +7,7 @@
   **  VERSIÓN GENÉRICA PARA TODAS LAS LOCALIZACIONES                        **
   ****************************************************************************
 
-                                  Versión 2.4
+                                  Versión 2.5
 
 SUMARIO
 
@@ -92,16 +92,17 @@ comillas). El código de región depende de cómo tenga configurado su sistema
 (por lo general será el del país donde reside), elegible entre uno de los
 siguientes:
 
-   Argentina:		"AR"		Honduras:		"HN"
-   Bolivia:		"BO"		México:			"MX"
-   Chile:		"CL"		Nicaragua:		"NI"
-   Colombia:		"CO"		Panamá:			"PA"
-   Costa Rica:		"CR"		Perú:			"PE"
-   Cuba:		"CU"		Puerto Rico:		"PR"
-   Rep. Dominicana:	"DO"		Paraguay:		"PY"
-   Ecuador:		"EC"		El Salvador:		"SV"
-   España:		"ES"		Uruguay:		"UY"
-   Guatemala:		"GT"		Venezuela:		"VE"
+   Argentina:		"AR"	México:			"MX"	
+   Bolivia:		    "BO"	Nicaragua:		"NI"
+   Chile:		    "CL"	Panamá:			"PA"
+   Colombia:		"CO"	Perú:			"PE"
+   Costa Rica:		"CR"	Filipinas:      "PH"
+   Cuba:		    "CU"	Puerto Rico:	"PR"
+   Rep. Dominicana:	"DO"	Paraguay:		"PY"
+   Ecuador:		    "EC"	El Salvador:	"SV"
+   España:		    "ES"	Estados Unidos: "US"
+   Guatemala:		"GT"	Uruguay:		"UY"
+   Honduras:		"HN"    Venezuela:		"VE"
 
    (El código de región se escribe en mayúsculas sin las comillas).
 
