@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # coding=utf-8
 #
 # This file is part of the LibreOffice project.
@@ -13,6 +13,8 @@
 #
 # Based on idea of Zdenek Zabokrtsky <zabokrtsky@ufal.mff.cuni.cz>, big
 # thanks! :-)
+
+from __future__ import print_function
 
 import os
 import re
@@ -56,8 +58,8 @@ def parse(filename, blacklistname):
     meanings = {}
     classification = {}
 
-    match_ignore = re.compile('(\[neprav\.\]|\[vulg\.\])')
-    match_cleanup = re.compile('(\[.*\]|\*|:.*)')
+    match_ignore = re.compile(r'(\[neprav\.\]|\[vulg\.\])')
+    match_cleanup = re.compile(r'(\[.*\]|\*|:.*)')
 
     with open(filename, "r") as fp:
         for line in fp:
@@ -166,7 +168,7 @@ def buildThesaurus(synonyms, meanings, classification):
                         output_lines.append( (t, line[t]) )
 
         if len(output_lines) > 0:
-            print word + '|' + str(len(output_lines))
+            print(word + '|' + str(len(output_lines)))
 
             # those with existing classification are probably a better fit,
             # put them to the front (even if we don't output the
@@ -176,9 +178,9 @@ def buildThesaurus(synonyms, meanings, classification):
                     # first pass only non-empty, 2nd pass only empty
                     if (i == 0 and t != '') or (i == 1 and t == ''):
                         if typ == '':
-                            print t + line
+                            print(t + line)
                         else:
-                            print line
+                            print(line)
 
 def main(args):
     if (len(args) != 3):
@@ -187,7 +189,7 @@ def main(args):
 
     (synonyms, meanings, classification) = parse(args[1], args[2])
 
-    print "UTF-8"
+    print("UTF-8")
     buildThesaurus(synonyms, meanings, classification)
 
 if __name__ == "__main__":
