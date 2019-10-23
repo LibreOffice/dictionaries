@@ -20,13 +20,17 @@ import os
 import re
 import sys
 
+
 def usage():
     message = """Usage: {program} en-cs.txt blacklist.txt
 
   en-cs.txt:     Dictionary data from https://www.svobodneslovniky.cz/
   blacklist.txt: List of words that should be ignored when generating
 """
-    sys.stderr.write(message.format(program = os.path.basename(sys.argv[0])))
+    print(
+        message.format(program=os.path.basename(sys.argv[0])),
+        file=sys.stderr)
+
 
 def classify(typ):
     if typ == '':
@@ -41,6 +45,7 @@ def classify(typ):
         return '(slov.)'
 
     return ''
+
 
 def parse(filename, blacklistname):
     blacklist = {}
@@ -94,7 +99,7 @@ def parse(filename, blacklistname):
                     typ = terms[2]
 
                     # ignore non-translations
-                    if match_ignore.search(typ) != None:
+                    if match_ignore.search(typ) is not None:
                         continue
 
                     typ = match_cleanup.sub('', typ)
@@ -103,23 +108,24 @@ def parse(filename, blacklistname):
                 typ = classify(typ)
 
                 if index in synonyms:
-                    synonyms[index].append( (word, typ) )
+                    synonyms[index].append((word, typ))
                 else:
-                    synonyms[index] = [ (word, typ) ]
+                    synonyms[index] = [(word, typ)]
 
                 if word in meanings:
                     meanings[word].append(index)
                 else:
-                    meanings[word] = [ index ]
+                    meanings[word] = [index]
 
                 if typ != '':
                     if word in classification:
-                        if not typ in classification[word]:
+                        if typ not in classification[word]:
                             classification[word].append(typ)
                     else:
-                        classification[word] = [ typ ]
+                        classification[word] = [typ]
 
     return (synonyms, meanings, classification)
+
 
 def buildThesaurus(synonyms, meanings, classification):
     # for every word:
@@ -135,7 +141,7 @@ def buildThesaurus(synonyms, meanings, classification):
             typ = classification[word][0]
 
         # we want to output each word just once
-        used_this_round = [ word ]
+        used_this_round = [word]
 
         output_lines = []
         for index in indexes:
@@ -144,7 +150,7 @@ def buildThesaurus(synonyms, meanings, classification):
             # collect types first
             types = []
             for (w, t) in syns:
-                if not t in types:
+                if t not in types:
                     types.append(t)
 
             # build the various thesaurus lines
@@ -155,7 +161,7 @@ def buildThesaurus(synonyms, meanings, classification):
                 if typ != '' and t != '' and typ != t:
                     continue
 
-                if not w in used_this_round:
+                if w not in used_this_round:
                     if t in line:
                         line[t] += '|' + w
                     else:
@@ -165,7 +171,7 @@ def buildThesaurus(synonyms, meanings, classification):
             if len(line) != 0:
                 for t in types:
                     if t in line:
-                        output_lines.append( (t, line[t]) )
+                        output_lines.append((t, line[t]))
 
         if len(output_lines) > 0:
             print(word + '|' + str(len(output_lines)))
@@ -182,6 +188,7 @@ def buildThesaurus(synonyms, meanings, classification):
                         else:
                             print(line)
 
+
 def main(args):
     if (len(args) != 3):
         usage()
@@ -191,6 +198,7 @@ def main(args):
 
     print("UTF-8")
     buildThesaurus(synonyms, meanings, classification)
+
 
 if __name__ == "__main__":
     main(sys.argv)
