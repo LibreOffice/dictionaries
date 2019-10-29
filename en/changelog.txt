@@ -1,3 +1,44 @@
+MAGP 2019-11-01
+
+Updated the Dictionaries:
+- Australian (Kevin Atkinson)
+- American (Kevin Atkinson)
+- Canadian (Kevin Atkinson)
+- British (Marco A.G.Pinto)*
+  * British has 1081 new words(1) (2019-10-01) + 1255 new words(2) (2019-11-01).
+	(1) at least, because TOTAL_NEW_WORDS = TOTAL_CURRENT_WORDS - TOTAL_PREVIOUS_WORDS
+		and there were tons of duplicates removed and cleaned/simplified the .dic.
+		There were also tons of plurals/possessives added (WIP).
+	(2) Added tons of plurals and possessives.
+
+
+
+MAGP 2019-09-01
+
+- Converted some line endings in this file from Windows to Unix.
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 2822 new words(1) (2019-08-01) + 1705 new words(1) (2019-09-01).
+	(1) at least, because TOTAL_NEW_WORDS = TOTAL_CURRENT_WORDS - TOTAL_PREVIOUS_WORDS
+		and there were tons of duplicates removed and cleaned/simplified the .dic.
+		There were also tons of plurals/possessives added (WIP).
+
+
+
+MAGP 2019-07-01
+
+- Improved the description of the Extension.
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 614 new words (2019-06-01) + 180 new words(1) (2019-07-01).
+	(1) at least, because TOTAL_NEW_WORDS = TOTAL_CURRENT_WORDS - TOTAL_PREVIOUS_WORDS
+		and there were tons of duplicates removed and cleaned/simplified the .dic.
+		There were also tons of plurals/possessives added (WIP).
+
+
+
 MAGP 2019-05-01
 
 Updated the Dictionaries:
@@ -76,7 +117,7 @@ MAGP 2018-01-01
 Updated the Dictionaries:
 - British (Marco A.G.Pinto)*
   * British has 1483 new words (2017-12-01) + 3034 new words (2018-01-01).
-    In November + December I added THOUSANDS of possessives to proper names.
+	In November + December I added THOUSANDS of possessives to proper names.
 	Added 500+ proper names.
 
 
@@ -153,8 +194,8 @@ Updated the Dictionaries:
 - Canadian (Kevin Atkinson)
 - British (Marco A.G.Pinto)*
   * British has 773 new words (2016-08-01) + 728 new words (2016-09-01).
-    GB changelog is no longer included in the README file,
-    instead there are links inside it that point to the information
+	GB changelog is no longer included in the README file,
+	instead there are links inside it that point to the information
 	(lower filesize).
 
 
@@ -167,7 +208,7 @@ Updated the hyphenation patterns to 2011-10-07 (from LibreOffice):
 Updated the Dictionaries:
 - British (Marco A.G.Pinto)*
   * British has 1107 new words (2016-06-01) + 738 new words (2016-07-01).
-    It now uses NOSUGGEST keyword for offensive words.
+	It now uses NOSUGGEST keyword for offensive words.
 	It now uses COMPOUNDING (Áron Budea)
 
 
