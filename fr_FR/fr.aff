@@ -44,7 +44,7 @@ MAP wW
 MAP xX
 MAP zZ
 
-REP 100
+REP 104
 REP ^Ca$ Ça
 REP ^l l'
 REP ^d d'
@@ -102,6 +102,8 @@ REP ei è
 REP è ei
 REP ei ê
 REP ê ei
+REP ^e é
+REP ^é e
 REP e é
 REP é e
 REP e è
@@ -130,6 +132,8 @@ REP ell èl
 REP èl ell
 REP t th
 REP th t
+REP ^te té
+REP ^té te
 REP ième$ e
 REP ème$ e
 REP è$ e
