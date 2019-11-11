@@ -70,6 +70,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_th \
 	Dictionary_tr \
 	Dictionary_uk \
+	Dictionary_ur \
 	Dictionary_vi \
 	Dictionary_zu \
 ))

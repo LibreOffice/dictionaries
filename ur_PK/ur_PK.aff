@@ -1,0 +1,71 @@
+﻿SET	UTF-8
+FLAG	long
+
+#SFX	A1	N	1
+#SFX	A1	0	ی	.
+
+#SFX	Ap	Y	1
+#SFX	Ap	0	ی/Pw	.
+
+#SFX	K1	N	1
+#SFX	K1	0	یات	.
+
+# Plurals ending in وں. For example 
+# پنجرہ -> پنجروں
+# طوطا -> طوطوں
+# دریا -> دریاؤں
+# میز -> میزوں
+#SFX	Pw	N	4
+#SFX	Pw	ہ	وں	ہ
+#SFX	Pw	ا	وں	[^ی]ا
+#SFX	Pw	0	ؤں	[ی]ا
+#SFX	Pw	0	وں	[^ہا]
+
+# Plurals ending in ے. For example 
+# طوطا -> طوطے
+# پنجرہ -> پنجرے
+#SFX	Py	N	2
+#SFX	Py	ہ	ے	ہ
+#SFX	Py	ا	ے	ا
+
+# Plurals ending in ات. For example 
+# اخبار -> اخبارات
+# معاملہ -> معاملات
+#SFX	Pt	N	2
+#SFX	Pt	ہ	ات	ہ
+#SFX	Pt	0	ات	[^ہ]
+
+REP	32
+REP	ح	ھ
+REP	ھ	ح
+REP	ہ	ھ
+REP	ھ	ہ
+REP	ہ	ح
+REP	ح	ہ
+REP ه	ہ
+REP ه	ھ
+REP	س	ص
+REP	ص	س
+REP	ث	ص
+REP	ص	ث
+REP	ث	س
+REP	س	ث
+REP	ت	ط
+REP	ط	ت
+REP	ق	ک
+REP	ک	ق
+REP	ز	ذ
+REP	ذ	ز
+REP	ض	ظ
+REP	ظ	ض
+REP	ي	ی
+REP	ے	ے
+REP	ے	ی
+REP	ن	ں
+REP	ا	اً
+REP	ك	ک
+REP	ه	ہ
+REP	ۓ	ئے
+REP	و	ؤ
+REP	تعالی	تعالٰی
+
