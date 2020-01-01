@@ -11,6 +11,7 @@ $(eval $(call gb_Dictionary_Dictionary,dict-sl,dictionaries/sl_SI))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-sl,\
 	dictionaries/sl_SI/hyph_sl_SI.dic \
+	dictionaries/sl_SI/icon.png \
 	dictionaries/sl_SI/README_hyph_sl_SI.txt \
 	dictionaries/sl_SI/README_sl_SI.txt \
 	dictionaries/sl_SI/README_th_sl_SI.txt \
