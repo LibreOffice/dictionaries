@@ -32,10 +32,10 @@ en_US.aff, en_US.dic и dictionary.lst.
 
 
 3. Стартирате OpenOffice и осъществявате следните настройки:
-Tools/Options/Languange Settings:
-- В Languages/Default languanges for documents трябва да се
+Tools/Options/Language Settings:
+- В Languages/Default languages for documents трябва да се
 посочи Bulgarian;
-- В Writing Aids/Available languange modules/Edit за
+- В Writing Aids/Available language modules/Edit за
 Language/Bulgarian трябва да се е появил под реда Hyphenation
 нов ред с етикет ALTLinux LibHnj Hyphenator, който трябва да се
 избере.
@@ -47,7 +47,7 @@ Tools/Hyphenation...
 т.е. ще пита за всяка една дума как да я пренесе, което за
 големи текстове не много удобно. За да се пусне в автоматичен
 трябва да се избере Hyphenate without inquiry от
-Tools/Options/Languange Settings/Writing Aids/Options;
+Tools/Options/Language Settings/Writing Aids/Options;
 - При повторно сричкопренасяне, което обикновено се налага при
 промяна на текста или формата, тиретата остават на старите си
 места и трябва да се махнат ръчно. Надявам се това да бъде
