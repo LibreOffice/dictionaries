@@ -1,6 +1,6 @@
 # af_ZA.aff - Afrikaans (af) affix file for use in hunspell
 #
-# Copyright (C) 2019 Kris van der Merwe
+# Copyright (C) 2020 Kris van der Merwe
 # ... created from the Afrikaans ispell affix file by Dwayne Bailey
 # ... created from the Afrikaans ispell affix file by Reinier de Vos
 #
@@ -20,12 +20,12 @@
 #
 
 # This Afrikaans dictionary is maintained on Puzzlefoundry.com
-# It is possible to edit dictionaries through the Puzzlefoundry.com interface
+# It is possible to edit dictionaries through the Puzzlefoundry.com interface (on request)
 # Your improvements will then be included in future releases.
 #
 # Die Afrikaanse speltoets data word op PuzzleFoundry.com instandgehou en geproduseer
-# Dit is moontlik om PuzzleFoundry.com woordeboeke direk op die web te wysig.
-# In so geval word woordeboek-redigeervermoë aan u toegestaan.
+# Dit is moontlik om PuzzleFoundry.com woordeboeke direk deur die web-koppelvlak te wysig.
+# Woordeboek-redigeervermoë word toegestaan op versoek.
 # Ek (Kris) kan ook gekontak word deur die PuzzleFoundry.com kontak bladsy
 #
 
@@ -33,7 +33,7 @@ SET UTF-8
 
 TRY eraisontlgkdumpbvwhfyjëêc-ï'zxöéôqSBVOKGATDPMHRWLIENUFJCXZèûâüä
 
-#NOSPLITSUGS
+NOSPLITSUGS
 
 
 # ordinale nommers 1ste, 2de, 3de, 4de, 5de ... 20ste ...
@@ -51,7 +51,7 @@ COMPOUNDRULE qp
 COMPOUNDRULE mn*t
 COMPOUNDRULE nnn*t
 
-WORDCHARS 0123456789
+WORDCHARS 0123456789-
 
 # Certain characters are considered "close" to others
 #
@@ -109,6 +109,12 @@ REP kie tjie
 REP ntjie nkie
 REP aaitjie aadjie
 
+BREAK 2
+BREAK -
+BREAK --
+
+
+#
 # Conjugation rules
 # Woord verbuiging reëls
 #
@@ -133,81 +139,83 @@ PFX F 0 af .
 PFX G Y 1
 PFX G 0 ge .
 
-SFX H N 1
-SFX H   0 heid .
+SFX H N 2
+SFX H 0 heid [^ëe]
+SFX H 0 nheid [ëe]
 
 SFX J N 16
-SFX J   0  tjie   .[aeiouy]
-SFX J   0  tjies  .[aeiouy]
-SFX J   0  tjie   .[aeiouyëê][lnr]
-SFX J   0  tjies  .[aeiouyëê][lnr]
-SFX J   0  etjie   ^.{1,3}[aeiouyëê]ng
-SFX J   0  etjies  ^.{1,3}[aeiouyëê]ng
-SFX J   0  pie    .[aeiou]m
-SFX J   0  pies   .[aeiou]m
-SFX J   0  jie    .[aeioun](d|t)
-SFX J   0  jies   .[aeioun](d|t)
-SFX J   0  'tjies .+[^aeiouyëêlngrmdtp]
-SFX J   0  'tjie  .+[^aeiouyëêlngrmdtp]
-SFX J   0  'etjies ^[flmnrsx]
-SFX J   0  'etjie  ^[flmnrsx]
-SFX J   0  'tjies ^[^flmnrsx]
-SFX J   0  'tjie  ^[^flmnrsx]
+SFX J  0 tjie   .[aeiouy]
+SFX J  0 tjies  .[aeiouy]
+SFX J  0 tjie   .[aeiouyëê][lnr]
+SFX J  0 tjies  .[aeiouyëê][lnr]
+SFX J  0 etjie  ^.{1,3}[aeiouyëê]ng
+SFX J  0 etjies ^.{1,3}[aeiouyëê]ng
+SFX J  0 pie   .[aeiou]m
+SFX J  0 pies  .[aeiou]m
+SFX J  0 jie   .[aeioun][dt]
+SFX J  0 jies  .[aeioun][dt]
+SFX J  0 'tjies .+[^aeiouyëêlngrmdtp]
+SFX J  0 'tjie  .+[^aeiouyëêlngrmdtp]
+SFX J  0 'etjies ^[flmnrsx]
+SFX J  0 'etjie  ^[flmnrsx]
+SFX J  0 'tjies ^[^flmnrsx]
+SFX J  0 'tjie  ^[^flmnrsx]
 
 PFX K Y 1
 PFX K 0 op .
 
 SFX L N 1
-SFX L   0 te .
+SFX L  0 te .
 
 PFX M Y 1
 PFX M 0 oor .
 
 SFX N N 1
-SFX N   0 de .
+SFX N  0 de .
 
 PFX O Y 1
 PFX O 0 on .
 
-SFX P N 31
-SFX P   ad de aad
-SFX P   ag e aag
-SFX P   ak ke aak
-SFX P   al le aal
-SFX P   am me aam
-SFX P   an ne aan
-SFX P   ap pe aap
-SFX P   ar re aar
-SFX P   as se aas
-SFX P   at te aat
-SFX P   ed de eed
-SFX P   eg ge eeg
-SFX P   ek ke eek
-SFX P   el le eel
-SFX P   em me eem
-SFX P   en ne een
-SFX P   ep pe eep
-SFX P   er re eer
-SFX P   es se ees
-SFX P   et te eet
-SFX P   od de ood
-SFX P   og ë  oog
-SFX P   ok ke ook
-SFX P   ol le ool
-SFX P   om me oom
-SFX P   on ne oon
-SFX P   op pe oop
-SFX P   or re oor
-SFX P   ot te oot
-SFX P   un ne uun
-SFX P   ur re uur
+SFX P N 32
+SFX P  ad de aad
+SFX P  ag e  aag
+SFX P  ak ke aak
+SFX P  al le aal
+SFX P  am me aam
+SFX P  an ne aan
+SFX P  ap pe aap
+SFX P  ar re aar
+SFX P  as se aas
+SFX P  at te aat
+SFX P  ed de eed
+SFX P  eg ge eeg
+SFX P  ek ke eek
+SFX P  el le eel
+SFX P  em me eem
+SFX P  id de heid
+SFX P  en ne [eï]en
+SFX P  ep pe eep
+SFX P  er re eer
+SFX P  es se ees
+SFX P  et te eet
+SFX P  od de ood
+SFX P  og ë  oog
+SFX P  ok ke ook
+SFX P  ol le ool
+SFX P  om me oom
+SFX P  on ne oon
+SFX P  op pe oop
+SFX P  or re oor
+SFX P  ot te oot
+SFX P  un ne uun
+SFX P  ur re uur
 
 SFX S N 2
-SFX S   0 s  [^saiou]
-SFX S   0 's [^aeiou][aiou]
+SFX S  0 s [^saiou]
+SFX S  0 's [^aeiou][aiou]
 
 SFX T N 1
-SFX T   0 ste .
+SFX T  0 ste .
 
 PFX U Y 1
 PFX U 0 uit .
@@ -215,15 +223,14 @@ PFX U 0 uit .
 PFX V Y 1
 PFX V 0 ver .
 
-SFX Z N 8
-SFX Z   af we aaf
-SFX Z   f  we eef
-SFX Z   f  we ief
-SFX Z   f  we oef
-SFX Z   of we oof
-SFX Z   f  we uif
-SFX Z   f  we yf
-SFX Z   id de heid
+SFX Z N 7
+SFX Z af we aaf
+SFX Z f we eef
+SFX Z f we ief
+SFX Z f we oef
+SFX Z of we oof
+SFX Z f we uif
+SFX Z f we yf
 
 SFX d N 2
 SFX d 0 nd ..[ëe]
@@ -238,4 +245,4 @@ SFX h 0 ing .[dgiklmnprstu]
 SFX h 0 ings .[dgiklmnprstu]
 
 SFX r N 1
-SFX r   0 er ...
+SFX r 0 er ...
