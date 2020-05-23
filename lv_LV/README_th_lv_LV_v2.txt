@@ -1,11 +1,11 @@
-# Latvieğu valodas sinonîmu vârdîca (tezaurs)
-# lietoğanai ar OpenOffice 3.1.x un augstâk
+# LatvieÅ¡u valodas sinonÄ«mu vÄrdÄ«ca (tezaurs)
+# lietoÅ¡anai ar OpenOffice 3.1.x un augstÄk
 # Latvian thesaurus for OpenOffice 3.1.x and higher
 #
-# Copyright (C) 2010 Janis Eisaks, jancs@dv.lv, http://dict.dv.lv
+# Copyright (C) 2010-2020 Janis Eisaks, jancs@dv.lv, http://dict.dv.lv
 #
-# Ğî bibliotçka tiek licencçta ar Lesser General Public Licence (LGPL) 2.1 nosacîjumiem. 
-# Licences nosacîjumi pievienoti failâ license.txt vai iegûstami tîmekïa vietnç  
+# Å Ä« bibliotÄ“ka tiek licencÄ“ta ar Lesser General Public Licence (LGPL) 2.1 nosacÄ«jumiem. 
+# Licences nosacÄ«jumi pievienoti failÄ license.txt vai iegÅ«stami tÄ«mekÄ¼a vietnÄ“  
 # http://www.fsf.org/licensing/licenses/lgpl.html
 # 
 # This library is free software; you can redistribute it and/or
@@ -22,40 +22,40 @@
 # license along with this library; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
 #
-# Vârdnîcas izstrâdç izmantotâ literatûra:
-# (pagaidâm tiek apzinâta)
+# VÄrdnÄ«cas izstrÄdÄ“ izmantotÄ literatÅ«ra:
+# (pagaidÄm tiek apzinÄta)
 #
-# Pateicîbas
-# - linux.lv vçstkopas aktîvistiem par padomiem vârdnîcas apstrâdes skriptu rakstîğanâ
-# - Oskaram Vîksnam par izpalîdzîbu ar C++
+# PateicÄ«bas
+# - linux.lv vÄ“stkopas aktÄ«vistiem par padomiem vÄrdnÄ«cas apstrÄdes skriptu rakstÄ«Å¡anÄ
+# - Oskaram VÄ«ksnam par izpalÄ«dzÄ«bu ar C++
 #
 
 1. Version info
-2. Uzstâdîğana
+2. UzstÄdÄ«Å¡ana
 3. Interesentiem
-4. Izmaiòu saraksts
+4. IzmaiÅ†u saraksts
 
 ==================
 1. Version info 0.0.1
-- nav uzskatâma par izmatojamu vârdnîcu, 
+- nav uzskatÄma par izmatojamu vÄrdnÄ«cu, 
 
 =================
-2. Vârdîcas uzstâdîğana
+2. VÄrdÄ«cas uzstÄdÄ«Å¡ana
 
-Tâ kâ vârdnîca ir ietverta OpenOffice latvieğu valodas paplağinâjuma komplektâ, atseviğía 
-uzstâdîğana nav nepiecieğama.
-Ja nevçlaties izmantot sinonîmu bibliotçku, to var atslçgt izvçlnç
+TÄ kÄ vÄrdnÄ«ca ir ietverta OpenOffice latvieÅ¡u valodas paplaÅ¡inÄjuma komplektÄ, atseviÅ¡Ä·a 
+uzstÄdÄ«Å¡ana nav nepiecieÅ¡ama.
+Ja nevÄ“laties izmantot sinonÄ«mu bibliotÄ“ku, to var atslÄ“gt izvÄ“lnÄ“
 
 Tools/Language Settings/Writing Aids
 
-izíeksçjot rindiòu pie Thesaurus (atslçgs visus) vai arî nospieşot pogu Edit un atslçdzot
-to konkrçtai valodai.
+izÄ·eksÄ“jot rindiÅ†u pie Thesaurus (atslÄ“gs visus) vai arÄ« nospieÅ¾ot pogu Edit un atslÄ“dzot
+to konkrÄ“tai valodai.
 
 =================
 3. Interesentiem
 
-Skat. http://dict.dv.lv sadaïâ Sinonîmi/Dokumentâcija
+Skat. http://dict.dv.lv sadaÄ¼Ä SinonÄ«mi/DokumentÄcija
 
 =================
-4. Izmaiòu saraksts
+4. IzmaiÅ†u saraksts
 =================

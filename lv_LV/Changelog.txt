@@ -1,244 +1,297 @@
-# Latvieğu valodas affix fails lietoğanai ar OpenOffice v.v. 1.1.5, 2.x.x, 3.x.x
-# Latvian affix table for OpenOffice v.v. 1.1.5, 2.x.x, 3.x.x
+# LatvieÅ¡u valodas affix fails lietoÅ¡anai ar OpenOffice v.v. 2.4.1 un 3.x.x,
+# LibreOffice u.c. aplikÄcijÄm, kas pareizrakstÄ«bas pÄrbaudei izmanto HunSpell
+# Latvian affix table for OpenOffice v.v. 2.4.1 and 3.x.x, LibreOffice
+# and other applications using HunSpell as the backend
 #
-# Copyright (C) 2002-2011 Janis Eisaks, jancs@dv.lv
+# Copyright (C) 2002-2020 Janis Eisaks, jancs@dv.lv
 #
+# Versija//Version: 1.1.0
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+#
+Versijas informÄcija 1.4.0
+
+IzmaiÅ†as Å¡ajÄ vesijÄ:
+- labots afikss F (paldies Panderam no Nuspell projekta (https://nuspell.github.io))
+- saÄ«sinÄts automÄtiskÄs korekcijas sarakstsa par vainu->vai nu, jo vÄrds "vainu" ir pareizs
+- papildinÄts vÄrdu krÄjums
+
+Versijas informÄcija 1.3.0
+
+IzmaiÅ†as Å¡ajÄ vesijÄ:
+- papildinÄti REP likumi ar nepareizi uzrakstÄ«tu vÄrdu laboÅ¡anas padomiem (paldies R.AdoviÄam!)
+
+==================
+Versijas informÄcija 1.1.0
+
+IzmaiÅ†as Å¡ajÄ vesijÄ:
+- laboti vairÄki afiksi;
+- papildinÄts vÄrdu krÄjums;
+==================
+Versijas informÄcija 1.0.0
+
+IzmaiÅ†as Å¡ajÄ vesijÄ:
+- visa bibliotÄ“ka konvertÄ“ta uz UTF-8;
+- I konjugÄcijas darbÄ«bas vÄrdiem izveidoti atgriezenisko formu afiksi;
+- praktiski visiem vÄrdiem pievienoti vÄrdÅ¡Ä·iru klasifikatori;
+- ieviesta "dubulto" afiksu lietoÅ¡ana;
+- ieviestas vairÄkas Ä¼oti noderÄ«gas, virspusÄ“ji neredzamas HunSpell funkcijas;
+
+=================
+Version info 0.9.6
+SvarÄ«gs paziÅ†ojums: 
+Å¡Ä« ir vispÄ“dÄ“jÄkÄ vÄrdnÄ«cas versija, kas ir 100% MySpell savietojama. 
+Ar nÄkoÅ¡o laidienu (v.1.0.0) tiks uzsÄkta HunSpell funkcionalitÄtes ievieÅ¡ana.
+
+IzmaiÅ†as Å¡ajÄ versijÄ:
+- koriÄ£Ä“ts .dic fails
 
 =================
 Version info 0.9.4
-Svarîgs paziòojums: 
-arî ğî ir pçdçjâ vârdnîcas versija, kas ir 100% MySpell savietojama. 
-Ar nâkoğo laidienu (v.1.0.0) tiks uzsâkta HunSpell funkcionalitâtes ievieğana.
+SvarÄ«gs paziÅ†ojums: 
+arÄ« Å¡Ä« ir pÄ“dÄ“jÄ vÄrdnÄ«cas versija, kas ir 100% MySpell savietojama. 
+Ar nÄkoÅ¡o laidienu (v.1.0.0) tiks uzsÄkta HunSpell funkcionalitÄtes ievieÅ¡ana.
 
-Izmaiòas ğajâ versijâ:
-- koriìçts SFX x - nezinâmu iemeslu dçï bija zuduği daudzi afiksi;
-- koriìçts .dic fails (par abu problçmu identificçğanu - liels paldies Aleksandram Smiğïajevam);
-
+IzmaiÅ†as Å¡ajÄ versijÄ:
+- koriÄ£Ä“ts SFX x - nezinÄmu iemeslu dÄ“Ä¼ bija zuduÅ¡i daudzi afiksi;
+- koriÄ£Ä“ts .dic fails (par abu problÄ“mu identificÄ“Å¡anu - liels paldies Aleksandram SmiÅ¡Ä¼ajevam);
 
 ==================
 Version info 0.9.3
-Svarîgs paziòojums: 
-ğî ir pçdçjâ vârdnîcas versija, kas ir 100% MySpell savietojama.
-Ar nâkoğo laidienu tiks uzsâkta HunSpell funkcionalitâtes ievieğana.
+SvarÄ«gs paziÅ†ojums: 
+Å¡Ä« ir pÄ“dÄ“jÄ vÄrdnÄ«cas versija, kas ir 100% MySpell savietojama.
+Ar nÄkoÅ¡o laidienu tiks uzsÄkta HunSpell funkcionalitÄtes ievieÅ¡ana.
 
-Izmaiòas ğajâ vesijâ:
-- koriìçts SFX 6 - aizvâkts viens lieks (atkârtots) likums;
-- papildinâts SFX 3 ar likumu pavçles formas veidoğanai;
-- papildinâts SFX 4 ar likumiem piem., vârdu lemt, riet, siet, cirst,  pagâtnes formu veidoğanai;
-- papildinâts SFX 5 ar afiksiem vârdu rît, vît apgâtnes formu iegûğanai;
-- papildinâts SFX 7 ar afiksiem I konj. daïas 2. un 3. grupas vârdu tagadnes formu iegûğanai;
-- papildinâts SFX 8 ar afiksiem vârdu cept, nest, òemt tagadnes formu iegûğanai;
-- mainîti afiksi 2 un E;
-- papildinâts vârdu krâjums;
-- veikta padziïinâta vârdnîcas pârbaude, lai aizvâktu atkârtojumus, kïûdas;
+IzmaiÅ†as Å¡ajÄ vesijÄ:
+- koriÄ£Ä“ts SFX 6 - aizvÄkts viens lieks (atkÄrtots) likums;
+- papildinÄts SFX 3 ar likumu pavÄ“les formas veidoÅ¡anai;
+- papildinÄts SFX 4 ar likumiem piem., vÄrdu lemt, riet, siet, cirst,  pagÄtnes formu veidoÅ¡anai;
+- papildinÄts SFX 5 ar afiksiem vÄrdu rÄ«t, vÄ«t apgÄtnes formu iegÅ«Å¡anai;
+- papildinÄts SFX 7 ar afiksiem I konj. daÄ¼as 2. un 3. grupas vÄrdu tagadnes formu iegÅ«Å¡anai;
+- papildinÄts SFX 8 ar afiksiem vÄrdu cept, nest, Å†emt tagadnes formu iegÅ«Å¡anai;
+- mainÄ«ti afiksi 2 un E;
+- papildinÄts vÄrdu krÄjums;
+- veikta padziÄ¼inÄta vÄrdnÄ«cas pÄrbaude, lai aizvÄktu atkÄrtojumus, kÄ¼Å«das;
 ==================
 Version info 0.9.2
-- kïûdaina relîze
+- kÄ¼Å«daina relÄ«ze
 ==================
 Version info 0.9.1
-- papildinâts SFX x ar iztrûkstoğiem nosacîjumiem;
-- atbilstoği tam mainîta un tîrîta vârdu bâze;
-- papildinâts vârdu krâjums;
-- aizvâkti vairâki kïûdainie ieraksti;
+- papildinÄts SFX x ar iztrÅ«kstoÅ¡iem nosacÄ«jumiem;
+- atbilstoÅ¡i tam mainÄ«ta un tÄ«rÄ«ta vÄrdu bÄze;
+- papildinÄts vÄrdu krÄjums;
+- aizvÄkti vairÄki kÄ¼Å«dainie ieraksti;
 ==================
 Version info 0.9.0
-- izveidots jauns afikss, kas SFX x, kas atbild par sievieğu dzimtes vârdu veidoğanu no 
-  vîrieğu dzimtes vârdiem (skolnieks->skolniece utml);
-- attiecîgi mainîta vârdu bâze, pie viena izmetot vairâkus gramatiski pareizus, taèu idiotiska satura ierakstus;
-- papildinâts vârdu krâjums;
+- izveidots jauns afikss, kas SFX x, kas atbild par sievieÅ¡u dzimtes vÄrdu veidoÅ¡anu no 
+  vÄ«rieÅ¡u dzimtes vÄrdiem (skolnieks->skolniece utml);
+- attiecÄ«gi mainÄ«ta vÄrdu bÄze, pie viena izmetot vairÄkus gramatiski pareizus, taÄu idiotiska satura ierakstus;
+- papildinÄts vÄrdu krÄjums;
 ==================
 Version info 0.8.2
--kosmçtiskas izmaiòas vârdu bâzç;
--labots afiksu fails (kïûda, kuras dçï III konj. darbîbas vârdiem ar galotni ît nebija 
-  -oğs divdabja formu);
+-kosmÄ“tiskas izmaiÅ†as vÄrdu bÄzÄ“;
+-labots afiksu fails (kÄ¼Å«da, kuras dÄ“Ä¼ III konj. darbÄ«bas vÄrdiem ar galotni Ä«t nebija 
+  -oÅ¡s divdabja formu);
 ==================
 Version info 0.8.1
--lielâkas nekâ sâkotnçji domâts izmaiòas vârdu bâzç;
--aizvâktas daşas atvasinâtâs vârdu formas, kuras "nenes" pielietojamu jçgu;
+-lielÄkas nekÄ sÄkotnÄ“ji domÄts izmaiÅ†as vÄrdu bÄzÄ“;
+-aizvÄktas daÅ¾as atvasinÄtÄs vÄrdu formas, kuras "nenes" pielietojamu jÄ“gu;
 =================
 Version info 0.8b1
-!!! versija uzskatâma par pre-release
--bûtiskas izmaiòas aff failâ, tâlab arî leciens versiju numerâcija;
--papildinâjumi vârdu bâzç;
--aizvâktas daşas atvasinâtâs vârdu formas, kuras "nenes" pielietojamu jçgu;
+!!! versija uzskatÄma par pre-release
+-bÅ«tiskas izmaiÅ†as aff failÄ, tÄlab arÄ« leciens versiju numerÄcija;
+-papildinÄjumi vÄrdu bÄzÄ“;
+-aizvÄktas daÅ¾as atvasinÄtÄs vÄrdu formas, kuras "nenes" pielietojamu jÄ“gu;
 =================
 Version info 0.7.4
--labots afiksu fails - kïûdas pçc diviem afiksiem bija vienâdas atslçgas (tas
- (laimîgâ kârtâ, ğíiet, neietekmçja vârdnîcas darbaspçjas);
--ar roku filtrçti îpağîbas vârdu krâjumi;
--papildinâts vârdu krâjums
+-labots afiksu fails - kÄ¼Å«das pÄ“c diviem afiksiem bija vienÄdas atslÄ“gas (tas
+ (laimÄ«gÄ kÄrtÄ, Å¡Ä·iet, neietekmÄ“ja vÄrdnÄ«cas darbaspÄ“jas);
+-ar roku filtrÄ“ti Ä«paÅ¡Ä«bas vÄrdu krÄjumi;
+-papildinÄts vÄrdu krÄjums
 =================
 Version info 0.7.3
--labots II deklinâcijas afikss (papildinâts ar nnis-òòi)
--labotas kïûdas vârdnîcâ
--papildinâts vârdu krâjums
-Zinâmâs problçmas:
-- iztrûkstoği vârdi vai to atseviğías formas, kuras lietotâji ir laipni aicinâti 
-  sûtîti  man darba turpinâğanai.
+-labots II deklinÄcijas afikss (papildinÄts ar nnis-Å†Å†i)
+-labotas kÄ¼Å«das vÄrdnÄ«cÄ
+-papildinÄts vÄrdu krÄjums
+ZinÄmÄs problÄ“mas:
+- iztrÅ«kstoÅ¡i vÄrdi vai to atseviÅ¡Ä·as formas, kuras lietotÄji ir laipni aicinÄti 
+  sÅ«tÄ«ti  man darba turpinÄÅ¡anai.
 =================
 Version info 0.7.2
-- papildinâts vârdu krâjums;
-- novçrstas nepilnîbas vârdu locîjumos
-Zinâmâs problçmas:
-- iztrûkstoği vârdi vai to atseviğías formas.
+- papildinÄts vÄrdu krÄjums;
+- novÄ“rstas nepilnÄ«bas vÄrdu locÄ«jumos
+ZinÄmÄs problÄ“mas:
+- iztrÅ«kstoÅ¡i vÄrdi vai to atseviÅ¡Ä·as formas.
 =================
 Version info 0.7.1
-- korekcijas îpağîbas vârdu pârâko pakâpju afiksos;
-- papildinâts vârdu krâjums;
-- novçrstas nepilnîbas atseviğíu vârdu locîjumos
-Zinâmâs problçmas:
-- iztrûkstoği vârdi vai to atseviğías formas.
+- korekcijas Ä«paÅ¡Ä«bas vÄrdu pÄrÄko pakÄpju afiksos;
+- papildinÄts vÄrdu krÄjums;
+- novÄ“rstas nepilnÄ«bas atseviÅ¡Ä·u vÄrdu locÄ«jumos
+ZinÄmÄs problÄ“mas:
+- iztrÅ«kstoÅ¡i vÄrdi vai to atseviÅ¡Ä·as formas.
 ==================
 Version info 0.7
-- pilnîbâ pârstrâdâta darbîbas vârdu afiksu daïa
-- bûtiski papildinâs .dic fails
-- labotas kïûdainâs formas
-Zinâmâs problçmas
-Joprojâm ir vârdi, kuri netiek atpazîti, taèu darbs turpinâs.
+- pilnÄ«bÄ pÄrstrÄdÄta darbÄ«bas vÄrdu afiksu daÄ¼a
+- bÅ«tiski papildinÄs .dic fails
+- labotas kÄ¼Å«dainÄs formas
+ZinÄmÄs problÄ“mas
+JoprojÄm ir vÄrdi, kuri netiek atpazÄ«ti, taÄu darbs turpinÄs.
 ===================
 Version info 0.6.5
-- labojumi îpağîbas vârdu pârâkâs un vispârâkâs pakâpes afiksos;
-- bûtiski papildinâs .dic fails
-Zinâmâs problçmas
-Atseviğíu I konjugâcijas darbîbas vârdu atseviğías formas
+- labojumi Ä«paÅ¡Ä«bas vÄrdu pÄrÄkÄs un vispÄrÄkÄs pakÄpes afiksos;
+- bÅ«tiski papildinÄs .dic fails
+ZinÄmÄs problÄ“mas
+AtseviÅ¡Ä·u I konjugÄcijas darbÄ«bas vÄrdu atseviÅ¡Ä·as formas
 ===================
 Version info 0.6.4
-- bûtiskas izmaiòas daşos afiksos, kuru dçï notika tâ, kâ notika
-- izfiltrçts un pârbaudîts dic fails
+- bÅ«tiskas izmaiÅ†as daÅ¾os afiksos, kuru dÄ“Ä¼ notika tÄ, kÄ notika
+- izfiltrÄ“ts un pÄrbaudÄ«ts dic fails
 =================
 Version info 0.6.3c
-- daşi labojumi aff failâ
-- papildinâts dic fails
+- daÅ¾i labojumi aff failÄ
+- papildinÄts dic fails
 =================
 Version info 0.6.3a
-- izlabots aff fails (neuzmanîbas kïûda, kas, iespçjams, neatstâja ietekmi uz
-  darbîbu
-- papildinâts dic fails
+- izlabots aff fails (neuzmanÄ«bas kÄ¼Å«da, kas, iespÄ“jams, neatstÄja ietekmi uz
+  darbÄ«bu
+- papildinÄts dic fails
 =================
  
 Version info 0.6.3
-- izlaboti un optimizçti daşi afiksi;
-- manuâli izfiltrçts vârdu pamatformu krâjums, tuvinot reâlai dzîvei;
-- koplektâ iekïauts arî Jâòa Vilima izstrâdâtais vârdu pârnesçjs v. 0.2 (skat. hyph-lasimani.txt);
+- izlaboti un optimizÄ“ti daÅ¾i afiksi;
+- manuÄli izfiltrÄ“ts vÄrdu pamatformu krÄjums, tuvinot reÄlai dzÄ«vei;
+- koplektÄ iekÄ¼auts arÄ« JÄÅ†a Vilima izstrÄdÄtais vÄrdu pÄrnesÄ“js v. 0.2 (skat. hyph-lasimani.txt);
 
-Vârdnîcâ joprojâm iztrûkst ğis un tas, tâpçc visi ir mîïi aicinâti sûtît neatpazîtos vârdus man (adrese - skat augğâ) vai ierosinâjumus par pârnesçju - Jânim Vilimam.
+VÄrdnÄ«cÄ joprojÄm iztrÅ«kst Å¡is un tas, tÄpÄ“c visi ir mÄ«Ä¼i aicinÄti sÅ«tÄ«t neatpazÄ«tos vÄrdus man (adrese - skat augÅ¡Ä) vai ierosinÄjumus par pÄrnesÄ“ju - JÄnim Vilimam.
 
-Turpmâkajos plânos ietilpst vârdnîcas papildinâğana un, iespçjams, darbîbas vârdu afiksu pârstrâde, ja eksperimenti apstiprinâs aizdomas par kïûdâm.
+TurpmÄkajos plÄnos ietilpst vÄrdnÄ«cas papildinÄÅ¡ana un, iespÄ“jams, darbÄ«bas vÄrdu afiksu pÄrstrÄde, ja eksperimenti apstiprinÄs aizdomas par kÄ¼Å«dÄm.
 
 =================
 Version info 0.6
-- pilnîgi pârveidota afiksu faila struktûra, sadalot locîjumus
-  pa skaitïiem un pamazinâmâm formâm ar nolûku uzlabot pareizo
-  (dzîvç pielietojamo) formu kodçğanu. Ir izdarîti arî vairâki
+- pilnÄ«gi pÄrveidota afiksu faila struktÅ«ra, sadalot locÄ«jumus
+  pa skaitÄ¼iem un pamazinÄmÄm formÄm ar nolÅ«ku uzlabot pareizo
+  (dzÄ«vÄ“ pielietojamo) formu kodÄ“Å¡anu. Ir izdarÄ«ti arÄ« vairÄki
   afiksu labojumi.
 
 
-Vârdnîcâ 0.6 joprojâm nav atrodami:
-- darbîbas vârdi, kuri eksistç tikai refleksîvajâs formâs
-- I konjugâcijas darbîbas vârdu refleksîvâs formas
-- I konjugâcijas darbîbas vârdu divdabju sufiksi - oğs oğais ams amais
-- I konjugâcijas darbîbas vârdu divdabju sufiksi - is dams damais
-- lietvârdi-daudzskaitlinieki
+VÄrdnÄ«cÄ 0.6 joprojÄm nav atrodami:
+- darbÄ«bas vÄrdi, kuri eksistÄ“ tikai refleksÄ«vajÄs formÄs
+- I konjugÄcijas darbÄ«bas vÄrdu refleksÄ«vÄs formas
+- I konjugÄcijas darbÄ«bas vÄrdu divdabju sufiksi - oÅ¡s oÅ¡ais ams amais
+- I konjugÄcijas darbÄ«bas vÄrdu divdabju sufiksi - is dams damais
+- lietvÄrdi-daudzskaitlinieki
 
-Visi, kas lieto ğo "brînumu", ir laipni aicinâti sûtît man neatpazîto
-vârdu sarakstus (txt vai swx formâtos). 
-Visideâlâkâ forma - neatpazîtais vârds visos tam raksturîgajos locîjumos.
+Visi, kas lieto Å¡o "brÄ«numu", ir laipni aicinÄti sÅ«tÄ«t man neatpazÄ«to
+vÄrdu sarakstus (txt vai swx formÄtos). 
+VisideÄlÄkÄ forma - neatpazÄ«tais vÄrds visos tam raksturÄ«gajos locÄ«jumos.
 
-Entuziasti var nodarboties arîdzan ar specializçto vârdnîcu veidoğanu, 
-kuras var pieslçgt lietoğanai OpenOffice paralçli pamatvârdnîcai.
+Entuziasti var nodarboties arÄ«dzan ar specializÄ“to vÄrdnÄ«cu veidoÅ¡anu, 
+kuras var pieslÄ“gt lietoÅ¡anai OpenOffice paralÄ“li pamatvÄrdnÄ«cai.
 
 =================
 Verson info 0.5.5
-- pievienota visa 1. konjugâcija....
-- lietvârdu pamazinâmo formu afiksi
+- pievienota visa 1. konjugÄcija....
+- lietvÄrdu pamazinÄmo formu afiksi
 
-Vârdnîcâ 0.5.5 nav atrodami:
-- darbîbas vârdi, kuri eksistç tikai refleksîvajâs formâs
-- lietvârdi-daudzskaitlinieki
-- vçl ğis un tas
+VÄrdnÄ«cÄ 0.5.5 nav atrodami:
+- darbÄ«bas vÄrdi, kuri eksistÄ“ tikai refleksÄ«vajÄs formÄs
+- lietvÄrdi-daudzskaitlinieki
+- vÄ“l Å¡is un tas
 
 Verson info 0.5sr2
-- pievienoti 1. konjugâcijas darbîbas vârdû nâkotnes formas
+- pievienoti 1. konjugÄcijas darbÄ«bas vÄrdÅ« nÄkotnes formas
 
-Vârdnîcâ 0.5sr2 nav atrodami:
-- darbîbas vârdi, kuri eksistç tikai refleksîvajâs formâs
-- lietvârdi-daudzskaitlinieki
-- vçl ğis un tas (piem. pamazinâmâs formas)
+VÄrdnÄ«cÄ 0.5sr2 nav atrodami:
+- darbÄ«bas vÄrdi, kuri eksistÄ“ tikai refleksÄ«vajÄs formÄs
+- lietvÄrdi-daudzskaitlinieki
+- vÄ“l Å¡is un tas (piem. pamazinÄmÄs formas)
 
 Verson info 0.5
-- pievienota divdabju veidoğana un locîğana
-- izlabota kïûda I deklinâcijas locîğanâ (piem. kuìis)
-- izlabota kïûda V deklinâcijas locîğanâ (piem. roze)
-- papildinâta vârdnîca (nedaudz)
+- pievienota divdabju veidoÅ¡ana un locÄ«Å¡ana
+- izlabota kÄ¼Å«da I deklinÄcijas locÄ«Å¡anÄ (piem. kuÄ£is)
+- izlabota kÄ¼Å«da V deklinÄcijas locÄ«Å¡anÄ (piem. roze)
+- papildinÄta vÄrdnÄ«ca (nedaudz)
 
-Vârdnîcâ 0.5 nav atrodami:
-- 1. konjugâcijas darbîbas vârdi
-- darbîbas vârdi, kuri eksistç tikai refleksîvajâs formâs
-- lietvârdi-daudzskaitlinieki
-- vçl ğis un tas (piem. pamazinâmâs formas)
+VÄrdnÄ«cÄ 0.5 nav atrodami:
+- 1. konjugÄcijas darbÄ«bas vÄrdi
+- darbÄ«bas vÄrdi, kuri eksistÄ“ tikai refleksÄ«vajÄs formÄs
+- lietvÄrdi-daudzskaitlinieki
+- vÄ“l Å¡is un tas (piem. pamazinÄmÄs formas)
 
 Version info 0.4.1
-- izlabots glucks I deklinâcijas lietvârdu locîğanâ
-- pievienoti skaitïa vârdi
+- izlabots glucks I deklinÄcijas lietvÄrdu locÄ«Å¡anÄ
+- pievienoti skaitÄ¼a vÄrdi
 
-Vârdnîcâ nav atrodami:
-- 1. konjugâcijas darbîbas vârdi
-- darbîbas vârdi, kuri eksistç tikai refleksîvajâs formâs
-- lietvârdi-daudzskaitlinieki
+VÄrdnÄ«cÄ nav atrodami:
+- 1. konjugÄcijas darbÄ«bas vÄrdi
+- darbÄ«bas vÄrdi, kuri eksistÄ“ tikai refleksÄ«vajÄs formÄs
+- lietvÄrdi-daudzskaitlinieki
 - divdabji, 
-- vçl ğis un tas
+- vÄ“l Å¡is un tas
 
 
 Version info: 0.4
--koriìçtas 1. un 4. deklinâcija lietvârdu vârdnîcas
--ieviesti afiksi îpağîbas vârdiem
--pievienoti apstâkïa vârdi un îpağîbas vârdi
+-koriÄ£Ä“tas 1. un 4. deklinÄcija lietvÄrdu vÄrdnÄ«cas
+-ieviesti afiksi Ä«paÅ¡Ä«bas vÄrdiem
+-pievienoti apstÄkÄ¼a vÄrdi un Ä«paÅ¡Ä«bas vÄrdi
 
-Vârdnîcâ nav atrodami:
-- 1. konjugâcijas darbîbas vârdi
-- darbîbas vârdi, kuri eksistç tikai refleksîvajâs formâs
-- lietvârdi-daudzskaitlinieki
+VÄrdnÄ«cÄ nav atrodami:
+- 1. konjugÄcijas darbÄ«bas vÄrdi
+- darbÄ«bas vÄrdi, kuri eksistÄ“ tikai refleksÄ«vajÄs formÄs
+- lietvÄrdi-daudzskaitlinieki
 - divdabji, 
-- skaitïa vârdi
-- vçl ğis un tas
+- skaitÄ¼a vÄrdi
+- vÄ“l Å¡is un tas
 
 
 Version info: 0.3.1
--izlabots fails .dic, II deklinâcijas atslçga (suns, akmens)
--pievienoti 1. un 6. deklinâcijas lietvârdi
+-izlabots fails .dic, II deklinÄcijas atslÄ“ga (suns, akmens)
+-pievienoti 1. un 6. deklinÄcijas lietvÄrdi
 
-Vârdnîcâ nav atrodami:
-- 1. konjugâcijas darbîbas vârdi
-- îpağîbas vârdi, divdabji, apstâkïa vârdi, 
-- darbîbas vârdi, kuri eksistç tikai refleksîvajâs formâs
-- skaitïa vârdi
-- vçl ğis un tas
+VÄrdnÄ«cÄ nav atrodami:
+- 1. konjugÄcijas darbÄ«bas vÄrdi
+- Ä«paÅ¡Ä«bas vÄrdi, divdabji, apstÄkÄ¼a vÄrdi, 
+- darbÄ«bas vÄrdi, kuri eksistÄ“ tikai refleksÄ«vajÄs formÄs
+- skaitÄ¼a vÄrdi
+- vÄ“l Å¡is un tas
 
 
 Version info: 0.3
 
-Vârdnîcâ nav atrodami:
-- 1. un 6. deklinâcijas lietvârdi
-- 1. konjugâcijas darbîbas vârdi
-- îpağîbas vârdi, divdabji, apstâkïa vârdi, 
-- darbîbas vârdi, kuri eksistç tikai refleksîvajâs formâs
-- skaitïa vârdi
-- vçl ğis un tas
+VÄrdnÄ«cÄ nav atrodami:
+- 1. un 6. deklinÄcijas lietvÄrdi
+- 1. konjugÄcijas darbÄ«bas vÄrdi
+- Ä«paÅ¡Ä«bas vÄrdi, divdabji, apstÄkÄ¼a vÄrdi, 
+- darbÄ«bas vÄrdi, kuri eksistÄ“ tikai refleksÄ«vajÄs formÄs
+- skaitÄ¼a vÄrdi
+- vÄ“l Å¡is un tas
 
 Version info: 0.3a
-izlabots fails .dic, kurâ bija zuduğas atslçgas IV deklinâcijai
+izlabots fails .dic, kurÄ bija zuduÅ¡as atslÄ“gas IV deklinÄcijai
 
 Version info: 0.3
 
-Vârdnîcâ nav atrodami:
-- 1. un 6. deklinâcijas lietvârdi
-- 1. konjugâcijas darbîbas vârdi
-- îpağîbas vârdi, divdabji, apstâkïa vârdi, 
-- darbîbas vârdi, kuri eksistç tikai refleksîvajâs formâs
-- skaitïa vârdi
-- vçl ğis un tas
+VÄrdnÄ«cÄ nav atrodami:
+- 1. un 6. deklinÄcijas lietvÄrdi
+- 1. konjugÄcijas darbÄ«bas vÄrdi
+- Ä«paÅ¡Ä«bas vÄrdi, divdabji, apstÄkÄ¼a vÄrdi, 
+- darbÄ«bas vÄrdi, kuri eksistÄ“ tikai refleksÄ«vajÄs formÄs
+- skaitÄ¼a vÄrdi
+- vÄ“l Å¡is un tas
 
-Vârdîcas uzstâdîğanai - skat. :
+VÄrdÄ«cas uzstÄdÄ«Å¡anai - skat. :
 
 http://www.ooodocs.org/dictinstall/nexthelp.html   (En)
 
