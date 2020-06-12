@@ -13,6 +13,17 @@
                 <value>be-BY</value>
             </prop>
         </node>
+        <node oor:name="HyphDic_be_BY" oor:op="fuse">
+            <prop oor:name="Locations" oor:type="oor:string-list">
+                <value>%origin%/hyph_be_BY.dic</value>
+            </prop>
+            <prop oor:name="Format" oor:type="xs:string">
+                <value>DICT_HYPH</value>
+            </prop>
+            <prop oor:name="Locales" oor:type="oor:string-list">
+                <value>be-BY</value>
+            </prop>
+        </node>
     </node>
  </node>
 </oor:component-data>
