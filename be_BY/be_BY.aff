@@ -1,12 +1,12 @@
 # Belarusian affix file and dictionaries
-# Version number: 0.51
-# Copyright: Mikalai Udodau (C) 2010, 2011
+# Version number: 0.58
+# Copyright: Mikalai Udodau (C) 2010-2019
 # License: Creative Commons Attribution-ShareAlike
 # See http://creativecommons.org/licenses/by-sa/3.0/
 SET UTF-8
 TRY аяоёйцукжеэнгшўзхіыпрлдюьбвтмсчфАЯОЁЙЦУКЖЕЭНГШЎЗХІЫПРЛДЮЬБВТМСЧФ'
 WORDCHARS '
-REP 32
+REP 48
 REP а у 
 REP ваў ў 
 REP дзь д 
@@ -16,30 +16,46 @@ REP еньва яне
 REP ецца юць 
 REP еч юш 
 REP з сы 
+REP зі ы 
+REP зь з
 REP ій яў 
 REP іра а 
+REP іра я 
 REP іру у 
+REP іру ю 
 REP іся і 
+REP и і 
+REP ъ ' 
 REP йо ё 
 REP Йо Ё 
 REP к каў 
+REP каў к 
 REP ке цы 
+REP ль л
 REP наў н 
+REP нь н
 REP с на 
+REP сь с
 REP сь ш 
 REP то цё 
 REP ты ці 
 REP тэ фе 
 REP тэ фі 
+REP ть ць 
+REP у 'ю 
 REP ўся ў 
 REP ц дс 
 REP ца ь 
+REP ць ц
+REP ш ін 
 REP ь ' 
 REP ье а 
-REP ыяль ый 
+REP ьг ы 
+REP ьі ы 
 REP эй оў 
+REP яль й 
 REP яў й 
-MAP 20
+MAP 15
 MAP c с
 MAP i і
 MAP а о
@@ -55,11 +71,6 @@ MAP ы і
 MAP э а
 MAP э е
 MAP я е
-MAP зь з
-MAP ль л
-MAP нь н
-MAP сь с
-MAP ць ц
 BREAK 2
 BREAK -
 BREAK –
@@ -169,7 +180,7 @@ SFX O ок ка [бджзлмнпрстчш]ок
 SFX O вок ўка вок 
 SFX O о а о 
 SFX O ў ва ў 
-SFX O ц ца [аірыья]ц 
+SFX O ц ца [аінрыья]ц 
 SFX O ец ца [бзмнпсф]ец 
 SFX O вец ўца вец 
 SFX O лец льца лец 
@@ -180,7 +191,7 @@ SFX H а у а
 SFX H е ю е 
 SFX H ё ю ё 
 SFX H й ю й 
-SFX H к ку [еійлнрсуўцыэюя]к 
+SFX H к ку [еёійлнрсуўцыэюя]к 
 SFX H ак ку [бджзлмнпрстчш]ак 
 SFX H вак ўку вак 
 SFX H ок ку [бджзлмнпрстчш]ок 
@@ -201,7 +212,7 @@ SFX H й ем й
 SFX H ь ем ь 
 SFX H у ам у 
 SFX H ў вам ў 
-SFX H к кам [еійлнорсуўцыэюя]к 
+SFX H к кам [еёійлнорсуўцыэюя]к 
 SFX H ак кам [бджзлмнпрстчш]ак 
 SFX H вак ўкам вак 
 SFX H ц цам [аірыья]ц 
@@ -361,7 +372,7 @@ SFX Q а оў а
 SFX Q 0 оў [бвгджзклмнпрстфхцчш] 
 SFX Q е ёў е 
 SFX Q ё ёў ё 
-SFX Q і ёў [азілмносуў']і 
+SFX Q і ёў [азілмносуўя']і 
 SFX Q і оў [гкх]і 
 SFX Q й ёў й 
 SFX Q ь ёў ь 
@@ -372,7 +383,7 @@ SFX Q а ам а
 SFX Q 0 ам [бвгджзклмнпрстфхцчш] 
 SFX Q е ям е 
 SFX Q ё ям ё 
-SFX Q і ям [азілмносуў']і 
+SFX Q і ям [азілмносуўя']і 
 SFX Q і ам [гкх]і 
 SFX Q й ям й 
 SFX Q о ам о 
@@ -383,7 +394,7 @@ SFX Q а амі а
 SFX Q 0 амі [бвгджзклмнпрстфхцчш] 
 SFX Q е ямі е 
 SFX Q ё ямі ё 
-SFX Q і ямі [азілмносуў']і 
+SFX Q і ямі [азілмносуўя']і 
 SFX Q і амі [гкх]і 
 SFX Q й ямі й 
 SFX Q о амі о 
@@ -394,7 +405,7 @@ SFX Q а ах а
 SFX Q 0 ах [бвгджзклмнпрстфхцчш] 
 SFX Q е ях е 
 SFX Q ё ях ё 
-SFX Q і ях [азілмносуў']і 
+SFX Q і ях [азілмносуўя']і 
 SFX Q і ах [гкх]і 
 SFX Q й ях й 
 SFX Q о ах о 
@@ -831,8 +842,8 @@ SFX y юся іцеся юся
 SFX y уцца іся уцца 
 SFX y уцца іцеся уцца 
 SFX n Y 5
-SFX n ць е [аеэя]ць 
-SFX n ць юць [аеэя]ць 
+SFX n ць е [аеіыэя]ць 
+SFX n ць юць [аеіыэя]ць 
 SFX n уць е [мн]уць 
 SFX n сці е сці 
 SFX n сці юць сці 
