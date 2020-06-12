@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006"  xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-<!--
-    <registration>
-        <simple-license accept-by="admin" suppress-on-update="false" >
-            <license-text xlink:href="README_spell_be_BY.txt" lang="be-BY" />
-        </simple-license>
-    </registration>
--->
     <version value="0.58" />
     <identifier value="net.crom-a.at.tut.by.www.Mikalai.Udodau.OOo-Dictionaries.be-BY" />
     <display-name>
-        <name lang="en">Belarusian (Belarus) spell check dictionary</name>
-        <name lang="be">Беларускі слоўнік для спраўджэння арфаграфіі</name>
+        <name lang="en-US">Belarusian spelling dictionary</name>
     </display-name>
     <platform value="all" />
     <dependencies>
