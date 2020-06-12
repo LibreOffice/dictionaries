@@ -16,7 +16,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-ru,\
 	dictionaries/ru_RU/Linguistic.xcu \
 	dictionaries/ru_RU/README_Lightproof_ru_RU.txt \
 	dictionaries/ru_RU/README_ru_RU.txt \
-	dictionaries/ru_RU/README_thes_ru_RU.txt \
+	dictionaries/ru_RU/README_thes_ru_RU_M_aot_and_v2.txt \
 	dictionaries/ru_RU/ru_RU.aff \
 	dictionaries/ru_RU/ru_RU.dic \
 ))
@@ -45,7 +45,7 @@ $(eval $(call gb_Dictionary_add_localized_xcu_file,dict-ru,dialog,\
 ))
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-ru,\
-	dictionaries/ru_RU/th_ru_RU_v2.dat \
+	dictionaries/ru_RU/th_ru_RU_M_aot_and_v2.dat \
 ))
 
 # vim: set noet sw=4 ts=4:
