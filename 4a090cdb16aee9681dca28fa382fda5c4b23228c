@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "76ef45ee_0d7b41e5",
+        "filename": "be_BY/description.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000321
+      },
+      "writtenOn": "2020-06-17T08:43:01Z",
+      "side": 1,
+      "message": "Let’s change back to name lang\u003d\"en-US\".\n\nAnd in a later patch, (possibly), change all instances of “spelling dictionary” to “spell check dictionary”, or if deemed unnecessary, revert this string for consistency",
+      "revId": "4a090cdb16aee9681dca28fa382fda5c4b23228c",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
