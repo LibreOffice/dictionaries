@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cb09846f_b663df88",
+        "filename": "ca/description.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000321
+      },
+      "writtenOn": "2020-07-10T15:49:12Z",
+      "side": 1,
+      "message": "Typo here in the language code",
+      "revId": "0050c7e13764c66ff538c956dd685c22761eb8b8",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
