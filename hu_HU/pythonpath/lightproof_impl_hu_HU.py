@@ -126,14 +126,14 @@ def suggest(rLoc, word):
 
 # get the nth word of the input string or None
 def word(s, n):
-    a = re.match("(?u)( [-.\w%%]+){" + str(n-1) + "}( [-.\w%%]+)", s)
+    a = re.match("(?u)( [-.\\w%%]+){" + str(n-1) + "}( [-.\\w%%]+)", s)
     if not a:
         return ''
     return a.group(2)[1:]
 
 # get the (-)nth word of the input string or None
 def wordmin(s, n):
-    a = re.search("(?u)([-.\w%%]+ )([-.\w%%]+ ){" + str(n-1) + "}$", s)
+    a = re.search("(?u)([-.\\w%%]+ )([-.\\w%%]+ ){" + str(n-1) + "}$", s)
     if not a:
         return ''
     return a.group(1)[:-1]
