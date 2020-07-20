@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ec2f2fd_9de594c4",
+        "filename": "en/pythonpath/lightproof_impl_en.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1000083
+      },
+      "writtenOn": "2020-07-20T15:33:49Z",
+      "side": 1,
+      "message": "or prefix the string with r for raw string",
+      "revId": "995cc86f814539411f7c3ce7c6315f6a37743178",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
