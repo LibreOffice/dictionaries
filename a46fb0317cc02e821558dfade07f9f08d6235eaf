@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "64d93e82_6c8633cf",
+        "filename": "ko_KR/description.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2020-08-08T18:35:05Z",
+      "side": 1,
+      "message": "In my opinion, add publisher tag after dependencies. \nBecause, Huspell-dict-ko maintainer is \"Changwoo Ryu\", Korean Debian Developer \u0026 GNOME Korean Translation Coordinator.\nSo, My recommend is add publisher  \nFor example.\n\u003cpublisher\u003e\n    \u003cname xlink:href\u003d\"https://github.com/spellcheck-ko/hunspell-dict-ko\" lang\u003d\"en-US\"\u003eChangwoo Ryu\u003c/name\u003e\n    \u003cname xlink:href\u003d\"https://github.com/spellcheck-ko/hunspell-dict-ko\" lang\u003d\"ko-KR\"\u003e류창우\u003c/name\u003e\n\u003c/publisher\u003e",
+      "range": {
+        "startLine": 11,
+        "startChar": 3,
+        "endLine": 11,
+        "endChar": 19
+      },
+      "revId": "a46fb0317cc02e821558dfade07f9f08d6235eaf",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
