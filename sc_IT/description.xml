@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <version value="2.0" />
+    <identifier value="sc.lsc.openoffice.ditzionariusardu" />
+    <display-name>
+
+        <name lang="en">Sardinian spelling dictionary</name>
+        <name lang="sc">Curretore regionale sardu</name>
+    </display-name>
+    <platform value="all" />
+    <dependencies>
+        <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
+    </dependencies>
+    <registration>
+        <simple-license  accept-by="admin" default-license-id="en" suppress-on-update="true" >
+            <license-text xlink:href="licenses/agpl3.txt" lang="en" license-id="en" />
+        </simple-license>
+    </registration>
+
+</description>

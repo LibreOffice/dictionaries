@@ -1,0 +1,1731 @@
+# Ditzionariu sardu - CROS Curretore ortogràficu sardu
+#
+# Original version has been developed by:
+# - Mario Puddu (language expert)
+# - Francesco Cheratzu (requirements and management)
+# - Narciso Caddeo (implementation)
+#
+# Copyright 2009-2010 (C) Regione Autònoma de sa Sardigna
+# Copyright 2000-2010 (C) Condaghes S.n.c <info@condaghes.it>
+# Copyright 2000-2010 (C) Mario Puddu <mapud@tiscali.it>
+# Copyright 2000-2010 (C) Francesco Cheratzu <f.cheratzu@tiscali.it>
+# Copyright 2009-2010 (C) Massimo Cireddu <massimeddu@gmail.com>
+# Copyright 2009-2010 (C) Roberto Bolognesi <robertobolognesi@hotmail.com>
+#
+# You must keep the authors' name in any further modifications.
+# 
+# Version 1.1-beta8 (2012/06/15) (YYYY/MM/DD)
+#
+# This file is distributed under AGPL v3 license.
+# This file is part of the "ditzionariu sardu".
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+# 
+# References (see also references/ directory):
+# - LSC: Limba Sarda Comuna - Normas linguìsticas de referènzia a caràtere
+# isperimentale pro sa limba sarda iscrita de s'Amministrazione
+# regionale
+# [http://www.sardegnacultura.it/documenti/7_108_20090205122432.pdf]
+#
+# - GRAM: Propostas isperimentales de unos cantos lineamentos grammaticales
+# comunes de sa limba sarda
+# [http://www.sardegnacultura.it/documenti/7_108_20090205130352.pdf]
+#
+# - GLOS: Glossàriu isperimentale cunforma a sas normas de refèrentzia a
+# caràtere isperimentale pro sa limba sarda iscritta, in essida, de
+# s'Amministratzione regionale
+# [http://www.sardegnacultura.it/documenti/7_108_20090205130512.pdf]
+#
+# - DITZ: Ditzionàriu de sa limba sarda
+# [http://www.ditzionariu.org]
+#
+# Changelog:
+#
+# -version 1.1-beta2: Bersione annoada chi serrat medas bugs.
+# -version 1.1-beta1: Bortadu a is regulas de sa LSC e annoadu a Hunspell
+# -version 1.0: Est unu vocabbolàriu de unas 117.600 peràulas de totu sa 
+# limba sarda iscritas a una régula pertzisa e parívile fintzas: 
+# - pro s'atzentu gràficu
+# - faghet su plurale de númenes e azetivos e sos menguantes issoro
+# - sa coniugatzione de sos verbos est limitadas a sos printzipales
+# - e ponet sas formas enclíticas cun unu solu pronúmene, e duncas 
+# - mancant sas formas cun duos e tres elementos enclíticos
+
+NAME Ditzionariu sardu
+LANG sc
+HOME http://www.ditzionariu.org
+VERSION 1.1-beta8
+SET UTF-8
+FLAG UTF-8
+#TODO: mudau da sa bersioni italiana, torra a castiai!
+TRY auioertnsclmdpgbzfvhàq'ACMSkBGPLxERTVòIODNwFùèìjUZKWJQXÙÀÒÈÌ·yY!
+KEY qwertyuiop|asdfghjkl|zxcvbnm
+
+# - Vocales: a, e, i, o, u
+#
+# In su tratamentu de is vocales latinas, chi podiant èssere curtzas o longas,
+# su sardu si cumportat a manera variada in s'internu suo: in is variedades
+# tzentru-setentrionales amus unu sistema a chimbe vocales (a, e, i, o, u), in
+# su cale is vocales e e o podent èssere abertas o serradas, segundu is règulas
+# de sa metafonesi, duncas amus Micheli [mi:keli], in su cale sa e est serrada
+# ca sa i chi sighit est vocale serrada, e Michela [mi:kEla], in su cale sa e est
+# aberta ca sa a chi sighit est vocale aberta; in is variedades meridionales amus
+# unu sistema a sete vocales (a [a], e aberta [E], e serrada [e], i [i], o
+# aberta [ç], o serrada [o], u [u]), es.su sustantivu beni [:bEni] che si
+# distinghet dae beni [:beni], imperativu de su verbu benni(ri). In custas normas
+# s'est preferidu de semplificare su sistema, non marchende cun diacrìticos
+# s'abertura o sa serradura de is vocales.
+#
+# Ref. LSC 5.1
+
+MAP 5
+MAP aàAÀ
+MAP eèEÈ
+MAP iìIÌ
+MAP oòOÒ
+MAP uùUÙ
+
+REP 329
+REP ó ò
+REP á à
+REP ú ù
+REP í ì
+REP é è
+REP á a
+REP a à
+REP é e
+REP e è
+REP í i
+REP i ì
+REP ó o
+REP o ò
+REP ú u
+REP u ù
+REP à a
+REP è e
+REP ì i
+REP ò o
+REP ù u
+REP ai are
+REP endi ende
+REP au adu
+REP ts tz
+REP zz tz
+REP i e
+REP u o
+REP arr r
+REP is s
+REP k ch
+REP x gh
+REP tt t
+REP ab a_b
+REP ap a_p
+REP af a_f
+REP inna in_a
+REP as a_s
+REP at a_t
+REP s tz
+REP y j
+REP i j
+REP ha a
+REP ho o
+REP hu u
+REP q c
+REP su_s s'is
+REP su_S s'Is
+REP unu_s un'is
+REP unu_s un'Is
+REP sa_s s'is
+REP sa_s s'is
+REP una_s un'is
+REP una_s un'Is
+REP si_s s'is
+REP mi ·mi
+REP l ·l
+REP dd ·dd
+REP n ·n
+REP ti ·ti
+REP bi ·bi
+REP si ·si
+REP nos ·nos
+REP bos ·bos
+REP nche ·nche·
+REP mi ·mi·
+REP minche ·mi·nche·
+REP mi·nche ·mi·nche·
+REP ti ·ti·
+REP tinche ·ti·nche·
+REP ti·nche ·ti·nche·
+REP bi ·bi·
+REP si ·si·
+REP binchel ·bi·nche·l
+REP bi·nchel ·bi·nche·l
+REP sinche ·si·nche·
+REP si·nche ·si·nche·
+REP nos ·nos·
+REP nosnche ·nos·nche·
+REP nos·nche ·nos·nche·
+REP bos ·bos·
+REP bosnche ·bos·nche·
+REP bos·nche ·bos·nche·
+REP cincu chimbe
+REP cuatru bator
+REP iaus ìamus
+REP ade et
+REP idi et
+REP semperecando semper_e_cando
+REP assumancu a_su_mancu
+REP è est
+REP é est
+REP un_a un'a
+REP un_à un'à
+REP un_e un'e
+REP un_è un'è
+REP un_i un'i
+REP un_ì un'ì
+REP un_o un'o
+REP un_ò un'ò
+REP un_u un'u
+REP un_ù un'ù
+REP achere fàghere
+REP atteros àteros
+REP da t
+REP z gi
+REP az àgi
+REP ez ègi
+REP iz ìgi
+REP oz ògi
+REP uz ùgi
+REP chin cun
+REP ermanu ghermanu
+REP c tz
+REP arrechedere rechèdere
+REP iaus ìamus
+REP ap' apo_
+REP cu bb
+REP ègua ebba
+REP cabaddu caddu
+REP giaru craru
+REP gianna ghenna
+REP menzus mègius
+REP all àgi
+REP ell ègi
+REP ill ìgi
+REP oll ògi
+REP ull ùgi
+REP arz àrgi
+REP ch gh
+REP tu du
+REP fatende faghende
+REP sentza sena
+REP chentza sena
+REP achetu aghedu
+REP ngu mb
+REP àcua abba
+REP ìngu imb
+REP sànguni sàmbene
+REP sàngune sàmbene
+REP s'_ s'
+REP un'_ un'
+REP alberu mata
+REP alberu àrbore
+REP angùria sìndria
+REP angùria foràstigu
+REP azzurru biaitu
+REP azzurru colore_de_chelu
+REP azzurru asulu
+REP basilicu fàbrica
+REP basilicu afàbrica
+REP bellissimu bellu_meda
+REP benissimu bene_meda
+REP bicchiere tassa
+REP blu biaitu_cotu
+REP borsa bussa
+REP bottiglia ampulla
+REP buonissimu bonu_meda
+REP caccia cassa
+REP cassetto calàsciu
+REP cerinu luminu
+REP chiodu puntza
+REP cimiteru campusantu
+REP cintura chinta
+REP cintura chintòrgia
+REP colazione ismurzu
+REP coltellu gurteddu
+REP coperta manta
+REP corridoiu passadissu
+REP cucchiainu cutzarinu
+REP cucina coghina
+REP cugina sorrastra
+REP cuginu fradile
+REP cuscinu cabidale
+REP dopo a_pustis
+REP dopo a_coa
+REP dopo in_fatu
+REP farmacia potecaria
+REP fiammiferu luminu
+REP finestra ventana
+REP fogliu fògiu
+REP forbices ferros
+REP forbices fòrfighes
+REP frequentare abitare
+REP gabinettu privada
+REP gabinettu comuna
+REP gabinettu gabinete
+REP ghiacciu ghiddia
+REP ghiacciu astra
+REP grandissimu mannu_meda
+REP indietru a_segus
+REP insipidu bambu
+REP lontanu a_tesu
+REP lontanu a_largu
+REP macellaiu bangàrgiu
+REP macelleria banga
+REP martellu marteddu
+REP materassu banita
+REP matita lapis
+REP nuovissimu nou·nou
+REP occhiales ullieras
+REP occhiales otzales
+REP orologiu rellògiu
+REP paese bidda
+REP paese logu
+REP pallone botza
+REP pancia matza
+REP pancia bentre
+REP piantina matighedda
+REP pipistrello tzutzurreddu
+REP pipistrello alipedde
+REP pomodoru tomata
+REP primavera beranu
+REP processione prufessone
+REP pullman postale
+REP ragnu arangiolu
+REP scaffale parastàgiu
+REP sedia cadrea
+REP sgabellu banchitu
+REP soffittu bòveda
+REP specchiu ispigru
+REP stancu istracu
+REP strada caminu
+REP strada bia
+REP subitu luego
+REP subitu deretu
+REP sugo bagna
+REP susina pruna
+REP tachinu dindu
+REP tavola mesa
+REP tavolinu mesighedda
+REP tazzina tzìchera
+REP telefoninu telefoneddu
+REP tettu cobertura
+REP trappola artana
+REP trappola latzu
+REP varicella pigota_burda
+REP vassoiu safata
+REP veloce lestru
+REP veloce fùrridu
+REP vicinu acanta
+REP vicinu a_costàgiu
+REP vicinu bighinu
+REP rd dr
+REP dr rd
+REP ra ar
+REP ar ra
+REP ri ir
+REP ir ri
+REP re er
+REP er re
+REP ro or
+REP or ro
+REP ru ur
+REP ur ru
+REP rt tr
+REP tr rt
+REP rv vr
+REP vr rv
+REP rf fr
+REP fr rf
+REP rc cr
+REP cr rc
+REP rg gr
+REP gr rg
+REP br rb
+REP rb br
+REP rd dr
+REP dr rd
+REP rm mr
+REP mr rm
+REP nr rn
+REP rn rn
+REP pr rp
+REP rp pr
+REP sr rs
+REP rs sr
+REP zr rz
+REP rz zr
+REP c tz
+REP j gr
+REP ada at
+REP ede et
+REP idi it
+REP ana ant
+REP ene ent
+REP ini int
+REP gennaio ghennàrgiu
+REP gennaiu ghennàrgiu
+REP febbraio freàrgiu
+REP febbraiu freàrgiu
+REP marzo martzu
+REP aprile abrile
+REP maggio maju
+REP giugno làmpadas
+REP giugnu làmpadas
+REP luglio argiolas
+REP lugliu argiolas
+REP luglio trìulas
+REP lugliu trìulas
+REP agosto austu
+REP settembre cabudanni
+REP ottobre ledàmene
+REP ottobre santugaine
+REP novembre onniasantu
+REP novembre santandria
+REP dicembre idas
+REP dicembre nadale
+REP botìglia ampulla
+REP botiglia ampulla
+REP sognare bisare
+REP sognai bisare
+REP rimm irm
+REP ramm arm
+REP remm erm
+REP romm orm
+REP rumm urm
+REP rabb arb
+REP rebb erb
+REP ribb irb
+REP robb orb
+REP rubb urb
+REP ànci antz
+REP ènci entz
+REP ìnci intz
+REP ònci ontz
+REP ùnci untz
+REP ci tz
+REP gi cr
+REP cheja crèsia
+
+# In casu de is partigheddas pronumenales àtonas postas in fatu a su verbu, pro
+# motivos didàticos, (pro fatzilitare s'individuatzione de is partes costitutivas
+# de sa fràsia e duncas s'anàlisi de sa matessi fràsia), si preferit sa
+# separatzione a s'aglutinatzione. Pro custu s'est preferidu su puntu mesanu
+# (chi minimat is distàntzias e dat s'idea de unu ligòngiu prus mannu).
+#
+# - Impreu de s'apòstrofu
+# In sa pronùntzia, est frecuente meda s'elisione de sa vocale. Pro respetare su
+# critèriu de cunservare semper petzi una forma de is paràulas, s'at a evitare de
+# signare tale elisione, francu in casu de monosìllabos su, sa, mi, ti, si, nde,
+# nche, bi, ddi, ddu, dda, li, lu, la, e in unu, una.
+#
+# Ref. LSC 4.2.7 & LSC 4.2.16
+
+WORDCHARS ·'
+
+ONLYINCOMPOUND w
+COMPOUNDMIN 1
+
+# - S'iteratzione
+#
+# In sa limba sarda est fitianu s'impreu de s'iteratzione, est a nàrrer sa
+# ripetitzione de unu sustantivu, unu verbu, un'agetivu, un'avèrbiu.
+#
+# Ref. GRAM p.57
+
+COMPOUNDRULE 1
+COMPOUNDRULE W·W is:iteratzione
+
+FORBIDDENWORD Z
+
+# plurales de sos númenes, fintzas cun atzentu gràficu, norma generale
+# (no càmbiet zenia de su singulare a su plurale)
+# 
+# Si zughet a.g. chi càmbiat zenia, fàghere su pl.
+# A sos lemmas chi sunt númenes e agt. pònnere s'inditu de s'agt. (e 
+# si zughet a.g. chi càmbiat zenia pònnere sa forma f. cun s'inditu A 
+# e sa/sas forma/formas de su pl. chentza inditu).
+#
+# Ref. LSC 7
+
+SFX A Y 4
+SFX A 0 0/X . 
+SFX A 0 s [^us] is:plurale
+SFX A u os u is:plurale
+SFX A us os us is:plurale
+
+# pl. e menguante de númenes chentza atzentu gràficu 
+# e chi no annunghent síllabba. Sos chi no essint 
+# in /-a/, /-e/ o /-u/ pònnere su meng. cun inditu A. 
+# Si zughent a.g., pònnere fintzas su meng. cun s'inditu A 
+# e si sunt agt. puru pònnere s'inditu de s'agt
+# (faulànciu/D, faulanceddu/D).
+#
+# Ref. LSC 7
+
+SFX B Y 9
+SFX B 0 0/A .
+SFX B a edda/A [^cg]a is:+eddu feminile
+SFX B e eddu/A e is:+eddu
+SFX B u eddu/A [^cg]u is:+eddu
+SFX B a hedda/A [gc]a is:+eddu feminile
+SFX B u heddu/A [gc]u is:+eddu
+SFX B i eddu/A eri is:+eddu
+SFX B o eddu/A [^cg]o is:+eddu
+SFX B o heddu/A [cg]o is:+eddu
+
+SFX b Y 6
+SFX b 0 0/A .
+SFX b e edda/A e is:+eddu feminile
+SFX b o edda/A [^cg]o is:+eddu feminile
+SFX b u edda/A [^cg]u is:+eddu feminile
+SFX b u hedda/A [cg]u is:+eddu feminile
+SFX b o hedda/A [cg]o is:+eddu feminile
+
+# pl. e meng. de sos númenes chi annunghent síllabba (chentza a.g. e 
+# in /-a/ solu nf., in /-e/ o /-u/ solu nm.). Sos chi no essint in /-a/, 
+# /-e/ o /-u/, faghent su meng. e leant s'inditu A (as. domo, paneri).
+# Sos númenes chi tenent dópia possibbilidade: s'inditu A a sos duos meng. chi 
+# (as. domedda/A, domichedda/A).
+#
+# Si b'est [cg] innantis de sa desinéntzia, cheret nàrrere chi nde faghet 
+# contu cando sa raighina agabbat cun una de custas cussonante e duncas annunghet 
+# una /h/ in comintzu de sufissu pro muntènnere su sonu velare. Cun [^cg] no faghet 
+# contu de totu custu.
+#
+# Ref. LSC 7
+
+SFX C Y 10
+SFX C 0 0/A .
+SFX C è eigheddu/A è is:+igheddu
+SFX C a ighedda/A [^cg]a is:+igheddu feminile
+SFX C e igheddu/A e is:+igheddu
+SFX C u igheddu/A [^cg]u is:+igheddu
+SFX C a highedda/A [cg]a is:+igheddu feminile
+SFX C u higheddu/A [gc]u is:+igheddu
+SFX C o igheddu/A [^cg]o is:+igheddu
+SFX C i igheddu/A eri is:+igheddu
+SFX C o heddu/A [cg]o is:+eddu
+
+SFX c Y 6
+SFX c 0 0/A .
+SFX c e ighedda/A e is:+igheddu feminile
+SFX c o ighedda/A [^cg]o is:+igheddu feminile
+SFX c o highedda/A [cg]o is:+igheddu feminile
+SFX c u ighedda/A [^cg]u is:+igheddu feminile
+SFX c u highedda/A [cg]u is:+igheddu feminile
+
+# aciungidores e plurali de is aciungidores chi no faint unu menguanti; de is chi
+# faint su meng. e portant a.g., fai su meng. ca ispostat sa tónica e pònniri 
+# su matessi inditu a s'unu e a s'àteru:
+#
+# Finzas acingidores e plurali de is aciungidores sentza a. 
+# gràficu in -ore, -one e sentza a. g. chi essint in -eri
+#
+# Ref. LSC 7, LSC 5.1, LSC 23.1.4, LSC 23.1.5
+
+SFX D Y 9
+SFX D 0 0/X . 
+SFX D u a/X u is:feminile
+SFX D u as u is:feminile plurale
+SFX D u os u is:plurale
+SFX D e a/X o[nr]e is:feminile
+SFX D e as o[nr]e is:feminile plurale
+SFX D i a/X eri is:feminile
+SFX D i as eri is:feminile plurale
+SFX D 0 s [^u] is:plurale
+
+# aciungidores e plurale de sos aciungidores chentza a. gràficu e chentz'annunta 
+# de síllabba:
+#
+# Ref. LSC 7
+
+SFX E Y 5
+SFX E 0 0/D .
+SFX E u eddu/D [^cg]u is:+eddu
+SFX E u heddu/D [cg]u is:+eddu
+SFX E i eddu/D eri is:+eddu
+SFX E e eddu/D o[nr]e is:+eddu
+
+# aciungidores e plurale de sos acingidores chentza a. gràficu ma cun 
+# annunta de síllabba:
+#
+# Ref. LSC 7
+
+SFX F Y 5
+SFX F 0 0/D .
+SFX F u igheddu/D [^cg]u is:+igheddu
+SFX F u higheddu/D [cg]u is:+igheddu
+SFX F e igheddu/D o[nr]e is:+igheddu
+SFX F i igheddu/D eri is:+igheddu
+
+# I Coniugatzione in -are.
+#
+# In su ditzionariu tocat a pònnere s'infinitu cun sa regula /g (cantare/g)
+#
+# Ref. LSC 21, LSC 22
+
+SFX g Y 110
+SFX g are are/Y are ds:infinitu presente
+SFX g are o/Y are ds:indicativu presente 1ps
+SFX g are as/Y are ds:indicativu presente 2ps
+SFX g are at/Y are ds:indicativu presente 3ps
+SFX g are amus/Y are ds:indicativu presente 1pp
+SFX g are ades/Y are ds:indicativu presente 2pp
+SFX g are ant/Y are ds:indicativu presente 3pp
+SFX g are aia/Y are ds:indicativu imperfetu 1ps
+SFX g are aias/Y are ds:indicativu imperfetu 2ps
+SFX g are aiat/Y are ds:indicativu imperfetu 3ps
+SFX g are aìamus/Y are ds:indicativu imperfetu 1pp
+SFX g are aiais/Y are ds:indicativu imperfetu 2pp
+SFX g are aiant/Y are ds:indicativu imperfetu 3pp
+SFX g are e/Y [^cgi]are ds:congiuntivu presente 1ps
+SFX g are e/Y [^cg]iare ds:congiuntivu presente 1ps
+SFX g are he/Y [cg]are ds:congiuntivu presente 1ps
+SFX g iare e/Y [cg]iare ds:congiuntivu presente 1ps
+SFX g are es/Y [^cgi]are ds:congiuntivu presente 2ps
+SFX g are es/Y [^cg]iare ds:congiuntivu presente 2ps
+SFX g are hes/Y [cg]are ds:congiuntivu presente 2ps
+SFX g iare es/Y [cg]iare ds:congiuntivu presente 2ps
+SFX g are et/Y [^cgi]are ds:congiuntivu presente 3ps
+SFX g are et/Y [^cg]iare ds:congiuntivu presente 3ps
+SFX g are het/Y [cg]are ds:congiuntivu presente 3ps
+SFX g iare et/Y [cg]iare ds:congiuntivu presente 3ps
+SFX g are emus/Y [^cgi]are ds:congiuntivu presente 1pp
+SFX g are emus/Y [^cg]iare ds:congiuntivu presente 1pp
+SFX g are hemus/Y [gc]are ds:congiuntivu presente 1pp
+SFX g iare emus/Y [cg]iare ds:congiuntivu presente 1pp
+SFX g are eis/Y [^cgi]are ds:congiuntivu presente 2pp
+SFX g are eis/Y [^cg]iare ds:congiuntivu presente 2pp
+SFX g are heis/Y [cg]are ds:congiuntivu presente 2pp
+SFX g iare eis/Y [cg]iare ds:congiuntivu presente 2pp
+SFX g are ent/Y [^cgi]are ds:congiuntivu presente 3pp
+SFX g are ent/Y [^cg]iare ds:congiuntivu presente 3pp
+SFX g are hent/Y [cg]are ds:congiuntivu presente 3pp
+SFX g iare ent/Y [cg]iare ds:congiuntivu presente 3pp
+SFX g are are/Y [^i]are ds:congiuntivu imperfetu 1ps
+SFX g are are/Y [^cg]iare ds:congiuntivu imperfetu 1ps
+SFX g iare are/Y [cg]iare ds:congiuntivu imperfetu 1ps
+SFX g are ares/Y [^i]are ds:congiuntivu imperfetu 2ps
+SFX g are ares/Y [^cg]iare ds:congiuntivu imperfetu 2ps
+SFX g iare ares/Y [cg]iare ds:congiuntivu imperfetu 2ps
+SFX g are aret/Y [^i]are ds:congiuntivu imperfetu 3ps
+SFX g are aret/Y [^cg]iare ds:congiuntivu imperfetu 3ps
+SFX g iare aret/Y [cg]iare ds:congiuntivu imperfetu 3ps
+SFX g are aremus/Y [^i]are ds:congiuntivu imperfetu 1pp
+SFX g are aremus/Y [^cg]iare ds:congiuntivu imperfetu 1pp
+SFX g iare aremus/Y [cg]iare ds:congiuntivu imperfetu 1pp
+SFX g are areis/Y [^i]are ds:congiuntivu imperfetu 2pp
+SFX g are areis/Y [^cg]iare ds:congiuntivu imperfetu 2pp
+SFX g iare areis/Y [cg]iare ds:congiuntivu imperfetu 2pp
+SFX g are arent/Y [^i]are ds:congiuntivu imperfetu 3pp
+SFX g are arent/Y [^cg]iare ds:congiuntivu imperfetu 3pp
+SFX g iare arent/Y [cg]iare ds:congiuntivu imperfetu 3pp
+SFX g are a/V are ds:imperativu 2ps
+SFX g are es/V [^cgi]are ds:imperativu negativu 2ps
+SFX g are es/V [^cg]iare ds:imperativu negativu 2ps
+SFX g are hes/V [cg]are ds:imperativu negativu 2ps
+SFX g iare es/V [cg]iare ds:imperativu negativu 2ps
+SFX g are et/V [^cgi]are ds:imperativu 3ps
+SFX g are et/V [^cg]iare ds:imperativu 3ps
+SFX g are het/V [cg]are ds:imperativu 3ps
+SFX g iare et/V [cg]iare ds:imperativu 3ps
+SFX g are emus/V [^cgi]are ds:imperativu 1pp
+SFX g are emus/V [^cg]iare ds:imperativu 1pp
+SFX g are hemus/V [gc]are ds:imperativu 1pp
+SFX g iare emus/V [cg]iare ds:imperativu 1pp
+SFX g are ade/V are ds:imperativu 2pp
+SFX g are eis/V [^cgi]are ds:imperativu negativu 2pp
+SFX g are eis/V [^cg]iare ds:imperativu negativu 2pp
+SFX g are heis/V [cg]are ds:imperativu negativu 2pp
+SFX g iare eis/V [cg]iare ds:imperativu negativu 2pp
+SFX g are ent/V [^cgi]are ds:imperativu 3pp
+SFX g are ent/V [^cg]iare ds:imperativu 3pp
+SFX g are hent/V [cg]are ds:imperativu 3pp
+SFX g iare ent/V [cg]iare ds:imperativu 3pp
+SFX g are adu/D are ds:partitzìpiu passadu
+SFX g are ende/V [^cg]are ds:gerùndiu presente
+SFX g are hende/V [cg]are ds:gerùndiu presente
+SFX g are ende/V [^cg]iare ds:gerùndiu presente
+SFX g iare ende/V [cg]iare ds:gerùndiu presente
+SFX g are ei/Y [^cgi]are ds:passadu remotu 1ps
+SFX g are esi/Y [^cgi]are ds:passadu remotu 1ps
+SFX g are eist/Y [^cgi]are ds:passadu remotu 2ps
+SFX g are eit/Y [^cgi]are ds:passadu remotu 3ps
+SFX g are emus/Y [^cgi]are ds:passadu remotu 1pp
+SFX g are eis/Y [^cgi]are ds:passadu remotu 2pp
+SFX g are eint/Y [^cgi]are ds:passadu remotu 3pp
+SFX g are hei/Y [cg]are ds:passadu remotu 1ps
+SFX g are hesi/Y [cg]are ds:passadu remotu 1ps
+SFX g are heist/Y [cg]are ds:passadu remotu 2ps
+SFX g are heit/Y [cg]are ds:passadu remotu 3ps
+SFX g are hemus/Y [cg]are ds:passadu remotu 1pp
+SFX g are heis/Y [cg]are ds:passadu remotu 2pp
+SFX g are heint/Y [cg]are ds:passadu remotu 3pp
+SFX g iare ei/Y [cg]iare ds:passadu remotu 1ps
+SFX g iare esi/Y [cg]iare ds:passadu remotu 1ps
+SFX g iare eist/Y [cg]iare ds:passadu remotu 2ps
+SFX g iare eit/Y [cg]iare ds:passadu remotu 3ps
+SFX g iare emus/Y [cg]iare ds:passadu remotu 1pp
+SFX g iare eis/Y [cg]iare ds:passadu remotu 2pp
+SFX g iare eint/Y [cg]iare ds:passadu remotu 3pp
+SFX g are ei/Y [^cg]iare ds:passadu remotu 1ps
+SFX g are esi/Y [^cg]iare ds:passadu remotu 1ps
+SFX g are eist/Y [^cg]iare ds:passadu remotu 2ps
+SFX g are eit/Y [^cg]iare ds:passadu remotu 3ps
+SFX g are emus/Y [^cg]iare ds:passadu remotu 1pp
+SFX g are eis/Y [^cg]iare ds:passadu remotu 2pp
+SFX g are eint/Y [^cg]iare ds:passadu remotu 3pp
+
+# I Coniugatzione in -are pro sos verbos chi mudan s'atzentu grafico.
+#
+# In su ditzionariu tocat a ponni s'infinidu e su primu persone singolari de su
+# presente indicativu cun sa regula /G (acapiare/G acàpio/G)
+#
+# Ref. LSC 21, LSC 22
+
+SFX G Y 110
+SFX G are are/Y are ds:infinitu presente
+SFX G o o/Y o ds:indicativu presente 1ps
+SFX G o as/Y o ds:indicativu presente 2ps
+SFX G o at/Y o ds:indicativu presente 3ps
+SFX G are amus/Y are ds:indicativu presente 1pp
+SFX G are ades/Y are ds:indicativu presente 2pp
+SFX G o ant/Y o ds:indicativu presente 3pp
+SFX G are aia/Y are ds:indicativu imperfetu 1ps
+SFX G are aias/Y are ds:indicativu imperfetu 2ps
+SFX G are aiat/Y are ds:indicativu imperfetu 3ps
+SFX G are aìamus/Y are ds:indicativu imperfetu 1pp
+SFX G are aiais/Y are ds:indicativu imperfetu 2pp
+SFX G are aiant/Y are ds:indicativu imperfetu 3pp
+SFX G o e/Y [^cgi]o ds:congiuntivu presente 1ps
+SFX G o e/Y [^cg]io ds:congiuntivu presente 1ps
+SFX G o he/Y [cg]o ds:congiuntivu presente 1ps
+SFX G iare e/Y [cg]iare ds:congiuntivu presente 1ps
+SFX G o es/Y [^cgi]o ds:congiuntivu presente 2ps
+SFX G o es/Y [^cg]io ds:congiuntivu presente 2ps
+SFX G o hes/Y [cg]o ds:congiuntivu presente 2ps
+SFX G iare es/Y [cg]iare ds:congiuntivu presente 2ps
+SFX G o et/Y [^cgi]o ds:congiuntivu presente 3ps
+SFX G o et/Y [^cg]io ds:congiuntivu presente 3ps
+SFX G o het/Y [cg]o ds:congiuntivu presente 3ps
+SFX G iare et/Y [cg]iare ds:congiuntivu presente 3ps
+SFX G are emus/Y [^cgi]are ds:congiuntivu presente 1pp
+SFX G are emus/Y [^cg]iare ds:congiuntivu presente 1pp
+SFX G are hemus/Y [gc]are ds:congiuntivu presente 1pp
+SFX G iare emus/Y [cg]iare ds:congiuntivu presente 1pp
+SFX G are eis/Y [^cgi]are ds:congiuntivu presente 2pp
+SFX G are eis/Y [^cg]iare ds:congiuntivu presente 2pp
+SFX G are heis/Y [cg]are ds:congiuntivu presente 2pp
+SFX G iare eis/Y [cg]iare ds:congiuntivu presente 2pp
+SFX G o ent/Y [^cgi]o ds:congiuntivu presente 3pp
+SFX G o ent/Y [^cg]io ds:congiuntivu presente 3pp
+SFX G o hent/Y [cg]o ds:congiuntivu presente 3pp
+SFX G iare ent/Y [cg]iare ds:congiuntivu presente 3pp
+SFX G are are/Y [^i]are ds:congiuntivu imperfetu 1ps
+SFX G are are/Y [^cg]iare ds:congiuntivu imperfetu 1ps
+SFX G iare are/Y [cg]iare ds:congiuntivu imperfetu 1ps
+SFX G are ares/Y [^i]are ds:congiuntivu imperfetu 2ps
+SFX G are ares/Y [^cg]iare ds:congiuntivu imperfetu 2ps
+SFX G iare ares/Y [cg]iare ds:congiuntivu imperfetu 2ps
+SFX G are aret/Y [^i]are ds:congiuntivu imperfetu 3ps
+SFX G are aret/Y [^cg]iare ds:congiuntivu imperfetu 3ps
+SFX G iare aret/Y [cg]iare ds:congiuntivu imperfetu 3ps
+SFX G are aremus/Y [^i]are ds:congiuntivu imperfetu 1pp
+SFX G are aremus/Y [^cg]iare ds:congiuntivu imperfetu 1pp
+SFX G iare aremus/Y [cg]iare ds:congiuntivu imperfetu 1pp
+SFX G are areis/Y [^i]are ds:congiuntivu imperfetu 2pp
+SFX G are areis/Y [^cg]iare ds:congiuntivu imperfetu 2pp
+SFX G iare areis/Y [cg]iare ds:congiuntivu imperfetu 2pp
+SFX G are arent/Y [^i]are ds:congiuntivu imperfetu 3pp
+SFX G are arent/Y [^cg]iare ds:congiuntivu imperfetu 3pp
+SFX G iare arent/Y [cg]iare ds:congiuntivu imperfetu 3pp
+SFX G o a/V o ds:imperativu 2ps
+SFX G o es/V [^cgi]o ds:imperativu negativu 2ps
+SFX G o es/V [^cg]io ds:imperativu negativu 2ps
+SFX G o hes/V [cg]o ds:imperativu negativu 2ps
+SFX G iare es/V [cg]iare ds:imperativu negativu
+SFX G o et/V [^cgi]o ds:imperativu 3ps
+SFX G o et/V [^cg]io ds:imperativu 3ps
+SFX G o het/V [cg]o ds:imperativu 3ps
+SFX G iare et/V [cg]iare ds:imperativu 3ps
+SFX G are emus/V [^cgi]are ds:imperativu 1pp
+SFX G are emus/V [^cg]iare ds:imperativu 1pp
+SFX G are hemus/V [gc]are ds:imperativu 1pp
+SFX G iare emus/V [cg]iare ds:imperativu 1pp
+SFX G are ade/V are ds:imperativu 2pp
+SFX G are eis/V [^cgi]are ds:imperativu negativu 2pp
+SFX G are eis/V [^cg]iare ds:imperativu negativu 2pp
+SFX G are heis/V [cg]are ds:imperativu negativu 2pp
+SFX G iare eis/V [cg]iare ds:imperativu negativu 2pp
+SFX G o ent/V [^cgi]o ds:imperativu 3pp
+SFX G o ent/V [^cg]io ds:imperativu 3pp
+SFX G o hent/V [cg]o ds:imperativu 3pp
+SFX G iare ent/V [cg]iare ds:imperativu 3pp
+SFX G are adu/D are ds:partitzìpiu passadu
+SFX G are ende/V [^cgi]are ds:gerùndiu presente
+SFX G are hende/V [cg]are ds:gerùndiu presente
+SFX G are ende/V [^cg]iare ds:gerùndiu presente
+SFX G iare ende/V [cg]iare ds:gerùndiu presente
+SFX G are ei/Y are ds:passadu remotu 1ps
+SFX G are esi/Y are ds:passadu remotu 1ps
+SFX G are eist/Y are ds:passadu remotu 2ps
+SFX G are eit/Y are ds:passadu remotu 3ps
+SFX G are emus/Y are ds:passadu remotu 1pp
+SFX G are eis/Y are ds:passadu remotu 2pp
+SFX G are eint/Y are ds:passadu remotu 3pp
+SFX G are hei/Y [cg]are ds:passadu remotu 1ps
+SFX G are hesi/Y [cg]are ds:passadu remotu 1ps
+SFX G are heist/Y [cg]are ds:passadu remotu 2ps
+SFX G are heit/Y [cg]are ds:passadu remotu 3ps
+SFX G are hemus/Y [cg]are ds:passadu remotu 1pp
+SFX G are heis/Y [cg]are ds:passadu remotu 2pp
+SFX G are heint/Y [cg]are ds:passadu remotu 3pp
+SFX G iare ei/Y [cg]iare ds:passadu remotu 1ps
+SFX G iare esi/Y [cg]iare ds:passadu remotu 1ps
+SFX G iare eist/Y [cg]iare ds:passadu remotu 2ps
+SFX G iare eit/Y [cg]iare ds:passadu remotu 3ps
+SFX G iare emus/Y [cg]iare ds:passadu remotu 1pp
+SFX G iare eis/Y [cg]iare ds:passadu remotu 2pp
+SFX G iare eint/Y [cg]iare ds:passadu remotu 3pp
+SFX G are ei/Y [^cg]iare ds:passadu remotu 1ps
+SFX G are esi/Y [^cg]iare ds:passadu remotu 1ps
+SFX G are eist/Y [^cg]iare ds:passadu remotu 2ps
+SFX G are eit/Y [^cg]iare ds:passadu remotu 3ps
+SFX G are emus/Y [^cg]iare ds:passadu remotu 1pp
+SFX G are eis/Y [^cg]iare ds:passadu remotu 2pp
+SFX G are eint/Y [^cg]iare ds:passadu remotu 3pp
+
+# I Coniugatzione in -are po is verbus iregolares che dare
+
+SFX H Y 41
+SFX H are are are ds:infinitu presente
+SFX H are ao are ds:indicativu presente 1ps
+SFX H are as/Y are ds:indicativu presente 2ps
+SFX H are at/Y are ds:indicativu presente 3ps
+SFX H are amus/Y are ds:indicativu presente 1pp
+SFX H are ais/Y are ds:indicativu presente 2pp
+SFX H are ant/Y are ds:indicativu presente 3pp
+SFX H are aia/Y are ds:indicativu imperfetu 1ps
+SFX H are aias/Y are ds:indicativu imperfetu 2ps
+SFX H are aiat/Y are ds:indicativu imperfetu 3ps
+SFX H are aìamus/Y are ds:indicativu imperfetu 1pp
+SFX H are aiais/Y are ds:indicativu imperfetu 2pp
+SFX H are aiant/Y are ds:indicativu imperfetu 3pp
+SFX H are ia/Y are ds:congiuntivu presente 1ps
+SFX H are ias/Y are ds:congiuntivu presente 2ps
+SFX H are iat/Y are ds:congiuntivu presente 3ps
+SFX H are iamus/Y are ds:congiuntivu presente 1pp
+SFX H are iais/Y are ds:congiuntivu presente 2pp
+SFX H are iant/Y are ds:congiuntivu presente 3pp
+SFX H are are/Y are ds:congiuntivu imperfetu 1ps
+SFX H are ares/Y are ds:congiuntivu imperfetu 2ps
+SFX H are aret/Y are ds:congiuntivu imperfetu 3ps
+SFX H are aremus/Y are ds:congiuntivu imperfetu 1pp
+SFX H are areis/Y are ds:congiuntivu imperfetu 2pp
+SFX H are arent/Y are ds:congiuntivu imperfetu 3pp
+SFX H are ae/V are ds:imperativu 2ps
+SFX H are ias/V are ds:imperativu negativu 2ps
+SFX H are iat/V are ds:imperativu 3ps
+SFX H are iamus/V are ds:imperativu 1pp
+SFX H are age/V are ds:imperativu 2pp
+SFX H are iais/V are ds:imperativu negativu 2pp
+SFX H are iant/V are ds:imperativu 3pp
+SFX H are adu/D are ds:partitzìpiu passadu
+SFX H are ende/V are ds:gerùndiu presente
+SFX H are ei/Y are ds:passadu remotu 1ps
+SFX H are esi/Y are ds:passadu remotu 1ps
+SFX H are eist/Y are ds:passadu remotu 2ps
+SFX H are eit/Y are ds:passadu remotu 3ps
+SFX H are emus/Y are ds:passadu remotu 1pp
+SFX H are eis/Y are ds:passadu remotu 2pp
+SFX H are eint/Y are ds:passadu remotu 3pp
+
+# II Coniugatzione in -ere
+#
+# Tocat a ponni in su ditzionariu s'infinidu e su indicativu presente primu persona sing.
+# cun sa regula /I (tìmere/I timo/I). Non balet po su verbou pòder ca est totu iregolare
+# (castia regula /J).
+#
+# Po is verbos iregolares che acabang in [gc]here (che còghere, tìnghere, bìnchere, etc.) tocat a
+# fàgher su propriu sa regula /I (còghere/I cogo/I). Non balet po su verbou fàghere ca est totu
+# iregolare (castia regula /J).
+#
+# Ref. LSC 21, LSC 22
+
+SFX I Y 79
+SFX I ere ere/Y ere ds:infinitu presente
+SFX I o o/Y o ds:indicativu presente 1ps
+SFX I o es/Y [^cg]o ds:indicativu presente 2ps
+SFX I o hes/Y [cg]o ds:indicativu presente 2ps
+SFX I o et/Y [^cg]o ds:indicativu presente 3ps
+SFX I o het/Y [cg]o ds:indicativu presente 3ps
+SFX I o imus/Y [^icg]o ds:indicativu presente 1pp
+SFX I o himus/Y [cg]o ds:indicativu presente 1pp
+SFX I o ides/Y [^cgi]o ds:indicativu presente 2pp
+SFX I o hides/Y [cg]o ds:indicativu presente 2pp
+SFX I o ent/Y [^cg]o ds:indicativu presente 3pp
+SFX I o hent/Y [cg]o ds:indicativu presente 3pp
+SFX I o ia/Y [^cgi]o ds:indicativu imperfetu 1ps
+SFX I o hia/Y [cg]o ds:indicativu imperfetu 1ps
+SFX I o ias/Y [^cgi]o ds:indicativu imperfetu 2ps
+SFX I o hias/Y [cg]o ds:indicativu imperfetu 2ps
+SFX I o iat/Y [^cgi]o ds:indicativu imperfetu 3ps
+SFX I o hiat/Y [cg]o ds:indicativu imperfetu 3ps
+SFX I o ìamus/Y [^cgi]o ds:indicativu imperfetu 1pp
+SFX I o hìamus/Y [cg]o ds:indicativu imperfetu 1pp
+SFX I o iais/Y [^cgi]o ds:indicativu imperfetu 2pp
+SFX I o hiais/Y [cg]o ds:indicativu imperfetu 2pp
+SFX I o iant/Y [^cgi]o ds:indicativu imperfetu 3pp
+SFX I o hiant/Y [cg]o ds:indicativu imperfetu 3pp
+SFX I o a/Y o ds:congiuntivu presente 1ps
+SFX I o as/Y o ds:congiuntivu presente 2ps
+SFX I o at/Y o ds:congiuntivu presente 3ps
+SFX I o amus/Y o ds:congiuntivu presente 1pp
+SFX I o ais/Y o ds:congiuntivu presente 2pp
+SFX I o ant/Y o ds:congiuntivu presente 3pp
+SFX I o ere/Y [^cg]o ds:congiuntivu imperfetu 1ps
+SFX I o here/Y [cg]o ds:congiuntivu imperfetu 1ps
+SFX I o eres/Y [^cg]o ds:congiuntivu imperfetu 2ps
+SFX I o heres/Y [cg]o ds:congiuntivu imperfetu 2ps
+SFX I o eret/Y [^cg]o ds:congiuntivu imperfetu 3ps
+SFX I o heret/Y [cg]o ds:congiuntivu imperfetu 3ps
+SFX I o eremus/Y [^cg]o ds:congiuntivu imperfetu 1pp
+SFX I o heremus/Y [cg]o ds:congiuntivu imperfetu 1pp
+SFX I o ereis/Y [^cg]o ds:congiuntivu imperfetu 2pp
+SFX I o hereis/Y [cg]o ds:congiuntivu imperfetu 2pp
+SFX I o erent/Y [^cg]o ds:congiuntivu imperfetu 3pp
+SFX I o herent/Y [cg]o ds:congiuntivu imperfetu 3pp
+SFX I o e/V [^cgi]o ds:imperativu 2ps
+SFX I o he/V [cg]o ds:imperativu 2ps
+SFX I o as/V o ds:imperativu negativu 2ps
+SFX I o at/V o ds:imperativu 3ps
+SFX I o amus/V o ds:imperativu 1pp
+SFX I o ide/V [^cgi]o ds:imperativu 2pp
+SFX I o hide/V [cg]o ds:imperativu 2pp
+SFX I o ais/V o ds:imperativu negativu 2pp
+SFX I o ant/V o ds:imperativu 3pp
+SFX I ere idu/D [^hiì]ere ds:partitzìpiu passadu
+SFX I ere idu/D [^cg]here ds:partitzìpiu passadu
+SFX I go tu/D go ds:partitzìpiu passadu
+SFX I ere idu/D schere ds:partitzìpiu passadu
+SFX I co tu/D [^s]co ds:partitzìpiu passadu
+SFX I o tu/D [^h][iì]o ds:partitzìpiu passadu
+SFX I o ende/V [^cg]o ds:gerùndiu presente
+SFX I o hende/V [cg]o ds:gerùndiu presente
+SFX I o ei/Y o ds:passadu remotu 1ps
+SFX I o esi/Y o ds:passadu remotu 1ps
+SFX I o eist/Y o ds:passadu remotu 2ps
+SFX I o eit/Y o ds:passadu remotu 3ps
+SFX I o emus/Y o ds:passadu remotu 1pp
+SFX I o eis/Y o ds:passadu remotu 2pp
+SFX I o eint/Y o ds:passadu remotu 3pp
+SFX I io imus/Y io ds:indicativu presente 1pp
+SFX I io ides/Y io ds:indicativu presente 2pp
+SFX I io ia/Y io ds:indicativu imperfetu 1ps
+SFX I io ias/Y io ds:indicativu imperfetu 2ps
+SFX I io iat/Y io ds:indicativu imperfetu 3ps
+SFX I io ìamus/Y io ds:indicativu imperfetu 1pp
+SFX I io iais/Y io ds:indicativu imperfetu 2pp
+SFX I io iant/Y io ds:indicativu imperfetu 3pp
+SFX I hio hi/V hio ds:imperativu 2ps
+SFX I hio hides/V hio ds:imperativu 2pp
+SFX I o idu/D hio ds:partitzìpiu passadu
+SFX I io ie/V [^h]io ds:imperativu 2ps
+SFX I io iides/V [^h]io ds:imperativu 2pp
+
+SFX i Y 79
+SFX i ere ere/Y ere ds:infinitu presente
+SFX i o o/Y o ds:indicativu presente 1ps
+SFX i o is/Y [^cg]o ds:indicativu presente 2ps
+SFX i o his/Y [cg]o ds:indicativu presente 2ps
+SFX i o it/Y [^cg]o ds:indicativu presente 3ps
+SFX i o hit/Y [cg]o ds:indicativu presente 3ps
+SFX i o imus/Y [^icg]o ds:indicativu presente 1pp
+SFX i o himus/Y [cg]o ds:indicativu presente 1pp
+SFX i o ides/Y [^cgi]o ds:indicativu presente 2pp
+SFX i o hides/Y [cg]o ds:indicativu presente 2pp
+SFX i o int/Y [^cg]o ds:indicativu presente 3pp
+SFX i o hint/Y [cg]o ds:indicativu presente 3pp
+SFX i o ia/Y [^cgi]o ds:indicativu imperfetu 1ps
+SFX i o hia/Y [cg]o ds:indicativu imperfetu 1ps
+SFX i o ias/Y [^cgi]o ds:indicativu imperfetu 2ps
+SFX i o hias/Y [cg]o ds:indicativu imperfetu 2ps
+SFX i o iat/Y [^cgi]o ds:indicativu imperfetu 3ps
+SFX i o hiat/Y [cg]o ds:indicativu imperfetu 3ps
+SFX i o ìamus/Y [^cgi]o ds:indicativu imperfetu 1pp
+SFX i o hìamus/Y [cg]o ds:indicativu imperfetu 1pp
+SFX i o iais/Y [^cgi]o ds:indicativu imperfetu 2pp
+SFX i o hiais/Y [cg]o ds:indicativu imperfetu 2pp
+SFX i o iant/Y [^cgi]o ds:indicativu imperfetu 3pp
+SFX i o hiant/Y [cg]o ds:indicativu imperfetu 3pp
+SFX i o a/Y o ds:congiuntivu presente 1ps
+SFX i o as/Y o ds:congiuntivu presente 2ps
+SFX i o at/Y o ds:congiuntivu presente 3ps
+SFX i o amus/Y o ds:congiuntivu presente 1pp
+SFX i o ais/Y o ds:congiuntivu presente 2pp
+SFX i o ant/Y o ds:congiuntivu presente 3pp
+SFX i o ere/Y [^cg]o ds:congiuntivu imperfetu 1ps
+SFX i o here/Y [cg]o ds:congiuntivu imperfetu 1ps
+SFX i o eres/Y [^cg]o ds:congiuntivu imperfetu 2ps
+SFX i o heres/Y [cg]o ds:congiuntivu imperfetu 2ps
+SFX i o eret/Y [^cg]o ds:congiuntivu imperfetu 3ps
+SFX i o heret/Y [cg]o ds:congiuntivu imperfetu 3ps
+SFX i o eremus/Y [^cg]o ds:congiuntivu imperfetu 1pp
+SFX i o heremus/Y [cg]o ds:congiuntivu imperfetu 1pp
+SFX i o ereis/Y [^cg]o ds:congiuntivu imperfetu 2pp
+SFX i o hereis/Y [cg]o ds:congiuntivu imperfetu 2pp
+SFX i o erent/Y [^cg]o ds:congiuntivu imperfetu 3pp
+SFX i o herent/Y [cg]o ds:congiuntivu imperfetu 3pp
+SFX i o e/V [^cgi]o ds:imperativu 2ps
+SFX i o he/V [cg]o ds:imperativu 2ps
+SFX i o as/V o ds:imperativu negativu 2ps
+SFX i o at/V o ds:imperativu 3ps
+SFX i o amus/V o ds:imperativu 1pp
+SFX i o ide/V [^cgi]o ds:imperativu 2pp
+SFX i o hide/V [cg]o ds:imperativu 2pp
+SFX i o ais/V o ds:imperativu negativu 2pp
+SFX i o ant/V o ds:imperativu 3pp
+SFX i ere idu/D [^hiì]ere ds:partitzìpiu passadu
+SFX i ere idu/D [^cg]here ds:partitzìpiu passadu
+SFX i go tu/D go ds:partitzìpiu passadu
+SFX i ere idu/D schere ds:partitzìpiu passadu
+SFX i co tu/D [^s]co ds:partitzìpiu passadu
+SFX i o tu/D [^h][iì]o ds:partitzìpiu passadu
+SFX i o ende/V [^cg]o ds:gerùndiu presente
+SFX i o hende/V [cg]o ds:gerùndiu presente
+SFX i o ei/Y o ds:passadu remotu 1ps
+SFX i o esi/Y o ds:passadu remotu 1ps
+SFX i o eist/Y o ds:passadu remotu 2ps
+SFX i o eit/Y o ds:passadu remotu 3ps
+SFX i o emus/Y o ds:passadu remotu 1pp
+SFX i o eis/Y o ds:passadu remotu 2pp
+SFX i o eint/Y o ds:passadu remotu 3pp
+SFX i io imus/Y io ds:indicativu presente 1pp
+SFX i io ides/Y io ds:indicativu presente 2pp
+SFX i io ia/Y io ds:indicativu imperfetu 1ps
+SFX i io ias/Y io ds:indicativu imperfetu 2ps
+SFX i io iat/Y io ds:indicativu imperfetu 3ps
+SFX i io ìamus/Y io ds:indicativu imperfetu 1pp
+SFX i io iais/Y io ds:indicativu imperfetu 2pp
+SFX i io iant/Y io ds:indicativu imperfetu 3pp
+SFX i hio hi/V hio ds:imperativu 2ps
+SFX i hio hides/V hio ds:imperativu 2pp
+SFX i o idu/D hio ds:partitzìpiu passadu
+SFX i io ie/V [^h]io ds:imperativu 2ps
+SFX i io iides/V [^h]io ds:imperativu 2pp
+
+
+# II Coniugatzione in -ere po is verbus iregolares che fàghere e pòdere (in su
+# ditzionariu tocat a ponni s'infinidu, sa primu e sa segunda persona de
+# s'indicativu presente cun sa regula /J es. fàghere/J fatzo/J faghes/J)
+
+SFX J Y 36
+SFX J ere ere/Y ere ds:infinitu presente
+SFX J tzo tzo/Y tzo ds:indicativu presente 1ps
+SFX J es es/Y es ds:indicativu presente 2ps
+SFX J es et/Y es ds:indicativu presente 3ps
+SFX J es imus/Y es ds:indicativu presente 1pp
+SFX J es ides/Y es ds:indicativu presente 2pp
+SFX J es ent/Y es ds:indicativu presente 3pp
+SFX J es ia/Y es ds:indicativu imperfetu 1ps
+SFX J es ias/Y es ds:indicativu imperfetu 2ps
+SFX J es iat/Y es ds:indicativu imperfetu 3ps
+SFX J es ìamus/Y es ds:indicativu imperfetu 1pp
+SFX J es iais/Y es ds:indicativu imperfetu 2pp
+SFX J es iant/Y es ds:indicativu imperfetu 3pp
+SFX J tzo tza/Y tzo ds:congiuntivu presente 1ps
+SFX J tzo tzas/Y tzo ds:congiuntivu presente 2ps
+SFX J tzo tzat/Y tzo ds:congiuntivu presente 3ps
+SFX J tzo tzamus/Y tzo ds:congiuntivu presente 1pp
+SFX J tzo tzais/Y tzo ds:congiuntivu presente 2pp
+SFX J tzo tzant/Y tzo ds:congiuntivu presente 3pp
+SFX J es ere/Y es ds:congiuntivu imperfetu 1ps
+SFX J es eres/Y es ds:congiuntivu imperfetu 2ps
+SFX J es eret/Y es ds:congiuntivu imperfetu 3ps
+SFX J es eremus/Y es ds:congiuntivu imperfetu 1pp
+SFX J es ereis/Y es ds:congiuntivu imperfetu 2pp
+SFX J es erent/Y es ds:congiuntivu imperfetu 3pp
+SFX J es e/V es ds:imperativu 2ps
+SFX J tzo tzas/V tzo ds:imperativu negativu 2ps
+SFX J tzo tzat/V tzo ds:imperativu 3ps
+SFX J tzo tzamus/V tzo ds:imperativu 1pp
+SFX J es ide/V es ds:imperativu 2pp
+SFX J tzo tzais/V tzo ds:imperativu negativu 2pp
+SFX J tzo tzant/V tzo ds:imperativu 3pp
+SFX J tzo tu/D fatzo ds:partitzìpiu passadu
+SFX J tzo tu/D cotzo ds:partitzìpiu passadu
+SFX J otzo òdidu/D potzo ds:partitzìpiu passadu
+SFX J es ende/V es ds:gerùndiu presente
+
+# II Coniugatzione in -ere po is verbus iregolares che bènnere, tènnere, bàlere e abèrrere
+# (in su ditzionariu tocat a ponni s'infinidu e sa segunda persona de s'indicativu
+# presente cun sa regula /K es. bènnere/K benis/K)
+
+SFX K Y 105
+SFX K ere ere/Y ere ds:infinitu presente
+SFX K rere gio/Y rere ds:indicativu presente 1ps
+SFX K nere gio/Y nere ds:indicativu presente 1ps
+SFX K lere gio/Y lere ds:indicativu presente 1ps
+SFX K s s/Y s ds:indicativu presente 2ps
+SFX K s t/Y s ds:indicativu presente 3ps
+SFX K is imus/Y is ds:indicativu presente 1pp
+SFX K es imus/Y es ds:indicativu presente 1pp
+SFX K is ides/Y is ds:indicativu presente 2pp
+SFX K es ides/Y es ds:indicativu presente 2pp
+SFX K s nt/Y s ds:indicativu presente 3pp
+SFX K is ia/Y is ds:indicativu imperfetu 1ps
+SFX K es ia/Y es ds:indicativu imperfetu 1ps
+SFX K is ias/Y is ds:indicativu imperfetu 2ps
+SFX K es ias/Y es ds:indicativu imperfetu 2ps
+SFX K is iat/Y is ds:indicativu imperfetu 3ps
+SFX K es iat/Y es ds:indicativu imperfetu 3ps
+SFX K is ìamus/Y is ds:indicativu imperfetu 1pp
+SFX K es ìamus/Y es ds:indicativu imperfetu 1pp
+SFX K is iais/Y is ds:indicativu imperfetu 2pp
+SFX K es iais/Y es ds:indicativu imperfetu 2pp
+SFX K is iant/Y is ds:indicativu imperfetu 3pp
+SFX K es iant/Y es ds:indicativu imperfetu 3pp
+SFX K nere gia/Y nere ds:congiuntivu presente 1ps
+SFX K rere gia/Y rere ds:congiuntivu presente 1ps
+SFX K lere gia/Y lere ds:congiuntivu presente 1ps
+SFX K nere gias/Y nere ds:congiuntivu presente 2ps
+SFX K lere gias/Y lere ds:congiuntivu presente 2ps
+SFX K rere gias/Y rere ds:congiuntivu presente 2ps
+SFX K nere giat/Y nere ds:congiuntivu presente 3ps
+SFX K lere giat/Y lere ds:congiuntivu presente 3ps
+SFX K rere giat/Y rere ds:congiuntivu presente 3ps
+SFX K es giamus/Y [^l]es ds:congiuntivu presente 1pp
+SFX K is giamus/Y is ds:congiuntivu presente 1pp
+SFX K les giamus/Y les ds:congiuntivu presente 1pp
+SFX K is giais/Y is ds:congiuntivu presente 2pp
+SFX K es giais/Y [^l]es ds:congiuntivu presente 2pp
+SFX K les giais/Y les ds:congiuntivu presente 2pp
+SFX K nere giant/Y nere ds:congiuntivu presente 3pp
+SFX K lere giant/Y lere ds:congiuntivu presente 3pp
+SFX K rere giant/Y rere ds:congiuntivu presente 3pp
+SFX K is nere/Y nis ds:congiuntivu imperfetu 1ps
+SFX K es nere/Y nes ds:congiuntivu imperfetu 1ps
+SFX K es ere/Y les ds:congiuntivu imperfetu 1ps
+SFX K is rere/Y ris ds:congiuntivu imperfetu 1ps
+SFX K is neres/Y nis ds:congiuntivu imperfetu 2ps
+SFX K is reres/Y ris ds:congiuntivu imperfetu 2ps
+SFX K es neres/Y nes ds:congiuntivu imperfetu 2ps
+SFX K es eres/Y les ds:congiuntivu imperfetu 2ps
+SFX K is neret/Y nis ds:congiuntivu imperfetu 3ps
+SFX K is reret/Y ris ds:congiuntivu imperfetu 3ps
+SFX K es neret/Y nes ds:congiuntivu imperfetu 3ps
+SFX K es eret/Y les ds:congiuntivu imperfetu 3ps
+SFX K is neremus/Y nis ds:congiuntivu imperfetu 1pp
+SFX K es neremus/Y nes ds:congiuntivu imperfetu 1pp
+SFX K es eremus/Y les ds:congiuntivu imperfetu 1pp
+SFX K is reremus/Y ris ds:congiuntivu imperfetu 1pp
+SFX K is nereis/Y nis ds:congiuntivu imperfetu 2pp
+SFX K es ereis/Y les ds:congiuntivu imperfetu 2pp
+SFX K is rereis/Y ris ds:congiuntivu imperfetu 2pp
+SFX K es nereis/Y nes ds:congiuntivu imperfetu 2pp
+SFX K is nerent/Y nis ds:congiuntivu imperfetu 3pp
+SFX K es nerent/Y nes ds:congiuntivu imperfetu 3pp
+SFX K es erent/Y les ds:congiuntivu imperfetu 3pp
+SFX K is rerent/Y ris ds:congiuntivu imperfetu 3pp
+SFX K s 0/V s ds:imperativu 2ps
+SFX K nere gias/V nere ds:imperativu negativu 2ps
+SFX K lere gias/V lere ds:imperativu negativu 2ps
+SFX K rere gias/V rere ds:imperativu negativu 2ps
+SFX K nere giat/V nere ds:imperativu 3ps
+SFX K lere giat/V lere ds:imperativu 3ps
+SFX K rere giat/V rere ds:imperativu 3ps
+SFX K es giamus/V [^l]es ds:imperativu 1pp
+SFX K is giamus/V is ds:imperativu 1pp
+SFX K les giamus/V les ds:imperativu 1pp
+SFX K is ide/V is ds:imperativu 2pp
+SFX K es ide/V es ds:imperativu 2pp
+SFX K is giais/V is ds:imperativu negativu 2pp
+SFX K es giais/V [^l]es ds:imperativu negativu 2pp
+SFX K les giais/V les ds:imperativu negativu 2pp
+SFX K nere giant/V nere ds:imperativu 3pp
+SFX K lere giant/V lere ds:imperativu 3pp
+SFX K rere giant/V rere ds:imperativu 3pp
+SFX K es tu/D tenes ds:partitzìpiu passadu
+SFX K nes stu/D pones ds:partitzìpiu passadu
+SFX K is tu/D ris ds:partitzìpiu passadu
+SFX K nere nidu/D [bv]ènnere ds:partitzìpiu passadu
+SFX K es tu/D res ds:partitzìpiu passadu
+SFX K lere lidu/D bàlere ds:partitzìpiu passadu
+SFX K is ende/V is ds:gerùndiu presente
+SFX K es ende/V es ds:gerùndiu presente
+SFX K is gei/Y is ds:passadu remotu 1ps
+SFX K is gesi/Y is ds:passadu remotu 1ps
+SFX K is geist/Y is ds:passadu remotu 2ps
+SFX K is geit/Y is ds:passadu remotu 3ps
+SFX K is gemus/Y is ds:passadu remotu 1pp
+SFX K is geis/Y is ds:passadu remotu 2pp
+SFX K is geint/Y is ds:passadu remotu 3pp
+SFX K es gei/Y es ds:passadu remotu 1ps
+SFX K es gesi/Y es ds:passadu remotu 1ps
+SFX K es geist/Y es ds:passadu remotu 2ps
+SFX K es geit/Y es ds:passadu remotu 3ps
+SFX K es gemus/Y es ds:passadu remotu 1pp
+SFX K es geis/Y es ds:passadu remotu 2pp
+SFX K es geint/Y es ds:passadu remotu 3pp
+
+# II Coniugatzione in -ere po is verbus iregolares che nàrrere (tocat fintzas a aciungi
+# sa primu persona indicativu presente cun sa regula L es. nàrrere/L naro/L)
+
+SFX L Y 41
+SFX L ere ere/Y rere ds:infinitu presente
+SFX L o o/Y ro ds:indicativu presente 1ps
+SFX L o as/Y ro ds:indicativu presente 2ps
+SFX L o at/Y ro ds:indicativu presente 3ps
+SFX L o amus/Y ro ds:indicativu presente 1pp
+SFX L o ades/Y ro ds:indicativu presente 2pp
+SFX L o ant/Y ro ds:indicativu presente 3pp
+SFX L o aia/Y ro ds:indicativu imperfetu 1ps
+SFX L o aias/Y ro ds:indicativu imperfetu 2ps
+SFX L o aiat/Y ro ds:indicativu imperfetu 3ps
+SFX L o aìamus/Y ro ds:indicativu imperfetu 1pp
+SFX L o aiais/Y ro ds:indicativu imperfetu 2pp
+SFX L o aiant/Y ro ds:indicativu imperfetu 3pp
+SFX L rere gia/Y rere ds:congiuntivu presente 1ps
+SFX L rere gias/Y rere ds:congiuntivu presente 2ps
+SFX L rere giat/Y rere ds:congiuntivu presente 3ps
+SFX L o giamus/Y ro ds:congiuntivu presente 1pp
+SFX L o giais/Y ro ds:congiuntivu presente 2pp
+SFX L rere giant/Y rere ds:congiuntivu presente 3pp
+SFX L o rere/Y ro ds:congiuntivu imperfetu 1ps
+SFX L o reres/Y ro ds:congiuntivu imperfetu 2ps
+SFX L o reret/Y ro ds:congiuntivu imperfetu 3ps
+SFX L o reremus/Y ro ds:congiuntivu imperfetu 1pp
+SFX L o rereis/Y ro ds:congiuntivu imperfetu 2pp
+SFX L o rerent/Y ro ds:congiuntivu imperfetu 3pp
+SFX L o a/V ro ds:imperativu 2ps
+SFX L rere gias/V rere ds:imperativu negativu 2ps
+SFX L rere giat/V rere ds:imperativu 3ps
+SFX L o giamus/V ro ds:imperativu 1pp
+SFX L o ade/V ro ds:imperativu 2pp
+SFX L o giais/V ro ds:imperativu negativu 2pp
+SFX L rere giant/V rere ds:imperativu 3pp
+SFX L o adu/D ro ds:partitzìpiu passadu
+SFX L o ende/V ro ds:gerùndiu presente
+SFX L o gei/Y o ds:passadu remotu 1ps
+SFX L o gesi/Y o ds:passadu remotu 1ps
+SFX L o geist/Y o ds:passadu remotu 2ps
+SFX L o geit/Y o ds:passadu remotu 3ps
+SFX L o gemus/Y o ds:passadu remotu 1pp
+SFX L o geis/Y o ds:passadu remotu 2pp
+SFX L o geint/Y o ds:passadu remotu 3pp
+
+# III Coniugatzione in -ire (chentza a. gràficu, pro vrb. 
+# chi tenent sa matessi pertzisa raighina in totu sas var. 
+# in -ire; pro sos àteros inditu abbandda).
+#
+# Ref. LSC 21, LSC 22
+
+SFX M Y 53
+SFX M ire ire/Y ire ds:infinidu presente
+SFX M ire o/Y [^h]ire ds:indicativu presente 1ps
+SFX M hire o/Y hire ds:indicativu presente 1ps
+SFX M ire is/Y ire ds:indicativu presente 2ps
+SFX M ire it/Y ire ds:indicativu presente 3ps
+SFX M ire imus/Y ire ds:indicativu presente 1pp
+SFX M ire ides/Y ire ds:indicativu presente 2pp
+SFX M ire int/Y ire ds:indicativu presente 3pp
+SFX M ire ia/Y ire ds:indicativu imperfetu 1ps
+SFX M ire ias/Y ire ds:indicativu imperfetu 2ps
+SFX M ire iat/Y ire ds:indicativu imperfetu 3ps
+SFX M ire ìamus/Y ire ds:indicativu imperfetu 1pp
+SFX M ire iais/Y ire ds:indicativu imperfetu 2pp
+SFX M ire iant/Y ire ds:indicativu imperfetu 3pp
+SFX M ire a/Y [^h]ire ds:congiuntivu presente 1ps
+SFX M hire a/Y hire ds:congiuntivu presente 1ps
+SFX M ire as/Y [^h]ire ds:congiuntivu presente 2ps
+SFX M hire as/Y hire ds:congiuntivu presente 2ps
+SFX M ire at/Y [^h]ire ds:congiuntivu presente 3ps
+SFX M hire at/Y hire ds:congiuntivu presente 3ps
+SFX M ire amus/Y [^h]ire ds:congiuntivu presente 1pp
+SFX M hire amus/Y hire ds:congiuntivu presente 1pp
+SFX M ire ais/Y [^h]ire ds:congiuntivu presente 2pp
+SFX M hire ais/Y hire ds:congiuntivu presente 2pp
+SFX M ire ant/Y [^h]ire ds:congiuntivu presente 3pp
+SFX M hire ant/Y hire ds:congiuntivu presente 3pp
+SFX M ire ire/Y ire ds:congiuntivu imperfetu 1ps
+SFX M ire ires/Y ire ds:congiuntivu imperfetu 2ps
+SFX M ire iret/Y ire ds:congiuntivu imperfetu 3ps
+SFX M ire iremus/Y ire ds:congiuntivu imperfetu 1pp
+SFX M ire ireis/Y ire ds:congiuntivu imperfetu 2pp
+SFX M ire irent/Y ire ds:congiuntivu imperfetu 3pp
+SFX M ire i/V ire ds:imperativu 2ps
+SFX M ire as/V [^h]ire ds:imperativu negativu 2ps
+SFX M hire as/V hire ds:imperativu negativu 2ps
+SFX M ire at/V [^h]ire ds:imperativu 3ps
+SFX M hire at/V hire ds:imperativu 3ps
+SFX M ire amus/V [^h]ire ds:imperativu 1pp
+SFX M hire amus/V hire ds:imperativu 1pp
+SFX M ire ide/V ire ds:imperativu 2pp
+SFX M ire ais/V [^h]ire ds:imperativu negativu 2pp
+SFX M hire ais/V hire ds:imperativu negativu 2pp
+SFX M ire ant/V [^h]ire ds:imperativu 3pp
+SFX M hire ant/V hire ds:imperativu 3pp
+SFX M ire idu/D ire ds:partitzìpiu passadu
+SFX M ire ende/V ire ds:gerùndiu presente
+SFX M ire ei/Y ire ds:passadu remotu 1ps
+SFX M ire esi/Y ire ds:passadu remotu 1ps
+SFX M ire eist/Y ire ds:passadu remotu 2ps
+SFX M ire eit/Y ire ds:passadu remotu 3ps
+SFX M ire emus/Y ire ds:passadu remotu 1pp
+SFX M ire eis/Y ire ds:passadu remotu 2pp
+SFX M ire eint/Y ire ds:passadu remotu 3pp
+
+# Numeralis
+#
+# Ref. LSC 19
+
+SFX N Y 16
+SFX N i unu i is:+unu
+SFX N a unu a is:+unu
+SFX N 0 duos [ia] is:+duos
+SFX N 0 duas [ia] is:+duos feminile
+SFX N 0 très [ia] is:+très
+SFX N 0 bator [ia] is:+bator
+SFX N 0 ghimbe [ia] is:+ghimbe
+SFX N 0 sès [ia] is:+sès
+SFX N 0 sete [ia] is:+sete
+SFX N i oto i is:+oto
+SFX N a oto a is:+oto
+SFX N 0 noe [ia] is:+noe
+SFX N i ina i is:+ina
+SFX N a ina a is:+ina
+SFX N os as os is:feminile
+SFX N os a os is:+mìgia
+
+# - Sos verbos ausiliares
+#
+# Coniugatzione de is verbos ausiliares èsser e àer (in su ditzionariu tocat a
+# ponni s'infinidu, sa primu persona de s'indicativu presente, indicativu
+# imperfetu e congiuntivu imperfetu cun sa regula /O es. èsser/O so/O fia/O essere/O)
+#
+# Ref. LSC 20
+
+SFX O Y 66
+SFX O ere ere/Y ere ds:infinitu presente
+SFX O o o/Y so ds:indicativu presente 1ps
+SFX O po po/Y apo ds:indicativu presente 1ps
+SFX O o es/Y so ds:indicativu presente 2ps
+SFX O po s/Y apo ds:indicativu presente 2ps
+SFX O sere t/Y essere ds:indicativu presente 3ps
+SFX O po t/Y apo ds:indicativu presente 3ps
+SFX O o emus/Y so ds:indicativu presente 1pp
+SFX O po mus/Y apo ds:indicativu presente 1pp
+SFX O o eis/Y so ds:indicativu presente 2pp
+SFX O po is/Y apo ds:indicativu presente 2pp
+SFX O o unt/Y so ds:indicativu presente 3pp
+SFX O po nt/Y apo ds:indicativu presente 3pp
+SFX O ia ia/Y ia ds:indicativu imperfetu 1ps
+SFX O ia ias/Y ia ds:indicativu imperfetu 2ps
+SFX O ia iat/Y ia ds:indicativu imperfetu 3ps
+SFX O ia ìamus/Y ia ds:indicativu imperfetu 1pp
+SFX O ia iais/Y ia ds:indicativu imperfetu 2pp
+SFX O ia iant/Y ia ds:indicativu imperfetu 3pp
+SFX O o ia/Y so ds:congiuntivu presente 1ps
+SFX O o a/Y apo ds:congiuntivu presente 1ps
+SFX O o ias/Y so ds:congiuntivu presente 2ps
+SFX O o as/Y apo ds:congiuntivu presente 2ps
+SFX O o iat/Y so ds:congiuntivu presente 3ps
+SFX O o at/Y apo ds:congiuntivu presente 3ps
+SFX O o iamus/Y so ds:congiuntivu presente 1pp
+SFX O o amus/Y apo ds:congiuntivu presente 1pp
+SFX O o iais/Y so ds:congiuntivu presente 2pp
+SFX O o ais/Y apo ds:congiuntivu presente 2pp
+SFX O o iant/Y so ds:congiuntivu presente 3pp
+SFX O o ant/Y apo ds:congiuntivu presente 3pp
+SFX O re re/Y ere ds:congiuntivu imperfetu 1ps
+SFX O re res/Y ere ds:congiuntivu imperfetu 2ps
+SFX O re ret/Y ere ds:congiuntivu imperfetu 3ps
+SFX O re remus/Y ere ds:congiuntivu imperfetu 1pp
+SFX O re reis/Y ere ds:congiuntivu imperfetu 2pp
+SFX O re rent/Y ere ds:congiuntivu imperfetu 3pp
+SFX O o ias/V so ds:imperativu 2ps
+SFX O o as/V apo ds:imperativu 2ps
+SFX O o iat/V so ds:imperativu 3ps
+SFX O o at/V apo ds:imperativu 3ps
+SFX O o iamus/V so ds:imperativu 1pp
+SFX O o amus/V apo ds:imperativu 1pp
+SFX O o iais/V so ds:imperativu 2pp
+SFX O o ais/V apo ds:imperativu 2pp
+SFX O o iant/V so ds:imperativu 3pp
+SFX O o ant/V apo ds:imperativu 3pp
+SFX O 0 0/D istadu ds:partitzìpiu passadu
+SFX O ere pidu/D àere ds:partitzìpiu passadu
+SFX O ere ende/V ere ds:gerùndiu presente
+SFX O o ias so ds:imperativu negativu 2ps
+SFX O o as apo ds:imperativu negativu 2ps
+SFX O o iais so ds:imperativu negativu 2pp
+SFX O o ais apo ds:imperativu negativu 2pp
+SFX O ere eint/Y essere ds:passadu remotu 3pp
+SFX O ere eis/Y essere ds:passadu remotu 2pp
+SFX O ere emus/Y essere ds:passadu remotu 1pp
+SFX O ere eit/Y essere ds:passadu remotu 3ps
+SFX O ere eist/Y essere ds:passadu remotu 2ps
+SFX O ere ei/Y essere ds:passadu remotu 1ps
+SFX O ere peint/Y aere ds:passadu remotu 3pp
+SFX O ere peis/Y aere ds:passadu remotu 2pp
+SFX O ere pemus/Y aere ds:passadu remotu 1pp
+SFX O ere peit/Y aere ds:passadu remotu 3ps
+SFX O ere peist/Y aere ds:passadu remotu 2ps
+SFX O ere pei/Y aere ds:passadu remotu 1ps
+
+# - Verbos impersonales (de totus is coniugatziones)
+#
+# Sos verbos impersonales non tenent unu sugetu determinadu e s'impreant petzi
+# in sos modos indefinidos e in sa de tres pessones singulare de sos tempos de
+# modu finidu: cumentzat a pròere, est proende, proiat, at a pròere.
+#
+# In su ditzionariu tocat a ponni s'infinidu e su gerundiu cun sa regula /P es.
+# pròer/P proende/P
+#
+# Ref. GRAM p.73
+
+SFX P Y 16
+SFX P ere ere/Y ere ds:infinitu presente
+SFX P are are/Y are ds:infinitu presente
+SFX P ire ire/Y ire ds:infinitu presente
+SFX P ende ende/V ende ds:gerùndiu presente
+SFX P are aiat/Y are ds:indicativu imperfetu 3ps
+SFX P are at are ds:indicativu presente 3ps
+SFX P ire it/Y ire ds:indicativu presente 3ps
+SFX P et et/Y et ds:indicativu presente 3ps
+SFX P et ent/Y et ds:indicativu presente 3pp
+SFX P are ant/Y are ds:indicativu presente 3pp
+SFX P ire int/Y ire ds:indicativu presente 3pp
+SFX P et iant/Y et ds:indicativu imperfetu 3pp
+SFX P et iat/Y et ds:indicativu imperfetu 3ps
+SFX P ire iat/Y ire ds:indicativu imperfetu 3ps
+SFX P are aiant/Y are ds:indicativu imperfetu 3pp
+SFX P ire iant/Y ire ds:indicativu imperfetu 3pp
+
+# - Elisione de sos articulos
+#
+# In sa pronùntzia, est frecuente meda s'elisione de sa vocale. Pro respetare su
+# critèriu de cunservare semper petzi una forma de is paràulas, s'at a evitare de
+# signare tale elisione, francu in casu de monosìllabos su, sa, unu, una.
+#
+# Ref. LSC 4.2.16
+
+PFX X Y 45
+PFX X 0 s' [aàeèiìoòuù] ip:+article
+PFX X 0 s' [AÀEÈIÌOÒUÙ] ip:+article
+PFX X 0 S' [AÀEÈIÌOÒUÙ] ip:+article
+PFX X 0 un' [aàeèiìoòuù] ip:+article
+PFX X 0 it' [aàeèiìoòuù] ip:+ite
+PFX X a s'A a ip:+article
+PFX X e s'E e ip:+article
+PFX X i s'I i ip:+article
+PFX X o s'O o ip:+article
+PFX X u s'U u ip:+article
+PFX X à s'À à ip:+article
+PFX X è s'È è ip:+article
+PFX X ì s'Ì ì ip:+article
+PFX X ò s'Ò ò ip:+article
+PFX X ù s'Ù ù ip:+article
+PFX X a S'A a ip:+article
+PFX X e S'E e ip:+article
+PFX X i S'I i ip:+article
+PFX X o S'O o ip:+article
+PFX X u S'U u ip:+article
+PFX X à S'À à ip:+article
+PFX X è S'È è ip:+article
+PFX X ì S'Ì ì ip:+article
+PFX X ò S'Ò ò ip:+article
+PFX X ù S'Ù ù ip:+article
+PFX X a un'A a ip:+article
+PFX X e un'E e ip:+article
+PFX X i un'I i ip:+article
+PFX X o un'O o ip:+article
+PFX X u un'U u ip:+article
+PFX X à un'À à ip:+article
+PFX X è un'È è ip:+article
+PFX X ì un'Ì ì ip:+article
+PFX X ò un'Ò ò ip:+article
+PFX X ù un'Ù ù ip:+article
+PFX X a Un'A a ip:+article
+PFX X e Un'E e ip:+article
+PFX X i Un'I i ip:+article
+PFX X o Un'O o ip:+article
+PFX X u Un'U u ip:+article
+PFX X à Un'À à ip:+article
+PFX X è Un'È è ip:+article
+PFX X ì Un'Ì ì ip:+article
+PFX X ò Un'Ò ò ip:+article
+PFX X ù Un'Ù ù ip:+article
+
+# - Elisione de is procliticos po is verbos a s'indicativu, su congiuntivu e
+# s'infinidu
+#
+# In sa pronùntzia, est frecuente meda s'elisione de sa vocale. Pro respetare su
+# critèriu de cunservare semper petzi una forma de is paràulas, s'at a evitare de
+# signare tale elisione, francu in casu de monosìllabos mi, ti, si, nde, nche, bi,
+# ddi, ddu, dda, li, lu, la.
+#
+# Ref. LSC 9.2, LSC 4.2.16, GRAM p.20
+
+PFX Y Y 13
+PFX Y 0 m' [aàeèiìoòuù] ip:+pronùmene proclìticu àtonu 1ps
+PFX Y 0 t' [aàeèiìoòuù] ip:+pronùmene proclìticu àtonu 2ps
+PFX Y 0 b' [aàeèiìoòuù] ip:+pronùmene proclìticu àtonu 3ps
+PFX Y 0 s' [aàeèiìoòuù] ip:+pronùmene proclìticu àtonu 3ps
+PFX Y 0 b' [aàeèiìoòuù] ip:+pronùmene proclìticu àtonu 3pp
+PFX Y 0 s' [aàeèiìoòuù] ip:+pronùmene proclìticu àtonu 3pp
+PFX Y 0 s' [aàeèiìoòuù] ip:+pronùmene proclìticu àtonu riflessivu 3ps
+PFX Y 0 s' [aàeèiìoòuù] ip:+pronùmene proclìticu àtonu riflessivu 3pp
+PFX Y 0 dd' [aàeèiìoòuù] ip:+pronùmene proclìticu àtonu non riflessivu 3ps
+PFX Y 0 l' [aàeèiìoòuù] ip:+pronùmene proclìticu àtonu non riflessivu 3ps
+PFX Y 0 nch' [aàeèiìoòuù] ip:+partixedda pronùmenale logu
+PFX Y 0 nd' [aàeèiìoòuù] ip:+partixedda pronùmenale cosa
+PFX Y 0 it' [aàeèiìoòuù] ip:+ite
+
+# - Enclìticos
+#
+# Ponende paris sos sostituentes àtonos e sas partigheddas pronominales si creant
+# is enclìticos chi andant cun s'imperativu e su gerùndiu:
+#
+# Ref. LSC 9.2, LSC 9.1.2, GRAM p.21
+
+SFX V N 184
+SFX V 0 ·mi . is:+pronùmene personale enclìticu àtonu 1ps
+SFX V 0 ·ti . is:+pronùmene personale enclìticu àtonu 2ps
+SFX V 0 ·bi . is:+pronùmene personale enclìticu àtonu 3ps
+SFX V 0 ·si . is:+pronùmene personale enclìticu àtonu 3ps
+SFX V 0 ·li . is:+pronùmene personale enclìticu àtonu dativu 3ps
+SFX V 0 ·ddi . is:+pronùmene personale enclìticu àtonu dativu 3ps
+SFX V 0 ·ddu . is:+pronùmene personale enclìticu àtonu acusativu 3ps
+SFX V 0 ·dda . is:+pronùmene personale enclìticu àtonu acusativu 3ps feminile
+SFX V 0 ·lu . is:+pronùmene personale enclìticu àtonu acusativu 3ps
+SFX V 0 ·la . is:+pronùmene personale enclìticu àtonu acusativu 3ps feminile
+SFX V 0 ·si . is:+pronùmene personale enclìticu àtonu riflessivu 3ps
+SFX V 0 ·nos . is:+pronùmene personale enclìticu àtonu 1pp
+SFX V 0 ·bos . is:+pronùmene personale enclìticu àtonu 2pp
+SFX V 0 ·bi . is:+pronùmene personale enclìticu àtonu 3pp
+SFX V 0 ·si . is:+pronùmene personale enclìticu àtonu 3pp
+SFX V 0 ·lis . is:+pronùmene personale enclìticu àtonu dativu 3pp
+SFX V 0 ·ddis . is:+pronùmene personale enclìticu àtonu dativu 3pp
+SFX V 0 ·ddos . is:+pronùmene personale enclìticu àtonu acusativu 3ps
+SFX V 0 ·ddas . is:+pronùmene personale enclìticu àtonu acusativu 3ps feminile
+SFX V 0 ·los . is:+pronùmene personale enclìticu àtonu acusativu 3ps
+SFX V 0 ·las . is:+pronùmene personale enclìticu àtonu acusativu 3ps feminile
+SFX V 0 ·si . is:+pronùmene personale enclìticu àtonu riflessivu 3pp
+SFX V 0 ·mi·lu . is:+pronùmene personale enclìticu àtonu 1ps + acusativu 3ps
+SFX V 0 ·mi·la . is:+pronùmene personale enclìticu àtonu 1ps + acusativu 3ps feminile
+SFX V 0 ·mi·ddu . is:+pronùmene personale enclìticu àtonu 1ps + acusativu 3ps
+SFX V 0 ·mi·dda . is:+pronùmene personale enclìticu àtonu 1ps + acusativu 3ps feminile
+SFX V 0 ·mi·los . is:+pronùmene personale enclìticu àtonu 1ps + acusativu 3pp
+SFX V 0 ·mi·las . is:+pronùmene personale enclìticu àtonu 1ps + acusativu 3pp feminile
+SFX V 0 ·mi·ddos . is:+pronùmene personale enclìticu àtonu 1ps + acusativu 3pp
+SFX V 0 ·mi·ddas . is:+pronùmene personale enclìticu àtonu 1ps + acusativu 3pp feminile
+SFX V 0 ·mi·nche·lu . is:+pronùmene personale enclìticu àtonu 1ps + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·mi·nche·la . is:+pronùmene personale enclìticu àtonu 1ps + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·mi·nche·ddu . is:+pronùmene personale enclìticu àtonu 1ps + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·mi·nche·dda . is:+pronùmene personale enclìticu àtonu 1ps + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·mi·nche·los . is:+pronùmene personale enclìticu àtonu 1ps + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·mi·nche·las . is:+pronùmene personale enclìticu àtonu 1ps + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·mi·nche·ddos . is:+pronùmene personale enclìticu àtonu 1ps + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·mi·nche·ddas . is:+pronùmene personale enclìticu àtonu 1ps + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·mi·nde . is:+pronùmene personale enclìticu àtonu 1ps + partixedda pronùmenale cosa
+SFX V 0 ·mi·nche . is:+pronùmene personale enclìticu àtonu 1ps + partixedda pronùmenale logu
+SFX V 0 ·ti·lu . is:+pronùmene personale enclìticu àtonu 2ps + acusativu 3ps
+SFX V 0 ·ti·la . is:+pronùmene personale enclìticu àtonu 2ps + acusativu 3ps feminile
+SFX V 0 ·ti·ddu . is:+pronùmene personale enclìticu àtonu 2ps + acusativu 3ps
+SFX V 0 ·ti·dda . is:+pronùmene personale enclìticu àtonu 2ps + acusativu 3ps feminile
+SFX V 0 ·ti·los . is:+pronùmene personale enclìticu àtonu 2ps + acusativu 3pp
+SFX V 0 ·ti·las . is:+pronùmene personale enclìticu àtonu 2ps + acusativu 3pp feminile
+SFX V 0 ·ti·ddos . is:+pronùmene personale enclìticu àtonu 2ps + acusativu 3pp
+SFX V 0 ·ti·ddas . is:+pronùmene personale enclìticu àtonu 2ps + acusativu 3pp feminile
+SFX V 0 ·ti·nche·lu . is:+pronùmene personale enclìticu àtonu 2ps + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·ti·nche·la . is:+pronùmene personale enclìticu àtonu 2ps + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·ti·nche·ddu . is:+pronùmene personale enclìticu àtonu 2ps + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·ti·nche·dda . is:+pronùmene personale enclìticu àtonu 2ps + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·ti·nche·los . is:+pronùmene personale enclìticu àtonu 2ps + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·ti·nche·las . is:+pronùmene personale enclìticu àtonu 2ps + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·ti·nche·ddos . is:+pronùmene personale enclìticu àtonu 2ps + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·ti·nche·ddas . is:+pronùmene personale enclìticu àtonu 2ps + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·ti·nde . is:+pronùmene personale enclìticu àtonu 2ps + partixedda pronùmenale cosa
+SFX V 0 ·ti·nche . is:+pronùmene personale enclìticu àtonu 2ps + partixedda pronùmenale logu
+SFX V 0 ·bi·lu . is:+pronùmene personale enclìticu àtonu 3ps + acusativu 3ps
+SFX V 0 ·bi·la . is:+pronùmene personale enclìticu àtonu 3ps + acusativu 3ps feminile
+SFX V 0 ·si·ddu . is:+pronùmene personale enclìticu àtonu 3ps + acusativu 3ps
+SFX V 0 ·si·dda . is:+pronùmene personale enclìticu àtonu 3ps + acusativu 3ps feminile
+SFX V 0 ·bi·los . is:+pronùmene personale enclìticu àtonu 3ps + acusativu 3pp
+SFX V 0 ·bi·las . is:+pronùmene personale enclìticu àtonu 3ps + acusativu 3pp feminile
+SFX V 0 ·si·ddos . is:+pronùmene personale enclìticu àtonu 3ps + acusativu 3pp
+SFX V 0 ·si·ddas . is:+pronùmene personale enclìticu àtonu 3ps + acusativu 3pp feminile
+SFX V 0 ·bi·nche·lu . is:+pronùmene personale enclìticu àtonu 3ps + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·bi·nche·la . is:+pronùmene personale enclìticu àtonu 3ps + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·si·nche·ddu . is:+pronùmene personale enclìticu àtonu 3ps + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·si·nche·dda . is:+pronùmene personale enclìticu àtonu 3ps + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·bi·nche·los . is:+pronùmene personale enclìticu àtonu 3ps + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·bi·nche·las . is:+pronùmene personale enclìticu àtonu 3ps + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·si·nche·ddos . is:+pronùmene personale enclìticu àtonu 3ps + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·si·nche·ddas . is:+pronùmene personale enclìticu àtonu 3ps + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·bi·nde . is:+pronùmene personale enclìticu àtonu 3ps + partixedda pronùmenale cosa
+SFX V 0 ·si·ddu . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + acusativu 3ps
+SFX V 0 ·si·dda . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + acusativu 3ps feminile
+SFX V 0 ·si·lu . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + acusativu 3ps
+SFX V 0 ·si·la . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + acusativu 3ps feminile
+SFX V 0 ·si·ddos . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + acusativu 3pp
+SFX V 0 ·si·ddas . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + acusativu 3pp feminile
+SFX V 0 ·si·los . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + acusativu 3pp
+SFX V 0 ·si·las . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + acusativu 3pp feminile
+SFX V 0 ·si·nche·ddu . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·si·nche·dda . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·si·nche·lu . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·si·nche·la . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·si·nche·ddos . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·si·nche·ddas . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·si·nche·los . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·si·nche·las . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·si·nde . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + partixedda pronùmenale cosa
+SFX V 0 ·si·nche . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + partixedda pronùmenale logu
+SFX V 0 ·si·nche·nde . is:+pronùmene personale enclìticu àtonu riflessivu 3ps + partixedda pronùmenale logu + partixedda pronùmenale cosa
+SFX V 0 ·nos·lu . is:+pronùmene personale enclìticu àtonu 1pp + acusativu 3ps
+SFX V 0 ·nos·la . is:+pronùmene personale enclìticu àtonu 1pp + acusativu 3ps feminile
+SFX V 0 ·nos·ddu . is:+pronùmene personale enclìticu àtonu 1pp + acusativu 3ps
+SFX V 0 ·nos·dda . is:+pronùmene personale enclìticu àtonu 1pp + acusativu 3ps feminile
+SFX V 0 ·nos·los . is:+pronùmene personale enclìticu àtonu 1pp + acusativu 3pp
+SFX V 0 ·nos·las . is:+pronùmene personale enclìticu àtonu 1pp + acusativu 3pp feminile
+SFX V 0 ·nos·ddos . is:+pronùmene personale enclìticu àtonu 1pp + acusativu 3pp
+SFX V 0 ·nos·ddas . is:+pronùmene personale enclìticu àtonu 1pp + acusativu 3pp feminile
+SFX V 0 ·nos·nche·lu . is:+pronùmene personale enclìticu àtonu 1pp + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·nos·nche·la . is:+pronùmene personale enclìticu àtonu 1pp + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·nos·nche·ddu . is:+pronùmene personale enclìticu àtonu 1pp + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·nos·nche·dda . is:+pronùmene personale enclìticu àtonu 1pp + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·nos·nche·los . is:+pronùmene personale enclìticu àtonu 1pp + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·nos·nche·las . is:+pronùmene personale enclìticu àtonu 1pp + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·nos·nche·ddos . is:+pronùmene personale enclìticu àtonu 1pp + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·nos·nche·ddas . is:+pronùmene personale enclìticu àtonu 1pp + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·nos·nche . is:+pronùmene personale enclìticu àtonu 1pp + partixedda pronùmenale logu
+SFX V 0 ·nos·nde . is:+pronùmene personale enclìticu àtonu 1pp + partixedda pronùmenale cosa
+SFX V 0 ·bos·lu . is:+pronùmene personale enclìticu àtonu 2pp + acusativu 3ps
+SFX V 0 ·bos·la . is:+pronùmene personale enclìticu àtonu 2pp + acusativu 3ps feminile
+SFX V 0 ·bos·ddu . is:+pronùmene personale enclìticu àtonu 2pp + acusativu 3ps
+SFX V 0 ·bos·dda . is:+pronùmene personale enclìticu àtonu 2pp + acusativu 3ps feminile
+SFX V 0 ·bos·los . is:+pronùmene personale enclìticu àtonu 2pp + acusativu 3pp
+SFX V 0 ·bos·las . is:+pronùmene personale enclìticu àtonu 2pp + acusativu 3pp feminile
+SFX V 0 ·bos·ddos . is:+pronùmene personale enclìticu àtonu 2pp + acusativu 3pp
+SFX V 0 ·bos·ddas . is:+pronùmene personale enclìticu àtonu 2pp + acusativu 3pp feminile
+SFX V 0 ·bos·nche·lu . is:+pronùmene personale enclìticu àtonu 2pp + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·bos·nche·la . is:+pronùmene personale enclìticu àtonu 2pp + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·bos·nche·ddu . is:+pronùmene personale enclìticu àtonu 2pp + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·bos·nche·dda . is:+pronùmene personale enclìticu àtonu 2pp + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·bos·nche·los . is:+pronùmene personale enclìticu àtonu 2pp + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·bos·nche·las . is:+pronùmene personale enclìticu àtonu 2pp + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·bos·nche·ddos . is:+pronùmene personale enclìticu àtonu 2pp + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·bos·nche·ddas . is:+pronùmene personale enclìticu àtonu 2pp + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·bos·nche . is:+pronùmene personale enclìticu àtonu 2pp + partixedda pronùmenale logu
+SFX V 0 ·bos·nde . is:+pronùmene personale enclìticu àtonu 2pp + partixedda pronùmenale cosa
+SFX V 0 ·bi·lu . is:+pronùmene personale enclìticu àtonu 3pp + acusativu 3ps
+SFX V 0 ·bi·la . is:+pronùmene personale enclìticu àtonu 3pp + acusativu 3ps feminile
+SFX V 0 ·si·ddu . is:+pronùmene personale enclìticu àtonu 3pp + acusativu 3ps
+SFX V 0 ·si·dda . is:+pronùmene personale enclìticu àtonu 3pp + acusativu 3ps feminile
+SFX V 0 ·bi·los . is:+pronùmene personale enclìticu àtonu 3pp + acusativu 3pp
+SFX V 0 ·bi·las . is:+pronùmene personale enclìticu àtonu 3pp + acusativu 3pp feminile
+SFX V 0 ·si·ddos . is:+pronùmene personale enclìticu àtonu 3pp + acusativu 3pp
+SFX V 0 ·si·ddas . is:+pronùmene personale enclìticu àtonu 3pp + acusativu 3pp feminile
+SFX V 0 ·bi·nche·lu . is:+pronùmene personale enclìticu àtonu 3pp + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·bi·nche·la . is:+pronùmene personale enclìticu àtonu 3pp + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·si·nche·ddu . is:+pronùmene personale enclìticu àtonu 3pp + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·si·nche·dda . is:+pronùmene personale enclìticu àtonu 3pp + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·bi·nche·los . is:+pronùmene personale enclìticu àtonu 3pp + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·bi·nche·las . is:+pronùmene personale enclìticu àtonu 3pp + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·si·nche·ddos . is:+pronùmene personale enclìticu àtonu 3pp + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·si·nche·ddas . is:+pronùmene personale enclìticu àtonu 3pp + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·bi·nde . is:+pronùmene personale enclìticu àtonu 3pp + partixedda pronùmenale cosa
+SFX V 0 ·si·ddu . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + acusativu 3ps
+SFX V 0 ·si·dda . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + acusativu 3ps feminile
+SFX V 0 ·si·lu . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + acusativu 3ps
+SFX V 0 ·si·la . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + acusativu 3ps feminile
+SFX V 0 ·si·ddos . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + acusativu 3pp
+SFX V 0 ·si·ddas . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + acusativu 3pp feminile
+SFX V 0 ·si·los . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + acusativu 3pp
+SFX V 0 ·si·las . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + acusativu 3pp feminile
+SFX V 0 ·si·nche·ddu . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·si·nche·dda . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·si·nche·lu . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·si·nche·la . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·si·nche·ddos . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·si·nche·ddas . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·si·nche·los . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·si·nche·las . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·si·nde . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + partixedda pronùmenale cosa
+SFX V 0 ·si·nche . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + partixedda pronùmenale logu
+SFX V 0 ·si·nche·nde . is:+pronùmene personale enclìticu àtonu riflessivu_3pp + partixedda pronùmenale logu + partixedda pronùmenale cosa
+SFX V 0 ·nche·ddu . is:+ partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·nche·dda . is:+ partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·nche·lu . is:+ partixedda pronùmenale logu + acusativu 3ps
+SFX V 0 ·nche·la . is:+ partixedda pronùmenale logu + acusativu 3ps feminile
+SFX V 0 ·nche·ddos . is:+ partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·nche·ddas . is:+ partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·nche·los . is:+ partixedda pronùmenale logu + acusativu 3pp
+SFX V 0 ·nche·las . is:+ partixedda pronùmenale logu + acusativu 3pp feminile
+SFX V 0 ·nde·ddu . is:+ partixedda pronùmenale cosa + acusativu 3ps
+SFX V 0 ·nde·dda . is:+ partixedda pronùmenale cosa + acusativu 3ps feminile
+SFX V 0 ·nde·lu . is:+ partixedda pronùmenale cosa + acusativu 3ps
+SFX V 0 ·nde·la . is:+ partixedda pronùmenale cosa + acusativu 3ps feminile
+SFX V 0 ·nde·ddos . is:+ partixedda pronùmenale cosa + acusativu 3pp
+SFX V 0 ·nde·ddas . is:+ partixedda pronùmenale cosa + acusativu 3pp feminile
+SFX V 0 ·nde·los . is:+ partixedda pronùmenale cosa + acusativu 3pp
+SFX V 0 ·nde·las . is:+ partixedda pronùmenale cosa + acusativu 3pp feminile
+SFX V 0 ·nde . is:+ partixedda pronùmenale cosa
+SFX V 0 ·nche . is:+ partixedda pronùmenale logu
+
+# Other rules....
+
+# diminutivos e plurale de sos aciungidores chentza a. gràficu e chentz'annunta 
+# de síllabba (-itu):
+#
+# Ref. LSC 7, GRAM 17
+
+SFX e Y 6
+SFX e 0 0/D .
+SFX e u itu/D [^tcg]u is:+itu
+SFX e u itu/D [^i]tu is:+itu
+SFX e u hitu/D [cg]u is:+itu
+SFX e i itu/D eri is:+itu
+SFX e e itu/D o[nr]e is:+itu
+
+# acrescitivos e plurale de sos aciungidores chentza a. gràficu e chentz'annunta 
+# de síllabba (-one):
+#
+# Ref. LSC 7, GRAM 17
+
+SFX f Y 4
+SFX f 0 0/D
+SFX f u one/D u is:+one
+SFX f a one/D a is:+one
+SFX f one orrone/D one is:+one
+
+# aciungidores de is nominis propius
+#
+# Ref. GRAM 17
+
+SFX h Y 2
+SFX h u icu u is:icu
+SFX h a ica a is:icu feminile

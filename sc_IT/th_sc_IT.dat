@@ -1,0 +1,414 @@
+UTF-8		
+fàghere|2
+verbu|creare|fabbricare|prodùere|fraigare
+[contràriu] verbu|iscontzare|distrùere|iscorriare|imbolare|isfàghere
+creare|2
+verbu|fàghere|prodùere|fabbricare
+[contràriu] verbu|iscontzare|distrùere|iscorriare|isfàghere
+angiare|1
+verbu|partorire|s'illierare
+partorire|1
+verbu|angiare|s'illierare
+s'illierare|1
+verbu|partorire|angiare
+fabbricare|2
+verbu|fàghere|creare|prodùere
+[contràriu] verbu|iscontzare|distrùere|iscorriare|isfàghere
+iscontzare|2
+verbu|distrùere|iscorriare|isfàghere
+[contràriu] verbu|creare|fàghere|fabbricare|prodùere
+distrùere|2
+verbu|iscontzare|iscorriare|isfàghere
+[contràriu] verbu|creare|fàghere|fabbricare|prodùere
+iscorriare|2
+verbu|iscontzare|distrùere|isfàghere
+[contràriu] verbu|creare|fàghere|fabbricare|prodùere
+imbolare|2
+verbu|iscontzare|distrùere|iscorriare|isfàghere
+[contràriu] verbu|creare|fàghere|fabbricare|prodùere
+isfàghere|2
+verbu|iscontzare|distrùere|iscorriare
+[contràriu] verbu|fàghere|fabbricare|prodùere
+donare|2
+verbu|regalare|dare
+[contràriu] verbu|retzire|atzetare
+regalare|2
+verbu|dare|donare
+[contràriu] verbu|retzire|atzetare
+dare|2
+verbu|donare|regalare
+[contràriu] verbu|retzire|leare|pigare
+bèndere|2
+verbu|tzèdere
+[contràriu] verbu|comporare|achistare|achirire
+pigare|2
+verbu|leare
+[contràriu] verbu|regalare|dare|donare
+pònnere|2
+verbu|collocare|arrimare|semenare
+[contràriu] verbu|leare|pigare
+collocare|2
+verbu|pònnere|arrimare
+[contràriu] verbu|leare|pigare
+arrimare|2
+verbu|collocare|pònnere
+[contràriu] verbu|leare|pigare
+semenare|2
+verbu|pònnere|prantare
+[contràriu] verbu|tirare
+leare|2
+verbu|pigare|aferrare
+[contràriu] verbu|collocare|arrimare|pònnere|dare
+pigare|2
+verbu|leare|aferrare
+[contràriu] verbu|collocare|arrimare|pònnere|dare
+andare|2
+verbu|partire|caminare|tocare|fuire
+[contràriu] verbu|bènnere|torrare
+bènnere|2
+verbu|arribbare|lòmpere
+[contràriu] verbu|andare|torrare|tocare
+caminare|2
+verbu|andare|passigiare
+[contràriu] verbu|si firmare|parare
+falare|2
+verbu|calare
+[contràriu] verbu|pigare
+fuire|2
+verbu|andare|tocare
+[contràriu] verbu|bènnere|torrare
+tocare|2
+verbu|caminare|fuire|andare
+[contràriu] verbu|bènnere|torrare
+torrare|2
+verbu|bènnere
+[contràriu] verbu|andare|fuire|tocare
+pensare|1
+verbu|immaginare|meledare|pensamentare,crèere|imbentare
+immaginare|1
+verbu|pensare|meledare|pensamentare|crèere|imbentare
+meledare|1
+verbu|immaginare|pensare|pensamentare|crèere|imbentare
+pensamentare|1
+verbu|immaginare|meledare|pensare|crèere|imbentare
+crèere|1
+verbu|immaginare|meledare|pensamentare|pensare
+imbentare|1
+verbu|immaginare|meledare|pensamentare|crèere|imbentare
+connòschere|1
+verbu|ischire|sapire
+abbigiare|1
+verbu|sapire|cumprèndere
+imparare|1
+verbu|connòschere|ischire
+ischire|1
+verbu|abbigiare|imparare|connòschere
+bogare|2
+verbu|catzare
+[contràriu] verbu|istichire|pònnere
+lograre|2
+verbu|otènnere|balangiare|conchistare|bìnchere
+[contràriu] verbu|pèrdere|faddire
+otènnere|2
+verbu|lograre|balangiare|conchistare|bìnchere
+[contràriu] verbu|pèrdere|faddire
+catzare|2
+verbu|bogare
+[contràriu] verbu|retzire
+essire|2
+verbu
+[contràriu] verbu|intrare|istichire|pònnere
+nàrrere|2
+verbu|decrarare|faeddare|chistionare|arresonare
+[contràriu] verbu|calliare
+tirare|2
+verbu|bogare|istratzare
+[contràriu] verbu|pònnere|ispìnghere
+intrare|2
+verbu|istichire|pònnere
+[contràriu] verbu|bogare|essire|leare|tirare
+istichire|2
+verbu|intrare|pònnere
+[contràriu] verbu|bogare|essire|leare|tirare
+pònnere|2
+verbu|intrare|istichire
+[contràriu] verbu|bogare|essire|leare|tirare
+regordare|2
+verbu|ammentare|subènnere
+[contràriu] verbu|ismentigare|iscarèssere
+ammentare|2
+verbu|regordare|subènnere
+[contràriu] verbu|ismentigare|scarèssere
+subènnere|2
+verbu|regordare|ammentare
+[contràriu] verbu|ismentigare|iscarèssere
+ismentigare|2
+verbu|iscarèssere
+[contràriu] verbu|regordare|ammentare|subènnere
+iscarèssere|2
+verbu|ismentigare
+[contràriu] verbu|regordare|ammentare|subènnere
+chistionare|2
+verbu|arresonare|cuntrastare|faeddare|negossiare|tzarrare|tzatzarare
+[contràriu] verbu|ammudare|calliare
+arresonare|2
+verbu|chistionare|cuntrastare|faeddare|negossiare|tzarrare|tzatzarare
+[contràriu] verbu|ammudare|calliare
+cuntrastare|2
+verbu|arresonare|chistionare|faeddare|negossiare|tzarrare|tzatzarare
+[contràriu] verbu|ammudare|calliare
+faeddare|2
+verbu|arresonare|cuntrastare|chistionare|negossiare|tzarrare|tzatzarare
+[contràriu] verbu|ammudare|calliare
+negossiare|2
+verbu|arresonare|cuntrastare|faeddare|chistionare|tzarrare|tzatzarare
+[contràriu] verbu|ammudare|calliare
+ammudare|2
+verbu|calliare
+[contràriu] verbu|arresonare|cuntrastare|faeddare|negossiare|chistionare
+calliare|2
+verbu|ammudare
+[contràriu] verbu|arresonare|cuntrastare|faeddare|negossiare|chistionare|aboghinare
+numenare|1
+verbu|mentovare|mentuare
+mentovare|1
+verbu|numenare|mentuare	
+lassare|2
+verbu|abbandonare|discoidare|iscapare
+[contràriu] verbu|aguantare|leare|mantènnere|pigare
+abbandonare|1
+verbu|lassare|discuidare|iscapare
+[contràriu] verbu|aguantare|leare|mantènnere|pigare
+discoidare|2
+verbu|abbandonare|lassare|iscapare,
+[contràriu] verbu|coidare|atèndere
+iscapare|2
+verbu|abbandonare|discoidare|lassare|imprestare 
+[contràriu] verbu|aguantare|leare|mantènnere|pigare
+mantènnere|2
+verbu|pigare|aguantare|leare
+[contràriu] verbu|abbandonare|lassare
+pigare|2
+verbu|mantènnere|aguantare|leare
+[contràriu] verbu|abbandonare|lassare
+aguantare|2
+verbu|leare|mantènnere|pigare
+[contràriu] verbu|abbandonare|lassare
+leare|2
+verbu|manténnere|pigare|aferrare
+[contràriu] verbu|abbandonare|lassare
+tzirriare|2
+verbu|abbeliare|aboghinare|giuilare|iscramare
+[contràriu] verbu|calliare
+abbeliare|2
+verbu|tirriare|aboghinare|giuilare|iscramare
+[contràriu] verbu|calliare
+aboghinare|2
+verbu|abbeliare|tirriare|giuilare|iscramare
+[contràriu] verbu|calliare
+giuilare|2
+verbu|abbeliare|aboghinare|tirriare|iscramare
+[contràriu] verbu|calliare
+iscramare|2
+verbu|abbeliare|aboghinare|giuilare|tirriare
+[contràriu] verbu|calliare
+calliare|2
+verbu|ammudare
+[contràriu] verbu|abbeliare|aboghinare|giuilare|iscramare|tzirriare
+ammudare|2
+verbu|calliare
+[contràriu] verbu|abbeliare|aboghinare|giuilare|iscramare|tzirriare
+mustrare|2
+verbu|inditare
+[contràriu] verbu|cuare|apartare|istugiare
+inditare|2
+verbu|mustrare
+[contràriu] verbu|cuare|apartare|istugiare
+cuare|2
+verbu|apartare|istugiare
+[contràriu] verbu|inditare|mustrare
+apartare|2
+verbu|cuare|istugiare
+[contràriu] verbu|inditare|mustrare
+istugiare|2
+verbu|apartare|cuare
+[contràriu] verbu|inditare|mustrare
+domo|1
+nùmene|pinneta|barraca|cubone
+pinneta|1
+nùmene|domo|barraca|cubone
+barraca|1
+nùmene|pinneta|domo|cubone
+cubone|1
+nùmene|pinneta|barraca|domo
+lughe|2
+nùmene|lugore|lampadina
+[contràriu] nùmene|iscuru|umbra
+lampadina|2
+nùmene|lughe
+[contràriu] nùmene|iscuru|umbra
+iscuru|2
+nùmene|umbra
+[contràriu] nùmene|lughe|lugore|lampadina
+umbra|2
+nùmene|iscuru
+[contràriu] nùmene|lughe|lugore|lampadina
+boghe|1
+nùmene|aboghinada|adoramentu|tzìrriu|giùilu|iscràmiu
+aboghinada|1
+nùmene|boghe|adoramentu|tzìrriu|giùilu|iscràmiu
+adoramentu|1
+nùmene|boghe|aboghinada|tzìrriu|giùilu|iscràmiu
+tzìrriu|1
+nùmene|boghe|aboghinada|adoramentu|giùilu|iscràmiu
+gente|1
+nùmene|cristianu|persone|pòpulu|umanidade|ereu
+cristianu|1
+nùmene|gente|persone|pòpulu|umanidade|ereu
+persone|1
+nùmene|cristianu|gente|pòpulu|umanidade|ereu
+pòpulu|1
+nùmene|cristianu|persone|gente|umanidade|ereu
+umanidade|1
+nùmene|cristianu|persone|pòpulu|gente|ereu
+ereu|1
+nùmene|cristianu|persone|pòpulu|umanidade|gente
+animale|1
+nùmene|bèstia|fera
+contu|1
+nùmene|contadu|chistione|cunsideru|importu
+contadu|1
+nùmene|contu
+chistione|1
+nùmene|contu|fatu
+cunsideru|1
+nùmene|importu
+importu|1
+nùmene|cunsideru
+profetu|2
+nùmene|balàngiu|proe|renèssida
+[contràriu] nùmene|pèrdida|ispesa
+giogu|2
+nùmene|abbentu|abrandu|bellei|ispetàculu|brulla|ispàssiu|ispidientu
+[contràriu] nùmene|traballu
+abbentu|2
+nùmene|giogu|abrandu|bellei|ispetàculu|brulla|ispàssiu
+[contràriu] nùmene|traballu
+abrandu|2
+nùmene|abbentu|giogu|bellei|ispetàculu|brulla|ispàssiu
+[contràriu] nùmene|traballu
+bellei|2
+nùmene|abbentu|abrandu|giogu|ispetàculu|brulla|ispàssiu
+[contràriu] nùmene|traballu
+ispetàculu|2
+nùmene|abbentu|abrandu|bellei|giogu|brulla|ispàssiu
+[contràriu] nùmene|traballu
+brulla|2
+nùmene|abbentu|abrandu|bellei|ispetàculu|giogu|ispàssiu
+[contràriu] nùmene|traballu
+ispàssiu|2
+nùmene|abbentu|abrandu|bellei|ispetàculu|brulla|giogu
+[contràriu] nùmene|traballu
+traballu|2
+nùmene|afannu|afare|impreu|òpera|tarea|faina
+[contràriu] nùmeme|abbentu|abrandu|bellei|ispetàculu|brulla|ispàssiu|pasu|giogu
+craru|2
+agetivu|lìmpiu|lìchidu|iscraridu|francu|ladinu
+[contràriu] nùmene|cuadu|iscurigosu|imboligosu|oscuru|iscuru
+netu|2
+agetivu|lìmpiu
+[contràriu] agetivu|brutu|loddancu|caddotzu|illurdiadu
+lìmpiu|2
+agetivu|craru|lìchidu|iscraridu|francu|ladinu|netu
+[contràriu] agetivu|iscurigosu|brutu
+lìchidu|2
+agetivu|lìmpiu|craru|iscraridu|francu|ladinu
+[contràriu] agetivu|iscurigosu
+iscraridu|2
+agetivu|lìmpiu|lìchidu|craru|francu|ladinu
+[contràriu] agetivu|iscurigosu
+francu|2
+agetivu|lìmpiu|lìchidu|iscraridu|craru|ladinu
+[contràriu] agetivu|iscurigosu
+ladinu|2
+agetivu|lìmpiu|lìchidu|iscraridu|francu|craru
+[contràriu] agetivu|iscurigosu|imboligosu
+cuadu|2
+agetivu|iscurigosu
+[contràriu] agetivu|iscraridu|francu|ladinu|craru  
+iscurigosu|1
+agetivu|cuadu
+lìmpiu, lìchidu, iscraridu, francu, ladinu, craru  
+leve|2
+agetivu
+[contràriu] agetivu|malu, traballosu
+grae|2
+agetivu|pesosu|troposu
+[contràriu] agetivu|lèbiu
+pesosu|2
+agetivu|grae|troposu
+[contràriu] agetivu|lèbiu
+troposu|2
+agetivu|grae|troposu
+[contràriu] agetivu|lèbiu
+lèbiu|2
+agetivu|ligeru
+[contràriu] agetivu|grae|pesosu|troposu
+faina|2
+nùmene|afannu|afare|impreu|òpera|tarea|traballu
+[contràriu] nùmene|pasu
+afannu|2
+nùmene|faina|afare|impreu|òpera|tarea|traballu
+[contràriu] nùmene|pasu
+afare|1
+nùmene|afannu|faina|impreu|òpera|tarea|traballu
+impreu|2
+nùmene|afannu|afare|faina|òpera|tarea|traballu
+[contràriu] nùmene|pasu
+òpera|1
+nùmene|afannu|afare|impreu|faina|tarea|traballu
+tarea|2
+nùmene|afannu|afare|impreu|òpera|faina|traballu
+[contràriu] nùmene|pasu
+giòvanu|2
+nùmene|minore|picocu|piticu|pitzocu|piseddu|pitzinnu
+[contràriu] nùmene|betzu|mannu|betzone|cadruddu
+minore|2
+agetivu|piticu|minore|picocu
+[contràriu] agetivu|betzu|mannu|betzone|cadruddu
+picocu|2
+agetivu|minore|giòvanu|pitzinnu|pitzocu
+[contràriu] agetivu|betzu|mannu|betzone|cadruddu
+piseddu|2
+agetivu|minore|picocu|giòvanu|pitzinnu|pitzocu|piticu
+[contràriu] agetivu|betzu|mannu|betzone|cadruddu
+betzu|2
+agetivu|mannu
+[contràriu] agetivu|minore|picocu|piseddu|giòvanu|pitzinnu|pitzocu|piticu
+mannu|2
+agetivu|betzu|betzone
+[contràriu] agetivu|minore|picocu|piseddu|giòvanu
+antis|2
+avèrbiu|a printzìpiu|a cumintzu
+[contràriu] avèrbiu|posca|poscas|a pustis|a coa|in fatu|a ùrtimu
+fintzas|2
+avèrbiu|peri|puru|finas
+[contràriu] avèrbiu|mancu|nemmancu
+finas|2
+avèrbiu|peri|puru|fintzas
+[contràriu] avèrbiu|mancu|nemmancu
+peri|2
+avèrbiu|fintzas|finas|puru
+[contràriu] avèrbiu|mancu|nemmancu
+mancu|2
+avèrbiu|nemmancu
+[contràriu] avèrbiu|fintzas|finas|peri|puru
+totu|2
+agetivu|totu cantu|de unu totu
+[contràriu] agetivu|nudda|nemos|una parte
+nudda|2
+agetivu
+[contràriu] agetivu|totu cantu|de unu totu|totu
+nemos|2
+agetivu
+[contràriu] agetivu|totu|totus
