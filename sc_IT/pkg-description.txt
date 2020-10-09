@@ -1,0 +1,6 @@
+CROS Curretore Regionale Ortogràficu Sardu (LSC):
+
+* Curretore Ortogràficu Sardu e sillabadore
+  Copyright 2009-2013 (C) Regione Autònoma de sa Sardigna
+  Copyright 2000-2013 (C) Condaghes S.r.l. <info@condaghes.it>
+  Versione 2.0                 Lissèntzia: GPL 3.0 o imbeniente
