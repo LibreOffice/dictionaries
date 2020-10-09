@@ -59,6 +59,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_pt-PT \
 	Dictionary_ro \
 	Dictionary_ru \
+	Dictionary_sc \
 	Dictionary_si \
 	Dictionary_sk \
 	Dictionary_sl \
