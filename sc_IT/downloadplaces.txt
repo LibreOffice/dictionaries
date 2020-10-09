@@ -1,0 +1,3 @@
+hunspell dicitonaries:  https://launchpad.net/ditzionariusardu/
+thesaurus:              https://launchpad.net/ditzionariusardu/
+hyphenation:            https://launchpad.net/ditzionariusardu/
