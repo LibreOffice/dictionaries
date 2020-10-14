@@ -1,6 +1,9 @@
 SET UTF-8
 FLAG UTF-8
 TRY aeroinsctldumpbgfvhzóíjáqéñxyúükwAEROINSCTLDUMPBGFVHZÓÍJÁQÉÑXYÚÜKW
+PHONE 1
+PHONE a _
+MAXNGRAMSUGS 2
 REP 20
 REP ás az
 REP az ás
