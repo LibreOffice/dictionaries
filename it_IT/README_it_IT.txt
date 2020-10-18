@@ -1,11 +1,11 @@
-Version 3.3.1, 24-Mar-2011
+Version 5.1.0, 13-Oct-2020
 
 # Estensione linguistica italiana - Italian Writing Aids extension
-# Copyright (C) 2010, 2011 Andrea Pescetti
-# Portions Copyright (C) 2001-2008 other authors, see below for details.
+# Copyright (C) 2020, LibreItalia - Marina Latini
+# Portions Copyright (C) 2001-2015 other authors, see below for details.
 # License: GNU GPL 3
-# Home: http://extensions.services.openoffice.org/project/dict-it
-# E-Mail: pescetti<AT>openoffice<DOT>org
+# Home: https://libreitalia.org
+# E-Mail: marina.latini<AT>libreoffice<DOT>org
 
 [ Please scroll down for English. ]
 
@@ -13,12 +13,13 @@ ITALIANO
 
 L'estensione linguistica italiana fornisce le funzioni di correzione
 ortografica, dizionario dei sinonimi e sillabazione per la lingua
-italiana in OpenOffice.org. Il modulo di correzione ortografica è
+italiana in LibreOffice. Il modulo di correzione ortografica è
 utilizzabile anche in altri programmi che offrano supporto per
 dizionari MySpell, ASpell o HunSpell.
 
-L'estensione linguistica italiana è rilasciata da Andrea Pescetti
-pescetti<AT>openoffice<DOT>org sotto i termini e le condizioni della
+L'estensione linguistica italiana è rilasciata da LibreItalia
+e Marina Latini marina.latini<AT>libreoffice<DOT>org ne è l'attuale
+maintainer. L'estensione è rilasciata sotto i termini e le condizioni della
 GNU General Public License (GPL) 3. Una copia della licenza è
 disponibile in coda al presente file.
 
@@ -36,8 +37,8 @@ contiene le note di copyright applicabili a tale pacchetto.
 
 I volontari elencati di seguito, e in generale la Comunità
 OpenOffice.org e il PLIO http://www.plio.it hanno contribuito
-all'estensione linguistica italiana:
-- Andrea Pescetti, maintainer
+alla precedente versione dell'estensione linguistica italiana:
+- Andrea Pescetti, precedente maintainer fino alla versione 2015
 - Paolo Mantovani, struttura dell'estensione
 - Carlo Strata, suggerimenti e segnalazione di errori nel dizionario
 - Diego Favaro, suggerimenti e segnalazione di errori nel thesaurus
@@ -46,12 +47,14 @@ all'estensione linguistica italiana:
 ENGLISH
 
 The Italian Writing Aids extension provides spellchecker, theasurus and
-hyphenation functionality in Italian for OpenOffice.org. The spell
+hyphenation functionality in Italian for LibreOffice. The spell
 checking module can be used in any other programs too that support
 MySpell, ASpell or HunSpell dictionaries.
 
-The Italian Writing Aids extension is distributed by Andrea Pescetti
-pescetti<AT>openoffice<DOT>org under the terms and conditions of the
+The Italian Writing Aids extension is distributed by LibreItalia
+and Marina Latini marina.latini<AT>libreoffice<DOT>org is the current 
+extension's maintainer.
+The extensione is released under the terms and conditions of the
 GNU General Public License (GPL), version 3. A copy of the license is
 at the end of this file.
 
@@ -67,9 +70,9 @@ language" available at http://tug.ctan.org/pkg/ithyph ; see the
 README_hyph_it_IT.txt file for the relevant copyright notices.
 
 The following volunteers, and in general the OpenOffice.org Community
-and PLIO http://www.plio.it contributed to the Italian Writing Aids
-extension:
-- Andrea Pescetti, maintainer
+and PLIO http://www.plio.it contributed to the previous versions of Italian 
+Writing Aids extension:
+- Andrea Pescetti, previous maintainer until version 2015
 - Paolo Mantovani, extension structure
 - Carlo Strata, suggestions and bug reports (spellchecker)
 - Diego Favaro, suggestions and bug reports (thesaurus)

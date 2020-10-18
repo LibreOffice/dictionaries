@@ -1,13 +1,14 @@
-Version 3.3 (21/09/2010) (dd/mm/yyyy)
+Version 5.1.0 (13/10/2020) (dd/mm/yyyy)
 
 # Dizionario dei sinonimi italiano - Italian Thesaurus
 # Copyright (C) 2004,2005,2006,2007,2008 Daniela Volta
 # Copyright (C) 2008 Giovanni Zuliani
 # Copyright (C) 2006,2007,2008 Davide Prina
-# Copyright (C) 2010  Andrea Pescetti
-# E-Mail: pescetti<AT>openoffice<DOT>org
+# Copyright (C) 2010 - 2015, Andrea Pescetti
+# Copyright (C) 2020, LibreItalia - Marina Latini
+# E-Mail: marina<DOT>latini<AT>libreoffice<DOT>org
 # License: GNU GPL 3
-# Home: http://extensions.services.openoffice.org/project/dict-it
+# Home: https://libreitalia.or
 
 For English Readers: please scroll down for English version.
 
@@ -24,12 +25,12 @@ SOMMARIO
 1. Licenza
 ----------
 
-Il thesaurus italiano per il programma MyThes usato da OpenOffice.org è
-distribuito da Andrea Pescetti, contattabile all'indirizzo e-mail:
-pescetti(chiocciola)openoffice(punto)org sotto i termini e le
-condizioni della GNU General Public License (GPL) versione 3.
-Una volta accettata la licenza, l'accettante dovrà rispettare tutti i
-termini e le condizioni riportate nella licenza scelta.
+Il thesaurus italiano per il programma MyThes usato da LibreOffice è
+distribuito da LibreItalia a Marina Latini, contattabili all'indirizzo 
+e-mail: marina(punto)latini(chiocciola)libreoffice(punto)org 
+sotto i termini e le condizioni della GNU General Public License (GPL) 
+versione 3. Una volta accettata la licenza, l'accettante dovrà rispettare 
+tutti i termini e le condizioni riportate nella licenza scelta.
 
 Una copia della licenza applicabile a questo lavoro è disponibile in
 coda al presente file.
@@ -42,17 +43,16 @@ di pubblico dominio per l'integrazione con il thesaurus di OOo.
 2. Compatibilità
 ----------------
 
-Il presente thesaurus funziona con le versioni di OpenOffice.org (OOo)
-maggiori o uguali della versione 2.0, comprese alcune delle sue beta
-nominate 1.9.x.
+Il presente thesaurus funziona con le versioni di LibreOffice maggiori 
+o uguali della versione 3.X.
 
-Il file degli indici è ottenuto con MyThes, disponibile sul sito di
-OOo.
+Il file degli indici è ottenuto con MyThes.
 
 3. Ringraziamenti
 -----------------
 Hanno collaborato:
 
+- Versione 5.1.0: Marina Latini (maintainer), LibreItalia.
 - Versione 3.3: Andrea Pescetti (maintainer), Paolo Mantovani
   (struttura dell'estensione), Diego Favaro, Renzo Bianchi.
 - Versioni 2.0 - 2.07.gh_2008_02_10: Daniela Volta (coordinatrice dei
@@ -111,17 +111,10 @@ INDEX
 1. License
 ----------
 
-Il thesaurus italiano per il programma MyThes usato da OpenOffice.org è
-distribuito da Andrea Pescetti, contattabile all'indirizzo e-mail:
-pescetti(chiocciola)openoffice(punto)org sotto i termini e le
-condizioni della GNU General Public License (GPL) versione 3.0.
-Una volta accettata la licenza, l'accettante dovrà rispettare tutti i
-termini e le condizioni riportate nella licenza scelta.
-
-The Italian thesaurus used by OpenOffice.org is released by Andrea
-Pescetti pescetti(at)openoffice(dot)org under the terms and conditions
-of the GNU General Public License (GPL), version 3. The users must
-obey the licensing terms.
+The Italian thesaurus used by LibreOffice is released by LibreItalia and 
+Marina Latini, marina(dot)latini(at)libreofficee(dot)org, under the terms and 
+conditions of the GNU General Public License (GPL), version 3. 
+The users must obey the licensing terms.
 
 A copy of the license is at the end of this file.
 
@@ -132,17 +125,17 @@ it under public domain for use in the current thesaurus.
 2. Compatibility
 ----------------
 
-The Italian Thesaurus works with OpenOffice.org (OOo) version 2.0 and
-above.
+The Italian Thesaurus works with LibreOffice version 3.6 and above.
 
-The index file is created using MyThes; you can find MyThes on the OOo
-site.
+The index file is created using MyThes.
 
 3. Acknowledgements
 -------------------
 The following people helped in developing the thesaurus:
 
-- Versione 3.3: Andrea Pescetti (maintainer), Paolo Mantovani
+
+- Version 5.1.0: Marina Latini (maintainer), LibreItalia.
+- Version 3.3: Andrea Pescetti (maintainer), Paolo Mantovani
   (extension structure), Diego Favaro, Renzo Bianchi.
 - Versions 2.0 - 2.07.gh_2008_02_10: Daniela Volta (coordinator),
   Davide Prina (maintainer), Valter Mura and Fernando Nappo (thesaurus
