@@ -10,7 +10,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es es_AR es_BO es_CL es_CO es_CR es_CU es_DO es_EC es_ES es_GQ es_GT es_HN es_MX es_NI es_PA es_PE es_PH es_PR es_PY es_SV es_US es_UY es_VE</value>
+                <value>es es-AR es-BO es-CL es-CO es-CR es-CU es-DO es-EC es-ES es-GQ es-GT es-HN es-MX es-NI es-PA es-PE es-PH es-PR es-PY es-SV es-US es-UY es-VE</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_AR" oor:op="fuse">
@@ -21,7 +21,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_AR</value>
+                <value>es-AR</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_BO" oor:op="fuse">
@@ -32,7 +32,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_BO</value>
+                <value>es-BO</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_CL" oor:op="fuse">
@@ -43,7 +43,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_CL</value>
+                <value>es-CL</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_CO" oor:op="fuse">
@@ -54,7 +54,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_CO</value>
+                <value>es-CO</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_CR" oor:op="fuse">
@@ -65,7 +65,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_CR</value>
+                <value>es-CR</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_CU" oor:op="fuse">
@@ -76,7 +76,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_CU</value>
+                <value>es-CU</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_DO" oor:op="fuse">
@@ -87,7 +87,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_DO</value>
+                <value>es-DO</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_EC" oor:op="fuse">
@@ -98,7 +98,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_EC</value>
+                <value>es-EC</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_ES" oor:op="fuse">
@@ -109,7 +109,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_ES</value>
+                <value>es-ES</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_GQ" oor:op="fuse">
@@ -120,7 +120,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_GQ</value>
+                <value>es-GQ</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_GT" oor:op="fuse">
@@ -131,7 +131,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_GT</value>
+                <value>es-GT</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_HN" oor:op="fuse">
@@ -142,7 +142,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_HN</value>
+                <value>es-HN</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_MX" oor:op="fuse">
@@ -153,7 +153,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_MX</value>
+                <value>es-MX</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_NI" oor:op="fuse">
@@ -164,7 +164,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_NI</value>
+                <value>es-NI</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_PA" oor:op="fuse">
@@ -175,7 +175,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_PA</value>
+                <value>es-PA</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_PE" oor:op="fuse">
@@ -186,7 +186,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_PE</value>
+                <value>es-PE</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_PH" oor:op="fuse">
@@ -197,7 +197,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_PH</value>
+                <value>es-PH</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_PR" oor:op="fuse">
@@ -208,7 +208,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_PR</value>
+                <value>es-PR</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_PY" oor:op="fuse">
@@ -219,7 +219,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_PY</value>
+                <value>es-PY</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_SV" oor:op="fuse">
@@ -230,7 +230,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_SV</value>
+                <value>es-SV</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_US" oor:op="fuse">
@@ -241,7 +241,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_US</value>
+                <value>es-US</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_UY" oor:op="fuse">
@@ -252,7 +252,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_UY</value>
+                <value>es-UY</value>
             </prop>
         </node>
         <node oor:name="HunSpellDic_es_VE" oor:op="fuse">
@@ -263,7 +263,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es_VE</value>
+                <value>es-VE</value>
             </prop>
         </node>
         <node oor:name="HyphDic_es" oor:op="fuse">
@@ -274,7 +274,7 @@
                 <value>DICT_HYPH</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es es_AR es_BO es_CL es_CO es_CR es_CU es_DO es_EC es_ES es_GQ es_GT es_HN es_MX es_NI es_PA es_PE es_PH es_PR es_PY es_SV es_US es_UY es_VE</value>
+                <value>es es-AR es-BO es-CL es-CO es-CR es-CU es-DO es-EC es-ES es-GQ es-GT es-HN es-MX es-NI es-PA es-PE es-PH es-PR es-PY es-SV es-US es-UY es-VE</value>
             </prop>
         </node>
         <node oor:name="ThesDic_es" oor:op="fuse">
@@ -285,7 +285,7 @@
                 <value>DICT_THES</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>es es_AR es_BO es_CL es_CO es_CR es_CU es_DO es_EC es_ES es_GQ es_GT es_HN es_MX es_NI es_PA es_PE es_PH es_PR es_PY es_SV es_US es_UY es_VE</value>
+                <value>es es-AR es-BO es-CL es-CO es-CR es-CU es-DO es-EC es-ES es-GQ es-GT es-HN es-MX es-NI es-PA es-PE es-PH es-PR es-PY es-SV es-US es-UY es-VE</value>
             </prop>
         </node>
     </node>
