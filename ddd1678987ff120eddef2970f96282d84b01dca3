@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e0b71bae_61262ec6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2020-10-28T09:45:13Z",
+      "side": 1,
+      "message": "Please check patch 2 from Ilmari - that previous commit msg is preferrable",
+      "revId": "ddd1678987ff120eddef2970f96282d84b01dca3",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
