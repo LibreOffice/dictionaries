@@ -3,13 +3,13 @@ Thesaurus / Dicionário de sinónimos
 
 Thesaurus adicionado em Agosto de 2016
 --------------------------------------
-  O presente dicionário de sinónimos foi compilado por Tiago F. Santos
-acrescentando ao thesaurus anterior as relações de sinonímia fornecidas
-pelo projecto PAPEL e Onto.PT, utilizando manipulações de texto e
-tabelas para a fusão dos thesaurus e criação de índices válidos. Também
-foi utilizado o programa ProofingTools de Marco A.G. Pinto, para
+  O presente dicionário de sinónimos foi compilado por Tiago F. Santos 
+acrescentando ao thesaurus anterior as relações de sinonímia fornecidas 
+pelo projecto PAPEL e Onto.PT, utilizando manipulações de texto e 
+tabelas para a fusão dos thesaurus e criação de índices válidos. Também 
+foi utilizado o programa ProofingTools de Marco A.G. Pinto, para 
 'desduplicação' de relações entre palavras.
-  O presente trabalho pode ser redistribuído respeitando os termos das
+  O presente trabalho pode ser redistribuído respeitando os termos das 
 licenças base.
 
 ------------------------
@@ -17,11 +17,11 @@ Projecto Onto.pt
 ------------------------
 http://ontopt.dei.uc.pt/
 
-  Foi convertido e acrescentado ao dicionário de sinónimos existente um
-thesaururs personalizado, criado com base numa versão do projecto CLIP
-2.1, disponibilizada pelo responsável pelo projecto Onto.pt, Doutor Hugo
+  Foi convertido e acrescentado ao dicionário de sinónimos existente um 
+thesaururs personalizado, criado com base numa versão do projecto CLIP 
+2.1, disponibilizada pelo responsável pelo projecto Onto.pt, Doutor Hugo 
 Gonçalves Oliveira.
-Onto.PT rege-se pela licença Creative Commons Attribution 3.0 Unported que
+Onto.PT rege-se pela licença Creative Commons Attribution 3.0 Unported que 
 está disponível em:
 
 http://creativecommons.org/licenses/by/3.0/
@@ -60,16 +60,16 @@ You are free to:
 Share — copy and redistribute the material in any medium or format
 Adapt — remix, transform, and build upon the material
 for any purpose, even commercially.
-The licensor cannot revoke these freedoms as long as you follow the
+The licensor cannot revoke these freedoms as long as you follow the 
 license terms.
 Under the following terms:
 
-Attribution — You must give appropriate credit, provide a link to the
-license, and indicate if changes were made. You may do so in any reasonable
-manner, but not in any way that suggests the licensor endorses you or your
+Attribution — You must give appropriate credit, provide a link to the 
+license, and indicate if changes were made. You may do so in any reasonable 
+manner, but not in any way that suggests the licensor endorses you or your 
 use.
-No additional restrictions — You may not apply legal terms or technological
-measures that legally restrict others from doing anything the license
+No additional restrictions — You may not apply legal terms or technological 
+measures that legally restrict others from doing anything the license 
 permits.
 
 ----------------------------------------------------------------------------------------
@@ -78,24 +78,24 @@ Projecto PAPEL
 -------------------------------
 http://www.linguateca.pt/PAPEL/
 
-  O PAPEL é um recurso criado pela Linguateca a partir do Dicionário PRO de
-Língua Portuguesa da Porto Editora através de um protocolo de colaboração
+  O PAPEL é um recurso criado pela Linguateca a partir do Dicionário PRO de 
+Língua Portuguesa da Porto Editora através de um protocolo de colaboração 
 com o departamento de dicionários desta empresa.
-  Ao contrário de outras ontologias lexicais para o português de que temos
-conhecimento, o PAPEL é público, grátis e utilizável por todos os
-actores de processamento da língua que o quiserem usar, e encontra-se
+  Ao contrário de outras ontologias lexicais para o português de que temos 
+conhecimento, o PAPEL é público, grátis e utilizável por todos os 
+actores de processamento da língua que o quiserem usar, e encontra-se 
 aberto para subsequente melhoria pela comunidade.
-  O desenvolvimento do PAPEL oficial terminou com o fim da terceira fase
-da Linguateca (31 de Dezembro de 2008). A publicação da sua primeira
-versão teve a data de 17 de Agosto de 2009, e desde aí temos tentado
-produzir novas versões através da melhoria e validação do seu conteúdo
-(veja-se o historial para mais informação).
+  O desenvolvimento do PAPEL oficial terminou com o fim da terceira fase 
+da Linguateca (31 de Dezembro de 2008). A publicação da sua primeira 
+versão teve a data de 17 de Agosto de 2009, e desde aí temos tentado 
+produzir novas versões através da melhoria e validação do seu conteúdo 
+(veja-se o historial para mais informação). 
 
 
-  Hugo Gonçalo Oliveira, Diana Santos, Paulo Gomes, e Nuno Seco (2008).
-PAPEL: A dictionary-based lexical ontology for Portuguese. In
-Proceedings of Computational Processing of the Portuguese Language -
-8th International Conference (PROPOR 2008), volume 5190 of LNCS/LNAI,
+  Hugo Gonçalo Oliveira, Diana Santos, Paulo Gomes, e Nuno Seco (2008). 
+PAPEL: A dictionary-based lexical ontology for Portuguese. In 
+Proceedings of Computational Processing of the Portuguese Language - 
+8th International Conference (PROPOR 2008), volume 5190 of LNCS/LNAI, 
 pages 31–40, Aveiro, Portugal. Springer.
 
 
@@ -140,13 +140,13 @@ Installation: =============================================================
  3. OOo neu starten (auch den Schnellstarter, falls man den benutzt)
 
  4. Im Text ein Wort markieren oder einfach den Cursor auf das Wort
-    setzen und Extras->Sprache->Thesaurus auswählen. Sollten keine Synonyme
-    angezeigt werden, kann man es mit dem Wort "Test" versuchen. Es werden
+    setzen und Extras->Sprache->Thesaurus auswählen. Sollten keine Synonyme 
+    angezeigt werden, kann man es mit dem Wort "Test" versuchen. Es werden 
     nur Grundformen gefunden, z.B. "groß" aber nicht "größer", "laufen" aber
     nicht "lief".
 
 Wer Fehler im Thesaurus findet oder Wörter vermisst, kann sich unter
-http://www.openthesaurus.de/ anmelden und dort Fehler beheben und
+http://www.openthesaurus.de/ anmelden und dort Fehler beheben und 
 neue Wörter einfügen.
 
 This program is free software; you can redistribute it and/or modify
