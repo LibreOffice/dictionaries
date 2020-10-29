@@ -17,11 +17,11 @@ $(eval $(call gb_Dictionary_add_root_files,dict-pt-PT,\
 	dictionaries/pt_PT/pt_PT.dic \
 	dictionaries/pt_PT/README_hyph_pt_PT.txt \
 	dictionaries/pt_PT/README_pt_PT.txt \
-	dictionaries/pt_PT/README_th_pt_PT_v2.txt \
+	dictionaries/pt_PT/README_th_pt_PT.txt \
 ))
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-pt-PT,\
-	dictionaries/pt_PT/th_pt_PT_v2.dat \
+	dictionaries/pt_PT/th_pt_PT.dat \
 ))
 
 # vim: set noet sw=4 ts=4:
