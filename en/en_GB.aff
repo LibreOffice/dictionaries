@@ -15,7 +15,7 @@
 #   3) Plurals.
 #
 # David Bartlett, Andrew Brown, Marco A.G.Pinto.
-# V 2.84, 2020-05-01
+# V 2.90, 2020-11-01
 
 SET UTF-8
 
@@ -1219,7 +1219,7 @@ SFX y 0 ry [^ehmstn]
 SFX O Y 22
 SFX O 0 al ch[ei]
 SFX O 0 al te
-SFX O 0 al [eimru][bn]
+SFX O 0 al [eimru][bfn]
 SFX O 0 al ss
 SFX O 0 al it
 SFX O 0 al [nt]ant
@@ -1298,29 +1298,32 @@ SFX 1 0 tically ma
 SFX 1 a ically [^m]a 
 SFX 1 y ically y 
 SFX 1 0 ically [^aemry] 
-SFX 3 Y 24
+SFX 3 Y 27
 SFX 3 e ist [^aceiou]e 
 SFX 3 ce tist ce 
 SFX 3 0 ist [aeiou]e 
 SFX 3 y ist apy
+SFX 3 y ist ropy
 SFX 3 y ist [^aeioubp]y 
-SFX 3 0 ist [^a][aeioubp]y 
+SFX 3 0 ist [^r][^a][aeioubp]y 
 SFX 3 o ist o 
 SFX 3 0 ist [^eoy] 
 SFX 3 e ists [^aceiou]e 
 SFX 3 ce tists ce 
 SFX 3 0 ists [aeiou]e 
 SFX 3 y ists apy 
+SFX 3 y ists ropy 
 SFX 3 y ists [^aeioubp]y 
-SFX 3 0 ists [^a][aeioubp]y 
+SFX 3 0 ists [^r][^a][aeioubp]y 
 SFX 3 o ists o 
 SFX 3 0 ists [^eoy] 
 SFX 3 e ist's [^aceiou]e 
 SFX 3 ce tist's ce 
 SFX 3 0 ist's [aeiou]e 
 SFX 3 y ist's apy 
+SFX 3 y ist's ropy 
 SFX 3 y ist's [^aeioubp]y 
-SFX 3 0 ist's [^a][aeioubp]y 
+SFX 3 0 ist's [^r][^a][aeioubp]y 
 SFX 3 o ist's o 
 SFX 3 0 ist's [^eoy] 
 SFX = Y 15
