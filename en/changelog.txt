@@ -1,3 +1,49 @@
+MAGP 2020-11-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 964 new words(1) (2020-11-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2020-10-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 740 new words(1) (2020-09-01) + 447 new words(1) (2020-10-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2020-08-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 634 new words(1) (2020-08-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2020-07-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 1004 new words(1) (2020-07-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2020-06-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 2874 new words(1) (2020-06-01).
+	(1) Added tons of plurals and possessives.
+		Added tons of astronomy words.
+
+
+
 MAGP 2020-05-01
 
 Updated the Dictionaries:
