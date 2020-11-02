@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c4fc37d6_58819026",
+        "filename": "es/description.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2020-11-02T15:45:48Z",
+      "side": 1,
+      "message": "For strings to get translated, they need to use en-US as source langauge, otherwise strings won\u0027t get extracted into the pot templates",
+      "revId": "2b9183e45954cfd9d1638f838b461de1ce68b296",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
