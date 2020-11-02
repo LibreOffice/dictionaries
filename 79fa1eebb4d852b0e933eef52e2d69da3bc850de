@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "428199a7_070ae167",
+        "filename": "pt_PT/description.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2020-11-02T15:48:00Z",
+      "side": 1,
+      "message": "For strings to be extracted for translation, they need to use en-US language specifier.",
+      "revId": "79fa1eebb4d852b0e933eef52e2d69da3bc850de",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
