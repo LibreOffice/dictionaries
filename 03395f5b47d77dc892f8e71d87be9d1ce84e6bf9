@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "38b55c00_ad23b42e",
+        "filename": "sc_IT/description.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2020-11-19T10:39:48Z",
+      "side": 1,
+      "message": "if it is meant to be translated, it needs to use en-US language code.",
+      "revId": "03395f5b47d77dc892f8e71d87be9d1ce84e6bf9",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
