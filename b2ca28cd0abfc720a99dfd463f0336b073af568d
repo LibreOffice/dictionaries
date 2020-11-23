@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ecb8859_a431571a",
+        "filename": "pt_BR/pt_BR.aff",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000135
+      },
+      "writtenOn": "2020-11-23T10:48:39Z",
+      "side": 1,
+      "message": "this needs to be changed to:\nSET UTF-8",
+      "revId": "b2ca28cd0abfc720a99dfd463f0336b073af568d",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
