@@ -16,6 +16,24 @@
       "revId": "b2ca28cd0abfc720a99dfd463f0336b073af568d",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d8b9d65_225b368b",
+        "filename": "pt_BR/pt_BR.aff",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000059
+      },
+      "writtenOn": "2020-11-23T10:56:36Z",
+      "side": 1,
+      "message": "Files of this patch are in ISO-8859. \n\n\nWhen converting these 2 files to UTF-8 and adjusting the header to SET UTF-8, hunspell stop working silently.",
+      "parentUuid": "2ecb8859_a431571a",
+      "revId": "b2ca28cd0abfc720a99dfd463f0336b073af568d",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
     }
   ]
 }
