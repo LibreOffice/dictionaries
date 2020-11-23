@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "c5e81b67_1c5f9ba0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000994
+      },
+      "writtenOn": "2020-11-23T11:14:33Z",
+      "side": 1,
+      "message": "The bug report says:\n\n\u003e pt_BR.dic:          Non-ISO extended-ASCII text, with CRLF line terminators\n\nI don\u0027t know what \"Non-ISO extended-ASCII\" means, but then is it converted to UTF-8 properly?",
+      "range": {
+        "startLine": 14,
+        "startChar": 12,
+        "endLine": 14,
+        "endChar": 44
+      },
+      "revId": "b2ca28cd0abfc720a99dfd463f0336b073af568d",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2ecb8859_a431571a",
         "filename": "pt_BR/pt_BR.aff",
         "patchSetId": 2
