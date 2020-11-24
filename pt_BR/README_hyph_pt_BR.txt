@@ -1,747 +1,747 @@
 Autor/Author: Raimundo Moura <raimundo.smoura@gmail.com>
 
-pt-BR: Este Divisor de Sílabas está em desenvolvimento por Raimundo Moura. Ele está
-licenciado sob os termos da Licença Pública Geral Menor versão 3 (LGPLv3), como
+pt-BR: Este Divisor de SÃ­labas estÃ¡ em desenvolvimento por Raimundo Moura. Ele estÃ¡
+licenciado sob os termos da LicenÃ§a PÃºblica Geral Menor versÃ£o 3 (LGPLv3), como
 publicado pela Free Software Foundation e pela Mozilla Public License como publicada
-pela Mozilla Foundation. Os créditos estão disponíveis em
+pela Mozilla Foundation. Os crÃ©ditos estÃ£o disponÃ­veis em
 http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
-e você pode encontrar novas versões em
+e vocÃª pode encontrar novas versÃµes em
 http://extensions.libreoffice.org
 
 Copyright (C) 2008 - 2013 por/by Raimundo Santos Moura <raimundo.smoura@gmail.com>
 
 ========================================================================================
-APRESENTAÇÃO
+APRESENTAÃ‡ÃƒO
 ========================================================================================
 
-O Projeto DivSilab do LibreOffice é um projeto
+O Projeto DivSilab do LibreOffice Ã© um projeto
 colaborativo desenvolvido pela comunidade Brasileira.
-A relação completa dos colaboradores deste projeto está em:
+A relaÃ§Ã£o completa dos colaboradores deste projeto estÃ¡ em:
 http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 
-O DivSilab é uma ferramenta para realizar a translineação de textos.
-Ele divide a palavra silabicamente, ficando parte no final da linha e o restante no início
+O DivSilab Ã© uma ferramenta para realizar a translineaÃ§Ã£o de textos.
+Ele divide a palavra silabicamente, ficando parte no final da linha e o restante no inÃ­cio
 da linha inferior.
 ======================
-SOBRE ESTA ATUALIZAÇÃO
+SOBRE ESTA ATUALIZAÃ‡ÃƒO
 ======================
-Versão 1.0.8 DivSilab
+VersÃ£o 1.0.8 DivSilab
 Retirada de duplicadas:
-1n2â
-1s2â
-1t2â
-1x2â
-1z2â
-Inclusão de:
-1s2õ      (pro.vi.sões)
-Colaboração Adriano Konzen.
+1n2Ã¢
+1s2Ã¢
+1t2Ã¢
+1x2Ã¢
+1z2Ã¢
+InclusÃ£o de:
+1s2Ãµ      (pro.vi.sÃµes)
+ColaboraÃ§Ã£o Adriano Konzen.
 
-Inclusão/alteração de:
+InclusÃ£o/alteraÃ§Ã£o de:
 2e4as.
 2e4os.      (alterado de 2eos.)
-1n2ú        (alterado de 1n3ú)
-1b2â        re.tum.bân.cia
-1c2â        al.cân.ta.ra
-1d2â        a.bun.dân.cia
-1f2â        al.fân.de.ga
-1g2â        a.mal.gâ.mi.co
-1j2ô        em.jô.o
-1m2â        ger.mâ.ni.co
-1p2â        cam.pâ.nu.la
-1p2è        am.pè.re
-1r2â        ce.râ.mi.ca
-1v2â        gal.vâ.ni.co
-1x2ú        lu.xú.ria
-Colaboração Adriano Konzen.
+1n2Ãº        (alterado de 1n3Ãº)
+1b2Ã¢        re.tum.bÃ¢n.cia
+1c2Ã¢        al.cÃ¢n.ta.ra
+1d2Ã¢        a.bun.dÃ¢n.cia
+1f2Ã¢        al.fÃ¢n.de.ga
+1g2Ã¢        a.mal.gÃ¢.mi.co
+1j2Ã´        em.jÃ´.o
+1m2Ã¢        ger.mÃ¢.ni.co
+1p2Ã¢        cam.pÃ¢.nu.la
+1p2Ã¨        am.pÃ¨.re
+1r2Ã¢        ce.rÃ¢.mi.ca
+1v2Ã¢        gal.vÃ¢.ni.co
+1x2Ãº        lu.xÃº.ria
+ColaboraÃ§Ã£o Adriano Konzen.
 
-Inclusão de: 
-e1â         pre.âm.bu.lo - o.ce.â.ni.co
-h2â         bri.lhâ.ncia
-i1â         di.â.me.tro
-1j2â        ca.jâ.nea
-a3ô         fa.ra.ô.ni.co
-o3ô         al.co.ô.me.tro
-u3ô         va.cu.ô.me.tro
+InclusÃ£o de: 
+e1Ã¢         pre.Ã¢m.bu.lo - o.ce.Ã¢.ni.co
+h2Ã¢         bri.lhÃ¢.ncia
+i1Ã¢         di.Ã¢.me.tro
+1j2Ã¢        ca.jÃ¢.nea
+a3Ã´         fa.ra.Ã´.ni.co
+o3Ã´         al.co.Ã´.me.tro
+u3Ã´         va.cu.Ã´.me.tro
 
-Para corrigir separação de psi inclusão de: 
+Para corrigir separaÃ§Ã£o de psi inclusÃ£o de: 
 a3p2s2i1c
 o2p3s2i1c
 a3p2s2i1q
 o2p3s2i1q
-á2p3s2i
-é2p3s2i
-í2p3s2i
-ó2p3s2i
+Ã¡2p3s2i
+Ã©2p3s2i
+Ã­2p3s2i
+Ã³2p3s2i
 2p1s2i
 .p2s2i
 
 
-â1n2a
-â2n1c
-â2n1d
-â1n2e
-â2n1f
-â2n1g
-â1n2h
-â1n2i
-â2n1j
-â2n1n
-â1n2o
-â2n1q
-â2n1r
-â2n1s2i
-â2n1s2e
-â2n4s1c
-â2n4s1f
-â2n1t
-â1n2u
-â2n1v
-â2n1z
+Ã¢1n2a
+Ã¢2n1c
+Ã¢2n1d
+Ã¢1n2e
+Ã¢2n1f
+Ã¢2n1g
+Ã¢1n2h
+Ã¢1n2i
+Ã¢2n1j
+Ã¢2n1n
+Ã¢1n2o
+Ã¢2n1q
+Ã¢2n1r
+Ã¢2n1s2i
+Ã¢2n1s2e
+Ã¢2n4s1c
+Ã¢2n4s1f
+Ã¢2n1t
+Ã¢1n2u
+Ã¢2n1v
+Ã¢2n1z
 
-Inclusão de regras para palavras acentuadas terminadas em io e ia 
+InclusÃ£o de regras para palavras acentuadas terminadas em io e ia 
 
-2á1b2i4a
-2á1c2i4a
-2á1d2i4a
-2á1f2i4a
-2á1g2i4a
-2á1l2i4a
-2á1p2i4a
-2á1r2i4a
-2á1s2i4a
-2á1t2i4a
-2á1v2i4a
-2á1x2i4a
-2á1z2i4a
-2â1m2i4a
-2â1n2i4a
-2é1b2i4a
-2é1c2i4a
-2é1d2i4a
-2é1f2i4a
-2é1g2i4a
-2é1l2i4a
-2é1n2i4a
-2é1p2i4a
-2é1r2i4a
-2é1s2i4a
-2é1t2i4a
-2é1v2i4a
-2é1x2i4a
-2é1y2i4a
-2é1z2i4a
-2ê1m2i4a
-2ê1n2i4a
-2í1b2i4a
-2í1c2i4a
-2í1d2i4a
-2í1f2i4a
-2í1g2i4a
-2í1j2i4a
-2í1l2i4a
-2í1m2i4a
-2í1n2i4a
-2í1p2i4a
-2í1r2i4a
-2í1s2i4a
-2í1t2i4a
-2í1v2i4a
-2í1x2i4a
-2í1z2i4a
-2ó1b2i4a
-2ó1c2i4a
-2ó1d2i4a
-2ó1f2i4a
-2ó1g2i4a
-2ó1j2i4a
-2ó1l2i4a
-2ó1p2i4a
-2ó1r2i4a
-2ó1s2i4a
-2ó1t2i4a
-2ó1v2i4a
-2ó1x2i4a
-2ó1z2i4a
-2ô1d2i4a
-2ô1m2i4a
-2ô1n2i4a
-2ú1b2i4a
-2ú1c2i4a
-2ú1d2i4a
-2ú1f2i4a
-2ú1g2i4a
-2ú1l2i4a
-2ú1m2i4a
-2ú1n2i4a
-2ú1p2i4a
-2ú1r2i4a
-2ú1s2i4a
-2ú1v2i4a
-2ú1x2i4a
-2ú1z2i4a
-2á1b2i4o
-2á1c2i4o
-2á1d2i4o
-2á1f2i4o
-2á1g2i4o
-2á1l2i4o
-2á1n2i4o
-2á1p2i4o
-2á1r2i4o
-2á1s2i4o
-2á1t2i4o
-2á1v2i4o
-2á1x2i4o
-2á1z2i4o
-2â1m2i4o
-2â1n2i4o
-2é1b2i4o
-2é1c2i4o
-2é1d2i4o
-2é1f2i4o
-2é1g2i4o
-2é1l2i4o
-2é1n2i4o
-2é1p2i4o
-2é1r2i4o
-2é1s2i4o
-2é1t2i4o
-2é1v2i4o
-2é1x2i4o
-2é1z2i4o
-2ê1m2i4o
-2ê1n2i4o
-2ê1s2i4o
-2í1b2i4o
-2í1c2i4o
-2í1d2i4o
-2í1f2i4o
-2í1g2i4o
-2í1l2i4o
-2í1m2i4o
-2í1n2i4o
-2í1p2i4o
-2í1r2i4o
-2í1s2i4o
-2í1t2i4o
-2í1v2i4o
-2í1z2i4o
-2ó1b2i4o
-2ó1c2i4o
-2ó1d2i4o
-2ó1f2i4o
-2ó1g2i4o
-2ó1l2i4o
-2ó1m2i4o
-2ó1p2i4o
-2ó1r2i4o
-2ó1s2i4o
-2ó1t2i4o
-2ó1v2i4o
-2ó1x2i4o
-2ó1z2i4o
-2ô1d2i4o
-2ô1m2i4o
-2ô1n2i4o
-2ú1b2i4o
-2ú1c2i4o
-2ú1d2i4o
-2ú1f2i4o
-2ú1g2i4o
-2ú1j2i4o
-2ú1l2i4o
-2ú1m2i4o
-2ú1n2i4o
-2ú1p2i4o
-2ú1r2i4o
-2ú1s2i4o
-2ú1t2i4o
-2ú1v2i4o
-2ú1z2i4o
-2á4i1b2i4a
-2â4m1b2i4a
-2é4b1b2i4a
-2é4r1b2i4a
-2é4s1b2i4a
-2í4l1b2i4a
-2í4m1b2i4a
-2í4r1b2i4a
-2ó4b1b2i4a
-2ô4m1b2i4a
-2ó4s1b2i4a
-2ú4m1b2i4a
-2á4l1c2i4a
-2â4n1c2i4a
-2á4r1c2i4a
-2á4u1c2i4a
-2ê4n1c2i4a
-2é4p1c2i4a
-2é4r1c2i4a
-2é4s1c2i4a
-2ê4u1c2i4a
-2í4l1c2i4a
-2í4n1c2i4a
-2í4r1c2i4a
-2í4s1c2i4a
-2ó4l1c2i4a
-2ô4n1c2i4a
-2ó4r1c2i4a
-2ó4s1c2i4a
-2ú4n1c2i4a
-2ú4p1c2i4a
-2ú4r1c2i4a
-2á4b1d2i4a
-2á4g1d2i4a
-2á4l1d2i4a
-2â4n1d2i4a
-2á4r1d2i4a
-2á4u1d2i4a
-2ê4i1d2i4a
-2é4l1d2i4a
-2ê4n1d2i4a
-2é4r1d2i4a
-2í4l1d2i4a
-2í4n1d2i4a
-2ó4l1d2i4a
-2ô4l1d2i4a
-2ô4n1d2i4a
-2ó4r1d2i4a
-2ú4l1d2i4a
-2ú4n1d2i4a
-2ú4r1d2i4a
-2â4n1f2i4a
-2á4r1f2i4a
-2é4l1f2i4a
-2ó4l1f2i4a
-2ô4n1f2i4a
-2ó4r1f2i4a
-2ú4l1f2i4a
-2á4i1g2i4a
-2á4l1g2i4a
-2â4n1g2i4a
-2á4r1g2i4a
-2é4r1g2i4a
-2í4n1g2i4a
-2ô4n1g2i4a
-2ó4r1g2i4a
-2ú4n1g2i4a
-2ú4r1g2i4a
-2á1c4h2i4a
-2á1l4h2i4a
-2â1n4h2i4a
-2é1c4h2i4a
-2é4t1h2i4a
-2í4g1h2i4a
-2ô1n4h2i4a
-2ú1c4h2i4a
-2á1c4l2i4a
-2á1g4l2i4a
-2á4l1l2i4a
-2á4r1l2i4a
-2á4u1l2i4a
-2é4l1l2i4a
-2é4s1l2i4a
-2é1t4l2i4a
-2ê4u1l2i4a
-2í1b4l2i4a
-2í1c4l2i4a
-2ó1g4l2i4a
-2ó1p4l2i4a
-2ô4u1l2i4a
-2á4l1m2i4a
-2á4r1m2i4a
-2á4s1m2i4a
-2á4u1m2i4a
-2ê4i1m2i4a
-2é4l1m2i4a
-2é4r1m2i4a
-2é4s1m2i4a
-2ê4s1m2i4a
-2í4m1m2i4a
-2í4s1m2i4a
-2ô4l1m2i4a
-2ó4r1m2i4a
-2ó4s1m2i4a
-2á4f1n2i4a
-2á4g1n2i4a
-2â4g1n2i4a
-2â4i1n2i4a
-2â4m1n2i4a
-2â4n1n2i4a
-2á4u1n2i4a
-2é4g1n2i4a
-2ê4i1n2i4a
-2é4r1n2i4a
-2í4g1n2i4a
-2í4m1n2i4a
-2í4r1n2i4a
-2ó4c1n2i4a
-2ó4d1n2i4a
-2ó4l1n2i4a
-2ó4r1n2i4a
-2ó4t1n2i4a
-2ú4r1n2i4a
-2á4l1p2i4a
-2â4m1p2i4a
-2á4p1p2i4a
-2á4r1p2i4a
-2é4r1p2i4a
-2í4m1p2i4a
-2í4p1p2i4a
-2ó4r1p2i4a
-2ó4s1p2i4a
-2ú4l1p2i4a
-2ú4p1p2i4a
-2á1b4r2i4a
-2á1c4r2i4a
-2á1d4r2i4a
-2á1f4r2i4a
-2á1g4r2i4a
-2â4n1r2i4a
-2á4r1r2i4a
-2á1t4r2i4a
-2á4u1r2i4a
-2é1b4r2i4a
-2é1d4r2i4a
-2é1f4r2i4a
-2é4r1r2i4a
-2é1t4r2i4a
-2ê4u1r2i4a
-2í1c4r2i4a
-2í1d4r2i4a
-2í1p4r2i4a
-2í1t4r2i4a
-2ó1d4r2i4a
-2ó1f4r2i4a
-2ô4i1r2i4a
-2ó1p4r2i4a
-2ó4r1r2i4a
-2ó1t4r2i4a
-2ô4u1r2i4a
-2ú1g4r2i4a
-2ú4r1r2i4a
-2ú1t4r2i4a
-2á4i1s2i4a
-2â4n1s2i4a
-2á4p1s2i4a
-2á4r1s2i4a
-2á4s1s2i4a
-2á4t1s2i4a
-2á4u1s2i4a
-2é4l1s2i4a
-2ê4n1s2i4a
-2é4p1s2i4a
-2é4r1s2i4a
-2é4s1s2i4a
-2é4t1s2i4a
-2ê4y1s2i4a
-2í4n1s2i4a
-2í4p1s2i4a
-2í4s1s2i4a
-2í4t1s2i4a
-2ô4n1s2i4a
-2ó4p1s2i4a
-2ó4r1s2i4a
-2ó4s1s2i4a
-2ô4u1s2i4a
-2ú4c1s2i4a
-2ú4n1s2i4a
-2ú4s1s2i4a
-2á4c1t2i4a
-2á4l1t2i4a
-2â4n1t2i4a
-2á4p1t2i4a
-2á4r1t2i4a
-2á4s1t2i4a
-2á4t1t2i4a
-2é4c1t2i4a
-2é4d1t2i4a
-2ê4n1t2i4a
-2é4r1t2i4a
-2é4s1t2i4a
-2é4t1t2i4a
-2í4c1t2i4a
-2í4d1t2i4a
-2í4f1t2i4a
-2í4n1t2i4a
-2í4p1t2i4a
-2í4s1t2i4a
-2ô4n1t2i4a
-2ó4r1t2i4a
-2ó4s1t2i4a
-2ó4t1t2i4a
-2ú4r1t2i4a
-2ú4s1t2i4a
-2á1g4u2i4a
-2á1q4u2i4a
-2é1g4u2i4a
-2é1q4u2i4a
-2í1q4u2i4a
-2ó1q4u2i4a
-2ú1q4u2i4a
-2á4l1v2i4a
-2á4u1v2i4a
-2é4r1v2i4a
-2í4l1v2i4a
-2ó4r1v2i4a
-2á4r1x2i4a
-2á4u1x2i4a
-2â4u1x2i4a
-2ê4i1x2i4a
-2á4r1z2i4a
-2ê4n1z2i4a
-2é4t1z2i4a
-2í4t1z2i4a
-2ó4l1z2i4a
-2ô4l1z2i4a
-2ô4n1z2i4a
-2ó4t1z2i4a
-2ó4z1z2i4a
-2â4m1b2i4o
-2á4r1b2i4o
-2é4r1b2i4o
-2é4s1b2i4o
-2í4m1b2i4o
-2ô4m1b2i4o
-2ó4r1b2i4o
-2ú4m1b2i4o
-2ú4r1b2i4o
-2á4l1c2i4o
-2â4n1c2i4o
-2á4r1c2i4o
-2á4s1c2i4o
-2á4u1c2i4o
-2é4l1c2i4o
-2ê4n1c2i4o
-2é4r1c2i4o
-2é4s1c2i4o
-2ê4u1c2i4o
-2í4n1c2i4o
-2í4p1c2i4o
-2í4r1c2i4o
-2í4s1c2i4o
-2ô4n1c2i4o
-2ó4r1c2i4o
-2ó4s1c2i4o
-2ú4l1c2i4o
-2ú4n1c2i4o
-2ú4r1c2i4o
-2ú4s1c2i4o
-2á4b1d2i4o
-2â4n1d2i4o
-2á4r1d2i4o
-2á4u1d2i4o
-2ê4i1d2i4o
-2ê4n1d2i4o
-2í4l1d2i4o
-2í4n1d2i4o
-2ô4n1d2i4o
-2ó4r1d2i4o
-2ú4n1d2i4o
-2ú4r1d2i4o
-2á4r1f2i4o
-2é4l1f2i4o
-2ê4n1f2i4o
-2í4l1f2i4o
-2ú4n1f2i4o
-2á4l1g2i4o
-2â4n1g2i4o
-2á4r1g2i4o
-2á4s1g2i4o
-2é4l1g2i4o
-2é4r1g2i4o
-2í4n1g2i4o
-2ô4n1g2i4o
-2ó4r1g2i4o
-2ú4r1g2i4o
-2á1c4h2i4o
-2ó1c4h2i4o
-2á1b4l2i4o
-2á1c4l2i4o
-2á4u1l2i4o
-2ê4i1l2i4o
-2í1b4l2i4o
-2í1c4l2i4o
-2í1g4l2i4o
-2ó1c4l2i4o
-2ó1g4l2i4o
-2ó1p4l2i4o
-2ú1c4l2i4o
-2á4d1m2i4o
-2á4g1m2i4o
-2á4i1m2i4o
-2á4j1m2i4o
-2á4l1m2i4o
-2á4s1m2i4o
-2á4t1m2i4o
-2é4l1m2i4o
-2é4r1m2i4o
-2é4s1m2i4o
-2í4s1m2i4o
-2ó4c1m2i4o
-2ó4l1m2i4o
-2ó4r1m2i4o
-2ó4s1m2i4o
-2á4c1n2i4o
-2á4f1n2i4o
-2á4g1n2i4o
-2â4m1n2i4o
-2á4r1n2i4o
-2á4u1n2i4o
-2é4g1n2i4o
-2ê4i1n2i4o
-2ê4m1n2i4o
-2é4r1n2i4o
-2í4c1n2i4o
-2í4f1n2i4o
-2í4g1n2i4o
-2í4m1n2i4o
-2í4r1n2i4o
-2í4s1n2i4o
-2í4t1n2i4o
-2ó4d1n2i4o
-2ó4g1n2i4o
-2ó4r1n2i4o
-2ó4s1n2i4o
-2ú4b1n2i4o
-2ú4r1n2i4o
-2á4l1p2i4o
-2â4m1p2i4o
-2á4r1p2i4o
-2á4s1p2i4o
-2á4u1p2i4o
-2é4s1p2i4o
-2í4m1p2i4o
-2ó4l1p2i4o
-2ó4r1p2i4o
-2ó4s1p2i4o
-2ú4l1p2i4o
-2á4b1r2i4o
-2á1c4r2i4o
-2á1d4r2i4o
-2á1f4r2i4o
-2á1g4r2i4o
-2á4r1r2i4o
-2á4s1r2i4o
-2á1t4r2i4o
-2á4u1r2i4o
-2é1b4r2i4o
-2é1d4r2i4o
-2é1g4r2i4o
-2ê1n4r2i4o
-2é1t4r2i4o
-2ê4u1r2i4o
-2í1b4r2i4o
-2í1d4r2i4o
-2í1p4r2i4o
-2í1t4r2i4o
-2ó1b4r2i4o
-2ó1c4r2i4o
-2ó1f4r2i4o
-2ó4h1r2i4o
-2ó1p4r2i4o
-2ó4r1r2i4o
-2ó1t4r2i4o
-2ú1b4r2i4o
-2ú4h1r2i4o
-2ú4r1r2i4o
-2ú1t4r2i4o
-2á4i1s2i4o
-2á4r1s2i4o
-2á4s1s2i4o
-2á4u1s2i4o
-2ê4n1s2i4o
-2é4p1s2i4o
-2é4r1s2i4o
-2é4s1s2i4o
-2í4s1s2i4o
-2ô4n1s2i4o
-2ó4p1s2i4o
-2ó4s1s2i4o
-2ú4r1s2i4o
-2ú4s1s2i4o
-2á4c1t2i4o
-2â4n1t2i4o
-2á4r1t2i4o
-2á4s1t2i4o
-2é4l1t2i4o
-2ê4n1t2i4o
-2é4r1t2i4o
-2é4s1t2i4o
-2í4c1t2i4o
-2í4n1t2i4o
-2í4p1t2i4o
-2í4r1t2i4o
-2í4s1t2i4o
-2ó4c1t2i4o
-2ó4l1t2i4o
-2ô4n1t2i4o
-2ó4p1t2i4o
-2ó4s1t2i4o
-2ú4r1t2i4o
-2ú4s1t2i4o
-2á1q4u2i4o
-2é1q4u2i4o
-2í1q4u2i4o
-2ó1q4u2i4o
-2á4l1v2i4o
-2â4n1v2i4o
-2é4l1v2i4o
-2é4r1v2i4o
-2í4l1v2i4o
-2í4n1v2i4o
-2ó4b1v2i4o
-2ú4l1v2i4o
-2é4l1z2i4o
+2Ã¡1b2i4a
+2Ã¡1c2i4a
+2Ã¡1d2i4a
+2Ã¡1f2i4a
+2Ã¡1g2i4a
+2Ã¡1l2i4a
+2Ã¡1p2i4a
+2Ã¡1r2i4a
+2Ã¡1s2i4a
+2Ã¡1t2i4a
+2Ã¡1v2i4a
+2Ã¡1x2i4a
+2Ã¡1z2i4a
+2Ã¢1m2i4a
+2Ã¢1n2i4a
+2Ã©1b2i4a
+2Ã©1c2i4a
+2Ã©1d2i4a
+2Ã©1f2i4a
+2Ã©1g2i4a
+2Ã©1l2i4a
+2Ã©1n2i4a
+2Ã©1p2i4a
+2Ã©1r2i4a
+2Ã©1s2i4a
+2Ã©1t2i4a
+2Ã©1v2i4a
+2Ã©1x2i4a
+2Ã©1y2i4a
+2Ã©1z2i4a
+2Ãª1m2i4a
+2Ãª1n2i4a
+2Ã­1b2i4a
+2Ã­1c2i4a
+2Ã­1d2i4a
+2Ã­1f2i4a
+2Ã­1g2i4a
+2Ã­1j2i4a
+2Ã­1l2i4a
+2Ã­1m2i4a
+2Ã­1n2i4a
+2Ã­1p2i4a
+2Ã­1r2i4a
+2Ã­1s2i4a
+2Ã­1t2i4a
+2Ã­1v2i4a
+2Ã­1x2i4a
+2Ã­1z2i4a
+2Ã³1b2i4a
+2Ã³1c2i4a
+2Ã³1d2i4a
+2Ã³1f2i4a
+2Ã³1g2i4a
+2Ã³1j2i4a
+2Ã³1l2i4a
+2Ã³1p2i4a
+2Ã³1r2i4a
+2Ã³1s2i4a
+2Ã³1t2i4a
+2Ã³1v2i4a
+2Ã³1x2i4a
+2Ã³1z2i4a
+2Ã´1d2i4a
+2Ã´1m2i4a
+2Ã´1n2i4a
+2Ãº1b2i4a
+2Ãº1c2i4a
+2Ãº1d2i4a
+2Ãº1f2i4a
+2Ãº1g2i4a
+2Ãº1l2i4a
+2Ãº1m2i4a
+2Ãº1n2i4a
+2Ãº1p2i4a
+2Ãº1r2i4a
+2Ãº1s2i4a
+2Ãº1v2i4a
+2Ãº1x2i4a
+2Ãº1z2i4a
+2Ã¡1b2i4o
+2Ã¡1c2i4o
+2Ã¡1d2i4o
+2Ã¡1f2i4o
+2Ã¡1g2i4o
+2Ã¡1l2i4o
+2Ã¡1n2i4o
+2Ã¡1p2i4o
+2Ã¡1r2i4o
+2Ã¡1s2i4o
+2Ã¡1t2i4o
+2Ã¡1v2i4o
+2Ã¡1x2i4o
+2Ã¡1z2i4o
+2Ã¢1m2i4o
+2Ã¢1n2i4o
+2Ã©1b2i4o
+2Ã©1c2i4o
+2Ã©1d2i4o
+2Ã©1f2i4o
+2Ã©1g2i4o
+2Ã©1l2i4o
+2Ã©1n2i4o
+2Ã©1p2i4o
+2Ã©1r2i4o
+2Ã©1s2i4o
+2Ã©1t2i4o
+2Ã©1v2i4o
+2Ã©1x2i4o
+2Ã©1z2i4o
+2Ãª1m2i4o
+2Ãª1n2i4o
+2Ãª1s2i4o
+2Ã­1b2i4o
+2Ã­1c2i4o
+2Ã­1d2i4o
+2Ã­1f2i4o
+2Ã­1g2i4o
+2Ã­1l2i4o
+2Ã­1m2i4o
+2Ã­1n2i4o
+2Ã­1p2i4o
+2Ã­1r2i4o
+2Ã­1s2i4o
+2Ã­1t2i4o
+2Ã­1v2i4o
+2Ã­1z2i4o
+2Ã³1b2i4o
+2Ã³1c2i4o
+2Ã³1d2i4o
+2Ã³1f2i4o
+2Ã³1g2i4o
+2Ã³1l2i4o
+2Ã³1m2i4o
+2Ã³1p2i4o
+2Ã³1r2i4o
+2Ã³1s2i4o
+2Ã³1t2i4o
+2Ã³1v2i4o
+2Ã³1x2i4o
+2Ã³1z2i4o
+2Ã´1d2i4o
+2Ã´1m2i4o
+2Ã´1n2i4o
+2Ãº1b2i4o
+2Ãº1c2i4o
+2Ãº1d2i4o
+2Ãº1f2i4o
+2Ãº1g2i4o
+2Ãº1j2i4o
+2Ãº1l2i4o
+2Ãº1m2i4o
+2Ãº1n2i4o
+2Ãº1p2i4o
+2Ãº1r2i4o
+2Ãº1s2i4o
+2Ãº1t2i4o
+2Ãº1v2i4o
+2Ãº1z2i4o
+2Ã¡4i1b2i4a
+2Ã¢4m1b2i4a
+2Ã©4b1b2i4a
+2Ã©4r1b2i4a
+2Ã©4s1b2i4a
+2Ã­4l1b2i4a
+2Ã­4m1b2i4a
+2Ã­4r1b2i4a
+2Ã³4b1b2i4a
+2Ã´4m1b2i4a
+2Ã³4s1b2i4a
+2Ãº4m1b2i4a
+2Ã¡4l1c2i4a
+2Ã¢4n1c2i4a
+2Ã¡4r1c2i4a
+2Ã¡4u1c2i4a
+2Ãª4n1c2i4a
+2Ã©4p1c2i4a
+2Ã©4r1c2i4a
+2Ã©4s1c2i4a
+2Ãª4u1c2i4a
+2Ã­4l1c2i4a
+2Ã­4n1c2i4a
+2Ã­4r1c2i4a
+2Ã­4s1c2i4a
+2Ã³4l1c2i4a
+2Ã´4n1c2i4a
+2Ã³4r1c2i4a
+2Ã³4s1c2i4a
+2Ãº4n1c2i4a
+2Ãº4p1c2i4a
+2Ãº4r1c2i4a
+2Ã¡4b1d2i4a
+2Ã¡4g1d2i4a
+2Ã¡4l1d2i4a
+2Ã¢4n1d2i4a
+2Ã¡4r1d2i4a
+2Ã¡4u1d2i4a
+2Ãª4i1d2i4a
+2Ã©4l1d2i4a
+2Ãª4n1d2i4a
+2Ã©4r1d2i4a
+2Ã­4l1d2i4a
+2Ã­4n1d2i4a
+2Ã³4l1d2i4a
+2Ã´4l1d2i4a
+2Ã´4n1d2i4a
+2Ã³4r1d2i4a
+2Ãº4l1d2i4a
+2Ãº4n1d2i4a
+2Ãº4r1d2i4a
+2Ã¢4n1f2i4a
+2Ã¡4r1f2i4a
+2Ã©4l1f2i4a
+2Ã³4l1f2i4a
+2Ã´4n1f2i4a
+2Ã³4r1f2i4a
+2Ãº4l1f2i4a
+2Ã¡4i1g2i4a
+2Ã¡4l1g2i4a
+2Ã¢4n1g2i4a
+2Ã¡4r1g2i4a
+2Ã©4r1g2i4a
+2Ã­4n1g2i4a
+2Ã´4n1g2i4a
+2Ã³4r1g2i4a
+2Ãº4n1g2i4a
+2Ãº4r1g2i4a
+2Ã¡1c4h2i4a
+2Ã¡1l4h2i4a
+2Ã¢1n4h2i4a
+2Ã©1c4h2i4a
+2Ã©4t1h2i4a
+2Ã­4g1h2i4a
+2Ã´1n4h2i4a
+2Ãº1c4h2i4a
+2Ã¡1c4l2i4a
+2Ã¡1g4l2i4a
+2Ã¡4l1l2i4a
+2Ã¡4r1l2i4a
+2Ã¡4u1l2i4a
+2Ã©4l1l2i4a
+2Ã©4s1l2i4a
+2Ã©1t4l2i4a
+2Ãª4u1l2i4a
+2Ã­1b4l2i4a
+2Ã­1c4l2i4a
+2Ã³1g4l2i4a
+2Ã³1p4l2i4a
+2Ã´4u1l2i4a
+2Ã¡4l1m2i4a
+2Ã¡4r1m2i4a
+2Ã¡4s1m2i4a
+2Ã¡4u1m2i4a
+2Ãª4i1m2i4a
+2Ã©4l1m2i4a
+2Ã©4r1m2i4a
+2Ã©4s1m2i4a
+2Ãª4s1m2i4a
+2Ã­4m1m2i4a
+2Ã­4s1m2i4a
+2Ã´4l1m2i4a
+2Ã³4r1m2i4a
+2Ã³4s1m2i4a
+2Ã¡4f1n2i4a
+2Ã¡4g1n2i4a
+2Ã¢4g1n2i4a
+2Ã¢4i1n2i4a
+2Ã¢4m1n2i4a
+2Ã¢4n1n2i4a
+2Ã¡4u1n2i4a
+2Ã©4g1n2i4a
+2Ãª4i1n2i4a
+2Ã©4r1n2i4a
+2Ã­4g1n2i4a
+2Ã­4m1n2i4a
+2Ã­4r1n2i4a
+2Ã³4c1n2i4a
+2Ã³4d1n2i4a
+2Ã³4l1n2i4a
+2Ã³4r1n2i4a
+2Ã³4t1n2i4a
+2Ãº4r1n2i4a
+2Ã¡4l1p2i4a
+2Ã¢4m1p2i4a
+2Ã¡4p1p2i4a
+2Ã¡4r1p2i4a
+2Ã©4r1p2i4a
+2Ã­4m1p2i4a
+2Ã­4p1p2i4a
+2Ã³4r1p2i4a
+2Ã³4s1p2i4a
+2Ãº4l1p2i4a
+2Ãº4p1p2i4a
+2Ã¡1b4r2i4a
+2Ã¡1c4r2i4a
+2Ã¡1d4r2i4a
+2Ã¡1f4r2i4a
+2Ã¡1g4r2i4a
+2Ã¢4n1r2i4a
+2Ã¡4r1r2i4a
+2Ã¡1t4r2i4a
+2Ã¡4u1r2i4a
+2Ã©1b4r2i4a
+2Ã©1d4r2i4a
+2Ã©1f4r2i4a
+2Ã©4r1r2i4a
+2Ã©1t4r2i4a
+2Ãª4u1r2i4a
+2Ã­1c4r2i4a
+2Ã­1d4r2i4a
+2Ã­1p4r2i4a
+2Ã­1t4r2i4a
+2Ã³1d4r2i4a
+2Ã³1f4r2i4a
+2Ã´4i1r2i4a
+2Ã³1p4r2i4a
+2Ã³4r1r2i4a
+2Ã³1t4r2i4a
+2Ã´4u1r2i4a
+2Ãº1g4r2i4a
+2Ãº4r1r2i4a
+2Ãº1t4r2i4a
+2Ã¡4i1s2i4a
+2Ã¢4n1s2i4a
+2Ã¡4p1s2i4a
+2Ã¡4r1s2i4a
+2Ã¡4s1s2i4a
+2Ã¡4t1s2i4a
+2Ã¡4u1s2i4a
+2Ã©4l1s2i4a
+2Ãª4n1s2i4a
+2Ã©4p1s2i4a
+2Ã©4r1s2i4a
+2Ã©4s1s2i4a
+2Ã©4t1s2i4a
+2Ãª4y1s2i4a
+2Ã­4n1s2i4a
+2Ã­4p1s2i4a
+2Ã­4s1s2i4a
+2Ã­4t1s2i4a
+2Ã´4n1s2i4a
+2Ã³4p1s2i4a
+2Ã³4r1s2i4a
+2Ã³4s1s2i4a
+2Ã´4u1s2i4a
+2Ãº4c1s2i4a
+2Ãº4n1s2i4a
+2Ãº4s1s2i4a
+2Ã¡4c1t2i4a
+2Ã¡4l1t2i4a
+2Ã¢4n1t2i4a
+2Ã¡4p1t2i4a
+2Ã¡4r1t2i4a
+2Ã¡4s1t2i4a
+2Ã¡4t1t2i4a
+2Ã©4c1t2i4a
+2Ã©4d1t2i4a
+2Ãª4n1t2i4a
+2Ã©4r1t2i4a
+2Ã©4s1t2i4a
+2Ã©4t1t2i4a
+2Ã­4c1t2i4a
+2Ã­4d1t2i4a
+2Ã­4f1t2i4a
+2Ã­4n1t2i4a
+2Ã­4p1t2i4a
+2Ã­4s1t2i4a
+2Ã´4n1t2i4a
+2Ã³4r1t2i4a
+2Ã³4s1t2i4a
+2Ã³4t1t2i4a
+2Ãº4r1t2i4a
+2Ãº4s1t2i4a
+2Ã¡1g4u2i4a
+2Ã¡1q4u2i4a
+2Ã©1g4u2i4a
+2Ã©1q4u2i4a
+2Ã­1q4u2i4a
+2Ã³1q4u2i4a
+2Ãº1q4u2i4a
+2Ã¡4l1v2i4a
+2Ã¡4u1v2i4a
+2Ã©4r1v2i4a
+2Ã­4l1v2i4a
+2Ã³4r1v2i4a
+2Ã¡4r1x2i4a
+2Ã¡4u1x2i4a
+2Ã¢4u1x2i4a
+2Ãª4i1x2i4a
+2Ã¡4r1z2i4a
+2Ãª4n1z2i4a
+2Ã©4t1z2i4a
+2Ã­4t1z2i4a
+2Ã³4l1z2i4a
+2Ã´4l1z2i4a
+2Ã´4n1z2i4a
+2Ã³4t1z2i4a
+2Ã³4z1z2i4a
+2Ã¢4m1b2i4o
+2Ã¡4r1b2i4o
+2Ã©4r1b2i4o
+2Ã©4s1b2i4o
+2Ã­4m1b2i4o
+2Ã´4m1b2i4o
+2Ã³4r1b2i4o
+2Ãº4m1b2i4o
+2Ãº4r1b2i4o
+2Ã¡4l1c2i4o
+2Ã¢4n1c2i4o
+2Ã¡4r1c2i4o
+2Ã¡4s1c2i4o
+2Ã¡4u1c2i4o
+2Ã©4l1c2i4o
+2Ãª4n1c2i4o
+2Ã©4r1c2i4o
+2Ã©4s1c2i4o
+2Ãª4u1c2i4o
+2Ã­4n1c2i4o
+2Ã­4p1c2i4o
+2Ã­4r1c2i4o
+2Ã­4s1c2i4o
+2Ã´4n1c2i4o
+2Ã³4r1c2i4o
+2Ã³4s1c2i4o
+2Ãº4l1c2i4o
+2Ãº4n1c2i4o
+2Ãº4r1c2i4o
+2Ãº4s1c2i4o
+2Ã¡4b1d2i4o
+2Ã¢4n1d2i4o
+2Ã¡4r1d2i4o
+2Ã¡4u1d2i4o
+2Ãª4i1d2i4o
+2Ãª4n1d2i4o
+2Ã­4l1d2i4o
+2Ã­4n1d2i4o
+2Ã´4n1d2i4o
+2Ã³4r1d2i4o
+2Ãº4n1d2i4o
+2Ãº4r1d2i4o
+2Ã¡4r1f2i4o
+2Ã©4l1f2i4o
+2Ãª4n1f2i4o
+2Ã­4l1f2i4o
+2Ãº4n1f2i4o
+2Ã¡4l1g2i4o
+2Ã¢4n1g2i4o
+2Ã¡4r1g2i4o
+2Ã¡4s1g2i4o
+2Ã©4l1g2i4o
+2Ã©4r1g2i4o
+2Ã­4n1g2i4o
+2Ã´4n1g2i4o
+2Ã³4r1g2i4o
+2Ãº4r1g2i4o
+2Ã¡1c4h2i4o
+2Ã³1c4h2i4o
+2Ã¡1b4l2i4o
+2Ã¡1c4l2i4o
+2Ã¡4u1l2i4o
+2Ãª4i1l2i4o
+2Ã­1b4l2i4o
+2Ã­1c4l2i4o
+2Ã­1g4l2i4o
+2Ã³1c4l2i4o
+2Ã³1g4l2i4o
+2Ã³1p4l2i4o
+2Ãº1c4l2i4o
+2Ã¡4d1m2i4o
+2Ã¡4g1m2i4o
+2Ã¡4i1m2i4o
+2Ã¡4j1m2i4o
+2Ã¡4l1m2i4o
+2Ã¡4s1m2i4o
+2Ã¡4t1m2i4o
+2Ã©4l1m2i4o
+2Ã©4r1m2i4o
+2Ã©4s1m2i4o
+2Ã­4s1m2i4o
+2Ã³4c1m2i4o
+2Ã³4l1m2i4o
+2Ã³4r1m2i4o
+2Ã³4s1m2i4o
+2Ã¡4c1n2i4o
+2Ã¡4f1n2i4o
+2Ã¡4g1n2i4o
+2Ã¢4m1n2i4o
+2Ã¡4r1n2i4o
+2Ã¡4u1n2i4o
+2Ã©4g1n2i4o
+2Ãª4i1n2i4o
+2Ãª4m1n2i4o
+2Ã©4r1n2i4o
+2Ã­4c1n2i4o
+2Ã­4f1n2i4o
+2Ã­4g1n2i4o
+2Ã­4m1n2i4o
+2Ã­4r1n2i4o
+2Ã­4s1n2i4o
+2Ã­4t1n2i4o
+2Ã³4d1n2i4o
+2Ã³4g1n2i4o
+2Ã³4r1n2i4o
+2Ã³4s1n2i4o
+2Ãº4b1n2i4o
+2Ãº4r1n2i4o
+2Ã¡4l1p2i4o
+2Ã¢4m1p2i4o
+2Ã¡4r1p2i4o
+2Ã¡4s1p2i4o
+2Ã¡4u1p2i4o
+2Ã©4s1p2i4o
+2Ã­4m1p2i4o
+2Ã³4l1p2i4o
+2Ã³4r1p2i4o
+2Ã³4s1p2i4o
+2Ãº4l1p2i4o
+2Ã¡4b1r2i4o
+2Ã¡1c4r2i4o
+2Ã¡1d4r2i4o
+2Ã¡1f4r2i4o
+2Ã¡1g4r2i4o
+2Ã¡4r1r2i4o
+2Ã¡4s1r2i4o
+2Ã¡1t4r2i4o
+2Ã¡4u1r2i4o
+2Ã©1b4r2i4o
+2Ã©1d4r2i4o
+2Ã©1g4r2i4o
+2Ãª1n4r2i4o
+2Ã©1t4r2i4o
+2Ãª4u1r2i4o
+2Ã­1b4r2i4o
+2Ã­1d4r2i4o
+2Ã­1p4r2i4o
+2Ã­1t4r2i4o
+2Ã³1b4r2i4o
+2Ã³1c4r2i4o
+2Ã³1f4r2i4o
+2Ã³4h1r2i4o
+2Ã³1p4r2i4o
+2Ã³4r1r2i4o
+2Ã³1t4r2i4o
+2Ãº1b4r2i4o
+2Ãº4h1r2i4o
+2Ãº4r1r2i4o
+2Ãº1t4r2i4o
+2Ã¡4i1s2i4o
+2Ã¡4r1s2i4o
+2Ã¡4s1s2i4o
+2Ã¡4u1s2i4o
+2Ãª4n1s2i4o
+2Ã©4p1s2i4o
+2Ã©4r1s2i4o
+2Ã©4s1s2i4o
+2Ã­4s1s2i4o
+2Ã´4n1s2i4o
+2Ã³4p1s2i4o
+2Ã³4s1s2i4o
+2Ãº4r1s2i4o
+2Ãº4s1s2i4o
+2Ã¡4c1t2i4o
+2Ã¢4n1t2i4o
+2Ã¡4r1t2i4o
+2Ã¡4s1t2i4o
+2Ã©4l1t2i4o
+2Ãª4n1t2i4o
+2Ã©4r1t2i4o
+2Ã©4s1t2i4o
+2Ã­4c1t2i4o
+2Ã­4n1t2i4o
+2Ã­4p1t2i4o
+2Ã­4r1t2i4o
+2Ã­4s1t2i4o
+2Ã³4c1t2i4o
+2Ã³4l1t2i4o
+2Ã´4n1t2i4o
+2Ã³4p1t2i4o
+2Ã³4s1t2i4o
+2Ãº4r1t2i4o
+2Ãº4s1t2i4o
+2Ã¡1q4u2i4o
+2Ã©1q4u2i4o
+2Ã­1q4u2i4o
+2Ã³1q4u2i4o
+2Ã¡4l1v2i4o
+2Ã¢4n1v2i4o
+2Ã©4l1v2i4o
+2Ã©4r1v2i4o
+2Ã­4l1v2i4o
+2Ã­4n1v2i4o
+2Ã³4b1v2i4o
+2Ãº4l1v2i4o
+2Ã©4l1z2i4o
 
 
 
-Versão 1.0.7 DivSilab
+VersÃ£o 1.0.7 DivSilab
 
-Correção da quebra de sílabas das palavras com 'guin', como: 'seguintes' ERRADO(se-gu-in-tes)
-Colaboração Flávio Cardoso;
-inclusão das regras:
+CorreÃ§Ã£o da quebra de sÃ­labas das palavras com 'guin', como: 'seguintes' ERRADO(se-gu-in-tes)
+ColaboraÃ§Ã£o FlÃ¡vio Cardoso;
+inclusÃ£o das regras:
 1g2u4i3n2a
-1g2u4i3n2á
+1g2u4i3n2Ã¡
 1g2u4i2n1c
 1g2u4i2n1d
 1g2u4i3n2e
-1g2u4i3n2é
+1g2u4i3n2Ã©
 1g2u4i2n1g
 1g2u4i3n2h
 1g2u4i3n2i
-1g2u4i3n2í
+1g2u4i3n2Ã­
 1g2u4i2n1j
 1g2u4i3n2o
-1g2u4i3n2ó
+1g2u4i3n2Ã³
 1g2u4i2n2s
 1g2u4i2n1t
 1g2u4i3n2u
 1g2u4i2n1x
 
 
-Versão 1.0.6 DivSilab
+VersÃ£o 1.0.6 DivSilab
 
-Correção da quebra de sílabas das palavras com 'br', como: 'vibração' ERRADO(vib-ra-ção)
-Colaboração Leandro Dutra;
-Correção da quebra de sílabas das palavras com 'psic', como: 'neuropsicologia' ERRADO(neu-rop-si-co-lo-gia)
-Colaboração Raimundo;
-Correção da quebra de sílabas das palavras com 'uin', como: 'contribuinte' ERRADO(con-tri-buin-te)
-Colaboração João Paulo Vinha Bittar;
+CorreÃ§Ã£o da quebra de sÃ­labas das palavras com 'br', como: 'vibraÃ§Ã£o' ERRADO(vib-ra-Ã§Ã£o)
+ColaboraÃ§Ã£o Leandro Dutra;
+CorreÃ§Ã£o da quebra de sÃ­labas das palavras com 'psic', como: 'neuropsicologia' ERRADO(neu-rop-si-co-lo-gia)
+ColaboraÃ§Ã£o Raimundo;
+CorreÃ§Ã£o da quebra de sÃ­labas das palavras com 'uin', como: 'contribuinte' ERRADO(con-tri-buin-te)
+ColaboraÃ§Ã£o JoÃ£o Paulo Vinha Bittar;
 
 
 
-Versão 1.0.5 DivSilab
+VersÃ£o 1.0.5 DivSilab
 
-Correção da quebra de sílabas das palavras com 'gn', como: 'incógnito' ERRADO(in-có-g-ni-to)
+CorreÃ§Ã£o da quebra de sÃ­labas das palavras com 'gn', como: 'incÃ³gnito' ERRADO(in-cÃ³-g-ni-to)
 
-Exclusão dos códigos
-ó2s3t2
+ExclusÃ£o dos cÃ³digos
+Ã³2s3t2
 2g1g2
 2g3s2
 2g1t2
 2m1m2
-1n2ã
+1n2Ã£
 2n3c42
 2n3d2
 2n3t2
@@ -750,197 +750,197 @@ Exclusão dos códigos
 2d1g2
 2d1d2
 2d1t2
-ó1g2a
-ó1g2e
-ó1g2i
-ó1g2l2
-ó2g3n2
-ó1g2o
-ó1g2r2
-ó2g1u
+Ã³1g2a
+Ã³1g2e
+Ã³1g2i
+Ã³1g2l2
+Ã³2g3n2
+Ã³1g2o
+Ã³1g2r2
+Ã³2g1u
 o1g2a
-o1g2á
-o1g2â
-o1g2ã
+o1g2Ã¡
+o1g2Ã¢
+o1g2Ã£
 o2g1b2
 o2g1c2
 o2g1d2
 o1g2e
-o1g2é
-o1g2ê
+o1g2Ã©
+o1g2Ãª
 o2g1g2
 o1g2i
-o1g2í
+o1g2Ã­
 o1g4l2
 o2g1m2
 o2g1n2
 o1g2o
-o1g2ó
-o1g2ô
+o1g2Ã³
+o1g2Ã´
 o1g4r2
 o2g1s2
 o2g1t2
 o1g2u
-o1g2ú
+o1g2Ãº
 i1g2a
-i1g2á
-i1g2â
-i1g2ã
+i1g2Ã¡
+i1g2Ã¢
+i1g2Ã£
 i2g1b2
 i2g1d2
 i1g2e
-i1g2é
-i1g2ê
+i1g2Ã©
+i1g2Ãª
 i2g1g2
 i2g1h2
 i1g2i
-i1g2í
+i1g2Ã­
 i1g4l2
 i2g1m2
 i2g1n2
 i1g2o
-i1g2ó
-i1g2ô
-i1g2õ
+i1g2Ã³
+i1g2Ã´
+i1g2Ãµ
 i2g1p2
 i1g4r2
 i2g1s2
 i2g1t2
 i1g2u
-i1g2ú
+i1g2Ãº
 i2g1v2
 i1g2y
-í1g2a
-í2g1d2
-í1g2e
-í2g1h2
-í1g2i
-í1g4l2
-í2g1m2
-í2g1n2
-í1g2o
-í1g4r2
-í1g2u
+Ã­1g2a
+Ã­2g1d2
+Ã­1g2e
+Ã­2g1h2
+Ã­1g2i
+Ã­1g4l2
+Ã­2g1m2
+Ã­2g1n2
+Ã­1g2o
+Ã­1g4r2
+Ã­1g2u
 u1g2a
-u1g2á
-u1g2â
-u1g2ã
+u1g2Ã¡
+u1g2Ã¢
+u1g2Ã£
 u2g1b2
 u2g1d2
 u1g2e
-u1g2é
-u1g2ê
+u1g2Ã©
+u1g2Ãª
 u2g1g2
 u2g1h2
 u1g2i
-u1g2í
+u1g2Ã­
 u1g4l2
 u2g1m2
 u2g1n2
 u1g2o
-u1g2ó
-u1g2ô
+u1g2Ã³
+u1g2Ã´
 u1g4r2
 u2g1t2
 u1g2u
-u1g2ú
-ú1g2a
-ú2g1b2
-ú1g2e
-ú1g2i
-ú1g2o
-ú1g4r2
-ú1g2u
+u1g2Ãº
+Ãº1g2a
+Ãº2g1b2
+Ãº1g2e
+Ãº1g2i
+Ãº1g2o
+Ãº1g4r2
+Ãº1g2u
 
 =========================================================
-Versão 1.0.4 DivSilab
+VersÃ£o 1.0.4 DivSilab
 
-Sílabas 'a1rô' estão duplicadas com 'a1rô'. Ignorada!
-Sílabas '2a4y3i1' estão duplicadas com '2a4y3i'. Usada '2a4y3i1'!
-Sílabas '2a4y3l' estão duplicadas com '2a4yl3'. Concatenada '2a4y3l3'!
-Sílabas '1co3ê' estão duplicadas com '1co3ê'. Ignorada!
-Sílabas '1co3ê' estão duplicadas com '1co3ê'. Ignorada!
-Sílabas '1co3ê' estão duplicadas com '1co3ê'. Ignorada!
-Sílabas 'e3r2o1m2a' estão duplicadas com 'e3r2o1m2a'. Ignorada!
-Sílabas 'e3r2o1m2e' estão duplicadas com 'e3r2o1m2e'. Ignorada!
-Sílabas 'e3r2o1m2i' estão duplicadas com 'e3r2o1m2i'. Ignorada!
-Sílabas 'e3r4o2m1n2' estão duplicadas com 'e3r2o2m1n2'. Usada 'e3r4o2m1n2'!
-Sílabas 'e3r2o1m2o' estão duplicadas com 'e3r2o1m2o'. Ignorada!
-Sílabas 'e3r2o1m2u' estão duplicadas com 'e3r2o1m2u'. Ignorada!
-Sílabas 'e3r2o1m2á' estão duplicadas com 'e3r2o1m2á'. Ignorada!
-Sílabas 'e3r2o1m2â' estão duplicadas com 'e3r2o1m2â'. Ignorada!
-Sílabas 'e3r2o1m2é' estão duplicadas com 'e3r2o1m2é'. Ignorada!
-Sílabas 'e3r2o1m2í' estão duplicadas com 'e3r2o1m2í'. Ignorada!
-Sílabas 'e3r2o1m2ó' estão duplicadas com 'e3r2o1m2ó'. Ignorada!
-Sílabas 'e3r2o1m2ô' estão duplicadas com 'e3r2o1m2ô'. Ignorada!
-Sílabas '1lo3w' estão duplicadas com 'l2ow1'. Concatenada '1l2o3w1'!
-Sílabas 'o3g2' estão duplicadas com 'o3g2'. Ignorada!
-Sílabas 'r2a2i4s.' estão duplicadas com 'r2a2i4s.'. Ignorada!
-Sílabas 'r2a3i2s.' estão duplicadas com 'r2a2i4s.'. Concatenada 'r2a3i4s.'!
-Sílabas '1rais.' estão duplicadas com 'r2a2i4s.'. Concatenada '1r2a3i4s.'!
-Sílabas 'r2a3y' estão duplicadas com 'r2a2y3'. Concatenada 'r2a3y3'!
-Sílabas '1ra3ó' estão duplicadas com 'r2a3ó'. Concatenada '1r2a3ó'!
-Sílabas '1s2e' estão duplicadas com '1s2e'. Ignorada!
-Colaboração Adriano Konzen
+SÃ­labas 'a1rÃ´' estÃ£o duplicadas com 'a1rÃ´'. Ignorada!
+SÃ­labas '2a4y3i1' estÃ£o duplicadas com '2a4y3i'. Usada '2a4y3i1'!
+SÃ­labas '2a4y3l' estÃ£o duplicadas com '2a4yl3'. Concatenada '2a4y3l3'!
+SÃ­labas '1co3Ãª' estÃ£o duplicadas com '1co3Ãª'. Ignorada!
+SÃ­labas '1co3Ãª' estÃ£o duplicadas com '1co3Ãª'. Ignorada!
+SÃ­labas '1co3Ãª' estÃ£o duplicadas com '1co3Ãª'. Ignorada!
+SÃ­labas 'e3r2o1m2a' estÃ£o duplicadas com 'e3r2o1m2a'. Ignorada!
+SÃ­labas 'e3r2o1m2e' estÃ£o duplicadas com 'e3r2o1m2e'. Ignorada!
+SÃ­labas 'e3r2o1m2i' estÃ£o duplicadas com 'e3r2o1m2i'. Ignorada!
+SÃ­labas 'e3r4o2m1n2' estÃ£o duplicadas com 'e3r2o2m1n2'. Usada 'e3r4o2m1n2'!
+SÃ­labas 'e3r2o1m2o' estÃ£o duplicadas com 'e3r2o1m2o'. Ignorada!
+SÃ­labas 'e3r2o1m2u' estÃ£o duplicadas com 'e3r2o1m2u'. Ignorada!
+SÃ­labas 'e3r2o1m2Ã¡' estÃ£o duplicadas com 'e3r2o1m2Ã¡'. Ignorada!
+SÃ­labas 'e3r2o1m2Ã¢' estÃ£o duplicadas com 'e3r2o1m2Ã¢'. Ignorada!
+SÃ­labas 'e3r2o1m2Ã©' estÃ£o duplicadas com 'e3r2o1m2Ã©'. Ignorada!
+SÃ­labas 'e3r2o1m2Ã­' estÃ£o duplicadas com 'e3r2o1m2Ã­'. Ignorada!
+SÃ­labas 'e3r2o1m2Ã³' estÃ£o duplicadas com 'e3r2o1m2Ã³'. Ignorada!
+SÃ­labas 'e3r2o1m2Ã´' estÃ£o duplicadas com 'e3r2o1m2Ã´'. Ignorada!
+SÃ­labas '1lo3w' estÃ£o duplicadas com 'l2ow1'. Concatenada '1l2o3w1'!
+SÃ­labas 'o3g2' estÃ£o duplicadas com 'o3g2'. Ignorada!
+SÃ­labas 'r2a2i4s.' estÃ£o duplicadas com 'r2a2i4s.'. Ignorada!
+SÃ­labas 'r2a3i2s.' estÃ£o duplicadas com 'r2a2i4s.'. Concatenada 'r2a3i4s.'!
+SÃ­labas '1rais.' estÃ£o duplicadas com 'r2a2i4s.'. Concatenada '1r2a3i4s.'!
+SÃ­labas 'r2a3y' estÃ£o duplicadas com 'r2a2y3'. Concatenada 'r2a3y3'!
+SÃ­labas '1ra3Ã³' estÃ£o duplicadas com 'r2a3Ã³'. Concatenada '1r2a3Ã³'!
+SÃ­labas '1s2e' estÃ£o duplicadas com '1s2e'. Ignorada!
+ColaboraÃ§Ã£o Adriano Konzen
 
-Correção da quebra de sílabas das palavras 'envolvidos' (en-vo-lvi-dos)
-substituição  de 'o1l2v' por 'o2l1v'
-Colaboração João Paulo Vinha Bittar
+CorreÃ§Ã£o da quebra de sÃ­labas das palavras 'envolvidos' (en-vo-lvi-dos)
+substituiÃ§Ã£o  de 'o1l2v' por 'o2l1v'
+ColaboraÃ§Ã£o JoÃ£o Paulo Vinha Bittar
 
-Inclusão dos códigos
+InclusÃ£o dos cÃ³digos
 t3g
 1t4h2
 1t2i
-1t2í
+1t2Ã­
 1t2l4
 2t3m4
 1t3n2
 1t2o
-1t2ó
-1t2ô
-1t2õ4
+1t2Ã³
+1t2Ã´
+1t2Ãµ4
 1t4r2
 2t3s4
 2t3t4
 1t2u
-1t2ú
+1t2Ãº
 2t3z
 u2a
-g4u6á
-u1á
-q4u6á
-u1ã
-g4u6ã
-q4u6ã
-u1b2á
+g4u6Ã¡
+u1Ã¡
+q4u6Ã¡
+u1Ã£
+g4u6Ã£
+q4u6Ã£
+u1b2Ã¡
 u1b2a
 u2b1z2
 u2bl
-u1b2â
+u1b2Ã¢
 u2b1n2
 u2b1t2
 u2b1m2
 u2b1j2
 u2b1f2
-u1b2ú
+u1b2Ãº
 u2b1v2
 u2b1p2
 u2br
 u1b2u
 u1b2i
-u1b2é
+u1b2Ã©
 u1b2e
 u2b1d2
-u1b2ô
-u1b2ã
-u1b2ó
+u1b2Ã´
+u1b2Ã£
+u1b2Ã³
 u2b1g2
 u2b1c2
 u2b1s2
 u2b1q4
-u1b2í
+u1b2Ã­
 u1b2o
-ú3b2
+Ãº3b2
 .s2u4b3s4i6s1
 .s2u4b3s4e6r1
 .s2u4b3s2e1
@@ -951,59 +951,59 @@ u1b2o
 .s2u4b3s2i1
 .s2u4b4s3t2
 .s2u4b4s3c2
-.s2u4b3s2í1
+.s2u4b3s2Ã­1
 .s2u4b3m2
 .s2u4b3l2i5m2i3n2
 .s2u4b3l2o5
 .s2u4b3p2
-u1c2á
+u1c2Ã¡
 u1c2o
-u1c2í
+u1c2Ã­
 u1c4h2
-u1c2ú
+u1c2Ãº
 u1c2u
-u1c2ô
+u1c2Ã´
 u1c2e
-u1c2ê
-u1c2ã
+u1c2Ãª
+u1c2Ã£
 u2c1n2
-u1c2é
-u2c1ç2
+u1c2Ã©
+u2c1Ã§2
 u1c2a
 u2c1z2
 u1c2y
 u2c1m2
 u1c4r2
 u2c1s2
-u1c2ó
+u1c2Ã³
 u1c2i
 u2c1t2
 u2c1c2
-u1c2â
+u1c2Ã¢
 u1c4l2
-ú3c2
+Ãº3c2
 u3d2
-ú3d2
+Ãº3d2
 u2e
-u1é
-q4u6é
-g4u6é
-u1ê
-g4u6ê
-q4u6ê
+u1Ã©
+q4u6Ã©
+g4u6Ã©
+u1Ãª
+g4u6Ãª
+q4u6Ãª
 u3f2
 u3g2
-ú1g
+Ãº1g
 u2i
-u1í
-g4u6í
-q4u6í
+u1Ã­
+g4u6Ã­
+q4u6Ã­
 u3j2
 u1l2o
-u2l1ç2
+u2l1Ã§2
 u2l1d2
-u1l2õ4
-u1l2ô
+u1l2Ãµ4
+u1l2Ã´
 u2l1c2
 u1l2a
 u2l1b2
@@ -1017,65 +1017,65 @@ u2l1f2
 u2l1m2
 u2l1l2
 u2l1z2
-u1l2ó
-u1l2ã
-u1l2â
+u1l2Ã³
+u1l2Ã£
+u1l2Ã¢
 u2l1s2
-u1l2á
+u1l2Ã¡
 u2l1x2
 u2l1n2
 u1l4h2
 u2l1v2
-u1l2í
+u1l2Ã­
 u2l1r2
-u1l2ú
-u1l2é
-u1l2ê
+u1l2Ãº
+u1l2Ã©
+u1l2Ãª
 u1l2i
-ú2l1m2
-ú2l1v2
-ú1l2u
-ú1l2e
-ú2l1f2
-ú1l4h2
-ú2l1p2
-ú2l1t2
-ú1l2a
-ú2l1g2
-ú1l2o
-ú1l2i
-ú2l1d2
-ú2l1b2
-ú2l1c2
+Ãº2l1m2
+Ãº2l1v2
+Ãº1l2u
+Ãº1l2e
+Ãº2l1f2
+Ãº1l4h2
+Ãº2l1p2
+Ãº2l1t2
+Ãº1l2a
+Ãº2l1g2
+Ãº1l2o
+Ãº1l2i
+Ãº2l1d2
+Ãº2l1b2
+Ãº2l1c2
 u2m1m2
-u1m2é
+u1m2Ã©
 u2m1t2
-u1m2í
+u1m2Ã­
 u2m1z2
 u2m1n2
 u1m2a
-u1m2â
+u1m2Ã¢
 u1m2i
 u2m1h2
 u1m2o
-u1m2ó
-u1m2ã
+u1m2Ã³
+u1m2Ã£
 u1m2e
 u2m1l2
-u1m2á
+u1m2Ã¡
 u2m1b2
 u2m1p2
-u1m2ô
-u1m2ú
-u1m2ê
+u1m2Ã´
+u1m2Ãº
+u1m2Ãª
 u1m2u
-ú2m1n2
-ú1m2e
-ú1m2a
-ú2m1p2
-ú1m2i
-ú1m2u
-ú2m1b2
+Ãº2m1n2
+Ãº1m2e
+Ãº1m2a
+Ãº2m1p2
+Ãº1m2i
+Ãº1m2u
+Ãº2m1b2
 u2n4s1v2
 u2n1l2
 u2n1x2
@@ -1090,90 +1090,90 @@ u2n4s.
 u2n4s1d2
 u2n1r2
 u2n1g2
-u2n1s2é
+u2n1s2Ã©
 u2n1b2
-u2n1ç2
+u2n1Ã§2
 u2n1d2
 u2n1s2i
 u2n1s2o
 u2n1j2
 u2n1k2
 u2n1n2
-u1n2í
-u1n2ó
-u1n2ú
+u1n2Ã­
+u1n2Ã³
+u1n2Ãº
 u1n2i
-u1n2é
+u1n2Ã©
 u1n2e
-u1n2ã
-u1n2â
-u1n2á
+u1n2Ã£
+u1n2Ã¢
+u1n2Ã¡
 u2n1q4
 u1n2a
 u2n4s1c2
 u1n2o
-u1n2ô
+u1n2Ã´
 u1n4h2
 u2n1s2e
 u1n2u
 u2n1c2
-ú1n2i
-ú2n1q4
-ú1n2e
-ú1n4h2
-ú1n2o
-ú2n1d2
-ú2n1z2
-ú1n2a
-ú2n1v2
-ú2n1s2i
-ú2n1g2
-ú2n3s.
-ú2n1c2
-ú2n1j2
-ú2n1f2
-ú1n2u
+Ãº1n2i
+Ãº2n1q4
+Ãº1n2e
+Ãº1n4h2
+Ãº1n2o
+Ãº2n1d2
+Ãº2n1z2
+Ãº1n2a
+Ãº2n1v2
+Ãº2n1s2i
+Ãº2n1g2
+Ãº2n3s.
+Ãº2n1c2
+Ãº2n1j2
+Ãº2n1f2
+Ãº1n2u
 u2o
-2u1ó3
+2u1Ã³3
 u3p2
-ú3p2
+Ãº3p2
 u3q4
 u2r1z2
 u2r1j2
 u2r1t2
 u2r3r2
-u1r2ú
+u1r2Ãº
 u2r1c2
 u2r1s2
 u2r1b2
 u1r2i
 u2r1f2
 u1r2a
-u1r2ô
+u1r2Ã´
 u2r1d2
-u1r2õ4
-u1r2í
+u1r2Ãµ4
+u1r2Ã­
 u1r2e
 u2r1n2
-u1r2ó
-u1r2á
-u1r2â
+u1r2Ã³
+u1r2Ã¡
+u1r2Ã¢
 u1r2o
 u2r1h2
-u1r2é
-u1r2ê
-u1r2ã
+u1r2Ã©
+u1r2Ãª
+u1r2Ã£
 u2r1g2
 u2r1q4
 u2r1m2
-u2r1ç2
+u2r1Ã§2
 u2r1p2
 u2r1k2
 u1r2y
 u2r1v2
 u1r2u
 u2r1l2
-ú3r2
+Ãº3r2
 u1s2u
 u2s1z2
 u2s1q4
@@ -1190,84 +1190,84 @@ u2s1c2
 u1s2i
 u2s1l2
 u1s2o
-u1s2á
-u1s2ó
-u1s2ú
+u1s2Ã¡
+u1s2Ã³
+u1s2Ãº
 u2s1f2
 u2s1d2
 u1s2a
-u1s2é
-u1s2í
-u1s2ê
-u1s2â
-u1s2ã
+u1s2Ã©
+u1s2Ã­
+u1s2Ãª
+u1s2Ã¢
+u1s2Ã£
 u1s2e
-u1s2ô
+u1s2Ã´
 u2s1p2
 u2s1r2
-ú2s1p2
-ú2s3s2
-ú2s1m2
-ú2s1q4
-ú1s2a
-ú2s1t2
-ú2s1n2
-ú1s2o
-ú1s2e
-ú1s2i
-ú2s1c2
+Ãº2s1p2
+Ãº2s3s2
+Ãº2s1m2
+Ãº2s1q4
+Ãº1s2a
+Ãº2s1t2
+Ãº2s1n2
+Ãº1s2o
+Ãº1s2e
+Ãº1s2i
+Ãº2s1c2
 u3t2
-ú3t2
+Ãº3t2
 u3u
 u3v2
-ú3v2
+Ãº3v2
 u3x2
 u1z2a
-u1z2ã
+u1z2Ã£
 u1z2o
-u1z2ú
-u1z2â
+u1z2Ãº
+u1z2Ã¢
 u1z2e
-u1z2í
+u1z2Ã­
 u2z1m2
 u2z1b2
-u1z2á
+u1z2Ã¡
 u2z1z2
-u1z2ô
-u1z2ê
+u1z2Ã´
+u1z2Ãª
 u2z1l2
 u1z2i
 u1z2u
-u1z2ó
-u1z2é
+u1z2Ã³
+u1z2Ã©
 1v2a
-1v2á
-1v2ã
+1v2Ã¡
+1v2Ã£
 1v2e
-1v2é
-1v2ê
+1v2Ã©
+1v2Ãª
 1v2i
-1v2í
+1v2Ã­
 1v2o
-1v2ó
-1v2ô
-1võe3z
-1vões
+1v2Ã³
+1v2Ã´
+1vÃµe3z
+1vÃµes
 1v4r2
 1v2u
 w2a
 1x2a
-1x2á
-1x2ã
+1x2Ã¡
+1x2Ã£
 2x3c4
 1x2e
-1x2é
-1x2ê
+1x2Ã©
+1x2Ãª
 1x2i
-1x2í
+1x2Ã­
 1x2o
-1x2ó
-1x2ô
+1x2Ã³
+1x2Ã´
 2x3p4
 x1s
 2x3t4
@@ -1276,64 +1276,64 @@ y2a
 1ye
 .yer1
 1z2a
-1z2á
-1z2ã
+1z2Ã¡
+1z2Ã£
 1z2e
-1z2é
-1z2ê
+1z2Ã©
+1z2Ãª
 1z2i
-z4í
+z4Ã­
 1z2o
-1z2ó
-1z2ô
+1z2Ã³
+1z2Ã´
 1z2u
 z1z
-e1õ2e3z
+e1Ãµ2e3z
 
 
 ==========
 
-Versão 1.0.3 DivSilab. Nela foram implementados os seguintes recursos:
+VersÃ£o 1.0.3 DivSilab. Nela foram implementados os seguintes recursos:
 
-.Inclusão de regras para o par 'eg'. Corrigindo translineação de 'segmento'.
-.Inclusão de regras para o par 'ég'.
-.Inclusão de regras para o par 'eb'.
-.Inclusão de regras para o par 'éb'.
-.Inclusão de regras para o par 'ed'.
-.Inclusão de regras para o par 'éd'.
-.Inclusão de regras para o par 'ef'.
-.Inclusão de regras para o par 'éf'.
-.Inclusão de regras para os pares: ab, áb, ad, ád, af, áf, ag, ág, ah,aj,ak, at e át.
-.Correção de regras para o par 'ob'.Corrigindo translineação de 'problema'.
+.InclusÃ£o de regras para o par 'eg'. Corrigindo translineaÃ§Ã£o de 'segmento'.
+.InclusÃ£o de regras para o par 'Ã©g'.
+.InclusÃ£o de regras para o par 'eb'.
+.InclusÃ£o de regras para o par 'Ã©b'.
+.InclusÃ£o de regras para o par 'ed'.
+.InclusÃ£o de regras para o par 'Ã©d'.
+.InclusÃ£o de regras para o par 'ef'.
+.InclusÃ£o de regras para o par 'Ã©f'.
+.InclusÃ£o de regras para os pares: ab, Ã¡b, ad, Ã¡d, af, Ã¡f, ag, Ã¡g, ah,aj,ak, at e Ã¡t.
+.CorreÃ§Ã£o de regras para o par 'ob'.Corrigindo translineaÃ§Ã£o de 'problema'.
 
 =======================
-Versões Anteriores
+VersÃµes Anteriores
 
-Versão 1.0.2 DivSilab
+VersÃ£o 1.0.2 DivSilab
 
-Nesta atualização foi implementado o DivSilab - Divisor de Sílabas do LibreOffice.
+Nesta atualizaÃ§Ã£o foi implementado o DivSilab - Divisor de SÃ­labas do LibreOffice.
 
-Desenvolvido com base no léxico do VERO, através de análise combinatória,
-extraíndo-se os casos reais e descartando-se as condições inexistentes.
+Desenvolvido com base no lÃ©xico do VERO, atravÃ©s de anÃ¡lise combinatÃ³ria,
+extraÃ­ndo-se os casos reais e descartando-se as condiÃ§Ãµes inexistentes.
 
-O DivSilab é um arquivo texto. Seu desenvolvimento está baseado no algorítmo de Frank M. Liang.
-O algorítimo de Liang usa valores entre 0 e 9  –  exclui-se o valor 0 (zero), uma vez que está
-implícito. Valores ímpares indicam possíveis pontos divisão silábica, e os valores pares
-(incluindo 0) indicam pontos que não devem ter divisão. Números mais altos indicam uma maior
-magnitude do "melhor" para os números ímpares, e pares uma maior amplitude do "pior".
-O ponto (.) indica a extremidade de uma palavra. À esquerda início e à direita término.
+O DivSilab Ã© um arquivo texto. Seu desenvolvimento estÃ¡ baseado no algorÃ­tmo de Frank M. Liang.
+O algorÃ­timo de Liang usa valores entre 0 e 9 exclui-se o valor 0 (zero), uma vez que estÃ¡
+implÃ­cito. Valores Ã­mpares indicam possÃ­veis pontos divisÃ£o silÃ¡bica, e os valores pares
+(incluindo 0) indicam pontos que nÃ£o devem ter divisÃ£o. NÃºmeros mais altos indicam uma maior
+magnitude do "melhor" para os nÃºmeros Ã­mpares, e pares uma maior amplitude do "pior".
+O ponto (.) indica a extremidade de uma palavra. Ã€ esquerda inÃ­cio e Ã  direita tÃ©rmino.
 
 Exemplo:
 Examinemos a palavra a baixo.
 
-  Silábicas
+  SilÃ¡bicas
 
-Extraindo-se do arquivo somente as regras envolvidas para a formação desta palavra vamos encontrar:
+Extraindo-se do arquivo somente as regras envolvidas para a formaÃ§Ã£o desta palavra vamos encontrar:
 
   s2i
-  i3l2á
-  l4á
-  á1b2
+  i3l2Ã¡
+  l4Ã¡
+  Ã¡1b2
   3b2i
   i1c4
   3c2a
@@ -1343,33 +1343,33 @@ Compondo teremos:
 
 obs.: mude a fonte para Courier New para visualizar melhor o exemplo.
 
-s i l á b i c a s
+s i l Ã¡ b i c a s
 s2i
-    l4á
-  i3l2á
-    l4á
-      á1b2
+    l4Ã¡
+  i3l2Ã¡
+    l4Ã¡
+      Ã¡1b2
        3b2i
           i1c4
            3c2a
                2s.
 ------------------
-s2i3l4á3b2i3c4a2s   <--- Resultado
-s i-l á-b i-c a s --> si-lá-bi-cas
+s2i3l4Ã¡3b2i3c4a2s   <--- Resultado
+s i-l Ã¡-b i-c a s --> si-lÃ¡-bi-cas
 
-Obs.: ao resultado é agregado o maior peso de cada coluna.
+Obs.: ao resultado Ã© agregado o maior peso de cada coluna.
 
 
 
 Esquema de Liang
 --------------------------------------------------
-Descrição         Peso       Entrada Liang
+DescriÃ§Ã£o         Peso       Entrada Liang
 --------------------------------------------------
 Melhor que abaixo   5             9
 Melhor que abaixo   4             7
 Melhor que abaixo   3             5
 Melhor que abaixo   2             3
-Admissível          1             1
+AdmissÃ­vel          1             1
 Evitar              0             0
 Pior que acima     -1             2
 Pior que acima     -2             4
@@ -1377,16 +1377,16 @@ Pior que acima     -3             6
 Pior que acima     -4             8
 --------------------------------------------------
 
-No nosso trabalho usamos até o nível 6.
-Foram desenvolvidos três pequenos aplicativos. Um para gerar combinações ' ab','ac' ,'ad'
+No nosso trabalho usamos atÃ© o nÃ­vel 6.
+Foram desenvolvidos trÃªs pequenos aplicativos. Um para gerar combinaÃ§Ãµes ' ab','ac' ,'ad'
 ... 'ich', 'ras', etc, etc.
-O outro para conferir a existência destas combinações no léxico do VERO, extraindo somente
-as válidas e o número de ocorrências de cada uma.
-E um terceiro para extrair as regras envolvidas na composição de uma determinada palavra.
-Usamos uma planilha no Calc para ordenar e configurar as regras, começando pelas de maior
-incidência. As combinações óbvias como 'ca', 'ba', 'pr', dr, bl...
+O outro para conferir a existÃªncia destas combinaÃ§Ãµes no lÃ©xico do VERO, extraindo somente
+as vÃ¡lidas e o nÃºmero de ocorrÃªncias de cada uma.
+E um terceiro para extrair as regras envolvidas na composiÃ§Ã£o de uma determinada palavra.
+Usamos uma planilha no Calc para ordenar e configurar as regras, comeÃ§ando pelas de maior
+incidÃªncia. As combinaÃ§Ãµes Ã³bvias como 'ca', 'ba', 'pr', dr, bl...
 foram rapidamente configuradas ...'c2a', 'b2a', 'p4r', 'd4r', 'b4l' ...
-Para os mais complexos, extraímos do Vero todas as palavras contempladas com a combinação
+Para os mais complexos, extraÃ­mos do Vero todas as palavras contempladas com a combinaÃ§Ã£o
 pesquisada, e criamos as regras. Exemplo 'ic'
 mICAreta --> i3c2a
 frICCionar --> i2c3c4
