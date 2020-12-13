@@ -1,10 +1,10 @@
 _______________________________________________________________________________
 
    DICTIONNAIRES ORTHOGRAPHIQUES FRANÇAIS
-   version 6.3
+   version 7.0
 
-   Olivier R. - dicollecte<at>free<dot>fr
-   Dicollecte : http://www.dicollecte.org/
+   Olivier R.
+   https://grammalecte.net/
 
    Licence :
      MPL : Mozilla Public License
@@ -30,10 +30,10 @@ _______________________________________________________________________________
    - Philipp Burgess, pour la normalisation Unicode avec Hunspell.
 
    Merci aussi à tous ceux qui ont apporté leur pierre à l’édifice.
-   http://www.dicollecte.org/members.php?prj=fr
+   https://grammalecte.net/members.php?prj=fr
 
    Pour participer à l’amélioration du dictionnaire, allez sur :
-   http://www.dicollecte.org/home.php?prj=fr
+   https://grammalecte.net/home.php?prj=fr
 
 _______________________________________________________________________________
 
@@ -54,15 +54,9 @@ _______________________________________________________________________________
    de chacun, quatre dictionnaires existent, respectant différemment cette
    réforme.
 
-    Dictionnaire “Moderne”
-        Ce dictionnaire propose une sélection des graphies classiques et
-        réformées, suivant la lente évolution de l’orthographe actuelle. Ce
-        dictionnaire contient les graphies les moins polémiques de la réforme.
-
     Dictionnaire “Classique”  [recommandé]
-        Ce dictionnaire est une extension du dictionnaire «Moderne» et propose
-        en sus des graphies alternatives, parfois encore très usitées, parfois
-        tombées en désuétude.
+        Ce dictionnaire propose l’orthographe usuelle du français, avec en sus
+        quelques graphies nouvelles rectifiant les incohérences passées.
 
     Dictionnaire “Réforme 1990”
         Ce dictionnaire ne connaît que les graphies nouvelles des mots concernés
