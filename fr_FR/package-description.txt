@@ -1,11 +1,10 @@
-Dictionnaire «Classique» 6.3 • Synonymes 2.4 • Césures 3.0
+Dictionnaire «Classique» 7.0 • Synonymes 2.3 • Césures 3.0
 
  Pour signaler une erreur, ajouter ou supprimer des mots, cliquez sur le lien.
 
- Quatre dictionnaires français existent :
- — «Moderne» : le français avec les mots réformés passés dans l’usage [recommandé] ;
+ Trois dictionnaires français existent :
  — «Classique» : le français d’avant la réforme de l’orthographe ;
  — «Réforme 1990» : le français selon la réforme de l’orthographe ;
  — «Toutes variantes» : toutes les graphies sont reconnues.
 
- http://www.dicollecte.org/grammalecte/telecharger.php
+ https://grammalecte.net/
