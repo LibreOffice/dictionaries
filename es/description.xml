@@ -6,7 +6,7 @@
 
   <display-name>
       <name lang="es">Corrector ortográfico, separación de sílabas y diccionario de sinónimos para el español (todas las variantes).</name>
-      <name lang="en">Spanish spelling dictionary, hyphenation rules, and thesaurus for all variants of Spanish.</name>
+      <name lang="en-US">Spanish spelling dictionary, hyphenation rules, and thesaurus for all variants of Spanish.</name>
   </display-name>
 
   <platform value="all" />
