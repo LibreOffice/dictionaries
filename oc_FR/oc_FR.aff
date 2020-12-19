@@ -1,763 +1,793 @@
-SET ISO8859-15
-TRY eiarsntolucÈ…mpdgbhfvqjyxË»zkÁ«ÓŒÔœw˚€Ù‘‡¿·¡ÎÀ¸‹ˆ÷Û”Ú“ÌÕÏÃ˘Ÿ˙⁄‰ƒ
+SET UTF-8
+TRY eiarsntoluc√©√âmpdgbhfvqjyx√®√àzk√ß√á√Æ√é√Ø√èw√ª√õ√¥√î√†√Ä√°√Å√´√ã√º√ú√∂√ñ√≥√ì√≤√í√≠√ç√¨√å√π√ô√∫√ö√§√Ñ
 
 MAP 5
-MAP eÎÈË
-MAP oˆÚÛ
-MAP iÔÌÏ
-MAP ˙¸u
-MAP a‡·
+MAP e√´√©√®E√à√â
+MAP o√∂√≤√≥√í
+MAP i√Ø√≠√¨I√ç√å
+MAP √∫√ºuU
+MAP a√†√°A
 
-PFX M Y 1
-PFX M   0      m'      [aeÈËiou‡·ÛÚÌÏ˙˘h]
+NOSPLITSUGS
 
-PFX T Y 1
-PFX T   0      t'      [aeÈËiou‡·ÛÚÌÏ˙˘h]
+SFX a Y 43
+SFX a ar ar ar po:infi di:*
+SFX a ar i [^uaoie]ar po:ipre po:1sg di:*
+SFX a ar as ar po:ipre po:2sg di:*
+SFX a ar a ar po:ipre po:3sg di:*
+SFX a ar am ar po:ipre po:1pl di:*
+SFX a ar atz ar po:ipre po:2pl di:*
+SFX a ar an ar po:ipre po:1pl di:*
+SFX a ar es ar po:spre po:2sg di:*
+SFX a ar e ar po:spre po:1sg po:3sg di:*
+SFX a ar em ar po:spre po:1pl di:*
+SFX a ar etz ar po:spre po:2pl di:*
+SFX a ar en ar po:spre po:3pl di:*
+SFX a ar √®sses ar po:simp po:2sg di:*
+SFX a ar √®sse ar po:simp po:1sg po:3sg di:*
+SFX a ar √®ssem ar po:simp po:1pl di:*
+SFX a ar √®ssetz ar po:simp po:2pl di:*
+SFX a ar √®sson ar po:simp po:3pl di:*
+SFX a ar avi ar po:iimp po:1sg di:*
+SFX a ar avas ar po:iimp po:2sg di:*
+SFX a ar ava ar po:iimp po:3sg di:*
+SFX a ar √†vem ar po:iimp po:1pl di:*
+SFX a ar √†vetz ar po:iimp po:2pl di:*
+SFX a ar avan ar po:iimp po:3pl di:*
+SFX a ar √®ri ar po:ipsi po:1sg di:*
+SFX a ar √®res ar po:ipsi po:2sg di:*
+SFX a ar √®c ar po:ipsi po:3sg di:*
+SFX a ar √®t ar po:ipsi po:3sg di:*
+SFX a ar √®rem ar po:ipsi po:1pl di:*
+SFX a ar √®retz ar po:ipsi po:2pl di:*
+SFX a ar √®ron ar po:ipsi po:3pl di:*
+SFX a 0 ai ar po:ifut po:1sg di:*
+SFX a 0 √®i ar di:*
+SFX a 0 √†s ar po:ifut po:2sg di:*
+SFX a 0 √† ar po:ifut po:3sg di:*
+SFX a 0 em ar po:ifut po:1pl di:*
+SFX a 0 etz ar po:ifut po:2pl di:*
+SFX a 0 √†n ar po:ifut po:3pl di:*
+SFX a 0 i√°i ar po:cond po:1sg di:*
+SFX a 0 i√°s ar po:cond po:2sg di:*
+SFX a 0 i√° ar po:cond po:3sg di:*
+SFX a 0 iam ar po:cond po:1pl di:*
+SFX a 0 iatz ar po:cond po:2pl di:*
+SFX a 0 i√°n ar po:cond po:3pl di:*
 
-PFX L Y 1
-PFX L   0      l'      [aeÈËiou‡·ÛÚÌÏ˙˘h]
-
-PFX S Y 1
-PFX S   0      s'      [aeÈËiou‡·ÛÚÌÏ˙˘h]
-
-PFX Q Y 1
-PFX Q   0     qu'      [aeÈËiou‡·ÛÚÌÏ˙˘h]
-
-PFX N Y 1
-PFX N   0     n'       [aeÈËiou‡·ÛÚÌÏ˙˘h]
-
-PFX l N 1
-PFX l   0     l'       [aeÈËiouU‡·ÛÚÌÏ˙˘h]
-
-PFX D Y 1
-PFX D   0     d'       [aeÈËiou‡·ÛÚÌÏ˙˘h]
-
-SFX A Y 41
-SFX A   r     0         ar
-SFX A   r     n         ar
-SFX A   r     va        ar
-SFX A   r     van       ar
-SFX A   ar    Ët        ar
-SFX A   ar    Ëron      ar
-SFX A   0     ‡         ar
-SFX A   0     ‡n        ar
-SFX A   ar    e         ar
-SFX A   ar    en        ar
-SFX A   ar    Ësse      ar
-SFX A   ar    Ësson     ar
-SFX A   0     i·        ar
-SFX A   0     i·n       ar
-SFX A   ir    Ìs        ir
-SFX A   ir    isson     ir
-SFX A   ir    issi·     ir
-SFX A   ir    issi·     ir
-SFX A   ir    iguËt     ir
-SFX A   ir    iguËron   ir
-SFX A   ir    ir‡       ir
-SFX A   ir    ir‡n      ir
-SFX A   ir    iri·      ir
-SFX A   ir    iri·n     ir
-SFX A   ir    isca      ir
-SFX A   ir    iscan     ir
-SFX A   ir    iguËsse   ir
-SFX A   ir    iguËsson  ir
-SFX A   re    0         re
-SFX A   re    on        re
-SFX A   re    i·        re
-SFX A   re    i·n       re
-SFX A   re    Ët        re
-SFX A   e     ‡         re
-SFX A   e      ‡n       re
-SFX A   re     a        re
-SFX A   re     an       re
-SFX A   re     Ësse     re
-SFX A   re     Ësson    re
-SFX A   re     ri·      re
-SFX A   re     ri·n     re
-
-SFX F Y 58
-SFX F   0      a        [nbclrdmn]
-SFX F   0      as       [nbclrdmn]
-SFX F   0      a        [^u][t]
-SFX F   0      as       [^u][t]
-SFX F   0      a        ant
-SFX F   0      as       ant
-SFX F   0      a        ent
-SFX F   0      as       ent
-SFX F   0      sa       Ús
-SFX F   0      sas      Ús
-SFX F   Ûs     osa      Ûs
-SFX F   Ûs     osas     Ûs
-SFX F   0      a        Út
-SFX F   0      as       Út
-SFX F   it     ida      it
-SFX F   it     idas     it
-SFX F   0      a        i
-SFX F   0      as       i
-SFX F   e      a        e
-SFX F   e      as       e
-SFX F   0      sa       [e]s
-SFX F   0      sas      [e]s
-SFX F   Ìs     issa     Ìs
-SFX F   Ìs     issas    Ìs
-SFX F   tge    tja      tge
-SFX F   tge    tjas     tge
-SFX F   ag     aja      ag
-SFX F   ag     ajas     ag
-SFX F   Ès     esa      Ès
-SFX F   Ès     esas     Ès
-SFX F   at     ada      at
-SFX F   at     adas     at
-SFX F   ut     uda      [u]t
-SFX F   ut     udas     [u]t
-SFX F   as     assa     as
-SFX F   as     assas    as
-SFX F   ‡s     assa     ‡s
-SFX F   ‡s     assas    ‡s
-SFX F   iu     iva      iu
-SFX F   iu     ivas     iu
-SFX F   Ìvol   ivola    Ìvol
-SFX F   Ìvol   ivolas   Ìvol
-SFX F   e      a        aire
-SFX F   e      as       aire
-SFX F   0      a        enc
-SFX F   0      as       enc
-SFX F   dor    doira    ador
-SFX F   dor    doiras   ador
-SFX F   aire   aira     aire
-SFX F   aire   airas    aire
-SFX F   0      a        iËch
-SFX F   0      as       iËch
-SFX F   c      ga       uc
-SFX F   c      gas      uc
-SFX F   ge     ja       ge
-SFX F   ge     jas      ge
-SFX F   u      va       au
-SFX F   u      vas      au
-
-SFX s Y 22
-SFX s   0      s        [Ì·aeiournmlrdfp]
-SFX s   0      s        [^s][t]
-SFX s   0      es      st
-SFX s   0      s        [^s][c]
-SFX s   sc     sques    [s]c
-SFX s   0      s        lh
-SFX s   Ûs     oses     [Û]s
-SFX s   0      ses      [Ú]s
-SFX s   0      es       ch
-SFX s   Á      ces      Á
-SFX s   0      es       g
-SFX s   tz     ses      tz
-SFX s   Ès     eses     Ès
-SFX s   0      Ëses     Ës
-SFX s   Ìs     ises     Ìs
-SFX s   Ìvol   ivoles   Ìvol
-SFX s   0      enses    ens
-SFX s   c      ques     enc
-SFX s   ‡s     asses    ‡s
-SFX s   0      ses      Ëis
-SFX s   0      ses      [^˙ÚÛ‡È]s
-SFX s   ˙s     usses    [˙]s
-
-SFX a Y 40
-SFX a   ar     i        [^uaoie]ar
-SFX a   ar     as       ar
-SFX a   ar     a        ar
-SFX a   ar     am       ar
-SFX a   ar     atz      ar
-SFX a   ar     an       ar
-SFX a   ar     es       ar
-SFX a   ar     e        ar
-SFX a   ar     em       ar
-SFX a   ar     etz      ar
-SFX a   ar     en       ar
-SFX a   ar     Ësses    ar
-SFX a   ar     Ësse     ar
-SFX a   ar     Ëssem    ar
-SFX a   ar     Ëssetz   ar
-SFX a   ar     Ësson    ar
-SFX a   ar     avi      ar
-SFX a   ar     avas     ar
-SFX a   ar     ava      ar
-SFX a   ar     ‡vem     ar
-SFX a   ar     ‡vetz    ar
-SFX a   ar     avan     ar
-SFX a   ar     Ëri      ar
-SFX a   ar     Ëres     ar
-SFX a   ar     Ët       ar
-SFX a   ar     Ërem     ar
-SFX a   ar     Ëretz    ar
-SFX a   ar     Ëron     ar
-SFX a   0      ai       ar
-SFX a   0      ‡s       ar
-SFX a   0      ‡        ar
-SFX a   0      em       ar
-SFX a   0      etz      ar
-SFX a   0      ‡n       ar
-SFX a   0      i·i      ar
-SFX a   0      i·s      ar
-SFX a   0      i·       ar
-SFX a   0      iam      ar
-SFX a   0      iatz     ar
-SFX a   0      i·n      ar
+SFX A Y 42
+SFX A r 0 ar di:*
+SFX A r n ar di:*
+SFX A r va ar di:*
+SFX A r van ar di:*
+SFX A ar √®t ar di:*
+SFX A ar √®c ar di:*
+SFX A ar √®ron ar di:*
+SFX A 0 √† ar di:*
+SFX A 0 √†n ar di:*
+SFX A ar e ar di:*
+SFX A ar en ar di:*
+SFX A ar √®sse ar di:*
+SFX A ar √®sson ar di:*
+SFX A 0 i√° ar di:*
+SFX A 0 i√°n ar di:*
+SFX A ir √≠s ir di:*
+SFX A ir isson ir di:*
+SFX A ir issi√° ir di:*
+SFX A ir issi√° ir di:*
+SFX A ir igu√®t ir di:*
+SFX A ir igu√®ron ir di:*
+SFX A ir ir√† ir di:*
+SFX A ir ir√†n ir di:*
+SFX A ir iri√° ir di:*
+SFX A ir iri√°n ir di:*
+SFX A ir isca ir di:*
+SFX A ir iscan ir di:*
+SFX A ir igu√®sse ir di:*
+SFX A ir igu√®sson ir di:*
+SFX A re 0 re di:*
+SFX A re on re di:*
+SFX A re i√° re di:*
+SFX A re i√°n re di:*
+SFX A re √®t re di:*
+SFX A e √† re di:*
+SFX A e √†n re di:*
+SFX A re a re di:*
+SFX A re an re di:*
+SFX A re √®sse re di:*
+SFX A re √®sson re di:*
+SFX A re ri√° re di:*
+SFX A re ri√°n re di:*
 
 SFX b Y 22
-SFX b   ar     am       ar
-SFX b   ar     atz       ar
-SFX b   ar     em       ar
-SFX b   ar     etz       ar
-SFX b   ar     avi        ar
-SFX b   ar     avas       ar
-SFX b   ar     ava        ar
-SFX b   ar     ‡vem     ar
-SFX b   ar     ‡vetz     ar
-SFX b   ar     avan      ar
-SFX b   0      ai          ar
-SFX b   0      ‡s          ar
-SFX b   0      ‡           ar
-SFX b   0      em        ar
-SFX b   0      etz        ar
-SFX b   0      ‡n         ar
-SFX b   0      i·i         ar
-SFX b   0      i·s        ar
-SFX b   0      i·          ar
-SFX b   0      iam       ar
-SFX b   0      iatz       ar
-SFX b   0      i·n        ar
+SFX b ar am ar di:*
+SFX b ar atz ar di:*
+SFX b ar em ar di:*
+SFX b ar etz ar di:*
+SFX b ar avi ar di:*
+SFX b ar avas ar di:*
+SFX b ar ava ar di:*
+SFX b ar √†vem ar di:*
+SFX b ar √†vetz ar di:*
+SFX b ar avan ar di:*
+SFX b 0 ai ar di:*
+SFX b 0 √†s ar di:*
+SFX b 0 √† ar di:*
+SFX b 0 em ar di:*
+SFX b 0 etz ar di:*
+SFX b 0 √†n ar di:*
+SFX b 0 i√°i ar di:*
+SFX b 0 i√°s ar di:*
+SFX b 0 i√° ar di:*
+SFX b 0 iam ar di:*
+SFX b 0 iatz ar di:*
+SFX b 0 i√°n ar di:*
 
 SFX c Y 15
-SFX c  i        as          i
-SFX c  i        a            i
-SFX c  i        an          i
-SFX c  i        es          i
-SFX c  i        e            i
-SFX c  i        en          i
-SFX c  ui      as          [g][u]i
-SFX c  ui      a          [g][u]i
-SFX c  ui      an          [g][u]i
-SFX c  Ô        as           Ô
-SFX c  Ô        a            Ô
-SFX c  Ô        an          Ô
-SFX c  Ô        es          Ô
-SFX c  Ô        e            Ô
-SFX c  Ô       en          Ô
+SFX c i as i di:*
+SFX c i a i di:*
+SFX c i an i di:*
+SFX c i es i di:*
+SFX c i e i di:*
+SFX c i en i di:*
+SFX c ui as [g][u]i di:*
+SFX c ui a [g][u]i di:*
+SFX c ui an [g][u]i di:*
+SFX c √Ø as √Ø di:*
+SFX c √Ø a √Ø di:*
+SFX c √Ø an √Ø di:*
+SFX c √Ø es √Ø di:*
+SFX c √Ø e √Ø di:*
+SFX c √Ø en √Ø di:*
 
-SFX d Y 10
-SFX d    Ëri       Ëres         Ëri
-SFX d    Ëri       Ët            Ëri
-SFX d    Ëri       Ërem        Ëri
-SFX d    Ëri       Ëretz        Ëri
-SFX d    Ëri       Ëron         Ëri
-SFX d    Ëri       Ësse         Ëri
-SFX d    Ëri       Ësses        Ëri
-SFX d    Ëri       Ëssem       Ëri
-SFX d    Ëri       Ëssetz      Ëri
-SFX d    Ëri       Ësson       Ëri
+SFX d Y 11
+SFX d √®ri √®res √®ri di:*
+SFX d √®ri √®t √®ri di:*
+SFX d √®ri √®c √®ri di:*
+SFX d √®ri √®rem √®ri di:*
+SFX d √®ri √®retz √®ri di:*
+SFX d √®ri √®ron √®ri di:*
+SFX d √®ri √®sse √®ri di:*
+SFX d √®ri √®sses √®ri di:*
+SFX d √®ri √®ssem √®ri di:*
+SFX d √®ri √®ssetz √®ri di:*
+SFX d √®ri √®sson √®ri di:*
+
+PFX D Y 2
+PFX D 0 d' [ae√©√®iou√†√°√≥√≤√≠√¨√∫√πh] di:*
+PFX D 0 d' [AEHIOU√Ä√å√ç√à√â√í√ì√ö] di:*
 
 SFX e Y 42
-SFX e    gi       jas           [g]i
-SFX e    gi       ja            [g]i
-SFX e    gi       jan          [g]i
-SFX e    gi       ge           [g]i
-SFX e    gi       ges          [g]i
-SFX e    gi       gen          [g]i
-SFX e    i         as            [i]i
-SFX e    i         a             [i]i
-SFX e    i         an           [i]i
-SFX e    i         e             [i]i
-SFX e    i         es           [i]i
-SFX e    i         en           [i]i
-SFX e    Ô         as               Ô
-SFX e    Ô         a               Ô
-SFX e    Ô         an              Ô
-SFX e    Ô         e                Ô
-SFX e    Ô         es              Ô
-SFX e    Ô          en              Ô
-SFX e    i         as            [^g][^ug]i
-SFX e    i         a             [^g][^ug]i
-SFX e    i         an           [^g][^ug]i
-SFX e    i         e            [^g][^ug]i
-SFX e    i         es           [^g][^ug]i
-SFX e    i         en           [^g][^ug]i
-SFX e    ui       as           gui
-SFX e    ui        a            gui
-SFX e    ui        an          gui
-SFX e    ui        e            gui
-SFX e    ui        es           gui
-SFX e    ui        en           gui
-SFX e    qui      cas          qui
-SFX e    qui      ca            qui
-SFX e    qui      can           qui
-SFX e   i     e           qui
-SFX e   i     es          qui
-SFX e   i     en          qui
-SFX e   ci    Áas          ci
-SFX e   ci    Áa           ci
-SFX e   ci    Áan          ci
-SFX e   i     e           ci
-SFX e   i     es          ci
-SFX e   i     en          ci
+SFX e gi jas [g]i di:*
+SFX e gi ja [g]i di:*
+SFX e gi jan [g]i di:*
+SFX e gi ge [g]i di:*
+SFX e gi ges [g]i di:*
+SFX e gi gen [g]i di:*
+SFX e i as [i]i di:*
+SFX e i a [i]i di:*
+SFX e i an [i]i di:*
+SFX e i e [i]i di:*
+SFX e i es [i]i di:*
+SFX e i en [i]i di:*
+SFX e √Ø as √Ø di:*
+SFX e √Ø a √Ø di:*
+SFX e √Ø an √Ø di:*
+SFX e √Ø e √Ø di:*
+SFX e √Ø es √Ø di:*
+SFX e √Ø en √Ø di:*
+SFX e i as [^g][^ug]i di:*
+SFX e i a [^g][^ug]i di:*
+SFX e i an [^g][^ug]i di:*
+SFX e i e [^g][^ug]i di:*
+SFX e i es [^g][^ug]i di:*
+SFX e i en [^g][^ug]i di:*
+SFX e ui as gui di:*
+SFX e ui a gui di:*
+SFX e ui an gui di:*
+SFX e ui e gui di:*
+SFX e ui es gui di:*
+SFX e ui en gui di:*
+SFX e qui cas qui di:*
+SFX e qui ca qui di:*
+SFX e qui can qui di:*
+SFX e i e qui di:*
+SFX e i es qui di:*
+SFX e i en qui di:*
+SFX e ci √ßas ci di:*
+SFX e ci √ßa ci di:*
+SFX e ci √ßan ci di:*
+SFX e i e ci di:*
+SFX e i es ci di:*
+SFX e i en ci di:*
 
 SFX f Y 7
-SFX f    i         as             avi
-SFX f    i         a              avi
-SFX f    avi     ‡vem        avi
-SFX f    avi     ‡vetz        avi
-SFX f    avi     avan         avi
-SFX f    avi     am            avi
-SFX f    avi     atz            avi
+SFX f i as avi di:*
+SFX f i a avi di:*
+SFX f avi √†vem avi di:*
+SFX f avi √†vetz avi di:*
+SFX f avi avan avi di:*
+SFX f avi am avi di:*
+SFX f avi atz avi di:*
 
-SFX g  Y 91
-SFX g   Áar     ci            [Á]ar
-SFX g   ar      ui             [g]ar
-SFX g   car    qui           [c]ar
-SFX g   jar     gi            [j]ar
-SFX g   ar      as             [gcÁj]ar
-SFX g   ar      a              [gcÁj]ar
-SFX g   ar      am           [gcÁj]ar
-SFX g   ar      atz           [gcÁj]ar
-SFX g   ar      an            [gcÁj]ar
-SFX g   ar      avi           [gcÁj]ar
-SFX g   ar      ava          [gcÁj]ar
-SFX g   ar      avas          [gcÁj]ar
-SFX g   ar      ‡vem       [gcÁj]ar
-SFX g   ar      ‡vetz       [gcÁj]ar
-SFX g   ar      avan        [gcÁj]ar
-SFX g   car    quËri         [c]ar
-SFX g   car    quËres       [c]ar
-SFX g   car    quËt          [c]ar
-SFX g   car    quËrem     [c]ar
-SFX g   car    quËretz     [c]ar
-SFX g   car    quËron      [c]ar
-SFX g   Áar    cËri          [Á]ar
-SFX g   Áar    cËres        [Á]ar
-SFX g   Áar    cËt           [Á]ar
-SFX g   Áar    cËrem      [Á]ar
-SFX g   Áar    cËretz      [Á]ar
-SFX g   Áar    cËron       [Á]ar
-SFX g   jar     gËri          [j]ar
-SFX g  jar      gËres        [j]ar
-SFX g   jar     gËt           [j]ar
-SFX g   jar     gËrem      [j]ar
-SFX g   jar     gËretz      [j]ar
-SFX g   jar     gËron       [j]ar
-SFX g   ar      uËri          [g]ar
-SFX g   ar      uËres        [g]ar
-SFX g   ar      uËt           [g]ar
-SFX g   ar      uËrem      [g]ar
-SFX g   ar      uËretz      [g]ar
-SFX g   ar      uËron       [g]ar
-SFX g   0      ai              [gcÁj]ar
-SFX g   0      ‡s              [gcÁj]ar
-SFX g   0      ‡               [gcÁj]ar
-SFX g   0      em            [gcÁj]ar
-SFX g   0      etz             [gÁcj]ar
-SFX g   0      ‡n              [gcÁj]ar
-SFX g   0      i·i              [gcÁj]ar
-SFX g   0      i·s             [gcÁj]ar
-SFX g   0      i·               [gcÁj]ar
-SFX g   0      iam            [gcÁj]ar
-SFX g   0      iatz            [gcÁj]ar
-SFX g   0      i·n             [gcÁj]ar
-SFX g   car   que            [c]ar
-SFX g   car   ques          [c]ar
-SFX g   car   quem         [c]ar
-SFX g   car   quetz         [c]ar
-SFX g   car   quen          [c]ar
-SFX g   car   quËsse       [c]ar
-SFX g   car   quËsses      [c]ar
-SFX g   car   quËssem     [c]ar
-SFX g   car   quËssetz     [c]ar
-SFX g   car   quËsson      [c]ar
-SFX g   jar   ge            [j]ar
-SFX g   jar   ges          [j]ar
-SFX g   jar   gem         [j]ar
-SFX g   jar   getz         [j]ar
-SFX g   jar   gen          [j]ar
-SFX g   jar   gËsse       [j]ar
-SFX g   jar   gËsses      [j]ar
-SFX g   jar   gËssem     [j]ar
-SFX g   jar   gËssetz     [j]ar
-SFX g   jar   gËsson      [j]ar
-SFX g   ar     ue              [g]ar
-SFX g   ar     ues             [g]ar
-SFX g   ar     uem             [g]ar
-SFX g   ar     uetz             [g]ar
-SFX g   ar     uen              [g]ar
-SFX g   ar     uËsse           [g]ar
-SFX g  ar     uËsses          [g]ar
-SFX g   ar     uËssem         [g]ar
-SFX g   ar     uËssetz         [g]ar
-SFX g   ar     uËsson          [g]ar
-SFX g   Áar     ce              [Á]ar
-SFX g   Áar     ces             [Á]ar
-SFX g   Áar     cem             [Á]ar
-SFX g   Áar     cetz             [Á]ar
-SFX g   Áar     cen              [Á]ar
-SFX g   Áar     cËsse           [Á]ar
-SFX g   Áar     cËsses          [Á]ar
-SFX g   Áar     cËssem         [Á]ar
-SFX g   Áar     cËssetz         [Á]ar
-SFX g   Áar     cËsson          [Á]ar
+SFX F Y 64
+SFX F 0 a [nbclrdmn] is:fem is:sg di:*
+SFX F 0 as [nbclrdmn] is:fem is:pl di:*
+SFX F 0 a [^u][t] is:fem is:sg di:*
+SFX F 0 as [^u][t] is:fem is:pl di:*
+SFX F 0 a ant is:fem is:sg di:*
+SFX F 0 as ant is:fem is:pl di:*
+SFX F 0 a ent is:fem is:sg di:*
+SFX F 0 as ent is:fem is:pl di:*
+SFX F 0 sa √≤s is:fem is:sg di:*
+SFX F 0 sas √≤s is:fem is:pl di:*
+SFX F √≥s osa √≥s is:fem is:sg di:*
+SFX F √≥s osas √≥s is:fem is:pl di:*
+SFX F 0 a √≤t is:fem is:sg di:*
+SFX F 0 as √≤t is:fem is:pl di:*
+SFX F it ida it is:fem is:sg di:*
+SFX F it idas it is:fem is:pl di:*
+SFX F 0 a i is:fem is:sg di:*
+SFX F 0 as i is:fem is:pl di:*
+SFX F e a e is:fem is:sg di:*
+SFX F e as e is:fem is:pl di:*
+SFX F 0 sa [e]s is:fem is:sg di:*
+SFX F 0 sas [e]s is:fem is:pl di:*
+SFX F √≠s issa √≠s is:fem is:sg di:*
+SFX F √≠s issas √≠s is:fem is:pl di:*
+SFX F tge tja tge is:fem is:sg di:*
+SFX F tge tjas tge is:fem is:pl di:*
+SFX F ag aja ag is:fem is:sg di:*
+SFX F ag ajas ag is:fem is:pl di:*
+SFX F √©s esa √©s is:fem is:sg di:*
+SFX F √©s esas √©s is:fem is:pl di:*
+SFX F ut uda [u]t is:fem is:sg di:*
+SFX F ut udas [u]t is:fem is:pl di:*
+SFX F as assa as is:fem is:sg di:*
+SFX F as assas as is:fem is:pl di:*
+SFX F √†s assa √†s is:fem is:sg di:*
+SFX F √†s assas √†s is:fem is:pl di:*
+SFX F at ada [a]t is:fem is:sg di:*
+SFX F at adas [a]t is:fem is:pl di:*
+SFX F iu iva iu is:fem is:sg di:*
+SFX F iu ivas iu is:fem is:pl di:*
+SFX F √≠vol ivola √≠vol is:fem is:sg di:*
+SFX F √≠vol ivolas √≠vol is:fem is:pl di:*
+SFX F e a aire is:fem is:sg di:*
+SFX F e as aire is:fem is:pl di:*
+SFX F 0 a enc is:fem is:sg di:*
+SFX F 0 as enc is:fem is:pl di:*
+SFX F nh nha nh is:fem is:sg di:*
+SFX F nh nhas nh is:fem is:pl di:*
+SFX F dor doira ador is:fem is:sg di:*
+SFX F dor doiras ador is:fem is:pl di:*
+SFX F aire aira aire is:fem is:sg di:*
+SFX F aire airas aire is:fem is:pl di:*
+SFX F eire eira eire is:fem is:sg di:*
+SFX F eire eiras eire is:fem is:pl di:*
+SFX F 0 a i√®ch is:fem is:sg di:*
+SFX F 0 as i√®ch is:fem is:pl di:*
+SFX F c ga uc is:fem is:sg di:*
+SFX F c gas uc is:fem is:pl di:*
+SFX F ge ja ge is:fem is:sg di:*
+SFX F ge jas ge is:fem is:pl di:*
+SFX F u va au is:fem is:sg di:*
+SFX F u vas au is:fem is:pl di:*
+SFX F l√≤g l√≤ga l√≤g is:fem is:sg di:*
+SFX F l√≤g l√≤gas l√≤g is:fem is:pl di:*
 
-SFX h Y 31
-SFX h   at      ada               at
-SFX h   at      adas              at
-SFX h   0       s                   at
-SFX h   at      ant                at
-SFX h   ar      ada               ar
-SFX h   ar      adas              ar
-SFX h   ar      ant                ar
-SFX h   ar      at                  ar
-SFX h   ar      ats                ar
-SFX h   it       ida                it
-SFX h   it       issent            it
-SFX h   0       s                    it
-SFX h   ir       ida                ir
-SFX h   ir       idas               ir
-SFX h   ir       issent            ir
-SFX h   ir       it                   ir
-SFX h   ir       its                  ir
-SFX h   ut      uts                ut
-SFX h   ut      uda               ut
-SFX h   ut      udas             ut
-SFX h   ut      ent               ut
-SFX h   Ôt       ida                Ôt
-SFX h   Ôt       Ôssent            Ôt
-SFX h   re       ent               re
-SFX h   ure   vent               iure
-SFX h   ire    sent               [aeu]ire
-SFX h   re     sent               [rdf]ire
-SFX h   re     sent               ure
-SFX h   er     ent                 er
-SFX h   e       ent                ne
-SFX h   Ès      esa               Ès
+SFX g Y 94
+SFX g √ßar ci [√ß]ar di:*
+SFX g ar ui [g]ar di:*
+SFX g car qui [c]ar di:*
+SFX g jar gi [j]ar di:*
+SFX g ar as [gc√ßj]ar di:*
+SFX g ar a [gc√ßj]ar di:*
+SFX g ar am [gc√ßj]ar di:*
+SFX g ar atz [gc√ßj]ar di:*
+SFX g ar an [gc√ßj]ar di:*
+SFX g ar avi [gc√ßj]ar di:*
+SFX g ar ava [gc√ßj]ar di:*
+SFX g ar avas [gc√ßj]ar di:*
+SFX g ar √†vem [gc√ßj]ar di:*
+SFX g ar √†vetz [gc√ßj]ar di:*
+SFX g ar avan [gc√ßj]ar di:*
+SFX g car qu√®ri [c]ar di:*
+SFX g car qu√®res [c]ar di:*
+SFX g car qu√®t [c]ar di:*
+SFX g car qu√®c [c]ar di:*
+SFX g car qu√®rem [c]ar di:*
+SFX g car qu√®retz [c]ar di:*
+SFX g car qu√®ron [c]ar di:*
+SFX g √ßar c√®ri [√ß]ar di:*
+SFX g √ßar c√®res [√ß]ar di:*
+SFX g √ßar c√®t [√ß]ar di:*
+SFX g √ßar c√®c [√ß]ar di:*
+SFX g √ßar c√®rem [√ß]ar di:*
+SFX g √ßar c√®retz [√ß]ar di:*
+SFX g √ßar c√®ron [√ß]ar di:*
+SFX g jar g√®ri [j]ar di:*
+SFX g jar g√®res [j]ar di:*
+SFX g jar g√®t [j]ar di:*
+SFX g jar g√®c [j]ar di:*
+SFX g jar g√®rem [j]ar di:*
+SFX g jar g√®retz [j]ar di:*
+SFX g jar g√®ron [j]ar di:*
+SFX g ar u√®ri [g]ar di:*
+SFX g ar u√®res [g]ar di:*
+SFX g ar u√®t [g]ar di:*
+SFX g ar u√®rem [g]ar di:*
+SFX g ar u√®retz [g]ar di:*
+SFX g ar u√®ron [g]ar di:*
+SFX g 0 ai [gc√ßj]ar di:*
+SFX g 0 √†s [gc√ßj]ar di:*
+SFX g 0 √† [gc√ßj]ar di:*
+SFX g 0 em [gc√ßj]ar di:*
+SFX g 0 etz [g√ßcj]ar di:*
+SFX g 0 √†n [gc√ßj]ar di:*
+SFX g 0 i√°i [gc√ßj]ar di:*
+SFX g 0 i√°s [gc√ßj]ar di:*
+SFX g 0 i√° [gc√ßj]ar di:*
+SFX g 0 iam [gc√ßj]ar di:*
+SFX g 0 iatz [gc√ßj]ar di:*
+SFX g 0 i√°n [gc√ßj]ar di:*
+SFX g car que [c]ar di:*
+SFX g car ques [c]ar di:*
+SFX g car quem [c]ar di:*
+SFX g car quetz [c]ar di:*
+SFX g car quen [c]ar di:*
+SFX g car qu√®sse [c]ar di:*
+SFX g car qu√®sses [c]ar di:*
+SFX g car qu√®ssem [c]ar di:*
+SFX g car qu√®ssetz [c]ar di:*
+SFX g car qu√®sson [c]ar di:*
+SFX g jar ge [j]ar di:*
+SFX g jar ges [j]ar di:*
+SFX g jar gem [j]ar di:*
+SFX g jar getz [j]ar di:*
+SFX g jar gen [j]ar di:*
+SFX g jar g√®sse [j]ar di:*
+SFX g jar g√®sses [j]ar di:*
+SFX g jar g√®ssem [j]ar di:*
+SFX g jar g√®ssetz [j]ar di:*
+SFX g jar g√®sson [j]ar di:*
+SFX g ar ue [g]ar di:*
+SFX g ar ues [g]ar di:*
+SFX g ar uem [g]ar di:*
+SFX g ar uetz [g]ar di:*
+SFX g ar uen [g]ar di:*
+SFX g ar u√®sse [g]ar di:*
+SFX g ar u√®sses [g]ar di:*
+SFX g ar u√®ssem [g]ar di:*
+SFX g ar u√®ssetz [g]ar di:*
+SFX g ar u√®sson [g]ar di:*
+SFX g √ßar ce [√ß]ar di:*
+SFX g √ßar ces [√ß]ar di:*
+SFX g √ßar cem [√ß]ar di:*
+SFX g √ßar cetz [√ß]ar di:*
+SFX g √ßar cen [√ß]ar di:*
+SFX g √ßar c√®sse [√ß]ar di:*
+SFX g √ßar c√®sses [√ß]ar di:*
+SFX g √ßar c√®ssem [√ß]ar di:*
+SFX g √ßar c√®ssetz [√ß]ar di:*
+SFX g √ßar c√®sson [√ß]ar di:*
 
-SFX i  Y 42 
-SFX i    r     ssi           [iÔ]r
-SFX i    r     sses          [iÔ]r
-SFX i   ir     Ìs             [i]r
-SFX i   Ôr     Ìs             [Ô]r
-SFX i   ir     Ìs             [ui]r
-SFX i   r      ssËm      [iÔ]r
-SFX i   r     ssËtz      [iÔ]r
-SFX i   r     sson       [iÔ]r
-SFX i   r     ssi·i      [iÔ]r
-SFX i   r     ssi·       [iÔ]r
-SFX i   r     ssi·s      [iÔ]r
-SFX i   r     ssiam      [iÔ]r
-SFX i   r     ssiatz     [iÔ]r
-SFX i   r     ssi·n       [iÔ]r
-SFX i   r     guËri       [iÔ]r
-SFX i   r     guËres     [iÔ]r
-SFX i   r     guËt       [iÔ]r
-SFX i   r     guËrem    [iÔ]r
-SFX i   r     guËretz    [iÔ]r
-SFX i   r     guËron     [iÔ]r
-SFX i   r     rai            [iÔ]r
-SFX i   r     r‡s           [iÔ]r
-SFX i   r     r‡             [iÔ]r
-SFX i   r     rem          [iÔ]r
-SFX i   r     retz          [iÔ]r
-SFX i   r     r‡n           [iÔ]r
-SFX i   r     ri·i           [iÔ]r
-SFX i   r     ri·s           [iÔ]r
-SFX i   r     ri·            [iÔ]r
-SFX i   r     riam         [iÔ]r
-SFX i   r     riatz          [iÔ]r
-SFX i   r     ri·n           [iÔ]r
-SFX i   r     sca            [iÔ]r
-SFX i   r     scas          [iÔ]r
-SFX i   r     scam        [iÔ]r
-SFX i   r     scatz         [iÔ]r
-SFX i   r     scan           [iÔ]r
-SFX i   r     guËsse       [iÔ]r
-SFX i   r     guËsses      [iÔ]r
-SFX i   r     guËssem    [iÔ]r
-SFX i   r     guËssetz    [iÔ]r
-SFX i   r     guËsson     [iÔ]r
+SFX h Y 32
+SFX h at ada at di:*
+SFX h at adas at di:*
+SFX h 0 s at di:*
+SFX h at ant at di:*
+SFX h ar ada ar di:*
+SFX h ar adas ar di:*
+SFX h ar ant ar di:*
+SFX h ar at ar di:*
+SFX h ar ats ar di:*
+SFX h it ida it di:*
+SFX h it idas it di:*
+SFX h it issent it di:*
+SFX h 0 s it di:*
+SFX h ir ida ir di:*
+SFX h ir idas ir di:*
+SFX h ir issent ir di:*
+SFX h ir it ir di:*
+SFX h ir its ir di:*
+SFX h ut uts ut di:*
+SFX h ut uda ut di:*
+SFX h ut udas ut di:*
+SFX h ut ent ut di:*
+SFX h √Øt ida √Øt di:*
+SFX h √Øt √Øssent √Øt di:*
+SFX h re ent re di:*
+SFX h ure vent iure di:*
+SFX h ire sent [aeu]ire di:*
+SFX h re sent [rdf]ire di:*
+SFX h re sent ure di:*
+SFX h er ent er di:*
+SFX h e ent ne di:*
+SFX h √©s esa √©s di:*
 
-SFX j  Y 40 
-SFX j   r         0             ir
-SFX j   ir         es             ir
-SFX j   ir         0              ir
-SFX j   ir         Ëm           ir
-SFX j   ir         Ëtz           ir
-SFX j   ir         on            ir
-SFX j   ir         i·i             ir
-SFX j   ir         i·s             ir
-SFX j   ir         i·              ir
-SFX j   ir         iam             ir
-SFX j   ir         iatz             ir
-SFX j   ir         i·n              ir
-SFX j   ir         iguËri          ir
-SFX j   ir         iguËres        ir
-SFX j   ir         iguËt            ir
-SFX j   ir         iguËrem       ir
-SFX j   ir         iguËretz       ir
-SFX j   ir         iguËron        ir
-SFX j   0         ai                 ir
-SFX j   0         ‡s                 ir
-SFX j   0         ‡                  ir
-SFX j   0         em               ir
-SFX j   ir         etz               ir
-SFX j   ir         ‡n                ir
-SFX j   ir         a                 ir
-SFX j   ir         as                ir
-SFX j   ir         am               ir
-SFX j   ir         atz               ir
-SFX j   ir         an                ir
-SFX j   ir         iguËsse        ir
-SFX j   ir         iguËsses       ir
-SFX j   ir         iguËssem      ir
-SFX j   ir         iguessetz      ir
-SFX j   ir         iguËsson       ir
-SFX j   0         i·i                 ir
-SFX j   0         i·s                 ir
-SFX j   0         i·                  ir
-SFX j   0         iam               ir
-SFX j   ir         iatz               ir
-SFX j   ir         i·n                ir
+SFX i Y 45
+SFX i r ssi [i√Ø]r di:*
+SFX i r sses [i√Ø]r di:*
+SFX i ir √≠s [i]r di:*
+SFX i √Ør √≠s [√Ø]r di:*
+SFX i ir √≠s [ui]r di:*
+SFX i r ss√®m [i√Ø]r di:*
+SFX i r ss√®tz [i√Ø]r di:*
+SFX i r sson [i√Ø]r di:*
+SFX i r ssen [i√Ø]r di:*
+SFX i r ssi√°i [i√Ø]r di:*
+SFX i r ssi√° [i√Ø]r di:*
+SFX i r ssi√°s [i√Ø]r di:*
+SFX i r ssiam [i√Ø]r di:*
+SFX i r ssiatz [i√Ø]r di:*
+SFX i r ssi√°n [i√Ø]r di:*
+SFX i r gu√®ri [i√Ø]r di:*
+SFX i r gu√®res [i√Ø]r di:*
+SFX i r gu√®t [i√Ø]r di:*
+SFX i r gu√®c [i√Ø]r di:*
+SFX i r gu√®rem [i√Ø]r di:*
+SFX i r gu√®retz [i√Ø]r di:*
+SFX i r gu√®ron [i√Ø]r di:*
+SFX i r rai [i√Ø]r di:*
+SFX i r r√®i [i√Ø]r di:*
+SFX i r r√†s [i√Ø]r di:*
+SFX i r r√† [i√Ø]r di:*
+SFX i r rem [i√Ø]r di:*
+SFX i r retz [i√Ø]r di:*
+SFX i r r√†n [i√Ø]r di:*
+SFX i r ri√°i [i√Ø]r di:*
+SFX i r ri√°s [i√Ø]r di:*
+SFX i r ri√° [i√Ø]r di:*
+SFX i r riam [i√Ø]r di:*
+SFX i r riatz [i√Ø]r di:*
+SFX i r ri√°n [i√Ø]r di:*
+SFX i r sca [i√Ø]r di:*
+SFX i r scas [i√Ø]r di:*
+SFX i r scam [i√Ø]r di:*
+SFX i r scatz [i√Ø]r di:*
+SFX i r scan [i√Ø]r di:*
+SFX i r gu√®sse [i√Ø]r di:*
+SFX i r gu√®sses [i√Ø]r di:*
+SFX i r gu√®ssem [i√Ø]r di:*
+SFX i r gu√®ssetz [i√Ø]r di:*
+SFX i r gu√®sson [i√Ø]r di:*
 
-SFX r Y 11
-SFX r    eirar      iËiri          eirar
-SFX r   eirar      iËiras        eirar
-SFX r    eirar      iËira          eirar
-SFX r    eirar      eiram        eirar
-SFX r    eirar      eiratz        eirar
-SFX r    eirar      iËiran        eirar
-SFX r    eirar      iËire          eirar
-SFX r    eirar      iËires          eirar
-SFX r    eirar      eirem        eirar
-SFX r    eirar      eiretz        eirar
-SFX r    eirar      iËiren        eirar
+SFX j Y 40
+SFX j r 0 ir di:*
+SFX j ir es ir di:*
+SFX j ir 0 ir di:*
+SFX j ir √®m ir di:*
+SFX j ir √®tz ir di:*
+SFX j ir on ir di:*
+SFX j ir i√°i ir di:*
+SFX j ir i√°s ir di:*
+SFX j ir i√° ir di:*
+SFX j ir iam ir di:*
+SFX j ir iatz ir di:*
+SFX j ir i√°n ir di:*
+SFX j ir igu√®ri ir di:*
+SFX j ir igu√®res ir di:*
+SFX j ir igu√®t ir di:*
+SFX j ir igu√®rem ir di:*
+SFX j ir igu√®retz ir di:*
+SFX j ir igu√®ron ir di:*
+SFX j 0 ai ir di:*
+SFX j 0 √†s ir di:*
+SFX j 0 √† ir di:*
+SFX j 0 em ir di:*
+SFX j ir etz ir di:*
+SFX j ir √†n ir di:*
+SFX j ir a ir di:*
+SFX j ir as ir di:*
+SFX j ir am ir di:*
+SFX j ir atz ir di:*
+SFX j ir an ir di:*
+SFX j ir igu√®sse ir di:*
+SFX j ir igu√®sses ir di:*
+SFX j ir igu√®ssem ir di:*
+SFX j ir iguessetz ir di:*
+SFX j ir igu√®sson ir di:*
+SFX j 0 i√°i ir di:*
+SFX j 0 i√°s ir di:*
+SFX j 0 i√° ir di:*
+SFX j 0 iam ir di:*
+SFX j ir iatz ir di:*
+SFX j ir i√°n ir di:*
+
+PFX l N 2
+PFX l 0 l' [ae√©√®iouU√†√°√≥√≤√≠√¨√∫√πh] di:*
+PFX l 0 l' [AEIOU√Ä√ç√å√à√â√í√ì√ö] di:*
+
+PFX L Y 2
+PFX L 0 l' [ae√©√®iou√†√°√≥√≤√≠√¨√∫√πh] di:*
+PFX L 0 l' [AEIOU√Ä√ç√å√à√â√í√ì√ö] di:*
+
+PFX M Y 1
+PFX M 0 m' [ae√©√®iou√†√°√≥√≤√≠√¨√∫√πh] di:*
+
+PFX N Y 1
+PFX N 0 n' [ae√©√®iou√†√°√≥√≤√≠√¨√∫√πh] di:*
 
 SFX p Y 5
-SFX p    r       t          r
-SFX p    r      da         r
-SFX p    r       ts         r
-SFX p    r      das       r
-SFX p    r       nt         r
+SFX p r t r di:*
+SFX p r da r di:*
+SFX p r ts r di:*
+SFX p r das r di:*
+SFX p r nt r di:*
 
-SFX t Y 42
-SFX t    re      i           re
-SFX t    re      es          re
-SFX t    re     0            re
-SFX t   dre     t            [aeiou]dre
-SFX t    re      Ëm          re
-SFX t    re      Ëtz          re
-SFX t    re      on           re
-SFX t    re      i·i           re
-SFX t    re      i·s           re
-SFX t    re      i·            re
-SFX t    re      iam         re
-SFX t    re      iatz         re
-SFX t    re      i·n          re
-SFX t    re      Ëri           re
-SFX t    re      Ëres         re
-SFX t    re      Ët            re
-SFX t    re      Ërem       re
-SFX t    re      Ëretz        re
-SFX t    re      Ëron         re
-SFX t    e       ai              re
-SFX t    e      ‡s              re
-SFX t    e      ‡               re
-SFX t    e      rem           re
-SFX t    e      retz           re
-SFX t    e      ‡n             re
-SFX t    e      i·i             re
-SFX t    e      i·s             re
-SFX t    e      i·              re
-SFX t    e      iam           re
-SFX t    e      iatz           re
-SFX t    e      i·n           re
-SFX t    re      a              re
-SFX t    re      as            re
-SFX t    re      am           re
-SFX t    re      atz           re
-SFX t    re      an            re
-SFX t    re      Ësse         re
-SFX t    re      Ësses        re
-SFX t    re      Ësse         re
-SFX t    re      Ëssem      re
-SFX t    re      Ëssetz      re
-SFX t    re      Ësson       re
+PFX Q Y 2
+PFX Q 0 qu' [ae√©√®iou√†√°√≥√≤√≠√¨√∫√πh] di:*
+PFX Q 0 qu' [AEIOU√Ä√ç√å√à√â√í√ì√ö] di:*
+
+SFX r Y 11
+SFX r eirar i√®iri eirar di:*
+SFX r eirar i√®iras eirar di:*
+SFX r eirar i√®ira eirar di:*
+SFX r eirar eiram eirar di:*
+SFX r eirar eiratz eirar di:*
+SFX r eirar i√®iran eirar di:*
+SFX r eirar i√®ire eirar di:*
+SFX r eirar i√®ires eirar di:*
+SFX r eirar eirem eirar di:*
+SFX r eirar eiretz eirar di:*
+SFX r eirar i√®iren eirar di:*
+
+SFX s Y 26
+SFX s 0 s [√≠√°eiournmlrdp] is:mas is:pl di:*
+SFX s 0 s [a] is:fem is:pl di:*
+SFX s 0 s [^s][t] is:mas is:pl di:*
+SFX s 0 es st is:mas is:pl di:*
+SFX s 0 s [^s][c] is:mas is:pl di:*
+SFX s sc sques [s]c is:mas is:pl di:*
+SFX s 0 s lh is:mas is:pl di:*
+SFX s √≥s oses [√≥]s is:mas is:pl di:*
+SFX s 0 ses [√≤]s is:mas is:pl di:*
+SFX s 0 es ch is:mas is:pl di:*
+SFX s √ß ces √ß is:mas is:pl di:*
+SFX s u√®g u√®ges u√®g is:mas is:pl di:*
+SFX s u√≤g u√≤ges u√≤g is:mas is:pl di:*
+SFX s l√≤g l√≤gs l√≤g is:mas is:pl di:*
+SFX s f√≤b f√≤bs f√≤b is:mas is:pl di:*
+SFX s f fes f is:mas is:pl di:*
+SFX s tz ses tz is:mas is:pl di:*
+SFX s nh nhs nh is:mas is:pl di:*
+SFX s √©s eses √©s is:mas is:pl di:*
+SFX s √≠s isses √≠s is:mas is:pl di:*
+SFX s √≠vol ivoles √≠vol is:mas is:pl di:*
+SFX s 0 enses ens is:mas is:pl di:*
+SFX s √†s asses √†s is:mas is:pl di:*
+SFX s 0 ses √®is is:mas is:pl di:*
+SFX s 0 ses [^√≠√∫√≤√≥√†√©]s is:mas is:pl di:*
+SFX s √∫s usses [√∫]s is:mas is:pl di:*
+
+PFX S Y 1
+PFX S 0 s' [ae√©√®iou√†√°√≥√≤√≠√¨√∫√πh] di:*
+
+SFX t Y 43
+SFX t re i re di:*
+SFX t re es re di:*
+SFX t re 0 re di:*
+SFX t dre t [aeiou]dre di:*
+SFX t re √®m re di:*
+SFX t re √®tz re di:*
+SFX t re on re di:*
+SFX t re i√°i re di:*
+SFX t re i√°s re di:*
+SFX t re i√° re di:*
+SFX t re iam re di:*
+SFX t re iatz re di:*
+SFX t re i√°n re di:*
+SFX t re √®ri re di:*
+SFX t re √®res re di:*
+SFX t re √®t re di:*
+SFX t re √®c re di:*
+SFX t re √®rem re di:*
+SFX t re √®retz re di:*
+SFX t re √®ron re di:*
+SFX t e ai re di:*
+SFX t e √†s re di:*
+SFX t e √† re di:*
+SFX t e em re di:*
+SFX t e etz re di:*
+SFX t e √†n re di:*
+SFX t e i√°i re di:*
+SFX t e i√°s re di:*
+SFX t e i√° re di:*
+SFX t e iam re di:*
+SFX t e iatz re di:*
+SFX t e i√°n re di:*
+SFX t re a re di:*
+SFX t re as re di:*
+SFX t re am re di:*
+SFX t re atz re di:*
+SFX t re an re di:*
+SFX t re √®sse re di:*
+SFX t re √®sses re di:*
+SFX t re √®sse re di:*
+SFX t re √®ssem re di:*
+SFX t re √®ssetz re di:*
+SFX t re √®sson re di:*
+
+PFX T Y 1
+PFX T 0 t' [ae√©√®iou√†√°√≥√≤√≠√¨√∫√πh] di:*
 
 SFX u Y 90
-SFX u   i         es           i
-SFX u   gui     c          gui
-SFX u   i          0         [mpnl]i
-SFX u   di       t          [oÚË]di
-SFX u  bi        p          bi
-SFX u   i         0          [r]di
-SFX u   si        i           [^iuos][s]i
-SFX u   i          0          nhi
-SFX u   si        s           osi
-SFX u   si        tz         risi
-SFX u  si         tz         [^aÚ]usi
-SFX u  si         tz         disi
-SFX u  isi        Ìs          [^dr]isi
-SFX u  i          0           [^r]ri
-SFX u  ri         0           rri
-SFX u  i          0           lvi
-SFX u  si         0          issi
-SFX u   si        0          aussi
-SFX u   i        0          Úusi
-SFX u   vi        u          [v]i
-SFX u   zi        s           zi
-SFX u   ci        Á          ci
-SFX u   ci        Áon      ci
-SFX u   i         on         i
-SFX u   i        a            [oË]di
-SFX u   i        as          [oË]di
-SFX u   i        an          [oË]di
-SFX u   ui       a           [^vm]i
-SFX u   ui       as         [^vm]i
-SFX u   ui       an         [^vm]i
-SFX u   i         a           mi
-SFX u   i         as          mi
-SFX u   i         an          mi
-SFX u   si        ga         [^c][^o][s]i
-SFX u   si        gas       [^c][^o][s]i
-SFX u   si        gan       [^c][^o][s]i
-SFX u   vi        ga         [v]i
-SFX u   vi        gas        [v]i
-SFX u   vi        gan        [v]i
-SFX u   ivi      isca         vivi
-SFX u   ivi      iscas       vivi
-SFX u   ivi      iscan       vivi
-SFX u   si       ja            vesi
-SFX u   si       jas           vesi
-SFX u   si       jan          vesi
-SFX u   i         ga          [^r]ni
-SFX u   i         gas         [^r]ni
-SFX u   i         gan         [^r]ni
-SFX u   i         a             ni
-SFX u   i         as            ni
-SFX u   i         an           ni
-SFX u   i         ga            li
-SFX u   i         gas          li
-SFX u   i         gan          li
-SFX u   si       sa            tasi
-SFX u   si       sas          tasi
-SFX u   si       san          tasi
-SFX u   si       sa             cosi
-SFX u   si       sas           cosi
-SFX u   si       san          cosi
-SFX u   issi     sca          issi
-SFX u   issi     scas         issi
-SFX u   issi     scan        issi
-SFX u   hi       ga           nhi
-SFX u   hi       gas          nhi
-SFX u   hi       gan          nhi
-SFX u   i         a             rri
-SFX u   i         as            rri
-SFX u   i         an            rri
-SFX u   i         a             iËri
-SFX u   i         as            iËri
-SFX u   i         an            iËri
-SFX u   i         a              usi
-SFX u   i         as            usi
-SFX u   i         an            usi
-SFX u   i         a              zi
-SFX u   i         as             zi
-SFX u   i         an             zi
-SFX u   i         a               ci
-SFX u   i         as              ci
-SFX u   i         an             ci
-SFX u   ci       Áa             Úrci
-SFX u   ci       Áas           Úrci
-SFX u   ci       Áan          Úrci
-SFX u   i        a               [r]di
-SFX u   i        as             [r]di
-SFX u   i        an             [r]di
-SFX u   di      sca            Údi
-SFX u   di      scas          Údi
-SFX u   di      scan          Údi
+SFX u i es i di:*
+SFX u gui c gui di:*
+SFX u i 0 [mpnl]i di:*
+SFX u di t [o√≤√®]di di:*
+SFX u bi p bi di:*
+SFX u i 0 [r]di di:*
+SFX u si i [^iuos][s]i di:*
+SFX u i 0 nhi di:*
+SFX u si s osi di:*
+SFX u si tz risi di:*
+SFX u si tz [^a√≤]usi di:*
+SFX u si tz disi di:*
+SFX u isi √≠s [^dr]isi di:*
+SFX u i 0 [^r]ri di:*
+SFX u ri 0 rri di:*
+SFX u i 0 lvi di:*
+SFX u si 0 issi di:*
+SFX u si 0 aussi di:*
+SFX u i 0 √≤usi di:*
+SFX u vi u [v]i di:*
+SFX u zi s zi di:*
+SFX u ci √ß ci di:*
+SFX u ci √ßon ci di:*
+SFX u i on i di:*
+SFX u i a [o√®]di di:*
+SFX u i as [o√®]di di:*
+SFX u i an [o√®]di di:*
+SFX u ui a [^vm]i di:*
+SFX u ui as [^vm]i di:*
+SFX u ui an [^vm]i di:*
+SFX u i a mi di:*
+SFX u i as mi di:*
+SFX u i an mi di:*
+SFX u si ga [^c][^o][s]i di:*
+SFX u si gas [^c][^o][s]i di:*
+SFX u si gan [^c][^o][s]i di:*
+SFX u vi ga [v]i di:*
+SFX u vi gas [v]i di:*
+SFX u vi gan [v]i di:*
+SFX u ivi isca vivi di:*
+SFX u ivi iscas vivi di:*
+SFX u ivi iscan vivi di:*
+SFX u si ja vesi di:*
+SFX u si jas vesi di:*
+SFX u si jan vesi di:*
+SFX u i ga [^r]ni di:*
+SFX u i gas [^r]ni di:*
+SFX u i gan [^r]ni di:*
+SFX u i a ni di:*
+SFX u i as ni di:*
+SFX u i an ni di:*
+SFX u i ga li di:*
+SFX u i gas li di:*
+SFX u i gan li di:*
+SFX u si sa tasi di:*
+SFX u si sas tasi di:*
+SFX u si san tasi di:*
+SFX u si sa cosi di:*
+SFX u si sas cosi di:*
+SFX u si san cosi di:*
+SFX u issi sca issi di:*
+SFX u issi scas issi di:*
+SFX u issi scan issi di:*
+SFX u hi ga nhi di:*
+SFX u hi gas nhi di:*
+SFX u hi gan nhi di:*
+SFX u i a rri di:*
+SFX u i as rri di:*
+SFX u i an rri di:*
+SFX u i a i√®ri di:*
+SFX u i as i√®ri di:*
+SFX u i an i√®ri di:*
+SFX u i a usi di:*
+SFX u i as usi di:*
+SFX u i an usi di:*
+SFX u i a zi di:*
+SFX u i as zi di:*
+SFX u i an zi di:*
+SFX u i a ci di:*
+SFX u i as ci di:*
+SFX u i an ci di:*
+SFX u ci √ßa √≤rci di:*
+SFX u ci √ßas √≤rci di:*
+SFX u ci √ßan √≤rci di:*
+SFX u i a [r]di di:*
+SFX u i as [r]di di:*
+SFX u i an [r]di di:*
+SFX u di sca √≤di di:*
+SFX u di scas √≤di di:*
+SFX u di scan √≤di di:*
 
 SFX v Y 49
-SFX v   i         0            i·i
-SFX v   i         s            i·i
-SFX v   i·i       iam        i·i
-SFX v   i·i       iatz        i·i
-SFX v   i          n           i·i
-SFX v   i·i       Ëm         i·i
-SFX v   i·i       Ëtz         i·i
-SFX v   si·i      gam      [s]i·i
-SFX v   si·i      gatz       [s]i·i
-SFX v   vi·i     gam       [v]i·i
-SFX v   vi·i      gatz       [v]i·i
-SFX v   gui·i    gam      gui·i
-SFX v   gui·i    gatz      gui·i
-SFX v   i·i        am         mi·i
-SFX v   i·i        atz         mi·i
-SFX v   vi·i      scam       vivi·i
-SFX v   vi·i      scatz       vivi·i
-SFX v   si·i      jam         vesi·i
-SFX v   si·i      jatz         vesi·i
-SFX v   i·i        gam        [^r]ni·i
-SFX v   i·i         gatz       [^r]ni·i
-SFX v   i·i         am        ni·i
-SFX v   i·i         atz        ni·i
-SFX v   si          sam       tasi
-SFX v   si          satz       tasi
-SFX v   si·i       sam       cosi·i
-SFX v   si·i       satz       cosi·i
-SFX v   issi·i     scam     issi·i
-SFX v   issi·i     scatz     issi·i
-SFX v  hi·i       gam       nhi·i
-SFX v   hi·i       gatz      nhi·i
-SFX v   i·i         gam      li·i
-SFX v   i·i         gatz      li·i
-SFX v   i·i         am        rri·i
-SFX v   i·i         atz        rri·i
-SFX v   i·i         Ëm       ri·i
-SFX v   i·i         Ëtz       ri·i
-SFX v   i·i         am       ri·i
-SFX v   i·i         atz       ri·i
-SFX v   i·i         am       zi·i
-SFX v   i·i         atz       zi·i
-SFX v   i·i         am       ci·i
-SFX v   i·i         atz       ci·i
-SFX v   ci·i       Áam     orci·i
-SFX v   ci·i       Áatz     orci·i
-SFX v   i·i         am       [r]di·i
-SFX v   i·i         atz       [r]di·i
-SFX v   i·i        am        [oe]di·i
-SFX v   i·i        atz        [oe]di·i
+SFX v i 0 i√°i di:*
+SFX v i s i√°i di:*
+SFX v i√°i iam i√°i di:*
+SFX v i√°i iatz i√°i di:*
+SFX v i n i√°i di:*
+SFX v i√°i √®m i√°i di:*
+SFX v i√°i √®tz i√°i di:*
+SFX v si√°i gam [s]i√°i di:*
+SFX v si√°i gatz [s]i√°i di:*
+SFX v vi√°i gam [v]i√°i di:*
+SFX v vi√°i gatz [v]i√°i di:*
+SFX v gui√°i gam gui√°i di:*
+SFX v gui√°i gatz gui√°i di:*
+SFX v i√°i am mi√°i di:*
+SFX v i√°i atz mi√°i di:*
+SFX v vi√°i scam vivi√°i di:*
+SFX v vi√°i scatz vivi√°i di:*
+SFX v si√°i jam vesi√°i di:*
+SFX v si√°i jatz vesi√°i di:*
+SFX v i√°i gam [^r]ni√°i di:*
+SFX v i√°i gatz [^r]ni√°i di:*
+SFX v i√°i am ni√°i di:*
+SFX v i√°i atz ni√°i di:*
+SFX v si sam tasi di:*
+SFX v si satz tasi di:*
+SFX v si√°i sam cosi√°i di:*
+SFX v si√°i satz cosi√°i di:*
+SFX v issi√°i scam issi√°i di:*
+SFX v issi√°i scatz issi√°i di:*
+SFX v hi√°i gam nhi√°i di:*
+SFX v hi√°i gatz nhi√°i di:*
+SFX v i√°i gam li√°i di:*
+SFX v i√°i gatz li√°i di:*
+SFX v i√°i am rri√°i di:*
+SFX v i√°i atz rri√°i di:*
+SFX v i√°i √®m ri√°i di:*
+SFX v i√°i √®tz ri√°i di:*
+SFX v i√°i am ri√°i di:*
+SFX v i√°i atz ri√°i di:*
+SFX v i√°i am zi√°i di:*
+SFX v i√°i atz zi√°i di:*
+SFX v i√°i am ci√°i di:*
+SFX v i√°i atz ci√°i di:*
+SFX v ci√°i √ßam orci√°i di:*
+SFX v ci√°i √ßatz orci√°i di:*
+SFX v i√°i am [r]di√°i di:*
+SFX v i√°i atz [r]di√°i di:*
+SFX v i√°i am [oe]di√°i di:*
+SFX v i√°i atz [oe]di√°i di:*
 
-SFX w Y 10
-SFX w   i      es           Ëri
-SFX w   ri     t             Ëri
-SFX w   i      em          Ëri
-SFX w   i      etz          Ëri
-SFX w   i      on           Ëri
-SFX w   ri     sse          Ëri
-SFX w   ri     sses        Ëri
-SFX w   ri     ssem       Ëri
-SFX w   ri     ssetz       Ëri
-SFX w   ri     sson        Ëri
+SFX w Y 11
+SFX w i es √®ri di:*
+SFX w ri t √®ri di:*
+SFX w ri c √®ri di:*
+SFX w i em √®ri di:*
+SFX w i etz √®ri di:*
+SFX w i on √®ri di:*
+SFX w ri sse √®ri di:*
+SFX w ri sses √®ri di:*
+SFX w ri ssem √®ri di:*
+SFX w ri ssetz √®ri di:*
+SFX w ri sson √®ri di:*
 
 SFX x Y 11
-SFX x   ai      ‡s           ai
-SFX x   ai      ‡            ai
-SFX x   ai      em         ai
-SFX x   ai      etz         ai
-SFX x   ai      ‡n          ai
-SFX x   ai      i·i          ai
-SFX x   ai      i·s         ai
-SFX x   ai      i·          ai
-SFX x   ai      iam        ai
-SFX x   ai      iatz        ai
-SFX x   ai      i·n         ai
+SFX x ai √†s ai di:*
+SFX x ai √† ai di:*
+SFX x ai em ai di:*
+SFX x ai etz ai di:*
+SFX x ai √†n ai di:*
+SFX x ai i√°i ai di:*
+SFX x ai i√°s ai di:*
+SFX x ai i√° ai di:*
+SFX x ai iam ai di:*
+SFX x ai iatz ai di:*
+SFX x ai i√°n ai di:*
 
 SFX y Y 5
-SFX y    0      s            ut
-SFX y    ut     uda        ut
-SFX y    ut     udas       ut
-SFX y    ut     edor       ut
-SFX y    ut     edoira     ut
+SFX y 0 s ut di:*
+SFX y ut uda ut di:*
+SFX y ut udas ut di:*
+SFX y ut edor ut di:*
+SFX y ut edoira ut di:*
 
 SFX z Y 2
-SFX z   ar      i        [iu]ar
-SFX z   ar      Ô        [oe]ar
+SFX z ar i [iu]ar di:*
+SFX z ar √Ø [oe]ar di:*
