@@ -20,18 +20,18 @@
 # GPL license can be found here:
 # http://www.fsf.org/licenses/licenses.html
 
-SET ISO8859-1
+SET UTF-8
 
-TRY eiaërstohukmçpdvgbfycEIAËRSTOHUKMÇPDVGBFYC
+TRY eiaÃ«rstohukmÃ§pdvgbfycEIAÃ‹RSTOHUKMÃ‡PDVGBFYC
 
 SFX T Y 9
-SFX T   0    ve           [aeëiouy]
-SFX T   0    të           [aeëiouy]
-SFX T   0    së           [aeëiouy]
-SFX T   0    sh           [aeëiouy]
-SFX T   0    në           [aeëiouy]
-SFX T   0    je           [aeëouy]
-SFX T   0    ja           [aeëouy]
+SFX T   0    ve           [aeÃ«iouy]
+SFX T   0    tÃ«           [aeÃ«iouy]
+SFX T   0    sÃ«           [aeÃ«iouy]
+SFX T   0    sh           [aeÃ«iouy]
+SFX T   0    nÃ«           [aeÃ«iouy]
+SFX T   0    je           [aeÃ«ouy]
+SFX T   0    ja           [aeÃ«ouy]
 SFX T   0    e            i
 SFX T   0    a            i
 
@@ -47,43 +47,43 @@ SFX S   0    je           [eo]
 SFX S   0    ja           o
 
 SFX R Y 7
-SFX R   ë    e            ë
-SFX R   ë    a            ë
-SFX R   0    ve           ë
-SFX R   0    t            ë
-SFX R   0    sh           ë
-SFX R   0    s            ë
-SFX R   0    n            ë
+SFX R   Ã«    e            Ã«
+SFX R   Ã«    a            Ã«
+SFX R   0    ve           Ã«
+SFX R   0    t            Ã«
+SFX R   0    sh           Ã«
+SFX R   0    s            Ã«
+SFX R   0    n            Ã«
 
 SFX Q Y 28
-SFX Q   ërr  rrës         ërr
-SFX Q   ërr  rrën         ërr
-SFX Q   ërr  rre          ërr
-SFX Q   ërr  rrave        ërr
-SFX Q   ërr  rrat         ërr
-SFX Q   ërr  rrash        ërr
-SFX Q   ërr  rra          ërr
-SFX Q   ër   rës          ër
-SFX Q   ër   rën          ër
-SFX Q   ër   re           ër
-SFX Q   ër   rave         ër
-SFX Q   ër   rat          ër
-SFX Q   ër   rash         ër
-SFX Q   ër   ra           ër
-SFX Q   ël   lës          ël
-SFX Q   ël   lën          ël
-SFX Q   ël   le           ël
-SFX Q   ël   lave         ël
-SFX Q   ël   lat          ël
-SFX Q   ël   lash         ël
-SFX Q   ël   la           ël
-SFX Q   ë    ës           ë
-SFX Q   ë    ën           ë
-SFX Q   ë    e            ë
-SFX Q   ë    ave          ë
-SFX Q   ë    at           ë
-SFX Q   ë    ash          ë
-SFX Q   ë    a            ë
+SFX Q   Ã«rr  rrÃ«s         Ã«rr
+SFX Q   Ã«rr  rrÃ«n         Ã«rr
+SFX Q   Ã«rr  rre          Ã«rr
+SFX Q   Ã«rr  rrave        Ã«rr
+SFX Q   Ã«rr  rrat         Ã«rr
+SFX Q   Ã«rr  rrash        Ã«rr
+SFX Q   Ã«rr  rra          Ã«rr
+SFX Q   Ã«r   rÃ«s          Ã«r
+SFX Q   Ã«r   rÃ«n          Ã«r
+SFX Q   Ã«r   re           Ã«r
+SFX Q   Ã«r   rave         Ã«r
+SFX Q   Ã«r   rat          Ã«r
+SFX Q   Ã«r   rash         Ã«r
+SFX Q   Ã«r   ra           Ã«r
+SFX Q   Ã«l   lÃ«s          Ã«l
+SFX Q   Ã«l   lÃ«n          Ã«l
+SFX Q   Ã«l   le           Ã«l
+SFX Q   Ã«l   lave         Ã«l
+SFX Q   Ã«l   lat          Ã«l
+SFX Q   Ã«l   lash         Ã«l
+SFX Q   Ã«l   la           Ã«l
+SFX Q   Ã«    Ã«s           Ã«
+SFX Q   Ã«    Ã«n           Ã«
+SFX Q   Ã«    e            Ã«
+SFX Q   Ã«    ave          Ã«
+SFX Q   Ã«    at           Ã«
+SFX Q   Ã«    ash          Ã«
+SFX Q   Ã«    a            Ã«
 
 SFX P Y 3
 SFX P   0    ut           .
@@ -91,22 +91,22 @@ SFX P   0    un           .
 SFX P   0    u            .
 
 SFX N Y 4
-SFX N   0    eve          [^aeëiouy]
-SFX N   0    et           [^aeëiouy]
-SFX N   0    esh          [^aeëiouy]
-SFX N   0    e            [^aeëiouy]
+SFX N   0    eve          [^aeÃ«iouy]
+SFX N   0    et           [^aeÃ«iouy]
+SFX N   0    esh          [^aeÃ«iouy]
+SFX N   0    e            [^aeÃ«iouy]
 
 SFX M Y 4
-SFX M   0    ëve          [^aeëiouy]
-SFX M   0    ët           [^aeëiouy]
-SFX M   0    ësh          [^aeëiouy]
-SFX M   0    ë            [^aeëiouy]
+SFX M   0    Ã«ve          [^aeÃ«iouy]
+SFX M   0    Ã«t           [^aeÃ«iouy]
+SFX M   0    Ã«sh          [^aeÃ«iouy]
+SFX M   0    Ã«            [^aeÃ«iouy]
 
 SFX L Y 4
-SFX L   0    ave          [^aeëiouy]
-SFX L   0    at           [^aeëiouy]
-SFX L   0    ash          [^aeëiouy]
-SFX L   0    a            [^aeëiouy]
+SFX L   0    ave          [^aeÃ«iouy]
+SFX L   0    at           [^aeÃ«iouy]
+SFX L   0    ash          [^aeÃ«iouy]
+SFX L   0    a            [^aeÃ«iouy]
 
 SFX K Y 3
 SFX K   0    it           .
@@ -114,55 +114,55 @@ SFX K   0    in           .
 SFX K   0    i            .
 
 SFX H Y 12
-SFX H   0    të           [^aeëiouy]
-SFX H   0    shin         [^aeëiouy]
-SFX H   0    shim         [^aeëiouy]
-SFX H   0    shi          [^aeëiouy]
-SFX H   0    sha          [^aeëiouy]
-SFX H   0    sh           [^aeëiouy]
-SFX H   0    keni         [^aeëiouy]
-SFX H   0    kemi         [^aeëiouy]
-SFX H   0    ke           [^aeëiouy]
-SFX H   0    kan          [^aeëiouy]
-SFX H   0    kam          [^aeëiouy]
-SFX H   0    ka           [^aeëiouy]
+SFX H   0    tÃ«           [^aeÃ«iouy]
+SFX H   0    shin         [^aeÃ«iouy]
+SFX H   0    shim         [^aeÃ«iouy]
+SFX H   0    shi          [^aeÃ«iouy]
+SFX H   0    sha          [^aeÃ«iouy]
+SFX H   0    sh           [^aeÃ«iouy]
+SFX H   0    keni         [^aeÃ«iouy]
+SFX H   0    kemi         [^aeÃ«iouy]
+SFX H   0    ke           [^aeÃ«iouy]
+SFX H   0    kan          [^aeÃ«iouy]
+SFX H   0    kam          [^aeÃ«iouy]
+SFX H   0    ka           [^aeÃ«iouy]
 
 SFX G Y 17
 SFX G   t    ste          t
-SFX G   0    ësh          [^aeëiouy]
-SFX G   0    ë            [^aeëiouy]
-SFX G   0    ur           [^aeëiouy]
+SFX G   0    Ã«sh          [^aeÃ«iouy]
+SFX G   0    Ã«            [^aeÃ«iouy]
+SFX G   0    ur           [^aeÃ«iouy]
 SFX G   0    te           t
-SFX G   0    te           [^aeëiotuy]
-SFX G   0    nit          [^aeëiouy]
-SFX G   0    nin          [^aeëiouy]
-SFX G   0    nim          [^aeëiouy]
-SFX G   0    ni           [^aeëiouy]
-SFX G   0    je           [^aeëiouy]
-SFX G   0    ja           [^aeëiouy]
-SFX G   0    in           [^aeëiouy]
-SFX G   0    im           [^aeëiouy]
-SFX G   0    i            [^aeëiouy]
-SFX G   0    e            [^aeëiouy]
-SFX G   0    a            [^aeëiouy]
+SFX G   0    te           [^aeÃ«iotuy]
+SFX G   0    nit          [^aeÃ«iouy]
+SFX G   0    nin          [^aeÃ«iouy]
+SFX G   0    nim          [^aeÃ«iouy]
+SFX G   0    ni           [^aeÃ«iouy]
+SFX G   0    je           [^aeÃ«iouy]
+SFX G   0    ja           [^aeÃ«iouy]
+SFX G   0    in           [^aeÃ«iouy]
+SFX G   0    im           [^aeÃ«iouy]
+SFX G   0    i            [^aeÃ«iouy]
+SFX G   0    e            [^aeÃ«iouy]
+SFX G   0    a            [^aeÃ«iouy]
 
 SFX F Y 13
-SFX F   j    huni         [aeëiouy]j
-SFX F   j    het          [aeëiouy]j
-SFX F   j    heshit       [aeëiouy]j
-SFX F   j    heshin       [aeëiouy]j
-SFX F   j    heshim       [aeëiouy]j
-SFX F   j    heshe        [aeëiouy]j
-SFX F   j    hesha        [aeëiouy]j
-SFX F   j    hesh         [aeëiouy]j
-SFX F   j    heni         [aeëiouy]j
-SFX F   j    hen          [aeëiouy]j
-SFX F   j    hemi         [aeëiouy]j
-SFX F   j    hem          [aeëiouy]j
-SFX F   j    hej          [aeëiouy]j
+SFX F   j    huni         [aeÃ«iouy]j
+SFX F   j    het          [aeÃ«iouy]j
+SFX F   j    heshit       [aeÃ«iouy]j
+SFX F   j    heshin       [aeÃ«iouy]j
+SFX F   j    heshim       [aeÃ«iouy]j
+SFX F   j    heshe        [aeÃ«iouy]j
+SFX F   j    hesha        [aeÃ«iouy]j
+SFX F   j    hesh         [aeÃ«iouy]j
+SFX F   j    heni         [aeÃ«iouy]j
+SFX F   j    hen          [aeÃ«iouy]j
+SFX F   j    hemi         [aeÃ«iouy]j
+SFX F   j    hem          [aeÃ«iouy]j
+SFX F   j    hej          [aeÃ«iouy]j
 
 SFX D Y 24
-SFX D   uaj  oftë         uaj
+SFX D   uaj  oftÃ«         uaj
 SFX D   uaj  ofshin       uaj
 SFX D   uaj  ofshim       uaj
 SFX D   uaj  ofshi        uaj
@@ -174,18 +174,18 @@ SFX D   oj   uake         oj
 SFX D   oj   uakan        oj
 SFX D   oj   uakam        oj
 SFX D   oj   uaka         oj
-SFX D   j    keni         [aeëiuy]j
-SFX D   j    kemi         [aeëiuy]j
-SFX D   j    ke           [aeëiuy]j
-SFX D   j    kan          [aeëiuy]j
-SFX D   j    kam          [aeëiuy]j
-SFX D   j    ka           [aeëiuy]j
-SFX D   j    ftë          [^u][aeëiouy]j
-SFX D   j    fshin        [^u][aeëiouy]j
-SFX D   j    fshim        [^u][aeëiouy]j
-SFX D   j    fshi         [^u][aeëiouy]j
-SFX D   j    fsha         [^u][aeëiouy]j
-SFX D   j    fsh          [^u][aeëiouy]j
+SFX D   j    keni         [aeÃ«iuy]j
+SFX D   j    kemi         [aeÃ«iuy]j
+SFX D   j    ke           [aeÃ«iuy]j
+SFX D   j    kan          [aeÃ«iuy]j
+SFX D   j    kam          [aeÃ«iuy]j
+SFX D   j    ka           [aeÃ«iuy]j
+SFX D   j    ftÃ«          [^u][aeÃ«iouy]j
+SFX D   j    fshin        [^u][aeÃ«iouy]j
+SFX D   j    fshim        [^u][aeÃ«iouy]j
+SFX D   j    fshi         [^u][aeÃ«iouy]j
+SFX D   j    fsha         [^u][aeÃ«iouy]j
+SFX D   j    fsh          [^u][aeÃ«iouy]j
 
 SFX C Y 28
 SFX C   yej  yet          yej
@@ -206,8 +206,8 @@ SFX C   oj   uat          oj
 SFX C   oj   uar          oj
 SFX C   oj   uan          oj
 SFX C   oj   uam          oj
-SFX C   j    ve           [^iuy][aeëiouy]j
-SFX C   j    va           [^iuy][aeëiouy]j
+SFX C   j    ve           [^iuy][aeÃ«iouy]j
+SFX C   j    va           [^iuy][aeÃ«iouy]j
 SFX C   j    i            oj
 SFX C   iej  jeve         iej
 SFX C   iej  jeva         iej
@@ -218,36 +218,36 @@ SFX C   iej  ien          iej
 SFX C   iej  iem          iej
 
 SFX B Y 12
-SFX B   j    sh           [aeëiouy]j
-SFX B   j    nte          [aeëiouy]j
-SFX B   j    nit          [aeëiouy]j
-SFX B   j    nin          [aeëiouy]j
-SFX B   j    nim          [aeëiouy]j
-SFX B   j    ni           [aeëiouy]j
-SFX B   j    n            [aeëiouy]j
-SFX B   j    jë           [aeëiouy]j
-SFX B   j    jnë          [aeëiouy]j
-SFX B   j    jmë          [aeëiouy]j
-SFX B   j    je           [aeëiouy]j
-SFX B   j    ja           [aeëiouy]j
+SFX B   j    sh           [aeÃ«iouy]j
+SFX B   j    nte          [aeÃ«iouy]j
+SFX B   j    nit          [aeÃ«iouy]j
+SFX B   j    nin          [aeÃ«iouy]j
+SFX B   j    nim          [aeÃ«iouy]j
+SFX B   j    ni           [aeÃ«iouy]j
+SFX B   j    n            [aeÃ«iouy]j
+SFX B   j    jÃ«           [aeÃ«iouy]j
+SFX B   j    jnÃ«          [aeÃ«iouy]j
+SFX B   j    jmÃ«          [aeÃ«iouy]j
+SFX B   j    je           [aeÃ«iouy]j
+SFX B   j    ja           [aeÃ«iouy]j
 
 PFX Z Y 1
-PFX Z   0    ç'           .
+PFX Z   0    Ã§'           .
 
 PFX X Y 1
 PFX X   0    s'           .
 
 PFX E Y 1
-PFX E   0    për          .
+PFX E   0    pÃ«r          .
 
 PFX A Y 1
 PFX A   0    pa           .
 
 REP 52
-REP a ë
-REP ë a
-REP ë e
-REP e ë
+REP a Ã«
+REP Ã« a
+REP Ã« e
+REP e Ã«
 REP u y
 REP y u
 REP i y
@@ -255,10 +255,10 @@ REP y i
 REP u ua
 REP u ue
 REP y ye
-REP c ç
-REP ç c
-REP ç q
-REP q ç
+REP c Ã§
+REP Ã§ c
+REP Ã§ q
+REP q Ã§
 REP i j
 REP j i
 REP i ij
@@ -271,28 +271,28 @@ REP gj xh
 REP xh gj
 REP s z
 REP z s
-REP sh ç
-REP ç sh
+REP sh Ã§
+REP Ã§ sh
 REP z zh
 REP zh z
-REP ç sh
-REP sh ç
-REP ç zh
-REP zh ç
+REP Ã§ sh
+REP sh Ã§
+REP Ã§ zh
+REP zh Ã§
 REP d dt
 REP l ll
 REP ll l
 REP r rr
 REP rr r
-REP eshte është
-REP asht është
-REP kan kanë
-REP jan janë
-REP kete këtë
-REP ket këtë
-REP kte këtë
-REP ktë këtë
-REP kt këtë
-REP keti këtij
-REP kti këtij
-REP kto këto
+REP eshte Ã«shtÃ«
+REP asht Ã«shtÃ«
+REP kan kanÃ«
+REP jan janÃ«
+REP kete kÃ«tÃ«
+REP ket kÃ«tÃ«
+REP kte kÃ«tÃ«
+REP ktÃ« kÃ«tÃ«
+REP kt kÃ«tÃ«
+REP keti kÃ«tij
+REP kti kÃ«tij
+REP kto kÃ«to
