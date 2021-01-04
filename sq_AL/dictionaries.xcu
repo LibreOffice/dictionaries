@@ -13,6 +13,17 @@
                 <value>sq-AL</value>
             </prop>
         </node>
+        <node oor:name="HyphDic_sq_AL" oor:op="fuse">
+            <prop oor:name="Locations" oor:type="oor:string-list">
+                <value>%origin%/hyph_sq_AL.dic</value>
+            </prop>
+            <prop oor:name="Format" oor:type="xs:string">
+                <value>DICT_HYPH</value>
+            </prop>
+            <prop oor:name="Locales" oor:type="oor:string-list">
+                <value>sq-AL</value>
+            </prop>
+        </node>
     </node>
  </node>
 </oor:component-data>

@@ -12,6 +12,8 @@ $(eval $(call gb_Dictionary_Dictionary,dict-sq,dictionaries/sq_AL))
 $(eval $(call gb_Dictionary_add_root_files,dict-sq,\
 	dictionaries/sq_AL/sq_AL.aff \
 	dictionaries/sq_AL/sq_AL.dic \
+	dictionaries/sq_AL/hyph_sq_AL.dic \
+	dictionaries/sq_AL/README_hyph_sq_AL.txt \
 	dictionaries/sq_AL/README.txt \
 ))
 
