@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "63ae591f_3fe1ea85",
+        "filename": "sq_AL/README_hyph_sq_AL.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2021-01-05T07:38:37Z",
+      "side": 1,
+      "message": "Is there a special reason for GPL license? LibreOffice uses Mozilla Public License, v2.0. You also have the option to release your work under multiple licenses, there are numerous examples in the dictionaries module.",
+      "range": {
+        "startLine": 5,
+        "startChar": 33,
+        "endLine": 5,
+        "endChar": 44
+      },
+      "revId": "7d3a0618e52373040c4513cea4f7c6b89345855d",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "770a1980_603e041c",
+        "filename": "sq_AL/hyph_sq_AL.dic",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2021-01-05T07:38:37Z",
+      "side": 1,
+      "message": "consecutive",
+      "range": {
+        "startLine": 17,
+        "startChar": 19,
+        "endLine": 17,
+        "endChar": 29
+      },
+      "revId": "7d3a0618e52373040c4513cea4f7c6b89345855d",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
