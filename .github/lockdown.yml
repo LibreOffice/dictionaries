@@ -1,0 +1,3 @@
+# Configuration for Repo Lockdown - https://github.com/dessant/repo-lockdown-app
+# LibreOffice project uses gerrit as its patch management & review system
+_extends: core
