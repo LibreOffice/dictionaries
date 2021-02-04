@@ -32,6 +32,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_de \
 	Dictionary_el \
 	Dictionary_en \
+	Dictionary_eo \
 	Dictionary_es \
 	Dictionary_et \
 	Dictionary_fr \
