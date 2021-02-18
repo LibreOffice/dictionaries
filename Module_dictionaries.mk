@@ -51,6 +51,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_lo \
 	Dictionary_lt \
 	Dictionary_lv \
+	Dictionary_mn \
 	Dictionary_ne \
 	Dictionary_nl \
 	Dictionary_no \
