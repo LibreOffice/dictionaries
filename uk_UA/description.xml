@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="2011.01.29" />
-    <identifier value="org.openoffice.uk.hunspell.dictionaries" />
+    <version value="5.3.1" />
+    <identifier value="org.openoffice.uk.dictionaries.UA" />
     <display-name>
         <name lang="en-US">Ukrainian spelling dictionary, hyphenation rules, and thesaurus</name>
     </display-name>
