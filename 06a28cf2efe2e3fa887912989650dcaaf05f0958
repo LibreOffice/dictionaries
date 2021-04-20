@@ -69,6 +69,30 @@
       "revId": "06a28cf2efe2e3fa887912989650dcaaf05f0958",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a80506a8_f2ddd6b8",
+        "filename": "uk_UA/th_uk_UA.dat",
+        "patchSetId": 2
+      },
+      "lineNbr": 5181,
+      "author": {
+        "id": 1000994
+      },
+      "writtenOn": "2021-04-20T06:36:02Z",
+      "side": 1,
+      "message": "I now think that this should be\n\n  державнодумаючий|1\n  |державно орієнтований|відданий державі|державницький|здатний державно мислити|з державним мисленням",
+      "parentUuid": "2274ad57_f2bcd933",
+      "range": {
+        "startLine": 5181,
+        "startChar": 0,
+        "endLine": 5181,
+        "endChar": 116
+      },
+      "revId": "06a28cf2efe2e3fa887912989650dcaaf05f0958",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
     }
   ]
 }
