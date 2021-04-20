@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ea1460d_3c5c966e",
+        "filename": "uk_UA/th_uk_UA.dat",
+        "patchSetId": 2
+      },
+      "lineNbr": 5181,
+      "author": {
+        "id": 1000994
+      },
+      "writtenOn": "2021-04-20T06:19:58Z",
+      "side": 1,
+      "message": "The problem is here, it looks like this string should start with | (pipe) or contain a number or follow some other string with a trailing number",
+      "range": {
+        "startLine": 5181,
+        "startChar": 0,
+        "endLine": 5181,
+        "endChar": 116
+      },
+      "revId": "06a28cf2efe2e3fa887912989650dcaaf05f0958",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
