@@ -45,6 +45,30 @@
       "revId": "06a28cf2efe2e3fa887912989650dcaaf05f0958",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2274ad57_f2bcd933",
+        "filename": "uk_UA/th_uk_UA.dat",
+        "patchSetId": 2
+      },
+      "lineNbr": 5181,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2021-04-20T06:32:19Z",
+      "side": 1,
+      "message": "when adding a leading pipe, it instead fails with\n\n\u003e [THI] dictionaries/uk_UA/th_uk_UA\n\u003e Unable to read count from \"державнодумаючий державно орієнтований|відданий державі|державницький|здатний державно мислити|з державним мисленням\" input.\n\u003e make[1]: *** [solenv/gbuild/Dictionary.mk:33: workdir/ThesaurusIndexTarget/dictionaries/uk_UA/th_uk_UA.idx] Error 99",
+      "parentUuid": "1ea1460d_3c5c966e",
+      "range": {
+        "startLine": 5181,
+        "startChar": 0,
+        "endLine": 5181,
+        "endChar": 116
+      },
+      "revId": "06a28cf2efe2e3fa887912989650dcaaf05f0958",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
     }
   ]
 }
