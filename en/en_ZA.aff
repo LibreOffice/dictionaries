@@ -1,4 +1,4 @@
-# Affix file for British English MySpell dictionary
+﻿# Affix file for British English MySpell dictionary
 # Also suitable as basis for Commonwealth and European English.
 # Built from scratch for MySpell. Released under LGPL.
 #
@@ -10,9 +10,12 @@
 #       - suggesting words with typographical apostrophes
 #       - recognizing words with Unicode f ligatures
 #  - add phonetic suggestion (Copyright (C) 2000 Björn Jacke, see the end of the file)
+#
+# 2021-02-15 (Marco A.G.Pinto)
+# Fixed: concious + conciousness
+#
 SET UTF-8
 TRY esiaénrtolcdugmfphbyvkw-'.zqjxSNRTLCGDMFPHBEAUYOIVKWóöâôZQJXÅçèîêàïüäñ
-NOSUGGEST !
 REP 36
 REP f ph
 REP ph f

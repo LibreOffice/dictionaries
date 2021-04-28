@@ -1,3 +1,61 @@
+MAGP 2021-05-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 931 new words(1) (2021-05-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2021-04-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 1560 new words(1) (2021-04-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2021-03-01
+
+Updated the Dictionaries:
+- South African (small fix: https://bugs.documentfoundation.org/show_bug.cgi?id=140102) 
+- British (Marco A.G.Pinto)*
+  * British has 1791 new words(1) (2021-03-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2021-02-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 1568 new words(1) (2021-02-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2021-01-01
+
+Updated the Dictionaries:
+- Australian (Kevin Atkinson)
+- American (Kevin Atkinson)
+- Canadian (Kevin Atkinson)
+- British (Marco A.G.Pinto)*
+  * British has 1 181 new words(1) (2021-01-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2020-12-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 1131 new words(1) (2020-12-01).
+	(1) Added tons of plurals and possessives.
+
+
+
 MAGP 2020-11-01
 
 Updated the Dictionaries:
