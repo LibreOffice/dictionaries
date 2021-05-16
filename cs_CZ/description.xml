@@ -8,7 +8,7 @@
       </simple-license>
     </registration>
 
-    <version value="2.0" />
+    <version value="2021.05" />
 
     <!--A unique identifier for your extension.
         In order to avoid name clashes with other extensions it should probably hold

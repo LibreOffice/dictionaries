@@ -3,10 +3,21 @@ The pack contains Czech dictionares for LibreOffice.
 Spellchecker
 ------------
 
-This dictionary for spell-checking Czech texts is licensed under GPL license.
+This is a Czech spellcheck dictionary in the Hunspell format.
 
-The dictionary is based on Czech ispell dictionary created by Petr Kolar
+An original dictionary was based on Czech ispell dictionary created by Petr Kolář
 and numerous contributors.
+
+Then small modifications needed for OpenOffice.org compatibility have been made.
+
+Details about further changes and their authors are not known.
+
+In 2021, the dictionary has been updated and enhanced significantly, by using
+the version provided with LibreOffice till 2014. The update was made by
+Miroslav Pošta (www.translatoblog.cz).
+
+This dictionary is licensed under the GNU/GPL license.
+
 
 Thesaurus
 ----------
