@@ -3,13 +3,20 @@ Toto rozšíření obsahuje české slovníky pro LibreOffice.
 Kontrola pravopisu
 ------------------
 
-Toto je cesky slovnik pro kontrolu pravopisu zalozeny na ceskem slovniku
-pro ispell, verze z 29. 10. 2006, ktery vytvoril Petr Kolar spolu s desitkami
-dalsich prispevatelu.
+Toto je český slovník pro kontrolu spisovného pravopisu ve formátu pro Hunspell.
 
-Jsou v nem provedeny drobne zmeny nutne pro kompatibilitu s OpenOffice.org.
+Původní slovník byl založen na českém slovníku pro ispell, verze z 29. 10. 2006,
+který vytvořil Petr Kolář spolu s desítkami dalších přispěvatelů.
 
-Slovník je licencován pod GNU/GPL licencí, která je k dispozici v Příloze A.
+V něm byly provedeny drobné změny nutné pro kompatibilitu s OpenOffice.org.
+
+Informace o tom, kdo dále slovník doplňoval a upravoval, bohužel chybí.
+
+Roku 2021 byl slovník výrazně aktualizován a doplněn, využita pro to byla verze,
+kterou LibreOffice obsahoval do roku 2014. Autorem této nejnovější úpravy
+je Miroslav Pošta (www.translatoblog.cz). Podrobnosti jsou uvedeny v Příloze C.
+
+Slovník je licencován pod licencí GNU/GPL licencí, která je k dispozici v Příloze B.
 
 
 Slovník synonym
@@ -561,3 +568,208 @@ Příloha B
 #                     for usefulness of this package, and the authors accepts no
 #                     responsibility for any damage which may result from the
 #                     use or mis-use of this package.
+
+===============
+Příloha C
+===============
+POPIS AKTUALIZACE SOUBORŮ PRO KONTROLU PRAVOPISU (.DIC A .AFF)
+
+Stručně
+
+Byl upraven slovník i soustava afixů tak, aby lépe odpovídaly dnešní kodifikaci a úzu. Základ vytvořený původními autory pro Ispell byl zachován v maximální možné míře.
+
+Ze slovníku byla odstraněna řada chybných, problematických a zastaralých slov a tvarů a byla do něj přidána některá chybějící slova (více než 6000 položek ve slovníku). Provést dokonalou opravu a aktualizaci však není v silách jednotlivce, proto je jisté, že ve slovníku nadále určitá slova přebývají a mnoho slov, především méně frekventovaných, chybí.
+
+Slova byla přidávána především na základě seznamů slov vygenerovaných z jazykových korpusů, překladových pamětí, terminologických databází a rejstříků zoologických publikací. (Přidána však nebyla některá řídká slova, která by mohla zvýšit pravděpodobnost přehlédnutí překlepů. Pokud takové slovo přece jen předáno bylo, může být vhodné jej v budoucnu vyřadit.) Na základě gramatických příruček byly cíleně přidány i některé dublety (např. středisk, louk), predikativa (na růžovo, po italsku), některá adjektiva odvozená od pomístních jmen (utažský), chybějící imperativy typu "brzdi", některá křestní jména, hlavně cizí, často používané názvy firem a produktů a časté zkratky.
+
+Chybná či problematická slova a tvary k odebrání byly vyhledávány především pomocí kontroly pravopisu Windows v seznamech slov (words, tzn. slovních tvarů) vygenerovaných z žákovských a internetových korpusů. Díky tomu bylo např. zjištěno, že původní pravidla povolují určité typy častých překlepů (zejména u nerodilých uživatelů češtiny). Dále byly cíleně odebírány některé zastaralé varianty, které jsou sice přípustné, ale Dodatek MŠMT je nepovažuje za základní (slova z prvního výčtu, např. analysa, fantasie, explose, slova zakončená na -isace, -isovat, -isování, -isovaný, -isační). Je možné, že by je využili chemici a snad i jiné profese, v kontrole pravopisu určené pro současný jazyk pro ně ale místo není. (Je pravděpodobné, že slovník nadále některá taková slova obsahuje.)
+
+Soubor s afixy byl upraven především takto: byl přehodnocen přístup k přechodníkům, byla přidána pravidla pro tvorbu přivlastňovacích přídavných jmen od maskulin životných ("otcův"), byla přidána pravidla pro stupňování adjektiv koncovkou -ejší/ější, byla přidána pravidla pro tvar 1. osoby sg. sloves na -u (vedle -i, např. "děkuju"), byla přidána pravidla pro vytváření přídavných jmen od jmen pomístních prostým přidáním koncovky -ský (a změnou velkého písmena na písmeno malé), byl opraven 6. p. mn. č. maskulin na -ga/ha/cha/ka (např. kolezích), byly provedeny další drobnější úpravy.
+
+
+Podrobněji
+
+Slova byla doplňována především z korpusů, a to zejména z korpusu Syn 2015 (lemmata s výskytem 100 a víc). Dále bylo cíleně doplněno mnoho názvů živočichů, a to především těch, která se v korpusech vyskytují nejčastěji.
+
+Přístup k cizím slovům: systém kontroly pravopisu byl upravován především pro potřebu překladatelů. Proto často úmyslně nejsou zahrnuta anglická a jiná cizí slova (např. cool, green). Překladatel by jinak snadno mohl přehlédnout zapomenutá nepřeložená slova. Většinou nebyly přidávány ani latinské názvy organismů (Escherichia coli).
+
+Přístup k přechodníkům: Soubor s afixy původně obsahoval pravidla pro tvorbu přítomných přechodníků ode všech sloves, tedy i od dokonavých, čímž vznikaly dávno nepoužívané přechodníky budoucí. Mnohdy také vznikala slova, která se nebezpečně podobala jiným korektním slovům, a proto vznikalo nebezpečí vzniku překlepů, např. napoje, nastroje, obhodě, oblíbě, ohromě, pohledě, rozumě, slepíce, vychodě, vyletě, vystavě, vyzdobě, zabavě, zahraníce, zavodně, navýše, přihodě, udaje, vyleže, odpovědě, odpustě, ohromě, otoče, poklada, poručíce, udaje, unavě, upravě, uspoře, učině, vychodě, vydaje, vydrže, vyměně, vyrobě, vyzbroje, vyznače, zkaze, zraně, způsobě. To je problém především u uživatelů, kteří na rozdíl od rodilých či plně kompetentních mluvčích necítí kvantitu některých vokálů a případně i konsonantů. Problematické tvary vznikaly i v případě přechodníků přítomných (např. časté překlepy brně, budě, větvě) a navíc vznikalo množství prakticky nepoužívaných tvarů (veda, spě, zva, pasa, udě; vzav, vstav, odjev, objav). Nabízela se dvě řešení: 1) přechodníky systémově v AFF zrušit a ty nejčastější přidat do DIC, 2) u sloves rozlišit vid přidáním příslušných příznaků a vytvořit pravidla pro tvorbu přítomných a minulých přechodníků. Druhým přístupem by se však neřešil jeden z problémů. Proto bylo zvoleno toto řešení: ze souboru AFF byla odstraněna pravidla pro přechodníky a do slovníku byly s příznakem X přidány nejčastější přechodníky (přítomné i minulé, ve tvaru maskulina). Tímto způsobem mohou být doplněny další přechodníky.
+
+S přechodníky souvisí adjektiva od nich odvozená (např. "zpívající"). Pod příznakem X byla přidána pravidla pro tvorbu těchto adjektiv od přechodníků uvedených ve slovníku. Další mohou být přidána buď takto spolu s přechodníkem, nebo prostým přidáním adjektiva (na -cí nebo -vší) s příznakem Y.
+
+Podrobněji k odvozování adjektiv od pomístních jmen: Jistě by se dala sestavit pravidla na paradigmatickou (pravidelnou) tvorbu adjektiv od různě zakončených slov, čímž by se slovník mohl výrazně zmenšit, ale při vkládání značek by se pak muselo nahlížet do tabulky s legendou, aby se nevytvořily nekorektní tvary. Proto jsem vytvořil jen komplex pravidel pro prosté přidání koncovky -ský (ve všech pádech sg. i pl.) a změny iniciálního velkého písmene na písmeno malé. (Jedná se o příznak ý automaticky kombinovaný s příznakem Ú a Ů.) Zdá se totiž, že prosté přidání -ský představuje cca 75 % případů. Je to opět volitelná možnost: lze buď postaru vložit do slovníku i přídavné jméno, nebo prostě přidat k pomístnímu jménu příznak "ý". (Starou metodu jsem na novou nezměnil. Je však možné udělat to dodatečně a zmenšit tak počet položek ve slovníku o několik stovek nebo tisíců.) Technická poznámka: řešení je realizováno příkazem CIRCUMFIX, který je v jazykových souborech pro různé jazyky poměrně vzácný.
+
+Ke stupňování adjektiv: Byla vytvořena pravidla pro stupňování adjektiv koncovkou -ejší/ější. Jedná se o příznak y. (Jen několik desítek adjektiv se stupňuje pomocí koncovky -ší/čí.) Nově je tedy možné u takového adjektiva jen uvést příznak y. Jím se vytvoří všechny tvary komparativu a superlativu a dále stupňované příslovce. Starý systém byl na nový převeden jen u slov, která byla v původním slovníku jen v komparativu (a superlativu), nikoliv tedy v pozitivu. Tuto úpravu by bylo možné provést i v ostatních případech, čímž by se ušetřilo několik tisíc řádků. (Pokud jde o předponu "nejne", bylo by možné na ni rezignovat a tyto nečetné případy vyřešit jinak. Naopak příznak N by bylo třeba zachovat.) Je třeba otestovat, zda je vhodné, aby se od stupňovaného adjektiva automaticky tvořilo i stupňované příslovce - je třeba přiznat, že toto je poněkud nesystémové.
+
+Zakázány byly tvary dokáži/dokáží a další podobné. V současné češtině se považují za zastarávající nebo knižní, respektive hyperkorektní, a proto je v přehledu tvarů neuvádí ani Internetová jazyková příručka Ústavu pro jazyk český. V některých typech textů se vyskytují se zvýšenou frekvencí možná právě proto, že je dosavadní kontroly pravopisu povolují.
+
+Byly povoleny hovorové tvary příčestí s -s (dělals, dělalas, dělalos). Podle gramatik (GREPL a kol., ŠTÍCHA a kol. 2013) se jedná o hovorové, tedy spisovné prostředky. Zvláště užitečné jsou při stylizaci mluveného jazyka v audiovizuálních textech. Pravidla byla přidána vždy na konec za pravidla pod příznakem J, A, B a O, v případě potřeby se tedy snadno odstraní (v záhlaví je pak vždy třeba upravit počet pravidel/řádků, protože jinak by systém přestal fungovat). (Vadit může i to, že od reflexiv by se vlastně nemělo tvořit "doslechls", ale jen "doslechl ses".)
+
+Původní verze považovala za chybné slovesné tvary jako nenuť, nenuťte, znechuť, balamuť, znechuťte, balamuťte. Bylo opraveno přidáním tří pravidel v souboru AFF.
+
+Do slovníku byly doplněny nejčastější imperativy typu "brzdi", které byly v původní verzi považovány za chybné. Tento problém se pravděpodobně nedá řešit systémově. Jedinou možností by bylo vytvoření nového příznaku s pravidly pro tři tvary imperativu (plus prefix ne-).
+
+Maskulina zakončená na -u měla nesprávný tvar 6. pádu množného čísla -ích (marabuích). To bylo opraveno a do slovníku bylo přidáno několik slov tohoto typu.
+
+Pro maskulina zakončená na -ka/ga/ha/cha byla vytvořena pravidla pro tvorbu 6. pádu množného čísla (původně se tvořil nesprávný tvar typu "kolegech").
+
+Bylo upraveno skloňování substantiv mužského rodu životného zakončených na [ščžciďťň]a v 6. pádě množného čísla (bačích, founích, paňácích, rikších atd. místo původního bačech, founěch, paňácech, rikšech). U slov zakončených na -ia (pária) jsou povoleny dublety -ech/ích.
+
+Byla přidána varianta "jedena-" pro tvorbu číslovek (vedle "jedna-" - např. jedenadvacet/jednadvacet).
+
+Byly povoleny chybějící tvary minulého času pro femininum, neutrum a tvary plurálu, např. umlknula, umlknulo, umlknuli, umlknuly - týká se 17 sloves.
+
+Přivlastňovací přídavná jména na -ův byla původně uvedena ve slovníku (netvořila se tedy prostřednictvím pravidel v seznamu afixů). To bylo neefektivní: takových položek bylo ve slovníku 48220. Nově se všechny tvary přivlastňovacího přídavného jména v mužském rodu tvoří příznakem u mužských životných vzorů. (Všechny položky, které se vytvoří novými pravidly, byla ze slovníku odstraněna, čímž ubylo 46326 řádků.) Pokryta nejsou jen slova zakončená na -e, -c (Šebrle, Goethe; Balzac), protože v prvním případě se někdy uplatňuje spíše koncovka -ho a v druhém případě se c často - ne však vždy - mění na k.
+Pravidla pro tvorbu přivlastňovacích adjektiv od substantiv rodu ženského přidána nebyla, protože se tvoří výrazně méně často. Naopak byla ze slovníku odstraněna většina tvarů vytvořených od substantiv typu -ice/ině/yně, která se tvoří jen výjimečně (např. tchynin).
+
+Byla vytvořena pravidla pro skloňování několika typů cizích jmen (Victoria, Balzac, Jake, Kennedy, Luigi, Mallarmé) - příznak í. U jmen zakončených na -e nebylo možné vytvořit pravidlo pro vokativ, protože není jednotný (Lukeu/Jakeu/Mikeu/Drakeu, Pete/Gable/White/Byrne; mimochodem Bryce je vzor "muž"). Ten je případně třeba přidat do slovníku zvlášť.
+
+Byla vytvořena pravidla pro skloňování (původem) slovanských jmen s adjektivním skloňováním (Vranitzky, Brzezinski) - příznak é.(Příznak Y se použít nedal: funguje u slov jako "grizzly", "okapi", ale ne u vlastních jmen.)
+
+Byly doplněny chybějící tvary zbyde, zbydeme, zbydete, zbydeš, zbydou a dále obdobné tvary sloves dobýt, nabýt, odbýt, pobýt, pozbýt, přibýt, ubýt, vybýt a vydobýt.
+
+U některých slov byly povoleny některé dříve chybějící tvary: Opavané, Ústečané, homeopaté, horalé, kosmonauté, sparťané aj. (příznak D); vápně, předkole aj. (příznak R), prašno, syrovo aj. (příznak O).
+
+Ve slovníku byla opravena některá chybná velká písmena: kurd, jihomoravan, středočech, středomoří, berounsko aj.
+
+Byly opraveny různé chybné tvary: dipozici, banek, mozaiek, klaceku/večerníčeku, hardwareu/middlewareu, tůra, achillovka, albumy/albumu aj.
+
+Filtrováním s využitím slovenské kontroly pravopisu byly cíleně odstraněny některé slovakismy, např. výnimka, ukážka, ponuka. (Pravděpodobně však zbývají některá slova s dlouhým ó nebo slova typu "vymyslený".) Je možné, že v některých případech šlo o moravské regionalismy, ale jejich přítomnost byla nebezpečná právě pro případ, že kontrolu bude chtít využívat rodilý mluvčí slovenštiny.
+
+Do slovníku byly doplněny chybějící korektní tvary jmen "Korea", "Guinea" a "Nikaragua".
+
+Ač je to sporné, ze slovníku byla vyřazena některá slova, která často vedla ke vzniku překlepů, např. chornický, rymický (obyvatelům Chornic, Rymic a několika dalších obcí se za to omlouvám, nicméně dají se snadno přidat - v případě přídavných jmen s příznakem Y, tedy např. chornický/Y). Ze stejného důvodu byly odstraněny i některé nářeční a řídké tvary, např. zdrželivý, vyběravý, lužka, mocha (> moch), zasnout (kvůli zhasnout), ozev (kvůli ozvů), Cetl (kvůli Četl), jak/PVI (kvůli "jaky" místo "jaký") lidický/R (tzn. příslovce, kvůli častému "lidicky" místo "lidičky").
+
+Ve slovníku byla za zkratky, po nichž se píše tečka (např. "např.", "mjr."), přidána tečka. Nově je tak samostatně stojící "např" bez tečky považováno za chybu. Tím je vyřešen problém, na který upozorňují již autoři původního systému pro Ispell.
+
+U několika sloves (-krájet, -poroučet, -želet) byla ve 3. os. pl. povolena dubleta na -ejí.
+
+Bylo upraveno časování sloves "sejmout", "najmout", "obejmout", "pronajmou", aby byly povoleny tvary "sejmout", "najmul", "obejmul", "pronajmul" (mimochodem kodifikace sloves se základem "jmout" je nejednotná: zatímco např. "zaujmul" je považováno za nespisovné, "pronajmul" se považuje za spisovné).
+
+Byly opraveny tvary některých slov kolísajících mezi dvěma vzory/rody: doplněno bylo např. ctem, obratlech, výpustě, odebrány byly např. tvary závistích a závistím.
+
+Byla přidána nejčastější slova vybraných slovotvorných typů: dvoj/troj-, půl-, -elný, bez-, roz-, do-, nitro-, -ský, -ovský, -ání/aní/ení/ění, -ictví, -krát, -aní/ání/ení/ění aj.
+
+U cca 160 slov byl přidán příznak R pro tvorbu adverbií od adjektiv.
+
+
+Technické poznámky
+
+Soubory byly převedeny do UTF-8.
+
+Byl pozměněn přehled grafémů tak, aby byla zohledněna blízkost kláves a možnost jejich záměny.
+
+Bylo vytvořeno mapování souvisejících (a tím pádem snáze zaměnitelných) grafémů, např. eéě.
+
+Byly vytvořeny návrhy několika vysoce pravděpodobných náhrad, které poslouží např. při opravě výstupu z OCR. Např. pro d' (d s apostrofem) se navrhuje ď. Je třeba dále doplňovat.
+
+Byl zaveden příznak w pro slova, která jsou sice korektní, ale nemají být nabízena jako možná oprava - vhodné pro slova vulgární, pejorativní apod.
+
+Byl zaveden příznak q pro slova zakázaná. Mohou se jím označit tvary, které se pravidelně vytvoří podle tabulky afixů, ale jsou z nějakého důvodu nepřijatelné.
+
+OTEVŘENÉ PROBLÉMY A MOŽNOSTI DO BUDOUCNA
+
+Některým nově přidaným slovům, především názvům živočichů a vlastním jménům, nebyl pro jejich vysoký počet a problematické nebo nejasné skloňování přiřazen žádný příznak. Pokud se dá předpokládat, že se takové slovo skloňuje, byl přidán příznak "?", aby se v budoucnu snadno dohledala slova, která je třeba dořešit. Pro některé typy cizích vlastních jmen se možná najde skloňovací paradigma, které se může v souboru AFF přidat pod příznak "í", "é" nebo jiný.
+
+U krátkých (substantivních) tvarů adjektiv někdy vznikají obskurní tvary typu "nemrzutu".
+
+Příznak R by občas bylo vhodné zrušit, protože tvoří jen těžko představitelná příslovce, např. "vozívaně" nebo "voženě". Zvlášť patrné to je s předponou ne-, např. nemale.
+
+Bylo by vhodné odstranit ze slovníku deverbativa odvozená od iterativních sloves, např. "besedovávání" a "bečívání". Jak uvádí literatura (DANEŠ ed. 1967, ŠTÍCHA 2018) a jak potvrzují korpusy, tato slova se netvoří. Ve slovníku je jich pravděpodobně více než 1000 (možná až 2500).
+
+Bylo by možné vytvořit pravidla pro paradigmatické tvoření deverbativních substantiv typu "zkypřování", "šplouchnutí" (celkem 33 pravidel), ale příznak nelze přidat u všech sloves (pod kódem C a T), protože u některých by vznikaly chybné tvary (např. žrání - viz ŠTÍCHA str. 144, možná jich bude jen cca 40). Jak je uvedeno v předchozím bodě, netvoří se ani od iterativních sloves. Možné řešení: pravidla nepřidat pod C a T, ale vytvořit nové kategorie, např. c a t, a tyto příznaky přidat jen tam, kde je to vhodné; takto odvozená substantiva ze slovníku odebrat (zřejmě by se ušetřilo více než 14600 řádků a vygenerovalo by se nejméně 2060 substantiv navíc plus jejich tvary). Návrh pravidel:
+
+SFX c Y 14
+SFX c   ci          žení/S        oci
+SFX c   tit         cení/S        [^s]tit
+SFX c   dit         zení/S        [^zž]dit
+SFX c   sit         šení/S        sit
+SFX c   zit         žení/S        zit
+SFX c   slit        šlení/S       slit
+SFX c   stit        štění/S       stit
+SFX c   zdit        ždění/S       zdit
+SFX c   áhnout      ažení/S       áhnout
+SFX c   chnout      šení/S        chnout
+SFX c   hnout       žení/S        [^ác]hnout
+SFX c   éknout      ečení/S       éknout
+SFX c   sknout      štění/S       sknout
+SFX c   knout       čení/S        [^és]knout
+
+SFX t Y 19
+SFX t   t           ní/S          [^aiouyíýcsz]t
+SFX t   éct         ečení/S       éc[it]
+SFX t   ouct        učení/S       ouc[it]
+SFX t   ást         adení/S       ást
+SFX t   ést         etení/S       [^n]ést
+SFX t   ést         esení/S       nést
+SFX t   íst         tení/S        číst
+SFX t   íst         ědení/S       [dtn]íst
+SFX t   íst         edení/S       [^čdtn]íst
+SFX t   ézt         ezení/S       ézt
+SFX t   it          ení/S         [^dnt]it
+SFX t   it          ění/S         [dnt]it
+SFX t   at          ání/S         at
+SFX t   ít          ění/S         [dfmnptvw]ít
+SFX t   ít          ení/S         [^dfmnptvwčšž]ít
+SFX t   ít          ití/S         [šž]ít
+SFX t   ít          atí/S         čít
+SFX t   out         utí/S         out
+SFX t   ýt          ytí/S         ýt
+
+Je otázka, jak nejlépe řešit složená slova typu společensko-hospodářský a uměleckohistorický. Je možné řešit je skládáním jednotlivých slov, pak by ale skládání muselo být povoleno jen u některých slov, a zřejmě by se nedalo zabránit nesmyslům jako společenskočervený, respektive by se zvlášť musely řešit určité sémantické kategorie a ani to by nebylo dostačující. Jinou možností je přidávat nejčastější složeniny do slovníku.
+
+Je otázka, do jaké míry do slovníku přidávat slangová, vulgární a jinak příznaková slova. Např. pro překlad filmů by tato slovní zásoba byla užitečná. Nabízí se proto možnost vytvořit samostatnou verzi, která bude obsahovat tuto slovní zásobu. V takové verzi by zcela jistě měly být povoleny tvary minulého času zakončené na -ls, -las, -los a mohly by být povoleny i tvary "sednul" apod., které jsou podle ŠTÍCHY a kol. mírně substandardní a "v mluvené češtině na území Čech […] patrně nejsou pociťovány jako nespisovné". Jistě by se našly i další hovorové a mírně substandardní prostředky.
+
+Zdá se, že problematické jsou příznaky u mnoha vlastních jmen.
+
+K dalšímu doplňování slovníku by se dal využít morfologický slovník MorfFlex (HAJIČ a kol.). Je však velmi rozsáhlý (125 348 899 kombinací lemma - tag - slovní tvar, celkem 1 055 757 lemmat) a obsahuje mnoho slov, která jsou spíše jen "potenciální", např. odvazovávanost nebo odvazovávání (viz výše poznámku k deverbativum odvozených od iterativních sloves).
+
+
+POUŽITÁ LITERATURA A ZDROJE
+
+1) Tištěné publikace
+- ANDĚRA, Miloš. České názvy živočichů. II., Savci (Mammalia). Praha: Národní muzeum, 1999. 147 s. ISBN 80-7036-098-4.
+- BEDŘICHOVÁ, Zuzana. Jazyk jako stigma?: analýza chybovosti textů romských žáků 9. ročníku základních škol praktických. Vyd. 1. Praha: Filozofická fakulta Univerzity Karlovy, 2013. 146 s. Varia; sv. 18. ISBN 978-80-7308-486-8.
+- BURNIE, David, ed. Zvíře. Překlad Jiří Šmaha. 1. vyd. V Praze: Knižní klub, 2002. 624 s. ISBN 80-242-0862-8.
+- CVRČEK, Václav a kol. Mluvnice současné češtiny. 1, Jak se píše a jak se mluví. Vyd. 1. V Praze: Karolinum, 2010. 353 s. ISBN 978-80-246-1743-5.
+- ČERMÁK, František. Syntagmatika a paradigmatika českého slova. II., Morfologie a tvoření slov. 1. vyd. Praha: Univerzita Karlova ve spolupráci s čs. redakcí VN MON, 1990. 257 s. ISBN 80-7066-235-2.
+- DANEŠ, František, HLAVSA, Zdeněk a GREPL, Miroslav. Mluvnice češtiny: vysokoškolská učebnice pro studenty filozofických a pedagogických fakult. [Díl 3], Skladba. 1. vyd. Praha: Academia, 1987. 746 s.
+- DANEŠ, František, ed. a kol. Tvoření slov v češtině. 2, Odvozování podstatných jmen. 1. vyd. Praha: Academia, 1967. 779 s., [3] slož. l. příl.
+- DODATEK K PRAVIDLŮM ČESKÉHO PRAVOPISU - ŠKOLNÍ VYDÁNÍ. https://cs.wikisource.org/wiki/Pilip%C5%AFv_dodatek
+- DOKULIL, Miloš et al. Mluvnice češtiny: vysokoškolská učebnice pro studenty filozofických a pedagogických fakult aprobace český jazyk. [Díl] 1, Fonetika, Fonologie, Morfonologie a morfemika, Tvoření slov. 1. vyd. Praha: Academia, 1986. 566 s., [4] s. obr. příl.
+- GOSLER, Andrew, ed. Atlas ptáků světa. České vyd. 1. Bratislava: Príroda, ©1994. 389 s. ISBN 80-07-00669-9.
+- GREPL, Miroslav et al. Příruční mluvnice češtiny. Vyd. 1. Praha: NLN, Nakladatelství Lidové noviny, 1995. 800 s. ISBN 80-7106-134-4.
+- HANEL, Lubomír, PLÍŠTIL, Jiří & NOVÁK, Jindřich. CHECKLIST OF THE FISHES AND FISH-LIKE VERTEBRATES ON THE EUROPEAN CONTINENT AND ADJACENT SEAS. Seznam ryb a rybovitých obratlovců Evropy a okolních moří. BULLETIN LAMPETRA VI: 108 – 180. ZO ČSOP VLAŠIM, 2009
+- KLÉGR, Aleš. Tezaurus jazyka českého: slovník českých slov a frází souznačných, blízkých a příbuzných. Vyd. 1. Praha: NLN, Nakladatelství Lidové noviny, 2007. 1189 s. ISBN 978-80-7106-920-1.
+- KNAPPOVÁ, Miloslava. Jak se bude vaše dítě jmenovat?: původ, význam, pravopis, výskyt a obliba, kalendář: informace o jménech afrických a asijských. 6., aktualizované a podstatně rozšířené vydání. Praha: Academia, 2017. 917 stran. ISBN 978-80-200-2656-9.
+- OSOLSOBĚ, Klára. Algoritmický popis české formální morfologie a strojový slovník češtiny [rukopis]. 1996. 161 s., [46] s. příloh.
+- PRAVDOVÁ, Markéta, ed. a SVOBODOVÁ, Ivana, ed. Akademická příručka českého jazyka. 2., rozšířené vydání. Praha: Academia, 2019. 600 stran. ISBN 978-80-200-2947-8.
+- ŠMILAUER, Vladimír. Nauka o českém jazyku: pomocná kniha pro vyučování na školách 2. cyklu. 1. vyd. Praha: SPN, 1972. 333, [2] s. Pomocné knihy pro žáky.
+- ŠMILAUER, Vladimír. Novočeské tvoření slov. Vyd. 1. V Praze: Státní pedagogické nakladatelství, 1971. 217 s. Učebnice pro vysoké školy.
+- ŠTÍCHA, František a kol. Akademická gramatika spisovné češtiny. Vyd. 1. Praha: Academia, 2013. 974 s. ISBN 978-80-200-2205-9.
+- ŠTÍCHA, František a kol. Velká akademická gramatika spisovné češtiny. Vydání první. Praha: Academia, 2018- . svazky. ISBN 978-80-200-2719-1.
+- ÚSTAV PRO JAZYK ČESKÝ. Slovník spisovného jazyka českého. https://ssjc.ujc.cas.cz/
+
+2) Databáze a elektronické publikace
+- EVROPSKÁ UNIE. DGT-Translation Memory. https://ec.europa.eu/jrc/en/language-technologies/dgt-translation-memory
+- EVROPSKÁ UNIE. Pravidla pro jednotnou úpravu dokumentů. Seznam jednotlivých zemí, území a měn. https://publications.europa.eu/code/cs/cs-5000500.htm
+- HAJIČ, Jan, Jaroslava Hlaváčová, Marie Mikulová, Milan Straka, Barbora Štěpánková: MorfFlex CZ 2.0. Data/software, LINDAT-CLARIAH, URL: http://hdl.handle.net/11234/1-3186, 2020.
+- IATE (Interactive Terminology for Europe). https://iate.europa.eu/home
+- JEDNOTA TLUMOČNÍKŮ A PŘEKLADATELŮ. Překladatelské a tlumočnické glosáře. Neveřejné dokumenty určené pro členy Jednoty tlumočníků a překladatelů.
+- MICROSOFT. Microsoft Terminology Collection. https://www.microsoft.com/en-us/language/Terminology?rtc=1
+- ÚSTAV PRO JAZYK ČESKÝ. Internetová jazyková příručka. https://prirucka.ujc.cas.cz/
+- WIKIPEDIA. http://wikipedia.org/
+
+3) Jazykové korpusy
+- Křen, M. – Cvrček, V. – Čapka, T. – Čermáková, A. – Hnátková, M. – Chlumská, L. – Jelínek, T. – Kováříková, D. – Petkevič, V. – Procházka, P. – Skoumalová, H. – Škrabal, M. – Truneček, P. – Vondřička, P. – Zasina, A.: SYN2015: reprezentativní korpus psané češtiny. Ústav Českého národního korpusu FF UK, Praha 2015. Dostupný z WWW: http://www.korpus.cz
+- Křen, M. – Cvrček, V. – Henyš, J. – Hnátková, M. – Jelínek, T. – Kocek, J. – Kováříková, D. – Křivan, J. – Milička, J. – Petkevič, V. – Procházka, P. – Skoumalová, H. – Šindlerová, J. – Škrabal, M.: SYN2020: reprezentativní korpus psané češtiny. Ústav Českého národního korpusu FF UK, Praha 2020. Dostupný z WWW: http://www.korpus.cz
+- Křen, M. – Cvrček, V. – Čapka, T. – Čermáková, A. – Hnátková, M. – Chlumská, L. – Jelínek, T. – Kováříková, D. – Petkevič, V. – Procházka, P. – Skoumalová, H. – Škrabal, M. – Truneček, P. – Vondřička, P. – Zasina, A.: Korpus SYN, verze 8 z 12. 12. 2019. Ústav Českého národního korpusu FF UK, Praha 2019. Dostupný z WWW: http://www.korpus.cz.
+- Cvrček, V. – Procházka, P.: ONLINE_NOW: monitorovací korpus internetové češtiny. Ústav Českého národního korpusu FF UK, Praha 2020 [cit. RRRR-MM-DD1)]. Dostupný z WWW: http://www.korpus.cz
+- Benko, Vladimír: Aranea: Yet Another Family of (Comparable) Web Corpora. In Petr Sojka, Aleš Horák, Ivan Kopeček and Karel Pala (Eds.): Text, Speech and Dialogue. 17th International Conference, TSD 2014, Brno, Czech Republic, September 8-12, 2014. Proceedings. LNCS 8655. Springer International Publishing Switzerland, 2014. pp. 257-264. ISBN: 978-3-319-10815-5 (Print), 978-3-319-10816-2 (Online). Korpus Araneum Bohemicum IV Maximum (Czech, 20.03).
+- Šebesta, K. – Bedřichová, Z. – Hana, J. – Hlaváčková, E. – Hnátková, M. – Hrdlička, M. – Janeš, P. – Jelínek, T. – Křen, M. – Lábus, V. – Lundáková, K. – Petkevič, V. – Pierscieniak, P. – Procházka, P. – Rosen, A. – Skoumalová, H. – Škodová, S. – Šormová, K. – Štindlová, B.: CZESL-PLAIN: akviziční korpus psané češtiny, zvl. přepisů písemných projevů nerodilých mluvčích, verze 2 z 22. 1. 2014. Ústav Českého národního korpusu FF UK, Praha 2012. Dostupný z WWW: http://www.korpus.cz.
+- Šebesta, K. - Bedřichová, Z. - Šormová, K. - Štindlová, B. - Hrdlička, M. - Hrdličková, T. - Hana, J. - Petkevič, V. - Jelínek, T. - Škodová, S. - Poláčková, M. - Janeš, P. - Lundáková, K. - Skoumalová, H. - Sládek, Š. - Pierscieniak, P. - Toufarová, D. - Richter, M. - Straka, M. - Rosen, A.: CzeSL-SGT: korpus češtiny nerodilých mluvčích s automaticky provedenou anotací, verze 2 z 28. 7. 2014. Ústav Českého národního korpusu FF UK, Praha 2014. Dostupný z WWW: http://www.korpus.cz
+- Šebesta, K. – Goláňová, H. – Jelínek, T. - Jelínková, B. – Křen, M. – Letafková, J. – Procházka, P. – Skoumalová, H.: SKRIPT2012: akviziční korpus psané češtiny – přepisy písemných prací žáků základních a středních škol v ČR. Ústav Českého národního korpusu FF UK, Praha 2013. Dostupný z WWW: http://www.korpus.cz
+
+4) Další elektronické nástroje
+- Cvrček, V. – Vondřička, P.: Morfio. FF UK. Praha 2013. Dostupný z WWW: <http://morfio.korpus.cz>.
+- Sedláček, Radek. Morfologický analyzátor češtiny ajka. Dostupný z WWW: https://nlp.fi.muni.cz/projekty/wwwajka/WwwAjkaSkripty/morph.cgi?jazyk=0
