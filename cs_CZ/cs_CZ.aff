@@ -84,7 +84,7 @@ SFX P   0           ech        [^aeoklgh]
 SFX P   g           zích       g
 SFX P   h           zích       [^c]h
 SFX P   ch          ších       ch
-SFX P   0           ův/Y       [^aeoklc]
+SFX P   0           ův/Y       [^aeoklc] # jména zakončená na -e (Šebrle, Goethe) a -c (Balzac) nejsou pokryta
 SFX P   0           a          [^eě]k
 SFX P   0           u          [^eě]k
 SFX P   0           ovi        [^eě]k
@@ -191,15 +191,15 @@ SFX P   a           o          a
 SFX P   a           ou         a
 SFX P   a           ů          a
 SFX P   a           ům         a
-SFX P   a           ech        [^cčďghkňšťž]a
+SFX P   a           ech        [^cčďghkňšťž]a # u pária se povoluje dubleta
 SFX P   ka          cích       ka
 SFX P   ga          zích       ga
 SFX P   cha         ších       cha
 SFX P   ha          zích       [^c]ha
-SFX P   a           ích        [ščžci]a
-SFX P   ďa          dích       ďa
-SFX P   ňa          ních       ňa
-SFX P   ťa          tích       ťa
+SFX P   a           ích        [ščžci]a # typ bača, nindža, míša, paňáca, pária
+SFX P   ďa          dích       ďa # typ méďa
+SFX P   ňa          ních       ňa # typ fouňa
+SFX P   ťa          tích       ťa # typ ťunťa
 SFX P   a           ův/Y       a
 SFX P   e           a          e
 SFX P   e           u          e
@@ -1589,7 +1589,7 @@ SFX A   át          ala        át
 SFX A   át          alo        át
 SFX A   át          ali        át
 SFX A   át          aly        át
-SFX A   éct         eču        éc[it]
+SFX A   éct         eču        éc[it] #sice se připouští -i i -t, ale pravidlo je vždy jen pro jednu variantu
 SFX A   éct         eku        éc[it]
 SFX A   éct         ečeš       éc[it]
 SFX A   éct         eče        éc[it]
@@ -2703,7 +2703,7 @@ SFX X   ýt          yvši       ýt
 SFX X   ýt          yvší/Y     ýt
 SFX X   ýt          yvše       ýt
 
-SFX y Y 80
+SFX y Y 80 #Komparativy a superlativy adjektiv a adverbií (s odkazem na prefix nej-); jen -ejší/ější - těch na -ší je jen cca 50 a musí být ve slovníku; stejně tak nepravidelné tvary a ty, kde se krátí vokál
 SFX y   ý           ejší/E   [lsz]ý
 SFX y   rý          řejší/E  rý
 SFX y   hý          žejší/E  [^c]hý
@@ -2833,7 +2833,7 @@ PFX Ú Ý ý/Ů Ý
 PFX Ú Z z/Ů Z
 PFX Ú Ž ž/Ů Ž
 
-SFX ý Y 12
+SFX ý Y 12 # spolu s pravidlem Ú a Ů nabízí možnost vytvořit z pomístního jména adjektivum prostým přidáním koncovky -ský
 SFX ý   0           ský/ÚŮ     .
 SFX ý   0           ská/ÚŮ     .
 SFX ý   0           ské/ÚŮ     .
@@ -2847,7 +2847,7 @@ SFX ý   0           ských/ÚŮ   .
 SFX ý   0           skými/ÚŮ   .
 SFX ý   0           skýma/ÚŮ   .
 
-SFX í Y 23
+SFX í Y 23 # cizí jména (Victoria, Balzac, Jake, Kennedy, Luigi, Mallarmé), jen sg.
 SFX í   a           e          ia
 SFX í   a           i          ia
 SFX í   a           í          ia
@@ -2872,7 +2872,7 @@ SFX í   0           ho         é
 SFX í   0           mu         é
 SFX í   0           m          é
 
-SFX é Y 10
+SFX é Y 10 # slovanská jména s adjektivním skloňováním (Vranitzky, Brzezinski), jen sg.
 SFX é   y           ého        y
 SFX é   y           ému        y
 SFX é   y           ým         y
