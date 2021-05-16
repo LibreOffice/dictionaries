@@ -1,5 +1,5 @@
 SET ISO8859-2
-TRY aáeéìiíoóuúùyýbcèdïlmnòfjkprøs¹t»vghqwx
+TRY aáeéìiíoóuúùyýbcèdïlmnòfjkprøs¹t»vghqwxz¾AÁEÉÌIÍOÓUÚÙYÝBCÈDÏLMNÒFJKPRØS©T«VGHQWXZ®
 
 PFX N Y 1
 PFX N   0           ne         .
@@ -136,7 +136,7 @@ SFX P   a           o          a
 SFX P   a           ou         a
 SFX P   a           ù          a
 SFX P   a           ùm         a
-SFX P   a           ech        [^kïò»]a
+SFX P   a           ech        [^kïò»h]a
 SFX P   ka          cích       ka
 SFX P   ïa          dìch       ïa
 SFX P   òa          nìch       òa
@@ -249,7 +249,7 @@ SFX U   e           ù          e
 SFX U   e           ùm         e
 SFX U   e           ích        e
 
-SFX D Y 55
+SFX D Y 68
 SFX D   es          a          es
 SFX D   es          u          es
 SFX D   es          ovi        es
@@ -263,6 +263,19 @@ SFX D   es          y          [^i]es
 SFX D   es          ích        ies
 SFX D   es          ách        kes
 SFX D   es          i          ies
+SFX D   és          a          és
+SFX D   és          u          és
+SFX D   és          ovi        és
+SFX D   és          e          [^ghk]és
+SFX D   és          em         és
+SFX D   és          ové        és
+SFX D   és          ù          és
+SFX D   és          ùm         és
+SFX D   és          ech        [^ighk]és
+SFX D   és          y          [^i]és
+SFX D   és          ích        iés
+SFX D   és          ách        kés
+SFX D   és          i          iés
 SFX D   os          a          os
 SFX D   os          u          os
 SFX D   os          ovi        os
@@ -292,19 +305,19 @@ SFX D   us          i          [ei]us
 SFX D   0           é          [^eou]s
 SFX D   0           é          [^asy]
 SFX D   a           é          a
+SFX D   ky          ek         [aeiouyáéíóúùýì][lr]ky
+SFX D   y           0          [^aeiouyáéíóúùýì][lr]ky
 SFX D   ky          ek         [èdntv]ky
-SFX D   y           ù          [^èdntv]ky
-SFX D   ny          n          any
-SFX D   y           ù          [^kn]y
-SFX D   y           ám         [èdntv]ky
-SFX D   y           ùm         [^èdntv]ky
-SFX D   y           ùm         [^k]y
+SFX D   y           0          [^èdntvrl]ky
+SFX D   ly          el         [dkpz]ly
+SFX D   y           0          [^dkpz]ly
+SFX D   y           0          [^kl]y
+SFX D   y           ùm         y
 SFX D   y           ách        [gh]y
-SFX D   y           ách        [èdntv]ky
-SFX D   ky          cích       [^èdntv]ky
-SFX D   y           ech        [^ghk]y
+SFX D   y           ách        ky
+SFX D   y           ách        ry
+SFX D   y           ech        [^ghkr]y
 SFX D   y           ích        [sz]y
-SFX D   y           ami        [èdntv]ky
 
 SFX H Y 24
 SFX H   0           u          [^ey]
@@ -389,14 +402,15 @@ SFX L   0           ù          [^e]n
 SFX L   0           ùm         [^e]n
 SFX L   0           ech        [^e]n
 
-SFX S Y 60
-SFX S   0           e          [^eíìcò»n]
-SFX S   0           i          [^eíìcò»n]
-SFX S   0           em         [^eíìcò»n]
-SFX S   0           ù          [^eíìcòn]
-SFX S   0           ùm         [^eíìcòn]
+SFX S Y 45
+SFX S   0           e          [^eíìcò»]
+SFX S   0           i          [^eíìcò»]
+SFX S   0           em         [^eíìcò»]
+SFX S   0           ù          [^eíìcò]
+SFX S   0           ùm         [^eíìcò]
 SFX S   0           ích        [^eíìcò»nlsz]
-SFX S   0           ech        [sz]
+SFX S   0           y          n
+SFX S   0           ech        [nsz]
 SFX S   0           ech        íl
 SFX S   0           ích        [^í]l
 SFX S   ec          ce         ec
@@ -427,22 +441,6 @@ SFX S   0           ù          [^e]ò
 SFX S   0           ùm         [^e]ò
 SFX S   ò           nìm        [^e]ò
 SFX S   ò           ních       [^e]ò
-SFX S   en          ne         [^mn]en
-SFX S   en          nu         [^mn]en
-SFX S   en          ni         [^mn]en
-SFX S   en          nem        [^mn]en
-SFX S   en          ny         [^mn]en
-SFX S   en          nù         [^mn]en
-SFX S   en          nùm        [^mn]en
-SFX S   en          nech       [^mn]en
-SFX S   0           e          [mn]en
-SFX S   0           u          [mn]en
-SFX S   0           i          [mn]en
-SFX S   0           em         [mn]en
-SFX S   0           y          [mn]en
-SFX S   0           ù          [mn]en
-SFX S   0           ùm         [mn]en
-SFX S   0           ech        [mn]en
 SFX S   0           m          í
 SFX S   0           ch         í
 SFX S   0           mi         í
@@ -774,7 +772,7 @@ SFX Z   ï           dím        ï
 SFX Z   ï           dích       ï
 SFX Z   ï           dìmi       ï
 
-SFX C Y 106
+SFX C Y 109
 SFX C   ce          c          ice
 SFX C   e           í          [^i]ce
 SFX C   e           í          [èijlø]e
@@ -788,6 +786,9 @@ SFX C   ì           ím         ì
 SFX C   ì           ích        ì
 SFX C   0           mi         ì
 SFX C   0           m          í
+SFX C   eè          èe         eè
+SFX C   eè          èi         eè
+SFX C   eè          èí         eè
 SFX C   o           a          o
 SFX C   o           u          o
 SFX C   o           em         o
@@ -936,7 +937,7 @@ SFX M   ì           í          mì
 SFX M   ì           ím         ì
 SFX M   ì           ích        ì
 
-SFX K Y 84
+SFX K Y 85
 SFX K   0           te         [eì]
 SFX K   0           ti         [eì]
 SFX K   0           tem        [eì]
@@ -974,11 +975,11 @@ SFX K   0           tech       a
 SFX K   0           ty         a
 SFX K   0           i          [^aeìíýïò»s]
 SFX K   0           í          [^aeìíýïò»s]
-SFX K   0           em         [^aeìíýïò»smc¹p]
-SFX K   0           ech        [^aeìíýïò»smc¹p]
-SFX K   0           mi         [^aeìíýïò»smc]
-SFX K   0           ích        [p¹]
-SFX K   0           ím         [p¹]
+SFX K   0           em         [^aeìíýïò»smcp¹v]
+SFX K   0           ech        [^aeìíýïò»smcp¹v]
+SFX K   0           mi         [^aeìíýïò»smcv]
+SFX K   0           ích        [p¹v]
+SFX K   0           ím         [p¹v]
 SFX K   0           ích        oc
 SFX K   0           ím         oc
 SFX K   0           ech        moc
@@ -999,6 +1000,7 @@ SFX K   »           tím        »
 SFX K   »           tích       »
 SFX K   »           tìmi       [^ì]»
 SFX K   0           mi         ì»
+SFX K   0           ìmi        v
 SFX K   es          si         es
 SFX K   es          sí         es
 SFX K   es          sím        es
@@ -1378,7 +1380,7 @@ SFX J   out         ulo        out
 SFX J   out         uli        out
 SFX J   out         uly        out
 
-SFX A Y 763
+SFX A Y 767
 SFX A   íst         tu         èíst
 SFX A   íst         te¹        èíst
 SFX A   íst         te         èíst
@@ -1933,6 +1935,9 @@ SFX A   ánit        aòte       ánit
 SFX A   t           0          ¹tit
 SFX A   it          ìme        ¹tit
 SFX A   it          ìte        ¹tit
+SFX A   t           0          htit
+SFX A   it          ìme        htit
+SFX A   it          ìte        htit
 SFX A   tit         »          [^ií]stit
 SFX A   tit         »me        [^ií]stit
 SFX A   tit         »te        [^ií]stit
@@ -2116,6 +2121,7 @@ SFX A   nout        la         [aeiouyáéíóúýùì]rnout
 SFX A   nout        lo         [aeiouyáéíóúýùì]rnout
 SFX A   nout        li         [aeiouyáéíóúýùì]rnout
 SFX A   nout        ly         [aeiouyáéíóúýùì]rnout
+SFX A   nout        l          [aeiouyáéíóúýùìr][^aeiouyáéíóúýùìrl][^aeiouyáéíóúýùìrl]nout
 SFX A   nout        l          [aeiouyáéíóúýùìr][^aeiouyáéíóúýùìrl]nout
 SFX A   out         ul         [^aeiouyáéíóúýùì]l[^aeiouyáéíóúýùìrl]nout
 SFX A   nout        l          l[^aeiouyáéíóúýùìrl]nout
@@ -2259,7 +2265,7 @@ SFX T   ýt          yti        ýt
 SFX T   ýt          yty        ýt
 SFX T   ýt          ytu        ýt
 
-SFX B Y 257
+SFX B Y 250
 SFX B   e           e¹         e
 SFX B   e           u          [^cj]e
 SFX B   e           i          ce
@@ -2328,10 +2334,10 @@ SFX B   òu          nì         òu
 SFX B   òu          nìme       òu
 SFX B   òu          nìte       òu
 SFX B   u           i          l¾u
-SFX B   u           i          [^aeiouyáéíóúýùì][^aeiouyáéíóúýùì¾]u
-SFX B   u           ìme        [^aeiouyáéíóúýùì][bdfmnptvw]u
+SFX B   u           i          [^aeiouyáéíóúýùì][^aeiouyáéíóúýùìt¾]u
+SFX B   u           ìme        [^aeiouyáéíóúýùì][bdfmnpvw]u
 SFX B   u           eme        [^aeiouyáéíóúýùì][cèghjklrøs¹z]u
-SFX B   u           ìte        [^aeiouyáéíóúýùì][bdfmnptvw]u
+SFX B   u           ìte        [^aeiouyáéíóúýùì][bdfmnpvw]u
 SFX B   u           ete        [^aeiouyáéíóúýùì][cèghjklrøs¹z]u
 SFX B   du          ï          [aeiouyáéíóúýùì]du
 SFX B   du          ïme        [aeiouyáéíóúýùì]du
@@ -2387,24 +2393,17 @@ SFX B   ít          ila        ít
 SFX B   ít          ilo        ít
 SFX B   ít          ili        ít
 SFX B   ít          ily        ít
-SFX B   t           ji         ìt
-SFX B   t           je¹        ìt
-SFX B   t           je         ìt
-SFX B   t           jeme       ìt
-SFX B   t           jete       ìt
-SFX B   t           jí         ìt
-SFX B   t           j          ìt
-SFX B   t           jme        ìt
-SFX B   t           jte        ìt
-SFX B   t           ji         et
-SFX B   t           je¹        et
-SFX B   t           je         et
-SFX B   t           jeme       et
-SFX B   t           jete       et
-SFX B   t           jí         et
-SFX B   t           j          et
-SFX B   t           jme        et
-SFX B   t           jte        et
+SFX B   ìt          ím         ìt
+SFX B   ìt          í¹         ìt
+SFX B   ìt          í          ìt
+SFX B   ìt          íme        ìt
+SFX B   ìt          íte        ìt
+SFX B   ìt          0          ìt
+SFX B   ìt          me         ìt
+SFX B   ìt          te         ìt
+SFX B   t           0          ìt
+SFX B   ìt          íc         ìt
+SFX B   ìt          íce        ìt
 SFX B   ýt          yji        ýt
 SFX B   ýt          yje¹       ýt
 SFX B   ýt          yje        ýt
