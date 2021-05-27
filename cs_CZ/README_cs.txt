@@ -657,7 +657,9 @@ Technické poznámky
 
 Soubory byly převedeny do UTF-8.
 
-Byl pozměněn přehled grafémů tak, aby byla zohledněna blízkost kláves a možnost jejich záměny.
+Byl pozměněn přehled grafémů tak, aby byla zohledněna blízkost kláves a možnost jejich záměny (atribut KEY).
+
+V atributu TRY byly grafémy uvedeny podle frekvence uvedené v knize Statistiky češtiny (Bartoň et al.).
 
 Bylo vytvořeno mapování souvisejících (a tím pádem snáze zaměnitelných) grafémů, např. eéě.
 
@@ -729,6 +731,7 @@ POUŽITÁ LITERATURA A ZDROJE
 
 1) Tištěné publikace
 - ANDĚRA, Miloš. České názvy živočichů. II., Savci (Mammalia). Praha: Národní muzeum, 1999. 147 s. ISBN 80-7036-098-4.
+- BARTOŇ, Tomáš et al. Statistiky češtiny. Vyd. 1. Praha: NLN, Nakladatelství Lidové noviny, 2009. 214 s. ISBN 978-80-7106-594-4.
 - BEDŘICHOVÁ, Zuzana. Jazyk jako stigma?: analýza chybovosti textů romských žáků 9. ročníku základních škol praktických. Vyd. 1. Praha: Filozofická fakulta Univerzity Karlovy, 2013. 146 s. Varia; sv. 18. ISBN 978-80-7308-486-8.
 - BURNIE, David, ed. Zvíře. Překlad Jiří Šmaha. 1. vyd. V Praze: Knižní klub, 2002. 624 s. ISBN 80-242-0862-8.
 - CVRČEK, Václav a kol. Mluvnice současné češtiny. 1, Jak se píše a jak se mluví. Vyd. 1. V Praze: Karolinum, 2010. 353 s. ISBN 978-80-246-1743-5.
