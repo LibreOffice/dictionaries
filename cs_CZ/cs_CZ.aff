@@ -85,7 +85,7 @@ SFX P   0           ech        [^aeoklgh]
 SFX P   g           zích       g
 SFX P   h           zích       [^c]h
 SFX P   ch          ších       ch
-SFX P   0           ův/Y       [^aeoklc] # jména zakončená na -e (Šebrle, Goethe) a -c (Balzac) nejsou pokryta
+SFX P   0           ův/Y       [^aeoklc]
 SFX P   0           a          [^eě]k
 SFX P   0           u          [^eě]k
 SFX P   0           ovi        [^eě]k
@@ -192,15 +192,15 @@ SFX P   a           o          a
 SFX P   a           ou         a
 SFX P   a           ů          a
 SFX P   a           ům         a
-SFX P   a           ech        [^cčďghkňšťž]a # u pária se povoluje dubleta
+SFX P   a           ech        [^cčďghkňšťž]a
 SFX P   ka          cích       ka
 SFX P   ga          zích       ga
 SFX P   cha         ších       cha
 SFX P   ha          zích       [^c]ha
-SFX P   a           ích        [ščžci]a # typ bača, nindža, míša, paňáca, pária
-SFX P   ďa          dích       ďa # typ méďa
-SFX P   ňa          ních       ňa # typ fouňa
-SFX P   ťa          tích       ťa # typ ťunťa
+SFX P   a           ích        [ščžci]a
+SFX P   ďa          dích       ďa
+SFX P   ňa          ních       ňa
+SFX P   ťa          tích       ťa
 SFX P   a           ův/Y       a
 SFX P   e           a          e
 SFX P   e           u          e
@@ -2785,68 +2785,6 @@ SFX y   ský         štěji/E   ský
 SFX y   í           ěji/E     ní
 SFX y   ký          čeji/E  [^cs]ký
 SFX y   í           eji/E   [^n]í
-
-CIRCUMFIX Ů
-
-PFX Ú Y 44
-PFX Ú A a/Ů A
-PFX Ú Á á/Ů Á
-PFX Ú Ä ä/Ů Ä
-PFX Ú Å å/Ů Å
-PFX Ú B b/Ů B
-PFX Ú C c/Ů C
-PFX Ú Č č/Ů Č
-PFX Ú D d/Ů D
-PFX Ú Ď ď/Ů Ď
-PFX Ú E e/Ů E
-PFX Ú É é/Ů É
-PFX Ú F f/Ů F
-PFX Ú G g/Ů G
-PFX Ú H h/Ů H
-PFX Ú I i/Ů I
-PFX Ú Í í/Ů Í
-PFX Ú J j/Ů J
-PFX Ú K k/Ů K
-PFX Ú L l/Ů L
-PFX Ú Ľ ľ/Ů Ľ
-PFX Ú M m/Ů M
-PFX Ú N n/Ů N
-PFX Ú Ň ň/Ů Ň
-PFX Ú O o/Ů O
-PFX Ú Ó ó/Ů Ó
-PFX Ú Ö ö/Ů Ö
-PFX Ú P p/Ů P
-PFX Ú Q q/Ů Q
-PFX Ú R r/Ů R
-PFX Ú Ř ř/Ů Ř
-PFX Ú S s/Ů S
-PFX Ú Š š/Ů Š
-PFX Ú T t/Ů T
-PFX Ú Ť ť/Ů Ť
-PFX Ú U u/Ů U
-PFX Ú Ú ú/Ů Ú
-PFX Ú Ü ü/Ů Ü
-PFX Ú V v/Ů V
-PFX Ú W w/Ů W
-PFX Ú X x/Ů X
-PFX Ú Y y/Ů Y
-PFX Ú Ý ý/Ů Ý
-PFX Ú Z z/Ů Z
-PFX Ú Ž ž/Ů Ž
-
-SFX ý Y 12 # spolu s pravidlem Ú a Ů nabízí možnost vytvořit z pomístního jména adjektivum prostým přidáním koncovky -ský
-SFX ý   0           ský/ÚŮ     .
-SFX ý   0           ská/ÚŮ     .
-SFX ý   0           ské/ÚŮ     .
-SFX ý   0           ského/ÚŮ   .
-SFX ý   0           skému/ÚŮ   .
-SFX ý   0           ském/ÚŮ    .
-SFX ý   0           ským/ÚŮ    .
-SFX ý   0           skou/ÚŮ    .
-SFX ý   0           ští/ÚŮ     .
-SFX ý   0           ských/ÚŮ   .
-SFX ý   0           skými/ÚŮ   .
-SFX ý   0           skýma/ÚŮ   .
 
 SFX í Y 23 # cizí jména (Victoria, Balzac, Jake, Kennedy, Luigi, Mallarmé), jen sg.
 SFX í   a           e          ia
