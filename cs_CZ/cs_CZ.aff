@@ -1,7 +1,8 @@
 SET UTF-8
 
-#TRY aáeéěiíoóuúůyýbcčdďlmnňfjkprřsštťvghqwxzžAÁEÉĚIÍOÓUÚŮYÝBCČDĎLMNŇFJKPRŘSŠTŤVGHQWXZŽ
-TRY qwertzuiopú)|asdfghjklů§|yxcvbnm,.-|+ěščřžýáíé=|qaw|say|wse|dsx|sy|edr|fdc|dx|rft|gfv|fc|tgz|hgb|gv|zhu|jhn|hb|uji|kjm|jn|iko|lkm
+TRY oeantlsivkdrmupíchájzyěbřžéýčšůPgfSNVATMJKBDOúHRZCLEIňxUČťFGďówŠWŽŘYÁÚÍqĚXÉÝüöQŮäŇÓŤĎÖÜ
+
+KEY qwertzuiopú)|asdfghjklů§|yxcvbnm,.-|+ěščřžýáíé=|qaw|say|wse|dsx|sy|edr|fdc|dx|rft|gfv|fc|tgz|hgb|gv|zhu|jhn|hb|uji|kjm|jn|iko|lkm
 #případně přidat další trojkombinace s českými písmeny s diakritikou
 
 MAP 16
