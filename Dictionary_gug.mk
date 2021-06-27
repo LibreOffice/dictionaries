@@ -11,8 +11,6 @@ $(eval $(call gb_Dictionary_Dictionary,dict-gug,dictionaries/gug))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-gug,\
     dictionaries/gug/README_th_gug_PY.txt\
-    dictionaries/gug/th_gug_PY.dat \
-    dictionaries/gug/th_gug_PY.idx \
     dictionaries/gug/gug.aff \
     dictionaries/gug/gug.dic \
 ))
@@ -27,10 +25,9 @@ $(eval $(call gb_Dictionary_add_files,dict-gug,description,\
 $(eval $(call gb_Dictionary_add_files,dict-gug,images,\
     dictionaries/gug/images/gug-PY.png \
 ))
-#$(eval $(call gb_Dictionary_add_thesauri,dict-gug,\
-#    dictionaries/gug/th_gug_PY.dat \
-#    dictionaries/gug/th_gug_PY.idx \
-#))
+$(eval $(call gb_Dictionary_add_thesauri,dict-gug,\
+    dictionaries/gug/th_gug_PY.dat \
+))
 
 
 # vim: set noet sw=4 ts=4:
