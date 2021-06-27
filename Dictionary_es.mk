@@ -63,6 +63,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-es,\
 	dictionaries/es/README_hunspell_es.txt \
 	dictionaries/es/README_hyph_es.txt \
 	dictionaries/es/README_th_es.txt \
+	dictionaries/es/RLA-ES.png \
 	dictionaries/es/LICENSE.md \
 ))
 
