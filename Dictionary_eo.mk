@@ -10,6 +10,8 @@
 $(eval $(call gb_Dictionary_Dictionary,dict-eo,dictionaries/eo))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-eo,\
+	dictionaries/eo/desc_en.txt \
+	dictionaries/eo/desc_eo.txt \
 	dictionaries/eo/eo.aff \
 	dictionaries/eo/eo.dic \
 	dictionaries/eo/hyph_eo.dic \
