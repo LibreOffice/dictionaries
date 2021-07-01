@@ -1459,7 +1459,7 @@ SFX J   íst         edlas      [^dnt]íst
 SFX J   íst         edlos      [^dnt]íst
 
 
-SFX A Y 761
+SFX A Y 757
 SFX A   íst         tu         číst
 SFX A   íst         teš        číst
 SFX A   íst         te         číst
@@ -2132,10 +2132,6 @@ SFX A   nout        lo         [aeiouyáéíóúýůě]rnout
 SFX A   nout        li         [aeiouyáéíóúýůě]rnout
 SFX A   nout        ly         [aeiouyáéíóúýůě]rnout
 SFX A   out         ul         [^aeiouyáéíóúýůě]l[^aeiouyáéíóúýůěrl]nout
-SFX A   out         ula        [^aeiouyáéíóúýůě]l[^aeiouyáéíóúýůěrl]nout
-SFX A   out         ulo        [^aeiouyáéíóúýůě]l[^aeiouyáéíóúýůěrl]nout
-SFX A   out         uli        [^aeiouyáéíóúýůě]l[^aeiouyáéíóúýůěrl]nout
-SFX A   out         uly        [^aeiouyáéíóúýůě]l[^aeiouyáéíóúýůěrl]nout
 SFX A   nout        l          [^aeiouyáéíóúýůěrl]nout
 SFX A   nout        la         [^aeiouyáéíóúýůěrl]nout
 SFX A   nout        lo         [^aeiouyáéíóúýůěrl]nout
