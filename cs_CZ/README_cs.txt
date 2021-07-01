@@ -615,7 +615,7 @@ Bylo upraveno skloňování substantiv mužského rodu životného zakončených
 
 Byla přidána varianta "jedena-" pro tvorbu číslovek (vedle "jedna-" - např. jedenadvacet/jednadvacet).
 
-Byly povoleny chybějící tvary minulého času pro femininum, neutrum a tvary plurálu, např. umlknula, umlknulo, umlknuli, umlknuly - týká se 17 sloves.
+U 22 sloves (doschnout, nadchnout aj.) bylo v mužském rodu povoleno příčestí minulé bez -nu-, tzn. doschl, nadchl atd.
 
 Přivlastňovací přídavná jména na -ův byla původně uvedena ve slovníku (netvořila se tedy prostřednictvím pravidel v seznamu afixů). To bylo neefektivní: takových položek bylo ve slovníku 48220. Nově se všechny tvary přivlastňovacího přídavného jména v mužském rodu tvoří příznakem u mužských životných vzorů. (Všechny položky, které se vytvoří novými pravidly, byla ze slovníku odstraněna, čímž ubylo 46326 řádků.) Pokryta nejsou jen slova zakončená na -e, -c (Šebrle, Goethe; Balzac), protože v prvním případě se někdy uplatňuje spíše koncovka -ho a v druhém případě se c často - ne však vždy - mění na k.
 Pravidla pro tvorbu přivlastňovacích adjektiv od substantiv rodu ženského přidána nebyla, protože se tvoří výrazně méně často. Naopak byla ze slovníku odstraněna většina tvarů vytvořených od substantiv typu -ice/ině/yně, která se tvoří jen výjimečně (např. tchynin).
