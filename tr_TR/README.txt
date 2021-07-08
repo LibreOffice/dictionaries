@@ -1,7 +1,13 @@
-Hunspell dictionary for Turkish
-Version 1.2.0 (Apr 04, 2015)
+Hunspell dictionary for Turkish language developed by Turkish Data Depository group 
+Version 1.0.0 (July 08, 2021)
 
-This dictionary is released under Mozilla Public License Version 2.0.
+This dictionary is licensed under MIT License. 
+Original project page https://github.com/tdd-ai/hunspell-tr.
 
-Original extension by Harun Reşit Zafer can be found here: https://extensions.libreoffice.org/extensions/turkish-spellcheck-dictionary
-Software used to generate this dictionary: https://github.com/hrzafer/hunspell-tr
+**Contributors** (alphabetically):
+
+- Ali Safaya (alisafaya@gmail.com)
+- Arda Göktoğan 
+- Deniz Yuret
+- Emirhan Kurtuluş
+- Taner Sezer
