@@ -1,1 +1,1 @@
-Véxase/See https://github.com/meixome/hunspell-gl/blob/master/CHANGELOG
+Véxase/See https://gitlab.com/proxecto-trasno/hunspell-gl/-/blob/master/CHANGELOG.rst

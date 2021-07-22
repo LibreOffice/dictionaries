@@ -1,6 +1,5 @@
 Corrector Volga de Proxecto Trasno. 
-Edición 18.07 «Francisco Mirás»
-(https://gl.wikipedia.org/wiki/Francisco_Mirás) 
+Edición 20.08
 
 Corrección ortográfica baseada en Hunspell
 (Versión desenvolvida por Miguel Solla)
