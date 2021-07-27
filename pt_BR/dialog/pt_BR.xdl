@@ -23,7 +23,7 @@
 <dlg:checkbox dlg:id="minus" dlg:tab-index="18" dlg:left="10" dlg:top="95" dlg:width="80" dlg:height="10" dlg:value="&amp;minus" dlg:checked="false" dlg:help-text="&amp;hlp_minus"/>
 <dlg:fixedline dlg:id="others" dlg:tab-index="19" dlg:left="5" dlg:top="105" dlg:width="240" dlg:height="10" dlg:value="&amp;others"/>
 <dlg:checkbox dlg:id="metric" dlg:tab-index="20" dlg:left="10" dlg:top="115" dlg:width="80" dlg:height="10" dlg:value="&amp;metric" dlg:checked="true" dlg:help-text="&amp;hlp_metric"/>
-<dlg:checkbox dlg:id="numsep" dlg:tab-index="21" dlg:left="100" dlg:top="115" dlg:width="80" dlg:height="10" dlg:value="&amp;numsep" dlg:checked="true" dlg:help-text="&amp;hlp_numsep"/>
+<dlg:checkbox dlg:id="gerund" dlg:tab-index="21" dlg:left="100" dlg:top="115" dlg:width="80" dlg:height="10" dlg:value="&amp;gerund" dlg:checked="true" dlg:help-text="&amp;hlp_gerund"/>
 <dlg:checkbox dlg:id="nonmetric" dlg:tab-index="22" dlg:left="190" dlg:top="115" dlg:width="80" dlg:height="10" dlg:value="&amp;nonmetric" dlg:checked="true" dlg:help-text="&amp;hlp_nonmetric"/>
 <dlg:checkbox dlg:id="paronimo" dlg:tab-index="23" dlg:left="10" dlg:top="125" dlg:width="80" dlg:height="10" dlg:value="&amp;paronimo" dlg:checked="true" dlg:help-text="&amp;hlp_paronimo"/>
 <dlg:checkbox dlg:id="composto" dlg:tab-index="24" dlg:left="100" dlg:top="125" dlg:width="80" dlg:height="10" dlg:value="&amp;composto" dlg:checked="true" dlg:help-text="&amp;hlp_composto"/>
