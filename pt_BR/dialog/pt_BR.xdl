@@ -27,7 +27,7 @@
 <dlg:checkbox dlg:id="nonmetric" dlg:tab-index="22" dlg:left="190" dlg:top="115" dlg:width="80" dlg:height="10" dlg:value="&amp;nonmetric" dlg:checked="true" dlg:help-text="&amp;hlp_nonmetric"/>
 <dlg:checkbox dlg:id="paronimo" dlg:tab-index="23" dlg:left="10" dlg:top="125" dlg:width="80" dlg:height="10" dlg:value="&amp;paronimo" dlg:checked="true" dlg:help-text="&amp;hlp_paronimo"/>
 <dlg:checkbox dlg:id="composto" dlg:tab-index="24" dlg:left="100" dlg:top="125" dlg:width="80" dlg:height="10" dlg:value="&amp;composto" dlg:checked="true" dlg:help-text="&amp;hlp_composto"/>
-<dlg:checkbox dlg:id="mmalmau" dlg:tab-index="25" dlg:left="190" dlg:top="125" dlg:width="80" dlg:height="10" dlg:value="&amp;mmalmau" dlg:checked="true" dlg:help-text="&amp;hlp_mmalmau"/>
+<dlg:checkbox dlg:id="malmau" dlg:tab-index="25" dlg:left="190" dlg:top="125" dlg:width="80" dlg:height="10" dlg:value="&amp;malmau" dlg:checked="true" dlg:help-text="&amp;hlp_malmau"/>
 <dlg:checkbox dlg:id="aha" dlg:tab-index="26" dlg:left="10" dlg:top="135" dlg:width="80" dlg:height="10" dlg:value="&amp;aha" dlg:checked="true" dlg:help-text="&amp;hlp_aha"/>
 <dlg:checkbox dlg:id="meiameio" dlg:tab-index="27" dlg:left="100" dlg:top="135" dlg:width="80" dlg:height="10" dlg:value="&amp;meiameio" dlg:checked="true" dlg:help-text="&amp;hlp_meiameio"/>
 <dlg:checkbox dlg:id="porque" dlg:tab-index="28" dlg:left="190" dlg:top="135" dlg:width="80" dlg:height="10" dlg:value="&amp;porque" dlg:checked="true" dlg:help-text="&amp;hlp_porque"/>
