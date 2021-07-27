@@ -98,9 +98,9 @@
         </info>
         <value/>
       </prop>
-      <prop oor:name="numsep" oor:type="xs:string">
+      <prop oor:name="gerund" oor:type="xs:string">
         <info>
-          <desc>The numsep definition of one leaf.</desc>
+          <desc>The gerund definition of one leaf.</desc>
         </info>
         <value/>
       </prop>
