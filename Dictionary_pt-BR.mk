@@ -27,6 +27,7 @@ $(eval $(call gb_Dictionary_add_files,dict-pt-BR,dialog,\
     dictionaries/pt_BR/dialog/pt_BR.xdl \
     dictionaries/pt_BR/dialog/pt_BR_pt_BR.default \
     dictionaries/pt_BR/dialog/pt_BR_pt_BR.properties \
+    dictionaries/pt_BR/dialog/pt_BR_en_US.properties \
 ))
 
 $(eval $(call gb_Dictionary_add_files,dict-pt-BR,pythonpath,\
