@@ -243,10 +243,10 @@ paralcap = re.compile(u"(?u)^[a-z].*[.?!] [A-Z].*[.?!][)\u201d]?$")
 
 # Tenta corrigir erros de identificacao da regra de capiatizacao
 # erroscap = re.compile("(?i)\\.([A-Z])")
-erroscap = re.compile("((?i)\\.([A-Z\xc0\xc1\xc2\xc3\xc7\xc9\xca\xcd\xd3\xd4\xd5\xda])|\\.\\[|\\.\\(|\\.\\)|\\?\\)|\\!\\)|[a-z]\\))")
-erroscapa = re.compile("((?i)[.?!]\\, ([a-z\xe1\xe2\xe3\xe7\xe9\xea\xf3\xf4\xf5\xfa]+))")
-erroscapb = re.compile("((?i)[a-z]\\))")
-erroscapc = re.compile("((?i)[.?!][\"\u2019\u201d])")
+erroscap = re.compile("(?i)\\.([A-Z\xc0\xc1\xc2\xc3\xc7\xc9\xca\xcd\xd3\xd4\xd5\xda])|\\.\\[|\\.\\(|\\.\\)|\\?\\)|\\!\\)|[a-z]\\)")
+erroscapa = re.compile("(?i)[.?!]\\, ([a-z\xe1\xe2\xe3\xe7\xe9\xea\xf3\xf4\xf5\xfa]+)")
+erroscapb = re.compile("(?i)[a-z]\\)")
+erroscapc = re.compile("(?i)[.?!][\"\u2019\u201d]")
 
 # Tenta corrigir erros de identificacao parentese de fechamento
 errosprnt = re.compile(u"(?u)^([a-z]|[ivxl]+)\\)")
