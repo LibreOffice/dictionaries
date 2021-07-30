@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "87532e5c_f99a16fb",
+        "filename": "pt_BR/pythonpath/lightproof_pt_BR.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 940,
+      "author": {
+        "id": 1000059
+      },
+      "writtenOn": "2021-07-30T15:02:03Z",
+      "side": 1,
+      "message": "The rules (940 to 951) don\u0027t work. But they may have never worked before. For example, the string Pleo_1 (Pleo_2 ... Pleo_b) are not defined anywhere in the dictionary.\n\ntest: possivelmente poderá (fr:pourra possiblement)",
+      "revId": "610ac2209bad9da7c2e992efea97c3fadbe59ce6",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "96a0cd91_b5540e9e",
+        "filename": "pt_BR/pythonpath/lightproof_pt_BR.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 3478,
+      "author": {
+        "id": 1000059
+      },
+      "writtenOn": "2021-07-30T15:02:03Z",
+      "side": 1,
+      "message": "Same as above, Puxa_1 (Puxa_2 ..) not defined anywhere. Left as is, will fix the rule later.",
+      "revId": "610ac2209bad9da7c2e992efea97c3fadbe59ce6",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": true
+    }
+  ]
+}
