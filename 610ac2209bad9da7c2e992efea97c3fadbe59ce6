@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "73e40e17_a7335422",
+        "filename": "pt_BR/pythonpath/lightproof_pt_BR.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 940,
+      "author": {
+        "id": 1000043
+      },
+      "writtenOn": "2021-07-30T18:37:24Z",
+      "side": 1,
+      "message": "I must recognize I haven\u0027t understood Pleo_1, ... but when I\u0027ve tested, the pleonasm has been detected.\nI also noticed that \"possivelmente poderá\", not \"Possivelmente poderá\", so it\u0027s case sensitive.",
+      "parentUuid": "87532e5c_f99a16fb",
+      "revId": "610ac2209bad9da7c2e992efea97c3fadbe59ce6",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "96a0cd91_b5540e9e",
         "filename": "pt_BR/pythonpath/lightproof_pt_BR.py",
         "patchSetId": 1
@@ -33,6 +51,24 @@
       "revId": "610ac2209bad9da7c2e992efea97c3fadbe59ce6",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6e50d381_ddbcd627",
+        "filename": "pt_BR/pythonpath/lightproof_pt_BR.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 3478,
+      "author": {
+        "id": 1000043
+      },
+      "writtenOn": "2021-07-30T18:37:24Z",
+      "side": 1,
+      "message": "Ok, I haven\u0027t tested this one, juste changed the \"X\" to \"x\"",
+      "parentUuid": "96a0cd91_b5540e9e",
+      "revId": "610ac2209bad9da7c2e992efea97c3fadbe59ce6",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615",
+      "unresolved": false
     }
   ]
 }
