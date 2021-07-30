@@ -1,4 +1,5 @@
 # -*- encoding: UTF-8 -*-
+
 import uno, re, sys, os, traceback
 from com.sun.star.text.TextMarkupType import PROOFREADING
 from com.sun.star.beans import PropertyValue
@@ -125,14 +126,14 @@ def suggest(rLoc, word):
 
 # get the nth word of the input string or None
 def word(s, n):
-    a = re.match("(?u)( [-.\w%%]+){" + str(n-1) + "}( [-.\w%%]+)", s)
+    a = re.match(r"(?u)( [-.\w%%]+){" + str(n-1) + r"}( [-.\w%%]+)", s)
     if not a:
         return ''
     return a.group(2)[1:]
 
 # get the (-)nth word of the input string or None
 def wordmin(s, n):
-    a = re.search("(?u)([-.\w%%]+ )([-.\w%%]+ ){" + str(n-1) + "}$", s)
+    a = re.search(r"(?u)([-.\w%%]+ )([-.\w%%]+ ){" + str(n-1) + "}$", s)
     if not a:
         return ''
     return a.group(1)[:-1]
@@ -209,9 +210,9 @@ def compile_rules(dic):
     # compile regular expressions
     for i in dic:
         try:
-            if re.compile("[(][?]iu[)]").match(i[0]):
+            if re.compile(r"[\(][?]iu[)]").match(i[0]):
                 i += [True]
-                i[0] = re.sub("[(][?]iu[)]", "(?u)", i[0])
+                i[0] = re.sub(r"[\(][?]iu[)]", "(?u)", i[0])
             else:
                 i += [False]
             i[0] = re.compile(i[0])
@@ -510,10 +511,10 @@ vintimo = re.compile("(?i)\\b([A-Za-z]+mente|[A-Za-z]+mento|[Aa]bandono|[Aa]feti
 vintima= re.compile("(?i)\\b([A-Za-z\xe7\xe1\xea]+(-se|-lhe|-o|-me|-lo|-te)|[a-z\xea\xe2]+ncia|[a-z]+[dhistx\xe7]\xe3o|[Aa]|[Aa]gonia|[Aa]legria|[Aa]lma|[Aa]miga|[Aa]mizade|[Aa]nsiedade|[Aa]quela|[Aa]titude|[Aa]tividade|[Bb]em|[Bb]ondade|[Cc]alma|[Cc]arta|[Cc]ausa|[Cc]eia|[Cc]ena|[Cc]erteza|[Cc]om|[Cc]omo|[Cc]onfian\xe7a|[Cc]onsulta|[Cc]ontextura|[Cc]onversa|[Cc]r\xf4nica|[Cc]umplicidade|[Dd]a|[Dd]aquela|[Dd]e|[Dd]el\xedcia|[Dd]escoberta|[Dd]essa|[Dd]esta|[Dd]or|[Ee]|[\xc9\xe9]|[Ee]m|[Ee]nergia|[Ee]ra|[Ee]sfera|[Ee]speran\xe7a|[Ee]ssa|[Ee]sta|[Ee]stante|[Ee]strutura|[Ff]alta|[Ff]azer|[Ff]elicidade|[Ff]esta|[Ff]ez|[Ff]oi|[Ff]or\xe7a|[Ff]orma|[Ff]osse|[Ff]raternidade|[Ff]rieza|[Gg]in\xe1stica|[Hh]igiene|[Hh]ist\xf3ria|[Ii]nimiga|[Ii]rlanda|[Jj]\xe1|[Ll]inguagem|[Ll]iter\xe1ria|[Ll]uta|[Ll]uz|[Mm]agoa|[Mm]\xe1goa|[Mm]ais|[Mm]ant\xe9m|[Mm]as|[Mm]enos|[Mm]esa|[Mm]esma|[Mm]inha|[Mm]oralidade|[Mm]ostrar|[Mm]uita|[Mm]uito|[Nn]a|[Nn]\xe3o|[Nn]atureza|[Nn]ecessidade|[Nn]ossa|[Nn]ota|[Nn]udez|[Nn]uma|[Oo]rdem|[Oo]u|[Pp]agina|[Pp]\xe1gina|[Pp]alavra|[Pp]alestra|[Pp]alpite|[Pp]arte|[Pp]az|[Pp]ela|[Pp]ergunta|[Pp]erspectiva|[Pp]essoa|[Pp]oesia|[Pp]ossuem|[Pp]r\xe1tica|[Qq]ue|[Qq]uem|[Rr]ealidade|[Rr]eviravolta|[Rr]evolta|[Rr]evolve|[Rr]oupa|[Ss]eguran\xe7a|[Ss]enhora|[Ss]er|[Ss]inceridade|[Ss]ociedade|[Ss]ombra|[Ss]ou|[Ss]ua|[Tt]amb\xe9m|[Tt]oda|[Tt]ornou|[Tt]ortura|[Tt]risteza|[Tt]\xfanica|[Uu]ma|[Vv]erdade|[Vv]ida|[Vv]oz|[Zz]ona) intima\\b")
 
 # Identificacao de renuncia sem acento 
-vrenuncia = re.compile("(?i)\\b([Aa]|[[\xc0\xe0]|[Aa]nuncia|[Aa]nunciava|[Aa]nunciam|[Aa]nunciou|[Cc]om|[Cc]omo|[Cc]oncedeu|[Cc]uja|[Dd]a|[Dd]e|[Dd]esaprova|[Dd]oce|[Dd]upla|[Ee]|[\xc9\xe9]|[Ee]m|[Ee]ssa|[Ee]st\xfapida|[Ee]ventual|[Ff]azer|[Ff]requente|[Gg]enerosa|[Hh]ouve|[Ii]mediata|[Ii]mpliquem|[Ii]mporta|[Ii]mportar\xe1|[Mm]inha|[Nn]a|[Nn]ega|[Nn]ossa|[Nn]uma|[Oo]u|[Pp]ela|[Pp]equena|[Pp]osterior|[Pp]resumir|[Pp]romove|[Pp]romover|[Pp]ura|[Rr]epresentaram|[Ss]ignifique|[Ss]ua|[Tt]ua|[\xda\xfa]ltima|[\xda\xfa]nica|[Uu]ma) renuncia\\b")
+vrenuncia = re.compile("(?i)\\b([Aa]|[\xc0\xe0]|[Aa]nuncia|[Aa]nunciava|[Aa]nunciam|[Aa]nunciou|[Cc]om|[Cc]omo|[Cc]oncedeu|[Cc]uja|[Dd]a|[Dd]e|[Dd]esaprova|[Dd]oce|[Dd]upla|[Ee]|[\xc9\xe9]|[Ee]m|[Ee]ssa|[Ee]st\xfapida|[Ee]ventual|[Ff]azer|[Ff]requente|[Gg]enerosa|[Hh]ouve|[Ii]mediata|[Ii]mpliquem|[Ii]mporta|[Ii]mportar\xe1|[Mm]inha|[Nn]a|[Nn]ega|[Nn]ossa|[Nn]uma|[Oo]u|[Pp]ela|[Pp]equena|[Pp]osterior|[Pp]resumir|[Pp]romove|[Pp]romover|[Pp]ura|[Rr]epresentaram|[Ss]ignifique|[Ss]ua|[Tt]ua|[\xda\xfa]ltima|[\xda\xfa]nica|[Uu]ma) renuncia\\b")
 
 # Identificacao de denuncia sem acento 
-vdenuncia = re.compile("(?i)\\b([Aa]|[[\xc0\xe0]|[Aa]lguma|[Aa]p\xf3s|[Aa]presenta|[Aa]presentam|[Aa]presentar|[Aa]presentaram|[Aa]presente|[Aa]presentem|[Aa]presentou|[Aa]pura|[Aa]purando|[Aa]purar|[Aa]quela|[Aa]purou|[Aa]ssunto|[Cc]lara|[Cc]om|[Cc]omo|[Cc]onfirma|[Cc]onfirmam|[Cc]onforme|[Cc]ovarde|[Cc]uja|[Dd]a|[Dd]ar|[Dd]as|[Dd]e|[Dd]esmente|[Dd]esmentem|[Dd]esmentiu|[Dd]essa|[Dd]uma|[Ee]|[\xc9\xe9]|[Ee]m|[Ee]ncaminha|[Ee]ncaminham|[Ee]ncaminhou|[Ee]ngolir|[Ee]spec\xedfica|[Ee]ssa|[Ee]sta|[Ee]xista|[Ee]xistiu|[Ee]xistindo|[Ff]alsa|[Ff]ormaliza|[Ff]ormalizando|[Ff]ormalizaram|[Ff]ormalizou|[Ff]ormulada|[Gg]rande|[Gg]rave|[Hh]\xe1|[Hh]avia|[Hh]ouve|[Hh]ouver|[Ii]nexplicada|[Ii]ng\xeanua|[Ii]nvestiga|[Ii]nvestigam|[Ii]nvestigar|[Ii]nvestigava|[Jj]ulga|[Jj]ulgam|[Jj]ulgou|[Ll]evar|[Mm]as|[Mm]ediante|[Mm]eia|[Mm]uita|[Nn]a|[Nn]\xe3o|[Nn]enhuma|[Nn]ova|[Nn]uma|[Oo]ferece|[Oo]ferecer|[Oo]fereceu|[Oo]u|[Oo]utra|[Pp]ela|[Pp]or|[Pp]oss\xedvel|[Pp]reciosa|[Pp]resente|[Pp]rimeira|[Qq]ualquer|[Rr]ecebe|[Rr]eceberam|[Rr]eceberem|[Rr]ecebeu|[Ss]egunda|[Ss]egundo|[Ss]imples|[Ss]obre|[Ss]ua|[Tt]em|[Tt]err\xedvel|[Tt]oda|[Tt]remenda|[Uu]ma|[Vv]elada) denuncia\\b")
+vdenuncia = re.compile("(?i)\\b([Aa]|[\xc0\xe0]|[Aa]lguma|[Aa]p\xf3s|[Aa]presenta|[Aa]presentam|[Aa]presentar|[Aa]presentaram|[Aa]presente|[Aa]presentem|[Aa]presentou|[Aa]pura|[Aa]purando|[Aa]purar|[Aa]quela|[Aa]purou|[Aa]ssunto|[Cc]lara|[Cc]om|[Cc]omo|[Cc]onfirma|[Cc]onfirmam|[Cc]onforme|[Cc]ovarde|[Cc]uja|[Dd]a|[Dd]ar|[Dd]as|[Dd]e|[Dd]esmente|[Dd]esmentem|[Dd]esmentiu|[Dd]essa|[Dd]uma|[Ee]|[\xc9\xe9]|[Ee]m|[Ee]ncaminha|[Ee]ncaminham|[Ee]ncaminhou|[Ee]ngolir|[Ee]spec\xedfica|[Ee]ssa|[Ee]sta|[Ee]xista|[Ee]xistiu|[Ee]xistindo|[Ff]alsa|[Ff]ormaliza|[Ff]ormalizando|[Ff]ormalizaram|[Ff]ormalizou|[Ff]ormulada|[Gg]rande|[Gg]rave|[Hh]\xe1|[Hh]avia|[Hh]ouve|[Hh]ouver|[Ii]nexplicada|[Ii]ng\xeanua|[Ii]nvestiga|[Ii]nvestigam|[Ii]nvestigar|[Ii]nvestigava|[Jj]ulga|[Jj]ulgam|[Jj]ulgou|[Ll]evar|[Mm]as|[Mm]ediante|[Mm]eia|[Mm]uita|[Nn]a|[Nn]\xe3o|[Nn]enhuma|[Nn]ova|[Nn]uma|[Oo]ferece|[Oo]ferecer|[Oo]fereceu|[Oo]u|[Oo]utra|[Pp]ela|[Pp]or|[Pp]oss\xedvel|[Pp]reciosa|[Pp]resente|[Pp]rimeira|[Qq]ualquer|[Rr]ecebe|[Rr]eceberam|[Rr]eceberem|[Rr]ecebeu|[Ss]egunda|[Ss]egundo|[Ss]imples|[Ss]obre|[Ss]ua|[Tt]em|[Tt]err\xedvel|[Tt]oda|[Tt]remenda|[Uu]ma|[Vv]elada) denuncia\\b")
 
 # Identificacao de libero sem acento
 vlibero = re.compile("(?i)\\b([Cc]omo|[Cc]opa|[Dd]e|[Dd]o|[\xc9\xe9]|[Ee]ducador|[Ff]oi|[Ff]ui|[Gg]rande|[Mm]aior|[Mm]elhor|[Nn]o|[Oo]|[Tt]ermo|[Uu]m) libero\\b")
