@@ -20,6 +20,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-pt-BR,\
     dictionaries/pt_BR/README_en.txt \
     dictionaries/pt_BR/README_hyph_pt_BR.txt \
     dictionaries/pt_BR/README_pt_BR.txt \
+    dictionaries/pt_BR/test_compile_rules.py \
     dictionaries/pt_BR/package-description.txt \
 ))
 
