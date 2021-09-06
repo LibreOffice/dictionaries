@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006"  xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="0.58" />
-    <identifier value="net.crom-a.at.tut.by.www.Mikalai.Udodau.LO-Dictionaries.be-BY" />
+    <version value="2021.09" />
+    <identifier value="org.alex73.LO-Dictionaries.be-BY" />
     <display-name>
-        <name lang="en-US">Belarusian spelling dictionary and hyphenation</name>
+        <name lang="en-US">Belarusian spelling (official 2008) dictionary and hyphenation</name>
     </display-name>
     <platform value="all" />
     <dependencies>

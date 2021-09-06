@@ -1,17 +1,8 @@
-Belarusian Spell Check Dictionary
+Belarusian Spell Check Dictionary - official orthography 2008
 
-Language: Belarusian (be-BY)
-License:  Creative Commons CC-BY-SA
-Author:   Mikalai Udodau <mikalai.udodau@gmail.com>
-Origin:   Словазбор аўтарскі; арфаграфія паводле ТСБМ-2005
-Packager: Mikalai Udodau
+Based on Belarusian Grammar Database (https://bnkorpus.info/grammar.html)
+by Aleś Bułojčyk <alex73mail@gmail.com>, Uładzimir Koščanka <koshul@gmail.com>
 
-############################################################
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License
 
-
-Belarusian Hyphenation Dictionary
-Created by: Alex Buloichik <alex73mail@gmail.com>
-Hyphenation rules according to 'Pravapis 2008'
-License: CC BY-SA 4.0 or LGPLv3
-
-############################################################
+Package created by Aleś Bułojčyk <alex73mail@gmail.com>
