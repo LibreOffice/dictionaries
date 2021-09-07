@@ -10,8 +10,8 @@
 $(eval $(call gb_Dictionary_Dictionary,dict-be,dictionaries/be_BY))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-be,\
-	dictionaries/be_BY/be_BY.aff \
-	dictionaries/be_BY/be_BY.dic \
+	dictionaries/be_BY/be-official.aff \
+	dictionaries/be_BY/be-official.dic \
 	dictionaries/be_BY/hyph_be_BY.dic \
 	dictionaries/be_BY/README_be_BY.txt \
 ))
