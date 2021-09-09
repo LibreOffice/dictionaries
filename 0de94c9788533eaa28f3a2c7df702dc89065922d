@@ -33,6 +33,23 @@
       "message": "Two files were renamed from be_BY to be_official, but that change isn’t reflected on the makefiles",
       "revId": "0de94c9788533eaa28f3a2c7df702dc89065922d",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34547663_e140475e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000321
+      },
+      "writtenOn": "2021-09-09T09:33:36Z",
+      "side": 1,
+      "message": "Namely, Dictionary_be.mk",
+      "revId": "0de94c9788533eaa28f3a2c7df702dc89065922d",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
