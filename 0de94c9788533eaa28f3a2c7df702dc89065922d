@@ -67,6 +67,24 @@
       "message": "White-red-white flag is currently being part of a controversy [1]. Combined with renaming elements of the dictionary to use word \"official\", this looks not neutral enough.\n\nI personally would ask you to update the change please, omitting the elements that could be unsafe?\n\n[1] https://en.wikipedia.org/wiki/Flag_of_Belarus#White-red-white_flag",
       "revId": "0de94c9788533eaa28f3a2c7df702dc89065922d",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64163f55_ac833245",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003347
+      },
+      "writtenOn": "2021-09-09T10:53:34Z",
+      "side": 1,
+      "message": "Hi !\nAgree. I add flag because https://extensions.libreoffice.org/?q\u003dbelarusian\u0026action_doExtensionSearch\u003dSearch has wrong flags. \n\nI removed flag.png and changed README_be_BY.txt for reflect dictionary change.\n\nSee patchset #3",
+      "parentUuid": "51c6db0b_a3575d4c",
+      "revId": "0de94c9788533eaa28f3a2c7df702dc89065922d",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
