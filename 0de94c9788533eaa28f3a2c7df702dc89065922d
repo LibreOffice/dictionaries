@@ -16,6 +16,23 @@
       "message": "Andras, could you please review it. Thank you\n\nFor story, Ales\u0027s license statement is here https://lists.freedesktop.org/archives/libreoffice/2021-September/087822.html",
       "revId": "0de94c9788533eaa28f3a2c7df702dc89065922d",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4c21892_b409d7ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000321
+      },
+      "writtenOn": "2021-09-09T09:31:13Z",
+      "side": 1,
+      "message": "Two files were renamed from be_BY to be_official, but that change isn’t reflected on the makefiles",
+      "revId": "0de94c9788533eaa28f3a2c7df702dc89065922d",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
