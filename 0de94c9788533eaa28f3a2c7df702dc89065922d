@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9f04c96_25156538",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001965
+      },
+      "writtenOn": "2021-09-09T08:36:09Z",
+      "side": 1,
+      "message": "Andras, could you please review it. Thank you\n\nFor story, Ales\u0027s license statement is here https://lists.freedesktop.org/archives/libreoffice/2021-September/087822.html",
+      "revId": "0de94c9788533eaa28f3a2c7df702dc89065922d",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
