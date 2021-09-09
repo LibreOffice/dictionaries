@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc0f6fb8_a1794126",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003347
+      },
+      "writtenOn": "2021-09-09T11:06:36Z",
+      "side": 1,
+      "message": "Sorry, Dictionary_be.mk fixed also. See Patchset #4",
+      "revId": "af7ff3718914a8d5bd77c5a5dc518ef2577ba3c6",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
