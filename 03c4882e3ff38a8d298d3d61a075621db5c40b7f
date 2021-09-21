@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a120f17_ead0363a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2021-09-21T09:39:24Z",
+      "side": 1,
+      "message": "Hi Aleś, \n\nThis patch looks generally OK to me, see a small change request below. \n\nIf there were any discussions at other places than gerrit, I missed them. So I don\u0027t know why Roman Kuznetsov gave -2. Roman, could you please let me know?\n\nIt seems to me that this patch is not an update to the old dictionary, but a different dictionary by a different author. I\u0027d appreciate some explanation in the commit message, i.e. why the old dictionary became obsolete, and why the new is better. \n\nThe unmunch tool from hunspell crashes on the new dictionary. Surely, it is a bug in unmunch, it should not crash. But probably the bug is triggered by an error in .dic or .aff. I don\u0027t know about other methods to validate .dic and .aff. How were they generated? Is there a public repo of the source code?",
+      "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "818a58e1_eead70a3",
+        "filename": "be_BY/description.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2021-09-21T09:39:24Z",
+      "side": 1,
+      "message": "Please change \"en\" to \"en-US\" otherwise localization tools will not extract the description for translation.",
+      "range": {
+        "startLine": 9,
+        "startChar": 16,
+        "endLine": 9,
+        "endChar": 18
+      },
+      "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
