@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a03cd66e_1b0fabdb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001965
+      },
+      "writtenOn": "2021-09-22T08:48:37Z",
+      "side": 1,
+      "message": "Hi, Andras. Thank you for review.\nAbout my -2: It were some unneeded politic things here. And today I still can\u0027t understand why he deleted current dictionaries and added some new with \"official\" names",
+      "parentUuid": "9a120f17_ead0363a",
+      "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "818a58e1_eead70a3",
         "filename": "be_BY/description.xml",
         "patchSetId": 4
