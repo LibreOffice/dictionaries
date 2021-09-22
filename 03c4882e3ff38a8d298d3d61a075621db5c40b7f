@@ -72,6 +72,24 @@
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "af5b6c8a_2db0b2f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003347
+      },
+      "writtenOn": "2021-09-22T11:19:19Z",
+      "side": 1,
+      "message": "\"Official\" means official orthography. There is also widely-used \"Classical Orthography\" or \"Taraškievica\" (https://en.wikipedia.org/wiki/Tara%C5%A1kievica). Rules for official orthography were revised in 2008. This dictionary fully correspond with new(2008) rules and academic dictionaries. Old LibreOffice dictionary contained words by 1957 rules. Differences between 1957 and 2008 rules are not so big, but they exist.\nSo, if you think that other filenames will be better - it\u0027s not a problem. Just said me which one, and I will rename files.",
+      "parentUuid": "008bfa02_18aa4e32",
+      "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "818a58e1_eead70a3",
