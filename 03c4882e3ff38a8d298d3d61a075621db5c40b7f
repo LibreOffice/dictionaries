@@ -36,6 +36,24 @@
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "77197a6e_d8f442e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003347
+      },
+      "writtenOn": "2021-09-22T11:01:05Z",
+      "side": 1,
+      "message": "Hi Andras.\n\nRoman and Mike said that I used wrong picture of flag for Belarus(https://en.wikipedia.org/wiki/Flag_of_Belarus#White-red-white_flag). Okay, it makes sense, but all LibreOffice extensions https://extensions.libreoffice.org/?q\u003dbelarusian\u0026action_doExtensionSearch\u003dSearch use wrong flags: soviet flags. So, I just removed flag picture from package, asked for Mike to approve, but still waiting for any response.\n\nIt\u0027s really new dictionary, which is based on the new Belarusian grammar database. This database contains ~265ths paradigm and ~4.5mln wordforms. It\u0027s most complete list of words of Belarusian language for today. Dictionary for LibreOffice doesn\u0027t include all words, of course, but only words from official academic dictionaries. This database will be officially released at the beginning of October under the label of the Institute of Linguistics of the National Academy of Sciences of Belarus. Now, you can download very old version from https://bnkorpus.info/nkorpus-grammar.zip, but new version will be published at the https://github.com/Belarus/GrammarDB after official release. Old dictionary doesn\u0027t contain so complete list of wordforms(there are many missed words) and was based on old lists of words from different sources.\nShould I put this explanation somewhere else ?\n\nI created hunspell files by https://github.com/hunspell/hunspell/blob/master/src/tools/affixcompress script. I can send you source .add and .dic files if you want.\n\nAbout \"en -\u003e en-US\" change in the description.xml. Should I change it in the \"publisher\" tag also, and change \"be -\u003e be-BY\" ?",
+      "parentUuid": "9a120f17_ead0363a",
+      "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "818a58e1_eead70a3",
