@@ -125,6 +125,24 @@
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5dd0aaf3_ee7cd1fd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000321
+      },
+      "writtenOn": "2021-09-25T18:04:57Z",
+      "side": 1,
+      "message": "And, as András requested, please spell out the details of the change in the commit message, for posterity (one day we could stop using Gerrit and the knowledge gained in this thread could be lost; the commit messages are permanent.)",
+      "parentUuid": "532a51f9_b7f35d48",
+      "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "818a58e1_eead70a3",
