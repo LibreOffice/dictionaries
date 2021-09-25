@@ -108,6 +108,23 @@
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "532a51f9_b7f35d48",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000321
+      },
+      "writtenOn": "2021-09-25T18:01:38Z",
+      "side": 1,
+      "message": "As András pointed out, you still need to change «name lang\u003d\"en\"» to «name lang\u003d\"en-US\"» so that our localization tooling picks up the string and we can translate it through Weblate.",
+      "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "818a58e1_eead70a3",
