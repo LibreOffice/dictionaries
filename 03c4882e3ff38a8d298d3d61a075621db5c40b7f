@@ -90,6 +90,24 @@
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "739de418_e4704d8f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000321
+      },
+      "writtenOn": "2021-09-25T17:56:34Z",
+      "side": 1,
+      "message": "\u003e So, if you think that other filenames will be better - it\u0027s not a problem. Just said me which one, and I will rename files.\n\nI think the current filenames are OK, and they shouldn’t be a blocker for merging. Thank you for the explanation!",
+      "parentUuid": "af5b6c8a_2db0b2f0",
+      "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "818a58e1_eead70a3",
