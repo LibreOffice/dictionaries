@@ -256,7 +256,7 @@ def suggest_foreign(word):
 
 
 def measurement(mnum, min, mout, mstr):
-    m = calc("CONVERT_ADD", (float(mnum.replace(",", ".").replace(u"\u2212", "-")), min, mout))
+    m = calc("CONVERT", (float(mnum.replace(",", ".").replace(u"\u2212", "-")), min, mout))
     a = list(set([str(calc("ROUND", (m, 0)))[:-2], str(calc("ROUND", (m, 1))), str(calc("ROUND", (m, 2))), str(m)])) # remove duplicated rounded items
     a.sort(key=lambda x: len(x)) # sort by string length
     return (mstr + "|").join(a).replace(".", ",").replace("-", u"\u2212") + mstr

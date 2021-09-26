@@ -24417,7 +24417,7 @@ acvbPst = set(["aluem",
 def measurement(mnum, min, mout, mstr, decimal, remove):
     if min == "ft" or min == "in" or min == "mi":
         mnum = mnum.replace(" 1/2", ".5").replace(u" ½", ".5").replace(u"½",".5")
-    m = calc("CONVERT_ADD", (float(eval(mnum.replace(remove, "").replace(decimal, ".").replace(u"\u2212", "-"))), min, mout))
+    m = calc("CONVERT", (float(eval(mnum.replace(remove, "").replace(decimal, ".").replace(u"\u2212", "-"))), min, mout))
     a = list(set([str(calc("ROUND", (m, 0)))[:-2], str(calc("ROUND", (m, 1))), str(calc("ROUND", (m, 2))), str(m)])) # remove duplicated rounded items
     a.sort(key=lambda x: len(x)) # sort by string length
     return (mstr + "\n").join(a).replace(".", decimal).replace("-","\u2212") + mstr
