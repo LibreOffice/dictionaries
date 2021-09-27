@@ -164,6 +164,30 @@
       },
       "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b754aca6_a6de8640",
+        "filename": "be_BY/description.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2021-09-27T08:14:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "818a58e1_eead70a3",
+      "range": {
+        "startLine": 9,
+        "startChar": 16,
+        "endLine": 9,
+        "endChar": 18
+      },
+      "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
