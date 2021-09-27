@@ -188,6 +188,30 @@
       },
       "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f063c42a_76bb98e9",
+        "filename": "be_BY/description.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003347
+      },
+      "writtenOn": "2021-09-27T09:36:03Z",
+      "side": 1,
+      "message": "Andras, thank you for fixing description.xml",
+      "parentUuid": "b754aca6_a6de8640",
+      "range": {
+        "startLine": 9,
+        "startChar": 16,
+        "endLine": 9,
+        "endChar": 18
+      },
+      "revId": "03c4882e3ff38a8d298d3d61a075621db5c40b7f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
