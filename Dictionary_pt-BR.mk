@@ -28,7 +28,6 @@ $(eval $(call gb_Dictionary_add_files,dict-pt-BR,dialog,\
     dictionaries/pt_BR/dialog/pt_BR.xdl \
     dictionaries/pt_BR/dialog/pt_BR_pt_BR.default \
     dictionaries/pt_BR/dialog/pt_BR_pt_BR.properties \
-    dictionaries/pt_BR/dialog/pt_BR_en_US.properties \
 ))
 
 $(eval $(call gb_Dictionary_add_files,dict-pt-BR,pythonpath,\
@@ -47,5 +46,10 @@ $(eval $(call gb_Dictionary_add_generated_file,dict-pt-BR,dialog/OptionsDialog.x
 $(eval $(call gb_Dictionary_add_localized_xcu_file,dict-pt-BR,dialog,\
     dictionaries/pt_BR/dialog/registry/data/org/openoffice/Office/OptionsDialog.xcu \
 ))
+
+$(eval $(call gb_Dictionary_add_propertyfiles,dict-pt-BR,dialog,\
+    dictionaries/pt_BR/dialog/pt_BR_en_US.properties \
+))
+
 
 # vim: set noet sw=4 ts=4:
