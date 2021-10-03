@@ -1,0 +1,31 @@
+<o:items xmlns:o="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tmpl="uri://nrsi.sil.org/template/0.1" xmlns:tmpla="uri://nrsi.sil.org/template_attributes/0.1">
+ <item o:path="/org.openoffice.VCL">
+    <node o:name="ExtraLanguages">
+      <node o:name="ckb" o:op="fuse">
+        <prop o:name="Name" o:type="xs:string">
+          <value>Central Kurdish (Sorani)</value>
+        </prop>
+        <prop o:name="ScriptType" o:type="xs:int">
+          <value>4</value>
+        </prop>
+      </node>
+    </node>
+   </item>
+ <item o:path="/org.openoffice.Office.Linguistic">
+    <node o:name="ServiceManager">
+      <node o:name="Dictionaries">
+        <node o:name="HunSpellDic_ckb" o:op="fuse">
+          <prop o:name="Locations" o:type="o:string-list">
+            <value>%origin%/dictionaries/ckb.aff %origin%/dictionaries/ckb.dic</value>
+          </prop>
+          <prop o:name="Format" o:type="xs:string">
+            <value>DICT_SPELL</value>
+          </prop>
+          <prop o:name="Locales" o:type="o:string-list">
+            <value>ckb</value>
+          </prop>
+        </node>
+      </node>
+    </node>
+  </item>
+</o:items>
