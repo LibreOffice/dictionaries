@@ -27,6 +27,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_br \
 	Dictionary_bs \
 	Dictionary_ca \
+	Dictionary_ckb \
 	Dictionary_cs \
 	Dictionary_da \
 	Dictionary_de \

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:items xmlns:o="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tmpl="uri://nrsi.sil.org/template/0.1" xmlns:tmpla="uri://nrsi.sil.org/template_attributes/0.1">
+ <item oor:path="/org.openoffice.VCL">
+    <node oor:name="ExtraLanguages">
+      <node oor:name="ckb" oor:op="fuse">
+        <prop oor:name="Name" oor:type="xs:string">
+          <value>Central Kurdish (Sorani)</value>
+        </prop>
+        <prop oor:name="ScriptType" oor:type="xs:int">
+          <value>4</value>
+        </prop>
+      </node>
+    </node>
+   </item>
+ <item oor:path="/org.openoffice.Office.Linguistic">
+ <oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Linguistic" oor:package="org.openoffice.Office">
+    <node oor:name="ServiceManager">
+      <node oor:name="Dictionaries">
+        <node oor:name="HunSpellDic_ckb" oor:op="fuse">
+          <prop oor:name="Locations" oor:type="oor:string-list">
+            <value>%origin%/ckb.aff %origin%/ckb.dic</value>
+          </prop>
+          <prop oor:name="Format" oor:type="xs:string">
+            <value>DICT_SPELL</value>
+          </prop>
+          <prop oor:name="Locales" oor:type="oor:string-list">
+            <value>ckb</value>
+          </prop>
+        </node>
+      </node>
+    </node>
+</oor:component-data>
