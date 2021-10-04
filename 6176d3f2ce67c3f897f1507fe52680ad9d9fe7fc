@@ -16,6 +16,24 @@
       "message": "This seems to have broken some MSI packaging, at least https://ci.libreoffice.org/job/lo_daily_tb_win_arm64/ is unhappy since that commit.",
       "revId": "6176d3f2ce67c3f897f1507fe52680ad9d9fe7fc",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf0d75d5_6a3fd6e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2021-10-04T07:51:07Z",
+      "side": 1,
+      "message": "I wonder, if it\u0027s because of incremental build. I\u0027ll check. Thanks.",
+      "parentUuid": "e9cc72ac_27b67147",
+      "revId": "6176d3f2ce67c3f897f1507fe52680ad9d9fe7fc",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
