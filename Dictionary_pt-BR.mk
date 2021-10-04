@@ -27,8 +27,13 @@ $(eval $(call gb_Dictionary_add_root_files,dict-pt-BR,\
 $(eval $(call gb_Dictionary_add_files,dict-pt-BR,dialog,\
     dictionaries/pt_BR/dialog/pt_BR.xdl \
     dictionaries/pt_BR/dialog/pt_BR_pt_BR.default \
+))
+
+ifeq (,$(findstring pt-BR,$(gb_WITH_LANG)))
+$(eval $(call gb_Dictionary_add_files,dict-pt-BR,dialog,\
     dictionaries/pt_BR/dialog/pt_BR_pt_BR.properties \
 ))
+endif
 
 $(eval $(call gb_Dictionary_add_files,dict-pt-BR,pythonpath,\
     dictionaries/pt_BR/pythonpath/lightproof_pt_BR.py \
