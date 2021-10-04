@@ -34,6 +34,24 @@
       "parentUuid": "e9cc72ac_27b67147",
       "revId": "6176d3f2ce67c3f897f1507fe52680ad9d9fe7fc",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "824d9102_4665332f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2021-10-04T13:25:42Z",
+      "side": 1,
+      "message": "I fixed the issue with https://gerrit.libreoffice.org/c/dictionaries/+/123048",
+      "parentUuid": "bf0d75d5_6a3fd6e0",
+      "revId": "6176d3f2ce67c3f897f1507fe52680ad9d9fe7fc",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
