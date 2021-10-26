@@ -9,6 +9,10 @@
 
 Өөрчлөн тараахыг хориглоно. Зохиогчийн эрх хуулиар хамгаалагдсан.
 
+Уг толийг хэрэглээний программууд дээр хэрхэн ашиглах талаарх зааварчилгыг
+  https://zuv.bichig.dev
+цахим хуудаснаас авна уу!
+
 ---
 
 Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
@@ -27,5 +31,5 @@ This work has the LPPL maintenance status maintained.
 
 The Current Maintainer of this work is Batmunkh Dorjgotov.
 
-This work consists of the files mn_MN.aff, mn_MN.dic, mn_MN.zip and
-README_mn_MN.txt.
+This work consists of the files mn_MN.aff, mn_MN.dic, dict-mn.oxt, and
+README_mn_MN.txt and the derived file hyph_mn_MN.dic from mnhyphn.tex.
