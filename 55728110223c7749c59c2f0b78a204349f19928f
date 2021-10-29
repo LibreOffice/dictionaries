@@ -85,6 +85,23 @@
       "message": "(And now I fully expect a reply along the lines of \"ha ha, you mentioned Wiktionary, how amateurish, when there are Oxford Professors on the other side!!!\")",
       "revId": "55728110223c7749c59c2f0b78a204349f19928f",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a77ae980_36f6aef6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001300
+      },
+      "writtenOn": "2021-10-29T10:50:21Z",
+      "side": 1,
+      "message": "No, you are right about \"aby\":\n\n21-JUL-2021\n***Words by Professor Philip Taylor and Dominic Wujastyk ***\n74191) absorbability\n74192) absorbability\u0027s\n74193) absorbable\n74194) absorbedly\n74195) abulia\n74196) abulia\u0027s\n74197) abulic\n74198) absentness\n74199) absentness\u0027s\n74200) aby\n\nI added it in July.\n\nBut you must understand that I can\u0027t delete it because I already have the add-ons packed and uploaded for Mozilla, BlueGriffon and OpenOffice/LibreOffice.\n\nI will remove it in the next release of the add-ons and in May 2022 (for LO 7.4) it will be committed.\n\nAlso, people who will manually download the 2021.12.01 .oxt within a month will have the fix.\n\nThanks for your understanding.\n\nKind regards from the the LibreOffice contributor, Marco A.G.Pinto.",
+      "revId": "55728110223c7749c59c2f0b78a204349f19928f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
