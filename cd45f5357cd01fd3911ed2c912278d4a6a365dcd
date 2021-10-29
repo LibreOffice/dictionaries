@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0af760b4_f0604f9e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2021-10-29T07:54:18Z",
+      "side": 1,
+      "message": "Maybe add the source of the new words? Theres the changelog, but the commit msg is much more visible",
+      "revId": "cd45f5357cd01fd3911ed2c912278d4a6a365dcd",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb3bf8ae_9164446a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2021-10-29T07:54:18Z",
+      "side": 1,
+      "message": "Can\u0027t comment on the actual words added, having a source reference would therefore help. Otherwise LGTM.",
+      "revId": "cd45f5357cd01fd3911ed2c912278d4a6a365dcd",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
