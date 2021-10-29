@@ -16,6 +16,23 @@
       "message": "Sorry, but I really think it is counter-productive to add extremely rarely used short words like \"Ar.\" I am willing to bet that in the vast majority of cases where a user has typed \"Ar\" into a document, they are not writing about the city in ancient Moab, but it is simply a typo for \"Are\".",
       "revId": "55728110223c7749c59c2f0b78a204349f19928f",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a84b2155_170ab095",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001300
+      },
+      "writtenOn": "2021-10-29T09:51:51Z",
+      "side": 1,
+      "message": "https://www.lexico.com/en/definition/Ar\n\n\"Ar\" is the chemical element argon.\n\nIt makes sense to have it there along with the other elements and it is in uppercase,so if one types \"ar\" in lowercase it will be flagged as an error.\n\nThe chemical elements are basic words, I simply can\u0027t leave them out.\n\n:-(",
+      "revId": "55728110223c7749c59c2f0b78a204349f19928f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
