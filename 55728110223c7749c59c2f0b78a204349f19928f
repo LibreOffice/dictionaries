@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd0d558d_41934137",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2021-10-29T09:25:42Z",
+      "side": 1,
+      "message": "Sorry, but I really think it is counter-productive to add extremely rarely used short words like \"Ar.\" I am willing to bet that in the vast majority of cases where a user has typed \"Ar\" into a document, they are not writing about the city in ancient Moab, but it is simply a typo for \"Are\".",
+      "revId": "55728110223c7749c59c2f0b78a204349f19928f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
