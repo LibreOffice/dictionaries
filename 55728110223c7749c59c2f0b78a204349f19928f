@@ -33,6 +33,24 @@
       "message": "https://www.lexico.com/en/definition/Ar\n\n\"Ar\" is the chemical element argon.\n\nIt makes sense to have it there along with the other elements and it is in uppercase,so if one types \"ar\" in lowercase it will be flagged as an error.\n\nThe chemical elements are basic words, I simply can\u0027t leave them out.\n\n:-(",
       "revId": "55728110223c7749c59c2f0b78a204349f19928f",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e48553c_0d69fbb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2021-10-29T10:29:02Z",
+      "side": 1,
+      "message": "That the word exists is not in doubt. My point was that it is counter-productive to include it. But I understand that resistance is futile...",
+      "parentUuid": "a84b2155_170ab095",
+      "revId": "55728110223c7749c59c2f0b78a204349f19928f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
