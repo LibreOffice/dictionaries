@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="3.2.15" />
+    <version value="3.3.0" />
     <identifier value="brazilian.portuguese.reform1990-dictionary.from.vero.by.raimundomoura" />
     <display-name>
-        <name lang="en-US">Spelling, hyphenation and grammar checking tools for Brazilian Portuguese</name>
-        <name lang="pt-BR">Ortografia, gramática e hifenização para Português Brasileiro</name>
+        <name lang="en-US">Spelling, thesaurus, hyphenation and grammar checking tools for Brazilian Portuguese</name>
+        <name lang="pt-BR">Ortografia, sinônimos, gramática e hifenização para Português Brasileiro</name>
     </display-name>
     <platform value="all" />
     <icon>
