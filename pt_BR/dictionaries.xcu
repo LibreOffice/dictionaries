@@ -26,6 +26,17 @@
             </prop>
         </node>
 
+        <node oor:name="ThesDic_pt_BR" oor:op="fuse">
+            <prop oor:name="Locations" oor:type="oor:string-list">
+                <value>%origin%/th_pt_BR.dat %origin%/th_pt_BR.idx</value>
+            </prop>
+            <prop oor:name="Format" oor:type="xs:string">
+                <value>DICT_THES</value>
+            </prop>
+            <prop oor:name="Locales" oor:type="oor:string-list">
+                <value>pt-BR</value>
+            </prop>
+        </node>
     </node>
  </node>
 </oor:component-data>
