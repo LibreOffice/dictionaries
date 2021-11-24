@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "986cbbf4_b9564641",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000059
+      },
+      "writtenOn": "2021-11-24T21:59:07Z",
+      "side": 1,
+      "message": "Still need more work. \n\nThe dictionary builds and is visible in the Extension Manager.\n\nHowever the dict is not available in the user interface.\n\nIt needs to check for packaging and distribution.",
+      "revId": "279418d37ada51c7f4f62dfed0ed3af18d10ba31",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
