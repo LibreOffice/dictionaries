@@ -170,6 +170,23 @@
       "message": "Can’t build ATM but LGTM",
       "revId": "55728110223c7749c59c2f0b78a204349f19928f",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2cd886f_6dfbb365",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000863
+      },
+      "writtenOn": "2021-11-24T03:42:35Z",
+      "side": 1,
+      "message": "Let\u0027s merge, thanks, Marco!",
+      "revId": "55728110223c7749c59c2f0b78a204349f19928f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
