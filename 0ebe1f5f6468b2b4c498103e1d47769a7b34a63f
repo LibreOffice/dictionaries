@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bff26c1_765cdd8d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003485
+      },
+      "writtenOn": "2021-12-03T11:48:46Z",
+      "side": 1,
+      "message": "Looking at the diff with previous dictionary, it looks like some words, such as Abdülcelil, are not included in your dictionary. Is there a good reason for this? ",
+      "revId": "0ebe1f5f6468b2b4c498103e1d47769a7b34a63f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
