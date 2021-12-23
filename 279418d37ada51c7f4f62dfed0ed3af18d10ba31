@@ -16,6 +16,24 @@
       "message": "Still need more work. \n\nThe dictionary builds and is visible in the Extension Manager.\n\nHowever the dict is not available in the user interface.\n\nIt needs to check for packaging and distribution.",
       "revId": "279418d37ada51c7f4f62dfed0ed3af18d10ba31",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28d1bbad_c6082a82",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003130
+      },
+      "writtenOn": "2021-12-23T08:22:10Z",
+      "side": 1,
+      "message": "\u003e Still need more work. \n\u003e \n\u003e The dictionary builds and is visible in the Extension Manager.\n\u003e \n\u003e However the dict is not available in the user interface.\n\u003e \n\u003e It needs to check for packaging and distribution.\n\nHey\nIt\u0027s working but i had to enable Complex text layout (CTL) option in settings then it shows up in dictionary list.\nhttps://ibb.co/PQDDH35\nhttps://ibb.co/h9cDNCp",
+      "parentUuid": "986cbbf4_b9564641",
+      "revId": "279418d37ada51c7f4f62dfed0ed3af18d10ba31",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
