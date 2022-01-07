@@ -16,6 +16,24 @@
       "message": "Looking at the diff with previous dictionary, it looks like some words, such as Abdülcelil, are not included in your dictionary. Is there a good reason for this? ",
       "revId": "0ebe1f5f6468b2b4c498103e1d47769a7b34a63f",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52d5f40c_b90b131e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003308
+      },
+      "writtenOn": "2022-01-07T14:28:08Z",
+      "side": 1,
+      "message": "We have noticed that we had not added a proper names dictionary. I have updated the dictionary to include the difference between the word sets of our dictionary and the original dictionary.",
+      "parentUuid": "3bff26c1_765cdd8d",
+      "revId": "0ebe1f5f6468b2b4c498103e1d47769a7b34a63f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }

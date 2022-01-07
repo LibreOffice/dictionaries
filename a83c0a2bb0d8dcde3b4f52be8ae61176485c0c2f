@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22d29136_163b50e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003308
+      },
+      "writtenOn": "2022-01-07T14:28:08Z",
+      "side": 1,
+      "message": "Thanks for reviewing this!\nWe have updated our dictionary to include all missing words by looking at the difference between the word set of the original dictionary and our word set.",
+      "revId": "a83c0a2bb0d8dcde3b4f52be8ae61176485c0c2f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
