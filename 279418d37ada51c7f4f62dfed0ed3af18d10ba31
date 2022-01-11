@@ -87,6 +87,40 @@
       "parentUuid": "b536a10a_86c8d682",
       "revId": "279418d37ada51c7f4f62dfed0ed3af18d10ba31",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75ed56c8_4a6396b5",
+        "filename": "description.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000023
+      },
+      "writtenOn": "2022-01-11T17:45:57Z",
+      "side": 1,
+      "message": "This is wrong. This file must not exist, or rather only in the ckb/ directory.",
+      "revId": "279418d37ada51c7f4f62dfed0ed3af18d10ba31",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfd95357_26da8f46",
+        "filename": "dictionaries.xcu",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000023
+      },
+      "writtenOn": "2022-01-11T17:45:57Z",
+      "side": 1,
+      "message": "This is wrong. This file must not exist, or rather only in the ckb/ directory.",
+      "revId": "279418d37ada51c7f4f62dfed0ed3af18d10ba31",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
