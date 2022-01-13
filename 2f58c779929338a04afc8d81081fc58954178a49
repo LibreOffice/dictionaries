@@ -16,6 +16,23 @@
       "message": "Uploaded correction but still the spell checker does not show in UI.",
       "revId": "2f58c779929338a04afc8d81081fc58954178a49",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d10d8819_252d6fbf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2022-01-13T15:48:10Z",
+      "side": 1,
+      "message": "Note: to actually add it to the installation sets, changes are also necessary in core to add it to the packaging code (scp2 \u0026 setup_native) see https://gerrit.libreoffice.org/c/core/+/59882 or https://gerrit.libreoffice.org/c/core/+/106840/3#message-c3c4143948fb7078d82467e28c1dba4f38ecc7cb for samples",
+      "revId": "2f58c779929338a04afc8d81081fc58954178a49",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
