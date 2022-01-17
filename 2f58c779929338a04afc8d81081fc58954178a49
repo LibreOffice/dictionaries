@@ -56,6 +56,30 @@
       },
       "revId": "2f58c779929338a04afc8d81081fc58954178a49",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15613c09_638e427d",
+        "filename": "ckb/dictionaries.xcu",
+        "patchSetId": 6
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000023
+      },
+      "writtenOn": "2022-01-17T18:14:29Z",
+      "side": 1,
+      "message": "Indeed.. even if it would be correct XML it would be unnecessary, we don\u0027t need a \u0027ckb\u0027-only ExtraLanguages definition, we already have defined ckb-IQ and ckb-IR for the language list and as CTL/RTL ScriptType. That\u0027s probably an oddment of when the dictionary was a standalone extension (the file previously was in the parent directory).",
+      "parentUuid": "954d88a5_920845d3",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 52
+      },
+      "revId": "2f58c779929338a04afc8d81081fc58954178a49",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
