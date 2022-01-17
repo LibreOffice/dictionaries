@@ -16,6 +16,23 @@
       "message": "fixed dictionaries.xcu",
       "revId": "07a1d906fc28383156e3292267aa6e0af0254583",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "749b3b5d_6ad13455",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000059
+      },
+      "writtenOn": "2022-01-17T21:46:24Z",
+      "side": 1,
+      "message": "Do we need ckb_IQ.xml and ckb_IR.xml entries in i18npool/source/localedata/data/ to make ckb dictionary show as available in Tools - Options - Languages Settings - Language - Default Languages for Doucments - CTL?",
+      "revId": "07a1d906fc28383156e3292267aa6e0af0254583",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
