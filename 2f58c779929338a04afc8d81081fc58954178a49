@@ -33,6 +33,29 @@
       "message": "Note: to actually add it to the installation sets, changes are also necessary in core to add it to the packaging code (scp2 \u0026 setup_native) see https://gerrit.libreoffice.org/c/core/+/59882 or https://gerrit.libreoffice.org/c/core/+/106840/3#message-c3c4143948fb7078d82467e28c1dba4f38ecc7cb for samples",
       "revId": "2f58c779929338a04afc8d81081fc58954178a49",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "954d88a5_920845d3",
+        "filename": "ckb/dictionaries.xcu",
+        "patchSetId": 6
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2022-01-17T10:24:38Z",
+      "side": 1,
+      "message": "this is malformed/invalid xml. Remove that block and it will at least be available in format|character / in paragraph templates.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 52
+      },
+      "revId": "2f58c779929338a04afc8d81081fc58954178a49",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
