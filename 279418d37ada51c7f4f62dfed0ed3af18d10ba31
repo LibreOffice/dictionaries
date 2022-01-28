@@ -89,6 +89,24 @@
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3666ba69_a0e750e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000059
+      },
+      "writtenOn": "2022-01-28T17:00:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "797931c1_096e39b2",
+      "revId": "279418d37ada51c7f4f62dfed0ed3af18d10ba31",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "75ed56c8_4a6396b5",
@@ -106,6 +124,24 @@
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "00dc464a_a6a93251",
+        "filename": "description.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000059
+      },
+      "writtenOn": "2022-01-28T17:00:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "75ed56c8_4a6396b5",
+      "revId": "279418d37ada51c7f4f62dfed0ed3af18d10ba31",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dfd95357_26da8f46",
@@ -119,6 +155,24 @@
       "writtenOn": "2022-01-11T17:45:57Z",
       "side": 1,
       "message": "This is wrong. This file must not exist, or rather only in the ckb/ directory.",
+      "revId": "279418d37ada51c7f4f62dfed0ed3af18d10ba31",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd254cc6_3d51eada",
+        "filename": "dictionaries.xcu",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000059
+      },
+      "writtenOn": "2022-01-28T17:00:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dfd95357_26da8f46",
       "revId": "279418d37ada51c7f4f62dfed0ed3af18d10ba31",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
