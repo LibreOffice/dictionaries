@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "989247ce_9107e858",
+        "filename": "ckb/description.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000023
+      },
+      "writtenOn": "2022-01-31T22:20:40Z",
+      "side": 1,
+      "message": "Seeing the license there\nhttps://github.com/sinaahmadi/KurdishHunspell/blob/main/LICENSE\nit is CC-BY-SA-4.0.\nIf we\u0027re about to bundle this dictionary it will need to be acknowledged in the main 3rd-party license file, core repository readlicense_oo/license/license.xml (hence in a separate commit) under the a__Dictionaries anchor, like a bunch of other dictionaries.",
+      "revId": "4e833ddfc567b123433cdc39a6146689154bd48e",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
