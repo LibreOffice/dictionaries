@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49d5563d_45a6db0a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002862
+      },
+      "writtenOn": "2022-02-09T20:07:50Z",
+      "side": 1,
+      "message": "Up to Patchset 4 the following entries were fixed:\npugnadpr, ehoramingâo, firmeiexatidãoo, estofar/estrondo, puro/correio, objeção/baixeza, absurdo/aberração, mimo/carinho, delicado/delgado, desvalia/desprestígio, descoberta/descobrimento, terminar/finalizar, dor/angústia, {jossante, ©bsi, água que boi não bebe, água que passarinho não bebe, anttgo, anttpâtico, anttlistco, anttouârío, versatil, versatilidadevariabilidade, intentoachado, negativo°coibitivo, abençoar?louvar, atascar?chafurdar, camponês?rústico, juiz?modelo, suspeita?conjectura, amofi°nar, m°desculpável, negativo°coibitivo, pro°vocar, que°tal, liss5dao, intrín-seco\n\nIn Patchset 5 the following entries were fixed:\ninclinar-ser, inclinarse, per-severança, per-severante, humilhar-ser, abjurai9, es-sencial, desassos-segado, nau-seabundo, repulsivoasqueroso, arruinar-ser, gros-seria, gros-seiro, para outro lado de, ag3ermanar, igualarunir, ligaree, de lado a lado, de gosto, de-sejo, de-sembaciar, de-sembaraçar, de-senfcitar, de-senganado, de-sengasgar, de-senredar, de-senrolar, de-sentenebrecer, de-sentupir, de-sesperança, de-sesperançar, de-sesperançar-se, de-sespero, acon-selhar, desadoraar, desimpedirdesatravancar, dcscôco, deagoraemdiantei, paraofuturo, fazer-serde, fazersair, contra-sernso, blasfémia",
+      "revId": "05ab04b0b557aee7e5190bb28215dcd9a9e64439",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
