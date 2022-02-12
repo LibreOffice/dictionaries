@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6aefc26b_8f49d26a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002862
+      },
+      "writtenOn": "2022-02-12T20:57:39Z",
+      "side": 1,
+      "message": "In Patchset 6 the following entries were fixed:\ncon-serntimento, con-servar, distinguir-ser, distrair-ser, divertir-ser, enfunar-ser, enfurecer-ser, entreter-ser, envolver-ser, desenvolverse, envolverse, in-serto, in-sensível, lançar-ser, passar-ser, vangloriar-serjactar-ser, ",
+      "revId": "436753d84de419769432fc952e30c5649ff834a6",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
