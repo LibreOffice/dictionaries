@@ -16,6 +16,24 @@
       "message": "Seeing the license there\nhttps://github.com/sinaahmadi/KurdishHunspell/blob/main/LICENSE\nit is CC-BY-SA-4.0.\nIf we\u0027re about to bundle this dictionary it will need to be acknowledged in the main 3rd-party license file, core repository readlicense_oo/license/license.xml (hence in a separate commit) under the a__Dictionaries anchor, like a bunch of other dictionaries.",
       "revId": "4e833ddfc567b123433cdc39a6146689154bd48e",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0340286e_88f68aad",
+        "filename": "ckb/description.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000023
+      },
+      "writtenOn": "2022-02-12T15:13:09Z",
+      "side": 1,
+      "message": "Done in https://gerrit.libreoffice.org/c/core/+/129120 along with scp2 and setup_native.",
+      "parentUuid": "989247ce_9107e858",
+      "revId": "4e833ddfc567b123433cdc39a6146689154bd48e",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
