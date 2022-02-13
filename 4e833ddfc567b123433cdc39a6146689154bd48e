@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f68f393d_0d57d467",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000023
+      },
+      "writtenOn": "2022-02-13T13:42:38Z",
+      "side": 1,
+      "message": "Just write exactly what I gave as example:\n\nAll of my past \u0026 future contributions to LibreOffice may be\nlicensed under the MPLv2/LGPLv3+ dual license.",
+      "parentUuid": "2e91d4e6_7e75c9b1",
+      "revId": "4e833ddfc567b123433cdc39a6146689154bd48e",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "989247ce_9107e858",
         "filename": "ckb/description.xml",
         "patchSetId": 8
