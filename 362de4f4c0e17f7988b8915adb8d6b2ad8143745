@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b259f33_b8f41f9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000023
+      },
+      "writtenOn": "2022-02-14T17:28:41Z",
+      "side": 1,
+      "message": "  \u003cname lang\u003d\"en-US\"\u003eCentral Kurdish (Sorani) spelling dictionary\u003c/name\u003e\n\nen-US for translations, and it\u0027s a spelling dictionary, not a spell checker.\n",
+      "revId": "362de4f4c0e17f7988b8915adb8d6b2ad8143745",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
