@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "98d1dc15_78773c1f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000023
+      },
+      "writtenOn": "2022-02-14T17:13:06Z",
+      "side": 1,
+      "message": "Removed the superfluous template comments and namespaces in this patch set.",
+      "revId": "347aa7c31e139f7937efc05fbb34a7e0381b28b7",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
