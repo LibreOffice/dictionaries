@@ -16,6 +16,23 @@
       "message": "Patchset 7 fixes the following words:\nabalarse, abaterse, abespinharse, absorverse, absterse, acautelarse, acovardarse, adaptarse, adensarse, adiantarse, admirarse, afigurarse, afligirse, agarrarse, agastarse, agitarse, ajoelharse, alastrarse, alegrarse, amercearse, apiedarse, apinharse, aplicarse, apoiarse, armarse, arreliarse, arrependerse, assemelharse, atascarse, atolarse, atracarse, atrapalharse, bandearse, banharse, basearse, calarse, celebrizarse, chafurdarse, chocarse, cifrarse, cindirse, combinarse, comiserarse, compadecerse, compenetrarse, comporse, comportarse, concentrarse, concluirse, conduzirse, conformarse, confundirse, consagrarse, constiparse, constituirse, contorcerse, contrairse, convencerse, corromperse, curvarse, danarse, debaterse, debilitarse, dedicarse, deformarse, defrontarse, deitarse, deleitarse, demorarse, desalentarse, desanimarse, descuidarse, desculparse, desfazerse, desmandarse, despenharse, desvelarse, deterse, distinguirse, dizerse, dobrarse, elevarse, embaraçarse, embasbacarse, embeberse, embeiçarse, emboscarse, embrenharse, empanarse, empenharse, encaminharse, encanzinarse, encerrarse, encolerizarse, encontrarse, encresparse, endefluxarse, endividarse, enervarse, enfatuarse, enfurecerse, engalfinharse, enganarse, enjerizarse, enlamearse, enlevarse, enredarse, ensimesmarse, ensoberbarse, ensoberbecerse, enternecerse, entocaiarse, entorse, entregarse, entusiasmarse, envaidecerse, envergonharse, equivocarse, erguerse, escafederse, escoarse, esconderse, esgueirarse, esmerarse, espalharse, espojarse, esquentarse, esquivarse, evadirse, evaporarse, evolarse, exaltarse, exasperarse, expandirse, extinguirse, extremarse, fecharse, fenderse, ferirse, fiarse, fraturarse, fundarse, furtarse, generalizarse, harmonizarse, haverse, honrarse, hospedarse, humilharse, ilustrarse, imobilizarse, imobizarse, insinuarse, interessarse, internarse, introduzirse, intrometerse, irarse, irritarse, irse, jactarse, lastimarse, lembrarse, limitarse, livrarse, manterse, meterse, multiplicarse, murcharse, notabilizarse, obrigarse, obstinarse, oferecerse, oporse, orgulharse, partirse, passarse, pavonearse, penitenciarse, perturbarse, perverterse, portarse, precaverse, premunirse, prenderse, preocuparse, prepararse, prestarse, prevenirse, privarse, propagarse, prostrarse, provirse, rasparse, reabilitarse, rebolarse, reclinarse, recostarse, recrearse, referirse, regorizarse, renderse, reproduzirse, resfriarse, resignarse, respeitarse, restabelecerse, restringirse, resumirse, retirarse, retorcerse, saberse, safarse, salientarse, seguirse, submeterse, sujarse, sujeitarse, sustentarse, terse, torcerse, transviarse, ufanarse, valerse, vangloriarse, volatilizarse, zangarse, ",
       "revId": "8bef0f1491f0dcb046e82712dc061edf219f14d3",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7967b185_395838f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002862
+      },
+      "writtenOn": "2022-02-14T13:29:07Z",
+      "side": 1,
+      "message": "In the previous message I meant \"Patchset 8\".",
+      "revId": "8bef0f1491f0dcb046e82712dc061edf219f14d3",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
