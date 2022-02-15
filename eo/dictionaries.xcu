@@ -10,7 +10,7 @@
         <value>DICT_SPELL</value>
       </prop>
       <prop oor:name="Locales" oor:type="oor:string-list">
-        <value>eo eo-EO</value>
+        <value>eo</value>
       </prop>
     </node>
     <node oor:name="HyphDic_eo" oor:op="fuse">
@@ -21,7 +21,7 @@
         <value>DICT_HYPH</value>
       </prop>
       <prop oor:name="Locales" oor:type="oor:string-list">
-        <value>eo eo-EO</value>
+        <value>eo</value>
       </prop>
     </node>
     <node oor:name="ThesDic_eo" oor:op="fuse">
@@ -32,7 +32,7 @@
         <value>DICT_THES</value>
       </prop>
       <prop oor:name="Locales" oor:type="oor:string-list">
-        <value>eo eo-EO</value>
+        <value>eo</value>
       </prop>
     </node>
   </node>
