@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fdcd3b81_788fbaae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000863
+      },
+      "writtenOn": "2022-02-26T08:26:27Z",
+      "side": 1,
+      "message": "Batmunkh, I can see on the extension page, you have more recent updates to the dictionary, would you prefer having the updated state merged? If so, please submit an updated patch, and also update the version value in description.xml. Thank you!",
+      "revId": "bf485a9a8d0057be0483efce903e8409492b86d3",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
