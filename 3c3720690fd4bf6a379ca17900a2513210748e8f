@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9e3a9e1_0115a9fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000863
+      },
+      "writtenOn": "2022-02-28T04:40:17Z",
+      "side": 1,
+      "message": "This change seems to have a merge conflict. In the meantime I have noticed you already had an updated change here (from October): https://gerrit.libreoffice.org/c/dictionaries/+/124170\n\nRegardless of which you prefer updating, please resolve the merge conflict. I\u0027ve also noticed description.xml refers to a PNG image, please add that to the patch as well.",
+      "revId": "3c3720690fd4bf6a379ca17900a2513210748e8f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
