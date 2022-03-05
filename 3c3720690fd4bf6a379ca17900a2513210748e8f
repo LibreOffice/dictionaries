@@ -87,6 +87,24 @@
       "parentUuid": "24df79fd_fdf34174",
       "revId": "3c3720690fd4bf6a379ca17900a2513210748e8f",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8358ea81_181f4056",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002897
+      },
+      "writtenOn": "2022-03-05T11:36:31Z",
+      "side": 1,
+      "message": "I changed my master branch into change-119240 then pushed\n\n$ mn_MN % git push origin HEAD:refs/for/master\nEnumerating objects: 14, done.\nCounting objects: 100% (14/14), done.\nDelta compression using up to 8 threads\nCompressing objects: 100% (9/9), done.\nWriting objects: 100% (9/9), 48.67 KiB | 174.00 KiB/s, done.\nTotal 9 (delta 7), reused 0 (delta 0)\nremote: Resolving deltas: 100% (7/7)\nremote: Processing changes: refs: 1, done    \nTo ssh://gerrit.libreoffice.org:29418/dictionaries\n ! [remote rejected] HEAD -\u003e refs/for/master (change https://gerrit.libreoffice.org/c/dictionaries/+/112797 closed)\nerror: failed to push some refs to \u0027ssh://bataak@gerrit.libreoffice.org:29418/dictionaries\u0027",
+      "parentUuid": "4c88da55_7fcb7b16",
+      "revId": "3c3720690fd4bf6a379ca17900a2513210748e8f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
