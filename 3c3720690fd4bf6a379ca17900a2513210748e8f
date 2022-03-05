@@ -33,6 +33,24 @@
       "message": "Hi Aron,\n\nI tried to fix the merge conflict and push my rebase, but gerrit gave me an error message:\nTo ssh://gerrit.libreoffice.org:29418/dictionaries\n ! [remote rejected] change-119240 -\u003e change-119240 (prohibited by Gerrit: not permitted: create)\nMaybe do I need the permission to fix that?\n\nThanks in advance!",
       "revId": "3c3720690fd4bf6a379ca17900a2513210748e8f",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1a9d0a6_8090cead",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000863
+      },
+      "writtenOn": "2022-03-05T00:44:32Z",
+      "side": 1,
+      "message": "Hi Batmunkh! Are you pushing to the gerrit review branch? Ie. for master the command would be something like: git push origin HEAD:refs/for/master",
+      "parentUuid": "9a949ea9_d8cc8ac7",
+      "revId": "3c3720690fd4bf6a379ca17900a2513210748e8f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
