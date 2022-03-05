@@ -123,6 +123,24 @@
       "parentUuid": "8358ea81_181f4056",
       "revId": "3c3720690fd4bf6a379ca17900a2513210748e8f",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06665587_8ea67a08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002897
+      },
+      "writtenOn": "2022-03-05T16:23:10Z",
+      "side": 1,
+      "message": "Thank you Aron! I\u0027ve got it.\n\nThe thing is I shouldn\u0027t reuse my old commit. There are two commits with different change-id, because of my amended commit, I was pushing that commit together with the parent one. I\u0027ve pushed the commit with new change-id and abandoned this one.\n\nThanks again!",
+      "parentUuid": "9c44d6e9_7f824358",
+      "revId": "3c3720690fd4bf6a379ca17900a2513210748e8f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
