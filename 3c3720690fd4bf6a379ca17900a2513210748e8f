@@ -51,6 +51,24 @@
       "parentUuid": "9a949ea9_d8cc8ac7",
       "revId": "3c3720690fd4bf6a379ca17900a2513210748e8f",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "24df79fd_fdf34174",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002897
+      },
+      "writtenOn": "2022-03-05T03:39:37Z",
+      "side": 1,
+      "message": "Here is my command:\n\ngit push --set-upstream origin change-119240\n\nBut anyway I tried that one too but gerrit rejected.\n\nThanks!",
+      "parentUuid": "f1a9d0a6_8090cead",
+      "revId": "3c3720690fd4bf6a379ca17900a2513210748e8f",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
