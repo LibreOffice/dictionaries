@@ -13,7 +13,7 @@
                 <value>mn-Cyrl-MN</value>
             </prop>
         </node>
-	<node oor:name="HyphDic_mn-MN" oor:op="fuse">
+        <node oor:name="HyphDic_mn-MN" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/hyph_mn_MN.dic</value>
             </prop>
