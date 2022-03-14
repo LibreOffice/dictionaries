@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1fabefec_a4857bbd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000863
+      },
+      "writtenOn": "2022-03-14T18:58:51Z",
+      "side": 1,
+      "message": "Thanks for consolidating the update! Can you please make the following fixes to description.xml?",
+      "revId": "0937b90263501571ce7dddd8303c2099c4b3f03c",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2137ad2_c6ef1779",
+        "filename": "mn_MN/description.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000863
+      },
+      "writtenOn": "2022-03-14T18:58:51Z",
+      "side": 1,
+      "message": "Language should be left as \"en-US\" here and under publisher.",
+      "range": {
+        "startLine": 6,
+        "startChar": 20,
+        "endLine": 6,
+        "endChar": 22
+      },
+      "revId": "0937b90263501571ce7dddd8303c2099c4b3f03c",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5278bfb9_52a3bb56",
+        "filename": "mn_MN/description.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000863
+      },
+      "writtenOn": "2022-03-14T18:58:51Z",
+      "side": 1,
+      "message": "Leading spaces have been changed to tabs here (the file uses spaces).",
+      "range": {
+        "startLine": 17,
+        "startChar": 18,
+        "endLine": 20,
+        "endChar": 18
+      },
+      "revId": "0937b90263501571ce7dddd8303c2099c4b3f03c",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "180a9277_270e5d6f",
+        "filename": "mn_MN/description.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000863
+      },
+      "writtenOn": "2022-03-14T18:58:51Z",
+      "side": 1,
+      "message": "There\u0027s a tab mixing in with spaces here as well, plus the png icon file should be added in the patch as well.",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 40
+      },
+      "revId": "0937b90263501571ce7dddd8303c2099c4b3f03c",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
