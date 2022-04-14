@@ -41,6 +41,30 @@
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9411530_fa994c41",
+        "filename": "mn_MN/description.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1002897
+      },
+      "writtenOn": "2022-04-14T04:39:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e2137ad2_c6ef1779",
+      "range": {
+        "startLine": 6,
+        "startChar": 20,
+        "endLine": 6,
+        "endChar": 22
+      },
+      "revId": "0937b90263501571ce7dddd8303c2099c4b3f03c",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5278bfb9_52a3bb56",
@@ -64,6 +88,30 @@
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9cdf3fc7_50908726",
+        "filename": "mn_MN/description.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1002897
+      },
+      "writtenOn": "2022-04-14T04:39:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5278bfb9_52a3bb56",
+      "range": {
+        "startLine": 17,
+        "startChar": 18,
+        "endLine": 20,
+        "endChar": 18
+      },
+      "revId": "0937b90263501571ce7dddd8303c2099c4b3f03c",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "180a9277_270e5d6f",
@@ -77,6 +125,30 @@
       "writtenOn": "2022-03-14T18:58:51Z",
       "side": 1,
       "message": "There\u0027s a tab mixing in with spaces here as well, plus the png icon file should be added in the patch as well.",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 40
+      },
+      "revId": "0937b90263501571ce7dddd8303c2099c4b3f03c",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06171bf5_1b1da741",
+        "filename": "mn_MN/description.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002897
+      },
+      "writtenOn": "2022-04-14T04:39:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "180a9277_270e5d6f",
       "range": {
         "startLine": 23,
         "startChar": 0,

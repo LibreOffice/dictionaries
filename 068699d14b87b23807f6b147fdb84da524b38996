@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a392301_80375c09",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002897
+      },
+      "writtenOn": "2022-04-14T04:39:30Z",
+      "side": 1,
+      "message": "Sorry for the late reply and thanks for the comment, Aron Budea!",
+      "revId": "068699d14b87b23807f6b147fdb84da524b38996",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
