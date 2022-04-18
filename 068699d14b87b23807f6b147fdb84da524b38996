@@ -16,6 +16,23 @@
       "message": "Sorry for the late reply and thanks for the comment, Aron Budea!",
       "revId": "068699d14b87b23807f6b147fdb84da524b38996",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fabec03b_f785e028",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000863
+      },
+      "writtenOn": "2022-04-18T05:06:20Z",
+      "side": 1,
+      "message": "I think this can be merged now, thank you for the update!",
+      "revId": "068699d14b87b23807f6b147fdb84da524b38996",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
