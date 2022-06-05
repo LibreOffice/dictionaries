@@ -1,7 +1,7 @@
-Version 5.1.0, 13-Oct-2020
+Version 5.1.1, 07-Nov-2022
 
 # Estensione linguistica italiana - Italian Writing Aids extension
-# Copyright (C) 2020, LibreItalia - Marina Latini
+# Copyright (C) 2020-2022, LibreItalia - Marina Latini
 # Portions Copyright (C) 2001-2015 other authors, see below for details.
 # License: GNU GPL 3
 # Home: https://libreitalia.org
