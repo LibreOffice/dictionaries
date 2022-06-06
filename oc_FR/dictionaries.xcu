@@ -10,11 +10,9 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>oc-FR</value>
+                <value>oc-FR-lengadoc oc-FR</value>
             </prop>
         </node>
     </node>
- </node>  
+ </node>
 </oor:component-data>
-
-
