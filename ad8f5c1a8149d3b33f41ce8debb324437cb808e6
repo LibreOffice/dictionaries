@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a889e002_4191821b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003611
+      },
+      "writtenOn": "2022-06-17T22:55:22Z",
+      "side": 1,
+      "message": "as described here: https://github.com/LibreOffice/dictionaries/pull/40\n\nThis allows Germans using an English keyboard to type the Umlauts as \"ue\" \"ae\" and \"oe\" as is customary, and type the ß as \"ss\".\nPreviously the spellchecker would not recognise these spellings.\n\nAs a test, try the word \"Greetings\" as \"Gruesse\". With this fix, the correct intended spelling \"Grüße\" is given as a suggestion.\n",
+      "revId": "ad8f5c1a8149d3b33f41ce8debb324437cb808e6",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
