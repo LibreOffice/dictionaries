@@ -1,3 +1,3 @@
-Slovar za črkovanje 1.0 · Vzorci za deljenje besed 1.2.1 · Tezaver 2.0.20500
+Slovar za črkovanje 1.0 · Vzorci za deljenje besed 1.2.1 · Tezaver 2.1.21000
 
-Razširitev vzdržuje ekipa slovenjenja LibreOffice.
+Razširitev vzdržuje ekipa slovenjenja LibreOffice, tezaver pa ekipa tezaver.si
