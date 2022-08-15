@@ -16,6 +16,23 @@
       "message": "as described here: https://github.com/LibreOffice/dictionaries/pull/40\n\nThis allows Germans using an English keyboard to type the Umlauts as \"ue\" \"ae\" and \"oe\" as is customary, and type the ß as \"ss\".\nPreviously the spellchecker would not recognise these spellings.\n\nAs a test, try the word \"Greetings\" as \"Gruesse\". With this fix, the correct intended spelling \"Grüße\" is given as a suggestion.\n",
       "revId": "ad8f5c1a8149d3b33f41ce8debb324437cb808e6",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c393f211_174ba817",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003611
+      },
+      "writtenOn": "2022-08-15T14:18:07Z",
+      "side": 1,
+      "message": "\u003e Patch Set 1:\n\u003e \n\u003e A polite ping, still working on this patch? Do not forget to rebase it first. See https://wiki.documentfoundation.org/Development/Review_bot\n\nI am finished. Just waiting for a review.",
+      "revId": "ad8f5c1a8149d3b33f41ce8debb324437cb808e6",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
