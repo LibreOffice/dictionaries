@@ -33,6 +33,24 @@
       "message": "\u003e Patch Set 1:\n\u003e \n\u003e A polite ping, still working on this patch? Do not forget to rebase it first. See https://wiki.documentfoundation.org/Development/Review_bot\n\nI am finished. Just waiting for a review.",
       "revId": "ad8f5c1a8149d3b33f41ce8debb324437cb808e6",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d80cb3e3_a4cd24cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000789
+      },
+      "writtenOn": "2022-08-16T06:41:53Z",
+      "side": 1,
+      "message": "The idea sounds good to me and it works as described in a quick test in a `--with-myspell-dicts` build, but I know too little about how dictionaries etc. are handled in LO to feel confident to merge this right away.\n\n@Eike: Do you possibly have more insights/an opinion here?",
+      "parentUuid": "a889e002_4191821b",
+      "revId": "ad8f5c1a8149d3b33f41ce8debb324437cb808e6",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
