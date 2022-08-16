@@ -51,6 +51,24 @@
       "parentUuid": "a889e002_4191821b",
       "revId": "ad8f5c1a8149d3b33f41ce8debb324437cb808e6",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ead10641_24f72a7a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003611
+      },
+      "writtenOn": "2022-08-16T10:09:38Z",
+      "side": 1,
+      "message": "For the record, I am very new to all of this myself. I ventured into this in order to fix a tiny thing that was consistently annoying me - the classic scratch-your-own-itch.\n\nThe way I see it is this:\n\nThe file already contains entries such as \"REP ae ä\" on line 519 or \"REP ss ß\" on line 507. This tells the checker to try first replacing ae as ä and see if that works or to try replacing ss with ß and see if that works. This will only succeed if there is a single instance in the word that needs to be replaced.\n\nThe word \"greetings\" typed as \"Gruesse\" was causing me trouble as it contains both ue and ss next to each other and the REP commands do not catch this. \n\nThe MAP command seems to play a somewhat similar role as REP but whereas REP deals typically with \"one character mistakes\", MAP just defines character sequences that are related in a language specific setting and works with multiple replacements within a single word.\nSee here for details: https://www.systutorials.com/docs/linux/man/4-hunspell/\n\nIn any event, I doubt it can cause harm because the character sequences that I am relating in the MAP commands are actually related in the German language.\n\n\nThank you so much for taking the time to review my contribution.\n\nall the best,\nAron",
+      "parentUuid": "d80cb3e3_a4cd24cb",
+      "revId": "ad8f5c1a8149d3b33f41ce8debb324437cb808e6",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
