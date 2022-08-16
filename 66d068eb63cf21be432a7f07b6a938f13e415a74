@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "771fe05c_8f77d147",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000789
+      },
+      "writtenOn": "2022-08-16T06:48:19Z",
+      "side": 1,
+      "message": "@cloph: Are there any reasons not to have a .gitreview for the dictionaries repo or would this need any handling for the branching/release management?",
+      "revId": "66d068eb63cf21be432a7f07b6a938f13e415a74",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
