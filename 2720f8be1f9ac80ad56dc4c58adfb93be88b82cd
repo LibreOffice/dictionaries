@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12dd6d2f_95d5fa05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000023
+      },
+      "writtenOn": "2022-08-17T15:22:08Z",
+      "side": 1,
+      "message": "Please be aware that at least Switzerland de-CH may have different rules regarding the use of `ss` vs `ß` What I know is that it doesn\u0027t use capital letter `ẞ` instead of `SS` as it may be used in de-DE, but that isn\u0027t even addressed here.",
+      "revId": "2720f8be1f9ac80ad56dc4c58adfb93be88b82cd",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
