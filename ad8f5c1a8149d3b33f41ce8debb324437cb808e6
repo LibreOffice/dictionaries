@@ -69,6 +69,24 @@
       "parentUuid": "d80cb3e3_a4cd24cb",
       "revId": "ad8f5c1a8149d3b33f41ce8debb324437cb808e6",
       "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8156e866_33cca0b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000789
+      },
+      "writtenOn": "2022-08-17T09:24:55Z",
+      "side": 1,
+      "message": "Thanks a lot for the extensive explanation, that\u0027s very helpful!\nThis all seems to make a lot of sense to me.\n\nWould you mind updating the commit message to also include the explanation?\n\nI\u0027d still appreciate somebody with more experience in the area taking a look, but would otherwise merge this on Monday if there are no further comments.",
+      "parentUuid": "ead10641_24f72a7a",
+      "revId": "ad8f5c1a8149d3b33f41ce8debb324437cb808e6",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
     }
   ]
 }
