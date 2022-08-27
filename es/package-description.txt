@@ -1,8 +1,8 @@
-Ortografía: __CORRECTOR__
-Separación: __SEPARACION__
-Sinónimos: __SINONIMOS__
+Ortografía: 2.6
+Separación: 0.2
+Sinónimos: 24/02/2013
 
-Puede notifcar fallos o mejoras a través de https://github.com/sbosio/rla-es/issues
+Puede notificar fallos o mejoras a través de https://github.com/sbosio/rla-es/issues
 
 Esta extensión provee de herramientas de asistencia a la escritura (revisión
 ortográfica, separación silábica y sinónimos) para es_AR es_BO es_CL es_CO
