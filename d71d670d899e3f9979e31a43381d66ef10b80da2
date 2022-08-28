@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2126b93c_ed7bce81",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002897
+      },
+      "writtenOn": "2022-08-28T11:13:54Z",
+      "side": 1,
+      "message": "Attention is currently required from: Aron Budea.\n\nHi,\n\nI would like you to review the following patch from Batmunkh Dorjgotov:\n\n   https://gerrit.libreoffice.org/c/dictionaries/+/137567\n\nTo pull it, you can do:\n\n   git pull https://git.libreoffice.org/dictionaries refs/changes/67/137567/1\n\nUpdate Mongolian dictionary\n\nChange-Id: Id3c5ec7bef29cf50d5381525960fdce392251391",
+      "revId": "d71d670d899e3f9979e31a43381d66ef10b80da2",
+      "serverId": "6622c302-437a-49ad-a91d-55ba7dcf1615"
+    }
+  ]
+}
