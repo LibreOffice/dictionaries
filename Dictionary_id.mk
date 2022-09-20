@@ -14,7 +14,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-id,\
 	dictionaries/id/LICENSE-thes\
 	dictionaries/id/id_ID.aff \
 	dictionaries/id/id_ID.dic \
-	dictionaries/id/README-dict.md \
+	dictionaries/id/README-dict.adoc \
 	dictionaries/id/README-thes \
 ))
 

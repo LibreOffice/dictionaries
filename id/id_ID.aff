@@ -1,3 +1,6 @@
+## SPDX-FileCopyrightText: 2022 hunspell-id Authors
+## SPDX-License-Identifier: LGPL-3.0-only
+
 # Affix file for Indonesian dictionary version 2
 # Based on version 1, built from scratch for Myspell.
 # Released under GPL on 30 January 2004
@@ -38,8 +41,10 @@ SET ISO8859-1
 TRY aeinrstkumlgopbdhjcyfwzqvxAEINRSTKUMLGOPBDHJCYFWZQVX
 WORDCHARS -
 FLAG long
-CIRCUMFIX A1 	# untuk bentuk awalan-akhiran terikat (ber-an)
-NEEDAFFIX A2	# jenis membesituakan (jangan besitua tersendiri)
+# untuk bentuk awalan-akhiran terikat (ber-an)
+CIRCUMFIX A1
+# jenis membesituakan (jangan besitua tersendiri)
+NEEDAFFIX A2
 
 # Berikut PREFIX dan SIRKUMFIKS
 
@@ -342,11 +347,11 @@ SFX Mx 0 kan/M7n0A1    .
 
 PFX O0 Y 2	# ku- kau-
 PFX O0 0 ku    .
-PFX O0 0 kau
+PFX O0 0 kau   .
 
 PFX O1 Y 2	# ku- kau-
 PFX O1 0 ku/A1    .
-PFX O1 0 kau/A1
+PFX O1 0 kau/A1   .
 
 SFX Oi Y 1	# -i (ku-i kau-i)
 SFX Oi 0 i/O1A1     .
@@ -680,70 +685,70 @@ SFX We 0 an/W3o0A1   .
 
 # Berikut ini semua akhiran
 
-SFX a0 Y 14	# -an
-SFX a0 0 an     .
-SFX a0 0 anlah
-SFX a0 0 ankah
-SFX a0 0 anku
-SFX a0 0 anmu
-SFX a0 0 annya
-SFX a0 0 annyalah
-SFX a0 0 annyakah
-SFX a0 0 anKu
-SFX a0 0 anMu
-SFX a0 0 anNya
-SFX a0 0 an-Ku
-SFX a0 0 an-Mu
-SFX a0 0 an-Nya
+SFX a0 Y 14         # -an
+SFX a0 0 an         .
+SFX a0 0 anlah      .
+SFX a0 0 ankah      .
+SFX a0 0 anku       .
+SFX a0 0 anmu       .
+SFX a0 0 annya      .
+SFX a0 0 annyalah   .
+SFX a0 0 annyakah   .
+SFX a0 0 anKu       .
+SFX a0 0 anMu       .
+SFX a0 0 anNya      .
+SFX a0 0 an-Ku      .
+SFX a0 0 an-Mu      .
+SFX a0 0 an-Nya     .
 
 SFX i0 Y 4	# -i -ilah -ikah
 SFX i0 0 i      .
-SFX i0 0 ilah
-SFX i0 0 ikah
-SFX i0 0 i/n0
+SFX i0 0 ilah   .
+SFX i0 0 ikah   .
+SFX i0 0 i/n0   .
 
-SFX k0 Y  3	 # -kan
-SFX k0 0  kan    .
-SFX k0 0  kanlah
-SFX k0 0  kankah
+SFX k0 Y  3	  # -kan
+SFX k0 0  kan     .
+SFX k0 0  kanlah  .
+SFX k0 0  kankah  .
 
 SFX l0 Y 2	# -lah -kah
 SFX l0 0 lah    .
-SFX l0 0 kah
+SFX l0 0 kah    .
 
 SFX n0 Y 4	# -nya, -nyakah, -nyalah
 SFX n0 0 nya    .
-SFX n0 0 nyalah
-SFX n0 0 nyakah
-SFX n0 0 -Nya
+SFX n0 0 nyalah .
+SFX n0 0 nyakah .
+SFX n0 0 -Nya   .
 
 # pengganti orang bagi kata kerja berbentuk di- (diambilnyalah)
 SFX nl Y 7	# -lah -kah -nya -nyalah -nyakah -Nya --Nya
 SFX nl 0 lah    .
-SFX nl 0 kah
-SFX nl 0 nya
-SFX nl 0 nyalah
-SFX nl 0 nyakah
-SFX nl 0 Nya
-SFX nl 0 -Nya
+SFX nl 0 kah    .
+SFX nl 0 nya    .
+SFX nl 0 nyalah .
+SFX nl 0 nyakah .
+SFX nl 0 Nya    .
+SFX nl 0 -Nya   .
 
 # akhiran pengganti orang
 SFX o0 Y 15	# -ku -mu -nya -Ku -Mu -Nya --Ku --Mu --Nya
-SFX o0 0 ku    .
-SFX o0 0 kulah
-SFX o0 0 kukah
-SFX o0 0 mu
-SFX o0 0 mulah
-SFX o0 0 mukah
-SFX o0 0 nya
-SFX o0 0 nyalah
-SFX o0 0 nyakah
-SFX o0 0 Ku
-SFX o0 0 Mu
-SFX o0 0 Nya
-SFX o0 0 -Ku
-SFX o0 0 -Mu
-SFX o0 0 -Nya
+SFX o0 0 ku     .
+SFX o0 0 kulah  .
+SFX o0 0 kukah  .
+SFX o0 0 mu     .
+SFX o0 0 mulah  .
+SFX o0 0 mukah  .
+SFX o0 0 nya    .
+SFX o0 0 nyalah .
+SFX o0 0 nyakah .
+SFX o0 0 Ku     .
+SFX o0 0 Mu     .
+SFX o0 0 Nya    .
+SFX o0 0 -Ku    .
+SFX o0 0 -Mu    .
+SFX o0 0 -Nya   .
 
 # REP untuk mengganti huruf yang salah tek, demi sugesti benar
 REP 12
