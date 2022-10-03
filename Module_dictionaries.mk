@@ -30,9 +30,9 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_ckb \
 	Dictionary_cs \
 	Dictionary_da \
-	Dictionary_de \
+	$(if $(MPL_SUBSET),,Dictionary_de) \
 	Dictionary_el \
-	Dictionary_en \
+	$(if $(MPL_SUBSET),,Dictionary_en) \
 	Dictionary_eo \
 	Dictionary_es \
 	Dictionary_et \
@@ -48,7 +48,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_hu \
 	Dictionary_id \
 	Dictionary_is \
-	Dictionary_it \
+	$(if $(MPL_SUBSET),,Dictionary_it) \
 	Dictionary_kmr-Latn \
 	Dictionary_ko-KR \
 	Dictionary_lo \
