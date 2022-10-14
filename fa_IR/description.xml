@@ -7,7 +7,7 @@
     <version value="3.3" />
     <identifier value="Lilak.Persian.Hunspell.Dictionary.by.Mostafa.Sedaghat.Joo" />
     <display-name>
-        <name lang="en">Lilak, Persian Spell Checking Dictionary</name>
+        <name lang="en-US">Lilak, Persian Spell Checking Dictionary</name>
         <name lang="fa">لیلک، غلط‌ یاب فارسی</name>
     </display-name>
     <dependencies>
