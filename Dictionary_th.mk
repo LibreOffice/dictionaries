@@ -13,6 +13,8 @@ $(eval $(call gb_Dictionary_add_root_files,dict-th,\
 	dictionaries/th_TH/README_th_TH.txt \
 	dictionaries/th_TH/th_TH.aff \
 	dictionaries/th_TH/th_TH.dic \
+	dictionaries/th_TH/README_hyph_th_TH.txt \
+	dictionaries/th_TH/hyph_th_TH.dic \
 ))
 
 # vim: set noet sw=4 ts=4:
