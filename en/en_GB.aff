@@ -15,7 +15,7 @@
 #   3) Plurals.
 #
 # David Bartlett, Andrew Brown, Marco A.G.Pinto.
-# V 3.0.8, 2022-05-01
+# V 3.1.4, 2022-11-01
 
 SET UTF-8
 
@@ -1221,18 +1221,18 @@ SFX O 0 al ch[ei]
 SFX O 0 al te
 SFX O 0 al [eimru][bfn]
 SFX O 0 al ss
-SFX O 0 al it
+SFX O 0 al [ai]t
 SFX O 0 al [nt]ant
 SFX O 0 al [ghiorstx][ao]n
 SFX O 0 al [eo]nt
-SFX O 0 al as
+SFX O 0 al a[ks]
 SFX O 0 l a
-SFX O 0 al [cos]t
+SFX O 0 al [ceos]t
 SFX O 0 ial eon
 SFX O 0 al [cdghmpwx]
 SFX O 0 ial r
-SFX O e ial [ai]ge
-SFX O e ial ice
+SFX O e ial [aei]ge
+SFX O e ial [ai]ce
 SFX O 0 tal ut
 SFX O e inal ude
 SFX O e al [mnrsv]e
@@ -1252,19 +1252,21 @@ SFX o 0 ually [px]t
 SFX o 0 tally [iu]t 
 SFX o 0 ally [^ipux]t 
 SFX o 0 ally [^aebcrtxmy] 
-SFX W Y 25
+SFX W Y 27
 SFX W ce tific ce 
-SFX W e atic me 
+SFX W e atic [^x][aeioumy]me 
 SFX W se tic se 
 SFX W le ic ble 
 SFX W e ic [^b]le 
-SFX W e ic [^clms]e 
+SFX W e ic [^cilms]e 
+SFX W e ic [^hn][e]me 
+SFX W e c [o][l][i]e 
 SFX W 0 lic [^x][ay]l 
 SFX W 0 ic [x][ay]l 
 SFX W 0 ic [^ay]l 
 SFX W us ic us 
 SFX W 0 tic [^u]s 
-SFX W er ric [^hm]er 
+SFX W er ric [^hmv]er 
 SFX W 0 ic [^e]r 
 SFX W 0 atic [aeiou]m 
 SFX W 0 ic [^aeiou]m 
@@ -1276,8 +1278,8 @@ SFX W y ic [^t]hy
 SFX W y tic sy 
 SFX W y ic [^hs]y 
 SFX W 0 ic [^aeilmrsy] 
-SFX W 0 ic [hm]er 
-SFX W 0 c [dghlmsz]i 
+SFX W 0 ic [hmv]er 
+SFX W 0 c [dghlmnsz]i 
 SFX w Y 9
 SFX w e ical e 
 SFX w er rical er 
@@ -1288,7 +1290,7 @@ SFX w 0 tical ma
 SFX w a ical [^m]a 
 SFX w y ical y 
 SFX w 0 ical [^aemry] 
-SFX 1 Y 9
+SFX 1 Y 10
 SFX 1 e ically e 
 SFX 1 er rically er 
 SFX 1 0 ically [^e]r 
@@ -1297,7 +1299,8 @@ SFX 1 0 ically [^aeiou]m
 SFX 1 0 tically ma 
 SFX 1 a ically [^m]a 
 SFX 1 y ically y 
-SFX 1 0 ically [^aemry] 
+SFX 1 0 ically [^aeimry] 
+SFX 1 0 cally [i] 
 SFX 3 Y 27
 SFX 3 e ist [^aceiou]e 
 SFX 3 ce tist ce 

@@ -1,3 +1,62 @@
+MAGP 2022-11-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 427 new words(1) (2022-11-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2022-10-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 705 new words(1) (2022-10-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2022-09-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 481 new words(1) (2022-09-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2022-08-01
+
+Updated the Dictionaries:
+- South African (2022-08-01).
+  - Fixed the flag ! at start of words;
+  - Removed duplicate words;
+  - Sorted alphabetically the dictionary.
+
+- British (Marco A.G.Pinto)*
+  * British has 363 new words(1) (2022-08-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2022-07-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 312 new words(1) (2022-07-01).
+	(1) Added tons of plurals and possessives.
+
+
+
+MAGP 2022-06-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 415 new words(1) (2022-06-01).
+	(1) Added tons of plurals and possessives.
+
+
+
 MAGP 2022-05-01
 
 Updated the Dictionaries:
