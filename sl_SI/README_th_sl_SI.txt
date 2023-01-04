@@ -2,7 +2,7 @@ The Slovenian thesaurus is developed as a part of project/
 Slovenski tezaver nastaja v okviru projekta:
    OdprtiTezaver (www.tezaver.si)
 This dictionary pack includes version/Paket vsebuje različico:
-   2.1.21000
+   2.1.21500
 Thesaurus managed and edited by/Tezaver pripravlja in ureja:
    Martin Srebotnjak (miles at filmsi net)
 Thesaurus data licensed under both/Podatki tezavra so izdani pod licencama:
@@ -18,7 +18,7 @@ Bug report/O napakah poročajte:
 http://external.openoffice.org/ form data:
 
 Product Name: Slovenian thesaurus
-Product Version: 2.1.21000
+Product Version: 2.1.21500
 Vendor or Owner Name: Martin Srebotnjak
 Vendor or Owner Contact: miles@filmsi.net
 OpenOffice.org Contact: filmsi@openoffice.org
