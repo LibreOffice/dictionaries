@@ -12,6 +12,7 @@ $(eval $(call gb_Dictionary_Dictionary,dict-id,dictionaries/id))
 $(eval $(call gb_Dictionary_add_root_files,dict-id,\
 	dictionaries/id/LICENSE-dict \
 	dictionaries/id/LICENSE-thes\
+	dictionaries/id/hyph_id_ID.dic \
 	dictionaries/id/id_ID.aff \
 	dictionaries/id/id_ID.dic \
 	dictionaries/id/README-dict.adoc \
