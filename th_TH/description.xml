@@ -3,7 +3,7 @@
     <version value="2022.04.30" />
     <identifier value="org.openoffice.th.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">Thai spelling dictionary and hyphenation rules</name>
+        <name lang="en-US">Thai spelling dictionary, hyphenation rules, and thesaurus</name>
     </display-name>
     <platform value="all" />
     <dependencies>
