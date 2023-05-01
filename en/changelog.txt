@@ -1,9 +1,73 @@
+MAGP 2023-05-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 835 new words(1) (2023-05-01).
+    (1) Added tons of plurals and possessives.
+
+
+
+MAGP 2023-04-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 323 new words(1) (2023-04-01).
+    (1) Added tons of plurals and possessives.
+
+
+
+MAGP 2023-03-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 523 new words(1) (2023-03-01).
+    (1) Flag J was improved and it added 490 entries (possessives);
+        Removed tons of possessives in plurals ending with "s".
+
+
+
+MAGP 2023-02-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 310 new words(1) (2023-02-01).
+    (1) Added tons of plurals and possessives.
+
+- South African (2023-02-01):
+  - Added: Czechia + Czechia's
+  - Fixed/improved: flag 3
+
+
+
+MAGP 2023-01-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 283 new words(1) (2023-01-01).
+    (1) Added tons of plurals and possessives.
+        Sorted alphabetically the tags of the .aff.
+
+- South African (2023-01-01):
+  - Added the: ICONV ’ '
+  - Sorted alphabetically the tags of the .aff.
+
+
+
+MAGP 2022-12-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 376 new words(1) (2022-12-01).
+    (1) Added tons of plurals and possessives.
+
+
+
 MAGP 2022-11-01
 
 Updated the Dictionaries:
 - British (Marco A.G.Pinto)*
   * British has 427 new words(1) (2022-11-01).
-	(1) Added tons of plurals and possessives.
+    (1) Added tons of plurals and possessives.
 
 
 
@@ -12,7 +76,7 @@ MAGP 2022-10-01
 Updated the Dictionaries:
 - British (Marco A.G.Pinto)*
   * British has 705 new words(1) (2022-10-01).
-	(1) Added tons of plurals and possessives.
+    (1) Added tons of plurals and possessives.
 
 
 
@@ -28,7 +92,7 @@ Updated the Dictionaries:
 MAGP 2022-08-01
 
 Updated the Dictionaries:
-- South African (2022-08-01).
+- South African (2022-08-01):
   - Fixed the flag ! at start of words;
   - Removed duplicate words;
   - Sorted alphabetically the dictionary.
