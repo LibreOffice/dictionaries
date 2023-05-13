@@ -1,19 +1,113 @@
-SET UTF-8
-TRY eiarsntolucéÉmpdgbhfvqjyxèÈzkçÇîÎïÏwûÛôÔàÀáÁëËüÜöÖóÓòÒíÍìÌùÙúÚäÄ
 
-MAP 5
-MAP eëéèEÈÉ
-MAP oöòóÒ
-MAP iïíìIÍÌ
-MAP úüuU
-MAP aàáA
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+# AFFIXES DU DICTIONNAIRE ORTHOGRAPHIQUE Occitan languedocien
+# par Bruno Gallart -- licence MPL 2.0
+
+#
+
+SET UTF-8
+
+WORDCHARS -’'1234567890.
+
+# Lettres rangées par ordre de fréquence d'emploi dans les mots de oc_FR.dic
+
+TRY aesrintolcmduègpbvzhfàájqòçxïíóéAüEwúIkUOXyÒÈVCPNRFSHLëDMÀG­TWÍBÓ
 
 NOSPLITSUGS
 
+MAP 5
+MAP eëéè
+MAP oöòó
+MAP iïíì
+MAP úüu
+MAP aàá
+
+REP 13
+REP a à
+REP a á
+REP à á
+REP e é
+REP e è
+REP è é
+REP é è
+REP o ó
+REP o ò
+REP ó ò
+REP u ú
+REP i  í
+REP email corriel
+
+KEY azertyuiop|qsdfghjklmù|wxcvbn|aéz|yèu|iço|oàp|aqz|zse|edr|rft|tgy|yhu|uji|iko|olpm|qws|sxd|dcf|fvg|gbh|hnj
+
+#FULLSTRIP
+
+#NOSUGGEST --
+
+#NEEDAFFIX ()
+
+PHONE 54
+PHONE F F
+PHONE CT T
+PHONE B B
+PHONE B(T) T
+PHONE P P
+PHONE L L
+PHONE D$ T
+PHONE D(D) D
+PHONE D D
+PHONE C(IE) S
+PHONE CC(IE) TS
+PHONE C(AUO) K
+PHONE CM M
+PHONE CH$ _
+PHONE CH X
+PHONE Ç(AOU) S
+PHONE Ç$ S
+PHONE F F
+PHONE G(IE) J
+PHONE G(AOU) G
+PHONE RG$ K
+PHONE NG$ X
+PHONE GN N
+PHONE J J
+PHONE LL L
+PHONE LH$ L
+PHONE LH _
+PHONE MN N
+PHONE MT$ N
+PHONE M$ N
+PHONE M(M) M
+PHONE M M
+PHONE N$ N
+PHONE ND$ N
+PHONE NH$ N
+PHONE N N
+PHONE R(R) R
+PHONE RN R
+PHONE R R
+PHONE SC S
+PHONE S S
+PHONE P P
+PHONE TG X
+PHONE TJ J
+PHONE TL L
+PHONE TM M
+PHONE TN N
+PHONE TZ Z
+PHONE T T
+PHONE X(AOU) S
+PHONE X(EI) Z
+PHONE Z Z
+PHONE V B
+PHONE (AEIOUY) _
+
 SFX a Y 43
 SFX a ar ar ar po:infi di:*
-SFX a ar i [^uaoie]ar po:ipre po:1sg di:*
-SFX a ar as ar po:ipre po:2sg di:*
+SFX a ar i [^uaoie]ar mode:Ind temps:Pres po:1sg 
+SFX a ar as ar po:ipre po:2sg 
 SFX a ar a ar po:ipre po:3sg di:*
 SFX a ar am ar po:ipre po:1pl di:*
 SFX a ar atz ar po:ipre po:2pl di:*
@@ -213,8 +307,8 @@ SFX f avi atz avi di:*
 SFX F Y 64
 SFX F 0 a [nbclrdmn] is:fem is:sg di:*
 SFX F 0 as [nbclrdmn] is:fem is:pl di:*
-SFX F 0 a [^u][t] is:fem is:sg di:*
-SFX F 0 as [^u][t] is:fem is:pl di:*
+SFX F 0 a [^u][t] is:fem is:sg 
+SFX F 0 as [^u][t] is:fem is:pl 
 SFX F 0 a ant is:fem is:sg di:*
 SFX F 0 as ant is:fem is:pl di:*
 SFX F 0 a ent is:fem is:sg di:*
@@ -282,7 +376,7 @@ SFX g ar ui [g]ar di:*
 SFX g car qui [c]ar di:*
 SFX g jar gi [j]ar di:*
 SFX g ar as [gcçj]ar di:*
-SFX g ar a [gcçj]ar di:*
+SFX g ar a [gcçj]ar is:3pers is:sing
 SFX g ar am [gcçj]ar di:*
 SFX g ar atz [gcçj]ar di:*
 SFX g ar an [gcçj]ar di:*
@@ -372,22 +466,24 @@ SFX g çar cèssem [ç]ar di:*
 SFX g çar cèssetz [ç]ar di:*
 SFX g çar cèsson [ç]ar di:*
 
-SFX h Y 32
-SFX h at ada at di:*
+#SFX h. Y 2
+#SFX h. ar ada ar is:ppas genre:fem is:sing
+#SFX h. ar adas ar is:ppas genre:fem is:plu
+
+SFX h Y 30
+SFX h at ada at  
 SFX h at adas at di:*
 SFX h 0 s at di:*
 SFX h at ant at di:*
-SFX h ar ada ar di:*
-SFX h ar adas ar di:*
 SFX h ar ant ar di:*
-SFX h ar at ar di:*
-SFX h ar ats ar di:*
+SFX h ar at ar 
+SFX h ar ats ar 
 SFX h it ida it di:*
 SFX h it idas it di:*
 SFX h it issent it di:*
 SFX h 0 s it di:*
-SFX h ir ida ir di:*
-SFX h ir idas ir di:*
+SFX h ir ida ir  is:ppas genre:fem is:sing di:*
+SFX h ir idas ir is:ppas genre:fem is:plu di:*
 SFX h ir issent ir di:*
 SFX h ir it ir di:*
 SFX h ir its ir di:*
@@ -533,14 +629,34 @@ SFX r eirar eirem eirar di:*
 SFX r eirar eiretz eirar di:*
 SFX r eirar ièiren eirar di:*
 
-SFX s Y 26
-SFX s 0 s [íáeiournmlrdp] is:mas is:pl di:*
-SFX s 0 s [a] is:fem is:pl di:*
-SFX s 0 s [^s][t] is:mas is:pl di:*
-SFX s 0 es st is:mas is:pl di:*
-SFX s 0 s [^s][c] is:mas is:pl di:*
-SFX s sc sques [s]c is:mas is:pl di:*
-SFX s 0 s lh is:mas is:pl di:*
+#SFX S. Y 8
+#SFX S. 0 0 [e] is:sing
+#SFX S. 0 s [e] is:plu
+#SFX S. 0 0 [n] is:sing
+#SFX S. 0 s [n] is:plu
+#SFX S. 0 0 [o] is:sing
+#SFX S. 0 s [o] is:plu
+#SFX S. 0 0 [d] is:sing 
+#SFX S. 0 s [d] is:plu
+
+SFX s Y 36
+SFX s 0 0 [e] is:sing
+SFX s 0 s [e] is:plur
+SFX s 0 0 [n] is:sing
+SFX s 0 s [n] is:plur
+SFX s 0 0 [o] is:sing
+SFX s 0 s [o] is:plur
+SFX s 0 0 [d] is:sing 
+SFX s 0 s [d] is:plur
+SFX s 0 0 [a] is:sing 
+SFX s 0 s [a] is:plur
+SFX s 0 0 [^s][t]  is:sing 
+SFX s 0 s [^s][t]  is:plur
+SFX s 0 s [íáiurmlrp]
+SFX s 0 es st   is:mas is:pl di:*
+SFX s 0 s [^s][c]   is:mas is:pl di:*
+SFX s sc sques [s]c   is:mas is:pl di:*
+SFX s 0 s lh   is:mas is:pl di:*
 SFX s ós oses [ó]s is:mas is:pl di:*
 SFX s 0 ses [ò]s is:mas is:pl di:*
 SFX s 0 es ch is:mas is:pl di:*
