@@ -1,16 +1,16 @@
 _______________________________________________________________________________
 
-	TESAURUS CATALÀ (diccionari de sinònims i mots relacionats)
-	versió 1.5
+	DICCIONARI DE SINÒNIMS DE CATALÀ
+	versió 2.3.1 (agost 2023)
 
-	Copyright (C) 2009 Joan Montané <jmontane@softcatala.org> --- Softcatalà
+	Copyright (C) 2023 Jaume Ortolà <jaumeortola@gmail.com> --- Softcatalà
    
-	Llicència (a la vostra elecció):
-		LGPL v. 3.0 o superior --  http://www.gnu.org/licenses/lgpl-3.0.html
-		GPL v.3.0 o superior --  http://www.gnu.org/licenses/gpl-3.0.html
+	Llicència:
+	    Creative Commons CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
+		
 
-	Aquest tesaurus funciona en qualsevol programari que usi el motor mythes, p. ex.: LibreOffice, OpenOffice.org 3.2+
+	Aquest diccionari de sinònims funciona en qualsevol programari que usi el motor mythes, 
+	p. ex.: LibreOffice, OpenOffice.org 3.2+
 	
 	Més informació:
-		http://openthesaurus-ca.softcatala.org
-_______________________________________________________________________________
+		https://github.com/softcatala/sinonims-cat
