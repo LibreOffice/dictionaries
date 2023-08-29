@@ -1,4 +1,4 @@
-Toto rozšírenie obsahuje slovenské slovníky pre OpenOffice.org.
+Toto rozšírenie obsahuje slovenské slovníky pre OpenOffice.org (stav k 2023-08-29).
 
 Kontrola pravopisu
 ------------------
@@ -16,12 +16,13 @@ Tieto dáta sú vydané pod týmito licenciami:
 	http://sk-spell.sk.cx/myspell-sk
 	http://sk-spell.sk.cx/aspell-sk
 	http://sk-spell.sk.cx/hunspell-sk
+	https://github.com/sk-spell/hunspell-sk
 
 Slovník synoným
 ---------------
 
 Copyright (c) 2004-2011 Tibor Bako, yorik (at) szm.sk, 
-Zdenko Podobný, zposter (at) gmail.com
+Copyright (c) 2004-2023 Zdenko Podobný, zdposter (at) gmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining 
 a copy of this data (the "Data"), to deal in the Data without restriction,
