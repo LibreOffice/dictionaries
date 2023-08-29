@@ -1,4 +1,4 @@
-The package contains current versions of all OpenOffice.org Slovak dictionaries as of 2011-02-28.
+The package contains current versions of all OpenOffice.org Slovak dictionaries as of 2023-08-29.
 
 Spellchecker
 ------------
@@ -15,12 +15,13 @@ Further information are available (in Slovak):
 	http://sk-spell.sk.cx/myspell-sk
 	http://sk-spell.sk.cx/aspell-sk
 	http://sk-spell.sk.cx/hunspell-sk
+	https://github.com/sk-spell/hunspell-sk
 
 Thesaurus
 ---------
 
 Copyright (c) 2004-2011 Tibor Bako, yorik (at) szm.sk, 
-Zdenko Podobný, zposter (at) gmail.com
+Copyright (c) 2004-2023 Zdenko Podobný, zdposter (at) gmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining 
 a copy of this data (the "Data"), to deal in the Data without restriction,
