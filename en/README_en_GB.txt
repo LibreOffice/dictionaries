@@ -1,4 +1,4 @@
-This dictionary was initially based on a subset of the
+﻿This dictionary was initially based on a subset of the
 original English wordlist created by Kevin Atkinson for
 Pspell and Aspell, and thus is covered by his original
 LGPL licence.
@@ -91,23 +91,21 @@ OOo Issue 63541 — remove *dessicated
 
 2018-05-01:
            — Andrew Ziem suggested a list of 328 names of famous people on Kevin's GitHub:
-             "These 328 name tokens were derived from the top 100 lists in Google Trends via
+             “These 328 name tokens were derived from the top 100 lists in Google Trends via
              this repository (https://github.com/az0/google-trend-names). The geography was
-             set to US, and it spanned dates from 2004 to 2018."
+             set to US, and it spanned dates from 2004 to 2018.”
 
 2018-08-01:
            — Slightly higher quality icon
-           — Added tons of drugs names supplied by the user Andrew Ziem on Kevin's GitHub
-           — Fixed/improved flag "5": "women's" was missing
+           — Added tons of drug names supplied by the user Andrew Ziem on Kevin's GitHub
+           — Fixed/improved flag “5”: “women's” was missing
 
-2018-06-01
-to
-2018-09-01:
+2018-06-01+:
            — Added places from New Zealand/UK (England, Scotland, Wales & Northern Ireland):
              On V2.61–2.64 I included tons of place names.
              My scientist friend, Peter McGavin, told me that in NZ they use British, so I decided
-             to do something about it. I did the same for UK. I searched on Wikipedia for "towns",
-             "counties", "villages", "boroughs", "suburbs", etc. and based me on:
+             to do something about it. I did the same for the UK. I searched on Wikipedia for “towns”,
+             “counties”, “villages”, “boroughs”, “suburbs”, etc. and based me on:
               — https://en.wikipedia.org/wiki/List_of_towns_in_England;
               — https://en.wikipedia.org/wiki/List_of_towns_in_New_Zealand;
               — https://en.wikipedia.org/wiki/List_of_civil_parishes_in_England;
@@ -119,7 +117,7 @@ to
               — https://en.wikipedia.org/wiki/Counties_of_Northern_Ireland;
               — https://en.wikipedia.org/wiki/Category:Suburbs_in_New_Zealand;
               — https://en.wikipedia.org/wiki/List_of_Church_of_Scotland_parishes.
-             Also, added places sent to me by Peter C.:
+             Furthermore, added places sent to me by Peter C.:
              © OpenStreetMap contributors: www.openstreetmap.org/copyright.
              © The Clergy of the Church of England Database Project, 2005.
 
@@ -127,41 +125,39 @@ to
            — Added the cities from Australia by population:
               — https://en.wikipedia.org/wiki/List_of_cities_in_Australia_by_population
            — Added tons of cities from the US with a 10 000+ population.
-             This list was supplied by Michael Holroyd on Kevin Atkinson's GitHub.
+             This list was supplied by Michael Holroyd on Kevin Atkinson's GitHub.
            — Added tons of possessives to nouns, thanks to Jörg Knobloch.
 2018-12-01:
            — Added the cities from Canada:
               — https://en.wikipedia.org/wiki/List_of_cities_in_Canada
 
 2019-02-01:
-           — Improved flag "5" thanks to the GitHub user Ding-adong:
-             Some "swomen's" and "women's" entries were missing.
-           — Fixed flag "3": -ists, -ists, -ist's → -ist, -ists, -ist's.
-           — Improved flag "N".
+           — Improved flag “5” thanks to the GitHub user Ding-adong:
+             Some “swomen's” and “women 's” entries were missing.
+           — Fixed flag “3”: -ists, -ists, -ist's → -ist, -ists, -ist's.
+           — Improved flag “N”.
 
 2019-03-01:
            — Added the LGPL_V3 License .txt into the Extension.
-           — Ding-adong added a flag "=" for suffixes: -lessness, -lessnesses, -lessness's.
-           — Ding-adong changed the prefix flag "O" to "^" since "O" was both prefix and suffix.
-           — Small fixes and enhancements on flags "z" and "O" by Ding-adong.
+           — Ding-adong added a flag “=” for suffixes: -lessness, -lessnesses, -lessness's.
+           — Ding-adong changed the prefix flag “O” to “^” since “O” was both prefix and suffix.
+           — Small fixes and enhancements on flags “z” and “O” by Ding-adong.
 
 2019-04-01:
-           — Improved flag "P" thanks to Ding-adong, giving also -nesses which
+           — Improved flag “P” thanks to Ding-adong, giving also -nesses which
              increased the wordlist in ~1800 valid words.
 
-2019-07-01
-to
-2019-10-01:
-           — Major cleanup of the .dic by removing thousands of duplicates, merging flags, adding
+2019-07-01+:
+           — Major clean-up of the .dic by removing thousands of duplicates, merging flags, adding
              possessives and plurals.
-           — Improved flags: "i", "n", "N", "O", "W", "Z", "2" and "3":
-              — Flag "2" increased the wordlist in ~400 valid words;
-              — Flag "i" increased the wordlist in ~200 valid words;
-              — Flag "n" increased the wordlist in ~1000 valid words.
+           — Improved flags: “i”, “n”, “N”, “O”, “W”, “Z”, “2” and “3”:
+              — Flag “2” increased the wordlist in ~400 valid words;
+              — Flag “i” increased the wordlist in ~200 valid words;
+              — Flag “n” increased the wordlist in ~1000 valid words.
 
 2019-11-01+:
            — Added thousands of possessives and plurals.
-           — Improved flags: "1", "3", "N", "O", "W".
+           — Improved flags: “1”, “3”, “N”, “O”, “W”.
 
 2020-11-01:
            — Added the State and union territory capitals in India:
@@ -171,15 +167,35 @@ to
            — Sorted alphabetically the tags of the .aff, so the order of words in the wordlist changed.
 
 2023-02-02:
-           — Added flag "~" for "ish" ending words.
-           — Improved flag "J" ("ings" → "ing's" and "ings"), increasing the wordlist in ~490 valid words.
+           — Added flag “~” for “ish” ending words.
+           — Improved flag “J” (“ings” → “ing's” and “ings”), increasing the wordlist in ~490 valid words.
 
 2023-02-14:
-           — Improved flag "W".
+           — Improved flag “W”.
 
 2023-03-01:
-           — Removed most of the possessives of plurals ending with "s".
+           — Removed most of the possessives of plurals ending with “s”.
 
+2023-05-07:
+           — Improved flag “O”.
+
+2023-05-17:
+           — Improved flag “W”.
+
+2023-05-23:
+           — Improved flag “J”.
+
+2023-09-03:
+           — Improved flag “N”, increasing the wordlist in 596 valid words.
+
+2023-10-03:
+           — Improved flag “q”, increasing the wordlist in 126 valid words.
+
+2023-10-07:
+           — Improved flag “-”, increasing the wordlist in 128 valid words.
+
+2023-10-26:
+           — Improved flag “J”, increasing the wordlist in 70 valid words.
 -------
 
 MARCO A.G.PINTO:
@@ -215,9 +231,9 @@ https://proofingtoolgui.org
 FAQ:
 https://proofingtoolgui.org/faq.html
 
-FAQ ("movie", "automobile", "airplane", "hardcover" and "bookstore"):
+FAQ (“movie”, “automobile”, “airplane”, “hardcover” and “bookstore”):
 https://proofingtoolgui.org/faq.html#7
-Notice: Due to complaints, "movie" was added on V2.57 since it is a widely used word.
+Notice: Due to complaints, “movie” was added on V2.57 since it is a widely used word.
 
 Changelog:
 https://proofingtoolgui.org/en_GB_CHANGES.txt

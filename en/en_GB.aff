@@ -1,9 +1,8 @@
-﻿# Affix file for British English MySpell dictionary.
-# Also, suitable as basis for Commonwealth and European English.
+﻿# Affix file for British English Hunspell dictionary.
+# Furthermore, suitable as a basis for Commonwealth and European English.
 # Built from scratch for MySpell. Released under LGPL.
 #
-# Sources used to verify the spelling of the words which
-# Marco Pinto included in the dictionary:
+# Sources used to verify the spelling of the words included in the dictionary by Marco:
 #   1) Oxford Dictionaries;    5) Merriam-Webster Dictionary (used with caution ⚠);
 #   2) Collins Dictionary;     6) Wiktionary (used with caution ⚠);
 #   3) Macmillan Dictionary;   7) Wikipedia (used with caution ⚠);
@@ -15,7 +14,7 @@
 #   3) Plurals.
 #
 # David Bartlett, Andrew Brown, Marco A.G.Pinto.
-# V 3.2.0, 2023-05-01
+# V 3.2.6, 2023-11-01
 
 SET UTF-8
 
@@ -152,7 +151,7 @@ SFX u d siveness d
 SFX u de siveness de 
 SFX u 0 tiveness [aio] 
 SFX u e tiveness ce 
-SFX N Y 34
+SFX N Y 68
 SFX N 0 ation [^aeiou]l 
 SFX N 0 ation [^aeiou]m 
 SFX N e ation [^bcdkmst]e 
@@ -164,8 +163,21 @@ SFX N 0 ation [^i]t
 SFX N e ation [^uriolsna][^bcdkmztrlvgu]e 
 SFX N e ation [btv][e][rc]ise 
 SFX N e ation [iou]te 
+SFX N 0 ation's [^aeiou]l 
+SFX N 0 ation's [^aeiou]m 
+SFX N e ation's [^bcdkmst]e 
+SFX N 0 ation's [^bdelmrstxy] 
+SFX N e ation's [^crbv][mi][^bcdkmztrlvgun]e 
+SFX N 0 ation's [^e]r 
+SFX N e ation's [^emnx][rc]ise 
+SFX N 0 ation's [^i]t 
+SFX N e ation's [^uriolsna][^bcdkmztrlvgu]e 
+SFX N e ation's [btv][e][rc]ise 
+SFX N e ation's [iou]te 
 SFX N ke cation ke 
+SFX N ke cation's ke 
 SFX N y ication y 
+SFX N y ication's y 
 SFX N e ion [^i]cise 
 SFX N e ion [^iou]te 
 SFX N 0 ion [^m]it 
@@ -174,19 +186,40 @@ SFX N 0 ion [sx]
 SFX N e ion [tfl]use 
 SFX N e ion [v]ise 
 SFX N e ion ulse 
+SFX N e ion's [^i]cise 
+SFX N e ion's [^iou]te 
+SFX N 0 ion's [^m]it 
+SFX N e ion's [rsn]se 
+SFX N 0 ion's [sx] 
+SFX N e ion's [tfl]use 
+SFX N e ion's [v]ise 
+SFX N e ion's ulse 
 SFX N e ition ose 
+SFX N e ition's ose 
 SFX N 0 lation [aiou]l 
+SFX N 0 lation's [aiou]l 
 SFX N e mation [^u]me 
 SFX N 0 mation [aeiou]m 
+SFX N e mation's [^u]me 
+SFX N 0 mation's [aeiou]m 
 SFX N b ption b 
 SFX N be ption be 
 SFX N e ption ume 
+SFX N b ption's b 
+SFX N be ption's be 
+SFX N e ption's ume 
 SFX N er ration er 
+SFX N er ration's er 
 SFX N d sion d 
 SFX N de sion de 
+SFX N d sion's d 
+SFX N de sion's de 
 SFX N t ssion mit 
+SFX N t ssion's mit 
 SFX N e tion ce 
+SFX N e tion's ce 
 SFX N el ulsion el 
+SFX N el ulsion's el 
 SFX n Y 42
 SFX n 0 ation [^aeiou]l 
 SFX n 0 ation [^aelry] 
@@ -347,10 +380,14 @@ SFX G 0 ting [^aeio][aeiou]t
 SFX G 0 ving [^aeio][aeiou]v 
 SFX G ie ying ie 
 SFX G 0 zing [^aeio][aeiou]z 
-SFX J Y 33
+SFX J Y 50
+SFX J 0 bing's [^aeio][aeiou]b 
 SFX J 0 bings [^aeio][aeiou]b 
+SFX J 0 ding's [^aeio][aeiou]d 
 SFX J 0 dings [^aeio][aeiou]d 
+SFX J 0 fing's [^aeio][aeiou]f 
 SFX J 0 fings [^aeio][aeiou]f 
+SFX J 0 ging's [^aeio][aeiou]g 
 SFX J 0 gings [^aeio][aeiou]g 
 SFX J 0 ing's [^aeio]e[nrt] 
 SFX J 0 ing's [^aeiou][bcdfgklmnprstvz] 
@@ -368,18 +405,31 @@ SFX J 0 ings [aeio][aeiou][bcdfgkmnprstvz]
 SFX J 0 ings [aeio][eiou]l 
 SFX J 0 ings [aeo]al 
 SFX J 0 ings [eoy]e 
-SFX J 0 king [^aeio][aeiou]c 
+SFX J 0 king's [^aeio][aeiou]c 
+SFX J 0 king's [^aeio][aeiou]k 
+SFX J 0 kings [^aeio][aeiou]c 
 SFX J 0 kings [^aeio][aeiou]k 
+SFX J 0 ling's [^aeio][eiou]l 
+SFX J 0 ling's [^aeo]al 
 SFX J 0 lings [^aeio][eiou]l 
 SFX J 0 lings [^aeo]al 
+SFX J 0 ming's [^aeio][aeiou]m 
 SFX J 0 mings [^aeio][aeiou]m 
+SFX J 0 ning's [^aeio][aiou]n 
 SFX J 0 nings [^aeio][aiou]n 
+SFX J 0 ping's [^aeio][aeiou]p 
 SFX J 0 pings [^aeio][aeiou]p 
+SFX J 0 ring's [^aeio][aiou]r 
 SFX J 0 rings [^aeio][aiou]r 
+SFX J 0 sing's [^aeio][aeiou]s 
 SFX J 0 sings [^aeio][aeiou]s 
+SFX J 0 ting's [^aeio][aiou]t 
 SFX J 0 tings [^aeio][aiou]t 
+SFX J 0 ving's [^aeio][aeiou]v 
 SFX J 0 vings [^aeio][aeiou]v 
+SFX J ie ying's ie 
 SFX J ie yings ie 
+SFX J 0 zing's [^aeio][aeiou]z 
 SFX J 0 zings [^aeio][aeiou]z 
 SFX k Y 8
 SFX k 0 ingly [^aeiou][cl] 
@@ -830,8 +880,9 @@ SFX 8 s ze is
 SFX 8 s zed is 
 SFX 8 s zes is 
 SFX 8 s zing is 
-SFX q Y 22
+SFX q Y 33
 SFX q le ilisation [^aeiou]le 
+SFX q le ilisation's [^aeiou]le 
 SFX q le ilisations [^aeiou]le 
 SFX q y isation [^aeiou]y 
 SFX q 0 isation [^aemsy] 
@@ -841,6 +892,14 @@ SFX q 0 isation [^u]m
 SFX q e isation [aeiou]le 
 SFX q 0 isation [aeiou]y 
 SFX q um isation um 
+SFX q y isation's [^aeiou]y 
+SFX q 0 isation's [^aemsy] 
+SFX q 0 isation's [^i]s 
+SFX q e isation's [^l]e 
+SFX q 0 isation's [^u]m 
+SFX q e isation's [aeiou]le 
+SFX q 0 isation's [aeiou]y 
+SFX q um isation's um 
 SFX q y isations [^aeiou]y 
 SFX q 0 isations [^aemsy] 
 SFX q 0 isations [^i]s 
@@ -850,11 +909,14 @@ SFX q e isations [aeiou]le
 SFX q 0 isations [aeiou]y 
 SFX q um isations um 
 SFX q s sation is 
+SFX q s sation's is 
 SFX q s sations is 
 SFX q 0 tisation a 
+SFX q 0 tisation's a 
 SFX q 0 tisations a 
-SFX - Y 22
+SFX - Y 33
 SFX - le ilization [^aeiou]le 
+SFX - le ilization's [^aeiou]le 
 SFX - le ilizations [^aeiou]le 
 SFX - y ization [^aeiou]y 
 SFX - 0 ization [^aemsy] 
@@ -864,6 +926,14 @@ SFX - 0 ization [^u]m
 SFX - e ization [aeiou]le 
 SFX - 0 ization [aeiou]y 
 SFX - um ization um 
+SFX - y ization's [^aeiou]y 
+SFX - 0 ization's [^aemsy] 
+SFX - 0 ization's [^i]s 
+SFX - e ization's [^l]e 
+SFX - 0 ization's [^u]m 
+SFX - e ization's [aeiou]le 
+SFX - 0 ization's [aeiou]y 
+SFX - um ization's um 
 SFX - y izations [^aeiou]y 
 SFX - 0 izations [^aemsy] 
 SFX - 0 izations [^i]s 
@@ -873,8 +943,10 @@ SFX - e izations [aeiou]le
 SFX - 0 izations [aeiou]y 
 SFX - um izations um 
 SFX - 0 tization a 
+SFX - 0 tization's a 
 SFX - 0 tizations a 
 SFX - s zation is 
+SFX - s zation's is 
 SFX - s zations is 
 SFX s Y 33
 SFX s le iliser [^aeiou]le 
@@ -1224,7 +1296,7 @@ SFX y 0 ry [^ehmstn]
 SFX y 0 ry [^i]on 
 SFX y 0 ry [^mrst]e 
 SFX y 0 ry [aeous]t 
-SFX O Y 22
+SFX O Y 23
 SFX O 0 al [^f][nu][gt]e
 SFX O 0 al [ai]t
 SFX O e al [aioy][dp]e
@@ -1237,6 +1309,7 @@ SFX O e al [mnrsv]e
 SFX O 0 al [nt]ant
 SFX O 0 al a[ks]
 SFX O 0 al ch[ei]
+SFX O i al ci
 SFX O 0 al ss
 SFX O e al uge
 SFX O e ial [aei]ge
@@ -1261,7 +1334,7 @@ SFX o 0 lly a
 SFX o 0 tally [iu]t 
 SFX o 0 ually [px]t 
 SFX W Y 27
-SFX W e atic [^x][aeioumy]me 
+SFX W e atic [^cx][aeioumy]me 
 SFX W 0 atic [aeiou]m 
 SFX W 0 c [dghlmnsz]i 
 SFX W a c [i]a 
