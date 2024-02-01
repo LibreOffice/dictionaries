@@ -1,3 +1,7 @@
+# 2024-01-29 (Marco A.G.Pinto)
+# - Fix: apostrophe handling, by adding: WORDCHARS 0123456789’ to the .aff.
+#
+
 SET UTF-8
 TRY esianrtolcdugmphbyfvkwzESIANRTOLCDUGMPHBYFVKWZ'
 ICONV 1
@@ -14,7 +18,7 @@ ONLYINCOMPOUND c
 COMPOUNDRULE 2
 COMPOUNDRULE n*1t
 COMPOUNDRULE n*mp
-WORDCHARS 0123456789
+WORDCHARS 0123456789’
 
 PFX A Y 1
 PFX A   0     re         .
