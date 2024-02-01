@@ -1,3 +1,35 @@
+MAGP 2024-02-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)
+  * 181 new words
+- US + CA + AU
+  * Fix: apostrophe handling, by adding: WORDCHARS 0123456789’ to the .aff.
+- ZA
+  * Fix: Removed the: ICONV ’ ' because it was already at the end of the .aff;
+    Fix: apostrophe handling, by adding: WORDCHARS 0123456789’ to the .aff;
+    Improved flag J adding 424 words.
+
+
+
+MAGP 2024-01-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 642 new words(1) (2024-01-01).
+    (1) Added tons of plurals and possessives.
+
+
+
+MAGP 2023-12-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 304 new words(1) (2023-12-01).
+    (1) Added tons of plurals and possessives.
+
+
+
 MAGP 2023-11-01
 
 Updated the Dictionaries:
