@@ -12,31 +12,34 @@
 #  - add phonetic suggestion (Copyright (C) 2000 Björn Jacke, see the end of the file)
 #
 # 2021-02-15 (Marco A.G.Pinto)
-# Fixed: concious + conciousness.
+# - Fixed: concious + conciousness.
 #
 # 2022-07-12 (Marco A.G.Pinto)
-# Fixed: ! flag at start of words;
-#           Removed duplicate words;
-#           Sorted alphabetically the dictionary.
+# - Fixed: ! flag at start of words;
+# - Removed duplicate words;
+# - Sorted alphabetically the dictionary.
 #
 # 2023-01-01 (Marco A.G.Pinto)
-# Added the: ICONV ’ '
-# Sorted alphabetically the tags of the .aff
+# - Added the: ICONV ’ ';
+# - Sorted alphabetically the tags of the .aff.
 #
 # 2023-01-17 (Marco A.G.Pinto)
-# Added: Czechia + Czechia's
+# - Added: Czechia + Czechia's.
 #
 # 2023-01-26 (Marco A.G.Pinto)
-# Fixed/improved: flag 3
+# - Fixed/improved: flag 3.
+#
+# 2024-01-29 (Marco A.G.Pinto)
+# - Fix: Removed the: ICONV ’ ' because it was already at the end of the .aff;
+# - Fix: apostrophe handling, by adding: WORDCHARS 0123456789’ to the .aff;
+# - Improved flag J adding 424 words.
 #
 
 SET UTF-8
 TRY esiaénrtolcdugmfphbyvkw-'.zqjxSNRTLCGDMFPHBEAUYOIVKWóöâôZQJXÅçèîêàïüäñ
 
-ICONV 1
-ICONV ’ '
-
 NOSUGGEST !
+
 REP 36
 REP f ph
 REP ph f
@@ -331,11 +334,23 @@ SFX G 0 ting [^aeio][aeiou]t
 SFX G 0 ving [^aeio][aeiou]v 
 SFX G ie ying ie 
 SFX G 0 zing [^aeio][aeiou]z 
-SFX J Y 25
+SFX J Y 50
+SFX J 0 bing's [^aeio][aeiou]b 
 SFX J 0 bings [^aeio][aeiou]b 
+SFX J 0 ding's [^aeio][aeiou]d 
 SFX J 0 dings [^aeio][aeiou]d 
+SFX J 0 fing's [^aeio][aeiou]f 
 SFX J 0 fings [^aeio][aeiou]f 
+SFX J 0 ging's [^aeio][aeiou]g 
 SFX J 0 gings [^aeio][aeiou]g 
+SFX J 0 ing's [^aeio]e[nrt] 
+SFX J 0 ing's [^aeiou][bcdfgklmnprstvz] 
+SFX J 0 ing's [^ebcdfgklmnprstvz] 
+SFX J e ing's [^eioy]e 
+SFX J 0 ing's [aeio][aeiou][bcdfgkmnprstvz] 
+SFX J 0 ing's [aeio][eiou]l 
+SFX J 0 ing's [aeo]al 
+SFX J 0 ing's [eoy]e 
 SFX J 0 ings [^aeio]e[nrt] 
 SFX J 0 ings [^aeiou][bcdfgklmnprstvz] 
 SFX J 0 ings [^ebcdfgklmnprstvz] 
@@ -344,18 +359,31 @@ SFX J 0 ings [aeio][aeiou][bcdfgkmnprstvz]
 SFX J 0 ings [aeio][eiou]l 
 SFX J 0 ings [aeo]al 
 SFX J 0 ings [eoy]e 
-SFX J 0 king [^aeio][aeiou]c 
+SFX J 0 king's [^aeio][aeiou]c 
+SFX J 0 king's [^aeio][aeiou]k 
+SFX J 0 kings [^aeio][aeiou]c 
 SFX J 0 kings [^aeio][aeiou]k 
+SFX J 0 ling's [^aeio][eiou]l 
+SFX J 0 ling's [^aeo]al 
 SFX J 0 lings [^aeio][eiou]l 
 SFX J 0 lings [^aeo]al 
+SFX J 0 ming's [^aeio][aeiou]m 
 SFX J 0 mings [^aeio][aeiou]m 
+SFX J 0 ning's [^aeio][aiou]n 
 SFX J 0 nings [^aeio][aiou]n 
+SFX J 0 ping's [^aeio][aeiou]p 
 SFX J 0 pings [^aeio][aeiou]p 
+SFX J 0 ring's [^aeio][aiou]r 
 SFX J 0 rings [^aeio][aiou]r 
+SFX J 0 sing's [^aeio][aeiou]s 
 SFX J 0 sings [^aeio][aeiou]s 
+SFX J 0 ting's [^aeio][aiou]t 
 SFX J 0 tings [^aeio][aiou]t 
+SFX J 0 ving's [^aeio][aeiou]v 
 SFX J 0 vings [^aeio][aeiou]v 
+SFX J ie ying's ie 
 SFX J ie yings ie 
+SFX J 0 zing's [^aeio][aeiou]z 
 SFX J 0 zings [^aeio][aeiou]z 
 SFX k Y 8
 SFX k 0 ingly [^aeiou][cl] 
@@ -1210,6 +1238,8 @@ ICONV ﬂ fl
 
 OCONV 1
 OCONV ' ’
+
+WORDCHARS 0123456789’
 
 #   PHONEtic_english.h - #PHONEtic transformation rules for use with #PHONEtic.c
 #   Copyright (C) 2000 Björn Jacke
