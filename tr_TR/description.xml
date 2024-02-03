@@ -3,7 +3,7 @@
     <version value="1.1.1" />
     <identifier value="Turkish.dictionary.for.LibreOffice" />
     <display-name>
-        <name lang="en-US">TDD Hunspell Dictionary for Turkish</name>
+        <name lang="en-US">Turkish Spellcheck Dictionary</name>
     </display-name>
     <platform value="all" />
     <dependencies>
