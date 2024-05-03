@@ -1,3 +1,33 @@
+MAGP 2024-05-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 204 new words(1) (2024-05-01).
+    (1) Added tons of plurals and possessives.
+- ZA
+  * Improved flag “S” adding 9 words (possessives).
+  * Improved flag “N” adding 1114 words (possessives).
+
+
+
+MAGP 2024-04-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 191 new words(1) (2024-04-01).
+    (1) Added tons of plurals and possessives.
+
+
+
+MAGP 2024-03-01
+
+Updated the Dictionaries:
+- British (Marco A.G.Pinto)*
+  * British has 199 new words(1) (2024-03-01).
+    (1) Added tons of plurals and possessives.
+
+
+
 MAGP 2024-02-01
 
 Updated the Dictionaries:

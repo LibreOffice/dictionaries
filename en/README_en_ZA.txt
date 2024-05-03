@@ -1,3 +1,41 @@
+Since 2021 that the ZA dictionary has been improved/fixed by Marco A.G.Pinto.
+
+2010-03-09 (nemeth AT OOo)
+           - UTF-8 encoded dictionary:
+               - fix em-dash problem of OOo 3.2 by BREAK
+               - suggesting words with typographical apostrophes
+               - recognizing words with Unicode f ligatures
+           - add phonetic suggestion (Copyright (C) 2000 Björn Jacke, see the end of the file)
+
+2021-02-15 (Marco A.G.Pinto)
+           - Fixed: concious + conciousness.
+
+2022-07-12 (Marco A.G.Pinto)
+           - Fixed: “!” flag at start of words;
+           - Removed duplicate words;
+           - Sorted alphabetically the dictionary.
+
+2023-01-01 (Marco A.G.Pinto)
+           - Added the: ICONV ’ ';
+           - Sorted alphabetically the tags of the .aff.
+
+2023-01-17 (Marco A.G.Pinto)
+           - Added: Czechia + Czechia's.
+
+2023-01-26 (Marco A.G.Pinto)
+           - Fixed/improved: flag “3”.
+
+2024-01-29 (Marco A.G.Pinto)
+           - Fix: Removed the: ICONV ’ ' because it was already at the end of the .aff;
+           - Fix: apostrophe handling, by adding: WORDCHARS 0123456789’ to the .aff;
+           - Improved flag “J” adding 424 words.
+
+2024-04-02 (Marco A.G.Pinto)
+           - Improved flag “S” adding 9 words (possessives).
+           - Improved flag “N” adding 1114 words (possessives).
+
+-------
+
 MySpell English (South African) Spellchecker
 --------------------------------------------
 

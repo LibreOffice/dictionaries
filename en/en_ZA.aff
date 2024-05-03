@@ -4,35 +4,8 @@
 #
 # David Bartlett, Andrew Brown.
 # R 1.18, 11/04/05
-# 2010-03-09 (nemeth AT OOo)
-#  - UTF-8 encoded dictionary:
-#       - fix em-dash problem of OOo 3.2 by BREAK
-#       - suggesting words with typographical apostrophes
-#       - recognizing words with Unicode f ligatures
-#  - add phonetic suggestion (Copyright (C) 2000 Björn Jacke, see the end of the file)
 #
-# 2021-02-15 (Marco A.G.Pinto)
-# - Fixed: concious + conciousness.
-#
-# 2022-07-12 (Marco A.G.Pinto)
-# - Fixed: ! flag at start of words;
-# - Removed duplicate words;
-# - Sorted alphabetically the dictionary.
-#
-# 2023-01-01 (Marco A.G.Pinto)
-# - Added the: ICONV ’ ';
-# - Sorted alphabetically the tags of the .aff.
-#
-# 2023-01-17 (Marco A.G.Pinto)
-# - Added: Czechia + Czechia's.
-#
-# 2023-01-26 (Marco A.G.Pinto)
-# - Fixed/improved: flag 3.
-#
-# 2024-01-29 (Marco A.G.Pinto)
-# - Fix: Removed the: ICONV ’ ' because it was already at the end of the .aff;
-# - Fix: apostrophe handling, by adding: WORDCHARS 0123456789’ to the .aff;
-# - Improved flag J adding 424 words.
+# Since 2021 that the ZA dictionary has been improved/fixed by Marco A.G.Pinto.
 #
 
 SET UTF-8
@@ -161,7 +134,7 @@ SFX u d siveness d
 SFX u de siveness de 
 SFX u 0 tiveness [aio] 
 SFX u e tiveness ce 
-SFX N Y 26
+SFX N Y 52
 SFX N 0 ation [^aeiou]l 
 SFX N 0 ation [^aeiou]m 
 SFX N e ation [^bcdkmst]e 
@@ -188,6 +161,32 @@ SFX N de sion de
 SFX N t ssion mit 
 SFX N e tion ce 
 SFX N el ulsion el 
+SFX N 0 ation's [^aeiou]l 
+SFX N 0 ation's [^aeiou]m 
+SFX N e ation's [^bcdkmst]e 
+SFX N 0 ation's [^bdelmrstxy] 
+SFX N 0 ation's [^e]r 
+SFX N 0 ation's [^i]t 
+SFX N e ation's [iou]te 
+SFX N ke cation's ke 
+SFX N y ication's y 
+SFX N e ion's [^iou]te 
+SFX N 0 ion's [^m]it 
+SFX N e ion's [^o]se 
+SFX N 0 ion's [sx] 
+SFX N e ition's ose 
+SFX N 0 lation's [aiou]l 
+SFX N e mation's [^u]me 
+SFX N 0 mation's [aeiou]m 
+SFX N b ption's b 
+SFX N be ption's be 
+SFX N e ption's ume 
+SFX N er ration's er 
+SFX N d sion's d 
+SFX N de sion's de 
+SFX N t ssion's mit 
+SFX N e tion's ce 
+SFX N el ulsion's el 
 SFX n Y 28
 SFX n 0 ation [^aeiou]l 
 SFX n 0 ation [^aelry] 
@@ -624,7 +623,7 @@ SFX r 0 lers [^aeio][aeiou]l
 SFX r 0 r e 
 SFX r 0 r's e 
 SFX r 0 rs e 
-SFX S Y 9
+SFX S Y 10
 SFX S 0 es [cs]h 
 SFX S 0 es [sxz] 
 SFX S y ies [^aeiou]y 
@@ -634,6 +633,7 @@ SFX S 0 s [^hsuxyz]
 SFX S 0 s [ae]u 
 SFX S 0 s [aeiou]y 
 SFX S 0 x [ae]u 
+SFX S 0 x's [ae]u 
 SFX P Y 6
 SFX P y iness [^aeiou]y 
 SFX P y iness's [^aeiou]y 
