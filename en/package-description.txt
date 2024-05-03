@@ -3,6 +3,6 @@ English dictionaries for LibreOffice 4.0+.
 It includes:
 - en_AU (Australian) (updated: 2024-02-01)
 - en_CA (Canadian) (updated: 2024-02-01)
-- en_GB (British) (updated: 2024-02-01)
+- en_GB (British) (updated: 2024-05-01)
 - en_US (American) (updated: 2024-02-01)
-- en_ZA (South African) (updated: 2024-02-01)
+- en_ZA (South African) (updated: 2024-05-01)
