@@ -196,6 +196,10 @@ OOo Issue 63541 — remove *dessicated
 
 2023-10-26:
            — Improved flag “J”, increasing the wordlist in 70 valid words.
+
+2024-04-02:
+           — Improved flag “S”, increasing the wordlist in 13 valid words.
+
 -------
 
 MARCO A.G.PINTO:
