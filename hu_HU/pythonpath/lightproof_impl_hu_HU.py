@@ -36,7 +36,7 @@ def option(lang, opt):
 
 # filtering affix fields (ds, is, ts etc.)
 def onlymorph(st):
-    if st != None:
+    if st is not None:
         st = re.sub(r"^.*(st:|po:)", r"\\1", st) # keep last word part
         st = re.sub(r"\\b(?=[dit][sp]:)","@", st) # and its affixes
         st = re.sub(r"(?<!@)\\b\w\w:\w+","", st).replace('@','').strip()
@@ -141,9 +141,9 @@ def wordmin(s, n):
 def calc(funcname, par):
     global calcfunc
     global SMGR
-    if calcfunc == None:
+    if calcfunc is None:
         calcfunc = SMGR.createInstance( "com.sun.star.sheet.FunctionAccess")
-        if calcfunc == None:
+        if calcfunc is None:
                 return None
     return calcfunc.callFunction(funcname, par)
 

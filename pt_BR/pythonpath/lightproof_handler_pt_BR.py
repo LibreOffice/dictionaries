@@ -69,7 +69,7 @@ class LightproofOptionsEventHandler( unohelper.Base, XServiceInfo, XContainerWin
 
     def loadData(self, aWindow):
         sWindowName = self.getWindowName(aWindow)
-        if (sWindowName == None):
+        if (sWindowName is None):
             return
         child = self.getChild(sWindowName)
         for i in lightproof_opts_pt_BR.lopts[sWindowName]:
@@ -85,7 +85,7 @@ class LightproofOptionsEventHandler( unohelper.Base, XServiceInfo, XContainerWin
 
     def saveData(self, aWindow):
         sWindowName = self.getWindowName(aWindow)
-        if (sWindowName == None):
+        if (sWindowName is None):
             return
         child = self.getChild(sWindowName)
         for i in lightproof_opts_pt_BR.lopts[sWindowName]:
