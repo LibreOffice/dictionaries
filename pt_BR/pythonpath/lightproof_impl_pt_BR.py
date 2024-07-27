@@ -1,6 +1,11 @@
 # -*- encoding: UTF-8 -*-
 
-import uno, re, sys, os, traceback
+import uno
+import re
+import sys
+import os
+import traceback
+import lightproof_handler_pt_BR
 from com.sun.star.text.TextMarkupType import PROOFREADING
 from com.sun.star.beans import PropertyValue
 
@@ -10,8 +15,6 @@ locales = {'pt-BR': ['pt', 'BR', '']}
 version = "0.4.3"
 author = "Raimundo Santos Moura"
 name = "Lightproof grammar checker (Portuguese Brazilian)"
-
-import lightproof_handler_pt_BR
 
 # loaded rules (check for Update mechanism of the editor)
 try:
@@ -38,7 +41,7 @@ def option(lang, opt):
 
 # filtering affix fields (ds, is, ts etc.)
 def onlymorph(st):
-    if st != None:
+    if st is not None:
         st = re.sub(r"^.*(st:|po:)", r"\\1", st) # keep last word part
         st = re.sub(r"\\b(?=[dit][sp]:)","@", st) # and its affixes
         st = re.sub(r"(?<!@)\\b\w\w:\w+","", st).replace('@','').strip()
@@ -89,7 +92,7 @@ def stem(rLoc, word):
     global stems
     if not word:
         return []
-    if not word in stems:
+    if word not in stems:
         x = spellchecker.spell(u"<?xml?><query type='stem'><word>" + word + "</word></query>", rLoc, ())
         if not x:
             return []
@@ -141,9 +144,9 @@ def wordmin(s, n):
 def calc(funcname, par):
     global calcfunc
     global SMGR
-    if calcfunc == None:
+    if calcfunc is None:
         calcfunc = SMGR.createInstance( "com.sun.star.sheet.FunctionAccess")
-        if calcfunc == None:
+        if calcfunc is None:
                 return None
     return calcfunc.callFunction(funcname, par)
 
@@ -153,7 +156,7 @@ def proofread( nDocId, TEXT, LOCALE, nStartOfSentencePos, nSuggestedSentenceEndP
     s = TEXT[nStartOfSentencePos:nSuggestedSentenceEndPos]
     for i in get_rule(LOCALE).dic:
         # 0: regex,  1: replacement,  2: message,  3: condition,  4: ngroup,  (5: oldline),  6: case sensitive ?
-        if i[0] and not str(i[0]) in ignore:
+        if i[0] and str(i[0]) not in ignore:
             for m in i[0].finditer(s):
                 try:
                     if not i[3] or eval(i[3]):
@@ -216,7 +219,7 @@ def compile_rules(dic):
             else:
                 i += [False]
             i[0] = re.compile(i[0])
-        except:
+        except Exception:
             if 'PYUNO_LOGLEVEL' in os.environ:
                 print("Lightproof: bad regular expression: ", traceback.format_exc())
             i[0] = None
@@ -224,7 +227,7 @@ def compile_rules(dic):
 def get_rule(loc):
     try:
         return langrule[pkg]
-    except:
+    except Exception:
         langrule[pkg] = __import__("lightproof_" + pkg)
         compile_rules(langrule[pkg].dic)
     return langrule[pkg]
@@ -1381,7 +1384,6 @@ aacento = {"abada": "abadá",
 "retorico": "retórico",
 "retrograda": "retrógrada",
 "retrogradas": "retrógradas",
-"retrogrado": "retrógrado",
 "retrogrado": "retrógrado",
 "reusa": "reúsa",
 "reusas": "reúsas",
@@ -2563,7 +2565,7 @@ varGenera = {"a": "a", "A": "A","À":"À","à":"à",
 "Neste": "Nesta", "no": "na", "No": "Na", "nossa": "nossa",
 "Nossa": "Nossa", "nosso": "nossa", "Nosso": "Nossa",
 "o": "a", "O": "A", "outra": "outra", "Outra": "Outra",
-"outro": "outra", "Outra": "Outra", "pela": "pela",
+"outro": "outra", "pela": "pela",
 "Pela": "Pela", "pelo": "pela", "Pelo": "Pela",
 "pequena": "pequena", "Pequena": "Pequena", "pequeno": "pequena", "Pequeno": "Pequena",
 "pouca": "pouca", "Pouca": "Pouca", "pouco": "pouca", "Pouco": "Pouca",
@@ -12741,7 +12743,6 @@ mProclise = {"abaixo": "Abaixo",
 "pouca": "Pouca",
 "poucas": "Poucas",
 "pouco": "Pouco",
-"pouco": "Pouco",
 "poucos": "Poucos",
 "quando": "Quando",
 "quanto": "Quanto",
@@ -20606,7 +20607,6 @@ ccvbFsvo = {"antepor": "antepuser",
 "expor": "expuser",
 "fazer": "fizer",
 "impor": "impuser",
-"impor": "impuser",
 "indispor": "indispuser",
 "interpor": "interpuser",
 "justapor": "justapuser",
@@ -20626,7 +20626,6 @@ ccvbFsvo = {"antepor": "antepuser",
 "redizer": "redisser",
 "reexpor": "reexpuser",
 "refazer": "refizer",
-"reimpor": "reimpuser",
 "reimpor": "reimpuser",
 "repor": "repuser",
 "repropor": "repropuser",
@@ -20661,7 +20660,6 @@ aaVblgtps = {"continua": "continua",
 "continuam": "continua",
 "continuamos": "continua",
 "continuar": "continuar",
-"continuara": "continuara",
 "continuara": "continuara",
 "continuará": "continuará",
 "continuaram": "continuou",
@@ -20740,7 +20738,6 @@ aaVblgtps = {"continua": "continua",
 "estive": "esteve",
 "estivemos": "esteve",
 "estiver": "estiver",
-"estivera": "estivera",
 "estivera": "estivera",
 "estiveram": "esteve",
 "estivéramos": "estivera",
@@ -20901,7 +20898,6 @@ aaVblgtps = {"continua": "continua",
 "permaneceríeis": "permaneceria",
 "permanecermos": "permanecer",
 "permaneces": "permanece",
-"permanecesse": "permanecesse",
 "permanecesse": "permanecesse",
 "permanecêsseis": "permanecesse",
 "permanecessem": "permanecesse",

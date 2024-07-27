@@ -1,10 +1,10 @@
 ﻿import uno
 import unohelper
 import lightproof_opts_pt_BR
-pkg = "pt_BR"
-
 from com.sun.star.lang import XServiceInfo
 from com.sun.star.awt import XContainerWindowEventHandler
+
+pkg = "pt_BR"
 
 # options
 options = {}
@@ -14,16 +14,16 @@ def load(context):
         l = LightproofOptionsEventHandler(context)
         for i in lightproof_opts_pt_BR.lopts:
             l.load(i)
-    except:
+    except Exception:
         pass
 
 def get_option(page, option):
     try:
         return options[page + "," + option]
-    except:
+    except Exception:
         try:
             return options[page[:2] + "," + option]
-        except:
+        except Exception:
             return 0
 
 def set_option(page, option, value):

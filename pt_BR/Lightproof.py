@@ -2,11 +2,11 @@
 # Lightproof grammar checker for LibreOffice and OpenOffice.org
 # 2009-2012 (c) Laszlo Nemeth (nemeth at numbertext org), license: MPL 1.1 / GPLv3+ / LGPLv3+
 
-import uno, unohelper, os, sys, traceback
-locales = {'pt-BR': ['pt', 'BR', '']}
-pkg = "pt_BR"
+import uno
+import unohelper
+import os
+import traceback
 import lightproof_handler_pt_BR
-
 from com.sun.star.linguistic2 import XProofreader, XSupportedLocales
 from com.sun.star.linguistic2 import ProofreadingResult, SingleProofreadingError
 from com.sun.star.lang import XServiceInfo, XServiceName, XServiceDisplayName
@@ -14,8 +14,11 @@ from com.sun.star.lang import Locale
 # reload in obj.reload in Python 3
 try:
     from obj import reload
-except:
+except Exception:
     pass
+
+locales = {'pt-BR': ['pt', 'BR', '']}
+pkg = "pt_BR"
 
 class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XServiceDisplayName, XSupportedLocales):
 
@@ -64,7 +67,7 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
         nSuggestedSentenceEndPos, rProperties):
         import lightproof_impl_pt_BR
         currentContext = uno.getComponentContext()
-        if lightproof_impl_pt_BR.SMGR == None:
+        if lightproof_impl_pt_BR.SMGR is None:
             lightproof_impl_pt_BR.SMGR = currentContext.ServiceManager
             lightproof_impl_pt_BR.spellchecker = \
                 lightproof_impl_pt_BR.SMGR.createInstanceWithContext("com.sun.star.linguistic2.SpellChecker", currentContext)
@@ -119,7 +122,7 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
                         return aRes
                 aRes.aText = ""
                 return aRes
-            except:
+            except Exception:
                 if 'PYUNO_LOGLEVEL' in os.environ:
                     print(traceback.format_exc())
 

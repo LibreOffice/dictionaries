@@ -1,5 +1,10 @@
 # -*- encoding: UTF-8 -*-
-import uno, re, sys, os, traceback
+import uno
+import re
+import sys
+import os
+import traceback
+import lightproof_handler_ru_RU
 from com.sun.star.text.TextMarkupType import PROOFREADING
 from com.sun.star.beans import PropertyValue
 
@@ -9,8 +14,6 @@ locales = {'ru-RU': ['ru', 'RU', '']}
 version = "0.3.4"
 author = "Yakov Reztsov <yr at myooo dot ru>"
 name = "Lightproof grammar checker (Russian)"
-
-import lightproof_handler_ru_RU
 
 # loaded rules (check for Update mechanism of the editor)
 try:
@@ -88,7 +91,7 @@ def stem(rLoc, word):
     global stems
     if not word:
         return []
-    if not word in stems:
+    if word not in stems:
         x = spellchecker.spell(u"<?xml?><query type='stem'><word>" + word + "</word></query>", rLoc, ())
         if not x:
             return []
@@ -152,7 +155,7 @@ def proofread( nDocId, TEXT, LOCALE, nStartOfSentencePos, nSuggestedSentenceEndP
     s = TEXT[nStartOfSentencePos:nSuggestedSentenceEndPos]
     for i in get_rule(LOCALE).dic:
         # 0: regex,  1: replacement,  2: message,  3: condition,  4: ngroup,  (5: oldline),  6: case sensitive ?
-        if i[0] and not str(i[0]) in ignore:
+        if i[0] and str(i[0]) not in ignore:
             for m in i[0].finditer(s):
                 try:
                     if not i[3] or eval(i[3]):
@@ -215,7 +218,7 @@ def compile_rules(dic):
             else:
                 i += [False]
             i[0] = re.compile(i[0])
-        except:
+        except Exception:
             if 'PYUNO_LOGLEVEL' in os.environ:
                 print("Lightproof: bad regular expression: " + str(traceback.format_exc()))
             i[0] = None
@@ -223,7 +226,7 @@ def compile_rules(dic):
 def get_rule(loc):
     try:
         return langrule[pkg]
-    except:
+    except Exception:
         langrule[pkg] = __import__("lightproof_" + pkg)
         compile_rules(langrule[pkg].dic)
     return langrule[pkg]
