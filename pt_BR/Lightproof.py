@@ -6,6 +6,10 @@ import uno
 import unohelper
 import os
 import traceback
+
+locales = {'pt-BR': ['pt', 'BR', '']}
+pkg = "pt_BR"
+
 import lightproof_handler_pt_BR
 from com.sun.star.linguistic2 import XProofreader, XSupportedLocales
 from com.sun.star.linguistic2 import ProofreadingResult, SingleProofreadingError
@@ -16,9 +20,6 @@ try:
     from obj import reload
 except Exception:
     pass
-
-locales = {'pt-BR': ['pt', 'BR', '']}
-pkg = "pt_BR"
 
 class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XServiceDisplayName, XSupportedLocales):
 

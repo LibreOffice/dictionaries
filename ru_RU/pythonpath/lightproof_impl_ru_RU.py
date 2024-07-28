@@ -4,7 +4,6 @@ import re
 import sys
 import os
 import traceback
-import lightproof_handler_ru_RU
 from com.sun.star.text.TextMarkupType import PROOFREADING
 from com.sun.star.beans import PropertyValue
 
@@ -14,6 +13,8 @@ locales = {'ru-RU': ['ru', 'RU', '']}
 version = "0.3.4"
 author = "Yakov Reztsov <yr at myooo dot ru>"
 name = "Lightproof grammar checker (Russian)"
+
+import lightproof_handler_ru_RU
 
 # loaded rules (check for Update mechanism of the editor)
 try:

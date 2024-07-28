@@ -5,7 +5,6 @@ import re
 import sys
 import os
 import traceback
-import lightproof_handler_hu_HU
 from com.sun.star.text.TextMarkupType import PROOFREADING
 from com.sun.star.beans import PropertyValue
 
@@ -15,6 +14,8 @@ locales = {'hu-HU': ['hu', 'HU', '']}
 version = "1.6.4"
 author = "László Németh"
 name = "Lightproof grammar checker (magyar)"
+
+import lightproof_handler_hu_HU
 
 # loaded rules (check for Update mechanism of the editor)
 try:

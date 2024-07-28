@@ -4,7 +4,6 @@ import re
 import sys
 import os
 import traceback
-import lightproof_handler_en
 from com.sun.star.text.TextMarkupType import PROOFREADING
 from com.sun.star.beans import PropertyValue
 
@@ -14,6 +13,8 @@ locales = {'en-GB': ['en', 'GB', ''], 'en-ZW': ['en', 'ZW', ''], 'en-PH': ['en',
 version = "0.4.3"
 author = "László Németh"
 name = "Lightproof grammar checker (English)"
+
+import lightproof_handler_en
 
 # loaded rules (check for Update mechanism of the editor)
 try:

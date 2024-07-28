@@ -5,7 +5,6 @@ import re
 import sys
 import os
 import traceback
-import lightproof_handler_pt_BR
 from com.sun.star.text.TextMarkupType import PROOFREADING
 from com.sun.star.beans import PropertyValue
 
@@ -15,6 +14,8 @@ locales = {'pt-BR': ['pt', 'BR', '']}
 version = "0.4.3"
 author = "Raimundo Santos Moura"
 name = "Lightproof grammar checker (Portuguese Brazilian)"
+
+import lightproof_handler_pt_BR
 
 # loaded rules (check for Update mechanism of the editor)
 try:
