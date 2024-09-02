@@ -1,6 +1,6 @@
 Slovak spell check dictionary, hyphenation rules and thesaurus
 
-This is update of dictionary to data (29.08.2022)
+This is update of dictionary to data (29.08.2024)
 - bugfixs in affix compression in spellchecker
 - new words for spellchecker dictionary and thesaurus
 
