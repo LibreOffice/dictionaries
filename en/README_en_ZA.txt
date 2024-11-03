@@ -2,10 +2,10 @@ Since 2021 that the ZA dictionary has been improved/fixed by Marco A.G.Pinto.
 
 2010-03-09 (nemeth AT OOo)
            - UTF-8 encoded dictionary:
-               - fix em-dash problem of OOo 3.2 by BREAK
-               - suggesting words with typographical apostrophes
-               - recognizing words with Unicode f ligatures
-           - add phonetic suggestion (Copyright (C) 2000 Björn Jacke, see the end of the file)
+               - Fix em-dash problem of OOo 3.2 by BREAK
+               - Suggesting words with typographical apostrophes
+               - Recognizing words with Unicode f ligatures
+           - Add phonetic suggestion (Copyright (C) 2000 Björn Jacke, see the end of the file).
 
 2021-02-15 (Marco A.G.Pinto)
            - Fixed: concious + conciousness.
@@ -31,8 +31,14 @@ Since 2021 that the ZA dictionary has been improved/fixed by Marco A.G.Pinto.
            - Improved flag “J” adding 424 words.
 
 2024-04-02 (Marco A.G.Pinto)
-           - Improved flag “S” adding 9 words (possessives).
+           - Improved flag “S” adding 9 words (possessives);
            - Improved flag “N” adding 1114 words (possessives).
+
+2024-05-12 (Marco A.G.Pinto)
+           - Started parallel adding of words from GB to ZA.
+
+2024-07-11 (Marco A.G.Pinto)
+           - Improved flag “n” adding 962 words (possessives).
 
 -------
 
@@ -241,8 +247,8 @@ Email your contributions to Dwayne Bailey <dwayne@translate.org.za>.
 This software is released under the LGPL which is included here for your
 information.
 
-		  GNU LESSER GENERAL PUBLIC LICENSE
-		       Version 2.1, February 1999
+          GNU LESSER GENERAL PUBLIC LICENSE
+               Version 2.1, February 1999
 
  Copyright (C) 1991, 1999 Free Software Foundation, Inc.
      59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
@@ -253,7 +259,7 @@ information.
  as the successor of the GNU Library Public License, version 2, hence
  the version number 2.1.]
 
-			    Preamble
+                Preamble
 
   The licenses for most software are designed to take away your
 freedom to share and change it.  By contrast, the GNU General Public
@@ -298,7 +304,7 @@ modified by someone else and passed on, the recipients should know
 that what they have is not the original version, so that the original
 author's reputation will not be affected by problems that might be
 introduced by others.
-
+
   Finally, software patents pose a constant threat to the existence of
 any free program.  We wish to make sure that a company cannot
 effectively restrict the users of a free program by obtaining a
@@ -354,8 +360,8 @@ modification follow.  Pay close attention to the difference between a
 "work based on the library" and a "work that uses the library".  The
 former contains code derived from the library, whereas the latter must
 be combined with the library in order to run.
-
-		  GNU LESSER GENERAL PUBLIC LICENSE
+
+          GNU LESSER GENERAL PUBLIC LICENSE
    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
   0. This License Agreement applies to any software library or other
@@ -401,7 +407,7 @@ Library.
   You may charge a fee for the physical act of transferring a copy,
 and you may at your option offer warranty protection in exchange for a
 fee.
-
+
   2. You may modify your copy or copies of the Library or any portion
 of it, thus forming a work based on the Library, and copy and
 distribute such modifications or work under the terms of Section 1
@@ -459,7 +465,7 @@ instead of to this License.  (If a newer version than version 2 of the
 ordinary GNU General Public License has appeared, then you can specify
 that version instead if you wish.)  Do not make any other change in
 these notices.
-
+
   Once this change is made in a given copy, it is irreversible for
 that copy, so the ordinary GNU General Public License applies to all
 subsequent copies and derivative works made from that copy.
@@ -510,7 +516,7 @@ Library will still fall under Section 6.)
 distribute the object code for the work under the terms of Section 6.
 Any executables containing that work also fall under Section 6,
 whether or not they are linked directly with the Library itself.
-
+
   6. As an exception to the Sections above, you may also combine or
 link a "work that uses the Library" with the Library to produce a
 work containing portions of the Library, and distribute that work
@@ -572,7 +578,7 @@ restrictions of other proprietary libraries that do not normally
 accompany the operating system.  Such a contradiction means you cannot
 use both them and the Library together in an executable that you
 distribute.
-
+
   7. You may place library facilities that are a work based on the
 Library side-by-side in a single library together with other library
 facilities not covered by this License, and distribute such a combined
@@ -613,7 +619,7 @@ subject to these terms and conditions.  You may not impose any further
 restrictions on the recipients' exercise of the rights granted herein.
 You are not responsible for enforcing compliance by third parties with
 this License.
-
+
   11. If, as a consequence of a court judgment or allegation of patent
 infringement or for any other reason (not limited to patent issues),
 conditions are imposed on you (whether by court order, agreement or
@@ -665,7 +671,7 @@ conditions either of that version or of any later version published by
 the Free Software Foundation.  If the Library does not specify a
 license version number, you may choose any version ever published by
 the Free Software Foundation.
-
+
   14. If you wish to incorporate parts of the Library into other free
 programs whose distribution conditions are incompatible with these,
 write to the author to ask for permission.  For software which is
@@ -675,7 +681,7 @@ decision will be guided by the two goals of preserving the free status
 of all derivatives of our free software and of promoting the sharing
 and reuse of software generally.
 
-			    NO WARRANTY
+                NO WARRANTY
 
   15. BECAUSE THE LIBRARY IS LICENSED FREE OF CHARGE, THERE IS NO
 WARRANTY FOR THE LIBRARY, TO THE EXTENT PERMITTED BY APPLICABLE LAW.
@@ -698,8 +704,8 @@ FAILURE OF THE LIBRARY TO OPERATE WITH ANY OTHER SOFTWARE), EVEN IF
 SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
 DAMAGES.
 
-		     END OF TERMS AND CONDITIONS
-
+             END OF TERMS AND CONDITIONS
+
            How to Apply These Terms to Your New Libraries
 
   If you develop a new library, and you want it to be of the greatest
