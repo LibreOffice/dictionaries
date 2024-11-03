@@ -187,13 +187,19 @@ SFX N de sion's de
 SFX N t ssion's mit 
 SFX N e tion's ce 
 SFX N el ulsion's el 
-SFX n Y 28
+SFX n Y 42
 SFX n 0 ation [^aeiou]l 
 SFX n 0 ation [^aelry] 
 SFX n e ation [^ckt]e 
 SFX n 0 ation [^e]r 
 SFX n e ation [iou]te 
 SFX n y ation py 
+SFX n 0 ation's [^aeiou]l 
+SFX n 0 ation's [^aelry] 
+SFX n e ation's [^ckt]e 
+SFX n 0 ation's [^e]r 
+SFX n e ation's [iou]te 
+SFX n y ation's py 
 SFX n 0 ations [^aeiou]l 
 SFX n 0 ations [^aelry] 
 SFX n e ations [^ckt]e 
@@ -201,20 +207,28 @@ SFX n 0 ations [^e]r
 SFX n e ations [iou]te 
 SFX n y ations py 
 SFX n ke cation ke 
+SFX n ke cation's ke 
 SFX n ke cations ke 
 SFX n y ication [^p]y 
+SFX n y ication's [^p]y 
 SFX n y ications [^p]y 
 SFX n e ion [^iou]te 
+SFX n e ion's [^iou]te 
 SFX n e ions [^iou]te 
 SFX n 0 lation [aiou]l 
+SFX n 0 lation's [aiou]l 
 SFX n 0 lations [aiou]l 
 SFX n er ration er 
+SFX n er ration's er 
 SFX n er rations er 
 SFX n 0 tion a 
 SFX n e tion ce 
+SFX n 0 tion's a
+SFX n e tion's ce 
 SFX n 0 tions a 
 SFX n e tions ce 
 SFX n el ulsion el 
+SFX n el ulsion's el 
 SFX n el ulsions el 
 SFX X Y 26
 SFX X 0 ations [^aeiou]l 

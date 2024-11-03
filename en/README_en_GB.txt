@@ -213,12 +213,11 @@ The dictionary icon in the Extension Manager was designed by Pedro Ribeiro Marqu
 The sources used to verify the spelling of the words I included in the dictionary:
  1) Oxford Dictionaries;
  2) Collins Dictionary;
- 3) Macmillan Dictionary;
- 4) Cambridge Dictionary;
- 5) Merriam-Webster Dictionary (used with caution ⚠);
- 6) Wiktionary (used with caution ⚠);
- 7) Wikipedia (used with caution ⚠);
- 8) Physical dictionaries.
+ 3) Cambridge Dictionary;
+ 4) Merriam-Webster Dictionary (used with caution ⚠);
+ 5) Wiktionary (used with caution ⚠);
+ 6) Wikipedia (used with caution ⚠);
+ 7) Physical dictionaries.
 
 Main difficulties developing this dictionary:
  1) Proper names;
