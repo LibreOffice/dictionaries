@@ -1,5 +1,5 @@
 Stavekontrolden - Danish dictionary files for Hunspell and thesaurus files for MyThes
-Version 2.8.001 - 05-09-2023
+Version 2.8.140 - 08-11-2024
 da_DK.dic, da_DK.aff, th_da_DK.dat, th_da_DK.idx: © 2020 Foreningen for frit tilgængelige sprogværktøjer - http://www.stavekontrolden.dk
 These files are published under the following open source licenses:
 

@@ -1,8 +1,8 @@
 #A. Intro ##########
-#Stavekontrolden version 2.8.001
+#Stavekontrolden version 2.8.140
 #Denne fil er en del af Stavekontrolden - et softwareprodukt, der gør det muligt at stavekontrollere på dansk.
 
-#Copyright (C) 2023 Foreningen for frit tilgængelige sprogværktøjer
+#Copyright (C) 2024 Foreningen for frit tilgængelige sprogværktøjer
 #Website: http://www.stavekontrolden.dk
 #E-mail: info@stavekontrolden.dk
 
@@ -29,6 +29,13 @@ SET UTF-8
 WORDCHARS -.
 
 #Ord ned til 2 bogstaver kan indgå i sammensætning. Default er mindst 3 bogstaver.
+#Med et minimum på 2 bogstaver kan præfikser som af-, de-, ur- fungere,
+#og H.C. Andersen (snarere end H. C. Andersen med mellemrum mellem initialerne) kan accepteres
+#af stavekontrollen, når de enkelte initialer inkl. punktum (A., B., C., osv.) er lagt ind med mulighed for
+#sammenføjning.
+#Enkeltbogstav-præfikser som u-, og enkeltbogstav-ord som ø og å kan kun indgå i sammensætninger, 
+#hvis minimum sættes til 1 bogstav, men prisen er så, at ethvert u, ø og å kan sættes foran ethvert ord,
+#og ø og å kan sættes efter ethvert ord.
 COMPOUNDMIN 2
 
 #Op til 10 ord i sammensætninger.
@@ -60,7 +67,7 @@ MAXNGRAMSUGS 10
 ONLYMAXDIFF
 
 #Enkeltbogstaver som kan forsøges udskiftet med et andet enkeltbogstav.
-TRY esrntliadkogmufbvphæøyjåcSMAKBHTLzRNEGéJVFDCwPIxOZ'.-UWqØYÅüXQöèóáúðëÆíÖäÜÁàôïêÞÓÿîçãÒÍ.çńñłđžŽ
+TRY esrntliadkogmufbvphæøyjåcSMAKBHTLzRNEGéJVFDCwPIxOZ'.-UWqØYÅüXQöèóáúðëÆíÖäÜÁàôïêÞÓÿîçãÒÍçńñłđžŽ
 
 #Enkelttegn som kan erstattes med nabotegn, f.eks. når man rammer den forkerte tast på tastaturet.
 KEY qwertyuiopå|asdfghjklæø|zxcvbnm
@@ -69,6 +76,7 @@ KEY qwertyuiopå|asdfghjklæø|zxcvbnm
 #D. Erstatningsliste til ordforslag #########
 
 #Liste med erstatningsforslag for at hjælpe systemet med at finde de rette forslag
+
 REP 126
 REP ^altsammen$ alt_sammen #altsammen -> alt sammen
 REP ^forlængst$ for_længst
@@ -171,7 +179,7 @@ REP e de
 REP sj ch
 REP øv eu #øvforisk -> euforisk
 REP ø eu #øforisk -> euforisk
-REP y ud
+REP y j #ved ord fra fremmedsprog, hvor j på dansk ofte har stået som y i engelsk gengivelse
 REP sj g
 REP ds c
 REP ^u in #ueffektiv -> ineffektiv
@@ -365,13 +373,13 @@ SFX 9 0 s [^sxz]	+GENITIV
 SFX 9 0 's s	+GENITIV
 SFX 9 0 ' [sxz]	+GENITIV
 SFX 9 0 es s	+GENITIV
-SFX 9 0 's [ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ]
+SFX 9 0 's [ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅÖÄ]
 
 #Genitiv
 SFX 10 Y 3
 SFX 10 0 s/34 [^sxz]	+GENITIV
 SFX 10 0 '/34 [sxz]	+GENITIV
-SFX 10 0 's/34 [ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ]	+GENITIV
+SFX 10 0 's/34 [ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅÄÖ]	+GENITIV
 
 #Substantiv, flertal, med -er
 SFX 11 Y 8
@@ -832,7 +840,7 @@ SFX 21 e 0 [^w]we	+IMPERATIV
 SFX 21 e 0 [^x]xe	+IMPERATIV
 SFX 21 e 0 [^z]ze	+IMPERATIV
 SFX 21 0 ende/34,22 [^e]	+PRÆSENS_PART
-SFX 21 ere ér ere	+IMPERATIV
+SFX 21 ere ér/34 ere	+IMPERATIV
 SFX 21 0 er/34 [iy]	+NUTID
 SFX 21 e 0 [aeiouyæøå]e	+IMPERATIV
 
@@ -2595,3 +2603,8 @@ PFX 89 0 næst .
 #Superlativ aller-
 PFX 90 Y 1
 PFX 90 0 aller .
+
+#Sammensætning, fugeelement, fjern r
+SFX 93 Y 2
+SFX 93 r 0/33,36,35 .
+SFX 93 r 0/32,36,35 .
