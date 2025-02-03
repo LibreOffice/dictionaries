@@ -9,6 +9,10 @@
 
 $(eval $(call gb_Dictionary_Dictionary,dict-es,dictionaries/es))
 
+$(eval $(call gb_Dictionary_add_files,dict-es,images,\
+    dictionaries/es/RLA-ES.png \
+))
+
 $(eval $(call gb_Dictionary_add_root_files,dict-es,\
 	dictionaries/es/es_AR.aff \
 	dictionaries/es/es_AR.dic \
@@ -62,7 +66,6 @@ $(eval $(call gb_Dictionary_add_root_files,dict-es,\
 	dictionaries/es/README_hyph_es.txt \
 	dictionaries/es/README_th_es.txt \
 	dictionaries/es/LICENSE.md \
-	dictionaries/es/RLA-ES.png \
 ))
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-es,\
