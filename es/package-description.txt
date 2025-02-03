@@ -1,5 +1,5 @@
-Ortografía: 2.8
-Separación: 0.2
+Ortografía: 2.9
+Separación: 5.0
 Sinónimos: 24/02/2013
 
 Puede notificar fallos o mejoras a través de https://github.com/sbosio/rla-es/issues
