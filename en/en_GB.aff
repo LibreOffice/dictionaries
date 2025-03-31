@@ -17,14 +17,35 @@
 #   3) Plurals.
 #
 # David Bartlett, Andrew Brown, Marco A.G.Pinto.
-# V 3.3.6, 2024-11-01
+#
+#
+# Dictionary Information:
+# English variant: British
+#         Version: 4.0.1, 2025-04-01
+#        Encoding: UTF-8-BOM Unix (LF)
+#       -ise/-ize: -ise
+#        Comments: For specific -ise/-ize variants, some verbs, and words may be missing or incorrectly included.
+#
+# Maintainer: Marco A.G.Pinto
+#   Homepage: https://proofingtoolgui.org
+#     GitHub: https://github.com/marcoagpinto/aoo-mozilla-en-dict
+#     E-mail: marcoagpinto@sapo.pt
+#
 
 SET UTF-8
 
 TRY esiaénrtolcdugmfphbyvkw-'.zqjxSNRTLCGDMFPHBEAUYOIVKWóöâôZQJXÅçèîêàïüäñ
 
-ICONV 1
+ICONV 6
 ICONV ’ '
+ICONV ﬃ ffi
+ICONV ﬄ ffl
+ICONV ﬀ ff
+ICONV ﬁ fi
+ICONV ﬂ fl
+
+OCONV 1
+OCONV ' ’
 
 NOSUGGEST !
 
@@ -38,36 +59,47 @@ ONLYINCOMPOUND _
 COMPOUNDRULE 2
 COMPOUNDRULE #*0{
 COMPOUNDRULE #*@}
+
 WORDCHARS 0123456789’
 
-REP 27
-REP f ph
-REP ph f
-REP f gh
-REP f ugh
-REP gh f
-REP ff ugh
-REP uf ough
-REP uff ough
-REP k ch
+REP 37
+REP ce se
+REP ce ts
 REP ch k
-REP dg j
-REP j dg
-REP w ugh
-REP ness ity
-REP leness ility
-REP ness ivity
-REP eness ity
-REP og ogue
 REP ck qu
 REP ck que
+REP dg j
 REP eg e.g.
-REP ie i.e.
-REP t ght
+REP eness ity
+REP f gh
+REP f ph
+REP f ugh
+REP ff ugh
+REP gh f
 REP ght t
+REP ie i.e.
+REP ie y
+REP j dg
+REP k ch
+REP l ll
+REP leness ility
+REP ll l
+REP ness ity
+REP ness ivity
+REP og ogue
 REP ok OK
+REP ph f
+REP se ce
+REP si ci
+REP t ght
+REP ter tor
+REP tor ter
 REP ts ce
-REP ce ts
+REP ua ue
+REP uf ough
+REP uff ough
+REP w ugh
+REP y ie
 
 PFX A Y 2
 PFX A 0 re [^e] 
@@ -1302,7 +1334,7 @@ SFX y 0 ry [^mrst]e
 SFX y 0 ry [aeous]t 
 SFX O Y 23
 SFX O 0 al [^f][nu][gt]e
-SFX O 0 al [ai]t
+SFX O 0 al [air]t
 SFX O e al [aioy][dp]e
 SFX O 0 al [cdghmpwx]
 SFX O 0 al [ceos]t
@@ -1340,7 +1372,7 @@ SFX o 0 ually [px]t
 SFX W Y 27
 SFX W e atic [^cx][aeioumy]me 
 SFX W 0 atic [aeiou]m 
-SFX W 0 c [dghlmnsz]i 
+SFX W 0 c [bdghlmnsz]i 
 SFX W a c [i]a 
 SFX W e c [o][l][i]e 
 SFX W y etic thy 
@@ -1432,3 +1464,266 @@ SFX = 0 lessnesses [^ly]
 SFX = 0 lessnesses [aeiou]y
 SFX ~ Y 1
 SFX ~ 0 ish .
+
+BREAK 3
+BREAK —
+BREAK –
+BREAK -
+
+#   PHONEtic_english.h - #PHONEtic transformation rules for use with #PHONEtic.c
+#   Copyright (C) 2000 Björn Jacke
+#
+#   This rule set is based on Lawrence Phillips original metaPHONE 
+#   algorithm with modifications made by Michael Kuhn in his
+#   C implantation, more modifications by Björn Jacke when
+#   converting the algorithm to a rule set and minor 
+#   touch ups by Kevin Atkinson
+#
+#   This library is free software; you can redistribute it and/or
+#   modify it under the terms of the GNU Lesser General Public
+#   License version 2.1 as published by the Free Software Foundation;
+#
+#   This library is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#   Lesser General Public License for more details.
+#
+#   You should have received a copy of the GNU Lesser General Public
+#   License along with this library; if not, write to the Free Software
+#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+#   Björn Jacke may be reached by email at bjoern.jacke@gmx.de
+#
+#   Changelog:
+#
+#   2000-01-05  Björn Jacke <bjoern.jacke@gmx.de>
+#               - first version with translation rules derived from
+#                 metaPHONE.cc distributed with aspell 0.28.3
+#               - "TH" is now representated as "@" because "0" is a
+#                 meta character
+#               - removed TH(!vowel) --> T; always use TH --> # instead
+#               - dropped "^AE" -> "E" (redundant)
+#               - "ing" is transformed to "N", not "NK"
+#               - "SCH(EO)" transforms to "SK" now
+#               - added R --> SILENT if (after a vowel) and no (vowel or
+#                 "y" follows) like in "Marcy" or "abort"
+#               - H is SILENT in RH at beginning of words
+#               - H is SILENT if vowel leads and "Y" follows
+#               - some ".OUGH.."  --> ...F exceptions added
+#               - "^V" transforms to "W"
+#   2000-01-07  Kevin Atkinson <kevinatk@home.com>
+#               Converted from header to data file.
+#
+#   2007-08-23  László Németh <nemeth AT OOo>
+#               Add PHONE header and #PHONE keywords
+#
+#   2010-03-09  László Németh <nemeth AT OOo>
+#               Temporarily removing acuted character É
+#               because of the missing UTF-8 support
+#
+# version 1.1
+
+# Documentation: http://aspell.net/man-html/PHONEtic-Code.html
+
+PHONE 104
+PHONE AH(AEIOUY)-^         *H
+PHONE AR(AEIOUY)-^         *R
+PHONE A(HR)^               *
+PHONE A^                   *
+PHONE AH(AEIOUY)-          H
+PHONE AR(AEIOUY)-          R
+PHONE A(HR)                _
+PHONE BB-                  _
+PHONE B                    B
+PHONE CQ-                  _
+PHONE CIA                  X
+PHONE CH                   X
+PHONE C(EIY)-              S
+PHONE CK                   K
+PHONE COUGH^               KF
+PHONE CC<                  C
+PHONE C                    K
+PHONE DG(EIY)              K
+PHONE DD-                  _
+PHONE D                    T
+PHONE EH(AEIOUY)-^         *H
+PHONE ER(AEIOUY)-^         *R
+PHONE E(HR)^               *
+PHONE ENOUGH^$             *NF
+PHONE E^                   *
+PHONE EH(AEIOUY)-          H
+PHONE ER(AEIOUY)-          R
+PHONE E(HR)                _
+PHONE FF-                  _
+PHONE F                    F
+PHONE GN^                  N
+PHONE GN$                  N
+PHONE GNS$                 NS
+PHONE GNED$                N
+PHONE GH(AEIOUY)-          K
+PHONE GH                   _
+PHONE GG9                  K
+PHONE G                    K
+PHONE H                    H
+PHONE IH(AEIOUY)-^         *H
+PHONE IR(AEIOUY)-^         *R
+PHONE I(HR)^               *
+PHONE I^                   *
+PHONE ING6                 N
+PHONE IH(AEIOUY)-          H
+PHONE IR(AEIOUY)-          R
+PHONE I(HR)                _
+PHONE J                    K
+PHONE KN^                  N
+PHONE KK-                  _
+PHONE K                    K
+PHONE LAUGH^               LF
+PHONE LL-                  _
+PHONE L                    L
+PHONE MB$                  M
+PHONE MM                   M
+PHONE M                    M
+PHONE NN-                  _
+PHONE N                    N
+PHONE OH(AEIOUY)-^         *H
+PHONE OR(AEIOUY)-^         *R
+PHONE O(HR)^               *
+PHONE O^                   *
+PHONE OH(AEIOUY)-          H
+PHONE OR(AEIOUY)-          R
+PHONE O(HR)                _
+PHONE PH                   F
+PHONE PN^                  N
+PHONE PP-                  _
+PHONE P                    P
+PHONE Q                    K
+PHONE RH^                  R
+PHONE ROUGH^               RF
+PHONE RR-                  _
+PHONE R                    R
+PHONE SCH(EOU)-            SK
+PHONE SC(IEY)-             S
+PHONE SH                   X
+PHONE SI(AO)-              X
+PHONE SS-                  _
+PHONE S                    S
+PHONE TI(AO)-              X
+PHONE TH                   @
+PHONE TCH--                _
+PHONE TOUGH^               TF
+PHONE TT-                  _
+PHONE T                    T
+PHONE UH(AEIOUY)-^         *H
+PHONE UR(AEIOUY)-^         *R
+PHONE U(HR)^               *
+PHONE U^                   *
+PHONE UH(AEIOUY)-          H
+PHONE UR(AEIOUY)-          R
+PHONE U(HR)                _
+PHONE V^                   W
+PHONE V                    F
+PHONE WR^                  R
+PHONE WH^                  W
+PHONE W(AEIOU)-            W
+PHONE X^                   S
+PHONE X                    KS
+PHONE Y(AEIOU)-            Y
+PHONE ZZ-                  _
+PHONE Z                    S
+
+#The rules in a different view:
+#
+# Exceptions:
+#
+#  Beginning of word: "gn", "kn-", "pn-", "wr-"  ----> drop first letter
+#                     "Aebersold", "Gnagy", "Knuth", "Pniewski", "Wright"
+#
+#  Beginning of word: "x"                                ----> change to "s"
+#                                     as in "Deng Xiaopeng"
+#
+#  Beginning of word: "wh-"                              ----> change to "w"
+#                                     as in "Whalen"
+#  Beginning of word: leading vowels are transformed to "*"
+#
+#  "[crt]ough" and "enough" are handled separately because of "F" sound
+#
+#
+#  A --> A      at beginning
+#          _      otherwise
+#
+#  B --> B      unless at the end of word after "m", as in "dumb", "McComb"
+#
+#  C --> X      (sh) if "-cia-" or "-ch-"
+#          S      if "-ci-", "-ce-", or "-cy-"
+#                 SILENT if "-sci-", "-sce-", or "-scy-", or "-cq-"
+#          K      otherwise, including in "-sch-"
+#
+#  D --> K      if in "-dge-", "-dgy-", or "-dgi-"
+#          T      otherwise
+#
+#  E --> A      at beginnig
+#          _      SILENT otherwise
+#  
+#  F --> F
+#
+#  G -->        SILENT if in "-gh-" and not at end or before a vowel
+#                            in "-gn" or "-gned" or "-gns"
+#                           in "-dge-" etc., as in above rule
+#          K      if before "i", or "e", or "y" if not double "gg"
+#
+#          K      otherwise (incl. "GG"!)
+#
+#  H -->        SILENT if after vowel and no vowel or "Y" follows
+#                        or after "-ch-", "-sh-", "-ph-", "-th-", "-gh-"
+#                        or after "rh-" at beginning
+#          H      otherwise
+#
+#  I --> A      at beginning
+#          _      SILENT otherwise
+#
+#  J --> K
+#
+#  K -->        SILENT if after "c"
+#          K      otherwise
+#
+#  L --> L
+#
+#  M --> M
+#  
+#  N --> N
+#
+#  O --> A      at beginning
+#          _      SILENT otherwise
+#
+#  P --> F      if before "h"
+#          P      otherwise
+#
+#  Q --> K
+#
+#  R -->        SILENT if after vowel and no vowel or "Y" follows
+#          R      otherwise
+#
+#  S --> X      (sh) if before "h" or in "-sio-" or "-sia-"
+#          SK     if followed by "ch(eo)" (SCH(EO))
+#          S      otherwise
+#
+#  T --> X      (sh) if "-tia-" or "-tio-"
+#          0      (th) if before "h"
+#                 silent if in "-tch-"
+#          T      otherwise
+#
+#  U --> A      at beginning
+#          _      SILENT otherwise
+#
+#  V --> V      if first letter of word
+#          F      otherwise
+#
+#  W -->        SILENT if not followed by a vowel
+#          W      if followed by a vowel
+#
+#  X --> KS
+#
+#  Y -->        SILENT if not followed by a vowel
+#          Y      if followed by a vowel
+# 
+#  Z --> S
