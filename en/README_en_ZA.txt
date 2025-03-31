@@ -1,4 +1,64 @@
+In 2025 Marco A.G.Pinto officially forked the ZA dictionary.
 Since 2021 that the ZA dictionary has been improved/fixed by Marco A.G.Pinto.
+
+2025-02-23 (Marco A.G.Pinto)
+           - Unified the ZA and GB .AFF file.
+
+2025-02-20 (Marco A.G.Pinto)
+           - Unified the ZA flags with GB (~2800 new words including fixes in some).
+
+2025-02-05 (Marco A.G.Pinto)
+           - Inserted ~35000 proper names (70000+ with possessives and plurals) extracted from the GB Dictionary.
+
+2025-01-27 (Marco A.G.Pinto)
+           - Inserted ~2400 uncountable nouns (4800 with possessives) extracted from the GB Dictionary;
+           - Fixed/improved: flag “1”.
+
+2025-01-23 (Marco A.G.Pinto)
+           - Fixed/improved: flag “O” and “W”.
+
+2024-12-17 (Marco A.G.Pinto)
+           - “REP si ci” and merged/sorted REP GB/ZA (Shantanu Oak): https://bugs.documentfoundation.org/show_bug.cgi?id=152554 .
+           - Added support for 1st, 2nd, 3rd, 4th, etc.
+
+2024-11-30 (Marco A.G.Pinto)
+           - Improved flag “Z”.
+
+2024-11-05 (Marco A.G.Pinto)
+           - Improved flag “O” and replaced its PFX with “^”.
+
+2024-07-11 (Marco A.G.Pinto)
+           - Improved flag “n” adding 962 words (possessives).
+
+2024-05-12 (Marco A.G.Pinto)
+           - Started parallel adding of words from GB to ZA.
+
+2024-04-02 (Marco A.G.Pinto)
+           - Improved flag “S” adding 9 words (possessives);
+           - Improved flag “N” adding 1114 words (possessives).
+
+2024-01-29 (Marco A.G.Pinto)
+           - Fix: Removed the: ICONV ’ ' because it was already at the end of the .aff;
+           - Fix: apostrophe handling, by adding: WORDCHARS 0123456789’ to the .aff;
+           - Improved flag “J” adding 424 words.
+
+2023-01-26 (Marco A.G.Pinto)
+           - Fixed/improved: flag “3”.
+
+2023-01-17 (Marco A.G.Pinto)
+           - Added: Czechia + Czechia's.
+
+2023-01-01 (Marco A.G.Pinto)
+           - Added the: ICONV ’ ';
+           - Sorted alphabetically the tags of the .aff.
+
+2022-07-12 (Marco A.G.Pinto)
+           - Fixed: “!” flag at start of words;
+           - Removed duplicate words;
+           - Sorted alphabetically the dictionary.
+
+2021-02-15 (Marco A.G.Pinto)
+           - Fixed: concious + conciousness.
 
 2010-03-09 (nemeth AT OOo)
            - UTF-8 encoded dictionary:
@@ -6,39 +66,6 @@ Since 2021 that the ZA dictionary has been improved/fixed by Marco A.G.Pinto.
                - Suggesting words with typographical apostrophes
                - Recognizing words with Unicode f ligatures
            - Add phonetic suggestion (Copyright (C) 2000 Björn Jacke, see the end of the file).
-
-2021-02-15 (Marco A.G.Pinto)
-           - Fixed: concious + conciousness.
-
-2022-07-12 (Marco A.G.Pinto)
-           - Fixed: “!” flag at start of words;
-           - Removed duplicate words;
-           - Sorted alphabetically the dictionary.
-
-2023-01-01 (Marco A.G.Pinto)
-           - Added the: ICONV ’ ';
-           - Sorted alphabetically the tags of the .aff.
-
-2023-01-17 (Marco A.G.Pinto)
-           - Added: Czechia + Czechia's.
-
-2023-01-26 (Marco A.G.Pinto)
-           - Fixed/improved: flag “3”.
-
-2024-01-29 (Marco A.G.Pinto)
-           - Fix: Removed the: ICONV ’ ' because it was already at the end of the .aff;
-           - Fix: apostrophe handling, by adding: WORDCHARS 0123456789’ to the .aff;
-           - Improved flag “J” adding 424 words.
-
-2024-04-02 (Marco A.G.Pinto)
-           - Improved flag “S” adding 9 words (possessives);
-           - Improved flag “N” adding 1114 words (possessives).
-
-2024-05-12 (Marco A.G.Pinto)
-           - Started parallel adding of words from GB to ZA.
-
-2024-07-11 (Marco A.G.Pinto)
-           - Improved flag “n” adding 962 words (possessives).
 
 -------
 
