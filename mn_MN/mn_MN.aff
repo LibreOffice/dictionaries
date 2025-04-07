@@ -1,5 +1,5 @@
 # mn_MN.aff
-# Version: 2025.03.15
+# Version: 2025.04.04
 # Copyright 2020-2025, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 # Special thanks to Guntevsuren Nanzad for your great professional assistance.
@@ -46,7 +46,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 3872
+REP 3877
 REP a а
 REP c с
 REP e е
@@ -2828,6 +2828,8 @@ REP ^аппликэйшнүүдтэй апликейшнуудтай
 REP ^аппликэйшнүүдээ апликейшнуудаа
 REP ^аппликэйшнтэй апликейшнтай
 REP ^аппликэйшнээ апликейшнаа
+REP ^аппликэйшнээрээ апликейшнаараа
+REP ^аппликэйшнээсээ апликейшнаасаа
 REP ^аравдах арав_дахь
 REP ^аравдахаа арав_дахиа
 REP ^аравдахы арав_дахий
@@ -2895,6 +2897,9 @@ REP ^бөлзөгнөөсөө бэлзгээсээ
 REP ^бөлтөлз бүлтэлз
 REP ^бөлтөлзө бүлтэлзэ
 REP ^бөлөг бүлэг
+REP ^брайли Брайла
+REP ^брайлий Брайлы
+REP ^брайль Брайл
 REP ^Бусан Пүсан
 REP ^бүгдээрэнг бүгдийг
 REP ^бүгдээрэнд бүгдэд
