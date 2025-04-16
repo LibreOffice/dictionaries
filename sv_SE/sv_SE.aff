@@ -114,8 +114,6 @@ REP t d
 REP ^bla$ bl.a.
 REP ^pga$ p.g.a.
 REP ^tex$ t.ex.
-REP ^pga$ p.g.a.
-REP ^tex$ t.ex.
 REP ^iafton$ i_afton
 REP ^iakt$ i_akt
 REP ^imorse$ i_morse
