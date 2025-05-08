@@ -13,7 +13,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-sa,\
         dictionaries/sa_IN/sa_IN.aff \
         dictionaries/sa_IN/sa_IN.dic \
         dictionaries/sa_IN/hyph_sa_IN.dic \
-        dictionaries/sa_IN/COPYING \
+
 ))
 
 # vim: set noet sw=4 ts=4:
