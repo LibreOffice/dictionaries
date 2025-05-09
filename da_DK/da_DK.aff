@@ -1,8 +1,8 @@
 #A. Intro ##########
-#Stavekontrolden version 2.8.140
+#Stavekontrolden version 2.9.001
 #Denne fil er en del af Stavekontrolden - et softwareprodukt, der gør det muligt at stavekontrollere på dansk.
 
-#Copyright (C) 2024 Foreningen for frit tilgængelige sprogværktøjer
+#Copyright (C) 2025 Foreningen for frit tilgængelige sprogværktøjer
 #Website: http://www.stavekontrolden.dk
 #E-mail: info@stavekontrolden.dk
 
@@ -46,8 +46,6 @@ COMPOUNDWORDMAX 10
 #(Tjekket gælder kun nye sammensætninger, konstrueret ud fra ordbogens ord - hvis et sammensat ord 
 #er lagt ind i ordbogen, så er det naturligvis et gyldigt ord.)
 CHECKCOMPOUNDREP
-
-
 #C. Ord-forslag, definitioner ##########
 
 #Undlad at foreslå opdeling af ord - opdeling vil forårsage flere fejl end det vil afhjælpe. Ord specifikt defineret 
@@ -886,18 +884,18 @@ SFX 28 Y 2
 SFX 28 0 e/34 .	+PLUR_BEK
 SFX 28 0 es/34 .	+GENITIV
 
-#Sammensætning, fugeelement -s-
+#Sammensætning, fugeelement s
 SFX 29 Y 2
 SFX 29 0 s/32,35,36 .
 SFX 29 0 s/33,35,36 .
 
-#Sammensætning, fugeelement -e-
+#Sammensætning, fugeelement e
 SFX 30 Y 5
 SFX 30 0 e/32,36,35 .
 SFX 30 0 e/33,36,35 .
+SFX 30 0 e-/32,35 .
+SFX 30 0 e-/33,35 .
 SFX 30 0 e-/34 .
-SFX 30 0 e-/32,35,36 .
-SFX 30 0 e-/33,35,36 .
 
 #Sammensætning, fugeelement Ø
 SFX 31 Y 2
@@ -1609,16 +1607,20 @@ PFX 54 Å Sydøstå/9 Å
 PFX 54 Å Midtå/9 Å
 
 #Sammensætning, fugeelement fjern e
-SFX 55 Y 2
-SFX 55 e 0/36,33,35 .
-SFX 55 e 0/36,35,32 .
+SFX 55 Y 5
+SFX 55 e 0/36,33,35 e
+SFX 55 e 0/36,35,32 e
+SFX 55 e -/32,35 e
+SFX 55 e -/33,35 e
+SFX 55 e -/34 e
 
 #Sammensætning, fugeelement fjern e tilføj s
-SFX 56 Y 4
+SFX 56 Y 5
 SFX 56 e s/36,32,35 .
 SFX 56 e s/36,33,35 .
-SFX 56 e s-/36,32,35 .
-SFX 56 e s-/36,33,35 .
+SFX 56 e s-/32,35 .
+SFX 56 e s-/33,35 .
+SFX 56 e s-/34 e
 
 #Substantiv, konsonantfordobling, intetkøn, torso
 SFX 57 Y 20
@@ -1689,13 +1691,16 @@ SFX 59 0 we/10,34 w	+KONSONANT_FORDOBLING
 SFX 59 0 xe/10,34 x	+KONSONANT_FORDOBLING
 SFX 59 0 ze/10,34 z	+KONSONANT_FORDOBLING
 
-#Sammensætning, fugeelement -er-
-SFX 60 Y 2
+#Sammensætning, fugeelement er
+SFX 60 Y 5
 SFX 60 0 er/32,35,36 .
 SFX 60 0 er/36,33,35 .
+SFX 60 0 er-/32,35 .
+SFX 60 0 er-/33,35 .
+SFX 60 0 er-/34 .
 
-#Sammensætning, fugeelement -kons.f.+e
-SFX 61 Y 80
+#Sammensætning, fugeelement kons.f.+e
+SFX 61 Y 100
 SFX 61 0 be/36,32,35 b
 SFX 61 0 ce/36,32,35 c
 SFX 61 0 de/36,32,35 d
@@ -1736,26 +1741,26 @@ SFX 61 0 ve/36,33,35 v
 SFX 61 0 we/36,33,35 w
 SFX 61 0 xe/36,33,35 x
 SFX 61 0 ze/36,33,35 z
-SFX 61 0 be-/36,32,35 b
-SFX 61 0 ce-/36,32,35 c
-SFX 61 0 de-/36,32,35 d
-SFX 61 0 fe-/36,32,35 f
-SFX 61 0 ge-/36,32,35 g
-SFX 61 0 he-/36,32,35 h
-SFX 61 0 je-/36,32,35 j
-SFX 61 0 ke-/36,32,35 k
-SFX 61 0 le-/36,32,35 l
-SFX 61 0 me-/36,32,35 m
-SFX 61 0 ne-/36,32,35 n
-SFX 61 0 pe-/36,32,35 p
-SFX 61 0 qe-/36,32,35 q
-SFX 61 0 re-/36,32,35 r
-SFX 61 0 se-/36,32,35 s
-SFX 61 0 te-/36,32,35 t
-SFX 61 0 ve-/36,32,35 v
-SFX 61 0 we-/36,32,35 w
-SFX 61 0 xe-/36,32,35 x
-SFX 61 0 ze-/36,32,35 z
+SFX 61 0 be-/32,35 b
+SFX 61 0 ce-/32,35 c
+SFX 61 0 de-/32,35 d
+SFX 61 0 fe-/32,35 f
+SFX 61 0 ge-/32,35 g
+SFX 61 0 he-/32,35 h
+SFX 61 0 je-/32,35 j
+SFX 61 0 ke-/32,35 k
+SFX 61 0 le-/32,35 l
+SFX 61 0 me-/32,35 m
+SFX 61 0 ne-/32,35 n
+SFX 61 0 pe-/32,35 p
+SFX 61 0 qe-/32,35 q
+SFX 61 0 re-/32,35 r
+SFX 61 0 se-/32,35 s
+SFX 61 0 te-/32,35 t
+SFX 61 0 ve-/32,35 v
+SFX 61 0 we-/32,35 w
+SFX 61 0 xe-/32,35 x
+SFX 61 0 ze-/32,35 z
 SFX 61 0 be-/36,33,35 b
 SFX 61 0 ce-/36,33,35 c
 SFX 61 0 de-/36,33,35 d
@@ -1776,20 +1781,26 @@ SFX 61 0 ve-/36,33,35 v
 SFX 61 0 we-/36,33,35 w
 SFX 61 0 xe-/36,33,35 x
 SFX 61 0 ze-/36,33,35 z
-
-#Sammensætning, fugeelement Ø el. s
-SFX 62 Y 4
-SFX 62 0 0/36,32,35 .
-SFX 62 0 0/36,33,35 .
-SFX 62 0 s/36,32,35 .
-SFX 62 0 s/36,33,35 .
-
-#Sammensætning, fugeelement Ø el. e
-SFX 63 Y 4
-SFX 63 0 0/32,36,35 .
-SFX 63 0 0/36,33,35 .
-SFX 63 0 e/35,36,32 .
-SFX 63 0 e/36,33,35 .
+SFX 61 0 be-/34 b
+SFX 61 0 ce-/34 c
+SFX 61 0 de-/34 d
+SFX 61 0 fe-/34 f
+SFX 61 0 ge-/34 g
+SFX 61 0 he-/34 h
+SFX 61 0 je-/34 j
+SFX 61 0 ke-/34 k
+SFX 61 0 le-/34 l
+SFX 61 0 me-/34 m
+SFX 61 0 ne-/34 n
+SFX 61 0 pe-/34 p
+SFX 61 0 qe-/34 q
+SFX 61 0 re-/34 r
+SFX 61 0 se-/34 s
+SFX 61 0 te-/34 t
+SFX 61 0 ve-/34 v
+SFX 61 0 we-/34 w
+SFX 61 0 xe-/34 x
+SFX 61 0 ze-/34 z
 
 #Substantiv, ender på el, -ler i flertal
 SFX 64 Y 164
@@ -2128,53 +2139,8 @@ SFX 66 wel lets/34 wwel	+GENITIV
 SFX 66 xel lets/34 xxel	+GENITIV
 SFX 66 zel lets/34 zzel	+GENITIV
 
-#Sammensætning, fugeelement Ø el. kons.f.+e
-SFX 67 Y 42
-SFX 67 0 0/32,35,36 .
-SFX 67 0 be/32,35,36 b
-SFX 67 0 ce/32,35,36 c
-SFX 67 0 de/32,35,36 d
-SFX 67 0 fe/32,35,36 f
-SFX 67 0 ge/32,35,36 g
-SFX 67 0 he/32,35,36 h
-SFX 67 0 je/32,35,36 j
-SFX 67 0 ke/32,35,36 k
-SFX 67 0 le/32,35,36 l
-SFX 67 0 me/32,35,36 m
-SFX 67 0 ne/32,35,36 n
-SFX 67 0 pe/32,35,36 p
-SFX 67 0 qe/32,35,36 q
-SFX 67 0 re/32,35,36 r
-SFX 67 0 se/32,35,36 s
-SFX 67 0 te/32,35,36 t
-SFX 67 0 ve/32,35,36 v
-SFX 67 0 we/32,35,36 w
-SFX 67 0 xe/32,35,36 x
-SFX 67 0 ze/32,35,36 z
-SFX 67 0 be/33,36,35 b
-SFX 67 0 ce/33,36,35 c
-SFX 67 0 de/33,36,35 d
-SFX 67 0 fe/33,36,35 f
-SFX 67 0 ge/33,36,35 g
-SFX 67 0 he/33,36,35 h
-SFX 67 0 je/33,36,35 j
-SFX 67 0 ke/33,36,35 k
-SFX 67 0 le/33,36,35 l
-SFX 67 0 me/33,36,35 m
-SFX 67 0 ne/33,36,35 n
-SFX 67 0 pe/33,36,35 p
-SFX 67 0 qe/33,36,35 q
-SFX 67 0 re/33,36,35 r
-SFX 67 0 se/33,36,35 s
-SFX 67 0 te/33,36,35 t
-SFX 67 0 ve/33,36,35 v
-SFX 67 0 we/33,36,35 w
-SFX 67 0 xe/33,36,35 x
-SFX 67 0 ze/33,36,35 z
-SFX 67 0 0/33,35,36 .
-
-#Sammensætning, fugeelement -kons.f.+er
-SFX 68 Y 40
+#Sammensætning, fugeelement kons.f.+er
+SFX 68 Y 100
 SFX 68 0 ber/32,35,36 b
 SFX 68 0 cer/32,35,36 c
 SFX 68 0 der/32,35,36 d
@@ -2215,11 +2181,74 @@ SFX 68 0 ver/36,33,35 v
 SFX 68 0 wer/36,33,35 w
 SFX 68 0 xer/36,33,35 x
 SFX 68 0 zer/36,33,35 z
+SFX 68 0 ber-/32,35 b
+SFX 68 0 cer-/32,35 c
+SFX 68 0 der-/32,35 d
+SFX 68 0 fer-/32,35 f
+SFX 68 0 ger-/32,35 g
+SFX 68 0 her-/32,35 h
+SFX 68 0 jer-/32,35 j
+SFX 68 0 ker-/32,35 k
+SFX 68 0 ler-/32,35 l
+SFX 68 0 mer-/32,35 m
+SFX 68 0 ner-/32,35 n
+SFX 68 0 per-/32,35 p
+SFX 68 0 qer-/32,35 q
+SFX 68 0 rer-/32,35 r
+SFX 68 0 ser-/32,35 s
+SFX 68 0 ter-/32,35 t
+SFX 68 0 ver-/32,35 v
+SFX 68 0 wer-/32,35 w
+SFX 68 0 xer-/32,35 x
+SFX 68 0 zer-/32,35 z
+SFX 68 0 ber-/33,35 b
+SFX 68 0 cer-/33,35 c
+SFX 68 0 der-/33,35 d
+SFX 68 0 fer-/33,35 f
+SFX 68 0 ger-/33,35 g
+SFX 68 0 her-/33,35 h
+SFX 68 0 jer-/33,35 j
+SFX 68 0 ker-/33,35 k
+SFX 68 0 ler-/33,35 l
+SFX 68 0 mer-/33,35 m
+SFX 68 0 ner-/33,35 n
+SFX 68 0 per-/33,35 p
+SFX 68 0 qer-/33,35 q
+SFX 68 0 rer-/33,35 r
+SFX 68 0 ser-/33,35 s
+SFX 68 0 ter-/33,35 t
+SFX 68 0 ver-/33,35 v
+SFX 68 0 wer-/33,35 w
+SFX 68 0 xer-/33,35 x
+SFX 68 0 zer-/33,35 z
+SFX 68 0 ber-/34 b
+SFX 68 0 cer-/34 c
+SFX 68 0 der-/34 d
+SFX 68 0 fer-/34 f
+SFX 68 0 ger-/34 g
+SFX 68 0 her-/34 h
+SFX 68 0 jer-/34 j
+SFX 68 0 ker-/34 k
+SFX 68 0 ler-/34 l
+SFX 68 0 mer-/34 m
+SFX 68 0 ner-/34 n
+SFX 68 0 per-/34 p
+SFX 68 0 qer-/34 q
+SFX 68 0 rer-/34 r
+SFX 68 0 ser-/34 s
+SFX 68 0 ter-/34 t
+SFX 68 0 ver-/34 v
+SFX 68 0 wer-/34 w
+SFX 68 0 xer-/34 x
+SFX 68 0 zer-/34 z
 
 #Sammensætning, fugeelement fjern um  tilføj e
-SFX 69 Y 2
-SFX 69 um e/36,32,35 .	+FUGNING
-SFX 69 um e/36,33,35 .	+FUGNING
+SFX 69 Y 5
+SFX 69 um e/36,32,35 um	+FUGNING
+SFX 69 um e/36,33,35 um	+FUGNING
+SFX 69 um e-/32,35 um
+SFX 69 um e-/33,39 um
+SFX 69 um e-/34 um
 
 #Substantiv, intetkøn, ender på um, bestemt form ental, -um erstattes med -et
 SFX 70 Y 2
@@ -2591,7 +2620,7 @@ SFX 87 Y 2
 SFX 87 en net/34 en	+BESTEMT_ENTAL
 SFX 87 en nets/34 en	+GENITIV
 
-#Sammensætning, fugeelement -t-
+#Sammensætning, fugeelement t
 SFX 88 Y 2
 SFX 88 0 t/32,36,35 .
 SFX 88 0 t/33,36,35 .
@@ -2604,7 +2633,15 @@ PFX 89 0 næst .
 PFX 90 Y 1
 PFX 90 0 aller .
 
-#Sammensætning, fugeelement, fjern r
-SFX 93 Y 2
-SFX 93 r 0/33,36,35 .
-SFX 93 r 0/32,36,35 .
+#Sammensætning, fugeelement fjern r
+SFX 93 Y 5
+SFX 93 r 0/33,36,35 r
+SFX 93 r 0/32,36,35 r
+SFX 93 r -/34 r
+SFX 93 r -/32,35 r
+SFX 93 r -/33,35 r
+
+#Sammensætning, fugeelement fjern er, tilføj re
+SFX 95 Y 2
+SFX 95 er re/32,36,35 er	+FUGNING
+SFX 95 er re/33,35,36 er	+FUGNING
