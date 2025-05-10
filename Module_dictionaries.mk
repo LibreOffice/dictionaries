@@ -20,6 +20,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_af \
 	Dictionary_an \
 	Dictionary_ar \
+	Dictionary_as \
 	Dictionary_be \
 	Dictionary_bg \
 	Dictionary_bn \
