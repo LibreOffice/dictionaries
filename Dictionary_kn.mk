@@ -13,7 +13,6 @@ $(eval $(call gb_Dictionary_add_root_files,dict-kn,\
         dictionaries/kn_IN/kn_IN.aff \
         dictionaries/kn_IN/kn_IN.dic \
         dictionaries/kn_IN/hyph_kn_IN.dic \
-
 ))
 
 # vim: set noet sw=4 ts=4:
