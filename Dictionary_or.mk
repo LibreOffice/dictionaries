@@ -13,7 +13,6 @@ $(eval $(call gb_Dictionary_add_root_files,dict-or,\
         dictionaries/or_IN/or_IN.aff \
         dictionaries/or_IN/or_IN.dic \
         dictionaries/or_IN/hyph_or_IN.dic \
-
 ))
 
 # vim: set noet sw=4 ts=4:

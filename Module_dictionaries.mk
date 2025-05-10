@@ -61,6 +61,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_nl \
 	Dictionary_no \
 	Dictionary_oc \
+	Dictionary_or \
 	Dictionary_pl \
 	Dictionary_pt-BR \
 	Dictionary_pt-PT \
