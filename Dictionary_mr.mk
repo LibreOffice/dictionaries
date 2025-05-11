@@ -14,10 +14,9 @@ $(eval $(call gb_Dictionary_add_root_files,dict-mr,\
         dictionaries/mr_IN/mr_IN.dic \
         dictionaries/mr_IN/hyph_mr_IN.dic \
         dictionaries/mr_IN/COPYING \
-
 ))
 
-$(eval $(call gb_Dictionary_add_thesauri,dict-mr-IN,\
+$(eval $(call gb_Dictionary_add_thesauri,dict-mr,\
         dictionaries/mr_IN/th_mr_IN_v2.dat \
 ))
 
