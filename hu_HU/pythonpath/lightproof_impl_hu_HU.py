@@ -1,6 +1,10 @@
 # -*- encoding: UTF-8 -*-
 from __future__ import unicode_literals
-import uno, re, sys, os, traceback
+import uno
+import re
+import sys
+import os
+import traceback
 from com.sun.star.text.TextMarkupType import PROOFREADING
 from com.sun.star.beans import PropertyValue
 
@@ -36,7 +40,7 @@ def option(lang, opt):
 
 # filtering affix fields (ds, is, ts etc.)
 def onlymorph(st):
-    if st != None:
+    if st is not None:
         st = re.sub(r"^.*(st:|po:)", r"\\1", st) # keep last word part
         st = re.sub(r"\\b(?=[dit][sp]:)","@", st) # and its affixes
         st = re.sub(r"(?<!@)\\b\w\w:\w+","", st).replace('@','').strip()
@@ -89,7 +93,7 @@ def stem(rLoc, word):
     global stems
     if not word:
         return []
-    if not word in stems:
+    if word not in stems:
         x = spellchecker.spell(u"<?xml?><query type='stem'><word>" + word + "</word></query>", rLoc, ())
         if not x:
             return []
@@ -141,9 +145,9 @@ def wordmin(s, n):
 def calc(funcname, par):
     global calcfunc
     global SMGR
-    if calcfunc == None:
+    if calcfunc is None:
         calcfunc = SMGR.createInstance( "com.sun.star.sheet.FunctionAccess")
-        if calcfunc == None:
+        if calcfunc is None:
                 return None
     return calcfunc.callFunction(funcname, par)
 
@@ -153,7 +157,7 @@ def proofread( nDocId, TEXT, LOCALE, nStartOfSentencePos, nSuggestedSentenceEndP
     s = TEXT[nStartOfSentencePos:nSuggestedSentenceEndPos]
     for i in get_rule(LOCALE).dic:
         # 0: regex,  1: replacement,  2: message,  3: condition,  4: ngroup,  (5: oldline),  6: case sensitive ?
-        if i[0] and not str(i[0]) in ignore:
+        if i[0] and str(i[0]) not in ignore:
             for m in i[0].finditer(s):
                 try:
                     if not i[3] or eval(i[3]):
@@ -218,7 +222,7 @@ def compile_rules(dic):
             else:
                 i += [False]
             i[0] = re.compile(i[0])
-        except:
+        except Exception:
             if 'PYUNO_LOGLEVEL' in os.environ:
                 print("Lightproof: bad regular expression: " + str(traceback.format_exc()))
             i[0] = None
@@ -226,7 +230,7 @@ def compile_rules(dic):
 def get_rule(loc):
     try:
         return langrule[pkg]
-    except:
+    except Exception:
         langrule[pkg] = __import__("lightproof_" + pkg)
         compile_rules(langrule[pkg].dic)
     return langrule[pkg]

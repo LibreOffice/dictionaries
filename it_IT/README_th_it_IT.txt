@@ -1,4 +1,4 @@
-Version 5.1.0 (13/10/2020) (dd/mm/yyyy)
+Version 5.1.1 (07/11/2022) (dd/mm/yyyy)
 
 # Dizionario dei sinonimi italiano - Italian Thesaurus
 # Copyright (C) 2004,2005,2006,2007,2008 Daniela Volta
@@ -52,6 +52,7 @@ Il file degli indici è ottenuto con MyThes.
 -----------------
 Hanno collaborato:
 
+- Versione 5.1.1: Emanuele Goldoni
 - Versione 5.1.0: Marina Latini (maintainer), LibreItalia.
 - Versione 3.3: Andrea Pescetti (maintainer), Paolo Mantovani
   (struttura dell'estensione), Diego Favaro, Renzo Bianchi.
@@ -134,6 +135,7 @@ The index file is created using MyThes.
 The following people helped in developing the thesaurus:
 
 
+- Version 5.1.1: Emanuele Goldoni
 - Version 5.1.0: Marina Latini (maintainer), LibreItalia.
 - Version 3.3: Andrea Pescetti (maintainer), Paolo Mantovani
   (extension structure), Diego Favaro, Renzo Bianchi.

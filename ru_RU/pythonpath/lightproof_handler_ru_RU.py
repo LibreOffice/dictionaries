@@ -14,16 +14,16 @@ def load(context):
         l = LightproofOptionsEventHandler(context)
         for i in lightproof_opts_ru_RU.lopts:
             l.load(i)
-    except:
+    except Exception:
         pass
 
 def get_option(page, option):
     try:
         return options[page + "," + option]
-    except:
+    except Exception:
         try:
             return options[page[:2] + "," + option]
-        except:
+        except Exception:
             return 0
 
 def set_option(page, option, value):
@@ -69,7 +69,7 @@ class LightproofOptionsEventHandler( unohelper.Base, XServiceInfo, XContainerWin
 
     def loadData(self, aWindow):
         sWindowName = self.getWindowName(aWindow)
-        if (sWindowName == None):
+        if (sWindowName is None):
             return
         child = self.getChild(sWindowName)
         for i in lightproof_opts_ru_RU.lopts[sWindowName]:
@@ -85,7 +85,7 @@ class LightproofOptionsEventHandler( unohelper.Base, XServiceInfo, XContainerWin
 
     def saveData(self, aWindow):
         sWindowName = self.getWindowName(aWindow)
-        if (sWindowName == None):
+        if (sWindowName is None):
             return
         child = self.getChild(sWindowName)
         for i in lightproof_opts_ru_RU.lopts[sWindowName]:

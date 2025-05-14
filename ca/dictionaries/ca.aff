@@ -2,19 +2,19 @@
 #                              Corrector ortogràfic català
 #                          Fitxer d'afixos i llista de paraules
 # =======================================================================================
-#                                Versió 3.0.4 (31-01-2020)
+#                                Versió 3.0.8 (06-08-2023)
 # =======================================================================================
-# Copyright (C) 2015 Jaume Ortolà <jaumeortola@gmail.com>
+# Copyright (C) 2013-2023 Jaume Ortolà <jaumeortola@gmail.com>
 # Copyright (C) 2002-2008 Joan Moratinos <jmo@softcatala.org>
-#
+# 
 # Dual license:
-#
-#   * GNU General Public License, version 2
+# 
+#   * GNU General Public License, version 2 or later
 #     https://www.gnu.org/licenses/gpl-2.0.txt
-#
-#   * GNU Lesser General Public License, version 2.1
+# 
+#   * GNU Lesser General Public License, version 2.1 or later 
 #     https://www.gnu.org/licenses/lgpl-2.1.txt
-#
+# 
 # =======================================================================================
 # Fonts: Diccionari de l'Institut d'Estudis Catalans, primera edició (1996)
 #        Diccionari de l'Institut d'Estudis Catalans, segona edició (2007)
@@ -35,7 +35,12 @@ FORBIDDENWORD ZZ
 
 WORDCHARS ·-'
 
-TRY easirtocnlumdpgvfbqjwxyzhàèéïíòóúüç·-'
+ICONV 3
+ICONV ’ '
+ICONV Ŀ L·
+ICONV ŀ l·
+
+TRY easirtocnlumdpgvfbqjwxyzhàèéïíòóúüç·-'Ωµ
 KEY qwertyuiop|asdfghjklñ|zxcvbnm|qaw|saz|wse|dsx|sz|edr|fdc|dx|rft|gfv|fc|tgz|hgb|gv|zhu|jhn|hb|uji|kjm|jn|iko|lkmñ|plñç
 
 MAP 24
@@ -668,84 +673,120 @@ PFX _Z 0 t' [aàeèéiíoòóhuú]
 PFX _Z 0 s' [aàeèéiíoòóhuú]
 PFX _Z 0 l' [aàeèéiíoòóhuú]
 
+PFX U1 N 8
+PFX U1 0 Y .
+PFX U1 0 Z .
+PFX U1 0 E .
+PFX U1 0 P .
+PFX U1 0 T .
+PFX U1 0 G .
+PFX U1 0 M .
+PFX U1 0 k .
+
+PFX U2 N 2
+PFX U2 0 h .
+PFX U2 0 da .
+
+PFX U3 N 10
+PFX U3 0 d .
+PFX U3 0 c .
+PFX U3 0 m .
+PFX U3 0 µ .
+PFX U3 0 n .
+PFX U3 0 p .
+PFX U3 0 f .
+PFX U3 0 a .
+PFX U3 0 z .
+PFX U3 0 y .
+
+PFX U4 N 8
+PFX U4 0 Yi .
+PFX U4 0 Zi .
+PFX U4 0 Ei .
+PFX U4 0 Pi .
+PFX U4 0 Ti .
+PFX U4 0 Gi .
+PFX U4 0 Mi .
+PFX U4 0 ki .
+
 # Model de conjugació: cantar, sense apostrofació inicial
 SFX 00 Y 84
 SFX 00 r r/_C ar
 SFX 00 r nt/_C ar
-SFX 00 r t/ ar
-SFX 00 r da/ ar
-SFX 00 r ts/ ar
-SFX 00 r des/ ar
-SFX 00 ar o/ ar
-SFX 00 ar e/ ar
-SFX 00 ar 0/ ar
-SFX 00 ar es/ ar
-SFX 00 r 0/ ar
-SFX 00 ar em/ ar
-SFX 00 r m/ ar
-SFX 00 ar eu/ ar
-SFX 00 r u/ ar
-SFX 00 ar en/ ar
-SFX 00 r va/ ar
-SFX 00 r ves/ ar
-SFX 00 r va/ ar
-SFX 00 ar àvem/ ar
-SFX 00 ar àveu/ ar
-SFX 00 r ven/ ar
-SFX 00 ar í/ ar
-SFX 00 r res/ ar
-SFX 00 ar à/ ar
-SFX 00 ar àrem/ ar
-SFX 00 ar àreu/ ar
-SFX 00 r ren/ ar
-SFX 00 r ré/ ar
-SFX 00 r ràs/ ar
-SFX 00 r rà/ ar
-SFX 00 r rem/ ar
-SFX 00 r reu/ ar
-SFX 00 r ran/ ar
-SFX 00 r ria/ ar
-SFX 00 r ries/ ar
-SFX 00 r ria/ ar
-SFX 00 r ríem/ ar
-SFX 00 r ríeu/ ar
-SFX 00 r rien/ ar
-SFX 00 ar e/ ar
-SFX 00 ar i/ ar
-SFX 00 ar es/ ar
-SFX 00 ar is/ ar
-SFX 00 ar e/ ar
-SFX 00 ar i/ ar
-SFX 00 ar em/ ar
-SFX 00 ar eu/ ar
-SFX 00 ar en/ ar
-SFX 00 ar in/ ar
-SFX 00 ar és/ ar
-SFX 00 r ra/ ar
-SFX 00 ar às/ ar
-SFX 00 ar essis/ ar
-SFX 00 r res/ ar
-SFX 00 r ssis/ ar
-SFX 00 ar esses/ ar
-SFX 00 r sses/ ar
-SFX 00 ar és/ ar
-SFX 00 r ra/ ar
-SFX 00 ar às/ ar
-SFX 00 ar éssim/ ar
-SFX 00 ar àrem/ ar
-SFX 00 ar àssim/ ar
-SFX 00 ar éssem/ ar
-SFX 00 ar àssem/ ar
-SFX 00 ar éssiu/ ar
-SFX 00 ar àreu/ ar
-SFX 00 ar àssiu/ ar
-SFX 00 ar ésseu/ ar
-SFX 00 ar àsseu/ ar
-SFX 00 ar essin/ ar
-SFX 00 r ren/ ar
-SFX 00 r ssin/ ar
-SFX 00 ar essen/ ar
-SFX 00 r ssen/ ar
+SFX 00 r t ar
+SFX 00 r da ar
+SFX 00 r ts ar
+SFX 00 r des ar
+SFX 00 ar o ar
+SFX 00 ar e ar
+SFX 00 ar 0 ar
+SFX 00 ar es ar
+SFX 00 r 0 ar
+SFX 00 ar em ar
+SFX 00 r m ar
+SFX 00 ar eu ar
+SFX 00 r u ar
+SFX 00 ar en ar
+SFX 00 r va ar
+SFX 00 r ves ar
+SFX 00 r va ar
+SFX 00 ar àvem ar
+SFX 00 ar àveu ar
+SFX 00 r ven ar
+SFX 00 ar í ar
+SFX 00 r res ar
+SFX 00 ar à ar
+SFX 00 ar àrem ar
+SFX 00 ar àreu ar
+SFX 00 r ren ar
+SFX 00 r ré ar
+SFX 00 r ràs ar
+SFX 00 r rà ar
+SFX 00 r rem ar
+SFX 00 r reu ar
+SFX 00 r ran ar
+SFX 00 r ria ar
+SFX 00 r ries ar
+SFX 00 r ria ar
+SFX 00 r ríem ar
+SFX 00 r ríeu ar
+SFX 00 r rien ar
+SFX 00 ar e ar
+SFX 00 ar i ar
+SFX 00 ar es ar
+SFX 00 ar is ar
+SFX 00 ar e ar
+SFX 00 ar i ar
+SFX 00 ar em ar
+SFX 00 ar eu ar
+SFX 00 ar en ar
+SFX 00 ar in ar
+SFX 00 ar és ar
+SFX 00 r ra ar
+SFX 00 ar às ar
+SFX 00 ar essis ar
+SFX 00 r res ar
+SFX 00 r ssis ar
+SFX 00 ar esses ar
+SFX 00 r sses ar
+SFX 00 ar és ar
+SFX 00 r ra ar
+SFX 00 ar às ar
+SFX 00 ar éssim ar
+SFX 00 ar àrem ar
+SFX 00 ar àssim ar
+SFX 00 ar éssem ar
+SFX 00 ar àssem ar
+SFX 00 ar éssiu ar
+SFX 00 ar àreu ar
+SFX 00 ar àssiu ar
+SFX 00 ar ésseu ar
+SFX 00 ar àsseu ar
+SFX 00 ar essin ar
+SFX 00 r ren ar
+SFX 00 r ssin ar
+SFX 00 ar essen ar
+SFX 00 r ssen ar
 SFX 00 r 0/_D ar
 SFX 00 ar e/_D ar
 SFX 00 ar i/_D ar
@@ -797,16 +838,16 @@ SFX 01 r ria/_Z ar
 SFX 01 r ríem/_Z ar
 SFX 01 r ríeu/_Z ar
 SFX 01 r rien/_Z ar
-SFX 01 ar e/_Z ar
 SFX 01 ar i/_Z ar
-SFX 01 ar es/_Z ar
+SFX 01 ar e/_Z ar
 SFX 01 ar is/_Z ar
-SFX 01 ar e/_Z ar
+SFX 01 ar es/_Z ar
 SFX 01 ar i/_Z ar
+SFX 01 ar e/_Z ar
 SFX 01 ar em/_Z ar
 SFX 01 ar eu/_Z ar
-SFX 01 ar en/_Z ar
 SFX 01 ar in/_Z ar
+SFX 01 ar en/_Z ar
 SFX 01 ar és/_Z ar
 SFX 01 r ra/_Z ar
 SFX 01 ar às/_Z ar
@@ -834,13 +875,13 @@ SFX 01 r ssin/_Z ar
 SFX 01 ar essen/_Z ar
 SFX 01 r ssen/_Z ar
 SFX 01 r 0/_D ar
-SFX 01 ar e/_D ar
 SFX 01 ar i/_D ar
+SFX 01 ar e/_D ar
 SFX 01 ar em/_C ar
-SFX 01 r u/_C ar
 SFX 01 ar eu/_C ar
-SFX 01 ar en/_C ar
+SFX 01 r u/_C ar
 SFX 01 ar in/_C ar
+SFX 01 ar en/_C ar
 
 # Model de conjugació: abominar
 SFX 02 Y 84
@@ -884,16 +925,16 @@ SFX 02 r ria/_Z ar
 SFX 02 r ríem/_Z ar
 SFX 02 r ríeu/_Z ar
 SFX 02 r rien/_Z ar
-SFX 02 ar e/_Z ar
 SFX 02 ar i/_Z ar
-SFX 02 ar es/_Z ar
+SFX 02 ar e/_Z ar
 SFX 02 ar is/_Z ar
-SFX 02 ar e/_Z ar
+SFX 02 ar es/_Z ar
 SFX 02 ar i/_Z ar
+SFX 02 ar e/_Z ar
 SFX 02 ar em/_Z ar
 SFX 02 ar eu/_Z ar
-SFX 02 ar en/_Z ar
 SFX 02 ar in/_Z ar
+SFX 02 ar en/_Z ar
 SFX 02 ar és/_Z ar
 SFX 02 r ra/_Z ar
 SFX 02 ar às/_Z ar
@@ -921,13 +962,13 @@ SFX 02 r ssin/_Z ar
 SFX 02 ar essen/_Z ar
 SFX 02 r ssen/_Z ar
 SFX 02 r 0/_D ar
-SFX 02 ar e/_D ar
 SFX 02 ar i/_D ar
+SFX 02 ar e/_D ar
 SFX 02 ar em/_C ar
-SFX 02 r u/_C ar
 SFX 02 ar eu/_C ar
-SFX 02 ar en/_C ar
+SFX 02 r u/_C ar
 SFX 02 ar in/_C ar
+SFX 02 ar en/_C ar
 
 # Model de conjugació: acarnissar
 SFX 03 Y 84
@@ -971,16 +1012,16 @@ SFX 03 r ria/_Z ar
 SFX 03 r ríem/_Z ar
 SFX 03 r ríeu/_Z ar
 SFX 03 r rien/_Z ar
-SFX 03 ar e/_Z ar
 SFX 03 ar i/_Z ar
-SFX 03 ar es/_Z ar
+SFX 03 ar e/_Z ar
 SFX 03 ar is/_Z ar
-SFX 03 ar e/_Z ar
+SFX 03 ar es/_Z ar
 SFX 03 ar i/_Z ar
+SFX 03 ar e/_Z ar
 SFX 03 ar em/_Z ar
 SFX 03 ar eu/_Z ar
-SFX 03 ar en/_Z ar
 SFX 03 ar in/_Z ar
+SFX 03 ar en/_Z ar
 SFX 03 ar és/_Z ar
 SFX 03 r ra/_Z ar
 SFX 03 ar às/_Z ar
@@ -1008,13 +1049,13 @@ SFX 03 r ssin/_Z ar
 SFX 03 ar essen/_Z ar
 SFX 03 r ssen/_Z ar
 SFX 03 r 0/_D ar
-SFX 03 ar e/_D ar
 SFX 03 ar i/_D ar
+SFX 03 ar e/_D ar
 SFX 03 ar em/_C ar
-SFX 03 r u/_C ar
 SFX 03 ar eu/_C ar
-SFX 03 ar en/_C ar
+SFX 03 r u/_C ar
 SFX 03 ar in/_C ar
+SFX 03 ar en/_C ar
 
 # Model de conjugació: adobassar
 SFX 04 Y 84
@@ -1058,16 +1099,16 @@ SFX 04 r ria/_Z ar
 SFX 04 r ríem/_Z ar
 SFX 04 r ríeu/_Z ar
 SFX 04 r rien/_Z ar
-SFX 04 ar e/_Z ar
 SFX 04 ar i/_Z ar
-SFX 04 ar es/_Z ar
+SFX 04 ar e/_Z ar
 SFX 04 ar is/_Z ar
-SFX 04 ar e/_Z ar
+SFX 04 ar es/_Z ar
 SFX 04 ar i/_Z ar
+SFX 04 ar e/_Z ar
 SFX 04 ar em/_Z ar
 SFX 04 ar eu/_Z ar
-SFX 04 ar en/_Z ar
 SFX 04 ar in/_Z ar
+SFX 04 ar en/_Z ar
 SFX 04 ar és/_Z ar
 SFX 04 r ra/_Z ar
 SFX 04 ar às/_Z ar
@@ -1095,13 +1136,13 @@ SFX 04 r ssin/_Z ar
 SFX 04 ar essen/_Z ar
 SFX 04 r ssen/_Z ar
 SFX 04 r 0/_D ar
-SFX 04 ar e/_D ar
 SFX 04 ar i/_D ar
+SFX 04 ar e/_D ar
 SFX 04 ar em/_C ar
-SFX 04 r u/_C ar
 SFX 04 ar eu/_C ar
-SFX 04 ar en/_C ar
+SFX 04 r u/_C ar
 SFX 04 ar in/_C ar
+SFX 04 ar en/_C ar
 
 # Model de conjugació: adossar
 SFX 05 Y 84
@@ -1145,16 +1186,16 @@ SFX 05 r ria/_Z ar
 SFX 05 r ríem/_Z ar
 SFX 05 r ríeu/_Z ar
 SFX 05 r rien/_Z ar
-SFX 05 ar e/_Z ar
 SFX 05 ar i/_Z ar
-SFX 05 ar es/_Z ar
+SFX 05 ar e/_Z ar
 SFX 05 ar is/_Z ar
-SFX 05 ar e/_Z ar
+SFX 05 ar es/_Z ar
 SFX 05 ar i/_Z ar
+SFX 05 ar e/_Z ar
 SFX 05 ar em/_Z ar
 SFX 05 ar eu/_Z ar
-SFX 05 ar en/_Z ar
 SFX 05 ar in/_Z ar
+SFX 05 ar en/_Z ar
 SFX 05 ar és/_Z ar
 SFX 05 r ra/_Z ar
 SFX 05 ar às/_Z ar
@@ -1182,13 +1223,13 @@ SFX 05 r ssin/_Z ar
 SFX 05 ar essen/_Z ar
 SFX 05 r ssen/_Z ar
 SFX 05 r 0/_D ar
-SFX 05 ar e/_D ar
 SFX 05 ar i/_D ar
+SFX 05 ar e/_D ar
 SFX 05 ar em/_C ar
-SFX 05 r u/_C ar
 SFX 05 ar eu/_C ar
-SFX 05 ar en/_C ar
+SFX 05 r u/_C ar
 SFX 05 ar in/_C ar
+SFX 05 ar en/_C ar
 
 # Model de conjugació: anquilosar
 SFX 06 Y 84
@@ -1232,16 +1273,16 @@ SFX 06 r ria/_Z ar
 SFX 06 r ríem/_Z ar
 SFX 06 r ríeu/_Z ar
 SFX 06 r rien/_Z ar
-SFX 06 ar e/_Z ar
 SFX 06 ar i/_Z ar
-SFX 06 ar es/_Z ar
+SFX 06 ar e/_Z ar
 SFX 06 ar is/_Z ar
-SFX 06 ar e/_Z ar
+SFX 06 ar es/_Z ar
 SFX 06 ar i/_Z ar
+SFX 06 ar e/_Z ar
 SFX 06 ar em/_Z ar
 SFX 06 ar eu/_Z ar
-SFX 06 ar en/_Z ar
 SFX 06 ar in/_Z ar
+SFX 06 ar en/_Z ar
 SFX 06 ar és/_Z ar
 SFX 06 r ra/_Z ar
 SFX 06 ar às/_Z ar
@@ -1269,13 +1310,13 @@ SFX 06 r ssin/_Z ar
 SFX 06 ar essen/_Z ar
 SFX 06 r ssen/_Z ar
 SFX 06 r 0/_D ar
-SFX 06 ar e/_D ar
 SFX 06 ar i/_D ar
+SFX 06 ar e/_D ar
 SFX 06 ar em/_C ar
-SFX 06 r u/_C ar
 SFX 06 ar eu/_C ar
-SFX 06 ar en/_C ar
+SFX 06 r u/_C ar
 SFX 06 ar in/_C ar
+SFX 06 ar en/_C ar
 
 # Model de conjugació: anul·lar
 SFX 07 Y 84
@@ -1319,16 +1360,16 @@ SFX 07 r ria/_Z ar
 SFX 07 r ríem/_Z ar
 SFX 07 r ríeu/_Z ar
 SFX 07 r rien/_Z ar
-SFX 07 ar e/_Z ar
 SFX 07 ar i/_Z ar
-SFX 07 ar es/_Z ar
+SFX 07 ar e/_Z ar
 SFX 07 ar is/_Z ar
-SFX 07 ar e/_Z ar
+SFX 07 ar es/_Z ar
 SFX 07 ar i/_Z ar
+SFX 07 ar e/_Z ar
 SFX 07 ar em/_Z ar
 SFX 07 ar eu/_Z ar
-SFX 07 ar en/_Z ar
 SFX 07 ar in/_Z ar
+SFX 07 ar en/_Z ar
 SFX 07 ar és/_Z ar
 SFX 07 r ra/_Z ar
 SFX 07 ar às/_Z ar
@@ -1356,13 +1397,13 @@ SFX 07 r ssin/_Z ar
 SFX 07 ar essen/_Z ar
 SFX 07 r ssen/_Z ar
 SFX 07 r 0/_D ar
-SFX 07 ar e/_D ar
 SFX 07 ar i/_D ar
+SFX 07 ar e/_D ar
 SFX 07 ar em/_C ar
-SFX 07 r u/_C ar
 SFX 07 ar eu/_C ar
-SFX 07 ar en/_C ar
+SFX 07 r u/_C ar
 SFX 07 ar in/_C ar
+SFX 07 ar en/_C ar
 
 # Model de conjugació: cantar
 SFX 08 Y 84
@@ -1406,16 +1447,16 @@ SFX 08 r ria/_Z ar
 SFX 08 r ríem/_Z ar
 SFX 08 r ríeu/_Z ar
 SFX 08 r rien/_Z ar
-SFX 08 ar e/_Z ar
 SFX 08 ar i/_Z ar
-SFX 08 ar es/_Z ar
+SFX 08 ar e/_Z ar
 SFX 08 ar is/_Z ar
-SFX 08 ar e/_Z ar
+SFX 08 ar es/_Z ar
 SFX 08 ar i/_Z ar
+SFX 08 ar e/_Z ar
 SFX 08 ar em/_Z ar
 SFX 08 ar eu/_Z ar
-SFX 08 ar en/_Z ar
 SFX 08 ar in/_Z ar
+SFX 08 ar en/_Z ar
 SFX 08 ar és/_Z ar
 SFX 08 r ra/_Z ar
 SFX 08 ar às/_Z ar
@@ -1443,13 +1484,13 @@ SFX 08 r ssin/_Z ar
 SFX 08 ar essen/_Z ar
 SFX 08 r ssen/_Z ar
 SFX 08 r 0/_D ar
-SFX 08 ar e/_D ar
 SFX 08 ar i/_D ar
+SFX 08 ar e/_D ar
 SFX 08 ar em/_C ar
-SFX 08 r u/_C ar
 SFX 08 ar eu/_C ar
-SFX 08 ar en/_C ar
+SFX 08 r u/_C ar
 SFX 08 ar in/_C ar
+SFX 08 ar en/_C ar
 
 # Model de conjugació: capbussar
 SFX 09 Y 84
@@ -1493,16 +1534,16 @@ SFX 09 r ria/_Z ar
 SFX 09 r ríem/_Z ar
 SFX 09 r ríeu/_Z ar
 SFX 09 r rien/_Z ar
-SFX 09 ar e/_Z ar
 SFX 09 ar i/_Z ar
-SFX 09 ar es/_Z ar
+SFX 09 ar e/_Z ar
 SFX 09 ar is/_Z ar
-SFX 09 ar e/_Z ar
+SFX 09 ar es/_Z ar
 SFX 09 ar i/_Z ar
+SFX 09 ar e/_Z ar
 SFX 09 ar em/_Z ar
 SFX 09 ar eu/_Z ar
-SFX 09 ar en/_Z ar
 SFX 09 ar in/_Z ar
+SFX 09 ar en/_Z ar
 SFX 09 ar és/_Z ar
 SFX 09 r ra/_Z ar
 SFX 09 ar às/_Z ar
@@ -1530,13 +1571,13 @@ SFX 09 r ssin/_Z ar
 SFX 09 ar essen/_Z ar
 SFX 09 r ssen/_Z ar
 SFX 09 r 0/_D ar
-SFX 09 ar e/_D ar
 SFX 09 ar i/_D ar
+SFX 09 ar e/_D ar
 SFX 09 ar em/_C ar
-SFX 09 r u/_C ar
 SFX 09 ar eu/_C ar
-SFX 09 ar en/_C ar
+SFX 09 r u/_C ar
 SFX 09 ar in/_C ar
+SFX 09 ar en/_C ar
 
 # Model de conjugació: començar
 SFX 0A Y 84
@@ -1580,16 +1621,16 @@ SFX 0A r ria/_Z ar
 SFX 0A r ríem/_Z ar
 SFX 0A r ríeu/_Z ar
 SFX 0A r rien/_Z ar
-SFX 0A çar ce/_Z ar
 SFX 0A çar ci/_Z ar
-SFX 0A çar ces/_Z ar
+SFX 0A çar ce/_Z ar
 SFX 0A çar cis/_Z ar
-SFX 0A çar ce/_Z ar
+SFX 0A çar ces/_Z ar
 SFX 0A çar ci/_Z ar
+SFX 0A çar ce/_Z ar
 SFX 0A çar cem/_Z ar
 SFX 0A çar ceu/_Z ar
-SFX 0A çar cen/_Z ar
 SFX 0A çar cin/_Z ar
+SFX 0A çar cen/_Z ar
 SFX 0A çar cés/_Z ar
 SFX 0A r ra/_Z ar
 SFX 0A ar às/_Z ar
@@ -1617,13 +1658,13 @@ SFX 0A r ssin/_Z ar
 SFX 0A çar cessen/_Z ar
 SFX 0A r ssen/_Z ar
 SFX 0A r 0/_D ar
-SFX 0A çar ce/_D ar
 SFX 0A çar ci/_D ar
+SFX 0A çar ce/_D ar
 SFX 0A çar cem/_C ar
-SFX 0A r u/_C ar
 SFX 0A çar ceu/_C ar
-SFX 0A çar cen/_C ar
+SFX 0A r u/_C ar
 SFX 0A çar cin/_C ar
+SFX 0A çar cen/_C ar
 
 # Model de conjugació: crear
 SFX 0B Y 84
@@ -1667,16 +1708,16 @@ SFX 0B r ria/_Z ar
 SFX 0B r ríem/_Z ar
 SFX 0B r ríeu/_Z ar
 SFX 0B r rien/_Z ar
-SFX 0B ar e/_Z ar
 SFX 0B ar ï/_Z ar
-SFX 0B ar es/_Z ar
+SFX 0B ar e/_Z ar
 SFX 0B ar ïs/_Z ar
-SFX 0B ar e/_Z ar
+SFX 0B ar es/_Z ar
 SFX 0B ar ï/_Z ar
+SFX 0B ar e/_Z ar
 SFX 0B ar em/_Z ar
 SFX 0B ar eu/_Z ar
-SFX 0B ar en/_Z ar
 SFX 0B ar ïn/_Z ar
+SFX 0B ar en/_Z ar
 SFX 0B ar és/_Z ar
 SFX 0B r ra/_Z ar
 SFX 0B ar às/_Z ar
@@ -1704,13 +1745,13 @@ SFX 0B r ssin/_Z ar
 SFX 0B ar essen/_Z ar
 SFX 0B r ssen/_Z ar
 SFX 0B r 0/_D ar
-SFX 0B ar e/_D ar
 SFX 0B ar ï/_D ar
+SFX 0B ar e/_D ar
 SFX 0B ar em/_C ar
-SFX 0B r u/_C ar
 SFX 0B ar eu/_C ar
-SFX 0B ar en/_C ar
+SFX 0B r u/_C ar
 SFX 0B ar ïn/_C ar
+SFX 0B ar en/_C ar
 
 # Model de conjugació: envejar
 SFX 0C Y 84
@@ -1754,16 +1795,16 @@ SFX 0C r ria/_Z ar
 SFX 0C r ríem/_Z ar
 SFX 0C r ríeu/_Z ar
 SFX 0C r rien/_Z ar
-SFX 0C jar ge/_Z ar
 SFX 0C jar gi/_Z ar
-SFX 0C jar ges/_Z ar
+SFX 0C jar ge/_Z ar
 SFX 0C jar gis/_Z ar
-SFX 0C jar ge/_Z ar
+SFX 0C jar ges/_Z ar
 SFX 0C jar gi/_Z ar
+SFX 0C jar ge/_Z ar
 SFX 0C jar gem/_Z ar
 SFX 0C jar geu/_Z ar
-SFX 0C jar gen/_Z ar
 SFX 0C jar gin/_Z ar
+SFX 0C jar gen/_Z ar
 SFX 0C jar gés/_Z ar
 SFX 0C r ra/_Z ar
 SFX 0C ar às/_Z ar
@@ -1791,13 +1832,13 @@ SFX 0C r ssin/_Z ar
 SFX 0C jar gessen/_Z ar
 SFX 0C r ssen/_Z ar
 SFX 0C r 0/_D ar
-SFX 0C jar ge/_D ar
 SFX 0C jar gi/_D ar
+SFX 0C jar ge/_D ar
 SFX 0C jar gem/_C ar
-SFX 0C r u/_C ar
 SFX 0C jar geu/_C ar
-SFX 0C jar gen/_C ar
+SFX 0C r u/_C ar
 SFX 0C jar gin/_C ar
+SFX 0C jar gen/_C ar
 
 # Model de conjugació: lligar
 SFX 0D Y 84
@@ -1841,16 +1882,16 @@ SFX 0D r ria/_Z ar
 SFX 0D r ríem/_Z ar
 SFX 0D r ríeu/_Z ar
 SFX 0D r rien/_Z ar
-SFX 0D ar ue/_Z ar
 SFX 0D ar ui/_Z ar
-SFX 0D ar ues/_Z ar
+SFX 0D ar ue/_Z ar
 SFX 0D ar uis/_Z ar
-SFX 0D ar ue/_Z ar
+SFX 0D ar ues/_Z ar
 SFX 0D ar ui/_Z ar
+SFX 0D ar ue/_Z ar
 SFX 0D ar uem/_Z ar
 SFX 0D ar ueu/_Z ar
-SFX 0D ar uen/_Z ar
 SFX 0D ar uin/_Z ar
+SFX 0D ar uen/_Z ar
 SFX 0D ar ués/_Z ar
 SFX 0D r ra/_Z ar
 SFX 0D ar às/_Z ar
@@ -1878,13 +1919,13 @@ SFX 0D r ssin/_Z ar
 SFX 0D ar uessen/_Z ar
 SFX 0D r ssen/_Z ar
 SFX 0D r 0/_D ar
-SFX 0D ar ue/_D ar
 SFX 0D ar ui/_D ar
+SFX 0D ar ue/_D ar
 SFX 0D ar uem/_C ar
-SFX 0D r u/_C ar
 SFX 0D ar ueu/_C ar
-SFX 0D ar uen/_C ar
+SFX 0D r u/_C ar
 SFX 0D ar uin/_C ar
+SFX 0D ar uen/_C ar
 
 # Model de conjugació: lloar
 SFX 0E Y 84
@@ -1928,16 +1969,16 @@ SFX 0E r ria/_Z ar
 SFX 0E r ríem/_Z ar
 SFX 0E r ríeu/_Z ar
 SFX 0E r rien/_Z ar
-SFX 0E ar e/_Z ar
 SFX 0E ar ï/_Z ar
-SFX 0E ar es/_Z ar
+SFX 0E ar e/_Z ar
 SFX 0E ar ïs/_Z ar
-SFX 0E ar e/_Z ar
+SFX 0E ar es/_Z ar
 SFX 0E ar ï/_Z ar
+SFX 0E ar e/_Z ar
 SFX 0E ar em/_Z ar
 SFX 0E ar eu/_Z ar
-SFX 0E ar en/_Z ar
 SFX 0E ar ïn/_Z ar
+SFX 0E ar en/_Z ar
 SFX 0E ar és/_Z ar
 SFX 0E r ra/_Z ar
 SFX 0E ar às/_Z ar
@@ -1965,13 +2006,13 @@ SFX 0E r ssin/_Z ar
 SFX 0E ar essen/_Z ar
 SFX 0E r ssen/_Z ar
 SFX 0E r 0/_D ar
-SFX 0E ar e/_D ar
 SFX 0E ar ï/_D ar
+SFX 0E ar e/_D ar
 SFX 0E ar em/_C ar
-SFX 0E r u/_C ar
 SFX 0E ar eu/_C ar
-SFX 0E ar en/_C ar
+SFX 0E r u/_C ar
 SFX 0E ar ïn/_C ar
+SFX 0E ar en/_C ar
 
 # Model de conjugació: menjar
 SFX 0F Y 84
@@ -2015,16 +2056,16 @@ SFX 0F r ria/_Z ar
 SFX 0F r ríem/_Z ar
 SFX 0F r ríeu/_Z ar
 SFX 0F r rien/_Z ar
-SFX 0F jar ge/_Z ar
 SFX 0F jar gi/_Z ar
-SFX 0F jar ges/_Z ar
+SFX 0F jar ge/_Z ar
 SFX 0F jar gis/_Z ar
-SFX 0F jar ge/_Z ar
+SFX 0F jar ges/_Z ar
 SFX 0F jar gi/_Z ar
+SFX 0F jar ge/_Z ar
 SFX 0F jar gem/_Z ar
 SFX 0F jar geu/_Z ar
-SFX 0F jar gen/_Z ar
 SFX 0F jar gin/_Z ar
+SFX 0F jar gen/_Z ar
 SFX 0F jar gés/_Z ar
 SFX 0F r ra/_Z ar
 SFX 0F ar às/_Z ar
@@ -2052,13 +2093,13 @@ SFX 0F r ssin/_Z ar
 SFX 0F jar gessen/_Z ar
 SFX 0F r ssen/_Z ar
 SFX 0F r 0/_D ar
-SFX 0F jar ge/_D ar
 SFX 0F jar gi/_D ar
+SFX 0F jar ge/_D ar
 SFX 0F jar gem/_C ar
-SFX 0F r u/_C ar
 SFX 0F jar geu/_C ar
-SFX 0F jar gen/_C ar
+SFX 0F r u/_C ar
 SFX 0F jar gin/_C ar
+SFX 0F jar gen/_C ar
 
 # Model de conjugació: ofrenar
 SFX 10 Y 84
@@ -2102,16 +2143,16 @@ SFX 10 r ria/_Z ar
 SFX 10 r ríem/_Z ar
 SFX 10 r ríeu/_Z ar
 SFX 10 r rien/_Z ar
-SFX 10 ar e/_Z ar
 SFX 10 ar i/_Z ar
-SFX 10 ar es/_Z ar
+SFX 10 ar e/_Z ar
 SFX 10 ar is/_Z ar
-SFX 10 ar e/_Z ar
+SFX 10 ar es/_Z ar
 SFX 10 ar i/_Z ar
+SFX 10 ar e/_Z ar
 SFX 10 ar em/_Z ar
 SFX 10 ar eu/_Z ar
-SFX 10 ar en/_Z ar
 SFX 10 ar in/_Z ar
+SFX 10 ar en/_Z ar
 SFX 10 ar és/_Z ar
 SFX 10 r ra/_Z ar
 SFX 10 ar às/_Z ar
@@ -2139,13 +2180,13 @@ SFX 10 r ssin/_Z ar
 SFX 10 ar essen/_Z ar
 SFX 10 r ssen/_Z ar
 SFX 10 r 0/_D ar
-SFX 10 ar e/_D ar
 SFX 10 ar i/_D ar
+SFX 10 ar e/_D ar
 SFX 10 ar em/_C ar
-SFX 10 r u/_C ar
 SFX 10 ar eu/_C ar
-SFX 10 ar en/_C ar
+SFX 10 r u/_C ar
 SFX 10 ar in/_C ar
+SFX 10 ar en/_C ar
 
 # Model de conjugació: pregar
 SFX 11 Y 84
@@ -2189,16 +2230,16 @@ SFX 11 r ria/_Z ar
 SFX 11 r ríem/_Z ar
 SFX 11 r ríeu/_Z ar
 SFX 11 r rien/_Z ar
-SFX 11 ar ue/_Z ar
 SFX 11 ar ui/_Z ar
-SFX 11 ar ues/_Z ar
+SFX 11 ar ue/_Z ar
 SFX 11 ar uis/_Z ar
-SFX 11 ar ue/_Z ar
+SFX 11 ar ues/_Z ar
 SFX 11 ar ui/_Z ar
+SFX 11 ar ue/_Z ar
 SFX 11 ar uem/_Z ar
 SFX 11 ar ueu/_Z ar
-SFX 11 ar uen/_Z ar
 SFX 11 ar uin/_Z ar
+SFX 11 ar uen/_Z ar
 SFX 11 ar ués/_Z ar
 SFX 11 r ra/_Z ar
 SFX 11 ar às/_Z ar
@@ -2226,13 +2267,13 @@ SFX 11 r ssin/_Z ar
 SFX 11 ar uessen/_Z ar
 SFX 11 r ssen/_Z ar
 SFX 11 r 0/_D ar
-SFX 11 ar ue/_D ar
 SFX 11 ar ui/_D ar
+SFX 11 ar ue/_D ar
 SFX 11 ar uem/_C ar
-SFX 11 r u/_C ar
 SFX 11 ar ueu/_C ar
-SFX 11 ar uen/_C ar
+SFX 11 r u/_C ar
 SFX 11 ar uin/_C ar
+SFX 11 ar uen/_C ar
 
 # Model de conjugació: servir
 SFX 12 Y 90
@@ -2242,9 +2283,9 @@ SFX 12 r t/_v_Y ir
 SFX 12 r da/_Y ir
 SFX 12 r ts/_Y ir
 SFX 12 r des/_Y ir
+SFX 12 ir esc/_Z ir
 SFX 12 ir eixo/_Z ir
 SFX 12 r sc/_Z ir
-SFX 12 ir esc/_Z ir
 SFX 12 ir eixes/_Z ir
 SFX 12 r xes/_Z ir
 SFX 12 ir eix/_Z ir
@@ -2277,26 +2318,26 @@ SFX 12 r ria/_Z ir
 SFX 12 r ríem/_Z ir
 SFX 12 r ríeu/_Z ir
 SFX 12 r rien/_Z ir
+SFX 12 ir eixi/_Z ir
 SFX 12 ir esca/_Z ir
 SFX 12 r sca/_Z ir
 SFX 12 ir esqui/_Z ir
-SFX 12 ir eixi/_Z ir
+SFX 12 ir eixis/_Z ir
 SFX 12 ir esques/_Z ir
 SFX 12 r sques/_Z ir
 SFX 12 ir esquis/_Z ir
-SFX 12 ir eixis/_Z ir
+SFX 12 ir eixi/_Z ir
 SFX 12 ir esca/_Z ir
 SFX 12 r sca/_Z ir
 SFX 12 ir esqui/_Z ir
-SFX 12 ir eixi/_Z ir
 SFX 12 r m/_Z ir
 SFX 12 r guem/_Z ir
 SFX 12 r u/_Z ir
 SFX 12 r gueu/_Z ir
+SFX 12 ir eixin/_Z ir
 SFX 12 ir esquen/_Z ir
 SFX 12 r squen/_Z ir
 SFX 12 ir esquin/_Z ir
-SFX 12 ir eixin/_Z ir
 SFX 12 ir ís/_Z ir
 SFX 12 r ra/_Z ir
 SFX 12 r ssis/_Z ir
@@ -2315,17 +2356,17 @@ SFX 12 r ren/_Z ir
 SFX 12 r ssen/_Z ir
 SFX 12 ir eix/_C ir
 SFX 12 r x/_C ir
+SFX 12 ir eixi/_D ir
 SFX 12 ir esca/_D ir
 SFX 12 r sca/_D ir
 SFX 12 ir esqui/_D ir
-SFX 12 ir eixi/_D ir
 SFX 12 r m/_C ir
 SFX 12 r guem/_C ir
 SFX 12 r u/_C ir
+SFX 12 ir eixin/_C ir
 SFX 12 ir esquen/_C ir
 SFX 12 r squen/_C ir
 SFX 12 ir esquin/_C ir
-SFX 12 ir eixin/_C ir
 
 # Model de conjugació: traduir
 SFX 13 Y 90
@@ -2335,9 +2376,9 @@ SFX 13 ir ït/_v_Y ir
 SFX 13 ir ïda/_Y ir
 SFX 13 ir ïts/_Y ir
 SFX 13 ir ïdes/_Y ir
+SFX 13 ir esc/_Z ir
 SFX 13 ir eixo/_Z ir
 SFX 13 ir ïsc/_Z ir
-SFX 13 ir esc/_Z ir
 SFX 13 ir eixes/_Z ir
 SFX 13 ir ïxes/_Z ir
 SFX 13 ir eix/_Z ir
@@ -2370,26 +2411,26 @@ SFX 13 r ria/_Z ir
 SFX 13 r ríem/_Z ir
 SFX 13 r ríeu/_Z ir
 SFX 13 r rien/_Z ir
+SFX 13 ir eixi/_Z ir
 SFX 13 ir esca/_Z ir
 SFX 13 ir ïsca/_Z ir
 SFX 13 ir esqui/_Z ir
-SFX 13 ir eixi/_Z ir
+SFX 13 ir eixis/_Z ir
 SFX 13 ir esques/_Z ir
 SFX 13 ir ïsques/_Z ir
 SFX 13 ir esquis/_Z ir
-SFX 13 ir eixis/_Z ir
+SFX 13 ir eixi/_Z ir
 SFX 13 ir esca/_Z ir
 SFX 13 ir ïsca/_Z ir
 SFX 13 ir esqui/_Z ir
-SFX 13 ir eixi/_Z ir
 SFX 13 ir ïm/_Z ir
 SFX 13 ir ïguem/_Z ir
 SFX 13 ir ïu/_Z ir
 SFX 13 ir ïgueu/_Z ir
+SFX 13 ir eixin/_Z ir
 SFX 13 ir esquen/_Z ir
 SFX 13 ir ïsquen/_Z ir
 SFX 13 ir esquin/_Z ir
-SFX 13 ir eixin/_Z ir
 SFX 13 ir ís/_Z ir
 SFX 13 ir ïra/_Z ir
 SFX 13 ir ïssis/_Z ir
@@ -2408,17 +2449,17 @@ SFX 13 ir ïren/_Z ir
 SFX 13 ir ïssen/_Z ir
 SFX 13 ir eix/_C ir
 SFX 13 ir ïx/_C ir
+SFX 13 ir eixi/_D ir
 SFX 13 ir esca/_D ir
 SFX 13 ir ïsca/_D ir
 SFX 13 ir esqui/_D ir
-SFX 13 ir eixi/_D ir
 SFX 13 ir ïm/_C ir
 SFX 13 ir ïguem/_C ir
 SFX 13 ir ïu/_C ir
+SFX 13 ir eixin/_C ir
 SFX 13 ir esquen/_C ir
 SFX 13 ir ïsquen/_C ir
 SFX 13 ir esquin/_C ir
-SFX 13 ir eixin/_C ir
 
 # Model de conjugació: trencar
 SFX 14 Y 84
@@ -2462,16 +2503,16 @@ SFX 14 r ria/_Z ar
 SFX 14 r ríem/_Z ar
 SFX 14 r ríeu/_Z ar
 SFX 14 r rien/_Z ar
-SFX 14 car que/_Z ar
 SFX 14 car qui/_Z ar
-SFX 14 car ques/_Z ar
+SFX 14 car que/_Z ar
 SFX 14 car quis/_Z ar
-SFX 14 car que/_Z ar
+SFX 14 car ques/_Z ar
 SFX 14 car qui/_Z ar
+SFX 14 car que/_Z ar
 SFX 14 car quem/_Z ar
 SFX 14 car queu/_Z ar
-SFX 14 car quen/_Z ar
 SFX 14 car quin/_Z ar
+SFX 14 car quen/_Z ar
 SFX 14 car qués/_Z ar
 SFX 14 r ra/_Z ar
 SFX 14 ar às/_Z ar
@@ -2499,10 +2540,10 @@ SFX 14 r ssin/_Z ar
 SFX 14 car quessen/_Z ar
 SFX 14 r ssen/_Z ar
 SFX 14 r 0/_D ar
-SFX 14 car que/_D ar
 SFX 14 car qui/_D ar
+SFX 14 car que/_D ar
 SFX 14 car quem/_C ar
-SFX 14 r u/_C ar
 SFX 14 car queu/_C ar
-SFX 14 car quen/_C ar
+SFX 14 r u/_C ar
 SFX 14 car quin/_C ar
+SFX 14 car quen/_C ar

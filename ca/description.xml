@@ -19,7 +19,7 @@
     <!-- The version of your extension. NOT the one of OpenOffice.org...
          It will also be used to automatically check if there are updates for this
          extension available. Newer versions should have higher values. -->
-    <version value="3.0.5" />
+    <version value="3.0.8" />
 
     <!-- A unique identifier for your extension.
         In order to avoid name clashes with other extensions it should probably hold

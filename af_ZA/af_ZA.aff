@@ -1,8 +1,7 @@
 # af_ZA.aff - Afrikaans (af) affix file for use in hunspell
 #
-# Copyright (C) 2020 Kris van der Merwe
-# ... created from the Afrikaans ispell affix file by Dwayne Bailey
-# ... created from the Afrikaans ispell affix file by Reinier de Vos
+# Copyright (C) 2024 Kris van der Merwe
+# ... created from the original Afrikaans ispell affix file by Dwayne Bailey and by Reinier de Vos
 #
 # This library is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
@@ -40,8 +39,8 @@ NOSPLITSUGS
 COMPOUNDMIN 1
 ONLYINCOMPOUND c
 # nommer verbuiging reëls:
-#   ([23456789]|1?[0-9])de
-#   ([018]?|[2-9][0-9]+|[1-9]{3,})ste
+#  ([23456789]|1?[0-9])de
+#  ([018]?|[2-9][0-9]+|[1-9]{3,})ste
 #
 # COMPOUNDRULE het foute, eenvoudige reëls word dus gebruik
 
@@ -73,12 +72,12 @@ MAP yÿý
 # kennis van wat maklik verwar word.
 #
 # Byvoorbeeld:
-#   g<->ch, vir foute soos gemikus of nongalant
-#   y<->ui<->ei, uu<->ie, vir oorronding en ontronding, en y/ei-verwarring
-#   ij -> y, lijk -> lik, vir foutiewe Nederlandse spellings
-#   kuste -> ci, kuste -> kusse, vir politikuste -> politici/politikusse
-#   ui oeï, vir foute soos Hinduisme -> Hindoeïsme
-#   ch->tj, sh -> sj, vir foute soos chips (tjips) en shoe (sjoe)
+#  g<->ch, vir foute soos gemikus of nongalant
+#  y<->ui<->ei, uu<->ie, vir oorronding en ontronding, en y/ei-verwarring
+#  ij -> y, lijk -> lik, vir foutiewe Nederlandse spellings
+#  kuste -> ci, kuste -> kusse, vir politikuste -> politici/politikusse
+#  ui oeï, vir foute soos Hinduisme -> Hindoeïsme
+#  ch->tj, sh -> sj, vir foute soos chips (tjips) en shoe (sjoe)
 #
 REP 27
 REP g ch
@@ -107,7 +106,7 @@ REP sh sj
 REP kie djie
 REP kie tjie
 REP ntjie nkie
-REP aaitjie aadjie
+REP aitjie adjie
 
 BREAK 2
 BREAK -
@@ -124,104 +123,123 @@ PFX A Y 1
 PFX A 0 aan .
 
 PFX B Y 1
-PFX B 0 be .
+PFX B 0 be ..
 
 PFX C Y 1
-PFX C 0 in .
+PFX C 0 in ..
 
 SFX E N 2
-SFX E 0 e  [^aeiou]
+SFX E 0 e [^aeou]
 SFX E 0 'e [ghc]e
 
 PFX F Y 1
-PFX F 0 af .
+PFX F 0 af ..
 
 PFX G Y 1
-PFX G 0 ge .
+PFX G 0 ge ..
 
 SFX H N 2
 SFX H 0 heid [^ëe]
 SFX H 0 nheid [ëe]
 
 SFX J N 16
-SFX J  0 tjie   .[aeiouy]
-SFX J  0 tjies  .[aeiouy]
-SFX J  0 tjie   .[aeiouyëê][lnr]
-SFX J  0 tjies  .[aeiouyëê][lnr]
-SFX J  0 etjie  ^.{1,3}[aeiouyëê]ng
-SFX J  0 etjies ^.{1,3}[aeiouyëê]ng
-SFX J  0 pie   .[aeiou]m
-SFX J  0 pies  .[aeiou]m
-SFX J  0 jie   .[aeioun][dt]
-SFX J  0 jies  .[aeioun][dt]
-SFX J  0 'tjies .+[^aeiouyëêlngrmdtp]
-SFX J  0 'tjie  .+[^aeiouyëêlngrmdtp]
-SFX J  0 'etjies ^[flmnrsx]
-SFX J  0 'etjie  ^[flmnrsx]
-SFX J  0 'tjies ^[^flmnrsx]
-SFX J  0 'tjie  ^[^flmnrsx]
+SFX J 0 tjie  .[aeiouy]
+SFX J 0 tjies .[aeiouy]
+SFX J 0 tjie  .[aeiouyëê][lnr]
+SFX J 0 tjies .[aeiouyëê][lnr]
+SFX J 0 etjie [aeiouyëê]ng
+SFX J 0 etjies [aeiouyëê]ng
+SFX J 0 pie  .[aeiou]m
+SFX J 0 pies .[aeiou]m
+SFX J 0 jie  .[aeioun][dt]
+SFX J 0 jies .[aeioun][dt]
+SFX J 0 'tjies .+[^aeiouyëêlngrmdtp]
+SFX J 0 'tjie .+[^aeiouyëêlngrmdtp]
+SFX J 0 'etjies ^[flmnrsx]
+SFX J 0 'etjie ^[flmnrsx]
+SFX J 0 'tjies ^[^flmnrsx]
+SFX J 0 'tjie ^[^flmnrsx]
 
 PFX K Y 1
 PFX K 0 op .
 
 SFX L N 1
-SFX L  0 te .
+SFX L 0 te .
 
 PFX M Y 1
 PFX M 0 oor .
 
 SFX N N 1
-SFX N  0 de .
+SFX N 0 de .
 
 PFX O Y 1
 PFX O 0 on .
 
 SFX P N 32
-SFX P  ad de aad
-SFX P  ag e  aag
-SFX P  ak ke aak
-SFX P  al le aal
-SFX P  am me aam
-SFX P  an ne aan
-SFX P  ap pe aap
-SFX P  ar re aar
-SFX P  as se aas
-SFX P  at te aat
-SFX P  ed de eed
-SFX P  eg ge eeg
-SFX P  ek ke eek
-SFX P  el le eel
-SFX P  em me eem
-SFX P  id de heid
-SFX P  en ne [eï]en
-SFX P  ep pe eep
-SFX P  er re eer
-SFX P  es se ees
-SFX P  et te eet
-SFX P  od de ood
-SFX P  og ë  oog
-SFX P  ok ke ook
-SFX P  ol le ool
-SFX P  om me oom
-SFX P  on ne oon
-SFX P  op pe oop
-SFX P  or re oor
-SFX P  ot te oot
-SFX P  un ne uun
-SFX P  ur re uur
+SFX P ad de aad
+SFX P ag e aag
+SFX P ak ke aak
+SFX P al le aal
+SFX P am me aam
+SFX P an ne aan
+SFX P ap pe aap
+SFX P ar re aar
+SFX P as se aas
+SFX P at te aat
+SFX P ed de eed
+SFX P eg ge eeg
+SFX P ek ke eek
+SFX P el le eel
+SFX P em me eem
+SFX P en ne [eï]en
+SFX P ep pe eep
+SFX P er re eer
+SFX P es se ees
+SFX P et te eet
+SFX P od de ood
+SFX P og ë oog
+SFX P ok ke ook
+SFX P ol le ool
+SFX P om me oom
+SFX P on ne oon
+SFX P op pe oop
+SFX P or re oor
+SFX P ot te oot
+SFX P ul le uul
+SFX P un ne uun
+SFX P ur re uur
+
+SFX Q N 13
+SFX Q 0 be b
+SFX Q 0 de d
+SFX Q 0 fe f
+SFX Q 0 ge g
+SFX Q 0 ke k
+SFX Q 0 le l
+SFX Q 0 me m
+SFX Q 0 ne [en]
+SFX Q 0 pe p
+SFX Q 0 re r
+SFX Q 0 se s
+SFX Q 0 te t
+SFX Q 0 we w
 
 SFX S N 2
-SFX S  0 s [^saiou]
-SFX S  0 's [^aeiou][aiou]
+SFX S 0 s [^saiu]
+SFX S 0 's [^aeiou][aiou]
 
 SFX T N 1
-SFX T  0 ste .
+SFX T 0 ste .
 
 PFX U Y 1
 PFX U 0 uit .
 
 PFX V Y 1
 PFX V 0 ver .
+
+SFX X N 2
+SFX X 0 loos [^x][^bu]
+SFX X 0 lose [^x][^b]
 
 SFX Z N 7
 SFX Z af we aaf
@@ -232,17 +250,6 @@ SFX Z of we oof
 SFX Z f we uif
 SFX Z f we yf
 
-SFX d N 2
-SFX d 0 nd ..[ëe]
-SFX d 0 nde ..[ëe]
-
-SFX g N 2
-SFX g 0 ing .[dgiklmnprstu]
-SFX g 0 inge .[dgiklmnprstu]
-
-SFX h N 2
-SFX h 0 ing .[dgiklmnprstu]
-SFX h 0 ings .[dgiklmnprstu]
-
-SFX r N 1
-SFX r 0 er ...
+SFX r N 2
+SFX r 0 er .[^d]
+SFX r 0 der ..

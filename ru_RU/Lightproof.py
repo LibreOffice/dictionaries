@@ -2,7 +2,10 @@
 # Lightproof grammar checker for LibreOffice and OpenOffice.org
 # 2009-2012 (c) László Németh (nemeth at numbertext org), license: MPL 1.1 / GPLv3+ / LGPLv3+
 
-import uno, unohelper, os, sys, traceback
+import uno
+import unohelper
+import os
+import traceback
 from lightproof_impl_ru_RU import locales
 from lightproof_impl_ru_RU import pkg
 import lightproof_impl_ru_RU
@@ -15,7 +18,7 @@ from com.sun.star.lang import Locale
 # reload in obj.reload in Python 3
 try:
     from obj import reload
-except:
+except Exception:
     pass
 
 class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XServiceDisplayName, XSupportedLocales):
@@ -118,7 +121,7 @@ class Lightproof( unohelper.Base, XProofreader, XServiceInfo, XServiceName, XSer
                         return aRes
                 aRes.aText = ""
                 return aRes
-            except:
+            except Exception:
                 if 'PYUNO_LOGLEVEL' in os.environ:
                     print(traceback.format_exc())
 
