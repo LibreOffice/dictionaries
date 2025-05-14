@@ -1,10 +1,15 @@
-# verzia: 2.04, 2013-03-17
+# verzia: 2.4.8, 2024-08-29
 SET UTF-8
+LANG sk
+KEY qwertzuiopúä|asdfghjklô§ň|yxcvbnm,.-|;+ľščťžýáíé=
 TRY aoeintsvrlkmdpuhjzácbyčžíšýúťéľôďgfňäóŕxĺwěřqůAOEINTSVRLKMDPUHJZÁCBYČŽÍŠÝÚŤÉĽÔĎGFŇÄÓŔXĹWĚŘQŮ
+
+# don't suggest word with NOSUGGEST flag (for example vulgar or obscene words)
+NOSUGGEST $
 
 # replacenment table for
 # - multicharacter suggestions
-# - well-sorted suggestions 
+# - well-sorted suggestions
 
 REP 53
 REP a á
@@ -61,11 +66,34 @@ REP ĺ ľ
 REP ľ ĺ
 REP ds c
 
+MAP 17
+MAP aáä
+MAP eé
+MAP ií
+MAP yý
+MAP oóôö
+MAP uúü
+MAP dď
+MAP tť
+MAP nň
+MAP lľĺ
+MAP cč
+MAP sš
+MAP zž
+MAP rŕ
+MAP (hc)(ch)
+MAP (zd)(dz)
+MAP (žd)(dž)
+
+
 PFX N Y 1     # predpona ne-
 PFX N   0           ne         . tp:negation
 
-PFX F Y 1     # predpona naj- pre 3 stupeň prídavných mien
-PFX F   0           naj        . tp:superlative
+CIRCUMFIX s
+
+PFX F Y 2     # predpona naj- pre 3 stupeň prídavných mien
+PFX F   0           naj/s      . tp:superlative
+PFX F   0           najne/s    . tp:superaltive tp:negation
 
 SFX z Y 7     # vzor žena jednotné číslo
 SFX z   a           y          a is:genitive
@@ -293,7 +321,7 @@ SFX U   ťa          tiach      ťa is:locative is:plural
 SFX U   a           iach       [^ďťňľi]a is:locative is:plural
 SFX U   a           ami        a is:instrumental is:plural
 
-SFX D Y 201
+SFX D Y 187
 SFX D   ec          ce         ec is:genitive
 SFX D   ď           de         ď is:genitive
 SFX D   eľ          le         seľ is:genitive
@@ -384,7 +412,6 @@ SFX D   ď           diam       [eoru]ď is:dative is:plural
 SFX D   ď           diam       [^i]aď is:dative is:plural
 SFX D   ň           niam       lebeň is:dative is:plural
 SFX D   ň           niam       [alou]ň is:dative is:plural
-SFX D   ň           niam       eňa is:dative is:plural
 SFX D   ň           niam       čeň is:dative is:plural
 SFX D   ň           niam       jeseň is:dative is:plural
 SFX D   ň           niam       [^á]leň is:dative is:plural
@@ -406,20 +433,9 @@ SFX D   eň          ňam        [áýí]zeň is:dative is:plural
 SFX D   eň          ňam        priazeň is:dative is:plural
 SFX D   eň          ňam        báseň is:dative is:plural
 SFX D   eň          ňam        i[ae]reň is:dative is:plural
-SFX D   eň          ňam        ec is:dative is:plural
-SFX D   ľ           liam       [^s][ye][ľl] is:dative is:plural
+SFX D   ľ           liam       [^s][ye][ľ] is:dative is:plural
 SFX D   el          liam       sel is:dative is:plural
 SFX D   eľ          liam       myseľ is:dative is:plural
-SFX D   eľ          le         seľ is:accusative is:plural
-SFX D   ľ           le         [^s]eľ is:accusative is:plural
-SFX D   eň          ne         [bdhrsšzv]eň is:accusative is:plural
-SFX D   eň          ne         á[lš]eň is:accusative is:plural
-SFX D   eň          ne         i[aeu].eň is:accusative is:plural
-SFX D   ň           ne         [^á][lš]eň is:accusative is:plural
-SFX D   ň           ne         [^bdhlrsšzv]eň is:accusative is:plural
-SFX D   ň           ne         [^e]ň is:accusative is:plural
-SFX D   ť           te         ť is:accusative is:plural
-SFX D   0           e          [^acďľňť] is:accusative is:plural
 SFX D   eľ          le         seľ is:accusative is:plural
 SFX D   ľ           le         [^s]eľ is:accusative is:plural
 SFX D   eň          ne         [bdhrsšzv]eň is:accusative is:plural
@@ -456,7 +472,6 @@ SFX D   ď           diach      [eoru]ď is:locative is:plural
 SFX D   ď           diach      [^i]aď is:locative is:plural
 SFX D   ň           niach      lebeň is:locative is:plural
 SFX D   ň           niach      [alou]ň is:locative is:plural
-SFX D   ň           niach      eňa is:locative is:plural
 SFX D   ň           niach      čeň is:locative is:plural
 SFX D   ň           niach      jeseň is:locative is:plural
 SFX D   ň           niach      [^á]leň is:locative is:plural
@@ -478,8 +493,7 @@ SFX D   eň          ňach       [áýí]zeň is:locative is:plural
 SFX D   eň          ňach       priazeň is:locative is:plural
 SFX D   eň          ňach       báseň is:locative is:plural
 SFX D   eň          ňach       i[ae]reň is:locative is:plural
-SFX D   eň          ňach       ec is:locative is:plural
-SFX D   ľ           liach      [^s][ye][ľl] is:locative is:plural
+SFX D   ľ           liach      [^s][ye][ľ] is:locative is:plural
 SFX D   el          liach      sel is:locative is:plural
 SFX D   eľ          liach      myseľ is:locative is:plural
 SFX D   ec          ciach      ec is:locative is:plural
@@ -535,7 +549,7 @@ SFX K   0           iach       [^áďťňľ] is:locative is:plural
 SFX K   á           ami        á is:instrumental is:plural
 SFX K   0           ami        [^á] is:instrumental is:plural
 
-SFX M Y 100
+SFX M Y 96
 SFX M   ďo          de         ďo is:genitive
 SFX M   ťo          te         ťo is:genitive
 SFX M   ňo          ne         ňo is:genitive
@@ -595,6 +609,7 @@ SFX M   um          í          [ei]um is:genitive is:plural
 SFX M   um          ier        [^ei]um is:genitive is:plural
 SFX M   o           0          gesto is:genitive is:plural
 SFX M   o           0          geto is:genitive is:plural
+SFX M   ro          ier        dro is:genitive is:plural
 SFX M   o           am         i[aeou]..o is:dative is:plural
 SFX M   o           ám         [^i][aeiouy]..o is:dative is:plural
 SFX M   o           am         [áéíóŕúý]..o is:dative is:plural
@@ -612,12 +627,7 @@ SFX M   o           á          [^áéíóŕúý].o is:accusative is:plural
 SFX M   um          á          ium is:accusative is:plural
 SFX M   um          á          [^i]um is:accusative is:plural
 SFX M   o           a          i[aeou]..o is:accusative is:plural
-SFX M   o           á          [^i][aeiouy]..o is:accusative is:plural
 SFX M   o           a          [áéíóŕúý]..o is:accusative is:plural
-SFX M   o           a          i[aeou].o is:accusative is:plural
-SFX M   o           a          [áéíóŕúý].o is:accusative is:plural
-SFX M   um          á          ium is:accusative is:plural
-SFX M   um          á          [^i]um is:accusative is:plural
 SFX M   o           ach        i[aeou]..o is:locative is:plural
 SFX M   o           ách        [^i][aeiouy]..o is:locative is:plural
 SFX M   o           ach        [áéíóŕúý]..o is:locative is:plural
@@ -679,7 +689,7 @@ SFX V   e           a          e is:accusative is:plural
 SFX V   e           ach        e is:locative is:plural
 SFX V   e           ami        e is:instrumental is:plural
 
-SFX A Y 35
+SFX A Y 31
 SFX A   0           ťa         . is:genitive
 SFX A   0           ťu         . is:dative
 SFX A   0           0          . is:accusative
@@ -692,17 +702,13 @@ SFX A   0           tá         . is:nominative is:plural
 SFX A   a           eniec      [č]a is:genitive is:plural
 SFX A   0           niec       úbä is:genitive is:plural
 SFX A   a           iec        [^čň]a is:genitive is:plural
-SFX A	ňa          niec       [e]ňa is:genitive is:plural
-SFX A	ňa	    niat       [^i][^e]ňa is:genitive is:plural
+SFX A   ňa          niec       [e]ňa is:genitive is:plural
+SFX A   ňa          niat       [^i][^e]ňa is:genitive is:plural
 SFX A   0           t          [^ň]a is:genitive is:plural
 SFX A   a           encom      [č]a is:dative is:plural
 SFX A   0           ncom       úbä is:dative is:plural
 SFX A   a           com        [^č]a is:dative is:plural
 SFX A   0           tám        . is:dative is:plural
-SFX A   a           ence       [č]a is:accusative is:plural
-SFX A   0           nce        úbä is:accusative is:plural
-SFX A   a           ce         [^č]a is:accusative is:plural
-SFX A   0           tá         . is:accusative is:plural
 SFX A   a           ence       [č]a is:accusative is:plural
 SFX A   0           nce        úbä is:accusative is:plural
 SFX A   a           ce         [^č]a is:accusative is:plural
@@ -716,14 +722,14 @@ SFX A   0           ncami      úbä is:instrumental is:plural
 SFX A   a           cami       [^č]a is:instrumental is:plural
 SFX A   0           tami       . is:instrumental is:plural
 
-SFX c Y 191 # vzor pre živ. pod.mená. ak N plurál je -ia
+SFX c Y 190 # vzor pre živ. pod.mená. ak N plurál je -ia
 SFX c   ec          če         ec is:vocative
 SFX c   0           ho         [éi] is:genitive
 SFX c   us          a          [^ú]..us is:genitive
 SFX c   0           a          úlius is:genitive
 SFX c   as          a          [^el]as is:genitive
 SFX c   0           a          [el]as is:genitive
-SFX c   es          a          [^hxz]es	is:genitive
+SFX c   es          a          [^hxz]es is:genitive
 SFX c   0           a          [hxz]es is:genitive
 SFX c   0           a          [^h]os is:genitive
 SFX c   os          a          hos is:genitive
@@ -762,7 +768,7 @@ SFX c   us          a          [^ú]..us is:accusative
 SFX c   0           a          úlius is:accusative
 SFX c   as          a          [^el]as is:accusative
 SFX c   0           a          [el]as is:accusative
-SFX c   es          a          [^hxz]es	is:accusative
+SFX c   es          a          [^hxz]es is:accusative
 SFX c   0           a          [hxz]es is:accusative
 SFX c   0           a          [^h]os is:accusative
 SFX c   os          a          hos is:accusative
@@ -814,7 +820,6 @@ SFX c   0           ovia       [^eo][cr] is:nominative is:plural
 SFX c   0           ovia       nc is:nominative is:plural
 SFX c   0           ovia       [^cčéior] is:nominative is:plural
 SFX c   0           ovia       [ey]n is:nominative is:plural
-SFX c   0           via        o is:nominative is:plural
 SFX c   or          rovia      [gk]or is:nominative is:plural
 SFX c   0           ovia       č[ei]k is:nominative is:plural
 SFX c   ok          kovia      ok is:nominative is:plural
@@ -909,7 +914,7 @@ SFX c   0           mi         [^eon][cr] is:instrumental is:plural
 SFX c   0           ami        nc is:instrumental is:plural
 SFX c   0           mi         [^céior] is:instrumental is:plural
 
-SFX C Y 113 # vzor pre živ. pod.mená. ak N plurál je -i okrem hosť
+SFX C Y 112 # vzor pre živ. pod.mená. ak N plurál je -i okrem hosť
 SFX C   ec          ca         ec is:genitive
 SFX C   on          na         zon is:genitive
 SFX C   o           a          o is:genitive
@@ -973,7 +978,6 @@ SFX C   er          ri         [^inp]er is:nominative is:plural
 SFX C   or          ri         bor is:nominative is:plural
 SFX C   0           i          [^b]or is:nominative is:plural
 SFX C   0           i          [^eo][cr] is:nominative is:plural
-SFX C   on          ni         zon is:nominative is:plural
 SFX C   ť           tí         ť is:genitive is:plural
 SFX C   ec          cov        ec is:genitive is:plural
 SFX C   on          nov        zon is:genitive is:plural
@@ -1037,7 +1041,7 @@ SFX H   a           ov         a is:accusative is:plural
 SFX H   a           och        a is:locative is:plural
 SFX H   0           mi         a is:instrumental is:plural
 
-SFX B Y 215
+SFX B Y 223
 SFX B   0           a          [áéíóúý]rod is:genitive
 SFX B   0           u          [^áéíóúý]rod is:genitive
 SFX B   0           u          [^r]od is:genitive
@@ -1049,7 +1053,8 @@ SFX B   0           u          el is:genitive
 SFX B   ôl          ola        ôl is:genitive
 SFX B   0           u          [^eoô]l is:genitive
 SFX B   0           e          yv is:genitive
-SFX B   0           a          [^o][knv] is:genitive
+SFX B   0           a          [^aiíoý].[^o][knv] is:genitive
+SFX B   ček         čka        [aiíoý]ček is:genitive
 SFX B   0           a          [oúy]r is:genitive
 SFX B   0           a          ner is:genitive
 SFX B   us          u          mus is:genitive
@@ -1078,7 +1083,8 @@ SFX B   0           u          to[klnv] is:dative
 SFX B   0           u          [^t]o[klnv] is:dative
 SFX B   0           u          el is:dative
 SFX B   ôl          olu        ôl is:dative
-SFX B   0           u          [^o][knv] is:dative
+SFX B   0           u          [^aiíoý].[^o][knv] is:dative
+SFX B   ček         čku        [aiíoý]ček is:dative
 SFX B   0           u          [aeíoúy]r is:dative
 SFX B   0           u          [^u]s is:dative
 SFX B   0           u          [^áéíóúý]vet is:dative
@@ -1113,7 +1119,8 @@ SFX B   0           om         [^t]o[klnv] is:instrumental
 SFX B   0           om         el is:instrumental
 SFX B   ôl          olom       ôl is:instrumental
 SFX B   0           om         [^eoô]l is:instrumental
-SFX B   0           om         [^o][knv] is:instrumental
+SFX B   0           om         [^aiíoý].[^o][knv] is:instrumental
+SFX B   ček         čkom       [aiíoý]ček is:instrumental
 SFX B   us          om         mus is:instrumental
 SFX B   os          om         mos is:instrumental
 SFX B   0           om         [^m]us is:instrumental
@@ -1130,7 +1137,8 @@ SFX B   0           e          [^i]ál is:nominative is:plural
 SFX B   0           y          el is:nominative is:plural
 SFX B   ôl          oly        ôl is:nominative is:plural
 SFX B   0           y          [^eoô]l is:nominative is:plural
-SFX B   0           y          [^o][knv] is:nominative is:plural
+SFX B   ček         čky        [aiíoý]ček is:nominative is:plural
+SFX B   0           y          [^aiíoý].[^o][knv] is:nominative is:plural
 SFX B   0           y          [aeíoúy]r is:nominative is:plural
 SFX B   us          y          mus is:nominative is:plural
 SFX B   os          y          mos is:nominative is:plural
@@ -1154,7 +1162,8 @@ SFX B   0           ov         [^t]o[klnv] is:genitive is:plural
 SFX B   0           ov         el is:genitive is:plural
 SFX B   ôl          olov       ôl is:genitive is:plural
 SFX B   0           ov         [^eoô]l is:genitive is:plural
-SFX B   0           ov         [^o][knv] is:genitive is:plural
+SFX B   ček         čkov       [aiíoý]ček is:genitive is:plural
+SFX B   0           ov         [^aiíoý].[^o][knv] is:genitive is:plural
 SFX B   0           ov         [aeíoúy]r is:genitive is:plural
 SFX B   us          ov         mus is:genitive is:plural
 SFX B   os          ov         mos is:genitive is:plural
@@ -1174,10 +1183,10 @@ SFX B   0           om         [^r]od is:dative is:plural
 SFX B   0           om         [^o]d is:dative is:plural
 SFX B   0           om         to[klnv] is:dative is:plural
 SFX B   0           om         [^t]o[klnv] is:dative is:plural
-SFX B   0           om         [^t]o[klnv] is:dative is:plural
 SFX B   0           om         el is:dative is:plural
 SFX B   0           om         [^eoô]l is:dative is:plural
-SFX B   0           om         [^o][knv] is:dative is:plural
+SFX B   ček         čkom       [aiíoý]ček is:dative is:plural
+SFX B   0           om         [^aiíoý].[^o][knv] is:dative is:plural
 SFX B   0           om         [aeíoúy]r is:dative is:plural
 SFX B   us          om         mus is:dative is:plural
 SFX B   os          om         mos is:dative is:plural
@@ -1197,7 +1206,8 @@ SFX B   0           y          to[klnv] is:accusative is:plural
 SFX B   0           y          [^t]o[klnv] is:accusative is:plural
 SFX B   ôl          oly        ôl is:accusative is:plural
 SFX B   0           y          [^eoô]l is:accusative is:plural
-SFX B   0           y          [^o][knv] is:accusative is:plural
+SFX B   ček         čky        [aiíoý]ček is:accusative is:plural
+SFX B   0           y          [^aiíoý].[^o][knv] is:accusative is:plural
 SFX B   0           y          [aeíoúy]r is:accusative is:plural
 SFX B   us          y          mus is:accusative is:plural
 SFX B   0           y          [^m]us is:accusative is:plural
@@ -1216,7 +1226,8 @@ SFX B   0           och        [^t]o[klnv] is:locative is:plural
 SFX B   0           och        el is:locative is:plural
 SFX B   ôl          oloch      ôl is:locative is:plural
 SFX B   0           och        [^eoô]l is:locative is:plural
-SFX B   0           och        [^o][knv] is:locative is:plural
+SFX B   ček         čkoch      [aiíoý]ček is:locative is:plural
+SFX B   0           och        [^aiíoý].[^o][knv] is:locative is:plural
 SFX B   0           och        [aeíoúy]r is:locative is:plural
 SFX B   us          och        mus is:locative is:plural
 SFX B   os          och        mos is:locative is:plural
@@ -1238,7 +1249,8 @@ SFX B   0           mi         [^t]o[klnv] is:instrumental is:plural
 SFX B   0           ami        el is:instrumental is:plural
 SFX B   ôl          olami      ôl is:instrumental is:plural
 SFX B   0           ami        [^eoô]l is:instrumental is:plural
-SFX B   0           mi         [^o][knv] is:instrumental is:plural
+SFX B   ček         čkami      [aiíoý]ček is:instrumental is:plural
+SFX B   0           mi         [^aiíoý].[^o][knv] is:instrumental is:plural
 SFX B   0           mi         [aeíoúy]r is:instrumental is:plural
 SFX B   us          ami        mus is:instrumental is:plural
 SFX B   os          ami        mos is:instrumental is:plural
@@ -1254,13 +1266,13 @@ SFX B   0           ami        [m] is:instrumental is:plural
 SFX B   og          gmi        zog is:instrumental is:plural
 SFX B   0           mi         [^z]og is:instrumental is:plural
 
-
-SFX J Y 164
+SFX J Y 199
 SFX J   iec         ca         iec is:genitive
 SFX J   ec          ca         [^i]ec is:genitive
 SFX J   0           a          [^e]c is:genitive
 SFX J   ol          la         ol is:genitive
-SFX J   0           a          [^o]l is:genitive
+SFX J   el          la         el is:genitive
+SFX J   0           a          [^eo]l is:genitive
 SFX J   eľ          ľa         [gz]eľ is:genitive
 SFX J   0           a          [^pgz]eľ is:genitive
 SFX J   eň          ňa         [dž]eň is:genitive
@@ -1277,7 +1289,8 @@ SFX J   iec         cu         iec is:dative
 SFX J   ec          cu         [^i]ec is:dative
 SFX J   0           u          [^e]c is:dative
 SFX J   ol          lu         ol is:dative
-SFX J   0           u          [^o]l is:dative
+SFX J   el          lu         el is:dative
+SFX J   0           u          [^eo]l is:dative
 SFX J   eľ          ľu         [gz]eľ is:dative
 SFX J   eň          ňu         [dž]eň is:dative
 SFX J   ň           ňu         [^dž]eň is:dative
@@ -1293,7 +1306,8 @@ SFX J   iec         ci         iec is:locative
 SFX J   ec          ci         [^i]ec is:locative
 SFX J   0           i          [^e]c is:locative
 SFX J   ol          li         ol is:locative
-SFX J   0           i          [^o]l is:locative
+SFX J   el          li         el is:locative
+SFX J   0           i          [^eo]l is:locative
 SFX J   eľ          li         [gz]eľ is:locative
 SFX J   ľ           li         [^gz]eľ is:locative
 SFX J   eň          ni         [dž]eň is:locative
@@ -1308,8 +1322,9 @@ SFX J   0           i          [e][^cľňr] is:locative
 SFX J   0           i          [^ceľňršž] is:locative
 SFX J   ec          com        [^i]ec is:instrumental
 SFX J   0           om         [^e]c is:instrumental
+SFX J   el          lom        el is:instrumental
 SFX J   ol          lom        ol is:instrumental
-SFX J   0           om         [^o]l is:instrumental
+SFX J   0           om         [^eo]l is:instrumental
 SFX J   eľ          ľom        [gz]eľ is:instrumental
 SFX J   eň          ňom        [dž]eň is:instrumental
 SFX J   ň           ňom        [^dž]eň is:instrumental
@@ -1324,8 +1339,9 @@ SFX J   0           om         [^ceľňršž] is:instrumental
 SFX J   iec         ce         iec is:nominative is:plural
 SFX J   ec          ce         [^i]ec is:nominative is:plural
 SFX J   0           e          [^e]c is:nominative is:plural
+SFX J   el          le         el is:nominative is:plural
 SFX J   ol          le         ol is:nominative is:plural
-SFX J   0           e          [^o]l is:nominative is:plural
+SFX J   0           e          [^eo]l is:nominative is:plural
 SFX J   eľ          le         [gz]eľ is:nominative is:plural
 SFX J   ľ           le         [^gz]eľ is:nominative is:plural
 SFX J   eň          ne         žeň is:nominative is:plural
@@ -1341,8 +1357,9 @@ SFX J   0           e          [^ceľňršž] is:nominative is:plural
 SFX J   iec         cov        iec is:genitive is:plural
 SFX J   ec          cov        [^i]ec is:genitive is:plural
 SFX J   0           ov         [^e]c is:genitive is:plural
+SFX J   el          lov        el is:genitive is:plural
 SFX J   ol          lov        ol is:genitive is:plural
-SFX J   0           ov         [^o]l is:genitive is:plural
+SFX J   0           ov         [^oe]l is:genitive is:plural
 SFX J   eľ          ľov        [gz]eľ is:genitive is:plural
 SFX J   eň          ňov        žeň is:genitive is:plural
 SFX J   0           ov         [^dž]eň is:genitive is:plural
@@ -1357,8 +1374,9 @@ SFX J   0           ov         [^ceľňršž] is:genitive is:plural
 SFX J   iec         com        iec is:dative is:plural
 SFX J   ec          com        [^i]ec is:dative is:plural
 SFX J   0           om         [^e]c is:dative is:plural
+SFX J   el          lom        el is:dative is:plural
 SFX J   ol          lom        ol is:dative is:plural
-SFX J   0           om         [^o]l is:dative is:plural
+SFX J   0           om         [^eo]l is:dative is:plural
 SFX J   eľ          ľom        [gz]eľ is:dative is:plural
 SFX J   eň          ňom        [dž]eň is:dative is:plural
 SFX J   ň           ňom        [^dž]eň is:dative is:plural
@@ -1374,7 +1392,8 @@ SFX J   iec         ce         iec is:accusative is:plural
 SFX J   ec          ce         [^i]ec is:accusative is:plural
 SFX J   0           e          [^e]c is:accusative is:plural
 SFX J   ol          le         ol is:accusative is:plural
-SFX J   0           e          [^o]l is:accusative is:plural
+SFX J   el          le         el is:accusative is:plural
+SFX J   0           e          [^eo]l is:accusative is:plural
 SFX J   eľ          le         [gz]eľ is:accusative is:plural
 SFX J   ľ           le         [^gz]eľ is:accusative is:plural
 SFX J   eň          ne         žeň is:accusative is:plural
@@ -1390,8 +1409,9 @@ SFX J   0           e          [^ceľňršž] is:accusative is:plural
 SFX J   iec         coch       iec is:locative is:plural
 SFX J   ec          coch       [^i]ec is:locative is:plural
 SFX J   0           och        [^e]c is:locative is:plural
+SFX J   el          loch       el is:locative is:plural
 SFX J   ol          loch       ol is:locative is:plural
-SFX J   0           och        [^o]l is:locative is:plural
+SFX J   0           och        [^eo]l is:locative is:plural
 SFX J   eľ          ľoch       [gz]eľ is:locative is:plural
 SFX J   eň          ní         deň is:locative is:plural
 SFX J   eň          ňoch       [dž]eň is:locative is:plural
@@ -1407,8 +1427,9 @@ SFX J   0           och        [^ceľňršž] is:locative is:plural
 SFX J   iec         cami       iec is:instrumental is:plural
 SFX J   ec          cami       [^i]ec is:instrumental is:plural
 SFX J   0           mi         [^e]c is:instrumental is:plural
+SFX J   el          lami       el is:instrumental is:plural
 SFX J   ol          lami       ol is:instrumental is:plural
-SFX J   0           ami        [^o]l is:instrumental is:plural
+SFX J   0           ami        [^eo]l is:instrumental is:plural
 SFX J   eľ          ľami       [gz]eľ is:instrumental is:plural
 SFX J   eň          ňami       [dž]eň is:instrumental is:plural
 SFX J   0           mi         [^dž]eň is:instrumental is:plural
@@ -1420,8 +1441,33 @@ SFX J   eť          ťami       eť is:instrumental is:plural
 SFX J   ôž          ožmi       ôž is:instrumental is:plural
 SFX J   0           mi         [e][^cľňr] is:instrumental is:plural
 SFX J   0           mi         [^ceľňršž] is:instrumental is:plural
+SFX J   0           a          [aádeéiílĺnoruúyý][šž] is:genitive
+SFX J   0           ovi        ĺž is:dative
+SFX J   0           ovi        ĺž is:locative
+SFX J   0           u          [aádeéiílĺnoruúyý][šž] is:dative
+SFX J   0           i          [aádeéiílĺnoruúyý][šž] is:locative
+SFX J   0           om         [aádeéiílĺnoruúyý][šž] is:instrumental
+SFX J   0           e          [aádeéiílĺnoruúyý][šž] is:nominative is:plural
+SFX J   0           ov         [aáeéiílĺnoruúyý][šž] is:genitive is:plural
+SFX J   0           om         [aádeéiílĺnoruúyý][šž] is:dative is:plural
+SFX J   0           och        [aádeéiílĺnoruúyý][šž] is:locative is:plural
+SFX J   0           mi         [aádeéiílĺnoruúyý][šž] is:instrumental is:plural
+SFX J   0           ami        [lnr]š is:instrumental is:plural
+SFX J   0           a          [áoôúýy][ľň] is:genitive
+SFX J   0           a          [áoôúýy][ľň] is:accusative
+SFX J   0           u          iaľ is:dative
+SFX J   0           u          [áaoôŕúýy][ľň] is:dative
+SFX J   ľ           li         [áaoôŕúýy]ľ is:locative
+SFX J   ň           ni         [áaoôŕúýy]ň is:locative
+SFX J   0           om         [áaoôŕúýy][ľň] is:instrumental
+SFX J   ľ           le         [áaoôŕúýy]ľ is:nominative is:plural
+SFX J   ň           ne         [áaoôŕúýy]ň is:nominative is:plural
+SFX J   0           ov         [áaoôŕúýy][ľň] is:genitive is:plural
+SFX J   0           om         [áaoôŕúýy][ľň] is:dative is:plural
+SFX J   0           och        [áaoôŕúýy][ľň] is:locative is:plural
+SFX J   0           mi         [áaoôŕúýy][ľň] is:instrumental is:plural
 
-SFX L Y 79
+SFX L Y 77
 SFX L   ec          ca         ec is:genitive
 SFX L   o           a          o is:genitive
 SFX L   0           a          [tv]er is:genitive
@@ -1446,7 +1492,6 @@ SFX L   er          rom        [^tv]er is:instrumental
 SFX L   0           om         [^e][cr] is:instrumental
 SFX L   es          som        es is:instrumental
 SFX L   0           om         [^céior] is:instrumental
-SFX L   us          om         us is:instrumental
 SFX L   us          om         us is:instrumental
 SFX L   0           e          č is:nominative is:plural
 SFX L   ec          ce         ec is:nominative is:plural
@@ -1473,7 +1518,6 @@ SFX L   er          rom        [^tv]er is:dative is:plural
 SFX L   0           om         [^e][cr] is:dative is:plural
 SFX L   es          som        es is:dative is:plural
 SFX L   0           om         [^céior] is:dative is:plural
-SFX L   us          om         us is:dative is:plural
 SFX L   us          om         us is:dative is:plural
 SFX L   0           e          č is:accusative is:plural
 SFX L   ec          ce         ec is:accusative is:plural
@@ -1502,7 +1546,7 @@ SFX L   es          sami       es is:instrumental is:plural
 SFX L   0           mi         [^céior] is:instrumental is:plural
 SFX L   us          ami        us is:instrumental is:plural
 
-SFX O Y 102
+SFX O Y 97
 SFX O   ok          ka         ok is:genitive
 SFX O   el          lu         el is:genitive
 SFX O   ol          la         ol is:genitive
@@ -1532,13 +1576,11 @@ SFX O   on          ne         on is:locative
 SFX O   ok          kom        ok is:instrumental
 SFX O   el          lom        el is:instrumental
 SFX O   ol          lom        ol is:instrumental
-SFX O   ol          lom        ol is:instrumental
 SFX O   em          mom        jem is:instrumental
 SFX O   en          nom        en is:instrumental
 SFX O   ietor       etrom      ietor is:instrumental
 SFX O   or          rom        [^t]or is:instrumental
 SFX O   et          tom        et is:instrumental
-SFX O   ov          vom        ov is:instrumental
 SFX O   ov          vom        ov is:instrumental
 SFX O   on          nom        on is:instrumental
 SFX O   ok          ky         ok is:nominative is:plural
@@ -1565,8 +1607,6 @@ SFX O   on          nov        on is:genitive is:plural
 SFX O   ok          kom        ok is:dative is:plural
 SFX O   el          lom        el is:dative is:plural
 SFX O   ol          lom        ol is:dative is:plural
-SFX O   ol          lom        ol is:dative is:plural
-SFX O   em          mom        jem is:dative is:plural
 SFX O   em          mom        jem is:dative is:plural
 SFX O   en          nom        en is:dative is:plural
 SFX O   ietor       etrom      ietor is:dative is:plural
@@ -1604,9 +1644,8 @@ SFX O   or          rami       [^t]or is:instrumental is:plural
 SFX O   et          tami       et is:instrumental is:plural
 SFX O   ov          vami       ov is:instrumental is:plural
 SFX O   on          nami       on is:instrumental is:plural
-SFX O   on          nami       on is:instrumental is:plural
 
-SFX Q Y 53
+SFX Q Y 105
 SFX Q   ia          í          čia is:genitive is:plural
 SFX Q   esia        ies        esia is:genitive is:plural
 SFX Q   ia          í          dia is:genitive is:plural
@@ -1657,11 +1696,92 @@ SFX Q   e           ami        [^á]re is:instrumental is:plural
 SFX Q   e           mi         ze is:instrumental is:plural
 SFX Q   0           ami        či is:instrumental is:plural
 SFX Q   0           mi         ti is:instrumental is:plural
-SFX Q   y           ami        [hkn]y is:instrumental is:plural
+SFX Q   y           ami        [bdgfhklmnprstvz]y is:instrumental is:plural
 SFX Q   asy         asmi       asy is:instrumental is:plural
 SFX Q   0           mi         ta is:instrumental is:plural
+SFX Q   e           í          ie is:genitive is:plural is:feminine
+SFX Q   e           ám         ie is:dative is:plural is:feminine
+SFX Q   e           ách        ie is:locative is:plural is:feminine
+SFX Q   e           ami        ie is:instrumental is:plural is:feminine
+SFX Q   ory         ôr         [^z]ory is:genitive is:plural is:feminine
+SFX Q   ory         or         zory is:genitive is:plural is:feminine
+SFX Q   y           0          [áeémno][blrtsv]y is:genitive is:plural is:feminine
+SFX Q   y           0          [fm]y is:genitive is:plural is:feminine
+SFX Q   amy         ám         amy is:genitive is:plural is:feminine
+SFX Q   udy         úd         udy is:genitive is:plural is:feminine
+SFX Q   uby         úb         uby is:genitive is:plural is:feminine
+SFX Q   ydy         ýd         ydy is:genitive is:plural is:feminine
+SFX Q   ivy         ív         ivy is:genitive is:plural is:feminine
+SFX Q   ily         íl         ily is:genitive is:plural is:feminine
+SFX Q   dly         diel       dly is:genitive is:plural is:feminine
+SFX Q   rdy         ŕd         rdy is:genitive is:plural is:feminine
+SFX Q   ajdy        ájd        ajdy is:genitive is:plural is:feminine
+SFX Q   oty         ôt         oty is:genitive is:plural is:feminine
+SFX Q   uzzy        úzz        uzzy is:genitive is:plural is:feminine
+SFX Q   uggy        úgg        uggy is:genitive is:plural is:feminine
+SFX Q   y           am         [^uo][brs]y is:dative is:plural is:feminine
+SFX Q   y           am         émy is:dative is:plural is:feminine
+SFX Q   y           ám         [^áé][bfdglmprtvz]y is:dative is:plural is:feminine
+SFX Q   y           ách        [^áé][bdfglmprtvz]y is:locative is:plural is:feminine
+SFX Q   y           ach        ary is:locative is:plural is:feminine
+SFX Q   y           ach        áby is:locative is:plural is:feminine
+SFX Q   y           ach        émy is:locative is:plural is:feminine
+SFX Q   y           ach        ínsy is:locative is:plural is:feminine
+SFX Q   iská        ísk        iská is:genitive is:plural is:feminine
+SFX Q   dlá         diel       dlá is:genitive is:plural is:feminine
+SFX Q   ná          ien        ná is:genitive is:plural
+SFX Q   0           m          á is:dative is:plural
+SFX Q   0           ch         á is:locative is:plural
+SFX Q   á           ami        á is:instrumental is:plural
+SFX Q   ka          ok         ka is:genitive is:plural is:feminine
+SFX Q   0           m          a is:dative is:plural is:feminine
+SFX Q   0           ch         a is:locative is:plural is:feminine
+SFX Q   0           mi         a is:instrumental is:plural is:feminine
+SFX Q   e           í          e is:genitive is:plural is:feminine
+SFX Q   e           am         je is:dative is:plural is:feminine
+SFX Q   e           ach        je is:locative is:plural is:feminine
+SFX Q   e           ami        [čj]e is:instrumental is:plural is:feminine
+SFX Q   e           iam        [^š][čnt]e is:dative is:plural is:feminine
+SFX Q   te          ťam        šte is:dative is:plural is:feminine
+SFX Q   e           iach       [^š][čnt]e is:locative is:plural is:feminine
+SFX Q   te          ťach       šte is:locative is:plural is:feminine
+SFX Q   ne          ňami       ne is:instrumental is:plural is:feminine
+SFX Q   te          ťami       te is:instrumental is:plural is:feminine
+SFX Q   i           0          i is:genitive is:plural is:feminine
+SFX Q   i           ám         i is:dative is:plural is:feminine
+SFX Q   i           ách        i is:locative is:plural is:feminine
+SFX Q   i           ami        i is:instrumental is:plural is:feminine
 
-SFX Y Y 323
+SFX q Y 27
+SFX q   e           a          ie is:genitive is:plural is:neuter
+SFX q   e           u          ie is:dative is:plural is:neuter
+SFX q   e           í          ie is:locative is:plural is:neuter
+SFX q   e           čím        ie is:instrumental is:plural is:neuter
+SFX q   i           ov         i is:genitive is:plural is:masculine
+SFX q   i           om         i is:dative is:plural is:masculine
+SFX q   i           och        i is:locative is:plural is:masculine
+SFX q   i           ami        i is:instrumental is:plural is:masculine
+SFX q   e           ov         [^i]e is:genitive is:plural is:masculine
+SFX q   e           om         [^i]e is:dative is:plural is:masculine
+SFX q   e           och        [^i]e is:locative is:plural is:masculine
+SFX q   e           ami        [^á]če is:instrumental is:plural is:masculine
+SFX q   e           mi         áče is:instrumental is:plural is:masculine
+SFX q   e           mi         íže is:instrumental is:plural is:masculine
+SFX q   y           ov         [^eoa][prst]y is:genitive is:plural is:masculine
+SFX q   y           ov         [^r]dy is:genitive is:plural is:masculine
+SFX q   y           ov         [bglsv]y is:genitive is:plural is:masculine
+SFX q   aty         át         aty is:genitive is:plural is:masculine
+SFX q   y           ier        ery is:genitive is:plural is:masculine
+SFX q   y           0          ory is:genitive is:plural is:masculine
+SFX q   y           0          rdy is:genitive is:plural is:masculine
+SFX q   y           0          ágy is:genitive is:plural is:masculine
+SFX q   y           om         [bdglprstv]y is:dative is:plural is:masculine
+SFX q   y           och        [bdglprstv]y is:locative is:plural is:masculine
+SFX q   y           mi         [^n][bdlprstv]y is:instrumental is:plural is:masculine
+SFX q   y           mi         ngy is:instrumental is:plural is:masculine
+SFX q   y           ami        n[gs]y is:instrumental is:plural is:masculine
+
+SFX Y Y 499				# 339+160
 SFX Y   e           ejšie      e po:adverb is:comparative
 SFX Y   e           ejšie      e po:adjective is:comparative is:neuter is:nominative is:plural
 SFX Y   e           ejšie      e po:adjective is:comparative is:feminine is:nominative is:plural
@@ -1688,8 +1808,6 @@ SFX Y   e           ejších     e po:adjective is:comparative is:feminine is:lo
 SFX Y   e           ejších     e po:adjective is:comparative is:neuter is:locative is:plural
 SFX Y   e           ejšom      e po:adjective is:comparative is:masculine is:locative
 SFX Y   e           ejšom      e po:adjective is:comparative is:neuter is:locative
-SFX Y   e           ejším      e po:adjective is:comparative is:masculine is:dative is:plural
-SFX Y   e           ejším      e po:adjective is:comparative is:neuter is:dative is:plural
 SFX Y   e           ejšou      e po:adjective is:comparative is:feminine is:instrumental
 SFX Y   e           ejšími     e po:adjective is:comparative is:masculine is:instrumental is:plural
 SFX Y   e           ejšími     e po:adjective is:comparative is:neuter is:instrumental is:plural
@@ -1705,8 +1823,8 @@ SFX Y   i           ej         i is:feminine is:genitive
 SFX Y   i           ich        i is:masculine is:genitive is:plural
 SFX Y   i           ich        i is:feminine is:genitive is:plural
 SFX Y   i           ich        i is:neuter is:genitive is:plural
-SFX Y   i           emu        i is:masculine is:dative 
-SFX Y   i           emu        i is:neuter is:dative 
+SFX Y   i           emu        i is:masculine is:dative
+SFX Y   i           emu        i is:neuter is:dative
 SFX Y   i           im         i is:masculine is:dative is:plural
 SFX Y   i           im         i is:feminine is:dative is:plural
 SFX Y   i           im         i is:neuter is:dative is:plural
@@ -1717,6 +1835,34 @@ SFX Y   i           ou         i is:feminine is:instrumental
 SFX Y   i           imi        i is:masculine is:instrumental
 SFX Y   i           imi        i is:feminine is:instrumental
 SFX Y   i           imi        i is:neuter is:instrumental
+SFX Y   i           ejšie      i po:adjective is:comparative is:neuter is:nominative is:plural
+SFX Y   i           ejšie      i po:adjective is:comparative is:feminine is:nominative is:plural
+SFX Y   i           ejšie      i po:adjective is:comparative is:masculine is:nominative is:plural
+SFX Y   i           ejšia      i po:adjective is:comparative is:feminine is:nominative
+SFX Y   i           ejší       i po:adjective is:comparative is:masculine is:nominative
+SFX Y   i           ejší       i po:adjective is:comparative is:masculine is:nominative is:plural
+SFX Y   i           ejšieho    i po:adjective is:comparative is:masculine is:genitive
+SFX Y   i           ejšieho    i po:adjective is:comparative is:neuter is:genitive
+SFX Y   i           ejšej      i po:adjective is:comparative is:feminine is:genitive
+SFX Y   i           ejších     i po:adjective is:comparative is:masculine is:genitive is:plural
+SFX Y   i           ejších     i po:adjective is:comparative is:neuter is:genitive is:plural
+SFX Y   i           ejšiemu    i po:adjective is:comparative is:masculine is:dative
+SFX Y   i           ejšiemu    i po:adjective is:comparative is:neuter is:dative
+SFX Y   i           ejšej      i po:adjective is:comparative is:feminine is:dative
+SFX Y   i           ejším      i po:adjective is:comparative is:masculine is:instrumental
+SFX Y   i           ejším      i po:adjective is:comparative is:neuter is:instrumental
+SFX Y   i           ejším      i po:adjective is:comparative is:masculine is:dative is:plural
+SFX Y   i           ejším      i po:adjective is:comparative is:feminine is:dative is:plural
+SFX Y   i           ejším      i po:adjective is:comparative is:neuter is:dative is:plural
+SFX Y   i           ejšiu      i po:adjective is:comparative is:feminine is:accusative
+SFX Y   i           ejších     i po:adjective is:comparative is:masculine is:locative is:plural
+SFX Y   i           ejších     i po:adjective is:comparative is:feminine is:locative is:plural
+SFX Y   i           ejších     i po:adjective is:comparative is:neuter is:locative is:plural
+SFX Y   i           ejšom      i po:adjective is:comparative is:masculine is:locative
+SFX Y   i           ejšom      i po:adjective is:comparative is:neuter is:locative
+SFX Y   i           ejšou      i po:adjective is:comparative is:feminine is:instrumental
+SFX Y   i           ejšími     i po:adjective is:comparative is:masculine is:instrumental is:plural
+SFX Y   i           ejšími     i po:adjective is:comparative is:neuter is:instrumental is:plural
 SFX Y   0           ý          m
 SFX Y   0           í          m
 SFX Y   0           é          m
@@ -1725,7 +1871,6 @@ SFX Y   0           ého        m
 SFX Y   0           ej         m
 SFX Y   0           ých        m
 SFX Y   0           ému        m
-SFX Y   0           ej         m
 SFX Y   0           ým         m
 SFX Y   0           ú          m
 SFX Y   0           om         m
@@ -1795,10 +1940,8 @@ SFX Y   y           e          y is:neuter is:nominative
 SFX Y   y           e          y is:neuter is:accusative
 SFX Y   y           e          y is:masculine is:nominative
 SFX Y   y           e          y is:feminine is:nominative
-SFX Y   y           e          y is:neuter is:nominative
 SFX Y   y           e          y is:masculine is:accusative
 SFX Y   y           e          y is:feminine is:accusative
-SFX Y   y           e          y is:neuter is:accusative
 SFX Y   y           a          y is:feminine is:nominative
 SFX Y   y           i          y is:masculine is:nominative
 SFX Y   y           o          y po:adverb
@@ -1822,40 +1965,39 @@ SFX Y   y           ou         y is:feminine is:instrumental
 SFX Y   y           ymi        y is:masculine is:instrumental is:plural
 SFX Y   y           ymi        y is:feminine is:instrumental is:plural
 SFX Y   y           ymi        y is:neuter is:instrumental is:plural
-SFX Y   y           ejšie      [klntv]y is:comparative is:masculine is:nominative is:plural
-SFX Y   y           ejšie      [klntv]y is:comparative is:feminine is:nominative is:plural
-SFX Y   y           ejšie      [klntv]y is:comparative is:neuter is:nominative is:plural
-SFX Y   y           ejšie      [klntv]y is:comparative is:masculine is:accusative is:plural
-SFX Y   y           ejšie      [klntv]y is:comparative is:feminine is:accusative is:plural
-SFX Y   y           ejšie      [klntv]y is:comparative is:neuter is:accusative is:plural
-SFX Y   y           ejšia      [klntv]y is:comparative is:feminine is:nominative
-SFX Y   y           ejší       [klntv]y is:comparative is:masculine is:nominative
-SFX Y   y           ejšieho    [klntv]y is:comparative is:masculine is:genitive
-SFX Y   y           ejšieho    [klntv]y is:comparative is:neuter is:genitive
-SFX Y   y           ejšej      [klntv]y is:comparative is:feminine is:genitive
-SFX Y   y           ejších     [klntv]y is:comparative is:masculine is:genitive
-SFX Y   y           ejších     [klntv]y is:comparative is:feminine is:genitive
-SFX Y   y           ejších     [klntv]y is:comparative is:neuter is:genitive
-SFX Y   y           ejších     [klntv]y is:comparative is:masculine is:accusative
-SFX Y   y           ejších     [klntv]y is:comparative is:feminine is:accusative
-SFX Y   y           ejších     [klntv]y is:comparative is:neuter is:accusative
-SFX Y   y           ejšiemu    [klntv]y is:comparative is:masculine is:dative
-SFX Y   y           ejšiemu    [klntv]y is:comparative is:neuter is:dative
-SFX Y   y           ejšej      [klntv]y is:comparative is:feminine is:dative
-SFX Y   y           ejšej      [klntv]y is:comparative is:feminine is:genitive
-SFX Y   y           ejším      [klntv]y is:comparative is:masculine is:dative is:plural
-SFX Y   y           ejším      [klntv]y is:comparative is:feminine is:dative is:plural
-SFX Y   y           ejším      [klntv]y is:comparative is:neuter is:dative is:plural
-SFX Y   y           ejšiu      [klntv]y is:comparative is:feminine is:accusative
-SFX Y   y           ejších     [klntv]y is:comparative is:masculine is:accusative is:plural
-SFX Y   y           ejšom      [klntv]y is:comparative is:masculine is:locative
-SFX Y   y           ejšom      [klntv]y is:comparative is:neuter is:locative
-SFX Y   y           ejším      [klntv]y is:comparative is:masculine is:instrumental
-SFX Y   y           ejším      [klntv]y is:comparative is:neuter is:instrumental
-SFX Y   y           ejšou      [klntv]y is:comparative is:feminine is:instrumental
-SFX Y   y           ejšími     [klntv]y is:comparative is:masculine is:instrumental is:plural
-SFX Y   y           ejšími     [klntv]y is:comparative is:feminine is:instrumental is:plural
-SFX Y   y           ejšími     [klntv]y is:comparative is:neuter is:instrumental is:plural
+SFX Y   y           ejšie      [bklmnprtv]y is:comparative is:masculine is:nominative is:plural
+SFX Y   y           ejšie      [bklmnprtv]y is:comparative is:feminine is:nominative is:plural
+SFX Y   y           ejšie      [bklmnprtv]y is:comparative is:neuter is:nominative is:plural
+SFX Y   y           ejšie      [bklmnprtv]y is:comparative is:masculine is:accusative is:plural
+SFX Y   y           ejšie      [bklmnprtv]y is:comparative is:feminine is:accusative is:plural
+SFX Y   y           ejšie      [bklmnprtv]y is:comparative is:neuter is:accusative is:plural
+SFX Y   y           ejšia      [bklmnprtv]y is:comparative is:feminine is:nominative
+SFX Y   y           ejší       [bklmnprtv]y is:comparative is:masculine is:nominative
+SFX Y   y           ejšieho    [bklmnprtv]y is:comparative is:masculine is:genitive
+SFX Y   y           ejšieho    [bklmnprtv]y is:comparative is:neuter is:genitive
+SFX Y   y           ejšej      [bklmnprtv]y is:comparative is:feminine is:genitive
+SFX Y   y           ejších     [bklmnprtv]y is:comparative is:masculine is:genitive
+SFX Y   y           ejších     [bklmnprtv]y is:comparative is:feminine is:genitive
+SFX Y   y           ejších     [bklmnprtv]y is:comparative is:neuter is:genitive
+SFX Y   y           ejších     [bklmnprtv]y is:comparative is:masculine is:accusative
+SFX Y   y           ejších     [bklmnprtv]y is:comparative is:feminine is:accusative
+SFX Y   y           ejších     [bklmnprtv]y is:comparative is:neuter is:accusative
+SFX Y   y           ejšiemu    [bklmnprtv]y is:comparative is:masculine is:dative
+SFX Y   y           ejšiemu    [bklmnprtv]y is:comparative is:neuter is:dative
+SFX Y   y           ejšej      [bklmnprtv]y is:comparative is:feminine is:dative
+SFX Y   y           ejším      [bklmnprtv]y is:comparative is:masculine is:dative is:plural
+SFX Y   y           ejším      [bklmnprtv]y is:comparative is:feminine is:dative is:plural
+SFX Y   y           ejším      [bklmnprtv]y is:comparative is:neuter is:dative is:plural
+SFX Y   y           ejšiu      [bklmnprtv]y is:comparative is:feminine is:accusative
+SFX Y   y           ejších     [bklmnprtv]y is:comparative is:masculine is:accusative is:plural
+SFX Y   y           ejšom      [bklmnprtv]y is:comparative is:masculine is:locative
+SFX Y   y           ejšom      [bklmnprtv]y is:comparative is:neuter is:locative
+SFX Y   y           ejším      [bklmnprtv]y is:comparative is:masculine is:instrumental
+SFX Y   y           ejším      [bklmnprtv]y is:comparative is:neuter is:instrumental
+SFX Y   y           ejšou      [bklmnprtv]y is:comparative is:feminine is:instrumental
+SFX Y   y           ejšími     [bklmnprtv]y is:comparative is:masculine is:instrumental is:plural
+SFX Y   y           ejšími     [bklmnprtv]y is:comparative is:feminine is:instrumental is:plural
+SFX Y   y           ejšími     [bklmnprtv]y is:comparative is:neuter is:instrumental is:plural
 SFX Y   ý           í          ý is:masculine is:nominative is:plural
 SFX Y   ý           é          ý is:feminine is:nominative is:plural
 SFX Y   ý           é          ý is:feminine is:accusative is:plural
@@ -1886,43 +2028,43 @@ SFX Y   ý           ou         ý is:feminine is:instrumental
 SFX Y   ý           ými        ý is:masculine is:instrumental is:plural
 SFX Y   ý           ými        ý is:feminine is:instrumental is:plural
 SFX Y   ý           ými        ý is:neuter is:instrumental is:plural
-SFX Y   ý           ejšie      [kntv]ý po:adverb
-SFX Y   ý           ejšie      [kntv]ý is:comparative is:feminine is:nominative is:plural
-SFX Y   ý           ejšie      [kntv]ý is:comparative is:neuter is:nominative is:plural
-SFX Y   ý           ejšie      [kntv]ý is:comparative is:feminine is:accusative is:plural
-SFX Y   ý           ejšie      [kntv]ý is:comparative is:neuter is:accusative is:plural
-SFX Y   ý           ejšia      [kntv]ý is:comparative is:feminine is:nominative 
-SFX Y   ý           ejší       [kntv]ý is:comparative is:masculine is:nominative
-SFX Y   ý           ejšieho    [kntv]ý is:comparative is:masculine is:genitive
-SFX Y   ý           ejšieho    [kntv]ý is:comparative is:neuter is:genitive
-SFX Y   ý           ejšieho    [kntv]ý is:comparative is:masculine is:accusative
-SFX Y   ý           ejšieho    [kntv]ý is:comparative is:neuter is:accusative
-SFX Y   ý           ejšej      [kntv]ý is:comparative is:feminine is:genitive
-SFX Y   ý           ejších     [kntv]ý is:comparative is:masculine is:genitive is:plural
-SFX Y   ý           ejších     [kntv]ý is:comparative is:feminine is:genitive is:plural
-SFX Y   ý           ejších     [kntv]ý is:comparative is:neuter is:genitive is:plural
-SFX Y   ý           ejších     [kntv]ý is:comparative is:masculine is:accusative is:plural
-SFX Y   ý           ejších     [kntv]ý is:comparative is:feminine is:accusative is:plural
-SFX Y   ý           ejších     [kntv]ý is:comparative is:neuter is:accusative is:plural
-SFX Y   ý           ejšiemu    [kntv]ý is:comparative is:masculine is:dative
-SFX Y   ý           ejšiemu    [kntv]ý is:comparative is:neuter is:dative
-SFX Y   ý           ejšej      [kntv]ý is:comparative is:feminine is:dative
-SFX Y   ý           ejšej      [kntv]ý is:comparative is:feminine is:locative
-SFX Y   ý           ejším      [kntv]ý is:comparative is:masculine is:instrumental
-SFX Y   ý           ejším      [kntv]ý is:comparative is:neuter is:instrumental
-SFX Y   ý           ejším      [kntv]ý is:comparative is:masculine is:dative is:plural
-SFX Y   ý           ejším      [kntv]ý is:comparative is:feminine is:dative is:plural
-SFX Y   ý           ejším      [kntv]ý is:comparative is:neuter is:dative is:plural
-SFX Y   ý           ejšiu      [kntv]ý is:comparative is:feminine is:accusative
-SFX Y   ý           ejších     [kntv]ý is:comparative is:masculine is:locative is:plural
-SFX Y   ý           ejších     [kntv]ý is:comparative is:feminine is:locative is:plural
-SFX Y   ý           ejších     [kntv]ý is:comparative is:neuter is:locative is:plural
-SFX Y   ý           ejšom      [kntv]ý is:comparative is:masculine is:locative
-SFX Y   ý           ejšom      [kntv]ý is:comparative is:neuter is:locative
-SFX Y   ý           ejšou      [kntv]ý is:comparative is:feminine is:instrumental
-SFX Y   ý           ejšími     [kntv]ý is:comparative is:masculine is:instrumental is:plural
-SFX Y   ý           ejšími     [kntv]ý is:comparative is:feminine is:instrumental is:plural
-SFX Y   ý           ejšími     [kntv]ý is:comparative is:neuter is:instrumental is:plural
+SFX Y   ý           ejšie      [bdhklmnprstvz]ý po:adverb
+SFX Y   ý           ejšie      [bdhklmnprstvz]ý is:comparative is:feminine is:nominative is:plural
+SFX Y   ý           ejšie      [bdhklmnprstvz]ý is:comparative is:neuter is:nominative is:plural
+SFX Y   ý           ejšie      [bdhklmnprstvz]ý is:comparative is:feminine is:accusative is:plural
+SFX Y   ý           ejšie      [bdhklmnprstvz]ý is:comparative is:neuter is:accusative is:plural
+SFX Y   ý           ejšia      [bdhklmnprstvz]ý is:comparative is:feminine is:nominative
+SFX Y   ý           ejší       [bdhklmnprstvz]ý is:comparative is:masculine is:nominative
+SFX Y   ý           ejšieho    [bdhklmnprstvz]ý is:comparative is:masculine is:genitive
+SFX Y   ý           ejšieho    [bdhklmnprstvz]ý is:comparative is:neuter is:genitive
+SFX Y   ý           ejšieho    [bdhklmnprstvz]ý is:comparative is:masculine is:accusative
+SFX Y   ý           ejšieho    [bdhklmnprstvz]ý is:comparative is:neuter is:accusative
+SFX Y   ý           ejšej      [bdhklmnprstvz]ý is:comparative is:feminine is:genitive
+SFX Y   ý           ejších     [bdhklmnprstvz]ý is:comparative is:masculine is:genitive is:plural
+SFX Y   ý           ejších     [bdhklmnprstvz]ý is:comparative is:feminine is:genitive is:plural
+SFX Y   ý           ejších     [bdhklmnprstvz]ý is:comparative is:neuter is:genitive is:plural
+SFX Y   ý           ejších     [bdhklmnprstvz]ý is:comparative is:masculine is:accusative is:plural
+SFX Y   ý           ejších     [bdhklmnprstvz]ý is:comparative is:feminine is:accusative is:plural
+SFX Y   ý           ejších     [bdhklmnprstvz]ý is:comparative is:neuter is:accusative is:plural
+SFX Y   ý           ejšiemu    [bdhklmnprstvz]ý is:comparative is:masculine is:dative
+SFX Y   ý           ejšiemu    [bdhklmnprstvz]ý is:comparative is:neuter is:dative
+SFX Y   ý           ejšej      [bdhklmnprstvz]ý is:comparative is:feminine is:dative
+SFX Y   ý           ejšej      [bdhklmnprstvz]ý is:comparative is:feminine is:locative
+SFX Y   ý           ejším      [bdhklmnprstvz]ý is:comparative is:masculine is:instrumental
+SFX Y   ý           ejším      [bdhklmnprstvz]ý is:comparative is:neuter is:instrumental
+SFX Y   ý           ejším      [bdhklmnprstvz]ý is:comparative is:masculine is:dative is:plural
+SFX Y   ý           ejším      [bdhklmnprstvz]ý is:comparative is:feminine is:dative is:plural
+SFX Y   ý           ejším      [bdhklmnprstvz]ý is:comparative is:neuter is:dative is:plural
+SFX Y   ý           ejšiu      [bdhklmnprstvz]ý is:comparative is:feminine is:accusative
+SFX Y   ý           ejších     [bdhklmnprstvz]ý is:comparative is:masculine is:locative is:plural
+SFX Y   ý           ejších     [bdhklmnprstvz]ý is:comparative is:feminine is:locative is:plural
+SFX Y   ý           ejších     [bdhklmnprstvz]ý is:comparative is:neuter is:locative is:plural
+SFX Y   ý           ejšom      [bdhklmnprstvz]ý is:comparative is:masculine is:locative
+SFX Y   ý           ejšom      [bdhklmnprstvz]ý is:comparative is:neuter is:locative
+SFX Y   ý           ejšou      [bdhklmnprstvz]ý is:comparative is:feminine is:instrumental
+SFX Y   ý           ejšími     [bdhklmnprstvz]ý is:comparative is:masculine is:instrumental is:plural
+SFX Y   ý           ejšími     [bdhklmnprstvz]ý is:comparative is:feminine is:instrumental is:plural
+SFX Y   ý           ejšími     [bdhklmnprstvz]ý is:comparative is:neuter is:instrumental is:plural
 SFX Y   ý           šie        [dh]ý po:adverb is:comparative
 SFX Y   ý           šie        [dh]ý is:comparative is:feminine is:nominative is:plural
 SFX Y   ý           šie        [dh]ý is:comparative is:neuter is:nominative is:plural
@@ -1942,7 +2084,6 @@ SFX Y   ý           ších       [dh]ý is:comparative is:neuter is:locative is
 SFX Y   ý           šiemu      [dh]ý is:comparative is:masculine is:dative
 SFX Y   ý           šiemu      [dh]ý is:comparative is:neuter is:dative
 SFX Y   ý           šej        [dh]ý is:comparative is:feminine is:dative
-SFX Y   ý           šej        [dh]ý is:comparative is:feminine is:locative
 SFX Y   ý           ším        [dh]ý is:comparative is:masculine is:dative is:plural
 SFX Y   ý           ším        [dh]ý is:comparative is:feminine is:dative is:plural
 SFX Y   ý           ším        [dh]ý is:comparative is:neuter is:dative is:plural
@@ -1954,11 +2095,6 @@ SFX Y   ý           ších       [dh]ý is:comparative is:neuter is:genitive is
 SFX Y   ý           ších       [dh]ý is:comparative is:masculine is:accusative is:plural
 SFX Y   ý           šom        [dh]ý is:comparative is:masculine is:locative
 SFX Y   ý           šom        [dh]ý is:comparative is:neuter is:locative
-SFX Y   ý           ším        [dh]ý is:comparative is:masculine is:dative is:plural
-SFX Y   ý           ším        [dh]ý is:comparative is:feminine is:dative is:plural
-SFX Y   ý           ším        [dh]ý is:comparative is:neuter is:dative is:plural
-SFX Y   ý           ším        [dh]ý is:comparative is:masculine is:instrumental
-SFX Y   ý           ším        [dh]ý is:comparative is:neuter is:instrumental
 SFX Y   ý           šou        [dh]ý is:comparative is:feminine is:instrumental
 SFX Y   ý           šími       [dh]ý is:comparative is:masculine is:instrumental is:plural
 SFX Y   ý           šími       [dh]ý is:comparative is:feminine is:instrumental is:plural
@@ -1985,8 +2121,168 @@ SFX Y   é           om         é po:noun is:neuter is:locative
 SFX Y   é           ým         é po:noun is:neuter is:instrumental
 SFX Y   é           ých        é po:noun is:neuter is:locative is:plural
 SFX Y   é           ými        é po:noun is:neuter is:instrumental is:plural
+SFX Y   e           ejšie/Fs   e po:adverb is:superlative
+SFX Y   e           ejšie/Fs   e po:adjective is:neuter is:nominative is:plural
+SFX Y   e           ejšie/Fs   e po:adjective is:feminine is:nominative is:plural
+SFX Y   e           ejšie/Fs   e po:adjective is:masculine is:nominative is:plural
+SFX Y   e           ejšia/Fs   e po:adjective is:feminine is:nominative
+SFX Y   e           ejší/Fs    e po:adjective is:masculine is:nominative
+SFX Y   e           ejší/Fs    e po:adjective is:masculine is:nominative is:plural
+SFX Y   e           ejšieho/Fs e po:adjective is:masculine is:genitive
+SFX Y   e           ejšieho/Fs e po:adjective is:neuter is:genitive
+SFX Y   e           ejšej/Fs   e po:adjective is:feminine is:genitive
+SFX Y   e           ejších/Fs  e po:adjective is:masculine is:genitive is:plural
+SFX Y   e           ejších/Fs  e po:adjective is:neuter is:genitive is:plural
+SFX Y   e           ejšiemu/Fs e po:adjective is:masculine is:dative
+SFX Y   e           ejšiemu/Fs e po:adjective is:neuter is:dative
+SFX Y   e           ejšej/Fs   e po:adjective is:feminine is:dative
+SFX Y   e           ejším/Fs   e po:adjective is:masculine is:instrumental
+SFX Y   e           ejším/Fs   e po:adjective is:neuter is:instrumental
+SFX Y   e           ejším/Fs   e po:adjective is:masculine is:dative is:plural
+SFX Y   e           ejším/Fs   e po:adjective is:feminine is:dative is:plural
+SFX Y   e           ejším/Fs   e po:adjective is:neuter is:dative is:plural
+SFX Y   e           ejšiu/Fs   e po:adjective is:feminine is:accusative
+SFX Y   e           ejších/Fs  e po:adjective is:masculine is:locative is:plural
+SFX Y   e           ejších/Fs  e po:adjective is:feminine is:locative is:plural
+SFX Y   e           ejších/Fs  e po:adjective is:neuter is:locative is:plural
+SFX Y   e           ejšom/Fs   e po:adjective is:masculine is:locative
+SFX Y   e           ejšom/Fs   e po:adjective is:neuter is:locative
+SFX Y   e           ejšou/Fs   e po:adjective is:feminine is:instrumental
+SFX Y   e           ejšími/Fs  e po:adjective is:masculine is:instrumental is:plural
+SFX Y   e           ejšími/Fs  e po:adjective is:neuter is:instrumental is:plural
+SFX Y   i           ejšie/Fs   i po:adjective is:comparative is:neuter is:nominative is:plural
+SFX Y   i           ejšie/Fs   i po:adjective is:comparative is:feminine is:nominative is:plural
+SFX Y   i           ejšie/Fs   i po:adjective is:comparative is:masculine is:nominative is:plural
+SFX Y   i           ejšie/Fs   i po:adjective is:comparative is:feminine is:nominative
+SFX Y   i           ejšia/Fs   i po:adjective is:comparative is:masculine is:nominative
+SFX Y   i           ejší/Fs    i po:adjective is:comparative is:masculine is:nominative is:plural
+SFX Y   i           ejší/Fs    i po:adjective is:comparative is:masculine is:genitive
+SFX Y   i           ejšieho/Fs i po:adjective is:comparative is:neuter is:genitive
+SFX Y   i           ejšieho/Fs i po:adjective is:comparative is:feminine is:genitive
+SFX Y   i           ejšej/Fs   i po:adjective is:comparative is:masculine is:genitive is:plural
+SFX Y   i           ejších/Fs  i po:adjective is:comparative is:neuter is:genitive is:plural
+SFX Y   i           ejších/Fs  i po:adjective is:comparative is:masculine is:dative
+SFX Y   i           ejšiemu/Fs i po:adjective is:comparative is:neuter is:dative
+SFX Y   i           ejšiemu/Fs i po:adjective is:comparative is:feminine is:dative
+SFX Y   i           ejšej/Fs   i po:adjective is:comparative is:masculine is:instrumental
+SFX Y   i           ejším/Fs   i po:adjective is:comparative is:neuter is:instrumental
+SFX Y   i           ejším/Fs   i po:adjective is:comparative is:masculine is:dative is:plural
+SFX Y   i           ejším/Fs   i po:adjective is:comparative is:feminine is:dative is:plural
+SFX Y   i           ejším/Fs   i po:adjective is:comparative is:neuter is:dative is:plural
+SFX Y   i           ejším/Fs   i po:adjective is:comparative is:feminine is:accusative
+SFX Y   i           ejšiu/Fs   i po:adjective is:comparative is:masculine is:locative is:plural
+SFX Y   i           ejších/Fs  i po:adjective is:comparative is:feminine is:locative is:plural
+SFX Y   i           ejších/Fs  i po:adjective is:comparative is:neuter is:locative is:plural
+SFX Y   i           ejších/Fs  i po:adjective is:comparative is:masculine is:locative
+SFX Y   i           ejšom/Fs   i po:adjective is:comparative is:neuter is:locative
+SFX Y   i           ejšom/Fs   i po:adjective is:comparative is:feminine is:instrumental
+SFX Y   i           ejšou/Fs   i po:adjective is:comparative is:masculine is:instrumental is:plural
+SFX Y   i           ejšími/Fs  i po:adjective is:comparative is:neuter is:instrumental is:plural
+SFX Y   y           ejšie/Fs   [klntv]y is:masculine is:nominative is:plural
+SFX Y   y           ejšie/Fs   [bklmnprtv]y is:feminine is:nominative is:plural
+SFX Y   y           ejšie/Fs   [bklmnprtv]y is:neuter is:nominative is:plural
+SFX Y   y           ejšie/Fs   [bklmnprtv]y is:masculine is:accusative is:plural
+SFX Y   y           ejšie/Fs   [bklmnprtv]y is:feminine is:accusative is:plural
+SFX Y   y           ejšie/Fs   [bklmnprtv]y is:neuter is:accusative is:plural
+SFX Y   y           ejšia/Fs   [bklmnprtv]y is:feminine is:nominative
+SFX Y   y           ejší/Fs    [bklmnprtv]y is:masculine is:nominative
+SFX Y   y           ejšieho/Fs [bklmnprtv]y is:masculine is:genitive
+SFX Y   y           ejšieho/Fs [bklmnprtv]y is:neuter is:genitive
+SFX Y   y           ejšej/Fs   [bklmnprtv]y is:feminine is:genitive
+SFX Y   y           ejších/Fs  [bklmnprtv]y is:masculine is:genitive
+SFX Y   y           ejších/Fs  [bklmnprtv]y is:feminine is:genitive
+SFX Y   y           ejších/Fs  [bklmnprtv]y is:neuter is:genitive
+SFX Y   y           ejších/Fs  [bklmnprtv]y is:masculine is:accusative
+SFX Y   y           ejších/Fs  [bklmnprtv]y is:feminine is:accusative
+SFX Y   y           ejších/Fs  [bklmnprtv]y is:neuter is:accusative
+SFX Y   y           ejšiemu/Fs [bklmnprtv]y is:masculine is:dative
+SFX Y   y           ejšiemu/Fs [bklmnprtv]y is:neuter is:dative
+SFX Y   y           ejšej/Fs   [bklmnprtv]y is:feminine is:dative
+SFX Y   y           ejším/Fs   [bklmnprtv]y is:masculine is:dative is:plural
+SFX Y   y           ejším/Fs   [bklmnprtv]y is:feminine is:dative is:plural
+SFX Y   y           ejším/Fs   [bklmnprtv]y is:neuter is:dative is:plural
+SFX Y   y           ejšiu/Fs   [bklmnprtv]y is:feminine is:accusative
+SFX Y   y           ejších/Fs  [bklmnprtv]y is:masculine is:accusative is:plural
+SFX Y   y           ejšom/Fs   [bklmnprtv]y is:masculine is:locative
+SFX Y   y           ejšom/Fs   [bklmnprtv]y is:neuter is:locative
+SFX Y   y           ejším/Fs   [bklmnprtv]y is:masculine is:instrumental
+SFX Y   y           ejším/Fs   [bklmnprtv]y is:neuter is:instrumental
+SFX Y   y           ejšou/Fs   [bklmnprtv]y is:feminine is:instrumental
+SFX Y   y           ejšími/Fs  [bklmnprtv]y is:masculine is:instrumental is:plural
+SFX Y   y           ejšími/Fs  [bklmnprtv]y is:feminine is:instrumental is:plural
+SFX Y   y           ejšími/Fs  [bklmnprtv]y is:neuter is:instrumental is:plural
+SFX Y   ý           ejšie/Fs   [bdhklmnprstvz]ý is:feminine is:nominative is:plural
+SFX Y   ý           ejšie/Fs   [bdhklmnprstvz]ý is:neuter is:nominative is:plural
+SFX Y   ý           ejšie/Fs   [bdhklmnprstvz]ý is:feminine is:accusative is:plural
+SFX Y   ý           ejšie/Fs   [bdhklmnprstvz]ý is:neuter is:accusative is:plural
+SFX Y   ý           ejšia/Fs   [bdhklmnprstvz]ý is:feminine is:nominative
+SFX Y   ý           ejší/Fs    [bdhklmnprstvz]ý is:masculine is:nominative
+SFX Y   ý           ejšieho/Fs [bdhklmnprstvz]ý is:masculine is:genitive
+SFX Y   ý           ejšieho/Fs [bdhklmnprstvz]ý is:neuter is:genitive
+SFX Y   ý           ejšieho/Fs [bdhklmnprstvz]ý is:masculine is:accusative
+SFX Y   ý           ejšieho/Fs [bdhklmnprstvz]ý is:neuter is:accusative
+SFX Y   ý           ejšej/Fs   [bdhklmnprstvz]ý is:feminine is:genitive
+SFX Y   ý           ejších/Fs  [bdhklmnprstvz]ý is:masculine is:genitive is:plural
+SFX Y   ý           ejších/Fs  [bdhklmnprstvz]ý is:feminine is:genitive is:plural
+SFX Y   ý           ejších/Fs  [bdhklmnprstvz]ý is:neuter is:genitive is:plural
+SFX Y   ý           ejších/Fs  [bdhklmnprstvz]ý is:masculine is:accusative is:plural
+SFX Y   ý           ejších/Fs  [bdhklmnprstvz]ý is:feminine is:accusative is:plural
+SFX Y   ý           ejších/Fs  [bdhklmnprstvz]ý is:neuter is:accusative is:plural
+SFX Y   ý           ejšiemu/Fs [bdhklmnprstvz]ý is:masculine is:dative
+SFX Y   ý           ejšiemu/Fs [bdhklmnprstvz]ý is:neuter is:dative
+SFX Y   ý           ejšej/Fs   [bdhklmnprstvz]ý is:feminine is:dative
+SFX Y   ý           ejšej/Fs   [bdhklmnprstvz]ý is:feminine is:locative
+SFX Y   ý           ejším/Fs   [bdhklmnprstvz]ý is:masculine is:instrumental
+SFX Y   ý           ejším/Fs   [bdhklmnprstvz]ý is:neuter is:instrumental
+SFX Y   ý           ejším/Fs   [bdhklmnprstvz]ý is:masculine is:dative is:plural
+SFX Y   ý           ejším/Fs   [bdhklmnprstvz]ý is:feminine is:dative is:plural
+SFX Y   ý           ejším/Fs   [bdhklmnprstvz]ý is:neuter is:dative is:plural
+SFX Y   ý           ejšiu/Fs   [bdhklmnprstvz]ý is:feminine is:accusative
+SFX Y   ý           ejších/Fs  [bdhklmnprstvz]ý is:masculine is:locative is:plural
+SFX Y   ý           ejších/Fs  [bdhklmnprstvz]ý is:feminine is:locative is:plural
+SFX Y   ý           ejších/Fs  [bdhklmnprstvz]ý is:neuter is:locative is:plural
+SFX Y   ý           ejšom/Fs   [bdhklmnprstvz]ý is:masculine is:locative
+SFX Y   ý           ejšom/Fs   [bdhklmnprstvz]ý is:neuter is:locative
+SFX Y   ý           ejšou/Fs   [bdhklmnprstvz]ý is:feminine is:instrumental
+SFX Y   ý           ejšími/Fs  [bdhklmnprstvz]ý is:masculine is:instrumental is:plural
+SFX Y   ý           ejšími/Fs  [bdhklmnprstvz]ý is:feminine is:instrumental is:plural
+SFX Y   ý           ejšími/Fs  [bdhklmnprstvz]ý is:neuter is:instrumental is:plural
+SFX Y   ý           šie/Fs     [dh]ý po:adverb
+SFX Y   ý           šie/Fs     [dh]ý is:feminine is:nominative is:plural
+SFX Y   ý           šie/Fs     [dh]ý is:neuter is:nominative is:plural
+SFX Y   ý           šie/Fs     [dh]ý is:feminine is:accusative is:plural
+SFX Y   ý           šie/Fs     [dh]ý is:neuter is:accusative is:plural
+SFX Y   ý           šia/Fs     [dh]ý is:feminine is:nominative
+SFX Y   ý           ší/Fs      [dh]ý is:masculine is:nominative
+SFX Y   ý           ší/Fs      [dh]ý is:masculine is:nominative is:plural
+SFX Y   ý           šieho/Fs   [dh]ý is:masculine is:genitive
+SFX Y   ý           šieho/Fs   [dh]ý is:masculine is:accusative
+SFX Y   ý           šieho/Fs   [dh]ý is:neuter is:genitive
+SFX Y   ý           šej/Fs     [dh]ý is:feminine is:locative
+SFX Y   ý           šej/Fs     [dh]ý is:feminine is:genitive
+SFX Y   ý           ších/Fs    [dh]ý is:masculine is:locative is:plural
+SFX Y   ý           ších/Fs    [dh]ý is:feminine is:locative is:plural
+SFX Y   ý           ších/Fs    [dh]ý is:neuter is:locative is:plural
+SFX Y   ý           šiemu/Fs   [dh]ý is:masculine is:dative
+SFX Y   ý           šiemu/Fs   [dh]ý is:neuter is:dative
+SFX Y   ý           šej/Fs     [dh]ý is:feminine is:dative
+SFX Y   ý           ším/Fs     [dh]ý is:masculine is:dative is:plural
+SFX Y   ý           ším/Fs     [dh]ý is:feminine is:dative is:plural
+SFX Y   ý           ším/Fs     [dh]ý is:neuter is:dative is:plural
+SFX Y   ý           ším/Fs     [dh]ý is:masculine is:instrumental
+SFX Y   ý           ším/Fs     [dh]ý is:neuter is:instrumental
+SFX Y   ý           šiu/Fs     [dh]ý is:feminine is:accusative
+SFX Y   ý           ších/Fs    [dh]ý is:masculine is:genitive is:plural
+SFX Y   ý           ších/Fs    [dh]ý is:neuter is:genitive is:plural
+SFX Y   ý           ších/Fs    [dh]ý is:masculine is:accusative is:plural
+SFX Y   ý           šom/Fs     [dh]ý is:masculine is:locative
+SFX Y   ý           šom/Fs     [dh]ý is:neuter is:locative
+SFX Y   ý           šou/Fs     [dh]ý is:feminine is:instrumental
+SFX Y   ý           šími/Fs    [dh]ý is:masculine is:instrumental is:plural
+SFX Y   ý           šími/Fs    [dh]ý is:feminine is:instrumental is:plural
+SFX Y   ý           šími/Fs    [dh]ý is:neuter is:instrumental is:plural
 
-SFX I Y 32
+SFX I Y 98				# 61+37
 SFX I   í           ia         í is:feminine is:nominative
 SFX I   í           ie         í is:feminine is:nominative is:plural
 SFX I   í           ieho       í is:masculine is:genitive
@@ -2012,18 +2308,84 @@ SFX I   0           mi         í is:masculine is:instrumental is:plural
 SFX I   0           mi         í is:feminine is:instrumental is:plural
 SFX I   0           mi         í is:neuter is:instrumental is:plural
 SFX I   í           o          í po:adverb
-SFX I   í           ejší       í po:adjective is:comparative is:masculine is:nominative 
-SFX I   í           ejší       í po:adjective is:comparative is:masculine is:nominative is:plural
-SFX I   í           ejšia      í po:adjective is:comparative is:feminine is:nominative
-SFX I   í           ejšie      í po:adjective is:comparative is:feminine is:nominative is:plural
-SFX I   í           ejšie      í po:adjective is:comparative is:feminine is:accusative is:plural
-SFX I   í           ejšie      í po:adjective is:comparative is:neuter is:nominative is:plural
-SFX I   í           ejšie      í po:adjective is:comparative is:neuter is:accusative is:plural
+SFX I   í           ejšie      í is:comparative is:feminine is:nominative is:plural
+SFX I   í           ejšie      í is:comparative is:neuter is:nominative is:plural
+SFX I   í           ejšie      í is:comparative is:feminine is:accusative is:plural
+SFX I   í           ejšie      í is:comparative is:neuter is:accusative is:plural
+SFX I   í           ejšia      í is:comparative is:feminine is:nominative
+SFX I   í           ejší       í is:comparative is:masculine is:nominative
+SFX I   í           ejšieho    í is:comparative is:masculine is:genitive
+SFX I   í           ejšieho    í is:comparative is:neuter is:genitive
+SFX I   í           ejšieho    í is:comparative is:masculine is:accusative
+SFX I   í           ejšieho    í is:comparative is:neuter is:accusative
+SFX I   í           ejšej      í is:comparative is:feminine is:genitive
+SFX I   í           ejších     í is:comparative is:masculine is:genitive is:plural
+SFX I   í           ejších     í is:comparative is:feminine is:genitive is:plural
+SFX I   í           ejších     í is:comparative is:neuter is:genitive is:plural
+SFX I   í           ejších     í is:comparative is:masculine is:accusative is:plural
+SFX I   í           ejších     í is:comparative is:feminine is:accusative is:plural
+SFX I   í           ejších     í is:comparative is:neuter is:accusative is:plural
+SFX I   í           ejšiemu    í is:comparative is:masculine is:dative
+SFX I   í           ejšiemu    í is:comparative is:neuter is:dative
+SFX I   í           ejšej      í is:comparative is:feminine is:dative
+SFX I   í           ejšej      í is:comparative is:feminine is:locative
+SFX I   í           ejším      í is:comparative is:masculine is:instrumental
+SFX I   í           ejším      í is:comparative is:neuter is:instrumental
+SFX I   í           ejším      í is:comparative is:masculine is:dative is:plural
+SFX I   í           ejším      í is:comparative is:feminine is:dative is:plural
+SFX I   í           ejším      í is:comparative is:neuter is:dative is:plural
+SFX I   í           ejšiu      í is:comparative is:feminine is:accusative
+SFX I   í           ejších     í is:comparative is:masculine is:locative is:plural
+SFX I   í           ejších     í is:comparative is:feminine is:locative is:plural
+SFX I   í           ejších     í is:comparative is:neuter is:locative is:plural
+SFX I   í           ejšom      í is:comparative is:masculine is:locative
+SFX I   í           ejšom      í is:comparative is:neuter is:locative
+SFX I   í           ejšou      í is:comparative is:feminine is:instrumental
+SFX I   í           ejšími     í is:comparative is:masculine is:instrumental is:plural
+SFX I   í           ejšími     í is:comparative is:feminine is:instrumental is:plural
+SFX I   í           ejšími     í is:comparative is:neuter is:instrumental is:plural
+SFX I   o           ejšie/Fs      o po:adverb
+SFX I   í           ejšie/Fs      í is:feminine is:nominative is:plural
+SFX I   í           ejšie/Fs      í is:neuter is:nominative is:plural
+SFX I   í           ejšie/Fs      í is:feminine is:accusative is:plural
+SFX I   í           ejšie/Fs      í is:neuter is:accusative is:plural
+SFX I   í           ejšia/Fs      í is:feminine is:nominative
+SFX I   í           ejší/Fs       í is:masculine is:nominative
+SFX I   í           ejšieho/Fs    í is:masculine is:genitive
+SFX I   í           ejšieho/Fs    í is:neuter is:genitive
+SFX I   í           ejšieho/Fs    í is:masculine is:accusative
+SFX I   í           ejšieho/Fs    í is:neuter is:accusative
+SFX I   í           ejšej/Fs      í is:feminine is:genitive
+SFX I   í           ejších/Fs     í is:masculine is:genitive is:plural
+SFX I   í           ejších/Fs     í is:feminine is:genitive is:plural
+SFX I   í           ejších/Fs     í is:neuter is:genitive is:plural
+SFX I   í           ejších/Fs     í is:masculine is:accusative is:plural
+SFX I   í           ejších/Fs     í is:feminine is:accusative is:plural
+SFX I   í           ejších/Fs     í is:neuter is:accusative is:plural
+SFX I   í           ejšiemu/Fs    í is:masculine is:dative
+SFX I   í           ejšiemu/Fs    í is:neuter is:dative
+SFX I   í           ejšej/Fs      í is:feminine is:dative
+SFX I   í           ejšej/Fs      í is:feminine is:locative
+SFX I   í           ejším/Fs      í is:masculine is:instrumental
+SFX I   í           ejším/Fs      í is:neuter is:instrumental
+SFX I   í           ejším/Fs      í is:masculine is:dative is:plural
+SFX I   í           ejším/Fs      í is:feminine is:dative is:plural
+SFX I   í           ejším/Fs      í is:neuter is:dative is:plural
+SFX I   í           ejšiu/Fs      í is:feminine is:accusative
+SFX I   í           ejších/Fs     í is:masculine is:locative is:plural
+SFX I   í           ejších/Fs     í is:feminine is:locative is:plural
+SFX I   í           ejších/Fs     í is:neuter is:locative is:plural
+SFX I   í           ejšom/Fs      í is:masculine is:locative
+SFX I   í           ejšom/Fs      í is:neuter is:locative
+SFX I   í           ejšou/Fs      í is:feminine is:instrumental
+SFX I   í           ejšími/Fs     í is:masculine is:instrumental is:plural
+SFX I   í           ejšími/Fs     í is:feminine is:instrumental is:plural
+SFX I   í           ejšími/Fs     í is:neuter is:instrumental is:plural
 
-SFX P Y 29
+SFX P Y 58				# 29+29
 SFX P   0           jšie       e po:adverb is:comparative
-SFX P   0           jšie       e po:adjective is:comparative is:feminine is:nominative is:plural
-SFX P   0           jšie       e po:adjective is:comparative is:feminine is:accusative is:plural
+SFX P   0           jšie       e is:comparative is:feminine is:nominative is:plural
+SFX P   0           jšie       e is:comparative is:feminine is:accusative is:plural
 SFX P   í           ia         í is:feminine is:nominative
 SFX P   í           ie         í is:feminine is:nominative is:plural
 SFX P   í           ie         í is:neuter is:nominative is:plural
@@ -2044,12 +2406,41 @@ SFX P   0           m          í is:neuter is:dative is:plural
 SFX P   0           m          í is:masculine is:instrumental
 SFX P   0           m          í is:neuter is:instrumental
 SFX P   í           iu         í is:feminine is:accusative
-SFX P   í           om         í is:masculine is:locative 
-SFX P   í           om         í is:neuter is:locative 
+SFX P   í           om         í is:masculine is:locative
+SFX P   í           om         í is:neuter is:locative
 SFX P   í           ou         í is:feminine is:instrumental
 SFX P   0           mi         í is:masculine is:instrumental is:plural
 SFX P   0           mi         í is:feminine is:instrumental is:plural
 SFX P   0           mi         í is:neuter is:instrumental is:plural
+SFX P   0           jšie/Fs    e po:adverb
+SFX P   0           jšie/Fs    e is:feminine is:nominative is:plural
+SFX P   0           jšie/Fs    e is:feminine is:accusative is:plural
+SFX P   í           ia/Fs      í is:feminine is:nominative
+SFX P   í           ie/Fs      í is:feminine is:nominative is:plural
+SFX P   í           ie/Fs      í is:neuter is:nominative is:plural
+SFX P   í           ie/Fs      í is:feminine is:accusative is:plural
+SFX P   í           ie/Fs      í is:neuter is:accusative is:plural
+SFX P   í           ieho/Fs    í is:masculine is:genitive
+SFX P   í           ieho/F     í is:neuter is:genitive
+SFX P   í           ej/Fs      í is:feminine is:genitive
+SFX P   í           ej/Fs      í is:feminine is:locative
+SFX P   0           ch/Fs      í is:masculine is:genitive is:plural
+SFX P   0           ch/Fs      í is:feminine is:genitive is:plural
+SFX P   0           ch/Fs      í is:neuter is:genitive is:plural
+SFX P   í           iemu/Fs    í is:masculine is:dative
+SFX P   í           iemu/Fs    í is:neuter is:dative
+SFX P   0           m/Fs       í is:masculine is:dative is:plural
+SFX P   0           m/Fs       í is:feminine is:dative is:plural
+SFX P   0           m/Fs       í is:neuter is:dative is:plural
+SFX P   0           m/Fs       í is:masculine is:instrumental
+SFX P   0           m/Fs       í is:neuter is:instrumental
+SFX P   í           iu/Fs      í is:feminine is:accusative
+SFX P   í           om/Fs      í is:masculine is:locative
+SFX P   í           om/Fs      í is:neuter is:locative
+SFX P   í           ou/Fs      í is:feminine is:instrumental
+SFX P   0           mi/Fs      í is:masculine is:instrumental is:plural
+SFX P   0           mi/Fs      í is:feminine is:instrumental is:plural
+SFX P   0           mi/Fs      í is:neuter is:instrumental is:plural
 
 SFX X Y 167
 SFX X   liať        ľajem      kliať is:1st_person
@@ -2059,8 +2450,8 @@ SFX X   liať        ľajeme     kliať is:1st_person is:plural
 SFX X   liať        ľajete     kliať is:2nd_person is:plural
 SFX X   liať        ľajú       kliať is:3rd_person is:plural
 SFX X   liať        ľaj        kliať is:2nd_person is:imperative
-SFX X   liať        ľajme      kliať is:1st_person is:plural is:imperative 
-SFX X   liať        ľajte      kliať is:2nd_person is:plural is:imperative 
+SFX X   liať        ľajme      kliať is:1st_person is:plural is:imperative
+SFX X   liať        ľajte      kliať is:2nd_person is:plural is:imperative
 SFX X   liať        ľajúc      kliať is:participle
 SFX X   iať         ejem       [^k]liať is:1st_person
 SFX X   iať         eješ       [^k]liať is:2nd_person
@@ -2289,7 +2680,7 @@ SFX E   ť           la         iť is:3rd_person is:feminine is:past
 SFX E   ť           lo         iť is:3rd_person is:neuter is:past
 SFX E   ť           li         iť is:3rd_person is:plural is:past
 
-SFX W Y 215
+SFX W Y 229
 SFX W   ať          nem        čať is:1st_person
 SFX W   ať          neš        čať is:2nd_person
 SFX W   ať          ne         čať is:3rd_person
@@ -2505,6 +2896,20 @@ SFX W   úť          ul         [aeilľory]núť is:3rd_person is:masculine is:
 SFX W   úť          ula        [aeilľory]núť is:3rd_person is:feminine is:past
 SFX W   úť          ulo        [aeilľory]núť is:3rd_person is:neuter is:past
 SFX W   úť          uli        [aeilľory]núť is:3rd_person is:plural is:past
+SFX W   iť          ijem       [šv]iť is:1st_person
+SFX W   iť          iješ       [šv]iť is:2nd_person
+SFX W   iť          ije        [šv]iť is:3rd_person
+SFX W   iť          ijeme      [šv]iť is:1st_person is:plural
+SFX W   iť          ijete      [šv]iť is:2nd_person is:plural
+SFX W   iť          ijú        [šv]iť is:3rd_person is:plural
+SFX W   iť          ijúc       [šv]iť is:participle
+SFX W   iť          i          [šv]iť is:2nd_person is:imperative
+SFX W   iť          ime        [šv]iť is:1st_person is:plural is:imperative
+SFX W   iť          ite        [šv]iť is:2nd_person is:plural is:imperative
+SFX W   iť          il         [šv]iť is:1st_person is:masculine is:past
+SFX W   iť          ila        [šv]iť is:2nd_person is:feminine is:past
+SFX W   iť          ilo        [šv]iť is:3rd_person is:neuter is:past
+SFX W   iť          il         [šv]iť is:1st_person is:past
 
 SFX T Y 195
 SFX T   ať          iam        [cčzrš]ať is:1st_person
@@ -3164,20 +3569,19 @@ SFX b   0           och        [klr] is:locative is:plural
 SFX b   0           om         [klr] is:instrumental is:plural
 SFX b   0           mi         [klr] is:instrumental is:plural
 
-SFX č Y 15  # v testovaní: pre číslovky
-SFX č   0           násobny    . po:adjective
-SFX č   0           násobna    . po:adverb
-SFX č   0           násobne    . po:adverb
-SFX č   0           násobni    . po:verb is:2nd_person is:imperative
-SFX č   0           násobný    . po:adjective is:nominative
-SFX č   0           násobná    . po:adjective is:nominative is:feminine
-SFX č   0           násobné    . po:adjective is:nominative is:feminine is:plural
-SFX č   0           násobné    . po:adjective is:nominative is:neuter is:plural
-SFX č   0           násobní    . po:adjective is:nominative is:masculine is:plural
-SFX č   0           násobných  . po:adjective is:genitive is:masculine is:plural
-SFX č   0           násobných  . po:adjective is:genitive is:neuter is:plural
-SFX č   0           násobných  . po:adjective is:accusative is:masculine is:plural
-SFX č   0           násobné    . po:adjective is:accusative is:feminine is:plural
-SFX č   0           násobné    . po:adjective is:accusative is:neuter is:plural
-SFX č   0           násobnými  . po:adjective is:instrumental is:plural
-
+SFX n Y 15  # v testovaní: pre číslovky
+SFX n   0           násobny    . po:adjective
+SFX n   0           násobna    . po:adverb
+SFX n   0           násobne    . po:adverb
+SFX n   0           násobni    . po:verb is:2nd_person is:imperative
+SFX n   0           násobný    . po:adjective is:nominative
+SFX n   0           násobná    . po:adjective is:nominative is:feminine
+SFX n   0           násobné    . po:adjective is:nominative is:feminine is:plural
+SFX n   0           násobné    . po:adjective is:nominative is:neuter is:plural
+SFX n   0           násobní    . po:adjective is:nominative is:masculine is:plural
+SFX n   0           násobných  . po:adjective is:genitive is:masculine is:plural
+SFX n   0           násobných  . po:adjective is:genitive is:neuter is:plural
+SFX n   0           násobných  . po:adjective is:accusative is:masculine is:plural
+SFX n   0           násobné    . po:adjective is:accusative is:feminine is:plural
+SFX n   0           násobné    . po:adjective is:accusative is:neuter is:plural
+SFX n   0           násobnými  . po:adjective is:instrumental is:plural

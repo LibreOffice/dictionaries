@@ -1,3 +1,8 @@
+Version 5.1.1, 7/11/2022:
+- hyph_it_IT.dic: added new hyphenation rules
+- it_IT.dic: fixed a typo
+- th_it_IT_v2.dat: fixed typos
+
 Version 5.1.0, 13/10/2020:
 - Refactored and rewritten README files and copyright notices.
 - LibreItalia is now taking care of the updates.

@@ -1,6 +1,6 @@
 % Hungarian hyphenation patterns with non-standard hyphenation patch
 % ------------------------------------------------------------------
-% Patch version: 2010-10-07
+% Patch version: 2024-03-21
 %
 % Language: Hungarian (hu HU)
 % Origin:   http://www.github.hu/bencenagy/huhyphn

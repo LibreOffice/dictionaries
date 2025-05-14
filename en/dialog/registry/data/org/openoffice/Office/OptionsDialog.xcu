@@ -4,7 +4,7 @@
     <node oor:name="Nodes">
         <node oor:name="LanguageSettings" oor:op="fuse">
             <prop oor:name="Label">
-                <value xml:lang="en-US">Language Settings</value>
+                <value xml:lang="en-US">Languages and Locales</value>
             </prop>
             <node oor:name="Leaves">
                 <node oor:name="org.openoffice.lightproof.en" oor:op="fuse">

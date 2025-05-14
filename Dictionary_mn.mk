@@ -15,6 +15,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-mn,\
 	dictionaries/mn_MN/README_mn_MN.txt \
 	dictionaries/mn_MN/mn_MN.aff \
 	dictionaries/mn_MN/mn_MN.dic \
+        dictionaries/mn_MN/DictMN.png \
 ))
 
 # vim: set noet sw=4 ts=4:

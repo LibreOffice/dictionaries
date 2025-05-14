@@ -1,4 +1,4 @@
 LICENSES :
 Spelling dictionary: LGPL, GPL
-Tesaurus: LGPL, GPL
+Tesaurus: CC-BY 4.0
 Hyphenation: LGPL, GPL

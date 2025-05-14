@@ -30,12 +30,13 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_ckb \
 	Dictionary_cs \
 	Dictionary_da \
-	Dictionary_de \
+	$(if $(and $(MPL_SUBSET), $(filter-out LINUX,$(OS))),,Dictionary_de) \
 	Dictionary_el \
-	Dictionary_en \
+	$(if $(and $(MPL_SUBSET), $(filter-out LINUX,$(OS))),,Dictionary_en) \
 	Dictionary_eo \
 	Dictionary_es \
 	Dictionary_et \
+	Dictionary_fa \
 	Dictionary_fr \
 	Dictionary_gd \
 	Dictionary_gl \
@@ -47,7 +48,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_hu \
 	Dictionary_id \
 	Dictionary_is \
-	Dictionary_it \
+	$(if $(and $(MPL_SUBSET), $(filter-out LINUX,$(OS))),,Dictionary_it) \
 	Dictionary_kmr-Latn \
 	Dictionary_ko-KR \
 	Dictionary_lo \

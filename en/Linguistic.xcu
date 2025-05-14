@@ -8,7 +8,7 @@
                         <node oor:name="org.libreoffice.comp.pyuno.Lightproof.en"
                                 oor:op="fuse">
                                 <prop oor:name="Locales" oor:type="oor:string-list">
-                                        <value>en-GB en-US en-PH en-ZA en-NA en-ZW en-AU en-CA en-IE en-IN en-BZ en-BS en-GH en-JM en-NZ en-TT</value>
+                                        <value>en-GB en-US en-PH en-ZA en-NA en-ZW en-AU en-CA en-IE en-IL en-IN en-BZ en-BS en-GH en-JM en-NZ en-TT</value>
                                 </prop>
                         </node>
                 </node>
