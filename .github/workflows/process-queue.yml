@@ -1,0 +1,85 @@
+name: Analyse new dictionary words
+
+on:
+  schedule:
+    - cron: '0 0 1 * *' # 12:00AM UTC, day 1 of the month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+  pull-requests: write
+
+jobs:
+  process:
+    runs-on: ubuntu-24.04
+
+    strategy:
+      matrix:
+        dictionary:
+          - en/en_AU
+          - en/en_CA
+          - en/en_GB
+          - en/en_US
+          - en/en_ZA
+          # @TODO: add other dictionaries
+      fail-fast: false
+
+    env:
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v3
+        with:
+          project_id: speedy-atom-247708
+          workload_identity_provider: projects/683371064814/locations/global/workloadIdentityPools/production-github-actions/providers/production-github-actions
+
+      - name: Setup gcloud
+        uses: google-github-actions/setup-gcloud@v3
+        with:
+          version: '>= 363.0.0'
+
+      - name: Download queue from GCS
+        run: |
+          set -euo pipefail
+          mkdir -p "./queue/${{ matrix.dictionary }}"
+          gsutil -m cp "gs://production-reedsy-editor-auxiliary/dictionaries/${{ matrix.dictionary }}/*.json" "./queue/${{ matrix.dictionary }}/" || true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: './scripts/process-queue/.nvmrc'
+          registry-url: 'https://npm.pkg.github.com'
+
+      - name: Install script dependencies
+        run: npm ci --prefix ./scripts/process-queue
+
+      - name: Process dictionary
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          npm run process-queue --prefix ./scripts/process-queue -- \
+            --dictionary "${{ matrix.dictionary }}" \
+            --queue-path ../../queue \
+            --dictionaries-path ../..
+
+      - name: Commit changes
+        id: commit
+        run: .github/scripts/commit-and-push.sh "${{ matrix.dictionary }}"
+
+      - name: Create PR
+        if: steps.commit.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --base master \
+            --head "${{ steps.commit.outputs.branch_name }}" \
+            --title "📝 Update ${{ matrix.dictionary }} dictionary" \
+            --body "## Automated Dictionary Update: ${{ matrix.dictionary }}
+
+          Automated dictionary updates. [Workflow run]($RUN_URL)"

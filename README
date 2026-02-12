@@ -2,3 +2,15 @@ Contains dictionaries related code and data.
 
 See https://wiki.documentfoundation.org/Development/Dictionaries for more information.
 
+## Using an LLM to process possible new words
+
+Please first ensure you have a valid `ANTHROPIC_API_KEY` in your `.env` file. Then, create a timestamped JSON file with an array of possible words. For example, in `./queue/en/en_GB/1770829097815.json`:
+`["blockchain", "cyber", "stovetop", "countertop", "Liam's"]`.
+
+Note that the file's timstamp must be later than the value in `last-updated.txt` for that dictionary (if it exists). Then, you can run the script as follows:
+
+```sh
+cd scripts/process-queue
+npm install
+npm run process-queue -- --dictionaries-path=../.. --dictionary=en/en_GB --queue-path=../../queue
+```

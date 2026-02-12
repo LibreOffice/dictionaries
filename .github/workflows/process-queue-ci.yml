@@ -1,0 +1,28 @@
+name: Process Queue CI
+
+on:
+  push:
+    branches: [master]
+    paths: ['scripts/process-queue/**']
+  pull_request:
+    paths: ['scripts/process-queue/**']
+
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: ./scripts/process-queue
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: './scripts/process-queue/.nvmrc'
+          registry-url: 'https://npm.pkg.github.com'
+      - run: npm ci
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.REEDSY_BOT_PERSONAL_ACCESS_TOKEN }}
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test -- --coverage
