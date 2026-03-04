@@ -1,5 +1,5 @@
 name: 'run rencode dictionaries'
 description: 'Changes the dictionaries encoding to UTF-8'
 runs:
-  using: 'node16'
+  using: 'node24'
   main: 'index.js'
