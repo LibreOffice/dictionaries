@@ -93,7 +93,7 @@ def parse(filename, blacklistname):
                     continue
 
                 typ = ''
-                if (len(terms) >= 2):
+                if (len(terms) >= 3):
                     typ = terms[2]
 
                     # ignore non-translations
