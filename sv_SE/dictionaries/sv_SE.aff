@@ -15,11 +15,11 @@ FORBIDDENWORD %
 NEEDAFFIX ¤
 
 # At least this many letters in each word within a compound:
-COMPOUNDMIN 1
+COMPOUNDMIN 2
 #COMPOUNDMIN 3
 
 # Only two, three or four word compounds:
-#COMPOUNDWORDMAX 4
+COMPOUNDWORDMAX 4
 
 # Disallow triple letters, like "fall"+"lucka":
 CHECKCOMPOUNDTRIPLE
