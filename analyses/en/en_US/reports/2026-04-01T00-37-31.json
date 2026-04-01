@@ -1,0 +1,422 @@
+[
+  {
+    "word": "20s",
+    "transformedWord": "20s",
+    "score": 0.9
+  },
+  {
+    "word": "Ahhh",
+    "transformedWord": "ahhh",
+    "score": 0.7
+  },
+  {
+    "word": "Argh",
+    "transformedWord": "argh",
+    "score": 0.85
+  },
+  {
+    "word": "Ay",
+    "transformedWord": "ay",
+    "score": 0.6
+  },
+  {
+    "word": "Blackwood",
+    "transformedWord": "Blackwood",
+    "score": 0.75
+  },
+  {
+    "word": "Elowen",
+    "transformedWord": "Elowen",
+    "score": 0.3
+  },
+  {
+    "word": "Glock",
+    "transformedWord": "Glock",
+    "score": 0.8
+  },
+  {
+    "word": "Kael's",
+    "transformedWord": "Kael's",
+    "score": 0.2
+  },
+  {
+    "word": "Liora",
+    "transformedWord": "Liora",
+    "score": 0.25
+  },
+  {
+    "word": "Mhmm",
+    "transformedWord": "mhmm",
+    "score": 0.75
+  },
+  {
+    "word": "Seraphina",
+    "transformedWord": "Seraphina",
+    "score": 0.5
+  },
+  {
+    "word": "Voss",
+    "transformedWord": "Voss",
+    "score": 0.55
+  },
+  {
+    "word": "Welp",
+    "transformedWord": "welp",
+    "score": 0.8
+  },
+  {
+    "word": "Wi-Fi",
+    "transformedWord": "Wi-Fi",
+    "score": 0.95
+  },
+  {
+    "word": "al",
+    "transformedWord": "al",
+    "score": 0.2
+  },
+  {
+    "word": "apologise",
+    "transformedWord": "apologise",
+    "score": 0.3
+  },
+  {
+    "word": "armour",
+    "transformedWord": "armour",
+    "score": 0.3
+  },
+  {
+    "word": "arse",
+    "transformedWord": "arse",
+    "score": 0.4
+  },
+  {
+    "word": "bam",
+    "transformedWord": "bam",
+    "score": 0.75
+  },
+  {
+    "word": "behaviour",
+    "transformedWord": "behaviour",
+    "score": 0.3
+  },
+  {
+    "word": "bioluminescent",
+    "transformedWord": "bioluminescent",
+    "score": 0.95
+  },
+  {
+    "word": "centre",
+    "transformedWord": "centre",
+    "score": 0.3
+  },
+  {
+    "word": "cliffside",
+    "transformedWord": "cliffside",
+    "score": 0.85
+  },
+  {
+    "word": "colour",
+    "transformedWord": "colour",
+    "score": 0.3
+  },
+  {
+    "word": "coloured",
+    "transformedWord": "coloured",
+    "score": 0.3
+  },
+  {
+    "word": "colourful",
+    "transformedWord": "colourful",
+    "score": 0.3
+  },
+  {
+    "word": "colours",
+    "transformedWord": "colours",
+    "score": 0.3
+  },
+  {
+    "word": "comin",
+    "transformedWord": "comin",
+    "score": 0.6
+  },
+  {
+    "word": "da",
+    "transformedWord": "da",
+    "score": 0.3
+  },
+  {
+    "word": "de",
+    "transformedWord": "de",
+    "score": 0.25
+  },
+  {
+    "word": "deja",
+    "transformedWord": "deja",
+    "score": 0.5
+  },
+  {
+    "word": "di",
+    "transformedWord": "di",
+    "score": 0.2
+  },
+  {
+    "word": "dipshit",
+    "transformedWord": "dipshit",
+    "score": 0.75
+  },
+  {
+    "word": "doin",
+    "transformedWord": "doin",
+    "score": 0.6
+  },
+  {
+    "word": "donut",
+    "transformedWord": "donut",
+    "score": 0.95
+  },
+  {
+    "word": "et",
+    "transformedWord": "et",
+    "score": 0.3
+  },
+  {
+    "word": "favour",
+    "transformedWord": "favour",
+    "score": 0.3
+  },
+  {
+    "word": "favourite",
+    "transformedWord": "favourite",
+    "score": 0.3
+  },
+  {
+    "word": "flyers",
+    "transformedWord": "flyers",
+    "score": 0.95
+  },
+  {
+    "word": "gettin",
+    "transformedWord": "gettin",
+    "score": 0.6
+  },
+  {
+    "word": "goin",
+    "transformedWord": "goin",
+    "score": 0.6
+  },
+  {
+    "word": "handsy",
+    "transformedWord": "handsy",
+    "score": 0.85
+  },
+  {
+    "word": "high-fived",
+    "transformedWord": "high-fived",
+    "score": 0.9
+  },
+  {
+    "word": "honour",
+    "transformedWord": "honour",
+    "score": 0.3
+  },
+  {
+    "word": "humour",
+    "transformedWord": "humour",
+    "score": 0.3
+  },
+  {
+    "word": "im",
+    "transformedWord": "im",
+    "score": 0.3
+  },
+  {
+    "word": "kay",
+    "transformedWord": "kay",
+    "score": 0.6
+  },
+  {
+    "word": "le",
+    "transformedWord": "le",
+    "score": 0.2
+  },
+  {
+    "word": "learnt",
+    "transformedWord": "learnt",
+    "score": 0.5
+  },
+  {
+    "word": "longsword",
+    "transformedWord": "longsword",
+    "score": 0.85
+  },
+  {
+    "word": "lookin",
+    "transformedWord": "lookin",
+    "score": 0.6
+  },
+  {
+    "word": "mum's",
+    "transformedWord": "mum's",
+    "score": 0.35
+  },
+  {
+    "word": "ne",
+    "transformedWord": "ne",
+    "score": 0.15
+  },
+  {
+    "word": "neighbours",
+    "transformedWord": "neighbours",
+    "score": 0.3
+  },
+  {
+    "word": "nothin",
+    "transformedWord": "nothin",
+    "score": 0.6
+  },
+  {
+    "word": "petrichor",
+    "transformedWord": "petrichor",
+    "score": 0.9
+  },
+  {
+    "word": "pre-dawn",
+    "transformedWord": "pre-dawn",
+    "score": 0.9
+  },
+  {
+    "word": "que",
+    "transformedWord": "que",
+    "score": 0.2
+  },
+  {
+    "word": "realise",
+    "transformedWord": "realise",
+    "score": 0.3
+  },
+  {
+    "word": "realised",
+    "transformedWord": "realised",
+    "score": 0.3
+  },
+  {
+    "word": "realising",
+    "transformedWord": "realising",
+    "score": 0.3
+  },
+  {
+    "word": "recalibrate",
+    "transformedWord": "recalibrate",
+    "score": 0.95
+  },
+  {
+    "word": "recalibration",
+    "transformedWord": "recalibration",
+    "score": 0.95
+  },
+  {
+    "word": "recognise",
+    "transformedWord": "recognise",
+    "score": 0.3
+  },
+  {
+    "word": "recognised",
+    "transformedWord": "recognised",
+    "score": 0.3
+  },
+  {
+    "word": "repositioned",
+    "transformedWord": "repositioned",
+    "score": 0.95
+  },
+  {
+    "word": "sayin",
+    "transformedWord": "sayin",
+    "score": 0.6
+  },
+  {
+    "word": "schoolers",
+    "transformedWord": "schoolers",
+    "score": 0.8
+  },
+  {
+    "word": "se",
+    "transformedWord": "se",
+    "score": 0.15
+  },
+  {
+    "word": "shithole",
+    "transformedWord": "shithole",
+    "score": 0.75
+  },
+  {
+    "word": "shitless",
+    "transformedWord": "shitless",
+    "score": 0.8
+  },
+  {
+    "word": "slitted",
+    "transformedWord": "slitted",
+    "score": 0.9
+  },
+  {
+    "word": "somethin",
+    "transformedWord": "somethin",
+    "score": 0.6
+  },
+  {
+    "word": "strategizing",
+    "transformedWord": "strategizing",
+    "score": 0.9
+  },
+  {
+    "word": "talkin",
+    "transformedWord": "talkin",
+    "score": 0.6
+  },
+  {
+    "word": "te",
+    "transformedWord": "te",
+    "score": 0.15
+  },
+  {
+    "word": "thinkin",
+    "transformedWord": "thinkin",
+    "score": 0.6
+  },
+  {
+    "word": "this'll",
+    "transformedWord": "this'll",
+    "score": 0.85
+  },
+  {
+    "word": "thrusted",
+    "transformedWord": "thrusted",
+    "score": 0.6
+  },
+  {
+    "word": "tryin",
+    "transformedWord": "tryin",
+    "score": 0.6
+  },
+  {
+    "word": "uhm",
+    "transformedWord": "uhm",
+    "score": 0.7
+  },
+  {
+    "word": "un",
+    "transformedWord": "un",
+    "score": 0.2
+  },
+  {
+    "word": "untucked",
+    "transformedWord": "untucked",
+    "score": 0.9
+  },
+  {
+    "word": "whoever's",
+    "transformedWord": "whoever's",
+    "score": 0.9
+  }
+]
