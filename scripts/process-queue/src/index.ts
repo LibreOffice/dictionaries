@@ -50,7 +50,7 @@ export async function main(): Promise<void> {
       },
       model: {
         type: 'string',
-        default: 'claude-opus-4-5',
+        default: 'claude-opus-4-7',
       },
     },
   });
