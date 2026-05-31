@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="2025.05.08" />
+    <version value="2026.06.07" />
     <identifier value="org.openoffice.da.hunspell.dictionaries" />
     <display-name>
-        <name lang="en-US">Danish spelling dictionary, hyphenation rules, and thesaurus</name>
+        <name lang="en-US">Spelling, thesaurus and hyphenation dictionary for Danish</name>
+        <name lang="da">Ordbøger for dansk stavekontrol, synonymer og orddeling</name>
     </display-name>
     <platform value="all" />
     <dependencies>
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>
+    <registration>
+        <simple-license accept-by="admin" default-license-id="en-US" suppress-on-update="false" >
+            <license-text xlink:href="README_da_DK.txt" lang="en-US" license-id="en-US" />
+        </simple-license>
+    </registration>
     <publisher>
         <name xlink:href="http://www.stavekontrolden.dk" lang="en-US">Stavekontrolden</name>
         <name xlink:href="http://www.stavekontrolden.dk" lang="da">Stavekontrolden</name>
     </publisher>
     <icon>
-        <default xlink:href="Trold_42x42.png" />
+        <default xlink:href="Images/Trold_42x42.png" />
     </icon>
     <extension-description>
-        <src xlink:href="desc_da_DK.txt" lang="da" />
-        <src xlink:href="desc_en_US.txt" lang="en-US" />
+        <src xlink:href="description/desc_da_DK.txt" lang="da" />
+        <src xlink:href="description/desc_en_US.txt" lang="en-US" />
     </extension-description>
 </description>
 

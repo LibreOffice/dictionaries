@@ -12,13 +12,14 @@ $(eval $(call gb_Dictionary_Dictionary,dict-da,dictionaries/da_DK))
 $(eval $(call gb_Dictionary_add_root_files,dict-da,\
 	dictionaries/da_DK/da_DK.aff \
 	dictionaries/da_DK/da_DK.dic \
-	dictionaries/da_DK/desc_da_DK.txt \
-	dictionaries/da_DK/desc_en_US.txt \
 	dictionaries/da_DK/hyph_da_DK.dic \
 	dictionaries/da_DK/HYPH_da_DK_README.txt \
 	dictionaries/da_DK/README_da_DK.txt \
-	dictionaries/da_DK/README_th_da_DK.txt \
-	dictionaries/da_DK/Trold_42x42.png \
+))
+
+$(eval $(call gb_Dictionary_add_files,dict-da,description,\
+	dictionaries/da_DK/description/desc_da_DK.txt \
+	dictionaries/da_DK/description/desc_en_US.txt \
 ))
 
 $(eval $(call gb_Dictionary_add_files,dict-da,help/en,\
@@ -35,8 +36,13 @@ $(eval $(call gb_Dictionary_add_files,dict-da,help/da/org.openoffice.da.hunspell
 	dictionaries/da_DK/help/da/org.openoffice.da.hunspell.dictionaries/Trold.png \
 ))
 
+$(eval $(call gb_Dictionary_add_files,dict-da,Images,\
+	dictionaries/da_DK/Images/Trold_42x42.png \
+))
+
 $(eval $(call gb_Dictionary_add_thesauri,dict-da,\
 	dictionaries/da_DK/th_da_DK.dat \
+	dictionaries/da_DK/th_da_DK.idx \
 ))
 
 # vim: set noet sw=4 ts=4:
