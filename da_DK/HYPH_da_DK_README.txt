@@ -2,6 +2,7 @@ Language: Danish (da DK).
 Origin:   Based on the TeX hyphenation tables
           Created by Frank Jensen (fj@iesd.auc.dk), ca. 1988.
           Modified by Preben Randhol (September 12, 1994) to increase portability between different systems
+          Modified by Jeppe Bundsgaard (added a few rules, January 2025)
 License:  GNU LGPL license.
 Author:   conversion author is Marco Huggenberger<marco@by-night.ch>
 

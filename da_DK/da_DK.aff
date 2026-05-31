@@ -1,8 +1,8 @@
 #A. Intro ##########
-#Stavekontrolden version 2.9.001
+#Stavekontrolden version 2.9.101
 #Denne fil er en del af Stavekontrolden - et softwareprodukt, der gør det muligt at stavekontrollere på dansk.
 
-#Copyright (C) 2025 Foreningen for frit tilgængelige sprogværktøjer
+#Copyright (C) 2026 Foreningen for frit tilgængelige sprogværktøjer
 #Website: http://www.stavekontrolden.dk
 #E-mail: info@stavekontrolden.dk
 
@@ -34,7 +34,7 @@ WORDCHARS -.
 #af stavekontrollen, når de enkelte initialer inkl. punktum (A., B., C., osv.) er lagt ind med mulighed for
 #sammenføjning.
 #Enkeltbogstav-præfikser som u-, og enkeltbogstav-ord som ø og å kan kun indgå i sammensætninger, 
-#hvis minimum sættes til 1 bogstav, men prisen er så, at ethvert u, ø og å kan sættes foran ethvert ord,
+#hvis minimum sættes til 1 bogstav, men prisen er så, at u, ø og å kan sættes foran ethvert ord,
 #og ø og å kan sættes efter ethvert ord.
 COMPOUNDMIN 2
 
