@@ -15,10 +15,10 @@ $(eval $(call gb_Dictionary_add_root_files,dict-sv,\
 	dictionaries/sv_SE/README_hyph_sv.txt \
 	dictionaries/sv_SE/README_th_sv_SE.txt \
 	dictionaries/sv_SE/hyph_sv.dic \
-	dictionaries/sv_SE/sv_FI.aff \
-	dictionaries/sv_SE/sv_FI.dic \
-	dictionaries/sv_SE/sv_SE.aff \
-	dictionaries/sv_SE/sv_SE.dic \
+	dictionaries/sv_SE/dictionaries/sv_FI.aff \
+	dictionaries/sv_SE/dictionaries/sv_FI.dic \
+	dictionaries/sv_SE/dictionaries/sv_SE.aff \
+	dictionaries/sv_SE/dictionaries/sv_SE.dic \
 ))
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-sv,\
