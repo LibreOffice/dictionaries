@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="2.40" />
+
+    <registration>
+        <simple-license accept-by="admin" suppress-on-update="true">
+            <license-text xlink:href="LICENSE_en_US.txt" lang="en-US" />
+            <license-text xlink:href="LICENSE_sv_SE.txt" lang="sv" />
+        </simple-license>
+    </registration>
+
+    <version value="2.42" />
+
     <identifier value="sv.dsso.dicts.ooo" />
+
     <display-name>
-    <name lang="en-US">Swedish Dictionary</name>
-    <name lang="sv">Den stora svenska ordlistan</name>
+        <name lang="en-US">Swedish Dictionary</name>
+        <name lang="sv">Den stora svenska ordlistan</name>
     </display-name>
+
     <platform value="all" />
+
     <dependencies>
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
     </dependencies>
+
     <publisher>
         <name xlink:href="http://www.dsso.se/" lang="sv">Den stora svenska ordlistan</name>
     </publisher>
+
 </description>
