@@ -23,8 +23,8 @@
         <default xlink:href="Images/Trold_42x42.png" />
     </icon>
     <extension-description>
-        <src xlink:href="description/desc_da_DK.txt" lang="da" />
-        <src xlink:href="description/desc_en_US.txt" lang="en-US" />
+        <src xlink:href="desc_en_US.txt" lang="en-US" />
+        <src xlink:href="desc_da_DK.txt" lang="da" />
     </extension-description>
 </description>
 
