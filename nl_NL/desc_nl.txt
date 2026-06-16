@@ -1,0 +1,3 @@
+Nederlandstalige spellingcontrole en afbreekpatronen.
+Hanteert de officiële standaard van de Taalunie.
+Gemaakt door OpenTaal, https://opentaal.org
