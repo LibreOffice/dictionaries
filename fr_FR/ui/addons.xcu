@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data
+      xmlns:oor="http://openoffice.org/2001/registry"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      oor:package="org.openoffice.Office"
+      oor:name="Addons">
+  <node oor:name="AddonUI">
+    <node oor:name="OfficeMenuBarMerging">
+      <node oor:name="org.openoffice.Office.addon.FrenchDictionarySwitcher" oor:op="replace">
+        <node oor:name="S1" oor:op="replace">
+          <prop oor:name="MergePoint">
+            <value>.uno:ToolsMenu\.uno:LanguageMenu\.uno:Hyphenate</value>
+          </prop>
+          <prop oor:name="MergeCommand">
+            <value>AddAfter</value>
+          </prop>
+          <prop oor:name="MergeFallback">
+            <value>AddPath</value>
+          </prop>
+          <node oor:name="MenuItems">
+            <node oor:name="M1" oor:op="replace">
+              <prop oor:name="Context" oor:type="xs:string">
+                <value>com.sun.star.text.TextDocument</value>
+              </prop>
+              <prop oor:name="Title" oor:type="xs:string">
+                <value/>
+                <value xml:lang="en-US">French spelling dictionaries…</value>
+                <value xml:lang="fr">Dictionnaires orthographiques français…</value>
+                <value xml:lang="ar">قواميس الهجاء الفرنسية</value>
+                <value xml:lang="be">Французскія слоўнікі правапісу…</value>
+                <value xml:lang="cs">Francouzské hláskování slovníky…</value>
+                <value xml:lang="de">Französisch Rechtschreibwörterbücher…</value>
+                <value xml:lang="eo">Franca ortografio vortaroj…</value>
+                <value xml:lang="es">Diccionarios ortográfico francés…</value>
+                <value xml:lang="da">Franske stavemåde ordbøger…</value>
+                <value xml:lang="el">Γαλλικά λεξικά ορθογραφίας…</value>
+                <value xml:lang="et">Prantsuse keele sõnastikud…</value>
+                <value xml:lang="fi">Ranskan oikeinkirjoitus sanakirjoja…</value>
+                <value xml:lang="he">מילוני איות צרפתים</value>
+                <value xml:lang="hi">फ्रांसीसी वर्तनी शब्दकोशों</value>
+                <value xml:lang="hu">French helyesírási szótárak…</value>
+                <value xml:lang="id">Perancis ejaan kamus…</value>
+                <value xml:lang="is">Franska orðabækur stafsetningu…</value>
+                <value xml:lang="it">Dizionari ortografici francesi…</value>
+                <value xml:lang="ko">프랑스어 맞춤법 사전</value>
+                <value xml:lang="lv">Franču pareizrakstības vārdnīcas…</value>
+                <value xml:lang="lt">Prancūzijos rašybos žodynai…</value>
+                <value xml:lang="ja">フランス語のスペルチェック辞書</value>
+                <value xml:lang="ms">Ejaan kamus Perancis…</value>
+                <value xml:lang="nl">Franse spellingwoordenboeken…</value>
+                <value xml:lang="no">Franske stavemåten ordbøker…</value>
+                <value xml:lang="pl">Francuskie słowniki ortograficzne…</value>
+                <value xml:lang="pt">Franceses dicionários de ortografia…</value>
+                <value xml:lang="ro">Dicționare de ortografie franceză…</value>
+                <value xml:lang="ru">Французские словари правописания…</value>
+                <value xml:lang="sr">Француски правопис речници…</value>
+                <value xml:lang="sv">Franska stavningsordlistor…</value>
+                <value xml:lang="sw">Kifaransa spelling kamusi…</value>
+                <value xml:lang="ta">பிரஞ்சு எழுத்துப்பிழை அகராதிகள்</value>
+                <value xml:lang="th">พจนานุกรมการสะกดภาษาฝรั่งเศส</value>
+                <value xml:lang="tr">Fransızca yazım denetimi sözlükleri…</value>
+                <value xml:lang="uk">Французькі словники правопису…</value>
+                <value xml:lang="vi">Pháp chính tả từ điển…</value>
+                <value xml:lang="zh">法语拼写字典</value>
+              </prop>
+              <prop oor:name="URL" oor:type="xs:string">
+                <value>service:dicollecte.FrenchDictionarySwitcher</value>
+              </prop>
+              <prop oor:name="Target" oor:type="xs:string">
+                <value>_self</value>
+              </prop>
+              <prop oor:name="ImageIdentifier" oor:type="xs:string">
+                <value>%origin%/ui/french_flag_16.bmp</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

@@ -2,7 +2,7 @@
 <oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Linguistic" oor:package="org.openoffice.Office">
  <node oor:name="ServiceManager">
     <node oor:name="Dictionaries">
-        <node oor:name="HunSpellDic_fr-moderne" oor:op="fuse">
+        <node oor:name="HunSpellDic_fr" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/fr.aff %origin%/fr.dic</value>
             </prop>
@@ -10,10 +10,11 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>fr-FR fr-BE fr-CA fr-CH fr-LU fr-MC</value>
+                <value>fr-FR fr-BE fr-CA fr-CH fr-LU fr-MC fr-BF fr-CI fr-SN fr-ML fr-NE fr-TG fr-BJ</value>
+                <!-- France, Belgique, Canada, Suisse, Luxembourg, Monaco -->
+                <!-- Burkina Faso, Côte d’Ivoire, Sénégal, Mali, Niger, Togo, Benin -->
             </prop>
         </node>
-
         <node oor:name="HyphDic_fr" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/hyph_fr.dic</value>
@@ -22,10 +23,9 @@
                 <value>DICT_HYPH</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>fr-FR fr-BE fr-CA fr-CH fr-MC fr-LU</value>
+                <value>fr-FR fr-BE fr-CA fr-CH fr-LU fr-MC fr-BF fr-CI fr-SN fr-ML fr-NE fr-TG fr-BJ</value>
             </prop>
         </node>
-
         <node oor:name="ThesDic_fr" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
                 <value>%origin%/thes_fr.dat %origin%/thes_fr.idx</value>
@@ -34,11 +34,9 @@
                 <value>DICT_THES</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>fr-FR fr-BE fr-CA fr-CH fr-MC fr-LU</value>
+                <value>fr-FR fr-BE fr-CA fr-CH fr-LU fr-MC fr-BF fr-CI fr-SN fr-ML fr-NE fr-TG fr-BJ</value>
             </prop>
         </node>
     </node>
  </node>
 </oor:component-data>
-
-

@@ -3,4 +3,6 @@
 <manifest:manifest xmlns:manifest="http://openoffice.org/2001/manifest">
     <manifest:file-entry manifest:media-type="application/vnd.sun.star.configuration-data" manifest:full-path="dictionaries.xcu"/>
     <manifest:file-entry manifest:media-type="application/vnd.sun.star.package-bundle-description" manifest:full-path="package-description.txt"/>
+    <manifest:file-entry manifest:media-type="application/vnd.sun.star.configuration-data" manifest:full-path="ui/addons.xcu"/>
+    <manifest:file-entry manifest:media-type="application/vnd.sun.star.uno-component;type=Python" manifest:full-path="DictionarySwitcher.py"/>
 </manifest:manifest>
