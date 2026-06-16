@@ -11,12 +11,11 @@ $(eval $(call gb_Dictionary_Dictionary,dict-nl,dictionaries/nl_NL))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-nl,\
 	dictionaries/nl_NL/hyph_nl_NL.dic \
-	dictionaries/nl_NL/license_en_EN.txt \
-	dictionaries/nl_NL/licentie_nl_NL.txt \
+	dictionaries/nl_NL/LICENSE.txt \
 	dictionaries/nl_NL/nl_NL.aff \
 	dictionaries/nl_NL/nl_NL.dic \
-	dictionaries/nl_NL/OpenTaal.png \
-	dictionaries/nl_NL/README_NL.txt \
+	dictionaries/nl_NL/opentaal-logo.png \
+	dictionaries/nl_NL/README.md \
 ))
 
 # vim: set noet sw=4 ts=4:

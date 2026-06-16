@@ -10,7 +10,7 @@
                 <value>DICT_SPELL</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>nl-NL nl-BE</value>
+                <value>nl-AW nl-BE nl-NL nl-SR</value>
             </prop>
         </node>
         <node oor:name="HyphDic_nl-NL" oor:op="fuse">
@@ -21,12 +21,10 @@
                 <value>DICT_HYPH</value>
             </prop>
             <prop oor:name="Locales" oor:type="oor:string-list">
-                <value>nl-NL nl-BE</value>
+                <value>nl-AW nl-BE nl-NL nl-SR</value>
             </prop>
         </node>
 
     </node>
  </node>
 </oor:component-data>
-
-
