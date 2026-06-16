@@ -10,19 +10,19 @@
 $(eval $(call gb_Dictionary_Dictionary,dict-fr,dictionaries/fr_FR))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-fr,\
-	dictionaries/fr_FR/fr.aff \
-	dictionaries/fr_FR/fr.dic \
-	dictionaries/fr_FR/hyph_fr.dic \
-	dictionaries/fr_FR/hyph-fr.tex \
-	dictionaries/fr_FR/icon.png \
+	dictionaries/fr_FR/dictionaries/fr.aff \
+	dictionaries/fr_FR/dictionaries/fr.dic \
+	dictionaries/fr_FR/dictionaries/hyph_fr.dic \
+	dictionaries/fr_FR/dictionaries/hyph-fr.tex \
+	dictionaries/fr_FR/french_flag.png \
 	dictionaries/fr_FR/package-description.txt \
-	dictionaries/fr_FR/README_fr.txt \
-	dictionaries/fr_FR/README_hyph_fr.txt \
-	dictionaries/fr_FR/README_thes_fr.txt \
+	dictionaries/fr_FR/dictionaries/README_dict_fr.txt \
+	dictionaries/fr_FR/dictionaries/README_hyph_fr-3.0.txt \
+	dictionaries/fr_FR/dictionaries/README_thes_fr.txt \
 ))
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-fr,\
-	dictionaries/fr_FR/thes_fr.dat \
+	dictionaries/fr_FR/dictionaries/thes_fr.dat \
 ))
 
 # vim: set noet sw=4 ts=4:
