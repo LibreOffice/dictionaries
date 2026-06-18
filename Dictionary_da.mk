@@ -39,7 +39,6 @@ $(eval $(call gb_Dictionary_add_files,dict-da,Images,\
 
 $(eval $(call gb_Dictionary_add_thesauri,dict-da,\
 	dictionaries/da_DK/th_da_DK.dat \
-	dictionaries/da_DK/th_da_DK.idx \
 ))
 
 # vim: set noet sw=4 ts=4:
