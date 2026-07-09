@@ -9,6 +9,7 @@
     <version value="7.7" />
     <identifier value="French.linguistic.resources.from.Dicollecte.by.OlivierR" />
     <display-name>
+        <name lang="en-US">French spelling dictionary, hyphenation rules, and thesaurus</name>
         <name lang="fr">Dictionnaires français.</name>
     </display-name>
     <platform value="all" />
