@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<oor:component-data
-      xmlns:oor="http://openoffice.org/2001/registry"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
-      oor:package="org.openoffice.Office"
-      oor:name="Addons">
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:package="org.openoffice.Office" oor:name="Addons">
   <node oor:name="AddonUI">
     <node oor:name="OfficeMenuBarMerging">
       <node oor:name="org.openoffice.Office.addon.FrenchDictionarySwitcher" oor:op="replace">
@@ -23,7 +19,6 @@
                 <value>com.sun.star.text.TextDocument</value>
               </prop>
               <prop oor:name="Title" oor:type="xs:string">
-                <value/>
                 <value xml:lang="en-US">French spelling dictionaries…</value>
                 <value xml:lang="fr">Dictionnaires orthographiques français…</value>
                 <value xml:lang="ar">قواميس الهجاء الفرنسية</value>
