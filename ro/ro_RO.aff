@@ -1,4 +1,4 @@
-# word list version 3.3.8
+# word list version 3.3.10
 SET UTF-8
 TRY iaăâșțîertolncusmpdbgfzvhjxkwyqACDM
 KEY qwertyuiop|asdfghjkl|zxcvbnm
@@ -1003,9 +1003,10 @@ SFX r gă gi gă          s.f.pl.neart.
 SFX r gă gile gă          s.f.pl.art.
 SFX r gă gilor gă          s.f.pl.dat.
 
-SFX R Y 72
+SFX R Y 73
+SFX R 0 i că
 SFX R șcă șca șcă                    s.f.sg.art
-SFX R șcă șcao șcă
+SFX R șcă șco șcă
 SFX R șcă știi [^a]șcă                    s.f.sg.dat
 SFX R șcă ști [^a]șcă                    s.f.pl.neart.
 SFX R șcă știle [^a]șcă                    s.f.pl.art.
