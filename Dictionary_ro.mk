@@ -15,7 +15,6 @@ $(eval $(call gb_Dictionary_add_root_files,dict-ro,\
 	dictionaries/ro/COPYING.MPL \
 	dictionaries/ro/hyph_ro_RO.dic \
 	dictionaries/ro/README_EN.txt \
-	dictionaries/ro/README_RO.txt \
 	dictionaries/ro/ro_RO.aff \
 	dictionaries/ro/ro_RO.dic \
 ))
