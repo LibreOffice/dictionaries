@@ -17,7 +17,7 @@ $(eval $(call gb_Dictionary_add_root_files,dict-fr,\
 	dictionaries/fr_FR/french_flag.png \
 	dictionaries/fr_FR/package-description.txt \
 	dictionaries/fr_FR/dictionaries/README_dict_fr.txt \
-	dictionaries/fr_FR/dictionaries/README_hyph_fr-3.0.txt \
+	dictionaries/fr_FR/dictionaries/README_hyph_fr.txt \
 	dictionaries/fr_FR/dictionaries/README_thes_fr.txt \
 ))
 
