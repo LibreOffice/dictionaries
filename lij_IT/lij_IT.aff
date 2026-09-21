@@ -1,0 +1,1230 @@
+# Diçionäio ligure (zeneise)
+#
+# Copyright © 2019-2026 Jean Maillard
+#
+# Email: jean (at) maillard (dot) it
+#
+# This file is distributed under the MIT license.
+
+NAME Diçionäio ligure (zeneise)
+LANG lij_IT
+HOME https://conseggio-ligure.org/
+VERSION 26.0921
+SET UTF-8
+
+KEY qwertyuiop|asdfghjkl|zxcvbnm
+TRY AÀÂÄÆBCÇDEÉÈÊËFGHIÌÎÏLMNÑOÓÒÔÖPQRSTUÙÛÜVXZJKWYaàâäæbcçdeéèêëfghiìîïlmnñoóòôöpqrstuùûüvxzjkwy
+WORDCHARS '’-0123456789ºª°
+
+MAP 10
+MAP aâäAÂÄ
+MAP cçCÇ
+MAP çsÇs
+MAP szSZ
+MAP eéèêëEÉÈÊË
+MAP è(ae)æÈ(AE)(Ae)Æ
+MAP iìîïIÌÎÏ
+MAP oóòôöOÓÒÔÖ
+MAP uùûüUÙÛÜ
+MAP (eu)öø(EU)(Eu)ÖØ
+
+REP 38
+REP á à
+REP b bb
+REP bb b
+REP c cc
+REP cc c
+REP d dd
+REP dd d
+REP f ff
+REP ff f
+REP g gg
+REP gg g
+REP gl gg
+REP í ì
+REP l ll
+REP ll l
+REP m mm
+REP mm m
+REP n nn
+REP nb mb
+REP nn n
+REP np mp
+REP p pp
+REP pp p
+REP r rr
+REP rr r
+REP s ss
+REP si sci
+REP ss s
+REP t tt
+REP tt t
+REP ú ù
+REP v vv
+REP vv v
+REP z zz
+REP zi çi
+REP zz z
+REP zion çion
+REP nn- ñ
+
+FLAG long
+
+FORBIDDENWORD **
+NEEDAFFIX ~~
+SUBSTANDARD --
+NOSUGGEST !!
+
+# Accent conversion inputs are intentionally decomposed (NFD).
+ICONV 47
+ICONV ’ '
+ICONV ° º
+ICONV ﬃ ffi
+ICONV ﬄ ffl
+ICONV ﬀ ff
+ICONV ﬁ fi
+ICONV ﬂ fl
+ICONV à à
+ICONV â â
+ICONV ä ä
+ICONV é é
+ICONV è è
+ICONV ê ê
+ICONV ë ë
+ICONV ì ì
+ICONV î î
+ICONV ï ï
+ICONV ñ ñ
+ICONV ó ó
+ICONV ò ò
+ICONV ô ô
+ICONV ö ö
+ICONV ù ù
+ICONV û û
+ICONV ü ü
+ICONV ÿ ÿ
+ICONV ç ç
+ICONV À À
+ICONV Â Â
+ICONV Ä Ä
+ICONV É É
+ICONV È È
+ICONV Ê Ê
+ICONV Ë Ë
+ICONV Ì Ì
+ICONV Î Î
+ICONV Ï Ï
+ICONV Ñ Ñ
+ICONV Ó Ó
+ICONV Ò Ò
+ICONV Ô Ô
+ICONV Ö Ö
+ICONV Ù Ù
+ICONV Û Û
+ICONV Ü Ü
+ICONV Ÿ Ÿ
+ICONV Ç Ç
+
+OCONV 1
+OCONV ' ’
+
+COMPOUNDMIN 1
+COMPOUNDWORDMAX 7
+ONLYINCOMPOUND nY
+MAXCPDSUGS 0
+
+COMPOUNDRULE 129
+COMPOUNDRULE (n0)(nf)
+COMPOUNDRULE (n1)(ne)
+COMPOUNDRULE (n3)(nd)
+COMPOUNDRULE (n3)(nc)
+COMPOUNDRULE (n3)(n2)
+COMPOUNDRULE (n4)(nX)
+COMPOUNDRULE (n3)(nZ)(nf)
+COMPOUNDRULE (n4)(nV)(nf)
+COMPOUNDRULE (n3)(na)(ne)
+COMPOUNDRULE (n4)(nW)(ne)
+COMPOUNDRULE (n5)(n6)
+COMPOUNDRULE (n0)(nQ)(n6)
+COMPOUNDRULE (n1)(nR)(n6)
+COMPOUNDRULE (n7)(n6)
+COMPOUNDRULE (nS)(nb)
+COMPOUNDRULE (nS)(n0)(nf)
+COMPOUNDRULE (nS)(n1)(ne)
+COMPOUNDRULE (nS)(n3)(nd)
+COMPOUNDRULE (nS)(n3)(nc)
+COMPOUNDRULE (nS)(n3)(n2)
+COMPOUNDRULE (nS)(n4)(nX)
+COMPOUNDRULE (nS)(n3)(nZ)(nf)
+COMPOUNDRULE (nS)(n4)(nV)(nf)
+COMPOUNDRULE (nS)(n3)(na)(ne)
+COMPOUNDRULE (nS)(n4)(nW)(ne)
+COMPOUNDRULE (n5)(n6)(nb)
+COMPOUNDRULE (n5)(n6)(n0)(nf)
+COMPOUNDRULE (n5)(n6)(n1)(ne)
+COMPOUNDRULE (n5)(n6)(n3)(nd)
+COMPOUNDRULE (n5)(n6)(n3)(nc)
+COMPOUNDRULE (n5)(n6)(n3)(n2)
+COMPOUNDRULE (n5)(n6)(n4)(nX)
+COMPOUNDRULE (n5)(n6)(n3)(nZ)(nf)
+COMPOUNDRULE (n5)(n6)(n4)(nV)(nf)
+COMPOUNDRULE (n5)(n6)(n3)(na)(ne)
+COMPOUNDRULE (n5)(n6)(n4)(nW)(ne)
+COMPOUNDRULE (n0)(nQ)(n6)(nb)
+COMPOUNDRULE (n0)(nQ)(n6)(n0)(nf)
+COMPOUNDRULE (n0)(nQ)(n6)(n1)(ne)
+COMPOUNDRULE (n0)(nQ)(n6)(n3)(nd)
+COMPOUNDRULE (n0)(nQ)(n6)(n3)(nc)
+COMPOUNDRULE (n0)(nQ)(n6)(n3)(n2)
+COMPOUNDRULE (n0)(nQ)(n6)(n4)(nX)
+COMPOUNDRULE (n0)(nQ)(n6)(n3)(nZ)(nf)
+COMPOUNDRULE (n0)(nQ)(n6)(n4)(nV)(nf)
+COMPOUNDRULE (n0)(nQ)(n6)(n3)(na)(ne)
+COMPOUNDRULE (n0)(nQ)(n6)(n4)(nW)(ne)
+COMPOUNDRULE (n1)(nR)(n6)(nb)
+COMPOUNDRULE (n1)(nR)(n6)(n0)(nf)
+COMPOUNDRULE (n1)(nR)(n6)(n1)(ne)
+COMPOUNDRULE (n1)(nR)(n6)(n3)(nd)
+COMPOUNDRULE (n1)(nR)(n6)(n3)(nc)
+COMPOUNDRULE (n1)(nR)(n6)(n3)(n2)
+COMPOUNDRULE (n1)(nR)(n6)(n4)(nX)
+COMPOUNDRULE (n1)(nR)(n6)(n3)(nZ)(nf)
+COMPOUNDRULE (n1)(nR)(n6)(n4)(nV)(nf)
+COMPOUNDRULE (n1)(nR)(n6)(n3)(na)(ne)
+COMPOUNDRULE (n1)(nR)(n6)(n4)(nW)(ne)
+COMPOUNDRULE (nH)(nL)
+COMPOUNDRULE (nI)(nM)
+COMPOUNDRULE (nJ)(nN)
+COMPOUNDRULE (nK)(nM)
+COMPOUNDRULE (nK)(nL)
+COMPOUNDRULE (n8)(n9)(nM)
+COMPOUNDRULE (n8)(n9)(nL)
+COMPOUNDRULE (nA)(nB)(nM)
+COMPOUNDRULE (nA)(nB)(nL)
+COMPOUNDRULE (nC)(nM)
+COMPOUNDRULE (nD)(nE)(nM)
+COMPOUNDRULE (nF)(nG)(nM)
+COMPOUNDRULE (nD)(nT)
+COMPOUNDRULE (nF)(nU)(nM)
+COMPOUNDRULE (nD)(nE)(n9)(nM)
+COMPOUNDRULE (nF)(nG)(n9)(nM)
+COMPOUNDRULE (nD)(na)(nB)(nM)
+COMPOUNDRULE (nF)(nW)(nB)(nM)
+COMPOUNDRULE (nP)(nM)
+COMPOUNDRULE (ng)(nn)
+COMPOUNDRULE (n0)(ni)(nn)
+COMPOUNDRULE (n1)(nj)(nn)
+COMPOUNDRULE (n3)(nk)(nn)
+COMPOUNDRULE (n3)(nl)(nn)
+COMPOUNDRULE (n4)(nm)(nn)
+COMPOUNDRULE (n3)(nZ)(ni)(nn)
+COMPOUNDRULE (n4)(nV)(ni)(nn)
+COMPOUNDRULE (n3)(na)(nj)(nn)
+COMPOUNDRULE (n4)(nW)(nj)(nn)
+COMPOUNDRULE (nS)(nh)(nn)
+COMPOUNDRULE (nS)(n0)(ni)(nn)
+COMPOUNDRULE (nS)(n1)(nj)(nn)
+COMPOUNDRULE (nS)(n3)(nk)(nn)
+COMPOUNDRULE (nS)(n3)(nl)(nn)
+COMPOUNDRULE (nS)(n4)(nm)(nn)
+COMPOUNDRULE (nS)(n3)(nZ)(ni)(nn)
+COMPOUNDRULE (nS)(n4)(nV)(ni)(nn)
+COMPOUNDRULE (nS)(n3)(na)(nj)(nn)
+COMPOUNDRULE (nS)(n4)(nW)(nj)(nn)
+COMPOUNDRULE (n5)(n6)(nh)(nn)
+COMPOUNDRULE (n5)(n6)(n0)(ni)(nn)
+COMPOUNDRULE (n5)(n6)(n1)(nj)(nn)
+COMPOUNDRULE (n5)(n6)(n3)(nk)(nn)
+COMPOUNDRULE (n5)(n6)(n3)(nl)(nn)
+COMPOUNDRULE (n5)(n6)(n4)(nm)(nn)
+COMPOUNDRULE (n5)(n6)(n3)(nZ)(ni)(nn)
+COMPOUNDRULE (n5)(n6)(n4)(nV)(ni)(nn)
+COMPOUNDRULE (n5)(n6)(n3)(na)(nj)(nn)
+COMPOUNDRULE (n5)(n6)(n4)(nW)(nj)(nn)
+COMPOUNDRULE (n0)(nQ)(n6)(nh)(nn)
+COMPOUNDRULE (n0)(nQ)(n6)(n0)(ni)(nn)
+COMPOUNDRULE (n0)(nQ)(n6)(n1)(nj)(nn)
+COMPOUNDRULE (n0)(nQ)(n6)(n3)(nk)(nn)
+COMPOUNDRULE (n0)(nQ)(n6)(n3)(nl)(nn)
+COMPOUNDRULE (n0)(nQ)(n6)(n4)(nm)(nn)
+COMPOUNDRULE (n0)(nQ)(n6)(n3)(nZ)(ni)(nn)
+COMPOUNDRULE (n0)(nQ)(n6)(n4)(nV)(ni)(nn)
+COMPOUNDRULE (n0)(nQ)(n6)(n3)(na)(nj)(nn)
+COMPOUNDRULE (n0)(nQ)(n6)(n4)(nW)(nj)(nn)
+COMPOUNDRULE (n1)(nR)(n6)(nh)(nn)
+COMPOUNDRULE (n1)(nR)(n6)(n0)(ni)(nn)
+COMPOUNDRULE (n1)(nR)(n6)(n1)(nj)(nn)
+COMPOUNDRULE (n1)(nR)(n6)(n3)(nk)(nn)
+COMPOUNDRULE (n1)(nR)(n6)(n3)(nl)(nn)
+COMPOUNDRULE (n1)(nR)(n6)(n4)(nm)(nn)
+COMPOUNDRULE (n1)(nR)(n6)(n3)(nZ)(ni)(nn)
+COMPOUNDRULE (n1)(nR)(n6)(n4)(nV)(ni)(nn)
+COMPOUNDRULE (n1)(nR)(n6)(n3)(na)(nj)(nn)
+COMPOUNDRULE (n1)(nR)(n6)(n4)(nW)(nj)(nn)
+COMPOUNDRULE (rM)?(rH)?(rT)?(rU)?
+COMPOUNDRULE (dG)*(dO)
+
+SFX 11 Y 5
+SFX 11 0 0/1'E' o
+SFX 11 o a/3'L' o
+SFX 11 o an/6'E' o
+SFX 11 o an/6'E' o
+SFX 11 o a/E2 o
+
+SFX 14 Y 81
+SFX 14 0 0/4'E' emmo
+SFX 14 emmo emo/4'E' [aàäâeèéëêiîïoôöòuæ]emmo
+SFX 14 emmo æ/5'E' [^cgh]emmo
+SFX 14 emmo iæ/5'E' [cg]emmo
+SFX 14 hemmo æ/5'E' hemmo
+SFX 14 emmo ava/1'E' [^cgh]emmo
+SFX 14 emmo iava/1'E' [cg]emmo
+SFX 14 hemmo ava/1'E' hemmo
+SFX 14 emmo avo/1'E'-- [^cgh]emmo
+SFX 14 emmo iavo/1'E'-- [cg]emmo
+SFX 14 hemmo avo/1'E'-- hemmo
+SFX 14 emmo avi/2' [^cgh]emmo
+SFX 14 emmo iavi/2' [cg]emmo
+SFX 14 hemmo avi/2' hemmo
+SFX 14 emmo ava/3'L' [^cgh]emmo
+SFX 14 emmo iava/3'L' [cg]emmo
+SFX 14 hemmo ava/3'L' hemmo
+SFX 14 emmo avimo/4'E' [^cgh]emmo
+SFX 14 emmo iavimo/4'E' [cg]emmo
+SFX 14 hemmo avimo/4'E' hemmo
+SFX 14 emmo avi/5'E' [^cgh]emmo
+SFX 14 emmo iavi/5'E' [cg]emmo
+SFX 14 hemmo avi/5'E' hemmo
+SFX 14 emmo avan/6'E' [^cgh]emmo
+SFX 14 emmo iavan/6'E' [cg]emmo
+SFX 14 hemmo avan/6'E' hemmo
+SFX 14 emmo iò/1'E' [^i]emmo
+SFX 14 emmo iö/1'E'-- [^i]emmo
+SFX 14 emmo ò/1'E' iemmo
+SFX 14 emmo iæ/2' [^i]emmo
+SFX 14 emmo æ/2' iemmo
+SFX 14 emmo ià/3'L' [^i]emmo
+SFX 14 emmo iâ/3'L'-- [^i]emmo
+SFX 14 emmo à/3'L' iemmo
+SFX 14 emmo ä/3'L'-- iemmo
+SFX 14 emmo iemo/4'E' [^i]emmo
+SFX 14 emmo emo/4'E' iemmo
+SFX 14 emmo iei/5'E' [^i]emmo
+SFX 14 emmo ei/5'E' iemmo
+SFX 14 emmo ian/6'E' [^i]emmo
+SFX 14 emmo an/6'E' iemmo
+SFX 14 emmo emmo/4'E' emmo
+SFX 14 emmo emo/4'E' [aàäâeèéëêiîïoôöòuæ]emmo
+SFX 14 emmo æ/5'E' [^cgh]emmo
+SFX 14 emmo iæ/5'E' [cg]emmo
+SFX 14 hemmo æ/5'E' hemmo
+SFX 14 emmo esse/1'E' emmo
+SFX 14 emmo esci/2' emmo
+SFX 14 emmo esse/3'L' emmo
+SFX 14 emmo escimo/4'E' emmo
+SFX 14 emmo esci/5'E' emmo
+SFX 14 emmo essan/6'E' emmo
+SFX 14 emmo ieiva/1'E' [^i]emmo
+SFX 14 emmo eiva/1'E' iemmo
+SFX 14 emmo iæ/1'E' [^i]emmo
+SFX 14 emmo æ/1'E' iemmo
+SFX 14 emmo iësci/2' [^i]emmo
+SFX 14 emmo ësci/2' iemmo
+SFX 14 emmo ieiva/3'L' [^i]emmo
+SFX 14 emmo eiva/3'L' iemmo
+SFX 14 emmo iæ/3'L' [^i]emmo
+SFX 14 emmo æ/3'L' iemmo
+SFX 14 emmo iëscimo/4'E' [^i]emmo
+SFX 14 emmo ëscimo/4'E' iemmo
+SFX 14 emmo iësci/5'E' [^i]emmo
+SFX 14 emmo ësci/5'E' iemmo
+SFX 14 emmo ieivan/6'E' [^i]emmo
+SFX 14 emmo eivan/6'E' iemmo
+SFX 14 emmo iæn/6'E' [^i]emmo
+SFX 14 emmo æn/6'E' iemmo
+SFX 14 emmo emmo/ENETES emmo
+SFX 14 emmo emo/ENETES [aàäâeèéëêiîïoôöòuæ]emmo
+SFX 14 emmo æ/ENEMEV [^cgh]emmo
+SFX 14 emmo iæ/ENEMEV [cg]emmo
+SFX 14 hemmo æ/ENEMEV hemmo
+SFX 14 emmo ando/ENEMETEVES [^cgh]emmo
+SFX 14 emmo iando/ENEMETEVES [cg]emmo
+SFX 14 hemmo ando/ENEMETEVES hemmo
+SFX 14 emmo â/O'ENEMETEVES [^cgh]emmo
+SFX 14 emmo iâ/O'ENEMETEVES [cg]emmo
+SFX 14 hemmo â/O'ENEMETEVES hemmo
+
+SFX 21 Y 51
+SFX 21 0 0/1'E' o
+SFX 21 o i/2' o
+SFX 21 o e/3'L' o
+SFX 21 o emmo/4'E' o
+SFX 21 o ei/5'E' o
+SFX 21 o an/6'E' o
+SFX 21 o eiva/1'E' o
+SFX 21 o eivo/1'E'-- o
+SFX 21 o eivi/2' o
+SFX 21 o eiva/3'L' o
+SFX 21 o eivimo/4'E' o
+SFX 21 o eivi/5'E' o
+SFX 21 o eivan/6'E' o
+SFX 21 o iò/1'E' o
+SFX 21 o iö/1'E'-- o
+SFX 21 o iæ/2' o
+SFX 21 o ià/3'L' o
+SFX 21 o iâ/3'L'-- o
+SFX 21 o iemo/4'E' o
+SFX 21 o iei/5'E' o
+SFX 21 o ian/6'E' o
+SFX 21 o e/1'E' o
+SFX 21 o i/2' o
+SFX 21 o e/3'L' o
+SFX 21 o emmo/4'E' o
+SFX 21 o ei/5'E' o
+SFX 21 o an/6'E' o
+SFX 21 o esse/1'E' o
+SFX 21 o esci/2' o
+SFX 21 o esse/3'L' o
+SFX 21 o escimo/4'E' o
+SFX 21 o esci/5'E' o
+SFX 21 o essan/6'E' o
+SFX 21 o ieiva/1'E' o
+SFX 21 o iæ/1'E' o
+SFX 21 o iësci/2' o
+SFX 21 o ieiva/3'L' o
+SFX 21 o iæ/3'L' o
+SFX 21 o iëscimo/4'E' o
+SFX 21 o iësci/5'E' o
+SFX 21 o ieivan/6'E' o
+SFX 21 o iæn/6'E' o
+SFX 21 o i/ENEMET o
+SFX 21 o emmo/ENETES o
+SFX 21 o ei/ENEMEV o
+SFX 21 o endo/ENEMETEVES o
+SFX 21 o ei/O'ENEMETEVES o
+SFX 21 o uo o
+SFX 21 o ua o
+SFX 21 o ui o
+SFX 21 o ue o
+
+SFX 31 Y 35
+SFX 31 0 0/1'E' o
+SFX 31 o i/2' [^cgi]o
+SFX 31 o hi/2' [cg]o
+SFX 31 io i/2' [cg]io
+SFX 31 o i/2' [^cg]io
+SFX 31 o e/3'L' [^cgi]o
+SFX 31 o he/3'L' [cg]o
+SFX 31 io e/3'L' [cg]io
+SFX 31 o e/3'L' [^cg]io
+SFX 31 o an/6'E' o
+SFX 31 o e/1'E' [^cgi]o
+SFX 31 o he/1'E' [cg]o
+SFX 31 io e/1'E' [cg]io
+SFX 31 o e/1'E' [^cg]io
+SFX 31 o i/2' [^cgi]o
+SFX 31 o hi/2' [cg]o
+SFX 31 io i/2' [cg]io
+SFX 31 o i/2' [^cg]io
+SFX 31 o e/3'L' [^cgi]o
+SFX 31 o he/3'L' [cg]o
+SFX 31 io e/3'L' [cg]io
+SFX 31 o e/3'L' [^cg]io
+SFX 31 o an/6'E' o
+SFX 31 o i/ENEMET [^cgi]o
+SFX 31 o hi/ENEMET [cg]o
+SFX 31 io i/ENEMET [cg]io
+SFX 31 o i/ENEMET [^cg]io
+SFX 31 o e/O' [^cgi]o
+SFX 31 o he/O' [cg]o
+SFX 31 io e/O' [cg]io
+SFX 31 o e/O' [^cg]io
+SFX 31 o i/O'ENEMETEVES~~ [^cgi]o
+SFX 31 o hi/O'ENEMETEVES~~ [cg]o
+SFX 31 io i/O'ENEMETEVES~~ [cg]io
+SFX 31 o i/O'ENEMETEVES~~ [^cg]io
+
+SFX 34 Y 57
+SFX 34 0 0/4'E' emmo
+SFX 34 emmo emo/4'E' [aàäâeèéëêiîïoôöòuæ]emmo
+SFX 34 emmo ei/5'E' emmo
+SFX 34 emmo eiva/1'E' emmo
+SFX 34 emmo eivo/1'E'-- emmo
+SFX 34 emmo eivi/2' emmo
+SFX 34 emmo eiva/3'L' emmo
+SFX 34 emmo eivimo/4'E' emmo
+SFX 34 emmo eivi/5'E' emmo
+SFX 34 emmo eivan/6'E' emmo
+SFX 34 emmo iò/1'E' [^i]emmo
+SFX 34 emmo iö/1'E'-- [^i]emmo
+SFX 34 emmo ò/1'E' iemmo
+SFX 34 emmo ö/1'E'-- iemmo
+SFX 34 emmo iæ/2' [^i]emmo
+SFX 34 emmo æ/2' iemmo
+SFX 34 emmo ià/3'L' [^i]emmo
+SFX 34 emmo iâ/3'L'-- [^i]emmo
+SFX 34 emmo à/3'L' iemmo
+SFX 34 emmo ä/3'L'-- iemmo
+SFX 34 emmo iemo/4'E' [^i]emmo
+SFX 34 emmo emo/4'E' iemmo
+SFX 34 emmo iei/5'E' [^i]emmo
+SFX 34 emmo ei/5'E' iemmo
+SFX 34 emmo ian/6'E' [^i]emmo
+SFX 34 emmo an/6'E' iemmo
+SFX 34 emmo emmo/4'E' emmo
+SFX 34 emmo emo/4'E' [aàäâeèéëêiîïoôöòuæ]emmo
+SFX 34 emmo ei/5'E' emmo
+SFX 34 emmo esse/1'E' emmo
+SFX 34 emmo esci/2' emmo
+SFX 34 emmo esse/3'L' emmo
+SFX 34 emmo escimo/4'E' emmo
+SFX 34 emmo esci/5'E' emmo
+SFX 34 emmo essan/6'E' emmo
+SFX 34 emmo ieiva/1'E' [^i]emmo
+SFX 34 emmo eiva/1'E' iemmo
+SFX 34 emmo iæ/1'E' [^i]emmo
+SFX 34 emmo æ/1'E' iemmo
+SFX 34 emmo iësci/2' [^i]emmo
+SFX 34 emmo ësci/2' iemmo
+SFX 34 emmo ieiva/3'L' [^i]emmo
+SFX 34 emmo eiva/3'L' iemmo
+SFX 34 emmo iæ/3'L' [^i]emmo
+SFX 34 emmo æ/3'L' iemmo
+SFX 34 emmo iëscimo/4'E' [^i]emmo
+SFX 34 emmo ëscimo/4'E' iemmo
+SFX 34 emmo iësci/5'E' [^i]emmo
+SFX 34 emmo ësci/5'E' iemmo
+SFX 34 emmo ieivan/6'E' [^i]emmo
+SFX 34 emmo eivan/6'E' iemmo
+SFX 34 emmo iæn/6'E' [^i]emmo
+SFX 34 emmo æn/6'E' iemmo
+SFX 34 emmo emmo/ENETES emmo
+SFX 34 emmo emo/ENETES [aàäâeèéëêiîïoôöòuæ]emmo
+SFX 34 emmo ei/ENEMEV emmo
+SFX 34 emmo endo/ENEMETEVES emmo
+
+SFX 41 Y 27
+SFX 41 0 0/1'E' o
+SFX 41 o i/2' [^cgi]o
+SFX 41 o hi/2' [cg]o
+SFX 41 io i/2' [cg]io
+SFX 41 o i/2' [^cg]io
+SFX 41 o e/3'L' [^cgi]o
+SFX 41 o he/3'L' [cg]o
+SFX 41 io e/3'L' [cg]io
+SFX 41 o e/3'L' [^cg]io
+SFX 41 o an/6'E' o
+SFX 41 o e/1'E' [^cgi]o
+SFX 41 o he/1'E' [cg]o
+SFX 41 io e/1'E' [cg]io
+SFX 41 o e/1'E' [^cg]io
+SFX 41 o i/2' [^cgi]o
+SFX 41 o hi/2' [cg]o
+SFX 41 io i/2' [cg]io
+SFX 41 o i/2' [^cg]io
+SFX 41 o e/3'L' [^cgi]o
+SFX 41 o he/3'L' [cg]o
+SFX 41 io e/3'L' [cg]io
+SFX 41 o e/3'L' [^cg]io
+SFX 41 o an/6'E' o
+SFX 41 o i/ENEMET [^cgi]o
+SFX 41 o hi/ENEMET [cg]o
+SFX 41 io i/ENEMET [cg]io
+SFX 41 o i/ENEMET [^cg]io
+
+SFX 44 Y 41
+SFX 44 0 0/4'E' immo
+SFX 44 immo imo/4'E' [aàäâeèéëêiîïoôöòuæ]immo
+SFX 44 immo î/5'E' immo
+SFX 44 immo iva/1'E' immo
+SFX 44 immo ivo/1'E'-- immo
+SFX 44 immo ivi/2' immo
+SFX 44 immo iva/3'L' immo
+SFX 44 immo ivimo/4'E' immo
+SFX 44 immo ivi/5'E' immo
+SFX 44 immo ivan/6'E' immo
+SFX 44 immo iò/1'E' immo
+SFX 44 immo iö/1'E'-- immo
+SFX 44 immo iæ/2' immo
+SFX 44 immo ià/3'L' immo
+SFX 44 immo iâ/3'L'-- immo
+SFX 44 immo iemo/4'E' immo
+SFX 44 immo iei/5'E' immo
+SFX 44 immo ian/6'E' immo
+SFX 44 0 0/4'E' immo
+SFX 44 immo imo/4'E' [aàäâeèéëêiîïoôöòuæ]immo
+SFX 44 immo î/5'E' immo
+SFX 44 immo isse/1'E' immo
+SFX 44 immo isci/2' immo
+SFX 44 immo isse/3'L' immo
+SFX 44 immo iscimo/4'E' immo
+SFX 44 immo isci/5'E' immo
+SFX 44 immo issan/6'E' immo
+SFX 44 immo ieiva/1'E' immo
+SFX 44 immo iæ/1'E' immo
+SFX 44 immo iësci/2' immo
+SFX 44 immo ieiva/3'L' immo
+SFX 44 immo iæ/3'L' immo
+SFX 44 immo iëscimo/4'E' immo
+SFX 44 immo iësci/5'E' immo
+SFX 44 immo ieivan/6'E' immo
+SFX 44 immo iæn/6'E' immo
+SFX 44 0 0/ENETES immo
+SFX 44 immo imo/ENETES [aàäâeèéëêiîïoôöòuæ]immo
+SFX 44 immo î/ENEMEV immo
+SFX 44 immo indo/ENEMETEVES immo
+SFX 44 immo î/O'ENEMETEVES immo
+
+PFX E' Y 7
+PFX E' 0 ch' [aàäâeèéëêiîïoôöòuæ]
+PFX E' 0 s' [aàäâeèéëêiîïoôöòuæ]
+PFX E' 0 comm' [aàäâeèéëêiîïoôöòuæ]
+PFX E' 0 quand' [aàäâeèéëêiîïoôöòuæ]
+PFX E' 0 dond' [aàäâeèéëêiîïoôöòuæ]
+PFX E' 0 cös' [aàäâeèéëêiîïoôöòuæ]
+PFX E' 0 quant' [aàäâeèéëêiîïoôöòuæ]
+
+PFX e' Y 7
+PFX e' 0 ch'/-- [aàäâeèéëêiîïoôöòuæ]
+PFX e' 0 s'/-- [aàäâeèéëêiîïoôöòuæ]
+PFX e' 0 comm'/-- [aàäâeèéëêiîïoôöòuæ]
+PFX e' 0 quand'/-- [aàäâeèéëêiîïoôöòuæ]
+PFX e' 0 dond'/-- [aàäâeèéëêiîïoôöòuæ]
+PFX e' 0 cös'/-- [aàäâeèéëêiîïoôöòuæ]
+PFX e' 0 quant'/-- [aàäâeèéëêiîïoôöòuæ]
+
+PFX P' Y 6
+PFX P' 0 m' [aàäâeèéëêiîïoôöòuæ]
+PFX P' 0 t' [aàäâeèéëêiîïoôöòuæ]
+PFX P' 0 gh' [aàäâeèéëêiîïoôöòuæ]
+PFX P' 0 n' [aàäâeèéëêiîïoôöòuæ]
+PFX P' 0 v' [aàäâeèéëêiîïoôöòuæ]
+PFX P' 0 s' [aàäâeèéëêiîïoôöòuæ]
+
+PFX 1' Y 6
+PFX 1' 0 m' [aàäâeèéëêiîïoôöòuæ]
+PFX 1' 0 t' [aàäâeèéëêiîïoôöòuæ]
+PFX 1' 0 l' [aàäâeèéëêiîïoôöòuæ]
+PFX 1' 0 gh' [aàäâeèéëêiîïoôöòuæ]
+PFX 1' 0 n' [aàäâeèéëêiîïoôöòuæ]
+PFX 1' 0 v' [aàäâeèéëêiîïoôöòuæ]
+
+PFX 2' Y 5
+PFX 2' 0 m' [aàäâeèéëêiîïoôöòuæ]
+PFX 2' 0 t' [aàäâeèéëêiîïoôöòuæ]
+PFX 2' 0 l' [aàäâeèéëêiîïoôöòuæ]
+PFX 2' 0 gh' [aàäâeèéëêiîïoôöòuæ]
+PFX 2' 0 n' [aàäâeèéëêiîïoôöòuæ]
+
+PFX 3' Y 7
+PFX 3' 0 m' [aàäâeèéëêiîïoôöòuæ]
+PFX 3' 0 t' [aàäâeèéëêiîïoôöòuæ]
+PFX 3' 0 l' [aàäâeèéëêiîïoôöòuæ]
+PFX 3' 0 gh' [aàäâeèéëêiîïoôöòuæ]
+PFX 3' 0 n' [aàäâeèéëêiîïoôöòuæ]
+PFX 3' 0 v' [aàäâeèéëêiîïoôöòuæ]
+PFX 3' 0 s' [aàäâeèéëêiîïoôöòuæ]
+
+PFX L' Y 1
+PFX L' 0 l' [aàäâeèéëêiîïoôöòuæ]
+
+PFX 4' Y 6
+PFX 4' 0 t' [aàäâeèéëêiîïoôöòuæ]
+PFX 4' 0 l' [aàäâeèéëêiîïoôöòuæ]
+PFX 4' 0 gh' [aàäâeèéëêiîïoôöòuæ]
+PFX 4' 0 n' [aàäâeèéëêiîïoôöòuæ]
+PFX 4' 0 v' [aàäâeèéëêiîïoôöòuæ]
+PFX 4' 0 s' [aàäâeèéëêiîïoôöòuæ]
+
+PFX 5' Y 5
+PFX 5' 0 m' [aàäâeèéëêiîïoôöòuæ]
+PFX 5' 0 l' [aàäâeèéëêiîïoôöòuæ]
+PFX 5' 0 gh' [aàäâeèéëêiîïoôöòuæ]
+PFX 5' 0 n' [aàäâeèéëêiîïoôöòuæ]
+PFX 5' 0 v' [aàäâeèéëêiîïoôöòuæ]
+
+PFX 6' Y 7
+PFX 6' 0 m' [aàäâeèéëêiîïoôöòuæ]
+PFX 6' 0 t' [aàäâeèéëêiîïoôöòuæ]
+PFX 6' 0 l' [aàäâeèéëêiîïoôöòuæ]
+PFX 6' 0 gh' [aàäâeèéëêiîïoôöòuæ]
+PFX 6' 0 n' [aàäâeèéëêiîïoôöòuæ]
+PFX 6' 0 v' [aàäâeèéëêiîïoôöòuæ]
+PFX 6' 0 s' [aàäâeèéëêiîïoôöòuæ]
+
+SFX EN Y 20
+SFX EN 0 ghe .
+SFX EN 0 ghene .
+SFX EN 0 ghelo .
+SFX EN 0 gheo .
+SFX EN 0 ghela .
+SFX EN 0 ghea .
+SFX EN 0 gheli .
+SFX EN 0 ghei .
+SFX EN 0 ghele .
+SFX EN 0 ghee .
+SFX EN 0 ne .
+SFX EN 0 ne .
+SFX EN 0 lo .
+SFX EN 0 o [^âîaeiou]
+SFX EN 0 la .
+SFX EN 0 a [^âîaeiou]
+SFX EN 0 li .
+SFX EN 0 i [^âîaeiou]
+SFX EN 0 le .
+SFX EN 0 e [^âîaeiou]
+
+SFX EM Y 12
+SFX EM 0 me .
+SFX EM 0 mene .
+SFX EM 0 meghe .
+SFX EM 0 meghe .
+SFX EM 0 melo .
+SFX EM 0 meo .
+SFX EM 0 mela .
+SFX EM 0 mea .
+SFX EM 0 meli .
+SFX EM 0 mei .
+SFX EM 0 mele .
+SFX EM 0 mee .
+
+SFX ET Y 12
+SFX ET 0 te .
+SFX ET 0 tene .
+SFX ET 0 teghe .
+SFX ET 0 teghe .
+SFX ET 0 telo .
+SFX ET 0 teo .
+SFX ET 0 tela .
+SFX ET 0 tea .
+SFX ET 0 teli .
+SFX ET 0 tei .
+SFX ET 0 tele .
+SFX ET 0 tee .
+
+SFX ES Y 12
+SFX ES 0 se .
+SFX ES 0 sene .
+SFX ES 0 seghe .
+SFX ES 0 seghe .
+SFX ES 0 selo .
+SFX ES 0 seo .
+SFX ES 0 sela .
+SFX ES 0 sea .
+SFX ES 0 seli .
+SFX ES 0 sei .
+SFX ES 0 sele .
+SFX ES 0 see .
+
+SFX EV Y 12
+SFX EV 0 ve .
+SFX EV 0 vene .
+SFX EV 0 veghe .
+SFX EV 0 veghe .
+SFX EV 0 velo .
+SFX EV 0 veo .
+SFX EV 0 vela .
+SFX EV 0 vea .
+SFX EV 0 veli .
+SFX EV 0 vei .
+SFX EV 0 vele .
+SFX EV 0 vee .
+
+SFX E2 Y 38
+SFX E2 0 mme .
+SFX E2 0 mmene .
+SFX E2 0 mmelo .
+SFX E2 0 mmeo .
+SFX E2 0 mmela .
+SFX E2 0 mmea .
+SFX E2 0 mmeli .
+SFX E2 0 mmei .
+SFX E2 0 mmele .
+SFX E2 0 mmee .
+SFX E2 0 tte .
+SFX E2 0 ttene .
+SFX E2 0 tteghe .
+SFX E2 0 tteghe .
+SFX E2 0 ttelo .
+SFX E2 0 tteo .
+SFX E2 0 ttela .
+SFX E2 0 ttea .
+SFX E2 0 tteli .
+SFX E2 0 ttei .
+SFX E2 0 ttele .
+SFX E2 0 ttee .
+SFX E2 0 nne .
+SFX E2 0 nne .
+SFX E2 0 gghe .
+SFX E2 0 gghene .
+SFX E2 0 gghelo .
+SFX E2 0 ggheo .
+SFX E2 0 gghela .
+SFX E2 0 gghea .
+SFX E2 0 ggheli .
+SFX E2 0 gghei .
+SFX E2 0 gghele .
+SFX E2 0 gghee .
+SFX E2 0 llo .
+SFX E2 0 lla .
+SFX E2 0 lli .
+SFX E2 0 lle .
+
+PFX O' Y 10
+PFX O' 0 l' [AEIOUÆÄËÏÖaàäâeèéëêiîïoôöòuæ]
+PFX O' 0 L' [AEIOUÆÄËÏÖ]
+PFX O' 0 d' [AEIOUÆÄËÏÖaàäâeèéëêiîïoôöòuæ]
+PFX O' 0 D' [AEIOUÆÄËÏÖ]
+PFX O' 0 st' [AEIOUÆÄËÏÖaàäâeèéëêiîïoôöòuæ]
+PFX O' 0 St' [AEIOUÆÄËÏÖ]
+PFX O' 0 quest' [AEIOUÆÄËÏÖaàäâeèéëêiîïoôöòuæ]
+PFX O' 0 Quest' [AEIOUÆÄËÏÖ]
+PFX O' 0 quell' [AEIOUÆÄËÏÖaàäâeèéëêiîïoôöòuæ]
+PFX O' 0 Quell' [AEIOUÆÄËÏÖ]
+
+PFX A' Y 2
+PFX A' 0 unn' [aàäâeèéëêiîïoôöòuæ]
+PFX A' 0 'n' [aàäâeèéëêiîïoôöòuæ]
+
+PFX I' Y 1
+PFX I' 0 d' [aàäâeèéëêiîïoôöòuæ]
+
+SFX 1i Y 3
+SFX 1i 0 0/2' i
+SFX 1i 0 0/2' i
+SFX 1i 0 0/ENEMET~~ i
+
+SFX 1e Y 2
+SFX 1e 0 0/1'E' e
+SFX 1e 0 0/3'L' e
+
+SFX pp Y 13
+SFX pp 0 0 ou
+SFX pp ou æ ou
+SFX pp ou â ou
+SFX pp ou æ ou
+SFX pp 0 0 o
+SFX pp o a o
+SFX pp o i [^rsaàeèéioòuæ]so
+SFX pp so xi [aàeèéioòuæ]so
+SFX pp o ci rso
+SFX pp sso sci [^i]sso
+SFX pp o i isso
+SFX pp o i [^s]o
+SFX pp o e o
+
+SFX vd Y 59
+SFX vd 0 0/1'E' duo
+SFX vd o xi/2' duo
+SFX vd o xe/3'L' duo
+SFX vd o xemmo/4'E' duo
+SFX vd o xei/5'E' duo
+SFX vd o xan/6'E' duo
+SFX vd o xeiva/1'E' duo
+SFX vd o xeivo/1'E'-- duo
+SFX vd o iva/1'E' duo
+SFX vd o ivo/1'E'-- duo
+SFX vd o xeivi/2' duo
+SFX vd o ivi/2' duo
+SFX vd o xeiva/3'L' duo
+SFX vd o iva/3'L' duo
+SFX vd o xeivimo/4'E' duo
+SFX vd o ivimo/4'E' duo
+SFX vd o xeivi/5'E' duo
+SFX vd o ivi/5'E' duo
+SFX vd o xeivan/6'E' duo
+SFX vd o ivan/6'E' duo
+SFX vd o iò/1'E' duo
+SFX vd o iö/1'E'-- duo
+SFX vd o iæ/2' duo
+SFX vd o ià/3'L' duo
+SFX vd o iâ/3'L'-- duo
+SFX vd o iemo/4'E' duo
+SFX vd o iei/5'E' duo
+SFX vd o ian/6'E' duo
+SFX vd o xe/1'E' duo
+SFX vd o xi/2' duo
+SFX vd o xe/3'L' duo
+SFX vd o xemmo/4'E' duo
+SFX vd o xei/5'E' duo
+SFX vd o xan/6'E' duo
+SFX vd o xesse/1'E' duo
+SFX vd o xesci/2' duo
+SFX vd o xesse/3'L' duo
+SFX vd o xescimo/4'E' duo
+SFX vd o xesci/5'E' duo
+SFX vd o xessan/6'E' duo
+SFX vd o ieiva/1'E' duo
+SFX vd o iæ/1'E' duo
+SFX vd o iësci/2' duo
+SFX vd o ieiva/3'L' duo
+SFX vd o iæ/3'L' duo
+SFX vd o iëscimo/4'E' duo
+SFX vd o iësci/5'E' duo
+SFX vd o ieivan/6'E' duo
+SFX vd o iæn/6'E' duo
+SFX vd o xi/ENEMET duo
+SFX vd o xemmo/ENETES duo
+SFX vd o xei/ENEMEV duo
+SFX vd o xendo/ENEMETEVES duo
+SFX vd o e/O' duo
+SFX vd o i/O'ENEMETEVES~~ duo
+SFX vd o to duo
+SFX vd o ta duo
+SFX vd o ti duo
+SFX vd o te duo
+
+SFX vg Y 50
+SFX vg 0 0/1'E' aggo
+SFX vg aggo æ/2' aggo
+SFX vg aggo à/3'L' aggo
+SFX vg aggo emmo/4'E' aggo
+SFX vg aggo æ/5'E' aggo
+SFX vg aggo an/6'E' aggo
+SFX vg aggo ava/1'E' aggo
+SFX vg aggo avo/1'E'-- aggo
+SFX vg aggo avi/2' aggo
+SFX vg aggo ava/3'L' aggo
+SFX vg aggo avimo/4'E' aggo
+SFX vg aggo avi/5'E' aggo
+SFX vg aggo avan/6'E' aggo
+SFX vg aggo aiò/1'E' aggo
+SFX vg aggo aiö/1'E'-- aggo
+SFX vg aggo aiæ/2' aggo
+SFX vg aggo aià/3'L' aggo
+SFX vg aggo aiâ/3'L'-- aggo
+SFX vg aggo aiemo/4'E' aggo
+SFX vg aggo aiei/5'E' aggo
+SFX vg aggo aian/6'E' aggo
+SFX vg aggo agghe/1'E' aggo
+SFX vg aggo agghi/2' aggo
+SFX vg aggo agghe/3'L' aggo
+SFX vg aggo emmo/4'E' aggo
+SFX vg aggo æ/5'E' aggo
+SFX vg aggo aggan/6'E' aggo
+SFX vg aggo esse/1'E' aggo
+SFX vg aggo esci/2' aggo
+SFX vg aggo esse/3'L' aggo
+SFX vg aggo escimo/4'E' aggo
+SFX vg aggo esci/5'E' aggo
+SFX vg aggo essan/6'E' aggo
+SFX vg aggo aieiva/1'E' aggo
+SFX vg aggo aiæ/1'E' aggo
+SFX vg aggo aiësci/2' aggo
+SFX vg aggo aieiva/3'L' aggo
+SFX vg aggo aiæ/3'L' aggo
+SFX vg aggo aiëscimo/4'E' aggo
+SFX vg aggo aiësci/5'E' aggo
+SFX vg aggo aieivan/6'E' aggo
+SFX vg aggo aiæn/6'E' aggo
+SFX vg aggo anni/ENEMET aggo
+SFX vg aggo a/E2~~ aggo
+SFX vg aggo emmo/ENETES aggo
+SFX vg aggo æ/ENEMEV aggo
+SFX vg aggo æto aggo
+SFX vg aggo æta aggo
+SFX vg aggo æti aggo
+SFX vg aggo æte aggo
+
+SFX vh Y 5
+SFX vh 0 0/O'ENEMETEVES â
+SFX vh â ando/ENEMETEVES â
+SFX vh ae ae/O' ae
+SFX vh ae ai/O'ENEMETEVES~~ ae
+SFX vh ae ando/ENEMETEVES ae
+
+SFX vx Y 52
+SFX vx 0 0/1'E' o
+SFX vx o i/2' o
+SFX vx o e/3'L' o
+SFX vx o emmo/4'E' o
+SFX vx o ei/5'E' o
+SFX vx o an/6'E' o
+SFX vx o eiva/1'E' o
+SFX vx o eivo/1'E'-- o
+SFX vx o eivi/2' o
+SFX vx o eiva/3'L' o
+SFX vx o eivimo/4'E' o
+SFX vx o eivi/5'E' o
+SFX vx o eivan/6'E' o
+SFX vx o iò/1'E' o
+SFX vx o iö/1'E'-- o
+SFX vx o iæ/2' o
+SFX vx o ià/3'L' o
+SFX vx o iâ/3'L'-- o
+SFX vx o iemo/4'E' o
+SFX vx o iei/5'E' o
+SFX vx o ian/6'E' o
+SFX vx o e/1'E' o
+SFX vx o i/2' o
+SFX vx o e/3'L' o
+SFX vx o emmo/4'E' o
+SFX vx o ei/5'E' o
+SFX vx o an/6'E' o
+SFX vx o esse/1'E' o
+SFX vx o esci/2' o
+SFX vx o esse/3'L' o
+SFX vx o escimo/4'E' o
+SFX vx o esci/5'E' o
+SFX vx o essan/6'E' o
+SFX vx o ieiva/1'E' o
+SFX vx o iæ/1'E' o
+SFX vx o iësci/2' o
+SFX vx o ieiva/3'L' o
+SFX vx o iæ/3'L' o
+SFX vx o iëscimo/4'E' o
+SFX vx o iësci/5'E' o
+SFX vx o ieivan/6'E' o
+SFX vx o iæn/6'E' o
+SFX vx o i/ENEMET o
+SFX vx o emmo/ENETES o
+SFX vx o ei/ENEMEV o
+SFX vx o endo/ENEMETEVES o
+SFX vx o e/O' o
+SFX vx o i/O'ENEMETEVES~~ o
+SFX vx o io o
+SFX vx o ia o
+SFX vx o ii o
+SFX vx o ie o
+
+SFX vy Y 51
+SFX vy 0 0/1'E' o
+SFX vy o i/2' o
+SFX vy o e/3'L' o
+SFX vy o immo/4'E' o
+SFX vy o î/5'E' o
+SFX vy o an/6'E' o
+SFX vy o iva/1'E' o
+SFX vy o ivo/1'E'-- o
+SFX vy o ivi/2' o
+SFX vy o iva/3'L' o
+SFX vy o ivimo/4'E' o
+SFX vy o ivi/5'E' o
+SFX vy o ivan/6'E' o
+SFX vy o iò/1'E' o
+SFX vy o iö/1'E'-- o
+SFX vy o iæ/2' o
+SFX vy o ià/3'L' o
+SFX vy o iâ/3'L'-- o
+SFX vy o iemo/4'E' o
+SFX vy o iei/5'E' o
+SFX vy o ian/6'E' o
+SFX vy o e/1'E' o
+SFX vy o i/2' o
+SFX vy o e/3'L' o
+SFX vy o immo/4'E' o
+SFX vy o î/5'E' o
+SFX vy o an/6'E' o
+SFX vy o isse/1'E' o
+SFX vy o isci/2' o
+SFX vy o isse/3'L' o
+SFX vy o iscimo/4'E' o
+SFX vy o isci/5'E' o
+SFX vy o issan/6'E' o
+SFX vy o ieiva/1'E' o
+SFX vy o iæ/1'E' o
+SFX vy o iësci/2' o
+SFX vy o ieiva/3'L' o
+SFX vy o iæ/3'L' o
+SFX vy o iëscimo/4'E' o
+SFX vy o iësci/5'E' o
+SFX vy o ieivan/6'E' o
+SFX vy o iæn/6'E' o
+SFX vy o i/ENEMET o
+SFX vy o immo/ENETES o
+SFX vy o î/ENEMEV o
+SFX vy o indo/ENEMETEVES o
+SFX vy o î/O'ENEMETEVES o
+SFX vy o io o
+SFX vy o ia o
+SFX vy o ii o
+SFX vy o ie o
+
+SFX vc Y 66
+SFX vc 0 0/1'E' diggo
+SFX vc iggo ixi/2' diggo
+SFX vc iggo ixe/3'L' diggo
+SFX vc iggo immo/4'E' diggo
+SFX vc iggo î/5'E' diggo
+SFX vc iggo ixan/6'E' diggo
+SFX vc iggo ixeiva/1'E' diggo
+SFX vc iggo iva/1'E' diggo
+SFX vc iggo ixeivo/1'E'-- diggo
+SFX vc iggo ivo/1'E'-- diggo
+SFX vc iggo ixeivi/2' diggo
+SFX vc iggo ivi/2' diggo
+SFX vc iggo ixeiva/3'L' diggo
+SFX vc iggo iva/3'L' diggo
+SFX vc iggo ixeivimo/4'E' diggo
+SFX vc iggo ivimo/4'E' diggo
+SFX vc iggo ixeivi/5'E' diggo
+SFX vc iggo ivi/5'E' diggo
+SFX vc iggo ixeivan/6'E' diggo
+SFX vc iggo ivan/6'E' diggo
+SFX vc iggo iò/1'E' diggo
+SFX vc iggo iö/1'E'-- diggo
+SFX vc iggo iæ/2' diggo
+SFX vc iggo ià/3'L' diggo
+SFX vc iggo iâ/3'L'-- diggo
+SFX vc iggo iemo/4'E' diggo
+SFX vc iggo iei/5'E' diggo
+SFX vc iggo ian/6'E' diggo
+SFX vc iggo igghe/1'E' diggo
+SFX vc iggo igghi/2' diggo
+SFX vc iggo igghe/3'L' diggo
+SFX vc iggo immo/4'E' diggo
+SFX vc iggo î/5'E' diggo
+SFX vc iggo iggan/6'E' diggo
+SFX vc iggo isse/1'E' diggo
+SFX vc iggo ixesse/1'E' diggo
+SFX vc iggo isci/2' diggo
+SFX vc iggo ixesci/2' diggo
+SFX vc iggo isse/3'L' diggo
+SFX vc iggo ixesse/3'L' diggo
+SFX vc iggo iscimo/4'E' diggo
+SFX vc iggo ixescimo/4'E' diggo
+SFX vc iggo isci/5'E' diggo
+SFX vc iggo ixesci/5'E' diggo
+SFX vc iggo issan/6'E' diggo
+SFX vc iggo ixessan/6'E' diggo
+SFX vc iggo ieiva/1'E' diggo
+SFX vc iggo iæ/1'E' diggo
+SFX vc iggo iësci/2' diggo
+SFX vc iggo ieiva/3'L' diggo
+SFX vc iggo iæ/3'L' diggo
+SFX vc iggo iëscimo/4'E' diggo
+SFX vc iggo iësci/5'E' diggo
+SFX vc iggo ieivan/6'E' diggo
+SFX vc iggo iæn/6'E' diggo
+SFX vc iggo inni/ENEMET diggo
+SFX vc iggo i/E2~~ diggo
+SFX vc iggo immo/ENETES diggo
+SFX vc iggo î/ENEMEV diggo
+SFX vc iggo ixendo/ENEMETEVES diggo
+SFX vc iggo indo/ENEMETEVES diggo
+SFX vc iggo î/O'ENEMETEVES diggo
+SFX vc iggo ito diggo
+SFX vc iggo ita diggo
+SFX vc iggo iti diggo
+SFX vc iggo ite diggo
+
+SFX vf Y 60
+SFX vf 0 0/1'E' fasso
+SFX vf asso æ/2' fasso
+SFX vf asso a/3'L' fasso
+SFX vf asso emmo/4'E' fasso
+SFX vf asso æ/5'E' fasso
+SFX vf asso an/6'E' fasso
+SFX vf asso ava/1'E' fasso
+SFX vf asso axeiva/1'E' fasso
+SFX vf asso avo/1'E'-- fasso
+SFX vf asso axeivo/1'E'-- fasso
+SFX vf asso avi/2' fasso
+SFX vf asso axeivi/2' fasso
+SFX vf asso ava/3'L' fasso
+SFX vf asso axeiva/3'L' fasso
+SFX vf asso avimo/4'E' fasso
+SFX vf asso axeivimo/4'E' fasso
+SFX vf asso avi/5'E' fasso
+SFX vf asso axeivi/5'E' fasso
+SFX vf asso avan/6'E' fasso
+SFX vf asso axeivan/6'E' fasso
+SFX vf asso aiò/1'E' fasso
+SFX vf asso aiö/1'E'-- fasso
+SFX vf asso aiæ/2' fasso
+SFX vf asso aià/3'L' fasso
+SFX vf asso aiâ/3'L'-- fasso
+SFX vf asso aiemo/4'E' fasso
+SFX vf asso aiei/5'E' fasso
+SFX vf asso aian/6'E' fasso
+SFX vf asso asse/1'E' fasso
+SFX vf asso asci/2' fasso
+SFX vf asso asse/3'L' fasso
+SFX vf asso emmo/4'E' fasso
+SFX vf asso æ/5'E' fasso
+SFX vf asso assan/6'E' fasso
+SFX vf asso esse/1'E' fasso
+SFX vf asso esci/2' fasso
+SFX vf asso esse/3'L' fasso
+SFX vf asso escimo/4'E' fasso
+SFX vf asso esci/5'E' fasso
+SFX vf asso essan/6'E' fasso
+SFX vf asso aieiva/1'E' fasso
+SFX vf asso aiæ/1'E' fasso
+SFX vf asso aiësci/2' fasso
+SFX vf asso aieiva/3'L' fasso
+SFX vf asso aiæ/3'L' fasso
+SFX vf asso aiëscimo/4'E' fasso
+SFX vf asso aiësci/5'E' fasso
+SFX vf asso aieivan/6'E' fasso
+SFX vf asso aiæn/6'E' fasso
+SFX vf asso anni/ENEMET fasso
+SFX vf asso a/E2~~ fasso
+SFX vf asso emmo/ENETES fasso
+SFX vf asso æ/ENEMEV fasso
+SFX vf asso ando/ENEMETEVES fasso
+SFX vf asso axendo/ENEMETEVES fasso
+SFX vf asso â/O'ENEMETEVES fasso
+SFX vf asso æto fasso
+SFX vf asso æta fasso
+SFX vf asso æti fasso
+SFX vf asso æte fasso
+
+SFX vi Y 51
+SFX vi 0 0/1'E' [xs]iggo
+SFX vi o i/2' [xs]iggo
+SFX vi o e/3'L' [xs]iggo
+SFX vi o emmo/4'E' [xs]iggo
+SFX vi o ei/5'E' [xs]iggo
+SFX vi o an/6'E' [xs]iggo
+SFX vi o eiva/1'E' [xs]iggo
+SFX vi o eivo/1'E'-- [xs]iggo
+SFX vi o eivi/2' [xs]iggo
+SFX vi o eiva/3'L' [xs]iggo
+SFX vi o eivimo/4'E' [xs]iggo
+SFX vi o eivi/5'E' [xs]iggo
+SFX vi o eivan/6'E' [xs]iggo
+SFX vi o iò/1'E' [xs]iggo
+SFX vi o iö/1'E'-- [xs]iggo
+SFX vi o iæ/2' [xs]iggo
+SFX vi o ià/3'L' [xs]iggo
+SFX vi o iâ/3'L'-- [xs]iggo
+SFX vi o iemo/4'E' [xs]iggo
+SFX vi o iei/5'E' [xs]iggo
+SFX vi o ian/6'E' [xs]iggo
+SFX vi o e/1'E' [xs]iggo
+SFX vi o i/2' [xs]iggo
+SFX vi o e/3'L' [xs]iggo
+SFX vi o emmo/4'E' [xs]iggo
+SFX vi o ei/5'E' [xs]iggo
+SFX vi o an/6'E' [xs]iggo
+SFX vi o esse/1'E' [xs]iggo
+SFX vi o esci/2' [xs]iggo
+SFX vi o esse/3'L' [xs]iggo
+SFX vi o escimo/4'E' [xs]iggo
+SFX vi o esci/5'E' [xs]iggo
+SFX vi o essan/6'E' [xs]iggo
+SFX vi o ieiva/1'E' [xs]iggo
+SFX vi o iæ/1'E' [xs]iggo
+SFX vi o iësci/2' [xs]iggo
+SFX vi o ieiva/3'L' [xs]iggo
+SFX vi o iæ/3'L' [xs]iggo
+SFX vi o iëscimo/4'E' [xs]iggo
+SFX vi o iësci/5'E' [xs]iggo
+SFX vi o ieivan/6'E' [xs]iggo
+SFX vi o iæn/6'E' [xs]iggo
+SFX vi o i/ENEMETE2 [xs]iggo
+SFX vi o emmo/ENETES [xs]iggo
+SFX vi o ei/ENEMEV [xs]iggo
+SFX vi o endo/ENEMETEVES [xs]iggo
+SFX vi o e/O'ENEMETEVES [xs]iggo
+SFX vi iggo atto [xs]iggo
+SFX vi iggo atta [xs]iggo
+SFX vi iggo atti [xs]iggo
+SFX vi iggo atte [xs]iggo
+
+SFX nO Y 4
+SFX nO o a o
+SFX nO o i o
+SFX nO o e o
+SFX nO so sci so

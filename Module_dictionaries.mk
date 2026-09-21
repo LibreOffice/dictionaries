@@ -53,6 +53,7 @@ $(eval $(call gb_Module_add_l10n_targets,dictionaries,\
 	Dictionary_kmr-Latn \
 	Dictionary_kn \
 	Dictionary_ko-KR \
+	Dictionary_lij \
 	Dictionary_lo \
 	Dictionary_lt \
 	Dictionary_lv \
