@@ -1,6 +1,7 @@
-SET UTF-8
+﻿SET UTF-8
 
-TRY ABCDEFGHIJKLMNOPQRSTUVWXYćĆčČđĐžŽabcdefghijklmnopqrstuvwxy-'.ëü
+# TRY ABCDEFGHIJKLMNOPQRSTUVWXYćĆčČđĐžŽabcdefghijklmnopqrstuvwxy-'.ëü
+TRY aionerjmtsulkpvdzAgčcbšhćžfEMđGCILHDJSKPBŠTVČNRFOZŽWyUĐxwYĆQqX
 
 KEY qwertzuiopšđ|asdfghjklčćž|yxcvbnm|žšđ|ćščđž|žćđ|đšćž|zy|qawsedrftgyhuj|jikolpč|aysxdcfvgbh|hnjmk
 
@@ -38,7 +39,7 @@ BREAK .
 
 
 
-WORDCHARS -'0123456789
+WORDCHARS -'0123456789.
 
 ICONV 32
 ICONV ȁ a
@@ -76,21 +77,42 @@ ICONV ŕ r
 
 
 # REP - .
-REP 219
+REP 291
 REP ^pocrtava podcrtava
+REP ^žvake$ žvakaće_gume
+REP ^žvaka$ žvakaća_guma
+REP ^žvakom$ žvakaćom_gumom
+REP ^predamnom$ preda_mnom
+REP ^posmatra promatra
+REP ^cappuccin kapučin
+REP ^obećaj obećava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
 REP nućete$ nut_ćete
+REP ^takođe$ također
+REP ^noseve$ nosove
 REP ^riječo$ riječ_o
 REP ^usisač usisivač
 REP rejanac rejac
 REP ^prenat prednat
+REP ^samnom$ sa_mnom
+REP ^zamnom$ za_mnom
+REP ^macho$ mačo
+REP ^višlje$ više
+REP ^najvišlje$ najviše
+REP ^ninašto$ ni_na_što
+REP ^rećić reći_ć
+REP ^žep džep
+REP ^Buddh Bud
 REP šćemo$ st_ćemo
 REP šćete$ st_ćete
 REP aćemo$ at_ćemo
 REP aćete$ at_ćete
 REP ićete$ it_ćete
 REP avaon ovaonic
+REP tentik tentifik
+REP ^ubistv ubojstv
+REP ^glađ glatkij
 REP ^očenaš Očenaš
 REP ićemo$ it_ćemo
 REP ećete$ et_ćete
@@ -101,24 +123,38 @@ REP ^rasazn razazn
 REP ^kosmos kozmos
 REP stravn stavn
 REP ^poravo$ pravo
+REP ^videć vidjet_ć
+REP ^shoppin šopin
 REP skinj stkinj
 REP reank rejk
 REP ampiš ampinš
 REP ^nezna ne_zna
 REP ^prdon pridon
 REP dreti$ derati
+REP ^nešta$ nešto
+REP ^nijes nis
 REP nešen nesen
 REP ićeš$ it_ćeš
 REP ^subst supst
 REP aćeš$ at_ćeš
 REP ^obama$ oboma
+REP ^peva pjeva
+REP ^juče$ jučer
 REP ^lotus lotos
 REP nuću$ nut_ću
 REP nion nionic
 REP nuće$ nut_će
 REP ^aders adres
+REP prijek prek
+REP ^videe$ videa
+REP ćovije čovje
 REP vežen vezen
 REP ećeš$ et_ćeš
+REP ljanj ljenj
+REP ^gosp$ gosp.
+REP ^dobija dobiva
+REP ^nemog ne_mog
+REP ^odma$ odmah
 REP ^pretč predč
 REP tarn ćarnic
 REP šćeš$ st_ćeš
@@ -126,34 +162,49 @@ REP natn nantn
 REP dvgn dvagn
 REP skma$ skima
 REP ^bimo$ bismo
+REP ^pojas pojasev
 REP ^kazin kasin
 REP ^htjeo$ htio
+REP ^ajde$ hajde
 REP ^menom$ mnom
 REP ^bite$ biste
 REP ^stim$ s_tim
 REP ^polu- polu
+REP ^neda$ ne_da
 REP ^moće$ može
 REP skme$ skome
+REP ^nebi ne_bi
 REP nara napra
 REP skmu$ skomu
 REP ^ljud$ ljut
+REP ^neč neć
 REP ^paje$ pa_je
 REP ^trab trav
 REP ^trab treb
 REP ^jel$ je_li
+REP ^tex Teks
 REP bljiv biv
+REP roja roji
 REP ljiv ljav
+REP vije vje
 REP najs naes
 REP sup sump
+REP kus$ k
 REP ion ijun
 REP zir rizir
+REP lter ltar
 REP aon aonic
 REP iće$ it_će
 REP šće$ st_će
 REP arn arnic
+REP ^oće hoće
 REP iju e
 REP tid tud
+REP ^dd$ d.d.
+REP ^doo$ d.o.o.
+REP ^jdoo$ j.d.o.o.
 REP ^poveč več
+REP ^cca$ cca.
 REP aću$ at_ću
 REP iću$ it_ću
 REP aće$ at_će
@@ -161,12 +212,15 @@ REP eću$ et_ću
 REP šću$ st_ću
 REP ljen$ ljne
 REP eće$ et_će
+REP ^jel$ jer
 REP ^nek$ neka
 REP lik link
 REP take$ tke
 REP nis nijs
+REP ^sed sjed
 REP skm$ skim
 REP skm$ skom
+REP ^pic pizz
 REP ioc$ ilac
 REP kno ktno
 REP ije ive
@@ -174,38 +228,52 @@ REP isl i_sl
 REP nest nijet
 REP aoc$ alac
 REP ^mže$ može
+REP ^iko$ itko
+REP ata aća
 REP rni rnu
 REP rh rth
 REP ljnj nj
 REP mnj mlj
+REP mc mpc
+REP ^al$ ali
+REP ^ra raz
 REP ^bim$ bih
 REP ^čiž čiz
 REP ini inu
 REP kdž gdž
+REP kinj k
+REP ^aj haj
 REP jat jit
 REP dni$ tni
 REP on onic
 REP mlj mnj
 REP skuj šć
+REP st dst
 REP xy ksi
 REP je ije
 REP ^biš$ bi
 REP and ad
 REP ^sa su
 REP ije je
+REP sik	sink
+REP roj roji
 REP om -om
 REP ći vši
 REP sn stn
 REP ša ška
 REP sm stm
+REP mt mpt
 REP sk stk
 REP rp rpt
 REP st tst
 REP is ijs
 REP un utn
 REP vši ći
+REP eć$ eći
 REP ko$ klo
+REP ko kao
 REP nk ngk
+REP nt nta
 REP ia ija
 REP lj nj
 REP iju$ e
@@ -238,17 +306,20 @@ REP sč šč
 REP tš dš
 REP žc šc
 REP ts ds
+REP dj đ
+REP mm m
 REP x ks
+REP c k     # ova tri pravila neće raditi jer su preslična, treba proširiti kontekst pravila
 REP c ts
 REP c ds
-REP a -a
+REP a -a    # ovo i sljedeće pravilo treba proširiti kontekstom jer ovako neće dobro raditi
 REP a aa
 REP d dd
 REP e ee
-REP u -u
+REP u -u    # ovo i sljedeće pravilo bi moglo biti u koliziji zbog načina na koji Hunspell prolazi kroz REP
+REP u uu
 REP n nn
 REP o oo
-REP u uu
 REP s ss
 REP i je
 REP zš š
@@ -257,10 +328,10 @@ REP dž č
 REP ^ts c
 REP št š
 REP st s
-REP c k
 REP g h
 REP ć č
 REP č ć
+REP tr tor
 REP ^a A
 REP ^b B
 REP ^c C
@@ -295,10 +366,12 @@ REP ^x X
 REP ^y Y
 REP ^z Z
 REP ^ž Ž
+REP x ks
 REP - _
+REP ^ne ne_
 
 
-AF 416
+AF 425
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -715,6 +788,15 @@ AF SS	# 413
 AF SOSPSR	# 414
 AF SMSNSR	# 415
 AF SL	# 416
+AF SK   # 417
+AF UK	# 418
+AF SJ   # 419
+AF SI   # 420
+AF SH   # 421
+AF SG   # 422
+AF SF   # 423
+AF SE   # 424
+AF SD   # 425
 
 
 SFX XZ Y      21
@@ -803,7 +885,7 @@ SFX XY ovati  ujući      ovati
 SFX XY ivati  ujući      ivati
 SFX XY evati  ujući      evati
 SFX XY uvati  ujući      uvati
-SFX XY ati    at         ati
+SFX XY ati    at         ati    po:glagol
 
 SFX XX Y      13
 SFX XX iti    im         iti
@@ -818,7 +900,7 @@ SFX XX iti    ilo        iti
 SFX XX iti    ili        iti
 SFX XX iti    ile        iti
 SFX XX iti    eći        iti
-SFX XX iti    it         iti
+SFX XX iti    it         iti    po:glagol
 
 SFX XW Y      13
 SFX XW jeti   im         jeti
@@ -833,7 +915,7 @@ SFX XW jeti   jelo       jeti
 SFX XW jeti   jeli       jeti
 SFX XW jeti   jele       jeti
 SFX XW jeti   eći        jeti
-SFX XW jeti   jet        jeti
+SFX XW jeti   jet        jeti    po:glagol
 
 SFX XV Y      16
 SFX XV jeti   ijem       jeti
@@ -851,7 +933,7 @@ SFX XV jeti   jelo       jeti
 SFX XV jeti   jeli       jeti
 SFX XV jeti   jele       jeti
 SFX XV jeti   ijući      jeti
-SFX XV jeti   jet        jeti
+SFX XV jeti   jet        jeti    po:glagol
 
 SFX XU Y      42
 SFX XU ti     jem        iti
@@ -895,7 +977,7 @@ SFX XU sti    slo        sti
 SFX XU sti    sli        sti
 SFX XU sti    sle        sti
 SFX XU sti    sući       sti
-SFX XU sti    st         sti
+SFX XU sti    st         sti    po:glagol
 
 SFX XT Y      42
 SFX XT ljeti  eljem      ljeti
@@ -939,7 +1021,7 @@ SFX XT ijeti  lo         ijeti
 SFX XT ijeti  li         ijeti
 SFX XT ijeti  le         ijeti
 SFX XT ijeti  ući        ijeti
-SFX XT ijeti  ijet       ijeti
+SFX XT ijeti  ijet       ijeti    po:glagol
 
 SFX XS Y      21
 SFX XS sti    dem        sti
@@ -962,7 +1044,7 @@ SFX XS sti    lo         sti
 SFX XS sti    li         sti
 SFX XS sti    le         sti
 SFX XS sti    dući       sti
-SFX XS sti    st         sti
+SFX XS sti    st         sti    po:glagol
 
 SFX XR Y      21
 SFX XR psti   bem        psti
@@ -985,7 +1067,7 @@ SFX XR psti   blo        psti
 SFX XR psti   bli        psti
 SFX XR psti   ble        psti
 SFX XR psti   bući       psti
-SFX XR psti   pst        psti
+SFX XR psti   pst        psti    po:glagol
 
 SFX XQ Y      21
 SFX XQ sti    tem        sti
@@ -1008,7 +1090,7 @@ SFX XQ sti    lo         sti
 SFX XQ sti    li         sti
 SFX XQ sti    le         sti
 SFX XQ sti    tući       sti
-SFX XQ sti    st         sti
+SFX XQ sti    st         sti    po:glagol
 
 SFX XP Y      21
 SFX XP sti    stem       sti
@@ -1031,7 +1113,7 @@ SFX XP sti    slo        sti
 SFX XP sti    sli        sti
 SFX XP sti    sle        sti
 SFX XP sti    stući      sti
-SFX XP sti    st         sti
+SFX XP sti    st         sti    po:glagol
 
 SFX XO Y      101
 SFX XO sati   šem        sati
@@ -1134,7 +1216,7 @@ SFX XO zati   žući       zati
 SFX XO gati   žući       gati
 SFX XO tati   ćući       tati
 SFX XO jati   jući       jati
-SFX XO ati    at         ati
+SFX XO ati    at         ati    po:glagol
 
 SFX XN Y      61
 SFX XN rati   erem       rati
@@ -1197,7 +1279,7 @@ SFX XN ajati  ojeći      ajati
 SFX XN vati   ovući      vati
 SFX XN skati  šćući      skati
 SFX XN tati   tajući     tati
-SFX XN ati    at         ati
+SFX XN ati    at         ati    po:glagol
 
 SFX XM Y      21
 SFX XM ati    em         ati
@@ -1220,7 +1302,7 @@ SFX XM ati    alo        ati
 SFX XM ati    ali        ati
 SFX XM ati    ale        ati
 SFX XM ati    ući        ati
-SFX XM ati    at         ati
+SFX XM ati    at         ati    po:glagol
 
 SFX XL Y      21
 SFX XL uti    em         uti
@@ -1243,7 +1325,7 @@ SFX XL uti    ulo        uti
 SFX XL uti    uli        uti
 SFX XL uti    ule        uti
 SFX XL uti    ući        uti
-SFX XL uti    ut         uti
+SFX XL uti    ut         uti    po:glagol
 
 SFX XK Y      18
 SFX XK ati    im         ati
@@ -1263,7 +1345,7 @@ SFX XK ati    alo        ati
 SFX XK ati    ali        ati
 SFX XK ati    ale        ati
 SFX XK ati    eći        ati
-SFX XK ati    at         ati
+SFX XK ati    at         ati    po:glagol
 
 SFX XJ Y      12
 SFX XJ iti    jeti       iti
@@ -1277,7 +1359,7 @@ SFX XJ iti    jela       iti
 SFX XJ iti    jelo       iti
 SFX XJ iti    jeli       iti
 SFX XJ iti    jele       iti
-SFX XJ iti    jet        iti
+SFX XJ iti    jet        iti    po:glagol
 
 SFX XI Y      10
 SFX XI ati    ljem       ati
@@ -1433,7 +1515,7 @@ SFX WZ ati    alo        ati
 SFX WZ ati    ali        ati
 SFX WZ ati    ale        ati
 SFX WZ ati    avši       ati
-SFX WZ ati    at         ati
+SFX WZ ati    at         ati    po:glagol
 
 SFX WY Y      48
 SFX WY ovati  ujem       ovati
@@ -1483,7 +1565,7 @@ SFX WY ati    alo        ati
 SFX WY ati    ali        ati
 SFX WY ati    ale        ati
 SFX WY ati    avši       ati
-SFX WY ati    at         ati
+SFX WY ati    at         ati    po:glagol
 
 SFX WX Y      20
 SFX WX iti    im         iti
@@ -1505,7 +1587,7 @@ SFX WX iti    ilo        iti
 SFX WX iti    ili        iti
 SFX WX iti    ile        iti
 SFX WX iti    ivši       iti
-SFX WX iti    it         iti
+SFX WX iti    it         iti    po:glagol
 
 SFX WW Y      39
 SFX WW uti    em         nuti
@@ -1546,7 +1628,7 @@ SFX WW ti     lo         ti
 SFX WW ti     li         ti
 SFX WW ti     le         ti
 SFX WW ti     vši        ti
-SFX WW ti     t          ti
+SFX WW ti     t          ti    po:glagol
 
 SFX WV Y      21
 SFX WV ijeti  em         ijeti
@@ -1569,7 +1651,7 @@ SFX WV ijeti  lo         ijeti
 SFX WV ijeti  li         ijeti
 SFX WV ijeti  le         ijeti
 SFX WV ti     vši        ijeti
-SFX WV ti     t          ijeti
+SFX WV ti     t          ijeti    po:glagol
 
 SFX WU Y      21
 SFX WU ti     jem        iti
@@ -1592,7 +1674,7 @@ SFX WU ti     lo         iti
 SFX WU ti     li         iti
 SFX WU ti     le         iti
 SFX WU ti     vši        iti
-SFX WU ti     t          iti
+SFX WU ti     t          iti    po:glagol
 
 SFX WT Y      21
 SFX WT jeti   im         jeti
@@ -1615,7 +1697,7 @@ SFX WT jeti   jelo       jeti
 SFX WT jeti   jeli       jeti
 SFX WT jeti   jele       jeti
 SFX WT ti     vši        jeti
-SFX WT ti     t          jeti
+SFX WT ti     t          jeti    po:glagol
 
 SFX WS Y      21
 SFX WS ijeti  esem       ijeti
@@ -1638,7 +1720,7 @@ SFX WS ijeti  ijelo      ijeti
 SFX WS ijeti  ijeli      ijeti
 SFX WS ijeti  ijele      ijeti
 SFX WS ti     vši        ijeti
-SFX WS ti     t          ijeti
+SFX WS ti     t          ijeti    po:glagol
 
 SFX WR Y      21
 SFX WR jeti   ijem       jeti
@@ -1661,7 +1743,7 @@ SFX WR jeti   jelo       jeti
 SFX WR jeti   jeli       jeti
 SFX WR jeti   jele       jeti
 SFX WR ti     vši        jeti
-SFX WR ti     t          jeti
+SFX WR ti     t          jeti    po:glagol
 
 SFX WQ Y      20
 SFX WQ eti    em         eti
@@ -1683,7 +1765,7 @@ SFX WQ eti    elo        eti
 SFX WQ eti    eli        eti
 SFX WQ eti    ele        eti
 SFX WQ eti    evši       eti
-SFX WQ eti    et         eti
+SFX WQ eti    et         eti    po:glagol
 
 SFX WP Y      21
 SFX WP eti    anjem      eti
@@ -1706,7 +1788,7 @@ SFX WP eti    elo        eti
 SFX WP eti    eli        eti
 SFX WP eti    ele        eti
 SFX WP eti    evši       eti
-SFX WP eti    et         eti
+SFX WP eti    et         eti    po:glagol
 
 SFX WO Y      21
 SFX WO ljeti  eljem      ljeti
@@ -1729,7 +1811,7 @@ SFX WO ljeti  ljelo      ljeti
 SFX WO ljeti  ljeli      ljeti
 SFX WO ljeti  ljele      ljeti
 SFX WO ljeti  evši       ljeti
-SFX WO ljeti  ljet       ljeti
+SFX WO ljeti  ljet       ljeti    po:glagol
 
 SFX WN Y      13
 SFX WN eti    im         eti
@@ -1744,7 +1826,7 @@ SFX WN eti    ilo        eti
 SFX WN eti    ili        eti
 SFX WN eti    ile        eti
 SFX WN eti    ivši       eti
-SFX WN eti    it         eti
+SFX WN eti    it         eti    po:glagol
 
 SFX WM Y      42
 SFX WM eti    mem        eti
@@ -1788,7 +1870,7 @@ SFX WM uti    ulo        uti
 SFX WM uti    uli        uti
 SFX WM uti    ule        uti
 SFX WM uti    uvši       uti
-SFX WM uti    ut         uti
+SFX WM uti    ut         uti    po:glagol
 
 SFX WL Y      21
 SFX WL eti    nem        eti
@@ -1811,7 +1893,7 @@ SFX WL eti    elo        eti
 SFX WL eti    eli        eti
 SFX WL eti    ele        eti
 SFX WL eti    evši       eti
-SFX WL eti    et         eti
+SFX WL eti    et         eti    po:glagol
 
 SFX WK Y      19
 SFX WK ati    im         ati
@@ -1832,7 +1914,7 @@ SFX WK ati    alo        ati
 SFX WK ati    ali        ati
 SFX WK ati    ale        ati
 SFX WK ati    avši       ati
-SFX WK ati    at         ati
+SFX WK ati    at         ati    po:glagol
 
 SFX WJ Y      21
 SFX WJ sti    sem        sti
@@ -1855,7 +1937,7 @@ SFX WJ sti    slo        sti
 SFX WJ sti    sli        sti
 SFX WJ sti    sle        sti
 SFX WJ sti    savši      sti
-SFX WJ sti    st         sti
+SFX WJ sti    st         sti    po:glagol
 
 SFX WI Y      21
 SFX WI sti    dem        sti
@@ -1878,7 +1960,7 @@ SFX WI sti    lo         sti
 SFX WI sti    li         sti
 SFX WI sti    le         sti
 SFX WI sti    vši        sti
-SFX WI sti    st         sti
+SFX WI sti    st         sti    po:glagol
 
 SFX WH Y      20
 SFX WH sti    zem        sti
@@ -1900,7 +1982,7 @@ SFX WH sti    zlo        sti
 SFX WH sti    zli        sti
 SFX WH sti    zle        sti
 SFX WH sti    zavši      sti
-SFX WH sti    st         sti
+SFX WH sti    st         sti    po:glagol
 
 SFX WG Y      20
 SFX WG psti   bem        psti
@@ -1922,7 +2004,7 @@ SFX WG psti   blo        psti
 SFX WG psti   bli        psti
 SFX WG psti   ble        psti
 SFX WG psti   bavši      psti
-SFX WG psti   pst        psti
+SFX WG psti   pst        psti    po:glagol
 
 SFX WF Y      20
 SFX WF sti    tem        sti
@@ -1944,7 +2026,7 @@ SFX WF sti    lo         sti
 SFX WF sti    li         sti
 SFX WF sti    le         sti
 SFX WF sti    vši        sti
-SFX WF sti    st         sti
+SFX WF sti    st         sti    po:glagol
 
 SFX WE Y      21
 SFX WE sti    dnem       sti
@@ -1967,7 +2049,7 @@ SFX WE sti    lo         sti
 SFX WE sti    li         sti
 SFX WE sti    le         sti
 SFX WE sti    vši        sti
-SFX WE sti    st         sti
+SFX WE sti    st         sti    po:glagol
 
 SFX WD Y      21
 SFX WD ti     tem        sti
@@ -1990,7 +2072,7 @@ SFX WD ti     lo         sti
 SFX WD ti     li         sti
 SFX WD ti     le         sti
 SFX WD ti     tavši      sti
-SFX WD ti     t          sti
+SFX WD ti     t          sti    po:glagol
 
 SFX WC Y      21
 SFX WC sti    tnem       sti
@@ -2013,7 +2095,7 @@ SFX WC sti    lo         sti
 SFX WC sti    li         sti
 SFX WC sti    le         sti
 SFX WC sti    vši        sti
-SFX WC sti    st         sti
+SFX WC sti    st         sti    po:glagol
 
 SFX WB Y      93
 SFX WB sati   šem        sati
@@ -2108,7 +2190,7 @@ SFX WB ati    alo        ati
 SFX WB ati    ali        ati
 SFX WB ati    ale        ati
 SFX WB ati    avši       ati
-SFX WB ati    at         ati
+SFX WB ati    at         ati    po:glagol
 
 SFX WA Y      80
 SFX WA rati   erem       rati
@@ -2190,7 +2272,7 @@ SFX WA ati    alo        ati
 SFX WA ati    ali        ati
 SFX WA ati    ale        ati
 SFX WA ati    avši       ati
-SFX WA ati    at         ati
+SFX WA ati    at         ati    po:glagol
 
 SFX VZ Y      21
 SFX VZ ati    em         ati
@@ -2213,7 +2295,7 @@ SFX VZ ati    alo        ati
 SFX VZ ati    ali        ati
 SFX VZ ati    ale        ati
 SFX VZ ati    avši       ati
-SFX VZ ati    at         ati
+SFX VZ ati    at         ati    po:glagol
 
 SFX VY Y      21
 SFX VY ati    im         ati
@@ -2236,7 +2318,7 @@ SFX VY ati    alo        ati
 SFX VY ati    ali        ati
 SFX VY ati    ale        ati
 SFX VY ati    avši       ati
-SFX VY ati    at         ati
+SFX VY ati    at         ati    po:glagol
 
 SFX VX Y      21
 SFX VX ati    anem       stati
@@ -2259,7 +2341,7 @@ SFX VX ati    alo        stati
 SFX VX ati    ali        stati
 SFX VX ati    ale        stati
 SFX VX ati    avši       stati
-SFX VX ati    at         stati
+SFX VX ati    at         stati    po:glagol
 
 SFX VW Y      20
 SFX VW ći     đem        ći
@@ -3905,3 +3987,88 @@ SFX SL ti ti strti
 SFX SL ti veni strti
 SFX SL ti te strti
 SFX SL ti vene strti
+
+
+#porodiljni
+SFX SK Y 6
+SFX SK i og ljni
+SFX SK i oga ljni
+SFX SK i om ljni
+SFX SK i ome ljni
+SFX SK i omu ljni
+SFX SK 0 m ljni
+
+# euro
+SFX SJ Y 6
+SFX SJ o a .
+SFX SJ o u .
+SFX SJ o om .
+SFX SJ o i .
+SFX SJ o e .
+SFX SJ o ima .
+
+# dron
+SFX SI Y 7
+SFX SI 0 a .
+SFX SI 0 u .
+SFX SI 0 om .
+SFX SI 0 e .
+SFX SI 0 ovi .
+SFX SI 0 ova .
+SFX SI 0 ovima .
+
+# Dubai, Instagram, mehatronika (singularia tantum)
+SFX SH Y 13
+SFX SH 0 ja ai
+SFX SH 0 ju ai
+SFX SH 0 jem ai
+SFX SH 0 a am
+SFX SH 0 u am
+SFX SH 0 om am
+SFX SH a e nika
+SFX SH ka ci nika
+SFX SH a u nika
+SFX SH a om nika
+SFX SH tak tka tak
+SFX SH tak tku tak
+SFX SH tak tkom tak
+
+SFX SG Y      16
+SFX SG i      a          i
+SFX SG i      u          i
+SFX SG i      im         i
+SFX SG i      ih         i
+SFX SG i     ima        i
+SFX SG i      e          i
+SFX SG i      oj         i
+SFX SG i      om         i
+SFX SG i      og         [^čćšjžđ]i
+SFX SG i      oga        [^čćšjžđ]i
+SFX SG i      ome        [^čćšjžđ]i
+SFX SG i      omu        [^čćšjžđ]i
+SFX SG i      eg         [čćšjžđ]i
+SFX SG i      ega        [čćšjžđ]i
+SFX SG i      em         [čćšjžđ]i
+SFX SG i      emu        [čćšjžđ]i
+
+SFX SF Y 4
+SFX SF 0 -e .
+SFX SF 0 -i .
+SFX SF 0 -u .
+SFX SF 0 -om .
+
+SFX SE Y 3
+SFX SE 0 -ja .
+SFX SE 0 -ju .
+SFX SE 0 -jem .
+
+SFX SD Y 6
+SFX SD a e a
+SFX SD a i a
+SFX SD a u a
+SFX SD a o a
+SFX SD a om a
+SFX SD 0 ma a
+
+
+
