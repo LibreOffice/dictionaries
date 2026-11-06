@@ -1,0 +1,7 @@
+Copyright 2009-2010 Jimmy O'Regan
+Copyright 2009-2023 Juan Pablo Martínez
+
+The Spanish analyser, and the an->es transfer rules, are
+based on data taken from the apertium-es-ca packages:
+
+(c) 2005, Universitat d'Alacant (Transducens group)
