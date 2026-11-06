@@ -1,25 +1,20 @@
-(en)
-Aragonese spelling dictionary.
-Version 0.2. (beta)
-Copyright (c) 2011 Santiago Paricio (sparicio<at>gmail<dot>com)
-Copyright (c) 2011 Juan Pablo Mart�nez (jpmart<at>unizar<dot>es)
+Aragonese spelling dictionary — version 1.0.0
 
-   Licences (MPL1.1/GPLv3+/LGPLv3+ Tri-licence):
-   * MPL : Mozilla Public License
-     version 1.1  --  http://www.mozilla.org/MPL/MPL-1.1.html
-   * GPL : GNU General Public License
-     version 3.0 or later  --  http://www.gnu.org/licenses/gpl-3.0.html
-   * LGPL : GNU Lesser General Public License
-     version 3.0 or later  --  http://www.gnu.org/licenses/lgpl-3.0.html
+Copyright (C) 2011 Santiago Paricio.
+Copyright (C) 2011–2026 Juan Pablo Martínez.
 
-   This dictionary will work with software using the Hunspell spellchecker: 
-   as LibreOffice, OpenOffice.org 3.2+, Firefox 4+, Thunderbird 5+
-   
-   Version 0.2 of the wordlist (an_ES.dic) has been built using free corpuses have been used as Wikipedia 
-   in aragonese (http://an.wikipedia.org) and wordlists obtained from Apertium dictionaries
-   (http://apertium.svn.sourceforge.net/viewvc/apertium/tags/apertium-es-an/release-2.0/).
+The dictionary and affix files are available, at your option, under any one of:
+- Mozilla Public License, version 1.1.
+- GNU General Public License, version 3 or later.
+- GNU Lesser General Public License, version 3 or later.
 
-   Any suggestions or feedback about the spelling dictionary are welcome.
-   Please send your suggestions, error reports and/or missing words to an.spellchecker(at)gmail(dot)com 
+SPDX-License-Identifier: MPL-1.1 OR GPL-3.0-or-later OR LGPL-3.0-or-later
 
-   Note: The spelling system for aragon�s can be found at: http://www.academiadelaragones.org/biblio/EDACAR7_2.pdf
+Full license texts and source attribution notices are included in licenses/.
+The reviewed Apertium contribution credits Jimmy O’Regan and Juan Pablo Martínez.
+Source provenance and the additional licensing authorization are documented in
+PROCEDENCIA.md. The upstream Apertium repository is not relicensed as a whole.
+
+This dictionary follows the orthography of the Academia Aragonesa de la Lengua.
+Project: https://github.com/Juanpabl/hunspell-an
+Distributed WITHOUT WARRANTY under the terms of the selected license.
