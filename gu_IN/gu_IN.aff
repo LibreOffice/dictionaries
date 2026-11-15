@@ -1,2 +1,58 @@
 SET UTF-8
 TRY ાર્ંવનકુીતોમિસલેયદપગડટજબણચઅળશહધૂભખથષફઆછઠઘઉઝઈઓૃઇઢએૈઊૉઞૅૌઍઃઋઑઔઐઙ઼ઁ
+
+# Suffix rules for Gujarati Case Markers (વિભક્તિ પ્રત્યયો)
+# N = Direct noun case suffixes (નો, ની, નું, ના, નાં, ને, થી, માં, માંથી)
+SFX N Y 18
+SFX N 0 નો .
+SFX N 0 ની .
+SFX N 0 નું .
+SFX N 0 ના .
+SFX N 0 નાં .
+SFX N 0 ને .
+SFX N 0 થી .
+SFX N 0 માં .
+SFX N 0 માંથી .
+SFX N 0 એ .
+SFX N 0 ઓ .
+SFX N 0 ઓનો .
+SFX N 0 ઓની .
+SFX N 0 ઓનું .
+SFX N 0 ઓના .
+SFX N 0 ઓને .
+SFX N 0 ઓથી .
+SFX N 0 ઓમાં .
+
+# O = Masculine nouns ending in -ો (oblique stem in -ા)
+SFX O Y 14
+SFX O ો ા ો
+SFX O ો ાનો ો
+SFX O ો ાની ો
+SFX O ો ાનું ો
+SFX O ો ાના ો
+SFX O ો ાને ો
+SFX O ો ાથી ો
+SFX O ો ામાં ો
+SFX O ો ાઓ ો
+SFX O ો ાઓનો ો
+SFX O ો ાઓની ો
+SFX O ો ાઓને ો
+SFX O ો ાઓથી ો
+SFX O ો ાઓમાં ો
+
+# U = Neuter nouns ending in -ું (oblique stem in -ા)
+SFX U Y 14
+SFX U ું ા ું
+SFX U ું ાનો ું
+SFX U ું ાની ું
+SFX U ું ાનું ું
+SFX U ું ાના ું
+SFX U ું ાને ું
+SFX U ું ાથી ું
+SFX U ું ામાં ું
+SFX U ું ાં ું
+SFX U ું ાઓ ું
+SFX U ું ાઓનો ું
+SFX U ું ાઓની ું
+SFX U ું ાઓને ું
+SFX U ું ાઓમાં ું
