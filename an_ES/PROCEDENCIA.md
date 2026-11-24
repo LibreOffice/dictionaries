@@ -1,5 +1,7 @@
 # Procedencia y créditos
 
+## Procedencia conservada d'a 1.0.0
+
 Base Hunspell conservada: versión 0.4.0, sobre las versions históricas d'o
 corrector aragonés. Santiago Paricio y Juan Pablo Martínez conservan sus
 créditos y copyrights. Las licencias completas no s'han modificau.

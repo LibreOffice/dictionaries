@@ -1,4 +1,4 @@
-Aragonese spelling dictionary — version 1.0.0
+Aragonese spelling dictionary — version 1.1.0
 
 Copyright (C) 2011 Santiago Paricio.
 Copyright (C) 2011–2026 Juan Pablo Martínez.
